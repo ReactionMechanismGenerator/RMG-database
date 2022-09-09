@@ -21,7 +21,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/Nd2;H_OCmethyl
 """,
@@ -41,7 +41,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/H/Nd;H_OCmethyl
 """,
@@ -61,7 +61,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_OCmethyl
 """,
@@ -81,7 +81,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: cco_2H;H_OH
 """,
@@ -101,7 +101,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: cco_HNd;H_OH
 """,
@@ -121,7 +121,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: cco_Nd2;H_OH
 """,
@@ -141,7 +141,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_OH
 """,
@@ -161,7 +161,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Nd_Cd/H2;H_OH
 """,
@@ -181,7 +181,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/H/Nd;H_OH
 """,
@@ -201,7 +201,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/Nd2;H_OH
 """,
@@ -221,7 +221,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cd/unsub;H_OH
 """,
@@ -241,7 +241,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cd/H/Nd;H_OH
 """,
@@ -261,7 +261,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Thiophene2;H_OH
 """,
@@ -281,7 +281,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Thiophene3;H_OH
 """,
@@ -301,7 +301,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cd/H/Cb;H_OH
 """,
@@ -321,7 +321,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cd/CsCs;H_OH
 """,
@@ -340,7 +340,7 @@ entry(
         Tmax = (2000, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/Nd2_Cd/H2;H_OH
 """,
@@ -360,7 +360,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
-    longDesc = 
+    longDesc =
 u"""
 Updated by AG Vandeputte, CBSQB3 + HO,
     calculated for butadiene + H2O -> 2-butenol
@@ -383,7 +383,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""AG Vandeputte, CBS-QB3 + HO""",
-    longDesc = 
+    longDesc =
 u"""
 AG Vandeputte, calculated the rate coefficient for methanol + ethene -> propanol
 
@@ -405,7 +405,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cd/CsOs;H_OH
 """,
@@ -425,7 +425,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr calc by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cdd/O2d;H_OH
 """,
@@ -445,9 +445,22 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CBS-QB3 1d-hr by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Sd_Cd/H/Cd;H_OH
 """,
 )
 
+entry(
+    index = 23,
+    label = "C4H10O-4 <=> C3H6-2 + CH4O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.451,'s^-1'), n=4.024, Ea=(55.261,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO <=> CH3OH + C3H6
+G4 calculations and HID from RMG
+""",
+)

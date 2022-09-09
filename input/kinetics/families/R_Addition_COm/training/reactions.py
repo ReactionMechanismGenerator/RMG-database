@@ -27,7 +27,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
@@ -48,7 +48,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 RQCISD(T)/cc-pVinfZ //UQCISD/UB3LYP
 """,
@@ -69,7 +69,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 UCCSD(T)-F12b/cc-pVQZ-F12//M06-2X/6-311++G(d,p)
 """,
@@ -88,7 +88,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: COm;Y_rad
 """,
@@ -108,7 +108,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Arai et al [102].""",
-    longDesc = 
+    longDesc =
 u"""
 [102] Arai, H.; Nagai, S.; Hatada, M.; Radiat. Phys. Chem. 1981, 17, 211.
 CO + H --> HCO. Data estimated
@@ -124,8 +124,8 @@ in "y = -1.3657x - 29.258" with an R^2 value of 0.9762.  The A and Ea values cal
 by MRH are thus: A=1.18x10^11 cm3/mol/s, Ea=2.71 kcal/mol, in agreement w/database.
 The authors performed an electron beam irradiation of a CH4 gas stream, containing small
 
-amounts of CO, in a flow system at 1atm.  Authors observe a large decrease in H2 with 
-the addition of small amounts of CO.  They assume that this observation must be due to 
+amounts of CO, in a flow system at 1atm.  Authors observe a large decrease in H2 with
+the addition of small amounts of CO.  They assume that this observation must be due to
 H+CO-->HCO.  They propose the following mechanism:
 (1) CH4 = H + CH3		k1
 (2) H + CO = HCO		k2
@@ -179,9 +179,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [94]""",
-    longDesc = 
+    longDesc =
 u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
+[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.;
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
 CO + CH3 --> CH3C0. Extensive literature review.
@@ -218,7 +218,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
 CO + C2H5 --> C2H5CO.
@@ -255,7 +255,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang et al [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
 CO + C2H3 --> CH2=CHCO.
@@ -294,12 +294,12 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Nam et al [104].""",
-    longDesc = 
+    longDesc =
 u"""
-[104] Nam, G.-J.; Xia, W.; Park, J.; Lin, M. Phys. Chem. A 2000, 104, 1233.	
+[104] Nam, G.-J.; Xia, W.; Park, J.; Lin, M. Phys. Chem. A 2000, 104, 1233.
 Phenyl + CO --> Benzoyl. Original deltaA = 2.8E+11
 
-Absolute value measrued directly. Rate constant is high pressure limit. 
+Absolute value measrued directly. Rate constant is high pressure limit.
 
 Pressure 0.02-0.16 atm. Excitation: flash photolysis, analysis: Vis-UV absorption.
 
@@ -379,7 +379,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Wang et al. [105].""",
-    longDesc = 
+    longDesc =
 u"""
 [105] Wang, B.; Hou, H.; Gu, Y. Phys. Chem. A 1999, 103, 8021.
 RRK(M) extrapolation. CH3O + CO --> CH3OCO, 250K and 2500K
@@ -387,7 +387,7 @@ RRK(M) extrapolation. CH3O + CO --> CH3OCO, 250K and 2500K
 Data stored in RMG appears to be linear fit of the following data, presented on pg.8028
 
 in the right-hand column under the section heading "3.Implications for Atmospheric
-and Combustion Chemistry.": (250K, 5torr, 1.39x10^-19 cm3/molecule/s) and 
+and Combustion Chemistry.": (250K, 5torr, 1.39x10^-19 cm3/molecule/s) and
 (2500K, 760torr, 3.10x10^-17 cm3/molecule/s).
 Plotting ln(k) vs. 1000/T[=K] and performing a "Linear" regression in Microsoft Excel results
 
@@ -413,7 +413,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 CH3CH2 + CO = CH3CH2CO
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
@@ -441,7 +441,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 CH3CH2CH2 + CO = CH3CH2CH2CO
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
@@ -469,7 +469,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc = 
+    longDesc =
 u"""
 CH3CHCH3 + CO = CH3CH(CO)CH3
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
@@ -497,7 +497,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""CAC CBS-QB3 calcs, HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: COm;S_rad/NonDe
 """,
@@ -523,7 +523,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
@@ -531,3 +531,32 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 15,
+    label = "C3H5O3 <=> CO + C2H5O2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(2.26e+17,'s^-1'), n=-0.725, Ea=(8.914,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CC(OO)[C]=O <=> C[CH]OO + CO
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 16,
+    label = "C3H5O3-2 <=> CO + C2H5O2-2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(3.41e+11,'s^-1'), n=1.009, Ea=(13.402,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: C(OO)C[C]=O <=> [CH2]COO + CO
+Mark Nimlos CBS-QB3 HR
+""",
+)

@@ -30,7 +30,7 @@ entry(
 entry(
     index = 1,
     label = "Y_rad_out",
-    group = 
+    group =
 """
 1 *1 R!H u1
 """,
@@ -40,7 +40,7 @@ entry(
 entry(
     index = 2,
     label = "XH_out",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S}
 2 *3 H   u0 {1,S}
@@ -58,7 +58,7 @@ entry(
 entry(
     index = 4,
     label = "R2H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,D,T,B]} {3,S}
 2 *1 R!H u1 {1,[S,D,T,B]}
@@ -70,7 +70,7 @@ entry(
 entry(
     index = 5,
     label = "R2H_S",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {3,S}
 2 *1 R!H u1 {1,S}
@@ -82,7 +82,7 @@ entry(
 entry(
     index = 6,
     label = "R2H_S_cy3",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {3,[S,D,B]} {4,S}
 2 *1 R!H u1 {1,S} {3,[S,D,B]}
@@ -95,7 +95,7 @@ entry(
 entry(
     index = 7,
     label = "R2H_S_cy4",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {3,[S,D,B]} {5,S}
 2 *1 R!H u1 {1,S} {4,[S,D,B]}
@@ -109,7 +109,7 @@ entry(
 entry(
     index = 8,
     label = "R2H_S_cy5",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {3,[S,D,B]} {6,S}
 2 *1 R!H u1 {1,S} {5,[S,D,B]}
@@ -124,7 +124,7 @@ entry(
 entry(
     index = 9,
     label = "R2H_S_cys2_5_7",
-    group = 
+    group =
 """
 1  *1 R!H u1 {2,S} {6,[S,D,B]} {7,[S,D,B]}
 2  *2 R!H u0 {1,S} {3,S} {4,[S,D,B]}
@@ -144,7 +144,7 @@ entry(
 entry(
     index = 10,
     label = "R2H_D",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,D} {3,S}
 2 *1 R!H u1 {1,D}
@@ -156,7 +156,7 @@ entry(
 entry(
     index = 11,
     label = "R2H_B",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *2 R!H u0 {1,B} {3,S}
@@ -168,7 +168,7 @@ entry(
 entry(
     index = 12,
     label = "R3Hall",
-    group = 
+    group =
 """
 1 *4 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *2 R!H u0 {1,[S,D,T,B]} {4,S}
@@ -181,7 +181,7 @@ entry(
 entry(
     index = 13,
     label = "R3HJ",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -194,7 +194,7 @@ entry(
 entry(
     index = 14,
     label = "R3H",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *2 R!H u0 {1,[S,D,T,B]} {4,S}
@@ -207,7 +207,7 @@ entry(
 entry(
     index = 15,
     label = "R3H_SR",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,[S,D,T,B]} {3,S}
 2 *2 R!H u0 {1,[S,D,T,B]} {4,S}
@@ -220,7 +220,7 @@ entry(
 entry(
     index = 16,
     label = "R3H_SS",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,S}
 2 *2 R!H u0 {1,S} {4,S}
@@ -233,7 +233,7 @@ entry(
 entry(
     index = 17,
     label = "R3H_SS_12cy3",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]} {4,S}
 2 *1 R!H u1 {1,S} {3,[S,D,B]}
@@ -247,7 +247,7 @@ entry(
 entry(
     index = 18,
     label = "R3H_SS_23cy3",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]} {4,S}
 2 *2 R!H u0 {1,S} {3,[S,D,B]} {5,S}
@@ -261,7 +261,7 @@ entry(
 entry(
     index = 19,
     label = "R3H_SS_13cy4",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S} {5,[S,D,B]}
 2 *4 R!H u0 {1,S} {3,S}
@@ -275,7 +275,7 @@ entry(
 entry(
     index = 20,
     label = "R3H_SS_12cy4",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]} {5,S}
 2 *1 R!H u1 {1,S} {4,[S,D,B]}
@@ -290,7 +290,7 @@ entry(
 entry(
     index = 21,
     label = "R3H_SS_23cy4",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {4,[S,D,B]} {5,S}
 2 *2 R!H u0 {1,S} {3,[S,D,B]} {6,S}
@@ -305,7 +305,7 @@ entry(
 entry(
     index = 22,
     label = "R3H_SS_13cy5",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {3,[S,D,B]} {6,S}
 2 *4 R!H u0 {1,S} {4,S}
@@ -320,7 +320,7 @@ entry(
 entry(
     index = 23,
     label = "R3H_SS_12cy5",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]} {6,S}
 2 *1 R!H u1 {1,S} {5,[S,D,B]}
@@ -336,7 +336,7 @@ entry(
 entry(
     index = 24,
     label = "R3H_SS_23cy5",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {4,[S,D,B]} {6,S}
 2 *2 R!H u0 {1,S} {3,[S,D,B]} {7,S}
@@ -352,7 +352,7 @@ entry(
 entry(
     index = 25,
     label = "R3H_SS_2Cd",
-    group = 
+    group =
 """
 1 *4 Cd  u0 {2,S} {3,S}
 2 *2 R!H u0 {1,S} {4,S}
@@ -365,7 +365,7 @@ entry(
 entry(
     index = 26,
     label = "R3H_SS_O",
-    group = 
+    group =
 """
 1 *4 O2s u0 {2,S} {3,S}
 2 *2 R!H u0 {1,S} {4,S}
@@ -378,7 +378,7 @@ entry(
 entry(
     index = 27,
     label = "R3H_SS_Cs",
-    group = 
+    group =
 """
 1 *4 Cs  u0 {2,S} {3,S}
 2 *2 R!H u0 {1,S} {4,S}
@@ -391,7 +391,7 @@ entry(
 entry(
     index = 28,
     label = "R3H_SS_S",
-    group = 
+    group =
 """
 1 *4 S2s u0 {2,S} {3,S}
 2 *2 R!H u0 {1,S} {4,S}
@@ -404,7 +404,7 @@ entry(
 entry(
     index = 29,
     label = "R3H_SD",
-    group = 
+    group =
 """
 1 *4 Cd  u0 {2,D} {3,S}
 2 *2 R!H u0 {1,D} {4,S}
@@ -417,7 +417,7 @@ entry(
 entry(
     index = 30,
     label = "R3H_ST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Ct  u0 {1,S} {3,T}
@@ -430,7 +430,7 @@ entry(
 entry(
     index = 31,
     label = "R3H_SB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -443,7 +443,7 @@ entry(
 entry(
     index = 32,
     label = "R3H_MS",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[D,T,B]}
 2 *2 R!H u0 {1,S} {4,S}
@@ -456,7 +456,7 @@ entry(
 entry(
     index = 33,
     label = "R3H_DS",
-    group = 
+    group =
 """
 1 *4 Cd  u0 {2,S} {3,D}
 2 *2 R!H u0 {1,S} {4,S}
@@ -469,7 +469,7 @@ entry(
 entry(
     index = 34,
     label = "R3H_DS_benzofulvenyl",
-    group = 
+    group =
 """
 1     Cb  u0 {2,B} {3,S} {4,B}
 2     Cb  u0 {1,B} {5,B} {6,S}
@@ -489,7 +489,7 @@ entry(
 entry(
     index = 35,
     label = "R3H_TS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -502,7 +502,7 @@ entry(
 entry(
     index = 36,
     label = "R3H_BS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -515,7 +515,7 @@ entry(
 entry(
     index = 37,
     label = "R3H_BB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -528,7 +528,7 @@ entry(
 entry(
     index = 38,
     label = "R4Hall",
-    group = 
+    group =
 """
 1 *5 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *4 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -542,7 +542,7 @@ entry(
 entry(
     index = 39,
     label = "R4HJ_1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -556,7 +556,7 @@ entry(
 entry(
     index = 40,
     label = "R4HJ_2",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -570,7 +570,7 @@ entry(
 entry(
     index = 41,
     label = "R4H",
-    group = 
+    group =
 """
 1 *5 R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -584,7 +584,7 @@ entry(
 entry(
     index = 42,
     label = "R4H_RSR",
-    group = 
+    group =
 """
 1 *5 R!H u0 {2,S} {3,[S,D,T,B]}
 2 *4 R!H u0 {1,S} {4,[S,D,T,B]}
@@ -598,7 +598,7 @@ entry(
 entry(
     index = 43,
     label = "R4H_RSS",
-    group = 
+    group =
 """
 1 *5 R!H u0 {2,S} {3,S}
 2 *4 R!H u0 {1,S} {4,[S,D,T,B]}
@@ -612,7 +612,7 @@ entry(
 entry(
     index = 44,
     label = "R4H_SSS",
-    group = 
+    group =
 """
 1 *5 R!H u0 {2,S} {3,S}
 2 *4 R!H u0 {1,S} {4,S}
@@ -626,7 +626,7 @@ entry(
 entry(
     index = 45,
     label = "R4H_SS(Cd)S",
-    group = 
+    group =
 """
 1 *5 R!H u0 {2,S} {3,S} {4,D}
 2 *4 R!H u0 {1,S} {5,S}
@@ -641,7 +641,7 @@ entry(
 entry(
     index = 46,
     label = "R4H_S(Cd)SS",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {4,S} {5,D}
 2 *5 R!H u0 {1,S} {3,S}
@@ -656,7 +656,7 @@ entry(
 entry(
     index = 47,
     label = "R4H_SSS_SCs",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 S2s u0 {1,S} {3,S}
@@ -670,7 +670,7 @@ entry(
 entry(
     index = 48,
     label = "R4H_SSS_CsS",
-    group = 
+    group =
 """
 1 *5 S2s u0 {2,S} {3,S}
 2 *4 Cs  u0 {1,S} {4,S}
@@ -684,7 +684,7 @@ entry(
 entry(
     index = 49,
     label = "R4H_SSS_OCs",
-    group = 
+    group =
 """
 1 *5 Cs  u0 {2,S} {3,S}
 2 *4 O2s u0 {1,S} {4,S}
@@ -698,7 +698,7 @@ entry(
 entry(
     index = 50,
     label = "R4H_SSS_O(Cs)Cs",
-    group = 
+    group =
 """
 1 *5 Cs  u0 {2,S} {3,S} {4,S}
 2 *4 O2s u0 {1,S} {5,S}
@@ -713,7 +713,7 @@ entry(
 entry(
     index = 51,
     label = "R4H_SSS_O(Cs)CsCs",
-    group = 
+    group =
 """
 1 *5 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *4 O2s u0 {1,S} {6,S}
@@ -729,7 +729,7 @@ entry(
 entry(
     index = 52,
     label = "R4H_DSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -743,7 +743,7 @@ entry(
 entry(
     index = 53,
     label = "R4H_TSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -757,7 +757,7 @@ entry(
 entry(
     index = 54,
     label = "R4H_BSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -771,7 +771,7 @@ entry(
 entry(
     index = 55,
     label = "R4H_RSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -785,7 +785,7 @@ entry(
 entry(
     index = 56,
     label = "R4H_SSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -799,7 +799,7 @@ entry(
 entry(
     index = 57,
     label = "R4H_DSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -813,7 +813,7 @@ entry(
 entry(
     index = 58,
     label = "R4H_TSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -827,7 +827,7 @@ entry(
 entry(
     index = 59,
     label = "R4H_BSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -841,7 +841,7 @@ entry(
 entry(
     index = 60,
     label = "R4H_RST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -855,7 +855,7 @@ entry(
 entry(
     index = 61,
     label = "R4H_SST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -869,7 +869,7 @@ entry(
 entry(
     index = 62,
     label = "R4H_DST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -883,7 +883,7 @@ entry(
 entry(
     index = 63,
     label = "R4H_TST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -897,7 +897,7 @@ entry(
 entry(
     index = 64,
     label = "R4H_BST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -911,7 +911,7 @@ entry(
 entry(
     index = 65,
     label = "R4H_RSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -925,7 +925,7 @@ entry(
 entry(
     index = 66,
     label = "R4H_SSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -939,7 +939,7 @@ entry(
 entry(
     index = 67,
     label = "R4H_DSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -953,7 +953,7 @@ entry(
 entry(
     index = 68,
     label = "R4H_D(S)SB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S} {6,[S,D,B]}
@@ -968,7 +968,7 @@ entry(
 entry(
     index = 69,
     label = "R4H_DSB_benzofulvenyl",
-    group = 
+    group =
 """
 1  *5 Cb  u0 {2,B} {3,S} {4,B}
 2     Cb  u0 {1,B} {5,B} {6,S}
@@ -988,7 +988,7 @@ entry(
 entry(
     index = 70,
     label = "R4H_TSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1002,7 +1002,7 @@ entry(
 entry(
     index = 71,
     label = "R4H_BSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1016,7 +1016,7 @@ entry(
 entry(
     index = 72,
     label = "R4H_SMS",
-    group = 
+    group =
 """
 1 *5 [Cd,Ct,Cb] u0 {2,[D,T,B]} {3,S}
 2 *4 [Cd,Ct,Cb] u0 {1,[D,T,B]} {4,S}
@@ -1030,7 +1030,7 @@ entry(
 entry(
     index = 73,
     label = "R4H_SDS",
-    group = 
+    group =
 """
 1 *5 Cd  u0 {2,D} {3,S}
 2 *4 Cd  u0 {1,D} {4,S}
@@ -1044,7 +1044,7 @@ entry(
 entry(
     index = 74,
     label = "R4H_STS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Ct  u0 {1,S} {3,T}
@@ -1058,7 +1058,7 @@ entry(
 entry(
     index = 75,
     label = "R4H_SBS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -1072,7 +1072,7 @@ entry(
 entry(
     index = 76,
     label = "R4H_SMM",
-    group = 
+    group =
 """
 1 *1 R!H       u1 {2,S}
 2 *4 [Cb,Cd]   u0 {1,S} {3,[D,B]}
@@ -1086,7 +1086,7 @@ entry(
 entry(
     index = 77,
     label = "R4H_SBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -1100,7 +1100,7 @@ entry(
 entry(
     index = 78,
     label = "R4H_MMS",
-    group = 
+    group =
 """
 1 *1 R!H       u1 {2,[D,B]}
 2 *4 [Cbf,Cdd] u0 {1,[D,B]} {3,[D,B]}
@@ -1114,7 +1114,7 @@ entry(
 entry(
     index = 79,
     label = "R4H_BBS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1128,7 +1128,7 @@ entry(
 entry(
     index = 80,
     label = "R4H_BBB",
-    group = 
+    group =
 """
 1  *1 R!H      u1 {2,B} {15,B}
 2  *4 Cbf      u0 {1,B} {3,B} {12,B}
@@ -1152,7 +1152,7 @@ entry(
 entry(
     index = 81,
     label = "R5Hall",
-    group = 
+    group =
 """
 1 *6 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *5 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -1167,7 +1167,7 @@ entry(
 entry(
     index = 82,
     label = "R5HJ_1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1182,7 +1182,7 @@ entry(
 entry(
     index = 83,
     label = "R5HJ_2",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1197,7 +1197,7 @@ entry(
 entry(
     index = 84,
     label = "R5HJ_3",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -1212,7 +1212,7 @@ entry(
 entry(
     index = 85,
     label = "R5H",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *5 R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -1227,7 +1227,7 @@ entry(
 entry(
     index = 86,
     label = "R5H_RSSR",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,S}
 2 *5 R!H u0 {1,S} {4,[S,D,T,B]}
@@ -1242,7 +1242,7 @@ entry(
 entry(
     index = 87,
     label = "R5H_SSSR",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,S}
 2 *5 R!H u0 {1,S} {4,[S,D,T,B]}
@@ -1257,7 +1257,7 @@ entry(
 entry(
     index = 88,
     label = "R5H_SSSS",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,S}
 2 *5 R!H u0 {1,S} {4,S}
@@ -1272,7 +1272,7 @@ entry(
 entry(
     index = 89,
     label = "R5H_CCC",
-    group = 
+    group =
 """
 1 *6 C   u0 {2,S} {3,S}
 2 *5 C   u0 {1,S} {4,S}
@@ -1287,7 +1287,7 @@ entry(
 entry(
     index = 90,
     label = "R5H_CCC(Cd)",
-    group = 
+    group =
 """
 1 *5 C   u0 {2,S} {3,S} {5,D}
 2 *6 C   u0 {1,S} {4,S}
@@ -1303,7 +1303,7 @@ entry(
 entry(
     index = 91,
     label = "R5H_C(Cd)CC",
-    group = 
+    group =
 """
 1 *4 C   u0 {2,S} {5,S} {6,D}
 2 *6 C   u0 {1,S} {3,S}
@@ -1319,7 +1319,7 @@ entry(
 entry(
     index = 92,
     label = "R5H_CCC_O",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {5,S} {6,D}
 2 *5 C   u0 {1,S} {3,S}
@@ -1335,7 +1335,7 @@ entry(
 entry(
     index = 93,
     label = "R5H_CC(O2d)CC",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 C   u0 {1,S} {3,S}
@@ -1351,7 +1351,7 @@ entry(
 entry(
     index = 94,
     label = "R5H_CCC(O2d)C",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 C   u0 {1,S} {3,S}
@@ -1367,7 +1367,7 @@ entry(
 entry(
     index = 95,
     label = "R5H_CCCC(O2d)",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 CO  u0 {1,S} {3,S} {7,D}
@@ -1383,7 +1383,7 @@ entry(
 entry(
     index = 96,
     label = "R5H_SSSS_CsCsS",
-    group = 
+    group =
 """
 1 *6 Cs  u0 {2,S} {3,S}
 2 *5 S2s u0 {1,S} {4,S}
@@ -1398,7 +1398,7 @@ entry(
 entry(
     index = 97,
     label = "R5H_SSSS_OCC",
-    group = 
+    group =
 """
 1 *6 Cs  u0 {2,S} {3,S}
 2 *5 Cs  u0 {1,S} {4,S}
@@ -1413,7 +1413,7 @@ entry(
 entry(
     index = 98,
     label = "R5H_SSSS_OCC_C",
-    group = 
+    group =
 """
 1 *6 Cs  u0 {2,S} {3,S} {5,S}
 2 *5 Cs  u0 {1,S} {4,S}
@@ -1429,7 +1429,7 @@ entry(
 entry(
     index = 99,
     label = "R5H_SSSS_OCC_CC",
-    group = 
+    group =
 """
 1 *6 Cs  u0 {2,S} {3,S} {5,S} {6,S}
 2 *5 Cs  u0 {1,S} {4,S}
@@ -1446,7 +1446,7 @@ entry(
 entry(
     index = 100,
     label = "R5H_SSSS_OCs(Cs/Cs)",
-    group = 
+    group =
 """
 1 *5 Cs  u0 {2,S} {3,S} {5,S}
 2 *6 Cs  u0 {1,S} {4,S}
@@ -1462,7 +1462,7 @@ entry(
 entry(
     index = 101,
     label = "R5H_SSSS_OCs(Cs/Cs/Cs)",
-    group = 
+    group =
 """
 1 *5 Cs  u0 {2,S} {3,S} {5,S} {6,S}
 2 *6 Cs  u0 {1,S} {4,S}
@@ -1479,7 +1479,7 @@ entry(
 entry(
     index = 102,
     label = "R5H_SSSD",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,S}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -1494,7 +1494,7 @@ entry(
 entry(
     index = 103,
     label = "R5H_SSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1509,7 +1509,7 @@ entry(
 entry(
     index = 104,
     label = "R5H_SSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1524,7 +1524,7 @@ entry(
 entry(
     index = 105,
     label = "R5H_DSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1539,7 +1539,7 @@ entry(
 entry(
     index = 106,
     label = "R5H_DSSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1554,7 +1554,7 @@ entry(
 entry(
     index = 107,
     label = "R5H_DSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1569,7 +1569,7 @@ entry(
 entry(
     index = 108,
     label = "R5H_DSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1584,7 +1584,7 @@ entry(
 entry(
     index = 109,
     label = "R5H_DSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -1599,7 +1599,7 @@ entry(
 entry(
     index = 110,
     label = "R5H_TSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1614,7 +1614,7 @@ entry(
 entry(
     index = 111,
     label = "R5H_TSSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1629,7 +1629,7 @@ entry(
 entry(
     index = 112,
     label = "R5H_TSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1644,7 +1644,7 @@ entry(
 entry(
     index = 113,
     label = "R5H_TSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1659,7 +1659,7 @@ entry(
 entry(
     index = 114,
     label = "R5H_TSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1674,7 +1674,7 @@ entry(
 entry(
     index = 115,
     label = "R5H_BSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1689,7 +1689,7 @@ entry(
 entry(
     index = 116,
     label = "R5H_BSSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1704,7 +1704,7 @@ entry(
 entry(
     index = 117,
     label = "R5H_BSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1719,7 +1719,7 @@ entry(
 entry(
     index = 118,
     label = "R5H_BSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1734,7 +1734,7 @@ entry(
 entry(
     index = 119,
     label = "R5H_BSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1749,7 +1749,7 @@ entry(
 entry(
     index = 120,
     label = "R5H_RSMS",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,[D,T,B]} {3,S}
 2 *5 R!H u0 {1,[D,T,B]} {4,S}
@@ -1764,7 +1764,7 @@ entry(
 entry(
     index = 121,
     label = "R5H_SSMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -1779,7 +1779,7 @@ entry(
 entry(
     index = 122,
     label = "R5H_SS(D)MS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S} {7,D}
@@ -1795,7 +1795,7 @@ entry(
 entry(
     index = 123,
     label = "R5H_DSMS",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,[D,T,B]} {3,S}
 2 *5 R!H u0 {1,[D,T,B]} {4,S}
@@ -1810,7 +1810,7 @@ entry(
 entry(
     index = 124,
     label = "R5H_TSMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -1825,7 +1825,7 @@ entry(
 entry(
     index = 125,
     label = "R5H_BSMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -1840,7 +1840,7 @@ entry(
 entry(
     index = 126,
     label = "R5H_SMSR",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,[D,T,B]}
 2 *5 R!H u0 {1,S} {4,[S,D,T,B]}
@@ -1855,7 +1855,7 @@ entry(
 entry(
     index = 127,
     label = "R5H_SMSS",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,[D,T,B]}
 2 *5 R!H u0 {1,S} {4,S}
@@ -1870,7 +1870,7 @@ entry(
 entry(
     index = 128,
     label = "R5H_SMSD",
-    group = 
+    group =
 """
 1 *6 R!H u0 {2,S} {3,[D,T,B]}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -1885,7 +1885,7 @@ entry(
 entry(
     index = 129,
     label = "R5H_SMST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -1900,7 +1900,7 @@ entry(
 entry(
     index = 130,
     label = "R5H_SMSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -1915,7 +1915,7 @@ entry(
 entry(
     index = 131,
     label = "R5H_BBSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1930,7 +1930,7 @@ entry(
 entry(
     index = 132,
     label = "R5H_BBSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1945,7 +1945,7 @@ entry(
 entry(
     index = 133,
     label = "R5H_BBSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1960,7 +1960,7 @@ entry(
 entry(
     index = 134,
     label = "R5H_BBST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1975,7 +1975,7 @@ entry(
 entry(
     index = 135,
     label = "R5H_BBSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -1990,7 +1990,7 @@ entry(
 entry(
     index = 136,
     label = "R5H_RSBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2005,7 +2005,7 @@ entry(
 entry(
     index = 137,
     label = "R5H_SSBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2020,7 +2020,7 @@ entry(
 entry(
     index = 138,
     label = "R5H_DSBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -2035,7 +2035,7 @@ entry(
 entry(
     index = 139,
     label = "R5H_TSBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 Ct  u0 {1,T} {3,S}
@@ -2050,7 +2050,7 @@ entry(
 entry(
     index = 140,
     label = "R5H_BSBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cb  u0 {1,B} {3,S}
@@ -2065,7 +2065,7 @@ entry(
 entry(
     index = 141,
     label = "R5H_SBBS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -2080,7 +2080,7 @@ entry(
 entry(
     index = 142,
     label = "R5H_SBBB",
-    group = 
+    group =
 """
 1  *1 R!H      u1 {2,S}
 2  *4 Cb       u0 {1,S} {3,B} {16,B}
@@ -2105,7 +2105,7 @@ entry(
 entry(
     index = 143,
     label = "R5H_BBBS",
-    group = 
+    group =
 """
 1  *1 R!H      u1 {2,B} {16,B}
 2  *4 Cbf      u0 {1,B} {3,B} {13,B}
@@ -2130,7 +2130,7 @@ entry(
 entry(
     index = 144,
     label = "R5H_BBBB",
-    group = 
+    group =
 """
 1  *1 R!H      u1 {2,B} {19,B}
 2  *4 Cbf      u0 {1,B} {3,B} {16,B}
@@ -2158,7 +2158,7 @@ entry(
 entry(
     index = 145,
     label = "R5H_SMMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2173,7 +2173,7 @@ entry(
 entry(
     index = 146,
     label = "R6Hall",
-    group = 
+    group =
 """
 1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *6 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -2189,7 +2189,7 @@ entry(
 entry(
     index = 147,
     label = "R6HJ_1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2205,7 +2205,7 @@ entry(
 entry(
     index = 148,
     label = "R6HJ_2",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2221,7 +2221,7 @@ entry(
 entry(
     index = 149,
     label = "R6HJ_3",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2237,7 +2237,7 @@ entry(
 entry(
     index = 150,
     label = "R6HJ_4",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -2253,7 +2253,7 @@ entry(
 entry(
     index = 151,
     label = "R6H",
-    group = 
+    group =
 """
 1 *7 R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *6 R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -2269,7 +2269,7 @@ entry(
 entry(
     index = 152,
     label = "R6H_RSSSR",
-    group = 
+    group =
 """
 1 *7 R!H u0 {2,S} {3,S}
 2 *6 R!H u0 {1,S} {4,S}
@@ -2285,7 +2285,7 @@ entry(
 entry(
     index = 153,
     label = "R6H_SSSSR",
-    group = 
+    group =
 """
 1 *7 R!H u0 {2,S} {3,S}
 2 *6 R!H u0 {1,S} {4,S}
@@ -2301,7 +2301,7 @@ entry(
 entry(
     index = 154,
     label = "R6H_SSSSS",
-    group = 
+    group =
 """
 1 *7 R!H u0 {2,S} {3,S}
 2 *6 R!H u0 {1,S} {4,S}
@@ -2317,7 +2317,7 @@ entry(
 entry(
     index = 155,
     label = "R6H_SSSS(Cd)S",
-    group = 
+    group =
 """
 1 *5 R!H u0 {2,S} {4,S} {6,D}
 2 *7 R!H u0 {1,S} {3,S}
@@ -2334,7 +2334,7 @@ entry(
 entry(
     index = 156,
     label = "R6H_S(Cd)SSSS",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {6,S} {7,D}
 2 *6 R!H u0 {1,S} {3,S}
@@ -2351,7 +2351,7 @@ entry(
 entry(
     index = 157,
     label = "R6H_SSSSS_OO",
-    group = 
+    group =
 """
 1 *7 Cs  u0 {2,S} {3,S}
 2 *6 Cs  u0 {1,S} {4,S}
@@ -2367,7 +2367,7 @@ entry(
 entry(
     index = 158,
     label = "R6H_SSSSS_OO(Cs/Cs)Cs",
-    group = 
+    group =
 """
 1 *6 Cs  u0 {2,S} {4,S} {6,S}
 2 *7 Cs  u0 {1,S} {3,S}
@@ -2384,7 +2384,7 @@ entry(
 entry(
     index = 159,
     label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
-    group = 
+    group =
 """
 1 *6 Cs  u0 {3,S} {5,S} {6,S}
 2 *2 R!H u0 {4,S} {7,S} {8,S}
@@ -2402,7 +2402,7 @@ entry(
 entry(
     index = 160,
     label = "R6H_SSSSS_OOCCC(Cs/Cs)",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S} {6,S} {7,S}
 2 *5 Cs  u0 {1,S} {3,S}
@@ -2419,7 +2419,7 @@ entry(
 entry(
     index = 161,
     label = "R6H_SSSSS_bicyclopentane",
-    group = 
+    group =
 """
 1  *7 R!H u0 {2,S} {4,S} {5,S}
 2  *6 R!H u0 {1,S} {6,S} {7,S}
@@ -2439,7 +2439,7 @@ entry(
 entry(
     index = 162,
     label = "R6H_SSSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2455,7 +2455,7 @@ entry(
 entry(
     index = 163,
     label = "R6H_SSSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2471,7 +2471,7 @@ entry(
 entry(
     index = 164,
     label = "R6H_SSSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,S}
@@ -2487,7 +2487,7 @@ entry(
 entry(
     index = 165,
     label = "R6H_DSSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -2503,7 +2503,7 @@ entry(
 entry(
     index = 166,
     label = "R6H_DSSSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -2519,7 +2519,7 @@ entry(
 entry(
     index = 167,
     label = "R6H_DSSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -2535,7 +2535,7 @@ entry(
 entry(
     index = 168,
     label = "R6H_DSSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -2551,7 +2551,7 @@ entry(
 entry(
     index = 169,
     label = "R6H_DSSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *4 R!H u0 {1,D} {3,S}
@@ -2567,7 +2567,7 @@ entry(
 entry(
     index = 170,
     label = "R6H_TSSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -2583,7 +2583,7 @@ entry(
 entry(
     index = 171,
     label = "R6H_TSSSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -2599,7 +2599,7 @@ entry(
 entry(
     index = 172,
     label = "R6H_TSSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -2615,7 +2615,7 @@ entry(
 entry(
     index = 173,
     label = "R6H_TSSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -2631,7 +2631,7 @@ entry(
 entry(
     index = 174,
     label = "R6H_TSSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *4 R!H u0 {1,T} {3,S}
@@ -2647,7 +2647,7 @@ entry(
 entry(
     index = 175,
     label = "R6H_BSSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -2663,7 +2663,7 @@ entry(
 entry(
     index = 176,
     label = "R6H_BSSSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -2679,7 +2679,7 @@ entry(
 entry(
     index = 177,
     label = "R6H_BSSSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -2695,7 +2695,7 @@ entry(
 entry(
     index = 178,
     label = "R6H_BSSST",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -2711,7 +2711,7 @@ entry(
 entry(
     index = 179,
     label = "R6H_BSSSB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 R!H u0 {1,B} {3,S}
@@ -2727,7 +2727,7 @@ entry(
 entry(
     index = 180,
     label = "R6H_RSSMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2743,7 +2743,7 @@ entry(
 entry(
     index = 181,
     label = "R6H_RS(Cd)SMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S} {8,D}
@@ -2760,7 +2760,7 @@ entry(
 entry(
     index = 182,
     label = "R6H_RSMSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2776,7 +2776,7 @@ entry(
 entry(
     index = 183,
     label = "R6H_SMSSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2792,7 +2792,7 @@ entry(
 entry(
     index = 184,
     label = "R6H_SMSMS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,[D,T,B]}
@@ -2808,7 +2808,7 @@ entry(
 entry(
     index = 185,
     label = "R6H_BBSRS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2824,7 +2824,7 @@ entry(
 entry(
     index = 186,
     label = "R6H_BBSSM",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2840,7 +2840,7 @@ entry(
 entry(
     index = 187,
     label = "R6H_BBSBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2856,7 +2856,7 @@ entry(
 entry(
     index = 188,
     label = "R6H_SBBSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -2872,7 +2872,7 @@ entry(
 entry(
     index = 189,
     label = "R6H_RSBBS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2888,7 +2888,7 @@ entry(
 entry(
     index = 190,
     label = "R6H_BBBSR",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2904,7 +2904,7 @@ entry(
 entry(
     index = 191,
     label = "R6H_SBBBS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -2920,7 +2920,7 @@ entry(
 entry(
     index = 192,
     label = "R6H_RSBBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,S}
@@ -2936,7 +2936,7 @@ entry(
 entry(
     index = 193,
     label = "R6H_SBBBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 Cb  u0 {1,S} {3,B}
@@ -2952,7 +2952,7 @@ entry(
 entry(
     index = 194,
     label = "R6H_BBBBS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2968,7 +2968,7 @@ entry(
 entry(
     index = 195,
     label = "R6H_BBBBB",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,B}
 2 *4 Cbf u0 {1,B} {3,B}
@@ -2984,7 +2984,7 @@ entry(
 entry(
     index = 196,
     label = "R7Hall",
-    group = 
+    group =
 """
 1 *7 R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *8 R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -3001,7 +3001,7 @@ entry(
 entry(
     index = 197,
     label = "R7HJ_1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u1 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3018,7 +3018,7 @@ entry(
 entry(
     index = 198,
     label = "R7HJ_2",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3035,7 +3035,7 @@ entry(
 entry(
     index = 199,
     label = "R7HJ_3",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3052,7 +3052,7 @@ entry(
 entry(
     index = 200,
     label = "R7HJ_4",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3069,7 +3069,7 @@ entry(
 entry(
     index = 201,
     label = "R7HJ_5",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3086,7 +3086,7 @@ entry(
 entry(
     index = 202,
     label = "R7H",
-    group = 
+    group =
 """
 1 *7 R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *8 R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -3103,7 +3103,7 @@ entry(
 entry(
     index = 203,
     label = "R7H_OOCs4",
-    group = 
+    group =
 """
 1 *7 R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *8 R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -3120,7 +3120,7 @@ entry(
 entry(
     index = 204,
     label = "R7H_OOCCCC(Cs/Cs)",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,D,T,B]} {7,S} {8,S}
 2 *5 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3138,7 +3138,7 @@ entry(
 entry(
     index = 205,
     label = "R7H_SDSDSS",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,D}
@@ -3155,7 +3155,7 @@ entry(
 entry(
     index = 206,
     label = "R8Hall",
-    group = 
+    group =
 """
 1 *7 R!H ux {2,[S,D,T,B]} {4,[S,D,T,B]}
 2 *8 R!H ux {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3173,7 +3173,7 @@ entry(
 entry(
     index = 207,
     label = "R8H",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T,B]}
 2 *4 R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -3191,7 +3191,7 @@ entry(
 entry(
     index = 208,
     label = "R8H_SDSDSD",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *4 R!H u0 {1,S} {3,D}
@@ -3209,7 +3209,7 @@ entry(
 entry(
     index = 209,
     label = "O_rad_out",
-    group = 
+    group =
 """
 1 *1 O u1
 """,
@@ -3219,7 +3219,7 @@ entry(
 entry(
     index = 210,
     label = "S_rad_out",
-    group = 
+    group =
 """
 1 *1 S u1
 """,
@@ -3229,7 +3229,7 @@ entry(
 entry(
     index = 211,
     label = "Cd_rad_out",
-    group = 
+    group =
 """
 1 *1 Cd u1
 """,
@@ -3239,7 +3239,7 @@ entry(
 entry(
     index = 212,
     label = "Cd_rad_out_double",
-    group = 
+    group =
 """
 1 *1 Cd       u1 {2,D}
 2    [Cd,Cdd] u0 {1,D}
@@ -3250,7 +3250,7 @@ entry(
 entry(
     index = 213,
     label = "Cd_rad_out_Cd",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,D}
 2    Cd u0 {1,D}
@@ -3261,7 +3261,7 @@ entry(
 entry(
     index = 214,
     label = "Cd_rad_out_Cd_Cb",
-    group = 
+    group =
 """
 1    Cd u0 {2,D} {3,S}
 2 *1 Cd u1 {1,D}
@@ -3273,7 +3273,7 @@ entry(
 entry(
     index = 215,
     label = "Cd_rad_out_Cd_sec_ring",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,D}
 2    Cd u0 {1,D} {3,S} {7,S}
@@ -3290,7 +3290,7 @@ entry(
 entry(
     index = 216,
     label = "Cd_rad_out_single",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,S}
 2    R  u0 {1,S}
@@ -3301,7 +3301,7 @@ entry(
 entry(
     index = 217,
     label = "Cd_rad_out_singleH",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,S}
 2    H  u0 {1,S}
@@ -3312,7 +3312,7 @@ entry(
 entry(
     index = 218,
     label = "Cd_rad_out_singleNd",
-    group = 
+    group =
 """
 1 *1 Cd       u1 {2,S}
 2    [Cs,O,S] u0 {1,S}
@@ -3323,7 +3323,7 @@ entry(
 entry(
     index = 219,
     label = "Cd_rad_out_Cs",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,S}
 2    Cs u0 {1,S}
@@ -3334,7 +3334,7 @@ entry(
 entry(
     index = 220,
     label = "Cd_rad_out_singleDe",
-    group = 
+    group =
 """
 1 *1 Cd            u1 {2,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -3345,7 +3345,7 @@ entry(
 entry(
     index = 221,
     label = "Cd_rad_out_singleDe_Cb",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,S}
 2    Cb u0 {1,S}
@@ -3356,7 +3356,7 @@ entry(
 entry(
     index = 222,
     label = "Cd_rad_out_singleDe_Ct",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,S}
 2    Ct u0 {1,S}
@@ -3367,7 +3367,7 @@ entry(
 entry(
     index = 223,
     label = "Cd_rad_out_singleDe_Cd",
-    group = 
+    group =
 """
 1 *1 Cd u1 {2,S}
 2    Cd u0 {1,S}
@@ -3378,7 +3378,7 @@ entry(
 entry(
     index = 224,
     label = "Ct_rad_out",
-    group = 
+    group =
 """
 1 *1 Ct u1
 """,
@@ -3388,7 +3388,7 @@ entry(
 entry(
     index = 225,
     label = "Cb_rad_out",
-    group = 
+    group =
 """
 1 *1 Cb u1
 """,
@@ -3398,7 +3398,7 @@ entry(
 entry(
     index = 226,
     label = "CO_rad_out",
-    group = 
+    group =
 """
 1 *1 C u1 {2,D}
 2    O u0 {1,D}
@@ -3409,7 +3409,7 @@ entry(
 entry(
     index = 227,
     label = "CS_rad_out",
-    group = 
+    group =
 """
 1 *1 CS u1
 """,
@@ -3419,7 +3419,7 @@ entry(
 entry(
     index = 228,
     label = "C_rad_out_single",
-    group = 
+    group =
 """
 1 *1 C u1 {2,S} {3,S}
 2    R u0 {1,S}
@@ -3431,7 +3431,7 @@ entry(
 entry(
     index = 229,
     label = "C_rad_out_2H",
-    group = 
+    group =
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
@@ -3443,7 +3443,7 @@ entry(
 entry(
     index = 230,
     label = "C_rad_out_1H",
-    group = 
+    group =
 """
 1 *1 C   u1 {2,S} {3,S}
 2    H   u0 {1,S}
@@ -3455,7 +3455,7 @@ entry(
 entry(
     index = 231,
     label = "C_rad_out_H/NonDeC",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -3467,7 +3467,7 @@ entry(
 entry(
     index = 232,
     label = "C_rad_out_H/Cyclopentadiene",
-    group = 
+    group =
 """
 1    Cs u0 {2,S} {3,S} {6,S}
 2    Cd u0 {1,S} {4,D}
@@ -3483,7 +3483,7 @@ entry(
 entry(
     index = 233,
     label = "C_rad_out_H/NonDeO",
-    group = 
+    group =
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
@@ -3495,7 +3495,7 @@ entry(
 entry(
     index = 234,
     label = "C_rad_out_H/NonDeS",
-    group = 
+    group =
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
@@ -3507,7 +3507,7 @@ entry(
 entry(
     index = 235,
     label = "C_rad_out_H/OneDe",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    H             u0 {1,S}
@@ -3519,7 +3519,7 @@ entry(
 entry(
     index = 236,
     label = "C_rad_out_H/(Cd-Cd-Cd-Cd-Cd)",
-    group = 
+    group =
 """
 1    Cd u0 {2,D} {3,S}
 2    Cd u0 {1,D} {4,S}
@@ -3535,7 +3535,7 @@ entry(
 entry(
     index = 237,
     label = "C_rad_out_H/(Cd-Cd-Cd)",
-    group = 
+    group =
 """
 1    Cd u0 {2,S} {3,D}
 2 *1 C  u1 {1,S} {4,S}
@@ -3549,7 +3549,7 @@ entry(
 entry(
     index = 238,
     label = "C_rad_out_H/Cd",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -3561,7 +3561,7 @@ entry(
 entry(
     index = 239,
     label = "C_rad_out_H/Cb",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -3573,7 +3573,7 @@ entry(
 entry(
     index = 240,
     label = "C_rad_out_H/Ct",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -3585,7 +3585,7 @@ entry(
 entry(
     index = 241,
     label = "C_rad_out_noH",
-    group = 
+    group =
 """
 1 *1 C   u1 {2,S} {3,S}
 2    R!H u0 {1,S}
@@ -3597,7 +3597,7 @@ entry(
 entry(
     index = 242,
     label = "C_rad_out_NonDe",
-    group = 
+    group =
 """
 1 *1 C        u1 {2,S} {3,S}
 2    [Cs,O,S] u0 {1,S}
@@ -3609,7 +3609,7 @@ entry(
 entry(
     index = 243,
     label = "C_rad_out_Cs2",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -3621,7 +3621,7 @@ entry(
 entry(
     index = 244,
     label = "C_rad_out_Cs2_cy3",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cs u0 {1,S} {3,S}
@@ -3633,7 +3633,7 @@ entry(
 entry(
     index = 245,
     label = "C_rad_out_Cs2_cy4",
-    group = 
+    group =
 """
 1 *1 C       u1 {2,S} {3,S}
 2    Cs      u0 {1,S} {4,S}
@@ -3646,7 +3646,7 @@ entry(
 entry(
     index = 246,
     label = "C_rad_out_Cs2_cy5",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    Cs            u0 {1,S} {4,S}
@@ -3660,7 +3660,7 @@ entry(
 entry(
     index = 247,
     label = "C_rad_out_NDMustO",
-    group = 
+    group =
 """
 1 *1 C        u1 {2,S} {3,S}
 2    O        u0 {1,S}
@@ -3672,7 +3672,7 @@ entry(
 entry(
     index = 248,
     label = "C_rad_out_OneDe",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -3684,7 +3684,7 @@ entry(
 entry(
     index = 249,
     label = "C_rad_out_OneDe/Cs",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -3696,7 +3696,7 @@ entry(
 entry(
     index = 250,
     label = "C_rad_out_OneDe/O",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -3708,7 +3708,7 @@ entry(
 entry(
     index = 251,
     label = "C_rad_out_OneDe/S",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -3720,7 +3720,7 @@ entry(
 entry(
     index = 252,
     label = "C_rad_out_TwoDe",
-    group = 
+    group =
 """
 1 *1 C             u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO] u0 {1,S}
@@ -3732,7 +3732,7 @@ entry(
 entry(
     index = 253,
     label = "C_rad_out_Cd/Cd",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cd u0 {1,S}
@@ -3744,7 +3744,7 @@ entry(
 entry(
     index = 254,
     label = "C_rad_out_Cd/Cd_cyc5",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cd u0 {1,S} {4,D}
@@ -3758,7 +3758,7 @@ entry(
 entry(
     index = 255,
     label = "C_rad_out_Cd/Cd_cyc5_cyc6",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cd u0 {1,S} {4,D}
@@ -3776,7 +3776,7 @@ entry(
 entry(
     index = 256,
     label = "C_rad_out_Cd/Cb",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S} {3,S}
 2    Cd u0 {1,S}
@@ -3788,7 +3788,7 @@ entry(
 entry(
     index = 257,
     label = "CO_H_out",
-    group = 
+    group =
 """
 1 *2 CO u0 {2,S}
 2 *3 H  u0 {1,S}
@@ -3799,7 +3799,7 @@ entry(
 entry(
     index = 258,
     label = "O_H_out",
-    group = 
+    group =
 """
 1 *2 O u0 {2,S}
 2 *3 H u0 {1,S}
@@ -3810,7 +3810,7 @@ entry(
 entry(
     index = 259,
     label = "Ct_H_out",
-    group = 
+    group =
 """
 1 *2 Ct u0 {2,S}
 2 *3 H  u0 {1,S}
@@ -3821,7 +3821,7 @@ entry(
 entry(
     index = 260,
     label = "Cb_H_out",
-    group = 
+    group =
 """
 1 *2 Cb u0 {2,S}
 2 *3 H  u0 {1,S}
@@ -3832,7 +3832,7 @@ entry(
 entry(
     index = 261,
     label = "S_H_out",
-    group = 
+    group =
 """
 1 *2 S u0 {2,S}
 2 *3 H u0 {1,S}
@@ -3843,7 +3843,7 @@ entry(
 entry(
     index = 262,
     label = "Cd_H_out_double",
-    group = 
+    group =
 """
 1 *2 Cd         u0 {2,S} {3,D}
 2 *3 H          u0 {1,S}
@@ -3855,7 +3855,7 @@ entry(
 entry(
     index = 263,
     label = "Cd_H_out_doubleC",
-    group = 
+    group =
 """
 1 *2 Cd       u0 {2,S} {3,D}
 2 *3 H        u0 {1,S}
@@ -3867,7 +3867,7 @@ entry(
 entry(
     index = 264,
     label = "Cd_H_out_double(Cd-Cd-Cd-Cd)",
-    group = 
+    group =
 """
 1    Cd u0 {2,S} {3,D}
 2    Cd u0 {1,S} {4,D}
@@ -3882,7 +3882,7 @@ entry(
 entry(
     index = 265,
     label = "Cd_H_out_single",
-    group = 
+    group =
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
@@ -3894,7 +3894,7 @@ entry(
 entry(
     index = 266,
     label = "Cd_H_out_singleH",
-    group = 
+    group =
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
@@ -3906,7 +3906,7 @@ entry(
 entry(
     index = 267,
     label = "Cd_H_out_singleNd",
-    group = 
+    group =
 """
 1 *2 Cd     u0 {2,S} {3,S}
 2 *3 H      u0 {1,S}
@@ -3918,7 +3918,7 @@ entry(
 entry(
     index = 268,
     label = "Cd_H_out_singleDe",
-    group = 
+    group =
 """
 1 *2 Cd            u0 {2,S} {3,S}
 2 *3 H             u0 {1,S}
@@ -3930,7 +3930,7 @@ entry(
 entry(
     index = 269,
     label = "Cd_H_out_Cb",
-    group = 
+    group =
 """
 1 *2 Cd u0 {2,S} {3,S}
 2 *3 H  u0 {1,S}
@@ -3942,7 +3942,7 @@ entry(
 entry(
     index = 270,
     label = "Cd_H_out_CdCb",
-    group = 
+    group =
 """
 1    Cd u0 {2,S} {3,D}
 2 *2 Cd u0 {1,S} {4,S}
@@ -3956,7 +3956,7 @@ entry(
 entry(
     index = 271,
     label = "Cs_H_out",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -3969,7 +3969,7 @@ entry(
 entry(
     index = 272,
     label = "Cs_H_out_OOH",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    O  u0 {1,S} {5,S}
@@ -3983,7 +3983,7 @@ entry(
 entry(
     index = 273,
     label = "Cs_H_out_OOH/Cs",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    O  u0 {1,S} {5,S}
@@ -3997,7 +3997,7 @@ entry(
 entry(
     index = 274,
     label = "Cs_H_out_OOH/H",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    O  u0 {1,S} {5,S}
@@ -4011,7 +4011,7 @@ entry(
 entry(
     index = 275,
     label = "Cs_H_out_2H",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4024,7 +4024,7 @@ entry(
 entry(
     index = 276,
     label = "Cs_H_out_noH",
-    group = 
+    group =
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
@@ -4037,7 +4037,7 @@ entry(
 entry(
     index = 277,
     label = "Cs_H_out_NonDe",
-    group = 
+    group =
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -4050,7 +4050,7 @@ entry(
 entry(
     index = 278,
     label = "Cs_H_out_Cs2",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4063,7 +4063,7 @@ entry(
 entry(
     index = 279,
     label = "Cs_H_out_Cs2_cy3",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S} {3,S}
@@ -4076,7 +4076,7 @@ entry(
 entry(
     index = 280,
     label = "Cs_H_out_Cs2_cy4",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {5,S}
 2    Cs u0 {1,S} {4,S}
@@ -4090,7 +4090,7 @@ entry(
 entry(
     index = 281,
     label = "Cs_H_out_Cs2_cy5",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {6,S}
 2    Cs u0 {1,S} {4,S}
@@ -4105,7 +4105,7 @@ entry(
 entry(
     index = 282,
     label = "Cs_H_out_NDMustO",
-    group = 
+    group =
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -4125,7 +4125,7 @@ entry(
 entry(
     index = 284,
     label = "Cs_H_out_Ct",
-    group = 
+    group =
 """
 1 *2 Cs     u0 {2,S} {4,S} {5,S}
 2    C      u0 {1,S} {3,T}
@@ -4140,7 +4140,7 @@ entry(
 entry(
     index = 285,
     label = "Cs_H_out_CO",
-    group = 
+    group =
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2    C      u0 {1,S} {5,D} {6,S}
@@ -4155,7 +4155,7 @@ entry(
 entry(
     index = 286,
     label = "Cs_H_out_CS",
-    group = 
+    group =
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -4170,7 +4170,7 @@ entry(
 entry(
     index = 287,
     label = "Cs_H_out_Cd",
-    group = 
+    group =
 """
 1    C      u0 {2,S} {3,D} {4,S}
 2 *2 Cs     u0 {1,S} {5,S} {6,S}
@@ -4187,7 +4187,7 @@ entry(
 entry(
     index = 288,
     label = "Cs_H_out_(CdCdCd)",
-    group = 
+    group =
 """
 1 *2 Cs     u0 {2,S} {3,S} {4,S}
 2 *3 H      u0 {1,S}
@@ -4211,7 +4211,7 @@ entry(
 entry(
     index = 290,
     label = "Cs_H_out_CtCt",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {6,S}
 2    C  u0 {1,S} {4,T}
@@ -4228,7 +4228,7 @@ entry(
 entry(
     index = 291,
     label = "Cs_H_out_CdCt",
-    group = 
+    group =
 """
 1     C  u0 {2,S} {3,D} {6,S}
 2  *2 Cs u0 {1,S} {4,S} {7,S}
@@ -4247,7 +4247,7 @@ entry(
 entry(
     index = 292,
     label = "Cs_H_out_CdCd",
-    group = 
+    group =
 """
 1  *2 Cs u0 {2,S} {3,S} {6,S}
 2     C  u0 {1,S} {4,D} {7,S}
@@ -4268,7 +4268,7 @@ entry(
 entry(
     index = 293,
     label = "CPD",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {6,S}
 2    C  u0 {1,S} {4,D}
@@ -4283,7 +4283,7 @@ entry(
 entry(
     index = 294,
     label = "Cs_H_out_AromDe",
-    group = 
+    group =
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
@@ -4296,7 +4296,7 @@ entry(
 entry(
     index = 295,
     label = "Cs_H_out_1H",
-    group = 
+    group =
 """
 1 *2 Cs  u0 {2,S} {3,S} {4,S}
 2 *3 H   u0 {1,S}
@@ -4309,7 +4309,7 @@ entry(
 entry(
     index = 296,
     label = "Cs_H_out_H/NonDeC",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4322,7 +4322,7 @@ entry(
 entry(
     index = 297,
     label = "Cs_H_out_H/(NonDeC/Cs)",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S} {5,S}
@@ -4336,7 +4336,7 @@ entry(
 entry(
     index = 298,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs)",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S} {5,S} {6,S}
@@ -4351,7 +4351,7 @@ entry(
 entry(
     index = 299,
     label = "Cs_H_out_H/(NonDeC/Cs/Cs/Cs)",
-    group = 
+    group =
 """
 1    Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs u0 {1,S} {6,S} {7,S}
@@ -4367,7 +4367,7 @@ entry(
 entry(
     index = 300,
     label = "Cs_H_out_H/(NonDeC/O)",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {4,S} {5,S}
 2    Cs u0 {1,S} {3,S}
@@ -4382,7 +4382,7 @@ entry(
 entry(
     index = 301,
     label = "Cs_H_out_H/NonDeO",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4395,7 +4395,7 @@ entry(
 entry(
     index = 302,
     label = "Cs_H_out_H/NonDeS",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4408,7 +4408,7 @@ entry(
 entry(
     index = 303,
     label = "Cs_H_out_H/OneDe",
-    group = 
+    group =
 """
 1 *2 Cs            u0 {2,S} {3,S} {4,S}
 2 *3 H             u0 {1,S}
@@ -4421,7 +4421,7 @@ entry(
 entry(
     index = 304,
     label = "Cs_H_out_H/Ct",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {4,S} {5,S}
 2    Ct u0 {1,S} {3,T}
@@ -4436,7 +4436,7 @@ entry(
 entry(
     index = 305,
     label = "Cs_H_out_H/CO",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S} {5,D} {6,S}
@@ -4451,7 +4451,7 @@ entry(
 entry(
     index = 306,
     label = "Cs_H_out_H/CS",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4466,7 +4466,7 @@ entry(
 entry(
     index = 307,
     label = "Cs_H_out_H/Cd",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -4480,7 +4480,7 @@ entry(
 entry(
     index = 308,
     label = "Cs_H_out_H/(Cd-Cd-Cd)",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {4,S} {5,S}
 2    Cd u0 {1,S} {3,D}
@@ -4495,7 +4495,7 @@ entry(
 entry(
     index = 309,
     label = "Cs_H_out_H/(Cd-Cd-Cd-Cd-Cd)",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4512,7 +4512,7 @@ entry(
 entry(
     index = 310,
     label = "Cs_H_out_H/Cd/C/Cb",
-    group = 
+    group =
 """
 1    Cd u0 {2,S} {3,D} {4,S}
 2 *2 Cs u0 {1,S} {5,S} {6,S}
@@ -4529,7 +4529,7 @@ entry(
 entry(
     index = 311,
     label = "Cs_H_out_H/AromDe",
-    group = 
+    group =
 """
 1 *2 Cs u0 {2,S} {3,S} {4,S}
 2 *3 H  u0 {1,S}
@@ -4542,7 +4542,7 @@ entry(
 entry(
     index = 312,
     label = "R4H_DSD_fulvene",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D} {6,S}
 2 *4 Cd  u0 {1,D} {3,S}
@@ -4875,7 +4875,7 @@ L1: XH_out
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T]}
 2    Cb  u0 {1,[S,D,T]} {3,B} {4,B}
@@ -4887,7 +4887,7 @@ forbidden(
 8 *3 H   u0 {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 1.
@@ -4896,7 +4896,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C   u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C   u0 {3,D} {5,S} {8,S}
@@ -4908,7 +4908,7 @@ forbidden(
 8 *3 H   u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 2.
@@ -4917,7 +4917,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C   u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C   u0 {3,S} {5,D} {8,S}
@@ -4929,7 +4929,7 @@ forbidden(
 8 *3 H   u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 3.
@@ -4938,7 +4938,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,D,T]} {3,[S,D,T]}
 2    Cb  u0 {1,[S,D,T]} {4,B} {5,B}
@@ -4951,7 +4951,7 @@ forbidden(
 9 *3 H   u0 {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 1.
@@ -4960,7 +4960,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C   u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C   u0 {3,S} {5,D} {8,S}
@@ -4973,7 +4973,7 @@ forbidden(
 9 *1 R!H u1 {7,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 2.
@@ -4982,7 +4982,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C   u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C   u0 {3,D} {5,S} {8,S}
@@ -4995,7 +4995,7 @@ forbidden(
 9 *1 R!H u1 {7,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 3.
@@ -5004,7 +5004,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,D,T]} {3,[S,D,T]}
 2     Cb  u0 {1,[S,D,T]} {4,B} {5,B}
@@ -5018,7 +5018,7 @@ forbidden(
 10 *1 R!H u1 {3,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 1.
@@ -5027,7 +5027,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1     C   u0 {3,S} {4,D} {5,[S,D,T]}
 2  *2 C   u0 {3,D} {6,S} {9,S}
@@ -5041,7 +5041,7 @@ forbidden(
 10 *1 R!H u1 {8,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 2.
@@ -5050,7 +5050,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1     C   u0 {3,D} {4,S} {5,[S,D,T]}
 2  *2 C   u0 {3,S} {6,D} {9,S}
@@ -5064,7 +5064,7 @@ forbidden(
 10 *1 R!H u1 {8,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 3.
@@ -5073,7 +5073,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_p_position_of_cyc6_sidegroup_to_1_position_of_double_bonded_sidechain_dir_1",
-    group = 
+    group =
 """
 1    R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,D}
 2 *2 R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]} {8,S}
@@ -5085,7 +5085,7 @@ forbidden(
 8 *3 H   u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical double-bonded to a 6-membered ring from abstracting an H the para position
 """,
@@ -5093,7 +5093,7 @@ Forbid a radical double-bonded to a 6-membered ring from abstracting an H the pa
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,T]}
 2    Cb  u0 {1,[S,D,T]} {3,B} {4,B}
@@ -5105,7 +5105,7 @@ forbidden(
 8 *3 H   u0 {5,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 1.
@@ -5114,7 +5114,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C   u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C   u0 {5,D} {6,S} {8,S}
@@ -5126,7 +5126,7 @@ forbidden(
 8 *3 H   u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 2.
@@ -5135,7 +5135,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C   u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C   u0 {5,S} {6,D} {8,S}
@@ -5147,7 +5147,7 @@ forbidden(
 8 *3 H   u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 3.
@@ -5156,7 +5156,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,D,T]} {3,[S,D,T]}
 2    Cb  u0 {1,[S,D,T]} {4,B} {5,B}
@@ -5169,7 +5169,7 @@ forbidden(
 9 *3 H   u0 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 1.
@@ -5178,7 +5178,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C   u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C   u0 {5,D} {6,S} {8,S}
@@ -5191,7 +5191,7 @@ forbidden(
 9 *1 R!H u1 {7,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 2.
@@ -5200,7 +5200,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C   u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C   u0 {5,S} {6,D} {8,S}
@@ -5213,7 +5213,7 @@ forbidden(
 9 *1 R!H u1 {7,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 3.
@@ -5222,7 +5222,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,D,T]} {3,[S,D,T]}
 2     Cb  u0 {1,[S,D,T]} {4,B} {5,B}
@@ -5236,7 +5236,7 @@ forbidden(
 10 *1 R!H u1 {3,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 1.
@@ -5245,7 +5245,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1     C   u0 {3,S} {4,D} {7,[S,D,T]}
 2  *2 C   u0 {5,S} {6,D} {9,S}
@@ -5259,7 +5259,7 @@ forbidden(
 10 *1 R!H u1 {8,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 2.
@@ -5268,7 +5268,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1     C   u0 {3,D} {4,S} {7,[S,D,T]}
 2  *2 C   u0 {5,D} {6,S} {9,S}
@@ -5282,7 +5282,7 @@ forbidden(
 10 *1 R!H u1 {8,[S,D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 3.
@@ -5329,7 +5329,7 @@ Forbid H migration from ortho position on an aromatic ring to the para position 
 
 forbidden(
     label = "[CH2]C1=CC(C)CC=C1_1",
-    group = 
+    group =
 """
 1 *5 C u0 {2,S} {3,S} {8,S}
 2 *2 C u0 {1,S} {9,S}
@@ -5342,7 +5342,7 @@ forbidden(
 9 *3 H u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5350,7 +5350,7 @@ u"""
 
 forbidden(
     label = "[CH2]C1=CC(C)CC=C1_2",
-    group = 
+    group =
 """
 1 *5 C u0 {2,S} {3,S} {8,S}
 2    C u0 {1,S}
@@ -5363,7 +5363,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5371,7 +5371,7 @@ u"""
 
 forbidden(
     label = "[CH2]C1=CC(C)CC=C1_3",
-    group = 
+    group =
 """
 1    C u0 {2,S} {3,S} {8,S}
 2    C u0 {1,S}
@@ -5384,7 +5384,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5392,7 +5392,7 @@ u"""
 
 forbidden(
     label = "bridged56_1243",
-    group = 
+    group =
 """
 1 *4 C u0 {3,S} {4,S} {6,S}
 2    C u0 {4,S} {5,S} {7,S}
@@ -5404,7 +5404,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5412,7 +5412,7 @@ u"""
 
 forbidden(
     label = "bridged56_1254",
-    group = 
+    group =
 """
 1 *5 C u0 {3,S} {4,S} {6,S}
 2 *4 C u0 {4,S} {5,S} {7,S}
@@ -5424,7 +5424,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5432,7 +5432,7 @@ u"""
 
 forbidden(
     label = "bridged56_1257",
-    group = 
+    group =
 """
 1 *4 C u0 {3,S} {4,S} {5,S}
 2 *5 C u0 {3,S} {6,S} {7,S}
@@ -5444,7 +5444,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5452,7 +5452,7 @@ u"""
 
 forbidden(
     label = "bridged56_1623",
-    group = 
+    group =
 """
 1 *5 C u0 {3,S} {4,S} {6,S}
 2    C u0 {4,S} {5,S} {7,S}
@@ -5464,7 +5464,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5472,7 +5472,7 @@ u"""
 
 forbidden(
     label = "bridged56_1627",
-    group = 
+    group =
 """
 1 *5 C u0 {3,S} {4,S} {5,S}
 2    C u0 {3,S} {6,S} {7,S}
@@ -5484,7 +5484,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5492,7 +5492,7 @@ u"""
 
 forbidden(
     label = "bridged56_1634",
-    group = 
+    group =
 """
 1    C u0 {3,S} {4,S} {6,S}
 2    C u0 {4,S} {5,S} {7,S}
@@ -5504,7 +5504,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5512,7 +5512,7 @@ u"""
 
 forbidden(
     label = "bridged56_7521",
-    group = 
+    group =
 """
 1 *5 C u0 {3,S} {4,S} {6,S}
 2 *4 C u0 {4,S} {5,S} {7,S}
@@ -5524,7 +5524,7 @@ forbidden(
 8 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5532,7 +5532,7 @@ u"""
 
 forbidden(
     label = "fulvene_H_mig_ring_edge_to_tail",
-    group = 
+    group =
 """
 1    C u0 {3,D} {4,S} {6,S}
 2 *2 C u0 {3,S} {5,S} {7,S}
@@ -5543,7 +5543,7 @@ forbidden(
 7 *3 H u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Prevents the fulvene + H radical with radical site on the tail from abstracting an H
 from the far edge of the ring
@@ -5552,7 +5552,7 @@ from the far edge of the ring
 
 forbidden(
     label = "fulvene_H_mig_tail_to_ring_edge",
-    group = 
+    group =
 """
 1 *2 C u1 {2,S} {7,S}
 2    C u0 {1,S} {3,D} {4,S}
@@ -5563,7 +5563,7 @@ forbidden(
 7 *3 H u0 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Prevents the fulvene + H radical with radical site on the ring-edge from abstracting an H
 from the end of the tail
@@ -5572,7 +5572,7 @@ from the end of the tail
 
 forbidden(
     label = "fused55_212",
-    group = 
+    group =
 """
 1 *4 C u0 {2,S} {3,S} {4,S}
 2    C u0 {1,S} {5,S} {6,S}
@@ -5585,7 +5585,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5593,7 +5593,7 @@ u"""
 
 forbidden(
     label = "fused55_2123",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2 *4 C u0 {1,S} {4,S} {7,S}
@@ -5606,7 +5606,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5614,7 +5614,7 @@ u"""
 
 forbidden(
     label = "fused55_2132",
-    group = 
+    group =
 """
 1 *4 C u0 {2,S} {3,S} {4,S}
 2    C u0 {1,S} {5,S} {6,S}
@@ -5627,7 +5627,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5635,7 +5635,7 @@ u"""
 
 forbidden(
     label = "fused55_2134",
-    group = 
+    group =
 """
 1    C u0 {2,S} {3,S} {4,S}
 2 *4 C u0 {1,S} {5,S} {6,S}
@@ -5648,7 +5648,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5656,7 +5656,7 @@ u"""
 
 forbidden(
     label = "fused55_2143",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2 *4 C u0 {1,S} {4,S} {7,S}
@@ -5669,7 +5669,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5677,7 +5677,7 @@ u"""
 
 forbidden(
     label = "fused55_2154",
-    group = 
+    group =
 """
 1 *5 C u0 {2,S} {3,S} {4,S}
 2 *4 C u0 {1,S} {5,S} {6,S}
@@ -5690,7 +5690,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5698,7 +5698,7 @@ u"""
 
 forbidden(
     label = "fused55_2312",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S}
 2    C u0 {1,S} {3,S} {8,S}
@@ -5711,7 +5711,7 @@ forbidden(
 9 *3 H u0 {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5719,7 +5719,7 @@ u"""
 
 forbidden(
     label = "fused55_2332",
-    group = 
+    group =
 """
 1    C u0 {2,S} {3,S} {4,S}
 2    C u0 {1,S} {5,S} {6,S}
@@ -5732,7 +5732,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5740,7 +5740,7 @@ u"""
 
 forbidden(
     label = "fused55_2334",
-    group = 
+    group =
 """
 1    C u0 {2,S} {3,S} {4,S}
 2    C u0 {1,S} {5,S} {6,S}
@@ -5753,7 +5753,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5761,7 +5761,7 @@ u"""
 
 forbidden(
     label = "fused55_2343",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2    C u0 {1,S} {4,S} {7,S}
@@ -5774,7 +5774,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5782,7 +5782,7 @@ u"""
 
 forbidden(
     label = "fused55_2354",
-    group = 
+    group =
 """
 1 *5 C u0 {2,S} {3,S} {4,S}
 2    C u0 {1,S} {5,S} {6,S}
@@ -5795,7 +5795,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5803,7 +5803,7 @@ u"""
 
 forbidden(
     label = "fused55_3223",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2    C u0 {1,S} {4,S} {7,S}
@@ -5816,7 +5816,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5824,7 +5824,7 @@ u"""
 
 forbidden(
     label = "fused55_3245",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2    C u0 {1,S} {4,S} {7,S}
@@ -5837,7 +5837,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5845,7 +5845,7 @@ u"""
 
 forbidden(
     label = "fused55_3423",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2    C u0 {1,S} {4,S} {7,S}
@@ -5858,7 +5858,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5866,7 +5866,7 @@ u"""
 
 forbidden(
     label = "fused55_3443",
-    group = 
+    group =
 """
 1    C u0 {2,S} {5,S} {6,S}
 2    C u0 {1,S} {4,S} {7,S}
@@ -5879,7 +5879,7 @@ forbidden(
 9 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5887,7 +5887,7 @@ u"""
 
 forbidden(
     label = "fused56D_1",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S} {9,S}
@@ -5901,7 +5901,7 @@ forbidden(
 10 *3 H u0 {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5909,7 +5909,7 @@ u"""
 
 forbidden(
     label = "fused56D_2",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S} {9,S}
@@ -5923,7 +5923,7 @@ forbidden(
 10 *3 H u0 {5,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5931,7 +5931,7 @@ u"""
 
 forbidden(
     label = "fused56_212",
-    group = 
+    group =
 """
 1  *4 C u0 {2,S} {3,S} {4,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -5945,7 +5945,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5953,7 +5953,7 @@ u"""
 
 forbidden(
     label = "fused56_2123",
-    group = 
+    group =
 """
 1  *4 C u0 {2,S} {4,S} {7,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -5967,7 +5967,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5975,7 +5975,7 @@ u"""
 
 forbidden(
     label = "fused56_2132",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S} {9,S}
@@ -5989,7 +5989,7 @@ forbidden(
 10 *3 H u0 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5997,7 +5997,7 @@ u"""
 
 forbidden(
     label = "fused56_2134",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {6,S}
 2  *4 C u0 {1,S} {5,S} {7,S}
@@ -6011,7 +6011,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6019,7 +6019,7 @@ u"""
 
 forbidden(
     label = "fused56_2143",
-    group = 
+    group =
 """
 1  *4 C u0 {2,S} {4,S} {7,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6033,7 +6033,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6041,7 +6041,7 @@ u"""
 
 forbidden(
     label = "fused56_2145",
-    group = 
+    group =
 """
 1     C u0 {2,S} {3,S} {4,S}
 2  *4 C u0 {1,S} {5,S} {6,S}
@@ -6055,7 +6055,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6063,7 +6063,7 @@ u"""
 
 forbidden(
     label = "fused56_2154",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {6,S}
 2  *4 C u0 {1,S} {5,S} {7,S}
@@ -6077,7 +6077,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6085,7 +6085,7 @@ u"""
 
 forbidden(
     label = "fused56_2165",
-    group = 
+    group =
 """
 1  *5 C u0 {2,S} {3,S} {4,S}
 2  *4 C u0 {1,S} {5,S} {6,S}
@@ -6099,7 +6099,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6107,7 +6107,7 @@ u"""
 
 forbidden(
     label = "fused56_2312",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S} {9,S}
@@ -6121,7 +6121,7 @@ forbidden(
 10 *3 H u0 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6129,7 +6129,7 @@ u"""
 
 forbidden(
     label = "fused56_2323",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {7,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6143,7 +6143,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6151,7 +6151,7 @@ u"""
 
 forbidden(
     label = "fused56_2343",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {7,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6165,7 +6165,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6173,7 +6173,7 @@ u"""
 
 forbidden(
     label = "fused56_2354",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {6,S}
 2     C u0 {1,S} {5,S} {7,S}
@@ -6187,7 +6187,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6195,7 +6195,7 @@ u"""
 
 forbidden(
     label = "fused56_2365",
-    group = 
+    group =
 """
 1  *5 C u0 {2,S} {3,S} {4,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6209,7 +6209,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6217,7 +6217,7 @@ u"""
 
 forbidden(
     label = "fused56_3212",
-    group = 
+    group =
 """
 1  *5 C u0 {2,S} {3,S} {4,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6231,7 +6231,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6239,7 +6239,7 @@ u"""
 
 forbidden(
     label = "fused56_3223",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {7,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6253,7 +6253,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6261,7 +6261,7 @@ u"""
 
 forbidden(
     label = "fused56_3243",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {7,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6275,7 +6275,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6283,7 +6283,7 @@ u"""
 
 forbidden(
     label = "fused56_3412",
-    group = 
+    group =
 """
 1  *5 C u0 {2,S} {3,S} {4,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6297,7 +6297,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6305,7 +6305,7 @@ u"""
 
 forbidden(
     label = "fused56_3432",
-    group = 
+    group =
 """
 1     C u0 {2,S} {3,S} {4,S}
 2     C u0 {1,S} {5,S} {6,S}
@@ -6319,7 +6319,7 @@ forbidden(
 10 *3 H u0 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6327,7 +6327,7 @@ u"""
 
 forbidden(
     label = "linked55_2112",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S}
@@ -6342,7 +6342,7 @@ forbidden(
 11 *3 H u0 {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6350,7 +6350,7 @@ u"""
 
 forbidden(
     label = "linked55_2123",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S}
@@ -6365,7 +6365,7 @@ forbidden(
 11 *3 H u0 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6373,7 +6373,7 @@ u"""
 
 forbidden(
     label = "linked55_2133",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S}
@@ -6388,7 +6388,7 @@ forbidden(
 11 *3 H u0 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6396,7 +6396,7 @@ u"""
 
 forbidden(
     label = "linked55_2333",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S}
@@ -6411,7 +6411,7 @@ forbidden(
 11 *3 H u0 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6419,7 +6419,7 @@ u"""
 
 forbidden(
     label = "linked55_3223",
-    group = 
+    group =
 """
 1     C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S}
@@ -6434,7 +6434,7 @@ forbidden(
 11 *3 H u0 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6442,7 +6442,7 @@ u"""
 
 forbidden(
     label = "linked55_3323",
-    group = 
+    group =
 """
 1  *4 C u0 {2,S} {5,S}
 2     C u0 {1,S} {3,S}
@@ -6457,7 +6457,7 @@ forbidden(
 11 *3 H u0 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6476,6 +6476,194 @@ forbidden(
 7    R!H u0 {1,S} {6,S} {8,S}
 8 *1 R!H u1 {7,S}
 9 *3 H u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_small",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S}
+2 *3 H u0 p0 {1,S}
+3 *4 O u0 p2 {4,S} {1,S}
+4 *1 O u1 p2 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_1",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {6,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_2",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {7,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_3",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {8,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *5 R!H ux px {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_4",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {9,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *5 R!H ux px {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_5",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {10,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *7 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *5 R!H ux px {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_6",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {11,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *8 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *7 R!H ux px {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *5 R!H ux px {10,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_7",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {12,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *8 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *9 R!H ux px {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *7 R!H ux px {10,[S,D,T,B]} {12,[S,D,T,B]}
+12 *5 R!H ux px {11,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_8",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {13,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *8 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *10 R!H ux px {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *9 R!H ux px {10,[S,D,T,B]} {12,[S,D,T,B]}
+12 *7 R!H ux px {11,[S,D,T,B]} {13,[S,D,T,B]}
+13 *5 R!H ux px {12,[S,D,T,B]} {1,[S,D,T,B]}
 """,
     shortDesc = u"""""",
     longDesc =

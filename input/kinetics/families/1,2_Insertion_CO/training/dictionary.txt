@@ -152,3 +152,19 @@ C2H4O2
 7    H u0 p0 c0 {3,S}
 8 *3 H u0 p0 c0 {4,S}
 
+C2H2O3
+1 *2 O u0 p2 c0 {4,S} {5,S}
+2 *4 O u0 p2 c0 {4,D}
+3    O u0 p2 c0 {5,D}
+4 *1 C u0 p0 c0 {1,S} {2,D} {7,S}
+5    C u0 p0 c0 {1,S} {3,D} {6,S}
+6    H u0 p0 c0 {5,S}
+7 *3 H u0 p0 c0 {4,S}
+
+CH2O2
+1 *2 O u0 p2 c0 {3,S} {5,S}
+2    O u0 p2 c0 {3,D}
+3    C u0 p0 c0 {1,S} {2,D} {4,S}
+4    H u0 p0 c0 {3,S}
+5 *3 H u0 p0 c0 {1,S}
+

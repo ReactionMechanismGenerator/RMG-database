@@ -28,7 +28,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
@@ -58,7 +58,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""TST calculations at M08SO/MG3S level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the M08SO/MG3S level
 using Qchem. High-pressure-limit rate coefficient computed
@@ -88,7 +88,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""TST calculations at M08SO/MG3S level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the M08SO/MG3S level
 using Qchem. High-pressure-limit rate coefficient computed
@@ -110,7 +110,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""TST calculations at M08SO/MG3S level by edames""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the M08SO/MG3S* level using Qchem. High-pressure-limit rate coefficient computed using Cantherm with 1D hindered rotor treatment for all relevant rotors. (*A computational grid with 75 radial points and 434 angular points per radial point was used in the calculations for all species)
 """,
@@ -123,7 +123,7 @@ entry(
     kinetics = Arrhenius(A=(5.97e+06, 's^-1'), n=1.8, Ea=(37.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addA <=> addB
 """,
@@ -136,7 +136,7 @@ entry(
     kinetics = Arrhenius(A=(2.81e+07, 's^-1'), n=1.72, Ea=(44.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addC <=> addD
 """,
@@ -149,7 +149,7 @@ entry(
     kinetics = Arrhenius(A=(9.37e+06, 's^-1'), n=1.6, Ea=(25.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addB <=> product7
 """,
@@ -162,7 +162,7 @@ entry(
     kinetics = Arrhenius(A=(2.88e+09, 's^-1'), n=1, Ea=(21.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addA <=> product7
 """,
@@ -175,7 +175,7 @@ entry(
     kinetics = Arrhenius(A=(1.36e+08, 's^-1'), n=1.39, Ea=(24.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addD <=> product10
 """,
@@ -188,7 +188,7 @@ entry(
     kinetics = Arrhenius(A=(5.11e+09, 's^-1'), n=1.34, Ea=(47.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product4 <=> product9
 """,
@@ -201,7 +201,7 @@ entry(
     kinetics = Arrhenius(A=(2.03e+06, 's^-1'), n=1.96, Ea=(50.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product2 <=> product5
 """,
@@ -214,7 +214,7 @@ entry(
     kinetics = Arrhenius(A=(367000, 's^-1'), n=2.24, Ea=(34.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product17 <=> product6
 """,
@@ -227,7 +227,7 @@ entry(
     kinetics = Arrhenius(A=(1.9e+10, 's^-1'), n=0.87, Ea=(34.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product29 <=> product23
 """,
@@ -240,7 +240,7 @@ entry(
     kinetics = Arrhenius(A=(285000, 's^-1'), n=2.15, Ea=(43.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product31 <=> product35
 """,
@@ -253,7 +253,7 @@ entry(
     kinetics = Arrhenius(A=(671000, 's^-1'), n=2.07, Ea=(48.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product32 <=> product38
 """,
@@ -266,7 +266,7 @@ entry(
     kinetics = Arrhenius(A=(1.41e+08, 's^-1'), n=1.52, Ea=(38.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product34 <=> product46
 """,
@@ -279,7 +279,7 @@ entry(
     kinetics = Arrhenius(A=(1.08e+06, 's^-1'), n=1.99, Ea=(25.2, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product44 <=> vinylCPDyl
 """,
@@ -292,7 +292,7 @@ entry(
     kinetics = Arrhenius(A=(1.08e+06, 's^-1'), n=1.99, Ea=(25.2, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product44 <=> product41
 """,
@@ -305,7 +305,7 @@ entry(
     kinetics = Arrhenius(A=(1.08e+06, 's^-1'), n=1.99, Ea=(25.2, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: vinylCPDyl <=> product41
 """,
@@ -318,7 +318,7 @@ entry(
     kinetics = Arrhenius(A=(1.15e+10, 's^-1'), n=0.98, Ea=(26.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_24 <=> CPDyl
 """,
@@ -331,7 +331,7 @@ entry(
     kinetics = Arrhenius(A=(1.71e+10, 's^-1'), n=1.01, Ea=(27.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_26 <=> meCPDyl
 """,
@@ -344,7 +344,7 @@ entry(
     kinetics = Arrhenius(A=(1.8e+10, 's^-1'), n=1.01, Ea=(28.2, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_28 <=> meCPDyl
 """,
@@ -357,7 +357,7 @@ entry(
     kinetics = Arrhenius(A=(3.24e+09, 's^-1'), n=1.12, Ea=(39.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C3""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: prod_30 <=> prod_33
 """,
@@ -370,7 +370,7 @@ entry(
     kinetics = Arrhenius(A=(0.107, 's^-1'), n=3.67, Ea=(29.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt14 <=> pdt20
 """,
@@ -383,7 +383,7 @@ entry(
     kinetics = Arrhenius(A=(250000, 's^-1'), n=1.95, Ea=(24, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt18 <=> pdt25
 """,
@@ -396,7 +396,7 @@ entry(
     kinetics = Arrhenius(A=(2.59e+08, 's^-1'), n=1.01, Ea=(26.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt16 <=> pdt20
 """,
@@ -409,7 +409,7 @@ entry(
     kinetics = Arrhenius(A=(1.67e+09, 's^-1'), n=1.14, Ea=(22.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt28 <=> pdt29
 """,
@@ -422,7 +422,7 @@ entry(
     kinetics = Arrhenius(A=(1.46e+07, 's^-1'), n=1.66, Ea=(31.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt28 <=> pdt23
 """,
@@ -435,7 +435,7 @@ entry(
     kinetics = Arrhenius(A=(1.83e+08, 's^-1'), n=1.45, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt10bis <=> pdt37
 """,
@@ -448,7 +448,7 @@ entry(
     kinetics = Arrhenius(A=(6.36e+06, 's^-1'), n=1.7, Ea=(31.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: adductd <=> pdt55
 """,
@@ -461,7 +461,7 @@ entry(
     kinetics = Arrhenius(A=(1.78e+06, 's^-1'), n=1.75, Ea=(25.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt15 <=> pdt55
 """,
@@ -474,7 +474,7 @@ entry(
     kinetics = Arrhenius(A=(1.04e+07, 's^-1'), n=1.61, Ea=(27.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt58 <=> pdt20
 """,
@@ -495,7 +495,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -508,7 +508,7 @@ entry(
     kinetics = Arrhenius(A=(1.68e-11, 's^-1'), n=6.833, Ea=(28.023, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> i4
 """,
@@ -521,7 +521,7 @@ entry(
     kinetics = Arrhenius(A=(1.842e-10, 's^-1'), n=6.38, Ea=(25.872, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> i7
 """,
@@ -534,7 +534,7 @@ entry(
     kinetics = Arrhenius(A=(6.414e-06, 's^-1'), n=5.188, Ea=(22.253, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i2 <=> i9
 """,
@@ -547,7 +547,7 @@ entry(
     kinetics = Arrhenius(A=(1.478, 's^-1'), n=3.436, Ea=(23.671, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: i1 <=> inew
 """,
@@ -560,7 +560,7 @@ entry(
     kinetics = Arrhenius(A=(721.5, 's^-1'), n=2.46, Ea=(3.681, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: inew <=> i4
 """,
@@ -573,7 +573,7 @@ entry(
     kinetics = Arrhenius(A=(5.265e-07, 's^-1'), n=5.639, Ea=(24.541, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c5-C6H9 <=> c5-C6H9-3
 """,
@@ -586,7 +586,7 @@ entry(
     kinetics = Arrhenius(A=(3.537e-16, 's^-1'), n=8.138, Ea=(14.583, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c5-C6H9 <=> c5-C6H9-2
 """,
@@ -599,7 +599,7 @@ entry(
     kinetics = Arrhenius(A=(3.239e-08, 's^-1'), n=6.224, Ea=(24.481, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2015_Buras_C2H3_C4H6_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: c5-C6H9-3 <=> c5-C6H9-2
 """,
@@ -612,7 +612,7 @@ entry(
     kinetics = Arrhenius(A=(264300, 's^-1'), n=1.839, Ea=(33.509, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> W4
 """,
@@ -625,7 +625,7 @@ entry(
     kinetics = Arrhenius(A=(120000, 's^-1'), n=2.099, Ea=(35.296, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> W16
 """,
@@ -638,7 +638,7 @@ entry(
     kinetics = Arrhenius(A=(1.62e+09, 's^-1'), n=1.05, Ea=(31.179, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3 <=> W7
 """,
@@ -651,7 +651,7 @@ entry(
     kinetics = Arrhenius(A=(1.806e+09, 's^-1'), n=1.172, Ea=(51.258, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3 <=> W20
 """,
@@ -664,7 +664,7 @@ entry(
     kinetics = Arrhenius(A=(9.346e+08, 's^-1'), n=1.296, Ea=(39.967, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W5 <=> W6
 """,
@@ -677,7 +677,7 @@ entry(
     kinetics = Arrhenius(A=(65110, 's^-1'), n=2.209, Ea=(29.053, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W9 <=> W7
 """,
@@ -690,7 +690,7 @@ entry(
     kinetics = Arrhenius(A=(1.048e+09, 's^-1'), n=0.924, Ea=(30.972, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W9 <=> W10
 """,
@@ -703,7 +703,7 @@ entry(
     kinetics = Arrhenius(A=(7.56e+08, 's^-1'), n=1.408, Ea=(41.295, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W10 <=> W20
 """,
@@ -716,7 +716,7 @@ entry(
     kinetics = Arrhenius(A=(1.658e+09, 's^-1'), n=0.699, Ea=(7.063, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W7 <=> W20
 """,
@@ -737,7 +737,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -750,7 +750,7 @@ entry(
     kinetics = Arrhenius(A=(6.07e+06, 's^-1'), n=2, Ea=(26.1, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt21 <=> pdt27
 """,
@@ -763,7 +763,7 @@ entry(
     kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt16 <=> pdt33
 """,
@@ -776,7 +776,7 @@ entry(
     kinetics = Arrhenius(A=(2.27e+06, 's^-1'), n=1.5, Ea=(33.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt33 <=> pdt20
 """,
@@ -789,7 +789,7 @@ entry(
     kinetics = Arrhenius(A=(1.75e+11, 's^-1'), n=0.633, Ea=(46.955, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1_2 <=> W5
 """,
@@ -802,7 +802,7 @@ entry(
     kinetics = Arrhenius(A=(401300, 's^-1'), n=2.064, Ea=(37.093, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1_2 <=> W8_9
 """,
@@ -815,7 +815,7 @@ entry(
     kinetics = Arrhenius(A=(2.915e+06, 's^-1'), n=1.697, Ea=(19.915, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3_4 <=> W13
 """,
@@ -828,7 +828,7 @@ entry(
     kinetics = Arrhenius(A=(240, 's^-1'), n=2.932, Ea=(30.907, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3_4 <=> W6
 """,
@@ -841,7 +841,7 @@ entry(
     kinetics = Arrhenius(A=(53440, 's^-1'), n=2.305, Ea=(38.286, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W5 <=> W8_9
 """,
@@ -854,7 +854,7 @@ entry(
     kinetics = Arrhenius(A=(2.166e+07, 's^-1'), n=1.625, Ea=(37.367, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W6 <=> W13
 """,
@@ -867,7 +867,7 @@ entry(
     kinetics = Arrhenius(A=(420000, 's^-1'), n=2.094, Ea=(61.014, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W8_9 <=> W20
 """,
@@ -880,7 +880,7 @@ entry(
     kinetics = Arrhenius(A=(7.5e+08, 's^-1'), n=0.835, Ea=(58.13, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W8_9 <=> W11
 """,
@@ -893,7 +893,7 @@ entry(
     kinetics = Arrhenius(A=(3.45e+06, 's^-1'), n=1.572, Ea=(60.563, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W8_9 <=> W21
 """,
@@ -906,7 +906,7 @@ entry(
     kinetics = Arrhenius(A=(1.286e+08, 's^-1'), n=1.323, Ea=(24.182, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W11 <=> W21
 """,
@@ -919,7 +919,7 @@ entry(
     kinetics = Arrhenius(A=(1.37e+08, 's^-1'), n=1.713, Ea=(43.474, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W11 <=> W20
 """,
@@ -932,7 +932,7 @@ entry(
     kinetics = Arrhenius(A=(59980, 's^-1'), n=1.941, Ea=(8.652, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W21 <=> W20
 """,
@@ -945,7 +945,7 @@ entry(
     kinetics = Arrhenius(A=(8.964e+07, 's^-1'), n=1.633, Ea=(47.984, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W101 <=> W8
 """,
@@ -958,7 +958,7 @@ entry(
     kinetics = Arrhenius(A=(1.193e+07, 's^-1'), n=1.425, Ea=(7.283, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W5 <=> W103
 """,
@@ -971,7 +971,7 @@ entry(
     kinetics = Arrhenius(A=(1.09e+11, 's^-1'), n=0.703, Ea=(23.53, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W104 <=> W6
 """,
@@ -984,7 +984,7 @@ entry(
     kinetics = Arrhenius(A=(7.423e+08, 's^-1'), n=1.522, Ea=(63.602, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W106 <=> W107
 """,
@@ -997,7 +997,7 @@ entry(
     kinetics = Arrhenius(A=(68.8, 's^-1'), n=3.351, Ea=(60.931, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W106 <=> W108
 """,
@@ -1010,7 +1010,7 @@ entry(
     kinetics = Arrhenius(A=(9.753e+08, 's^-1'), n=1.291, Ea=(40.177, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W112 <=> W118
 """,
@@ -1023,7 +1023,7 @@ entry(
     kinetics = Arrhenius(A=(3.93e+07, 's^-1'), n=1.684, Ea=(33.806, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W6 <=> W118
 """,
@@ -1036,7 +1036,7 @@ entry(
     kinetics = Arrhenius(A=(2.401e+08, 's^-1'), n=1.453, Ea=(42.614, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W115 <=> W117
 """,
@@ -1049,7 +1049,7 @@ entry(
     kinetics = Arrhenius(A=(1.181e+10, 's^-1'), n=0.964, Ea=(32.063, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W102 <=> W119
 """,
@@ -1062,7 +1062,7 @@ entry(
     kinetics = Arrhenius(A=(2.843e+08, 's^-1'), n=1.605, Ea=(56.952, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W2 <=> W4
 """,
@@ -1075,7 +1075,7 @@ entry(
     kinetics = Arrhenius(A=(24735, 's^-1'), n=2.344, Ea=(38.798, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3_6 <=> W5
 """,
@@ -1088,7 +1088,7 @@ entry(
     kinetics = Arrhenius(A=(191.5, 's^-1'), n=3.05, Ea=(53.137, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3_6 <=> W7
 """,
@@ -1101,7 +1101,7 @@ entry(
     kinetics = Arrhenius(A=(3.445e+06, 's^-1'), n=1.735, Ea=(23.162, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C2H2_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> W3
 """,
@@ -1114,7 +1114,7 @@ entry(
     kinetics = Arrhenius(A=(4.712e+10, 's^-1'), n=0.722, Ea=(41.878, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C7H7_11 <=> C7H7_10
 """,
@@ -1127,7 +1127,7 @@ entry(
     kinetics = Arrhenius(A=(9.527e+10, 's^-1'), n=0.853, Ea=(47.848, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H9_3 <=> C9H9_24
 """,
@@ -1140,7 +1140,7 @@ entry(
     kinetics = Arrhenius(A=(4.438e+10, 's^-1'), n=0.625, Ea=(38.324, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H9_24 <=> C9H9_14
 """,
@@ -1153,7 +1153,7 @@ entry(
     kinetics = Arrhenius(A=(1.231e+11, 's^-1'), n=0.765, Ea=(55.941, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H9_3 <=> C9H9_4
 """,
@@ -1166,7 +1166,7 @@ entry(
     kinetics = Arrhenius(A=(3.677e+10, 's^-1'), n=0.839, Ea=(43.638, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H9_4 <=> C9H9_5
 """,
@@ -1188,7 +1188,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1213,7 +1213,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1238,7 +1238,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1263,7 +1263,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1288,7 +1288,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1313,7 +1313,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1338,7 +1338,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1363,7 +1363,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1388,7 +1388,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1414,7 +1414,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1440,7 +1440,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1465,7 +1465,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1490,7 +1490,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1515,7 +1515,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1540,7 +1540,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1565,7 +1565,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1590,7 +1590,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1615,7 +1615,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1640,7 +1640,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1665,7 +1665,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1690,7 +1690,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1715,7 +1715,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1740,7 +1740,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1765,7 +1765,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1790,7 +1790,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1815,7 +1815,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1840,7 +1840,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1865,7 +1865,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1890,7 +1890,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1915,7 +1915,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1940,7 +1940,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1965,7 +1965,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -1990,7 +1990,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = u"""TST calculations at CBS-QB3//B3LYP/6-31G(d) level with 1-D hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3//B3LYP/6-31G(d) level
 using Gaussian 03 and Gaussian 09.
@@ -2005,7 +2005,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.427, 's^-1'), n=3.311, Ea=(30.765, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CBS-QB3 level with 1D rotor consideration
 Jim Chu's calculation
@@ -2027,7 +2027,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2048,7 +2048,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2069,7 +2069,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2090,7 +2090,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2111,7 +2111,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2132,7 +2132,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2153,7 +2153,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2174,7 +2174,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/CBS//B2PLYPD3/cc-pVTZ
 """,
@@ -2195,7 +2195,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -2216,7 +2216,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -2237,7 +2237,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -2257,9 +2257,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked by Paul Green.
@@ -2282,9 +2282,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked By Paul Green.
@@ -2309,9 +2309,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked By Paul Green.
@@ -2336,10 +2336,10 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
-Currans's estimation in his reaction type 5. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
+Currans's estimation in his reaction type 5.
 
 NEEDS TO BE CHECKED
 
@@ -2361,9 +2361,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked by Paul Green
@@ -2388,7 +2388,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2411,7 +2411,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2434,7 +2434,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2457,7 +2457,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2480,7 +2480,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2503,7 +2503,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2526,7 +2526,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2549,7 +2549,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2572,7 +2572,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2595,7 +2595,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2618,7 +2618,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2641,7 +2641,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
@@ -2664,7 +2664,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2686,7 +2686,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""JWA CCSD(T)-F12/cc-pVTZ-F12 with 1d-HR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC
 """,
@@ -2706,7 +2706,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2728,7 +2728,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2750,7 +2750,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2772,7 +2772,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2794,7 +2794,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2816,7 +2816,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2838,7 +2838,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2860,7 +2860,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2882,7 +2882,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2904,7 +2904,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2926,7 +2926,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2948,7 +2948,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2970,7 +2970,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -2992,7 +2992,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3014,7 +3014,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3036,7 +3036,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3058,7 +3058,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3080,7 +3080,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3102,7 +3102,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3124,7 +3124,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3146,7 +3146,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3168,7 +3168,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3190,7 +3190,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3212,7 +3212,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3234,7 +3234,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3256,7 +3256,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3278,7 +3278,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3300,7 +3300,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3322,7 +3322,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3344,7 +3344,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3366,7 +3366,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3388,7 +3388,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3410,7 +3410,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3432,7 +3432,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3454,7 +3454,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3476,7 +3476,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3498,7 +3498,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3520,7 +3520,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3542,7 +3542,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3566,7 +3566,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3590,7 +3590,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3612,7 +3612,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3634,7 +3634,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3656,7 +3656,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3678,7 +3678,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3700,7 +3700,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""calculated BMK/cbsb7 Aaron Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3722,7 +3722,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3744,7 +3744,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3766,7 +3766,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3788,7 +3788,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3810,7 +3810,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3834,7 +3834,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3858,7 +3858,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3880,7 +3880,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3902,7 +3902,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3924,7 +3924,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3946,7 +3946,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3968,7 +3968,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -3990,7 +3990,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4012,7 +4012,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4034,7 +4034,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4056,7 +4056,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4078,7 +4078,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4100,7 +4100,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4122,7 +4122,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4144,7 +4144,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4166,7 +4166,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4188,7 +4188,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4210,7 +4210,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4232,7 +4232,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4254,7 +4254,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4276,7 +4276,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4298,7 +4298,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4320,7 +4320,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4342,7 +4342,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4364,7 +4364,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4386,7 +4386,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4408,7 +4408,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4430,7 +4430,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4452,7 +4452,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4474,7 +4474,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4496,7 +4496,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4518,7 +4518,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4540,7 +4540,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4562,7 +4562,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4584,7 +4584,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4606,7 +4606,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4628,7 +4628,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4650,7 +4650,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4672,7 +4672,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4694,7 +4694,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4716,7 +4716,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -4738,7 +4738,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 CH3OO to CH2OOH, degeneracy=3, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4760,7 +4760,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 CH3CH2OO to CH3CHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4782,7 +4782,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 CH3CH2CH2OO to CH3CH2CHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4804,7 +4804,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 (CH3)2CHCH2OO to (CH3)2CHCHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4826,7 +4826,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 (CH3)3CCH2OO to (CH3)3CCHOOH, degeneracy=2, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4848,7 +4848,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 (CH3)2CHOO to (CH3)2COOH, degeneracy=1, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4870,7 +4870,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 CH3CH2OO to CH2CH2OOH, degeneracy=3, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4892,7 +4892,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 (CH3)2CHOO to CH3(CH2)CHOOH, degeneracy=6, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4914,7 +4914,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy CBS-Q calculations""",
-    longDesc = 
+    longDesc =
 u"""
 (CH3)3COO to (CH3)2(CH2)COOH, degeneracy=9, rate for per hydrogen, J. Phys. Chem. A.,Vol.114,No.18,2010
 
@@ -4935,7 +4935,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_H/NonDeC
 """,
@@ -4954,7 +4954,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_out_H/NonDeC
 """,
@@ -4973,7 +4973,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_O(Cs)CsCs;O_rad_out;Cs_H_out_H/NonDeC
 """,
@@ -4992,7 +4992,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_Cs2
 """,
@@ -5011,7 +5011,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_out_Cs2
 """,
@@ -5030,7 +5030,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_O(Cs)CsCs;O_rad_out;Cs_H_out_Cs2
 """,
@@ -5050,7 +5050,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5072,7 +5072,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5094,7 +5094,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5116,7 +5116,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5138,7 +5138,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5160,7 +5160,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5182,7 +5182,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5204,7 +5204,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5226,7 +5226,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
-    longDesc = 
+    longDesc =
 u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 
@@ -5248,9 +5248,9 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
+[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 
 Converted to training reaction from rate rule: R6H_SSSSS_OO;O_rad_out;Cs_H_out_H/NonDeC
@@ -5271,7 +5271,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
@@ -5294,7 +5294,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
@@ -5317,9 +5317,9 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
+[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 
 Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_H/NonDeC
@@ -5339,7 +5339,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R7H_OOCs4;O_rad_out;Cs_H_out_Cs2
 """,
@@ -5359,7 +5359,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5381,7 +5381,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5403,7 +5403,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5425,7 +5425,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5447,7 +5447,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_out_H/NonDeO
 """,
@@ -5467,7 +5467,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5489,7 +5489,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5511,7 +5511,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5533,7 +5533,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5555,7 +5555,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5577,7 +5577,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5599,7 +5599,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5621,7 +5621,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5643,7 +5643,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 
@@ -5665,7 +5665,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep's CBS-QB3 calculations.
 
@@ -5687,7 +5687,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep's CBS-QB3 calculations.
 
@@ -5709,7 +5709,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep's CBS-QB3 calculations.
 
@@ -5731,7 +5731,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep's CBS-QB3 calculations.
 
@@ -5753,7 +5753,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep's CBS-QB3 calculations.
 
@@ -5775,7 +5775,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Sandeep's CBS-QB3 calculations.
 
@@ -5797,11 +5797,11 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MHS CBS-QB3 calculations.""",
-    longDesc = 
+    longDesc =
 u"""
-MHS CBS-QB3 calculations for CH3-CH2-CH=CH-O* == CH3-C*H-CH=CH-OH.  
-Product is the cis configuration because TS is also cis.  
-Note--this only affects the tunneling correction (b/c in products).  
+MHS CBS-QB3 calculations for CH3-CH2-CH=CH-O* == CH3-C*H-CH=CH-OH.
+Product is the cis configuration because TS is also cis.
+Note--this only affects the tunneling correction (b/c in products).
 Only methyl rotor was considered for TS.
 
 Converted to training reaction from rate rule: R4H_SDS;O_rad_out;Cs_H_out_H/NonDeC
@@ -5822,7 +5822,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations w/1d h.r. corrections""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations with 1-d hindered rotor corrections for CH2=CH-CH2-OO => CH=CH-CH2-OOH
 
@@ -5858,7 +5858,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -5880,7 +5880,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cs_H_out_OOH/Cs
 """,
@@ -5900,7 +5900,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_O(Cs)Cs;O_rad_out;Cs_H_out_OOH/H
 """,
@@ -5920,7 +5920,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -5942,7 +5942,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -5964,7 +5964,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SSSS_OCC_C;O_rad_out;Cs_H_out_OOH/H
 """,
@@ -5984,7 +5984,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -6006,7 +6006,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SSSS_OCC;O_rad_out;Cs_H_out_OOH/Cs
 """,
@@ -6026,7 +6026,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -6048,7 +6048,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -6070,7 +6070,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R6H_SSSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_OOH/H
 """,
@@ -6090,7 +6090,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R6H_SSSSS_OOCCC(Cs/Cs);O_rad_out;Cs_H_out_OOH/Cs
 """,
@@ -6110,7 +6110,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs);O_rad_out;Cs_H_out_OOH/Cs
 """,
@@ -6130,7 +6130,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -6152,7 +6152,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R7H_OOCCCC(Cs/Cs);O_rad_out;Cs_H_out_OOH/Cs
 """,
@@ -6172,7 +6172,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of primary H (per H atom)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_CCC;O_rad_out;Cs_H_out_2H
 """,
@@ -6192,7 +6192,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of secondary H (per H atom)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_CCC;O_rad_out;Cs_H_out_H/NonDeC
 """,
@@ -6212,7 +6212,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of tertiary H""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_CCC;O_rad_out;Cs_H_out
 """,
@@ -6232,7 +6232,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;S_H_out
 """,
@@ -6252,7 +6252,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS_Cs;C_rad_out_2H;S_H_out
 """,
@@ -6272,7 +6272,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS_S;C_rad_out_2H;S_H_out
 """,
@@ -6292,7 +6292,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;S_H_out
 """,
@@ -6312,7 +6312,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_2H;S_H_out
 """,
@@ -6332,7 +6332,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_CsS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
 """,
@@ -6352,7 +6352,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SSSS_CsCsS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC
 """,
@@ -6372,7 +6372,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeS
 """,
@@ -6392,7 +6392,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeS
 """,
@@ -6412,7 +6412,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS;O_rad_out;S_H_out
 """,
@@ -6432,7 +6432,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeC;O_H_out
 """,
@@ -6452,7 +6452,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CAC CBS-QB3 calc, HO approx""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SDS;C_rad_out_H/NonDeC;S_H_out
 """,
@@ -6472,7 +6472,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeO;Cs_H_out_2H
 """,
@@ -6492,7 +6492,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;O_H_out
 """,
@@ -6512,7 +6512,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeC;O_H_out
 """,
@@ -6532,7 +6532,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;Cs_H_out_H/NonDeO
 """,
@@ -6552,7 +6552,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;O_rad_out;Cs_H_out_H/(NonDeC/Cs)
 """,
@@ -6572,7 +6572,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""RQCISD(T)/CBS""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;O_rad_out;Cs_H_out_H/NonDeC
 """,
@@ -6592,7 +6592,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Obtained by reversing rate rule 1006""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS;O_rad_out;Cs_H_out_H/(NonDeC/Cs)
 """,
@@ -6612,7 +6612,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Obtained by reversing rate rule 1010""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -6634,7 +6634,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;Cs_H_out_H/OneDe
 """,
@@ -6654,7 +6654,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SSSS;C_rad_out_2H;Cs_H_out_H/OneDe
 """,
@@ -6674,7 +6674,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 1D-HR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5H_SMSS;C_rad_out_2H;Cs_H_out_H/Cd
 """,
@@ -6694,7 +6694,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/OneDe
 """,
@@ -6714,7 +6714,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R6H_SSSSS;C_rad_out_2H;Cs_H_out_H/OneDe
 """,
@@ -6734,7 +6734,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""estimate""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SDS;C_rad_out_H/NonDeC;Cs_H_out_H/(NonDeC/Cs)
 """,
@@ -6754,7 +6754,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -6776,7 +6776,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS_O;O_rad_out;Cs_H_out_H/Cd
 """,
@@ -6796,7 +6796,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS_OCs;O_rad_out;Cd_H_out_doubleC
 """,
@@ -6816,7 +6816,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/(NonDeC/O)
 """,
@@ -6836,7 +6836,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeO
 """,
@@ -6856,7 +6856,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4H_SSS;C_rad_out_2H;O_H_out
 """,
@@ -6876,7 +6876,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeO
 """,
@@ -6896,7 +6896,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeO;Cs_H_out_H/NonDeC
 """,
@@ -6916,7 +6916,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS;C_rad_out_H/NonDeO;Cs_H_out_2H
 """,
@@ -6936,7 +6936,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""SSM CBS-QB3 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3H_SS;O_rad_out;Cs_H_out_Cs2
 """,
@@ -6956,7 +6956,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Aaron BMK/cbsb7 with 1-dHR""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;O_H_out
 """,
@@ -6976,9 +6976,9 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = 
+    longDesc =
 u"""
-RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
+RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
 
 Converted to training reaction from rate rule: R2H_S;C_rad_out_H/NonDeO;Cs_H_out_2H
@@ -6999,9 +6999,9 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = 
+    longDesc =
 u"""
-RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
+RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
 
 Converted to training reaction from rate rule: R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeO
@@ -7022,9 +7022,9 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""ED, RQCISD(T)/CBS TST with Eckart and 1-HR""",
-    longDesc = 
+    longDesc =
 u"""
-RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for 
+RQCISD(T)/CBS TST calculations with Eckart and 1-dHR corrections from Enoch for
 alpha-hydroxyethyl surface, reference: doi 10.1002/kin.20844
 
 Converted to training reaction from rate rule: R2H_S;O_rad_out;Cs_H_out_H/NonDeC
@@ -7045,7 +7045,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Aaron Vandeputte BMK/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 BMK/6-311G(2d,d,p) TST Eckart, no HR. calculated for cycC5H5-CH2 -> cycC5H4-CH3
 
@@ -7067,9 +7067,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked by Paul Green.
@@ -7094,9 +7094,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked By Paul Green
@@ -7121,9 +7121,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked By Paul Green.
@@ -7148,9 +7148,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
-[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
+[5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149.
 Currans's estimation in his reaction type 5. C7H15
 
 Checked By Paul Green
@@ -7175,7 +7175,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7199,7 +7199,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7223,7 +7223,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7247,7 +7247,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7271,7 +7271,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7295,7 +7295,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7319,7 +7319,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7343,7 +7343,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7367,7 +7367,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7391,7 +7391,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7415,7 +7415,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7439,7 +7439,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7463,7 +7463,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7487,7 +7487,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7511,7 +7511,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7535,7 +7535,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7559,7 +7559,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7583,7 +7583,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7607,7 +7607,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7631,7 +7631,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7655,7 +7655,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7679,7 +7679,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7703,7 +7703,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7727,7 +7727,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7751,7 +7751,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7775,7 +7775,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7799,7 +7799,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7823,7 +7823,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7847,7 +7847,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7871,7 +7871,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7895,7 +7895,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7919,7 +7919,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7943,7 +7943,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7967,7 +7967,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -7991,7 +7991,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8015,7 +8015,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8039,7 +8039,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8063,7 +8063,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8087,7 +8087,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8111,7 +8111,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8135,7 +8135,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8159,7 +8159,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8183,7 +8183,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8207,7 +8207,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8231,7 +8231,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8255,7 +8255,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8279,7 +8279,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8303,7 +8303,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8327,7 +8327,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8351,7 +8351,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8375,7 +8375,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8399,7 +8399,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8423,7 +8423,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8447,7 +8447,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8471,7 +8471,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8495,7 +8495,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8519,7 +8519,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8543,7 +8543,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8567,7 +8567,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8591,7 +8591,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8615,7 +8615,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8639,7 +8639,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8663,7 +8663,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 
@@ -8687,7 +8687,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte BMK/cbsb7 HO""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -8709,7 +8709,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""estimate""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -8731,7 +8731,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
-    longDesc = 
+    longDesc =
 u"""
 Degeneracy not recalculated
 
@@ -8752,9 +8752,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8775,9 +8775,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8798,9 +8798,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8821,9 +8821,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8844,9 +8844,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8867,9 +8867,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8890,9 +8890,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8913,9 +8913,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8935,9 +8935,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8958,9 +8958,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -8974,7 +8974,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.208e+12, 's^-1'), n=1.135, Ea=(109.513, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Calculated by Jim at the CBS-QB3 level
 """,
@@ -9010,7 +9010,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.546e+09, 's^-1'), n=0.732, Ea=(6.008, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
 Original entry: W1 <=> W4
@@ -9023,7 +9023,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.9e+12, 's^-1'), n=0.45, Ea=(45.74, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
 Original entry: 2-Phenylvinyl <=> 1-Phenylvinyl
@@ -9036,7 +9036,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.9e+12, 's^-1'), n=0.45, Ea=(45.74, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
 Original entry: 2-Phenylvinyl <=> 1-Phenylvinyl
@@ -9057,7 +9057,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
 """,
@@ -9077,7 +9077,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
 """,
@@ -9097,7 +9097,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
 """,
@@ -9117,7 +9117,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
 """,
@@ -9130,7 +9130,7 @@ entry(
     kinetics = Arrhenius(A=(6.39788e-06,'s^-1'), n=5.23859, Ea=(51.7426,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 4.14562, dn = +|- 0.188969, dEa = +|- 0.967947 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: dmbene_chemistry
 Original entry: CC(C)C(C)(C)[O] <=> C[C](C)C(C)(C)O
@@ -9144,7 +9144,7 @@ entry(
     kinetics = Arrhenius(A=(0.00510888,'s^-1'), n=3.75222, Ea=(46.2937,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.29282, dn = +|- 0.110265, dEa = +|- 0.564808 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: dmbene_chemistry
 Original entry: C=C(COO)[C](C)C <=> CC(C)=C(C)CO[O]
@@ -9158,7 +9158,7 @@ entry(
     kinetics = Arrhenius(A=(3.0933e-06,'s^-1'), n=5.11352, Ea=(72.5149,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.81603, dn = +|- 0.137579, dEa = +|- 0.704717 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: dmbene_chemistry
 Original entry: CC(C)C(C)(C)O[O] <=> C[C](C)C(C)(C)OO
@@ -9172,10 +9172,322 @@ entry(
     kinetics = Arrhenius(A=(0.00102212,'s^-1'), n=3.83547, Ea=(46.0919,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.286, dn = +|- 0.109869, dEa = +|- 0.56278 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: dmbene_chemistry
 Original entry: C=C(C)[C](C)COO <=> CC(C)=C(C)CO[O]
 """,
 )
 
+entry(
+    index = 444,
+    label = "C4H9O3-9 <=> C4H9O3-10",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(1.33e+10,'s^-1'), n=0.572, Ea=(16.672,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO1QJ <=> MPO1Q-1J
+REF: G4 calculations and HID from RMG
+""",
+)
+
+entry(
+    index = 445,
+    label = "C4H9O3-11 <=> C4H9O3-12",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(150.5,'s^-1'), n=2.993, Ea=(22.041,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO1QJ <=> MPO1Q2J
+""",
+)
+
+entry(
+    index = 446,
+    label = "C4H9O3-13 <=> C4H9O3-14",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(187400,'s^-1'), n=2.003, Ea=(17.53,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO1QJ <=> MPO1Q3J
+""",
+)
+
+entry(
+    index = 447,
+    label = "C4H9O5 <=> C4H9O5-2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(4.552e+08,'s^-1'), n=0.526, Ea=(13.985,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO1Q-1QJ <=> MPO1Q2J-1Q
+changed
+""",
+)
+
+entry(
+    index = 448,
+    label = "C4H9O5-3 <=> C4H9O5-4",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(282200,'s^-1'), n=2.104, Ea=(25.626,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO1Q3QJ <=> MPO1Q2J3Q
+changed
+""",
+)
+
+entry(
+    index = 449,
+    label = "C4H9O3-15 <=> C4H9O3-16",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(408,'s^-1'), n=2.867, Ea=(11.522,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3OCH2CH2CH2OO <=> CH3OCHCH2CH2OOH
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 450,
+    label = "C4H9O3-17 <=> C4H9O3-18",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(365.494,'s^-1'), n=2.43777, Ea=(54.2242,'kJ/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3CH2CH2OCH2OO <=> CH3CH2CHOCH2OOH
+Duminda CBS-QB3 calculation
+""",
+)
+
+entry(
+    index = 451,
+    label = "C4H9O3-19 <=> C4H9O3-20",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(1.08e+06,'s^-1'), n=1.318, Ea=(12.857,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3CH2CH2OCH2OO <=> CH3CHCH2OCH2OOH
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 452,
+    label = "C4H9O3-21 <=> C4H9O3-22",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(266000,'s^-1'), n=1.471, Ea=(17.342,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3CH2CH2OCH2OO <=> CH3CH2CH2OCH2OOH
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 453,
+    label = "C4H9O3-23 <=> C4H9O3-24",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(229,'s^-1'), n=2.835, Ea=(14.234,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3CH2OOdCH2OCH3 <=> CH3CH2OOHCH2OCH2
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 454,
+    label = "C4H9O3-25 <=> C4H9O3-26",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(70.8,'s^-1'), n=2.997, Ea=(12.299,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3OCH2CH2CH2OO <=> HOOCH2CH2CH2OCH2
+Mark Nimlos G4 calculation
+""",
+)
+
+entry(
+    index = 455,
+    label = "C4H9O5-5 <=> C4H9O5-6",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(1.001e+06,'s^-1'), n=1.787, Ea=(12.758,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3OCHOOdCH2CH2OOH <=> CH2OCHOOHCH2CH2OOH
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 456,
+    label = "C4H9O5-7 <=> C4H9O5-8",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(576200,'s^-1'), n=2.192, Ea=(12.76,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3OCHOOdCH2CH2OOH <=> CH3OCHOOHCH2CHOOH
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 457,
+    label = "C4H9O5-9 <=> C4H9O5-10",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(7.233e+07,'s^-1'), n=1.052, Ea=(15.218,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3CH2CHOOdOCH2OOH <=> CH2CH2CHOOHOCH2OOH
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 458,
+    label = "C4H9O5-11 <=> C4H9O5-12",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(805600,'s^-1'), n=1.921, Ea=(13.702,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CH3CH2CHOOdOCH2OOH <=> CH3CH2CHOOHOCHOOH
+Mark Nimlos G4 calculation RRHO
+""",
+)
+
+entry(
+    index = 459,
+    label = "C3H5O3 <=> C3H5O3-2",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(60,'s^-1'), n=3.061, Ea=(11.936,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CCC(O[O])=O <=> [CH2]CC(OO)=O
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 460,
+    label = "C3H5O3-3 <=> C3H5O3-4",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(4.99e+08,'s^-1'), n=0.586, Ea=(13.751,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CC(O[O])C=O <=> CC(OO)[C]=O
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 461,
+    label = "C3H5O3-5 <=> C3H5O3-6",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(4290,'s^-1'), n=2.615, Ea=(9.271,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: C(O[O])CC=O <=> C(OO)C[C]=O
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 462,
+    label = "C3H5O4 <=> C3H5O4-2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(3.951e+06,'s^-1'), n=1.665, Ea=(36.775,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: [O]OCC(O)C=O <=> O=[C]C(O)COO
+Mark Nimlos Calculation
+""",
+)
+
+entry(
+    index = 463,
+    label = "C4H9O5-13 <=> C4H9O5-14",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(3.797e+10,'s^-1'), n=0.071, Ea=(35.51,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CC(COCO[O])OO <=> CC([CH]OCOO)OO
+Mark Nimlos Calculation
+""",
+)
+
+entry(
+    index = 464,
+    label = "C4H7O3 <=> C4H7O3-2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(4052.73,'s^-1'), n=2.61055, Ea=(46.1583,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO1O-1OJ <=> C[CH]C(=O)OCO
+Mark Nimlos CBS-QB3 calculation
+""",
+)
