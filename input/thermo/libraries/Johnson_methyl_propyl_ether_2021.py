@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Bu_MPO"
+name = "Johnson_methyl_propyl_ether_2021"
 shortDesc = u""
 longDesc = u"""
-
+Calculations from Johnson et al. 2021
+G4 calculations were done by Bu Lintao and Mark Nimlos
+CBS-QB3 calculations were done by Matthew Johnson
 """
 
 entry(
