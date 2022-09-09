@@ -58,6 +58,7 @@ default = {
     '1,3_NH3_elimination',
     'Retroene',
     'Ketoenol',
+    'concerted_intra_H_alphaQOOH_break'
 }
 
 # Families for pyrolysis of C/H systems
@@ -120,7 +121,7 @@ surface = {
     'Surface_Adsorption_Abstraction_vdW',
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
-    'Surface_DoubleBond_to_Bidentate', 
+    'Surface_DoubleBond_to_Bidentate',
     'Surface_vdW_to_Bidentate',
     'Surface_Abstraction_Single_vdW',
     'Surface_Adsorption_Dissociative_Double',
