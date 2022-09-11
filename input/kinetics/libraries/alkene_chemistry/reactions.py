@@ -475,195 +475,200 @@ entry(
     index = 58,
     label = "C2H4 + OH <=> [CH2]CO",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(2.31244e+06,'cm^3/(mol*s)'), n=2.03, Ea=(-7.97,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    kinetics = Arrhenius(A=(3.84e-18,'cm^3/(molecule*s)'), n=2.03, Ea=(1.90,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) G09 Hindered rotor approximation from [3] by Xiao et al.
-A is multiplied by 2 as the reported value is per additional site.""",
+Cited from the Supplementary Information Table S6. A is multiplied by 2 as the reported value is per additional site.""",
 )
 
 entry(
     index = 59,
     label = "C3H6 + OH <=> [CH2]C(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(175240,'cm^3/(mol*s)'), n=2.05, Ea=(-10.02,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(2.91e-19,'cm^3/(molecule*s)'), n=2.05, Ea=(-2.39,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 60,
     label = "C4H8-1 + OH <=> CCC([CH2])O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(66844.2,'cm^3/(mol*s)'), n=2.12, Ea=(-10.18,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(1.11e-19,'cm^3/(molecule*s)'), n=2.12, Ea=(-2.43,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 61,
     label = "C5H10-1 + OH <=> CCCC([CH2])O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(337.834,'cm^3/(mol*s)'), n=3.03, Ea=(-11.31,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(5.61e-22,'cm^3/(molecule*s)'), n=3.03, Ea=(-2.70,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 62,
     label = "iC4H8 + OH <=> CC(C)([CH2])O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.58772e+06,'cm^3/(mol*s)'), n=2.06, Ea=(-10.45,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(1.26e-17,'cm^3/(molecule*s)'), n=2.06, Ea=(-2.50,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 63,
     label = "iC5H10-1 + OH <=> CCC(C)([CH2])O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(62628.8,'cm^3/(mol*s)'), n=2.04, Ea=(-8.18,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(1.04e-19,'cm^3/(molecule*s)'), n=2.04, Ea=(-1.96,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 64,
     label = "CCCC(C)=C + OH <=> CCCC(C)([CH2])O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(31133.7,'cm^3/(mol*s)'), n=2.06, Ea=(-10.27,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(5.17e-20,'cm^3/(molecule*s)'), n=2.06, Ea=(-2.45,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 65,
     label = "C4H8-2 + OH <=> C[CH]C(C)O",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.34893e+06,'cm^3/(mol*s)'), n=1.84, Ea=(-13.36,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    kinetics = Arrhenius(A=(2.24e-18,'cm^3/(molecule*s)'), n=1.84, Ea=(-3.19,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.
-A is multiplied by 2 as the reported value is per additional site.""",
+Cited from the Supplementary Information Table S6. A is multiplied by 2 as the reported value is per additional site. Value is for trans-but-2-ene.""",
 )
 
 entry(
     index = 66,
     label = "C5H10-2 + OH <=> C[CH]C(CC)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(19.6317,'cm^3/(mol*s)'), n=3.36, Ea=(-13.6,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(3.26e-23,'cm^3/(molecule*s)'), n=3.36, Ea=(-3.25,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 67,
     label = "C5H10-2 + OH <=> CC[CH]C(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.42119e+07,'cm^3/(mol*s)'), n=1.44, Ea=(-11.24,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(2.36e-17,'cm^3/(molecule*s)'), n=1.44, Ea=(-2.69,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 68,
     label = "iC4H8 + OH <=> C[C](C)CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(37757.9,'cm^3/(mol*s)'), n=2.45, Ea=(-13.15,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(6.27e-20,'cm^3/(molecule*s)'), n=2.45, Ea=(-3.14,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 69,
     label = "iC5H10-1 + OH <=> CC[C](C)CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.46728e+07,'cm^3/(mol*s)'), n=1.28, Ea=(-10.79,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(1.24e-16,'cm^3/(molecule*s)'), n=1.28, Ea=(-2.58,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 70,
     label = "CCCC(C)=C + OH <=> CCC[C](C)CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5588.42,'cm^3/(mol*s)'), n=2.48, Ea=(-13.58,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(9.28e-21,'cm^3/(molecule*s)'), n=2.48, Ea=(-3.25,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 71,
     label = "C3H6 + OH <=> C[CH]CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(175240,'cm^3/(mol*s)'), n=2.05, Ea=(-10.02,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(2.91e-19,'cm^3/(molecule*s)'), n=2.05, Ea=(-2.39,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 72,
     label = "C4H8-1 + OH <=> CC[CH]CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.88419e+07,'cm^3/(mol*s)'), n=1.37, Ea=(-8.5,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(6.45e-17,'cm^3/(molecule*s)'), n=1.37, Ea=(-2.03,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 73,
     label = "C5H10-1 + OH <=> CCC[CH]CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.35993e+07,'cm^3/(mol*s)'), n=1.35, Ea=(-8.66,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(7.24e-17,'cm^3/(molecule*s)'), n=1.35, Ea=(-2.07,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 74,
     label = "iC5H10-2 + OH <=> C[CH]C(C)(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.24655e+07,'cm^3/(mol*s)'), n=1.58, Ea=(-13.35,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(2.07e-17,'cm^3/(molecule*s)'), n=1.58, Ea=(-3.19,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 75,
     label = "iC6H12-2 + OH <=> CC[CH]C(C)(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(28664.7,'cm^3/(mol*s)'), n=2.45, Ea=(-15.78,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(2.26e-20,'cm^3/(molecule*s)'), n=2.44, Ea=(-14.91,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.
+The original unit is kcal/mol but Xiaorui Dong corrected it to kJ/mol.""",
 )
 
 entry(
     index = 76,
     label = "iC5H10-2 + OH <=> C[C](C)C(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(698.552,'cm^3/(mol*s)'), n=2.98, Ea=(-17.43,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(1.16e-21,'cm^3/(molecule*s)'), n=2.98, Ea=(-4.17,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.""",
 )
 
 entry(
     index = 77,
     label = "iC6H12-2 + OH <=> C[C](C)C(CC)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(32699.5,'cm^3/(mol*s)'), n=2.41, Ea=(-16.23,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(5.43e-20,'cm^3/(molecule*s)'), n=2.41, Ea=(-16.23,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.
+The original unit is kcal/mol but Xiaorui Dong corrected it to kJ/mol.""",
 )
 
 entry(
     index = 78,
     label = "CC=C(CC)CC + OH <=> CC[C](CC)C(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(23365.4,'cm^3/(mol*s)'), n=2.41, Ea=(-15.52,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(3.88e-20,'cm^3/(molecule*s)'), n=2.41, Ea=(-15.52,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.
+The original unit is kcal/mol but Xiaorui Dong corrected it to kJ/mol.""",
 )
 
 entry(
     index = 79,
     label = "CC(C)=C(C)C + OH <=> C[C](C)C(C)(C)O",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(42635.8,'cm^3/(mol*s)'), n=2.39, Ea=(-19.2,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.
-A is multiplied by 2 as the reported value is per additional site.""",
+    kinetics = Arrhenius(A=(7.08e-20,'cm^3/(molecule*s)'), n=2.39, Ea=(-19.2,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.
+The original unit is kcal/mol but Xiaorui Dong corrected it to kJ/mol. A is multiplied by 2 as the reported value is per additional site.""",
 )
 
 entry(
     index = 80,
     label = "CCC(C)=C(C)C + OH <=> CC[C](C)C(C)(C)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(18427.3,'cm^3/(mol*s)'), n=2.39, Ea=(-18.27,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(3.06e-20,'cm^3/(molecule*s)'), n=2.39, Ea=(-18.27,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.
+The original unit is kcal/mol but Xiaorui Dong corrected it to kJ/mol.""",
 )
 
 entry(
     index = 81,
     label = "CCC(C)=C(C)C + OH <=> C[C](C)C(C)(CC)O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(77683.8,'cm^3/(mol*s)'), n=2.39, Ea=(-18.58,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al.""",
+    kinetics = Arrhenius(A=(1.29e-19,'cm^3/(molecule*s)'), n=2.39, Ea=(-18.58,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    shortDesc = """calculated at CCSD(T)/CBS//BH&HLYP/6-311+G(d,p) with G09 Hindered rotor approximation from [3] by Xiao et al. Cited from the Supplementary Information Table S6.
+The original unit is kcal/mol but Xiaorui Dong corrected it to kJ/mol.""",
 )
 
 entry(
