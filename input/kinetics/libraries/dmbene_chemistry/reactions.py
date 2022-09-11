@@ -34,9 +34,9 @@ entry(
 entry(
     index = 3,
     label = "CC(C)=C(C)C + [O] <=> C[C](C)C(C)(C)[O]",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(3.15365e+08,'cm^3/(mol*s)'), n=2.01982, Ea=(-22.3771,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00382, dn = +|- 0.000506173, dEa = +|- 0.00259275 kJ/mol"""),
+    kinetics = Arrhenius(A=(1.37842e+08,'cm^3/(mol*s)'), n=1.57497, Ea=(-21.1448,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00676, dn = +|- 0.000894749, dEa = +|- 0.00458314 kJ/mol"""),
 )
 
 entry(
@@ -50,9 +50,9 @@ entry(
 entry(
     index = 5,
     label = "CC(C)=C(C)C + [H] <=> C[C](C)C(C)C",
-    degeneracy = 1.0,
+    degeneracy = 2.0,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.64069e+11,'cm^3/(mol*s)'), n=1.49791, Ea=(2.20559,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00267, dn = +|- 0.000354366, dEa = +|- 0.00181516 kJ/mol"""),
+    kinetics = Arrhenius(A=(1.01749e+09,'cm^3/(mol*s)'), n=1.49735, Ea=(2.20681,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00274, dn = +|- 0.000364081, dEa = +|- 0.00186492 kJ/mol"""),
 )
 
 entry(
