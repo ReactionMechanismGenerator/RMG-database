@@ -36,7 +36,7 @@ entry(
 
 entry(
     index = 3,
-    label = "sBA  <=> E-2-butene + AcOH",
+    label = "CCC(C)OC(C)=O <=> E-2-butene + CC(=O)O",
     degeneracy = 2.0,
     elementary_high_p = True,
     kinetics = MultiArrhenius(
