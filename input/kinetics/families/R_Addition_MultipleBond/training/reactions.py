@@ -59449,7 +59449,7 @@ entry(
     index = 2954,
     label = "O + C6H12 <=> C6H12O",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(3.15365e+08,'cm^3/(mol*s)'), n=2.01982, Ea=(-22.3771,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00382, dn = +|- 0.000506173, dEa = +|- 0.00259275 kJ/mol"""),
+    kinetics = Arrhenius(A=(1.37842e+08,'cm^3/(mol*s)'), n=1.57497, Ea=(-21.1448,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00676, dn = +|- 0.000894749, dEa = +|- 0.00458314 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
     longDesc = 
@@ -59477,7 +59477,7 @@ entry(
     index = 2956,
     label = "H + C6H12 <=> C6H13-9",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.64069e+11,'cm^3/(mol*s)'), n=1.49791, Ea=(2.20559,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00267, dn = +|- 0.000354366, dEa = +|- 0.00181516 kJ/mol"""),
+    kinetics = Arrhenius(A=(1.01749e+09,'cm^3/(mol*s)'), n=1.49735, Ea=(2.20681,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.00274, dn = +|- 0.000364081, dEa = +|- 0.00186492 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
     longDesc = 
