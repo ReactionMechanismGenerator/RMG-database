@@ -5,9 +5,10 @@
 name = "SurfaceThermoPt111"
 shortDesc = u"Surface adsorbates on Pt(111)"
 longDesc = u"""
-Some surface species adsorbed on Pt(111),
-Mostly calculated by Katrin Blondal at Brown University around 2018,
-based on DFT calculations by Jelena Jelic at KIT.
+Some surface species adsorbed on Pt(111). The thermochemistry of all adsorbates with up to 2 heavy atoms was calculated by Katrin Blondal at Brown University around 2018,
+based on DFT calculations by Jelena Jelic at KIT. See https://doi.org/10.1021/acs.iecr.9b01464 for the details on the computational methods as well as the results. This database was 
+extended with DFT calculations for larger adsorbates by Bjarne Kreitz (Brown University). 
+The computational methods for the extension are explained in detail in https://doi.org/10.1021/acscatal.2c03378. If you use this database in your work, please cite the publications mentioned above. 
 Note: "-h" means "horizontal".
 """
 #
@@ -2347,7 +2348,7 @@ entry(
 
 entry(
     index = 87,
-    label = "h-CH2CHCH2_ads",
+    label = "CH2CHCH2-h_ads",
     molecule =  
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
@@ -2589,7 +2590,7 @@ entry(
 
 entry(
     index = 96,
-    label = "h-CCCH2_ads",
+    label = "CCCH2-h_ads",
     molecule =  
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -2937,4 +2938,4 @@ entry(
     metal = "Pt",
     facet = "111",
 )
-
+ 
