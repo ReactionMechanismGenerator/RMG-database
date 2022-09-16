@@ -367,3 +367,60 @@ eErxn = 0.78
 """,
     metal = "Cu",
 )
+
+entry(
+    index = 60,
+    label = "HCCH2_2X + Ni_4 <=> HCCH_2X + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.9460e16, 'm^2/(mol*s)'),
+        n = 0.512, 
+        Ea=(69707.5, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 61,
+    label = "H2CCH2_2X + Ni_4 <=> H2CCH_2X + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(3.034e15, 'm^2/(mol*s)'), 
+        n = 0.661, 
+        Ea=(55411.0, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 62,
+    label = "H2CO_2X + Ni_4 <=> HCO_2X + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.438e17, 'm^2/(mol*s)'),
+        n = 0.043, 
+        Ea=(1417.1, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+""",
+    metal = "Pt",
+)
