@@ -16,7 +16,7 @@ will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s). 
 """
 
-template(reactants=["Combined", "Adsorbate1"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
+template(reactants=["Abstracting", "Donating"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
 
 reverse = "Surface_Abstraction_reverse_Beta_vdW"
 
@@ -33,7 +33,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Combined",
+    label = "Donating",
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
@@ -46,7 +46,7 @@ entry(
 
 entry(
     index = 2,
-    label="Adsorbate1",
+    label="Abstracting",
     group =
 """
 1 *6 Xo  u0 {2,S}
@@ -57,7 +57,7 @@ entry(
 
 entry(
     index = 3,
-    label = "C-H",
+    label = "R-C-H",
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
@@ -70,7 +70,7 @@ entry(
 
 entry(
     index = 4,
-    label = "O-H",
+    label = "R-O-H",
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
@@ -93,12 +93,30 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 6,
+    label = "R-CH3",
+    group =
+"""
+1 *1 R!H u0 px cx {2,S} {4,S}
+2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+3 *3 H   u0 {2,S}
+4 *5 Xo  u0 {1,S}
+5    H   u0 {2,S}
+6    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+
+
 tree(
 """
-L1: Combined
-    L2: C-H
-    L2: O-H
-L1: Adsorbate1
+L1: Abstracting
     L2: OH
+L1: Donating
+    L2: R-C-H
+	L3: R-CH3
+    L2: R-O-H
 """
 )

@@ -526,6 +526,48 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 42,
+    label="*-CH-H",
+    group =
+"""
+1 *4 H   u0 p0 c0 {2,S}
+2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 *5 Xo  u0 p0 c0 {2,S}
+4    R   u0 px c0 {2,S}
+5    H   u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 43,
+    label="*=CH-H",
+    group =
+"""
+1 *4 H  u0 p0 c0 {2,S}
+2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}
+3 *5 Xo u0 p0 c0 {2,D}
+4    H  u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 44,
+    label="*-CH2-H",
+    group =
+"""
+1 *4 H   u0 p0 c0 {2,S}
+2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 *5 Xo  u0 p0 c0 {2,S}
+4    H   u0 px c0 {2,S}
+5    H   u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Abstracting
@@ -544,7 +586,10 @@ L1: Donating
     L2: *R-H
         L3: *C-H
             L4: *-C-H
+		L5: *-CH-H
+                   L6: *-CH2-H
             L4: *=C-H
+		L5: *=CH-H
             L4: *#C-H
         L3: *N-H
             L4: *-N-H
