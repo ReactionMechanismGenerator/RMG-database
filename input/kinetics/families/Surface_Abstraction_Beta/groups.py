@@ -16,7 +16,7 @@ will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s). 
 """
 
-template(reactants=["Combined", "Adsorbate1"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
+template(reactants=["Donating", "Abstracting"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
 
 reverse = "Surface_Abstraction_reverse_Beta_vdW"
 
@@ -33,7 +33,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Combined",
+    label = "Donating",
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
@@ -46,18 +46,18 @@ entry(
 
 entry(
     index = 2,
-    label="Adsorbate1",
+    label="Abstracting",
     group =
 """
-1 *6 Xo  u0 {2,D}
-2 *4 R!H u0 px c0 {1,D}	
+1 *6 Xo  u0 {2,[D,T,Q]}
+2 *4 R!H u0 px c0 {1,[D,T,Q]}	
 """,
     kinetics = None,
 )
 
 entry(
     index = 3,
-    label = "C-H",
+    label = "R-C-H",
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
@@ -70,7 +70,7 @@ entry(
 
 entry(
     index = 4,
-    label = "O-H",
+    label = "R-O-H",
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
@@ -92,13 +92,91 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 6,
+    label = "C=*",
+    group =
+"""
+1 *4 C  u0 p0 c0 {2,D}
+2 *6 Xo u0 p0 c0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 7,
+    label = "C#*",
+    group =
+"""
+1 *4 C  u0 p0 c0 {2,T}
+2 *6 Xo u0 p0 c0 {1,T}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "C$*",
+    group =
+"""
+1 *4 C  u0 p0 c0 {2,Q}
+2 *6 Xo u0 p0 c0 {1,Q}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9,
+    label = "R-R-H",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 px c0 {1,S} {3,S}
+3 *3 H   u0 {2,S}
+4 *5 Xo  u0 {1,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "R-CH3",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+3 *3 H   u0 {2,S}
+4 *5 Xo  u0 {1,[D,T]}
+5    H   u0 {2,S}
+6    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "C",
+    group =
+"""
+1 *4 C  ux px cx {2,[D,T,Q]}
+2 *6 Xo u0 p0 c0 {1,[D,T,Q]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
-L1: Combined
-    L2: C-H
-    L2: O-H
-L1: Adsorbate1
+L1: Abstracting
+    L2: C
+        L3: C=*
+        L3: C#*
+        L3: C$*
     L2: O
+L1: Donating
+    L2: R-R-H
+        L3: R-C-H
+	   L4: R-CH3
+        L3: R-O-H
 """
 )
 
