@@ -197,6 +197,102 @@ multiplicity [1]
     kinetics = None,
 )
 
+entry(
+    index = 15,
+    label = "C",
+    group =
+"""
+multiplicity [1]
+1 *1 C u0 p0 c0 {2,S}
+2 *2 R u0 {1,S}
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 16,
+    label = "CH4",
+    group =
+"""
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "C2H6",
+    group =
+"""
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+6    H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {2,S}
+8    H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 18,
+    label = "C3H8",
+    group =
+"""
+1  *1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+2     C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+3     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+4  *2 H u0 p0 c0 {1,S}
+5     H u0 p0 c0 {1,S}
+6     H u0 p0 c0 {1,S}
+7     H u0 p0 c0 {2,S}
+8     H u0 p0 c0 {2,S}
+9     H u0 p0 c0 {3,S}
+10    H u0 p0 c0 {3,S}
+11    H u0 p0 c0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 19,
+    label = "CH3OH",
+    group =
+"""
+1    O u0 p2 c0 {2,S} {6,S}
+2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 *2 H u0 p0 c0 {2,S}
+4    H u0 p0 c0 {2,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {1,S}
+
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 20,
+    label = "C2H4",
+    group =
+"""
+1 *1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2    C u0 p0 c0 {1,D} {5,S} {6,S}
+3 *2 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {2,S}
+6    H u0 p0 c0 {2,S}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Adsorbate
@@ -209,7 +305,13 @@ L1: Adsorbate
     L2: N
         L3: N-C
         L3: N-H
-    L2: C-H
+    L2: C	
+    	L3: C-H
+	    L4: CH4
+	    L4: C2H6
+	    L4: C3H8
+	    L4: CH3OH
+	    L4: C2H4
 L1: VacantSite1
 
 L1: VacantSite2
