@@ -12,7 +12,7 @@ entry(
     index = 1,
     label = "AdsorbateVdW;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.0e13, 'm^2/(mol*s)'),
+        A = (4.18e17, 'm^2/(mol*s)'),
         n = 0,
         alpha = 0.44,
         E0 = (0, 'kcal/mol'),
