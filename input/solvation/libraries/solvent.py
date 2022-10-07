@@ -66,6 +66,8 @@ entry(
         beta = 0.38,
         # Dielectric constant
         eps = 80.4,
+        #index of refraction
+        n = 1.333,
         # Name of the solvent used in the external fluid property calculation package, CoolProp.
         name_in_coolprop = "water",
     ),
@@ -111,6 +113,7 @@ entry(
         alpha = 0.328,
         beta = 0.45,
         eps = 10.3,
+        n = 1.4205,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -155,6 +158,7 @@ entry(
         alpha = 0,
         beta = 0.14,
         eps = 2.3,
+        n = 1.5011,
         name_in_coolprop = "benzene",
     ),
     dataCount = DataCountSolvent(
@@ -197,6 +201,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.42662,
         name_in_coolprop = "CycloHexane",
     ),
     dataCount = DataCountSolvent(
@@ -239,6 +244,7 @@ entry(
         alpha = 0,
         beta = 0.45,
         eps = 3.1,
+        n = 1.3992,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -281,6 +287,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.3944,
         name_in_coolprop = "Octane",
     ),
     dataCount = DataCountSolvent(
@@ -323,6 +330,7 @@ entry(
         alpha = 0.37,
         beta = 0.48,
         eps = 17.8,
+        n = 1.3993,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -365,6 +373,7 @@ entry(
         alpha = 0,
         beta = 0.05,
         eps = 2.23,
+        n = 1.4601,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -408,6 +417,7 @@ entry(
         alpha = 0.15,
         beta = 0.02,
         eps = 4.8,
+        n = 1.4476,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -450,6 +460,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.4102,
         name_in_coolprop = "decane",
     ),
     dataCount = DataCountSolvent(
@@ -492,6 +503,7 @@ entry(
         alpha = 0.1,
         beta = 0.105,
         eps = 10.7,
+        n = 1.4167,
         name_in_coolprop = None,
     ),
     dataCount = None,
@@ -528,6 +540,7 @@ entry(
         alpha = 0,
         beta = 0.73,
         eps = 36.7,
+        n = 1.4305,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -570,6 +583,7 @@ entry(
         alpha = 0,
         beta = 0.88,
         eps = 46.7,
+        n = 1.4783,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -612,6 +626,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.4216,
         name_in_coolprop = "Dodecane",
     ),
     dataCount = DataCountSolvent(
@@ -654,6 +669,7 @@ entry(
         alpha = 0.37,
         beta = 0.48,
         eps = 24.3,
+        n = 1.3611,
         name_in_coolprop = "ethanol",
     ),
     dataCount = DataCountSolvent(
@@ -696,6 +712,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 1.9,
+        n = 1.3855,
         name_in_coolprop = "Heptane",
     ),
     dataCount = DataCountSolvent(
@@ -738,6 +755,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.08,
+        n = 1.4329,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -780,6 +798,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.3727,
         name_in_coolprop = "Hexane",
     ),
     dataCount = DataCountSolvent(
@@ -822,6 +841,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 1.94,
+        n = 1.39157,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -865,6 +885,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.4058,
         name_in_coolprop = "nonane",
     ),
     dataCount = DataCountSolvent(
@@ -907,6 +928,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 1.8,
+        n = 1.3575,
         name_in_coolprop = "Pentane",
     ),
     dataCount = DataCountSolvent(
@@ -949,6 +971,7 @@ entry(
         alpha = 0,
         beta = 0.14,
         eps = 2.2,
+        n = 1.4967,
         name_in_coolprop = "toluene",
     ),
     dataCount = DataCountSolvent(
@@ -992,6 +1015,7 @@ entry(
         alpha = 0,
         beta = 0,
         eps = 2.0,
+        n = 1.4398,
         name_in_coolprop = "Undecane",
     ),
     dataCount = DataCountSolvent(
@@ -1035,6 +1059,7 @@ entry(
         alpha = 0.04,
         beta = 0.33,
         eps = 37.5,
+        n = 1.33934,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1077,6 +1102,7 @@ entry(
         alpha = 0,
         beta = 0.45,
         eps = 6.0,
+        n = 1.3723,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1119,6 +1145,7 @@ entry(
         alpha = None,
         beta = None,
         eps = 33.0,
+        n = 1.3292,
         name_in_coolprop = "Methanol",
     ),
     dataCount = DataCountSolvent(
@@ -1276,7 +1303,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 9.47,
+        n = 1.4957,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1319,7 +1347,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 13.135,
+        n = 1.3962,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1362,7 +1391,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 6.2,
+        n = 1.3720,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1405,7 +1435,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 16.0,
+        n = 1.5372,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1448,7 +1479,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 6.89,
+        n = 1.5863,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1491,7 +1523,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 4.2,
+        n = 1.51791,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1534,7 +1567,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 25.5,
+        n = 1.5289,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1577,7 +1611,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 1.66,
+        n = 1.5396,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1620,7 +1655,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 5.1,
+        n = 1.5597,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1663,7 +1699,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 8.0,
+        n = 1.4242,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1706,7 +1743,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 4.5,
+        n = 1.5948,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1749,7 +1787,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 16.5,
+        n = 1.3788,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1792,7 +1831,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 4.7,
+        n = 1.3941,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1835,7 +1875,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.34,
+        n = 1.4898,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1878,7 +1919,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.641,
+        n = 1.6319,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1921,7 +1963,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 5.641,
+        n = 1.5241,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -1964,7 +2007,8 @@ entry(
         E = None,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 5.4,
+        n = 1.425,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2005,7 +2049,8 @@ entry(
         E = None,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 14.5,
+        n = 1.4507,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2046,7 +2091,8 @@ entry(
         E = None,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.14,
+        n = 1.4695,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2087,7 +2133,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 6.5,
+        n = 1.4372,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2131,6 +2178,7 @@ entry(
         alpha = None,
         beta = None,
         eps = None,
+        n = 1.5128,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2171,7 +2219,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 9.25,
+        n = 1.4422,
         name_in_coolprop = "Dichloroethane",
     ),
     dataCount = DataCountSolvent(
@@ -2214,7 +2263,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 4.197,
+        n = 1.3526,
         name_in_coolprop = "DiethylEther",
     ),
     dataCount = DataCountSolvent(
@@ -2257,7 +2307,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 3.75,
+        n = 1.3679,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2300,7 +2351,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 35.0,
+        n = 1.4230,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2343,7 +2395,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 4.05,
+        n = 1.5076,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2386,7 +2439,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.35,
+        n = 1.4959,
         name_in_coolprop = "EthylBenzene",
     ),
     dataCount = DataCountSolvent(
@@ -2429,7 +2483,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 5.0,
+        n = 1.53,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2472,7 +2527,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 9.0,
+        n = 1.4249,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2515,7 +2571,8 @@ entry(
         E = None,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 3.4,
+        n  = 1.491,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2556,7 +2613,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 10.0,
+        n = 1.4162,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2599,7 +2657,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 4.35,
+        n = 1.6200,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2642,7 +2701,8 @@ entry(
         E = 10,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 17.93,
+        n = 1.3955,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2685,7 +2745,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 16.0,
+        n = 1.37723,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2728,7 +2789,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.33,
+        n = 1.4915,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2771,7 +2833,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 9.2,
+        n = 1.5398,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2814,7 +2877,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 15.25,
+        n = 1.4024,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2857,7 +2921,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 8.72,
+        n = 1.4244,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2900,7 +2965,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 182.4,
+        n = 1.4319,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2943,7 +3009,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 32.0,
+        n = 1.5562,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -2986,7 +3053,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 28.06,
+        n = 1.3917,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3029,7 +3097,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 33.3,
+        n = 1.3817,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3072,7 +3141,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 7.3,
+        n = 1.4338,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3115,7 +3185,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 9.2,
+        n = 1.577,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3158,7 +3229,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.01,
+        n = 1.4315,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3201,7 +3273,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 12.5,
+        n = 1.4103,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3244,7 +3317,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.0,
+        n  = 1.3845,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3287,7 +3361,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 16.0,
+        n = 1.3862,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3330,7 +3405,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 10.02,
+        n = 1.50920,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3373,7 +3449,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 16.6,
+        n = 1.3978,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3416,7 +3493,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.29,
+        n = 1.49235,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3459,7 +3537,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 2.325,
+        n = 1.5053,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -3480,7 +3559,7 @@ Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
 
 entry(
     index = 82,
-    label = "oxolane",
+    label = "c",
     molecule = "C1CCOC1",
     solvent = SolventData(
         s_g = 1.33018,
@@ -3502,7 +3581,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 6.5,
+        n = 1.4050,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
