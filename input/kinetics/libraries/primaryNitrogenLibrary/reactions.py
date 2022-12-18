@@ -2612,30 +2612,21 @@ Added as a training reaction to H_Abstraction
 
 entry(
     index = 140,
-    label = "NH2 + NO <=> NNH + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.43e+07, 'cm^3/(mol*s)'), n=1.40, Ea=(-1777, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Lin1999a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1a
-T range: 300-2500 K
-""",
+    label = 'NH2 + NO <=> NNH + OH',
+    kinetics = Arrhenius(A=(4.3e+10, 'cm^3/(mol*s)'), n=0.294, Ea=(-866, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 5a""",
 )
 
 entry(
     index = 141,
     label = "NH2 + NO <=> N2 + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.20e+17, 'cm^3/(mol*s)'), n=-1.61, Ea=(298, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Lin1999a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1b
-T range: 300-2500 K
-""",
+    label = 'NH2 + NO <=> N2 + H2O ',
+    kinetics = Arrhenius(A=(2.6e+19, 'cm^3/(mol*s)'), n=-2.369, Ea=(870, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 5b""",
 )
 
 entry(
@@ -2688,27 +2679,19 @@ T range: 300-4000 K, k2a, QRRK
 entry(
     index = 145,
     label = "NH2 + O2 <=> H2NO + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.6e+11, 'cm^3/(mol*s)'), n=0.4872, Ea=(29050, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Miller2011]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
-""",
+    kinetics = Arrhenius(A=(2.6e+11, 'cm^3/(mol*s)'), n=0.487, Ea=(29050, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 4a """,
 )
 
 entry(
     index = 146,
-    label = "NH2 + O2 <=> HNO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.9e-02, 'cm^3/(mol*s)'), n=3.764, Ea=(18185, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Miller2011]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
-""",
+    label = 'NH2 + O2 <=> HNO + OH',
+    kinetics = Arrhenius(A=(2.9e-02, 'cm^3/(mol*s)'), n=3.764, Ea=(18185, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 4b""",
 )
 
 entry(
@@ -3183,20 +3166,11 @@ and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
 entry(
     index = 173,
     label = "NH2 + NO2 <=> H2NO + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(9.09e+11, 'cm^3/(mol*s)'), n=0.0321, Ea=(-1512, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Marshall2013]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1b 3 on p. 9019
-T range: 300-2000 K
-calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
-+UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
-CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
-CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
-and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
-""",
+    label = 'NH2 + NO2 <=> H2NO + NO',
+    kinetics = Arrhenius(A=(8.6e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 6b""",
 )
 
 entry(
@@ -4717,4 +4691,169 @@ sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
 Fitted to 51 data points; dA = *|/ 1.10125, dn = +|- 0.0117499, dEa = +|- 0.117226 kJ/mol
 """,
+)
+
+entry(
+    index = 266,
+    label = 'H2NN(S) + O <=> NH2 + NO',
+    kinetics = Arrhenius(A=(3.2e+09, 'cm^3/(mol*s)'), n=1.03, Ea=(684.38, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""""",
+    longDesc = u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1""",
+)
+
+entry(
+    index = 267,
+    label = 'H2NN(S) + O <=> OH + NNH',
+    kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(226.45, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""""",
+    longDesc = u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d2""",
+)
+
+entry(
+    index = 268,
+    label = 'NH2 + HO2 <=> HNO + H2O',
+    kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 1b""",
+)
+
+entry(
+    index = 269,
+    label = 'NH2 + HO2 <=> H2NO + OH',
+    kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 1c""",
+)
+
+entry(
+    index = 270,
+    label = 'NH2 + H <=> NH3',
+    kinetics = Troe(
+            arrheniusHigh = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+            arrheniusLow = Arrhenius(A=(3.6e+22, 'cm^6/(mol^2*s)'), n=-1.76, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+            alpha=0.5,
+            T3 = (1e-30, 'K'),
+            T1 = (1e+30, 'K'),
+        efficiencies = {'N#N': 1.0, '[Ar]': 0.32, '[O][O]': 0.50, 'N': 4.39},
+    ),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 2""",
+)
+
+entry(
+    index = 271,
+    label = 'NH2 + NH2 <=> N2H4',
+    kinetics = Troe(
+            arrheniusHigh = Arrhenius(A=(5.6e+14, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K')),
+            arrheniusLow = Arrhenius(A=(1.6e34, 'cm^6/(mol^2*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K')),
+            alpha=0.31,
+            T3 = (1e-30, 'K'),
+            T1 = (1e+30, 'K'),
+        efficiencies = {'N#N': 1.0, '[Ar]': 0.5, '[O][O]': 0.61, 'N': 2.93},
+    ),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 3""",
+)
+
+entry(
+    index = 272,
+    label = 'NH2 + NO2  <=> N2O + H2O',
+    kinetics = Arrhenius(A=(2.2e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 6a""",
+)
+
+entry(
+    index = 273,
+    label = 'NH2 + HNO <=> NH3 + NO',
+    kinetics = Arrhenius(A=(5.9e+02, 'cm^3/(mol*s)'), n=2.950, Ea=(-3469, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 7""",
+)
+
+entry(
+    index = 274,
+    label = 'HNO + O2 <=> NO + HO2',
+    kinetics = Arrhenius(A=(2.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(16000, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 8""",
+)
+
+entry(
+    index = 275,
+    label = 'NH3 + H <=> NH2 + H2 ',
+    kinetics = Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 10 """,
+)
+
+entry(
+    index = 276,
+    label = 'NH3 + O <=> NH2 + OH',
+    kinetics = Arrhenius(A=(9.4e+06, 'cm^3/(mol*s)'), n=1.940, Ea=(6460, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 11""",
+)
+
+entry(
+    index = 277,
+    label = 'NH3 + OH <=> NH2 + H2O ',
+    kinetics = Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""Glarborg (2021)""",
+    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 12""",
+)
+
+entry(
+    index = 278,
+    label = 'H2NO + O2 <=> HNO + HO2 ',
+    kinetics = Arrhenius(A=(4.350e-23, 'cm^3/(mol*s)'), n=3.081, Ea=(14540, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    shortDesc = u"""Sarathy (2022)""",
+    longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
+    material, Reaction R1(doublet)""",
+)
+
+entry(
+    index = 279,
+    label = 'H2NO + O2 <=> HNO + HO ',
+    kinetics = Arrhenius(A=(7.354e-21, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    shortDesc = u"""Sarathy (2022)""",
+    longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
+    material, Reaction R2(quartet)""",
+)
+
+entry(
+    index = 280,
+    label = 'NH2 + HO2 <=> NH3 + O2',
+    duplicate = True,
+    kinetics = multiArrhenius(
+        arrhenius = [
+            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+        ],
+    ),
+    shortDesc = u"""Sarathy (2022)""",
+    longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
+    material, Reaction R4 (triplet) and Reaction R6(Singlet)"""
+)
+
+entry(
+    index = 281,
+    label = 'NH2 + HO2 <=> H2NO + O',
+    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    shortDesc = u"""Sarathy (2022)""",
+    longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
+    material, Reaction R5 (triplet)"""
 )
