@@ -8,6 +8,13 @@ This family describes solution-oxidation of phenolic compounds:
 HOC1=CC=CC=C1 <=> OC1=CC=CC=C1 + [H]
 atom labels:
 H[1*]_O[*2]_C1=CC=CC=C1 <=> [O][*2]_C1=CC=CC=C1 + H[*1]
+
+
+something's wrong here, reactions in solutions don't usually form radicals like this
+
+the reaction should be something like B-OH <=> B=O
+
+
 """
 
 template(reactants=["phenol",], products=["r_phenol", "r_H"], ownReverse=False)

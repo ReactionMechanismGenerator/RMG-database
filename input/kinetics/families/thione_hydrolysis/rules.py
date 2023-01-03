@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "thione_ketone/rules"
+name = "thione_hydrolysis/rules"
 shortDesc = u""
 longDesc = u"""
 

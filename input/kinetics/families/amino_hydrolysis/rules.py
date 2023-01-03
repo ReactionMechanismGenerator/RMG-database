@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "amino_to_aldehyde_and_imine/rules"
+name = "amino_hydrolysis/rules"
 shortDesc = u""
 longDesc = u"""
 """

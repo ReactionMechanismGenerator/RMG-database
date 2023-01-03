@@ -15,6 +15,9 @@ R1-N(*1)H-C(*2)-[O(*3)O(*4)H(*5)]R2 + H(*6)O(*7)H <=> R1-N(*1)H-H(*5) + O(*3)=C(
 there's an error in the recipe, *4 cannot form bonds with *7 as well as *6
 
 
+Alos, NHCOOH is not "amine"m the family name should be modified, perhaps to amine peroxide hydrolysis
+
+
 """
 
 template(reactants=["NHCOOH", "H2O"], products=["aldehyde", "amine_product", "H2O2"], ownReverse=False)

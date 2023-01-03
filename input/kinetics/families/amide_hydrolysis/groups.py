@@ -8,6 +8,13 @@ This family describes solution-phase hydrolysis of amide groups:
 R2C(=O)NR1 + H2O <=> R1C(=O)OH + HNR2
 atom labels:
 R2C[*1]_(=O)N[*2]_R1 + H[*4]_O[*3]_H <=> R1C[*1](=O)O[*3]H + H[*4]_N[*2]_R2
+
+
+
+The COdN group here has a double bond to O, but the name COdN is confusing
+
+
+
 """
 
 template(reactants=["COdN", "H2O"], products=["COdOH", "HNR"], ownReverse=False)

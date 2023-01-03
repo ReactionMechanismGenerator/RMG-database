@@ -8,6 +8,13 @@ This family describes solution-phase hydrolysis of amine groups:
  HN(OH)R' <=> N(=O)R' +H2
  atom labels:
  H[*1]N[*2](O[*3]H[*4])R' <=> N[*2](=O[#])R' +H[*1]H[*4]
+ 
+ 
+ something's wird here: is the product H2 or H2O? according to the labels above and to the recipe, it is H2, but usially reactions in solution don't form H2, H2O makes more sense, and the product below is indeed writtena as H2O. There's some confusion here.
+
+On the other hand, nitroso is indeed a (-N=O) group, so the O doesn't go to H2O
+ 
+ 
 """
 
 template(reactants=["hydroxylamine"], products=["nitroso", "H2O"], ownReverse=False)

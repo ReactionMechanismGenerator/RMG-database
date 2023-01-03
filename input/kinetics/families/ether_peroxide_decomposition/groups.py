@@ -9,7 +9,7 @@ atom labels:
 HO[*4]O[*3]R[*1](H[*2])O[*5]R' <=> HO[*4]R[*1](=O[*3]) + R'O[*5]H[*2]
 """
 
-template(reactants=["ether_peroxide"], products=["aldehide", "alcohol"], ownReverse=False)
+template(reactants=["ether_peroxide"], products=["carboxyl", "alcohol"], ownReverse=False)
 
 reverse = "aldehide_and_alcohol_to_ether_peroxide"
 

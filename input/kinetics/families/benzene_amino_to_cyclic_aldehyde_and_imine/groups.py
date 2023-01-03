@@ -10,6 +10,11 @@ atom labels:
 C1[*7](OH)=C[*8]C=C(C[*1](O[*2]H[*3])C[*4]N[*5](H[*6])(R2)C=C1 + <=> C1[*7](OH)(H[*3])C[*8](H[*6])C=C(C[*1]=O[*2])C=C1 + C[*4]N[*5]R2
 ignoring H2O on both sides for simplicity
 (training reactions do include H2O in the calculation, rates divided by 18 ml/mol)
+
+
+the receipe doesn't seem physical!
+
+
 """
 
 template(reactants=["benzen_amino"], products=["cyclic_aldehyde", "imine"], ownReverse=False)

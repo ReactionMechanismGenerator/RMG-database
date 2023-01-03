@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "amino_to_aldehyde_and_imine/groups"
+name = "amino_hydrolysis/groups"
 shortDesc = u""
 longDesc = u"""
 This family describes solution-phase hydrolysis of amine groups:

@@ -167,7 +167,7 @@ apideg = {
     'imine_to_hemiaminal',
     # 'cyclic_imine_to_hemiaminal',     # not implemented yet!
     'methanoate_hydrolysis',  # API-specific
-    'thione_ketone',  # API-specific
+    'thione_hydrolysis',  # API-specific
     'amide_hydrolysis',
     'hydroxylamine_to_nitroso',
     'nitroso_to_oxime',
@@ -175,9 +175,6 @@ apideg = {
     'amino_to_aldehyde_and_imine',
     'benzene_amino_to_cyclic_aldehyde_and_imine',
     'ether_peroxide_decomposition',
-    'hydroxylamine_to_nitroso',
-    'nitroso_to_oxime',
-    'oxidation_of_phenols',
 }
 
 # Surface chemistry for heterogeneous catalysis.

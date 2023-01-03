@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "amino_to_aldehyde_and_imine/training"
+name = "amino_hydrolysis/training"
 shortDesc = u"Reaction kinetics used to generate rate rules"
 longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
