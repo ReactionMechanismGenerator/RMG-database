@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "hemiaminal_decomposition/rules"
+name = "hemiaminal_hydrolysis/rules"
 shortDesc = u""
 longDesc = u"""
 

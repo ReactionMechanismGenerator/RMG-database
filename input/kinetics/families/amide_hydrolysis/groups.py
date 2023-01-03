@@ -13,7 +13,7 @@ R2C[*1]_(=O)N[*2]_R1 + H[*4]_O[*3]_H <=> R1C[*1](=O)O[*3]H + H[*4]_N[*2]_R2
 
 The COdN group here has a double bond to O, but the name COdN is confusing
 
-
+What's the difference between this reaction and hemiaminal_hydrolysis??? Are they the same?
 
 """
 

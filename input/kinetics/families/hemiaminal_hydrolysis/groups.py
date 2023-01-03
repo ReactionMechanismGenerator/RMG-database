@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "hemiaminal_decomposition/groups"
+name = "hemiaminal_hydrolysis/groups"
 shortDesc = u""
 longDesc = u"""
 This family describes solution-phase hydrolysis of hemiaminal groups:
