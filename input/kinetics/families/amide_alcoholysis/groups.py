@@ -11,6 +11,11 @@ R1OH + R2C(=O)N(R3)R4  <=> R2C(=O)OR1 + HN(R3)R4
 atom labels:
 
 R1_O[*1]_H[*2] + R2_C[*3]_(=O)_N[*4]_(R3)_R4 <=> R2_C[*3]_(=O)_O[*1]_R1 + H[*2]_N[*4]_(R3)R4
+
+
+
+The recipe and nodes must be fixed, the "Root" reactant should be separated into two reactants: amide and alcohol
+
 """
 
 template(reactants=["Root"], products=["ester", "amine"], ownReverse=False)

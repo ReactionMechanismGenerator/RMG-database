@@ -157,15 +157,27 @@ apideg = {
     'acetal_hydrolysis',  # API-specific
     'alcohol_dehydrogenation',  # API-specific
     'amide_alcoholysis',  # API-specific
-    'amine_COH_HCN',  # API-specific
+    'hemiaminal_and_HCN',  # API-specific
     'amine_hydrolysis',  # API-specific
     'hemiacetal_hydrolysis',  # API-specific
-    'hemiaminal_hydrolysis',  # API-specific
+    'hemiaminal_decomposition',  # API-specific
+    'hemiaminal_to_amine_and_aldehyde',
     'HOCK_rearrangement',  # API-specific
     'hydroperoxide_to_alcohol',  # API-specific
-    'imine_hydrolysis',  # API-specific
+    'imine_to_hemiaminal',
+    # 'cyclic_imine_to_hemiaminal',     # not implemented yet!
     'methanoate_hydrolysis',  # API-specific
     'thione_ketone',  # API-specific
+    'amide_hydrolysis',
+    'hydroxylamine_to_nitroso',
+    'nitroso_to_oxime',
+    'oxidation_of_phenols',
+    'amino_to_aldehyde_and_imine',
+    'benzene_amino_to_cyclic_aldehyde_and_imine',
+    'ether_peroxide_decomposition',
+    'hydroxylamine_to_nitroso',
+    'nitroso_to_oxime',
+    'oxidation_of_phenols',
 }
 
 # Surface chemistry for heterogeneous catalysis.

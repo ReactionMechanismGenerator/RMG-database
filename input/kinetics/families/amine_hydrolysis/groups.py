@@ -10,6 +10,11 @@ overall taken as:
 R1-NH-C(OOH)R2 + H2O <=> R1-NH2 + O=C-R2 + H2O2
 atom labels:
 R1-N(*1)H-C(*2)-[O(*3)O(*4)H(*5)]R2 + H(*6)O(*7)H <=> R1-N(*1)H-H(*5) + O(*3)=C(*2)-R2 + H(*6)O(*4)O(*7)H
+
+
+there's an error in the recipe, *4 cannot form bonds with *7 as well as *6
+
+
 """
 
 template(reactants=["NHCOOH", "H2O"], products=["aldehyde", "amine_product", "H2O2"], ownReverse=False)
