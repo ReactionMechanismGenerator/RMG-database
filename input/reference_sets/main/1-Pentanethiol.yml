@@ -19,6 +19,110 @@ adjacency_list: |
   17 H u0 p0 c0 {6,S}
   18 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -15.436006804314122
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 3.713935
+          - -0.148404
+          - -0.012766
+        - - 2.366402
+          - 0.562508
+          - 0.040509
+        - - 1.176533
+          - -0.392228
+          - -0.026023
+        - - -0.174312
+          - 0.317858
+          - 0.031369
+        - - -1.352312
+          - -0.645312
+          - -0.046126
+        - - -2.989854
+          - 0.143402
+          - 0.095739
+        - - 4.549331
+          - 0.565609
+          - 0.037176
+        - - 3.825599
+          - -0.85269
+          - 0.826876
+        - - 3.822816
+          - -0.725722
+          - -0.944659
+        - - 2.295916
+          - 1.285957
+          - -0.790238
+        - - 2.298433
+          - 1.159753
+          - 0.966175
+        - - 1.244321
+          - -1.117399
+          - 0.804944
+        - - 1.240035
+          - -0.989591
+          - -0.953507
+        - - -0.242966
+          - 1.043957
+          - -0.797858
+        - - -0.251751
+          - 0.907376
+          - 0.960082
+        - - -1.31935
+          - -1.360009
+          - 0.791393
+        - - -1.313943
+          - -1.242659
+          - -0.970239
+        - - -2.909233
+          - 0.879123
+          - -1.032033
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
   : class: CalculatedDataEntry
     thermo_data:

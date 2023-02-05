@@ -17,6 +17,100 @@ adjacency_list: |
   15 H u0 p0 c0 {6,S}
   16 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -80.79271969706055
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.541941
+          - 1.80633
+          - 0.003694
+        - - 0.007154
+          - 0.408727
+          - 0.241828
+        - - -1.311997
+          - 0.381786
+          - -0.161772
+        - - -1.979637
+          - -0.822052
+          - 0.102031
+        - - 0.724018
+          - -0.554937
+          - -0.489516
+        - - 1.865806
+          - -1.05518
+          - 0.134993
+        - - -0.034437
+          - 2.53977
+          - 0.583725
+        - - 0.453156
+          - 2.043745
+          - -1.065457
+        - - 1.598438
+          - 1.874891
+          - 0.299386
+        - - 0.078809
+          - 0.142438
+          - 1.325286
+        - - -3.024336
+          - -0.693435
+          - -0.209104
+        - - -1.959315
+          - -1.065581
+          - 1.18242
+        - - -1.536782
+          - -1.664207
+          - -0.453616
+        - - 2.283132
+          - -1.838981
+          - -0.51113
+        - - 2.644551
+          - -0.28278
+          - 0.283488
+        - - 1.636152
+          - -1.50081
+          - 1.123177
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
   : class: CalculatedDataEntry
     thermo_data:
