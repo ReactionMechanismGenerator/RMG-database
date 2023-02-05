@@ -108,6 +108,19 @@ atom_energies = {
         'Br': -2575.1192984500663
     },
 
+    # corrections using orca
+    # auxilary basis set = def2svp/c
+    "LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca')": {
+        'H': -0.49300601006750305,
+        'C': -37.715006162930635,
+        'N': -54.40478678419229,
+        'O': -74.82613725500103,
+        'F': -99.42586178147155,
+        'S': -397.4540360163635,
+        'Cl': -459.43421912103605,
+        'Br': -2572.293940694616
+    },
+
     # cbs-qb3 and cbs-qb3-paraskevas have the same corrections
     "LevelOfTheory(method='cbsqb3',software='gaussian')": {
         'H': -0.499818 + SOC['H'], 'N': -54.520543 + SOC['N'], 'O': -74.987624 + SOC['O'],
