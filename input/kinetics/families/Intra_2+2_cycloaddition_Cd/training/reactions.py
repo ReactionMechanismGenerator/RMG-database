@@ -25,3 +25,20 @@ Taken from entry: II <=> III
 """,
 )
 
+entry(
+    index = 1,
+    label = "C4H6_BD <=> C4H6_CB",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.70652e+13, 's^-1'),
+        n = -0.361171,
+        Ea = (187.676, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
