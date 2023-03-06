@@ -373,3 +373,38 @@ All species include systematic conformer search and 1D rotor scans
 """,
 )
 
+entry(
+    index = 21,
+    label = "C4H6-2 + C4H6 <=> C8H12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (17635, 'cm^3/(mol*s)'),
+        n = 1.8055,
+        Ea = (81.8512, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
+
+entry(
+    index = 22,
+    label = "C4H6-3 + C4H6 <=> C8H12-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (17635, 'cm^3/(mol*s)'),
+        n = 1.8055,
+        Ea = (81.8512, 'kJ/mol'),
+        T0 = (1, 'K')
+    ),
+    rank = 5,
+    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
+    longDesc = 
+u"""
+Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+""",
+)
