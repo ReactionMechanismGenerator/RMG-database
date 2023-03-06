@@ -1696,20 +1696,25 @@ calculated using  QRRK / DHT
 
 entry(
     index = 88,
-    label = "NH3 <=> NH2 + H",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(2.20e+16, 'cm^3/(mol*s)'), n=0, Ea=(93468, 'cal/mol'), T0 = (1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K'))),
-    shortDesc = u"""[Hanson1990a]""",
-    longDesc =
-u"""
-Part of the "NHx" subset
-R1 in Table 1, p. 521
-T range: 2200-2800 K
-Shock Tube
-The competing reaction "NH3 <=> NH + H2" is spin-hindered, and is ~40 times lower in rate, and can be neglected. Source: [Hanson1984c]
-Train!
-""",
+    label='NH2 + H <=> NH3',
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(3.6e+22, 'cm^6/(mol^2*s)'), n=-1.76, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        alpha=0.5,
+        T3=(1e-30, 'K'),
+        T1=(1e+30, 'K'),
+        efficiencies={'N#N': 1.0, '[Ar]': 0.32, '[O][O]': 0.50, 'N': 4.39},
+    ),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 2
+             Previously Part of the "NHx" subset
+             R1 in Table 1, p. 521
+             T range: 2200-2800 K
+             Shock Tube
+             The competing reaction "NH3 <=> NH + H2" is spin-hindered, and is ~40 times lower in rate, and can be 
+             neglected. Source: [Hanson1984c]
+             Train!
+             """,
 )
 
 entry(
@@ -1922,27 +1927,29 @@ and the moment of inertia and harmonic vibrational frequencies were obtained by 
 
 entry(
     index = 101,
-    label = "N2H4 <=> NH2 + NH2",
-    degeneracy = 1,
-    kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-        arrheniusLow = Arrhenius(A=(1.96e+52, 'cm^3/(mol*s)'), n=-10.2, Ea=(71677, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
-    elementary_high_p = True,
-    shortDesc = u"""[Lin2014b]""",
-    longDesc =
-u"""
-Part of the "N2H4 + N2O4" subset
-p. 264
-Bath gas: Ar
-calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
-Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-Also available from [Klippenstein2009a] in reverse:
-label = "NH2 + NH2 <=> N2H4",
+    label='NH2 + NH2 <=> N2H4',
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(5.6e+14, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(1.6e34, 'cm^6/(mol^2*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K')),
+        alpha=0.31,
+        T3=(1e-30, 'K'),
+        T1=(1e+30, 'K'),
+        efficiencies={'N#N': 1.0, '[Ar]': 0.5, '[O][O]': 0.61, 'N': 2.93},
+    ),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 3,
+    Previously Part of the "N2H4 + N2O4" subset
+    p. 264
+    Bath gas: Ar
+    calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
+    Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
+    Also available from [Klippenstein2009a] in reverse:
+    label = "NH2 + NH2 <=> N2H4",
     kinetics = Troe(
        arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
        arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
        alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
-Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
+    Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
 """,
 )
 
@@ -2596,18 +2603,16 @@ calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
 
 entry(
     index = 139,
-    label = "NH3 + NO <=> NH2 + HNO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.04e+07, 'cm^3/(mol*s)'), n=1.73, Ea=(56544, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1996a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1 on p. 7519
-T range: 300-5000 K
-calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
-Added as a training reaction to H_Abstraction
-""",
+    label='NH2 + HNO <=> NH3 + NO',
+    kinetics=Arrhenius(A=(5.9e+02, 'cm^3/(mol*s)'), n=2.950, Ea=(-3469, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 7 
+    Previously Part of the "Thermal de-NOx" mechanism
+    k1 on p. 7519
+    T range: 300-5000 K
+    calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
+    Added as a training reaction to H_Abstraction""",
 )
 
 entry(
@@ -2622,7 +2627,6 @@ entry(
 entry(
     index = 141,
     label = "NH2 + NO <=> N2 + H2O",
-    label = 'NH2 + NO <=> N2 + H2O ',
     kinetics = Arrhenius(A=(2.6e+19, 'cm^3/(mol*s)'), n=-2.369, Ea=(870, 'cal/mol'),
         T0=(1, 'K')),
     shortDesc = u"""Glarborg (2021)""",
@@ -2732,21 +2736,19 @@ Train!
 
 entry(
     index = 149,
-    label = "NH2 + OH <=> NH3 + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3.72e+00, 'cm^3/(mol*s)','+|-',9.30e-01), n=3.50, Ea=(-203, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-Table 3, p. 10245
-T range: 300-2500 K
-calculated at the (CCSD(T) and CAS+1+2+QC level
-Also available from [Klemm1990]:
-    kinetics = Arrhenius(A=(9.39e+06, 'cm^3/(mol*s)'), n=1.94, Ea=(6461, 'cal/mol'), T0=(1, 'K')),
-T range: 448-1790 K, Experimental, Uncertainty: 25%
-Train!
-""",
+    label='NH3 + O <=> NH2 + OH',
+    kinetics=Arrhenius(A=(9.4e+06, 'cm^3/(mol*s)'), n=1.940, Ea=(6460, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 11
+    Previously Part of the "Thermal de-NOx" mechanism
+    Table 3, p. 10245
+    T range: 300-2500 K
+    calculated at the (CCSD(T) and CAS+1+2+QC level
+    Also available from [Klemm1990]:
+        kinetics = Arrhenius(A=(9.39e+06, 'cm^3/(mol*s)'), n=1.94, Ea=(6461, 'cal/mol'), T0=(1, 'K')),
+    T range: 448-1790 K, Experimental, Uncertainty: 25%
+    Train!""",
 )
 
 entry(
@@ -3002,23 +3004,20 @@ Train both!!!
 
 entry(
     index = 165,
-    label = "NH2 + H2 <=> NH3 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.03e+04, 'cm^3/(mol*s)'), n=2.58163, Ea=(6538, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Staton2019]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1_theo on p. 229
-T range: 300-2500 K
-calculations done at the HEAT-456QP level of theory
-Also available (shock tube) from [Klemm1985]
-Also available from [Lin1999b]
-Also available from [Staton2019] in reverse:
-    kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
-""",
+    label='NH3 + H <=> NH2 + H2 ',
+    kinetics=Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 10
+    Previously Part of the "Thermal de-NOx" mechanism
+    k1_theo on p. 229
+    T range: 300-2500 K
+    calculations done at the HEAT-456QP level of theory
+    Also available (shock tube) from [Klemm1985]
+    Also available from [Lin1999b]
+    Also available from [Staton2019] in reverse:
+        kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
+                             Tmin=(300, 'K'), Tmax=(2500, 'K'))""",
 )
 
 entry(
@@ -3039,20 +3038,18 @@ Added as a training reaction to H_Abstraction
 
 entry(
     index = 167,
-    label = "NH2 + H2O <=> NH3 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(16846, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1999b]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k4 on p. 233
-T range: 300-5000 K
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
-A lower and upper rate limits were given. Here an average rate was taken.
-Fitted to a 2 parameter Arrhenius with a coefficient of determination of 0.9943
-Added as a training reaction to H_Abstraction
-""",
+    label='NH3 + OH <=> NH2 + H2O ',
+    kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 12
+    Previously Part of the "Thermal de-NOx" mechanism
+    k4 on p. 233
+    T range: 300-5000 K
+    calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+    A lower and upper rate limits were given. Here an average rate was taken.
+    Fitted to a 2 parameter Arrhenius with a coefficient of determination of 0.9943
+    Added as a training reaction to H_Abstraction""",
 )
 
 entry(
@@ -3146,27 +3143,25 @@ calculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of
 
 entry(
     index = 172,
-    label = "NH2 + NO2 <=> N2O + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.60e+18, 'cm^3/(mol*s)'), n=-2.191, Ea=(455, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Marshall2013]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1a 3 on p. 9019
-T range: 300-2000 K
-calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
-+UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
-CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
-CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
-and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
-""",
+    label='NH2 + NO2  <=> N2O + H2O',
+    kinetics=Arrhenius(A=(2.2e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""Glarborg (2021)""",
+    longDesc=u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 6a
+    Previously Part of the "Thermal de-NOx" mechanism
+    k1a 3 on p. 9019
+    T range: 300-2000 K
+    calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
+    +UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
+    CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
+    CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
+    and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
+    """,
 )
 
 entry(
     index = 173,
     label = "NH2 + NO2 <=> H2NO + NO",
-    label = 'NH2 + NO2 <=> H2NO + NO',
     kinetics = Arrhenius(A=(8.6e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
         T0=(1, 'K')),
     shortDesc = u"""Glarborg (2021)""",
@@ -4722,63 +4717,6 @@ entry(
 
 entry(
     index = 269,
-    label = 'NH2 + HO2 <=> H2NO + OH',
-    kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 1c""",
-)
-
-entry(
-    index = 270,
-    label = 'NH2 + H <=> NH3',
-    kinetics = Troe(
-            arrheniusHigh = Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            arrheniusLow = Arrhenius(A=(3.6e+22, 'cm^6/(mol^2*s)'), n=-1.76, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            alpha=0.5,
-            T3 = (1e-30, 'K'),
-            T1 = (1e+30, 'K'),
-        efficiencies = {'N#N': 1.0, '[Ar]': 0.32, '[O][O]': 0.50, 'N': 4.39},
-    ),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 2""",
-)
-
-entry(
-    index = 271,
-    label = 'NH2 + NH2 <=> N2H4',
-    kinetics = Troe(
-            arrheniusHigh = Arrhenius(A=(5.6e+14, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K')),
-            arrheniusLow = Arrhenius(A=(1.6e34, 'cm^6/(mol^2*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K')),
-            alpha=0.31,
-            T3 = (1e-30, 'K'),
-            T1 = (1e+30, 'K'),
-        efficiencies = {'N#N': 1.0, '[Ar]': 0.5, '[O][O]': 0.61, 'N': 2.93},
-    ),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 3""",
-)
-
-entry(
-    index = 272,
-    label = 'NH2 + NO2  <=> N2O + H2O',
-    kinetics = Arrhenius(A=(2.2e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 6a""",
-)
-
-entry(
-    index = 273,
-    label = 'NH2 + HNO <=> NH3 + NO',
-    kinetics = Arrhenius(A=(5.9e+02, 'cm^3/(mol*s)'), n=2.950, Ea=(-3469, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 7""",
-)
-
-entry(
-    index = 274,
     label = 'HNO + O2 <=> NO + HO2',
     kinetics = Arrhenius(A=(2.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(16000, 'cal/mol'),
         T0=(1, 'K')),
@@ -4787,34 +4725,7 @@ entry(
 )
 
 entry(
-    index = 275,
-    label = 'NH3 + H <=> NH2 + H2 ',
-    kinetics = Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 10 """,
-)
-
-entry(
-    index = 276,
-    label = 'NH3 + O <=> NH2 + OH',
-    kinetics = Arrhenius(A=(9.4e+06, 'cm^3/(mol*s)'), n=1.940, Ea=(6460, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 11""",
-)
-
-entry(
-    index = 277,
-    label = 'NH3 + OH <=> NH2 + H2O ',
-    kinetics = Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""Glarborg (2021)""",
-    longDesc = u"""Glarborg (2021) https://dx.doi.org/10.1021/acs.jpca.0c11011, Table 2, Reaction 12""",
-)
-
-entry(
-    index = 278,
+    index = 270,
     label = 'H2NO + O2 <=> HNO + HO2 ',
     kinetics = Arrhenius(A=(4.350e-23, 'cm^3/(mol*s)'), n=3.081, Ea=(14540, 'cal/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
@@ -4823,34 +4734,34 @@ entry(
     material, Reaction R1(doublet)""",
 )
 
-entry(
-    index = 279,
-    label = 'H2NO + O2 <=> HNO + HO ',
-    kinetics = Arrhenius(A=(7.354e-21, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
-        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
-    shortDesc = u"""Sarathy (2022)""",
-    longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
-    material, Reaction R2(quartet)""",
-)
+# entry(
+#     index = 271,
+#     label = 'H2NO + O2 <=> HNO + HO2',
+#     kinetics = Arrhenius(A=(7.354e-21, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
+#         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+#     shortDesc = u"""Sarathy (2022)""",
+#     longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
+#     material, Reaction R2(quartet)""",
+# )
+
+# entry(
+#     index = 272,
+#     label = 'NH2 + HO2 <=> NH3 + O2',
+#     duplicate = True,
+#     kinetics = multiArrhenius(
+#         arrhenius = [
+#             Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+#             Arrhenius (A=(3.619e-18, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
+#         ],
+#     ),
+#     shortDesc = u"""Sarathy (2022)""",
+#     longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
+#     material, Reaction R4 (triplet) and Reaction R6(Singlet)"""
+# )
 
 entry(
-    index = 280,
-    label = 'NH2 + HO2 <=> NH3 + O2',
-    duplicate = True,
-    kinetics = multiArrhenius(
-        arrhenius = [
-            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
-            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
-        ],
-    ),
-    shortDesc = u"""Sarathy (2022)""",
-    longDesc = u"""Sarathy (2022) https://doi.org/10.1016/j.combustflame.2021.111708, Table S2, Supplementary
-    material, Reaction R4 (triplet) and Reaction R6(Singlet)"""
-)
-
-entry(
-    index = 281,
-    label = 'NH2 + HO2 <=> H2NO + O',
+    index = 273,
+    label = 'NH2 + HO2 <=> H2NO + OH',
     kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""Sarathy (2022)""",
