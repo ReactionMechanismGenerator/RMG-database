@@ -56379,7 +56379,7 @@ entry(
 """
 1 * S6ddd u0
 """,
-    thermo = 'S6ddd-XdXdXd',
+    thermo = 'S6ddd-OdXdXd',
     shortDesc = """Sulfur/Oxygen Extension, Ryan Gillis""",
     longDesc = 
 """
