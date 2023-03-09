@@ -158,7 +158,7 @@ entry(
     label = "C",
     group =
 """
-1 *4 C  ux px cx {2,[D,T,Q]}
+1 *4 C  u0 px c0 {2,[D,T,Q]}
 2 *6 Xo u0 p0 c0 {1,[D,T,Q]}
 """,
     kinetics = None,
