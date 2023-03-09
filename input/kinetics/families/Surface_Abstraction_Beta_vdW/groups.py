@@ -37,7 +37,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
-2 *2 R   u0 px cx {1,S} {3,S}
+2 *2 R!H u0 px cx {1,S} {3,S}
 3 *3 R   u0 {2,S}
 4 *5 Xo  u0 {1,S}
 """,
