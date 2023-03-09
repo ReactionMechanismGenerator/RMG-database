@@ -85,7 +85,7 @@ entry(
     group =
 """
 1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}
-2 *2 C  u0 px cx {1,D}
+2 *2 C  u0 px c0 {1,D}
 3 *3 Xo u0 p0 {1,[S,D]}
 """,
     kinetics = None,
