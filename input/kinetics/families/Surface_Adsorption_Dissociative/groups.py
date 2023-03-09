@@ -215,6 +215,7 @@ entry(
     label = "CH4",
     group =
 """
+multiplicity [1]
 1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H u0 p0 c0 {1,S}
 3    H u0 p0 c0 {1,S}
@@ -229,6 +230,7 @@ entry(
     label = "C2H6",
     group =
 """
+multiplicity [1]
 1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H u0 p0 c0 {1,S}
@@ -246,6 +248,7 @@ entry(
     label = "C3H8",
     group =
 """
+multiplicity [1]
 1  *1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2     C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
 3     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -266,6 +269,7 @@ entry(
     label = "CH3OH",
     group =
 """
+multiplicity [1]
 1    O u0 p2 c0 {2,S} {6,S}
 2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 *2 H u0 p0 c0 {2,S}
@@ -282,6 +286,7 @@ entry(
     label = "C2H4",
     group =
 """
+multiplicity [1]
 1 *1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2    C u0 p0 c0 {1,D} {5,S} {6,S}
 3 *2 H u0 p0 c0 {1,S}
