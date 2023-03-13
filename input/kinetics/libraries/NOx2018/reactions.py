@@ -1810,17 +1810,21 @@ entry(
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.1e+18, 's^-1'), n=-1.017, Ea=(91712, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
-            A = (5.4e+23, 'cm^3/(mol*s)'),
+            A = (3.25e+47, 'cm^3/(mol*s)'),
             n = -8.3446,
             Ea = (99596, 'cal/mol'),
             T0 = (1, 'K'),
         ),
         alpha = 0.9922,
-        T3 = (943, 'K'),
-        T1 = (47310, 'K'),
+        T3 = (47310, 'K'),
+        T1 = (943, 'K'),
         T2 = (47110, 'K'),
         efficiencies = {},
     ),
+    shortDesc = u"""The chemkin file reaction is CH3OH <=> CH2(S) + H2O""",
+    longDesc = u"""These entries have different numbers than the entries in the original mechanism files 
+    from the Jasper et al., 2007. A factors for low pressure limit should be multiplied by avogadro's 
+    number since the number in the original paper has the unit of molecule rather than mol )"""
 )
 
 entry(
