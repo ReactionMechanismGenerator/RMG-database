@@ -1310,7 +1310,7 @@ entry(
     kinetics = PDepArrhenius(
         pressures = ([0.01, 1, 10, 20, 50, 100], 'atm'),
         arrhenius = [
-            Arrhenius(A=(6.8e+24, 'cm^3/(mol*s)'), n=-3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(8.3476e+20, 'cm^3/(mol*s)'), n=-4, Ea=(0, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(5e+22, 'cm^3/(mol*s)'), n=-3.85, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(
                 A = (3.4e+21, 'cm^3/(mol*s)'),
@@ -1368,6 +1368,9 @@ entry(
             ),
         ],
     ),
+    longDesc=u"""low pressure limit k_0 was taken from Fernandes et al., 2006. However, it has to 
+    be noted that [M] should be multiplied to 7E-31300^3T^-3 [cm6/#2/s]. Thus, 
+    k_0~ 7E-31300^3T^-3 [cm6/#2/s] * P/RT [#/cm3] = 7E-31300^31013.25/8.314E6*(6.02E23)^2 [cm6/#/s] = 8.348E+20*T^-4"""
 )
 
 entry(
