@@ -3660,6 +3660,12 @@ entry(
             ),
         ],
     ),
+    longDesc=u"""This entry has different kinetics than the entry in the mechanism file 
+    (Lopez et al.). The original reference of this reaction 
+    (Davis et al. , J. Phys. Chem. A 1999, 103, 5889-5899) reported Pdep kinetics.
+    However, the kinetics in the mechanism file of Lopez et al. only contained the rate 
+    coefficient at 1 atm and used it as the high-pressure limit rate coefficient. 
+    This entry instead reported the Pdep kinetics from the original source."""
 )
 
 entry(
