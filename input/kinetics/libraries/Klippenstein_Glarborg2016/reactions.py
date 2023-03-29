@@ -1977,9 +1977,14 @@ entry(
         efficiencies = {},
     ),
     shortDesc = u"""The chemkin file reaction is CH3OH <=> CH2(S) + H2O""",
-    longDesc = u"""These entries have different numbers than the entries in the original mechanism files 
-    from the Jasper et al., 2007. A factors for low pressure limit should be multiplied by avogadro's 
-    number since the number in the original paper has the unit of molecule rather than mol )"""
+    longDesc = u"""This entry has different numbers than the entry in the
+    mechanism file (Hashemi et al.). It uses the kinetic parameters from
+    the original source (Jasper et al. J. Phys. Chem. A, 2007, 111, 19,
+    3932-3950). Jasper et al. reported kinetic unit in molecule, cm^3,
+    and s, but Hashemi et al. didn't multiply the A factor of the low-pressure
+    limit Arrhenius by Avogadro's number when compiling the mechanism (with
+    the unit in mol, cm^3, and s). Besides, Hashemi et al. mistakenly reversed
+    the order of the T1 and T3 parameters."""
 )
 
 entry(

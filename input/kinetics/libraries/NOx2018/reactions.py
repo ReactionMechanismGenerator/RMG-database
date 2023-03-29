@@ -1368,9 +1368,15 @@ entry(
             ),
         ],
     ),
-    longDesc=u"""low pressure limit k_0 was taken from Fernandes et al., 2006. However, it has to 
-    be noted that [M] should be multiplied to 7E-31300^3T^-3 [cm6/#2/s]. Thus, 
-    k_0~ 7E-31300^3T^-3 [cm6/#2/s] * P/RT [#/cm3] = 7E-31300^31013.25/8.314E6*(6.02E23)^2 [cm6/#/s] = 8.348E+20*T^-4"""
+    longDesc=u"""This entry has different rate constants at P = 0.01 atm than
+    the entry in the mechanism file (Glarborg et al.). In Glarborg et al.,
+    k at 0.01 atm was taken from the low-pressure limit k0 of the Troe kinetics
+    in Fernandes et al. (Fernandes et al., JPCA, 110, 13, 4442-4449). However,
+    according to the definition by Fernandes et al., k0 (7E-31*(T/300)^-3 [cm6/#2/s])
+    has to be multiplied by [M] (P/RT) to get the rate constants at a specific pressure.
+    Thus, k(P=0.01 atm) = 7E-31*(T/300)^-3 [cm6/#2/s] * P/RT
+    = 7E-31*(300^3)(6.02E23)^2(1013.25/8.314E6)(T^-4) [cm3/mol/s]
+    = 8.348E+20T^-4 [cm3/mol/s]"""
 )
 
 entry(
@@ -1825,9 +1831,14 @@ entry(
         efficiencies = {},
     ),
     shortDesc = u"""The chemkin file reaction is CH3OH <=> CH2(S) + H2O""",
-    longDesc = u"""These entries have different numbers than the entries in the original mechanism files 
-    from the Jasper et al., 2007. A factors for low pressure limit should be multiplied by avogadro's 
-    number since the number in the original paper has the unit of molecule rather than mol )"""
+    longDesc = u"""This entry has different numbers than the entry in the
+    mechanism file (Hashemi et al.). It uses the kinetic parameters from
+    the original source (Jasper et al. J. Phys. Chem. A, 2007, 111, 19,
+    3932-3950). Jasper et al. reported kinetic unit in molecule, cm^3,
+    and s, but Hashemi et al. didn't multiply the A factor of the low-pressure
+    limit Arrhenius by Avogadro's number when compiling the mechanism (with
+    the unit in mol, cm^3, and s). Besides, Hashemi et al. mistakenly reversed
+    the order of the T1 and T3 parameters."""
 )
 
 entry(
