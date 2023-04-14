@@ -1965,18 +1965,26 @@ entry(
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.1e+18, 's^-1'), n=-1.017, Ea=(91712, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
-            A = (5.4e+23, 'cm^3/(mol*s)'),
+            A = (3.25e+47, 'cm^3/(mol*s)'),
             n = -8.3446,
             Ea = (99596, 'cal/mol'),
             T0 = (1, 'K'),
         ),
         alpha = 0.9922,
-        T3 = (943, 'K'),
-        T1 = (47310, 'K'),
+        T3 = (47310, 'K'),
+        T1 = (943, 'K'),
         T2 = (47110, 'K'),
         efficiencies = {},
     ),
     shortDesc = u"""The chemkin file reaction is CH3OH <=> CH2(S) + H2O""",
+    longDesc = u"""This entry has different numbers than the entry in the
+    mechanism file (Hashemi et al.). It uses the kinetic parameters from
+    the original source (Jasper et al. J. Phys. Chem. A, 2007, 111, 19,
+    3932-3950). Jasper et al. reported kinetic unit in molecule, cm^3,
+    and s, but Hashemi et al. didn't multiply the A factor of the low-pressure
+    limit Arrhenius by Avogadro's number when compiling the mechanism (with
+    the unit in mol, cm^3, and s). Besides, Hashemi et al. mistakenly reversed
+    the order of the T1 and T3 parameters."""
 )
 
 entry(
