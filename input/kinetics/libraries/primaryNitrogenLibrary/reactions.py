@@ -133,6 +133,11 @@ Reference legend:
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
 [Yang2012] Y. Guan, B. Yang, J. Comp. Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020
+[Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
+[Sarathy2022] Javier E. Chavarrio Cañs, S. Mani Sarathy, Combustion and Flame, 2022, 111708, doi: 10.1016/j.combustflame.2021.111708.
+[Salimian1984] S. Salimian, R. K. Hanson, C.H. Kruger, Department of mechanical engineering, June 1984, Stanford University, Stanford, 725 - 739, doi: 10.1002/kin.550160609
+[Glarborg2018] Peter Glarborg, James A. Miller, Branko Ruscic, Stephen J. Klippenstein, Progress in Energy and Combustion Science, 2018, 31 - 68, doi: 10.1016/j.pecs.2018.01.002
+[Stagni2020] A. Stagni, T. fARAVELLI, Royal society of chemistry, 2020, 696-711, doi: 10.1039/c9re00429g
 """
 
 entry(
@@ -1696,19 +1701,27 @@ calculated using  QRRK / DHT
 
 entry(
     index = 88,
-    label = "NH3 <=> NH2 + H",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(2.20e+16, 'cm^3/(mol*s)'), n=0, Ea=(93468, 'cal/mol'), T0 = (1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K'))),
-    shortDesc = u"""[Hanson1990a]""",
-    longDesc =
+    label='NH2 + H <=> NH3',
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(1.6e+14, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(3.6e+22, 'cm^6/(mol^2*s)'), n=-1.76, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        alpha=0.5,
+        T3=(1e-30, 'K'),
+        T1=(1e+30, 'K'),
+        efficiencies={'N#N': 1.0, '[Ar]': 0.32, '[O][O]': 0.50, 'N': 4.39},
+    ),
+    shortDesc=u"""[Glarborg2021]""",
+    longDesc=
 u"""
-Part of the "NHx" subset
-R1 in Table 1, p. 521
-T range: 2200-2800 K
-Shock Tube
-The competing reaction "NH3 <=> NH + H2" is spin-hindered, and is ~40 times lower in rate, and can be neglected. Source: [Hanson1984c]
-Train!
+Reaction 2, Table 2, Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Original values taken from [Klippenstein2009a], computed with the CCSD(T) method employing 
+either the aug-cc-pvdz or aug-cc-pvtz basis set, adopted by [Glarborg2021] and calculated the relative third-body 
+efficiencies of Ar, O2, and NH3 and selected other collision partners compared to N2 for the reaction.  The interaction 
+potentials were trained against large data sets of ab initio (counterpoise corrected MP2 with cc-pVTZ and cc-pVQZ 
+complete basis set extrapolations) energies. [Altinay&Macdonald2015] indicate that the reaction is sufficiently fast at 
+a pressure of 560 Torr and should be taken into account. Previously taken from [Hanson1984c] it's part of the "NHx" 
+subset R1 in Table 1, p. 521 T range: 2200-2800 K Shock Tube. The competing reaction "NH3 <=> NH + H2" is spin-hindered,
+and is ~40 times lower in rate, and can be neglected. 
 """,
 )
 
@@ -1922,25 +1935,32 @@ and the moment of inertia and harmonic vibrational frequencies were obtained by 
 
 entry(
     index = 101,
-    label = "N2H4 <=> NH2 + NH2",
-    degeneracy = 1,
-    kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(A=(1.57e+21, 's^-1'), n=-1.04, Ea=(66565, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-        arrheniusLow = Arrhenius(A=(1.96e+52, 'cm^3/(mol*s)'), n=-10.2, Ea=(71677, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K'))),
-    elementary_high_p = True,
-    shortDesc = u"""[Lin2014b]""",
-    longDesc =
+    label='NH2 + NH2 <=> N2H4',
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(5.6e+14, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(1.6e34, 'cm^6/(mol^2*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K')),
+        alpha=0.31,
+        T3=(1e-30, 'K'),
+        T1=(1e+30, 'K'),
+        efficiencies={'N#N': 1.0, '[Ar]': 0.5, '[O][O]': 0.61, 'N': 2.93},
+    ),
+    shortDesc=u"""[Glarborg2021]""",
+    longDesc=
 u"""
-Part of the "N2H4 + N2O4" subset
-p. 264
-Bath gas: Ar
-calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
-Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-Also available from [Klippenstein2009a] in reverse:
-label = "NH2 + NH2 <=> N2H4",
-    kinetics = Troe(
-       arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+Reaction 3, Table 2 taken form [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Original values taken from [Klippenstein2009a], computed with the CCSD(T) method employing 
+either the aug-cc-pvdz or aug-cc-pvtz basis set, adopted by [Glarborg2021] and calculated the relative third-body 
+efficiencies of Ar, O2, and NH3 and selected other collision partners compared to N2 for the reaction. 
+Previously taken from [Lin2014b] as the reverse reaction: "N2H4 <=> NH2 + NH2"
+Part of the "N2H4 + N2O4" subset p. 264 Bath gas: Ar calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) 
+level of theory Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
+Also available from [Klippenstein2009a]: 
+    label = "NH2 + NH2 <=> N2H4",
+     kinetics = Troe(
+       arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), 
+       Tmax=(2500, 'K')), 
+       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K')
+       , Tmax=(2500, 'K')),
        alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
 Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
 """,
@@ -2596,45 +2616,55 @@ calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
 
 entry(
     index = 139,
-    label = "NH3 + NO <=> NH2 + HNO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.04e+07, 'cm^3/(mol*s)'), n=1.73, Ea=(56544, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1996a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1 on p. 7519
-T range: 300-5000 K
-calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
-Added as a training reaction to H_Abstraction
+    label='NH2 + HNO <=> NH3 + NO',
+    kinetics=Arrhenius(A=(5.9e+02, 'cm^3/(mol*s)'), n=2.950, Ea=(-3469, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2021]""",
+    longDesc=
+u"""Reaction 7, Table 2, Source: [Glarborg2021], Experimental work re-interpreted using direct measurments from 
+[Altinay&Macdonald2015]. New parameters obtained with the predicted rate expressions by [ShuchengXu & M.C.Lin2009] 
+the potential energy surface of this reaction has been computed by single-point calculations at the 
+CCSD(T)/6-311+G(3df,2p) level based on geometries optimized at the CCSD/6-311++G(d,p) level.
+Previously taken from [Lin1996a] in reverse.
+Reaction Part of the "Thermal de-NOx" mechanism
+        k1 on p. 7519
+        T range: 300-5000 K
+        calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
+        Added as a training reaction to H_Abstraction
 """,
 )
 
 entry(
     index = 140,
-    label = "NH2 + NO <=> NNH + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.43e+07, 'cm^3/(mol*s)'), n=1.40, Ea=(-1777, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Lin1999a]""",
+    label = 'NH2 + NO <=> NNH + OH',
+    kinetics = Arrhenius(A=(4.3e+10, 'cm^3/(mol*s)'), n=0.294, Ea=(-866, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc =u"""[Glarborg2021]""",
     longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1a
-T range: 300-2500 K
+u"""Reaction 5a, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Original information taken from [Song&Golden2001] Shock tube experiments  were  
+performed behind reflected shockwaves in a stainless steel shock tube.  Rates were calculated using their branching 
+ratio results data and the overall rate coefficient.
+
+Previously taken from [Lin1999a] 
+
+Reaction part of the "Thermal de-NOx" mechanism k1a T range: 300-2500 K
 """,
 )
 
 entry(
     index = 141,
-    label = "NH2 + NO <=> N2 + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.20e+17, 'cm^3/(mol*s)'), n=-1.61, Ea=(298, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Lin1999a]""",
+    label = 'NH2 + NO <=> N2 + H2O',
+    kinetics = Arrhenius(A=(2.6e+19, 'cm^3/(mol*s)'), n=-2.369, Ea=(870, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[Glarborg2021]""",
     longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k1b
-T range: 300-2500 K
+u"""Reaction 5b, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Original information taken from [Song&Golden2001] Shock tube experiments  were  
+performed behind reflected shockwaves in a stainless steel shock tube.  Rates were calculated using their branching 
+ratio results data and the overall rate coefficient.
+
+Previously taken from [Lin1999a].
+Part of the "Thermal de-NOx" mechanism k1b T range: 300-2500 K
 """,
 )
 
@@ -2687,27 +2717,27 @@ T range: 300-4000 K, k2a, QRRK
 
 entry(
     index = 145,
-    label = "NH2 + O2 <=> H2NO + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.6e+11, 'cm^3/(mol*s)'), n=0.4872, Ea=(29050, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Miller2011]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+    label="NH2 + O2 <=> H2NO + O",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(2.6e+11, 'cm^3/(mol*s)'), n=0.4872, Ea=(29050, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Miller2011]""",
+    longDesc=
+    u"""
+    Part of the "Thermal de-NOx" mechanism
+    calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
 """,
 )
 
 entry(
     index = 146,
-    label = "NH2 + O2 <=> HNO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.9e-02, 'cm^3/(mol*s)'), n=3.764, Ea=(18185, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Miller2011]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+    label="NH2 + O2 <=> HNO + OH",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(2.9e-02, 'cm^3/(mol*s)'), n=3.764, Ea=(18185, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Miller2011]""",
+    longDesc=
+    u"""
+    Part of the "Thermal de-NOx" mechanism
+    calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
 """,
 )
 
@@ -2749,21 +2779,26 @@ Train!
 
 entry(
     index = 149,
-    label = "NH2 + OH <=> NH3 + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3.72e+00, 'cm^3/(mol*s)','+|-',9.30e-01), n=3.50, Ea=(-203, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-Table 3, p. 10245
-T range: 300-2500 K
-calculated at the (CCSD(T) and CAS+1+2+QC level
-Also available from [Klemm1990]:
-    kinetics = Arrhenius(A=(9.39e+06, 'cm^3/(mol*s)'), n=1.94, Ea=(6461, 'cal/mol'), T0=(1, 'K')),
-T range: 448-1790 K, Experimental, Uncertainty: 25%
-Train!
-""",
+    label='NH3 + O <=> NH2 + OH',
+    kinetics=Arrhenius(A=(4.43e+02, 'cm^3/(mol*s)'), n=3.180, Ea=(6739.9, 'cal/mol'), T0=(1, 'K'),
+                       Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Stagni2020]""",
+    longDesc=
+u"""Reaction 4, Table 1, Source: [Stagni2020].The rate of reaction was calculated with CCSD(T) level of theory 
+performed using Molpro 2010. Electronic structure calculations were performed determining structures and vibrational 
+frequencies at the M06-2X/aug-cc-pVTZ level and energies at the unrestricted CCSDĲT)/aug-cc-pVTZ level, corrected for
+basis set size effect with the change of density fitted (DF) MP2 energies computed using aug-cc-pVQZ and aug-cc-pVTZ 
+basis sets.
+    
+Previously taken from [Klippenstein2009a].
+
+Part of the "Thermal de-NOx" mechanism Table 3, p. 10245
+        T range: 300-2500 K
+        calculated at the (CCSD(T) and CAS+1+2+QC level
+        Also available from [Klemm1990]:
+            kinetics = Arrhenius(A=(9.39e+06, 'cm^3/(mol*s)'), n=1.94, Ea=(6461, 'cal/mol'), T0=(1, 'K')),
+        T range: 448-1790 K, Experimental, Uncertainty: 25%
+        Train!""",
 )
 
 entry(
@@ -3019,13 +3054,17 @@ Train both!!!
 
 entry(
     index = 165,
-    label = "NH2 + H2 <=> NH3 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.03e+04, 'cm^3/(mol*s)'), n=2.58163, Ea=(6538, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Staton2019]""",
-    longDesc =
-u"""
+    label='NH3 + H <=> NH2 + H2',
+    kinetics=Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2021]""",
+    longDesc=
+u"""Reaction 10, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Pre modified data taken from [Klemm1986] which measured the rate constant by the flash 
+photolysis-shock tube technique using atomic resonance absorption to monitor [H]t.
+        
+Previously taken from [Staton2019]
+        
 Part of the "Thermal de-NOx" mechanism
 k1_theo on p. 229
 T range: 300-2500 K
@@ -3033,8 +3072,8 @@ calculations done at the HEAT-456QP level of theory
 Also available (shock tube) from [Klemm1985]
 Also available from [Lin1999b]
 Also available from [Staton2019] in reverse:
-    kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(300, 'K'), Tmax=(2500, 'K')),
+kinetics = Arrhenius(A=(2.89e+06, 'cm^3/(mol*s)'), n=2.23036, Ea=(10407, 'cal/mol'), T0=(1, 'K'),
+Tmin=(300, 'K'), Tmax=(2500, 'K'))
 """,
 )
 
@@ -3056,19 +3095,24 @@ Added as a training reaction to H_Abstraction
 
 entry(
     index = 167,
-    label = "NH2 + H2O <=> NH3 + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.62e+13, 'cm^3/(mol*s)'), n=0, Ea=(16846, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1999b]""",
-    longDesc =
-u"""
+    label='NH3 + OH <=> NH2 + H2O ',
+    kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc= u"""[Glarborg2021]""",
+    longDesc=
+u"""Reaction 12, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Original information by [Salimian1984] with shock tube experiments, NH3 concentration profiles
+were monitored by infrared emission spectroscopy.
+
+Previously taken from [Lin1999b]
+        
 Part of the "Thermal de-NOx" mechanism
-k4 on p. 233
-T range: 300-5000 K
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
-A lower and upper rate limits were given. Here an average rate was taken.
-Fitted to a 2 parameter Arrhenius with a coefficient of determination of 0.9943
-Added as a training reaction to H_Abstraction
+        k4 on p. 233
+        T range: 300-5000 K
+        calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
+        A lower and upper rate limits were given. Here an average rate was taken.
+        Fitted to a 2 parameter Arrhenius with a coefficient of determination of 0.9943
+        Added as a training reaction to H_Abstraction
 """,
 )
 
@@ -3163,39 +3207,49 @@ calculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of
 
 entry(
     index = 172,
-    label = "NH2 + NO2 <=> N2O + H2O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.60e+18, 'cm^3/(mol*s)'), n=-2.191, Ea=(455, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Marshall2013]""",
-    longDesc =
-u"""
+    label='NH2 + NO2  <=> N2O + H2O',
+    kinetics=Arrhenius(A=(2.2e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
+                       T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2018]""",
+    longDesc=
+u"""Reaction 67, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
+Rate parameters for the gas-phase reaction is surveyed, based on available information from experiments and high-level of theory.
+Also was evaluated against experimental data. 
+        
+Previously taken from [Marshall2013]
+        
 Part of the "Thermal de-NOx" mechanism
-k1a 3 on p. 9019
-T range: 300-2000 K
-calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
-+UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
-CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
-CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
-and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
+        k1a 3 on p. 9019
+        T range: 300-2000 K
+        calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
+        +UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
+        CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
+        CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
+        and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
 """,
 )
 
 entry(
     index = 173,
-    label = "NH2 + NO2 <=> H2NO + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(9.09e+11, 'cm^3/(mol*s)'), n=0.0321, Ea=(-1512, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Marshall2013]""",
+    label = 'NH2 + NO2 <=> H2NO + NO',
+    kinetics = Arrhenius(A=(8.6e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[Glarborg2018]""",
     longDesc =
-u"""
+u"""Reaction 68, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
+Rate parameters for the gas-phase reaction is surveyed, based on available information from experiments and high-level of theory.
+Also was evaluated against experimental data. 
+        
+Previously taken from [Marshall2013]
+        
 Part of the "Thermal de-NOx" mechanism
-k1b 3 on p. 9019
-T range: 300-2000 K
-calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
-+UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
-CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
-CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
-and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
+        k1a 3 on p. 9019
+        T range: 300-2000 K
+        calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
+        +UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
+        CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
+        CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
+        and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
 """,
 )
 
@@ -4716,5 +4770,137 @@ opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
 Fitted to 51 data points; dA = *|/ 1.10125, dn = +|- 0.0117499, dEa = +|- 0.117226 kJ/mol
+""",
+)
+
+entry(
+    index = 266,
+    label = 'H2NN(S) + O <=> NH2 + NO',
+    kinetics = Arrhenius(A=(3.2e+09, 'cm^3/(mol*s)'), n=1.03, Ea=(684.38, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[DeanBozz2000]""",
+    longDesc =
+u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
+Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
+radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
+indicate transition states and A-factors similar to radical addition reactions.
+""",
+)
+
+entry(
+    index = 267,
+    label = 'H2NN(S) + O <=> OH + NNH',
+    kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(226.45, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[DeanBozz2000]""",
+    longDesc =
+u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
+Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
+radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
+indicate transition states and A-factors similar to radical addition reactions.
+""",
+)
+
+entry(
+    index = 268,
+    label = 'NH2 + HO2 <=> HNO + H2O',
+    kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[Glarborg2021]""",
+    longDesc =
+u"""Reaction 1b, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Estimation by theoretical study of the singlet surface and previews studies of the three
+important branching reactions.
+""",
+)
+entry(
+    index = 269,
+    label = 'HNO + O2 <=> NO + HO2',
+    kinetics = Arrhenius(A=(2.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(16000, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[Glarborg2021]""",
+    longDesc =
+u"""Reaction 8, Table 2, Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+[Altinay&Macdonald2015]. Original data based on [DeanBozz2000]""",
+)
+
+entry(
+    index = 270,
+    label = 'H2NO + O2 <=> HNO + HO2',
+    duplicate=True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+    Arrhenius (A=(4.350e-23, 'cm^3/(mol*s)'), n=3.081, Ea=(14540, 'cal/mol'), T0=(1, 'K'),
+               Tmin=(500, 'K'),
+               Tmax=(3000, 'K')),
+    Arrhenius (A=(1.843e-24, 'cm^3/(mol*s)'), n=3.489, Ea=(13.900, 'cal/mol'), T0=(1, 'K'),
+               Tmin=(500, 'K'),
+               Tmax=(1700, 'K')),
+            ],
+    ),
+    shortDesc = u"""[Sarathy2022]""",
+    longDesc =
+u"""Table S2, Supplementary material, Reaction R1(doublet ground-state), Source: [Sarathy2022]. Optimized and characterized the 
+stationaryy points of the PESs with the ROCCSD method (Detailed in Table 1).
+""",
+)
+
+entry(
+    index = 271,
+    label = 'H2NO + O2 <=> HNO + HO2',
+    duplicate = True,
+    kinetics = Arrhenius(A=(7.354e-21, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
+        T0=(1, 'K')),
+    shortDesc = u"""[Sarathy2022]""",
+    longDesc =
+u"""Table S2, Supplementary material, Reaction R2 (quartet excited-state), Source: [Sarathy2022]. Optimized and 
+characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+""",
+)
+
+
+entry(
+    index = 272,
+    label = 'NH2 + HO2 <=> NH3 + O2',
+    duplicate=True,
+    kinetics = MultiArrhenius(
+        arrhenius = [
+            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'),
+                       Tmin=(500, 'K'),
+                       Tmax=(3000, 'K')),
+            Arrhenius (A=(3.619e-18, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'), T0=(1, 'K'),
+                       Tmin=(500, 'K'),
+                       Tmax=(1700, 'K')),
+        ],
+    ),
+    shortDesc = u"""[Sarathy2022]""",
+    longDesc =
+u"""Table S2, Supplementary material, Reaction R4 (triplet ground-state), Source: [Sarathy2022]. Optimized and 
+characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+""",
+)
+
+entry(
+    index = 273,
+    label = 'NH2 + HO2 <=> H2NO + OH',
+    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    shortDesc = u"""[Sarathy2022]""",
+    longDesc =
+u"""Table S2, Supplementary material, Reaction R5 (triplet excited-state), Source: [Sarathy2022]. Optimized and 
+characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
+""",
+)
+
+entry(
+    index = 274,
+    label = 'NH2 + HO2 <=> NH3 + O2',
+    duplicate=True,
+    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    shortDesc = u"""[Sarathy2022]""",
+    longDesc =
+u"""Table S2, Supplementary material,  Reaction R6 (singlet excited-state), Source: [Sarathy2022].Optimized and 
+characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
 )
