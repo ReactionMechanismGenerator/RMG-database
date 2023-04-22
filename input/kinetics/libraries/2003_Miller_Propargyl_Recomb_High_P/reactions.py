@@ -103,16 +103,5 @@ entry(
     index = 14,
     label = "IV <=> B",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.012e+13, 's^-1'),
-        n = 0.1,
-        Ea = (41.203, 'kcal/mol'),
-        T0 = (1, 'K'),
-        comment = 'CBS-QB3 calculated',
-    ),
-    longDesc = 
-u"""
-CBS-QB3 calculated
-""",
+    kinetics = Arrhenius(A=(1.012e+13, 's^-1'), n=0.1, Ea=(41.203, 'kcal/mol'), T0=(1, 'K')),
 )
-
