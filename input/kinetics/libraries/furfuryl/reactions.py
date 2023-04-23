@@ -17,7 +17,8 @@ entry(
 
 entry(
     index = 1,
-    label = "2FFOH + H <=> W2",
+    label = "2FFOH + H => W2",
+    reversible=False,
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.87e-17,'cm^3/(mol*s)'), n=1.74, Ea=(4871,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
 )
