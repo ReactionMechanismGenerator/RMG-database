@@ -98,12 +98,12 @@ entry(
     kinetics = Arrhenius(A=(5.89e+10,'cm^3/(mol*s)'), n=0.87, Ea=(34497,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
 )
 
-entry(
-    index = 13,
-    label = "W3 <=> 2FFOH + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.92e+10,'cm^3/(mol*s)'), n=0.94, Ea=(26152,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
-)
+# entry(
+#     index = 13,
+#     label = "W3 <=> 2FFOH + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.92e+10,'cm^3/(mol*s)'), n=0.94, Ea=(26152,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
+# )
 
 entry(
     index = 14,
