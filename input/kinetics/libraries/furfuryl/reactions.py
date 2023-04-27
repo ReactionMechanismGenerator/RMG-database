@@ -80,12 +80,12 @@ entry(
     kinetics = Arrhenius(A=(6.76e+08,'s^-1'), n=1.35, Ea=(31774,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
 )
 
-entry(
-    index = 9,
-    label = "W2 <=> 2FFOH + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.43e+10,'s^-1'), n=0.86, Ea=(25901,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
-)
+# entry(
+#     index = 9,
+#     label = "W2 <=> 2FFOH + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(7.43e+10,'s^-1'), n=0.86, Ea=(25901,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
+# )
 
 entry(
     index = 10,
@@ -108,12 +108,12 @@ entry(
     kinetics = Arrhenius(A=(5.89e+10,'s^-1'), n=0.87, Ea=(34497,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
 )
 
-entry(
-    index = 13,
-    label = "W3 <=> 2FFOH + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.92e+10,'s^-1'), n=0.94, Ea=(26152,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
-)
+# entry(
+#     index = 13,
+#     label = "W3 <=> 2FFOH + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.92e+10,'s^-1'), n=0.94, Ea=(26152,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
+# )
 
 entry(
     index = 14,
@@ -122,12 +122,12 @@ entry(
     kinetics = Arrhenius(A=(5.23e+10,'s^-1'), n=0.7, Ea=(20843,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
 )
 
-entry(
-    index = 15,
-    label = "W4 <=> 2FFOH + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.2e+09,'s^-1'), n=1.29, Ea=(34631,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
-)
+# entry(
+#     index = 15,
+#     label = "W4 <=> 2FFOH + H",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.2e+09,'s^-1'), n=1.29, Ea=(34631,'cal/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K')),
+# )
 
 entry(
     index = 16,
