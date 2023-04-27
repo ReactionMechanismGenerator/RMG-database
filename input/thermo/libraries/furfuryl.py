@@ -4,7 +4,17 @@
 name = "Thermo Library Furfuryl 2023"
 shortDesc = "The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis"
 longDesc = """
-https://www.sciencedirect.com/science/article/pii/S0010218023000123?via%3Dihub#cebibl1
+Lili Xing, Yunrui He, Jinglan Wang, Liuchao Lian, Zhanjun Cheng, Xuetao Wang, Mengjie Liu,
+The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis,
+Combustion and Flame,
+Volume 250,
+2023,
+112627,
+ISSN 0010-2180,
+https://doi.org/10.1016/j.combustflame.2023.112627.
+(https://www.sciencedirect.com/science/article/pii/S0010218023000123)
+Abstract: The rate constants for H-initiated reactions of 2-furfuryl alcohol (2FFOH) were calculated for the first time by a high-level quantum chemical method combined with the Rice–Ramsperger–Kassel–Marcus (RRKM) theory/Master equation method. A detailed potential energy surface was constructed by the CCSD(T)/CBS//M06–2X/def2-TZVP method, involving H-abstraction, initial H-addition, adduct-subsequent pathways and interconnected conversion pathways. The H-addition reaction on the β-carbon and δ-carbon sites to form bimolecular products 2-methylene-2,3-dihydrofuran plus OH and 2-methylene-2,5-dihydrofuran plus OH were found to be the major product channels at high temperatures. No significant pressure dependence is observed for the total rate constants of 2FFOH + H. However, the overall kinetics behavior does not reflect the site characteristics, i.e., the site-specific rate constants for each reaction channel show different temperature and pressure dependences. The total rate constants via the H-addition mechanism are higher by factors of 3.3–10 than those via H-abstraction channels under all studied conditions. The present updated kinetic model obtained by applying these new calculated rate constants can better predict 2FFOH decomposition, especially at 30 Torr, and it can also lead to good predictions of the speciation profiles (e.g., vinyl ketene) during 2FFOH pyrolysis. The data calculated in the present work can provide valuable information for the development of combustion models of furan-based biofuels.
+Keywords: 2-furfuryl alcohol; Quantum chemical calculations; RRKM/master equation; Reaction kinetics; Kinetic modeling
 """
 entry(
     index = 0,
