@@ -15,6 +15,11 @@ multiplicity 3
 1 O u1 p2 c0 {2,S}
 2 O u1 p2 c0 {1,S}
 
+O2(S)
+multiplicity 1
+1 O u0 p2 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
 O3
 1 O u0 p3 c-1 {2,S}
 2 O u0 p1 c+1 {1,S} {3,D}
@@ -158,6 +163,12 @@ HNO
 1 N u0 p1 c0 {2,D} {3,S}
 2 O u0 p2 c0 {1,D}
 3 H u0 p0 c0 {1,S}
+
+HNO(T)
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 N u1 p1 c0 {1,S} {3,S}
+3 H u0 p0 c0 {2,S}
 
 HON
 1 O u0 p1 c+1 {2,D} {3,S}

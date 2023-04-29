@@ -4832,16 +4832,8 @@ entry(
     index = 270,
     label = 'H2NO + O2 <=> HNO + HO2',
     duplicate=True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-    Arrhenius (A=(4.350e-23, 'cm^3/(mol*s)'), n=3.081, Ea=(14540, 'cal/mol'), T0=(1, 'K'),
-               Tmin=(500, 'K'),
-               Tmax=(3000, 'K')),
-    Arrhenius (A=(1.843e-24, 'cm^3/(mol*s)'), n=3.489, Ea=(13.900, 'cal/mol'), T0=(1, 'K'),
-               Tmin=(500, 'K'),
-               Tmax=(1700, 'K')),
-            ],
-    ),
+    kinetics = Arrhenius (A=(1.110e0, 'cm^3/(mol*s)'), n=3.489, Ea=(13900, 'cal/mol'),
+                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
 u"""
@@ -4852,10 +4844,11 @@ Optimized and characterized the stationary points of the PESs with the ROCCSD me
 
 entry(
     index = 271,
-    label = 'H2NO + O2 <=> HNO + HO2',
+    label = 'H2NO + O2 <=> HNO(T) + HO2',
     duplicate = True,
-    kinetics = Arrhenius(A=(7.354e-21, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
-        T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.429e+03, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    shortDesc = u"""[Sarathy2022]""",
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
 u"""
@@ -4864,21 +4857,11 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 """,
 )
 
-
 entry(
     index = 272,
     label = 'NH2 + HO2 <=> NH3 + O2',
-    duplicate=True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'),
-                       Tmin=(500, 'K'),
-                       Tmax=(3000, 'K')),
-            Arrhenius (A=(3.619e-18, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'), T0=(1, 'K'),
-                       Tmin=(500, 'K'),
-                       Tmax=(1700, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius (A=(2.179e+06, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'),
+                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
 u"""
@@ -4890,8 +4873,8 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 entry(
     index = 273,
     label = 'NH2 + HO2 <=> H2NO + OH',
-    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
-        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(3.489e+03, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
 u"""
@@ -4902,10 +4885,10 @@ Optimized and characterized the stationary points of the PESs with the CCSD(T) m
 
 entry(
     index = 274,
-    label = 'NH2 + HO2 <=> NH3 + O2',
+    label = 'NH2 + HO2 <=> NH3 + O2(S)',
     duplicate=True,
-    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
-        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(2.851e+01, 'cm^3/(mol*s)'), n=2.937, Ea=(1241, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
 u"""
