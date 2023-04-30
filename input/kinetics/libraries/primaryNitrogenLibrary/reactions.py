@@ -1655,14 +1655,15 @@ entry(
     index = 85,
     label = "NNH + O2 <=> N2 + HO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.55e+13, 'cm^3/(mol*s)','*|/',1.5), n=-0.385, Ea=(-13.4, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2400, 'K')),
+    kinetics = Arrhenius(A=(5.6e+14, 'cm^3/(mol*s)'), n=-0.385, Ea=(-13, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2400, 'K')),
     shortDesc = u"""[Miller2011]""",
     longDesc =
 u"""
 Part of the "NNH Pathway"
-p. 776
+p. 776 shows a different values, perhaps a mistake?
+Taken from Table 2 Reaction 39 and from SI: "NNH+O2=N2+HO2 5.6E14 -0.385 -13 ! pw"
 T range: 200-2400 K
-Uncertainty: a factor of 1.5
 calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
 """,
 )
