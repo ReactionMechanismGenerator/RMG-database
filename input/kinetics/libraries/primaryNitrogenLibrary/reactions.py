@@ -53,6 +53,8 @@ Reference legend:
 [Friedrichs2011] J. Dammeier, G. Friedrichs, J. Phys. Chem. A, 2011, 115, 14382-14390, doi: 10.1021/jp208715c
 [Friedrichs2012] J. Dammeier, N. Faßheber, G. Friedrichs, Phys. Chem. Chem. Phys., 2012, 15, 1030-1037, doi: 10.1039/C1CP22123J
 [Friedrichs2015]  N. Faßheber,  N. Lamoureux,  G. Friedrichs, Phys. Chem. Chem. Phys., 2015, 17, 15876-15886, doi: 10.1039/C5CP01414J
+[Glarborg2018] P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Progress in Energy and Combustion Science, 2018, 67, 31-68, doi: 10.1016/j.pecs.2018.01.002
+[Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
 [GlarGim] (RMG's Nitrogen_Glarborg_Gimenez_et_al library) Gimenez Lopeza et al., Proceedings of the Combustion Institute, 2009, 32(1), 367-375, doi: 10.1016/j.proci.2008.06.188
 [GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34, 617-624, doi: 10.1016/j.proci.2012.06.010
 [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green, A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p
@@ -127,17 +129,15 @@ Reference legend:
 [Perry1985] R.A. Perry, J. Chem. Phys, 1985, 82, 5485, doi: 10.1063/1.448583
 [Pritchard2001] W-T. Chan, S.M. Heck, H.O. Pritchard, Phys. Chem. Chem. Phys., 2001, 3, 56-62, doi: 10.1039/b006088g
 [Rabinowitz2010] S.M. Hwang, J.A. Cooke, K.J. De Witt, M.J. Rabinowitz, Int. J. Chem. Kin., 2010, 42(3), 168-180, doi: 10.1002/kin.20472
+[Salimian1984] S. Salimian, R.K. Hanson, C.H. Kruger, Int. J. CHem. Kin., 1984, 16(6), 725-739, doi: 10.1002/kin.550160609
+[Sarathy2022] J.E. Chavarrio Cans, M. Monge-Palacios, X. Zhang, S. Mani Sarathy, Combustion and Flame, 2022, 235, 111708, doi: 10.1016/j.combustflame.2021.111708
+[Stagni2020] A. Stagni, C. Cavallotti, O. Herbinet, T. Faravelli, Reaction Chemistry & Engineering, 2020, 5, 696-711, doi: 10.1039/c9re00429g
 [Staton2019] T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
 [Troe1975] K. Glanzer, J. Troe, Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469, doi: 10.1002/bbpc.19750790514
 [Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
 [Yang2012] Y. Guan, B. Yang, J. Comp. Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020
-[Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
-[Sarathy2022] Javier E. Chavarrio Cañs, S. Mani Sarathy, Combustion and Flame, 2022, 111708, doi: 10.1016/j.combustflame.2021.111708.
-[Salimian1984] S. Salimian, R. K. Hanson, C.H. Kruger, Department of mechanical engineering, June 1984, Stanford University, Stanford, 725 - 739, doi: 10.1002/kin.550160609
-[Glarborg2018] Peter Glarborg, James A. Miller, Branko Ruscic, Stephen J. Klippenstein, Progress in Energy and Combustion Science, 2018, 31 - 68, doi: 10.1016/j.pecs.2018.01.002
-[Stagni2020] A. Stagni, T. fARAVELLI, Royal society of chemistry, 2020, 696-711, doi: 10.1039/c9re00429g
 """
 
 entry(
@@ -4780,7 +4780,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[DeanBozz2000]""",
     longDesc =
-u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
+u"""
+Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
 Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
 radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
 indicate transition states and A-factors similar to radical addition reactions.
@@ -4794,7 +4795,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[DeanBozz2000]""",
     longDesc =
-u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
+u"""
+Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
 Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
 radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
 indicate transition states and A-factors similar to radical addition reactions.
@@ -4808,7 +4810,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Glarborg2021]""",
     longDesc =
-u"""Reaction 1b, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+u"""
+Reaction 1b, Table 2. Experimental work re-interpreted using direct measurements from 
 [Altinay&Macdonald2015]. Estimation by theoretical study of the singlet surface and previews studies of the three
 important branching reactions.
 """,
@@ -4820,7 +4823,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Glarborg2021]""",
     longDesc =
-u"""Reaction 8, Table 2, Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+u"""
+Reaction 8, Table 2. Experimental work re-interpreted using direct measurements from 
 [Altinay&Macdonald2015]. Original data based on [DeanBozz2000]""",
 )
 
@@ -4840,8 +4844,9 @@ entry(
     ),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R1(doublet ground-state), Source: [Sarathy2022]. Optimized and characterized the 
-stationaryy points of the PESs with the ROCCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R1, doublet surface.
+Optimized and characterized the stationary points of the PESs with the ROCCSD method (Detailed in Table 1).
 """,
 )
 
@@ -4853,8 +4858,9 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R2 (quartet excited-state), Source: [Sarathy2022]. Optimized and 
-characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R2, quartet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
 )
 
@@ -4875,8 +4881,9 @@ entry(
     ),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R4 (triplet ground-state), Source: [Sarathy2022]. Optimized and 
-characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R4, triplet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
 )
 
@@ -4887,8 +4894,9 @@ entry(
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R5 (triplet excited-state), Source: [Sarathy2022]. Optimized and 
-characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
+u"""
+Table S2, Reaction R5, triplet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
 """,
 )
 
@@ -4900,7 +4908,10 @@ entry(
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material,  Reaction R6 (singlet excited-state), Source: [Sarathy2022].Optimized and 
-characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R6, singlet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+""",
+)
 """,
 )
