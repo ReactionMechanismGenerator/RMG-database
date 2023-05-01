@@ -100,6 +100,7 @@ Reference legend:
 [Lin2003a] I.V. Tokmakov, L.V. Moskaleva, D.V. Paschenko, M.C. Lin, J. Phys. Chem. A, 2003, 107(7), 1066-1076, doi: 10.1021/jp022024t
 [Lin2003b] R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119, 10667, doi: 10.1063/1.1619373
 [Lin2003c] Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
+[Lin2003d] R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119(20), 10667-10677, doi: 10.1063/1.1619373
 [Lin2004] Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4), 205-215, doi: 10.1002/kin.10178
 [Lin2005a] R.S. Zhu, M.C. Lin, Int. J. Chem. Kin., 2005, 37(10), 593-598, doi: 10.1002/kin.20066
 [Lin2005b] R.S. Zhu, M.C. Lin, Ab initio study on the oxidation of NCN by O and HO radicals: Prediction of the total rate constant and product branching ratios, in: 6th International Conference of Chemical Kinetics, NIST, Gaithersberg, MD, 2005
@@ -4896,5 +4897,37 @@ Table S2, Reaction R6, singlet surface.
 Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
 )
+
+entry(
+    index = 275,
+    label = 'NO + HO2 <=> HNO3',
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(2.85e+15, 'cm^3/(mol*s)'), n=-0.82, Ea=(-41.7, 'cal/mol'),
+                                  T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.20e+42, 'cm^6/(mol^2*s)'), n=-8.8, Ea=(3117.9, 'cal/mol'),
+                                 T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p = False,
+    shortDesc = u"""[Lin2003d]""",
+    longDesc =
+u"""
+Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
+He was used as the 3rd body collider in these computations.
+""",
+)
+
+entry(
+    index = 276,
+    label = 'NO + HO2 <=> HOONO',
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(-198.7, 'cal/mol'),
+                                  T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.14e+50, 'cm^6/(mol^2*s)'), n=-12.3, Ea=(5136.9, 'cal/mol'),
+                                 T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p = False,
+    shortDesc = u"""[Lin2003d]""",
+    longDesc =
+u"""
+Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
+He was used as the 3rd body collider in these computations.
 """,
 )
