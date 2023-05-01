@@ -58,6 +58,7 @@ Reference legend:
 [Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
 [GlarGim] (RMG's Nitrogen_Glarborg_Gimenez_et_al library) Gimenez Lopeza et al., Proceedings of the Combustion Institute, 2009, 32(1), 367-375, doi: 10.1016/j.proci.2008.06.188
 [GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34, 617-624, doi: 10.1016/j.proci.2012.06.010
+[Goldsmith2019] X. Chen, M.E. Fuller, C.F. Goldsmith, Reaction CHemistry and Engineering, 2019, 4, 323-333, doi: 10.1039/C8RE00201K
 [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green, A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p
 [GRI] (RMG's GRI-Mech3.0-N library) GRI-Mech 3.0, http://www.me.berkeley.edu/gri_mech/
 [Hanson1981] T.R. Roose, R.K. Hanson, C.H. Kruger, Symposium (International) on Combustion, 1981, 18(1), 853-862, doi: 10.1016/S0082-0784(81)80089-6
@@ -5468,4 +5469,30 @@ u"""
 Table 9
 Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
 """,
+)
+
+entry(
+    index=319,
+    label='HNO2 <=> HONO',
+    kinetics = PDepArrhenius(
+        pressures=([1.000E-01, 2.154E-01, 4.641E-01, 1.000E+00, 2.154E+00,
+                    4.641E+00, 1.000E+01, 2.154E+01, 4.641E+01, 1.000E+02], 'atm'),
+        arrhenius=[
+            Arrhenius(A=(1.09E+47, 's^-1'), n=-11.48, Ea=(52140.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(1.60E+44, 's^-1'), n=-10.63, Ea=(50780.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.01E+41, 's^-1'), n=-9.74, Ea=(49460.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(1.65E+38, 's^-1'), n=-8.79, Ea=(48160.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(7.49E+34, 's^-1'), n=-7.73, Ea=(46880.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.32E+31, 's^-1'), n=-6.60, Ea=(45680.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(9.05E+27, 's^-1'), n=-5.47, Ea=(44660.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(8.53E+24, 's^-1'), n=-4.44, Ea=(43880.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.73E+22, 's^-1'), n=-3.55, Ea=(43380.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.67E+20, 's^-1'), n=-2.80, Ea=(43120.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+        ],
+    ),
+    shortDesc=u"""[Goldsmith2019]""",
+    longDesc=
+    u"""
+    Computed at the ANL1 level of theory
+    """,
 )
