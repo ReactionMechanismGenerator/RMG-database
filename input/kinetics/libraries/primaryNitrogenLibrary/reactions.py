@@ -49,6 +49,7 @@ Reference legend:
 [Cohen1992] Cohen, N. (1992). Chemical Kinetic Data Sheets for High-Temperature Chemical Reactions, Vol. III., Aerospace Corporation Report ATR-91 (7189)-2.
 [DeanBozz2000] (RMG's Nitrogen_Dean_and_Bozzelli library) Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen, in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341, doi: 10.1007/978-1-4612-1310-9_2
 [DeRuyck2001] A.A. Konnov, J. De Ruyck, Comb. Flame, 2001, 125(4), 1258-1264, doi: 10.1016/S0010-2180(01)00250-4
+[Dievart2020] P. Dievart, L. Catoire, J. Phys. Chem. A, 2020, 124(30), 6214-6236, doi: 10.1021/acs.jpca.0c03144
 [Flower1977] W. L. Flower , R. K. Hanson, c. H. Kruger, Comb. Sci. Tech., 1977, 15(3-4), 115-128, doi: 10.1080/00102207708946777
 [Friedrichs2011] J. Dammeier, G. Friedrichs, J. Phys. Chem. A, 2011, 115, 14382-14390, doi: 10.1021/jp208715c
 [Friedrichs2012] J. Dammeier, N. Faßheber, G. Friedrichs, Phys. Chem. Chem. Phys., 2012, 15, 1030-1037, doi: 10.1039/C1CP22123J
@@ -3080,22 +3081,6 @@ Tmin=(300, 'K'), Tmax=(2500, 'K'))
 )
 
 entry(
-    index = 166,
-    label = "NH2 + CH4 <=> NH3 + CH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1999b]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k2 on p. 232
-T range: 300-5000 K
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
-Added as a training reaction to H_Abstraction
-""",
-)
-
-entry(
     index = 167,
     label='NH3 + OH <=> NH2 + H2O ',
     kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
@@ -4407,23 +4392,6 @@ Added as training reaction to H-Abstraction
 )
 
 entry(
-    index = 243,
-    label = 'N2H3 + NH2 <=> H2NN(S) + NH3',
-    allow_pdep_route = True,
-    kinetics = Arrhenius(A=(1.03+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
-    shortDesc = u"""estimated""",
-    longDesc =
-u"""
-Estimated by alongd as having the same A factor as 'N2H3 + NH2 <=> H2NN(T) + NH3' with Ea = 0 (barrierless)
-The A factor was refitted into a classical (non-modified) Arrhenius form:
-Arrhenius(A=(1.03198e+12,'cm^3/(mol*s)'), n=0, Ea=(20.0354,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'),
-Fitted to 51 data points; dA = *|/ 1.18263, dn = +|- 0, dEa = +|- 1.27006 kJ/mol
-Note that the 'N2H3 + NH2 <=> H2NN(T) + NH3' reaction has a barrier of ~5 kJ/mol in the forward direction although
-it's Ea in the modified Arrhenius form above is negative.
-""",
-)
-
-entry(
     index = 244,
     label = 'N3 <=> H2NN(S) + NH3',
     elementary_high_p = True,
@@ -4851,7 +4819,6 @@ entry(
     kinetics = Arrhenius(A=(4.429e+03, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
-    shortDesc = u"""[Sarathy2022]""",
     longDesc =
 u"""
 Table S2, Reaction R2, quartet surface.
@@ -4930,5 +4897,575 @@ entry(
 u"""
 Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
 He was used as the 3rd body collider in these computations.
+""",
+)
+
+entry(
+    index = 277,
+    label = 'CH3NHNH2 + H <=> CH3NHNH + H2',
+    kinetics = Arrhenius(A=(1.080e+06, 'cm^3/(mol*s)'), n=2.310, Ea=(1182, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 278,
+    label = 'CH3NHNH2 + H <=> CH3NNH2 + H2',
+    kinetics = Arrhenius(A=(7.270e+06, 'cm^3/(mol*s)'), n=2.030, Ea=(858.1, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 279,
+    label = 'CH3NHNH2 + H <=> CH2NHNH2 + H2',
+    kinetics = Arrhenius(A=(1.170e+04, 'cm^3/(mol*s)'), n=3.080, Ea=(1605, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 280,
+    label = 'CH3NHNH2 + NH2 <=> CH3NHNH + NH3',
+    kinetics = Arrhenius(A=(1.402e+03, 'cm^3/(mol*s)'), n=2.741, Ea=(1030, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 281,
+    label = 'CH3NHNH2 + NH2 <=> CH3NNH2 + NH3',
+    kinetics = Arrhenius(A=(3.092e+02, 'cm^3/(mol*s)'), n=2.884, Ea=(688, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 282,
+    label = 'CH3NHNH2 + NH2 <=> CH2NHNH2 + NH3',
+    kinetics = Arrhenius(A=(2.805e-02, 'cm^3/(mol*s)'), n=4.083, Ea=(1724, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 283,
+    label = 'CH3NHNH2 + CH3 <=> CH3NHNH + CH4',
+    kinetics = Arrhenius(A=(1.180e+01, 'cm^3/(mol*s)'), n=3.550, Ea=(3542.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 284,
+    label = 'CH3NHNH2 + CH3 <=> CH3NNH2 + CH4',
+    kinetics = Arrhenius(A=(9.480e+00, 'cm^3/(mol*s)'), n=3.390, Ea=(8824.1, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 285,
+    label = 'CH3NHNH2 + CH3 <=> CH2NHNH2 + CH4',
+    kinetics = Arrhenius(A=(4.300e-02, 'cm^3/(mol*s)'), n=4.320, Ea=(5814.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 286,
+    label = 'CH3NHNH2 + NH <=> CH3NHNH + NH2',
+    kinetics = Arrhenius(A=(9.556e+01, 'cm^3/(mol*s)'), n=3.278, Ea=(3688.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 287,
+    label = 'CH3NHNH2 + NH <=> CH3NNH2 + NH2',
+    kinetics = Arrhenius(A=(4.096e+00, 'cm^3/(mol*s)'), n=3.630, Ea=(1941, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 288,
+    label = 'CH3NHNH2 + NH <=> CH2NHNH2 + NH2',
+    kinetics = Arrhenius(A=(4.340e-01, 'cm^3/(mol*s)'), n=4.161, Ea=(6582.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 289,
+    label = 'CH3NHNH2 <=> CH3NH + NH2',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(8.413e+25, 's^-1'), n=-3.151, Ea=(64498.8, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(4.7161e+62, 'cm^3/(mol*s)'), n=-13.164, Ea=(59459.6, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.375, T1=(514, 'K'), T2=(4228, 'K'), T3=(10, 'K'), efficiencies={'[Ar]': 0.62, 'N#N': 1.00, 'CNN': 3.50}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 290,
+    label = 'CH3NNH + H <=> CH3NN + H2',
+    kinetics = Arrhenius(A=(7.570e+07, 'cm^3/(mol*s)'), n=1.815, Ea=(707.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 291,
+    label = 'CH3NNH + CH3 <=> CH3NN + CH4',
+    kinetics = Arrhenius(A=(4.402e+02, 'cm^3/(mol*s)'), n=3.139, Ea=(-415.9, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 292,
+    label = 'CH3NNH + NH2 <=> CH3NN + NH3',
+    kinetics = Arrhenius(A=(2.338e+02, 'cm^3/(mol*s)'), n=2.945, Ea=(-4162.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 293,
+    label = 'CH3NNH + H <=> CH2NNH + H2',
+    kinetics = Arrhenius(A=(5.320e+03, 'cm^3/(mol*s)'), n=3.162, Ea=(9821.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 294,
+    label = 'CH3NNH + CH3 <=> CH2NNH + CH4',
+    kinetics = Arrhenius(A=(4.736e-02, 'cm^3/(mol*s)'), n=4.243, Ea=(13944, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 295,
+    label = 'CH3NNH + NH2 <=> CH2NNH + NH3',
+    kinetics = Arrhenius(A=(1.581e-02, 'cm^3/(mol*s)'), n=4.296, Ea=(9291.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 296,
+    label = 'CH2NNH2 + H <=> CH2NNH + H2',
+    kinetics = Arrhenius(A=(2.713e+04, 'cm^3/(mol*s)'), n=2.751, Ea=(2485.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 297,
+    label = 'CH2NNH2 + CH3 <=> CH2NNH + CH4',
+    kinetics = Arrhenius(A=(1.715e-03, 'cm^3/(mol*s)'), n=4.415, Ea=(3546.4, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 298,
+    label = 'CH2NNH2 + NH2 <=> CH2NNH + NH3',
+    kinetics = Arrhenius(A=(3.809e-01, 'cm^3/(mol*s)'), n=3.704, Ea=(-263.9, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 299,
+    label = 'CH2NNH2 + H <=> CHNNH2 + H2',
+    kinetics = Arrhenius(A=(8.712e+02, 'cm^3/(mol*s)'), n=3.417, Ea=(5302.9, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 300,
+    label = 'CH2NNH2 + CH3 <=> CHNNH2 + CH4',
+    kinetics = Arrhenius(A=(1.492e+00, 'cm^3/(mol*s)'), n=3.649, Ea=(8270.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 301,
+    label = 'CH2NNH2 + NH2 <=> CHNNH2 + NH3',
+    kinetics = Arrhenius(A=(2.686e-04, 'cm^3/(mol*s)'), n=4.531, Ea=(2242.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 302,
+    label = 'CH3NH <=> CH2NH + H',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(1.236e+04, 's^-1'), n=3.022, Ea=(31798.1, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(2.049e+35, 'cm^3/(mol*s)'), n=-5.471, Ea=(37333.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.608, T1=(1200, 'K'), T2=(6994, 'K'), T3=(23, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 303,
+    label = 'CH2NH2 <=> CH2NH + H',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(7.920e+04, 's^-1'), n=2.555, Ea=(38704.2, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(1.630e+37, 'cm^3/(mol*s)'), n=-5.924, Ea=(44149.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.599, T1=(1200, 'K'), T2=(6994, 'K'), T3=(19, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 304,
+    label = 'CH3NH <=> CH2NH2',
+    kinetics = PDepArrhenius(
+        pressures = ([0.001, 0.010, 0.100, 1.000, 10.00, 100.0], 'atm'),
+        arrhenius = [
+            Arrhenius(A=(4.189e+23, 's^-1'), n=-5.520, Ea=(39826.4, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(1.277e+28, 's^-1'), n=-6.237, Ea=(39808.7, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(8.042e+31, 's^-1'), n=-6.829, Ea=(40672.8, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(3.454e+37, 's^-1'), n=-7.989, Ea=(44942.3, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(2.249e+34, 's^-1'), n=-6.763, Ea=(44113.8, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(3.187e+32, 's^-1'), n=-5.860, Ea=(45265.6, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        ],
+    ),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+# entry(
+#     index = 305,
+#     label = 'CH2NH + H <=> H2CN + H2',
+#     kinetics = Arrhenius(A=(2.400e+08, 'cm^3/(mol*s)'), n=2.445, Ea=(1534, 'cal/mol'),
+#                          T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+#     shortDesc = u"""[Dievart2020]""",
+#     longDesc =
+# u"""
+# Table 9
+# Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+#
+# This rate seems too high and exceeds the collision limit at 1000 K, perhaps there's a typo in the manuscript
+# """,
+# )
+
+entry(
+    index = 306,
+    label = 'CH2NH + H <=> CHNH + H2',
+    kinetics = Arrhenius(A=(3.679e+04, 'cm^3/(mol*s)'), n=2.738, Ea=(3760.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 307,
+    label = 'N2H3 <=> N2H2 + H',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(1.275e+11, 's^-1'), n=0.819, Ea=(48065.2, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(3.840e+40, 'cm^3/(mol*s)'), n=-6.880, Ea=(54463.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.842, T1=(28, 'K'), T2=(7298, 'K'), T3=(80000, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 308,
+    label = 'N2H3 + H <=> N2H2 + H2',
+    kinetics = Arrhenius(A=(7.476e+03, 'cm^3/(mol*s)'), n=2.796, Ea=(4684.4, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 309,
+    label = 'N2H3 + H <=> H2NN(S) + H2',
+    kinetics = Arrhenius(A=(6.243e+06, 'cm^3/(mol*s)'), n=1.890, Ea=(246.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 310,
+    label = 'N2H3 + CH3 <=> N2H2 + CH4',
+    kinetics = Arrhenius(A=(1.395e+01, 'cm^3/(mol*s)'), n=3.290, Ea=(505.7, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 311,
+    label = 'N2H3 + CH3 <=> H2NN(S) + CH4',
+    kinetics = Arrhenius(A=(4.065e+01, 'cm^3/(mol*s)'), n=3.045, Ea=(1859, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 312,
+    label = 'N2H3 + NH2 <=> N2H2 + NH3',
+    kinetics = Arrhenius(A=(6.075e-01, 'cm^3/(mol*s)'), n=3.574, Ea=(1194, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 313,
+    label = 'N2H3 + NH2 <=> H2NN(S) + NH3',
+    kinetics = Arrhenius(A=(1.111e+01, 'cm^3/(mol*s)'), n=3.080, Ea=(211.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 314,
+    label = 'N2H2 + H <=> NNH + H2',
+    kinetics = Arrhenius(A=(3.886e+08, 'cm^3/(mol*s)'), n=1.732, Ea=(738.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 315,
+    label = 'N2H2 + CH3 <=> NNH + CH4',
+    kinetics = Arrhenius(A=(1.855e+03, 'cm^3/(mol*s)'), n=3.045, Ea=(904.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 316,
+    label = 'N2H2 + NH2 <=> NNH + NH3',
+    kinetics = Arrhenius(A=(2.711e+05, 'cm^3/(mol*s)'), n=2.226, Ea=(-1034, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 317,
+    label = 'CH4 + NH2 <=> CH3 + NH3',
+    kinetics = Arrhenius(A=(1.402e+00, 'cm^3/(mol*s)'), n=3.793, Ea=(7961.5, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+Part of the "Thermal de-NOx" mechanism
+
+Another source: [Lin1999b]
+    kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
+G2M//B3LYP/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 318,
+    label = 'C2H6 + NH2 <=> C2H5 + NH3',
+    kinetics = Arrhenius(A=(1.405e+01, 'cm^3/(mol*s)'), n=3.619, Ea=(5816.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
 """,
 )
