@@ -49,12 +49,16 @@ Reference legend:
 [Cohen1992] Cohen, N. (1992). Chemical Kinetic Data Sheets for High-Temperature Chemical Reactions, Vol. III., Aerospace Corporation Report ATR-91 (7189)-2.
 [DeanBozz2000] (RMG's Nitrogen_Dean_and_Bozzelli library) Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen, in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341, doi: 10.1007/978-1-4612-1310-9_2
 [DeRuyck2001] A.A. Konnov, J. De Ruyck, Comb. Flame, 2001, 125(4), 1258-1264, doi: 10.1016/S0010-2180(01)00250-4
+[Dievart2020] P. Dievart, L. Catoire, J. Phys. Chem. A, 2020, 124(30), 6214-6236, doi: 10.1021/acs.jpca.0c03144
 [Flower1977] W. L. Flower , R. K. Hanson, c. H. Kruger, Comb. Sci. Tech., 1977, 15(3-4), 115-128, doi: 10.1080/00102207708946777
 [Friedrichs2011] J. Dammeier, G. Friedrichs, J. Phys. Chem. A, 2011, 115, 14382-14390, doi: 10.1021/jp208715c
 [Friedrichs2012] J. Dammeier, N. Faßheber, G. Friedrichs, Phys. Chem. Chem. Phys., 2012, 15, 1030-1037, doi: 10.1039/C1CP22123J
 [Friedrichs2015]  N. Faßheber,  N. Lamoureux,  G. Friedrichs, Phys. Chem. Chem. Phys., 2015, 17, 15876-15886, doi: 10.1039/C5CP01414J
+[Glarborg2018] P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Progress in Energy and Combustion Science, 2018, 67, 31-68, doi: 10.1016/j.pecs.2018.01.002
+[Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
 [GlarGim] (RMG's Nitrogen_Glarborg_Gimenez_et_al library) Gimenez Lopeza et al., Proceedings of the Combustion Institute, 2009, 32(1), 367-375, doi: 10.1016/j.proci.2008.06.188
 [GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34, 617-624, doi: 10.1016/j.proci.2012.06.010
+[Goldsmith2019] X. Chen, M.E. Fuller, C.F. Goldsmith, Reaction CHemistry and Engineering, 2019, 4, 323-333, doi: 10.1039/C8RE00201K
 [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green, A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p
 [GRI] (RMG's GRI-Mech3.0-N library) GRI-Mech 3.0, http://www.me.berkeley.edu/gri_mech/
 [Hanson1981] T.R. Roose, R.K. Hanson, C.H. Kruger, Symposium (International) on Combustion, 1981, 18(1), 853-862, doi: 10.1016/S0082-0784(81)80089-6
@@ -98,6 +102,7 @@ Reference legend:
 [Lin2003a] I.V. Tokmakov, L.V. Moskaleva, D.V. Paschenko, M.C. Lin, J. Phys. Chem. A, 2003, 107(7), 1066-1076, doi: 10.1021/jp022024t
 [Lin2003b] R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119, 10667, doi: 10.1063/1.1619373
 [Lin2003c] Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115
+[Lin2003d] R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119(20), 10667-10677, doi: 10.1063/1.1619373
 [Lin2004] Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4), 205-215, doi: 10.1002/kin.10178
 [Lin2005a] R.S. Zhu, M.C. Lin, Int. J. Chem. Kin., 2005, 37(10), 593-598, doi: 10.1002/kin.20066
 [Lin2005b] R.S. Zhu, M.C. Lin, Ab initio study on the oxidation of NCN by O and HO radicals: Prediction of the total rate constant and product branching ratios, in: 6th International Conference of Chemical Kinetics, NIST, Gaithersberg, MD, 2005
@@ -127,17 +132,15 @@ Reference legend:
 [Perry1985] R.A. Perry, J. Chem. Phys, 1985, 82, 5485, doi: 10.1063/1.448583
 [Pritchard2001] W-T. Chan, S.M. Heck, H.O. Pritchard, Phys. Chem. Chem. Phys., 2001, 3, 56-62, doi: 10.1039/b006088g
 [Rabinowitz2010] S.M. Hwang, J.A. Cooke, K.J. De Witt, M.J. Rabinowitz, Int. J. Chem. Kin., 2010, 42(3), 168-180, doi: 10.1002/kin.20472
+[Salimian1984] S. Salimian, R.K. Hanson, C.H. Kruger, Int. J. CHem. Kin., 1984, 16(6), 725-739, doi: 10.1002/kin.550160609
+[Sarathy2022] J.E. Chavarrio Cans, M. Monge-Palacios, X. Zhang, S. Mani Sarathy, Combustion and Flame, 2022, 235, 111708, doi: 10.1016/j.combustflame.2021.111708
+[Stagni2020] A. Stagni, C. Cavallotti, O. Herbinet, T. Faravelli, Reaction Chemistry & Engineering, 2020, 5, 696-711, doi: 10.1039/c9re00429g
 [Staton2019] T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
 [Troe1975] K. Glanzer, J. Troe, Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469, doi: 10.1002/bbpc.19750790514
 [Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
 [Yang2012] Y. Guan, B. Yang, J. Comp. Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020
-[Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
-[Sarathy2022] Javier E. Chavarrio Cañs, S. Mani Sarathy, Combustion and Flame, 2022, 111708, doi: 10.1016/j.combustflame.2021.111708.
-[Salimian1984] S. Salimian, R. K. Hanson, C.H. Kruger, Department of mechanical engineering, June 1984, Stanford University, Stanford, 725 - 739, doi: 10.1002/kin.550160609
-[Glarborg2018] Peter Glarborg, James A. Miller, Branko Ruscic, Stephen J. Klippenstein, Progress in Energy and Combustion Science, 2018, 31 - 68, doi: 10.1016/j.pecs.2018.01.002
-[Stagni2020] A. Stagni, T. fARAVELLI, Royal society of chemistry, 2020, 696-711, doi: 10.1039/c9re00429g
 """
 
 entry(
@@ -1654,14 +1657,15 @@ entry(
     index = 85,
     label = "NNH + O2 <=> N2 + HO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.55e+13, 'cm^3/(mol*s)','*|/',1.5), n=-0.385, Ea=(-13.4, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2400, 'K')),
+    kinetics = Arrhenius(A=(5.6e+14, 'cm^3/(mol*s)'), n=-0.385, Ea=(-13, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2400, 'K')),
     shortDesc = u"""[Miller2011]""",
     longDesc =
 u"""
 Part of the "NNH Pathway"
-p. 776
+p. 776 shows a different values, perhaps a mistake?
+Taken from Table 2 Reaction 39 and from SI: "NNH+O2=N2+HO2 5.6E14 -0.385 -13 ! pw"
 T range: 200-2400 K
-Uncertainty: a factor of 1.5
 calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
 """,
 )
@@ -3078,22 +3082,6 @@ Tmin=(300, 'K'), Tmax=(2500, 'K'))
 )
 
 entry(
-    index = 166,
-    label = "NH2 + CH4 <=> NH3 + CH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1999b]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
-k2 on p. 232
-T range: 300-5000 K
-calculations done at the G2M//B3LYP/6-311G(d,p) level of theory
-Added as a training reaction to H_Abstraction
-""",
-)
-
-entry(
     index = 167,
     label='NH3 + OH <=> NH2 + H2O ',
     kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
@@ -4405,23 +4393,6 @@ Added as training reaction to H-Abstraction
 )
 
 entry(
-    index = 243,
-    label = 'N2H3 + NH2 <=> H2NN(S) + NH3',
-    allow_pdep_route = True,
-    kinetics = Arrhenius(A=(1.03+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
-    shortDesc = u"""estimated""",
-    longDesc =
-u"""
-Estimated by alongd as having the same A factor as 'N2H3 + NH2 <=> H2NN(T) + NH3' with Ea = 0 (barrierless)
-The A factor was refitted into a classical (non-modified) Arrhenius form:
-Arrhenius(A=(1.03198e+12,'cm^3/(mol*s)'), n=0, Ea=(20.0354,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'),
-Fitted to 51 data points; dA = *|/ 1.18263, dn = +|- 0, dEa = +|- 1.27006 kJ/mol
-Note that the 'N2H3 + NH2 <=> H2NN(T) + NH3' reaction has a barrier of ~5 kJ/mol in the forward direction although
-it's Ea in the modified Arrhenius form above is negative.
-""",
-)
-
-entry(
     index = 244,
     label = 'N3 <=> H2NN(S) + NH3',
     elementary_high_p = True,
@@ -4780,7 +4751,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[DeanBozz2000]""",
     longDesc =
-u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
+u"""
+Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
 Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
 radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
 indicate transition states and A-factors similar to radical addition reactions.
@@ -4794,7 +4766,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[DeanBozz2000]""",
     longDesc =
-u"""Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
+u"""
+Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
 Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
 radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
 indicate transition states and A-factors similar to radical addition reactions.
@@ -4808,7 +4781,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Glarborg2021]""",
     longDesc =
-u"""Reaction 1b, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+u"""
+Reaction 1b, Table 2. Experimental work re-interpreted using direct measurements from 
 [Altinay&Macdonald2015]. Estimation by theoretical study of the singlet surface and previews studies of the three
 important branching reactions.
 """,
@@ -4820,7 +4794,8 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Glarborg2021]""",
     longDesc =
-u"""Reaction 8, Table 2, Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+u"""
+Reaction 8, Table 2. Experimental work re-interpreted using direct measurements from 
 [Altinay&Macdonald2015]. Original data based on [DeanBozz2000]""",
 )
 
@@ -4828,79 +4803,696 @@ entry(
     index = 270,
     label = 'H2NO + O2 <=> HNO + HO2',
     duplicate=True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-    Arrhenius (A=(4.350e-23, 'cm^3/(mol*s)'), n=3.081, Ea=(14540, 'cal/mol'), T0=(1, 'K'),
-               Tmin=(500, 'K'),
-               Tmax=(3000, 'K')),
-    Arrhenius (A=(1.843e-24, 'cm^3/(mol*s)'), n=3.489, Ea=(13.900, 'cal/mol'), T0=(1, 'K'),
-               Tmin=(500, 'K'),
-               Tmax=(1700, 'K')),
-            ],
-    ),
+    kinetics = Arrhenius (A=(1.110e0, 'cm^3/(mol*s)'), n=3.489, Ea=(13900, 'cal/mol'),
+                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R1(doublet ground-state), Source: [Sarathy2022]. Optimized and characterized the 
-stationaryy points of the PESs with the ROCCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R1, doublet surface.
+Optimized and characterized the stationary points of the PESs with the ROCCSD method (Detailed in Table 1).
 """,
 )
 
 entry(
     index = 271,
-    label = 'H2NO + O2 <=> HNO + HO2',
+    label = 'H2NO + O2 <=> HNO(T) + HO2',
     duplicate = True,
-    kinetics = Arrhenius(A=(7.354e-21, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
-        T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.429e+03, 'cm^3/(mol*s)'), n=2.578, Ea=(29877, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R2 (quartet excited-state), Source: [Sarathy2022]. Optimized and 
-characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R2, quartet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
 )
-
 
 entry(
     index = 272,
     label = 'NH2 + HO2 <=> NH3 + O2',
-    duplicate=True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius (A=(4.025e-19, 'cm^3/(mol*s)'), n=2.359, Ea=(-5299, 'cal/mol'), T0=(1, 'K'),
-                       Tmin=(500, 'K'),
-                       Tmax=(3000, 'K')),
-            Arrhenius (A=(3.619e-18, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'), T0=(1, 'K'),
-                       Tmin=(500, 'K'),
-                       Tmax=(1700, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius (A=(2.179e+06, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'),
+                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R4 (triplet ground-state), Source: [Sarathy2022]. Optimized and 
-characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R4, triplet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
 )
 
 entry(
     index = 273,
     label = 'NH2 + HO2 <=> H2NO + OH',
-    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
-        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(3.489e+03, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material, Reaction R5 (triplet excited-state), Source: [Sarathy2022]. Optimized and 
-characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
+u"""
+Table S2, Reaction R5, triplet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
 """,
 )
 
 entry(
     index = 274,
-    label = 'NH2 + HO2 <=> NH3 + O2',
+    label = 'NH2 + HO2 <=> NH3 + O2(S)',
     duplicate=True,
-    kinetics = Arrhenius(A=(5.794e-21, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
-        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(2.851e+01, 'cm^3/(mol*s)'), n=2.937, Ea=(1241, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Sarathy2022]""",
     longDesc =
-u"""Table S2, Supplementary material,  Reaction R6 (singlet excited-state), Source: [Sarathy2022].Optimized and 
-characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+u"""
+Table S2, Reaction R6, singlet surface.
+Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
+)
+
+entry(
+    index = 275,
+    label = 'NO + HO2 <=> HNO3',
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(2.85e+15, 'cm^3/(mol*s)'), n=-0.82, Ea=(-41.7, 'cal/mol'),
+                                  T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.20e+42, 'cm^6/(mol^2*s)'), n=-8.8, Ea=(3117.9, 'cal/mol'),
+                                 T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p = False,
+    shortDesc = u"""[Lin2003d]""",
+    longDesc =
+u"""
+Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
+He was used as the 3rd body collider in these computations.
+""",
+)
+
+entry(
+    index = 276,
+    label = 'NO + HO2 <=> HOONO',
+    kinetics = Lindemann(
+        arrheniusHigh = Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(-198.7, 'cal/mol'),
+                                  T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
+        arrheniusLow = Arrhenius(A=(1.14e+50, 'cm^6/(mol^2*s)'), n=-12.3, Ea=(5136.9, 'cal/mol'),
+                                 T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p = False,
+    shortDesc = u"""[Lin2003d]""",
+    longDesc =
+u"""
+Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
+He was used as the 3rd body collider in these computations.
+""",
+)
+
+entry(
+    index = 277,
+    label = 'CH3NHNH2 + H <=> CH3NHNH + H2',
+    kinetics = Arrhenius(A=(1.080e+06, 'cm^3/(mol*s)'), n=2.310, Ea=(1182, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 278,
+    label = 'CH3NHNH2 + H <=> CH3NNH2 + H2',
+    kinetics = Arrhenius(A=(7.270e+06, 'cm^3/(mol*s)'), n=2.030, Ea=(858.1, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 279,
+    label = 'CH3NHNH2 + H <=> CH2NHNH2 + H2',
+    kinetics = Arrhenius(A=(1.170e+04, 'cm^3/(mol*s)'), n=3.080, Ea=(1605, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 280,
+    label = 'CH3NHNH2 + NH2 <=> CH3NHNH + NH3',
+    kinetics = Arrhenius(A=(1.402e+03, 'cm^3/(mol*s)'), n=2.741, Ea=(1030, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 281,
+    label = 'CH3NHNH2 + NH2 <=> CH3NNH2 + NH3',
+    kinetics = Arrhenius(A=(3.092e+02, 'cm^3/(mol*s)'), n=2.884, Ea=(688, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 282,
+    label = 'CH3NHNH2 + NH2 <=> CH2NHNH2 + NH3',
+    kinetics = Arrhenius(A=(2.805e-02, 'cm^3/(mol*s)'), n=4.083, Ea=(1724, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 283,
+    label = 'CH3NHNH2 + CH3 <=> CH3NHNH + CH4',
+    kinetics = Arrhenius(A=(1.180e+01, 'cm^3/(mol*s)'), n=3.550, Ea=(3542.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 284,
+    label = 'CH3NHNH2 + CH3 <=> CH3NNH2 + CH4',
+    kinetics = Arrhenius(A=(9.480e+00, 'cm^3/(mol*s)'), n=3.390, Ea=(8824.1, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 285,
+    label = 'CH3NHNH2 + CH3 <=> CH2NHNH2 + CH4',
+    kinetics = Arrhenius(A=(4.300e-02, 'cm^3/(mol*s)'), n=4.320, Ea=(5814.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 286,
+    label = 'CH3NHNH2 + NH <=> CH3NHNH + NH2',
+    kinetics = Arrhenius(A=(9.556e+01, 'cm^3/(mol*s)'), n=3.278, Ea=(3688.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 287,
+    label = 'CH3NHNH2 + NH <=> CH3NNH2 + NH2',
+    kinetics = Arrhenius(A=(4.096e+00, 'cm^3/(mol*s)'), n=3.630, Ea=(1941, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 288,
+    label = 'CH3NHNH2 + NH <=> CH2NHNH2 + NH2',
+    kinetics = Arrhenius(A=(4.340e-01, 'cm^3/(mol*s)'), n=4.161, Ea=(6582.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 289,
+    label = 'CH3NHNH2 <=> CH3NH + NH2',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(8.413e+25, 's^-1'), n=-3.151, Ea=(64498.8, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(4.7161e+62, 'cm^3/(mol*s)'), n=-13.164, Ea=(59459.6, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.375, T1=(514, 'K'), T2=(4228, 'K'), T3=(10, 'K'), efficiencies={'[Ar]': 0.62, 'N#N': 1.00, 'CNN': 3.50}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 290,
+    label = 'CH3NNH + H <=> CH3NN + H2',
+    kinetics = Arrhenius(A=(7.570e+07, 'cm^3/(mol*s)'), n=1.815, Ea=(707.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 291,
+    label = 'CH3NNH + CH3 <=> CH3NN + CH4',
+    kinetics = Arrhenius(A=(4.402e+02, 'cm^3/(mol*s)'), n=3.139, Ea=(-415.9, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 292,
+    label = 'CH3NNH + NH2 <=> CH3NN + NH3',
+    kinetics = Arrhenius(A=(2.338e+02, 'cm^3/(mol*s)'), n=2.945, Ea=(-4162.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 293,
+    label = 'CH3NNH + H <=> CH2NNH + H2',
+    kinetics = Arrhenius(A=(5.320e+03, 'cm^3/(mol*s)'), n=3.162, Ea=(9821.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 294,
+    label = 'CH3NNH + CH3 <=> CH2NNH + CH4',
+    kinetics = Arrhenius(A=(4.736e-02, 'cm^3/(mol*s)'), n=4.243, Ea=(13944, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 295,
+    label = 'CH3NNH + NH2 <=> CH2NNH + NH3',
+    kinetics = Arrhenius(A=(1.581e-02, 'cm^3/(mol*s)'), n=4.296, Ea=(9291.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 296,
+    label = 'CH2NNH2 + H <=> CH2NNH + H2',
+    kinetics = Arrhenius(A=(2.713e+04, 'cm^3/(mol*s)'), n=2.751, Ea=(2485.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 297,
+    label = 'CH2NNH2 + CH3 <=> CH2NNH + CH4',
+    kinetics = Arrhenius(A=(1.715e-03, 'cm^3/(mol*s)'), n=4.415, Ea=(3546.4, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 298,
+    label = 'CH2NNH2 + NH2 <=> CH2NNH + NH3',
+    kinetics = Arrhenius(A=(3.809e-01, 'cm^3/(mol*s)'), n=3.704, Ea=(-263.9, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 299,
+    label = 'CH2NNH2 + H <=> CHNNH2 + H2',
+    kinetics = Arrhenius(A=(8.712e+02, 'cm^3/(mol*s)'), n=3.417, Ea=(5302.9, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 300,
+    label = 'CH2NNH2 + CH3 <=> CHNNH2 + CH4',
+    kinetics = Arrhenius(A=(1.492e+00, 'cm^3/(mol*s)'), n=3.649, Ea=(8270.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 301,
+    label = 'CH2NNH2 + NH2 <=> CHNNH2 + NH3',
+    kinetics = Arrhenius(A=(2.686e-04, 'cm^3/(mol*s)'), n=4.531, Ea=(2242.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 302,
+    label = 'CH3NH <=> CH2NH + H',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(1.236e+04, 's^-1'), n=3.022, Ea=(31798.1, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(2.049e+35, 'cm^3/(mol*s)'), n=-5.471, Ea=(37333.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.608, T1=(1200, 'K'), T2=(6994, 'K'), T3=(23, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 303,
+    label = 'CH2NH2 <=> CH2NH + H',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(7.920e+04, 's^-1'), n=2.555, Ea=(38704.2, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(1.630e+37, 'cm^3/(mol*s)'), n=-5.924, Ea=(44149.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.599, T1=(1200, 'K'), T2=(6994, 'K'), T3=(19, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 304,
+    label = 'CH3NH <=> CH2NH2',
+    kinetics = PDepArrhenius(
+        pressures = ([0.001, 0.010, 0.100, 1.000, 10.00, 100.0], 'atm'),
+        arrhenius = [
+            Arrhenius(A=(4.189e+23, 's^-1'), n=-5.520, Ea=(39826.4, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(1.277e+28, 's^-1'), n=-6.237, Ea=(39808.7, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(8.042e+31, 's^-1'), n=-6.829, Ea=(40672.8, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(3.454e+37, 's^-1'), n=-7.989, Ea=(44942.3, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(2.249e+34, 's^-1'), n=-6.763, Ea=(44113.8, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(3.187e+32, 's^-1'), n=-5.860, Ea=(45265.6, 'cal/mol'), T0 = (1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        ],
+    ),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+# entry(
+#     index = 305,
+#     label = 'CH2NH + H <=> H2CN + H2',
+#     kinetics = Arrhenius(A=(2.400e+08, 'cm^3/(mol*s)'), n=2.445, Ea=(1534, 'cal/mol'),
+#                          T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+#     shortDesc = u"""[Dievart2020]""",
+#     longDesc =
+# u"""
+# Table 9
+# Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+#
+# This rate seems too high and exceeds the collision limit at 1000 K, perhaps there's a typo in the manuscript
+# """,
+# )
+
+entry(
+    index = 306,
+    label = 'CH2NH + H <=> CHNH + H2',
+    kinetics = Arrhenius(A=(3.679e+04, 'cm^3/(mol*s)'), n=2.738, Ea=(3760.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 307,
+    label = 'N2H3 <=> N2H2 + H',
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(1.275e+11, 's^-1'), n=0.819, Ea=(48065.2, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        arrheniusLow = Arrhenius(A=(3.840e+40, 'cm^3/(mol*s)'), n=-6.880, Ea=(54463.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        alpha=0.842, T1=(28, 'K'), T2=(7298, 'K'), T3=(80000, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 308,
+    label = 'N2H3 + H <=> N2H2 + H2',
+    kinetics = Arrhenius(A=(7.476e+03, 'cm^3/(mol*s)'), n=2.796, Ea=(4684.4, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 309,
+    label = 'N2H3 + H <=> H2NN(S) + H2',
+    kinetics = Arrhenius(A=(6.243e+06, 'cm^3/(mol*s)'), n=1.890, Ea=(246.6, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 310,
+    label = 'N2H3 + CH3 <=> N2H2 + CH4',
+    kinetics = Arrhenius(A=(1.395e+01, 'cm^3/(mol*s)'), n=3.290, Ea=(505.7, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 311,
+    label = 'N2H3 + CH3 <=> H2NN(S) + CH4',
+    kinetics = Arrhenius(A=(4.065e+01, 'cm^3/(mol*s)'), n=3.045, Ea=(1859, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 312,
+    label = 'N2H3 + NH2 <=> N2H2 + NH3',
+    kinetics = Arrhenius(A=(6.075e-01, 'cm^3/(mol*s)'), n=3.574, Ea=(1194, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 313,
+    label = 'N2H3 + NH2 <=> H2NN(S) + NH3',
+    kinetics = Arrhenius(A=(1.111e+01, 'cm^3/(mol*s)'), n=3.080, Ea=(211.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 314,
+    label = 'N2H2 + H <=> NNH + H2',
+    kinetics = Arrhenius(A=(3.886e+08, 'cm^3/(mol*s)'), n=1.732, Ea=(738.2, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 315,
+    label = 'N2H2 + CH3 <=> NNH + CH4',
+    kinetics = Arrhenius(A=(1.855e+03, 'cm^3/(mol*s)'), n=3.045, Ea=(904.8, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 316,
+    label = 'N2H2 + NH2 <=> NNH + NH3',
+    kinetics = Arrhenius(A=(2.711e+05, 'cm^3/(mol*s)'), n=2.226, Ea=(-1034, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index = 317,
+    label = 'CH4 + NH2 <=> CH3 + NH3',
+    kinetics = Arrhenius(A=(1.402e+00, 'cm^3/(mol*s)'), n=3.793, Ea=(7961.5, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+Part of the "Thermal de-NOx" mechanism
+
+Another source: [Lin1999b]
+    kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
+G2M//B3LYP/6-311G(d,p) level of theory
+""",
+)
+
+entry(
+    index = 318,
+    label = 'C2H6 + NH2 <=> C2H5 + NH3',
+    kinetics = Arrhenius(A=(1.405e+01, 'cm^3/(mol*s)'), n=3.619, Ea=(5816.0, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Dievart2020]""",
+    longDesc =
+u"""
+Table 9
+Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+""",
+)
+
+entry(
+    index=319,
+    label='HNO2 <=> HONO',
+    kinetics = PDepArrhenius(
+        pressures=([1.000E-01, 2.154E-01, 4.641E-01, 1.000E+00, 2.154E+00,
+                    4.641E+00, 1.000E+01, 2.154E+01, 4.641E+01, 1.000E+02], 'atm'),
+        arrhenius=[
+            Arrhenius(A=(1.09E+47, 's^-1'), n=-11.48, Ea=(52140.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(1.60E+44, 's^-1'), n=-10.63, Ea=(50780.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.01E+41, 's^-1'), n=-9.74, Ea=(49460.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(1.65E+38, 's^-1'), n=-8.79, Ea=(48160.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(7.49E+34, 's^-1'), n=-7.73, Ea=(46880.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.32E+31, 's^-1'), n=-6.60, Ea=(45680.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(9.05E+27, 's^-1'), n=-5.47, Ea=(44660.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(8.53E+24, 's^-1'), n=-4.44, Ea=(43880.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.73E+22, 's^-1'), n=-3.55, Ea=(43380.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(2.67E+20, 's^-1'), n=-2.80, Ea=(43120.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2000, 'K')),
+        ],
+    ),
+    shortDesc=u"""[Goldsmith2019]""",
+    longDesc=
+    u"""
+    Computed at the ANL1 level of theory
+    """,
 )
