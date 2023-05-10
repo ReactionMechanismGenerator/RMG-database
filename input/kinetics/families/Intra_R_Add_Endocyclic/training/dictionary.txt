@@ -37641,22 +37641,22 @@ multiplicity 2
 11    C u0 p0 c0 {10,S} {12,D} {27,S}
 12    C u0 p0 c0 {9,S} {11,D} {28,S}
 13    H u0 p0 c0 {1,S}
-14    H u0 p0 c0 {2,S}
-15    H u0 p0 c0 {5,S}
-16    H u0 p0 c0 {5,S}
-17    H u0 p0 c0 {4,S}
-18    H u0 p0 c0 {4,S}
-19    H u0 p0 c0 {3,S}
-20    H u0 p0 c0 {3,S}
-21    H u0 p0 c0 {6,S}
-22    H u0 p0 c0 {6,S}
-23    H u0 p0 c0 {7,S}
+14    H u0 p0 c0 {1,S}
+15    H u0 p0 c0 {4,S}
+16    H u0 p0 c0 {4,S}
+17    H u0 p0 c0 {3,S}
+18    H u0 p0 c0 {3,S}
+19    H u0 p0 c0 {2,S}
+20    H u0 p0 c0 {2,S}
+21    H u0 p0 c0 {5,S}
+22    H u0 p0 c0 {5,S}
+23    H u0 p0 c0 {5,S}
 24    H u0 p0 c0 {7,S}
-25    H u0 p0 c0 {7,S}
-26    H u0 p0 c0 {9,S}
-27    H u0 p0 c0 {10,S}
+25    H u0 p0 c0 {8,S}
+26    H u0 p0 c0 {10,S}
+27    H u0 p0 c0 {11,S}
 28    H u0 p0 c0 {12,S}
-29    H u0 p0 c0 {11,S}
+29    H u0 p0 c0 {9,S}
 
 C12H17-57
 multiplicity 2
@@ -37705,22 +37705,22 @@ multiplicity 2
 11    C u0 p0 c0 {10,S} {12,D} {27,S}
 12    C u0 p0 c0 {9,S} {11,D} {28,S}
 13    H u0 p0 c0 {1,S}
-14    H u0 p0 c0 {2,S}
-15    H u0 p0 c0 {5,S}
-16    H u0 p0 c0 {5,S}
-17    H u0 p0 c0 {3,S}
-18    H u0 p0 c0 {3,S}
-19    H u0 p0 c0 {4,S}
-20    H u0 p0 c0 {4,S}
-21    H u0 p0 c0 {6,S}
-22    H u0 p0 c0 {6,S}
-23    H u0 p0 c0 {7,S}
+14    H u0 p0 c0 {1,S}
+15    H u0 p0 c0 {2,S}
+16    H u0 p0 c0 {2,S}
+17    H u0 p0 c0 {4,S}
+18    H u0 p0 c0 {4,S}
+19    H u0 p0 c0 {3,S}
+20    H u0 p0 c0 {3,S}
+21    H u0 p0 c0 {5,S}
+22    H u0 p0 c0 {5,S}
+23    H u0 p0 c0 {5,S}
 24    H u0 p0 c0 {7,S}
-25    H u0 p0 c0 {7,S}
-26    H u0 p0 c0 {9,S}
-27    H u0 p0 c0 {10,S}
+25    H u0 p0 c0 {8,S}
+26    H u0 p0 c0 {10,S}
+27    H u0 p0 c0 {11,S}
 28    H u0 p0 c0 {12,S}
-29    H u0 p0 c0 {11,S}
+29    H u0 p0 c0 {9,S}
 
 C12H17-59
 multiplicity 2
@@ -37769,22 +37769,22 @@ multiplicity 2
 11    C u0 p0 c0 {10,D} {12,S} {28,S}
 12 *3 C u0 p0 c0 {2,S} {7,S} {11,S} {29,S}
 13    H u0 p0 c0 {1,S}
-14    H u0 p0 c0 {2,S}
-15    H u0 p0 c0 {3,S}
-16    H u0 p0 c0 {3,S}
-17    H u0 p0 c0 {4,S}
-18    H u0 p0 c0 {4,S}
-19    H u0 p0 c0 {5,S}
-20    H u0 p0 c0 {5,S}
-21    H u0 p0 c0 {6,S}
-22    H u0 p0 c0 {6,S}
-23    H u0 p0 c0 {7,S}
-24    H u0 p0 c0 {7,S}
-25    H u0 p0 c0 {7,S}
+14    H u0 p0 c0 {1,S}
+15    H u0 p0 c0 {1,S}
+16    H u0 p0 c0 {2,S}
+17    H u0 p0 c0 {3,S}
+18    H u0 p0 c0 {3,S}
+19    H u0 p0 c0 {4,S}
+20    H u0 p0 c0 {4,S}
+21    H u0 p0 c0 {5,S}
+22    H u0 p0 c0 {5,S}
+23    H u0 p0 c0 {6,S}
+24    H u0 p0 c0 {6,S}
+25    H u0 p0 c0 {8,S}
 26    H u0 p0 c0 {9,S}
 27    H u0 p0 c0 {10,S}
-28    H u0 p0 c0 {12,S}
-29    H u0 p0 c0 {11,S}
+28    H u0 p0 c0 {11,S}
+29    H u0 p0 c0 {12,S}
 
 C24H15
 multiplicity 2
