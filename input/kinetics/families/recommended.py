@@ -172,14 +172,3 @@ electrochem = {
     'Li_Abstraction',
     'R_Addition_MultipleBond_Disprop',
 }
-
-electrochem_development = {
-    #'Surface_Proton_Electron_Reduction_Alpha_Dissociation',
-    #'Surface_Proton_Electron_Reduction_Alpha_Heyrovsky',
-    #'Surface_Proton_Electron_Reduction_Alpha_vdW_Heyrovsky',
-    #'Surface_Proton_Electron_Reduction_Alpha_Dissociation_Heyrovsky',
-    'Surface_Proton_Electron_Reduction_Beta_Dissociation_Bidentate',
-    'Surface_Proton_Electron_Reduction_Bidentate',
-    'Surface_Proton_Electron_Reduction_Bidentate_Adsorption'
-   # 'Surface_Proton_Electron_Reduction_Beta_Radical',
-}
