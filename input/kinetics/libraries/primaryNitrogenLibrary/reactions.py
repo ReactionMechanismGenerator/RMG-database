@@ -4875,7 +4875,7 @@ entry(
                                   T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.20e+42, 'cm^6/(mol^2*s)'), n=-8.8, Ea=(3117.9, 'cal/mol'),
                                  T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
-    elementary_high_p = False,
+    elementary_high_p = True,
     shortDesc = u"""[Lin2003d]""",
     longDesc =
 u"""
@@ -4892,7 +4892,7 @@ entry(
                                   T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.14e+50, 'cm^6/(mol^2*s)'), n=-12.3, Ea=(5136.9, 'cal/mol'),
                                  T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
-    elementary_high_p = False,
+    elementary_high_p = True,
     shortDesc = u"""[Lin2003d]""",
     longDesc =
 u"""
