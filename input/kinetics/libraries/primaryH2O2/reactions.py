@@ -8,7 +8,10 @@ Based on:
 [Konnov2015] A.A. Konnov, "On the role of excited species in hydrogen combustion", Combustion and Flame 2015, 
 162, 3755-3772, DOI: 10.1016/j.combustflame.2015.07.014
 [Konnov2019] A.A. Konnov, "Yet another kinetic mechanism for hydrogen combustion", Combustion and Flame 2019, 
-203, 14-22, DOI: 10.1016/j.combustflame.2019.01.032 
+203, 14-22, DOI: 10.1016/j.combustflame.2019.01.032
+[Klippenstein2022] S.J. Klippenstein, R. Sivaramakrishnan, U. Burke, K.P. Somers, H.J. Curran, L. Cai, H. Pitsch,
+M. Pelucchi, T. Faravelli, P. Glarborg, "HO2 + HO2: High level theory and the role of singlet channels",
+Combustion and Flame 2022, 243, 111975, DOI: 10.1016/j.combustflame.2021.111975
 """
 
 entry(
@@ -224,20 +227,16 @@ entry(
 )
 
 entry(
-    index = 23,
-    label = "H2O2 <=> OH + OH",
-    kinetics = Troe(
-        arrheniusHigh=Arrhenius(A=(2e+12, 's^-1'), n=0.9, Ea=(48750, 'cal/mol'), T0=(1, 'K'),
-                                Tmin=(500, 'K'), Tmax=(1500, 'K')),
-        arrheniusLow=Arrhenius(A=(2.49e+24, 'cm^3/(mol*s)'), n=-2.3, Ea=(48750, 'cal/mol'), T0=(1, 'K'),
-                                Tmin=(500, 'K'), Tmax=(1500, 'K')),
-        alpha=0.42,
-        T3=(1e+30, 'K'),
-        T1=(1e+30, 'K'),
+    index=23,
+    label="H2O2 <=> OH + OH",
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(2e+12, 's^-1'), n=0.9, Ea=(48750, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1500, 'K')),
+        arrheniusLow=Arrhenius(A=(2.49e+24, 'cm^3/(mol*s)'), n=-2.3, Ea=(48750, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1500, 'K')),
+        alpha=0.42, T3=(1e+30, 'K'), T1=(1e+30, 'K'),
         efficiencies={'N#N': 1.5, 'O': 7.5, 'OO': 7.7, '[H][H]': 3.7, '[He]': 0.65, '[O][O]': 1.2, '[C-]#[O+]': 2.8,
                       'O=C=O': 1.6, }),
-    shortDesc = u"""[Konnov2015]""",
-    longDesc = u"""Konnov (2015) https://doi.org/10.1016/j.combustflame.2015.07.014, Table 1, Reaction 6""",
+    shortDesc=u"""[Konnov2015]""",
+    longDesc=u"""Table 1, Reaction 6""",
 )
 
 entry(
@@ -322,28 +321,13 @@ entry(
 entry(
     index = 33,
     label = "HO2 + HO2 <=> H2O2 + O2",
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius=[Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=0, Ea=(11040, 'cal/mol'), T0=(1, 'K'),
-                                Tmin=(300, 'K'), Tmax=(1250, 'K')),
-                   Arrhenius(A=(1.94e+11, 'cm^3/(mol*s)'), n=0, Ea=(-1409, 'cal/mol'), T0=(1, 'K'),
-                                Tmin=(300, 'K'), Tmax=(1250, 'K'))]),
-    shortDesc = u"""[Konnov2015]""",
-    longDesc = u"""Konnov (2015) https://doi.org/10.1016/j.combustflame.2015.07.014, Table 1, Reaction 16.""",
+    kinetics = Arrhenius(A=(1.93E-02, 'cm^3/(mol*s)'), n=4.12, Ea=(-9857, 'cal/mol'), Tmin=(400, 'K'), Tmax=(2000, 'K')),
+    shortDesc = u"""[Klippenstein2022]""",
+    longDesc = u"""CASPT2""",
 )
 
 entry(
-   index = 34,
-   label = "HO2 + HO2 <=> H2O2 + O2",
-   duplicate = True,
-   kinetics = ThirdBody(
-       arrheniusLow = Arrhenius(A=(6.84e+14, 'cm^6/(mol^2*s)'), n=0, Ea=(-1950, 'cal/mol'), T0=(1, 'K'))),
-   shortDesc = u"""[Konnov2015]""",
-   longDesc = u"""Konnov (2015) https://doi.org/10.1016/j.combustflame.2015.07.014, Table 2, Reaction X6""",
-)
-
-entry(
-    index = 35,
+    index = 34,
     label = "HO2 + HO2 <=> H2O + O3",
     kinetics = Arrhenius(A=(100, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Konnov2015]""",
@@ -351,7 +335,7 @@ entry(
 )
 
 entry(
-    index = 36,
+    index = 35,
     label = "O2 + O <=> O3",
     kinetics = ThirdBody(
         arrheniusLow=Arrhenius(A=(6.53e+17, 'cm^6/(mol^2*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K'),
@@ -362,7 +346,7 @@ entry(
 )
 
 entry(
-    index = 37,
+    index = 36,
     label = "O2 + O + Ar <=> O3 + Ar",
     kinetics = MultiArrhenius(
         arrhenius=[Arrhenius(A=(4.29e+17, 'cm^6/(mol^2*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K'),
@@ -374,7 +358,7 @@ entry(
 )
 
 entry(
-    index = 38,
+    index = 37,
     label = "O2 + O + He <=> O3 + He",
     kinetics = MultiArrhenius(
         arrhenius=[Arrhenius(A=(4.29e+17, 'cm^6/(mol^2*s)'), n=-1.5, Ea=(0, 'cal/mol'), T0=(1, 'K'),
@@ -388,7 +372,7 @@ entry(
 )
 
 entry(
-    index = 39,
+    index = 38,
     label = "O3 + O <=> O2 + O2",
     kinetics = Arrhenius( A=(4.82e+12, 'cm^3/(mol*s)'), n=0, Ea=(4094, 'cal/mol'), T0=(1, 'K'),
                                Tmin=(200, 'K'), Tmax=(400, 'K')),
@@ -397,7 +381,7 @@ entry(
 )
 
 entry(
-    index = 40,
+    index = 39,
     label = "O3 + H <=> OH + O2",
     kinetics = Arrhenius(A=(8.43e+13, 'cm^3/(mol*s)'), n=0, Ea=(934, 'cal/mol'), T0=(1, 'K'),
                                Tmin=(200, 'K'), Tmax=(430, 'K')),
@@ -406,7 +390,7 @@ entry(
 )
 
 entry(
-   index = 41,
+   index = 40,
    label = "O3 + H <=> O + HO2 ",
    kinetics = Arrhenius(A=(100, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
    shortDesc = u"""[Konnov2015]""",
@@ -415,7 +399,7 @@ entry(
 )
 
 entry(
-    index = 42,
+    index = 43,
     label = "O3 + OH <=> HO2 + O2",
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(1870, 'cal/mol'), T0=(1, 'K'),
                                Tmin=(220, 'K'), Tmax=(450, 'K')),
@@ -423,7 +407,7 @@ entry(
     longDesc = u"""Konnov (2015) https://doi.org/10.1016/j.combustflame.2015.07.014, Table 1, Reaction 37""",
 )
 entry(
-    index = 43,
+    index = 44,
     label = "O3 + HO2 <=> OH + O2 + O2",
     kinetics = Arrhenius(A=(5.85e-4, 'cm^3/(mol*s)'), n=4.57, Ea=(-1377, 'cal/mol'), T0=(1, 'K'),
                                Tmin=(250, 'K'), Tmax=(340, 'K')),
@@ -432,7 +416,7 @@ entry(
 )
 
 entry(
-    index = 44,
+    index = 45,
     label = "O3 + H2 <=> OH + HO2",
     kinetics = Arrhenius(A=(6e+10, 'cm^3/(mol*s)'), n=0, Ea=(20000, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Konnov2015]""",
@@ -440,7 +424,7 @@ entry(
 )
 
 entry(
-    index = 45,
+    index = 46,
     label = "H2 + O2 <=> OH + OH",
     kinetics = Arrhenius(A=(2.04e+12, 'cm^3/(mol*s)'), n=0.44, Ea=(69155, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Konnov2015]""",
@@ -448,7 +432,7 @@ entry(
 )
 
 entry(
-    index = 46,
+    index = 47,
     label = "H2 + O2 <=> O + H2O",
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(69545, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Konnov2015]""",
@@ -456,7 +440,7 @@ entry(
 )
 
 entry(
-    index = 47,
+    index = 48,
     label = "H2 + O2 + O2 <=> HO2 + HO2",
     kinetics = Arrhenius(A=(2e+17, 'cm^6/(mol^2*s)'), n=0, Ea=(25830, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Konnov2015]""",
@@ -464,7 +448,7 @@ entry(
 )
 
 entry(
-   index = 48,
+   index = 49,
    label = "O + OH <=> HO2",
    kinetics = ThirdBody(
         arrheniusLow=Arrhenius(A=(1e+15, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'))),
@@ -473,7 +457,7 @@ entry(
 )
 
 entry(
-    index = 49,
+    index = 50,
     label = "HO2 + H <=> H2O2",
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(6.0E+14, 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K'))),
@@ -483,9 +467,17 @@ entry(
 )
 
 entry(
-    index = 50,
+    index = 51,
     label = "H2O2 + O <=> H2O + O2",
     kinetics = Arrhenius(A=(8.43E+11, 'cm^3/(mol*s)'), n=0.00, Ea=(3.970E+03, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""Baulch et al., J. Phys. Chem. Ref. Data, 34:757 (2005)""",
     longDesc = u"""Added from the BurkeH2O2 library Reaction X5 in Burke at el. (Table III), Upper limit""",
+)
+
+entry(
+    index = 52,
+    label = "HO2 + HO2 <=> O2 + OH + OH",
+    kinetics = Arrhenius(A=(6.41E17, 'cm^3/(mol*s)'), n=-1.54, Ea=(16971, 'cal/mol'), Tmin=(400, 'K'), Tmax=(2000, 'K')),
+    shortDesc = u"""[Klippenstein2022]""",
+    longDesc = u"""CASPT2""",
 )
