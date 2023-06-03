@@ -33,14 +33,14 @@ LiC
 entry(
     index = 0,
     label = "R*",
-    group = 
+    group =
 """
 1   R ux
 2 * X ux
 """,
     thermo = None,
     shortDesc = """Anything adsorbed anyhow.""",
-    longDesc = 
+    longDesc =
 """
 R
    X
@@ -58,12 +58,14 @@ do not like that. It should be OK, because things would check the
 tree in order, and if there *was* a bond it would match either
 R*bidentate or R*single_chemisorbed and thus not R*vdW.
 """,
+metal = "Li",
+facet = "110",
 )
 
 entry(
     index = 1,
     label = "R*single_chemisorbed",
-    group = 
+    group =
 """
 1 * X u0 {2,S}
 2   R ux {1,S}
@@ -75,16 +77,18 @@ entry(
         S298 = (-38.17,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
+metal = "Li",
+facet = "110",
 )
 
 entry(
     index = 2,
     label = "C*",
-    group = 
+    group =
 """
 1 * X u0 {2,S}
 2   C ux {1,S}
@@ -96,18 +100,20 @@ entry(
         S298 = (-32.73,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
    CR3
    |
 ***********
 """,
+metal = "Li",
+facet = "110",
 )
 
 entry(
     index = 3,
     label = "O*",
-    group = 
+    group =
 """
 1 * X u0 {2,S}
 2   O ux {1,S}
@@ -119,7 +125,7 @@ entry(
         S298 = (-33.89,'cal/(mol*K)'),
     ),
     shortDesc = """Came from OH single-bonded on Pt(111)""",
-    longDesc = 
+    longDesc =
 """
    R
    |
@@ -127,12 +133,14 @@ entry(
    |
 ***********
 """,
+metal = "Li",
+facet = "110",
 )
 
 entry(
     index = 4,
     label = "F*",
-    group = 
+    group =
 """
 1 * X u0 {2,S}
 2   F ux {1,S}
@@ -144,19 +152,21 @@ entry(
         S298 = (-26,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
    F
    |
 ***********
 """,
+metal = "Li",
+facet = "110",
 
 )
 
 entry(
     index = 5,
     label = "H*",
-    group = 
+    group =
 """
 1 * X u0 {2,S}
 2   H ux {1,S}
@@ -168,18 +178,20 @@ entry(
         S298 = (-26,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
    H
    |
 ***********
 """,
+metal = "Li",
+facet = "110",
 )
 
 entry(
     index = 6,
     label = "OH*",
-    group = 
+    group =
 """
 1 * X u0 {2,S}
 2   O u0 {1,S} {3,S}
@@ -192,7 +204,7 @@ entry(
         S298 = (-34,'cal/(mol*K)'),
     ),
     shortDesc = """Came from OH single-bonded on Pt(111)""",
-    longDesc = 
+    longDesc =
 """
    H
    |
@@ -200,12 +212,14 @@ entry(
    |
 ***********
 """,
+metal = "Li",
+facet = "110",
 )
 
 entry(
     index = 7,
     label = "R*vdW",
-    group = 
+    group =
 """
 1 * X u0
 2   R u0
@@ -217,18 +231,18 @@ entry(
         S298 = (-20.48,'cal/(mol*K)'),
     ),
     shortDesc = """Average of (CR4)*, (NR3)* and (OR2)* thermo.""",
-    longDesc = 
+    longDesc =
 """
 
 """,
-    metal = "Pt",
-    facet = "111",
+    metal = "Li",
+    facet = "110",
 )
 
 entry(
     index = 8,
     label = "O*vdW",
-    group = 
+    group =
 """
 1 * X u0 p0
 2   O u0 p2
@@ -240,9 +254,11 @@ entry(
         S298 = (-22.53,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 """,
+metal = "Li",
+facet = "110",
 )
 
 tree(
@@ -258,4 +274,3 @@ L1: R*
         L3: O*vdW
 """
 )
-
