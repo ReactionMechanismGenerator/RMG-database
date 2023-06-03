@@ -54707,7 +54707,7 @@ entry(
     label = "CsOOOring",
     group =
 """
-1 * C u1 p0 c0 r1 {2,S} {3,S} {4,S}
+1 * Cs u1 p0 c0 r1 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S}
 3 O u0 p2 c0 {1,S}
 4 O u0 p2 c0 {1,S}
