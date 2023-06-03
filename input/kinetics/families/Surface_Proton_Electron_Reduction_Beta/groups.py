@@ -9,7 +9,7 @@ longDesc = u"""
    ||                        |
    *2  + *4H+ + *e-  ---->  *2
     |                       ||
-  ~*3~                     ~*3~   
+  ~*3~                     ~*3~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m3) * 1
@@ -50,16 +50,6 @@ entry(
     group =
 """
 1 *4 H+ u0 p0 c+1
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 3,
-    label = "Electron",
-    group =
-"""
-1 * e u0 p0 c-1
 """,
     kinetics = None,
 )

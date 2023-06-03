@@ -173,7 +173,7 @@ entry(
 """
 1 *1 N u0 {2,D} {3,S}
 2 *2 X u0 {1,D}
-3    N u0 {1,S}
+3    H u0 {1,S}
 """,
     kinetics = None,
 )
