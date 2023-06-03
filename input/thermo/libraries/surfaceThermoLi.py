@@ -23,4 +23,6 @@ entry(
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
     ),
+    metal = "Li",
+    facet = "110",
 )
