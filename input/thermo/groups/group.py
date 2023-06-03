@@ -60462,8 +60462,8 @@ entry(
     label = "O2d-S6dd",
     group =
 """
-1 S6dd u0 p0 c0 {2,S}
-2 * O2s u0 p2 c0 {1,S}
+1 S6dd u0 p0 c0 {2,D}
+2 * O2d u0 p2 c0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -62778,6 +62778,7 @@ L1: R
             L4: O2d-Cd
             L4: O2d-O2d
             L4: O2d-Sd
+                L5: O2d-S6dd
             L4: O2d-N3d
             L4: O2d-N5dc
         L3: O2s
