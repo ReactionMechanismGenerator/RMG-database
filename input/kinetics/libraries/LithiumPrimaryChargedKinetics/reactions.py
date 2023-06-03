@@ -37,7 +37,7 @@ entry(
 
 entry(
     index = 4,
-    label = "O=CCC[O] + [Lip] <=> O=C + [Li]OC=C",
+    label = "O=CCC[O] + [Lip] <=> C=O + [Li]OC=C",
     degeneracy = 1.0,
     kinetics = ArrheniusChargeTransfer(A=(1.74272e+07,'cm^3/(mol*s)'), n=2.05933, Ea=(-27.3358,'kJ/mol'), V0=(0,'V'), alpha=0.5, electrons=1, T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=3.2490249849978214,B=2.6960753668589854,E=2.1706425235190108,L=14.985510873166351,A=0.7334126588566799,comment='')),
 )
