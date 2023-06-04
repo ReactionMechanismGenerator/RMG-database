@@ -82,20 +82,6 @@ multiplicity 2
 10 H  u0 p0 c0 {5,S}
 11 H  u0 p0 c0 {5,S}
 
-[Li]OC[=O]OC[CH2]
-multiplicity 2
-1  O  u0 p2 c0 {4,S} {6,S}
-2  O  u0 p2 c0 {6,S} {7,S}
-3  O  u0 p2 c0 {6,D}
-4  C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-5  C  u1 p0 c0 {4,S} {10,S} {11,S}
-6  C  u0 p0 c0 {1,S} {2,S} {3,D}
-7  Li u0 p0 c0 {2,S}
-8  H  u0 p0 c0 {4,S}
-9  H  u0 p0 c0 {4,S}
-10 H  u0 p0 c0 {5,S}
-11 H  u0 p0 c0 {5,S}
-
 [Li]OC[=O]OCCO[C]1OCCO1
 multiplicity 2
 1  O  u0 p2 c0 {8,S} {11,S}
@@ -119,20 +105,6 @@ multiplicity 2
 19 H  u0 p0 c0 {9,S}
 20 H  u0 p0 c0 {10,S}
 21 H  u0 p0 c0 {10,S}
-
-[Li]OC[=O]OCC[Li]
-1  O  u0 p2 c0 {4,S} {6,S}
-2  O  u0 p2 c0 {6,S} {8,S}
-3  O  u0 p2 c0 {6,D}
-4  C  u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
-5  C  u0 p0 c0 {4,S} {7,S} {11,S} {12,S}
-6  C  u0 p0 c0 {1,S} {2,S} {3,D}
-7  Li u0 p0 c0 {5,S}
-8  Li u0 p0 c0 {2,S}
-9  H  u0 p0 c0 {4,S}
-10 H  u0 p0 c0 {4,S}
-11 H  u0 p0 c0 {5,S}
-12 H  u0 p0 c0 {5,S}
 
 [Li]OC[=O]OCCC1[O[Li]]OCCO1
 1  O  u0 p2 c0 {7,S} {10,S}
@@ -334,14 +306,6 @@ multiplicity 2
 12 H u0 p0 c0 {3,S}
 13 H u0 p0 c0 {3,S}
 
-[Li]OC[=O]O[Li]
-1 O  u0 p2 c0 {4,S} {5,S}
-2 O  u0 p2 c0 {4,S} {6,S}
-3 O  u0 p2 c0 {4,D}
-4 C  u0 p0 c0 {1,S} {2,S} {3,D}
-5 Li u0 p0 c0 {1,S}
-6 Li u0 p0 c0 {2,S}
-
 [Li]OC(=O)OCC[Li]
 1  O  u0 p2 c0 {4,S} {6,S}
 2  O  u0 p2 c0 {6,S} {8,S}
@@ -423,4 +387,3 @@ N=C
 6 H  u0 p0 c0 {1,S}
 7 H  u0 p0 c0 {3,S}
 8 H  u0 p0 c0 {3,S}
-

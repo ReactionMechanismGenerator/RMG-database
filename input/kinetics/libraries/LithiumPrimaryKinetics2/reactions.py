@@ -12,7 +12,7 @@ entry(
     label = "O=C1OCCO1 + [Li] <=> [Li]OC(=O)OC[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.40229e+07,'cm^3/(mol*s)'), n=2.08453, Ea=(2.45304,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS1 in O=C1OCCO1 + [Li] <=> [Li]OC(=O)OC[CH2]:
 
@@ -45,7 +45,7 @@ entry(
     label = "[Li]OC1OCC1 <=> O=CCCO[Li]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.68965e+12,'s^-1'), n=-0.134733, Ea=(38.4756,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS4 in [Li]OC1OCC1 <=> O=CCCO[Li]:
 
@@ -80,7 +80,7 @@ entry(
     label = "[Li]O[C]1OCCO1 <=> O=[C]OCCO[Li]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.97927e+12,'s^-1'), n=0.00494054, Ea=(1.80157,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS1 in [Li]O[C]1OCCO1 <=> O=[C]OCCO[Li]:
 
@@ -110,10 +110,10 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
 
 entry(
     index = 3,
-    label = "O=C1OCCO1 + [Li]OC[=O]OC[CH2] <=> [Li]OC[=O]OCCO[C]1OCCO1",
+    label = "O=C1OCCO1 + [Li]OC(=O)OC[CH2] <=> [Li]OC[=O]OCCO[C]1OCCO1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00568213,'cm^3/(mol*s)'), n=3.08997, Ea=(92.7056,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS2 in O=C1OCCO1 + [Li]OC[=O]OC[CH2] <=> [Li]OC[=O]OCCO[C]1OCCO1:
 
@@ -146,11 +146,11 @@ H       0.50143284   -1.55665094   -1.43015897
 H       2.03853228   -2.45935310   -1.24367327
 
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
-* Invalidated! pivots: [3, 5], dihedral: [2, 3, 5, 6], invalidation reason: 
-* Invalidated! pivots: [5, 6], dihedral: [3, 5, 6, 7], invalidation reason: 
-* Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 12], invalidation reason: 
-* Invalidated! pivots: [7, 12], dihedral: [6, 7, 12, 13], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
+* Invalidated! pivots: [3, 5], dihedral: [2, 3, 5, 6], invalidation reason:
+* Invalidated! pivots: [5, 6], dihedral: [3, 5, 6, 7], invalidation reason:
+* Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 12], invalidation reason:
+* Invalidated! pivots: [7, 12], dihedral: [6, 7, 12, 13], invalidation reason:
 * Invalidated! pivots: [12, 13], dihedral: [7, 12, 13, 14], invalidation reason:
 ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
 """,
@@ -158,10 +158,10 @@ ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
 
 entry(
     index = 4,
-    label = "[Li]OC[=O]OCC[Li] + O=C1OCCO1 <=> [Li]OC[=O]OCCC1[O[Li]]OCCO1",
+    label = "[Li]OC(=O)OCC[Li] + O=C1OCCO1 <=> [Li]OC[=O]OCCC1[O[Li]]OCCO1",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.21675,'cm^3/(mol*s)'), n=2.94197, Ea=(-82.2275,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS4 in [Li]OC[=O]OCC[Li] + O=C1OCCO1 <=> [Li]OC[=O]OCCC1[O[Li]]OCCO1:
 
@@ -195,10 +195,10 @@ H      -3.43156366   -1.92791432   -1.12580103
 H      -1.80327947   -1.91854114   -0.38464998
 
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [9, 2, 3, 4], invalidation reason: 
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: 
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: 
-* Invalidated! pivots: [5, 7], dihedral: [4, 5, 7, 8], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [9, 2, 3, 4], invalidation reason:
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason:
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason:
+* Invalidated! pivots: [5, 7], dihedral: [4, 5, 7, 8], invalidation reason:
 * Invalidated! pivots: [13, 14], dihedral: [1, 13, 14, 15], invalidation reason:
 ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
 """,
@@ -209,7 +209,7 @@ entry(
     label = "COCCOC + [Li] <=> [Li]OCCOC + [CH3]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(62816.3,'cm^3/(mol*s)'), n=2.80799, Ea=(51.0438,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS8 in COCCOC + [Li] <=> [Li]OCCOC + [CH3]:
 
@@ -251,7 +251,7 @@ entry(
     label = "O=C1OCC[F]O1 + [Li] <=> O=C1OC[CH]O1 + [Li]F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.84579e+07,'cm^3/(mol*s)'), n=2.04554, Ea=(28.3364,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS11 in O=C1OCC[F]O1 + [Li] <=> O=C1OC[CH]O1 + [Li]F:
 
@@ -284,7 +284,7 @@ entry(
     label = "C=C + [Li] <=> [Li]C[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.10799e+08,'cm^3/(mol*s)'), n=1.74038, Ea=(37.7145,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS12 in C=C + [Li] <=> [Li]C[CH2]:
 
@@ -313,7 +313,7 @@ entry(
     label = "[Li]O[O] + CCC <=> [Li]OO + C[CH]C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0384704,'cm^3/(mol*s)'), n=4.42153, Ea=(115.231,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS15 in [Li]O[O] + CCC <=> [Li]OO + C[CH]C:
 
@@ -351,7 +351,7 @@ entry(
     label = "[Li]O[O] + CC <=> [Li]OO + C[CH2]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.023197,'cm^3/(mol*s)'), n=4.65665, Ea=(125.28,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS16 in [Li]O[O] + CC <=> [Li]OO + C[CH2]:
 
@@ -385,7 +385,7 @@ entry(
     label = "[Li]O[O] + CC[C]C <=> [Li]OO + C[C][C]C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.19477,'cm^3/(mol*s)'), n=4.27128, Ea=(104.632,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS17 in [Li]O[O] + CC[C]C <=> [Li]OO + C[C][C]C:
 
@@ -424,10 +424,10 @@ ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
 
 entry(
     index = 11,
-    label = "[Li]O[C]1OCCO1 + [Li] <=> C=C + [Li]OC[=O]O[Li]",
+    label = "[Li]O[C]1OCCO1 + [Li] <=> C=C + [Li]OC(=O)O[Li]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(265439,'cm^3/(mol*s)'), n=1.96819, Ea=(-156.013,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS19 in [Li]O[C]1OCCO1 + [Li] <=> C=C + [Li]OC[=O]O[Li]:
 
@@ -461,7 +461,7 @@ entry(
     label = "[Li]OC(=O)OCC[Li] <=> C=C + [Li]OC(=O)O[Li]",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.75697e+10,'s^-1'), n=0.20961, Ea=(-32.9662,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS1 in [Li]OC(=O)OCC[Li] <=> C=C + [Li]OC(=O)O[Li]:
 
@@ -485,9 +485,9 @@ H       2.15379246    1.33323252    0.72214928
 Li     -2.49325448   -1.14082524   -0.15038278
 
 1D rotors:
-* Invalidated! pivots: [3, 9], dihedral: [2, 3, 9, 12], invalidation reason: 
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: 
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: 
+* Invalidated! pivots: [3, 9], dihedral: [2, 3, 9, 12], invalidation reason:
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason:
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason:
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason:
 ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
 """,
@@ -498,7 +498,7 @@ entry(
     label = "O=CCOC[Li] <=> O=C + [Li]OC=C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.61629e+10,'s^-1'), n=0.571031, Ea=(48.5744,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS2 in O=CCOC[Li] <=> O=C + [Li]OC=C:
 
@@ -521,8 +521,8 @@ H       0.06121426    1.08058543   -1.22022216
 H      -0.25873063    2.12146356    0.23345536
 
 1D rotors:
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: 
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: 
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason:
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason:
 * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason:
 ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
 """,
@@ -533,7 +533,7 @@ entry(
     label = "N=CCNC[Li] <=> N=C + [Li]NC=C",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.58931e+10,'s^-1'), n=0.578655, Ea=(18.0231,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
+    longDesc =
 """
 TS method summary for TS3 in N=CCNC[Li] <=> N=C + [Li]NC=C:
 Methods that successfully generated a TS guess:
@@ -559,10 +559,9 @@ H      -0.19751016    0.89217270   -1.51530058
 H       1.14454041    0.94268226    1.13275931
 
 1D rotors:
-* Invalidated! pivots: [1, 5], dihedral: [6, 1, 5, 3], invalidation reason: 
-* Invalidated! pivots: [2, 3], dihedral: [4, 2, 3, 5], invalidation reason: 
+* Invalidated! pivots: [1, 5], dihedral: [6, 1, 5, 3], invalidation reason:
+* Invalidated! pivots: [2, 3], dihedral: [4, 2, 3, 5], invalidation reason:
 * Invalidated! pivots: [3, 5], dihedral: [2, 3, 5, 1], invalidation reason:
 ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
 """,
 )
-
