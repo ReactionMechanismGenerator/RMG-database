@@ -102,79 +102,93 @@ liquid_peroxide = {
     'Baeyer-Villiger_step2_cat',
 }
 
-apideg = {
+pharma = {
     '1+2_Cycloaddition',
     '1,2-Birad_to_alkene',
-    '1,2_Insertion_CO',
     '1,2_Insertion_carbene',
+    '1,2_Insertion_CO',
+    '1,2_NH3_elimination',
+    '1,2_shiftC',
     '1,2_shiftS',
+    '1,2_XY_interchange',
     '1,3_Insertion_CO2',
     '1,3_Insertion_ROR',
     '1,3_Insertion_RSR',
+    '1,3_NH3_elimination',
+    '1,3_sigmatropic_rearrangement',
     '1,4_Cyclic_birad_scission',
     '1,4_Linear_birad_scission',
     '2+2_cycloaddition',
-    'Birad_recombination',
-    'CO_Disproportionation',
+    '6_membered_central_C-C_shift',
+    'acetal_hydrolysis',  # API-specific
+    'alcohol_dehydrogenation',  # API-specific
+    'amide_alcoholysis',  # API-specific
+    'amide_hydrolysis',  # API-specific
+    'amine_hydrolysis',  # API-specific
+    'amino_hydrolysis',  # API-specific
+    'benzene_amino_to_cyclic_aldehyde_and_imine',  # API-specific, recipe isn't physical
+    'Bimolec_Hydroperoxide_Decomposition',
     'Birad_R_Recombination',
+    'Birad_recombination',
+    'Br_Abstraction',
+    'Cl_Abstraction',
+    'CO_Disproportionation',
+    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
     'Cyclic_Ether_Formation',
     'Cyclic_Thioether_Formation',
+    'Cyclopentadiene_scission',
     'Diels_alder_addition',
     'Diels_alder_addition_Aromatic',
     'Disproportionation',
-    'HO2_Elimination_from_PeroxyRadical',
+    'Disproportionation-Y',
+    'ether_peroxide_decomposition',  # API-specific
+    'F_Abstraction',
+    'H2_Loss',
     'H_Abstraction',
-    'Intra_Retro_Diels_alder_bicyclic',
+    'hemiacetal_hydrolysis',  # API-specific
+    'hemiaminal_and_HCN',  # API-specific
+    'hemiaminal_hydrolysis',  # API-specific
+    'HO2_Elimination_from_PeroxyRadical',
+    'HOCK_rearrangement',  # API-specific
+    'hydroperoxide_to_alcohol',  # API-specific
+    'hydroxylamine_to_nitroso',  # API-specific
+    'imine_to_hemiaminal',  # API-specific
+    'Intra_2+2_cycloaddition_Cd',
+    'Intra_5_membered_conjugated_C=C_C=C_addition',
+    'Intra_Diels_alder_monocyclic',
     'Intra_Disproportionation',
-    'Intra_R_Add_Endocyclic',
-    'Intra_R_Add_Exocyclic',
-    'R_Addition_COm',
-    'R_Addition_MultipleBond',
-    'R_Recombination',
+    'Intra_ene_reaction',
     'intra_H_migration',
+    'intra_halogen_migration',
     'intra_NO2_ONO_conversion',
     'intra_OH_migration',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exo_scission',
+    'Intra_R_Add_Exocyclic',
+    'Intra_R_Add_ExoTetCyclic',
+    'Intra_Retro_Diels_alder_bicyclic',
     'intra_substitutionCS_cyclization',
     'intra_substitutionCS_isomerization',
     'intra_substitutionS_cyclization',
     'intra_substitutionS_isomerization',
-    '1,3_sigmatropic_rearrangement',
-    # 'Singlet_Carbene_Intra_Disproportionation',  # not recommended for APIs
-    'Singlet_Val6_to_triplet',
-    'Intra_5_membered_conjugated_C=C_C=C_addition',
-    'Intra_Diels_alder_monocyclic',
-    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
-    'Intra_2+2_cycloaddition_Cd',
-    'Intra_ene_reaction',
-    'Cyclopentadiene_scission',
-    '6_membered_central_C-C_shift',
-    'Intra_R_Add_Exo_scission',
-    '1,2_shiftC',
-    '1,2_NH3_elimination',
-    '1,3_NH3_elimination',
-    'Retroene',
     'Ketoenol',
-    'acetal_hydrolysis',  # API-specific
-    'alcohol_dehydrogenation',  # API-specific
-    'amide_alcoholysis',  # API-specific
-    'hemiaminal_and_HCN',  # API-specific
-    'amine_hydrolysis',  # API-specific
-    'hemiacetal_hydrolysis',  # API-specific
-    'hemiaminal_decomposition',  # API-specific
-    'hemiaminal_to_amine_and_aldehyde',
-    'HOCK_rearrangement',  # API-specific
-    'hydroperoxide_to_alcohol',  # API-specific
-    'imine_to_hemiaminal',
-    # 'cyclic_imine_to_hemiaminal',     # not implemented yet!
+    'Korcek_step1',
+    'Korcek_step2',
     'methanoate_hydrolysis',  # API-specific
+    'nitroso_to_oxime',  # API-specific
+    'oxidation_of_phenols',  # API-specific
+    'Peroxyl_Disproportionation',
+    'Peroxyl_Termination',
+    'R_Addition_COm',
+    'R_Addition_CSm',
+    'R_Addition_MultipleBond',
+    'R_Recombination',
+    'Retroene',
+    'Singlet_Val6_to_triplet',
     'thione_hydrolysis',  # API-specific
-    'amide_hydrolysis',
-    'hydroxylamine_to_nitroso',
-    'nitroso_to_oxime',
-    'oxidation_of_phenols',
-    'amino_to_aldehyde_and_imine',
-    'benzene_amino_to_cyclic_aldehyde_and_imine',
-    'ether_peroxide_decomposition',
+    'XY_Addition_MultipleBond',
+    'XY_elimination_hydroxyl',
+    # 'cyclic_imine_to_hemiaminal',     # not implemented yet!
 }
 
 # Surface chemistry for heterogeneous catalysis.
