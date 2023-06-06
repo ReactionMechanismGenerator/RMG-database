@@ -102,7 +102,7 @@ liquid_peroxide = {
     'Baeyer-Villiger_step2_cat',
 }
 
-pharma = {
+pharma = {  # Add from: https://www.chemistrysteps.com/;
     '1+2_Cycloaddition',
     '1,2-Birad_to_alkene',
     '1,2_Insertion_carbene',
@@ -125,8 +125,8 @@ pharma = {
     'amide_alcoholysis',  # API-specific
     'amide_hydrolysis',  # API-specific
     'amine_hydrolysis',  # API-specific
-    'amino_hydrolysis',  # API-specific
-    'benzene_amino_to_cyclic_aldehyde_and_imine',  # API-specific, recipe isn't physical
+    # 'amino_hydrolysis',  # API-specific, not defined correctly
+    # 'benzene_amino_to_cyclic_aldehyde_and_imine',  # API-specific, recipe isn't physical
     'Bimolec_Hydroperoxide_Decomposition',
     'Birad_R_Recombination',
     'Birad_recombination',
