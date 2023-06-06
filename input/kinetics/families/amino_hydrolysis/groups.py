@@ -4,15 +4,15 @@
 name = "amino_hydrolysis/groups"
 shortDesc = u""
 longDesc = u"""
-This family describes solution-phase hydrolysis of amine groups:
-R1C(OH)CNR2 + H2O <=> R1C=O + CNHR2 
+This family describes solution-phase hydrolysis of an amino group and a beta alcohol group into aldehyde and amine:
+R1C(OH)CNH2 + H2O <=> R1C=O + CNHR2 
 atom labels:
-R1C[*1](O[*2]H[*3])C[*4]NR2 + H2O[*5] <=> R1C[*1]=O[*2] + C[*4]NHR2 +H[*3] + H2O
+R1C[*1](O[*2]H[*3])C[*4]NH2 + H2O[*5] <=> R1C[*1]=O[*2] + C[*4]NHR2 +H[*3] + H2O
 """
 
-template(reactants=["amino", "H2O"], products=["aldehyde", "imine", "H2O"], ownReverse=False)
+template(reactants=["amino_beta_alcohol", "H2O"], products=["aldehyde", "amine", "H2O"], ownReverse=False)
 
-reverse = "aldehyde_and_imine_to_amino"
+reverse = "aldehyde_and_amine_to_amino_alcohol"
 
 reversible = True
 
@@ -29,10 +29,10 @@ recipe(actions=[
 
 entry(
     index=0,
-    label="amino",
+    label="amino_beta_alcohol",
     group=
 """
-1     R ux px cx {2,S} 
+1     H u0 p0 c0 {2,S} 
 2     N u0 p1 c0 {1,S} {3,S} {7,S}
 3  *4 C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
 4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
