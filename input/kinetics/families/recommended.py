@@ -152,7 +152,7 @@ pharma = {  # Add from: https://www.chemistrysteps.com/;
     'HOCK_rearrangement',  # API-specific
     'hydroperoxide_to_alcohol',  # API-specific
     'hydroxylamine_to_nitroso',  # API-specific
-    'imine_to_hemiaminal',  # API-specific
+    # 'imine_to_hemiaminal',  # API-specific, UndeterminableKineticsError
     'Intra_2+2_cycloaddition_Cd',
     'Intra_5_membered_conjugated_C=C_C=C_addition',
     'Intra_Diels_alder_monocyclic',
