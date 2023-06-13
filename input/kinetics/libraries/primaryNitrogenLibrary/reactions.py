@@ -56,6 +56,7 @@ Reference legend:
 [Friedrichs2015]  N. Faßheber,  N. Lamoureux,  G. Friedrichs, Phys. Chem. Chem. Phys., 2015, 17, 15876-15886, doi: 10.1039/C5CP01414J
 [Glarborg2018] P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Progress in Energy and Combustion Science, 2018, 67, 31-68, doi: 10.1016/j.pecs.2018.01.002
 [Glarborg2021] P. Glarborg, Ahren W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011
+[Glarborg2022] P. Glarborg, Combustion and Flame, 2022, 112311, doi: 10.1016/j.combustflame.2022.112311
 [GlarGim] (RMG's Nitrogen_Glarborg_Gimenez_et_al library) Gimenez Lopeza et al., Proceedings of the Combustion Institute, 2009, 32(1), 367-375, doi: 10.1016/j.proci.2008.06.188
 [GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34, 617-624, doi: 10.1016/j.proci.2012.06.010
 [Goldsmith2019] X. Chen, M.E. Fuller, C.F. Goldsmith, Reaction CHemistry and Engineering, 2019, 4, 323-333, doi: 10.1039/C8RE00201K
@@ -81,6 +82,7 @@ Reference legend:
 [Klemm1990] J.W. Sutherland, P.M. Patterson, R.B. Klemm, J. Phys. Chem., 1990, 94(6), 2471-2475, doi: 10.1021/j100369a049
 [Klippenstein2009a] S.J. Klippenstein, L.B. Harding, B. Ruscic, R. Sivaramakrishnan, N.K. Srinivasan, M.-C. Su, J.V. Michael, J. Phys. Chem. A, 2009, 113(38), 10241-10259, doi: 10.1021/jp905454k
 [Klippenstein2009b] S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
+[Klippenstein2022] S.J. Klippenstein, P. Glarborg, Combustion and Flame, 2022, 236, 111787, doi: 10.1016/j.combustflame.2021.111787
 [Lin1990] C-Y. Lin, H-T. Wang, M.C. Lin, C.F. Melius, Int. J. Chem. Kin., 1990, 22(5), 455-482, doi: 10.1002/kin.550220504
 [Lin1993] Y. He, C.H. Wu, M.C. Lin, C.F. Melius, in: R. Burn, L.Z. Dumitrescu (Ed.) Shock Waves @ Marseille II (Proceedings Marseille France), 1993, 89-94, doi: 10.1007/978-3-642-78832-1
 [Lin1996a] A.M. Mebel, E.W.G. Diau, M.C. Lin, K.Morokuma, J. Phys. Chem., 1996, 100, 7517-7525, doi: 10.1021/jp953644f
@@ -119,6 +121,7 @@ Reference legend:
 [Lin2013b] W.-S. Teng, L.V. Moskaleva, H.-L. Chen, M.C. Lin, J. Phys. Chem. A, 2013, 117(28), 5775-5784, doi: 10.1021/jp402903t
 [Lin2014a] P. Raghunath, Y.H. Lin, M.C. Lin, Computational and Theoretical Chemistry, 2014, 1046, 73-80, doi: 10.1016/j.comptc.2014.07.011
 [Lin2014b] P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
+[Luo2019] Y. Shang, J. Shi, H. Ning, R. Zhang, H. Wang, S. Luo, Fuel, 2019, 243, 288-297, doi: 10.1016/j.fuel.2019.01.112
 [Marshall2013] S.J. Klippenstein, L.B. Harding, P. Glarborg, Y. Gao, H. Hu, P. Marshall, J. Phys. Chem. A, 2013, 117, 9011-9022, doi: 10.1021/jp4068069
 [Marshall2014] I.M. Alecu, P. Marshall, J. Phys. Chem. A, 2014, 118(48), 11405-11416, doi: 10.1021/jp509301t
 [Miller1992] J.A. Miller, C.F. Melius, Simp. (Int.) Comb., 1992, 24(1), 719-726, doi: 10.1016/S0082-0784(06)80088-3
@@ -137,6 +140,7 @@ Reference legend:
 [Stagni2020] A. Stagni, C. Cavallotti, O. Herbinet, T. Faravelli, Reaction Chemistry & Engineering, 2020, 5, 696-711, doi: 10.1039/c9re00429g
 [Staton2019] T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
 [Troe1975] K. Glanzer, J. Troe, Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469, doi: 10.1002/bbpc.19750790514
+[Troe1998] D. Fulle, H.F. Hamann, H. Hippler, J. Troe, J. Chem. Phys., 1998, 108, 5391-5397, doi: 10.1063/1.475971
 [Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
@@ -1948,6 +1952,7 @@ entry(
         T1=(1e+30, 'K'),
         efficiencies={'N#N': 1.0, '[Ar]': 0.5, '[O][O]': 0.61, 'N': 2.93},
     ),
+    elementary_high_p=True,
     shortDesc=u"""[Glarborg2021]""",
     longDesc=
 u"""
@@ -1961,9 +1966,9 @@ level of theory Only High Pressure Limit rate was taken; low limit and 1 atm rat
 Also available from [Klippenstein2009a]: 
     label = "NH2 + NH2 <=> N2H4",
      kinetics = Troe(
-       arrheniusHigh = Arrhenius(A=(9.33e-10, 's^-1'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), 
+       arrheniusHigh = Arrhenius(A=(9.33e-10, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), 
        Tmax=(2500, 'K')), 
-       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^3/(mol*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K')
+       arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^6/(mol^2*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K')
        , Tmax=(2500, 'K')),
        alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
 Table 3, p. 10245, T range: 300-2500 K, calculated at the CCSD(T) and CAS+1+2+QC level
@@ -3121,18 +3126,22 @@ calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
 
 entry(
     index = 169,
-    label = "NH3 + NO2 <=> NH2 + HONO",
+    label = "NH2 + HONO <=> NH3 + NO2",
     degeneracy = 1,
+    kinetics = Arrhenius(A=(6.4e+03, 'cm^3/(mol*s)'), n=2.340, Ea=(-3200, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Glarborg2022]""",
+    longDesc =
+u"""
+Part of the "Thermal de-NOx" mechanism
+Glarborg slightly adjusted the rate by Lin to agree with a rate experiment
+
+Available in reverse from [Lin1996a]
     kinetics = MultiArrhenius(
         arrhenius = [
             Arrhenius(A=(2.36e+01, 'cm^3/(mol*s)'), n=3.41, Ea=(22290, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
             Arrhenius(A=(1.88e+01, 'cm^3/(mol*s)'), n=3.52, Ea=(32598, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
         ],
     ),
-    shortDesc = u"""[Lin1996a]""",
-    longDesc =
-u"""
-Part of the "Thermal de-NOx" mechanism
 k2b, k2c on p. 7523-7524
 T range: 300-5000 K
 calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
@@ -3196,24 +3205,25 @@ calculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of
 entry(
     index = 172,
     label='NH2 + NO2  <=> N2O + H2O',
-    kinetics=Arrhenius(A=(2.2e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
+    kinetics=Arrhenius(A=(4.3e+17, 'cm^3/(mol*s)'), n=-1.874, Ea=(588, 'cal/mol'),
                        T0=(1, 'K')),
-    shortDesc=u"""[Glarborg2018]""",
+    shortDesc=u"""[Glarborg2022]""",
     longDesc=
-u"""Reaction 67, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
+u"""
+Part of the "Thermal de-NOx" mechanism
+
+Reaction 67, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
 Rate parameters for the gas-phase reaction is surveyed, based on available information from experiments and high-level of theory.
 Also was evaluated against experimental data. 
         
-Previously taken from [Marshall2013]
-        
-Part of the "Thermal de-NOx" mechanism
-        k1a 3 on p. 9019
-        T range: 300-2000 K
-        calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
-        +UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
-        CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
-        CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
-        and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
+Also available from [Marshall2013]
+k1a 3 on p. 9019
+T range: 300-2000 K
+calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
++UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
+CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
+CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
+and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
 """,
 )
 
@@ -3224,20 +3234,21 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Glarborg2018]""",
     longDesc =
-u"""Reaction 68, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
+u"""
+Part of the "Thermal de-NOx" mechanism
+
+Reaction 68, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
 Rate parameters for the gas-phase reaction is surveyed, based on available information from experiments and high-level of theory.
 Also was evaluated against experimental data. 
         
-Previously taken from [Marshall2013]
-        
-Part of the "Thermal de-NOx" mechanism
-        k1a 3 on p. 9019
-        T range: 300-2000 K
-        calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
-        +UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
-        CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
-        CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
-        and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
+Also available from [Marshall2013]
+k1a 3 on p. 9019
+T range: 300-2000 K
+calculations done at the RQCISD(T)/CBS(QZ,5Z)//B3LYP/6-311++G(d,p) level of theory
++UCCSD(T)/cc-pVTZ rovibrational analysis with UCCSD-(T)/CBS(aug-cc-pVQZ′,aug-cc-pV5Z′) energies,
+CCSDT(Q)/cc-pVDZ higher order corrections, CCSD(T,full)/CBS-(TZ,QZ) core−valence corrections,
+CI/aug-cc-pcVTZ relativistic corrections, HF/cc-pVTZ diagonal Born−Oppenheimer corrections,
+and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
 """,
 )
 
@@ -3340,11 +3351,16 @@ entry(
     index = 179,
     label = "HNO + NO2 <=> HONO + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.42e+04, 'cm^3/(mol*s)'), n=2.64, Ea=(4042, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-    shortDesc = u"""[Lin1998f]""",
+    kinetics = Arrhenius(A=(7.847e+02, 'cm^3/(mol*s)'), n=3.1, Ea=(3882, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
+    shortDesc = u"""[Luo2019]""",
     longDesc =
 u"""
 Part of the "NO2 decomposition" subset
+Based on a shock tube measurement
+
+Also available from [Lin1998f]
+    kinetics = Arrhenius(A=(4.42e+04, 'cm^3/(mol*s)'), n=2.64, Ea=(4042, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
 T range: 300-5000 K
 calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory
 This route produces the cis-HONO, two other routes that produce the trans-HONO product exist, yet their rates are much smaller
@@ -4777,11 +4793,16 @@ indicate transition states and A-factors similar to radical addition reactions.
 entry(
     index = 268,
     label = 'NH2 + HO2 <=> HNO + H2O',
-    kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'),
-        T0=(1, 'K')),
-    shortDesc = u"""[Glarborg2021]""",
+    kinetics = Arrhenius(A=(1.02e+12, 'cm^3/(mol*s)'), n=0.166, Ea=(-1864, 'cal/mol'),
+                          T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Klippenstein2022]""",
     longDesc =
 u"""
+R1b
+CASPT2/CBS//CASPT2/cc-pVTZ-F12
+
+Also available from [Glarborg2021]:
+kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 Reaction 1b, Table 2. Experimental work re-interpreted using direct measurements from 
 [Altinay&Macdonald2015]. Estimation by theoretical study of the singlet surface and previews studies of the three
 important branching reactions.
@@ -4790,8 +4811,7 @@ important branching reactions.
 entry(
     index = 269,
     label = 'HNO + O2 <=> NO + HO2',
-    kinetics = Arrhenius(A=(2.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(16000, 'cal/mol'),
-        T0=(1, 'K')),
+    kinetics = Arrhenius(A=(2.0e+13, 'cm^3/(mol*s)'), n=0.0, Ea=(16000, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Glarborg2021]""",
     longDesc =
 u"""
@@ -4830,11 +4850,16 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 entry(
     index = 272,
     label = 'NH2 + HO2 <=> NH3 + O2',
-    kinetics = Arrhenius (A=(2.179e+06, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'),
-                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
-    shortDesc = u"""[Sarathy2022]""",
+    kinetics = Arrhenius (A=(6.04e+18, 'cm^3/(mol*s)'), n=-1.91, Ea=(608, 'cal/mol'),
+                          T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Klippenstein2022]""",
     longDesc =
 u"""
+R1a
+CASPT2/CBS//CASPT2/cc-pVTZ-F12
+
+Also available from [Sarathy2022]:
+kinetics = Arrhenius (A=(2.179e+06, 'cm^3/(mol*s)'), n=2.080, Ea=(-4760, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
 Table S2, Reaction R4, triplet surface.
 Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
 """,
@@ -4843,11 +4868,17 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 entry(
     index = 273,
     label = 'NH2 + HO2 <=> H2NO + OH',
-    kinetics = Arrhenius(A=(3.489e+03, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
-                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
-    shortDesc = u"""[Sarathy2022]""",
+    kinetics = Arrhenius(A=(2.19e+09, 'cm^3/(mol*s)'), n=0.791, Ea=(-2838, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc = u"""[Klippenstein2022]""",
     longDesc =
 u"""
+R1c
+CASPT2/CBS//CASPT2/cc-pVTZ-F12
+
+Also available from [Sarathy2022]:
+kinetics = Arrhenius(A=(3.489e+03, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
 Table S2, Reaction R5, triplet surface.
 Optimized and characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
 """,
@@ -5495,4 +5526,119 @@ entry(
     u"""
     Computed at the ANL1 level of theory
     """,
+)
+
+entry(
+    index=320,
+    label='H2NO + OH <=> HNO + H2O',
+    kinetics=Arrhenius(A=(2.14e+15, 'cm^3/(mol*s)'), n=-0.751, Ea=(-922, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Klippenstein2022]""",
+    longDesc=
+u"""
+CASPT2/CBS//CASPT2/cc-pVTZ-F12
+
+Also available from [Glarborg2022]
+Based on an experimental measurement at 298-373 K from https://doi.org/10.1002/kin.550240805
+    kinetics = Arrhenius(A=(1.7e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(-520, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(298, 'K'), Tmax=(373, 'K')),
+""",
+)
+
+entry(
+    index=321,
+    label='H2NO + OH <=> NH2OOH',
+    kinetics=PDepArrhenius(
+        pressures=([0.1, 1, 10, 100, 300], 'bar'),
+        arrhenius=[
+            Arrhenius(A=(6.07E+24, 'cm^3/(mol*s)'), n=-5.64, Ea=(2715, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(3.37E+26, 'cm^3/(mol*s)'), n=-5.84, Ea=(2589, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(2.18E+28, 'cm^3/(mol*s)'), n=-6.07, Ea=(3036, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(1.98E+29, 'cm^3/(mol*s)'), n=-6.02, Ea=(3835, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(1.48E+29, 'cm^3/(mol*s)'), n=-5.82, Ea=(4215, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+        ]),
+    shortDesc=u"""[Klippenstein2022]""",
+    longDesc=
+u"""
+CASPT2/CBS//CASPT2/cc-pVTZ-F12
+Note that the rate expression at 300 bar may be of limited validity due to the effect of non-binary collisions
+""",
+)
+
+entry(
+    index=322,
+    label='NO + OH <=> HONO',
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=0.3, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(3.4e+23, 'cm^6/(mol^2*s)'), n=-2.5, Ea=(0.0, 'cal/mol'), T0=(1, 'K')),
+        alpha=0.75, T3=(1e-30, 'K'), T1=(1e+30, 'K'), T2=(1e+30, 'K'),
+        efficiencies={'[Ar]': 1.1, 'N#N': 2.0, 'N': 4.0}),
+    shortDesc=u"""[Troe1998]""",
+    longDesc=
+u"""
+Fit to experimental measurement
+""",
+)
+
+entry(
+    index=323,
+    label='HNO + H <=> H2NO',
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(5.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(3250, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(1.5e+19, 'cm^6/(mol^2*s)'), n=-1.632, Ea=(0.0, 'cal/mol'), T0=(1, 'K'))),
+    shortDesc=u"""[Glarborg2022]""",
+    longDesc=
+u"""
+arrheniusHigh is based on a 1993 calculation from https://doi.org/10.1063/1.465700
+arrheniusLow is based on [DeanBozz2000]
+""",
+)
+
+entry(
+    index=324,
+    label='H2NO + NH2 <=> NH3 + HNO',
+    kinetics=Arrhenius(A=(1.8e+06, 'cm^3/(mol*s)'), n=1.94, Ea=(-580, 'cal/mol'), T0=(1, 'K'), Tmin=(298, 'K'), Tmax=(373, 'K')),
+    shortDesc=u"""[DeanBozz2000]""",
+    longDesc=
+u"""
+This is the recommended rate in [Glarborg2022]
+""",
+)
+
+entry(
+    index=325,
+    label='H2NO + NO2 <=> HNO + HONO',
+    kinetics=Arrhenius(A=(8.0e+11, 'cm^3/(mol*s)'), n=0.0, Ea=(6000, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2022]""",
+    longDesc=
+u"""
+est.
+""",
+)
+
+entry(
+    index=326,
+    label="NO + H <=> HNO",
+    degeneracy=1,
+    elementary_high_p=True,
+    kinetics=Troe(
+        arrheniusHigh=Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-0.41, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(2.4e+14, 'cm^6/(mol^2*s)'), n=0.206, Ea=(-1550, 'cal/mol'), T0=(1, 'K')),
+        alpha=0.82, T3=(1e-30, 'K'), T1=(1e+30, 'K'), T2=(1e+30, 'K'), efficiencies={'N#N': 1.6}),
+    shortDesc=u"""[Glarborg2022]""",
+    longDesc=
+u"""
+Recommended rate by Glarborg2022 (also by the NOx2018 library)
+based on: https://doi.org/10.1002/kin.10137
+""",
+)
+
+entry(
+    index=327,
+    label='NO2 + H <=> NO + OH',
+    kinetics=Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0.0, Ea=(362, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2022]""",
+    longDesc=
+u"""
+Recommended by Glarborg2022 (also by the NOx2018 library)
+""",
 )
