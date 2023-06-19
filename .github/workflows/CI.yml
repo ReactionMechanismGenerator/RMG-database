@@ -3,5 +3,5 @@ name: CI
 on: [push]
 
 jobs:
-  compliance:
+  build-and-test-linux:
     uses: ReactionMechanismGenerator/RMG-Py/.github/workflows/CI.yml@main
