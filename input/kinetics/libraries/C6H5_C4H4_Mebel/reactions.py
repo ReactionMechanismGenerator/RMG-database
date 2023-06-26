@@ -88,7 +88,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1375 K with MAE of 1.9%, 4.6%\nfit btw. 500 and 1650 K with MAE of 2.8%, 6.0%\nfit btw. 500 and 1800 K with MAE of 2.5%, 4.6%\nfit btw. 500 and 2250 K with MAE of 3.7%, 12.1%',
     ),
     longDesc = 
 u"""
@@ -156,7 +155,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 800 K with MAE of 4.3%, 7.4%\nfit btw. 500 and 1000 K with MAE of 1.6%, 2.7%\nfit btw. 500 and 1250 K with MAE of 0.1%, 0.2%\nfit btw. 500 and 1650 K with MAE of 1.3%, 2.2%',
     ),
     longDesc = 
 u"""
@@ -239,7 +237,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1250 K with MAE of 0.7%, 2.6%\nfit btw. 500 and 1375 K with MAE of 1.6%, 3.8%\nfit btw. 500 and 1650 K with MAE of 4.1%, 11.3%\nfit btw. 500 and 1800 K with MAE of 2.8%, 8.3%',
     ),
     longDesc = 
 u"""
@@ -322,7 +319,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1250 K with MAE of 0.5%, 1.5%\nfit btw. 500 and 1500 K with MAE of 3.0%, 7.7%\nfit btw. 500 and 1650 K with MAE of 4.6%, 12.6%\nfit btw. 500 and 2000 K with MAE of 5.6%, 16.9%',
     ),
     longDesc = 
 u"""
@@ -395,7 +391,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 800 K with MAE of 7.9%, 13.7%\nfit btw. 500 and 1000 K with MAE of 2.4%, 5.5%\nfit btw. 500 and 1250 K with MAE of 0.6%, 1.5%\nfit btw. 500 and 1650 K with MAE of 0.4%, 0.6%',
     ),
     longDesc = 
 u"""
@@ -478,7 +473,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1125 K with MAE of 1.1%, 2.5%\nfit btw. 500 and 1375 K with MAE of 3.1%, 6.3%\nfit btw. 500 and 1650 K with MAE of 7.5%, 24.6%\nfit btw. 500 and 2000 K with MAE of 8.9%, 35.7%',
     ),
     longDesc = 
 u"""
@@ -561,7 +555,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 2.0%, 5.3%\nfit btw. 600 and 2500 K with MAE of 7.5%, 17.2%\nfit btw. 600 and 2500 K with MAE of 4.3%, 14.0%\nfit btw. 500 and 2500 K with MAE of 27.1%, 73.7%',
     ),
     longDesc = 
 u"""
@@ -682,7 +675,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 0.9%, 2.7% from P2\nfit btw. 500 and 2500 K with MAE of 1.2%, 3.1% from P3\nfit btw. 500 and 2500 K with MAE of 2.1%, 4.1% from P2\nfit btw. 500 and 2500 K with MAE of 5.4%, 12.4% from P3\nfit btw. 500 and 2500 K with MAE of 5.9%, 10.9% from P2\nfit btw. 500 and 2500 K with MAE of 4.8%, 13.7% from P3\nfit btw. 500 and 2500 K with MAE of 6.6%, 19.7% from P2\nfit btw. 500 and 2500 K with MAE of 6.3%, 15.6% from P3',
     ),
     longDesc = 
 u"""
@@ -769,7 +761,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 5.0%, 18.5%\nfit btw. 500 and 2500 K with MAE of 6.7%, 16.3%\nfit btw. 500 and 2500 K with MAE of 3.3%, 7.1%\nfit btw. 500 and 2500 K with MAE of 10.3%, 28.6%',
     ),
     longDesc = 
 u"""
@@ -852,7 +843,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 2.8%, 10.3%\nfit btw. 500 and 2500 K with MAE of 8.8%, 18.5%\nfit btw. 500 and 2500 K with MAE of 5.5%, 12.4%\nfit btw. 500 and 2500 K with MAE of 8.4%, 14.5%',
     ),
     longDesc = 
 u"""
@@ -925,7 +915,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 9.8%, 18.0%\nfit btw. 500 and 2500 K with MAE of 1.4%, 3.9%\nfit btw. 500 and 2500 K with MAE of 2.8%, 5.8%\nfit btw. 500 and 2500 K with MAE of 4.2%, 12.1%',
     ),
     longDesc = 
 u"""
@@ -1056,7 +1045,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1125 K with MAE of 0.3%, 0.8% from P2\nfit btw. 500 and 1125 K with MAE of 0.7%, 1.3% from P3\nfit btw. 500 and 1375 K with MAE of 0.9%, 1.8% from P2\nfit btw. 500 and 1375 K with MAE of 0.9%, 1.6% from P3\nfit btw. 500 and 1650 K with MAE of 1.7%, 3.5% from P2\nfit btw. 500 and 1650 K with MAE of 1.7%, 3.7% from P3\nfit btw. 500 and 2000 K with MAE of 31.6%, 154.8% from P2\nfit btw. 500 and 2000 K with MAE of 29.8%, 142.2% from P3',
     ),
     longDesc = 
 u"""
@@ -1191,7 +1179,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 1.5%, 2.7% from P2\nfit btw. 500 and 2500 K with MAE of 1.3%, 2.0% from P3\nfit btw. 500 and 2500 K with MAE of 6.5%, 17.4% from P2\nfit btw. 500 and 2500 K with MAE of 1.3%, 5.7% from P3\nfit btw. 500 and 2500 K with MAE of 3.7%, 9.9% from P2\nfit btw. 500 and 2500 K with MAE of 4.4%, 13.2% from P3\nfit btw. 500 and 2500 K with MAE of 22.8%, 76.6% from P2\nfit btw. 500 and 2500 K with MAE of 6.4%, 14.7% from P3',
     ),
     longDesc = 
 u"""
@@ -1278,7 +1265,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1375 K with MAE of 2.2%, 6.2%\nfit btw. 500 and 1650 K with MAE of 3.2%, 8.6%\nfit btw. 500 and 1800 K with MAE of 2.2%, 4.4%\nfit btw. 500 and 2250 K with MAE of 2.5%, 4.4%',
     ),
     longDesc = 
 u"""
@@ -1361,7 +1347,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 0.7%, 1.2%\nfit btw. 500 and 2500 K with MAE of 3.5%, 7.6%\nfit btw. 500 and 2500 K with MAE of 2.3%, 5.9%\nfit btw. 500 and 2500 K with MAE of 17.2%, 39.2%',
     ),
     longDesc = 
 u"""
@@ -1439,7 +1424,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 1.1%, 2.6%\nfit btw. 500 and 2500 K with MAE of 1.7%, 3.3%\nfit btw. 500 and 2500 K with MAE of 16.8%, 45.7%\nfit btw. 500 and 2500 K with MAE of 6.1%, 18.2%',
     ),
     longDesc = 
 u"""
@@ -1522,7 +1506,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1250 K with MAE of 0.8%, 1.3%\nfit btw. 500 and 1375 K with MAE of 1.6%, 3.1%\nfit btw. 500 and 1650 K with MAE of 4.0%, 10.0%\nfit btw. 500 and 1800 K with MAE of 2.4%, 4.7%',
     ),
     longDesc = 
 u"""
@@ -1605,7 +1588,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 1250 K with MAE of 1.1%, 2.4%\nfit btw. 500 and 1500 K with MAE of 5.1%, 20.8%\nfit btw. 500 and 1650 K with MAE of 3.6%, 6.4%\nfit btw. 500 and 2000 K with MAE of 1.1%, 1.8%',
     ),
     longDesc = 
 u"""
@@ -1688,7 +1670,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 6.0%, 22.1%\nfit btw. 600 and 2500 K with MAE of 9.0%, 24.4%\nfit btw. 600 and 2500 K with MAE of 7.8%, 19.9%\nfit btw. 500 and 2500 K with MAE of 20.8%, 47.5%',
     ),
     longDesc = 
 u"""
@@ -1814,7 +1795,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 6.8%, 24.2% from P3\nfit btw. 500 and 2500 K with MAE of 1.8%, 6.8% from P2\nfit btw. 500 and 2500 K with MAE of 12.0%, 26.5% from P3\nfit btw. 500 and 2500 K with MAE of 0.8%, 1.8% from P2\nfit btw. 500 and 2500 K with MAE of 33.5%, 126.4% from P3\nfit btw. 500 and 2500 K with MAE of 9.1%, 20.9% from P2\nfit btw. 500 and 2500 K with MAE of 8.8%, 21.0% from P3\nfit btw. 500 and 2500 K with MAE of 7.9%, 23.5% from P2',
     ),
     longDesc = 
 u"""
@@ -1901,7 +1881,6 @@ entry(
                 ],
             ),
         ],
-        comment = 'fit btw. 500 and 2500 K with MAE of 2.6%, 9.1%\nfit btw. 500 and 2500 K with MAE of 11.0%, 21.9%\nfit btw. 500 and 2500 K with MAE of 6.7%, 14.9%\nfit btw. 500 and 2500 K with MAE of 6.8%, 12.3%',
     ),
     longDesc = 
 u"""
@@ -1924,7 +1903,6 @@ entry(
                 n = 2.96,
                 Ea = (4436.3, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'fit btw. 500 and 2500 K',
             ),
         ],
     ),
@@ -1947,7 +1925,6 @@ entry(
                 n = 2.88,
                 Ea = (8611.9, 'cal/mol'),
                 T0 = (1, 'K'),
-                comment = 'fit btw. 500 and 2500 K',
             ),
         ],
     ),
