@@ -5,3 +5,5 @@ on: [push, workflow_dispatch]
 jobs:
   build-and-test-linux:
     uses: ReactionMechanismGenerator/RMG-Py/.github/workflows/CI.yml@main
+    with:
+      rmg-db-branch: ${GITHUB_REF_NAME}
