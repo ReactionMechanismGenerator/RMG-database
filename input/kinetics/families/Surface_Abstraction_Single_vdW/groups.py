@@ -48,8 +48,8 @@ entry(
     label = "Abstracting",
     group =
 """
-1 *5 X u0 p0 c0 {2,S}
-2 *4 R ux px cx {1,S}
+1 *5 X   u0 p0 c0 {2,S}
+2 *4 R!H ux px cx {1,S}
 """,
     kinetics = None,
 )
