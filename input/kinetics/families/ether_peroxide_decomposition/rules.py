@@ -10,7 +10,7 @@ entry(
     index = 0,
     label = "ether_peroxide",
     kinetics = ArrheniusEP(
-        A = (1e+12, 'cm^3/(mol*s)'),
+        A = (1e+12, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (0, 'kcal/mol'),
