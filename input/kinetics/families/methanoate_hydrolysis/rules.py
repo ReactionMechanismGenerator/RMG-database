@@ -10,7 +10,7 @@ longDesc = u"""
 entry(
     index=0,
     label="methanoate;H2O",
-    kinetics=ArrheniusEP(A=(1e+5, 'cm^3/(mol*s)'), n=0, alpha=0, E0=(0, 'kcal/mol')),
+    kinetics=ArrheniusEP(A=(1.7e+11, 'cm^3/(mol*s)'), n=0, alpha=0, E0=(25, 'kcal/mol')),
     rank=0,
     shortDesc=u"""Default""",
 )
