@@ -139,6 +139,14 @@ CF2O
 3 F u0 p3 c0 {2,S}
 4 F u0 p3 c0 {2,S}
 
+CH2FO
+multiplicity 2
+1 F u0 p3 c0 {3,S}
+2 O u1 p2 c0 {3,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+4 H u0 p0 c0 {3,S}
+5 H u0 p0 c0 {3,S}
+
 CHFOH
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
