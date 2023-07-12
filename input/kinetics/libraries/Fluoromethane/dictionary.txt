@@ -656,11 +656,12 @@ multiplicity 2
 
 CF3CO
 multiplicity 2
-1 O u1 p2 c0 {2,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 F u0 p3 c0 {2,S}
-4 F u0 p3 c0 {2,S}
-5 F u0 p3 c0 {2,S}
+1 F u0 p3 c0 {5,S}
+2 F u0 p3 c0 {5,S}
+3 F u0 p3 c0 {5,S}
+4 O u0 p2 c0 {6,D}
+5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+6 C u1 p0 c0 {4,D} {5,S}
 
 CF2CFO
 multiplicity 2
