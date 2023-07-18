@@ -1,0 +1,59 @@
+H_rad
+multiplicity 2
+1 H u1 p0 c0
+
+DMF
+1 O u0 p2 c0 {4,S} {5,S}
+2 C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3 C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+4 C u0 p0 c0 {1,S} {2,S} {6,D}
+5 C u0 p0 c0 {1,S} {3,S} {7,D}
+6 C u0 p0 c0 {4,D} {7,S} {14,S}
+7 C u0 p0 c0 {5,D} {6,S} {15,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {7,S}
+
+H2
+1 H u0 p0 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+DMF_rad_on_methyl
+multiplicity 2
+1 O u0 p2 c0 {4,S} {5,S}
+2 C u1 p0 c0 {4,S} {8,S} {9,S}
+3 C u0 p0 c0 {5,S} {10,S} {11,S} {12,S}
+4 C u0 p0 c0 {1,S} {2,S} {6,D}
+5 C u0 p0 c0 {1,S} {3,S} {7,D}
+6 C u0 p0 c0 {4,D} {7,S} {13,S}
+7 C u0 p0 c0 {5,D} {6,S} {14,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {7,S}
+
+DMF_rad_on_ring
+multiplicity 2
+1 O u0 p2 c0 {4,S} {5,S}
+2 C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+3 C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+4 C u0 p0 c0 {1,S} {2,S} {6,D}
+5 C u0 p0 c0 {1,S} {3,S} {7,D}
+6 C u1 p0 c0 {4,D} {7,S}
+7 C u0 p0 c0 {5,D} {6,S} {14,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {2,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {7,S}
+
