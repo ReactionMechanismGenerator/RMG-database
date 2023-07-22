@@ -12,7 +12,7 @@ entry(
     index = 1,
     label = "BNX + H2O <=> P1 + P2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(25, 'kcal/mol')),
+    kinetics = Arrhenius(A=(9e+12, 'cm^3/(mol*s)'), n=0, Ea=(25, 'kcal/mol')),
     rank = 5,
     shortDesc = u"""est.""",
     longDesc =
