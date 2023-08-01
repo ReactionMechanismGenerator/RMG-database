@@ -586,10 +586,10 @@ L1: Donating
     L2: *R-H
         L3: *C-H
             L4: *-C-H
-		L5: *-CH-H
+                L5: *-CH-H
                    L6: *-CH2-H
             L4: *=C-H
-		L5: *=CH-H
+                L5: *=CH-H
             L4: *#C-H
         L3: *N-H
             L4: *-N-H
