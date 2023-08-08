@@ -851,3 +851,37 @@ Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui
 """,
 )
 
+entry(
+    index = 65,
+    label = "C2H4N2O2 <=> CH3NO + CHNO",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.86302e+06,'s^-1'), n=1.81611, Ea=(228.248,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.23831, dn = +|- 0.155918, dEa = +|- 0.803992 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r001085 <=> p001091_0 + p001091_1
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
+""",
+)
+
+entry(
+    index = 66,
+    label = "C2H4N2O <=> CH3NO + CHN",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.54463e+09,'s^-1'), n=0.829688, Ea=(151.966,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.298, dn = +|- 0.034609, dEa = +|- 0.178462 kJ/mol"""),
+    rank = 4,
+    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    longDesc = 
+"""
+Original entry: r005588 <=> p005591_0 + p001091_1
+Calculated by Kevin Spiekermann
+opt, freq: wB97X-D3/def2-TZVP
+sp: CCSD(T)-F12a/cc-pVDZ-F12
+All species include systematic conformer search and 1D rotor scans
+""",
+)
+

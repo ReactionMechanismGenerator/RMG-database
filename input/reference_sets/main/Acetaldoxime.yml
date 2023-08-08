@@ -10,13 +10,131 @@ adjacency_list: |
   8 H u0 p0 c0 {4,S}
   9 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -4.447541791341039
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8297398157
+          - -0.0962778957
+          - 6.0306e-06
+        - - 0.4165244896
+          - 0.3733252047
+          - -9.5287e-06
+        - - -0.5317319194
+          - -0.4624506892
+          - -1.27714e-05
+        - - -1.7688294384
+          - 0.1657049082
+          - 8.204e-06
+        - - 2.357237673
+          - 0.2791914828
+          - 0.8799519844
+        - - 2.3573859454
+          - 0.2796055687
+          - -0.8796710157
+        - - 1.8679608678
+          - -1.1845274314
+          - -0.0002435399
+        - - 0.199336271
+          - 1.4428082947
+          - -1.28787e-05
+        - - -2.3867476468
+          - -0.5678462103
+          - 2.0206e-05
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -5.035641610637444
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.8297398157
+          - -0.0962778957
+          - 6.0306e-06
+        - - 0.4165244896
+          - 0.3733252047
+          - -9.5287e-06
+        - - -0.5317319194
+          - -0.4624506892
+          - -1.27714e-05
+        - - -1.7688294384
+          - 0.1657049082
+          - 8.204e-06
+        - - 2.357237673
+          - 0.2791914828
+          - 0.8799519844
+        - - 2.3573859454
+          - 0.2796055687
+          - -0.8796710157
+        - - 1.8679608678
+          - -1.1845274314
+          - -0.0002435399
+        - - 0.199336271
+          - 1.4428082947
+          - -1.28787e-05
+        - - -2.3867476468
+          - -0.5678462103
+          - 2.0206e-05
+      isotopes:
+      - 12
+      - 12
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - N
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 5.2167279538740186
+        value: 5.192759521191462
       class: ThermoData
     xyz_dict:
       coords:
@@ -134,7 +252,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -2.4444754046375796
+        value: -2.417105473892176
       class: ThermoData
     xyz_dict:
       coords:
@@ -203,7 +321,7 @@ label: Acetaldoxime
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 59.067244812841615
+  value: 59.067399645232605
 multiplicity: 1
 reference_data:
   CCCBDB:

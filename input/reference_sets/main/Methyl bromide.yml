@@ -12,7 +12,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -8.526958683798917
+        value: -8.53367114535233
       class: ThermoData
     xyz_dict:
       coords:
@@ -90,7 +90,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -10.427657872587043
+        value: -10.420189728109237
       class: ThermoData
     xyz_dict:
       coords:
@@ -139,7 +139,7 @@ label: Methyl bromide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 94.93852561165086
+  value: 94.9385589064357
 multiplicity: 1
 reference_data:
   ATcT:

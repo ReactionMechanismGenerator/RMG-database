@@ -4,13 +4,61 @@ adjacency_list: |
   1 O u1 p2 c0 {2,S}
   2 O u1 p2 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.2573067636298016
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.59669645
+        - - 0.0
+          - 0.0
+          - -0.59669645
+      isotopes:
+      - 16
+      - 16
+      symbols:
+      - O
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.3271292705554875
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.59669645
+        - - 0.0
+          - 0.0
+          - -0.59669645
+      isotopes:
+      - 16
+      - 16
+      symbols:
+      - O
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -5.629716388840723
+        value: -5.629937483767071
       class: ThermoData
     xyz_dict:
       coords:
@@ -58,7 +106,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -2.168536426229641
+        value: -2.1683888135969913
       class: ThermoData
     xyz_dict:
       coords:
@@ -130,6 +178,6 @@ reference_data:
     zpe:
       class: ScalarQuantity
       units: kJ/mol
-      value: 9.419155000000003
+      value: 9.419155000000009
 smiles: '[O][O]'
 symmetry_number: 2.0

@@ -9,7 +9,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -11.646502262745354
+        value: -11.646507150779856
       class: ThermoData
     xyz_dict:
       coords:
@@ -57,7 +57,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -11.123304136298097
+        value: -11.12330056129438
       class: ThermoData
     xyz_dict:
       coords:
@@ -91,7 +91,7 @@ label: Hydrogen bromide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 80.91194429193455
+  value: 80.91197525841277
 multiplicity: 1
 reference_data:
   ATcT:
@@ -110,7 +110,7 @@ reference_data:
       uncertainty: 0.2
       uncertainty_type: +|-
       units: kJ/mol
-      value: 362.4000000000001
+      value: 362.40000000000026
     class: ReferenceDataEntry
     xyz_dict:
       coords:

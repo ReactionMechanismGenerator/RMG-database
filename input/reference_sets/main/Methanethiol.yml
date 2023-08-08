@@ -7,13 +7,101 @@ adjacency_list: |
   5 H u0 p0 c0 {2,S}
   6 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -6.2923109191362085
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1460760925
+          - -0.0206079701
+          - 2.3406e-06
+        - - -0.657313633
+          - 0.0867310122
+          - 4.131e-07
+        - - 1.5162930943
+          - -0.5203659631
+          - 0.8930084712
+        - - 1.5162495253
+          - -0.5208866648
+          - -0.8927292085
+        - - 1.5138474945
+          - 1.0046254673
+          - -0.0003082076
+        - - -0.9058285404
+          - -1.2274212136
+          - 8.2917e-06
+      isotopes:
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -5.840520320970291
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1460760925
+          - -0.0206079701
+          - 2.3406e-06
+        - - -0.657313633
+          - 0.0867310122
+          - 4.131e-07
+        - - 1.5162930943
+          - -0.5203659631
+          - 0.8930084712
+        - - 1.5162495253
+          - -0.5208866648
+          - -0.8927292085
+        - - 1.5138474945
+          - 1.0046254673
+          - -0.0003082076
+        - - -0.9058285404
+          - -1.2274212136
+          - 8.2917e-06
+      isotopes:
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -1.8758333618975294
+        value: -1.8866488330996802
       class: ThermoData
     xyz_dict:
       coords:
@@ -101,7 +189,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -5.896679494999549
+        value: -5.8843666230893765
       class: ThermoData
     xyz_dict:
       coords:
@@ -155,7 +243,7 @@ label: Methanethiol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 48.107464633811524
+  value: 48.115027905073084
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -345,3 +345,16 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 20,
+    label = "C16H11 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.63e+09, 's^-1'), n=1.089, Ea=(23.05, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: W2 <=> W5
+""",
+)
+

@@ -4,13 +4,71 @@ adjacency_list: |
   2 H u0 p0 c0 {1,S}
   3 O u0 p2 c0 {1,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.2093617301930837
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.595797646
+          - 0.2164440665
+          - -0.0
+        - - -0.6034260756
+          - -0.057446991
+          - 0.0
+        - - 1.2526227287
+          - -0.8390884713
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - O
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 2.562054474964307
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.595797646
+          - 0.2164440665
+          - -0.0
+        - - -0.6034260756
+          - -0.057446991
+          - 0.0
+        - - 1.2526227287
+          - -0.8390884713
+          - 0.0
+      isotopes:
+      - 12
+      - 16
+      - 1
+      symbols:
+      - C
+      - O
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 32.073956723199714
+        value: 32.07192735438768
       class: ThermoData
     xyz_dict:
       coords:
@@ -68,7 +126,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 11.444579702889552
+        value: 11.445700896084523
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +165,7 @@ label: Formyl anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 29.01804166208662
+  value: 29.018013023915053
 multiplicity: 1
 reference_data:
   ATcT:

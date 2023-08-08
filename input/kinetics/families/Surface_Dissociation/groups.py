@@ -161,18 +161,144 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 12,
+    label = "CH",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,T}
+2 *2 H   u0 {1,S}
+3 *3 Xo  u0 {1,T}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "CH2",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,D} {4,S}
+2 *2 H   u0 {1,S}
+3 *3 Xo  u0 {1,D}
+4    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "CH3",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   u0 {1,S}
+3 *3 Xo  u0 {1,S}
+4    H   u0 {1,S}
+5    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "C-OH",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,S}
+2 *2 O   u0 {1,S} {4,S}
+3 *3 Xo  u0 {1,S}
+4    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 16,
+    label = "O-C=O",
+    group =
+"""
+1 *1 O   u0 {2,S} {3,S}
+2 *2 C   u0 {1,S} {4,D}
+3 *3 Xo  u0 {1,S}
+4    O   u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "O-N",
+    group =
+"""
+1 *1 O  u0 {2,S} {3,S}
+2 *2 N  u0 {1,S}
+3 *3 Xo u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 18,
+    label = "O-N=O",
+    group =
+"""
+1 *1 O  u0 {2,S} {3,S}
+2 *2 N  u0 {1,S} {4,D}
+3 *3 Xo u0 {1,S}
+4    O  u0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 19,
+    label = "N-N",
+    group =
+"""
+1 *1 N  u0 {2,S} {3,D}
+2 *2 N  u0 {1,S}
+3 *3 Xo u0 {1,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 20,
+    label = "C-H_Bidentate",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,[S,D]} {4,[S,D]}
+2 *2 H   u0 {1,S}
+3 *3 Xo  u0 {1,[S,D]}
+4    R!H u0 {1,[S,D]} {5,[S,D,T]}
+5    Xo  u0 {4,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Combined
     L2: C
         L3: C-H
+            L4: CH
+            L4: CH2
+            L4: CH3
+            L4: C-H_Bidentate
         L3: C-O
+            L4: C-OH
     L2: O
         L3: O-H
         L3: O-C
+            L4: O-C=O
+        L3: O-N
+            L4: O-N=O
     L2: N
         L3: N-H2
         L3: N-H
+        L3: N-N
 L1: VacantSite
 """
 )

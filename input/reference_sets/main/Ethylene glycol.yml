@@ -11,13 +11,141 @@ adjacency_list: |
   9  H u0 p0 c0 {1,S}
   10 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -93.31111924743382
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4343371672
+          - -0.5672804881
+          - -0.1884198345
+        - - 0.7322141973
+          - 0.5651115533
+          - 0.2680890124
+        - - -0.681338149
+          - 0.5973711565
+          - -0.2656449397
+        - - -1.3309168251
+          - -0.5687756823
+          - 0.2184205307
+        - - 0.8814424141
+          - -1.3298751967
+          - 0.0031202932
+        - - 1.2769237319
+          - 1.4451770382
+          - -0.0788951829
+        - - 0.7015486037
+          - 0.5939971018
+          - 1.3655533568
+        - - -0.6563075837
+          - 0.6016411533
+          - -1.3616002764
+        - - -1.1897347489
+          - 1.5056853638
+          - 0.0812969672
+        - - -2.146491444
+          - -0.7030723566
+          - -0.2641451635
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -93.90340653950746
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4343371672
+          - -0.5672804881
+          - -0.1884198345
+        - - 0.7322141973
+          - 0.5651115533
+          - 0.2680890124
+        - - -0.681338149
+          - 0.5973711565
+          - -0.2656449397
+        - - -1.3309168251
+          - -0.5687756823
+          - 0.2184205307
+        - - 0.8814424141
+          - -1.3298751967
+          - 0.0031202932
+        - - 1.2769237319
+          - 1.4451770382
+          - -0.0788951829
+        - - 0.7015486037
+          - 0.5939971018
+          - 1.3655533568
+        - - -0.6563075837
+          - 0.6016411533
+          - -1.3616002764
+        - - -1.1897347489
+          - 1.5056853638
+          - 0.0812969672
+        - - -2.146491444
+          - -0.7030723566
+          - -0.2641451635
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -72.16179241303827
+        value: -72.1871218958191
       class: ThermoData
     xyz_dict:
       coords:
@@ -145,7 +273,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -86.96163209994751
+        value: -86.93275209207083
       class: ThermoData
     xyz_dict:
       coords:
@@ -219,7 +347,7 @@ label: Ethylene glycol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 62.067843814092235
+  value: 62.0679104036619
 multiplicity: 1
 reference_data:
   ATcT:

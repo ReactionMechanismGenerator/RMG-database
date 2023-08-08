@@ -32,3 +32,22 @@ DOI 10.1007/s10562-010-0477-y
 (actual value for E0 was 1.92 eV.)
     """
 )
+
+entry(
+    index = 2,
+    label = "C-H_Bidentate;VacantSite",
+    kinetics = SurfaceArrheniusBEP(
+        A = (7.250e16, 'm^2/(mol*s)'), 
+        n = 0.0,
+        alpha = 0.961, 
+        E0 = (22.37, 'kcal/mol'), 
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+A and n factors are from the average rate constant of training reactions 60-63, and alpha and E0 are BEP
+parameters from training reactions 60-63. The A factor has been divided by 2 here to account for the degeneracies of the training reactions.
+    """
+)

@@ -13,13 +13,161 @@ adjacency_list: |
   11 H u0 p0 c0 {6,S}
   12 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -112.80246752591799
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2328983256
+          - -0.512724793
+          - -0.2616844665
+        - - 1.051623028
+          - 0.8043867325
+          - 0.1773990666
+        - - -0.1723120443
+          - 1.3239976909
+          - -0.2614868078
+        - - -1.2224548381
+          - 0.5085384419
+          - 0.1773284228
+        - - -1.0607121194
+          - -0.8112925589
+          - -0.2613991559
+        - - 0.1708155238
+          - -1.3128908861
+          - 0.1774095165
+        - - 1.8448026348
+          - 1.4111116736
+          - -0.252080342
+        - - 1.0913182383
+          - 0.8346546412
+          - 1.2804781302
+        - - -1.2689916729
+          - 0.5280728668
+          - 1.2803215474
+        - - -2.1443537989
+          - 0.8913718456
+          - -0.2531807995
+        - - 0.1774762103
+          - -1.3623514862
+          - 1.2804830393
+        - - 0.3008528105
+          - -2.3029079832
+          - -0.2522801692
+      isotopes:
+      - 16
+      - 12
+      - 16
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - O
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -113.63207222039887
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2328983256
+          - -0.512724793
+          - -0.2616844665
+        - - 1.051623028
+          - 0.8043867325
+          - 0.1773990666
+        - - -0.1723120443
+          - 1.3239976909
+          - -0.2614868078
+        - - -1.2224548381
+          - 0.5085384419
+          - 0.1773284228
+        - - -1.0607121194
+          - -0.8112925589
+          - -0.2613991559
+        - - 0.1708155238
+          - -1.3128908861
+          - 0.1774095165
+        - - 1.8448026348
+          - 1.4111116736
+          - -0.252080342
+        - - 1.0913182383
+          - 0.8346546412
+          - 1.2804781302
+        - - -1.2689916729
+          - 0.5280728668
+          - 1.2803215474
+        - - -2.1443537989
+          - 0.8913718456
+          - -0.2531807995
+        - - 0.1774762103
+          - -1.3623514862
+          - 1.2804830393
+        - - 0.3008528105
+          - -2.3029079832
+          - -0.2522801692
+      isotopes:
+      - 16
+      - 12
+      - 16
+      - 12
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - O
+      - C
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -86.70997956586024
+        value: -86.74189833529108
       class: ThermoData
     xyz_dict:
       coords:
@@ -167,7 +315,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -103.39455050580743
+        value: -103.35913052323079
       class: ThermoData
     xyz_dict:
       coords:
@@ -251,7 +399,7 @@ label: 1,3,5-Trioxane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 90.0779453536991
+  value: 90.077952338619
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -4,13 +4,71 @@ adjacency_list: |
   2 C u0 p1 c-1 {1,T}
   3 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.22983733558431
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - -8.38991e-05
+          - 0.7354444736
+        - - 0.0
+          - 0.0001558396
+          - -0.4270685964
+        - - -0.0
+          - -0.000587483
+          - -1.4231866666
+      isotopes:
+      - 12
+      - 14
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.05153696525562
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - -8.38991e-05
+          - 0.7354444736
+        - - 0.0
+          - 0.0001558396
+          - -0.4270685964
+        - - -0.0
+          - -0.000587483
+          - -1.4231866666
+      isotopes:
+      - 12
+      - 14
+      - 1
+      symbols:
+      - C
+      - N
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 55.81251863981068
+        value: 55.80916233093711
       class: ThermoData
     xyz_dict:
       coords:
@@ -68,7 +126,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 48.228025591433806
+        value: 48.23182887462395
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +165,7 @@ label: Hydrogen isocyanide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 27.02538278331575
+  value: 27.02547335444371
 multiplicity: 1
 reference_data:
   ATcT:

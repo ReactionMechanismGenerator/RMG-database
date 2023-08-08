@@ -15,7 +15,7 @@ entry(
     group=
 """
 1 R  ux
-2 X  ux
+2 * X ux
 """,
     thermo=None,
     shortDesc=u"""Anything adsorbed anyhow.""",
@@ -29,7 +29,7 @@ This node should be empty, ensuring that one of the nodes below is used.
 The group could well be defined as:
 
     1 R ux
-    2 X ux
+    2 * Xux
 
 but then it is identical with the R*vdW node, and the database tests
 do not like that. It should be OK, because things would check the
@@ -45,13 +45,13 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #    label = "R-*",
 #    group =
 #"""
-#1 X  u0 p0 c0 {2,S}
+#1 * X u0 p0 c0 {2,S}
 #2 R  u0 p0 c0 {1,S}
 #""",
 #    thermo=ThermoData(
 #        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
 #        Cpdata=([-2.46, -1.45, -0.78, -0.33, 0.18, 0.46, 0.74], 'cal/(mol*K)'),
-#        H298=(-86.31, 'kcal/mol'),
+#        H298=(-58.54, 'kcal/mol'),
 #        S298=(-26.39, 'cal/(mol*K)'),
 #    ),
 #    shortDesc=u"""Came from H single-bonded on Pt(111)""",
@@ -74,14 +74,14 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #     label = "(R2)*",
 #     group =
 # """
-# 1 X  u0 p0 c0
+# 1 * X u0 p0 c0
 # 2 R  u0 p0 c0 {3,S}
 # 3 R  u0 p0 c0 {2,S}
 # """,
 #     thermo=ThermoData(
 #         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
 #         Cpdata=([0.92, 0.95, 0.97, 0.98, 0.98, 0.99, 0.99], 'cal/(mol*K)'),
-#         H298=(-1.22, 'kcal/mol'),
+#         H298=(-1.45, 'kcal/mol'),
 #         S298=(-7.73, 'cal/(mol*K)'),
 #     ),
 #     shortDesc=u"""Came from H2 vdW-bonded on Pt(111)""",
@@ -103,7 +103,7 @@ entry(
     label = "(OR2)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 O  u0 p2 c0 {3,S} {4,S}
 3 R  u0 p[0,1,2] c0 {2,S}
 4 R  u0 p[0,1,2] c0 {2,S}
@@ -111,7 +111,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.71, 1.22, 1.49, 1.65, 1.81, 1.9, 1.98], 'cal/(mol*K)'),
-        H298=(6.47, 'kcal/mol'),
+        H298=(-5.3, 'kcal/mol'),
         S298=(-22.53, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2O vdW-bonded on Pt(111)""",
@@ -133,14 +133,14 @@ entry(
     label = "O-*R",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.09, 1.82, 2.2, 2.42, 2.65, 2.75, 2.86], 'cal/(mol*K)'),
-        H298=(-34.86, 'kcal/mol'),
+        H298=(-46.3, 'kcal/mol'),
         S298=(-33.89, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from OH single-bonded on Pt(111)""",
@@ -163,7 +163,7 @@ entry(
     label = "(OROR)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 O  u0 p2 c0 {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -172,7 +172,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.51, 1.74, 1.85, 1.92, 2.0, 2.05, 2.1], 'cal/(mol*K)'),
-        H298=(15.92, 'kcal/mol'),
+        H298=(-15.36, 'kcal/mol'),
         S298=(-26.31, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HO-OH vdW-bonded on Pt(111)""",
@@ -194,15 +194,15 @@ entry(
     label = "O*O*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,S}
 3 O  u0 p2 c0 {1,S} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.98, 2.83, 3.18, 3.31, 3.32, 3.26, 3.14], 'cal/(mol*K)'),
-        H298=(14.04, 'kcal/mol'),
+        H298=(-27.36, 'kcal/mol'),
         S298=(-40.49, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O2 bidentate, twice single-bonded on Pt(111)""",
@@ -223,7 +223,7 @@ entry(
     label = "O-*OR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -231,7 +231,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([4.16, 4.53, 4.58, 4.53, 4.37, 4.24, 4.07], 'cal/(mol*K)'),
-        H298=(5.63, 'kcal/mol'),
+        H298=(-33.05, 'kcal/mol'),
         S298=(-36.35, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from OOH single-bonded on Pt(111)""",
@@ -254,13 +254,13 @@ entry(
     label = "O=*",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 O  u0 p2 c0 {1,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.31, 0.21, 0.48, 0.63, 0.78, 0.86, 0.93], 'cal/(mol*K)'),
-        H298=(-88.9, 'kcal/mol'),
+        H298=(-93.14, 'kcal/mol'),
         S298=(-30.95, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O double-bonded on Pt(111)""",
@@ -281,7 +281,7 @@ entry(
     label = "O-*NR2",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 * X u0 p0 c0 {3,S}
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -290,7 +290,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.24, 2.94, 3.33, 3.56, 3.78, 3.87, 3.95], 'cal/(mol*K)'),
-        H298=(-4.94, 'kcal/mol'),
+        H298=(-30.61, 'kcal/mol'),
         S298=(-35.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O-NH2 single-bonded on Pt(111)""",
@@ -313,7 +313,7 @@ entry(
     label = "O-*CR3",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 * X u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -323,7 +323,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.18, 2.44, 2.67, 2.86, 3.13, 3.3, 3.56], 'cal/(mol*K)'),
-        H298=(-20.55, 'kcal/mol'),
+        H298=(-43.38, 'kcal/mol'),
         S298=(-40.61, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from O-CH3 single-bonded on Pt(111)""",
@@ -346,7 +346,7 @@ entry(
     label = "(NR3)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
@@ -376,14 +376,14 @@ entry(
     label = "N-*R2",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,[S,D]}
 3 R  u0 px c0 {2,[S,D]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.86, 0.72, 1.69, 2.29, 2.94, 3.25, 3.59], 'cal/(mol*K)'),
-        H298=(-48.33, 'kcal/mol'),
+        H298=(-53.39, 'kcal/mol'),
         S298=(-47.88, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NH2 single-bonded on Pt(111)""",
@@ -404,14 +404,14 @@ entry(
     label = "N=*R",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-1.74, -0.24, 0.7, 1.29, 1.93, 2.25, 2.6], 'cal/(mol*K)'),
-        H298=(-80.92, 'kcal/mol'),
+        H298=(-88.28, 'kcal/mol'),
         S298=(-40.72, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NH double-bonded on Pt(111)""",
@@ -432,13 +432,13 @@ entry(
     label = "N#*",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 * X u0 p0 c0 {2,T}
 2 N  u0 p1 c0 {1,T}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.93, -0.2, 0.19, 0.42, 0.66, 0.78, 0.9], 'cal/(mol*K)'),
-        H298=(-147.51, 'kcal/mol'),
+        H298=(-103.33, 'kcal/mol'),
         S298=(-32.92, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N triple-bonded on Pt(111)""",
@@ -459,7 +459,7 @@ entry(
     label = "(NR2OR)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -469,7 +469,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.36, 0.16, 0.59, 0.93, 1.37, 1.64, 1.92], 'cal/(mol*K)'),
-        H298=(-4.37, 'kcal/mol'),
+        H298=(-18.16, 'kcal/mol'),
         S298=(-32.2, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2N-OH vdW-bonded on Pt(111)""",
@@ -491,22 +491,21 @@ entry(
     label = "(NRO)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 N  u0 p1 c0 {3,D} {4,S}
 3 O  u0 p2 c0 {2,D}
 4 R  u0 p0 c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-0.22, 0.65, 1.14, 1.4, 1.61, 1.68, 1.77], 'cal/(mol*K)'),
-        H298=(-18.76, 'kcal/mol'),
-        S298=(-32.78, 'cal/(mol*K)'),
+        Cpdata=([1.74, 2.63, 3.12, 3.38, 3.6, 3.67, 3.76], 'cal/(mol*K)'),
+        H298=(-39.84, 'kcal/mol'),
+        S298=(-37.88, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-O vdW-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
-            The two lowest frequencies, 36.2 and 74.0 cm-1, where replaced by the 2D gas model.
 
   RN=O
     :
@@ -521,7 +520,7 @@ entry(
     label = "N-*ROR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -530,7 +529,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.82, 2.71, 3.18, 3.44, 3.72, 3.86, 3.98], 'cal/(mol*K)'),
-        H298=(-21.0, 'kcal/mol'),
+        H298=(-44.41, 'kcal/mol'),
         S298=(-45.51, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-OH single-bonded on Pt(111)""",
@@ -551,14 +550,14 @@ entry(
     label = "N-*O",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,D}
 3 O  u0 p2 c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.48, 2.2, 2.6, 2.83, 3.02, 3.07, 3.06], 'cal/(mol*K)'),
-        H298=(-25.86, 'kcal/mol'),
+        H298=(-47.5, 'kcal/mol'),
         S298=(-40.63, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NO single-bonded on Pt(111)""",
@@ -581,15 +580,15 @@ entry(
     label = "N=*O-*",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,D}
+2 X u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,D} {4,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.99, 2.43, 2.68, 2.82, 2.96, 3.00, 3.01], 'cal/(mol*K)'),
-        H298=(-20.93, 'kcal/mol'),
+        H298=(-42.57, 'kcal/mol'),
         S298=(-35.43, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NO-h bidentate, double- and single-bonded on Pt(111)""",
@@ -610,7 +609,7 @@ entry(
     label = "N=*OR",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -618,7 +617,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.16, 3.09, 3.5, 3.66, 3.71, 3.67, 3.65], 'cal/(mol*K)'),
-        H298=(-64.4, 'kcal/mol'),
+        H298=(-70.93, 'kcal/mol'),
         S298=(-44.7, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from NOH double-bonded on Pt(111)""",
@@ -641,7 +640,7 @@ entry(
     label = "(NR2NR2)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S} {6,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -652,7 +651,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.1, 0.6, 0.94, 1.19, 1.5, 1.68, 1.88], 'cal/(mol*K)'),
-        H298=(-23.19, 'kcal/mol'),
+        H298=(-26.81, 'kcal/mol'),
         S298=(-31.95, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2N-NH2 vdW-bonded on Pt(111)""",
@@ -674,7 +673,7 @@ entry(
     label = "(NRNR)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 N  u0 p1 c0 {3,D} {4,S}
 3 N  u0 p1 c0 {2,D} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -683,7 +682,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.62, 3.77, 4.27, 4.45, 4.43, 4.3, 4.09], 'cal/(mol*K)'),
-        H298=(-20.58, 'kcal/mol'),
+        H298=(-24.31, 'kcal/mol'),
         S298=(-42.07, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-NH vdW-bonded on Pt(111)""",
@@ -705,14 +704,14 @@ entry(
 #    label = "(NN)*",
 #    group =
 #"""
-#1 X  u0 p0 c0
+#1 * X u0 p0 c0
 #3 N  u0 p1 c0 {3,T}
 #4 N  u0 p1 c0 {2,T}
 #""",
 #    thermo=ThermoData(
 #        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
 #        Cpdata=([2.62, 3.77, 4.27, 4.45, 4.43, 4.3, 4.09], 'cal/(mol*K)'),
-#        H298=(-2.39, 'kcal/mol'),
+#        H298=(-6.31, 'kcal/mol'),
 #        S298=(-15.27, 'cal/(mol*K)'),
 #    ),
 #    shortDesc=u"""Came from NN vdW-bonded on Pt(111)""",
@@ -732,7 +731,7 @@ entry(
     label = "N-*RNR2",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
 3 N  u0 p1 c0 {2,S} {5,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -742,7 +741,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.57, 2.38, 2.87, 3.19, 3.55, 3.73, 3.91], 'cal/(mol*K)'),
-        H298=(-29.97, 'kcal/mol'),
+        H298=(-40.74, 'kcal/mol'),
         S298=(-45.43, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-NH2 single-bonded on Pt(111)""",
@@ -763,7 +762,7 @@ entry(
     label = "N-*NR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,D}
 3 N  u0 p1 c0 {2,D} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -771,7 +770,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.42, 2.37, 2.9, 3.21, 3.47, 3.57, 3.69], 'cal/(mol*K)'),
-        H298=(-25.14, 'kcal/mol'),
+        H298=(-37.65, 'kcal/mol'),
         S298=(-43.45, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-NH single-bonded on Pt(111)""",
@@ -794,7 +793,7 @@ entry(
     label = "N=*NR2",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
 3 N  u0 p1 c0 {2,S} {4,S} {5,S}
 4 R  u0 p0 c0 {3,S}
@@ -803,7 +802,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.71, 3.72, 4.13, 4.24, 4.1, 3.91, 3.71], 'cal/(mol*K)'),
-        H298=(-47.66, 'kcal/mol'),
+        H298=(-59.44, 'kcal/mol'),
         S298=(-43.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-NH2 double-bonded on Pt(111)""",
@@ -826,8 +825,8 @@ entry(
     label = "N-*RN-*R",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,S}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -836,7 +835,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.06, 3.29, 3.9, 4.17, 4.27, 4.22, 4.08], 'cal/(mol*K)'),
-        H298=(-23.38, 'kcal/mol'),
+        H298=(-27.1, 'kcal/mol'),
         S298=(-42.53, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-NH-h bidentate, twice single-bonded on Pt(111)""",
@@ -857,7 +856,7 @@ entry(
     label = "N-*RCR3",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 * X u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {1,S} {2,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -868,7 +867,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.96, 1.81, 2.36, 2.72, 3.14, 3.36, 3.63], 'cal/(mol*K)'),
-        H298=(-43.5, 'kcal/mol'),
+        H298=(-51.48, 'kcal/mol'),
         S298=(-46.63, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-CH3 single-bonded on Pt(111)""",
@@ -889,7 +888,7 @@ entry(
     label = "N-*CR2",
     group =
 """
-1 X  u0 p0 c0 {3,S}
+1 * X u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {1,S} {2,D}
 4 R  u0 p0 c0 {2,S}
@@ -898,7 +897,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.62, 2.41, 2.85, 3.12, 3.4, 3.53, 3.7], 'cal/(mol*K)'),
-        H298=(-39.08, 'kcal/mol'),
+        H298=(-50.13, 'kcal/mol'),
         S298=(-44.16, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-CH2 single-bonded on Pt(111)""",
@@ -921,7 +920,7 @@ entry(
     label = "N=*CR3",
     group =
 """
-1 X  u0 p0 c0 {3,D}
+1 * X u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {1,D} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -931,7 +930,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.92, 1.54, 1.98, 2.29, 2.68, 2.93, 3.32], 'cal/(mol*K)'),
-        H298=(-71.1, 'kcal/mol'),
+        H298=(-84.35, 'kcal/mol'),
         S298=(-47.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from N-CH3 double-bonded on Pt(111)""",
@@ -956,7 +955,7 @@ entry(
 #     label = "N-*O2",
 #     group =
 # """
-# 1 X  u0  p0 c0 {2,S}
+# 1 * X u0  p0 c0 {2,S}
 # 2 N  u0  p0 c+1 {1,S} {3,S} {4,D}
 # 3 O  u0  p2 c-1 {2,S}
 # 4 O  u0  p2 c0 {2,D}
@@ -964,7 +963,7 @@ entry(
 #     thermo=ThermoData(
 #         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
 #         Cpdata=([1.92, 2.12, 2.17, 2.17, 2.13, 2.09, 2.04], 'cal/(mol*K)'),
-#         H298=(-16.1, 'kcal/mol'),
+#         H298=(34.56, 'kcal/mol'),
 #         S298=(-33.93, 'cal/(mol*K)'),
 #     ),
 #     shortDesc=u"""Came from ON-O single-bonded on Pt(111)""",
@@ -985,13 +984,13 @@ entry(
     label = "Cq*",
     group =
 """
-1 X  u0 p0 c0 {2,Q}
+1 * X u0 p0 c0 {2,Q}
 2 C  u0 p0 c0 {1,Q}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-1.63, -0.71, -0.18, 0.14, 0.49, 0.67, 0.85], 'cal/(mol*K)'),
-        H298=(-156.9, 'kcal/mol'),
+        H298=(-158.52, 'kcal/mol'),
         S298=(-31.82, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C quadruple-bonded on Pt(111)""",
@@ -1012,15 +1011,15 @@ entry(
     label = "C-*C-*",
     group =
 """
-1 X  u0  p0 c0 {3,D}
-2 X  u0  p0 c0 {4,D}
+1 * X u0  p0 c0 {3,D}
+2 X u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 C  u0  p0 c0 {2,D} {3,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.8, 1.77, 2.28, 2.56, 2.8, 2.9, 2.96], 'cal/(mol*K)'),
-        H298=(-137.32, 'kcal/mol'),
+        H298=(-148.1, 'kcal/mol'),
         S298=(-41.99, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C-C bidentate, twice double-bonded on Pt(111)""",
@@ -1041,14 +1040,14 @@ entry(
     label = "C=*(=R)",
     group =
 """
-1 X   u0  p0 c0 {2,D}
+1 * X  u0  p0 c0 {2,D}
 2 C   u0  p0 c0 {1,D} {3,D}
 3 R!H u0  px c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.98, 0.54, 1.55, 2.21, 2.95, 3.32, 3.69], 'cal/(mol*K)'),
-        H298=(-93.15, 'kcal/mol'),
+        H298=(-102.06, 'kcal/mol'),
         S298=(-48.06, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C=CH2 double-bonded on Pt(111)""",
@@ -1074,7 +1073,7 @@ entry(
     label = "C#*CR3",
     group =
 """
-1 X  u0 p0 c0 {3,T}
+1 * X u0 p0 c0 {3,T}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,T} {2,S}
 4 R  u0 p0 c0 {2,S}
@@ -1084,7 +1083,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.8, 1.58, 2.11, 2.48, 2.93, 3.2, 3.53], 'cal/(mol*K)'),
-        H298=(-129.74, 'kcal/mol'),
+        H298=(-141.26, 'kcal/mol'),
         S298=(-45.92, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C-CH3 triple-bonded on Pt(111)""",
@@ -1107,14 +1106,14 @@ entry(
     label = "C#*R",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 * X u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-1.92, -0.35, 0.62, 1.22, 1.87, 2.19, 2.56], 'cal/(mol*K)'),
-        H298=(-145.5, 'kcal/mol'),
+        H298=(-148.64, 'kcal/mol'),
         S298=(-40.0, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH triple-bonded on Pt(111)""",
@@ -1137,8 +1136,8 @@ entry(
     label = "C=*RC=*R",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,D}
+1 * X u0 p0 c0 {3,D}
+2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 C  u0 p0 c0 {2,D} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -1147,7 +1146,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.04, 1.3, 2.2, 2.83, 3.57, 3.92, 4.17], 'cal/(mol*K)'),
-        H298=(-47.33, 'kcal/mol'),
+        H298=(-53.12, 'kcal/mol'),
         S298=(-31.36, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH-CH bidentate, twice double-bonded on Pt(111)""",
@@ -1168,7 +1167,7 @@ entry(
     label = "C=*R2",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
@@ -1176,7 +1175,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-1.25, 0.39, 1.42, 2.06, 2.76, 3.1, 3.5], 'cal/(mol*K)'),
-        H298=(-85.5, 'kcal/mol'),
+        H298=(-93.47, 'kcal/mol'),
         S298=(-42.7, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH2 double-bonded on Pt(111)""",
@@ -1197,8 +1196,8 @@ entry(
     label = "C-*R2C-*R2",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 5 R  u0 p0 c0 {3,S}
@@ -1209,7 +1208,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.58, 2.74, 3.37, 3.72, 4.03, 4.14, 4.16], 'cal/(mol*K)'),
-        H298=(-22.63, 'kcal/mol'),
+        H298=(-27.48, 'kcal/mol'),
         S298=(-41.46, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH2-CH2 bidentate, twice single-bonded on Pt(111)""",
@@ -1230,7 +1229,7 @@ entry(
     label = "C-*R3",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,[S,D]} {4,[S,D]}
 3 R  u0 px c0 {2,[S,D]}
 4 R  u0 px c0 {2,[S,D]}
@@ -1238,7 +1237,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.45, 0.61, 1.42, 2.02, 2.81, 3.26, 3.73], 'cal/(mol*K)'),
-        H298=(-41.64, 'kcal/mol'),
+        H298=(-46.05, 'kcal/mol'),
         S298=(-32.73, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH3 single-bonded on Pt(111)""",
@@ -1259,7 +1258,7 @@ entry(
     label = "(CR3CR3)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 4 R  u0 p0 c0 {2,S}
@@ -1272,7 +1271,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.01, 2.04, 2.05, 2.06, 2.07, 2.06, 2.05], 'cal/(mol*K)'),
-        H298=(-4.65, 'kcal/mol'),
+        H298=(-6.09, 'kcal/mol'),
         S298=(-15.11, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH3-CH3 vdW-bonded on Pt(111)""",
@@ -1294,7 +1293,7 @@ entry(
     label = "(CR4)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
@@ -1326,15 +1325,15 @@ entry(
     label = "C=*N-*",
     group =
 """
-1 X  u0  p0 c0 {3,D}
-2 X  u0  p0 c0 {4,S}
+1 * X u0  p0 c0 {3,D}
+2 X u0  p0 c0 {4,S}
 3 C  u0  p0 c0 {1,D} {4,D}
 4 N  u0  p1 c0 {2,S} {3,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.44, 2.71, 2.86, 2.96, 3.05, 3.07, 3.05], 'cal/(mol*K)'),
-        H298=(-77.01, 'kcal/mol'),
+        H298=(-88.23, 'kcal/mol'),
         S298=(-34.98, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CN bidentate, double- and single-bonded on Pt(111)""",
@@ -1355,7 +1354,7 @@ entry(
     label = "C=*(=NR)",
     group =
 """
-1 X  u0  p0 c0 {2,D}
+1 * X u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 N  u0  p1 c0 {2,D} {4,S}
 4 R  u0  p0 c0 {3,S}
@@ -1363,7 +1362,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.15, 2.88, 3.33, 3.62, 3.93, 4.05, 4.11], 'cal/(mol*K)'),
-        H298=(-40.56, 'kcal/mol'),
+        H298=(-48.26, 'kcal/mol'),
         S298=(-30.68, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CNH double-bonded on Pt(111)""",
@@ -1386,7 +1385,7 @@ entry(
     label = "C#*NR2",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 * X u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 N  u0 p1 c0 {2,S} {4,S} {5,S}
 4 R  u0 p0 c0 {3,S}
@@ -1395,7 +1394,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.76, 3.37, 3.63, 3.74, 3.79, 3.77, 3.75], 'cal/(mol*K)'),
-        H298=(-94.25, 'kcal/mol'),
+        H298=(-106.38, 'kcal/mol'),
         S298=(-49.82, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CNH2 triple-bonded on Pt(111)""",
@@ -1420,14 +1419,14 @@ entry(
 #     label = "C=*O",
 #     group =
 # """
-# 1 X  u0  p0 c0 {2,D}
+# 1 * X u0  p0 c0 {2,D}
 # 2 C  u0  p0 c0 {1,D} {3,D}
 # 3 O  u0  p2 c0 {2,D}
 # """,
 #     thermo=ThermoData(
 #         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
 #         Cpdata=([1.81, 2.37, 2.68, 2.88, 3.05, 3.1, 3.08], 'cal/(mol*K)'),
-#         H298=(-23.38, 'kcal/mol'),
+#         H298=(-41.06, 'kcal/mol'),
 #         S298=(-38.09, 'cal/(mol*K)'),
 #     ),
 #     shortDesc=u"""Came from CO-f double-bonded on Pt(111)""",
@@ -1450,7 +1449,7 @@ entry(
     label = "C#*OR",
     group =
 """
-1 X  u0 p0 c0 {2,T}
+1 * X u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
 4 R  u0 p0 c0 {3,S}
@@ -1458,7 +1457,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.82, 2.68, 3.13, 3.36, 3.54, 3.6, 3.67], 'cal/(mol*K)'),
-        H298=(-87.68, 'kcal/mol'),
+        H298=(-111.88, 'kcal/mol'),
         S298=(-43.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from COH triple-bonded on Pt(111)""",
@@ -1481,8 +1480,8 @@ entry(
     label = "C-*R2C=*R",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,D}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,D} {3,S} {7,S}
 5 R  u0 p0 c0 {3,S}
@@ -1492,7 +1491,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-1.26, 0.53, 1.67, 2.4, 3.19, 3.57, 3.9], 'cal/(mol*K)'),
-        H298=(-65.6, 'kcal/mol'),
+        H298=(-76.71, 'kcal/mol'),
         S298=(-53.04, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-CH bidentate, single- and double-bonded on Pt(111)""",
@@ -1513,7 +1512,7 @@ entry(
     label = "C-*R2CR3",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 4 R  u0 p0 c0 {2,S}
@@ -1525,7 +1524,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.61, 1.45, 2.08, 2.53, 3.11, 3.43, 3.77], 'cal/(mol*K)'),
-        H298=(-40.97, 'kcal/mol'),
+        H298=(-47.26, 'kcal/mol'),
         S298=(-42.06, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-CH3 single-bonded on Pt(111)""",
@@ -1548,7 +1547,7 @@ entry(
     label = "(CR2NR)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {2,D} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -1558,7 +1557,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.5, 1.37, 1.81, 2.02, 2.14, 2.13, 2.08], 'cal/(mol*K)'),
-        H298=(-5.98, 'kcal/mol'),
+        H298=(-12.55, 'kcal/mol'),
         S298=(-33.14, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-NH vdW-bonded on Pt(111)""",
@@ -1580,7 +1579,7 @@ entry(
     label = "C-*R2NR2",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S} {6,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -1591,7 +1590,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.1, 1.76, 2.28, 2.67, 3.19, 3.48, 3.79], 'cal/(mol*K)'),
-        H298=(-46.05, 'kcal/mol'),
+        H298=(-53.29, 'kcal/mol'),
         S298=(-39.03, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-NH2 single-bonded on Pt(111)""",
@@ -1614,7 +1613,7 @@ entry(
     label = "(CR2O)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 O  u0 p2 c0 {2,D}
 4 R  u0 p0 c0 {2,S}
@@ -1623,7 +1622,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.91, 1.97, 2.0, 2.01, 2.02, 2.02, 2.01], 'cal/(mol*K)'),
-        H298=(7.31, 'kcal/mol'),
+        H298=(-12.9, 'kcal/mol'),
         S298=(-20.91, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-O vdW-bonded on Pt(111)""",
@@ -1644,7 +1643,7 @@ entry(
     label = "C-*R2OR",
     group =
 """
-1 X  u0 p0 c0 {2,S}
+1 * X u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -1654,7 +1653,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.84, 1.62, 2.2, 2.63, 3.19, 3.51, 3.84], 'cal/(mol*K)'),
-        H298=(-44.61, 'kcal/mol'),
+        H298=(-64.35, 'kcal/mol'),
         S298=(-41.1, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2C-OH single-bonded on Pt(111)""",
@@ -1677,7 +1676,7 @@ entry(
     label = "(CR3NR2)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {2,S} {7,S} {8,S}
 4 R  u0 p0 c0 {2,S}
@@ -1689,7 +1688,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.08, 0.64, 1.01, 1.25, 1.53, 1.68, 1.84], 'cal/(mol*K)'),
-        H298=(-20.94, 'kcal/mol'),
+        H298=(-23.1, 'kcal/mol'),
         S298=(-33.73, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H3C-NH2 vdW-bonded on Pt(111)""",
@@ -1711,7 +1710,7 @@ entry(
     label = "(CR3OR)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {2,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -1722,7 +1721,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.38, 1.68, 1.82, 1.9, 1.96, 1.98, 2.0], 'cal/(mol*K)'),
-        H298=(3.85, 'kcal/mol'),
+        H298=(-11.09, 'kcal/mol'),
         S298=(-28.83, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H3C-OH vdW-bonded on Pt(111)""",
@@ -1744,8 +1743,8 @@ entry(
     label = "C-*RC=*",
     group =
 """
-1 X  u0  p0 c0 {3,S}
-2 X  u0  p0 c0 {4,D}
+1 * X u0  p0 c0 {3,S}
+2 X u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,S} {4,D} {5,S}
 4 C  u0  p0 c0 {2,D} {3,D}
 5 R  u0  p0 c0 {3,S}
@@ -1753,7 +1752,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.7, 1.83, 2.54, 2.98, 3.47, 3.7, 3.9], 'cal/(mol*K)'),
-        H298=(-95.45, 'kcal/mol'),
+        H298=(-105.88, 'kcal/mol'),
         S298=(-42.29, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HC-C bidentate, single- and double-bonded on Pt(111)""",
@@ -1769,45 +1768,48 @@ entry(
     facet = "111",
 )
 
-entry(
-    index = 57,
-    label = "C-*RCR2",
-    group =
-"""
-1 X  u0  p0 c0 {2,S}
-2 C  u0  p0 c0 {1,S} {3,D} {4,S}
-3 C  u0  p0 c0 {2,D} {5,S} {6,S}
-4 R  u0  p0 c0 {2,S}
-5 R  u0  p0 c0 {3,S}
-6 R  u0  p0 c0 {3,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([0.18, 1.6, 2.46, 2.99, 3.55, 3.79, 3.99], 'cal/(mol*K)'),
-        H298=(-65.44, 'kcal/mol'),
-        S298=(-48.91, 'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Came from HC-CH2 single-bonded on Pt(111)""",
-    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.790 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.
 
-   CR2
-  ||
-   C-R
-   |
-***********
-""",
-    metal = "Pt",
-    facet = "111",
-)
+###Vinyl only converged as bidentate on Pt111, so this input is not consistent with the underlying geometry. I am commenting it out for that reason, 
+### and since we already have bidentate vinyl in this library (index 48). -- KB 
+#entry(
+#    index = 57,
+#    label = "C-*RCR2",
+#    group =
+#"""
+#1 * X u0  p0 c0 {2,S}
+#2 C  u0  p0 c0 {1,S} {3,D} {4,S}
+#3 C  u0  p0 c0 {2,D} {5,S} {6,S}
+#4 R  u0  p0 c0 {2,S}
+#5 R  u0  p0 c0 {3,S}
+#6 R  u0  p0 c0 {3,S}
+#""",
+#    thermo=ThermoData(
+#        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+#        Cpdata=([0.18, 1.6, 2.46, 2.99, 3.55, 3.79, 3.99], 'cal/(mol*K)'),
+#        H298=(-75.37, 'kcal/mol'),
+#        S298=(-48.91, 'cal/(mol*K)'),
+#    ),
+#    shortDesc=u"""Came from HC-CH2 single-bonded on Pt(111)""",
+#    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
+#            DFT binding energy: -2.790 eV.
+#            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.
+#
+#   CR2
+#  ||
+#   C-R
+#   |
+#***********
+#""",
+#    metal = "Pt",
+#    facet = "111",
+#)
 
 entry(
     index = 58,
     label = "C=*RCR3",
     group =
 """
-1 X  u0 p0 c0 {3,D}
+1 * X u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,D} {2,S} {7,S}
 4 R  u0 p0 c0 {2,S}
@@ -1818,7 +1820,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.9, 1.71, 2.25, 2.61, 3.03, 3.26, 3.57], 'cal/(mol*K)'),
-        H298=(-83.24, 'kcal/mol'),
+        H298=(-93.91, 'kcal/mol'),
         S298=(-44.11, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HC-CH3 double-bonded on Pt(111)""",
@@ -1841,7 +1843,7 @@ entry(
     label = "(CRN)*",
     group =
 """
-1 X  u0  p0 c0
+1 * X u0  p0 c0
 2 C  u0  p0 c0 {3,T} {4,S}
 3 N  u0  p1 c0 {2,T}
 4 R  u0  p0 c0 {2,S}
@@ -1849,7 +1851,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.02, 0.68, 1.15, 1.46, 1.81, 1.96, 2.06], 'cal/(mol*K)'),
-        H298=(-0.94, 'kcal/mol'),
+        H298=(-7.52, 'kcal/mol'),
         S298=(-22.92, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCN vdW-bonded on Pt(111)""",
@@ -1871,8 +1873,8 @@ entry(
     label = "C=*RN=*",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,D}
+1 * X u0 p0 c0 {3,D}
+2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -1880,7 +1882,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.59, 1.77, 2.56, 3.08, 3.67, 3.93, 4.1], 'cal/(mol*K)'),
-        H298=(-15.96, 'kcal/mol'),
+        H298=(-22.54, 'kcal/mol'),
         S298=(-35.76, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCN-h bidentate, twice double-bonded on Pt(111)""",
@@ -1903,7 +1905,7 @@ entry(
     label = "C-*RNR",
     group =
 """
-1 X  u0  p0 c0 {2,S}
+1 * X u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 N  u0  p1 c0 {2,D} {5,S}
 4 R  u0  p0 c0 {2,S}
@@ -1912,7 +1914,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.74, 2.48, 2.93, 3.22, 3.53, 3.67, 3.82], 'cal/(mol*K)'),
-        H298=(-51.45, 'kcal/mol'),
+        H298=(-63.07, 'kcal/mol'),
         S298=(-38.15, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCNH single-bonded on Pt(111)""",
@@ -1935,8 +1937,8 @@ entry(
     label = "C=*RN-*R",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,D}
+2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 N  u0 p1 c0 {2,S} {3,S} {6,S}
 5 R  u0 p0 c0 {3,S}
@@ -1945,7 +1947,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.89, 2.02, 2.67, 3.07, 3.47, 3.65, 3.81], 'cal/(mol*K)'),
-        H298=(-58.44, 'kcal/mol'),
+        H298=(-70.06, 'kcal/mol'),
         S298=(-46.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCNH-h bidentate, double- and single-bonded on Pt(111)""",
@@ -1966,7 +1968,7 @@ entry(
     label = "C=*RNR2",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 N  u0 p1 c0 {2,S} {5,S} {6,S}
 4 R  u0 p0 c0 {2,S}
@@ -1976,7 +1978,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.34, 3.12, 3.49, 3.66, 3.79, 3.81, 3.84], 'cal/(mol*K)'),
-        H298=(-61.91, 'kcal/mol'),
+        H298=(-69.75, 'kcal/mol'),
         S298=(-37.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCNH2 double-bonded on Pt(111)""",
@@ -1999,7 +2001,7 @@ entry(
     label = "C-*RO",
     group =
 """
-1 X  u0  p0 c0 {2,S}
+1 * X u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 O  u0  p2 c0 {2,D}
 4 R  u0  p0 c0 {2,S}
@@ -2007,7 +2009,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.38, 2.19, 2.7, 3.02, 3.37, 3.53, 3.73], 'cal/(mol*K)'),
-        H298=(-40.03, 'kcal/mol'),
+        H298=(-63.82, 'kcal/mol'),
         S298=(-36.89, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCO single-bonded on Pt(111)""",
@@ -2030,8 +2032,8 @@ entry(
     label = "C=*RO-*",
     group =
 """
-1 X  u0 p0 c0 {3,D}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,D}
+2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2039,7 +2041,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.99, 2.22, 2.94, 3.34, 3.67, 3.78, 3.86], 'cal/(mol*K)'),
-        H298=(-33.39, 'kcal/mol'),
+        H298=(-57.18, 'kcal/mol'),
         S298=(-45.92, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCO-h bidentate, double- and single-bonded on Pt(111)""",
@@ -2062,7 +2064,7 @@ entry(
     label = "C=*ROR",
     group =
 """
-1 X  u0 p0 c0 {2,D}
+1 * X u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -2071,7 +2073,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.53, 2.45, 2.96, 3.26, 3.59, 3.75, 3.92], 'cal/(mol*K)'),
-        H298=(-57.34, 'kcal/mol'),
+        H298=(-76.64, 'kcal/mol'),
         S298=(-39.75, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HCOH double-bonded on Pt(111)""",
@@ -2094,7 +2096,7 @@ entry(
     label = "C*",
     group =
 """
-1 X  u0 {2,[S,D,T,Q]}
+1 * X u0 {2,[S,D,T,Q]}
 2 C  ux {1,[S,D,T,Q]}
 """,
     thermo=u'C-*R3',
@@ -2106,7 +2108,7 @@ entry(
     label = "N*",
     group =
 """
-1 X  u0 {2,[S,D,T]}
+1 * X u0 {2,[S,D,T]}
 2 N  ux {1,[S,D,T]}
 """,
     thermo=u'N-*R2',
@@ -2118,7 +2120,7 @@ entry(
     label = "O*",
     group =
 """
-1 X  u0 {2,[S,D]}
+1 * X u0 {2,[S,D]}
 2 O  ux {1,[S,D]}
 """,
     thermo=u'O-*R',
@@ -2130,13 +2132,13 @@ entry(
     label = "R*single_chemisorbed",
     group =
 """
-1 X  u0 {2,[S,D,T,Q]}
+1 * X u0 {2,[S,D,T,Q]}
 2 R  ux {1,[S,D,T,Q]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.07, 1.05, 1.77, 2.43, 2.8, 3.08, 3.39], 'cal/(mol*K)'),
-        H298=(-41.61, 'kcal/mol'),
+        H298=(-48.58, 'kcal/mol'),
         S298=(-38.17, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Average of C-*R3, N-*R2 and O-*R thermo. """,
@@ -2149,8 +2151,8 @@ entry(
     label = "C*C*",
     group =
 """
-1 X  u0 {3,[S,D]}
-2 X  u0 {4,[S,D]}
+1 * X u0 {3,[S,D]}
+2 X u0 {4,[S,D]}
 3 C  u0 {1,[S,D]} {4,[S,D]}
 4 C  u0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2163,8 +2165,8 @@ entry(
     label = "C*N*",
     group =
 """
-1 X  u0 {3,[S,D]}
-2 X  u0 {4,[S,D,T]}
+1 * X u0 {3,[S,D]}
+2 X u0 {4,[S,D,T]}
 3 C  u0 {1,[S,D]} {4,[S,D,T]}
 4 N  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -2177,8 +2179,8 @@ entry(
     label = "C*O*",
     group =
 """
-1 X  u0 {3,[S,D,T]}
-2 X  u0 {4,S}
+1 * X u0 {3,[S,D,T]}
+2 X u0 {4,S}
 3 C  u0 {1,[S,D,T]} {4,[S,D,T]}
 4 O  u0 {2,S} {3,[S,D,T]}
 """,
@@ -2190,8 +2192,8 @@ entry(
     label = "N*N*",
     group =
 """
-1 X  u0 {3,[S,D]}
-2 X  u0 {4,[S,D]}
+1 * X u0 {3,[S,D]}
+2 X u0 {4,[S,D]}
 3 N  u0 {1,[S,D]} {4,[S,D]}
 4 N  u0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2204,15 +2206,15 @@ entry(
     label = "R*bidentate",
     group =
 """
-1 X   u0 {3,[S,D,T]}
-2 X   u0 {4,[S,D,T]}
+1 * X  u0 {3,[S,D,T]}
+2 X  u0 {4,[S,D,T]}
 3 R!H ux {1,[S,D,T]} {4,[S,D,T]}
 4 R!H ux {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.51, 2.68, 3.31, 3.65, 3.92, 4.00, 4.02], 'cal/(mol*K)'),
-        H298=(-34.82, 'kcal/mol'),
+        H298=(-45.455, 'kcal/mol'),
         S298=(-43.39, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Average of C-*R2C-*R2, C=*RN-*R, C=*RO-* and N-*RN-*R thermo. """,
@@ -2225,14 +2227,14 @@ entry(
     label = "R*vdW",
     group =
 """
-1 X  u0
+1 * X u0
 2 R  u0
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.23, 1.71, 2.00, 2.19, 2.39, 2.50, 2.61], 'cal/(mol*K)'),
-        H298=(6.47, 'kcal/mol'),
-        S298=(-22.53, 'cal/(mol*K)'),
+        H298=(-7.937, 'kcal/mol'),
+        S298=(-20.48, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Average of (CR4)*, (NR3)* and (OR2)* thermo. """,
     metal = "Pt",
@@ -2244,8 +2246,8 @@ entry(
     label = "N*O*",
     group =
 """
-1 X  u0 p0 c0 {3,[S,D]}
-2 X  u0 p0 c0 {4,[S,D]}
+1 * X u0 p0 c0 {3,[S,D]}
+2 X u0 p0 c0 {4,[S,D]}
 3 N  u0 p1 c0 {1,[S,D]} {4,[S,D]}
 4 O  u0 p2 c0 {2,[S,D]} {3,[S,D]}
 """,
@@ -2260,8 +2262,8 @@ entry(
 #    label = "O*O*",
 #    group =
 #"""
-#1 X  u0 p0 c0 {3,S}
-#2 X  u0 p0 c0 {4,S}
+#1 * X u0 p0 c0 {3,S}
+#2 * X u0 p0 c0 {4,S}
 #3 O  u0 p2 c0 {1,S} {4,S}
 #4 O  u0 p2 c0 {2,S} {3,S}
 #""",
@@ -2278,7 +2280,7 @@ entry(
 #    label = "N#*R",
 #    group =
 #"""
-#1 X  u0 c-1 {2,T}
+#1 * X u0 c-1 {2,T}
 #2 N  u0 c+1 {1,T} {3,S}
 #3 R  u0 c0  {2,S}
 #""",
@@ -2292,7 +2294,7 @@ entry(
     label = "N#*",
     group =
 """
-1 X  u0 p0 {2,T}
+1 * X u0 p0 {2,T}
 2 N  u0 p1 {1,T}
 """,
     thermo=u'N*',
@@ -2304,13 +2306,13 @@ entry(
     label = "(CR3)*",
     group =
 """
-1 X   u0
+1 * X  u0
 2 C   u0 {3,D} {4,S} {5,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
 5 R   u0 {2,S}
 """,
-    thermo=u'(CR2NR)*',
+    thermo=u'(CR2CR)*',
     longDesc=u"""Perhaps should be an average?""",
     metal = "Pt",
     facet = "111",
@@ -2321,7 +2323,7 @@ entry(
     label = "(CR2)*",
     group =
 """
-1 X   u0
+1 * X  u0
 2 C   u0 {3,T} {4,S}
 3 R!H u0 {2,T}
 4 R   u0 {2,S}
@@ -2336,7 +2338,7 @@ entry(
     label = "(N=[O,N]R)*",
     group =
 """
-1 X     u0
+1 * X    u0
 2 N     u0 {3,D} {4,S}
 3 [N,O] u0 {2,D}
 4 R     u0 {2,S}
@@ -2352,8 +2354,8 @@ entry(
     label = "N-*RN=*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,D}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,D}
 3 N  u0 p1 c0 {1,S} {4,S} {5,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2361,7 +2363,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([0.83, 2.02, 2.69, 3.08, 3.41, 3.53, 3.66], 'cal/(mol*K)'),
-        H298=(-30.55, 'kcal/mol'),
+        H298=(-43.06, 'kcal/mol'),
         S298=(-45.85, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from HN-N-h bidentate, single- and double-bonded on Pt(111)""",
@@ -2382,7 +2384,7 @@ entry(
     label = "(CRCR)*",
     group =
 """
-1 X  u0 p0 c0
+1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,T} {4,S}
 3 C  u0 p0 c0 {2,T} {5,S}
 4 R  u0 p0 c0 {2,S}
@@ -2391,7 +2393,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.02, 1.36, 1.56, 1.69, 1.82, 1.89, 1.95], 'cal/(mol*K)'),
-        H298=(-4.70, 'kcal/mol'),
+        H298=(-10.488, 'kcal/mol'),
         S298=(-10.33, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from CH-CH vdW-bonded on Pt(111)""",
@@ -2413,8 +2415,8 @@ entry(
     label = "C-*R2N=*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,D}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,D} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2423,7 +2425,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.01, 2.14, 2.79, 3.16, 3.5, 3.63, 3.76], 'cal/(mol*K)'),
-        H298=(-40.44, 'kcal/mol'),
+        H298=(-51.5, 'kcal/mol'),
         S298=(-47.12, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2CN-h bidentate, single- and double-bonded on Pt(111)""",
@@ -2444,8 +2446,8 @@ entry(
     label = "C-*R2N-*R",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 N  u0 p1 c0 {2,S} {3,S} {7,S}
 5 R  u0 p0 c0 {3,S}
@@ -2455,7 +2457,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([1.41, 3.0, 3.77, 4.11, 4.29, 4.28, 4.16], 'cal/(mol*K)'),
-        H298=(-18.54, 'kcal/mol'),
+        H298=(-25.1, 'kcal/mol'),
         S298=(-47.43, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2CNH-h bidentate, twice single-bonded on Pt(111)""",
@@ -2476,14 +2478,14 @@ entry(
     label = "C=*(=C)",
     group =
 """
-1 X  u0  p0 c0 {2,D}
+1 * X u0  p0 c0 {2,D}
 2 C  u0  p0 c0 {1,D} {3,D}
 3 C  u0  p0 c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([-0.98, 0.54, 1.55, 2.21, 2.95, 3.32, 3.69], 'cal/(mol*K)'),
-        H298=(-93.15, 'kcal/mol'),
+        H298=(-102.06, 'kcal/mol'),
         S298=(-48.06, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from C=CH2 double-bonded on Pt(111)""",
@@ -2509,8 +2511,8 @@ entry(
     label = "C-*R2O-*",
     group =
 """
-1 X  u0 p0 c0 {3,S}
-2 X  u0 p0 c0 {4,S}
+1 * X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 O  u0 p2 c0 {2,S} {3,S}
 5 R  u0 p0 c0 {3,S}
@@ -2519,7 +2521,7 @@ entry(
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
         Cpdata=([2.02, 3.22, 3.83, 4.11, 4.25, 4.22, 4.11], 'cal/(mol*K)'),
-        H298=(5.3, 'kcal/mol'),
+        H298=(-14.92, 'kcal/mol'),
         S298=(-41.48, 'cal/(mol*K)'),
     ),
     shortDesc=u"""Came from H2CO-h bidentate, twice single-bonded on Pt(111)""",
@@ -2536,7 +2538,33 @@ entry(
     facet = "111",
 )
 
-
+entry(
+    index = 89,
+    label = "(CR2CR)*",
+    group =
+"""
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+3 C  u0 p0 c0 {2,D} {6,S}
+4 R  u0 p0 c0 {2,S}
+5 R  u0 p0 c0 {2,S}
+6 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([0.5, 1.37, 1.81, 2.02, 2.14, 2.13, 2.08], 'cal/(mol*K)'),
+        H298=(-1.0, 'kcal/mol'),
+        S298=(-33.14, 'cal/(mol*K)'),
+    ),
+    shortDesc=u"""Made up by Emily""",
+    longDesc=u"""
+ R2C=CR
+    :
+***********
+""",
+    metal = "Pt",
+    facet = "111",
+)
 
 
 tree(
@@ -2582,7 +2610,6 @@ L1: R*
                 L5: C-*R2CR3
                 L5: C-*R2NR2
                 L5: C-*R2OR
-                L5: C-*RCR2
                 L5: C-*RNR
                 L5: C-*RO
         L3: N*
@@ -2611,6 +2638,7 @@ L1: R*
             L4: (CR3OR)*
         L3: (CR3)*
             L4: (CR2NR)*
+            L4: (CR2CR)*
             L4: (CR2O)*
         L3: (CR2)*
             L4: (CRN)*

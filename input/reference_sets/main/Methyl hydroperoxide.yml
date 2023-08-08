@@ -8,13 +8,111 @@ adjacency_list: |
   6 H u0 p0 c0 {3,S}
   7 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -30.034767787193182
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1192555199
+          - -0.2197862389
+          - -0.0214958028
+        - - -0.0258564028
+          - 0.598706132
+          - 0.0194778562
+        - - -1.1506678494
+          - -0.2682915943
+          - 0.1013403559
+        - - 1.9611951011
+          - 0.4735395324
+          - -0.0318249814
+        - - 1.1378603185
+          - -0.8376041551
+          - -0.9247625002
+        - - 1.1775982536
+          - -0.8569636529
+          - 0.8645112364
+        - - -1.5799927749
+          - -0.1035705924
+          - -0.7454946353
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -30.39723952166772
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1192555199
+          - -0.2197862389
+          - -0.0214958028
+        - - -0.0258564028
+          - 0.598706132
+          - 0.0194778562
+        - - -1.1506678494
+          - -0.2682915943
+          - 0.1013403559
+        - - 1.9611951011
+          - 0.4735395324
+          - -0.0318249814
+        - - 1.1378603185
+          - -0.8376041551
+          - -0.9247625002
+        - - 1.1775982536
+          - -0.8569636529
+          - 0.8645112364
+        - - -1.5799927749
+          - -0.1035705924
+          - -0.7454946353
+      isotopes:
+      - 12
+      - 16
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - O
+      - O
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -25.885223148692365
+        value: -25.90065212905584
       class: ThermoData
     xyz_dict:
       coords:
@@ -112,7 +210,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -26.272153975649815
+        value: -26.255631193128803
       class: ThermoData
     xyz_dict:
       coords:
@@ -171,7 +269,7 @@ label: Methyl hydroperoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 48.04126249437592
+  value: 48.04132675563895
 multiplicity: 1
 reference_data:
   ATcT:

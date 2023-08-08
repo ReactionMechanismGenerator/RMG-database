@@ -11,13 +11,141 @@ adjacency_list: |
   9  H u0 p0 c0 {2,S}
   10 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 36.46103134805007
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.0581818792
+          - 1.98114e-05
+          - -9.60632e-05
+        - - -0.5992377095
+          - -4.68508e-05
+          - -8.41408e-05
+        - - 0.5992222305
+          - -3.96725e-05
+          - -8.30208e-05
+        - - 2.058180251
+          - 2.04593e-05
+          - -0.0001046569
+        - - -2.4471142414
+          - -0.8740727673
+          - -0.5248007708
+        - - -2.446788428
+          - 0.8922486851
+          - -0.493600992
+        - - -2.4465013539
+          - -0.0180003297
+          - 1.0194745642
+        - - 2.4470873126
+          - -0.8643217696
+          - -0.5407392682
+        - - 2.4465036624
+          - -0.0367077644
+          - 1.0189599154
+        - - 2.4469156915
+          - 0.9011314616
+          - -0.4770861585
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 35.60872085731079
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -2.0581818792
+          - 1.98114e-05
+          - -9.60632e-05
+        - - -0.5992377095
+          - -4.68508e-05
+          - -8.41408e-05
+        - - 0.5992222305
+          - -3.96725e-05
+          - -8.30208e-05
+        - - 2.058180251
+          - 2.04593e-05
+          - -0.0001046569
+        - - -2.4471142414
+          - -0.8740727673
+          - -0.5248007708
+        - - -2.446788428
+          - 0.8922486851
+          - -0.493600992
+        - - -2.4465013539
+          - -0.0180003297
+          - 1.0194745642
+        - - 2.4470873126
+          - -0.8643217696
+          - -0.5407392682
+        - - 2.4465036624
+          - -0.0367077644
+          - 1.0189599154
+        - - 2.4469156915
+          - 0.9011314616
+          - -0.4770861585
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 67.12054196456272
+        value: 67.09852340697574
       class: ThermoData
     xyz_dict:
       coords:
@@ -145,7 +273,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 43.11976186698133
+        value: 43.145731022089066
       class: ThermoData
     xyz_dict:
       coords:
@@ -219,7 +347,7 @@ label: 2-Butyne
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 54.09044503390576
+  value: 54.09039241417589
 multiplicity: 1
 reference_data:
   ATcT:

@@ -17,16 +17,14 @@ default = {
     '1,3_Insertion_RSR',
     '1,4_Cyclic_birad_scission',
     '1,4_Linear_birad_scission',
-    '2+2_cycloaddition_CCO',
-    '2+2_cycloaddition_CO',
-    '2+2_cycloaddition_CS',
-    '2+2_cycloaddition_Cd',
+    '2+2_cycloaddition',
     'Birad_recombination',
     'CO_Disproportionation',
     'Birad_R_Recombination',
     'Cyclic_Ether_Formation',
     'Cyclic_Thioether_Formation',
     'Diels_alder_addition',
+    'Diels_alder_addition_Aromatic',
     'Disproportionation',
     'HO2_Elimination_from_PeroxyRadical',
     'H_Abstraction',
@@ -44,7 +42,7 @@ default = {
     'intra_substitutionCS_isomerization',
     'intra_substitutionS_cyclization',
     'intra_substitutionS_isomerization',
-    'ketoenol',
+    '1,3_sigmatropic_rearrangement',
     'Singlet_Carbene_Intra_Disproportionation',
     'Singlet_Val6_to_triplet',
     'Intra_5_membered_conjugated_C=C_C=C_addition',
@@ -59,6 +57,35 @@ default = {
     '1,2_NH3_elimination',
     '1,3_NH3_elimination',
     'Retroene',
+    'Ketoenol',
+}
+
+# Families for pyrolysis of C/H systems
+ch_pyrolysis = {
+    '1+2_Cycloaddition',
+    '1,2_Insertion_carbene',
+    'Birad_R_Recombination',
+    'CO_Disproportionation',
+    'Diels_alder_addition',
+    'Diels_alder_addition_Aromatic',
+    'Disproportionation',
+    'H_Abstraction',
+    'intra_H_migration',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exocyclic',
+    'Intra_R_Add_Exo_scission',
+    'Intra_Retro_Diels_alder_bicyclic',
+    'R_Addition_COm',
+    'R_Addition_MultipleBond',
+    'R_Recombination',
+    '6_membered_central_C-C_shift',
+    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
+    'Cyclopentadiene_scission',
+    'Intra_2+2_cycloaddition_Cd',
+    'Intra_5_membered_conjugated_C=C_C=C_addition',
+    'Intra_Diels_alder_monocyclic',
+    'Intra_ene_reaction',
+    'Singlet_Carbene_Intra_Disproportionation',
 }
 
 # Peroxide chemistry families that are likely relevant in liquid-phase
@@ -94,9 +121,26 @@ surface = {
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
     'Surface_DoubleBond_to_Bidentate', 
+    'Surface_Dissociation_to_Bidentate', 
     'Surface_vdW_to_Bidentate',
     'Surface_Abstraction_Single_vdW',
     'Surface_Adsorption_Dissociative_Double',
+    'Surface_Abstraction_Beta',
+    'Surface_Abstraction_Beta_double_vdW',
+}
+
+# reaction families for halogen chemistry only
+halogens = {
+    'Cl_Abstraction',
+    'F_Abstraction',
+    'Br_Abstraction',
+    'Disproportionation-Y',
+    'XY_Addition_MultipleBond',
+    '1,2_XY_interchange',
+    'halocarbene_recombination',
+    'halocarbene_recombination_double',
+    'XY_elimination_hydroxyl',
+    'intra_halogen_migration'
 }
 
 # Surface chemistry families that are under development and not yet working well.

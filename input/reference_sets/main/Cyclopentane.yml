@@ -22,7 +22,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 15.594018067801626
+        value: 15.561517105334596
       class: ThermoData
     xyz_dict:
       coords:
@@ -210,7 +210,7 @@ label: Cyclopentane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 70.13290659858157
+  value: 70.13291824011473
 multiplicity: 1
 reference_data:
   ATcT:

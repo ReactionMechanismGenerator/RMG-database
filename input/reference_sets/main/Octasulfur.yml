@@ -9,13 +9,121 @@ adjacency_list: |
   7 S u0 p2 c0 {6,S} {8,S}
   8 S u0 p2 c0 {1,S} {7,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 22.863099070611934
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.166594763
+          - 0.8647964716
+          - 0.4963530225
+        - - 0.9181856746
+          - 2.1410330579
+          - -0.4967630175
+        - - -0.8645605664
+          - 2.1661908547
+          - 0.4967459125
+        - - -2.1414411116
+          - 0.9184124588
+          - -0.4963359175
+        - - -2.166594763
+          - -0.8647964716
+          - 0.4963530225
+        - - -0.9181856746
+          - -2.1410330579
+          - -0.4967630175
+        - - 0.8645605664
+          - -2.1661908547
+          - 0.4967459125
+        - - 2.1414411116
+          - -0.9184124588
+          - -0.4963359175
+      isotopes:
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 23.205370028420123
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.166594763
+          - 0.8647964716
+          - 0.4963530225
+        - - 0.9181856746
+          - 2.1410330579
+          - -0.4967630175
+        - - -0.8645605664
+          - 2.1661908547
+          - 0.4967459125
+        - - -2.1414411116
+          - 0.9184124588
+          - -0.4963359175
+        - - -2.166594763
+          - -0.8647964716
+          - 0.4963530225
+        - - -0.9181856746
+          - -2.1410330579
+          - -0.4967630175
+        - - 0.8645605664
+          - -2.1661908547
+          - 0.4967459125
+        - - 2.1414411116
+          - -0.9184124588
+          - -0.4963359175
+      isotopes:
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      - 32
+      symbols:
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
+      - S
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 59.001137277209324
+        value: 58.95094533083531
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +231,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 35.0142916194669
+        value: 35.073153476400556
       class: ThermoData
     xyz_dict:
       coords:
@@ -187,7 +295,7 @@ label: Octasulfur
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 256.5200245530857
+  value: 256.5800166330739
 multiplicity: 1
 reference_data:
   CCCBDB:

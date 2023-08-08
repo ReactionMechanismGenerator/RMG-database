@@ -5,13 +5,81 @@ adjacency_list: |
   3 O u0 p2 c0 {1,D}
   4 O u0 p2 c0 {1,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -97.32119692114432
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 4.789e-05
+        - - 0.0
+          - 0.0
+          - -1.41540016
+        - - -1.2257767
+          - -0.0
+          - 0.70765219
+        - - 1.2257767
+          - 0.0
+          - 0.70765219
+      isotopes:
+      - 32
+      - 16
+      - 16
+      - 16
+      symbols:
+      - S
+      - O
+      - O
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -95.3632229652792
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 4.789e-05
+        - - 0.0
+          - 0.0
+          - -1.41540016
+        - - -1.2257767
+          - -0.0
+          - 0.70765219
+        - - 1.2257767
+          - 0.0
+          - 0.70765219
+      isotopes:
+      - 32
+      - 16
+      - 16
+      - 16
+      symbols:
+      - S
+      - O
+      - O
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -53.48351795426028
+        value: -53.49576622561653
       class: ThermoData
     xyz_dict:
       coords:
@@ -79,7 +147,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -84.63299701701762
+        value: -84.6203442135746
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +191,7 @@ label: Sulfur trioxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 80.06320446368588
+  value: 80.0707034736844
 multiplicity: 1
 reference_data:
   CCCBDB:

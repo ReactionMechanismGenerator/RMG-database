@@ -3631,12 +3631,41 @@ entry(
     index = 474,
     label = "C2H2 + CH3 <=> CH2CHCH2",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.7e+53, 'cm^3/(mol*s)'),
-        n = -12.82,
-        Ea = (35730, 'cal/mol'),
-        T0 = (1, 'K'),
+    kinetics = PDepArrhenius(
+        pressures = ([0.1, 1, 10, 100], 'atm'),
+        arrhenius = [
+            Arrhenius(
+                A = (8.20e+53, 'cm^3/(mol*s)'),
+                n = -13.32,
+                Ea = (33200, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (2.7e+53, 'cm^3/(mol*s)'),
+                n = -12.82,
+                Ea = (35730, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (4.4e+49, 'cm^3/(mol*s)'),
+                n = -11.4,
+                Ea = (36700, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(
+                A = (3.8e+44, 'cm^3/(mol*s)'),
+                n = -9.63,
+                Ea = (37600, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+        ],
     ),
+    longDesc=u"""This entry has different kinetics than the entry in the mechanism file 
+    (Lopez et al.). The original reference of this reaction 
+    (Davis et al. , J. Phys. Chem. A 1999, 103, 5889-5899) reported Pdep kinetics.
+    However, the kinetics in the mechanism file of Lopez et al. only contained the rate 
+    coefficient at 1 atm and used it as the high-pressure limit rate coefficient. 
+    This entry instead reported the Pdep kinetics from the original source."""
 )
 
 entry(

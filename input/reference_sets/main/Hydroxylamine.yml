@@ -6,13 +6,91 @@ adjacency_list: |
   4 H u0 p0 c0 {2,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -9.5636567650975
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6776944613
+          - -8.5199e-06
+          - -0.1511711002
+        - - 0.7139649306
+          - 9.9311e-06
+          - 0.1397051791
+        - - -1.0429099912
+          - -0.8120275949
+          - 0.3352394208
+        - - -1.0429133971
+          - 0.8120610204
+          - 0.3351530068
+        - - 1.1179651721
+          - -5.3235e-05
+          - -0.7298361591
+      isotopes:
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - O
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -10.044643724574733
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.6776944613
+          - -8.5199e-06
+          - -0.1511711002
+        - - 0.7139649306
+          - 9.9311e-06
+          - 0.1397051791
+        - - -1.0429099912
+          - -0.8120275949
+          - 0.3352394208
+        - - -1.0429133971
+          - 0.8120610204
+          - 0.3351530068
+        - - 1.1179651721
+          - -5.3235e-05
+          - -0.7298361591
+      isotopes:
+      - 14
+      - 16
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - O
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -12.069783202128278
+        value: -12.076601416684962
       class: ThermoData
     xyz_dict:
       coords:
@@ -90,7 +168,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -10.903366546905328
+        value: -10.895915128353655
       class: ThermoData
     xyz_dict:
       coords:
@@ -139,7 +217,7 @@ label: Hydroxylamine
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 33.029962418368484
+  value: 33.03017452710261
 multiplicity: 1
 reference_data:
   ATcT:

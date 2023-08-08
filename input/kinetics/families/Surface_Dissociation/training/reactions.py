@@ -45,7 +45,7 @@ entry(
     longDesc = u"""
 "Surface Reaction Kinetics of Steam- and CO2-Reforming as well as Oxidation of Methane over Nickel-Based Catalysts"
 Delgado et al
-Catalysts, 2015, 5, 871-904. Reaction R4
+Catalysts, 2015, 5, 871-904. Reaction R44
 """,
     metal = 'Ni',
 )
@@ -57,7 +57,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(1.586e16, 'm^2/(mol*s)'),
         n = 0.0,
-        Ea=(12.9139069, 'kcal/mol'),
+        Ea=(0.56, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -69,6 +69,7 @@ and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
 4.667E11 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.586e16 m^2/(mol*s)
+Erxn = 0.14 eV
 """,
     metal = "Cu",
 )
@@ -211,7 +212,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(8.733e16, 'm^2/(mol*s)'),
         n = 0.0,
-        Ea=(10.8384576, 'kcal/mol'),
+        Ea=(2.36, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -222,33 +223,36 @@ Reaction 28 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-2.570E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 8.733e16 m^2/(mol*s)
+2.570E12 1/s 2.943e‐5 mol/m^2 = 8.733e16 m^2/(mol*s)
+Erxn = 2.18 eV
 """,
     metal = "Cu",
 )
 
-entry(
-    index = 31,
-    label = "HCOH* + HX_5 <=> CH2OH* + Ni_4",
-    degeneracy = 1,
-    kinetics = SurfaceArrhenius(
-        A=(1.257e17, 'm^2/(mol*s)'),
-        n = 0.0,
-        Ea=(54.4228933, 'kcal/mol'),
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    rank=10,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-Reaction 32 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
-and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
+# entry(
+#     index = 31,
+#     label = "HCOH* + HX_5 <=> CH2OH* + Ni_4",
+#     degeneracy = 1,
+#     kinetics = SurfaceArrhenius(
+#         A=(1.257e17, 'm^2/(mol*s)'),
+#         n = 0.0,
+#         Ea=(54.4228933, 'kcal/mol'),
+#         Tmin = (298, 'K'),
+#         Tmax = (2000, 'K'),
+#     ),
+#     rank=10,
+#     shortDesc = u"""Default""",
+#     longDesc = u"""
+# Reaction 32 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
+# and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
-A factor from paper / surface site density of Cu
-3.698E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.257e17 m^2/(mol*s)
-""",
-    metal = "Cu",
-)
+# A factor from paper / surface site density of Cu
+# 3.698E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.257e17 m^2/(mol*s)
+# """,
+#     metal = "Cu",
+# )
+# HCOH* is CH2Ovdw and doesn't match this family - David
+
 
 entry(
     index = 32,
@@ -278,7 +282,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(7.452e17, 'm^2/(mol*s)'),
         n = 0.0,
-        Ea=(38.7417207, 'kcal/mol'),
+        Ea=(1.68, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -289,7 +293,8 @@ Reaction 15 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-2.193E13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 7.452e17 m^2/(mol*s)
+2.193E13 1/s / 2.943e‐5 mol/m^2 = 7.452e17 m^2/(mol*s)
+Erxn = 0.72 eV
 """,
     metal = "Cu",
 )
@@ -301,7 +306,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(1.864e18, 'm^2/(mol*s)'),
         n = 0.0,
-        Ea=(46.3517015, 'kcal/mol'),
+        Ea=(2.01, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -312,7 +317,8 @@ Reaction 36 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-5.485E13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.864e18 m^2/(mol*s)
+5.485E13 1/s / 2.943e‐5 mol/m^2 = 1.864e18 m^2/(mol*s)
+Erxn = 1.39 eV
 """,
     metal = "Cu",
 )
@@ -345,7 +351,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(3.140e17, 'm^2/(mol*s)'),
         n = 0.0,
-        Ea=(22.8299425, 'kcal/mol'),
+        Ea=(0.99, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -356,7 +362,65 @@ Reaction 26 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-9.240E12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 3.140e17 m^2/(mol*s)
+9.240E12 1/s / 2.943e‐5 mol/m^2 = 3.140e17 m^2/(mol*s)
+eErxn = 0.78
 """,
     metal = "Cu",
+)
+
+entry(
+    index = 60,
+    label = "HCCH2_2X + Ni_4 <=> HCCH_2X + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.9460e16, 'm^2/(mol*s)'),
+        n = 0.512, 
+        Ea=(69707.5, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 61,
+    label = "H2CCH2_2X + Ni_4 <=> H2CCH_2X + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(3.034e15, 'm^2/(mol*s)'), 
+        n = 0.661, 
+        Ea=(55411.0, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 62,
+    label = "H2CO_2X + Ni_4 <=> HCO_2X + HX_5",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.438e17, 'm^2/(mol*s)'),
+        n = 0.043, 
+        Ea=(1417.1, 'J/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+""",
+    metal = "Pt",
 )

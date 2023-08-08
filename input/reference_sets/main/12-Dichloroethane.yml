@@ -9,13 +9,121 @@ adjacency_list: |
   7 H  u0 p0 c0 {4,S}
   8 H  u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -33.73119988578941
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4919445903
+          - -0.5735059796
+          - 5.72064e-05
+        - - -2.1543055498
+          - 0.0708925611
+          - -2.98736e-05
+        - - 0.4919445903
+          - 0.5735059796
+          - 5.72064e-05
+        - - 2.1543055498
+          - -0.0708925611
+          - -2.98736e-05
+        - - -0.3792922051
+          - -1.1911365239
+          - 0.8878744364
+        - - -0.3792194878
+          - -1.1911947375
+          - -0.8877098236
+        - - 0.3792194878
+          - 1.1911947375
+          - -0.8877098236
+        - - 0.3792922051
+          - 1.1911365239
+          - 0.8878744364
+      isotopes:
+      - 12
+      - 35
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - C
+      - Cl
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -33.43524717558213
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.4919445903
+          - -0.5735059796
+          - 5.72064e-05
+        - - -2.1543055498
+          - 0.0708925611
+          - -2.98736e-05
+        - - 0.4919445903
+          - 0.5735059796
+          - 5.72064e-05
+        - - 2.1543055498
+          - -0.0708925611
+          - -2.98736e-05
+        - - -0.3792922051
+          - -1.1911365239
+          - 0.8878744364
+        - - -0.3792194878
+          - -1.1911947375
+          - -0.8877098236
+        - - 0.3792194878
+          - 1.1911947375
+          - -0.8877098236
+        - - 0.3792922051
+          - 1.1911365239
+          - 0.8878744364
+      isotopes:
+      - 12
+      - 35
+      - 12
+      - 35
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - Cl
+      - C
+      - Cl
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -23.629430457852866
+        value: -23.64998723132978
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +231,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -31.05060819542676
+        value: -31.02773774436768
       class: ThermoData
     xyz_dict:
       coords:
@@ -187,7 +295,7 @@ label: 1,2-Dichloroethane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 98.95916692400544
+  value: 98.95745049635676
 multiplicity: 1
 reference_data:
   ATcT:

@@ -11,13 +11,141 @@ adjacency_list: |
   9  H u0 p0 c0 {4,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -38.031086129470324
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.3432297499
+          - -0.7934286616
+          - 0.1798224327
+        - - -5.7176e-06
+          - 0.2299579585
+          - -0.4352279163
+        - - -5.13845e-05
+          - 1.4644747625
+          - 0.3789324104
+        - - 1.3432859416
+          - -0.7933525064
+          - 0.1798238023
+        - - -2.2690468366
+          - -0.2736231162
+          - -0.0616711289
+        - - -1.3282729392
+          - -1.7663397689
+          - -0.3124717915
+        - - -1.2498572778
+          - -0.8973976766
+          - 1.2612896896
+        - - 1.249746572
+          - -0.8975695712
+          - 1.2612499244
+        - - 1.3285420277
+          - -1.7661674947
+          - -0.3126744738
+        - - 2.2690538621
+          - -0.2733408001
+          - -0.0614122521
+      isotopes:
+      - 12
+      - 32
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -37.18001834864878
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.3432297499
+          - -0.7934286616
+          - 0.1798224327
+        - - -5.7176e-06
+          - 0.2299579585
+          - -0.4352279163
+        - - -5.13845e-05
+          - 1.4644747625
+          - 0.3789324104
+        - - 1.3432859416
+          - -0.7933525064
+          - 0.1798238023
+        - - -2.2690468366
+          - -0.2736231162
+          - -0.0616711289
+        - - -1.3282729392
+          - -1.7663397689
+          - -0.3124717915
+        - - -1.2498572778
+          - -0.8973976766
+          - 1.2612896896
+        - - 1.249746572
+          - -0.8975695712
+          - 1.2612499244
+        - - 1.3285420277
+          - -1.7661674947
+          - -0.3126744738
+        - - 2.2690538621
+          - -0.2733408001
+          - -0.0614122521
+      isotopes:
+      - 12
+      - 32
+      - 16
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - S
+      - O
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -11.770296006636306
+        value: -11.80046262979119
       class: ThermoData
     xyz_dict:
       coords:
@@ -145,7 +273,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -31.994757543031128
+        value: -31.960818962449615
       class: ThermoData
     xyz_dict:
       coords:
@@ -219,7 +347,7 @@ label: Dimethyl sulfoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 78.1334464183779
+  value: 78.14101201794608
 multiplicity: 1
 reference_data:
   CATCH:

@@ -4,13 +4,71 @@ adjacency_list: |
   2 O u0 p2 c0 {3,D}
   3 N u0 p0 c+1 {1,D} {2,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 228.95540135139896
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 6.1e-09
+          - -1.10870665
+        - - 0.0
+          - -1.39e-08
+          - 0.0
+        - - 0.0
+          - 6.1e-09
+          - 1.10870665
+      isotopes:
+      - 16
+      - 14
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 229.8209502532999
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 6.1e-09
+          - -1.10870665
+        - - 0.0
+          - -1.39e-08
+          - 0.0
+        - - 0.0
+          - 6.1e-09
+          - 1.10870665
+      isotopes:
+      - 16
+      - 14
+      - 16
+      symbols:
+      - O
+      - N
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 211.89380642857424
+        value: 211.8878387392565
       class: ThermoData
     xyz_dict:
       coords:
@@ -68,7 +126,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 228.73737466697932
+        value: 228.74371997867962
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +165,7 @@ label: Nitronium
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 46.0055425157793
+  value: 46.005661725078824
 multiplicity: 1
 reference_data:
   ATcT:

@@ -5,7 +5,7 @@
 #                                                                             #
 # RMG - Reaction Mechanism Generator                                          #
 #                                                                             #
-# Copyright (c) 2002-2019 Prof. William H. Green (whgreen@mit.edu),           #
+# Copyright (c) 2002-2023 Prof. William H. Green (whgreen@mit.edu),           #
 # Prof. Richard H. West (r.west@neu.edu) and the RMG Team (rmg_dev@mit.edu)   #
 #                                                                             #
 # Permission is hereby granted, free of charge, to any person obtaining a     #
@@ -29,10 +29,11 @@
 ###############################################################################
 
 try:
-    from distutils.core import setup
-    from distutils.extension import Extension
+    from setuptools import setup
+    from setuptools import Extension
+    from setuptools import find_packages
 except ImportError:
-    print('The distutils package is required to build or install RMG Py.')
+    print('The setuptools package is required to build or install RMG Py.')
 
 scripts = [
     'evansPolanyi.py',
@@ -45,10 +46,11 @@ scripts = ['scripts/' + scriptName for scriptName in scripts]
 # Initiate the installation and/or build 
 setup(
     name='RMG-database',
-    version='3.1.0',
+    version='3.2.0',
     description='Reaction Mechanism Generator Database',
     author='William H. Green and the RMG Team',
     author_email='rmg_dev@mit.edu',
     url='http://reactionmechanismgenerator.github.io/',
     scripts=scripts,
+    packages=find_packages()
 )

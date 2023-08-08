@@ -13,9 +13,9 @@ entry(
    label = "H2 + Ni_3 + Ni_4 <=> HX_3 + HX_4",
    degeneracy = 2,
    kinetics = StickingCoefficient(
-       A = 3.2E-2,
+       A = 3e-2,
        n = 0,
-       Ea = (0, 'J/mol'),
+       Ea = (5, 'kJ/mol'),
        Tmin = (200, 'K'),
        Tmax = (3000, 'K'),
    ),

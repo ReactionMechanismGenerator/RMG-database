@@ -16,7 +16,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -38.230171226913896
+        value: -38.25426900334103
       class: ThermoData
     xyz_dict:
       coords:
@@ -134,7 +134,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -49.55027024090577
+        value: -49.52303367771682
       class: ThermoData
     xyz_dict:
       coords:
@@ -203,7 +203,7 @@ label: 2-Bromoethanol
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 124.96450739621724
+  value: 124.9645430193087
 multiplicity: 1
 reference_data:
   ATcT:

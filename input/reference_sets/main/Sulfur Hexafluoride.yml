@@ -8,13 +8,111 @@ adjacency_list: |
   6 F u0 p3 c0 {1,S}
   7 F u0 p3 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -297.3839969332638
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.1404163325
+          - -1.4625116485
+          - 0.5416208367
+        - - -1.5592831737
+          - -0.1184235606
+          - 0.0843847934
+        - - 0.0378588955
+          - 0.5468901343
+          - 1.4666929976
+        - - 1.5592831737
+          - 0.1184235606
+          - -0.0843847934
+        - - -0.0378588955
+          - -0.5468901343
+          - -1.4666929976
+        - - -0.1404163325
+          - 1.4625116485
+          - -0.5416208367
+      isotopes:
+      - 32
+      - 19
+      - 19
+      - 19
+      - 19
+      - 19
+      - 19
+      symbols:
+      - S
+      - F
+      - F
+      - F
+      - F
+      - F
+      - F
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -296.80807164883345
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.0
+        - - 0.1404163325
+          - -1.4625116485
+          - 0.5416208367
+        - - -1.5592831737
+          - -0.1184235606
+          - 0.0843847934
+        - - 0.0378588955
+          - 0.5468901343
+          - 1.4666929976
+        - - 1.5592831737
+          - 0.1184235606
+          - -0.0843847934
+        - - -0.0378588955
+          - -0.5468901343
+          - -1.4666929976
+        - - -0.1404163325
+          - 1.4625116485
+          - -0.5416208367
+      isotopes:
+      - 32
+      - 19
+      - 19
+      - 19
+      - 19
+      - 19
+      - 19
+      symbols:
+      - S
+      - F
+      - F
+      - F
+      - F
+      - F
+      - F
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -266.7000877531663
+        value: -266.7418585688302
       class: ThermoData
     xyz_dict:
       coords:
@@ -112,7 +210,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -293.60154677354416
+        value: -293.5551648718546
       class: ThermoData
     xyz_dict:
       coords:
@@ -171,7 +269,7 @@ label: Sulfur Hexafluoride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 146.05543122397657
+  value: 146.06293023397507
 multiplicity: 1
 reference_data:
   CCCBDB:

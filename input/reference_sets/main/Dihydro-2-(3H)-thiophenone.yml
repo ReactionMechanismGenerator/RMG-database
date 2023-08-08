@@ -13,13 +13,161 @@ adjacency_list: |
   11 H u0 p0 c0 {5,S}
   12 H u0 p0 c0 {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -42.241109201071964
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1866877824
+          - 0.1747029953
+          - -0.0553911823
+        - - 0.9940287523
+          - 0.1852459507
+          - 0.0191233897
+        - - 0.114197457
+          - 1.4128985164
+          - 0.1886543981
+        - - -1.2837980952
+          - 1.0550893324
+          - -0.2857979488
+        - - -1.5611790335
+          - -0.3733896265
+          - 0.1832910416
+        - - -0.0131514529
+          - -1.2847697675
+          - -0.0415522604
+        - - 0.1198184868
+          - 1.6535673066
+          - 1.257233551
+        - - 0.5692127346
+          - 2.2496034583
+          - -0.3396869108
+        - - -2.0392905113
+          - 1.7438396387
+          - 0.0950967627
+        - - -1.3218471898
+          - 1.0897487393
+          - -1.3770176505
+        - - -2.3464888764
+          - -0.8557749958
+          - -0.3961709322
+        - - -1.8439781397
+          - -0.4013568682
+          - 1.2368855217
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -42.082901864200345
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.1866877824
+          - 0.1747029953
+          - -0.0553911823
+        - - 0.9940287523
+          - 0.1852459507
+          - 0.0191233897
+        - - 0.114197457
+          - 1.4128985164
+          - 0.1886543981
+        - - -1.2837980952
+          - 1.0550893324
+          - -0.2857979488
+        - - -1.5611790335
+          - -0.3733896265
+          - 0.1832910416
+        - - -0.0131514529
+          - -1.2847697675
+          - -0.0415522604
+        - - 0.1198184868
+          - 1.6535673066
+          - 1.257233551
+        - - 0.5692127346
+          - 2.2496034583
+          - -0.3396869108
+        - - -2.0392905113
+          - 1.7438396387
+          - 0.0950967627
+        - - -1.3218471898
+          - 1.0897487393
+          - -1.3770176505
+        - - -2.3464888764
+          - -0.8557749958
+          - -0.3961709322
+        - - -1.8439781397
+          - -0.4013568682
+          - 1.2368855217
+      isotopes:
+      - 16
+      - 12
+      - 12
+      - 12
+      - 12
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - O
+      - C
+      - C
+      - C
+      - C
+      - S
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -4.944009703352777
+        value: -4.98092479229961
       class: ThermoData
     xyz_dict:
       coords:
@@ -167,7 +315,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -33.28370442812798
+        value: -33.242295356524295
       class: ThermoData
     xyz_dict:
       coords:
@@ -251,7 +399,7 @@ label: Dihydro-2-(3H)-thiophenone
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 102.15484856789152
+  value: 102.16229495816019
 multiplicity: 1
 reference_data:
   CCCBDB:

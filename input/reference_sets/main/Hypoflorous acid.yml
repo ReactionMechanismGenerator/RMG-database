@@ -4,13 +4,71 @@ adjacency_list: |
   2 O u0 p2 c0 {1,S} {3,S}
   3 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -20.36551016104135
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.685706258
+          - 0.1199301726
+          - -0.0
+        - - -0.7131374655
+          - -0.0159921264
+          - 0.0
+        - - 0.9325871257
+          - -0.8155122436
+          - 0.0
+      isotopes:
+      - 16
+      - 19
+      - 1
+      symbols:
+      - O
+      - F
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -20.5556071113957
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.685706258
+          - 0.1199301726
+          - -0.0
+        - - -0.7131374655
+          - -0.0159921264
+          - 0.0
+        - - 0.9325871257
+          - -0.8155122436
+          - 0.0
+      isotopes:
+      - 16
+      - 19
+      - 1
+      symbols:
+      - O
+      - F
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -20.980714429043108
+        value: -20.982596787661265
       class: ThermoData
     xyz_dict:
       coords:
@@ -68,7 +126,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -19.520702696781374
+        value: -19.518994613721016
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +165,7 @@ label: Hypoflorous acid
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 36.00574527980328
+  value: 36.00577624628148
 multiplicity: 1
 reference_data:
   ATcT:

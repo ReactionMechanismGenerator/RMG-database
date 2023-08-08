@@ -13,13 +13,161 @@ adjacency_list: |
   11 H u0 p0 c0 {6,S}
   12 H u0 p0 c0 {8,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -72.89942549233551
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.33536408
+          - 0.0
+          - 0.9779483728
+        - - 1.17789729
+          - 0.0
+          - 0.3038854128
+        - - 1.20751733
+          - 0.0
+          - -1.0771198372
+        - - 0.0
+          - 0.0
+          - -1.7587123572
+        - - -1.20751733
+          - 0.0
+          - -1.0771198372
+        - - -1.17789729
+          - -0.0
+          - 0.3038854128
+        - - -2.33536408
+          - -0.0
+          - 0.9779483728
+        - - -0.0
+          - -0.0
+          - 1.0253520128
+        - - 2.1572721
+          - 0.0
+          - -1.5943122072
+        - - 0.0
+          - 0.0
+          - -2.8416910272
+        - - -2.1572721
+          - 0.0
+          - -1.5943122072
+        - - -0.0
+          - -0.0
+          - 2.1062198928
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 19
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - F
+      - C
+      - C
+      - C
+      - C
+      - C
+      - F
+      - C
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -74.46164763987046
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.33536408
+          - 0.0
+          - 0.9779483728
+        - - 1.17789729
+          - 0.0
+          - 0.3038854128
+        - - 1.20751733
+          - 0.0
+          - -1.0771198372
+        - - 0.0
+          - 0.0
+          - -1.7587123572
+        - - -1.20751733
+          - 0.0
+          - -1.0771198372
+        - - -1.17789729
+          - -0.0
+          - 0.3038854128
+        - - -2.33536408
+          - -0.0
+          - 0.9779483728
+        - - -0.0
+          - -0.0
+          - 1.0253520128
+        - - 2.1572721
+          - 0.0
+          - -1.5943122072
+        - - 0.0
+          - 0.0
+          - -2.8416910272
+        - - -2.1572721
+          - 0.0
+          - -1.5943122072
+        - - -0.0
+          - -0.0
+          - 2.1062198928
+      isotopes:
+      - 19
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 19
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - F
+      - C
+      - C
+      - C
+      - C
+      - C
+      - F
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -13.453250761561494
+        value: -13.498072066762816
       class: ThermoData
     xyz_dict:
       coords:
@@ -167,7 +315,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -63.20970706754058
+        value: -63.15925140008282
       class: ThermoData
     xyz_dict:
       coords:
@@ -251,7 +399,7 @@ label: Metadifluorobenzene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 114.09277632340684
+  value: 114.09254256142104
 multiplicity: 1
 reference_data:
   CCCBDB:

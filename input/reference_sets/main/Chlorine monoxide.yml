@@ -4,13 +4,61 @@ adjacency_list: |
   1 Cl u0 p3 c0 {2,S}
   2 O  u1 p2 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.72408113151653
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4984400064
+        - - 0.0
+          - 0.0
+          - -1.0591850136
+      isotopes:
+      - 35
+      - 16
+      symbols:
+      - Cl
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 24.65016889224808
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.4984400064
+        - - 0.0
+          - 0.0
+          - -1.0591850136
+      isotopes:
+      - 35
+      - 16
+      symbols:
+      - Cl
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 22.60347261567074
+        value: 22.601621607214387
       class: ThermoData
     xyz_dict:
       coords:
@@ -58,7 +106,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 24.487202191084588
+        value: 24.489023952710138
       class: ThermoData
     xyz_dict:
       coords:
@@ -92,7 +140,7 @@ label: Chlorine monoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 51.45240260713646
+  value: 51.45154206500549
 multiplicity: 2
 reference_data:
   ATcT:

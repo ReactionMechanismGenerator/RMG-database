@@ -7,13 +7,101 @@ adjacency_list: |
   5 H u0 p0 c0 {2,S}
   6 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 33.29144002554013
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6028391066
+          - -0.014991104
+          - -5.508e-07
+        - - -0.8102974924
+          - 0.1424172774
+          - 2.2281e-06
+        - - 1.0842849312
+          - -0.5415164488
+          - -0.8827336787
+        - - 1.0910141951
+          - 0.9792658018
+          - -0.0001187114
+        - - 1.0843243484
+          - -0.5413212847
+          - 0.8828374582
+        - - -1.2045756679
+          - -0.8034023861
+          - 2.6395e-06
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 31.971328565710294
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.6028391066
+          - -0.014991104
+          - -5.508e-07
+        - - -0.8102974924
+          - 0.1424172774
+          - 2.2281e-06
+        - - 1.0842849312
+          - -0.5415164488
+          - -0.8827336787
+        - - 1.0910141951
+          - 0.9792658018
+          - -0.0001187114
+        - - 1.0843243484
+          - -0.5413212847
+          - 0.8828374582
+        - - -1.2045756679
+          - -0.8034023861
+          - 2.6395e-06
+      isotopes:
+      - 12
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - N
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 52.45071558392715
+        value: 52.443073041967125
       class: ThermoData
     xyz_dict:
       coords:
@@ -101,7 +189,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 37.95585237574456
+        value: 37.96516236939064
       class: ThermoData
     xyz_dict:
       coords:
@@ -155,7 +243,7 @@ label: Methylamidogen anion
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 30.049203150754995
+  value: 30.049386621317556
 multiplicity: 1
 reference_data:
   ATcT:

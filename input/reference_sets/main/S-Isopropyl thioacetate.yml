@@ -24,7 +24,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -28.009812036274997
+        value: -28.063049793702067
       class: ThermoData
     xyz_dict:
       coords:
@@ -232,7 +232,7 @@ label: S-Isopropyl thioacetate
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 118.19731013256734
+  value: 118.20482078409901
 multiplicity: 1
 reference_data:
   CATCH:

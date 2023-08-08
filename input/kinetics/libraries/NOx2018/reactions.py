@@ -1310,7 +1310,7 @@ entry(
     kinetics = PDepArrhenius(
         pressures = ([0.01, 1, 10, 20, 50, 100], 'atm'),
         arrhenius = [
-            Arrhenius(A=(6.8e+24, 'cm^3/(mol*s)'), n=-3, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(8.3476e+20, 'cm^3/(mol*s)'), n=-4, Ea=(0, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(A=(5e+22, 'cm^3/(mol*s)'), n=-3.85, Ea=(2000, 'cal/mol'), T0=(1, 'K')),
             Arrhenius(
                 A = (3.4e+21, 'cm^3/(mol*s)'),
@@ -1368,6 +1368,15 @@ entry(
             ),
         ],
     ),
+    longDesc=u"""This entry has different rate constants at P = 0.01 atm than
+    the entry in the mechanism file (Glarborg et al.). In Glarborg et al.,
+    k at 0.01 atm was taken from the low-pressure limit k0 of the Troe kinetics
+    in Fernandes et al. (Fernandes et al., JPCA, 110, 13, 4442-4449). However,
+    according to the definition by Fernandes et al., k0 (7E-31*(T/300)^-3 [cm6/#2/s])
+    has to be multiplied by [M] (P/RT) to get the rate constants at a specific pressure.
+    Thus, k(P=0.01 atm) = 7E-31*(T/300)^-3 [cm6/#2/s] * P/RT
+    = 7E-31*(300^3)(6.02E23)^2(1013.25/8.314E6)(T^-4) [cm3/mol/s]
+    = 8.348E+20T^-4 [cm3/mol/s]"""
 )
 
 entry(
@@ -1810,17 +1819,26 @@ entry(
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(3.1e+18, 's^-1'), n=-1.017, Ea=(91712, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow = Arrhenius(
-            A = (5.4e+23, 'cm^3/(mol*s)'),
+            A = (3.25e+47, 'cm^3/(mol*s)'),
             n = -8.3446,
             Ea = (99596, 'cal/mol'),
             T0 = (1, 'K'),
         ),
         alpha = 0.9922,
-        T3 = (943, 'K'),
-        T1 = (47310, 'K'),
+        T3 = (47310, 'K'),
+        T1 = (943, 'K'),
         T2 = (47110, 'K'),
         efficiencies = {},
     ),
+    shortDesc = u"""The chemkin file reaction is CH3OH <=> CH2(S) + H2O""",
+    longDesc = u"""This entry has different numbers than the entry in the
+    mechanism file (Hashemi et al.). It uses the kinetic parameters from
+    the original source (Jasper et al. J. Phys. Chem. A, 2007, 111, 19,
+    3932-3950). Jasper et al. reported kinetic unit in molecule, cm^3,
+    and s, but Hashemi et al. didn't multiply the A factor of the low-pressure
+    limit Arrhenius by Avogadro's number when compiling the mechanism (with
+    the unit in mol, cm^3, and s). Besides, Hashemi et al. mistakenly reversed
+    the order of the T1 and T3 parameters."""
 )
 
 entry(

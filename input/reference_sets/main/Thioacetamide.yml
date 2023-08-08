@@ -10,13 +10,131 @@ adjacency_list: |
   8 H u0 p0 c0 {2,S}
   9 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.9381165692257483
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2356623562
+          - -1.097908795
+          - 0.0003887118
+        - - 0.2748681885
+          - 0.0597908572
+          - 0.0078050152
+        - - -1.356373945
+          - -0.1206940976
+          - -0.0003572445
+        - - 0.8634042106
+          - 1.264608303
+          - 4.84355e-05
+        - - 1.9987087916
+          - -0.9725218447
+          - 0.7729611195
+        - - 1.741547899
+          - -1.1442247691
+          - -0.9677499131
+        - - 0.704812966
+          - -2.0304895624
+          - 0.1626310407
+        - - 0.2878597741
+          - 2.0877238648
+          - -0.0150464674
+        - - 1.8620409463
+          - 1.3670673782
+          - 0.0034187207
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.447576392253828
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.2356623562
+          - -1.097908795
+          - 0.0003887118
+        - - 0.2748681885
+          - 0.0597908572
+          - 0.0078050152
+        - - -1.356373945
+          - -0.1206940976
+          - -0.0003572445
+        - - 0.8634042106
+          - 1.264608303
+          - 4.84355e-05
+        - - 1.9987087916
+          - -0.9725218447
+          - 0.7729611195
+        - - 1.741547899
+          - -1.1442247691
+          - -0.9677499131
+        - - 0.704812966
+          - -2.0304895624
+          - 0.1626310407
+        - - 0.2878597741
+          - 2.0877238648
+          - -0.0150464674
+        - - 1.8620409463
+          - 1.3670673782
+          - 0.0034187207
+      isotopes:
+      - 12
+      - 12
+      - 32
+      - 14
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - S
+      - N
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 13.500327082527141
+        value: 13.475412271359865
       class: ThermoData
     xyz_dict:
       coords:
@@ -134,7 +252,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 3.9290994356405866
+        value: 3.958188102793111
       class: ThermoData
     xyz_dict:
       coords:
@@ -203,7 +321,7 @@ label: Thioacetamide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 75.13284741712727
+  value: 75.14050125951678
 multiplicity: 1
 reference_data:
   CATCH:

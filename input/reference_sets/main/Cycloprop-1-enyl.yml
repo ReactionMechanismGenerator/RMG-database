@@ -8,13 +8,101 @@ adjacency_list: |
   5 H u0 p0 c0 {1,S}
   6 H u0 p0 c0 {2,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 124.98491180183402
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8225460027
+          - 0.1675215015
+          - -0.0
+        - - -0.757233843
+          - 0.3446144597
+          - -0.0
+        - - -0.2738036066
+          - -0.8309497019
+          - 0.0
+        - - 1.3646346512
+          - 0.387221877
+          - 0.9168361
+        - - 1.3646346512
+          - 0.387221877
+          - -0.9168361
+        - - -1.4783206208
+          - 1.1384386909
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 124.53434835215792
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.8225460027
+          - 0.1675215015
+          - -0.0
+        - - -0.757233843
+          - 0.3446144597
+          - -0.0
+        - - -0.2738036066
+          - -0.8309497019
+          - 0.0
+        - - 1.3646346512
+          - 0.387221877
+          - 0.9168361
+        - - 1.3646346512
+          - 0.387221877
+          - -0.9168361
+        - - -1.4783206208
+          - 1.1384386909
+          - -0.0
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 148.61484248179377
+        value: 148.60187052682818
       class: ThermoData
     xyz_dict:
       coords:
@@ -102,7 +190,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 131.21295275704523
+        value: 131.2275865142746
       class: ThermoData
     xyz_dict:
       coords:
@@ -156,7 +244,7 @@ label: Cycloprop-1-enyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 39.05592359170969
+  value: 39.055837677194994
 multiplicity: 2
 reference_data:
   ATcT:

@@ -7,13 +7,91 @@ adjacency_list: |
   4 H u0 p0 c0 {1,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 132.64386165478038
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1171968795
+          - -9.426e-07
+          - -2.1198e-06
+        - - -0.1995389105
+          - 4.2075e-06
+          - 1.18775e-05
+        - - -1.4787456605
+          - -1.8024e-06
+          - -6.6929e-06
+        - - 1.6832685395
+          - 0.9271886174
+          - -9.1945e-06
+        - - 1.6832576095
+          - -0.9271973926
+          - -9.194e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 132.37297257314967
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.1171968795
+          - -9.426e-07
+          - -2.1198e-06
+        - - -0.1995389105
+          - 4.2075e-06
+          - 1.18775e-05
+        - - -1.4787456605
+          - -1.8024e-06
+          - -6.6929e-06
+        - - 1.6832685395
+          - 0.9271886174
+          - -9.1945e-06
+        - - 1.6832576095
+          - -0.9271973926
+          - -9.194e-06
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 159.7619938498664
+        value: 159.75231481185452
       class: ThermoData
     xyz_dict:
       coords:
@@ -91,7 +169,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 143.4655780413383
+        value: 143.47660617481688
       class: ThermoData
     xyz_dict:
       coords:
@@ -140,7 +218,7 @@ label: Propadienylidene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 38.04798346922994
+  value: 38.04786658823705
 multiplicity: 1
 reference_data:
   ATcT:

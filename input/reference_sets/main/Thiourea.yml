@@ -9,13 +9,121 @@ adjacency_list: |
   7 H u0 p0 c0 {3,S}
   8 H u0 p0 c0 {3,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 6.040608174127556
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.04096277
+          - -1.1409026918
+          - 0.042531916
+        - - -0.3128034608
+          - -3.7421e-06
+          - -0.0003132823
+        - - -1.0408501083
+          - 1.1409954045
+          - -0.0424712361
+        - - 1.3451726749
+          - -4.10242e-05
+          - 3.90717e-05
+        - - -2.0080262198
+          - -1.1469020064
+          - -0.2302441435
+        - - -0.5288327935
+          - -2.0001859511
+          - -0.0373493928
+        - - -2.007823867
+          - 1.1469643678
+          - 0.2306302136
+        - - -0.5285690046
+          - 2.0001534413
+          - 0.03779311
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - S
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 5.035105765304874
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.04096277
+          - -1.1409026918
+          - 0.042531916
+        - - -0.3128034608
+          - -3.7421e-06
+          - -0.0003132823
+        - - -1.0408501083
+          - 1.1409954045
+          - -0.0424712361
+        - - 1.3451726749
+          - -4.10242e-05
+          - 3.90717e-05
+        - - -2.0080262198
+          - -1.1469020064
+          - -0.2302441435
+        - - -0.5288327935
+          - -2.0001859511
+          - -0.0373493928
+        - - -2.007823867
+          - 1.1469643678
+          - 0.2306302136
+        - - -0.5285690046
+          - 2.0001534413
+          - 0.03779311
+      isotopes:
+      - 14
+      - 12
+      - 14
+      - 32
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - N
+      - C
+      - N
+      - S
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 7.234410461870958
+        value: 7.206984501286538
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +231,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 1.0491906410116847
+        value: 1.0807717348321202
       class: ThermoData
     xyz_dict:
       coords:
@@ -187,7 +295,7 @@ label: Thiourea
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 76.12094780596989
+  value: 76.12874949583052
 multiplicity: 1
 reference_data:
   CCCBDB:

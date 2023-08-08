@@ -4,13 +4,71 @@ adjacency_list: |
   2 N u0 p1 c0 {3,T}
   3 C u0 p0 c0 {1,S} {2,T}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.6589069349738057
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -5.33957e-05
+          - 1.1095845295
+        - - 0.0
+          - 0.0001680442
+          - -0.1503530704
+        - - -0.0
+          - -7.53862e-05
+          - -1.2977346205
+      isotopes:
+      - 19
+      - 12
+      - 14
+      symbols:
+      - F
+      - C
+      - N
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 1.2926439624764583
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - -5.33957e-05
+          - 1.1095845295
+        - - 0.0
+          - 0.0001680442
+          - -0.1503530704
+        - - -0.0
+          - -7.53862e-05
+          - -1.2977346205
+      isotopes:
+      - 19
+      - 12
+      - 14
+      symbols:
+      - F
+      - C
+      - N
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 9.301803597939374
+        value: 9.297404726793971
       class: ThermoData
     xyz_dict:
       coords:
@@ -68,7 +126,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 3.6443189278148065
+        value: 3.6491330131753537
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +165,7 @@ label: Cyanic fluoride
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 45.015847353309475
+  value: 45.01590695795924
 multiplicity: 1
 reference_data:
   ATcT:

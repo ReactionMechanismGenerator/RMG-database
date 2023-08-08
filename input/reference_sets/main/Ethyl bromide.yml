@@ -15,7 +15,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -9.163946564944784
+        value: -9.181452034580724
       class: ThermoData
     xyz_dict:
       coords:
@@ -123,7 +123,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -16.145136315804436
+        value: -16.12547052977372
       class: ThermoData
     xyz_dict:
       coords:
@@ -187,7 +187,7 @@ label: Ethyl bromide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 108.96510693136717
+  value: 108.96514255445865
 multiplicity: 1
 reference_data:
   ATcT:

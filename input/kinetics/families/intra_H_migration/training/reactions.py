@@ -8980,3 +8980,146 @@ Calculated by Jim at the CBS-QB3 level
 """,
 )
 
+entry(
+    index = 432,
+    label = "C24H15 <=> C24H15-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.067e+07, 's^-1'), n=1.344, Ea=(5.743, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ["'M. Frenklach'", "'R. I. Singh'", "'A. M. Mebel'"],
+        title = 'On the low-temperature limit of HACA',
+        journal = "'Proc. Combust. Inst.'",
+        volume = "'37'",
+        pages = "''",
+        year = "'2018'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""G3(MP2,CC)//B3LYP/6-311G(d,p) level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
+Original entry: W3 <=> W1
+""",
+)
+
+entry(
+    index = 433,
+    label = "C16H11 <=> C16H11-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.546e+09, 's^-1'), n=0.732, Ea=(6.008, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
+Original entry: W1 <=> W4
+""",
+)
+
+entry(
+    index = 434,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.9e+12, 's^-1'), n=0.45, Ea=(45.74, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> 1-Phenylvinyl
+""",
+)
+
+entry(
+    index = 435,
+    label = "C8H7-3 <=> C8H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.9e+12, 's^-1'), n=0.45, Ea=(45.74, 'kcal/mol'), T0=(1, 'K')),
+    rank = 5,
+    longDesc = 
+u"""
+Training reaction from Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
+Original entry: 2-Phenylvinyl <=> 1-Phenylvinyl
+""",
+)
+
+entry(
+    index = 436,
+    label = "C7H15-3 <=> C7H15-4",
+    degeneracy = 9.0,
+    kinetics = Arrhenius(A=(3.65e+06, 's^-1'), n=1.5, Ea=(20.04, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
+""",
+)
+
+entry(
+    index = 437,
+    label = "C8H17 <=> C8H17-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.28e+07, 's^-1'), n=1.41, Ea=(13.149, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
+""",
+)
+
+entry(
+    index = 438,
+    label = "C8H17-3 <=> C8H17-4",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(3.08e+07, 's^-1'), n=1.17, Ea=(9.339, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
+""",
+)
+
+entry(
+    index = 439,
+    label = "C7H15-5 <=> C7H15-6",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(1.25e+06, 's^-1'), n=1.51, Ea=(20.51, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = ['HongBo Ning','ChunMing Gong','ZeRong Li','XiangYuan Li'],
+        title = 'Pressure-Dependent Kinetics of Initial Reactions in Iso-octane Pyrolysis',
+        journal = 'J. Phys. Chem. A',
+        pages = '4093-4107',
+        year = '2015',
+        url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
+    ),
+    rank = 6,
+    longDesc = 
+u"""
+Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are calculated using the ChemRate program.
+""",
+)
+

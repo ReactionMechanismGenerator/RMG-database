@@ -13,13 +13,161 @@ adjacency_list: |
   11 H u0 p0 c0 {4,S}
   12 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 0.5007216646516718
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4433402789
+          - -0.5711919199
+          - 2.53976e-05
+        - - 0.6393199002
+          - 0.7192233526
+          - -3.40582e-05
+        - - -0.8521404595
+          - 0.5569100816
+          - 3.20811e-05
+        - - -1.5220022527
+          - -0.5857079297
+          - -1.17081e-05
+        - - 1.224765745
+          - -1.1766133965
+          - -0.8822991045
+        - - 2.5131280321
+          - -0.3573870167
+          - -0.00021825
+        - - 1.2250914082
+          - -1.1763300441
+          - 0.8826274328
+        - - 0.9150703734
+          - 1.3269876431
+          - -0.8693654135
+        - - 0.915157335
+          - 1.3271147695
+          - 0.8691787055
+        - - -1.415553592
+          - 1.487485992
+          - 8.85716e-05
+        - - -2.6051110552
+          - -0.5982369782
+          - 2.32598e-05
+        - - -1.0236530478
+          - -1.5484224772
+          - -0.0001054763
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -0.11445109270768154
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.4433402789
+          - -0.5711919199
+          - 2.53976e-05
+        - - 0.6393199002
+          - 0.7192233526
+          - -3.40582e-05
+        - - -0.8521404595
+          - 0.5569100816
+          - 3.20811e-05
+        - - -1.5220022527
+          - -0.5857079297
+          - -1.17081e-05
+        - - 1.224765745
+          - -1.1766133965
+          - -0.8822991045
+        - - 2.5131280321
+          - -0.3573870167
+          - -0.00021825
+        - - 1.2250914082
+          - -1.1763300441
+          - 0.8826274328
+        - - 0.9150703734
+          - 1.3269876431
+          - -0.8693654135
+        - - 0.915157335
+          - 1.3271147695
+          - 0.8691787055
+        - - -1.415553592
+          - 1.487485992
+          - 8.85716e-05
+        - - -2.6051110552
+          - -0.5982369782
+          - 2.32598e-05
+        - - -1.0236530478
+          - -1.5484224772
+          - -0.0001054763
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 24.805738631354473
+        value: 24.77669407399796
       class: ThermoData
     xyz_dict:
       coords:
@@ -167,7 +315,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 5.438399626101756
+        value: 5.471213365466294
       class: ThermoData
     xyz_dict:
       coords:
@@ -251,7 +399,7 @@ label: 1-Butene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 56.106325278865256
+  value: 56.106334592091784
 multiplicity: 1
 reference_data:
   ATcT:

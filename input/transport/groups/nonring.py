@@ -11,6 +11,8 @@ PhD Thesis, Massachusetts Institute of Technology: Cambridge, MA, 1984.
 
 Note the Pc contributions are all the negative of what is in Table 3 of Joback's thesis.
 The Tb contributions are from table 13.
+
+`structureIndex` is 0 if linear, 1 if makes molecule nonlinear
 """
 entry(
     index = 0,
@@ -126,6 +128,72 @@ entry(
 
 entry(
     index = 5,
+    label = "CsF",
+    group = 
+"""
+1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 {1,S}
+3   R!H u0 {1,S}
+4   R!H u0 {1,S}
+5   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0067,
+        Pc = 0.0043,
+        Vc = 27,
+        Tb = 23.94,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for CsF""",
+    longDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
+)
+
+entry(
+    index = 6,
+    label = "CsF2",
+    group = 
+"""
+1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 {1,S}
+3   F1s u0 {1,S}
+4   R!H u0 {1,S}
+5   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0067,
+        Pc = 0.0043,
+        Vc = 27,
+        Tb = 20.17,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for CsF2""",
+    longDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
+)
+
+entry(
+    index = 7,
+    label = "CsF3",
+    group = 
+"""
+1 * C    u0 {2,S} {3,S} {4,S} {5,S}
+2   F1s u0 {1,S}
+3   F1s u0 {1,S}
+4   F1s u0 {1,S}
+5   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0067,
+        Pc = 0.0043,
+        Vc = 27,
+        Tb = 29.96,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for CsF3""",
+    longDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
+)
+
+entry(
+    index = 8,
     label = "CdH2R",
     group = 
 """
@@ -146,7 +214,7 @@ entry(
 )
 
 entry(
-    index = 7,
+    index = 9,
     label = "CdR3",
     group = 
 """
@@ -167,7 +235,7 @@ entry(
 )
 
 entry(
-    index = 14,
+    index = 10,
     label = "Ketone_Ccentered",
     group = 
 """
@@ -188,7 +256,7 @@ entry(
 )
 
 entry(
-    index = 18,
+    index = 11,
     label = "Acid_Ccentered",
     group = 
 """
@@ -210,7 +278,7 @@ entry(
 )
 
 entry(
-    index = 21,
+    index = 12,
     label = "Ester_Ccentered",
     group = 
 """
@@ -232,7 +300,7 @@ entry(
 )
 
 entry(
-    index = 6,
+    index = 13,
     label = "CdHR2",
     group = 
 """
@@ -253,7 +321,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 14,
     label = "Aldehyde_Ccentered",
     group = 
 """
@@ -274,7 +342,7 @@ entry(
 )
 
 entry(
-    index = 8,
+    index = 15,
     label = "CddR2",
     group = 
 """
@@ -294,7 +362,7 @@ entry(
 )
 
 entry(
-    index = 9,
+    index = 16,
     label = "CtHR",
     group = 
 """
@@ -314,7 +382,7 @@ entry(
 )
 
 entry(
-    index = 10,
+    index = 17,
     label = "CtR2",
     group = 
 """
@@ -334,7 +402,7 @@ entry(
 )
 
 entry(
-    index = 0,
+    index = 18,
     label = "O_centered",
     group = 
 """
@@ -346,7 +414,7 @@ entry(
 )
 
 entry(
-    index = 11,
+    index = 19,
     label = "Alcohol",
     group = 
 """
@@ -366,7 +434,7 @@ entry(
 )
 
 entry(
-    index = 12,
+    index = 20,
     label = "Phenol",
     group = 
 """
@@ -386,7 +454,7 @@ entry(
 )
 
 entry(
-    index = 19,
+    index = 21,
     label = "Acid_Ocentered1",
     group = 
 """
@@ -408,7 +476,7 @@ entry(
 )
 
 entry(
-    index = 13,
+    index = 22,
     label = "Ether",
     group = 
 """
@@ -428,7 +496,7 @@ entry(
 )
 
 entry(
-    index = 22,
+    index = 23,
     label = "Ester_Ocentered1",
     group = 
 """
@@ -469,7 +537,7 @@ entry(
 )
 
 entry(
-    index = 15,
+    index = 25,
     label = "Ketone_Ocentered",
     group = 
 """
@@ -490,7 +558,7 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 26,
     label = "Aldehyde_Ocentered",
     group = 
 """
@@ -511,7 +579,7 @@ entry(
 )
 
 entry(
-    index = 20,
+    index = 27,
     label = "Acid_Ocentered2",
     group = 
 """
@@ -533,7 +601,7 @@ entry(
 )
 
 entry(
-    index = 23,
+    index = 28,
     label = "Ester_Ocentered2",
     group = 
 """
@@ -555,7 +623,7 @@ entry(
 )
 
 entry(
-    index = 0,
+    index = 29,
     label = "S_centered",
     group = 
 """
@@ -567,7 +635,7 @@ entry(
 )
 
 entry(
-    index = 25,
+    index = 30,
     label = "Thiol",
     group = 
 """
@@ -587,7 +655,7 @@ entry(
 )
 
 entry(
-    index = 26,
+    index = 31,
     label = "Thioether",
     group = 
 """
@@ -606,6 +674,198 @@ entry(
     longDesc = u"""""",
 )
 
+entry(
+    index = 32,
+    label = "F",
+    group = 
+"""
+1 * F1s  u0
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0111,
+        Pc = -0.0057,
+        Vc = 27,
+        Tb = 6.31,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 33,
+    label = "F-Cs",
+    group = 
+"""
+1 * F1s  u0 {2,S}
+2   Cs   u0 {1,S} {3,S} {4,S} {5,S}
+3   R!H  u0 {2,S}
+4   R!H  u0 {2,S}
+5   R!H  u0 {2,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0,
+        Pc = 0,
+        Vc = 0,
+        Tb = 0,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for F-Cs""",
+    longDesc = u"""Corrected for with carbon center groups""",
+)
+
+entry(
+    index = 34,
+    label = "Cl",
+    group = 
+"""
+1 * Cl1s  u0
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0105,
+        Pc = -0.0049,
+        Vc = 58,
+        Tb = 38.13,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for chlorine""",
+    longDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
+)
+
+entry(
+    index = 35,
+    label = "Br",
+    group = 
+"""
+1 * Br1s  u0
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0133,
+        Pc = 0.0057,
+        Vc = 71,
+        Tb = 66.86,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for bromine""",
+    longDesc = u"""Tb from https://doi.org/10.1021/ie00008a029""",
+)
+
+entry(
+    index = 36,
+    label = "N_centered",
+    group =
+"""
+1 * N ux
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 37,
+    label = "NsH2R",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   H   u0 {1,S}
+4   H   u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0243,
+        Pc = 0.0109,
+        Vc = 38,
+        Tb = 73.23,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsH2R""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 38,
+    label = "NsHR2",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   R!H u0 {1,S}
+4   H   u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0295,
+        Pc = 0.0077,
+        Vc = 35,
+        Tb = 50.17,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsHR2""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 39,
+    label = "NsR3",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   R!H u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0169,
+        Pc = 0.0074,
+        Vc = 9,
+        Tb = 11.74,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsR3""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 40,
+    label = "Nt-CtR",
+    group =
+"""
+1 * N3t u0 p1 {2,T}
+2   Ct  u0 {1,T} {3,S}
+3   R!H u0 {2,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0496,
+        Pc = -0.0101,
+        Vc = 91,
+        Tb = 125.66,
+        structureIndex = 0,
+    ),
+    shortDesc = u"""nonring_library value for Nt-CtR""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 41,
+    label = "NsOs2R",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   O   u0 {1,S}
+3   O   u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0437,
+        Pc = 0.0064,
+        Vc = 91,
+        Tb = 152.54,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""nonring_library value for NsOs2R""",
+    longDesc = u"""""",
+)
+
 tree(
 """
 L1: R
@@ -614,6 +874,9 @@ L1: R
         L3: CsH2R2
         L3: CsHR3
         L3: CsR4
+            L4: CsF
+                L5: CsF2
+                    L6: CsF3
         L3: CdH2R
         L3: CdR3
             L4: Ketone_Ccentered
@@ -638,6 +901,16 @@ L1: R
     L2: S_centered
         L3: Thiol
         L3: Thioether
+    L2: F
+        L3: F-Cs
+    L2: Cl
+    L2: Br
+    L2: N_centered
+        L3: NsH2R
+        L3: NsHR2
+        L3: NsR3
+            L4: NsOs2R
+        L3: Nt-CtR
 """
 )
 

@@ -440,3 +440,87 @@ u"""
 Geometry could not converge at wB97x-D3/6-311++G(3df,3pd) (alongd ref - xq1492)
 """,
 )
+
+entry(
+    label = "C2_triplebond",
+    species =
+"""
+1 C u0 p1 c-1 {2,T}
+2 C u0 p0 c+1 {1,T}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+https://pubs.acs.org/doi/pdf/10.1021/ct400867h discusses complex wavefunction for C2
+and that it cannot be assigned definitive bond order. We are forbidding the C2 triple bond
+becuase we do not have good thermo for `Ctc` (C u0 p0 c+1 {1,T}) atomtype
+""",
+)
+
+entry(
+    label = "CO2X2",
+    species =
+"""
+1 O u0 p2 c0 {3,S} {5,S}
+2 O u0 p2 c0 {3,D}
+3 C u0 p0 c0 {1,S} {2,D} {4,S}
+4 X u0 p0 c0 {3,S}
+5 X u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+We assume that CO2 binds only via physisorption to the surface
+""",
+)
+
+entry(
+    label = "CO2X3",
+    species =
+"""
+1 O u0 p2 c0 {3,S} {6,S}
+2 O u0 p2 c0 {3,S} {5,S}
+3 C u0 p0 c0 {1,S} {2,S} {4,D}
+4 X u0 p0 c0 {3,D}
+5 X u0 p0 c0 {2,S}
+6 X u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+We assume that CO2 binds only via physisorption to the surface
+""",
+)
+
+
+entry(
+    label = "O2X2",
+    species =
+"""
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 X u0 p0 c0 {1,S}
+4 X u0 p0 c0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+O2 dissociates upon adsorption
+""",
+)
+
+entry(
+    label = "OCX2",
+    species =
+"""
+1 O u0 p2 c0 {2,S} {3,S}
+2 C u0 p0 c0 {1,S} {4,T}
+3 X u0 p0 c0 {1,S}
+4 X u0 p0 c0 {2,T}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+CO binds in a monodentate configuration
+""",
+)

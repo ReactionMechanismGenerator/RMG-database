@@ -4,13 +4,71 @@ adjacency_list: |
   2 N u0 p0 c+1 {1,D} {3,D}
   3 N u0 p2 c-1 {2,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 19.954753132807866
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - -3.70181e-05
+          - 1.1875498436
+        - - 0.0
+          - 7.21022e-05
+          - 0.0730019236
+        - - -0.0
+          - -3.06986e-05
+          - -1.1029827964
+      isotopes:
+      - 14
+      - 14
+      - 16
+      symbols:
+      - N
+      - N
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 19.601773332167127
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -0.0
+          - -3.70181e-05
+          - 1.1875498436
+        - - 0.0
+          - 7.21022e-05
+          - 0.0730019236
+        - - -0.0
+          - -3.06986e-05
+          - -1.1029827964
+      isotopes:
+      - 14
+      - 14
+      - 16
+      symbols:
+      - N
+      - N
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 4.179681517144128
+        value: 4.176352289393357
       class: ThermoData
     xyz_dict:
       coords:
@@ -68,7 +126,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 17.330894464962466
+        value: 17.334575937249053
       class: ThermoData
     xyz_dict:
       coords:
@@ -107,7 +165,7 @@ label: Nitrous oxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 44.01288363700843
+  value: 44.01312205560748
 multiplicity: 1
 reference_data:
   ATcT:

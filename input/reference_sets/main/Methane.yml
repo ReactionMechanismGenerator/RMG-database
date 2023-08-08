@@ -6,13 +6,91 @@ adjacency_list: |
   4 H u0 p0 c0 {1,S}
   5 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -17.68195502585609
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 4.39734e-05
+          - 3.40665e-05
+          - 9.86161e-05
+        - - 1.0146840203
+          - -0.2147949397
+          - 0.3321533414
+        - - -0.7105470564
+          - -0.5073918644
+          - 0.6507783699
+        - - -0.1751197744
+          - 1.0741608078
+          - 0.0386785864
+        - - -0.1292810299
+          - -0.3521784025
+          - -1.0222019946
+      isotopes:
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -17.71375968929687
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 4.39734e-05
+          - 3.40665e-05
+          - 9.86161e-05
+        - - 1.0146840203
+          - -0.2147949397
+          - 0.3321533414
+        - - -0.7105470564
+          - -0.5073918644
+          - 0.6507783699
+        - - -0.1751197744
+          - 1.0741608078
+          - 0.0386785864
+        - - -0.1292810299
+          - -0.3521784025
+          - -1.0222019946
+      isotopes:
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -19.086506446247743
+        value: -19.08824062883603
       class: ThermoData
     xyz_dict:
       coords:
@@ -90,7 +168,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -18.143594795397767
+        value: -18.141411428561238
       class: ThermoData
     xyz_dict:
       coords:
@@ -139,7 +217,7 @@ label: Methane
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 16.04246156467581
+  value: 16.04252582593884
 multiplicity: 1
 reference_data:
   ATcT:

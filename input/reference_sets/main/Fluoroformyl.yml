@@ -5,13 +5,71 @@ adjacency_list: |
   2 O u0 p2 c0 {3,D}
   3 C u1 p0 c0 {1,S} {2,D}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -42.996966566879465
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.093595549
+          - -0.1217743557
+          - -0.0
+        - - -0.1218591785
+          - 0.4009582696
+          - 0.0
+        - - -1.1389006087
+          - -0.163722552
+          - 0.0
+      isotopes:
+      - 19
+      - 12
+      - 16
+      symbols:
+      - F
+      - C
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -42.950599892727034
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.093595549
+          - -0.1217743557
+          - -0.0
+        - - -0.1218591785
+          - 0.4009582696
+          - 0.0
+        - - -1.1389006087
+          - -0.163722552
+          - 0.0
+      isotopes:
+      - 19
+      - 12
+      - 16
+      symbols:
+      - F
+      - C
+      - O
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -33.89853573380409
+        value: -33.90270045598979
       class: ThermoData
     xyz_dict:
       coords:
@@ -69,7 +127,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -40.61242109857666
+        value: -40.60801036216742
       class: ThermoData
     xyz_dict:
       coords:
@@ -108,7 +166,7 @@ label: Fluoroformyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 47.00850623208034
+  value: 47.00844662743058
 multiplicity: 2
 reference_data:
   ATcT:

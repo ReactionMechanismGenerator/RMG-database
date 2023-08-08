@@ -25,7 +25,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 75.20106419941153
+        value: 75.14794629402427
       class: ThermoData
     xyz_dict:
       coords:
@@ -243,7 +243,7 @@ label: meta-Xylene
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 106.16500982285201
+  value: 106.16484265043587
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -11,7 +11,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 7.573194130345597
+        value: 7.566526037355576
       class: ThermoData
     xyz_dict:
       coords:
@@ -79,7 +79,7 @@ label: Chlorodioxidanyl
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 67.45180307198653
+  value: 67.45094252985555
 multiplicity: 2
 reference_data:
   ATcT:

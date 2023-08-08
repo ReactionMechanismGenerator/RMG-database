@@ -11,13 +11,141 @@ adjacency_list: |
   9  H u0 p0 c0 {4,S}
   10 H u0 p0 c0 {4,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -22.261620153897276
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.5020049194
+          - 0.1013703131
+          - 0.1458772337
+        - - -0.149014532
+          - -0.0454621153
+          - -0.4844137251
+        - - 1.0369960093
+          - 0.6105706224
+          - 0.0551685292
+        - - 0.8209335299
+          - -0.7779292385
+          - 0.2481795773
+        - - -1.4059165294
+          - 0.3346636008
+          - 1.2070492472
+        - - -2.0728018573
+          - -0.8240221991
+          - 0.0487606105
+        - - -2.0647955423
+          - 0.901393622
+          - -0.3399185854
+        - - -0.1480871523
+          - -0.274123678
+          - -1.5491814827
+        - - 0.9441730408
+          - 1.2214832529
+          - 0.9496868444
+        - - 1.8641004541
+          - 0.8651663878
+          - -0.601625479
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -23.00465092653611
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.5020049194
+          - 0.1013703131
+          - 0.1458772337
+        - - -0.149014532
+          - -0.0454621153
+          - -0.4844137251
+        - - 1.0369960093
+          - 0.6105706224
+          - 0.0551685292
+        - - 0.8209335299
+          - -0.7779292385
+          - 0.2481795773
+        - - -1.4059165294
+          - 0.3346636008
+          - 1.2070492472
+        - - -2.0728018573
+          - -0.8240221991
+          - 0.0487606105
+        - - -2.0647955423
+          - 0.901393622
+          - -0.3399185854
+        - - -0.1480871523
+          - -0.274123678
+          - -1.5491814827
+        - - 0.9441730408
+          - 1.2214832529
+          - 0.9496868444
+        - - 1.8641004541
+          - 0.8651663878
+          - -0.601625479
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 16
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - O
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -2.503006762434682
+        value: -2.525928264485112
       class: ThermoData
     xyz_dict:
       coords:
@@ -145,7 +273,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: -18.986640386458852
+        value: -18.960838952105252
       class: ThermoData
     xyz_dict:
       coords:
@@ -219,7 +347,7 @@ label: Propylene oxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 58.079144423999
+  value: 58.07915140891889
 multiplicity: 1
 reference_data:
   CCCBDB:

@@ -220,3 +220,26 @@ and the other two are on a side chain (like styrene). Atom labels written starti
 """,
 )
 
+forbidden(
+    label = "3_ring_molecule",
+    group =
+"""
+1     C u0 p0 c0 {2,D} {3,S} {7,S}
+2     C u0 p0 c0 {1,D} {4,S} {8,S}
+3  *4 C u0 p0 c0 {1,S} {5,D} {6,S}
+4  *2 C u0 p0 c0 {2,S} {5,S} {9,D}
+5  *3 C u0 p0 c0 {3,D} {4,S} 
+6  *5 C u0 p0 c0 {3,S} {10,D}
+7     C u0 p0 c0 {1,S} {11,D}
+8     C u0 p0 c0 {2,S} {12,D}
+9  *1 C u0 p0 c0 {4,D} {12,S}
+10 *6 C u0 p0 c0 {6,D} {11,S}
+11    C u0 p0 c0 {7,D} {10,S}
+12    C u0 p0 c0 {8,D} {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid a molecule from undergoing this reaction if the necessary carbon atoms are on three rings..
+""",
+)

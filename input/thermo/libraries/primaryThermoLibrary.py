@@ -884,3 +884,324 @@ Laboratories, Livermore, California, 1991
 """,
 )
 
+entry(
+    index = 37,
+    label = "HF",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.43657,0.000486021,-1.2524e-06,1.36475e-09,-4.09574e-13,-33800.1,1.20682], Tmin=(298,'K'), Tmax=(1250,'K')),
+            NASAPolynomial(coeffs=[2.7813,0.00103959,-2.41735e-07,2.68416e-11,-1.09766e-15,-33504.2,5.0197], Tmin=(1250,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-281.113,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
+    longDesc = 
+u"""
+71STUPRO
+Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt which is described as
+the updated NIST HFC mechanism in https://doi.org/10.1016/j.jfluchem.2019.05.002
+"71STUPRO" presumably refers to the
+JANAF Thermochemical Tables, Second Edition
+by Daniel R. Stull and H. Prophet. (1971)
+http://dx.doi.org/10.6028/NBS.NSRDS.37
+""",
+)
+
+entry(
+    index = 38,
+    label = "F",
+    molecule = 
+"""
+multiplicity 2
+1 F u1 p3 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.90371,-0.000635296,2.64735e-07,7.69063e-11,-5.45254e-14,8672.27,2.70828], Tmin=(298,'K'), Tmax=(1400,'K')),
+            NASAPolynomial(coeffs=[2.65117,-0.00014013,5.19236e-08,-8.84954e-12,5.9028e-16,8758.29,4.07857], Tmin=(1400,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (3000,'K'),
+        E0 = (72.8916,'kJ/mol'),
+        Cp0 = (20.7862,'J/mol/K'),
+        CpInf = (20.7862,'J/mol/K'),
+    ),
+    shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
+    longDesc = 
+u"""
+71STUPRO
+Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt which is described as
+the updated NIST HFC mechanism in https://doi.org/10.1016/j.jfluchem.2019.05.002
+"71STUPRO" presumably refers to the
+JANAF Thermochemical Tables, Second Edition
+by Daniel R. Stull and H. Prophet. (1971)
+http://dx.doi.org/10.6028/NBS.NSRDS.37
+which it does indeed match (p.679).
+The data pre-date 1954.
+""",
+)
+
+entry(
+    index = 39,
+    label = "Br2",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 Br u0 p3 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.34375,0.00634804,-1.36289e-05,1.31573e-08,-4.67761e-12,2531.64,9.07775], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[5.18756,-0.00138705,9.35013e-07,-2.07121e-10,1.41849e-14,2103.48,0.0761703], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+        E0 = (21.4067,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = """Burcat""",
+    longDesc = 
+"""
+BrBr
+7726-95-6
+From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
+which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
+Br2  GAS  Calculated from CODATA Key Values and Gurvich's 89 Tables
+HF298=30.88+/-0.11 kJ REF=ATcT C   {HF298=30.91 kJ HF0=45.705 kJ. REF= Gurvich.}
+Max Lst Sq Error Cp @ 6000 K 0.36 %.
+""",
+)
+
+entry(
+    index = 40,
+    label = "HBr",
+    molecule = 
+"""
+1 Br u0 p3 c0 {2,S}
+2 H  u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.48118,0.000342734,-1.80533e-06,3.61181e-09,-1.74298e-12,-5355.37,4.01309], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.83372,0.00148518,-5.13137e-07,8.73711e-11,-5.72363e-15,-5176.21,7.43754], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+        E0 = (-44.4806,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = """Burcat""",
+    longDesc = 
+"""
+From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
+which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
+10035-10-6
+HBr HYDROBROMIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Shenyavskaya & Yougman
+JPCRD 33,(2004),923  HF298=-35.85+/-0.15 kJ  REF=ATcT C  {HF298=-36.05+/-0.15 kJ
+REF=Ruscic ATcT D;  HF298=-36.29+/-0.16 kJ  REF=Gurvich 89}  Max Lst Sq Error Cp 
+@ 6000 K 0.33%
+""",
+)
+
+entry(
+    index = 41,
+    label = "Br",
+    molecule = 
+"""
+multiplicity 2
+1 Br u1 p3 c0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.48422,0.000161406,-5.63461e-07,7.46724e-10,-2.58956e-13,12708.4,6.86657], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[2.08902,0.000711612,-2.69887e-07,4.15012e-11,-2.3138e-15,12855.6,9.07043], Tmin=(1000,'K'), Tmax=(6000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
+        E0 = (105.654,'kJ/mol'),
+        Cp0 = (20.7862,'J/mol/K'),
+        CpInf = (20.7862,'J/mol/K'),
+    ),
+    shortDesc = """Burcat""",
+    longDesc = 
+"""
+From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
+which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
+10097-32-2
+BR   Calculated by Ruscic ATcT C  HF298=111.852+/-0.06 kJ  REF=ATcT C
+{HF298=111.86+/-0.06  REF=JANAF 82}  Max Lst Sq Error Cp @ 1200 K 0.19%
+""",
+)
+
+entry(
+    index = 42,
+    label = "F2",
+    molecule = 
+"""
+1 F u0 p3 c0 {2,S}
+2 F u0 p3 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.66955,0.00529418,-6.47091e-06,3.91833e-09,-9.38451e-13,-980.801,7.82659], Tmin=(298,'K'), Tmax=(1150,'K')),
+            NASAPolynomial(coeffs=[4.05774,0.000600034,-2.19218e-07,4.31508e-11,-3.12588e-15,-1324.39,0.863214], Tmin=(1150,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (298,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-8.80492,'kJ/mol'),
+        Cp0 = (29.1007,'J/mol/K'),
+        CpInf = (37.4151,'J/mol/K'),
+    ),
+    shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
+    longDesc = 
+u"""
+71STUPRO
+Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+FF
+Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt which is described as
+the updated NIST HFC mechanism in https://doi.org/10.1016/j.jfluchem.2019.05.002
+"71STUPRO" presumably refers to the
+JANAF Thermochemical Tables, Second Edition
+by Daniel R. Stull and H. Prophet. (1971)
+http://dx.doi.org/10.6028/NBS.NSRDS.37
+""",
+)
+
+
+entry(
+    index = 43,
+    label = "NOJ",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.97,7.06,7.2,7.37,7.72,8,8.46],'cal/(mol*K)'),
+        H298 = (21.85,'kcal/mol'),
+        S298 = (49.02,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+)
+
+entry(
+    index = 44,
+    label = "NO2J",
+    molecule = 
+"""
+multiplicity 2
+1 N u1 p0 c+1 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
+3 O u0 p3 c-1 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.86,9.57,10.29,10.92,11.84,12.44,13.19],'cal/(mol*K)'),
+        H298 = (8.33,'kcal/mol'),
+        S298 = (57.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+)
+
+entry(
+    index = 45,
+    label = "CO",
+    molecule = 
+"""
+1 C u0 p1 c-1 {2,T}
+2 O u0 p1 c+1 {1,T}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([6.95,7.02,7.12,7.26,7.58,7.86,8.35],'cal/(mol*K)'),
+        H298 = (-26.31,'kcal/mol'),
+        S298 = (47.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
+""",
+)
+
+entry(
+    index = 46,
+    label = "OCCCO",
+    molecule = 
+"""
+1 O u0 p2 c0 {4,D}
+2 O u0 p2 c0 {5,D}
+3 C u0 p0 c0 {4,D} {5,D}
+4 C u0 p0 c0 {1,D} {3,D}
+5 C u0 p0 c0 {2,D} {3,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs = [3.88307,0.00992983,2.02201e-05,-5.95807e-08,4.18218e-11,-12941.2,7.57621], Tmin = (10, 'K'), Tmax = (516.845, 'K'),),
+            NASAPolynomial(coeffs = [4.29366,0.0133667,-8.95161e-06,2.80908e-09,-3.33808e-13,-13072,5.01164], Tmin = (516.845, 'K'), Tmax = (3000, 'K'),),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""G4 calculation""",
+    longDesc = 
+u"""
+# Coordinates for 1 in Input Orientation (angstroms):
+#   O    0.0883   -2.4210    0.0000
+#   O    0.0883    2.4210    0.0000
+#   C   -0.1785    0.0000    0.0000
+#   C   -0.0285   -1.2648    0.0000
+#   C   -0.0285    1.2648    0.0000
+
+#   Enthalpy of formation (298 K)   =   -22.381 kcal/mol
+#   Entropy of formation (298 K)    =    65.801 cal/(mol*K)
+
+HarmonicOscillator(frequencies = ([55.6209, 577.002, 595.072, 598.128, 598.906, 801.916, 1644.01, 2280.9, 2412.53], 'cm^-1'))
+""",
+)
+
+entry(
+    index = 47,
+    label = "C(Q)",
+    molecule =
+"""
+multiplicity 5
+1 C u4 p0 c0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (1120.106,'kJ/mol'),
+        S298 = (35.576,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+H298: ATcT version 1.110
+ATcT id: 7440-44-0*3
+entropy and heat capacity taken from "C(T)"
+""",
+)

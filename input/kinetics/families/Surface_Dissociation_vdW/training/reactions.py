@@ -36,9 +36,9 @@ entry(
     label = "CH4* + X_4 <=> CH3* + H*",
     degeneracy = 4,
     kinetics = SurfaceArrhenius(
-        A = (1.54E17,'m^2/(mol*s)'),
+        A = (1.54E21,'cm^2/(mol*s)'),
         n = 0.087,
-        Ea = (55800, 'J/mol'),
+        Ea = (55.8, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -59,7 +59,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (2.308e18, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (16.8342, 'kcal/mol'),
+        Ea = (0.73, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -70,7 +70,7 @@ Reaction 13 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-6.793e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 2.308e18 m^2/(mol*s)
+6.793e13 1/s / 2.943e‐5 mol/m^2 = 2.308e18 m^2/(mol*s)
 """,
     metal = "Cu",
 )
@@ -82,7 +82,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (4.879e15, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (4.84271508, 'kcal/mol'),
+        Ea = (1.39, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -93,7 +93,7 @@ Reaction 14 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-1.436e11 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 4.879e15 m^2/(mol*s)
+1.436e11 1/s / 2.943e‐5 mol/m^2 = 4.879e15 m^2/(mol*s)
 """,
     metal = "Cu",
 )
@@ -126,7 +126,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (4.424e18, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (20.9850987, 'kcal/mol'),
+        Ea = (0.91, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -137,7 +137,7 @@ Reaction 19 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-1.302e14 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 4.424e18 m^2/(mol*s)
+1.302e14 1/s / 2.943e‐5 mol/m^2 = 4.424e18 m^2/(mol*s)
 """,
     metal = "Cu",
 )
@@ -147,9 +147,9 @@ entry(
     label = "CH3O* + H* <=> CH3OH_2* + X_4",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A = (4.349e22, 'm^2/(mol*s)'),
+        A = (4.349e17, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (10.8384576, 'kcal/mol'),
+        Ea = (1.17, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -160,7 +160,7 @@ Reaction 25 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-1.28e18 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 4.349e22 m^2/(mol*s)
+1.28e13 1/s / 2.943e‐5 mol/m^2 = 4.349e22 m^2/(mol*s)
 """,
     metal = "Cu",
 )
@@ -172,7 +172,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (1.932e17, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (10.8384576, 'kcal/mol'),
+        Ea = (0.47, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -183,7 +183,7 @@ Reaction 30 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-5.685e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.932e17 m^2/(mol*s)
+5.685e12 1/s / 2.943e‐5 mol/m^2 = 1.932e17 m^2/(mol*s)
 """,
     metal = "Cu",
 )
@@ -195,7 +195,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (2.783e17, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (37.5886933, 'kcal/mol'),
+        Ea = (0.51, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -206,7 +206,7 @@ Reaction 33 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-8.189e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 2.783e17 m^2/(mol*s)
+8.189e12 1/s / 2.943e‐5 mol/m^2 = 2.783e17 m^2/(mol*s)
 """,
     metal = "Cu",
 )
@@ -218,7 +218,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (1.781e17, 'm^2/(mol*s)'),
         n = 0.,
-        Ea = (37.5886933, 'kcal/mol'),
+        Ea = (1.63, 'eV/molecule'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -229,7 +229,7 @@ Reaction 34 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-5.242e12 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 1.781e17 m^2/(mol*s)
+5.242e12 1/s / 2.943e‐5 mol/m^2 = 1.781e17 m^2/(mol*s)
 """,
     metal = "Cu",
 )

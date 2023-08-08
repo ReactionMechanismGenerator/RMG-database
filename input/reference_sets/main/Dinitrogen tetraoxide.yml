@@ -7,6 +7,94 @@ adjacency_list: |
   5 N u0 p0 c+1 {1,S} {3,D} {6,S}
   6 N u0 p0 c+1 {2,S} {4,D} {5,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.8462485583378148
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.31334594
+          - -1.08649734
+          - -0.0
+        - - 0.85777227
+          - 0.0
+          - -0.0
+        - - 1.31334594
+          - 1.08649734
+          - -0.0
+        - - -0.85777227
+          - -0.0
+          - 0.0
+        - - -1.31334594
+          - -1.08649734
+          - 0.0
+        - - -1.31334594
+          - 1.08649734
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - N
+      - O
+      - O
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 3.8020677554651
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 1.31334594
+          - -1.08649734
+          - -0.0
+        - - 0.85777227
+          - 0.0
+          - -0.0
+        - - 1.31334594
+          - 1.08649734
+          - -0.0
+        - - -0.85777227
+          - -0.0
+          - 0.0
+        - - -1.31334594
+          - -1.08649734
+          - 0.0
+        - - -1.31334594
+          - 1.08649734
+          - 0.0
+      isotopes:
+      - 16
+      - 14
+      - 16
+      - 14
+      - 16
+      - 16
+      symbols:
+      - O
+      - N
+      - O
+      - N
+      - O
+      - O
   LevelOfTheory(method='wb97mv',basis='def2tzvpd',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:
@@ -57,7 +145,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 1.216612553157303
+        value: 1.241280454360535
       class: ThermoData
     xyz_dict:
       coords:
@@ -111,7 +199,7 @@ label: Dinitrogen tetraoxide
 molecular_weight:
   class: ScalarQuantity
   units: amu
-  value: 92.0110850315586
+  value: 92.01132345015765
 multiplicity: 1
 reference_data:
   ATcT:

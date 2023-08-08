@@ -280,6 +280,59 @@ entry(
     longDesc = u"""""",
 )
 
+entry(
+    index = 0,
+    label = "N_centered_ring",
+    group =
+"""
+1 * N ux
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 9,
+    label = "NsringHR2",
+    group =
+"""
+1 * N   u0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   R!H u0 {1,S}
+4   H   u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0130,
+        Pc = 0.0114,
+        Vc = 29,
+        Tb = 52.82,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""ring_library value for NsringHR2""",
+    longDesc = u"""""",
+)
+
+entry(
+    index = 10,
+    label = "NdringR2",
+    group =
+"""
+1 * N   u0 {2,D} {3,S}
+2   R!H u0 {1,D}
+3   R!H u0 {1,S}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0085,
+        Pc = 0.0076,
+        Vc = 34,
+        Tb = 57.55,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""ring_library value for NdringR2""",
+    longDesc = u"""""",
+)
+
 tree(
 """
 L1: R_ring
@@ -296,6 +349,9 @@ L1: R_ring
         L3: Ether_ring
     L2: S_centered_ring
         L3: Thioether_ring
+    L2: N_centered_ring
+        L3: NsringHR2
+        L3: NdringR2
 """
 )
 
