@@ -61,6 +61,7 @@ Reference legend:
 [GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34, 617-624, doi: 10.1016/j.proci.2012.06.010
 [Goldsmith2019] X. Chen, M.E. Fuller, C.F. Goldsmith, Reaction CHemistry and Engineering, 2019, 4, 323-333, doi: 10.1039/C8RE00201K
 [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green, A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p
+[GrinbergDana2023] J.M. Velasco, K. Kaplan, K.A. Spiekermann, A. Menon, C. Cao, W.H. Green, A. Grinberg Dana, "Automated Chemical Kinetic Model Generation of NH3 and NH3/H2 Oxidation using a Data-Centric Approach", 2023, in preperation
 [GRI] (RMG's GRI-Mech3.0-N library) GRI-Mech 3.0, http://www.me.berkeley.edu/gri_mech/
 [Hanson1981] T.R. Roose, R.K. Hanson, C.H. Kruger, Symposium (International) on Combustion, 1981, 18(1), 853-862, doi: 10.1016/S0082-0784(81)80089-6
 [Hanson1984a] M.Y. Louge, R.K. Hanson, Int. J. Chem. Kin., 1984, 16(3), 231-250, doi: 10.1002/kin.550160306
@@ -3489,20 +3490,6 @@ G2 and BAC-MP4
 )
 
 entry(
-    index = 188,
-    label = "HONO + H <=> H2O + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(8.13e+06, 'cm^3/(mol*s)'), n=1.89, Ea=(3847, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3500, 'K')),
-    shortDesc = u"""[Lin1997a]""",
-    longDesc =
-u"""
-Part of the "NOx" subset
-T range: 300-3500 K
-G2 and BAC-MP4
-""",
-)
-
-entry(
     index = 189,
     label = "HONO + HONO <=> H2O + NO2 + NO",
     degeneracy = 1,
@@ -3898,21 +3885,6 @@ u"""
 Part of the "NOx" subset
 T range: 500-2000 K
 Shock tube measurement
-""",
-)
-
-entry(
-    index = 213,
-    label = "NH + O2 <=> HNO + O",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(4.61e+05, 'cm^3/(mol*s)'), n=2.0, Ea=(6500, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3300, 'K')),
-    shortDesc = u"""[Miller1992]""",
-    longDesc =
-u"""
-Part of the "NOx" subset
-T range: 300-3300 K
-k3
-BAC-MP4
 """,
 )
 
@@ -4820,20 +4792,6 @@ Reaction 8, Table 2. Experimental work re-interpreted using direct measurements 
 )
 
 entry(
-    index = 270,
-    label = 'H2NO + O2 <=> HNO + HO2',
-    duplicate=True,
-    kinetics = Arrhenius (A=(1.110e0, 'cm^3/(mol*s)'), n=3.489, Ea=(13900, 'cal/mol'),
-                          T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
-    shortDesc = u"""[Sarathy2022]""",
-    longDesc =
-u"""
-Table S2, Reaction R1, doublet surface.
-Optimized and characterized the stationary points of the PESs with the ROCCSD method (Detailed in Table 1).
-""",
-)
-
-entry(
     index = 271,
     label = 'H2NO + O2 <=> HNO(T) + HO2',
     duplicate = True,
@@ -5641,4 +5599,970 @@ entry(
 u"""
 Recommended by Glarborg2022 (also by the NOx2018 library)
 """,
+)
+
+entry(
+    index=328,
+    label='N + HO2 <=> O2 + NH',
+    kinetics=Arrhenius(A=(27.7894, 'cm^3/(mol*s)'), n=3.47248, Ea=(5.49367, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x1
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=329,
+    label='HO2 + NH <=> N + H2O2',
+    kinetics=Arrhenius(A=(0.211726, 'cm^3/(mol*s)'), n=4.02063, Ea=(15.4615, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x2
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=330,
+    label='N + HNO2 <=> NO2 + NH',
+    kinetics=Arrhenius(A=(0.0284234, 'cm^3/(mol*s)'), n=4.42306, Ea=(13.72, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x3
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=331,
+    label='N + HNO <=> NO + NH',
+    kinetics=Arrhenius(A=(9.14196e+06, 'cm^3/(mol*s)'), n=2.17825, Ea=(7.62254, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x4
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=332,
+    label='N + N2H2 <=> NH + NNH',
+    kinetics=Arrhenius(A=(2.18748, 'cm^3/(mol*s)'), n=3.96904, Ea=(16.2408, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x5
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=333,
+    label='N + NH2OH <=> NH + H2NO',
+    kinetics=Arrhenius(A=(4.47106e-05, 'cm^3/(mol*s)'), n=5.05219, Ea=(28.4545, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x6
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=334,
+    label='NH + HNNO <=> N + NH2NO',
+    kinetics=Arrhenius(A=(4.6901e-38, 'cm^3/(mol*s)'), n=14.1294, Ea=(4.17644, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x7
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=335,
+    label='N + HNOH <=> NH + HNO',
+    kinetics=Arrhenius(A=(30.8138, 'cm^3/(mol*s)'), n=3.39795, Ea=(22.6251, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x8
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=336,
+    label='NH + HNOH <=> N + NH2OH',
+    kinetics=Arrhenius(A=(2.85669e-06, 'cm^3/(mol*s)'), n=5.32063, Ea=(14.7829, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x9
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=337,
+    label='NH + N2H3 <=> N + N2H4',
+    kinetics=Arrhenius(A=(0.000418231, 'cm^3/(mol*s)'), n=4.35534, Ea=(22.4657, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x10
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=338,
+    label='NH + H2NN(T) <=> N + N2H3',
+    kinetics=Arrhenius(A=(0.015648, 'cm^3/(mol*s)'), n=4.16309, Ea=(11.1711, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x12
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=339,
+    label='N + NH3O <=> NH + H2NO',
+    kinetics=Arrhenius(A=(93489,'cm^3/(mol*s)'), n=2.70273, Ea=(6.99122,'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x13
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=340,
+    label='NH + O2 <=> O + HNO',
+    kinetics=Arrhenius(A=(1.0E-30, 'cm^3/(mol*s)'), n=0, Ea=(500, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x15
+    This reaction is spin-forbidden. It may form a singlet atomic O, but not a triplet O as written here.
+    Was also studied by [Miller1992] and by doi.org/10.1021/jp902527a,
+    the latter supports the formation of O(T) and HNO(T).
+    """,
+)
+
+entry(
+    index=341,
+    label='NH + HO2 <=> NH2 + O2',
+    duplicate = True,
+    kinetics=MultiArrhenius(
+        arrhenius=[
+            Arrhenius(A=(2.17541e-26, 'cm^3/(mol*s)'), n=11.1378, Ea=(75.2695, 'kJ/mol'),
+                      T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),  # m = 2
+            Arrhenius(A=(3947.27, 'cm^3/(mol*s)'), n=2.95763, Ea=(-5.69126, 'kJ/mol'),
+                      T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),  # m = 4
+        ],
+    ),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x16
+    Combining doublet and quartet surfaces
+    The doublet rate is insignificant relative to the quartet rate
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=342,
+    label='NH + H2O2 <=> HO2 + NH2',
+    kinetics=Arrhenius(A=(0.000171391, 'cm^3/(mol*s)'), n=4.92081, Ea=(14.0127, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x17
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=343,
+    label='NH + HNO2 <=> NO2 + NH2',
+    kinetics=Arrhenius(A=(73.1449, 'cm^3/(mol*s)'), n=3.4912, Ea=(-2.15416, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x19
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=344,
+    label='H2NO + NH <=> HNO + NH2',
+    kinetics=Arrhenius(A=(4251.49, 'cm^3/(mol*s)'), n=2.55939, Ea=(3.73373, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x20
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=345,
+    label='NH + HNOH <=> HNO + NH2',
+    kinetics=Arrhenius(A=(218124, 'cm^3/(mol*s)'), n=2.23762, Ea=(10.844, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x21
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=346,
+    label='NH + N2H3 <=> NH2 + H2NN(T)',
+    kinetics=Arrhenius(A=(0.154773, 'cm^3/(mol*s)'), n=3.93965, Ea=(7.28875, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x23
+    This is the multiplicity 4 surface, could not find a TS on the multiplicity 2 surface.
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=347,
+    label='NH + HO2 <=> O2 + NH2',
+    duplicate=True,
+    kinetics=MultiArrhenius(
+        arrhenius=[
+            Arrhenius(A=(2.39523e-26, 'cm^3/(mol*s)'), n=11.126, Ea=(74.9584, 'kJ/mol'),
+                      T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),  # m = 2
+            Arrhenius(A=(4342.52, 'cm^3/(mol*s)'), n=2.94613, Ea=(-5.79413, 'kJ/mol'),
+                      T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),  # m = 4
+        ],
+    ),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x24
+    Combining doublet and quartet surfaces
+    The doublet rate is insignificant relative to the quartet rate
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=348,
+    label='HNNO + NH2 <=> NH + NH2NO',
+    kinetics=Arrhenius(A=(1.27732e-07, 'cm^3/(mol*s)'), n=5.52596, Ea=(42.4149, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x27
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=349,
+    label='HO2 + NH3 <=> H2O2 + NH2',
+    kinetics=Arrhenius(A=(0.132333, 'cm^3/(mol*s)'), n=4.13768, Ea=(77.0269, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x29
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=350,
+    label='N2H3 + H <=> H2NN(T) + H2',
+    kinetics=Arrhenius(A=(4.33362e+07, 'cm^3/(mol*s)'), n=1.78415, Ea=(3.69912, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x30
+    CCSD(T)-F12/cc-pvtz-f12//wb97xd/def2tzvp
+    """,
+)
+
+entry(
+    index=351,
+    label='HO2 + N2H3 <=> H2O2 + H2NN(T)',
+    kinetics=Arrhenius(A=(0.00201841, 'cm^3/(mol*s)'), n=4.04044, Ea=(12.2982, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x32
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=352,
+    label='HO2 + N2H4 <=> H2O2 + N2H3',
+    kinetics=Arrhenius(A=(0.00431241, 'cm^3/(mol*s)'), n=4.18584, Ea=(8.85035, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x33
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=353,
+    label='HNOH + N2H3 <=> N2H4 + HNO',
+    kinetics=Arrhenius(A=(3.63865, 'cm^3/(mol*s)'), n=3.21359, Ea=(-2.75823, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x38
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/Def2TZVP
+    """,
+)
+
+entry(
+    index=354,
+    label='NNH + N2H4 <=> N2H2 + N2H3',
+    kinetics=Arrhenius(A=(8.90238e-06, 'cm^3/(mol*s)'), n=5.00138, Ea=(85.1537, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x39
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=355,
+    label='HNOH + N2H4 <=> NH2OH + N2H3',
+    kinetics=Arrhenius(A=(1.16857e-06, 'cm^3/(mol*s)'), n=4.9734, Ea=(20.0134, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x41
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=356,
+    label='HNNO + N2H4 <=> NH2NO + N2H3',
+    kinetics=Arrhenius(A=(0.946419, 'cm^3/(mol*s)'), n=3.53388, Ea=(35.23, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x42
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=357,
+    label='NH2OH + N2H3 <=> H2NO + N2H4',
+    kinetics=Arrhenius(A=(0.284206, 'cm^3/(mol*s)'), n=3.40875, Ea=(35.7095, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x43
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=358,
+    label='H2NN(T) + NH2OH <=> H2NO + N2H3',
+    kinetics=Arrhenius(A=(0.0436834, 'cm^3/(mol*s)'), n=3.62578, Ea=(0.357605, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x46
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=359,
+    label='H2NN(T) + NH2OH <=> HNOH + N2H3',
+    kinetics=Arrhenius(A=(0.00222861, 'cm^3/(mol*s)'), n=4.08146, Ea=(10.7837, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x48
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=360,
+    label='H2NN(T) + NH2NO <=> HNNO + N2H3',
+    kinetics=Arrhenius(A=(1.98585e-12, 'cm^3/(mol*s)'), n=6.64611, Ea=(4.94275, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x50
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=361,
+    label='HNO + NNH <=> NO + N2H2',
+    kinetics=Arrhenius(A=(6.14893e-05,'cm^3/(mol*s)'), n=4.69717, Ea=(15.0533,'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x51
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=362,
+    label='HNO + H2NO <=> NO + NH2OH',
+    kinetics=Arrhenius(A=(2.05244, 'cm^3/(mol*s)'), n=3.41689, Ea=(-3.88395, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x52
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=363,
+    label='HNO + HNOH <=> NO + NH2OH',
+    kinetics=Arrhenius(A=(0.156126, 'cm^3/(mol*s)'), n=3.85677, Ea=(-7.82899, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x53
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=364,
+    label='HNO + H2NO <=> NO + NH3O',
+    kinetics=Arrhenius(A=(0.000260618, 'cm^3/(mol*s)'), n=4.2297, Ea=(29.7365, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x54
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=365,
+    label='HNO + HNNO <=> NO + NH2NO',
+    kinetics=Arrhenius(A=(515.701, 'cm^3/(mol*s)'), n=3.01312, Ea=(25.5287, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x55
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=366,
+    label='HNO + NO2 <=> NO + HNO2',
+    kinetics=Arrhenius(A=(175.432, 'cm^3/(mol*s)'), n=3.22162, Ea=(31.3428, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x56
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=367,
+    label='H2NO + NO <=> HNO + HNO',
+    kinetics=Arrhenius(A=(0.0176994, 'cm^3/(mol*s)'), n=4.03806, Ea=(84.6598, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x60
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/Def2TZVP
+    """,
+)
+
+entry(
+    index=368,
+    label='NO2 + N2H2 <=> HNO2 + NNH',
+    kinetics=Arrhenius(A=(0.000226061, 'cm^3/(mol*s)'), n=4.91241, Ea=(18.8216, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x63
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=369,
+    label='NO2 + HNO2 <=> NO2 + HONO',
+    kinetics=Arrhenius(A=(1.74489e-21, 'cm^3/(mol*s)'), n=9.44235, Ea=(70.3648, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x64
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=370,
+    label='NO2 + NH3O <=> HNO2 + H2NO',
+    kinetics=Arrhenius(A=(159.337, 'cm^3/(mol*s)'), n=3.29524, Ea=(19.5154, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x65
+    CCSD(T)-F12/cc-pvtz-f12//wb97xd/def2tzvp
+    """,
+)
+
+entry(
+    index=371,
+    label='HONO + H2NN(T) <=> NO2 + N2H3',
+    kinetics=Arrhenius(A=(0.00955069, 'cm^3/(mol*s)'), n=4.02649, Ea=(12.2148, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x66
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=372,
+    label='HO2 + HONO <=> NO2 + H2O2',
+    kinetics=Arrhenius(A=(4.05386e-06, 'cm^3/(mol*s)'), n=5.04565, Ea=(38.7712, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x67
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=373,
+    label='HNO2 + HO2 <=> NO2 + H2O2',
+    kinetics=Arrhenius(A=(0.00213862, 'cm^3/(mol*s)'), n=4.53665, Ea=(0.871945, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x68
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=374,
+    label='HONO + HNOH <=> NO2 + NH2OH',
+    kinetics=Arrhenius(A=(2731.65, 'cm^3/(mol*s)'), n=2.31076, Ea=(18.3768, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x69
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=375,
+    label='HNO2 + H2NO <=> NO2 + NH2OH',
+    kinetics=Arrhenius(A=(4.95354e-05, 'cm^3/(mol*s)'), n=4.886, Ea=(5.21725, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x71
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=376,
+    label='HNO2 + HNNO <=> NO2 + NH2NO',
+    kinetics=Arrhenius(A=(6.49987e-13, 'cm^3/(mol*s)'), n=7.22365, Ea=(49.3044, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x72
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=377,
+    label='HONO + HNNO <=> NO2 + NH2NO',
+    kinetics=Arrhenius(A=(2.88652e-12, 'cm^3/(mol*s)'), n=6.51918, Ea=(41.6434, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x73
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=378,
+    label='H + HONO <=> NO + H2O',
+    kinetics=Arrhenius(A=(502.962, 'cm^3/(mol*s)'), n=3.30766, Ea=(41.3964, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x74
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=379,
+    label='NO2 + NH2OH <=> HONO + H2NO',
+    kinetics=Arrhenius(A=(1.28207e-07, 'cm^3/(mol*s)'), n=5.41152, Ea=(23.5494, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x76
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=380,
+    label='HO2 + NNH <=> O2 + N2H2',
+    kinetics=Arrhenius(A=(8.30235e-06, 'cm^3/(mol*s)'), n=4.80917, Ea=(5.18822, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x82
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=381,
+    label='HO2 + H2NO <=> O2 + NH3O',
+    kinetics=Arrhenius(A=(1.61201e-05, 'cm^3/(mol*s)'), n=4.51311, Ea=(8.62701, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x83
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=382,
+    label='HO2 + HNNO <=> O2 + NH2NO',
+    kinetics=Arrhenius(A=(7.88453, 'cm^3/(mol*s)'), n=3.43698, Ea=(5.53848, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x84
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=383,
+    label='HNOH + O2 <=> HO2 + HNO',
+    kinetics=Arrhenius(A=(0.000376483, 'cm^3/(mol*s)'), n=4.61521, Ea=(75.8714, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x85
+    CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP
+    """,
+)
+
+entry(
+    index=384,
+    label='HO2 + HNO <=> O2 + H2NO',
+    kinetics=Arrhenius(A=(0.00447159, 'cm^3/(mol*s)'), n=3.94392, Ea=(18.1401, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x86
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    
+    Also available in reverse from [Sarathy2022], also in NOx2018, Glarborg-Zhang, Glarborg-Gimmenz.
+    Our rate in our direction is faster at lower Ts.
+
+        kinetics = Arrhenius (A=(1.110e0, 'cm^3/(mol*s)'), n=3.489, Ea=(13900, 'cal/mol'),
+                              T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(1700, 'K')),
+        shortDesc = [Sarathy2022],
+        Table S2, Reaction R1, doublet surface.
+        Optimized and characterized the stationary points of the PESs with the ROCCSD method (Detailed in Table 1).
+    """,
+)
+
+entry(
+    index=385,
+    label='HO2 + N2H2 <=> NNH + H2O2',
+    kinetics=Arrhenius(A=(3.36973, 'cm^3/(mol*s)'), n=3.53454, Ea=(-1.79879, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x88
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=386,
+    label='H2NO + N2H2 <=> NNH + NH2OH',
+    kinetics=Arrhenius(A=(0.000204599, 'cm^3/(mol*s)'), n=4.61138, Ea=(11.4773, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x89
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=387,
+    label='NNH + H2NN(S) <=> NNH + N2H2',
+    kinetics=Arrhenius(A=(0.84716, 'cm^3/(mol*s)'), n=3.91169, Ea=(6.1594, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x91
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=388,
+    label='NNH + NH3O <=> H2NO + N2H2',
+    kinetics=Arrhenius(A=(0.0137156,'cm^3/(mol*s)'), n=4.37867, Ea=(35.6236,'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x92
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=389,
+    label='HNNO + N2H2 <=> NNH + NH2NO',
+    kinetics=Arrhenius(A=(3.8865e-11, 'cm^3/(mol*s)'), n=6.78593, Ea=(-0.745059, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x93
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=390,
+    label='HNOH + N2H2 <=> NNH + NH2OH',
+    kinetics=Arrhenius(A=(0.000587998, 'cm^3/(mol*s)'), n=4.5746, Ea=(1.07353, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x94
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=391,
+    label='H2NO + NH3O <=> H2NO + NH2OH',
+    kinetics=Arrhenius(A=(0.93416, 'cm^3/(mol*s)'), n=3.47676, Ea=(-7.87813, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x100
+    CBS-QB3
+    """,
+)
+
+entry(
+    index=392,
+    label='HNOH + NH3O <=> H2NO + NH2OH',
+    kinetics=Arrhenius(A=(9.10472, 'cm^3/(mol*s)'), n=3.66473, Ea=(-5.31092, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x101
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=393,
+    label='HNNO + NH2OH <=> H2NO + NH2NO',
+    kinetics=Arrhenius(A=(1.91127e-12, 'cm^3/(mol*s)'), n=6.6384, Ea=(24.1922, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x103
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=394,
+    label='HNOH + NH2NO <=> HNNO + NH2OH',
+    kinetics=Arrhenius(A=(1.01102e-10, 'cm^3/(mol*s)'), n=6.24238, Ea=(15.2554, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x104
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=395,
+    label='N2H3O + HNO <=> NH2NO + H2NO',
+    kinetics=Arrhenius(A=(1.94018e-06, 'cm^3/(mol*s)'), n=5.14382, Ea=(5.70077, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x107
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/Def2-TZVP
+    """,
+)
+
+entry(
+    index=396,
+    label='NH + N2H3 <=> NHNH2NH',
+    kinetics=Arrhenius(A=(40824.2, 'cm^3/(mol*s)'), n=2.38262, Ea=(-3.05802, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x108
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=397,
+    label='NO + H2NN(S) <=> HNOH + N2',
+    kinetics=Arrhenius(A=(1.42556, 'cm^3/(mol*s)'), n=3.42359, Ea=(1.9558, 'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x109
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=398,
+    label='HNO + HO2 <=> HONHOO',
+    kinetics=Arrhenius(A=(3.35255,'cm^3/(mol*s)'), n=2.96577, Ea=(5.53239,'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x111
+    RMG Family: HO2 Elimination from Peroxy Radical
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
+)
+
+entry(
+    index=399,
+    label='HNO2 + H2NO <=> HONO + HNOH',
+    kinetics=Arrhenius(A=(0.855685,'cm^3/(mol*s)'), n=3.38223, Ea=(-8.58211,'kJ/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[GrinbergDana2023]""",
+    longDesc=
+    u"""
+    x112
+    CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/aug-cc-pvtz
+    """,
 )
