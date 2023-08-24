@@ -65,6 +65,23 @@ u"""
 )
 
 entry(
+    label = "NNOH",
+    molecule =
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u1 p1 c0 {2,D}
+4 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
     label = "Carbene_D_triplet",
     group =
 """
