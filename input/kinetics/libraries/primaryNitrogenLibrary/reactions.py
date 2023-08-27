@@ -1430,7 +1430,7 @@ As reported by Dean & Bozzelli, see 2.5.4 on p. 145
 
 entry(
     index = 70,
-    label = "H + N2O <=> HNNO",
+    label = "N2O + H <=> HNNO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(9082, 'cal/mol'), T0=(1, 'K')),
     elementary_high_p = True,
@@ -1442,19 +1442,34 @@ See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
 """,
 )
 
-entry(
-    index = 71,
-    label = "H + N2O <=> NNOH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(18403, 'cal/mol'), T0=(1, 'K')),
-    elementary_high_p = True,
-    shortDesc = u"""[DeanBozz2000]""",
-    longDesc =
-u"""
-Part of the "N2O Pathway"
-See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
-""",
-)
+# entry(
+#     index = 71,
+#     label = "N2O + H <=> NNOH",
+#     degeneracy = 1,
+#     kinetics = Arrhenius(A=(1.0e+0, 'cm^3/(mol*s)'), n=0, Ea=(1000, 'kcal/mol'), T0=(1, 'K')),
+#     elementary_high_p = True,
+#     shortDesc = u"""NPS""",
+#     longDesc =
+# u"""
+#
+#
+# The NNOH species does not exist, see A.M. Mebel, C.C. Hsu, M.C. Lin, K. Morokuma, J. Chem. Phys. 103, 5640-5649, 1995,
+# DOI: 10.1063/1.470546
+#
+# However, a rate was given later by D&B:
+# See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163:
+#     Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(18403, 'cal/mol'), T0=(1, 'K')
+#
+# We could not optimize NNH at neither of wb97xd/Def2TZVP, CBS-QB3, M062X/Def2TZVP.
+#
+# NNOH
+# multiplicity 2
+# 1 N u1 p1 c0 {2,D}
+# 2 N u0 p1 c0 {1,D} {3,S}
+# 3 O u0 p2 c0 {2,S} {4,S}
+# 4 H u0 p0 c0 {3,S}
+# """,
+# )
 
 entry(
     index = 72,
@@ -2682,7 +2697,8 @@ entry(
     index = 142,
     label = "NH2 + NO <=> N2O + H2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)','*|/',2), n=0, Ea=(15700, 'cal/mol'), T0=(1, 'K'), Tmin=(1680, 'K'), Tmax=(2850, 'K')),
+    kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)', '*|/', 2), n=0, Ea=(15700, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(1680, 'K'), Tmax=(2850, 'K')),
     shortDesc = u"""[Hanson1981]""",
     longDesc =
 u"""
@@ -3206,8 +3222,7 @@ calculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of
 entry(
     index = 172,
     label='NH2 + NO2  <=> N2O + H2O',
-    kinetics=Arrhenius(A=(4.3e+17, 'cm^3/(mol*s)'), n=-1.874, Ea=(588, 'cal/mol'),
-                       T0=(1, 'K')),
+    kinetics=Arrhenius(A=(4.3e+17, 'cm^3/(mol*s)'), n=-1.874, Ea=(588, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Glarborg2022]""",
     longDesc=
 u"""
