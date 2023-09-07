@@ -7,20 +7,11 @@ longDesc = """
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
-
 entry(
     index = 0,
     label = "FCH2CH2COOH <=> C2H4 + HF + CO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (2.6978e+09, 's^-1'),
-        n = 1.11971,
-        Ea = (202.466, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.30282, dn = +|- 0.0347546, dEa = +|- 0.189133 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(2.6978e+09,'s^-1'), n=1.11971, Ea=(202.466,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.30282, dn = +|- 0.0347546, dEa = +|- 0.189133 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -45,15 +36,7 @@ entry(
     index = 1,
     label = "CH3CH2COOH <=> C2H4 + H2 + CO2",
     degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (205359, 's^-1'),
-        n = 2.17099,
-        Ea = (342.051, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 2.11965, dn = +|- 0.0986994, dEa = +|- 0.537118 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(205359,'s^-1'), n=2.17099, Ea=(342.051,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.11965, dn = +|- 0.0986994, dEa = +|- 0.537118 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -78,15 +61,7 @@ entry(
     index = 2,
     label = "FCH2OCOOH <=> CH2O + HF + CO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.52249e+10, 's^-1'),
-        n = 0.94147,
-        Ea = (137.605, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.19939, dn = +|- 0.0238861, dEa = +|- 0.129987 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(1.52249e+10,'s^-1'), n=0.94147, Ea=(137.605,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.19939, dn = +|- 0.0238861, dEa = +|- 0.129987 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -109,15 +84,7 @@ entry(
     index = 3,
     label = "BrCH2CH2COOH <=> C2H4 + HBr + CO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.23964e+08, 's^-1'),
-        n = 1.60341,
-        Ea = (216.691, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.56427, dn = +|- 0.0587822, dEa = +|- 0.31989 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(3.23964e+08,'s^-1'), n=1.60341, Ea=(216.691,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.56427, dn = +|- 0.0587822, dEa = +|- 0.31989 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -142,15 +109,7 @@ entry(
     index = 4,
     label = "ClCH2CH2COOH <=> C2H4 + HCl + CO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.20378e+08, 's^-1'),
-        n = 1.70445,
-        Ea = (215.418, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.65788, dn = +|- 0.0664175, dEa = +|- 0.361442 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(1.20378e+08,'s^-1'), n=1.70445, Ea=(215.418,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.65788, dn = +|- 0.0664175, dEa = +|- 0.361442 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -175,15 +134,7 @@ entry(
     index = 5,
     label = "BrCH2OCOOH <=> CH2O + HBr + CO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.74683e+09, 's^-1'),
-        n = 1.36442,
-        Ea = (132.064, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.36618, dn = +|- 0.0409934, dEa = +|- 0.223085 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(4.74683e+09,'s^-1'), n=1.36442, Ea=(132.064,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.36618, dn = +|- 0.0409934, dEa = +|- 0.223085 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -206,15 +157,7 @@ entry(
     index = 6,
     label = "CF3CF2COOH <=> CF2CF2 + HF + CO2",
     degeneracy = 3.0,
-    kinetics = Arrhenius(
-        A = (4.71181e+11, 's^-1'),
-        n = 0.715494,
-        Ea = (287.921, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.1823, dn = +|- 0.0220008, dEa = +|- 0.119728 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(4.71181e+11,'s^-1'), n=0.715494, Ea=(287.921,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1823, dn = +|- 0.0220008, dEa = +|- 0.119728 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -239,15 +182,7 @@ entry(
     index = 7,
     label = "ClCH2OCOOH <=> CH2O + HCl + CO2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (3.42848e+09, 's^-1'),
-        n = 1.33002,
-        Ea = (133.295, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.35693, dn = +|- 0.0401007, dEa = +|- 0.218227 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(3.42848e+09,'s^-1'), n=1.33002, Ea=(133.295,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35693, dn = +|- 0.0401007, dEa = +|- 0.218227 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -270,15 +205,7 @@ entry(
     index = 8,
     label = "CH3CH(OH)CH2CH2F <=> C2H4 + HF + CH3CHO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (4.13544e+09, 's^-1'),
-        n = 1.07219,
-        Ea = (220.082, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.28453, dn = +|- 0.0328971, dEa = +|- 0.179025 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(4.13544e+09,'s^-1'), n=1.07219, Ea=(220.082,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.28453, dn = +|- 0.0328971, dEa = +|- 0.179025 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -305,17 +232,9 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 
 entry(
     index = 9,
-    label = 'CH2C(OH)CH2CH2F <=> C2H4 + HF + CH2CO',
+    label = "CH2C(OH)CH2CH2F <=> C2H4 + HF + CH2CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.52349e+10, 's^-1'),
-        n = 1.11612,
-        Ea = (246.995, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.24468, dn = +|- 0.0287562, dEa = +|- 0.15649 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(1.52349e+10,'s^-1'), n=1.11612, Ea=(246.995,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.24468, dn = +|- 0.0287562, dEa = +|- 0.15649 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -340,17 +259,9 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 
 entry(
     index = 10,
-    label = 'CH2(OH)CH2CH2F <=> C2H4 + HF + CH2O-2',
+    label = "CH2(OH)CH2CH2F <=> C2H4 + HF + CH2O-2",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.83092e+09, 's^-1'),
-        n = 1.14718,
-        Ea = (230.441, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.29992, dn = +|- 0.0344614, dEa = +|- 0.187538 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(1.83092e+09,'s^-1'), n=1.14718, Ea=(230.441,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.29992, dn = +|- 0.0344614, dEa = +|- 0.187538 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -374,17 +285,9 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 
 entry(
     index = 11,
-    label = 'CH2C(OH)OCH2F <=> CH2O + HF + CH2CO',
+    label = "CH2C(OH)OCH2F <=> CH2O + HF + CH2CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (5.29418e+10, 's^-1'),
-        n = 0.745914,
-        Ea = (145.547, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.0985, dn = +|- 0.0123427, dEa = +|- 0.0671686 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(5.29418e+10,'s^-1'), n=0.745914, Ea=(145.547,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0985, dn = +|- 0.0123427, dEa = +|- 0.0671686 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -407,17 +310,9 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 
 entry(
     index = 12,
-    label = 'F2C(OH)CH2CH2F <=> C2H4 + HF + CF2O',
+    label = "F2C(OH)CH2CH2F <=> C2H4 + HF + CF2O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (1.98542e+10, 's^-1'),
-        n = 0.978818,
-        Ea = (232.512, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.21021, dn = +|- 0.0250664, dEa = +|- 0.13641 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(1.98542e+10,'s^-1'), n=0.978818, Ea=(232.512,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.21021, dn = +|- 0.0250664, dEa = +|- 0.13641 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -441,17 +336,9 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 
 entry(
     index = 13,
-    label = 'F2C(OH)OCH2F <=> CH2O + HF + CF2O',
+    label = "F2C(OH)OCH2F <=> CH2O + HF + CF2O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (6.14547e+10, 's^-1'),
-        n = 0.631481,
-        Ea = (131.332, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (298, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 50 data points; dA = *|/ 1.07555, dn = +|- 0.00956901, dEa = +|- 0.0520742 kJ/mol',
-    ),
+    kinetics = Arrhenius(A=(6.14547e+10,'s^-1'), n=0.631481, Ea=(131.332,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07555, dn = +|- 0.00956901, dEa = +|- 0.0520742 kJ/mol"""),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
     longDesc = 
@@ -470,5 +357,4 @@ Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 #   F    0.8779    0.2197    1.3583
 """,
 )
-
 
