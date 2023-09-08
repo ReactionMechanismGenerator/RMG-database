@@ -40,22 +40,22 @@ CHX_4
 2 *4 H u0 p0 {1,S}
 3 *2 X u0 p0 {1,T}
 
-O*
+OX_1
 1 *2 X u0 p0 c0 {2,D}
 2 *1 O u0 p2 c0 {1,D}
 
-HCO*
+HCOX_3
 1    O u0 p2 c0 {2,D}
 2 *3 C u0 p0 c0 {1,D} {3,S} {4,S}
 3 *4 H u0 p0 c0 {2,S}
 4 *5 X u0 p0 c0 {2,S}
 
-OH*
+HOX_4
 1 *1 O u0 p2 c0 {2,S} {3,S}
 2 *4 H u0 p0 c0 {1,S}
 3 *2 X u0 p0 c0 {1,S}
 
-CO*
+COX_5
 1    O u0 p2 c0 {2,D}
 2 *3 C u0 p0 c0 {1,D} {3,D}
 3 *5 X u0 p0 c0 {2,D}
