@@ -74,7 +74,7 @@ Catalysts, 2015, 5, 871-904. Reaction R26
 
 entry(
     index = 28,
-    label = "HOX_3 + CX_1 <=> OX_5 + CHX_4 ",
+    label = "CX_1 + HOX_3 <=> CHX_4 + OX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A=(2.43E17, 'm^2/(mol*s)'),
@@ -95,7 +95,7 @@ Catalysts, 2015, 5, 871-904. Reaction R28
 
 entry(
     index = 39,
-    label = "O* + HCO* <=> OH* + CO*",
+    label = "OX_1 + HCOX_3 <=> HOX_4 + COX_5",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
         A=(3.298e17, 'm^2/(mol*s)'),
@@ -104,14 +104,14 @@ entry(
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
-    rank = 1,
+    rank = 3,
     shortDesc = u"""Default""",
     longDesc = u"""
 Reaction 39 from table 2 in "Mechanism of Methanol Synthesis on Cu through CO2
 and CO Hydrogenation", Grabow and Mavrikakis.  doi:10.1021/cs200055d
 
 A factor from paper / surface site density of Cu
-1.0e13 m^4/(mol^2 * s) / 2.943e‐5 mol/m^2 = 3.298e17 m^2/(mol*s)
+1.0e13 1/s / 2.943e‐5 mol/m^2 = 3.298e17 m^2/(mol*s)
 """,
     metal = "Cu",
 )
