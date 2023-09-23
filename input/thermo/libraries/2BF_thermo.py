@@ -5,7 +5,7 @@ name = "2BF_thermo_1"
 shortDesc = ""
 longDesc = """
 ARC v1.1.0
-ARC projects 2BF_thermo_1, 2BF_thermo_2, 2BF_thermo_3
+ARC projects 2BF_thermo_1, 2BF_thermo_2, 2BF_thermo_3, 2BF_thermo_4
 
 Levels of theory used:
 
@@ -1432,7 +1432,7 @@ H       3.16643300    5.08430400    1.42037900
 )
 
 entry(
-    index = 0,
+    index = 19,
     label = "PBROO1",
     molecule = 
 """
@@ -1514,7 +1514,7 @@ H       5.67406600   -4.63887300    1.75314100
 )
 
 entry(
-    index = 1,
+    index = 20,
     label = "PBROO2",
     molecule = 
 """
@@ -1596,82 +1596,89 @@ H      -2.35379400   -1.71468800    0.72367700
 )
 
 entry(
-    index = 2,
+    index = 21,
     label = "PBROO3",
     molecule = 
 """
-multiplicity 2
-1  O u0 p2 c0 {5,S} {9,S}
-2  C u0 p0 c0 {3,S} {6,S} {10,S} {11,S}
-3  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
-4  C u0 p0 c0 {6,S} {14,S} {15,S} {16,S}
-5  C u0 p0 c0 {1,S} {3,S} {7,D}
-6  C u1 p0 c0 {2,S} {4,S} {17,S}
-7  C u0 p0 c0 {5,D} {8,S} {18,S}
-8  C u0 p0 c0 {7,S} {9,D} {19,S}
-9  C u0 p0 c0 {1,S} {8,D} {20,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {3,S}
+multiplicity 3
+1  O u0 p2 c0 {9,S} {11,S}
+2  O u0 p2 c0 {3,S} {7,S}
+3  O u1 p2 c0 {2,S}
+4  C u0 p0 c0 {5,S} {6,S} {14,S} {15,S}
+5  C u0 p0 c0 {4,S} {8,S} {12,S} {13,S}
+6  C u0 p0 c0 {4,S} {9,S} {16,S} {17,S}
+7  C u0 p0 c0 {2,S} {10,S} {11,S} {18,S}
+8  C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}
+9  C u0 p0 c0 {1,S} {6,S} {10,D}
+10 C u0 p0 c0 {7,S} {9,D} {22,S}
+11 C u1 p0 c0 {1,S} {7,S} {23,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {5,S}
 14 H u0 p0 c0 {4,S}
 15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {6,S}
 17 H u0 p0 c0 {6,S}
 18 H u0 p0 c0 {7,S}
 19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {11,S}
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.96064,0.0453376,2.23208e-05,-4.41171e-08,1.51244e-11,2865.56,13.9798], Tmin=(10,'K'), Tmax=(1168.6,'K')),
-            NASAPolynomial(coeffs=[12.6167,0.0479464,-2.24073e-05,5.00566e-09,-4.34565e-13,-1358.76,-38.5474], Tmin=(1168.6,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[2.47404,0.169731,-0.000783286,2.02863e-06,-1.80817e-09,-22788.6,21.8703], Tmin=(10,'K'), Tmax=(381.016,'K')),
+            NASAPolynomial(coeffs=[-0.435429,0.0927259,-5.67218e-05,1.65168e-08,-1.8478e-12,-21786.2,43.344], Tmin=(381.016,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (23.9644,'kJ/mol'),
+        E0 = (-189.547,'kJ/mol'),
         Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (478.082,'J/(mol*K)'),
+        CpInf = (557.07,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc = 
 """
-Bond corrections: {'C-H': 11, 'C-O': 2, 'C=C': 2, 'C-C': 5}
+Bond corrections: {'C-H': 12, 'C-C': 6, 'C-O': 3, 'O-O': 1, 'C=C': 1}
 1D rotors:
-pivots: [1, 2], dihedral: [10, 1, 2, 3], rotor symmetry: 3, max scan energy: 2.12 kJ/mol
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [1, 2], dihedral: [12, 1, 2, 3], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.
+* Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 9], invalidation reason: Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.Bond ([[9, 14]]) broke during the scan. But unable to propose troubleshooting methods.
 
 
 External symmetry: 1, optical isomers: 2
 
 Geometry:
-C      -3.07518600    0.58610100    0.83711800
-C      -3.19258700   -0.63625700   -0.00725500
-C      -2.80681200   -1.97687100    0.52006600
-C      -2.68390600   -3.07431800   -0.56144900
-C      -3.96965700   -3.41041300   -1.23587900
-C      -4.42173200   -3.29984300   -2.51579500
-C      -5.76475200   -3.80514800   -2.52654900
-C      -6.03278300   -4.18501000   -1.25268400
-O      -4.95219500   -3.95384700   -0.45115600
-H      -2.10997000    0.62873600    1.35699200
-H      -3.84733000    0.61993300    1.62468600
-H      -3.18366300    1.50050300    0.24839000
-H      -3.78089700   -0.59119000   -0.91814200
-H      -1.85170500   -1.90394600    1.05845900
-H      -3.53576200   -2.32130300    1.27367300
-H      -1.97210300   -2.75647900   -1.32800600
-H      -2.27429000   -3.97999100   -0.09970800
-H      -3.86475000   -2.90842800   -3.35248300
-H      -6.43307500   -3.87334300   -3.37019500
-H      -6.89236900   -4.61603300   -0.76829200
+C      -3.11387000    0.53315300   -1.22646600
+C      -2.29215300   -0.60701900   -0.61825100
+C      -2.97957700   -1.26239400    0.58403500
+C      -2.16886700   -2.40697100    1.22671000
+C      -1.96804500   -3.59184200    0.34365100
+C      -0.87053000   -4.20034700   -0.18469000
+C      -1.34383800   -5.31351800   -0.95666600
+O      -4.68354400   -2.98715200   -2.75477800
+O      -5.48448000   -2.38883300   -2.08087700
+C      -2.69500800   -5.30082100   -0.84404500
+O      -3.09552000   -4.26039300   -0.05548600
+H      -3.29991200    1.32441300   -0.49329800
+H      -2.59875000    0.98495100   -2.07857000
+H      -4.08566100    0.17369200   -1.57789900
+H      -1.31041600   -0.22678900   -0.30912100
+H      -2.09647900   -1.36622300   -1.38297900
+H      -3.17108800   -0.50354700    1.35175700
+H      -3.95794600   -1.64977500    0.28080800
+H      -2.67637100   -2.72825000    2.14410800
+H      -1.18158400   -2.04189800    1.52627200
+H       0.15384400   -3.89447100   -0.04128400
+H      -0.75369500   -6.02162700   -1.51646900
+H      -3.48197300   -5.92172200   -1.23673200
 """,
 )
 
 entry(
-    index = 3,
+    index = 22,
     label = "PBROO4",
     molecule = 
 """
@@ -1753,7 +1760,7 @@ H       3.46139100   -3.93189100    1.46320900
 )
 
 entry(
-    index = 4,
+    index = 23,
     label = "PBROO5",
     molecule = 
 """
@@ -1833,7 +1840,7 @@ H       1.92050600   -3.18447300   -1.26888600
 )
 
 entry(
-    index = 5,
+    index = 24,
     label = "PBROO6",
     molecule = 
 """
@@ -1913,7 +1920,7 @@ H       3.42458400   -4.42503200   -2.86024300
 )
 
 entry(
-    index = 6,
+    index = 25,
     label = "PBROO7",
     molecule = 
 """
@@ -1993,7 +2000,7 @@ H       0.58310900   -3.83766100   -4.14674600
 )
 
 entry(
-    index = 7,
+    index = 26,
     label = "PBROO8",
     molecule = 
 """
@@ -2073,7 +2080,7 @@ H       1.13777500    2.84057200   -3.59079100
 )
 
 entry(
-    index = 8,
+    index = 27,
     label = "PBROO9",
     molecule = 
 """
@@ -2146,7 +2153,7 @@ H      -3.49819300   -1.63533600   -0.13939100
 )
 
 entry(
-    index = 9,
+    index = 28,
     label = "PBROO10",
     molecule = 
 """
@@ -2212,7 +2219,7 @@ H       2.94665100    1.66166900   -0.68038400
 )
 
 entry(
-    index = 10,
+    index = 29,
     label = "PBROO11",
     molecule = 
 """
@@ -2271,7 +2278,7 @@ H       0.24000600    4.30216500    1.38546900
 )
 
 entry(
-    index = 11,
+    index = 30,
     label = "PBROO12",
     molecule = 
 """
@@ -2323,7 +2330,7 @@ H      -1.89695200    1.64401200   -0.79911700
 )
 
 entry(
-    index = 12,
+    index = 31,
     label = "PBROO13",
     molecule = 
 """
@@ -2368,7 +2375,7 @@ H       2.14449600    0.23032400    0.12414500
 )
 
 entry(
-    index = 0,
+    index = 32,
     label = "TB1",
     molecule = 
 """
@@ -2443,7 +2450,7 @@ H       5.23414300   -4.50250400   -3.18084900
 )
 
 entry(
-    index = 1,
+    index = 33,
     label = "TB2",
     molecule = 
 """
@@ -2523,7 +2530,7 @@ H      -4.00332300    1.38698300   -2.46306500
 )
 
 entry(
-    index = 2,
+    index = 34,
     label = "TB3",
     molecule = 
 """
@@ -2603,7 +2610,7 @@ H      -1.32561800    2.43883500    4.65662600
 )
 
 entry(
-    index = 3,
+    index = 35,
     label = "TB4",
     molecule = 
 """
@@ -2678,7 +2685,7 @@ H       0.27063500    6.04222200   -0.82048300
 )
 
 entry(
-    index = 4,
+    index = 36,
     label = "TB5",
     molecule = 
 """
@@ -2739,7 +2746,7 @@ H       3.72440900   -3.74381900   -1.39243800
 )
 
 entry(
-    index = 5,
+    index = 37,
     label = "TB6",
     molecule = 
 """
@@ -2802,7 +2809,7 @@ H       1.01067100    4.63781500   -1.26922500
 )
 
 entry(
-    index = 6,
+    index = 38,
     label = "TB7",
     molecule = 
 """
@@ -2853,7 +2860,7 @@ H       0.57358500    2.31097000   -0.31962800
 )
 
 entry(
-    index = 7,
+    index = 39,
     label = "TB8",
     molecule = 
 """
@@ -2917,7 +2924,7 @@ H      -3.02364100    1.21058900   -4.43936600
 )
 
 entry(
-    index = 8,
+    index = 40,
     label = "TB9",
     molecule = 
 """
@@ -2975,7 +2982,7 @@ H       1.10838300   -1.61092000    1.58631200
 )
 
 entry(
-    index = 10,
+    index = 41,
     label = "TB10",
     molecule = 
 """
@@ -3040,7 +3047,7 @@ H      -2.55356300    0.07359600    0.14195800
 )
 
 entry(
-    index = 11,
+    index = 42,
     label = "TB11",
     molecule = 
 """
