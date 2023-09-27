@@ -59451,7 +59451,7 @@ Electronic structures: Gaussian 16, kinetic constants: MESS
 
 entry(
     index = 2953,
-    label = "H + Furfuryl_1 <=> C5H7O2_W2",
+    label = "H + Furfuryl_2 <=> C5H7O2_W2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (4.13721e+07,'cm^3/(mol*s)'),
@@ -59483,7 +59483,7 @@ Electronic structures: Gaussian 16, kinetic constants: MESS
 
 entry(
     index = 2954,
-    label = "H + Furfuryl_1 <=> C5H7O2_W3",
+    label = "H + Furfuryl_3 <=> C5H7O2_W3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (2.05957e+07,'cm^3/(mol*s)'),
@@ -59515,7 +59515,7 @@ Electronic structures: Gaussian 16, kinetic constants: MESS
 
 entry(
     index = 2955,
-    label = "H + Furfuryl_1 <=> C5H7O2_W4",
+    label = "H + Furfuryl_4 <=> C5H7O2_W4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (3.09538e+06,'cm^3/(mol*s)'),
