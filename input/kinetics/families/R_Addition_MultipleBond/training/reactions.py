@@ -59476,7 +59476,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : 2FFOH + H <=> W2
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59508,7 +59508,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : 2FFOH + H <=> W3
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59540,7 +59540,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : 2FFOH + H <=> W4
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59572,7 +59572,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W1 <=> P3 + CH2OH
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59604,7 +59604,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W2 <=> 2FFOH + H
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59636,7 +59636,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W2 <=> P11 + OH
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59668,7 +59668,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W3 <=> 2FFOH + H
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59700,7 +59700,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W4 <=> 2FFOH + H
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
@@ -59732,7 +59732,7 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
-Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W4 <=> P19 + OH
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
