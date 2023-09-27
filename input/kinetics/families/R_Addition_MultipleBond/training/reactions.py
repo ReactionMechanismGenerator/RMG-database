@@ -59641,3 +59641,35 @@ Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
 
+entry(
+    index = 2959,
+    label = "C5H7O2_W4_rad <=> H_rad_p + Furfuryl_4_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.2e+09,'s^-1'),
+        n = 1.29,
+        Ea = (34631,'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'Y. He'", "'J. Wang'", "'L. Lian'", "'Z. cheng'", "'X. Wang'", "'M. Liu'"],
+        title = 'The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis',
+        journal = "'Combustion and Flame'",
+        volume = "'250'",
+        pages = "'112627'",
+        year = "'2023'",
+        url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Electronic structures: Gaussian 16, kinetic constants: MESS
+""",
+)
+
