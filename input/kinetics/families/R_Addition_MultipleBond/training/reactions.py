@@ -59422,9 +59422,105 @@ entry(
     label = "H + Furfuryl_1 <=> C5H7O2_W1",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = A=(277621,'cm^3/(mol*s)'),
-        n = n=2.13,
-        Ea = Ea=(2102,'cal/mol'),
+        A = (277621,'cm^3/(mol*s)'),
+        n = 2.13,
+        Ea = (2102,'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'Y. He'", "'J. Wang'", "'L. Lian'", "'Z. cheng'", "'X. Wang'", "'M. Liu'"],
+        title = 'The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis',
+        journal = "'Combustion and Flame'",
+        volume = "'250'",
+        pages = "'112627'",
+        year = "'2023'",
+        url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Electronic structures: Gaussian 16, kinetic constants: MESS
+""",
+)
+
+entry(
+    index = 2953,
+    label = "H + Furfuryl_1 <=> C5H7O2_W2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.13721e+07,'cm^3/(mol*s)'),
+        n = 1.74,
+        Ea = (4871,'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'Y. He'", "'J. Wang'", "'L. Lian'", "'Z. cheng'", "'X. Wang'", "'M. Liu'"],
+        title = 'The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis',
+        journal = "'Combustion and Flame'",
+        volume = "'250'",
+        pages = "'112627'",
+        year = "'2023'",
+        url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Electronic structures: Gaussian 16, kinetic constants: MESS
+""",
+)
+
+entry(
+    index = 2954,
+    label = "H + Furfuryl_1 <=> C5H7O2_W3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.05957e+07,'cm^3/(mol*s)'),
+        n = 1.79,
+        Ea = (4507,'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'Y. He'", "'J. Wang'", "'L. Lian'", "'Z. cheng'", "'X. Wang'", "'M. Liu'"],
+        title = 'The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis',
+        journal = "'Combustion and Flame'",
+        volume = "'250'",
+        pages = "'112627'",
+        year = "'2023'",
+        url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : FFOH + H <=> W1
+Electronic structures: Gaussian 16, kinetic constants: MESS
+""",
+)
+
+entry(
+    index = 2955,
+    label = "H + Furfuryl_1 <=> C5H7O2_W4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.09538e+06,'cm^3/(mol*s)'),
+        n = 1.98,
+        Ea = (2211,'cal/mol'),
         T0 = (1, 'K'),
         Tmin=(298,'K'),
         Tmax=(2500,'K')
