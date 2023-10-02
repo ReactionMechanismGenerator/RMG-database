@@ -59739,7 +59739,7 @@ Electronic structures: Gaussian 16, kinetic constants: MESS
 
 entry(
     index = 2962,
-    label = "C5H7O2_W2_rad_2 <=> OH_rad_p + P10_p",
+    label = "C5H7O2_W2_rad_2 <=> H_rad_p + P10_p",
     degeneracy = 1.0,
     kinetics = Arrhenius(
         A = (1.14e+20,'s^-1'),
