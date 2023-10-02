@@ -12525,3 +12525,34 @@ Original entry: 2-Vinylphenyl <=> W8
 """,
 )
 
+entry(
+    index = 851,
+    label = "W1 <=> W5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.71e+14,'s^-1'),
+        n = -0.18,
+        Ea = (23305,'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'Y. He'", "'J. Wang'", "'L. Lian'", "'Z. cheng'", "'X. Wang'", "'M. Liu'"],
+        title = 'The reactions of 2-furfuryl alcohol with hydrogen atom: A theoretical calculation and kinetic modeling analysis',
+        journal = "'Combustion and Flame'",
+        volume = "'250'",
+        pages = "'112627'",
+        year = "'2023'",
+        url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
+    ),
+    referenceType = "theory",
+    rank = 5,
+    shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W1 <=> W5
+Electronic structures: Gaussian 16, kinetic constants: MESS
+""",
+)
