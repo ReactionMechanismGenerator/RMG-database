@@ -87319,8 +87319,8 @@ multiplicity 2
 
 CH2O_rad
 multiplicity 2
-1     C u1 p0 c0 {2,S} {3,S} {4,S}
-2  *3 O u0 p2 c0 {1,S} {5,S}
+1  *3 C u1 p0 c0 {2,S} {3,S} {4,S}
+2     O u0 p2 c0 {1,S} {5,S}
 3     H u0 p0 c0 {1,S}
 4     H u0 p0 c0 {1,S}
 5     H u0 p0 c0 {2,S}
