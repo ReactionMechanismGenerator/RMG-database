@@ -87318,10 +87318,12 @@ multiplicity 2
 14 *3 H u0 p0 c0 {6,S}
 
 CH2O_rad
-1  *3 O u0 p2 c0 {2,D}
-2     C u0 p0 c0 {1,D} {3,S} {4,S}
-3     H u0 p0 c0 {2,S}
-4     H u0 p0 c0 {2,S}
+multiplicity 2
+1     C u1 p0 c0 {2,S} {3,S} {4,S}
+2  *3 O u0 p2 c0 {1,S} {5,S}
+3     H u0 p0 c0 {1,S}
+4     H u0 p0 c0 {1,S}
+5     H u0 p0 c0 {2,S}
 
 C5H7O2_W1_rad
 multiplicity 2
