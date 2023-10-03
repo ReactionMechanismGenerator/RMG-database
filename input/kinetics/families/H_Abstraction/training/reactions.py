@@ -43733,7 +43733,7 @@ entry(
         url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
     ),
     referenceType = "theory",
-    rank = 5,
+    rank = 3,
     shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
     longDesc =
 u"""
@@ -43764,7 +43764,7 @@ entry(
         url = 'https://linkinghub.elsevier.com/retrieve/pii/S0010218023000123',
     ),
     referenceType = "theory",
-    rank = 5,
+    rank = 3,
     shortDesc = u"""CCSD(T)/CBS//M06–2X/def2-TZVP level""",
     longDesc =
 u"""
