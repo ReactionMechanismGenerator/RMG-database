@@ -3471,4 +3471,158 @@ H       3.26178200   -1.28478800   -0.57553800
 """,
 )
 
+entry(
+    index = 48,
+    label = "TB18",
+    molecule = 
+"""
+multiplicity 3
+1  O u1 p2 c0 {8,S}
+2  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
+3  C u0 p0 c0 {2,S} {7,S} {12,S} {13,S}
+4  C u0 p0 c0 {6,S} {9,S} {17,S} {18,S}
+5  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
+6  C u0 p0 c0 {4,S} {8,D} {19,S}
+7  C u0 p0 c0 {3,S} {9,D} {20,S}
+8  C u0 p0 c0 {1,S} {6,D} {21,S}
+9  C u1 p0 c0 {4,S} {7,D}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.03486,0.0998102,-0.000274873,6.22842e-07,-5.1755e-10,22922.8,17.5468], Tmin=(10,'K'), Tmax=(411.281,'K')),
+            NASAPolynomial(coeffs=[1.12384,0.0778508,-4.69093e-05,1.36241e-08,-1.52967e-12,23422.9,29.2373], Tmin=(411.281,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (190.565,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (494.711,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-O': 1, 'C-H': 12, 'C-C': 5, 'C=C': 2}
+1D rotors:
+pivots: [1, 2], dihedral: [10, 1, 2, 3], rotor symmetry: 3, max scan energy: 11.94 kJ/mol
+pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 21.49 kJ/mol
+pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 10.82 kJ/mol
+* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: Significant difference observed between consecutive conformersSignificant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: Significant difference observed between consecutive conformersSignificant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 9], invalidation reason: Another conformer for R1 exists which is 7.30 kJ/mol lower.
 
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C      -2.30995000   -0.66834100   -1.76561000
+C      -1.49442000   -0.74764400   -0.47223200
+C      -1.12705500    0.63854600    0.08366100
+C      -0.35054200    0.55572600    1.38676600
+C       0.83811800    1.06694300    1.60837400
+C       1.87478800    1.84731500    0.88699400
+C       2.91493100    0.94136700    0.31162900
+C       3.05669100    0.75845100   -1.09854200
+O       2.34537200    1.32306500   -1.93419100
+H      -2.55772500   -1.66559400   -2.13902600
+H      -3.24929800   -0.12871200   -1.60940300
+H      -1.75400000   -0.14744900   -2.55070000
+H      -0.57425700   -1.31468800   -0.64877800
+H      -2.05792000   -1.30357600    0.28644400
+H      -2.04977100    1.20698600    0.26116800
+H      -0.54963500    1.19013100   -0.66348700
+H      -0.84616600    0.01185000    2.19330100
+H       1.42014700    2.42894300    0.07495000
+H       2.34305800    2.56178300    1.57818500
+H       3.54718400    0.36780600    0.98233600
+H       3.85598000    0.06691100   -1.42376200
+""",
+)
+
+entry(
+    index = 49,
+    label = "TB19",
+    molecule = 
+"""
+1  O u0 p2 c0 {9,D}
+2  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
+3  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
+4  C u0 p0 c0 {7,S} {8,S} {14,S} {15,S}
+5  C u0 p0 c0 {2,S} {16,S} {17,S} {18,S}
+6  C u0 p0 c0 {3,S} {7,D} {19,S}
+7  C u0 p0 c0 {4,S} {6,D} {20,S}
+8  C u0 p0 c0 {4,S} {9,D} {21,S}
+9  C u0 p0 c0 {1,D} {8,D}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {3,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {5,S}
+18 H u0 p0 c0 {5,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.81605,0.119304,-0.000370106,7.58278e-07,-5.65499e-10,-10038.2,14.8821], Tmin=(10,'K'), Tmax=(441.307,'K')),
+            NASAPolynomial(coeffs=[2.81407,0.0708196,-4.04504e-05,1.12339e-08,-1.21627e-12,-9565.71,20.2411], Tmin=(441.307,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-83.4897,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (490.554,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C=O': 1, 'C-H': 12, 'C-C': 5, 'C=C': 2}
+1D rotors:
+pivots: [1, 2], dihedral: [10, 1, 2, 3], rotor symmetry: 3, max scan energy: 11.85 kJ/mol
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Another conformer for P1 exists which is 1.42 kJ/mol lower.
+pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 9.62 kJ/mol
+pivots: [5, 6], dihedral: [4, 5, 6, 7], rotor symmetry: 1, max scan energy: 13.62 kJ/mol
+pivots: [6, 7], dihedral: [5, 6, 7, 8], rotor symmetry: 1, max scan energy: 9.69 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C      -3.36023700    0.44824800   -1.34226400
+C      -2.68098900   -0.34704700   -0.22432600
+C      -2.06740700    0.55182700    0.86489700
+C      -1.36096300   -0.22169800    1.94194600
+C      -1.68539300   -0.22044600    3.23371600
+C      -0.97115100   -1.01233000    4.29893000
+C      -1.88324700   -2.02340000    4.97923000
+C      -2.18114900   -1.98786100    6.25492300
+O      -2.43756600   -1.95087900    7.39073700
+H      -4.17087300    1.06979700   -0.94944500
+H      -2.64919300    1.11148500   -1.84475500
+H      -3.78785000   -0.21490400   -2.09895600
+H      -1.89594800   -0.98275800   -0.65071800
+H      -3.40393600   -1.02532200    0.24189800
+H      -1.35630700    1.23995900    0.38731800
+H      -2.85069300    1.17470700    1.31098900
+H      -0.52026200   -0.83524600    1.61507000
+H      -2.52953400    0.37714500    3.57500600
+H      -0.56527500   -0.33280000    5.05621300
+H      -0.11442200   -1.53283500    3.85749200
+H      -2.34304900   -2.81097800    4.39405200
+""",
+)
