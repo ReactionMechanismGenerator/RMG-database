@@ -246,7 +246,7 @@ pivots: [3, 7], dihedral: [2, 3, 7, 6], rotor symmetry: 1, max scan energy: 15.3
 )
 
 entry(
-    index = 4,
+    index = 5,
     label = "R1_10 <=> P1_10",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00016379,'s^-1'), n=4.60084, Ea=(296.633,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
@@ -290,7 +290,7 @@ pivots: [2, 3], dihedral: [5, 2, 3, 7], rotor symmetry: 1, max scan energy: 12.9
 )
 
 entry(
-    index = 5,
+    index = 6,
     label = "R1_13 <=> P1_13",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.15282e-05,'s^-1'), n=4.97677, Ea=(127.561,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
@@ -335,7 +335,7 @@ pivots: [7, 8], dihedral: [6, 7, 8, 9], rotor symmetry: 1, max scan energy: 59.0
 )
 
 entry(
-    index = 6,
+    index = 7,
     label = "R1_8_0 <=> P1_8_0",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.2431e+10,'s^-1'), n=0.480246, Ea=(116.905,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
@@ -381,7 +381,7 @@ pivots: [8, 9], dihedral: [7, 8, 9, 17], rotor symmetry: 3, max scan energy: 12.
 )
 
 entry(
-    index = 7,
+    index = 8,
     label = "R1_11 <=> P1_11",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.56452,'s^-1'), n=2.434, Ea=(284.983,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
