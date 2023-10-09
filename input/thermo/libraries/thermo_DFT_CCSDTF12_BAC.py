@@ -3920,11 +3920,7 @@ multiplicity 2
 """
 Calculated by A. Grinberg Dana using ARC 1.1.0
 
-Conformers:       apfd/def2svp
-Optimization:     wb97xd/def2tzvp (using a fine grid)
-Frequencies:      wb97xd/def2tzvp
-Single point:     ccsd(t)-f12/cc-pvtz-f12
-Rotor scans:      wb97xd/def2tzvp
+CCSD(T)-T12/cc-pVTZ-F12//wb97xd/def2tzvp + BAC
 
 ! This species is predicted to be relatively stable by RMG's GAV (see RMG-Py/issues/1877),
 ! where in fact it is very high in energy.
@@ -3933,8 +3929,6 @@ Rotor scans:      wb97xd/def2tzvp
 ! Although calculated at a relatively high level, this entry primarily functions to alert RMG that the thermo is high
 ! and that these species shouldn't normally be included in the core
 ! (so a lower calculation level would have also been suffice).
-
-Bond corrections: {'C-H': 6, 'C=C': 1, 'O-O': 1, 'N-O': 1, 'C-C': 2, 'C=N': 1}
 
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: inconsistent scan
@@ -3957,5 +3951,47 @@ H      -2.25641100   -2.02992900    0.63733600
 H      -1.21885400   -3.66629500   -1.18794100
 H      -0.95961200   -2.30397000   -2.27536800
 H       0.41224500   -3.31201200   -1.78411800
+""",
+)
+
+entry(
+    index = 148,
+    label = "HOCOH",
+    molecule =
+"""
+multiplicity 1
+1 O u0 p2 c0 {2,S} {4,S}
+2 C u0 p1 c-1 {1,S} {3,D}
+3 O u0 p1 c+1 {2,D} {5,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.98163,0.00111378,3.80377e-05,-7.04881e-08,4.14474e-11,-26544.1,5.78756], Tmin=(10,'K'), Tmax=(517.227,'K')),
+            NASAPolynomial(coeffs=[2.85624,0.0134152,-8.07266e-06,2.3947e-09,-2.81279e-13,-26475.8,10.0097], Tmin=(517.227,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-220.706,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (99.7737,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc =
+"""
+Calculated by A. Grinberg Dana using ARC 1.1.0
+
+CCSD(T)-T12/cc-pVTZ-F12//B2PLYPD3/Def2-TZVP + BAC
+
+External symmetry: 1, optical isomers: 1
+Two identical hindered rotors were considered
+
+Geometry:
+O      -1.05034900    0.24912800   -0.01316200
+C       0.00024400   -0.55633600   -0.01313900
+O       1.05074600    0.24898900    0.00722000
+H      -1.82814100   -0.32083300   -0.02790400
+H       1.82860300   -0.32107400    0.00756800
 """,
 )
