@@ -3987,5 +3987,83 @@ H      -0.04833700   -1.34234400    5.76596700
 """,
 )
 
+entry(
+    index = 55,
+    label = "PBROO14",
+    molecule = 
+"""
+multiplicity 2
+1  O u0 p2 c0 {8,S} {11,S}
+2  O u0 p2 c0 {3,S} {9,S}
+3  O u1 p2 c0 {2,S}
+4  C u0 p0 c0 {5,S} {6,S} {14,S} {15,S}
+5  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
+6  C u0 p0 c0 {4,S} {8,S} {16,S} {17,S}
+7  C u0 p0 c0 {5,S} {18,S} {19,S} {20,S}
+8  C u0 p0 c0 {1,S} {6,S} {9,D}
+9  C u0 p0 c0 {2,S} {8,D} {10,S}
+10 C u0 p0 c0 {9,S} {11,D} {21,S}
+11 C u0 p0 c0 {1,S} {10,D} {22,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {7,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {10,S}
+22 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[2.91218,0.113589,-0.000325355,7.4825e-07,-6.38926e-10,-12755,16.8069], Tmin=(10,'K'), Tmax=(393.237,'K')),
+            NASAPolynomial(coeffs=[1.76073,0.08363,-5.21181e-05,1.55376e-08,-1.77993e-12,-12342.2,25.384], Tmin=(393.237,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-106.08,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (515.497,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-O': 3, 'O-O': 1, 'C=C': 2, 'C-H': 11, 'C-C': 5}
+1D rotors:
+pivots: [1, 2], dihedral: [12, 1, 2, 3], rotor symmetry: 3, max scan energy: 11.87 kJ/mol
+pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 23.36 kJ/mol
+pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 18.57 kJ/mol
+pivots: [4, 5], dihedral: [3, 4, 5, 6], rotor symmetry: 1, max scan energy: 7.22 kJ/mol
+* Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: Significant difference observed between consecutive conformersSignificant difference observed between consecutive conformers But unable to propose troubleshooting methods.
 
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C       4.45820300   -0.22545300   -0.66901400
+C       3.32008100   -0.43221800    0.33403900
+C       1.97054600    0.08081700   -0.17831900
+C       0.82877800   -0.13366100    0.83596600
+C      -0.48565500    0.38010800    0.37356100
+C      -1.66576700   -0.21995600    0.02539400
+O      -1.84048900   -1.58036700    0.07444900
+O      -3.05247500   -1.98441200   -0.29510400
+C      -2.59843600    0.78869600   -0.36440700
+C      -1.91751400    1.95186100   -0.22921900
+O      -0.64293400    1.72707100    0.21423900
+H       4.58939800    0.83501000   -0.90499000
+H       4.25854700   -0.75113100   -1.60770500
+H       5.40743200   -0.59813800   -0.27531500
+H       3.56519600    0.07446300    1.27530000
+H       3.23389900   -1.49852200    0.57510800
+H       1.71397600   -0.42526800   -1.11578100
+H       2.04559400    1.14845000   -0.41073500
+H       1.08911400    0.35442800    1.78312900
+H       0.71329300   -1.19990000    1.04942800
+H      -3.61269900    0.63818900   -0.68936000
+H      -2.17798500    2.98292100   -0.39574600
+""",
+)
 
