@@ -471,6 +471,50 @@ pivots: [4, 6], dihedral: [14, 4, 6, 2], rotor symmetry: 3, max scan energy: 9.6
 """,
 )
 
+entry(
+    index = 10,
+    label = "R1_19 <=> P1_19",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(170942,'s^-1'), n=1.74266, Ea=(10.3317,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+TS method summary for TS0 in R1 <=> P1:
+Methods that successfully generated a TS guess:
+user guess 0 + autotst,autotst,autotst,autotst,
+The method that generated the best TS guess and its output used for the optimization: user guess 0 + autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       2.64979800   -0.66848200   -0.29196500
+C      -1.06624800   -1.12748900   -0.27488900
+C      -1.40784700    0.12783300    0.52107600
+C       0.36755200   -1.63914100   -0.01033000
+C      -2.62774300    0.90010800    0.06242000
+C       1.30852000   -0.48573500   -0.07779500
+C       3.21990500    0.57776500   -0.25116300
+C       2.28557400    1.53895200   -0.01886900
+C       1.04320100    0.83126000    0.08242800
+H      -0.37923100    0.84799900    0.35701800
+H      -1.39949200   -0.05072900    1.60073700
+H      -1.16413900   -0.90111400   -1.34243300
+H      -1.78760000   -1.92372000   -0.05241800
+H       0.42247100   -2.11860500    0.97626600
+H       0.64137200   -2.40392300   -0.74324400
+H      -2.54208700    1.18812800   -0.98953800
+H      -3.53705000    0.29319600    0.16307200
+H      -2.77385000    1.80844800    0.65223700
+H       2.46260100    2.60004200    0.05405300
+H       4.28419600    0.60530700   -0.41686700
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [4, 2, 3, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+* Invalidated! pivots: [2, 4], dihedral: [3, 2, 4, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+pivots: [3, 5], dihedral: [2, 3, 5, 16], rotor symmetry: 3, max scan energy: 9.80 kJ/mol
+* Invalidated! pivots: [4, 6], dihedral: [2, 4, 6, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+""",
+)
 
 
 
