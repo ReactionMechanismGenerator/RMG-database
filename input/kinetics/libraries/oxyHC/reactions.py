@@ -9,6 +9,7 @@ of oxygenated hydrocarbons with relevance for biofuels.
 
 Reference legend:
 [AGD2024] A. Grinberg Dana, CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2-TZVP computations of the HOCO and HOCHO PESs
+[Lin2007] J.-G. Chang, H.-T. Chen, S. Xu, M.C. Lin, J. Phys. Chem. A 2007, 111, 6789-6797, doi: 10.1021/jp069036p
 [Yin2021] G. Yin, J. Xu, E. Hu, Q. Gao, H. Zhan, Z. Huang, Combustion and Flame 2021, 223, 77-87, doi: 10.1016/j.combustflame.2020.10.005
 """
 
@@ -294,47 +295,69 @@ entry(
 
 entry(
     index=6,
-    label="CO2 + H2 <=> HOCHO",
+    label="HOCHO <=> CO2 + H2",
     elementary_high_p=True,
-    kinetics=Chebyshev(
-        coeffs=[
-            [-14.3115, 0.413126, -0.0579884, -0.00173153],
-            [19.8044, 0.684196, -0.0786065, -0.00649813],
-            [1.27247, 0.377681, -0.00787764, -0.00948669],
-            [-0.442775, 0.122921, 0.0293292, -0.0052281],
-            [-0.176212, 0.0113623, 0.0215906, 0.00196268],
-            [0.0695142, -0.00955475, 0.00351353, 0.004133],
-        ],
-        kunits='cm^3/(mol*s)',
-        Tmin=(300, 'K'),
-        Tmax=(3000, 'K'),
-        Pmin=(0.01, 'bar'),
-        Pmax=(100, 'bar'),
-    ),
-    shortDesc=u"""[AGD2024], HOCHO PES""",
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(4.46e+13, 's^-1'), n=0, Ea=(68.24, 'kcal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(1.69e+15, 'cm^3/(mol*s)'), n=0, Ea=(51.11, 'kcal/mol'), T0=(1, 'K')),
+        efficiencies={}),
+    shortDesc=u"""[Lin2007], HOCHO PES""",
 )
 
 entry(
     index=7,
-    label="CO + H2O <=> HOCHO",
+    label="HOCHO <=> CO + H2O",
     elementary_high_p=True,
-    kinetics=Chebyshev(
-        coeffs=[
-            [-12.7782, 0.409582, -0.0663316, 0.00166702],
-            [19.1683, 0.660321, -0.0827493, -0.00491713],
-            [0.360045, 0.346745, -0.00132284, -0.0124468],
-            [-0.298119, 0.117192, 0.0285738, -0.00560419],
-            [0.00411226, 0.0190408, 0.018089, 0.00254281],
-            [-0.0265839, -0.00830434, 0.00486577, 0.00339306],
-        ],
-        kunits='cm^3/(mol*s)',
-        Tmin=(300, 'K'),
-        Tmax=(3000, 'K'),
-        Pmin=(0.01, 'bar'),
-        Pmax=(100, 'bar'),
-    ),
-    shortDesc=u"""[AGD2024], HOCHO PES""",
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(7.49e+14, 's^-1'), n=0, Ea=(68.71, 'kcal/mol'), T0=(1, 'K')),
+        arrheniusLow=Arrhenius(A=(4.05e+15, 'cm^3/(mol*s)'), n=0, Ea=(52.98, 'kcal/mol'), T0=(1, 'K')),
+        efficiencies={}),
+    shortDesc=u"""[Lin2007], HOCHO PES""",
 )
+
+# entry(
+#     index=6,
+#     label="CO2 + H2 <=> HOCHO",
+#     elementary_high_p=True,
+#     kinetics=Chebyshev(
+#         coeffs=[
+#             [-14.3115, 0.413126, -0.0579884, -0.00173153],
+#             [19.8044, 0.684196, -0.0786065, -0.00649813],
+#             [1.27247, 0.377681, -0.00787764, -0.00948669],
+#             [-0.442775, 0.122921, 0.0293292, -0.0052281],
+#             [-0.176212, 0.0113623, 0.0215906, 0.00196268],
+#             [0.0695142, -0.00955475, 0.00351353, 0.004133],
+#         ],
+#         kunits='cm^3/(mol*s)',
+#         Tmin=(300, 'K'),
+#         Tmax=(3000, 'K'),
+#         Pmin=(0.01, 'bar'),
+#         Pmax=(100, 'bar'),
+#     ),
+#     shortDesc=u"""[AGD2024], HOCHO PES""",
+# )
+
+# entry(
+#     index=7,
+#     label="CO + H2O <=> HOCHO",
+#     elementary_high_p=True,
+#     kinetics=Chebyshev(
+#         coeffs=[
+#             [-12.7782, 0.409582, -0.0663316, 0.00166702],
+#             [19.1683, 0.660321, -0.0827493, -0.00491713],
+#             [0.360045, 0.346745, -0.00132284, -0.0124468],
+#             [-0.298119, 0.117192, 0.0285738, -0.00560419],
+#             [0.00411226, 0.0190408, 0.018089, 0.00254281],
+#             [-0.0265839, -0.00830434, 0.00486577, 0.00339306],
+#         ],
+#         kunits='cm^3/(mol*s)',
+#         Tmin=(300, 'K'),
+#         Tmax=(3000, 'K'),
+#         Pmin=(0.01, 'bar'),
+#         Pmax=(100, 'bar'),
+#     ),
+#     shortDesc=u"""[AGD2024], HOCHO PES""",
+# )
 
 entry(
     index=8,
