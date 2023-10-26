@@ -516,7 +516,51 @@ pivots: [3, 5], dihedral: [2, 3, 5, 16], rotor symmetry: 3, max scan energy: 9.8
 """,
 )
 
+entry(
+    index = 11,
+    label = "R1_22 + R2_22 <=> P1_22 + P2_22",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0012455,'cm^3/(mol*s)'), n=3.61814, Ea=(21.8068,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+TS method summary for TS0 in R1 + R2 <=> P1 + P2:
 
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       1.83236300    0.60869400   -0.20943400
+C      -2.33237200    1.62600600   -0.76355500
+C      -1.00309500    0.85415800   -0.79895800
+C      -3.51112600    0.81767800   -0.21077300
+C       0.93755000    0.46616000    0.81643400
+C      -0.47414200    0.38263300    0.49545200
+C       1.62135700    0.38872800    2.00552800
+C       3.00546800    0.49878700    1.69154600
+C       3.07533400    0.62684800    0.33733600
+H      -2.19993000    2.54732200   -0.18395000
+H      -2.56250300    1.93716500   -1.78720700
+H      -0.23501500    1.36855300   -1.37968400
+H      -1.20789700   -0.09827400   -1.41208400
+H      -3.37050300    0.55031500    0.84073000
+H      -4.43883100    1.39141300   -0.27792500
+H      -3.63489000   -0.11154900   -0.77168100
+H      -1.10734400    0.53846200    1.36845400
+H       1.17883800    0.26739300    2.98158700
+H       3.83747500    0.48597900    2.37697400
+H       3.89127700    0.73943100   -0.35632100
+O      -1.06421500   -1.95011300   -0.12993300
+O      -1.45839600   -1.71348600   -1.34946000
+H      -0.68037900   -0.89680000    0.36191900
+
+1D rotors:
+pivots: [2, 4], dihedral: [3, 2, 4, 14], rotor symmetry: 3, max scan energy: 12.14 kJ/mol
+pivots: [2, 3], dihedral: [4, 2, 3, 6], rotor symmetry: 1, max scan energy: 18.52 kJ/mol
+* Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+""",
+)
 
 
 
