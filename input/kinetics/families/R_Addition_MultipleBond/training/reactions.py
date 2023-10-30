@@ -59768,3 +59768,127 @@ Table 3 high pressure limit rates (0.01, 0.1 1 and 10 atm) : W2 <=> P10 + OH
 Electronic structures: Gaussian 16, kinetic constants: MESS
 """,
 )
+
+entry(
+    index = 2963,
+    label = "INT1 <=> P5_rad + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.32191e+21,'s^-1'),
+        n = -1.78223,
+        Ea = (135.819,'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'J. Cui'","'L. Lian'", "'J. Wang'", "'H. Wang'", "'Y. He'", "'S. Wang'", "'X. Wang'","'L. Xu'","'Z. Cheng'"],
+        title = 'Ab initio kinetics of OH-initiated reactions of 2-furfuryl alcohol',
+        journal = "'Fuel'",
+        volume = "'338'",
+        pages = "'127325'",
+        year = "'2023'",
+        url = 'https://www.sciencedirect.com/science/article/pii/S0016236122041497?via%3Dihub',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    shortDesc = u"""CCSD(T)/CBS//M06-2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates : INT1 <=> P5 + OH
+""",
+)
+
+entry(
+    index = 2964,
+    label = "INT9 <=> P12_rad + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.62491e+23,'s^-1'),
+        n = -1.87579,
+        Ea = (121.11,'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'J. Cui'","'L. Lian'", "'J. Wang'", "'H. Wang'", "'Y. He'", "'S. Wang'", "'X. Wang'","'L. Xu'","'Z. Cheng'"],
+        title = 'Ab initio kinetics of OH-initiated reactions of 2-furfuryl alcohol',
+        journal = "'Fuel'",
+        volume = "'338'",
+        pages = "'127325'",
+        year = "'2023'",
+        url = 'https://www.sciencedirect.com/science/article/pii/S0016236122041497?via%3Dihub',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    shortDesc = u"""CCSD(T)/CBS//M06-2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates : INT9 <=> P12 + OH
+""",
+)
+
+entry(
+    index = 2965,
+    label = "INT25 <=> P39_rad + CH2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.48086e+12,'s^-1'),
+        n = 0.24754,
+        Ea = (35.88,'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'J. Cui'","'L. Lian'", "'J. Wang'", "'H. Wang'", "'Y. He'", "'S. Wang'", "'X. Wang'","'L. Xu'","'Z. Cheng'"],
+        title = 'Ab initio kinetics of OH-initiated reactions of 2-furfuryl alcohol',
+        journal = "'Fuel'",
+        volume = "'338'",
+        pages = "'127325'",
+        year = "'2023'",
+        url = 'https://www.sciencedirect.com/science/article/pii/S0016236122041497?via%3Dihub',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    shortDesc = u"""CCSD(T)/CBS//M06-2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates : INT25 <=> P39 + CH2O
+""",
+)
+
+entry(
+    index = 2966,
+    label = "INT26 <=> P40_rad + H_rad_p",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05549e+11,'s^-1'),
+        n = 0.878136,
+        Ea = (67.5505,'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin=(298,'K'),
+        Tmax=(2500,'K')
+    ),
+    reference = Article(
+        authors = ["'L. Xing'", "'J. Cui'","'L. Lian'", "'J. Wang'", "'H. Wang'", "'Y. He'", "'S. Wang'", "'X. Wang'","'L. Xu'","'Z. Cheng'"],
+        title = 'Ab initio kinetics of OH-initiated reactions of 2-furfuryl alcohol',
+        journal = "'Fuel'",
+        volume = "'338'",
+        pages = "'127325'",
+        year = "'2023'",
+        url = 'https://www.sciencedirect.com/science/article/pii/S0016236122041497?via%3Dihub',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    shortDesc = u"""CCSD(T)/CBS//M06-2X/def2-TZVP level""",
+    longDesc =
+u"""
+Quantum chemistry calculations at the CCSD(T)/CBS//M06–2X/def2-TZVP level.
+Table 3 high pressure limit rates : INT26 <=> P40 + H
+""",
+)
