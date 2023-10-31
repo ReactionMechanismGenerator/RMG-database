@@ -179,11 +179,11 @@ multiplicity 2
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {5,S}
 
-CH2
-multiplicity 3
-1 C u2 p0 c0 {2,S} {3,S}
-2 H u0 p0 c0 {1,S}
+CH2O
+1 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 O u0 p2 c0 {1,D}
 3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
 
 P51
 1  O u0 p2 c0 {5,D}
