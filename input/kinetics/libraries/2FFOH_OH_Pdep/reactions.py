@@ -65,7 +65,7 @@ entry(
 
 entry(
     index = 8,
-    label = "2FFOH + OH <=> P49 + CH2",
+    label = "2FFOH + OH <=> P49 + CH2O",
     degeneracy = 1.0,
     kinetics = PDepArrhenius(pressures=([0.00101325,0.101325,1.01325,10.1325],'bar'), arrhenius=[Arrhenius(A=(6.32167e-06,'cm^3/(mol*s)'), n=4.3685, Ea=(2.98053,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 24 data points; dA = *|/ 2.74453, dn = +|- 0.128802, dEa = +|- 0.803552 kJ/mol"""), Arrhenius(A=(9.8385e-05,'cm^3/(mol*s)'), n=4.05723, Ea=(8.8661,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 24 data points; dA = *|/ 2.78843, dn = +|- 0.130826, dEa = +|- 0.81618 kJ/mol"""), Arrhenius(A=(4.53745e-05,'cm^3/(mol*s)'), n=4.17807, Ea=(10.8437,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 24 data points; dA = *|/ 6.19453, dn = +|- 0.232656, dEa = +|- 1.45146 kJ/mol"""), Arrhenius(A=(0.000536262,'cm^3/(mol*s)'), n=3.90395, Ea=(17.0389,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 24 data points; dA = *|/ 8.24066, dn = +|- 0.269068, dEa = +|- 1.67862 kJ/mol""")]),
 )
