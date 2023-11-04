@@ -607,5 +607,74 @@ pivots: [5, 6], dihedral: [1, 5, 6, 3], rotor symmetry: 1, max scan energy: 31.5
 """,
 )
 
+entry(
+    index = 12,
+    label = "R1_21 + R2_21 <=> P1_21 + P2_21",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00593909,'cm^3/(mol*s)'), n=3.90095, Ea=(11.2656,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+TS method summary for TS0 in R1 + R2 <=> P1 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.38262500   -2.83523400    1.67003100
+C      -1.67283700   -2.29167100   -0.34573100
+C      -1.83598800   -3.66044600   -1.02673700
+C      -0.25141100   -1.74101900   -0.39735400
+C      -3.27490300   -4.18214300   -0.97462100
+C       0.75896400   -2.39958300    0.42105700
+C       2.09888100   -2.64194700    0.25077600
+C       2.56695800   -3.26095000    1.45112200
+C       1.49073800   -3.35512900    2.27456300
+H      -1.51033700   -3.58363000   -2.07103300
+H      -1.16542300   -4.38213500   -0.54866400
+H      -1.99110500   -2.36984700    0.69882700
+H      -2.34620900   -1.57078200   -0.82436300
+H      -0.35231800   -0.50814400    0.00351600
+H       0.11458100   -1.60824600   -1.41814400
+H      -3.96522300   -3.49390500   -1.47275900
+H      -3.36391900   -5.15477800   -1.46631400
+H      -3.61463700   -4.30030300    0.05902000
+H       2.67340200   -2.41265700   -0.63275000
+H       3.56870600   -3.59715500    1.66765600
+H       1.34303700   -3.74989400    3.26533900
+O       0.48328100    3.72367500   -1.88107100
+C       0.88762800    1.44328400    0.14089700
+C       1.00907900    2.97477000    0.37511000
+C      -0.94393400    0.79799400    1.85002100
+C       0.18005800    3.80057200   -0.54706200
+C      -0.48312200    0.86722700    0.41363600
+C      -0.86515200    4.65504200   -0.36927800
+C      -1.23144000    5.13941400   -1.66944200
+C      -0.38431800    4.54305600   -2.54440300
+H       1.17640500    1.23948500   -0.89543400
+H       1.62770200    0.94551300    0.77828700
+H       0.72630000    3.22380600    1.40110200
+H       2.06268100    3.25723800    0.26183100
+H      -1.09970900    1.79777900    2.27961400
+H      -0.20964300    0.28496100    2.47943000
+H      -1.89347800    0.26371800    1.94054000
+H      -1.25116300    1.21371000   -0.28048100
+H      -1.31956900    4.91266100    0.57443100
+H      -2.01791900    5.83632000   -1.91204400
+H      -0.26347900    4.58727900   -3.61340100
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [4, 2, 3, 5], invalidation reason: Another conformer for TS0 exists which is 2.77 kJ/mol lower.
+pivots: [2, 4], dihedral: [3, 2, 4, 6], rotor symmetry: 1, max scan energy: 18.98 kJ/mol
+pivots: [3, 5], dihedral: [2, 3, 5, 16], rotor symmetry: 3, max scan energy: 11.81 kJ/mol
+pivots: [4, 6], dihedral: [2, 4, 6, 1], rotor symmetry: 1, max scan energy: 27.14 kJ/mol
+* Invalidated! pivots: [23, 27], dihedral: [24, 23, 27, 25], invalidation reason: Two consecutive points are inconsistent by more than 6.72 kJ/molTwo consecutive points are inconsistent by more than 8.77 kJ/molTwo consecutive points are inconsistent by more than 8.77 kJ/mol
+pivots: [23, 24], dihedral: [27, 23, 24, 26], rotor symmetry: 1, max scan energy: 20.62 kJ/mol
+pivots: [24, 26], dihedral: [23, 24, 26, 22], rotor symmetry: 1, max scan energy: 9.79 kJ/mol
+pivots: [25, 27], dihedral: [35, 25, 27, 23], rotor symmetry: 3, max scan energy: 6.92 kJ/mol
+""",
+)
 
 
