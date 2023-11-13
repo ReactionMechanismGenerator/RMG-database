@@ -608,7 +608,7 @@ pivots: [5, 6], dihedral: [1, 5, 6, 3], rotor symmetry: 1, max scan energy: 31.5
 )
 
 entry(
-    index = 12,
+    index = 13,
     label = "R1_21 + R2_21 <=> P1_21 + P2_21",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00593909,'cm^3/(mol*s)'), n=3.90095, Ea=(11.2656,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
