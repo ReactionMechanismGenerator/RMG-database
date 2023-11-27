@@ -60,6 +60,11 @@ multiplicity 3
 1 N u2 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
+NH(S)
+multiplicity 1
+1 N u0 p2 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
 NH2
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -133,12 +138,19 @@ multiplicity 2
 1 N u1 p1 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 
-H2NO
+NH2O
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u1 p2 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
+
+NHOH
+multiplicity 2
+1 N u1 p1 c0 {2,S} {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
 
 H2NOH
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
