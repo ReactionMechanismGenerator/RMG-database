@@ -1064,7 +1064,7 @@ H       4.56610200    0.25896100    0.13143900
 
 entry(
     index = 17,
-    label = "TB37",
+    label = "TB39",
     molecule = 
 """
 1  O u0 p2 c0 {5,D}
