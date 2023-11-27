@@ -109,49 +109,49 @@ pivots: [8, 9], dihedral: [7, 8, 9, 19], rotor symmetry: 3, max scan energy: 11.
 """,
 )
 
-entry(
-    index = 2,
-    label = "R1_4 <=> P1_4",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.000124169,'s^-1'), n=4.86016, Ea=(120.639,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-TS method summary for TS0 in R1 <=> P1:
+# entry(
+#     index = 2,
+#     label = "R1_4 <=> P1_4",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(0.000124169,'s^-1'), n=4.86016, Ea=(120.639,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# TS method summary for TS0 in R1 <=> P1:
 
-The method that generated the best TS guess and its output used for the optimization: user guess 0
+# The method that generated the best TS guess and its output used for the optimization: user guess 0
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-C       3.06119000   -1.17552800   -0.34179400
-C       1.71722800   -0.90703000   -1.02466800
-C       0.80314000   -0.00277200   -0.18791100
-C      -0.57073800    0.28171400   -0.83032600
-C      -1.41495200    1.35154800   -0.02885400
-C      -2.47264500    0.54070800    0.63881500
-C      -2.52826100   -0.83898200    0.12340500
-C      -1.45874600   -0.98434500   -0.87641900
-O      -1.28517300   -1.93863000   -1.61423200
-H       2.92398600   -1.68558500    0.61694400
-H       3.60486600   -0.24537600   -0.14693000
-H       3.69960600   -1.80853600   -0.96350900
-H       1.88802700   -0.43228900   -1.99823500
-H       1.20581000   -1.84927000   -1.23488000
-H       1.30598500    0.95774500   -0.02070300
-H       0.65738400   -0.44711800    0.80600700
-H      -0.40958100    0.62702300   -1.85567400
-H      -0.78867900    1.92890500    0.65630300
-H      -1.88047400    2.06253600   -0.72407200
-H      -1.95504600   -0.55836500    1.21403700
-H      -3.34686400   -1.53371200    0.24441300
+# Optimized TS geometry:
+# C       3.06119000   -1.17552800   -0.34179400
+# C       1.71722800   -0.90703000   -1.02466800
+# C       0.80314000   -0.00277200   -0.18791100
+# C      -0.57073800    0.28171400   -0.83032600
+# C      -1.41495200    1.35154800   -0.02885400
+# C      -2.47264500    0.54070800    0.63881500
+# C      -2.52826100   -0.83898200    0.12340500
+# C      -1.45874600   -0.98434500   -0.87641900
+# O      -1.28517300   -1.93863000   -1.61423200
+# H       2.92398600   -1.68558500    0.61694400
+# H       3.60486600   -0.24537600   -0.14693000
+# H       3.69960600   -1.80853600   -0.96350900
+# H       1.88802700   -0.43228900   -1.99823500
+# H       1.20581000   -1.84927000   -1.23488000
+# H       1.30598500    0.95774500   -0.02070300
+# H       0.65738400   -0.44711800    0.80600700
+# H      -0.40958100    0.62702300   -1.85567400
+# H      -0.78867900    1.92890500    0.65630300
+# H      -1.88047400    2.06253600   -0.72407200
+# H      -1.95504600   -0.55836500    1.21403700
+# H      -3.34686400   -1.53371200    0.24441300
 
-1D rotors:
-pivots: [1, 2], dihedral: [10, 1, 2, 3], rotor symmetry: 3, max scan energy: 11.84 kJ/mol
-pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 27.38 kJ/mol
-pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 21.38 kJ/mol
-""",
-)
+# 1D rotors:
+# pivots: [1, 2], dihedral: [10, 1, 2, 3], rotor symmetry: 3, max scan energy: 11.84 kJ/mol
+# pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 27.38 kJ/mol
+# pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 21.38 kJ/mol
+# """,
+# )
 
 entry(
     index = 3,
