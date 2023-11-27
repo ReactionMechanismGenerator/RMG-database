@@ -1658,7 +1658,7 @@ H      -2.39898200    1.43143200   -0.31220200
 
 entry(
     index = 27,
-    label = "TB47",
+    label = "TB49",
     molecule = 
 """
 multiplicity 2
