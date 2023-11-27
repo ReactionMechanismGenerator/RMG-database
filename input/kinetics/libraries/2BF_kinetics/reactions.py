@@ -153,53 +153,53 @@ pivots: [8, 9], dihedral: [7, 8, 9, 19], rotor symmetry: 3, max scan energy: 11.
 # """,
 # )
 
-entry(
-    index = 3,
-    label = "R1_6 <=> P1_6",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.04212e-18,'s^-1'), n=9.10001, Ea=(108.465,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-TS method summary for TS0 in R1 <=> P1:
+# entry(
+#     index = 3,
+#     label = "R1_6 <=> P1_6",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(1.04212e-18,'s^-1'), n=9.10001, Ea=(108.465,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# TS method summary for TS0 in R1 <=> P1:
 
-The method that generated the best TS guess and its output used for the optimization: user guess 0
+# The method that generated the best TS guess and its output used for the optimization: user guess 0
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-C      -3.06811700    1.68094600    1.04223300
-C      -1.86657100    1.29813700    0.33366100
-C      -0.92410800    0.16115900    0.34473600
-C      -1.55268000   -1.19158400   -0.04368500
-O      -2.74604700   -1.35158000   -0.12369800
-C      -0.55267200   -2.31103900   -0.34003000
-C      -1.13512100   -3.68955800   -0.23451600
-C      -0.57662000   -4.69365300    0.43722500
-C      -1.14542200   -6.07742700    0.55012800
-H      -3.10574500    2.58383300    1.64910000
-H      -2.89613300    1.79751100   -0.26630000
-H      -0.50070000    0.01556000    1.35579300
-H      -0.06735400    0.34004300   -0.31586300
-H      -0.20668800   -2.11699300   -1.36811800
-H       0.33101800   -2.19818800    0.29603000
-H      -2.08490200   -3.83826700   -0.74094500
-H       0.36804100   -4.52105600    0.95308200
-H      -0.45263100   -6.82415200    0.14602200
-H      -2.09225800   -6.16589500    0.01278600
-H      -1.32151300   -6.34715000    1.59740300
-H      -3.84111300    0.92912500    1.19051100
+# Optimized TS geometry:
+# C      -3.06811700    1.68094600    1.04223300
+# C      -1.86657100    1.29813700    0.33366100
+# C      -0.92410800    0.16115900    0.34473600
+# C      -1.55268000   -1.19158400   -0.04368500
+# O      -2.74604700   -1.35158000   -0.12369800
+# C      -0.55267200   -2.31103900   -0.34003000
+# C      -1.13512100   -3.68955800   -0.23451600
+# C      -0.57662000   -4.69365300    0.43722500
+# C      -1.14542200   -6.07742700    0.55012800
+# H      -3.10574500    2.58383300    1.64910000
+# H      -2.89613300    1.79751100   -0.26630000
+# H      -0.50070000    0.01556000    1.35579300
+# H      -0.06735400    0.34004300   -0.31586300
+# H      -0.20668800   -2.11699300   -1.36811800
+# H       0.33101800   -2.19818800    0.29603000
+# H      -2.08490200   -3.83826700   -0.74094500
+# H       0.36804100   -4.52105600    0.95308200
+# H      -0.45263100   -6.82415200    0.14602200
+# H      -2.09225800   -6.16589500    0.01278600
+# H      -1.32151300   -6.34715000    1.59740300
+# H      -3.84111300    0.92912500    1.19051100
 
-1D rotors:
-* Invalidated! pivots: [1, 2], dihedral: [10, 1, 2, 3], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Two consecutive points are inconsistent by more than 2.36 kJ/molTwo consecutive points are inconsistent by more than 2.36 kJ/molTwo consecutive points are inconsistent by more than 2.36 kJ/mol
-pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 7.64 kJ/mol
-pivots: [4, 6], dihedral: [3, 4, 6, 7], rotor symmetry: 1, max scan energy: 6.44 kJ/mol
-pivots: [6, 7], dihedral: [4, 6, 7, 8], rotor symmetry: 1, max scan energy: 16.29 kJ/mol
-* Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 9], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-pivots: [8, 9], dihedral: [7, 8, 9, 18], rotor symmetry: 3, max scan energy: 7.94 kJ/mol
-""",
-)
+# 1D rotors:
+# * Invalidated! pivots: [1, 2], dihedral: [10, 1, 2, 3], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+# * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Two consecutive points are inconsistent by more than 2.36 kJ/molTwo consecutive points are inconsistent by more than 2.36 kJ/molTwo consecutive points are inconsistent by more than 2.36 kJ/mol
+# pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 7.64 kJ/mol
+# pivots: [4, 6], dihedral: [3, 4, 6, 7], rotor symmetry: 1, max scan energy: 6.44 kJ/mol
+# pivots: [6, 7], dihedral: [4, 6, 7, 8], rotor symmetry: 1, max scan energy: 16.29 kJ/mol
+# * Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 9], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+# pivots: [8, 9], dihedral: [7, 8, 9, 18], rotor symmetry: 3, max scan energy: 7.94 kJ/mol
+# """,
+# )
 
 entry(
     index = 4,
