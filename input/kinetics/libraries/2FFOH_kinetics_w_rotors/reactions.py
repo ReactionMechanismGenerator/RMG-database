@@ -19,7 +19,7 @@ Using the following ESS settings: {'gaussian': ['local'], 'molpro': ['local']}
 
 entry(
     index = 0,
-    label = "R1_1 <=> P1_1",
+    label = "R1_0 <=> P1_0",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.62154e-05,'s^-1'), n=4.70143, Ea=(287.679,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
