@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "2BF_kinetics"
+name = "2BF_H_Abs"
 shortDesc = u""
 longDesc = u"""ARC v1.1.0
 
@@ -115,7 +115,7 @@ pivots: [4, 6], dihedral: [3, 4, 6, 17], rotor symmetry: 4, max scan energy: 17.
 )
 
 entry(
-    index = 0,
+    index = 2,
     label = "2BF + H_rad <=> PB2 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.14855e+06,'cm^3/(mol*s)'), n=2.32566, Ea=(31.257,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
