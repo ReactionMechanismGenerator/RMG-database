@@ -8568,7 +8568,8 @@ entry(
         E = None,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 3.17,
+        n = 1.369,
         name_in_coolprop = "DimethylCarbonate",
     ),
     dataCount = DataCountSolvent(
@@ -8609,7 +8610,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 3.10,
+        n = 1.384,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -8652,7 +8654,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 33.6, #est based on EC+EMC mixture
+        n = 1.420, #est based on EC
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
@@ -8694,7 +8697,8 @@ entry(
         E = 0,
         alpha = None,
         beta = None,
-        eps = None,
+        eps = 95.3,
+        n = 1.420,
         name_in_coolprop = None,
     ),
     dataCount = DataCountSolvent(
