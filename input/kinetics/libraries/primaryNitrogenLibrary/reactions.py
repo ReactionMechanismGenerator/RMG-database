@@ -6915,3 +6915,80 @@ CASPT2
 Table 4
 """,
 )
+
+entry(
+    index=419,
+    label="HNO <=> HNO(T)",
+    kinetics=Arrhenius(A=(1e-5, 's^-1'), n=0, Ea=(10000, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+RMG estimates this spin-forbidden reaction with a high rate coefficient
+""",
+)
+
+entry(
+    index=420,
+    label="HNO + HNO <=> HNO + HNO(T)",
+    kinetics=Arrhenius(A=(1e-5, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+RMG estimates this spin-forbidden reaction with a high rate coefficient
+""",
+)
+
+entry(
+    index=421,
+    label="HNO + HNO <=> HNO(T) + HNO(T)",
+    kinetics=Arrhenius(A=(1e-5, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+RMG estimates this spin-forbidden reaction with a high rate coefficient
+""",
+)
+
+entry(
+    index=422,
+    label="HNO + HNO(T) <=> HNO(T) + HNO(T)",
+    kinetics=Arrhenius(A=(1e-5, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+RMG estimates this spin-forbidden reaction with a high rate coefficient
+""",
+)
+
+entry(
+    index=423,
+    label="HNO + HNOH <=> HNO(T) + HNOH",
+    kinetics=Arrhenius(A=(1e-5, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+RMG estimates this spin-forbidden reaction with a high rate coefficient
+""",
+)
+
+entry(
+    index=424,
+    label="NO2 + NH <=> NO + HNO(T)",
+    kinetics=Arrhenius(A=(1e5, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+est.
+""",
+)
+
+entry(
+    index=425,
+    label="NH2 + O <=> HNO(T) + H",
+    kinetics=Arrhenius(A=(1e0, 'cm^3/(mol*s)'), n=1.5, Ea=(10000, 'J/mol'), T0=(1, 'K')),
+    shortDesc=u"""est.""",
+    longDesc =
+u"""
+PDep, similar to NH2 + O <=> HNO(S) + H
+""",
+)
