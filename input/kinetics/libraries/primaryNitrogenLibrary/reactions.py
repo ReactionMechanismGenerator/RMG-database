@@ -2845,11 +2845,9 @@ entry(
                        Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc=u"""[Stagni2020]""",
     longDesc=
-u"""Reaction 4, Table 1, Source: [Stagni2020].The rate of reaction was calculated with CCSD(T) level of theory 
-performed using Molpro 2010. Electronic structure calculations were performed determining structures and vibrational 
-frequencies at the M06-2X/aug-cc-pVTZ level and energies at the unrestricted CCSDĲT)/aug-cc-pVTZ level, corrected for
-basis set size effect with the change of density fitted (DF) MP2 energies computed using aug-cc-pVQZ and aug-cc-pVTZ 
-basis sets.
+u"""
+Reaction 4, Table 1
+CCSD(T)/aug-cc-pVTZ//M06-2X/aug-cc-pVTZ
     
 Previously taken from [Klippenstein2009a].
 
@@ -4857,7 +4855,7 @@ indicate transition states and A-factors similar to radical addition reactions.
 entry(
     index = 271,
     label = 'NH2 + HO2 <=> HNO + H2O',
-    kinetics = Arrhenius(A=(1.02e+12, 'cm^3/(mol*s)'), n=0.166, Ea=(-1864, 'cal/mol'),
+    kinetics = Arrhenius(A=(1.02e+12, 'cm^3/(mol*s)'), n=0.166, Ea=(-938, 'cal/mol'),
                           T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2022]""",
     longDesc =
@@ -4894,7 +4892,7 @@ entry(
         arrhenius=[
             Arrhenius(A=(6.04e+18, 'cm^3/(mol*s)'), n=-1.91, Ea=(306, 'cal/mol'),
                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-            Arrhenius(A=(5.91e7, 'cm^3/(mol*s)'), n=1.59, Ea=(1373, 'cal/mol'),
+            Arrhenius(A=(5.91e7, 'cm^3/(mol*s)'), n=1.59, Ea=(-1373, 'cal/mol'),
                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
         ],
     ),
@@ -4914,7 +4912,7 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 entry(
     index = 275,
     label = 'NH2 + HO2 <=> NH2O + OH',
-    kinetics = Arrhenius(A=(2.19e+09, 'cm^3/(mol*s)'), n=0.791, Ea=(-2838, 'cal/mol'),
+    kinetics = Arrhenius(A=(2.19e+09, 'cm^3/(mol*s)'), n=0.791, Ea=(-1428, 'cal/mol'),
                          T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2022]""",
     longDesc =
@@ -5579,10 +5577,12 @@ entry(
 entry(
     index=322,
     label='NH2O + OH <=> HNO + H2O',
-    kinetics=Arrhenius(A=(2.14e+15, 'cm^3/(mol*s)'), n=-0.751, Ea=(-922, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics=Arrhenius(A=(2.14e+15, 'cm^3/(mol*s)'), n=-0.751, Ea=(-464, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc=u"""[Klippenstein2022]""",
     longDesc=
 u"""
+p. 6
 CASPT2/CBS//CASPT2/cc-pVTZ-F12
 
 Also available from [Glarborg2022]
@@ -5598,17 +5598,17 @@ entry(
     kinetics=PDepArrhenius(
         pressures=([0.1, 1, 10, 100, 300], 'bar'),
         arrhenius=[
-            Arrhenius(A=(6.07E+24, 'cm^3/(mol*s)'), n=-5.64, Ea=(2715, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-            Arrhenius(A=(3.37E+26, 'cm^3/(mol*s)'), n=-5.84, Ea=(2589, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-            Arrhenius(A=(2.18E+28, 'cm^3/(mol*s)'), n=-6.07, Ea=(3036, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-            Arrhenius(A=(1.98E+29, 'cm^3/(mol*s)'), n=-6.02, Ea=(3835, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-            Arrhenius(A=(1.48E+29, 'cm^3/(mol*s)'), n=-5.82, Ea=(4215, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(6.07E+24, 'cm^3/(mol*s)'), n=-5.64, Ea=(1366, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(3.37E+26, 'cm^3/(mol*s)'), n=-5.84, Ea=(1303, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(2.18E+28, 'cm^3/(mol*s)'), n=-6.07, Ea=(1528, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(1.98E+29, 'cm^3/(mol*s)'), n=-6.02, Ea=(1930, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(1.48E+29, 'cm^3/(mol*s)'), n=-5.82, Ea=(2121, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
         ]),
     shortDesc=u"""[Klippenstein2022]""",
     longDesc=
 u"""
 CASPT2/CBS//CASPT2/cc-pVTZ-F12
-Note that the rate expression at 300 bar may be of limited validity due to the effect of non-binary collisions
+(The rate expression at 300 bar may be of limited validity due to the effect of non-binary collisions)
 """,
 )
 
