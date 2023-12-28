@@ -5814,14 +5814,13 @@ entry(
 entry(
     index=341,
     label='NH + O2 <=> O + HNO',
-    kinetics=Arrhenius(A=(1.0E-30, 'cm^3/(mol*s)'), n=0, Ea=(500, 'kJ/mol'), T0=(1, 'K')),
-    shortDesc=u"""[GrinbergDana2024]""",
+    kinetics=Arrhenius(A=(4.61e+05, 'cm^3/(mol*s)'), n=2.0, Ea=(6500, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3300, 'K')),
+    shortDesc=u"""[Miller1992]""",
     longDesc=
     u"""
-    x15
-    This reaction is spin-forbidden. It may form a singlet atomic O, but not a triplet O as written here.
-    Was also studied by [Miller1992] and by doi.org/10.1021/jp902527a,
-    the latter supports the formation of O(T) and HNO(T).
+k3
+BAC-MP4
     """,
 )
 
@@ -6991,4 +6990,36 @@ entry(
 u"""
 PDep, similar to NH2 + O <=> HNO(S) + H
 """,
+)
+
+entry(
+    index=426,
+    label='N2H4 + H <=> N2H3 + H2',
+    kinetics=Arrhenius(A=(2.76e+05, 'cm^3/(mol*s)'), n=2.56, Ea=(1218, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    shortDesc=u"""[Kanno2020]""",
+    longDesc=
+    u"""
+    Table 4
+    CBS-QB3//DSD-BLYP-D3(BJ)/Def2-TZVP
+    """,
+)
+
+entry(
+    index=427,
+    label='N2H4 + OH <=> N2H3 + H2O',
+    kinetics=PDepArrhenius(
+        pressures=([1, 760, 7600], 'torr'),
+        arrhenius=[
+            Arrhenius(A=(3.49e+08, 'cm^3/(mol*s)'), n=1.544, Ea=(-5.45, 'kJ/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(2.48e+08, 'cm^3/(mol*s)'), n=1.585, Ea=(-5.86, 'kJ/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.62e+08, 'cm^3/(mol*s)'), n=1.637, Ea=(-6.39, 'kJ/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+        ],
+    ),
+    shortDesc=u"""[Huynh2019]""",
+    longDesc=
+    u"""
+    Table S4 gives the raw data
+    CCSD(T)/CBS//M06-2X/6-311++G(3df,2p)
+    """,
 )
