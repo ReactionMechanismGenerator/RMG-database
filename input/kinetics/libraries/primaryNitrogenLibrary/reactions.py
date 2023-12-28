@@ -81,7 +81,9 @@ Reference legend:
 [Herron1991] W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data, 1991, 20, 609, doi: 10.1063/1.555890
 [Hindelang1993] M.L. Thoma, F.J. Hindelang in: R. Burn, L.Z. Dumitrescu (Ed.) Shock Waves @ Marseille II (Proceedings Marseille France), 1993, 59-64, doi: 10.1007/978-3-642-78832-1
 [Howard1988] J.F. Gleason, C.J. Howard, J. Phys. Chem., 1988, 92(12), 3414-3417, doi: 10.1021/j100323a021
+[Huynh2019] T.V.-T Mai, H.T. Nguyen, L.K. Huynh, Phys. Chem. Chem. Phys., 2019, 21, 23733, doi: 10.1039/c9cp04585f
 [Hwang2003] D. Hwang, A. M. Mebel, J. Phys. Chem. A, 2003, 107, 2865-2875, doi: 10.1021/jp0270349
+[Kanno2020] N. Kanno, T. Kito, Int. K. Chem. Kin., 2020, 52(8), 548-555, doi: 10.1002/kin.21370
 [Klemm1985] J.V. Michael, J.W. Sutherland, R.B. Klemm, Int. J. Chem. Kin., 1985, 17(3), 315-326, doi: 10.1002/kin.550170308
 [Klemm1990] J.W. Sutherland, P.M. Patterson, R.B. Klemm, J. Phys. Chem., 1990, 94(6), 2471-2475, doi: 10.1021/j100369a049
 [Klippenstein2000] J.A. Miller, S.J. Klippenstein, J. Phys. Chem. A, 2020, 104, 2061-2069, doi: 10.1021/jp992836y
@@ -209,6 +211,7 @@ u"""
 Part of the "Thermal (Zeldovich) NO" mechanism
 5.4 on p. 398
 T range: 1750-4200 K
+Also available from Han 2008 (https://doi.org/10.1142/S021963360800399X)
 [DeanBozz2000] (p. 231) give A = 6.4e+12 cm^3/(mol*s); n = 0.1; Ea = 21300 cal/mol, citing [Cohen1991]
 But [Cohen1991] says that this rate "cannot be fixed more precisely" than an upper boundary of 4.1e+10 (p. 95, k2a)
 [GRI] used a fit to low and high T expressions from Atkinson et al., (1989) J. Phys. Chem. Ref. Data 18 88 and Hanson et al., Combustion Chemistry , Springer-Verlag, N.Y., p. 361
@@ -1700,7 +1703,7 @@ DHT estimate
 
 entry(
     index = 87,
-    label = "NNH + OH <=> H2O + N2",
+    label = "NNH + OH <=> N2 + H2O",
     degeneracy = 1,
     kinetics = MultiArrhenius(
         arrhenius = [
@@ -2990,17 +2993,17 @@ Train!
 )
 
 entry(
-    index = 160,
-    label = "NH2 + NH <=> N2H2 + H",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(4.26e+14, 'cm^6/(mol^2*s)'), n=-0.272, Ea=(-78, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K'))),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
+    index=160,
+    label="NH2 + NH <=> N2H2 + H",
+    degeneracy=1,
+    kinetics=ThirdBody(
+        arrheniusLow=Arrhenius(A=(4.26e+14, 'cm^6/(mol^2*s)'), n=-0.272, Ea=(-78, 'cal/mol'),
+                               T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K'))),
+    shortDesc=u"""[Klippenstein2009a]""",
+    longDesc=
 u"""
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
-T range: 200-2500 K
 calculated at the (CCSD(T) and CAS+1+2+QC level
 Also available from [Hanson1990a]:
     kinetics = Arrhenius(A=(1.50e+15, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
@@ -3009,12 +3012,13 @@ R11 in Table 1, p. 521, T range: 2200-2800 K, Shock Tube
 )
 
 entry(
-    index = 161,
-    label = "NH2 + NH <=> NH3 + N",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(9.58e+03, 'cm^3/(mol*s)'), n=2.46, Ea=(107, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
+    index=161,
+    label="NH2 + NH <=> NH3 + N",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(9.58e+03, 'cm^3/(mol*s)'), n=2.46, Ea=(107, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Klippenstein2009a]""",
+    longDesc=
 u"""
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
@@ -3025,13 +3029,14 @@ Train!
 )
 
 entry(
-    index = 162,
-    label = "NH2 + NH2 <=> N2H2 + H2",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(1.74e+08, 'cm^6/(mol^2*s)'), n=1.02, Ea=(11784, 'cal/mol'), T0 = (1, 'K'), Tmin=(500, 'K'), Tmax=(2500, 'K'))),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
+    index=162,
+    label="NH2 + NH2 <=> N2H2 + H2",
+    degeneracy=1,
+    kinetics=ThirdBody(
+        arrheniusLow=Arrhenius(A=(1.74e+08, 'cm^6/(mol^2*s)'), n=1.02, Ea=(11784, 'cal/mol'),
+                               T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2500, 'K'))),
+    shortDesc=u"""[Klippenstein2009a]""",
+    longDesc=
 u"""
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
@@ -3041,13 +3046,14 @@ calculated at the (CCSD(T) and CAS+1+2+QC level
 )
 
 entry(
-    index = 163,
-    label = "NH2 + NH2 <=> H2NN(S) + H2",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(7.17e+04, 'cm^6/(mol^2*s)'), n=1.88, Ea=(8803, 'cal/mol'), T0 = (1, 'K'), Tmin=(500, 'K'), Tmax=(2500, 'K'))),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
+    index=163,
+    label="NH2 + NH2 <=> H2NN(S) + H2",
+    degeneracy=1,
+    kinetics=ThirdBody(
+        arrheniusLow=Arrhenius(A=(7.17e+04, 'cm^6/(mol^2*s)'), n=1.88, Ea=(8803, 'cal/mol'),
+                               T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2500, 'K'))),
+    shortDesc=u"""[Klippenstein2009a]""",
+    longDesc=
 u"""
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
@@ -3057,12 +3063,13 @@ calculated at the (CCSD(T) and CAS+1+2+QC level
 )
 
 entry(
-    index = 164,
-    label = "NH2 + NH2 <=> NH3 + NH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(5.64e+00, 'cm^3/(mol*s)'), n=3.53, Ea=(552, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Klippenstein2009a]""",
-    longDesc =
+    index=164,
+    label="NH2 + NH2 <=> NH3 + NH",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(5.64e+00, 'cm^3/(mol*s)'), n=3.53, Ea=(552, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Klippenstein2009a]""",
+    longDesc=
 u"""
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
@@ -3907,7 +3914,6 @@ entry(
     longDesc =
 u"""
 Part of the "NOx" subset
-T range: 300-3300 K
 k4
 BAC-MP4
 
@@ -4315,7 +4321,6 @@ Calculated by alongd (xq1330)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.2035, dn = +|- 0.0225658, dEa = +|- 0.225133 kJ/mol
 Added as training reaction to H-Abstraction
 """,
 )
@@ -4333,7 +4338,6 @@ Calculated by alongd (xq1340)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.23644, dn = +|- 0.0264761, dEa = +|- 0.200697 kJ/mol
 """,
 )
 
@@ -4350,7 +4354,6 @@ Calculated by alongd (xq1341)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.23663, dn = +|- 0.0264574, dEa = +|- 0.202208 kJ/mol
 """,
 )
 
@@ -4367,7 +4370,6 @@ Calculated by alongd (xq1343)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 2.33413, dn = +|- 0.105743, dEa = +|- 0.801565 kJ/mol
 Added as training reaction to 1,2_NH3_elimination
 """,
 )
@@ -4385,7 +4387,6 @@ Calculated by alongd (xq1344)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.173, dn = +|- 0.0199062, dEa = +|- 0.150895 kJ/mol
 Added as training reaction to 1,2_NH3_elimination
 """,
 )
@@ -4403,7 +4404,6 @@ Calculated by alongd (xq1342b)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.02199, dn = +|- 0.00271314, dEa = +|- 0.0205664 kJ/mol
 """,
 )
 
@@ -4421,7 +4421,6 @@ Calculated by alongd (xq1444)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 2.36471, dn = +|- 0.107367, dEa = +|- 0.813875 kJ/mol
 Added as training reaction to 1,2_NH3_elimination
 """,
 )
@@ -4439,7 +4438,6 @@ Calculated by alongd (xq1445)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.61639, dn = +|- 0.0584997, dEa = +|- 0.583637 kJ/mol
 Added as training reaction to 1,3_NH3_elimination
 """,
 )
@@ -4474,7 +4472,6 @@ Calculated by alongd (xq1458)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.73206, dn = +|- 0.0669199, dEa = +|- 0.667643 kJ/mol
 """,
 )
 
@@ -4540,7 +4537,6 @@ Calculated by alongd (xq1472)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 3.06808, dn = +|- 0.139852, dEa = +|- 1.06012 kJ/mol
 Added as training reaction to 1,3_NH3_elimination
 """,
 )
@@ -4569,7 +4565,6 @@ u"""
 Calculated by alongd (xc1097)
 opt, freq: B3LYP/6-311G(2d,d,p)
 sp: CCSD(T)-F12/cc-pVTZ
-Fitted to 51 data points; dA = *|/ 2.61343, dn = +|- 0.117033, dEa = +|- 1.16761 kJ/mol
 """,
 )
 
@@ -4586,7 +4581,6 @@ Calculated by alongd (xq1476)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 2.65741, dn = +|- 0.121925, dEa = +|- 0.924226 kJ/mol
 """,
 )
 
@@ -4603,7 +4597,6 @@ Calculated by alongd (xq1476)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.24889, dn = +|- 0.0277259, dEa = +|- 0.210171 kJ/mol
 """,
 )
 
@@ -4620,7 +4613,6 @@ Calculated by alongd (xq1481)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.0909, dn = +|- 0.0108533, dEa = +|- 0.0822714 kJ/mol
 """,
 )
 
@@ -4637,95 +4629,94 @@ Calculated by alongd (xq1481)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.0909, dn = +|- 0.0108533, dEa = +|- 0.0822714 kJ/mol
 """,
 )
 
 entry(
-    index = 257,
-    label = 'N2H4 <=> NH3NH',
-    elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.34e+11, 's^-1'), n=0.86, Ea=(64.5, 'kcal/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Bozzelli2010]""",
-    longDesc =
-u"""
-Tautomerization of Hydrazine into iminoammonium
-CCSD(T)//CBS-QB3
-Table 3, R2
-""",
+    index=257,
+    label='N2H4 <=> NH3NH',
+    elementary_high_p=True,
+    kinetics=Arrhenius(A=(1.34e+11, 's^-1'), n=0.86, Ea=(64.5, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    shortDesc=u"""[Bozzelli2010]""",
+    longDesc=
+    u"""
+    Tautomerization of Hydrazine into iminoammonium
+    CCSD(T)//CBS-QB3
+    Table 3, R2
+    """,
 )
 
 entry(
-    index = 258,
-    label = 'N2H4 <=> H2NN(S) + H2',
-    elementary_high_p = True,
-    kinetics = Arrhenius(A=(5.38e+09, 's^-1'), n=1.255, Ea=(75.3, 'kcal/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Bozzelli2010]""",
-    longDesc =
-u"""
-CCSD(T)//CBS-QB3
-Table 3, R3
-""",
+    index=258,
+    label='N2H4 <=> H2NN(S) + H2',
+    elementary_high_p=True,
+    kinetics=Arrhenius(A=(5.38e+09, 's^-1'), n=1.255, Ea=(75.3, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    shortDesc=u"""[Bozzelli2010]""",
+    longDesc=
+    u"""
+    CCSD(T)//CBS-QB3
+    Table 3, R3
+    """,
 )
 
 entry(
-    index = 259,
-    label = 'N2H4 <=> N2H2 + H2',
-    elementary_high_p = True,
-    kinetics = Arrhenius(A=(8.70e+12, 's^-1'), n=0, Ea=(52.9, 'kcal/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Bozzelli2010]""",
-    longDesc =
-u"""
-CCSD(T)//CBS-QB3
-Table 3, R3
-Employed a lower TS1 calculated at CBS-QB3.
-Also, a rate constant with a higher TS1 was showed in Table 3.
-    kinetics = Arrhenius(A=(8.70e+12, 's^-1'), n=0.0, Ea=(92.9, 'kcal/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-""",
+    index=259,
+    label='N2H4 <=> N2H2 + H2',
+    elementary_high_p=True,
+    kinetics=Arrhenius(A=(8.70e+12, 's^-1'), n=0, Ea=(52.9, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    shortDesc=u"""[Bozzelli2010]""",
+    longDesc=
+    u"""
+    CCSD(T)//CBS-QB3
+    Table 3, R3
+    Employed a lower TS1 calculated at CBS-QB3.
+    Also, a rate constant with a higher TS1 was showed in Table 3.
+        kinetics = Arrhenius(A=(8.70e+12, 's^-1'), n=0.0, Ea=(92.9, 'kcal/mol'),
+            T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    """,
 )
 
 entry(
-    index = 260,
-    label = "N2H4 + NH2 <=> N2H3 + NH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3.79e+01, 'cm^3/(mol*s)'), n=3.44, Ea=(-574, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Glarborg2023]""",
-    longDesc =
-u"""
-CCSD(T)-F12b/cc-pVTZ-F12//M062X/6-311+G(2df,2p)
-R1
-""",
+    index=260,
+    label="N2H4 + NH2 <=> N2H3 + NH3",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(3.79e+01, 'cm^3/(mol*s)'), n=3.44, Ea=(-574, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2023]""",
+    longDesc=
+    u"""
+    CCSD(T)-F12b/cc-pVTZ-F12//M062X/6-311+G(2df,2p)
+    R1
+    """,
 )
 
 entry(
-    index = 261,
-    label = "N2H4 + H <=> NH3 + NH2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3.01e+05, 'cm^3/(mol*s)'), n=2.07, Ea=(8012, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Glarborg2023]""",
-    longDesc =
-u"""
-CCSD(T)-F12b/cc-pVTZ-F12//M062X/6-311+G(2df,2p)
-R2b
-""",
+    index=261,
+    label="N2H4 + H <=> NH3 + NH2",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(3.01e+05, 'cm^3/(mol*s)'), n=2.07, Ea=(8012, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2023]""",
+    longDesc=
+    u"""
+    CCSD(T)-F12b/cc-pVTZ-F12//M062X/6-311+G(2df,2p)
+    R2b
+    """,
 )
 
 entry(
-    index = 262,
-    label = 'NH3NH <=> NH3 + NH',
-    elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.10e+09, 's^-1'), n=1.64, Ea=(20.7, 'kcal/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
-    shortDesc = u"""[Bozzelli2010]""",
-    longDesc =
-u"""
-CCSD(T)//CBS-QB3
-Table 3, R5
-""",
+    index=262,
+    label='NH3NH <=> NH3 + NH',
+    elementary_high_p=True,
+    kinetics=Arrhenius(A=(1.10e+09, 's^-1'), n=1.64, Ea=(20.7, 'kcal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    shortDesc=u"""[Bozzelli2010]""",
+    longDesc=
+    u"""
+    CCSD(T)//CBS-QB3
+    Table 3, R5
+    """,
 )
 
 entry(
@@ -4801,7 +4792,6 @@ Calculated by alongd (xq1485)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.35051, dn = +|- 0.0366059, dEa = +|- 0.365208 kJ/mol
 """,
 )
 
@@ -4818,7 +4808,6 @@ Calculated by alongd (xq1507)
 opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
-Fitted to 51 data points; dA = *|/ 1.10125, dn = +|- 0.0117499, dEa = +|- 0.117226 kJ/mol
 """,
 )
 
@@ -5761,7 +5750,7 @@ entry(
 
 entry(
     index=337,
-    label='NH + HNOH <=> N + NH2OH',
+    label='NH + HNOH <=> NH2OH + N',
     kinetics=Arrhenius(A=(2.85669e-06, 'cm^3/(mol*s)'), n=5.32063, Ea=(14.7829, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -5774,7 +5763,7 @@ entry(
 
 entry(
     index=338,
-    label='NH + N2H3 <=> N + N2H4',
+    label='N2H3 + NH <=> N2H4 + N',
     kinetics=Arrhenius(A=(0.000418231, 'cm^3/(mol*s)'), n=4.35534, Ea=(22.4657, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -5787,7 +5776,7 @@ entry(
 
 entry(
     index=339,
-    label='NH + H2NN(T) <=> N + N2H3',
+    label='H2NN(T) + NH <=> N2H3 + N',
     kinetics=Arrhenius(A=(0.015648, 'cm^3/(mol*s)'), n=4.16309, Ea=(11.1711, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
