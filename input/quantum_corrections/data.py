@@ -120,7 +120,8 @@ atom_energies = {
 
     "LevelOfTheory(method='m062x',basis='ccpvtz',software='gaussian')": {
         'H': -0.498135 + SOC['H'], 'N': -54.586780 + SOC['N'], 'O': -75.064242 + SOC['O'],
-        'C': -37.842468 + SOC['C'], 'P': -341.246985 + SOC['P'], 'S': -398.101240 + SOC['S']
+        'C': -37.842468 + SOC['C'], 'P': -341.246985 + SOC['P'], 'S': -398.101240 + SOC['S'],
+        'F': -99.7301998263 
     },
 
     "LevelOfTheory(method='g3',software='gaussian')": {
