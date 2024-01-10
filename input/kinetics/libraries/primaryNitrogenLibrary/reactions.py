@@ -47,8 +47,9 @@ Reference legend:
 [Bozzelli2010] R. Asatryan, J.W. Bozzelli, G. da Silva, S. Swinnen, M.T. Nguyen, J. Phys. Chem. A 2010, 114, 6235-6249, doi: 10.1021/jp101640p 
 [Carl2002] S.A. Carl, Q. Sun, L. Vereecken, J. Peeters, J. Phys. Chem. A 2002, 106(51), 12242-12247, doi: 10.1021/jp014135i
 [Cavallotti2023] A. Stagni, C. Cavallotti, Proc. Comb. Inst. 2023, 39(1), 633-641, doi: 10.1016/j.proci.2022.08.024
-[Cohen1991] N. Cohen, K. R. Westberg, Journal of Physical and Chemical Reference Data, 1991, 20, 1211,; doi: 10.1063/1.555901
+[Cohen1991] N. Cohen, K. R. Westberg, Journal of Physical and Chemical Reference Data, 1991, 20, 1211, doi: 10.1063/1.555901
 [Cohen1992] Cohen, N. (1992). Chemical Kinetic Data Sheets for High-Temperature Chemical Reactions, Vol. III., Aerospace Corporation Report ATR-91 (7189)-2.
+[Dagaut1998] P. Dagaut, F. Lecomte, S. Chevailler, M. Cathonnet, Combat. Sci. Tech. 1998, 139, 329-363, doi: 10.1080/00102209808952093
 [DeanBozz2000] (RMG's Nitrogen_Dean_and_Bozzelli library) Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen, in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341, doi: 10.1007/978-1-4612-1310-9_2
 [DeRuyck2001] A.A. Konnov, J. De Ruyck, Comb. Flame, 2001, 125(4), 1258-1264, doi: 10.1016/S0010-2180(01)00250-4
 [Dievart2020] P. Dievart, L. Catoire, J. Phys. Chem. A, 2020, 124(30), 6214-6236, doi: 10.1021/acs.jpca.0c03144
@@ -97,6 +98,7 @@ Reference legend:
 [Lin1996b] A.M. Mebel, M.C. Lin, K. Morokuma, C.F. Melius, Int. J. Chem. Kin., 1996, 28(9), 693-703, doi: 10.1002/(SICI)1097-4601(1996)28:9<693::AID-KIN8>3.0.CO;2-Q
 [Lin1997a] C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997, 101(1), 60-66, doi: 10.1021/jp962286t
 [Lin1997b] J.W. Boughton, S. Kristyan, M.C. Lin, Chemical Physics, 1997, 214(2-3), 219-227, doi: 10.1016/S0301-0104(96)00313-8
+[Lin1997c] A.G. Thaxton, C.-C. Hsu, M.C. Lin, Int. J. Chem. Kin., 1997, 29(4), 245-251, doi: 10.1002/(SICI)1097-4601(1997)29:4<245::AID-KIN2>3.0.CO;2-U
 [Lin1998a] D. Chakraborty, J. Park, M.C. Lin, Chemical Phisics, 1998, 231(1), 39-49, doi: 10.1016/S0301-0104(98)00033-0
 [Lin1998b] J. Park, N.D. Giles, J. Moore, M.C. Lin, J. Phys. Chem. A, 1998, 102(49), 10099-10105, doi: 10.1021/jp983139t
 [Lin1998c] A.M. Mebel, M.C. Lin, C.F. Melius, J. Phys. Chem. A, 1998, 102(10), 1803-1807, doi: 10.1021/jp973449w
@@ -121,6 +123,7 @@ Reference legend:
 [Lin2007b] S. Xu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6730-6740, doi: 10.1021/jp069038+
 [Lin2009a] S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106, doi: 10.1016/j.proci.2008.07.011
 [Lin2009b] S-Y. Tzeng, P-H. Chen, N.S. Wang, L.C. Lee, Z.F. Xu, M.C. Lin, J. Phys. Chem. A, 2009, 113, 6314-6325, doi: 10.1021/jp901903n
+[Lin2009c] S. Xu, M.C. Lin, Int. J. Chem. Kin., 2009, 41(11), 667-677, doi: 10.1002/kin.20453
 [Lin2010a] S. Xu, M.C. Lin, J. Phys. Chem. A, 2010, 114, 5195-5204, doi: 10.1021/jp911048p
 [Lin2010b] R.S. Zhu, S.C. Xu, M.C. Lin, Chem. Phys. Letters, 2010, 488(4-6), 121-125, doi: 10.1016/j.cplett.2010.02.003
 [Lin2010c] S. Xu, M.C. Lin, Int. J. Chem. Kin., 2010, 42(2), 69-78, doi: 10.1002/kin.20463
@@ -138,6 +141,7 @@ Reference legend:
 [Miller2008] L.B. Harding, S.J. Klippenstein, J.A. Miller, J. Phys. Chem. A, 2008, 112 (3), pp 522-532, doi: 10.1021/jp077526r
 [Miller2011] S.J. Klippenstein, L.B. Harding, P. Glarborg, J.A. Miller, Comb. Flame, 2011, 158(4), 774-789, doi: 10.1016/j.combustflame.2010.12.013
 [Morley1976] C. Morley, Combustion and Flame, 1976, 27, 189-204, doi: 10.1016/0010-2180(76)90022-5
+[Mousavipour2009] S. Hosein Mousavipour, F. Pirhadi, A. HabibAgahi, J. Phys. Chem. A, 2009, 113(46), 12961-12971, doi: 10.1021/jp905197h
 [Page1992] M.R. Soto, M. Page, J. Chem. Phys., 1992, 97, 7287, doi: 10.1063/1.463501
 [Palmer1977] H. Freund, H.B. Palmer, Int. J. Chem. Kin., 1977, 9(6), 887-905, doi: 10.1002/kin.550090605
 [Perry1984] R.A. Perry, Chem. Phys. Lett., 1984, 106(3), 223-228, doi: 10.1016/0009-2614(84)80230-4
@@ -151,11 +155,14 @@ Reference legend:
 [Staton2019] T.L. Nguyen, J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255
 [Troe1975] K. Glanzer, J. Troe, Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469, doi: 10.1002/bbpc.19750790514
 [Troe1998] D. Fulle, H.F. Hamann, H. Hippler, J. Troe, J. Chem. Phys. 1998, 108, 5391-5397, doi: 10.1063/1.475971
+[Troe2012] J. Troe, J. Phys. Chem. A, 2012, 116(24), 6387-6393, doi: 10.1021/jp212095n
 [Troe2023] C.J. Cobos, P. Glarborg, P. Marshall, J. Troe, Comb. Flame 2023, 257, 112374, doi: 10.1016/j.combustflame.2022.112374
 [Vahedpour2018] M. Vahedpour, H. Douroudgari, S. Afshar, S. Asgharzade, Chem. Phys. 2018, 507, 51-69, doi: 10.1016/j.chemphys.2018.03.022
 [Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues, F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g
+[Wagner1998] J. Deppe, G. Friedrichs, A. Ibrahim, H.-J. Romming, H.Gg. Wagner, Berichte der Bunsengesellschaft für physikalische Chemie, 1998, 1474-1485, doi: 10.1002/bbpc.199800016
 [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6), 679-697, doi: 10.1002/kin.550140610
 [Yamaguchi1999] Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999, 103(41), 8272-8278, doi: 10.1021/jp990985a
+[Xu2021] Y. Li, S. Javoy, R. Mevel, X. Xu, Phys. Chem. Chem. Phys., 2021, 23, 585, doi: 10.1039/d0cp05131d
 [Yang2012] Y. Guan, B. Yang, J. Comp. Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020
 """
 
@@ -1447,20 +1454,6 @@ As reported by Dean & Bozzelli, see 2.5.4 on p. 145
 """,
 )
 
-entry(
-    index = 70,
-    label = "N2O + H <=> HNNO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(8.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(9082, 'cal/mol'), T0=(1, 'K')),
-    elementary_high_p = True,
-    shortDesc = u"""[DeanBozz2000]""",
-    longDesc =
-u"""
-Part of the "N2O Pathway"
-See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
-""",
-)
-
 # entry(
 #     index = 71,
 #     label = "N2O + H <=> NNOH",
@@ -1895,7 +1888,6 @@ and the moment of inertia and harmonic vibrational frequencies were obtained by 
 entry(
     index = 96,
     label = "N2H4 + NO2 <=> N2H3 + HNO2",
-    degeneracy = 1,
     kinetics = Arrhenius(A=(2.41e-02, 'cm^3/(mol*s)'), n=4.14, Ea=(7947, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Lin2014a]""",
     longDesc =
@@ -2069,19 +2061,23 @@ Only High Pressure Limit rate was taken low limit and 1 atm rate are also availa
 )
 
 entry(
-    index = 105,
-    label = "N2H4 + NO2 <=> N2H3 + HONO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3.23e+00, 'cm^3/(mol*s)'), n=3.56, Ea=(763, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Lin2014b]""",
-    longDesc =
-u"""
-Part of the "N2H4 + N2O4" subset
-p. 267
-calculations done at the G2M(CC2)//B3LYP/6-311þþG(3df,2p) level of theoty
-Also available from [Lin2014a], calculated at the CCSD(T)/CBS//CCSD level of theoty:
-    kinetics = Arrhenius(A=(8.25e+01, 'cm^3/(mol*s)'), n=3.13, Ea=(8863, 'cal/mol'), T0=(1, 'K')),
-""",
+    index=105,
+    label="N2H4 + NO2 <=> N2H3 + HONO",
+    kinetics=MultiArrhenius(
+        arrhenius=[
+            Arrhenius(A=(8.25e+01, 'cm^3/(mol*s)'), n=3.13, Ea=(8863, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+            Arrhenius(A=(3.28e-02, 'cm^3/(mol*s)'), n=4.00, Ea=(12917, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+        ],
+    ),
+    shortDesc=u"""[Lin2014a]""",
+    longDesc=
+    u"""
+    Part of the "N2H4 + N2O4" subset
+    p. 78
+    k3 + k5 (cis + tans HONO)
+    Also available from [Lin2014b]:
+        kinetics = Arrhenius(A=(3.23e+00, 'cm^3/(mol*s)'), n=3.56, Ea=(763, 'cal/mol'), T0=(1, 'K'))
+    """,
 )
 
 entry(
@@ -2318,18 +2314,26 @@ calculations done at the CCSD(T)/6-311þG(3df,2p)//CCSD/6-311þþG(d,p) level of
 
 entry(
     index = 119,
-    label = "N2H3O <=> NH2 + HNO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(9.12e+33, 's^-1'), n=-6.68, Ea=(35217, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    label = "NH2 + HNO <=> N2H3O",
+    kinetics = PDepArrhenius(
+        pressures = ([1, 10, 100, 760, 7600, 76000], 'torr'),
+        arrhenius = [
+            Arrhenius(A=(2.17e+32, 'cm^3/(mol*s)'), n=-8.34, Ea=(-3237, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.86e+33, 'cm^3/(mol*s)'), n=-8.33, Ea=(-3239, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(2.04e+34, 'cm^3/(mol*s)'), n=-8.34, Ea=(-3309, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.92e+35, 'cm^3/(mol*s)'), n=-8.36, Ea=(-3474, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(2.85e+36, 'cm^3/(mol*s)'), n=-8.40, Ea=(-3821, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(5.22e+37, 'cm^3/(mol*s)'), n=-8.46, Ea=(-4416, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+        ],
+    ),
     elementary_high_p = True,
-    shortDesc = u"""[Lin2014b]""",
+    shortDesc = u"""[Lin2009c]""",
     longDesc =
 u"""
-Part of the "N2H4 + N2O4" subset
-k15, p. 284
-T range: 300-3000 K, P = 1 atm
-calculations done at the CCSD(T)/6-311þG(3df,2p)//CCSD/6-311þþG(d,p) level of theoty
+k2, Table II
+CCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)
+
+Also available from [Lin2014b], k15, p. 284, T range: 300-3000 K, P = 1 atm, CCSD(T)/6-311þG(3df,2p)//CCSD/6-311þþG(d,p)
 """,
 )
 
@@ -2667,25 +2671,6 @@ Part of the "CH3NO2" subset
 p. 8275, Table 3
 T: 800 K
 calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
-""",
-)
-
-entry(
-    index = 141,
-    label='NH2 + HNO <=> NH3 + NO',
-    kinetics=Arrhenius(A=(5.9e+02, 'cm^3/(mol*s)'), n=2.950, Ea=(-3469, 'cal/mol'), T0=(1, 'K')),
-    shortDesc=u"""[Glarborg2021]""",
-    longDesc=
-u"""Reaction 7, Table 2, Source: [Glarborg2021], Experimental work re-interpreted using direct measurments from 
-[Altinay&Macdonald2015]. New parameters obtained with the predicted rate expressions by [ShuchengXu & M.C.Lin2009] 
-the potential energy surface of this reaction has been computed by single-point calculations at the 
-CCSD(T)/6-311+G(3df,2p) level based on geometries optimized at the CCSD/6-311++G(d,p) level.
-Previously taken from [Lin1996a] in reverse.
-Reaction Part of the "Thermal de-NOx" mechanism
-        k1 on p. 7519
-        T range: 300-5000 K
-        calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
-        Added as a training reaction to H_Abstraction
 """,
 )
 
@@ -3148,14 +3133,15 @@ calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
 )
 
 entry(
-    index = 168,
-    label = "NH2 + HONO <=> NH3 + NO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(6.4e+03, 'cm^3/(mol*s)'), n=2.340, Ea=(-3200, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Glarborg2022]""",
-    longDesc =
+    index=168,
+    label="NH2 + HONO <=> NH3 + NO2",
+    kinetics=Arrhenius(A=(6.4e+03, 'cm^3/(mol*s)'), n=2.340, Ea=(-3200, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Glarborg2022]""",
+    longDesc=
 u"""
 Part of the "Thermal de-NOx" mechanism
+Also available from [Lin1997c]
 Glarborg slightly adjusted the rate by Lin to agree with a rate experiment
 
 Available in reverse from [Lin1996a]
@@ -3552,70 +3538,55 @@ RRKM
 )
 
 entry(
-    index = 190,
-    label = "HNNO2 <=> N2O + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(7.43e+12, 's^-1'), n=0, Ea=(32220, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(500, 'K'), Tmax=(2000, 'K')),
-    elementary_high_p = True,
-    shortDesc = u"""[Lin1998d]""",
-    longDesc =
-u"""
-Part of the "NOx" subset
-T range: 500-2000 K
-calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
-k1b_inf, p. 8892
-k_inf was taken. the study also reports k_200atm and k_1atm.
-""",
+    index=190,
+    label="HNNO2 <=> NO2 + NH",
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(1.00e+15, 's^-1'), n=0, Ea=(38160, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
+        # arrheniusLow=Arrhenius(A=(6.09e+44, 'cm^3/(mol*s)'), n=-9.92, Ea=(46900, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+        arrheniusLow=Arrhenius(A=(5.06e+40, 'cm^3/(mol*s)'), n=-10.92, Ea=(46900, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p=True,
+    shortDesc=u"""[Lin1998d]""",
+    longDesc=
+    u"""
+    Part of the "NOx" subset
+    k1a,inf and k1a,1atm
+    arrheniusLow (k1a,1atm) was given in s^-1 units, here multiplied by P/RT where P=1bar to get to cm^3/(mol*s) units
+    P/RT = 12.0e+03 cm^3/(mol*K) / T
+    
+    B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p)
+    """,
 )
 
 entry(
-    index = 191,
-    label = "NH + NO2 <=> HNNO2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.42e+16, 'cm^3/(mol*s)'), n=-0.75, Ea=(1226, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(500, 'K'), Tmax=(3000, 'K')),
-    elementary_high_p = True,
-    shortDesc = u"""[Lin1998d]""",
-    longDesc =
-u"""
-Part of the "NOx" subset
-T range: 500-3000 K
-calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
-k3a, p. 8893
-No stabilization at low pressures, only K3a_inf is given (k3a_low = 0)
-reverse rate also available from the same study (k1a)
-Added as a training reaction to Birad_R_Recombination
-""",
-)
-
-entry(
-    index = 192,
-    label = "NH + NO2 <=> N2O + OH",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(2.08e+13, 'cm^6/(mol^2*s)'), n=-0.49, Ea=(715, 'cal/mol'), T0 = (1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K'))),
-    shortDesc = u"""[Lin1998d]""",
-    longDesc =
-u"""
-Part of the "NOx" subset
-T range: 500-3000 K
-calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
-k3b, p. 8893
-No production of N2O at the high pressure limit (k3b_inf = 0)
-""",
+    index=191,
+    label="HNNO2 <=> N2O + OH",
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(7.43e+12, 's^-1'), n=0, Ea=(32220, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
+        # arrheniusLow=Arrhenius(A=(1.36e+54, 'cm^3/(mol*s)'), n=-13.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+        arrheniusLow=Arrhenius(A=(1.13e+50, 'cm^3/(mol*s)'), n=-14.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+    elementary_high_p=True,
+    shortDesc=u"""[Lin1998d]""",
+    longDesc=
+    u"""
+    Part of the "NOx" subset
+    k1b,inf and k1b,1atm
+    arrheniusLow (k1b,1atm) was given in s^-1 units, here multiplied by P/RT where P=1bar to get to cm^3/(mol*s) units
+    P/RT = 12.0e+03 cm^3/(mol*K) / T
+    
+    B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p)
+    """,
 )
 
 entry(
     index = 193,
-    label = "NH + NO2 <=> HNO + NO",
+    label = "NO2 + NH <=> HNO + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.25e+06, 'cm^3/(mol*s)'), n=1.96, Ea=(2345, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.25e+06, 'cm^3/(mol*s)'), n=1.96, Ea=(2345, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin1998d]""",
     longDesc =
 u"""
 Part of the "NOx" subset
-T range: 300-3000 K
 calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
 k4, p. 8894
 """,
@@ -3625,12 +3596,12 @@ entry(
     index = 194,
     label = "HCO + HNO <=> CH2O + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2004]""",
     longDesc =
 u"""
 Part of the "NOx" subset
-T range: 200-3000 K
 calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
 k1, p. 211
 Added as a training reaction to H_Abstraction
@@ -3641,7 +3612,8 @@ entry(
     index = 195,
     label = "HCO + HNO <=> NH2O + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.90e+01, 'cm^3/(mol*s)'), n=3.27, Ea=(1755, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(4.90e+01, 'cm^3/(mol*s)'), n=3.27, Ea=(1755, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2004]""",
     longDesc =
 u"""
@@ -3656,7 +3628,8 @@ entry(
     index = 196,
     label = "HCO + HNO <=> HNOH + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.31e+13, 'cm^3/(mol*s)'), n=-0.205, Ea=(3647, 'cal/mol'), T0=(1, 'K'), Tmin=(1000, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.31e+13, 'cm^3/(mol*s)'), n=-0.205, Ea=(3647, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(1000, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2004]""",
     longDesc =
 u"""
@@ -3676,7 +3649,8 @@ entry(
     index = 197,
     label = "HCO + NO <=> HNO + CO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.04e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(-1765, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.04e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(-1765, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin2005c]""",
     longDesc =
 u"""
@@ -3693,7 +3667,8 @@ entry(
     index = 198,
     label = "NH3 + HNO3 <=> H2NNO2 + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.1e-01, 'cm^3/(mol*s)'), n=3.47, Ea=(43060, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(8.1e-01, 'cm^3/(mol*s)'), n=3.47, Ea=(43060, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin1998e]""",
     longDesc =
 u"""
@@ -3824,13 +3799,12 @@ Added as a training reaction to H_Abstraction
 
 entry(
     index = 206,
-    label = "OH + NO2 <=> HNO3",
-    degeneracy = 1,
+    label = "NO2 + OH <=> HNO3",
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(2.85e+15, 'cm^3/(mol*s)'), n=-0.82, Ea=(-42, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.20e+42, 'cm^6/(mol^2*s)'), n=-8.8, Ea=(3118, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
     elementary_high_p = True,
-    shortDesc = u"""[Lin2003b]""",
+    shortDesc = u"""[Lin2003b]Troe2012""",
     longDesc =
 u"""
 Part of the "NOx" subset
@@ -3843,7 +3817,7 @@ Also available from [Lin1998a] at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level
 
 entry(
     index = 2070,
-    label = "OH + NO2 <=> HOONO",
+    label = "NO2 + OH <=> HOONO",
     degeneracy = 1,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(-200, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
@@ -3875,6 +3849,8 @@ Probably not the best fit... but deviated only by ~5% above 1000 K (larger devia
 
 Also available from [Troe1975]:
     kinetics = Arrhenius(A=(4.5e+12, 'cm^3/(mol*s)','+|-',1e+12), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(1700, 'K')),
+
+Also available from Baulch et al., J.Phys. Chem. Ref. Data, 2005, 34: 757-1397
 """,
 )
 
@@ -5378,7 +5354,8 @@ entry(
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.275e+11, 's^-1'), n=0.819, Ea=(48065.2, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
         arrheniusLow = Arrhenius(A=(3.840e+40, 'cm^3/(mol*s)'), n=-6.880, Ea=(54463.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-        alpha=0.842, T1=(28, 'K'), T2=(7298, 'K'), T3=(80000, 'K'), efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
+        alpha=0.842, T1=(28, 'K'), T2=(7298, 'K'), T3=(80000, 'K'),
+        efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
     shortDesc = u"""[Dievart2020]""",
     longDesc =
 u"""
@@ -5808,8 +5785,9 @@ entry(
     shortDesc=u"""[Miller1992]""",
     longDesc=
     u"""
-k3
-BAC-MP4
+    Part of the "NOx" subset
+    k3
+    BAC-MP4
     """,
 )
 
@@ -6180,6 +6158,7 @@ entry(
     u"""
     x60
     CCSD(T)-F12/cc-pvtz-f12//B2PLYPD3/Def2TZVP
+    ** include, JIM MILLER ESTIMATED, USED BY P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci. 67 (2018) 31-68.
     """,
 )
 
@@ -6315,7 +6294,7 @@ entry(
 
 entry(
     index=379,
-    label='H + HONO <=> NO + H2O',
+    label='HONO + H <=> NO + H2O',
     kinetics=Arrhenius(A=(502.962, 'cm^3/(mol*s)'), n=3.30766, Ea=(41.3964, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6341,7 +6320,7 @@ entry(
 
 entry(
     index=381,
-    label='HO2 + NNH <=> O2 + N2H2',
+    label='NNH + HO2 <=> N2H2 + O2',
     kinetics=Arrhenius(A=(8.30235e-06, 'cm^3/(mol*s)'), n=4.80917, Ea=(5.18822, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6354,7 +6333,7 @@ entry(
 
 entry(
     index=382,
-    label='HO2 + NH2O <=> O2 + NH3O',
+    label='NH2O + HO2 <=> NH3O + O2',
     kinetics=Arrhenius(A=(1.61201e-05, 'cm^3/(mol*s)'), n=4.51311, Ea=(8.62701, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6367,7 +6346,7 @@ entry(
 
 entry(
     index=383,
-    label='HO2 + HNNO <=> O2 + NH2NO',
+    label='HNNO + HO2 <=> NH2NO + O2',
     kinetics=Arrhenius(A=(7.88453, 'cm^3/(mol*s)'), n=3.43698, Ea=(5.53848, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6380,7 +6359,7 @@ entry(
 
 entry(
     index=384,
-    label='HNOH + O2 <=> HO2 + HNO',
+    label='HNOH + O2 <=> HNO + HO2',
     kinetics=Arrhenius(A=(0.000376483, 'cm^3/(mol*s)'), n=4.61521, Ea=(75.8714, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6388,6 +6367,7 @@ entry(
     u"""
     x85
     CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP
+    ** include, JIM MILLER ESTIMATED, USED BY S.J. Klippenstein et al. 
     """,
 )
 
@@ -7010,5 +6990,193 @@ entry(
     u"""
     Table S4 gives the raw data
     CCSD(T)/CBS//M06-2X/6-311++G(3df,2p)
+    """,
+)
+
+entry(
+    index=428,
+    label='NH + O2 <=> NO2 + H',
+    kinetics=Arrhenius(A=(2.3e+10, 'cm^3/(mol*s)'), n=0, Ea=(2482, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[DeanBozz2000]""",
+    longDesc=
+    u"""
+    """,
+)
+
+entry(
+    index=429,
+    label="NH + O2 <=> HNOO",
+    degeneracy=1,
+    kinetics=PDepArrhenius(
+        pressures=([0.1, 1, 10], 'atm'),
+        arrhenius=[
+            Arrhenius(A=(3.5e+23, 'cm^3/(mol*s)'), n=-5, Ea=(2275, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(3.7e+24, 'cm^3/(mol*s)'), n=-5, Ea=(2295, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(5.4e+25, 'cm^3/(mol*s)'), n=-5.05, Ea=(2454, 'cal/mol'), T0=(1, 'K')),
+        ],
+    ),
+    shortDesc=u"""[DeanBozz2000]""",
+    longDesc=
+    u"""
+    """,
+)
+
+entry(
+    index=430,
+    label="N2O + H <=> HNNO",
+    kinetics=Arrhenius(A=(8.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(9082, 'cal/mol'), T0=(1, 'K')),
+    elementary_high_p=True,
+    shortDesc=u"""[DeanBozz2000]""",
+    longDesc=
+    u"""
+    Part of the "N2O Pathway"
+    See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
+    """,
+)
+
+entry(
+    index=431,
+    label="NH2 + OH <=> NH2O + H",
+    kinetics=Arrhenius(A=(6.4e+07, 'cm^3/(mol*s)'), n=0, Ea=(77.1, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Mousavipour2009]""",
+    longDesc=
+    u"""
+    R3
+    CCSD(full)/Aug-cc-pVTZ//B3LYP/6-311++G(3df,3p)
+    Passes through NH2OH*, should be re-computed as PDep
+    This work only gives Arrhenius expressions, unclear whether for 1 bar or as high-P-limit
+    """,
+)
+
+entry(
+    index=432,
+    label="NH2 + OH <=> HNOH + H",
+    duplicate=True,
+    kinetics=MultiArrhenius(
+        arrhenius=[
+            Arrhenius(A=(6.4e+07, 'cm^3/(mol*s)'), n=0, Ea=(131.1, 'kJ/mol'), T0=(1, 'K')),
+            Arrhenius(A=(5.0e+05, 'cm^3/(mol*s)'), n=0, Ea=(107.9, 'kJl/mol'), T0=(1, 'K')),
+        ],
+    ),
+    shortDesc=u"""[Mousavipour2009]""",
+    longDesc=
+    u"""
+    R4 & R5 (cis & trans HNOH)
+    CCSD(full)/Aug-cc-pVTZ//B3LYP/6-311++G(3df,3p)
+    Passes through NH2OH*, should be re-computed as PDep
+    This work only gives Arrhenius expressions, unclear whether for 1 bar or as high-P-limit
+    """,
+)
+
+entry(
+    index=432,
+    label="NO2 + O <=> NO + O2",
+    duplicate=True,
+    kinetics=MultiArrhenius(
+        arrhenius=[
+            Arrhenius(A=(2.589e+15, 'cm^3/(mol*s)'), n=-1.035, Ea=(226, 'J/mol'), T0=(1, 'K'), Tmin=(221, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(4.242e+16, 'cm^3/(mol*s)'), n=-0.861, Ea=(50917, 'kJl/mol'), T0=(1, 'K'), Tmin=(221, 'K'), Tmax=(3000, 'K')),
+        ],
+    ),
+    shortDesc=u"""[Xu2021]""",
+    longDesc=
+    u"""
+    low-T experiments and high-T W3X-L calculations
+    """,
+)
+
+entry(
+    index=433,
+    label="NH2 <=> NH + H",
+    kinetics=ThirdBody(
+        arrheniusLow=Arrhenius(A=(6.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(29398, 'cal/mol'), T0=(1, 'K'), Tmin=(2200, 'K'), Tmax=(4000, 'K'))),
+    shortDesc=u"""[Wagner1998]""",
+    longDesc=
+    u"""
+    R5a
+    Experimental
+    """,
+)
+
+entry(
+    index = 434,
+    label='NH2 + HNO <=> NH3 + NO',
+    duplicate=True,
+    kinetics=Arrhenius(A=(5.9e+02, 'cm^3/(mol*s)'), n=2.950, Ea=(-3469, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Glarborg2021]""",
+    longDesc=
+u"""
+Reaction 7, Table 2, Source: [Glarborg2021], Experimental work re-interpreted using direct measurments from 
+[Altinay&Macdonald2015]. New parameters obtained with the predicted rate expressions by [ShuchengXu & M.C.Lin2009] 
+the potential energy surface of this reaction has been computed by single-point calculations at the 
+CCSD(T)/6-311+G(3df,2p) level based on geometries optimized at the CCSD/6-311++G(d,p) level.
+Previously taken from [Lin1996a] in reverse.
+Reaction Part of the "Thermal de-NOx" mechanism
+        k1 on p. 7519
+        T range: 300-5000 K
+        calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
+        Added as a training reaction to H_Abstraction
+""",
+)
+
+entry(
+    index = 435,
+    label='NH2 + HNO <=> NH3 + NO',
+    duplicate=True,
+    kinetics = PDepArrhenius(
+        pressures = ([1, 10, 100, 760, 7600, 76000], 'torr'),
+        arrhenius = [
+            Arrhenius(A=(2.18e-18, 'cm^3/(mol*s)'), n=-8.17, Ea=(9064, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(7.71e-17, 'cm^3/(mol*s)'), n=-7.79, Ea=(6576, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(2.14e-12, 'cm^3/(mol*s)'), n=-6.56, Ea=(3279, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(7.83e-08, 'cm^3/(mol*s)'), n=-5.29, Ea=(469, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(5.70e-05, 'cm^3/(mol*s)'), n=-4.49, Ea=(-1157, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.31e-03, 'cm^3/(mol*s)'), n=-4.11, Ea=(-1938, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+        ],
+    ),
+    elementary_high_p = True,
+    shortDesc = u"""[Lin2009c]""",
+    longDesc =
+u"""
+k3, Table II
+CCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)
+""",
+)
+
+entry(
+    index = 435,
+    label='NH2 + HNO <=> NH2NO + H',
+    duplicate=True,
+    kinetics = PDepArrhenius(
+        pressures = ([1, 10, 100, 760, 7600, 76000], 'torr'),
+        arrhenius = [
+            Arrhenius(A=(2.39e+03, 'cm^3/(mol*s)'), n=2.70, Ea=(256, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(7.29e+03, 'cm^3/(mol*s)'), n=2.56, Ea=(18, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(4.07e+04, 'cm^3/(mol*s)'), n=2.36, Ea=(-354, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(2.43e+05, 'cm^3/(mol*s)'), n=2.15, Ea=(-759, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.21e+06, 'cm^3/(mol*s)'), n=1.97, Ea=(-1166, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.95e+06, 'cm^3/(mol*s)'), n=1.92, Ea=(-1312, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+        ],
+    ),
+    elementary_high_p = True,
+    shortDesc = u"""[Lin2009c]""",
+    longDesc =
+u"""
+k5, Table II
+CCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)
+""",
+)
+
+entry(
+    index=436,
+    label="N2 <=> N + N",
+    kinetics=ThirdBody(
+        arrheniusLow=Arrhenius(A=(1.89e+18, 'cm^3/(mol*s)'), n=-0.8, Ea=(224.95, 'kcal/mol'), T0=(1, 'K')),
+        efficiencies={'O': 16.25, '[C+]#[O-]': 18.75, 'O=C=O': 3.75, 'C': 16.25, 'CC': 16.25}),
+    shortDesc=u"""[Dagaut1998]""",
+    longDesc=
+    u"""
+    R1 Table I
+    Ultimate source unclear
     """,
 )
