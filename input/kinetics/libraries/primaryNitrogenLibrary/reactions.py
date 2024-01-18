@@ -7122,9 +7122,9 @@ entry(
     index = 429,
     label='NH2 + HNO <=> NH3 + NO',
     duplicate=True,
-    kinetics = PDepArrhenius(
-        pressures = ([1, 10, 100, 760, 7600, 76000], 'torr'),
-        arrhenius = [
+    kinetics=PDepArrhenius(
+        pressures=([1, 10, 100, 760, 7600, 76000], 'torr'),
+        arrhenius=[
             Arrhenius(A=(2.18e-18, 'cm^3/(mol*s)'), n=-8.17, Ea=(9064, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
             Arrhenius(A=(7.71e-17, 'cm^3/(mol*s)'), n=-7.79, Ea=(6576, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
             Arrhenius(A=(2.14e-12, 'cm^3/(mol*s)'), n=-6.56, Ea=(3279, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
@@ -7134,8 +7134,8 @@ entry(
         ],
     ),
     elementary_high_p = True,
-    shortDesc = u"""[Lin2009c]""",
-    longDesc =
+    shortDesc=u"""[Lin2009c]""",
+    longDesc=
 u"""
 k3, Table II
 CCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)
@@ -7176,6 +7176,6 @@ entry(
     longDesc=
     u"""
     R1 Table I
-    Ultimate source unclear
+    Ultimate source is unclear.
     """,
 )
