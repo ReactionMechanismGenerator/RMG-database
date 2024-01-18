@@ -19,16 +19,16 @@ multiplicity 4
 1 N u3 p1 c0
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.5, 4.40191e-13, -7.53247e-16, 5.07597e-19, -1.16114e-22, 56076.6, 4.17947], Tmin=(298, 'K'), Tmax=(2023.39, 'K')),
-        NASAPolynomial(coeffs=[2.5, 1.12586e-09, -7.88843e-13, 2.44938e-16, -2.84351e-20, 56076.6, 4.17947], Tmin=(2023.39, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(466.248, 'kJ/mol'), Cp0=(20.7862, 'J/(mol*K)'), CpInf=(20.7862, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.5, 4.40191e-13, -7.53247e-16, 5.07597e-19, -1.16114e-22, 56076.4, 4.17947], Tmin=(298, 'K'), Tmax=(2023.39, 'K')),
+        NASAPolynomial(coeffs=[2.5, 1.12586e-09, -7.88843e-13, 2.44938e-16, -2.84351e-20, 56076.4, 4.17947], Tmin=(2023.39, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(466.246, 'kJ/mol'), Cp0=(20.7862, 'J/(mol*K)'), CpInf=(20.7862, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(472.442, 'kJ/mol'),
+    H298=(472.440, 'kJ/mol'),
     S298=(153.171, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([20.7862, 20.7862, 20.7862, 20.7862, 20.7862, 20.7862, 20.7862, 20.7862, 20.7862], 'J/(mol*K)'),
@@ -54,7 +54,7 @@ multiplicity 1
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(500.705, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(37.4151, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -84,7 +84,7 @@ multiplicity 3
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(350.104, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(37.4151, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -115,7 +115,7 @@ multiplicity 2
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(176.099, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -146,7 +146,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(-55.5883, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -207,7 +207,7 @@ multiplicity 2
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(239.281, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -233,16 +233,16 @@ entry(
 4 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[3.90363, -0.00277548, 1.71597e-05, -1.59688e-08, 4.88596e-12, 22889.8, 4.17493], Tmin=(298, 'K'), Tmax=(858.612, 'K')),
-        NASAPolynomial(coeffs=[1.18583, 0.009886, -4.96016e-06, 1.20622e-09, -1.14888e-13, 23356.5, 16.8724], Tmin=(858.612, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(190.112, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.90363, -0.00277548, 1.71597e-05, -1.59688e-08, 4.88596e-12, 22888.6, 4.17493], Tmin=(298, 'K'), Tmax=(858.612, 'K')),
+        NASAPolynomial(coeffs=[1.18583, 0.009886, -4.96016e-06, 1.20622e-09, -1.14888e-13, 23355.3, 16.8724],  Tmin=(858.612, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(190.102, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(199.98, 'kJ/mol'),
+    H298=(199.97, 'kJ/mol'),
     S298=(217.988, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([35.2366, 38.4647, 42.4773, 46.6858, 53.9989, 59.817, 69.3669, 74.2705, 76.9546], 'J/(mol*K)'),
@@ -301,7 +301,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(290.494, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -360,18 +360,18 @@ multiplicity 2
 5 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.47038, 0.0102435, -2.24638e-06, -2.64392e-09, 1.4641e-12, 25804.4, 11.5301], Tmin=(298, 'K'), Tmax=(873.923, 'K')),
-        NASAPolynomial(coeffs=[2.54231, 0.0110855, -5.70177e-06, 1.5255e-09, -1.67308e-13, 25747.1, 10.9369], Tmin=(873.923, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(213.546, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(108.088, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.4704, 0.0102434, -2.24608e-06, -2.64426e-09, 1.46424e-12, 25803.2, 11.5301], Tmin=(298, 'K'), Tmax=(873.911, 'K')),
+        NASAPolynomial(coeffs=[2.54229, 0.0110855, -5.70181e-06, 1.52552e-09, -1.67311e-13, 25745.9, 10.937],  Tmin=(873.911, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(213.536, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(108.088, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 Rotor scan not smooth, need to consider a strongly-coupled inversion mode
 
 ThermoData(
-    H298=(224.25, 'kJ/mol'),
+    H298=(224.24, 'kJ/mol'),
     S298=(237.266, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([43.9292, 50.5402, 56.4966, 61.7058, 70.4242, 77.2517, 88.513, 94.9756, 99.1945], 'J/(mol*K)'),
@@ -395,16 +395,16 @@ entry(
 6 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.35889, 0.0117876, 7.52133e-07, -7.2024e-09, 3.25471e-12, 10514.7, 11.6062], Tmin=(298, 'K'), Tmax=(867.229, 'K')),
-        NASAPolynomial(coeffs=[2.1854, 0.0146696, -7.83336e-06, 2.16554e-09, -2.43776e-13, 10466.5, 11.9671], Tmin=(867.229, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(86.2921, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(128.874, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.35889, 0.0117876, 7.52133e-07, -7.2024e-09, 3.25471e-12, 10513.5, 11.6062], Tmin=(298, 'K'), Tmax=(867.229, 'K')),
+        NASAPolynomial(coeffs=[2.1854, 0.0146696, -7.83336e-06, 2.16554e-09, -2.43776e-13, 10465.3, 11.9671], Tmin=(867.229, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(86.2821, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(128.874, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(97.57, 'kJ/mol'),
+    H298=(97.56, 'kJ/mol'),
     S298=(237.245, 'J/(mol*K)'), # c=1
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([48.1822, 56.75, 64.4017, 71.1699, 82.4016, 91.0855, 105.125, 113.069, 118.318], 'J/(mol*K)'),
@@ -458,16 +458,16 @@ entry(
 4 H u0 p0 c0 {3,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.74276, 0.0108092, -8.34984e-06, 3.50726e-09, -6.22854e-13, 33572, 10.2512], Tmin=(298, 'K'), Tmax=(1193.16, 'K')),
-        NASAPolynomial(coeffs=[3.75122, 0.00742836, -4.09944e-06, 1.13234e-09, -1.25233e-13, 33331.3, 5.20793], Tmin=(1193.16, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(278.464, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'),
-        CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.74276, 0.0108092, -8.34987e-06, 3.50729e-09, -6.22863e-13, 33838.7, 10.2512], Tmin=(298, 'K'), Tmax=(1193.09, 'K')),
+        NASAPolynomial(coeffs=[3.75119, 0.00742842, -4.0995e-06, 1.13236e-09, -1.25236e-13, 33598.1, 5.20806], Tmin=(1193.09, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(280.682, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298, S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
+H298 from ATcT 1.130
+S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(289.362, 'kJ/mol'),
+    H298=(291.58, 'kJ/mol'),
     S298=(239.1, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([44.2453, 49.4604, 53.6725, 57.2887, 63.0867, 67.3409, 73.6203, 76.8927, 79.1299], 'J/(mol*K)'),
@@ -523,16 +523,16 @@ multiplicity 2
 2 O u0 p2 c0 {1,D}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[3.54726, -0.000976042, 3.57791e-06, -2.83595e-09, 7.41777e-13, 9921.79, 4.62453], Tmin=(298, 'K'), Tmax=(1010.73, 'K')),
-        NASAPolynomial(coeffs=[2.75583, 0.00215604, -1.07029e-06, 2.29919e-10, -1.6545e-14, 10081.8, 8.45118], Tmin=(1010.73, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(82.5036, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(37.4151, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.54726, -0.000976042, 3.57791e-06, -2.83595e-09, 7.41777e-13, 9921.91, 4.62453], Tmin=(298, 'K'), Tmax=(1010.73, 'K')),
+        NASAPolynomial(coeffs=[2.75583, 0.00215604, -1.07029e-06, 2.29919e-10, -1.6545e-14, 10081.9, 8.45118], Tmin=(1010.73, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(82.5046, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(37.4151, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(91.142, 'kJ/mol'),
+    H298=(91.143, 'kJ/mol'),
     S298=(205.185, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([29.1848, 29.639, 30.2811, 31.0423, 32.5281, 33.7023, 35.5187, 36.2781, 36.5925], 'J/(mol*K)'),
@@ -553,16 +553,16 @@ entry(
 3 H u0 p0 c0 {1,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[4.04892, -0.00203371, 9.1381e-06, -7.68952e-09, 2.1349e-12, 11682.8, 3.72802], Tmin=(298, 'K'), Tmax=(947.955, 'K')),
-        NASAPolynomial(coeffs=[2.28668, 0.00540271, -2.62961e-06, 5.86811e-10, -4.79003e-14, 12016.9, 12.1356], Tmin=(947.955, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(97.1033, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[4.04892, -0.00203371, 9.1381e-06, -7.68952e-09, 2.1349e-12, 11684, 3.72802], Tmin=(298, 'K'), Tmax=(947.955, 'K')),
+        NASAPolynomial(coeffs=[2.28668, 0.00540271, -2.62961e-06, 5.86811e-10, -4.79003e-14, 12018.1, 12.1356], Tmin=(947.955, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(97.1133, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(106.97, 'kJ/mol'),
+    H298=(106.98, 'kJ/mol'),
     S298=(220.593, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([33.9253, 35.3633, 37.2635, 39.4024, 43.3578, 46.5106, 51.6233, 54.09, 55.3123], 'J/(mol*K)'),
@@ -643,16 +643,16 @@ multiplicity 3
 3 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[3.6207, 0.00100672, 5.86753e-06, -7.6463e-09, 2.90289e-12, 24694.4, 6.62537], Tmin=(298, 'K'), Tmax=(840.244, 'K')),
-        NASAPolynomial(coeffs=[3.06612, 0.00477119, -2.86003e-06, 8.70913e-10, -1.05107e-13, 24747.9, 8.96817], Tmin=(840.244, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(204.995, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.62076, 0.00100623, 5.86889e-06, -7.6479e-09, 2.90357e-12, 24700.4, 6.62511], Tmin=(298, 'K'), Tmax=(840.198, 'K')),
+        NASAPolynomial(coeffs=[3.06606, 0.00477133, -2.86016e-06, 8.70968e-10, -1.05115e-13, 24753.9, 8.96844], Tmin=(840.198, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(205.045, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(214.98, 'kJ/mol'),
+    H298=(215.03, 'kJ/mol'),
     S298=(230.74, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([35.5185, 37.766, 40.0513, 42.1275, 45.3492, 47.7332, 51.5332, 53.647, 55.0837], 'J/(mol*K)'),
@@ -675,16 +675,16 @@ multiplicity 2
 4 H u0 p0 c0 {1,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[4.07928, 0.00227378, 4.54857e-06, -4.93461e-09, 1.48515e-12, 6359.36, 3.76557], Tmin=(298, 'K'), Tmax=(914.757, 'K')),
-        NASAPolynomial(coeffs=[2.98935, 0.00703992, -3.26708e-06, 7.61529e-10, -7.16286e-14, 6558.76, 8.92673], Tmin=(914.757, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(52.9639, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[4.07928, 0.00227378, 4.54857e-06, -4.93461e-09, 1.48515e-12, 6352.15, 3.76557], Tmin=(298, 'K'), Tmax=(914.757, 'K')),
+        NASAPolynomial(coeffs=[2.98935, 0.00703992, -3.26708e-06, 7.61529e-10, -7.16286e-14, 6551.55, 8.92673], Tmin=(914.757, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(52.9039, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(64.08, 'kJ/mol'),
+    H298=(64.02, 'kJ/mol'),
     S298=(231.513, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([41.9816, 45.2358, 48.4661, 51.5984, 57.2998, 61.9654, 69.8886, 74.3812, 77.0853], 'J/(mol*K)'),
@@ -707,16 +707,16 @@ multiplicity 2
 4 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[3.07284, 0.00442232, 5.37198e-06, -8.99621e-09, 3.6302e-12, 10212.7, 9.07206], Tmin=(298, 'K'), Tmax=(839.264, 'K')),
-        NASAPolynomial(coeffs=[2.59974, 0.00835128, -4.64222e-06, 1.33526e-09, -1.55318e-13, 10233.1, 10.9204], Tmin=(839.264, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(84.2054, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.07284, 0.00442232, 5.37198e-06, -8.99621e-09, 3.6302e-12, 10216.3, 9.07206], Tmin=(298, 'K'), Tmax=(839.264, 'K')),
+        NASAPolynomial(coeffs=[2.59974, 0.00835128, -4.64222e-06, 1.33526e-09, -1.55318e-13, 10236.7, 10.9204], Tmin=(839.264, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(84.2354, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(94.42, 'kJ/mol'),
+    H298=(94.45, 'kJ/mol'),
     S298=(233.325, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([38.867, 43.3346, 47.6713, 51.4871, 57.5699, 62.2706, 69.9013, 74.2066, 77.0521], 'J/(mol*K)'),
@@ -739,16 +739,16 @@ entry(
 5 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.45498, 0.00912211, 5.52546e-06, -1.28325e-08, 5.37895e-12, -6388.42, 11.3877], Tmin=(298, 'K'), Tmax=(901.673, 'K')),
-        NASAPolynomial(coeffs=[2.33175, 0.0137315, -8.90135e-06, 2.83138e-09, -3.49572e-13, -6531.35, 11.0537], Tmin=(901.673, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(-54.3199, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.45498, 0.00912211, 5.52546e-06, -1.28325e-08, 5.37895e-12, -6389.62, 11.3877], Tmin=(298, 'K'), Tmax=(901.673, 'K')),
+        NASAPolynomial(coeffs=[2.33175, 0.0137315, -8.90135e-06, 2.83138e-09, -3.49572e-13, -6532.55, 11.0537], Tmin=(901.673, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(-54.3299, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(-43.45, 'kJ/mol'),
+    H298=(-43.46, 'kJ/mol'),
     S298=(234.76, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([44.8708, 52.3121, 59.3393, 65.323, 74.0483, 80.2019, 88.9773, 93.3877, 96.694], 'J/(mol*K)'),
@@ -776,7 +776,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(49.8408, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(108.088, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -807,7 +807,7 @@ multiplicity 2
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(23.9105, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -838,7 +838,7 @@ multiplicity 2
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(342.271, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -869,7 +869,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(223.308, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(78.9875, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -957,16 +957,16 @@ entry(
 4 H u0 p0 c0 {1,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[1.95928, 0.0165219, -1.86802e-05, 1.12647e-08, -2.76569e-12, -10688.7, 14.5546], Tmin=(298, 'K'), Tmax=(948.023, 'K')),
-        NASAPolynomial(coeffs=[4.053, 0.00768787, -4.70275e-06, 1.43554e-09, -1.7367e-13, -11085.7, 4.56542], Tmin=(948.023, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(-89.8561, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[1.95928, 0.0165219, -1.86802e-05, 1.12647e-08, -2.76569e-12, -10688.8, 14.5546], Tmin=(298, 'K'), Tmax=(948.023, 'K')),
+        NASAPolynomial(coeffs=[4.053, 0.00768787, -4.70275e-06, 1.43554e-09, -1.7367e-13, -11085.8, 4.56542], Tmin=(948.023, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(-89.8571, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(-79.113, 'kJ/mol',),
+    H298=(-79.114, 'kJ/mol',),
     S298=(248.643, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([45.8098, 51.9118, 56.401, 59.8886, 65.3399, 69.1903, 74.5339, 77.3021, 79.4347], 'J/(mol*K)'),
@@ -1019,16 +1019,16 @@ entry(
 4 H u0 p0 c0 {3,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.18005, 0.0101072, -9.99821e-07, -6.1088e-09, 3.12213e-12, 31502.7, 14.2407], Tmin=(298, 'K'), Tmax=(906.598, 'K')),
-        NASAPolynomial(coeffs=[2.89754, 0.0102555, -6.72826e-06, 2.13558e-09, -2.63143e-13, 31236.4, 10.0985], Tmin=(906.598, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(260.556, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.18006, 0.0101071, -9.99705e-07, -6.10893e-09, 3.12219e-12, 31490.7, 14.2407], Tmin=(298, 'K'), Tmax=(906.597, 'K')),
+        NASAPolynomial(coeffs=[2.89754, 0.0102555, -6.72828e-06, 2.13559e-09, -2.63145e-13, 31224.4, 10.0985], Tmin=(906.597, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(260.456, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(270.90, 'kJ/mol'),
+    H298=(270.80, 'kJ/mol'),
     S298=(245.946, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([41.5125, 47.7211, 53.4143, 58.0371, 64.526, 69.0285, 75.0757, 77.7832, 79.7256], 'J/(mol*K)'),
@@ -1050,16 +1050,16 @@ entry(
 4 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[3.36352, 0.00117404, 1.61593e-05, -2.00675e-08, 7.42513e-12, -6392.77, 8.58965], Tmin=(298, 'K'), Tmax=(839.373, 'K')),
-        NASAPolynomial(coeffs=[1.53117, 0.0122918, -7.97211e-06, 2.485e-09, -3.00495e-13, -6169.21, 16.6082], Tmin=(839.373, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(-53.7314, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.36352, 0.00117404, 1.61593e-05, -2.00675e-08, 7.42513e-12, -6416.82, 8.58965], Tmin=(298, 'K'), Tmax=(839.373, 'K')),
+        NASAPolynomial(coeffs=[1.53117, 0.0122918, -7.97211e-06, 2.485e-09, -3.00495e-13, -6193.26, 16.6082], Tmin=(839.373, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(-53.9314, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(-43.5, 'kJ/mol',),
+    H298=(-43.7, 'kJ/mol',),
     S298=(238.267, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([39.0565, 44.1857, 49.4298, 54.2374, 61.6382, 66.7489, 74.0267, 77.2858, 79.2742], 'J/(mol*K)'),
@@ -1242,16 +1242,16 @@ entry(
 3 O u0 p2 c0 {2,D}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.88531, 0.00650141, -2.19165e-06, -1.53978e-09, 9.4506e-13, 8807.19, 8.1661], Tmin=(298, 'K'), Tmax=(976.08, 'K')),
-        NASAPolynomial(coeffs=[3.16789, 0.00667343, -4.49998e-06, 1.43287e-09, -1.73879e-13, 8688.67, 6.48507], Tmin=(976.08, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(72.8203, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(62.3585, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.88536, 0.00650105, -2.19073e-06, -1.54076e-09, 9.45436e-13, 8807.07, 8.16589], Tmin=(298, 'K'), Tmax=(976.024, 'K')),
+        NASAPolynomial(coeffs=[3.16776, 0.00667377, -4.5003e-06, 1.433e-09, -1.73897e-13, 8688.59, 6.48576], Tmin=(976.024, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(72.8193, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(62.3585, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(82.594, 'kJ/mol'),
+    H298=(82.593, 'kJ/mol'),
     S298=(219.771, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([38.2555, 42.1148, 45.4102, 48.0968, 52.1693, 54.9117, 58.3067, 59.7901, 60.9366], 'J/(mol*K)'),
@@ -1277,7 +1277,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(338.532, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -1368,16 +1368,16 @@ entry(
 5 H u0 p0 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[3.45286, 0.0131475, -9.05272e-06, 3.31346e-09, -5.10648e-13, 7614.76, 8.05399], Tmin=(298, 'K'), Tmax=(1332.32, 'K')),
-        NASAPolynomial(coeffs=[4.60865, 0.00967739, -5.14586e-06, 1.35852e-09, -1.43812e-13, 7306.78, 2.14637], Tmin=(1332.32, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(63.1187, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.45286, 0.0131475, -9.05272e-06, 3.31346e-09, -5.10648e-13, 7613.55, 8.05399], Tmin=(298, 'K'), Tmax=(1332.32, 'K')),
+        NASAPolynomial(coeffs=[4.60865, 0.00967739, -5.14586e-06, 1.35852e-09, -1.43812e-13, 7305.58, 2.14637], Tmin=(1332.32, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(63.1087, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(76.11, 'kJ/mol'),
+    H298=(76.10, 'kJ/mol'),
     S298=(259.989, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([55.486, 62.0136, 67.6695, 72.5677, 80.4224, 86.1879, 94.7048, 99.1279, 102.066], 'J/(mol*K)'),
@@ -1505,7 +1505,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(156.24, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(78.9875, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124  ###**** note trans
+H298 from ATcT 1.130  ###**** note trans
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 This is cis-N2O2, trans-N2O2 is higher in energy.
@@ -1949,16 +1949,16 @@ multiplicity 2
 4 O u1 p2 c0 {2,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[2.4283, 0.0165038, -1.45483e-05, 5.41129e-09, -5.80254e-13, 7578.48, 12.7513], Tmin=(298, 'K'), Tmax=(1046.36, 'K')),
-        NASAPolynomial(coeffs=[5.14525, 0.00833799, -6.02541e-06, 2.00922e-09, -2.51978e-13, 6888.35, -1.06038], Tmin=(1046.36, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(61.9805, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[2.4283, 0.0165038, -1.45483e-05, 5.41129e-09, -5.80254e-13, 7579.69, 12.7513], Tmin=(298, 'K'), Tmax=(1046.36, 'K')),
+        NASAPolynomial(coeffs=[5.14525, 0.00833799, -6.02541e-06, 2.00922e-09, -2.51978e-13, 6889.55, -1.06038], Tmin=(1046.36, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(61.9905, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//wB97xd/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(74.14, 'kJ/mol'),
+    H298=(74.15, 'kJ/mol'),
     S298=(256.953, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([51.6024, 58.5626, 64.0258, 67.9827, 73.425, 76.7446, 79.9253, 80.9943, 82.2969], 'J/(mol*K)'),
@@ -1981,16 +1981,16 @@ entry(
 5 H u0 p0 c0 {4,S}
 """,
     thermo=NASA(polynomials=[
-        NASAPolynomial(coeffs=[0.575295, 0.0267557, -2.74413e-05, 1.39498e-08, -2.82692e-12, -17281.7, 21.916], Tmin=(298, 'K'), Tmax=(1138.23, 'K')),
-        NASAPolynomial(coeffs=[4.84502, 0.0117508, -7.66705e-06, 2.36787e-09, -2.83044e-13, -18253.7, 0.764279], Tmin=(1138.23, 'K'), Tmax=(3000, 'K'))],
-        Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(-145.805, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
+        NASAPolynomial(coeffs=[0.575295, 0.0267557, -2.74413e-05, 1.39498e-08, -2.82692e-12, -17282.9, 21.916], Tmin=(298, 'K'), Tmax=(1138.23, 'K')),
+        NASAPolynomial(coeffs=[4.84502, 0.0117508, -7.66705e-06, 2.36787e-09, -2.83044e-13, -18254.9, 0.764279], Tmin=(1138.23, 'K'), Tmax=(2500, 'K'))],
+        Tmin=(298, 'K'), Tmax=(2500, 'K'), E0=(-145.815, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124  ###**** note trans
+H298 from ATcT 1.130  ###**** note trans
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
-    H298=(-134.18, 'kJ/mol',),
+    H298=(-134.19, 'kJ/mol',),
     S298=(266.61, 'J/(mol*K)'),
     Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500], 'K'),
     Cpdata=([53.8927, 64.2395, 72.1265, 77.865, 86.3276, 91.8509, 98.0493, 100.203, 102.028], 'J/(mol*K)'),
@@ -2018,7 +2018,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(69.3822, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(103.931, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -2051,7 +2051,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(21.8782, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(128.874, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
@@ -2084,7 +2084,7 @@ entry(
         Tmin=(298, 'K'), Tmax=(3000, 'K'), E0=(-5.68565, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(128.874, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT 1.124
+H298 from ATcT 1.130
 S298 and Cp from a 1DHR RRHO CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ level of theory computation
 
 ThermoData(
