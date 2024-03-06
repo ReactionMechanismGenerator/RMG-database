@@ -2275,10 +2275,10 @@ entry(
     label = "C*C*",
     group =
 """
-1 * X u0 {3,[S,D]}
-2 X u0 {4,[S,D]}
-3 C  u0 {1,[S,D]} {4,[S,D]}
-4 C  u0 {2,[S,D]} {3,[S,D]}
+1 * X u0 {3,[S,D,T]}
+2 X u0 {4,[S,D,T]}
+3 C  u0 {1,[S,D,T]} {4,[S,D,T]}
+4 C  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2971,7 +2971,7 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,D} {4,D} 
-4 R  u0 p0 c0 {3,D} {5,S}
+4 R!H  u0 p0 c0 {3,D} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 6 R  u0 p0 c0 {5,S}
 7 R  u0 p0 c0 {5,S}
@@ -3005,7 +3005,7 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
-4 R  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 p0 c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 6 R  u0 p0 c0 {5,S}
 7 R  u0 p0 c0 {5,S}
@@ -3041,7 +3041,7 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,D} {4,S} {6,S}
-4 R  u0 p0 c0 {3,S} {5,D}
+4 R!H  u0 p0 c0 {3,S} {5,D}
 5 C  u0 p0 c0 {2,S} {4,D} {7,S}
 6 R  u0 p0 c0 {3,S}
 7 R  u0 p0 c0 {5,S}
@@ -3075,7 +3075,7 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
-4 R  u0 p0 c0 {3,D} {5,S}
+4 R!H  u0 p0 c0 {3,D} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 6 R  u0 p0 c0 {3,S}
 7 R  u0 p0 c0 {5,S}
@@ -3110,7 +3110,7 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,D} {4,S} {6,S}
-4 R  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 p0 c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 6 R  u0 p0 c0 {3,S}
 7 R  u0 p0 c0 {5,S}
@@ -3145,7 +3145,7 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
-4 R  u0 p0 c0 {3,D} {5,D}
+4 R!H  u0 p0 c0 {3,D} {5,D}
 5 C  u0 p0 c0 {2,S} {4,D} {7,S}
 6 R  u0 p0 c0 {3,S}
 7 R  u0 p0 c0 {5,S}
@@ -3179,7 +3179,7 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,D}
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
-4 R  u0 p0 c0 {3,D} {5,D}
+4 R!H  u0 p0 c0 {3,D} {5,D}
 5 C  u0 p0 c0 {2,D} {4,D}
 6 R  u0 p0 c0 {3,S}
 """,
@@ -3206,13 +3206,13 @@ entry(
 
 entry(
     index = 104,
-    label = "O-*-R-O-*",
+    label = "O-*-C-O-*",
     group =
 """
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 O  u0 p2 c0 {1,S} {4,S}
-4 R  u0 p0 c0 {3,S} {5,S}
+4 C  u0 p0 c0 {3,S} {5,S}
 5 O  u0 p2 c0 {2,S} {4,S}
 """,
     thermo=ThermoData(
@@ -3244,7 +3244,7 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
-4 R  u0 p0 c0 {3,D} {5,S}
+4 R!H  u0 p0 c0 {3,D} {5,S}
 5 O  u0 p2 c0 {2,S} {4,S}
 6 R  u0 p0 c0 {3,S} 
 """,
@@ -3307,7 +3307,7 @@ entry(
 2 C  u0 p0 c0 {3,S} {4,S} {5,D}
 3 C  u0 p0 c0 {1,D} {2,S} {6,S}
 4 R  u0 p0 c0 {2,S}
-5 R  u0 c0 {2,D}
+5 R!H  u0 c0 {2,D}
 6 R  u0 c0 {3,S}
 """,
     thermo=ThermoData(
@@ -3343,7 +3343,7 @@ entry(
 2 C  u0 p0 c0 {3,S} {4,S} {5,D}
 3 C  u0 p0 c0 {1,T} {2,S}
 4 R  u0 p0 c0 {2,S}
-5 R  u0 c0 {2,D}
+5 R!H  u0 c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3378,7 +3378,7 @@ entry(
 2 C  u0 p0 c0 {3,S} {4,S} {5,D}
 3 O  u0 p2 c0 {1,S} {2,S}
 4 R  u0 p0 c0 {2,S}
-5 R  u0 c0 {2,D}
+5 R!H  u0 c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3406,41 +3406,6 @@ entry(
 
 entry(
     index = 110,
-    label = "(R3COR)*",
-    group =
-"""
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-3 O  u0 p2 c0 {2,S} {7,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {2,S}
-7 R  u0 p0 c0 {3,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([8.44, 9.53, 10.02, 10.25, 10.41, 10.45, 10.47], 'J/(mol*K)'),
-        H298=(-57.56, 'kJ/mol'),
-        S298=(-139.36, 'J/(mol*K)'),
-    ),
-    shortDesc=u"""Came from averaged CH3OH, CH3OCH3, H2CO2H2, CH3OCH2OH on Pt(111)""",
-    longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
-            Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
-            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
-            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',fmax=2.5e-2.
-            See Kreitz et al. 2023 (DOI:10.1021/acscatal.2c03378) for details on the DFT method. 
-
- R3C-OR
-    :
-***********
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 111,
     label = "C*RC*",
     group =
 """
@@ -3448,7 +3413,7 @@ entry(
 2 X u0 {4,[S,D,T]}
 3 C  u0 {1,[S,D,T]} {5,[S,D,T]}
 4 C  u0 {2,[S,D,T]} {5,[S,D,T]}
-5 R  u0 {3,[S,D,T]} {4,[S,D,T]}
+5 R!H  u0 {3,[S,D,T]} {4,[S,D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3470,7 +3435,7 @@ entry(
 )
 
 entry(
-    index = 112,
+    index = 111,
     label = "R*bridged-bidentate",
     group =
 """
@@ -3500,7 +3465,7 @@ entry(
 )
 
 entry(
-    index = 113,
+    index = 112,
     label = "C*RO*",
     group =
 """
@@ -3508,7 +3473,7 @@ entry(
 2 X u0 {4,S}
 3 C  u0 {1,[S,D,T]} {5,[S,D,T]}
 4 O  u0 p2 {2,S} {5,S}
-5 R  u0 {3,[S,D,T]} {4,S}
+5 R!H  u0 {3,[S,D,T]} {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3529,15 +3494,15 @@ entry(
 )
 
 entry(
-    index = 114,
+    index = 113,
     label = "O*RO*",
     group =
 """
 1 * X u0 p0 c0 {3,S}
-2 X u0 p0 c0 {5,S}
-3 O  u0 p2 c0 {1,S} {4,S}
-4 R  u0 p0 c0 {3,S} {5,S}
-5 O  u0 p2 c0 {2,S} {4,S}
+2 X u0 p0 c0 {4,S}
+3 O  u0 p2 c0 {1,S} {5,S}
+4 O  u0 p2 c0 {2,S} {5,S}
+5 R!H  u0 p0 c0 {3,S} {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3561,14 +3526,14 @@ entry(
 )
 
 entry(
-    index = 115,
+    index = 114,
     label = "C#*-R-C-*R2",
     group =
 """
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 p0 c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 6 R  u0 p0 c0 {5,S}
 7 R  u0 p0 c0 {5,S}
@@ -3595,14 +3560,14 @@ entry(
 )
 
 entry(
-    index = 116,
+    index = 115,
     label = "C#*-R=C-*R",
     group =
 """
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R  u0 p0 c0 {3,S} {5,D}
+4 R!H  u0 p0 c0 {3,S} {5,D}
 5 C  u0 p0 c0 {2,S} {4,D} {6,S} 
 6 R  u0 p0 c0 {5,S}
 """,
@@ -3619,7 +3584,7 @@ entry(
             following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',fmax=2.5e-2.
             See Kreitz et al. 2023 (DOI:10.1021/acscatal.2c03378) for details on the DFT method. 
-  C--R==CR2
+  C--R==CR
  |||    |
 ***********
 """,
@@ -3635,7 +3600,7 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,T}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 p0 c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,T} {4,S}
 """,
     thermo=ThermoData(
@@ -3667,7 +3632,7 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,D}
 3 C  u0 p0 c0 {1,D} {4,S} {6,S}
-4 R  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 p0 c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,D} {4,S} {7,S} 
 6 R  u0 p0 c0 {3,S}
 7 R  u0 p0 c0 {5,S}
@@ -3701,7 +3666,7 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,D}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 p0 c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,D} {4,S} {6,S} 
 6 R  u0 p0 c0 {5,S}
 """,
@@ -3747,7 +3712,7 @@ L1: R*
         L3: C*RO*
             L4: RC-*=R-O-*
         L3: O*RO*
-            L4: O-*-R-O-*
+            L4: O-*-C-O-*
     L2: R*bidentate
         L3: C*C*
             L4: C-*C-*
@@ -3796,10 +3761,10 @@ L1: R*
                 L5: C-*R2CR3
                 L5: C-*R2NR2
                 L5: C-*R2OR
-                L5: C-*RNR
             L4: C-*R2
                 L5: C-*RO
                 L5: C-*RCR2
+                L5: C-*RNR
         L3: N*
             L4: N#*
             L4: N=*R
@@ -3840,6 +3805,5 @@ L1: R*
             L4: (NRNR)*
         L3: (OR2)*
             L4: (OROR)*
-            L4: (R3COR)*
 """,
 )
