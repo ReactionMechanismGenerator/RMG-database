@@ -16,6 +16,95 @@ adjacency_list: |
   14 H u0 p0 c0 {4,S}
   15 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: -60.542691275640635
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -1.787094
+          - 0.677909
+          - 0.010155
+        - - -0.480597
+          - -0.036282
+          - -0.31714
+        - - -0.470231
+          - -1.345958
+          - 0.212801
+        - - 0.733452
+          - 0.688876
+          - 0.250911
+        - - 2.05711
+          - 0.0232
+          - -0.103921
+        - - -1.921782
+          - 0.741619
+          - 1.100846
+        - - -2.649279
+          - 0.134991
+          - -0.409588
+        - - -1.800636
+          - 1.696702
+          - -0.405789
+        - - -0.366662
+          - -0.075032
+          - -1.42178
+        - - -1.191642
+          - -1.840594
+          - -0.18434
+        - - 0.617475
+          - 0.735871
+          - 1.347391
+        - - 0.718283
+          - 1.72928
+          - -0.113798
+        - - 2.209948
+          - 4.0e-05
+          - -1.194884
+        - - 2.906419
+          - 0.56114
+          - 0.342427
+        - - 2.073648
+          - -1.013618
+          - 0.259426
+      isotopes:
+      - 12
+      - 12
+      - 16
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - O
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
   : class: CalculatedDataEntry
     thermo_data:

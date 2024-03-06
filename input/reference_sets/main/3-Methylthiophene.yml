@@ -13,6 +13,80 @@ adjacency_list: |
   11 H u0 p0 c0 {5,S}
   12 H u0 p0 c0 {6,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 45.693725061204475
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 2.46948
+          - -0.195618
+          - -4.0e-06
+        - - 0.977473
+          - -0.028034
+          - 2.0e-06
+        - - 0.073176
+          - -1.057796
+          - 3.3e-05
+        - - -1.555746
+          - -0.500977
+          - 3.2e-05
+        - - -1.046285
+          - 1.141126
+          - -1.0e-05
+        - - 0.316022
+          - 1.244359
+          - -2.3e-05
+        - - 2.752808
+          - -1.257044
+          - 9.0e-06
+        - - 2.920892
+          - 0.27552
+          - 0.886969
+        - - 2.920881
+          - 0.275495
+          - -0.886995
+        - - 0.288263
+          - -2.125756
+          - 5.6e-05
+        - - -1.778941
+          - 1.946616
+          - -2.4e-05
+        - - 0.844248
+          - 2.199221
+          - -4.9e-05
+      isotopes:
+      - 12
+      - 12
+      - 12
+      - 32
+      - 12
+      - 12
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - C
+      - C
+      - S
+      - C
+      - C
+      - H
+      - H
+      - H
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
   : class: CalculatedDataEntry
     thermo_data:
@@ -93,7 +167,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 18.925332941460084
+        value: 18.925332941460077
       class: ThermoData
     xyz_dict:
       coords:

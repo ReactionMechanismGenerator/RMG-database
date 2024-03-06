@@ -3,6 +3,30 @@ adjacency_list: |
   1 Br u0 p3 c0 {2,S}
   2 H  u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 2.6396068355134945
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - 0.0
+          - 0.0
+          - 0.040615
+        - - 0.0
+          - 0.0
+          - -1.380183
+      isotopes:
+      - 79
+      - 1
+      symbols:
+      - Br
+      - H
   LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem'):
     class: CalculatedDataEntry
     thermo_data:

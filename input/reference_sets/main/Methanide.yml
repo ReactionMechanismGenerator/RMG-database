@@ -5,6 +5,40 @@ adjacency_list: |
   3 H u0 p0 c0 {1,S}
   4 H u0 p0 c0 {1,S}
 calculated_data:
+  ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian'),energy=LevelOfTheory(method='dlpnoccsd(t)',basis='def2svp',software='orca'))
+  : class: CalculatedDataEntry
+    thermo_data:
+      H298:
+        class: ScalarQuantity
+        units: kcal/mol
+        value: 61.431938406849426
+      class: ThermoData
+    xyz_dict:
+      coords:
+        class: np_array
+        object:
+        - - -8.0e-06
+          - -2.3e-05
+          - -0.209611
+        - - 0.341384
+          - -0.945383
+          - 0.317197
+        - - -0.989342
+          - 0.177024
+          - 0.317289
+        - - 0.648047
+          - 0.768292
+          - 0.317151
+      isotopes:
+      - 12
+      - 1
+      - 1
+      - 1
+      symbols:
+      - C
+      - H
+      - H
+      - H
   ? CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvdzf12',software='molpro'))
   : class: CalculatedDataEntry
     thermo_data:
@@ -45,7 +79,7 @@ calculated_data:
       H298:
         class: ScalarQuantity
         units: kcal/mol
-        value: 33.919055395515365
+        value: 33.91905539551535
       class: ThermoData
     xyz_dict:
       coords:
