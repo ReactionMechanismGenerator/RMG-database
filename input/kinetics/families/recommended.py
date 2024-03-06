@@ -116,7 +116,6 @@ surface = {
     'Surface_Dissociation_vdW',
     'Surface_Abstraction_vdW',
     'Surface_Dissociation_Beta',
-    #'Surface_Adsorption_Abstraction_vdW',
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
     'Surface_DoubleBond_to_Bidentate', 
