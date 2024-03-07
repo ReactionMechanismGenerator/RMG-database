@@ -38,57 +38,6 @@ env:
   RMG_PY_BRANCH: main
 
 jobs:
-  build-osx:
-    runs-on: macos-latest
-    # skip scheduled runs from forks
-    if: ${{ !( github.repository != 'ReactionMechanismGenerator/RMG-database' && github.event_name == 'schedule' ) }}
-    defaults:
-      run:
-        shell: bash -l {0}
-        working-directory: RMG-Py
-    steps:
-      - name: Clone RMG-database
-        uses: actions/checkout@v3
-        with:
-          path: RMG-database
-
-      - name: Checkout RMG-Py
-        uses: actions/checkout@v3
-        with:
-          path: RMG-Py
-          repository: ReactionMechanismGenerator/RMG-Py
-          ref: ${{ env.RMG_PY_BRANCH }}
-
-      # configures the mamba environment manager and builds the environment
-      - name: Setup Mambaforge Python 3.7
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-          environment-file: RMG-Py/environment.yml
-          miniforge-variant: Mambaforge
-          miniforge-version: latest
-          python-version: 3.7
-          activate-environment: rmg_env
-          use-mamba: true
-
-      # list the environment for debugging purposes
-      - name: mamba info
-        run: |
-          mamba info
-          mamba list
-
-      # modify env variables as directed in the RMG installation instructions
-      - name: Set Environment Variables
-        run: |
-          RUNNER_CWD=$(pwd)
-          echo "PYTHONPATH=$RUNNER_CWD/RMG-Py:$PYTHONPATH" >> $GITHUB_ENV
-          echo "$RUNNER_CWD/RMG-Py" >> $GITHUB_PATH
-
-      # RMG build step
-      - name: make RMG
-        run: |
-          make clean
-          make
-
   build-and-test-linux:
     runs-on: ubuntu-latest
     # skip scheduled runs from forks
@@ -99,19 +48,19 @@ jobs:
     defaults:
       run:
         shell: bash -l {0}
-        working-directory: RMG-Py
+        working-directory: RMG-Py  # only applies to 'run' steps
     steps:
-      - name: Clone RMG-database
-        uses: actions/checkout@v3
-        with:
-          path: RMG-database
-
       - name: Checkout RMG-Py
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          path: RMG-Py
           repository: ReactionMechanismGenerator/RMG-Py
           ref: ${{ env.RMG_PY_BRANCH }}
+          path: RMG-Py
+
+      - name: Checkout RMG-database
+        uses: actions/checkout@v4
+        with:
+          path: RMG-database
 
       # configures the mamba environment manager and builds the environment
       - name: Setup Mambaforge Python 3.7
@@ -155,7 +104,6 @@ jobs:
 
       # non-regression testing
       - name: Run Database Tests
-        # aggregate into one command so we only have to eat the collection time once
         run: make test-database
 
       # Regression Testing - Test Execution
@@ -185,17 +133,7 @@ jobs:
         with:
           name: failed_regression_results
           path: |
-            test/regression
-
-      # Upload Regression Results as Stable if Scheduled or Push to Main
-      - name: Upload Results as Reference
-        # upload the results for scheduled CI (on main) and pushes to main
-        if: ${{ env.REFERENCE_JOB == 'true' }}
-        uses: actions/upload-artifact@v3
-        with:
-          name: stable_regression_results
-          path: |
-            test/regression
+            RMG-Py/test/regression
 
       # Upload Regression Results as Dynamic if Push to non-main Branch
       - name: Upload Results as Dynamic
@@ -204,7 +142,7 @@ jobs:
         with:
           name: dynamic_regression_results
           path: |
-            test/regression
+            RMG-Py/test/regression
 
       - name: mkdir stable_regression_results
         if: ${{ env.REFERENCE_JOB == 'false' }}
@@ -220,10 +158,10 @@ jobs:
         # the stable regression results
           workflow: CI.yml
           workflow_conclusion: success
-          repo: ReactionMechanismGenerator/RMG-database
+          repo: ReactionMechanismGenerator/RMG-Py
           branch: main
           name: stable_regression_results
-          path: stable_regression_results
+          path: RMG-Py/stable_regression_results
           search_artifacts: true  # retrieves the last run result, either scheduled daily or on push to main
           ensure_latest: true     # ensures that the latest run is retrieved
           # should result in a set of folders inside stable_regression_results
@@ -333,11 +271,11 @@ jobs:
         if : ${{ github.event_name == 'pull_request' }}
         with:
           name: regression_summary
-          path: summary.txt
+          path: RMG-Py/summary.txt
 
       - name: Upload Comparison Results
         uses: actions/upload-artifact@v3
         with:
           name: regression_test_comparison_results
           path: |
-            test/regression-diff
+            RMG-Py/test/regression-diff
