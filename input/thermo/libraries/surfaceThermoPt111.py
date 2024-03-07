@@ -358,19 +358,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.31496774E+00, 1.46998289E-02, -1.30679071E-05, 6.99360870E-09, -1.52920905E-12, -1.45305774E+04, -4.29992592E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[8.39460262E+00, -7.22640455E-03, 1.26169819E-05, -6.50952664E-09, 1.13563586E-12, -1.63659104E+04, -4.02856883E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.57212131E+00, 1.42586612E-02, -1.29966921E-05, 7.31124953E-09, -1.70989958E-12, -1.64646385E+04, -5.23659465E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.41893537E+00, -7.10974873E-03, 1.24007918E-05, -6.38725935E-09, 1.11272129E-12, -1.82329725E+04, -4.00025283E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.673 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 13,
@@ -384,19 +388,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-1.89010759E+00, 2.86217997E-02, -4.34545237E-05, 3.34143285E-08, -9.99500135E-12, -4.87893528E+03, 6.34997611E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[6.67968147E+00, -4.64266766E-03, 8.12871035E-06, -4.20436074E-09, 7.35132153E-13, -6.75225639E+03, -3.55181494E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.87871515E+00, 2.83613580E-02, -4.28003754E-05, 3.27782118E-08, -9.77466025E-12, -5.38791968E+03, 6.33023584E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[6.66912289E+00, -4.66811250E-03, 8.17374694E-06, -4.22840073E-09, 7.39462429E-13, -7.26356798E+03, -3.54667213E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.030 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.58258 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 14,
@@ -409,19 +417,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-2.68663098E+00, 2.89197486E-02, -4.76398566E-05, 3.77368064E-08, -1.14895177E-11, -1.39698939E+03, 9.81076735E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[4.82700699E+00, -2.46380210E-03, 4.35378855E-06, -2.27895186E-09, 4.02508146E-13, -2.92453268E+03, -2.63392973E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-2.78150430E+00, 2.93811197E-02, -4.85097155E-05, 3.84750022E-08, -1.17252076E-11, -2.15936408E+03, 1.02141815E+01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.82596451E+00, -2.46469682E-03, 4.35588483E-06, -2.28021753E-09, 4.02759520E-13, -3.70257990E+03, -2.63702535E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -3.440 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.54193 eV, gamma_N(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 15,
@@ -433,16 +445,19 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-8.62158075E-01, 1.65321723E-02, -2.95187453E-05, 2.44741387E-08, -7.73894837E-12, 4.56391760E+03, 2.27263793E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[2.87812725E+00, -4.32547150E-04, 8.18868468E-07, -4.65641564E-10, 8.76522110E-14, 3.86307901E+03, -1.54118153E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.07100494E+00, 1.73392490E-02, -3.08500993E-05, 2.55117416E-08, -8.05137554E-12, 4.11128890E+03, 3.17535780E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[2.86983686E+00, -4.64170179E-04, 8.78069902E-07, -4.99176898E-10, 9.39510991E-14, 3.36976457E+03, -1.54737039E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -4.352 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -461,20 +476,25 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.21930023E+00, 1.83079214E-02, -1.28981748E-05, 3.11969459E-09, 5.17141885E-13, -1.53124559E+04, 5.24764240E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.02488842E+01, -7.98164013E-03, 1.40252369E-05, -7.31456224E-09, 1.28796464E-12, -1.77173300E+04, -4.57361564E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.32199520E+00, 1.80484792E-02, -1.26232821E-05, 2.97341372E-09, 5.48783241E-13, -1.71619852E+04, -2.19406905E-02], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.02526123E+01, -7.93286906E-03, 1.39325996E-05, -7.26063520E-09, 1.27768153E-12, -1.95411563E+04, -4.57799259E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.654 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
-            The two lowest frequencies, 17.1 and 68.9 cm-1, where replaced by the 2D gas model.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 18.0 and 71.7 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 17,
@@ -488,23 +508,29 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.01921333E+00, 1.32114264E-02, -1.38865889E-05, 8.22652454E-09, -2.08098816E-12, -8.20311734E+03, -7.36585771E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[7.47524494E+00, -3.96252296E-03, 7.10187157E-06, -3.81135483E-09, 6.86348467E-13, -9.61232525E+03, -3.50542775E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.29686553E+00, 1.25572633E-02, -1.30827893E-05, 7.68971157E-09, -1.93050784E-12, -3.69463776E+06, -4.20595078E-01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[6.51683259E+00, -3.83392477E-03, 6.86748167E-06, -3.68256502E-09, 6.62718771E-13, -3.69598780E+06, -2.69203453E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.270 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 35.2 and 68.3 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
 
+
 entry(
     index = 18,
-    label = "HXNOH",
+    label = "XNHOH",
     molecule =
 """
 1 X  u0 p0 c0 {2,S}
@@ -515,20 +541,22 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-9.43834528E-02, 2.79801301E-02, -3.68717092E-05, 2.54797165E-08, -7.02746542E-12, -1.18361390E+04, -1.14442838E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.44761833E+00, -5.66879769E-03, 1.00234569E-05, -5.26997420E-09, 9.33985172E-13, -1.40902663E+04, -4.85973626E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.13861768E-02, 2.77064384E-02, -3.66727109E-05, 2.54286007E-08, -7.02932504E-12, -1.27898738E+04, -1.69453281E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.46607257E+00, -5.58956469E-03, 9.87678564E-06, -5.18751428E-09, 9.18610049E-13, -1.50086157E+04, -4.84892398E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.370 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.08004 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
-
 entry(
     index = 19,
     label = "XNO",
@@ -540,16 +568,19 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.91253452E+00, 1.19742948E-02, -1.74150740E-05, 1.31050130E-08, -3.98440482E-12, -1.39133497E+04, -9.50920619E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[5.58200160E+00, -1.44698193E-03, 2.66840782E-06, -1.48667738E-09, 2.75613483E-13, -1.47707534E+04, -2.76785587E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.85451886E+00, 1.22943820E-02, -1.77749037E-05, 1.31890617E-08, -3.95034526E-12, -1.44994094E+04, -9.25381376E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.60277147E+00, -1.39571155E-03, 2.57674641E-06, -1.43806633E-09, 2.66973538E-13, -1.53731804E+04, -2.78101774E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.580 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.13417 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -566,19 +597,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.23151905E+00, 6.07214925E-03, -7.46345407E-06, 5.43212687E-09, -1.71496758E-12, -1.16357520E+04, -1.30278030E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[5.54859951E+00, -1.48179602E-03, 2.71394293E-06, -1.49952005E-09, 2.76147146E-13, -1.22336367E+04, -2.47556107E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.85488057E+00, 1.22873746E-02, -1.77734467E-05, 1.31998079E-08, -3.95720262E-12, -1.44871009E+04, -9.25721297E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.60143935E+00, -1.39918893E-03, 2.58301681E-06, -1.44143116E-09, 2.67577746E-13, -1.53605121E+04, -2.78049745E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.390 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 1.51181 eV, gamma_N(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 21,
@@ -592,19 +627,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[7.02968349E-01, 2.37024940E-02, -3.55330194E-05, 2.65623392E-08, -7.77662656E-12, -1.08269894E+04, -4.53311528E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[7.64521455E+00, -2.91720741E-03, 5.16378086E-06, -2.71526676E-09, 4.81634389E-13, -1.23572356E+04, -3.85225151E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.69962202E-01, 2.42576419E-02, -3.64725560E-05, 2.72971768E-08, -7.99681155E-12, -1.14261539E+04, -4.03750686E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.64229939E+00, -2.92615542E-03, 5.18083741E-06, -2.72507397E-09, 4.83505877E-13, -1.29815577E+04, -3.86470433E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -3.260 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.35381 eV, gamma_N(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 22,
@@ -621,20 +660,25 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[7.10937730E-01, 1.85814957E-02, -5.98243737E-06, -4.76023454E-09, 3.31121935E-12, -2.75700009E+03, 2.41162427E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.18367700E+01, -1.13177753E-02, 1.99338993E-05, -1.04342217E-08, 1.84230855E-12, -5.85969683E+03, -5.52432432E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[9.91486902E-01, 1.78894313E-02, -5.10989766E-06, -5.36447635E-09, 3.48837279E-12, -3.83174488E+05, 1.29240783E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.18714612E+01, -1.11902807E-02, 1.96989169E-05, -1.03031993E-08, 1.81801885E-12, -3.86215460E+05, -5.51246581E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.977 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
-            The two lowest frequencies, 6.9 and 79.2 cm-1, where replaced by the 2D gas model.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 12.0 and 72.5 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 23,
@@ -649,16 +693,19 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.62480603E-01, 2.37463930E-02, -2.79127702E-05, 1.76454048E-08, -4.52195226E-12, 1.08677882E+04, -3.53945184E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.40098406E+00, -5.98653308E-03, 1.06136322E-05, -5.60544216E-09, 9.96914912E-13, 8.66255190E+03, -4.84441559E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[3.58575284E-01, 2.22678756E-02, -2.30089735E-05, 1.23536641E-08, -2.58158425E-12, 9.60899595E+03, -2.77600955E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.37206291E+00, -6.25382437E-03, 1.11125998E-05, -5.89265299E-09, 1.05137182E-12, 7.31748858E+03, -4.84041963E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.676 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -674,20 +721,25 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.13993917E+00, -9.92755910E-04, 1.76704033E-06, -1.57884342E-10, -3.64206712E-13, -4.38199802E+03, -7.98299353E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[4.38660517E+00, -1.50692391E-03, 2.67640594E-06, -1.41531803E-09, 2.51363379E-13, -4.48345747E+03, -9.36216462E+00], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.19199526E+00, -1.36921192E-03, 2.73581166E-06, -1.09122918E-09, -5.32876694E-14, -6.37738814E+03, -6.27982914E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[4.40843452E+00, -1.50403250E-03, 2.68055501E-06, -1.42512304E-09, 2.54244155E-13, -6.48603113E+03, -7.57807466E+00], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.109 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.10949 eV, gamma_N(X) = 0.000.
-            The two lowest frequencies, 6.3 and 24.2 cm-1, where replaced by the 2D gas model.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 12.0 and 12.0 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 25,
@@ -703,19 +755,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.47120056E-01, 2.68375643E-02, -2.81255056E-05, 1.59595219E-08, -3.61741193E-12, 5.50809497E+03, -2.02313697E+000], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.11788248E+01, -8.42590935E-03, 1.48660894E-05, -7.79652734E-09, 1.37881132E-12, 2.71736311E+03, -5.77901499E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.73753967E-01, 2.70378107E-02, -2.87456069E-05, 1.65770884E-08, -3.82896492E-12, 4.20542135E+03, -2.13892964E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.11917101E+01, -8.36700254E-03, 1.47574125E-05, -7.73547580E-09, 1.36743697E-12, 1.42772603E+03, -5.77898833E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.270 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.18029 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 26,
@@ -729,19 +785,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.09323941E+00, 1.85333628E-02, -2.46837629E-05, 1.77191679E-08, -5.17017679E-12, 1.00757302E+04, -5.67671443E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[7.47568498E+00, -3.83877359E-03, 6.87143107E-06, -3.67728572E-09, 6.60773743E-13, 8.54387815E+03, -3.74961335E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.12573642E+00, 1.84410849E-02, -2.43414585E-05, 1.72676682E-08, -4.98136254E-12, 9.13180316E+03, -5.70714174E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.49598380E+00, -3.79353319E-03, 6.79075374E-06, -3.63478898E-09, 6.53253053E-13, 7.60015190E+03, -3.74839079E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.060 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.39360 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 27,
@@ -756,16 +816,19 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[5.70129737E-01, 2.46815562E-02, -3.14357040E-05, 2.15189651E-08, -5.94088667E-12, 5.19445129E+03, -4.18649200E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.37520921E+00, -5.75057579E-03, 1.01557341E-05, -5.32940833E-09, 9.43101134E-13, 3.07692090E+03, -4.81449524E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[4.41664418E-01, 2.52498684E-02, -3.24111564E-05, 2.22859338E-08, -6.17073753E-12, 4.16286381E+03, -3.64565785E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.37657871E+00, -5.75758000E-03, 1.01701403E-05, -5.33849089E-09, 9.44924672E-13, 2.02088192E+03, -4.82198331E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.040 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.86160 eV, gamma_N(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -784,16 +847,19 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.33495414E-01, 2.26610551E-02, -2.36224444E-05, 1.28389765E-08, -2.73372991E-12, 9.54917115E+03, -2.29491427E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.35953068E+00, -6.29553535E-03, 1.11894199E-05, -5.93532774E-09, 1.05926511E-12, 7.23245336E+03, -4.84748217E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[6.83327750E-01, 2.29510834E-02, -2.65296963E-05, 1.64769354E-08, -4.14140597E-12, 8.22586769E+03, -4.51199820E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.42230730E+00, -5.92753444E-03, 1.05055623E-05, -5.54612774E-09, 9.86036909E-13, 6.06138809E+03, -4.84585814E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.982 eV.
-            Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 1.91976 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -811,16 +877,19 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-9.33366824E-03, 2.28486010E-02, -3.13931005E-05, 2.25104861E-08, -6.48527412E-12, 7.54468891E+03, -1.63253226E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[7.45448958E+00, -3.87308208E-03, 6.93696999E-06, -3.71519284E-09, 6.68194144E-13, 5.79074311E+03, -3.86806230E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.40752934E-01, 2.20150088E-02, -3.00433312E-05, 2.14293926E-08, -6.14639936E-12, 6.41500804E+03, -2.68571962E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.47914257E+00, -3.80114034E-03, 6.80526269E-06, -3.64271548E-09, 6.54874300E-13, 4.70960063E+03, -3.86378407E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.280 eV.
-            Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 3.07184 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -840,19 +909,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.90039015E-01, 2.20932553E-02, -9.26149163E-06, -3.13927989E-09, 2.92569788E-12, -5.59423948E+03, -2.83380870E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.30787664E+01, -1.20311946E-02, 2.13949410E-05, -1.13636331E-08, 2.02934094E-12, -9.10419311E+03, -6.80318827E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.92460424E-01, 2.30965733E-02, -1.12664486E-05, -1.37123642E-09, 2.34634534E-12, -6.90293823E+03, -2.42785388E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.30677897E+01, -1.20297508E-02, 2.13898543E-05, -1.13581822E-08, 2.02798307E-12, -1.04401309E+04, -6.84699572E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.850 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.40192 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 31,
@@ -867,19 +940,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[7.25178555E-01, 2.12826243E-02, -2.34081427E-05, 1.47028746E-08, -3.89854468E-12, 2.52272059E+03, -4.11114694E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.38157685E+00, -6.59021782E-03, 1.17682807E-05, -6.28180522E-09, 1.12615562E-12, 3.18498804E+02, -4.78840793E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.11725705E-01, 2.37726955E-02, -2.77550454E-05, 1.82730426E-08, -5.02421368E-12, 1.32903782E+03, -2.64861536E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.35440837E+00, -6.67732583E-03, 1.19313001E-05, -6.37345251E-09, 1.14327461E-12, -9.89289877E+02, -4.92143304E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.660 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.21342 eV, gamma_N(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 32,
@@ -895,19 +972,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.57582464E-01, 2.08227846E-02, -1.31666200E-05, 2.48777975E-09, 6.58681443E-13, -5.31493961E+03, -3.12938558E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.12334649E+01, -9.61392101E-03, 1.71661622E-05, -9.17060199E-09, 1.64510419E-12, -8.26608573E+03, -5.86567081E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[3.33156881E-01, 2.10460446E-02, -1.33541753E-05, 2.54546134E-09, 6.60929644E-13, -6.39349255E+03, -2.14225136E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.12045396E+01, -9.67267034E-03, 1.72693152E-05, -9.22434283E-09, 1.65457558E-12, -9.36962609E+03, -5.81572763E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -3.050 eV.
-            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.14794 eV, gamma_N(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 # entry(
 #     index = 33,
@@ -919,24 +1000,27 @@ entry(
 # 3 O  u0  p2 c-1 {2,S}
 # 4 O  u0  p2 c0 {2,D}
 # """,
-#     thermo = NASA(
-#         polynomials = [
-#             NASAPolynomial(coeffs=[
-#              1.908949200E+00,   2.036846110E-02,  -3.030122180E-05,   2.191995790E-08,
-#              -6.250090720E-12,   9.003214300E+03,  -2.726671970E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-#             NASAPolynomial(coeffs=[
-#              7.636130060E+00,  -1.383989810E-03,   2.571362700E-06,  -1.448349250E-09,
-#              2.709019330E-13,   7.732608970E+03,  -3.081328960E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
-#         ],
-#         Tmin = (298.0, 'K'),
-#         Tmax = (2000.0, 'K'),
-#     ),
-#     longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb).
-#            Based on DFT calculations by Jelena Jelic at KIT.
-#            DFT binding energy: -0.688 eV.
-#            Linear scaling parameters: ref_adatom_N = 0.525 eV, psi = -0.86302 eV, gamma_N(X) = 0.333.
-#            The two lowest frequencies, -33.2 and 55.1 cm-1, where replaced by the 2D gas model.""",
-# )
+#    thermo = NASA(
+#        polynomials = [
+#            NASAPolynomial(coeffs=[9.70385999E-01, 1.92567129E-02, -2.43823195E-05, #1.55353864E-08, -4.01405298E-12, -2.38596285E+04, 8.91834610E-01], Tmin=(298.0, 'K'), #Tmax=(1000.0, 'K')),
+#            NASAPolynomial(coeffs=[7.35340988E+00, -2.36894815E-03, 4.37272632E-06, #-2.44616567E-09, 4.55090436E-13, -2.54132778E+04, -3.10758293E+01], Tmin=(1000.0, 'K'), #Tmax=(2000.0, 'K')),
+ #       ],
+ #       Tmin = (298.0,'K'),
+ #       Tmax = (2000.0,'K'),
+ #   ),
+ #   longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics     #(file: ThermoPt111.py).
+#            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations #were performed with Quantum Espresso
+#            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 #supercell (1/9ML coverage)
+#            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). #The following settings were applied:
+#            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-#vanderbilt', mixing_mode='local-TF',
+#            fmax=2.5e-2.
+#
+ #           The two lowest frequencies, 67.2 and 92.5 cm-1, where replaced by the 2D gas model.
+#""",
+#    metal = "Pt",
+#    facet = "111",
+#)
+
 
 entry(
     index = 34,
@@ -1342,19 +1426,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.11759999E+00, 2.61925458E-03, -2.38597242E-06, 1.99370899E-09, -8.12410469E-13, 7.23851375E+03, -1.73631138E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[5.52418021E+00, -1.46883611E-03, 2.67356881E-06, -1.46454792E-09, 2.67815680E-13, 6.83798413E+03, -2.46384099E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.59013558E+00, 9.32868779E-03, -1.45340451E-05, 1.21591268E-08, -4.04875439E-12, 5.80898378E+03, -1.18962573E+01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.48369670E+00, -1.61530328E-03, 2.95352872E-06, -1.62494282E-09, 2.98171280E-13, 5.13485916E+03, -2.61761068E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -3.340 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.64671 eV, gamma_C(X) = 0.250.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 47,
@@ -1368,19 +1456,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.59496949E+00, 1.65089177E-02, -2.53974408E-05, 2.02468005E-08, -6.32103397E-12, -2.38409128E+03, -1.15883837E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[7.61905419E+00, -2.92187763E-03, 5.15479567E-06, -2.69525498E-09, 4.75495658E-13, -3.50064919E+03, -3.61906347E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.30997488E+00, 2.17023533E-02, -3.42304010E-05, 2.73019102E-08, -8.48908790E-12, -3.53631373E+03, -7.19207443E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.57920752E+00, -3.09176357E-03, 5.47617784E-06, -2.87913352E-09, 5.10261197E-13, -4.89862310E+03, -3.77470612E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.740 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.63638 eV, gamma_C(X) = 0.500.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 48,
@@ -1395,19 +1487,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.53087538E+00, 2.16230806E-02, -2.71329649E-05, 1.84938021E-08, -5.09305792E-12, -1.03698193E+04, -8.38468416E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.40468481E+00, -5.41327535E-03,9.51693401E-06, -4.95946907E-09, 8.72860901E-13, -1.22719497E+04, -4.77373490E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.49775548E+00, 2.16950920E-02, -2.72073938E-05, 1.85339912E-08, -5.10226930E-12, -1.18102868E+04, -8.24261289E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.40005488E+00, -5.42856457E-03, 9.54493318E-06, -4.97497033E-09, 8.75722411E-13, -1.37198915E+04, -4.77404477E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -4.060 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.00119 eV, gamma_C(X) = 0.750.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 49,
@@ -1553,17 +1649,21 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-3.22576461E-01, 2.08807519E-02, -1.29691654E-05, 1.29682800E-09, 1.40594827E-12, 3.66393668E+03, 6.82500696E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.02705016E+01, -9.06171664E-03, 1.61074586E-05, -8.55119082E-09, 1.52673350E-12, 7.87732523E+02, -4.76927508E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[5.67860708E-01, 1.69533120E-02, -6.09151342E-06, -4.25960524E-09, 3.12066345E-12, 1.70090077E+03, 3.67306804E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.02709876E+01, -9.00275129E-03, 1.59882670E-05, -8.47803009E-09, 1.51224426E-12, -1.00783122E+03, -4.66293383E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.228 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.22807 eV, gamma_C(X) = 0.000.
-            The two lowest frequencies, 46.0 and 79.7 cm-1, where replaced by the 2D gas model.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 0.0 and 36.3 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
@@ -1583,19 +1683,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.94472063E-01, 2.62082323E-02, -2.05472442E-05, 7.54576090E-09, -5.98066735E-13, -1.00349448E+04, -1.63394338E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.30763281E+01, -1.10941325E-02, 1.95968859E-05, -1.03005801E-08, 1.82465302E-12, -1.33699538E+04, -6.45023766E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.92469417E-01, 2.72670049E-02, -2.26856338E-05, 9.45801131E-09, -1.23386371E-12, -1.18008595E+04, -1.18044749E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.30705616E+01, -1.10925246E-02, 1.95939611E-05, -1.02980904E-08, 1.82408051E-12, -1.51649486E+04, -6.64077677E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.980 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.29283 eV, gamma_C(X) = 0.250.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 55,
@@ -1680,19 +1784,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-8.02719609E-01, 2.77232113E-02, -3.31822780E-05, 2.12596176E-08, -5.54256988E-12, 2.08108433E+03, 1.56425884E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.43341136E+00, -6.49223331E-03, 1.16024225E-05, -6.20150120E-09, 1.11316221E-12, -4.41424500E+02, -4.98315612E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-8.85537683E-01, 2.79563150E-02, -3.35259605E-05, 2.15067749E-08, -5.61190330E-12, 9.38570955E+02, 1.94430146E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.41774118E+00, -6.51464240E-03, 1.16404549E-05, -6.22015925E-09, 1.11629411E-12, -1.59860691E+03, -4.97802157E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -1.710 eV.
-            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.37462 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 58,
@@ -1709,19 +1817,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-3.22318867E+00, 4.08379516E-02, -5.08218184E-05, 3.33893656E-08, -8.81880680E-12, -2.40066395E+03, 1.16307500E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.13347841E+01, -8.90691781E-03, 1.58626750E-05, -8.43510814E-09, 1.50807029E-12, -5.92362341E+03, -6.11697683E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-3.29284469E+00, 4.11937086E-02, -5.15835514E-05, 3.40998908E-08, -9.06184155E-12, -3.65740073E+03, 1.18547984E+01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.13263822E+01, -8.91069834E-03, 1.58678507E-05, -8.43620864E-09, 1.50803593E-12, -7.18817548E+03, -6.12163072E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.756 eV.
-            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.75753 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 59,
@@ -1739,20 +1851,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[7.90575940E-01, 1.65852324E-02, 6.48184437E-06, -1.79298156E-08, 7.87674440E-12, -1.51012090E+04, 2.42587438E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.37729719E+01, -1.46798316E-02, 2.60099894E-05, -1.37425622E-08, 2.44401396E-12, -1.89207219E+04, -6.57899167E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[1.59000606E+00, 1.78172883E-02, 3.84461963E-06, -1.55316709E-08, 7.07718259E-12, -1.72448113E+04, -6.30090926E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.47652982E+01, -1.46392730E-02, 2.59317801E-05, -1.36951049E-08, 2.43472507E-12, -2.10848597E+04, -7.53511965E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.879 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.87925 eV, gamma_C(X) = 0.000.
-            The two lowest frequencies, 16.6 and 84.5 cm-1, where replaced by the 2D gas model.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 60,
@@ -1899,20 +2014,25 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[1.17889171E+00, 1.61639690E-02, -2.31637957E-05, 1.78894661E-08, -5.51067178E-12, 1.10206116E+04, 1.94585596E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[6.54320202E+00, -3.51550718E-03, 6.26384435E-06, -3.32803966E-09, 5.94359917E-13, 9.77019618E+03, -2.63488571E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.67282798E+00, 7.81050430E-03, -1.11862672E-05, 9.64283037E-09, -3.27813124E-12, 8.80606364E+03, -5.60409936E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[5.65046160E+00, -3.01958448E-03, 5.33302954E-06, -2.79582707E-09, 4.93684600E-13, 8.09234335E+03, -2.03991581E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.010 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.00995 eV, gamma_C(X) = 0.000.
-            The two lowest frequencies, 51.9 and 72.8 cm-1, where replaced by the 2D gas model.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 12.0 and 30.6 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 65,
@@ -1927,19 +2047,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.45901289E-02, 2.36120976E-02, -3.37215849E-05, 2.50959079E-08, -7.46308917E-12, 3.55589882E+03, -1.50225522E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[7.52979178E+00, -3.89004433E-03, 6.99537195E-06, -3.76746392E-09, 6.80266036E-13, 1.81662108E+03, -3.86174029E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-3.76074924E-01, 2.52548025E-02, -3.65608748E-05, 2.73866123E-08, -8.17152249E-12, 2.03076566E+03, -2.80105391E-01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.51407373E+00, -3.93687622E-03, 7.08273405E-06, -3.81636885E-09, 6.89379965E-13, 2.17151581E+02, -3.92276789E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.650 eV.
-            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 2.37733 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.667.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 66,
@@ -1954,19 +2078,25 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[8.05598404E-01, 2.12578896E-02, -2.26826133E-05, 1.31095137E-08, -3.07357265E-12, 4.10897731E+01, -1.71828775E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.39843610E+00, -6.24337353E-03, 1.11012002E-05, -5.89092739E-09, 1.05148038E-12, -2.13728786E+03, -4.51639342E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-4.33821215E-01, 2.23782702E-02, -2.46998276E-05, 1.47834904E-08, -3.60226779E-12, -1.60709203E+03, 6.60375600E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[8.40693529E+00, -6.26454213E-03, 1.11460900E-05, -5.92003245E-09, 1.05739325E-12, -3.83113308E+03, -3.80099139E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.220 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52691 eV, gamma_C(X) = 0.250.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+
+            The two lowest frequencies, 44.0 and 82.7 cm-1, where replaced by the 2D gas model.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 67,
@@ -1982,19 +2112,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-1.13239946E+00, 2.98484244E-02, -3.78145776E-05, 2.53616976E-08, -6.86307261E-12, -3.16836112E+03, 3.30113143E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.37828967E+00, -6.30048833E-03, 1.12203407E-05, -5.96428012E-09, 1.06621044E-12, -5.70392882E+03, -4.92130115E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[-1.29329688E+00, 3.06530377E-02, -3.93973345E-05, 2.67574908E-08, -7.32304148E-12, 2.03523775E+05, 3.57211420E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[9.37462647E+00, -6.30779854E-03, 1.12344508E-05, -5.97205424E-09, 1.06763118E-12, 2.00963260E+05, -4.96621658E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.490 eV.
-            Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.71054 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.333.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 68,
@@ -2010,19 +2144,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[4.11835944E-01, 2.41104719E-02, -2.20379983E-05, 1.06103035E-08, -1.92226443E-12, -7.35704782E+03, -2.41270253E-01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.11491706E+01, -8.75052593E-03, 1.54802187E-05, -8.15334058E-09, 1.44682582E-12, -1.01528629E+04, -5.48979853E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+            NASAPolynomial(coeffs=[2.64823301E-02, 2.56227289E-02, -2.46356626E-05, 1.27207362E-08, -2.58174385E-12, -9.35325460E+03, 4.62779954E-02], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.11285534E+01, -8.81606608E-03, 1.56016687E-05, -8.22097698E-09, 1.45936200E-12, -1.22211648E+04, -5.63536884E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
         ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -2.670 eV.
-            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.70666 eV, gamma_C(X) = 0.500.""",
+    longDesc = u"""Calculated by Kirk Badger at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Kirk Badger from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2.
+""",
     metal = "Pt",
     facet = "111",
 )
+
 
 entry(
     index = 69,
