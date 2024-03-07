@@ -1820,36 +1820,38 @@ entry(
     facet="111",
 )
 
-#This is actually bidentate, so this input is not correct (should be the same as index 51).
-#entry(
-#    index = 62,
-#    label = "HC-CH2_ads",
-#    molecule =
-#"""
-#1 X  u0  p0 c0 {2,S}
-#2 C  u0  p0 c0 {1,S} {3,D} {4,S}
-#3 C  u0  p0 c0 {2,D} {5,S} {6,S}
-#4 H  u0  p0 c0 {2,S}
-#5 H  u0  p0 c0 {3,S}
-#6 H  u0  p0 c0 {3,S}
-#""",
-#    thermo = NASA(
-#        polynomials = [
-#            NASAPolynomial(coeffs=[
-#             -3.761998800E+00,   4.463873830E-02,  -5.865136870E-05,   4.048714140E-08,
-#             -1.120403080E-11,  -2.545452840E+03,   1.391918370E+01], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-#            NASAPolynomial(coeffs=[
-#             1.147737520E+01,  -8.889811580E-03,   1.588277200E-05,  -8.483602150E-09,
-#             1.521747930E-12,  -6.167735370E+03,  -6.194706680E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
-#        ],
-#        Tmin = (298.0, 'K'),
-#        Tmax = (2000.0, 'K'),
-#    ),
-#    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb).
-#            Based on DFT calculations by Jelena Jelic at KIT.
-#            DFT binding energy: -2.790 eV.
-#            Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -1.09643 eV, gamma_C(X) = 0.250.""",
-#)
+entry(
+    index = 62,
+    label = "HC-CH2_ads",
+    molecule =
+"""
+1 X  u0  p0 c0 {2,S}
+2 C  u0  p0 c0 {1,S} {3,D} {4,S}
+3 C  u0  p0 c0 {2,D} {5,S} {6,S}
+4 H  u0  p0 c0 {2,S}
+5 H  u0  p0 c0 {3,S}
+6 H  u0  p0 c0 {3,S}
+""",
+    thermo=NASA(
+        polynomials=[
+            NASAPolynomial(coeffs=[-3.08859296E-01, 2.83916975E-02, -3.01517554E-05, 1.77197656E-08, -4.27593030E-12,
+                                   2.57912056E+03, 1.02855689E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[1.13486298E+01, -8.90556058E-03, 1.58461696E-05, -8.41756550E-09, 1.50324475E-12,
+                                   -3.83883430E+02, -5.79325796E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
+        ],
+        Tmin=(298.0, 'K'),
+        Tmax=(2000.0, 'K'),
+    ),
+    longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py).
+                Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
+                using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+                following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+                kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+                fmax=2.5e-2. DFT binding energy: -2.860 eV.
+    """,
+    metal="Pt",
+    facet="111",
+)
 
 entry(
     index = 63,
