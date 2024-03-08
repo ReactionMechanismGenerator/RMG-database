@@ -55,19 +55,6 @@ entry(
 )
 
 entry(
-    index = 3,
-    label = "H-H",
-    group =
-"""
-multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 H  u0 p0 c0 {3,S}
-3 *3 H  u0 p0 c0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
     index = 4,
     label = "O-R",
     group =
@@ -588,7 +575,6 @@ entry(
 tree(
 """
 L1: Donating
-    L2: H-H
     L2: O-R
         L3: O-H
             L4: H2O
