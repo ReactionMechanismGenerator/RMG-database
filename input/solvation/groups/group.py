@@ -31252,6 +31252,474 @@ u"""
 """,
 )
 
+entry(
+	index = 1159,
+	label = "Li",
+	group =
+"""
+1 * Li u0 p0 c0
+""",
+	solute = SoluteData(
+	S=1.679590681940116,
+	B=1.9412741559624818,
+	E=0.9981037858921663,
+	L=7.772927085067973,
+	A=1.0502805148986403),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]O', '[Li]OCC', '[Li]N', '[Li]NCC', '[Li]N(C)C', 'CCN(C)[Li]', '[LiH]', '[Li]OO',
+'[Li]OCCCCC=O', '[Li]OCCCC=O', '[Li]OC(=O)OCCO', '[Li]C', '[Li]Cl', '[Li]OC1CCCO1', '[Li]OC1CCCCO1',
+'[Li]OC1CCO1', '[Li]OCCC=O', '[Li]OC1CO1', '[Li]OCC=O', '[Li]OC(=O)OC', '[Li]N=C', '[Li]OC=C', '[Li]S',
+'[Li]OC=O', '[Li]OC1OCCO1', '[Li]OCO', '[Li]OS(=O)(=C)C', '[Li]OC', '[Li]NC', '[Li]CC', '[Li]OCF', '[Li]F',
+'[Li]OCCl']
+""",
+)
+
+entry(
+	index = 1160,
+	label = "Li-S",
+	group =
+"""
+1 * Li u0 p0 c0 {2,S}
+2   S  u0 p2 {1,S}
+""",
+	solute = SoluteData(
+	S=3.7440093310741154,
+	B=2.1727750471130496,
+	E=2.478723346050125,
+	L=13.153240900638012,
+	A=0.6768056827937391),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]S']
+""",
+)
+
+entry(
+	index = 1161,
+	label = "Li-O",
+	group =
+"""
+1 * Li u0 p0 c0 {2,S}
+2   O  u0 p2 {1,S}
+""",
+	solute = SoluteData(
+	S=1.379376377096772,
+	B=1.8896258497237213,
+	E=0.6416288960583721,
+	L=6.549821321693341,
+	A=1.0722694710521268),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]O', '[Li]OCC', '[Li]OO', '[Li]OCCCCC=O', '[Li]OCCCC=O', '[Li]OC(=O)OCCO',
+'[Li]OC1CCCO1', '[Li]OC1CCCCO1', '[Li]OC1CCO1', '[Li]OCCC=O', '[Li]OC1CO1', '[Li]OCC=O', '[Li]OC(=O)OC',
+'[Li]OC=C', '[Li]OC=O', '[Li]OC1OCCO1', '[Li]OCO', '[Li]OS(=O)(=C)C', '[Li]OC', '[Li]OCF', '[Li]OCCl']
+""",
+)
+
+entry(
+	index = 1162,
+	label = "Li-OC",
+	group =
+"""
+1   O  u0 p2 c0 {2,S} {3,S}
+2 * Li u0 p0 c0 {1,S}
+3   C  u0 p0 c0 {1,S}
+""",
+	solute = SoluteData(
+	S=1.4520957858992123,
+	B=1.80509599961885,
+	E=0.588474489473133,
+	L=6.451593647322665,
+	A=0.9789994551251399),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]OCC', '[Li]OCCCCC=O', '[Li]OCCCC=O', '[Li]OC(=O)OCCO', '[Li]OC1CCCO1',
+'[Li]OC1CCCCO1', '[Li]OC1CCO1', '[Li]OCCC=O', '[Li]OC1CO1', '[Li]OCC=O', '[Li]OC(=O)OC', '[Li]OC=C',
+'[Li]OC=O', '[Li]OC1OCCO1', '[Li]OCO', '[Li]OC', '[Li]OCF', '[Li]OCCl']
+""",
+)
+
+entry(
+	index = 1163,
+	label = "Li-OCH2C",
+	group =
+"""
+1   C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   O  u0 p2 c0 {1,S} {6,S}
+3   C  u0 p0 c0 {1,S}
+4   H  u0 p0 c0 {1,S}
+5   H  u0 p0 c0 {1,S}
+6 * Li u0 p0 c0 {2,S}
+""",
+	solute = SoluteData(
+	S=1.157535542407929,
+	B=2.410966683719559,
+	E=0.10295667320580519,
+	L=5.9414723708188095,
+	A=0.9186342857115715),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]OCC', '[Li]OCCCCC=O', '[Li]OCCCC=O', '[Li]OCCC=O', '[Li]OCC=O']
+""",
+)
+
+entry(
+	index = 1164,
+	label = "Li-OCH2O",
+	group =
+"""
+1   C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2   O  u0 p2 c0 {1,S} {6,S}
+3   O  u0 p2 c0 {1,S}
+4   H  u0 p0 c0 {1,S}
+5   H  u0 p0 c0 {1,S}
+6 * Li u0 p0 c0 {2,S}
+""",
+	solute = SoluteData(
+	S=0.7843722149580006,
+	B=2.210065751094626,
+	E=-0.16820751601437797,
+	L=6.408437891707274,
+	A=1.0922946311982453),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]OCO']
+""",
+)
+
+entry(
+	index = 1165,
+	label = "Li-OCOdO",
+	group =
+"""
+1   C  u0 p0 c0 {2,S} {3,S} {4,D}
+2   O  u0 p2 c0 {1,S} {5,S}
+3   O  u0 p2 c0 {1,S}
+4   O  u0 p2 c0 {1,D}
+5 * Li u0 p0 c0 {2,S}
+""",
+	solute = SoluteData(
+	S=1.9582972732689496,
+	B=1.4999092090309292,
+	E=0.9516109885718775,
+	L=7.328569032693727,
+	A=0.5133372046232801),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]OC(=O)OCCO', '[Li]OC(=O)OC']
+""",
+)
+
+entry(
+	index = 1166,
+	label = "Li-OCring",
+	group =
+"""
+1   O  u0 p2 c0 {2,S} {3,S}
+2 * Li u0 p0 c0 {1,S}
+3   C  u0 p0 c0 r1 {1,S}
+""",
+	solute = SoluteData(
+	S=0.808971608697569,
+	B=1.5326830859348612,
+	E=-0.03720914724281377,
+	L=4.925583098289425,
+	A=1.5141384131105242),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]OC1CCCO1', '[Li]OC1CCCCO1', '[Li]OC1CCO1', '[Li]OC1CO1', '[Li]OC1OCCO1']
+""",
+)
+
+entry(
+	index = 1167,
+	label = "Li-N",
+	group =
+"""
+1 * Li u0 p0 c0 {2,S}
+2   N  u0 p1 c0 {1,S}
+""",
+	solute = SoluteData(
+	S=1.6220787463353357,
+	B=1.6892083290218312,
+	E=1.975413695997725,
+	L=8.845292631161495,
+	A=1.0770781622454282),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]N', '[Li]NCC', '[Li]N(C)C', 'CCN(C)[Li]', '[Li]N=C', '[Li]NC']
+""",
+)
+
+entry(
+	index = 1168,
+	label = "Li-NHC",
+	group =
+"""
+1   N  u0 p1 c0 {2,S} {3,S} {4,S}
+2 * Li u0 p0 c0 {1,S}
+3   C  u0 p0 c0 {1,S}
+4   H  u0 p0 c0 {1,S}
+""",
+	solute = SoluteData(
+	S=1.547474837367056,
+	B=2.0591824581296176,
+	E=0.5869981675383105,
+	L=8.79689937083829,
+	A=0.8526549911062606),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]NCC', '[Li]NC']
+""",
+)
+
+entry(
+	index = 1169,
+	label = "Li-NCC",
+	group =
+"""
+1   N  u0 p1 c0 {2,S} {3,S} {4,S}
+2 * Li u0 p0 c0 {1,S}
+3   C  u0 p0 c0 {1,S}
+4   C  u0 p0 c0 {1,S}
+""",
+	solute = SoluteData(
+	S=2.1688679689647654,
+	B=0.15113989769852093,
+	E=4.217359774531738,
+	L=7.8401796315459285,
+	A=1.2329914547019059),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]N(C)C', 'CCN(C)[Li]']
+""",
+)
+
+entry(
+	index = 1170,
+	label = "Li-C",
+	group =
+"""
+1 * Li u0 p0 c0 {2,S}
+2   C  u0 p0 c0 {1,S}
+""",
+	solute = SoluteData(
+	S=2.9805039809073506,
+	B=1.1842633474785202,
+	E=1.844234837768536,
+	L=9.360349256347435,
+	A=0.5971256988931359),
+	dataCount = DataCountGAV(
+		S = 24,
+		B = 24,
+		E = 24,
+		L = 24,
+		A = 24,
+	),
+	shortDesc = u"""COSMO fit""",
+	longDesc =
+u"""
+Fit to solute library data
+Geometries from LithiumPrimaryThermo library (wb97x-d3/def2-tzvp)
+used COSMO TZPD-Fine with energy files
+fit to dGsolv298 for library solvents:
+["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+ "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+"2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+"propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+"methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+Solutes used: ['[Li]C', '[Li]CC']
+""",
+)
+
 tree(
 """
 L1: R
@@ -32410,5 +32878,17 @@ L1: R
 				L5: P5d-S2dO2sO2sS
 					L6: P5d-S2dO2sO2sS2s
 				L5: P5d-S2dO2sO2sO2s
+	L2: Li
+	    L3: Li-S
+	    L3: Li-O
+	        L4: Li-OC
+	            L5: Li-OCH2C
+	            L5: Li-OCH2O
+	            L5: Li-OCOdO
+	            L5: Li-OCring
+	    L3: Li-N
+	        L4: Li-NHC
+	        L4: Li-NCC
+	    L3: Li-C
 """
 )

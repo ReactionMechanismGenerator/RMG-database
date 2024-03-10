@@ -33,20 +33,20 @@ entry(
 
 #CFG: O2 is a special case: we need to treat it separately
 # reverse of R10
-# entry(
-#     index = 2,
-#     label = "O2 + Pt + Pt <=> OX + OX",
-#     kinetics = SurfaceArrhenius(
-#         A=(1.89E21, 'cm^5/(mol^2*s)'),
-#         n = -0.5,
-#         Ea=(0.0, 'J/mol'),
-#         Tmin = (200, 'K'),
-#         Tmax = (3000, 'K'),
-#     ),
-#     shortDesc = u"""Default""",
-#     longDesc = u"""R2""",
-# 	metal = "Pt",
-# )
+entry(
+    index = 2,
+    label = "O2 + Pt + Pt <=> OX + OX",
+    kinetics = SurfaceArrhenius(
+        A=(1.89E21, 'cm^5/(mol^2*s)'),
+        n = -0.5,
+        Ea=(0.0, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Default""",
+    longDesc = u"""R2""",
+	metal = "Pt",
+)
 
 # reverse of R34
 # entry(
@@ -163,22 +163,22 @@ entry(
 # )
 
 #endothermic - reverse of R2
-entry(
-   index = 10,
-   label = "OX + OX <=> Pt + Pt + O2",
-   kinetics = SurfaceArrhenius(
-       A=(3.7E17, 'm^2/(mol*s)'),
-       n = 0,
-       Ea=(278700.0, 'J/mol'),
-       Tmin = (200, 'K'),
-       Tmax = (3000, 'K'),
-       coverage_dependence = {'OX': {'a': 0.0, 'm': 0.0, 'E': (-188280, 'J/mol')}},
-   ),
-   shortDesc = u"""Default""",
-   longDesc = u"""R10. Ea raised from 235.5 to 278.7 kJ/mol to match
-   endothermicity of reaction.""",
-   metal = "Pt",
-)
+# entry(
+#    index = 10,
+#    label = "OX + OX <=> Pt + Pt + O2",
+#    kinetics = SurfaceArrhenius(
+#        A=(3.7E17, 'm^2/(mol*s)'),
+#        n = 0,
+#        Ea=(278700.0, 'J/mol'),
+#        Tmin = (200, 'K'),
+#        Tmax = (3000, 'K'),
+#        coverage_dependence = {'OX': {'a': 0.0, 'm': 0.0, 'E': (-188280, 'J/mol')}},
+#    ),
+#    shortDesc = u"""Default""",
+#    longDesc = u"""R10. Ea raised from 235.5 to 278.7 kJ/mol to match
+#    endothermicity of reaction.""",
+#    metal = "Pt",
+# )
 
 #endothermic - reverse of R6
 #entry(

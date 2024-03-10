@@ -12525,3 +12525,46 @@ Original entry: 2-Vinylphenyl <=> W8
 """,
 )
 
+entry(
+    index = 851,
+    label = "C3H4LiO3 <=> C3H4LiO3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.99833e+12,'s^-1'), n=0.39066, Ea=(59.4863,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.140536907525525,B=1.0466026029403899,E=-0.4141994326786929,L=4.770587031445122,A=0.9093778018261982,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]O[C]1OCCO1 <=> [Li]OC[=O]OC[CH2]
+TS method summary for TS1 in [Li]O[C]1OCCO1 <=> [Li]OC(=O)C[CH2]:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 1
+
+Optimized TS geometry:
+Li      2.66599400   -1.25279300   -0.21024000
+O       1.87162600    0.40165300    0.02198600
+C       0.66099800    0.17325400    0.00564100
+O       0.17336600   -1.03959300   -0.15189100
+C      -1.50340400   -0.88699900   -0.11131600
+C      -1.62120800    0.59452300    0.08946800
+O      -0.23758600    1.13890400    0.14639900
+H      -1.77653100   -1.52152900    0.72327600
+H      -1.79803100   -1.27921400   -1.07730400
+H      -2.10607800    1.11033700   -0.73832600
+H      -2.08512500    0.87165400    1.03518700
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1477.9928602794778 J/mol
+""",
+)
+

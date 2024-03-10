@@ -24,13 +24,13 @@ This does not forbid ozone, [O-][O+]=O
 
 entry(
     label = "Od_rad",
-    group = 
+    group =
 """
 1 O u1 {2,D}
 2 R ux {1,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -38,14 +38,14 @@ u"""
 
 entry(
     label = "N_birad_triplet_2singleBonds",
-    group = 
+    group =
 """
 1 N u2 p0 {2,S} {3,S}
 2 R ux {1,S}
 3 R ux {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -58,7 +58,7 @@ entry(
 1 C u4 p0
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -94,14 +94,14 @@ u"""
 
 entry(
     label = "O3",
-    group = 
+    group =
 """
 1 O u[0,1] {2,S}
 2 O u0     {1,S} {3,S}
 3 O u[0,1] {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -109,7 +109,7 @@ u"""
 
 entry(
     label = "O4..",
-    group = 
+    group =
 """
 1 O u1 {2,S}
 2 O u0 {1,S} {3,S}
@@ -117,7 +117,7 @@ entry(
 4 O u1 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -125,7 +125,7 @@ u"""
 
 entry(
     label = "cyclic-C3O",
-    group = 
+    group =
 """
 1 C u0 {2,D} {3,S} {4,S}
 2 O u0 {1,D}
@@ -133,7 +133,7 @@ entry(
 4 C u0 {1,S} {3,T}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -151,6 +151,23 @@ entry(
     shortDesc = u"""""",
     longDesc =
 u"""
+""",
+)
+
+
+entry(
+    label = "LiCONSFCl",
+    group =
+"""
+1 Li u0 p0 c0 {2,S}
+2 C ux px c0 {3,[S,D,T]} {1,S}
+3 [O,N,S,F,Cl] ux px c0 {2,[S,D,T]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+In these species the other atom tends to take most of the charge from the Li
+so it isn't really bonded to C
 """,
 )
 
@@ -454,6 +471,20 @@ u"""
 https://pubs.acs.org/doi/pdf/10.1021/ct400867h discusses complex wavefunction for C2
 and that it cannot be assigned definitive bond order. We are forbidding the C2 triple bond
 becuase we do not have good thermo for `Ctc` (C u0 p0 c+1 {1,T}) atomtype
+""",
+)
+
+entry(
+    label = "LiX",
+    species =
+"""
+1 Li u0 p0 c0 {2,S}
+2 X  u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Don't allow Li to plate
 """,
 )
 
