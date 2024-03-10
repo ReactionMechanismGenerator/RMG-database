@@ -73,7 +73,7 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.07,1.05,1.77,2.43,2.8,3.08,3.39],'cal/(mol*K)'),
-        H298 = (-2,'eV/molecule'),
+        H298 = (-90,'kcal/mol'),
         S298 = (-38.17,'cal/(mol*K)'),
     ),
     shortDesc = """""",
@@ -96,10 +96,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([-0.45,0.61,1.42,2.02,2.81,3.26,3.73],'cal/(mol*K)'),
-        H298 = (-0.5,'eV/molecule'),
-        S298 = (-32.73,'cal/(mol*K)'),
+        H298 = (-113.34,'kcal/mol'),
+        S298 = (-275.19,'J/(mol*K)'),
     ),
-    shortDesc = """""",
+    shortDesc = """based on CC#X""",
     longDesc =
 """
    CR3
@@ -121,10 +121,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
-        H298 = (-1.88,'eV/molecule'),
-        S298 = (-33.89,'cal/(mol*K)'),
+        H298 = (-74.905,'kcal/mol'),
+        S298 = (-161.323,'J/(mol*K)'),
     ),
-    shortDesc = """Came from OH single-bonded on Pt(111)""",
+    shortDesc = """based on """,
     longDesc =
 """
    R
@@ -148,8 +148,8 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
-        H298 = (-4.33,'eV/molecule'),
-        S298 = (-26,'cal/(mol*K)'),
+        H298 = (-183.06,'kcal/mol'),
+        S298 = (11.86,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc =
@@ -174,8 +174,8 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
-        H298 = (-0.9,'eV/molecule'),
-        S298 = (-26,'cal/(mol*K)'),
+        H298 = (-63.07,'kcal/mol'),
+        S298 = (-7.91,'J/(mol*K)'),
     ),
     shortDesc = """""",
     longDesc =
@@ -200,8 +200,8 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
-        H298 = (-2.77,'eV/molecule'),
-        S298 = (-34,'cal/(mol*K)'),
+        H298 = (-74.905,'kcal/mol'),
+        S298 = (-161.323,'J/(mol*K)'),
     ),
     shortDesc = """Came from OH single-bonded on Pt(111)""",
     longDesc =
@@ -261,6 +261,31 @@ metal = "Li",
 facet = "110",
 )
 
+entry(
+    index = 9,
+    label = "N*",
+    group =
+"""
+1 * X u0 {2,S}
+2   N ux {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([1.09,1.82,2.2,2.42,2.65,2.75,2.86],'cal/(mol*K)'),
+        H298 = (-140.84,'kcal/mol'),
+        S298 = (167.97,'J/(mol*K)'),
+    ),
+    shortDesc = """based on N#X""",
+    longDesc =
+"""
+   H
+   |
+***********
+""",
+metal = "Li",
+facet = "110",
+)
+
 tree(
 """
 L1: R*
@@ -270,6 +295,7 @@ L1: R*
             L4: OH*
         L3: F*
         L3: H*
+        L3: N*
     L2: R*vdW
         L3: O*vdW
 """
