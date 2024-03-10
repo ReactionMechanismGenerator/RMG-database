@@ -126,10 +126,10 @@ surface = {
     'Surface_Adsorption_Dissociative_Double',
     'Surface_Abstraction_Beta',
     'Surface_Abstraction_Beta_double_vdW',
-    'Surface_Carbonate_Deposition',
-    'Surface_Carbonate_F_CO_Decomposition',
-    'Surface_Carbonate_2F_Decomposition',
-    'Surface_Carbonate_CO_Decomposition'
+    #'Surface_Carbonate_Deposition',
+    #'Surface_Carbonate_F_CO_Decomposition',
+    #'Surface_Carbonate_2F_Decomposition',
+    #'Surface_Carbonate_CO_Decomposition'
 }
 
 # reaction families for halogen chemistry only
