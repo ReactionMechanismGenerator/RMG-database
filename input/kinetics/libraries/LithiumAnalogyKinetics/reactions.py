@@ -28,3 +28,17 @@ entry(
 analogy to  [Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC
 """,
 )
+
+entry(
+    index = 2,
+    label = "O1CCO[C]1OC2(O[Li])OCCO2 <=> O=C1OCCO1 + [Li]O[C]1OCCO1",
+    degeneracy = 1.0,
+    kinetics = ArrheniusBM(A=(1.64384e+31,'s^-1'), n=-4.72524, w0=(741100,'J/mol'), E0=(9911.42,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.2101947124094859, var=22.757813031131217, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_Ext-3R-R_5R!H->C',), comment="""BM rule fitted to 3 training reactions at node Root_Ext-3R-R_5R!H->C
+        Total Standard Deviation in ln(k): 10.091746105650293"""),
+    longDesc =
+"""
+Higher up rule Root_Ext-3R-R_5R!H->C in 1,2_Elimination_LiR
+""",
+)
+
+   
