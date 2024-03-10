@@ -275,3 +275,34 @@ L1: Root
 """
 )
 
+forbidden(
+    label = "carbontoss1",
+    group =
+"""
+1 *1 C u[0,1] {2,[S,D,B]} {4,S}
+2 *2 R!H u[0,1] {1,[S,D,B]} {3,S}
+3 *3 R!H u[0,1] {2,S}
+4 *4 Li  u0     {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "carbontoss2",
+    group =
+"""
+1 *1 R!H u[0,1] {2,[S,D,B]} {4,S}
+2 *2 R!H u[0,1] {1,[S,D,B]} {3,S}
+3 *3 C   u[0,1] {2,S}
+4 *4 Li  u0     {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
