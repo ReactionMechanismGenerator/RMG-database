@@ -18859,13 +18859,31 @@ u"""
 )
 
 forbidden(
-    label = "carbonate",
+    label = "carbonaterad",
     group =
 """
 1 *3 C u1 {2,S} {3,S} {4,S}
 2 O u0 {1,S}
 3 O u0 {1,S}
 4 O u0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "carbonatebreak",
+    group =
+"""
+1 *3 C u0 {2,S} {3,S} {4,S} {5,S}
+2 O u0 {1,S}
+3 O u0 {1,S}
+4 O u0 {1,S}
+5 *1 R!H u0 {1,S} {6,[S,D]}
+6 *2 R!H u1 {5,[S,D]}
 """,
     shortDesc = u"""""",
     longDesc =
