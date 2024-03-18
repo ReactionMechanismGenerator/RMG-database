@@ -4,8 +4,9 @@
 name = "group"
 shortDesc = u""
 longDesc = u""" 
-All groups are fitted by Yunsie Chung and Pierre Walker using experimental solute parameter data (manuscript in preparation)
-unless written otherwise.
+All groups are fitted using experimental solute parameter data unless written otherwise.
+See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+& Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """
 
 entry(
