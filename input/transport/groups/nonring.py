@@ -51,7 +51,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0141,
-        Pc = -0.0012,
+        Pc = 0.0012,
         Vc = 65,
         Tb = 23.58,
         structureIndex = 1,
