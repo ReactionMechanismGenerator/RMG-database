@@ -7055,34 +7055,6 @@ FH
 1 *3 F u0 p3 c0 {2,S}
 2 *2 H u0 p0 c0 {1,S}
 
-CH3F
-1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    F u0 p3 c0 {1,S}
-3 *2 H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-
-CH2F
-multiplicity 2
-1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2    F u0 p3 c0 {1,S}
-3    H u0 p0 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-
-CH2F2
-1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2    F u0 p3 c0 {1,S}
-3    F u0 p3 c0 {1,S}
-4 *2 H u0 p0 c0 {1,S}
-5    H u0 p0 c0 {1,S}
-
-CHF2
-multiplicity 2
-1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
-2    F u0 p3 c0 {1,S}
-3    F u0 p3 c0 {1,S}
-4    H u0 p0 c0 {1,S}
-
 CHF2-2
 multiplicity 2
 1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -8163,16 +8135,6 @@ multiplicity 2
 4    H u0 p0 c0 {3,S}
 5    H u0 p0 c0 {3,S}
 
-CHF
-1 *1 C u0 p1 c0 {2,S} {3,S}
-2    F u0 p3 c0 {1,S}
-3 *2 H u0 p0 c0 {1,S}
-
-CF
-multiplicity 2
-1    F u0 p3 c0 {2,S}
-2 *1 C u1 p1 c0 {1,S}
-
 CF-2
 multiplicity 2
 1    F u0 p3 c0 {2,S}
@@ -8246,6 +8208,34 @@ CH3Br-2
 3    H  u0 p0 c0 {1,S}
 4    H  u0 p0 c0 {1,S}
 5 *2 H  u0 p0 c0 {1,S}
+
+CH2F2
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    F u0 p3 c0 {1,S}
+3    F u0 p3 c0 {1,S}
+4 *2 H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+
+CHF2
+multiplicity 2
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    F u0 p3 c0 {1,S}
+3    F u0 p3 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+
+CH3F
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    F u0 p3 c0 {1,S}
+3 *2 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5    H u0 p0 c0 {1,S}
+
+CH2F
+multiplicity 2
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    F u0 p3 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
 
 C3H2BrF3
 1    C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -9241,18 +9231,6 @@ C2H2F2-3
 5 *2 H u0 p0 c0 {3,S}
 6    H u0 p0 c0 {3,S}
 
-CHFO
-1    F u0 p3 c0 {3,S}
-2    O u0 p2 c0 {3,D}
-3 *1 C u0 p0 c0 {1,S} {2,D} {4,S}
-4 *2 H u0 p0 c0 {3,S}
-
-CFO
-multiplicity 2
-1    F u0 p3 c0 {3,S}
-2    O u0 p2 c0 {3,D}
-3 *1 C u1 p0 c0 {1,S} {2,D}
-
 C2HF4-3
 multiplicity 2
 1    F u0 p3 c0 {5,S}
@@ -9370,18 +9348,6 @@ C2HCl3
 4 *3 C  u0 p0 c0 {1,S} {5,D} {6,S}
 5    C  u0 p0 c0 {2,S} {3,S} {4,D}
 6 *2 H  u0 p0 c0 {4,S}
-
-CFO-2
-multiplicity 2
-1    F u0 p3 c0 {3,S}
-2    O u0 p2 c0 {3,D}
-3 *3 C u1 p0 c0 {1,S} {2,D}
-
-CHFO-2
-1    F u0 p3 c0 {3,S}
-2    O u0 p2 c0 {3,D}
-3 *3 C u0 p0 c0 {1,S} {2,D} {4,S}
-4 *2 H u0 p0 c0 {3,S}
 
 C2H2F-2
 multiplicity 2
@@ -9557,6 +9523,30 @@ CHClO-2
 3 *3 C  u0 p0 c0 {1,S} {2,D} {4,S}
 4 *2 H  u0 p0 c0 {3,S}
 
+CHFO
+1    F u0 p3 c0 {3,S}
+2    O u0 p2 c0 {3,D}
+3 *1 C u0 p0 c0 {1,S} {2,D} {4,S}
+4 *2 H u0 p0 c0 {3,S}
+
+CFO
+multiplicity 2
+1    F u0 p3 c0 {3,S}
+2    O u0 p2 c0 {3,D}
+3 *1 C u1 p0 c0 {1,S} {2,D}
+
+CFO-2
+multiplicity 2
+1    F u0 p3 c0 {3,S}
+2    O u0 p2 c0 {3,D}
+3 *3 C u1 p0 c0 {1,S} {2,D}
+
+CHFO-2
+1    F u0 p3 c0 {3,S}
+2    O u0 p2 c0 {3,D}
+3 *3 C u0 p0 c0 {1,S} {2,D} {4,S}
+4 *2 H u0 p0 c0 {3,S}
+
 C2H3F-4
 1    F u0 p3 c0 {3,S}
 2    C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -9572,4 +9562,13 @@ multiplicity 2
 3 *1 C u1 p0 c0 {1,S} {2,D}
 4    H u0 p0 c0 {2,S}
 5    H u0 p0 c0 {2,S}
+
+HF
+1 *1 F u0 p3 c0 {2,S}
+2 *2 H u0 p0 c0 {1,S}
+
+OF
+multiplicity 2
+1    F u0 p3 c0 {2,S}
+2 *3 O u1 p2 c0 {1,S}
 

@@ -43401,24 +43401,6 @@ entry(
 
 entry(
     index = 3102,
-    label = "CH3F + O <=> CH2F + HO-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3010,'cm^3/(mol*s)'), n=3.13, Ea=(4890,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST CH2F2 model""",
-)
-
-entry(
-    index = 3103,
-    label = "CH2F2 + O <=> CHF2 + HO-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.86e+14,'cm^3/(mol*s)'), n=0, Ea=(13461,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST 2019 CH2F2 model""",
-)
-
-entry(
-    index = 3104,
     label = "CHF2-2 + HO2-4 <=> CH2F2-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.26e+13,'cm^3/(mol*s)'), n=0, Ea=(4990,'cal/mol'), T0=(1,'K')),
@@ -43427,7 +43409,7 @@ entry(
 )
 
 entry(
-    index = 3105,
+    index = 3103,
     label = "C2H3F3 + CH2F-2 <=> C2H2F3 + CH3F-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+11,'cm^3/(mol*s)'), n=0, Ea=(12000,'cal/mol'), T0=(1,'K')),
@@ -43436,7 +43418,7 @@ entry(
 )
 
 entry(
-    index = 3106,
+    index = 3104,
     label = "C2H3F3 + CF3-2 <=> C2H2F3 + CHF3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.45e+12,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
@@ -43445,7 +43427,7 @@ entry(
 )
 
 entry(
-    index = 3107,
+    index = 3105,
     label = "C2H4F-3 + HO2-4 <=> C2H5F-3 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43454,7 +43436,7 @@ entry(
 )
 
 entry(
-    index = 3108,
+    index = 3106,
     label = "C2H3F2-4 + HO2-4 <=> C2H4F2-4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43463,7 +43445,7 @@ entry(
 )
 
 entry(
-    index = 3109,
+    index = 3107,
     label = "C2H4F-4 + HO2-4 <=> C2H5F-4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43472,7 +43454,7 @@ entry(
 )
 
 entry(
-    index = 3110,
+    index = 3108,
     label = "C2H2F3-4 + HO2-4 <=> C2H3F3-4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43481,7 +43463,7 @@ entry(
 )
 
 entry(
-    index = 3111,
+    index = 3109,
     label = "C2H3F2-6 + HO2-4 <=> C2H4F2-6 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43490,7 +43472,7 @@ entry(
 )
 
 entry(
-    index = 3112,
+    index = 3110,
     label = "C2H2F3-5 + HO2-4 <=> C2H3F3-5 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43499,7 +43481,7 @@ entry(
 )
 
 entry(
-    index = 3113,
+    index = 3111,
     label = "C2H2F3-6 + HO2-4 <=> C2H3F3-6 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -43508,34 +43490,7 @@ entry(
 )
 
 entry(
-    index = 3114,
-    label = "CH4 + F <=> CH3 + FH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.9e+12,'cm^3/(mol*s)'), n=0.5, Ea=(450,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST CH2F2 model""",
-)
-
-entry(
-    index = 3115,
-    label = "CH3F + F <=> CH2F + FH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.35e+14,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST CH2F2 model""",
-)
-
-entry(
-    index = 3116,
-    label = "CH2F2 + F <=> CHF2 + FH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.13e+14,'cm^3/(mol*s)'), n=0, Ea=(4647,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST 2019 CH2F2 model""",
-)
-
-entry(
-    index = 3117,
+    index = 3112,
     label = "CH4O-2 + F <=> CH3O-2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.62e+09,'cm^3/(mol*s)'), n=1.44, Ea=(-205,'cal/mol'), T0=(1,'K')),
@@ -43544,7 +43499,7 @@ entry(
 )
 
 entry(
-    index = 3118,
+    index = 3113,
     label = "CH4O + F <=> CH3O + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.62e+07,'cm^3/(mol*s)'), n=1.97, Ea=(-300,'cal/mol'), T0=(1,'K')),
@@ -43553,16 +43508,7 @@ entry(
 )
 
 entry(
-    index = 3119,
-    label = "CH2O + F <=> CHO + FH",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """From NIST CH2F2 model""",
-)
-
-entry(
-    index = 3120,
+    index = 3114,
     label = "C2H6 + F <=> C2H5 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e+12,'cm^3/(mol*s)'), n=0, Ea=(300,'cal/mol'), T0=(1,'K')),
@@ -43571,7 +43517,7 @@ entry(
 )
 
 entry(
-    index = 3121,
+    index = 3115,
     label = "C2H5F + F <=> C2H4F + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
@@ -43580,7 +43526,7 @@ entry(
 )
 
 entry(
-    index = 3122,
+    index = 3116,
     label = "C2H4F2 + F <=> C2H3F2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.59e+15,'cm^3/(mol*s)'), n=0, Ea=(9100,'cal/mol'), T0=(1,'K')),
@@ -43589,7 +43535,7 @@ entry(
 )
 
 entry(
-    index = 3123,
+    index = 3117,
     label = "C2H3F3 + F <=> C2H2F3 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(4000,'cal/mol'), T0=(1,'K')),
@@ -43598,7 +43544,7 @@ entry(
 )
 
 entry(
-    index = 3124,
+    index = 3118,
     label = "C2H5F-2 + F <=> C2H4F-2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(200,'cal/mol'), T0=(1,'K')),
@@ -43607,7 +43553,7 @@ entry(
 )
 
 entry(
-    index = 3125,
+    index = 3119,
     label = "C2H4F2-3 + F <=> C2H3F2-3 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
@@ -43616,7 +43562,7 @@ entry(
 )
 
 entry(
-    index = 3126,
+    index = 3120,
     label = "C2H3F3-2 + F <=> C2H2F3-2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
@@ -43625,7 +43571,7 @@ entry(
 )
 
 entry(
-    index = 3127,
+    index = 3121,
     label = "C2H2F4 + F <=> C2HF4 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13,'cm^3/(mol*s)'), n=0, Ea=(4500,'cal/mol'), T0=(1,'K')),
@@ -43634,7 +43580,7 @@ entry(
 )
 
 entry(
-    index = 3128,
+    index = 3122,
     label = "C2H4F2-2 + F <=> C2H3F2-2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.77e+14,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K')),
@@ -43643,7 +43589,7 @@ entry(
 )
 
 entry(
-    index = 3129,
+    index = 3123,
     label = "C2H3F3-3 + F <=> C2H2F3-3 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
@@ -43652,7 +43598,7 @@ entry(
 )
 
 entry(
-    index = 3130,
+    index = 3124,
     label = "C2H2F4-2 + F <=> C2HF4-2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(125000,'cm^3/(mol*s)'), n=2.49, Ea=(790,'cal/mol'), T0=(1,'K')),
@@ -43661,7 +43607,7 @@ entry(
 )
 
 entry(
-    index = 3131,
+    index = 3125,
     label = "C2HF5 + F <=> C2F5 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7110,'cm^3/(mol*s)'), n=2.72, Ea=(-910,'cal/mol'), T0=(1,'K')),
@@ -43670,7 +43616,7 @@ entry(
 )
 
 entry(
-    index = 3132,
+    index = 3126,
     label = "C2H4-2 + F <=> C2H3-2 + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(2000,'cal/mol'), T0=(1,'K')),
@@ -43679,7 +43625,7 @@ entry(
 )
 
 entry(
-    index = 3133,
+    index = 3127,
     label = "C2HF3O + F <=> C2F3O + FH",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(1000,'cal/mol'), T0=(1,'K')),
@@ -43688,7 +43634,7 @@ entry(
 )
 
 entry(
-    index = 3134,
+    index = 3128,
     label = "C3H3F3 + F <=> FH + C3H2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(5000,'cal/mol'), T0=(1,'K')),
@@ -43697,7 +43643,7 @@ entry(
 )
 
 entry(
-    index = 3135,
+    index = 3129,
     label = "C3H2F4 + O2 <=> C3HF4 + HO2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.02e+12,'cm^3/(mol*s)'), n=0, Ea=(57640,'cal/mol'), T0=(1,'K')),
@@ -43706,7 +43652,7 @@ entry(
 )
 
 entry(
-    index = 3136,
+    index = 3130,
     label = "C3H2F4-2 + O2 <=> C3HF4-2 + HO2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.02e+12,'cm^3/(mol*s)'), n=0, Ea=(57640,'cal/mol'), T0=(1,'K')),
@@ -43715,7 +43661,7 @@ entry(
 )
 
 entry(
-    index = 3137,
+    index = 3131,
     label = "C3H2F4-2 + H <=> C3HF4-2 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(18000,'cal/mol'), T0=(1,'K')),
@@ -43724,7 +43670,7 @@ entry(
 )
 
 entry(
-    index = 3138,
+    index = 3132,
     label = "C3H2F4 + F <=> FH + C3HF4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
@@ -43733,7 +43679,7 @@ entry(
 )
 
 entry(
-    index = 3139,
+    index = 3133,
     label = "C3H2F4-3 + O2 <=> C3HF4-3 + HO2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.02e+12,'cm^3/(mol*s)'), n=0, Ea=(57640,'cal/mol'), T0=(1,'K')),
@@ -43742,7 +43688,7 @@ entry(
 )
 
 entry(
-    index = 3140,
+    index = 3134,
     label = "C3H2F4-3 + H <=> C3HF4-3 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(16000,'cal/mol'), T0=(1,'K')),
@@ -43751,7 +43697,7 @@ entry(
 )
 
 entry(
-    index = 3141,
+    index = 3135,
     label = "F + C2H2O <=> FH + C2HO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(3000,'cal/mol'), T0=(1,'K')),
@@ -43760,7 +43706,7 @@ entry(
 )
 
 entry(
-    index = 3142,
+    index = 3136,
     label = "C2H3 + C3H3F3-2 <=> C2H4 + C3H2F3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00145419,'cm^3/(mol*s)'), n=4.5882, Ea=(7.26766,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.5797, dn = +|- 0.0600713, dEa = +|- 0.326906 kJ/mol"""),
@@ -43769,7 +43715,7 @@ entry(
 )
 
 entry(
-    index = 3143,
+    index = 3137,
     label = "H + C3H3F <=> H2 + C3H2F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.03195e+09,'cm^3/(mol*s)'), n=1.89666, Ea=(127.092,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14416, dn = +|- 0.0176932, dEa = +|- 0.0962856 kJ/mol"""),
@@ -43778,7 +43724,7 @@ entry(
 )
 
 entry(
-    index = 3144,
+    index = 3138,
     label = "CF3-2 + C2H2F4O <=> CHF3-2 + C2HF4O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.221956,'cm^3/(mol*s)'), n=3.83707, Ea=(50.5919,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09963, dn = +|- 0.0124776, dEa = +|- 0.0679024 kJ/mol"""),
@@ -43787,7 +43733,7 @@ entry(
 )
 
 entry(
-    index = 3145,
+    index = 3139,
     label = "CH3-2 + C2H3F3O <=> CH4-2 + C2H2F3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.036242,'cm^3/(mol*s)'), n=4.0444, Ea=(24.2264,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.31744, dn = +|- 0.0362201, dEa = +|- 0.197108 kJ/mol"""),
@@ -43796,7 +43742,7 @@ entry(
 )
 
 entry(
-    index = 3146,
+    index = 3140,
     label = "C2H3 + C3H3F3-3 <=> C2H4 + C3H2F3-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00170263,'cm^3/(mol*s)'), n=4.42384, Ea=(5.45319,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.43559, dn = +|- 0.0475039, dEa = +|- 0.258514 kJ/mol"""),
@@ -43805,7 +43751,7 @@ entry(
 )
 
 entry(
-    index = 3147,
+    index = 3141,
     label = "H + CH3FO2 <=> H2 + CH2FO2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(16.0481,'cm^3/(mol*s)'), n=3.5703, Ea=(6.50348,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.95179, dn = +|- 0.0878602, dEa = +|- 0.478132 kJ/mol"""),
@@ -43814,7 +43760,7 @@ entry(
 )
 
 entry(
-    index = 3148,
+    index = 3142,
     label = "HO + C3H5F3 <=> H2O + C3H4F3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(237.363,'cm^3/(mol*s)'), n=3.1867, Ea=(-2.25444,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05181, dn = +|- 0.0066358, dEa = +|- 0.0361118 kJ/mol"""),
@@ -43823,7 +43769,7 @@ entry(
 )
 
 entry(
-    index = 3149,
+    index = 3143,
     label = "CH2F-2 + CH2F2O <=> CH3F-2 + CHF2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(36.2752,'cm^3/(mol*s)'), n=3.02511, Ea=(57.2852,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.19682, dn = +|- 0.0236048, dEa = +|- 0.128457 kJ/mol"""),
@@ -43832,7 +43778,7 @@ entry(
 )
 
 entry(
-    index = 3150,
+    index = 3144,
     label = "O + C3H3F3-4 <=> HO-2 + C3H2F3-4",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7854.54,'cm^3/(mol*s)'), n=2.91646, Ea=(5.8362,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35468, dn = +|- 0.0398826, dEa = +|- 0.21704 kJ/mol"""),
@@ -43841,7 +43787,7 @@ entry(
 )
 
 entry(
-    index = 3151,
+    index = 3145,
     label = "F + FHO <=> FH + FO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(24.5087,'cm^3/(mol*s)'), n=3.45285, Ea=(-1.77727,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.40988, dn = +|- 0.0451299, dEa = +|- 0.245595 kJ/mol"""),
@@ -43850,7 +43796,7 @@ entry(
 )
 
 entry(
-    index = 3152,
+    index = 3146,
     label = "CF3-2 + C2H4F2O <=> CHF3-2 + C2H3F2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.80818e-06,'cm^3/(mol*s)'), n=5.06357, Ea=(15.3898,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.94418, dn = +|- 0.0873465, dEa = +|- 0.475336 kJ/mol"""),
@@ -43859,7 +43805,7 @@ entry(
 )
 
 entry(
-    index = 3153,
+    index = 3147,
     label = "HO + CH2F2O2 <=> H2O + CHF2O2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(57.0131,'cm^3/(mol*s)'), n=3.29963, Ea=(-2.79105,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07407, dn = +|- 0.0093878, dEa = +|- 0.051088 kJ/mol"""),
@@ -43868,7 +43814,7 @@ entry(
 )
 
 entry(
-    index = 3154,
+    index = 3148,
     label = "F + C3H6F2 <=> FH + C3H5F2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.62837e+08,'cm^3/(mol*s)'), n=1.562, Ea=(5.5896,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00176, dn = +|- 0.000230847, dEa = +|- 0.00125626 kJ/mol"""),
@@ -43877,7 +43823,7 @@ entry(
 )
 
 entry(
-    index = 3155,
+    index = 3149,
     label = "HO2-2 + CH2F2O-2 <=> H2O2-2 + CHF2O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0657248,'cm^3/(mol*s)'), n=3.82471, Ea=(70.223,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06932, dn = +|- 0.008806, dEa = +|- 0.0479219 kJ/mol"""),
@@ -43886,7 +43832,7 @@ entry(
 )
 
 entry(
-    index = 3156,
+    index = 3150,
     label = "O2 + C3H2F6 <=> HO2-3 + C3HF6",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(247.777,'cm^3/(mol*s)'), n=3.51617, Ea=(238.008,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15068, dn = +|- 0.01844, dEa = +|- 0.10035 kJ/mol"""),
@@ -43895,7 +43841,7 @@ entry(
 )
 
 entry(
-    index = 3157,
+    index = 3151,
     label = "C2H3 + C3H5F <=> C2H4 + C3H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00239554,'cm^3/(mol*s)'), n=4.34627, Ea=(7.68914,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.42026, dn = +|- 0.046093, dEa = +|- 0.250836 kJ/mol"""),
@@ -43904,7 +43850,7 @@ entry(
 )
 
 entry(
-    index = 3158,
+    index = 3152,
     label = "C2H3 + C3H5F3 <=> C2H4 + C3H4F3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000464756,'cm^3/(mol*s)'), n=4.56467, Ea=(14.7603,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63614, dn = +|- 0.0646836, dEa = +|- 0.352006 kJ/mol"""),
@@ -43913,7 +43859,7 @@ entry(
 )
 
 entry(
-    index = 3159,
+    index = 3153,
     label = "H + C2H2F2O <=> H2 + C2HF2O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2314.49,'cm^3/(mol*s)'), n=3.12993, Ea=(6.9308,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.64426, dn = +|- 0.0653338, dEa = +|- 0.355544 kJ/mol"""),
@@ -43922,7 +43868,7 @@ entry(
 )
 
 entry(
-    index = 3160,
+    index = 3154,
     label = "C2H3 + C2H4F2O-2 <=> C2H4 + C2H3F2O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000325121,'cm^3/(mol*s)'), n=4.66352, Ea=(22.8022,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.77396, dn = +|- 0.0753087, dEa = +|- 0.409827 kJ/mol"""),
@@ -43931,7 +43877,7 @@ entry(
 )
 
 entry(
-    index = 3161,
+    index = 3155,
     label = "C2H3 + C2H2F2 <=> C2H4 + C2HF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0194305,'cm^3/(mol*s)'), n=4.36635, Ea=(42.2986,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.46978, dn = +|- 0.0505965, dEa = +|- 0.275344 kJ/mol"""),
@@ -43940,7 +43886,7 @@ entry(
 )
 
 entry(
-    index = 3162,
+    index = 3156,
     label = "HO2-2 + C2H2F4O-2 <=> H2O2-2 + C2HF4O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000987207,'cm^3/(mol*s)'), n=4.41779, Ea=(69.72,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.33224, dn = +|- 0.0376882, dEa = +|- 0.205098 kJ/mol"""),
@@ -43949,7 +43895,7 @@ entry(
 )
 
 entry(
-    index = 3163,
+    index = 3157,
     label = "HO + C2H3FO <=> H2O + C2H2FO",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(15.7919,'cm^3/(mol*s)'), n=3.51589, Ea=(-1.45293,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15329, dn = +|- 0.0187377, dEa = +|- 0.10197 kJ/mol"""),
@@ -43958,7 +43904,7 @@ entry(
 )
 
 entry(
-    index = 3164,
+    index = 3158,
     label = "O + C3H5F-2 <=> HO-2 + C3H4F-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(34753.5,'cm^3/(mol*s)'), n=2.90875, Ea=(29.8942,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.29021, dn = +|- 0.0334763, dEa = +|- 0.182177 kJ/mol"""),
@@ -43967,7 +43913,7 @@ entry(
 )
 
 entry(
-    index = 3165,
+    index = 3159,
     label = "CH2F-2 + C2HF3 <=> CH3F-2 + C2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.434877,'cm^3/(mol*s)'), n=3.90066, Ea=(74.9231,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.20255, dn = +|- 0.0242326, dEa = +|- 0.131873 kJ/mol"""),
@@ -43976,7 +43922,7 @@ entry(
 )
 
 entry(
-    index = 3166,
+    index = 3160,
     label = "C2H3 + CH3FO2-2 <=> C2H4 + CH2FO2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00314351,'cm^3/(mol*s)'), n=4.36268, Ea=(3.93447,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.36842, dn = +|- 0.0412085, dEa = +|- 0.224255 kJ/mol"""),
@@ -43985,7 +43931,7 @@ entry(
 )
 
 entry(
-    index = 3167,
+    index = 3161,
     label = "CH2F-2 + C3H4F2 <=> CH3F-2 + C3H3F2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0163312,'cm^3/(mol*s)'), n=4.07764, Ea=(66.8225,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.28576, dn = +|- 0.0330219, dEa = +|- 0.179704 kJ/mol"""),
@@ -43994,7 +43940,7 @@ entry(
 )
 
 entry(
-    index = 3168,
+    index = 3162,
     label = "CH2F-2 + C2H3FO <=> CH3F-2 + C2H2FO",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000425542,'cm^3/(mol*s)'), n=4.65506, Ea=(32.9957,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.93236, dn = +|- 0.0865453, dEa = +|- 0.470976 kJ/mol"""),
@@ -44003,7 +43949,7 @@ entry(
 )
 
 entry(
-    index = 3169,
+    index = 3163,
     label = "HO + C3H3F3 <=> H2O + C3H2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.51382,'cm^3/(mol*s)'), n=3.79022, Ea=(5.02123,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34327, dn = +|- 0.0387715, dEa = +|- 0.210993 kJ/mol"""),
@@ -44012,7 +43958,7 @@ entry(
 )
 
 entry(
-    index = 3170,
+    index = 3164,
     label = "O + C2H5FO <=> HO-2 + C2H4FO",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(156.773,'cm^3/(mol*s)'), n=3.37863, Ea=(13.3746,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.64592, dn = +|- 0.0654666, dEa = +|- 0.356267 kJ/mol"""),
@@ -44021,7 +43967,7 @@ entry(
 )
 
 entry(
-    index = 3171,
+    index = 3165,
     label = "HO + C2HF3O-2 <=> H2O + C2F3O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(455.115,'cm^3/(mol*s)'), n=3.22754, Ea=(-0.81586,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07561, dn = +|- 0.00957565, dEa = +|- 0.0521103 kJ/mol"""),
@@ -44030,7 +43976,7 @@ entry(
 )
 
 entry(
-    index = 3172,
+    index = 3166,
     label = "CH2F-2 + CH3FO <=> CH3F-2 + CH2FO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0013923,'cm^3/(mol*s)'), n=4.25832, Ea=(22.5362,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.39616, dn = +|- 0.0438452, dEa = +|- 0.238604 kJ/mol"""),
@@ -44039,21 +43985,7 @@ entry(
 )
 
 entry(
-    index = 3173,
-    label = "H + CHF <=> H2 + CF",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.3e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CHF + H <=> CF + H2""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: CHF + H <=> CF + H2
-""",
-)
-
-entry(
-    index = 3174,
+    index = 3167,
     label = "F + H2O2 <=> FH + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.73e+12,'cm^3/(mol*s)'), n=0.5, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44067,35 +43999,7 @@ Original entry: H2O2 + F <=> HO2 + HF
 )
 
 entry(
-    index = 3175,
-    label = "O + CH3F <=> HO-2 + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(6.5e+07,'cm^3/(mol*s)'), n=1.5, Ea=(7000,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CH3F + O <=> CH2F + OH""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: CH3F + O <=> CH2F + OH
-""",
-)
-
-entry(
-    index = 3176,
-    label = "O + CH2F2 <=> HO-2 + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(2.25e+07,'cm^3/(mol*s)'), n=1.5, Ea=(6100,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CH2F2 + O <=> CHF2 + OH""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: CH2F2 + O <=> CHF2 + OH
-""",
-)
-
-entry(
-    index = 3177,
+    index = 3168,
     label = "CHF2-2 + HO2-4 <=> CH2F2-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44109,7 +44013,7 @@ Original entry: CHF2 + HO2 <=> CH2F2 + O2
 )
 
 entry(
-    index = 3178,
+    index = 3169,
     label = "CF-2 + CH2O => CHF-2 + CHO",
     degeneracy = 2.0,
     reversible = False,
@@ -44124,21 +44028,7 @@ Original entry: CF + CH2O => CHF + HCO
 )
 
 entry(
-    index = 3179,
-    label = "F + CH2F2 <=> FH + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(9e+13,'cm^3/(mol*s)'), n=0, Ea=(1850,'cal/mol'), T0=(1,'K')),
-    rank = 10,
-    shortDesc = """The chemkin file reaction is CH2F2 + F <=> CHF2 + HF""",
-    longDesc = 
-"""
-Training reaction from kinetics library: 2-BTP
-Original entry: CH2F2 + F <=> CHF2 + HF
-""",
-)
-
-entry(
-    index = 3180,
+    index = 3170,
     label = "F + C2H4F2 <=> FH + C2H3F2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
@@ -44152,7 +44042,7 @@ Original entry: CH3-CHF2 + F <=> CHF2-CH2 + HF
 )
 
 entry(
-    index = 3181,
+    index = 3171,
     label = "F + C2H2F4 <=> FH + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
@@ -44166,7 +44056,7 @@ Original entry: CH2F-CF3 + F <=> CF3-CHF + HF
 )
 
 entry(
-    index = 3182,
+    index = 3172,
     label = "F + C2H4F2-2 <=> FH + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(800,'cal/mol'), T0=(1,'K')),
@@ -44180,7 +44070,7 @@ Original entry: CH3-CHF2 + F <=> CH3-CF2 + HF
 )
 
 entry(
-    index = 3183,
+    index = 3173,
     label = "F + C2H2F4-2 <=> FH + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(1200,'cal/mol'), T0=(1,'K')),
@@ -44194,7 +44084,7 @@ Original entry: CHF2-CHF2 + F <=> CHF2-CF2 + HF
 )
 
 entry(
-    index = 3184,
+    index = 3174,
     label = "F + C2HF5 <=> FH + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(1400,'cal/mol'), T0=(1,'K')),
@@ -44208,7 +44098,7 @@ Original entry: CHF2-CF3 + F <=> CF3-CF2 + HF
 )
 
 entry(
-    index = 3185,
+    index = 3175,
     label = "CH3-2 + BrH <=> CH4-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.39e+12,'cm^3/(mol*s)'), n=0, Ea=(-143,'cal/mol'), T0=(1,'K')),
@@ -44222,7 +44112,7 @@ Original entry: HBR + CH3 <=> BR + CH4
 )
 
 entry(
-    index = 3186,
+    index = 3176,
     label = "C2H5-2 + BrH <=> C2H6-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.4e+08,'cm^3/(mol*s)'), n=1.49, Ea=(-2810,'cal/mol'), T0=(1,'K')),
@@ -44236,7 +44126,7 @@ Original entry: HBR + C2H5 <=> BR + C2H6
 )
 
 entry(
-    index = 3187,
+    index = 3177,
     label = "CH3O-4 + BrH <=> CH4O-4 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2e+12,'cm^3/(mol*s)'), n=0, Ea=(-785,'cal/mol'), T0=(1,'K')),
@@ -44250,7 +44140,7 @@ Original entry: HBR + CH2OH <=> BR + CH3OH
 )
 
 entry(
-    index = 3188,
+    index = 3178,
     label = "CF3-2 + BrH <=> CHF3-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.63e+11,'cm^3/(mol*s)'), n=0, Ea=(2560,'cal/mol'), T0=(1,'K')),
@@ -44264,7 +44154,7 @@ Original entry: CF3 + HBR <=> CHF3 + BR
 )
 
 entry(
-    index = 3189,
+    index = 3179,
     label = "Br-2 + HO2-4 <=> BrH-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.69e+09,'cm^3/(mol*s)'), n=1, Ea=(468,'cal/mol'), T0=(1,'K')),
@@ -44278,7 +44168,7 @@ Original entry: BR + HO2 <=> HBR + O2
 )
 
 entry(
-    index = 3190,
+    index = 3180,
     label = "HO + BrH <=> H2O + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+12,'cm^3/(mol*s)'), n=0, Ea=(-310,'cal/mol'), T0=(1,'K')),
@@ -44292,7 +44182,7 @@ Original entry: HBR + OH <=> BR + H2O
 )
 
 entry(
-    index = 3191,
+    index = 3181,
     label = "HO2-2 + BrH <=> H2O2-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(420,'cm^3/(mol*s)'), n=2.93, Ea=(7677,'cal/mol'), T0=(1,'K')),
@@ -44306,7 +44196,7 @@ Original entry: HBR + HO2 <=> BR + H2O2
 )
 
 entry(
-    index = 3192,
+    index = 3182,
     label = "Br-2 + CH2O <=> BrH-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.02e+13,'cm^3/(mol*s)'), n=0, Ea=(1600,'cal/mol'), T0=(1,'K')),
@@ -44320,7 +44210,7 @@ Original entry: BR + CH2O <=> HBR + HCO
 )
 
 entry(
-    index = 3193,
+    index = 3183,
     label = "Br-2 + CH3-4 <=> BrH-2 + CH2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.1e+14,'cm^3/(mol*s)'), n=0, Ea=(22968,'cal/mol'), T0=(1,'K')),
@@ -44334,7 +44224,7 @@ Original entry: CH3 + BR <=> CH2 + HBR
 )
 
 entry(
-    index = 3194,
+    index = 3184,
     label = "BrO + HO2-4 <=> BrHO + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.7e+12,'cm^3/(mol*s)'), n=0, Ea=(-990,'cal/mol'), T0=(1,'K')),
@@ -44348,7 +44238,7 @@ Original entry: BRO + HO2 <=> BROH + O2
 )
 
 entry(
-    index = 3195,
+    index = 3185,
     label = "BrO + BrH <=> BrHO + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+12,'cm^3/(mol*s)'), n=0, Ea=(3600,'cal/mol'), T0=(1,'K')),
@@ -44362,7 +44252,7 @@ Original entry: HBR + BRO <=> BR + BROH
 )
 
 entry(
-    index = 3196,
+    index = 3186,
     label = "HO2-2 + BrHO-2 <=> H2O2-2 + BrO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1,'cm^3/(mol*s)'), n=3.55, Ea=(13100,'cal/mol'), T0=(1,'K')),
@@ -44376,7 +44266,7 @@ Original entry: HO2 + BROH <=> BRO + H2O2
 )
 
 entry(
-    index = 3197,
+    index = 3187,
     label = "O + CH3Br <=> HO-2 + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(170000,'cm^3/(mol*s)'), n=2.33, Ea=(4210,'cal/mol'), T0=(1,'K')),
@@ -44390,7 +44280,7 @@ Original entry: O + CH3BR <=> CH2BR + OH
 )
 
 entry(
-    index = 3198,
+    index = 3188,
     label = "CH2Br-2 + BrH <=> CH3Br-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.5e+12,'cm^3/(mol*s)'), n=0, Ea=(1750,'cal/mol'), T0=(1,'K')),
@@ -44404,7 +44294,7 @@ Original entry: CH2BR + HBR <=> CH3BR + BR
 )
 
 entry(
-    index = 3199,
+    index = 3189,
     label = "F + BrH <=> FH + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.71e+13,'cm^3/(mol*s)'), n=0, Ea=(165,'cal/mol'), T0=(1,'K')),
@@ -44418,7 +44308,7 @@ Original entry: F + HBR <=> HF + BR
 )
 
 entry(
-    index = 3200,
+    index = 3190,
     label = "Br-2 + C2H4O <=> BrH-2 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.83e+12,'cm^3/(mol*s)'), n=0, Ea=(715,'cal/mol'), T0=(1,'K')),
@@ -44432,7 +44322,7 @@ Original entry: BR + CH3CHO <=> HBR + CH3CO
 )
 
 entry(
-    index = 3201,
+    index = 3191,
     label = "Br-2 + CH2F2 <=> BrH-2 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.38e+13,'cm^3/(mol*s)'), n=0, Ea=(16580,'cal/mol'), T0=(1,'K')),
@@ -44446,7 +44336,7 @@ Original entry: BR + CH2F2 <=> HBR + CHF2
 )
 
 entry(
-    index = 3202,
+    index = 3192,
     label = "Br-2 + CH3F <=> BrH-2 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.45e+13,'cm^3/(mol*s)'), n=0, Ea=(16100,'cal/mol'), T0=(1,'K')),
@@ -44460,7 +44350,7 @@ Original entry: BR + CH3F <=> HBR + CH2F
 )
 
 entry(
-    index = 3203,
+    index = 3193,
     label = "CH2Br-2 + HO2-4 <=> CH3Br-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44474,7 +44364,7 @@ Original entry: CH2BR + HO2 <=> CH3BR + O2
 )
 
 entry(
-    index = 3204,
+    index = 3194,
     label = "Br-2 + C2H4-2 <=> BrH-2 + C2H3-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(25000,'cal/mol'), T0=(1,'K')),
@@ -44488,7 +44378,7 @@ Original entry: BR + C2H4 <=> C2H3 + HBR
 )
 
 entry(
-    index = 3205,
+    index = 3195,
     label = "CH3O-3 + BrH <=> CH4O-3 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(485000,'cm^3/(mol*s)'), n=1.9, Ea=(2590,'cal/mol'), T0=(1,'K')),
@@ -44502,7 +44392,7 @@ Original entry: CH3O + HBR <=> CH3OH + BR
 )
 
 entry(
-    index = 3206,
+    index = 3196,
     label = "F + CH3Br <=> FH + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(6e+13,'cm^3/(mol*s)'), n=0, Ea=(830,'cal/mol'), T0=(1,'K')),
@@ -44516,7 +44406,7 @@ Original entry: F + CH3BR <=> HF + CH2BR
 )
 
 entry(
-    index = 3207,
+    index = 3197,
     label = "H + C3H2BrF3 <=> H2 + C3HBrF3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8e+14,'cm^3/(mol*s)'), n=0, Ea=(14340,'cal/mol'), T0=(1,'K')),
@@ -44530,7 +44420,7 @@ Original entry: BTP + H <=> CF3CBRCH + H2
 )
 
 entry(
-    index = 3208,
+    index = 3198,
     label = "HO + C3H2BrF3 <=> H2O + C3HBrF3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(5980,'cal/mol'), T0=(1,'K')),
@@ -44544,7 +44434,7 @@ Original entry: BTP + OH <=> CF3CBRCH + H2O
 )
 
 entry(
-    index = 3209,
+    index = 3199,
     label = "F + C3H8-3 <=> FH + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(3.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44558,7 +44448,7 @@ Original entry: C3H8 + F <=> nC3H7 + HF
 )
 
 entry(
-    index = 3210,
+    index = 3200,
     label = "F + C3H8 <=> FH + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.1e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44572,7 +44462,7 @@ Original entry: C3H8 + F <=> iC3H7 + HF
 )
 
 entry(
-    index = 3211,
+    index = 3201,
     label = "Br-2 + C3H8-3 <=> BrH-2 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(7e+13,'cm^3/(mol*s)'), n=0, Ea=(11000,'cal/mol'), T0=(1,'K')),
@@ -44586,7 +44476,7 @@ Original entry: C3H8 + BR <=> nC3H7 + HBR
 )
 
 entry(
-    index = 3212,
+    index = 3202,
     label = "Br-2 + C3H8 <=> BrH-2 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.3e+13,'cm^3/(mol*s)'), n=0, Ea=(8600,'cal/mol'), T0=(1,'K')),
@@ -44600,7 +44490,7 @@ Original entry: C3H8 + BR <=> iC3H7 + HBR
 )
 
 entry(
-    index = 3213,
+    index = 3203,
     label = "F + C2H6O-4 <=> FH + C2H5O-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.8e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44614,7 +44504,7 @@ Original entry: C2H5OH + F <=> CH3CH2O + HF
 )
 
 entry(
-    index = 3214,
+    index = 3204,
     label = "F + C2H6O <=> FH + C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44628,7 +44518,7 @@ Original entry: C2H5OH + F <=> CH3CHOH + HF
 )
 
 entry(
-    index = 3215,
+    index = 3205,
     label = "F + C2H6O-2 <=> FH + C2H5O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44642,7 +44532,7 @@ Original entry: C2H5OH + F <=> C2H4OH + HF
 )
 
 entry(
-    index = 3216,
+    index = 3206,
     label = "Br-2 + C2H6O <=> BrH-2 + C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(14000,'cal/mol'), T0=(1,'K')),
@@ -44656,7 +44546,7 @@ Original entry: C2H5OH + BR <=> CH3CHOH + HBR
 )
 
 entry(
-    index = 3217,
+    index = 3207,
     label = "O + BrHO-2 <=> HO-2 + BrO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+13,'cm^3/(mol*s)'), n=0, Ea=(854,'cal/mol'), T0=(1,'K')),
@@ -44670,7 +44560,7 @@ Original entry: O + BROH <=> OH + BRO
 )
 
 entry(
-    index = 3218,
+    index = 3208,
     label = "F + C4H10-2 <=> FH + C4H9-2",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(3.89e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44684,7 +44574,7 @@ Original entry: C4H10 + F <=> pC4H9 + HF
 )
 
 entry(
-    index = 3219,
+    index = 3209,
     label = "F + C4H10 <=> FH + C4H9",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4.68e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44698,7 +44588,7 @@ Original entry: C4H10 + F <=> sC4H9 + HF
 )
 
 entry(
-    index = 3220,
+    index = 3210,
     label = "F + C4H10-3 <=> FH + C4H9-3",
     degeneracy = 9.0,
     kinetics = Arrhenius(A=(4.07e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44712,7 +44602,7 @@ Original entry: iC4H10 + F <=> iC4H9 + HF
 )
 
 entry(
-    index = 3221,
+    index = 3211,
     label = "F + C4H10-4 <=> FH + C4H9-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.75e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44726,7 +44616,7 @@ Original entry: iC4H10 + F <=> tC4H9 + HF
 )
 
 entry(
-    index = 3222,
+    index = 3212,
     label = "F + C2H2O <=> FH + C2HO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44740,7 +44630,7 @@ Original entry: F + CH2CO <=> HF + HCCO
 )
 
 entry(
-    index = 3223,
+    index = 3213,
     label = "C4H4F6O + HO <=> C4H3F6O + H2O",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(7.407e+11,'cm^3/(mol*s)'), n=0, Ea=(1.35,'kcal/mol'), T0=(1,'K')),
@@ -44754,7 +44644,7 @@ http://dx.doi.org/10.1016/j.jfluchem.2014.02.009
 )
 
 entry(
-    index = 3224,
+    index = 3214,
     label = "Cl + HO2-4 <=> ClH + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.5e+14,'cm^3/(mol*s)'), n=-0.63, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44768,7 +44658,7 @@ Original entry: HO2 + CL <=> O2 + HCL
 )
 
 entry(
-    index = 3225,
+    index = 3215,
     label = "Cl + ClHO <=> ClH + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.36,'cm^3/(mol*s)'), n=4.07, Ea=(-337,'cal/mol'), T0=(1,'K')),
@@ -44782,7 +44672,7 @@ Original entry: CL + HOCL <=> HCL + CLO
 )
 
 entry(
-    index = 3226,
+    index = 3216,
     label = "ClO-2 + HO2-4 <=> ClHO-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7800,'cm^3/(mol*s)'), n=2.4, Ea=(5110,'cal/mol'), T0=(1,'K')),
@@ -44796,7 +44686,7 @@ Original entry: HO2 + CLO <=> O2 + HOCL
 )
 
 entry(
-    index = 3227,
+    index = 3217,
     label = "Cl + CH2O <=> ClH + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.9e+13,'cm^3/(mol*s)'), n=0, Ea=(68,'cal/mol'), T0=(1,'K')),
@@ -44810,7 +44700,7 @@ Original entry: CH2O + CL <=> HCO + HCL
 )
 
 entry(
-    index = 3228,
+    index = 3218,
     label = "Cl + CHClO <=> ClH + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.2e+12,'cm^3/(mol*s)'), n=0, Ea=(1620,'cal/mol'), T0=(1,'K')),
@@ -44824,7 +44714,7 @@ Original entry: CL + CLCHO <=> HCL + CLCO
 )
 
 entry(
-    index = 3229,
+    index = 3219,
     label = "Cl + CH3Cl <=> ClH + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.81e+07,'cm^3/(mol*s)'), n=1.759, Ea=(767.75,'cal/mol'), T0=(1,'K')),
@@ -44838,7 +44728,7 @@ Original entry: CH3CL + CL <=> HCL + CH2CL
 )
 
 entry(
-    index = 3230,
+    index = 3220,
     label = "O + CH3Cl <=> HO-2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(647,'cm^3/(mol*s)'), n=3.28, Ea=(4718.44,'cal/mol'), T0=(1,'K')),
@@ -44852,7 +44742,7 @@ Original entry: O + CH3CL <=> CH2CL + OH
 )
 
 entry(
-    index = 3231,
+    index = 3221,
     label = "O + CH2Cl2 <=> HO-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.6e+06,'cm^3/(mol*s)'), n=1.99, Ea=(5683,'cal/mol'), T0=(1,'K')),
@@ -44866,7 +44756,7 @@ Original entry: CH2CL2 + O <=> CHCL2 + OH
 )
 
 entry(
-    index = 3232,
+    index = 3222,
     label = "Cl + CH2Cl2 <=> ClH + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.9e+07,'cm^3/(mol*s)'), n=1.58, Ea=(715,'cal/mol'), T0=(1,'K')),
@@ -44880,7 +44770,7 @@ Original entry: CH2CL2 + CL <=> CHCL2 + HCL
 )
 
 entry(
-    index = 3233,
+    index = 3223,
     label = "Cl + C2H5Cl <=> ClH + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.7e+13,'cm^3/(mol*s)'), n=0, Ea=(904,'cal/mol'), T0=(1,'K')),
@@ -44894,7 +44784,7 @@ Original entry: C2H5CL + CL <=> CH3CHCL + HCL
 )
 
 entry(
-    index = 3234,
+    index = 3224,
     label = "Cl + C2H4Cl2 <=> ClH + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(3e+13,'cm^3/(mol*s)'), n=0, Ea=(2166,'cal/mol'), T0=(1,'K')),
@@ -44908,7 +44798,7 @@ Original entry: CH2CLCH2CL + CL <=> CLCH2CHCL + HCL
 )
 
 entry(
-    index = 3235,
+    index = 3225,
     label = "Cl + C2H3Cl <=> ClH + C2H2Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.2e+14,'cm^3/(mol*s)'), n=0, Ea=(13300,'cal/mol'), T0=(1,'K')),
@@ -44922,7 +44812,7 @@ Original entry: C2H3CL + CL <=> CHCLCH + HCL
 )
 
 entry(
-    index = 3236,
+    index = 3226,
     label = "Cl + C2H4-2 <=> ClH + C2H3-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.52e+07,'cm^3/(mol*s)'), n=2.191, Ea=(4986.28,'cal/mol'), T0=(1,'K')),
@@ -44936,7 +44826,7 @@ Original entry: C2H4 + CL <=> C2H3 + HCL
 )
 
 entry(
-    index = 3237,
+    index = 3227,
     label = "Cl + C2H6 <=> ClH + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(6.45e+11,'cm^3/(mol*s)'), n=0.673, Ea=(109.284,'cal/mol'), T0=(1,'K')),
@@ -44950,7 +44840,7 @@ Original entry: C2H6 + CL <=> C2H5 + HCL
 )
 
 entry(
-    index = 3238,
+    index = 3228,
     label = "Cl + C2H4O <=> ClH + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -44964,7 +44854,7 @@ Original entry: CH3CHO + CL <=> CH3CO + HCL
 )
 
 entry(
-    index = 3239,
+    index = 3229,
     label = "C4H3-3 + CH3Cl => C4H4-3 + CH2Cl",
     degeneracy = 3.0,
     reversible = False,
@@ -44979,7 +44869,7 @@ Original entry: C4H3 + CH3CL => C4H4 + CH2CL
 )
 
 entry(
-    index = 3240,
+    index = 3230,
     label = "C4H5-8 + CH3Cl => C4H6-8 + CH2Cl",
     degeneracy = 3.0,
     reversible = False,
@@ -44994,7 +44884,7 @@ Original entry: C4H5 + CH3CL => C4H6 + CH2CL
 )
 
 entry(
-    index = 3241,
+    index = 3231,
     label = "C6H5-2 + CH3Cl => C6H6-2 + CH2Cl",
     degeneracy = 3.0,
     reversible = False,
@@ -45009,7 +44899,7 @@ Original entry: C6H5 + CH3CL => C6H6 + CH2CL
 )
 
 entry(
-    index = 3242,
+    index = 3232,
     label = "C3H3-4 + CH2Cl2 => C3H4-4 + CHCl2",
     degeneracy = 2.0,
     reversible = False,
@@ -45024,7 +44914,7 @@ Original entry: C3H3 + CH2CL2 => C3H4-A + CHCL2
 )
 
 entry(
-    index = 3243,
+    index = 3233,
     label = "C2HO-2 + CH2Cl2 => C2H2O-2 + CHCl2",
     degeneracy = 2.0,
     reversible = False,
@@ -45039,7 +44929,7 @@ Original entry: HCCO + CH2CL2 => CH2CO + CHCL2
 )
 
 entry(
-    index = 3244,
+    index = 3234,
     label = "H + CHCl3-2 => H2 + CCl3-2",
     degeneracy = 1.0,
     reversible = False,
@@ -45054,7 +44944,7 @@ Original entry: H + CHCL3 => H2 + CCL3
 )
 
 entry(
-    index = 3245,
+    index = 3235,
     label = "O + CHCl3-2 => HO-2 + CCl3-2",
     degeneracy = 1.0,
     reversible = False,
@@ -45069,7 +44959,7 @@ Original entry: O + CHCL3 => OH + CCL3
 )
 
 entry(
-    index = 3246,
+    index = 3236,
     label = "CHO-2 + CHCl3-2 => CH2O-2 + CCl3-2",
     degeneracy = 1.0,
     reversible = False,
@@ -45084,7 +44974,7 @@ Original entry: HCO + CHCL3 => CH2O + CCL3
 )
 
 entry(
-    index = 3247,
+    index = 3237,
     label = "C3H3-4 + CHCl3-2 => C3H4-4 + CCl3-2",
     degeneracy = 1.0,
     reversible = False,
@@ -45099,7 +44989,7 @@ Original entry: C3H3 + CHCL3 => C3H4-A + CCL3
 )
 
 entry(
-    index = 3248,
+    index = 3238,
     label = "O2 + C2H5Cl-2 => HO2-3 + C2H4Cl-2",
     degeneracy = 6.0,
     reversible = False,
@@ -45114,7 +45004,7 @@ Original entry: O2 + C2H5CL => HO2 + CH2CLCH2
 )
 
 entry(
-    index = 3249,
+    index = 3239,
     label = "C2HO-2 + C2H5Cl-2 => C2H2O-2 + C2H4Cl-2",
     degeneracy = 3.0,
     reversible = False,
@@ -45129,7 +45019,7 @@ Original entry: HCCO + C2H5CL => CH2CO + CH2CLCH2
 )
 
 entry(
-    index = 3250,
+    index = 3240,
     label = "O2 + C2H5Cl => HO2-3 + C2H4Cl",
     degeneracy = 4.0,
     reversible = False,
@@ -45144,7 +45034,7 @@ Original entry: O2 + C2H5CL => HO2 + CH3CHCL
 )
 
 entry(
-    index = 3251,
+    index = 3241,
     label = "C2HO-2 + C2H5Cl => C2H2O-2 + C2H4Cl",
     degeneracy = 2.0,
     reversible = False,
@@ -45159,7 +45049,7 @@ Original entry: HCCO + C2H5CL => CH2CO + CH3CHCL
 )
 
 entry(
-    index = 3252,
+    index = 3242,
     label = "CHO-2 + C2H4Cl2 => CH2O-2 + C2H3Cl2",
     degeneracy = 4.0,
     reversible = False,
@@ -45174,7 +45064,7 @@ Original entry: HCO + CH2CLCH2CL => CH2O + CLCH2CHCL
 )
 
 entry(
-    index = 3253,
+    index = 3243,
     label = "C3H5-3 + C2H4Cl2 => C3H6-3 + C2H3Cl2",
     degeneracy = 8.0,
     reversible = False,
@@ -45189,7 +45079,7 @@ Original entry: C3H5-A + CH2CLCH2CL => C3H6 + CLCH2CHCL
 )
 
 entry(
-    index = 3254,
+    index = 3244,
     label = "C3H7-4 + C2H4Cl2 => C3H8-4 + C2H3Cl2",
     degeneracy = 4.0,
     reversible = False,
@@ -45204,7 +45094,7 @@ Original entry: NC3H7 + CH2CLCH2CL => C3H8 + CLCH2CHCL
 )
 
 entry(
-    index = 3255,
+    index = 3245,
     label = "O2 + C2H4Cl2-2 => HO2-3 + C2H3Cl2-2",
     degeneracy = 6.0,
     reversible = False,
@@ -45219,7 +45109,7 @@ Original entry: O2 + CH3CHCL2 => HO2 + CL2CHCH2
 )
 
 entry(
-    index = 3256,
+    index = 3246,
     label = "CHO-2 + C2H4Cl2-2 => CH2O-2 + C2H3Cl2-2",
     degeneracy = 3.0,
     reversible = False,
@@ -45234,7 +45124,7 @@ Original entry: HCO + CH3CHCL2 => CH2O + CL2CHCH2
 )
 
 entry(
-    index = 3257,
+    index = 3247,
     label = "CH3O-3 + C2H4Cl2-2 => CH4O-3 + C2H3Cl2-2",
     degeneracy = 3.0,
     reversible = False,
@@ -45249,7 +45139,7 @@ Original entry: CH3O + CH3CHCL2 => CH3OH + CL2CHCH2
 )
 
 entry(
-    index = 3258,
+    index = 3248,
     label = "CClF2 + BrH <=> CHClF2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.51e+11,'cm^3/(mol*s)'), n=0, Ea=(2629,'cal/mol'), T0=(1,'K')),
@@ -45263,7 +45153,7 @@ Original entry: HBR + CF2CL <=> CHF2CL + BR
 )
 
 entry(
-    index = 3259,
+    index = 3249,
     label = "CBrF2 + BrH <=> CHBrF2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.63e+11,'cm^3/(mol*s)'), n=0, Ea=(2557,'cal/mol'), T0=(1,'K')),
@@ -45277,7 +45167,7 @@ Original entry: CF2BR + HBR <=> CHF2BR + BR
 )
 
 entry(
-    index = 3260,
+    index = 3250,
     label = "CBrF2 + ClH-2 <=> CHBrF2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.86e+11,'cm^3/(mol*s)'), n=0, Ea=(5162,'cal/mol'), T0=(1,'K')),
@@ -45291,7 +45181,7 @@ Original entry: CF2BR + HCL <=> CHF2BR + CL
 )
 
 entry(
-    index = 3261,
+    index = 3251,
     label = "CClF2 + ClH-2 <=> CHClF2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.86e+11,'cm^3/(mol*s)'), n=0, Ea=(5162,'cal/mol'), T0=(1,'K')),
@@ -45305,7 +45195,7 @@ Original entry: CF2CL + HCL <=> CHF2CL + CL
 )
 
 entry(
-    index = 3262,
+    index = 3252,
     label = "CH2 + ClH-2 <=> CH3-3 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+12,'cm^3/(mol*s)'), n=0, Ea=(865,'cal/mol'), T0=(1,'K')),
@@ -45319,7 +45209,7 @@ Original entry: CH2 + HCL <=> CH3 + CL
 )
 
 entry(
-    index = 3263,
+    index = 3253,
     label = "F + C2H6O-2 <=> FH + C2H5O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.8e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -45333,7 +45223,7 @@ Original entry: C2H5OH + F <=> PC2H4OH + HF
 )
 
 entry(
-    index = 3264,
+    index = 3254,
     label = "F + C2H6O-4 <=> FH + C2H5O-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.3e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -45347,7 +45237,7 @@ Original entry: C2H5OH + F <=> C2H5O + HF
 )
 
 entry(
-    index = 3265,
+    index = 3255,
     label = "Cl + HO2-4 <=> ClH + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.08e+13,'cm^3/(mol*s)'), n=0, Ea=(-338,'cal/mol'), T0=(1,'K')),
@@ -45361,7 +45251,7 @@ Original entry: CL + HO2 <=> HCL + O2
 )
 
 entry(
-    index = 3266,
+    index = 3256,
     label = "Cl + CH2O <=> ClH + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(500,'cal/mol'), T0=(1,'K')),
@@ -45375,7 +45265,7 @@ Original entry: CL + CH2O <=> HCO + HCL
 )
 
 entry(
-    index = 3267,
+    index = 3257,
     label = "Cl + C2H6 <=> ClH + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(4.37e+13,'cm^3/(mol*s)'), n=0, Ea=(100,'cal/mol'), T0=(1,'K')),
@@ -45389,7 +45279,7 @@ Original entry: CL + C2H6 <=> C2H5 + HCL
 )
 
 entry(
-    index = 3268,
+    index = 3258,
     label = "Cl + C2H4-2 <=> ClH + C2H3-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(3.01e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -45403,7 +45293,7 @@ Original entry: CL + C2H4 <=> C2H3 + HCL
 )
 
 entry(
-    index = 3269,
+    index = 3259,
     label = "Cl + ClHO <=> ClH + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.28e+12,'cm^3/(mol*s)'), n=0, Ea=(100,'cal/mol'), T0=(1,'K')),
@@ -45417,7 +45307,7 @@ Original entry: HOCL + CL <=> HCL + CLO
 )
 
 entry(
-    index = 3270,
+    index = 3260,
     label = "Cl + CH3Cl <=> ClH + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.16e+13,'cm^3/(mol*s)'), n=0, Ea=(3300,'cal/mol'), T0=(1,'K')),
@@ -45431,7 +45321,7 @@ Original entry: CH3CL + CL <=> CH2CL + HCL
 )
 
 entry(
-    index = 3271,
+    index = 3261,
     label = "O + CH3Cl <=> HO-2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.7e+13,'cm^3/(mol*s)'), n=0, Ea=(7300,'cal/mol'), T0=(1,'K')),
@@ -45445,7 +45335,7 @@ Original entry: CH3CL + O <=> CH2CL + OH
 )
 
 entry(
-    index = 3272,
+    index = 3262,
     label = "Cl + CH2Cl2 <=> ClH + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.79e+13,'cm^3/(mol*s)'), n=0, Ea=(2940,'cal/mol'), T0=(1,'K')),
@@ -45459,7 +45349,7 @@ Original entry: CH2CL2 + CL <=> CHCL2 + HCL
 )
 
 entry(
-    index = 3273,
+    index = 3263,
     label = "Cl + CHCl3-2 <=> ClH + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.6e+13,'cm^3/(mol*s)'), n=0, Ea=(3300,'cal/mol'), T0=(1,'K')),
@@ -45473,7 +45363,7 @@ Original entry: CHCL3 + CL <=> HCL + CCL3
 )
 
 entry(
-    index = 3274,
+    index = 3264,
     label = "O + CHCl3-2 <=> HO-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.1e+13,'cm^3/(mol*s)'), n=0.22, Ea=(9450,'cal/mol'), T0=(1,'K')),
@@ -45487,7 +45377,7 @@ Original entry: CHCL3 + O <=> OH + CCL3
 )
 
 entry(
-    index = 3275,
+    index = 3265,
     label = "CCl3 + H2-2 <=> CHCl3 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.01e+12,'cm^3/(mol*s)'), n=0, Ea=(14300,'cal/mol'), T0=(1,'K')),
@@ -45501,7 +45391,7 @@ Original entry: CCL3 + H2 <=> CHCL3 + H
 )
 
 entry(
-    index = 3276,
+    index = 3266,
     label = "Cl + CHClO <=> ClH + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.25e+13,'cm^3/(mol*s)'), n=0, Ea=(500,'cal/mol'), T0=(1,'K')),
@@ -45515,7 +45405,7 @@ Original entry: CHCLO + CL <=> CCLO + HCL
 )
 
 entry(
-    index = 3277,
+    index = 3267,
     label = "Cl + C2H5Cl <=> ClH + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.55e+13,'cm^3/(mol*s)'), n=0, Ea=(1500,'cal/mol'), T0=(1,'K')),
@@ -45529,7 +45419,7 @@ Original entry: C2H5CL + CL <=> HCL + CH3CHCL
 )
 
 entry(
-    index = 3278,
+    index = 3268,
     label = "Cl + C2H3Cl3 <=> ClH + C2H2Cl3",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(1500,'cal/mol'), T0=(1,'K')),
@@ -45543,7 +45433,7 @@ Original entry: CH3CCL3 + CL <=> CH2CCL3 + HCL
 )
 
 entry(
-    index = 3279,
+    index = 3269,
     label = "Cl + C2H4Cl2 <=> ClH + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(1500,'cal/mol'), T0=(1,'K')),
@@ -45557,7 +45447,7 @@ Original entry: CH2CLCH2CL + CL <=> CH2CLCHCL + HCL
 )
 
 entry(
-    index = 3280,
+    index = 3270,
     label = "Cl + C2H3Cl3-2 <=> ClH + C2H2Cl3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.5e+13,'cm^3/(mol*s)'), n=0, Ea=(1500,'cal/mol'), T0=(1,'K')),
@@ -45571,7 +45461,7 @@ Original entry: CH2CLCHCL2 + CL <=> CHCLCHCL2 + HCL
 )
 
 entry(
-    index = 3281,
+    index = 3271,
     label = "HO + C2H3Cl3-3 <=> H2O + C2H2Cl3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(11600,'cm^3/(mol*s)'), n=2.78, Ea=(188,'cal/mol'), T0=(1,'K')),
@@ -45585,7 +45475,7 @@ Original entry: CH2CLCHCL2 + OH <=> H2O + CH2CLCCL2
 )
 
 entry(
-    index = 3282,
+    index = 3272,
     label = "Cl + C2H2Cl4-2 <=> ClH + C2HCl4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(1500,'cal/mol'), T0=(1,'K')),
@@ -45599,7 +45489,7 @@ Original entry: CHCL2CHCL2 + CL <=> CHCL2CCL2 + HCL
 )
 
 entry(
-    index = 3283,
+    index = 3273,
     label = "HO + C2H2Cl4-2 <=> H2O + C2HCl4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(11600,'cm^3/(mol*s)'), n=2.78, Ea=(188,'cal/mol'), T0=(1,'K')),
@@ -45613,7 +45503,7 @@ Original entry: CHCL2CHCL2 + OH <=> CHCL2CCL2 + H2O
 )
 
 entry(
-    index = 3284,
+    index = 3274,
     label = "Cl + C2HCl5 <=> ClH + C2Cl5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.3e+12,'cm^3/(mol*s)'), n=0, Ea=(3300,'cal/mol'), T0=(1,'K')),
@@ -45627,7 +45517,7 @@ Original entry: C2HCL5 + CL <=> C2CL5 + HCL
 )
 
 entry(
-    index = 3285,
+    index = 3275,
     label = "Cl + C2H3Cl-2 <=> ClH + C2H2Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.7e+13,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
@@ -45641,7 +45531,7 @@ Original entry: C2H3CL + CL <=> CH2CCL + HCL
 )
 
 entry(
-    index = 3286,
+    index = 3276,
     label = "Cl + C2H3Cl <=> ClH + C2H2Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.7e+13,'cm^3/(mol*s)'), n=0, Ea=(7000,'cal/mol'), T0=(1,'K')),
@@ -45655,7 +45545,7 @@ Original entry: C2H3CL + CL <=> CHCHCL + HCL
 )
 
 entry(
-    index = 3287,
+    index = 3277,
     label = "F + C2HCl2F3 <=> FH + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.93e+08,'cm^3/(mol*s)'), n=1.35, Ea=(240,'cal/mol'), T0=(1,'K')),
@@ -45669,7 +45559,7 @@ Original entry: CF3CCL2H + F <=> CF3CCL2 + HF
 )
 
 entry(
-    index = 3288,
+    index = 3278,
     label = "O + CHCl2F <=> HO-2 + CCl2F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(7350,'cal/mol'), T0=(1,'K')),
@@ -45683,7 +45573,7 @@ Original entry: CHFCL2 + O <=> CFCL2 + OH
 )
 
 entry(
-    index = 3289,
+    index = 3279,
     label = "Cl + CHCl2F <=> ClH + CCl2F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.1e+12,'cm^3/(mol*s)'), n=0, Ea=(3340,'cal/mol'), T0=(1,'K')),
@@ -45697,7 +45587,7 @@ Original entry: CHFCL2 + CL <=> CFCL2 + HCL
 )
 
 entry(
-    index = 3290,
+    index = 3280,
     label = "F + CHCl2F <=> FH + CCl2F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.57e+13,'cm^3/(mol*s)'), n=0, Ea=(1690,'cal/mol'), T0=(1,'K')),
@@ -45711,7 +45601,7 @@ Original entry: CHFCL2 + F <=> CFCL2 + HF
 )
 
 entry(
-    index = 3291,
+    index = 3281,
     label = "O + CHClF2-2 <=> HO-2 + CClF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7e+12,'cm^3/(mol*s)'), n=0, Ea=(8350,'cal/mol'), T0=(1,'K')),
@@ -45725,7 +45615,7 @@ Original entry: CHF2CL + O <=> CF2CL + OH
 )
 
 entry(
-    index = 3292,
+    index = 3282,
     label = "F + CHClF2-2 <=> FH + CClF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.45e+13,'cm^3/(mol*s)'), n=0, Ea=(2070,'cal/mol'), T0=(1,'K')),
@@ -45739,7 +45629,7 @@ Original entry: CHF2CL + F <=> CF2CL + HF
 )
 
 entry(
-    index = 3293,
+    index = 3283,
     label = "H + CHClF2-2 <=> H2 + CClF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.62e+06,'cm^3/(mol*s)'), n=2.05, Ea=(8980,'cal/mol'), T0=(1,'K')),
@@ -45753,7 +45643,7 @@ Original entry: CHF2CL + H <=> CF2CL + H2
 )
 
 entry(
-    index = 3294,
+    index = 3284,
     label = "F + CH3Cl <=> FH + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(4.97e+13,'cm^3/(mol*s)'), n=0, Ea=(840,'cal/mol'), T0=(1,'K')),
@@ -45767,7 +45657,7 @@ Original entry: CH3CL + F <=> CH2CL + HF
 )
 
 entry(
-    index = 3295,
+    index = 3285,
     label = "F + CH2Cl2 <=> FH + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.4e+12,'cm^3/(mol*s)'), n=0, Ea=(160,'cal/mol'), T0=(1,'K')),
@@ -45781,7 +45671,7 @@ Original entry: CH2CL2 + F <=> CHCL2 + HF
 )
 
 entry(
-    index = 3296,
+    index = 3286,
     label = "F + CHCl3-2 <=> FH + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.02e+13,'cm^3/(mol*s)'), n=0, Ea=(1090,'cal/mol'), T0=(1,'K')),
@@ -45795,7 +45685,7 @@ Original entry: CHCL3 + F <=> CCL3 + HF
 )
 
 entry(
-    index = 3297,
+    index = 3287,
     label = "H + CHBrF2-2 <=> H2 + CBrF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.62e+06,'cm^3/(mol*s)'), n=2.05, Ea=(5440,'cal/mol'), T0=(1,'K')),
@@ -45809,7 +45699,7 @@ Original entry: CHF2BR + H <=> CF2BR + H2
 )
 
 entry(
-    index = 3298,
+    index = 3288,
     label = "F + C2HClF4-2 <=> FH + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(1400,'cal/mol'), T0=(1,'K')),
@@ -45823,7 +45713,7 @@ Original entry: C2HF4CL + F <=> C2F4CL + HF
 )
 
 entry(
-    index = 3299,
+    index = 3289,
     label = "C2H5O-6 + C2HBrF4-2 <=> C2H6O-6 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.7e+10,'cm^3/(mol*s)'), n=0, Ea=(8900,'cal/mol'), T0=(1,'K')),
@@ -45837,7 +45727,7 @@ Original entry: C2HF4BR + PC2H4OH <=> C2F4BR + C2H5OH
 )
 
 entry(
-    index = 3300,
+    index = 3290,
     label = "F + C2HBrF4-2 <=> FH + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(1400,'cal/mol'), T0=(1,'K')),
@@ -45851,7 +45741,7 @@ Original entry: C2HF4BR + F <=> C2F4BR + HF
 )
 
 entry(
-    index = 3301,
+    index = 3291,
     label = "HO + BrHO-2 <=> H2O + BrO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5043.27,'cm^3/(mol*s)'), n=2.83069, Ea=(-5.89168,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1109, dn = +|- 0.0138168, dEa = +|- 0.0751905 kJ/mol"""),
@@ -45873,7 +45763,7 @@ H    -2.595782    -0.744119    -0.592111
 )
 
 entry(
-    index = 3302,
+    index = 3292,
     label = "O + C2H3F3-3 <=> HO-2 + C2H2F3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(78.3191,'cm^3/(mol*s)'), n=3.53532, Ea=(13.4425,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.86312, dn = +|- 0.0817513, dEa = +|- 0.444888 kJ/mol"""),
@@ -45899,7 +45789,7 @@ H    0.764752    0.742092    -0.528801
 )
 
 entry(
-    index = 3303,
+    index = 3293,
     label = "HO + C2H4Cl2 <=> H2O + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1345.06,'cm^3/(mol*s)'), n=3.03793, Ea=(-4.42191,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03911, dn = +|- 0.00504002, dEa = +|- 0.0274276 kJ/mol"""),
@@ -45926,7 +45816,7 @@ H    0.98212    2.108915    -0.213846
 )
 
 entry(
-    index = 3304,
+    index = 3294,
     label = "C2H4Cl-3 + CH2Cl2 <=> C2H5Cl-3 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.44188e-05,'cm^3/(mol*s)'), n=4.79197, Ea=(22.2314,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97553, dn = +|- 0.0894487, dEa = +|- 0.486776 kJ/mol"""),
@@ -45955,7 +45845,7 @@ H    -1.174168    -2.245326    0.465728
 )
 
 entry(
-    index = 3305,
+    index = 3295,
     label = "C2H5-2 + CHCl3-2 <=> C2H6-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00619926,'cm^3/(mol*s)'), n=4.39892, Ea=(11.7236,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.56606, dn = +|- 0.0589322, dEa = +|- 0.320707 kJ/mol"""),
@@ -45984,7 +45874,7 @@ H    -2.529439    -1.009186    -1.376826
 )
 
 entry(
-    index = 3306,
+    index = 3296,
     label = "CF3-2 + CH3Br <=> CHF3-2 + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.59599e-05,'cm^3/(mol*s)'), n=5.45577, Ea=(21.8209,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.6869, dn = +|- 0.129855, dEa = +|- 0.706664 kJ/mol"""),
@@ -46010,7 +45900,7 @@ H    -0.593029    1.512347    1.490362
 )
 
 entry(
-    index = 3307,
+    index = 3297,
     label = "C2H2F3-4 + H2O2 <=> C2H3F3-4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000516254,'cm^3/(mol*s)'), n=4.4542, Ea=(1.33857,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.36826, dn = +|- 0.0411932, dEa = +|- 0.224172 kJ/mol"""),
@@ -46038,7 +45928,7 @@ H    -2.548536    -0.96005    -0.520529
 )
 
 entry(
-    index = 3308,
+    index = 3298,
     label = "C6H5-2 + C2H4Cl2 <=> C6H6-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.0181714,'cm^3/(mol*s)'), n=4.36235, Ea=(4.81091,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35815, dn = +|- 0.0402181, dEa = +|- 0.218865 kJ/mol"""),
@@ -46074,7 +45964,7 @@ H    1.457817    2.035431    -0.320332
 )
 
 entry(
-    index = 3309,
+    index = 3299,
     label = "C2H4Cl-3 + C2H4O <=> C2H5Cl-3 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00024995,'cm^3/(mol*s)'), n=4.64017, Ea=(11.2362,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.73826, dn = +|- 0.0726377, dEa = +|- 0.395292 kJ/mol"""),
@@ -46105,7 +45995,7 @@ H    -0.67405    -2.132039    -0.336964
 )
 
 entry(
-    index = 3310,
+    index = 3300,
     label = "H + C2HFO <=> H2 + C2FO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(37.1198,'cm^3/(mol*s)'), n=3.69512, Ea=(39.0492,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.83715, dn = +|- 0.137003, dEa = +|- 0.745565 kJ/mol"""),
@@ -46128,7 +46018,7 @@ H    -1.189314    2.229062    0.436476
 )
 
 entry(
-    index = 3311,
+    index = 3301,
     label = "H + CH3Br <=> H2 + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(504.547,'cm^3/(mol*s)'), n=3.39884, Ea=(29.7585,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.17896, dn = +|- 0.102325, dEa = +|- 0.556848 kJ/mol"""),
@@ -46151,7 +46041,7 @@ H    -2.199402    0.739019    0.001185
 )
 
 entry(
-    index = 3312,
+    index = 3302,
     label = "CF3-2 + C2HF5 <=> CHF3-2 + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.69513e-07,'cm^3/(mol*s)'), n=6.04679, Ea=(26.6044,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.91379, dn = +|- 0.179269, dEa = +|- 0.975575 kJ/mol"""),
@@ -46180,7 +46070,7 @@ H    0.668216    0.198371    -0.013688
 )
 
 entry(
-    index = 3313,
+    index = 3303,
     label = "Cl + C2H3Cl3-3 <=> ClH + C2H2Cl3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.45741e+07,'cm^3/(mol*s)'), n=1.76431, Ea=(-0.874777,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02181, dn = +|- 0.0028347, dEa = +|- 0.0154263 kJ/mol"""),
@@ -46206,7 +46096,7 @@ H    -1.264441    0.078335    -0.008674
 )
 
 entry(
-    index = 3314,
+    index = 3304,
     label = "HO + ClHO <=> H2O + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5549.33,'cm^3/(mol*s)'), n=2.82744, Ea=(-6.09878,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11583, dn = +|- 0.0143991, dEa = +|- 0.0783593 kJ/mol"""),
@@ -46228,7 +46118,7 @@ H    2.134419    -0.727512    -0.565638
 )
 
 entry(
-    index = 3315,
+    index = 3305,
     label = "C2H2F3-6 + H2O2 <=> C2H3F3-6 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00256671,'cm^3/(mol*s)'), n=4.00922, Ea=(1.49845,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.18315, dn = +|- 0.0220952, dEa = +|- 0.120241 kJ/mol"""),
@@ -46256,7 +46146,7 @@ H    2.172357    1.233397    0.660445
 )
 
 entry(
-    index = 3316,
+    index = 3306,
     label = "O + C2H2F4 <=> HO-2 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.73599,'cm^3/(mol*s)'), n=3.87124, Ea=(18.794,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.25118, dn = +|- 0.106609, dEa = +|- 0.580162 kJ/mol"""),
@@ -46282,7 +46172,7 @@ H    0.696485    0.660988    1.535801
 )
 
 entry(
-    index = 3317,
+    index = 3307,
     label = "CH2Br-2 + H2O2 <=> CH3Br-2 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00889661,'cm^3/(mol*s)'), n=3.96032, Ea=(-0.625021,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14915, dn = +|- 0.0182645, dEa = +|- 0.0993945 kJ/mol"""),
@@ -46307,7 +46197,7 @@ H    -1.73625    -1.408722    0.267942
 )
 
 entry(
-    index = 3318,
+    index = 3308,
     label = "CF3-2 + C2HCl2F3 <=> CHF3-2 + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.96573e-05,'cm^3/(mol*s)'), n=5.24513, Ea=(16.6807,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.32892, dn = +|- 0.111069, dEa = +|- 0.604434 kJ/mol"""),
@@ -46336,7 +46226,7 @@ H    -0.684216    -0.26946    -0.101894
 )
 
 entry(
-    index = 3319,
+    index = 3309,
     label = "HO + CHCl3-2 <=> H2O + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(10201,'cm^3/(mol*s)'), n=3.00821, Ea=(-2.73742,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03315, dn = +|- 0.00428446, dEa = +|- 0.0233159 kJ/mol"""),
@@ -46360,7 +46250,7 @@ H    2.12896    0.803281    1.568586
 )
 
 entry(
-    index = 3320,
+    index = 3310,
     label = "C2BrF4 + C2H6O <=> C2HBrF4 + C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000348345,'cm^3/(mol*s)'), n=4.51442, Ea=(6.49321,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.48063, dn = +|- 0.0515623, dEa = +|- 0.2806 kJ/mol"""),
@@ -46393,7 +46283,7 @@ H    2.936069    0.5923    -1.602327
 )
 
 entry(
-    index = 3321,
+    index = 3311,
     label = "CH2Cl-2 + C2H4Cl2 <=> CH3Cl-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(3.18763e-05,'cm^3/(mol*s)'), n=4.89653, Ea=(30.4473,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.23564, dn = +|- 0.105699, dEa = +|- 0.575209 kJ/mol"""),
@@ -46422,7 +46312,7 @@ H    2.497645    0.299101    -1.880771
 )
 
 entry(
-    index = 3322,
+    index = 3312,
     label = "H + C2HF5 <=> H2 + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.21821,'cm^3/(mol*s)'), n=3.93916, Ea=(27.4156,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.91582, dn = +|- 0.140596, dEa = +|- 0.76512 kJ/mol"""),
@@ -46448,7 +46338,7 @@ H    -1.574069    0.00398    2.327836
 )
 
 entry(
-    index = 3323,
+    index = 3313,
     label = "C2H4Cl-3 + C3H6 <=> C2H5Cl-3 + C3H5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.13032e-05,'cm^3/(mol*s)'), n=4.80729, Ea=(20.6258,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97696, dn = +|- 0.0895434, dEa = +|- 0.487292 kJ/mol"""),
@@ -46481,7 +46371,7 @@ H    -2.43347    1.326043    0.178467
 )
 
 entry(
-    index = 3324,
+    index = 3314,
     label = "HO + C2H2F4 <=> H2O + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(81.9291,'cm^3/(mol*s)'), n=3.42463, Ea=(1.91935,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14957, dn = +|- 0.0183131, dEa = +|- 0.0996593 kJ/mol"""),
@@ -46508,7 +46398,7 @@ H    2.376409    -0.321773    -1.039702
 )
 
 entry(
-    index = 3325,
+    index = 3315,
     label = "H + BrH <=> H2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.87177e+08,'cm^3/(mol*s)'), n=1.65053, Ea=(5.46579,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01423, dn = +|- 0.00185649, dEa = +|- 0.010103 kJ/mol"""),
@@ -46528,7 +46418,7 @@ H    -0.000167    -2.733785    0.0
 )
 
 entry(
-    index = 3326,
+    index = 3316,
     label = "O + C2H3F3-2 <=> HO-2 + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(48.9675,'cm^3/(mol*s)'), n=3.61044, Ea=(14.3966,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.93145, dn = +|- 0.0864834, dEa = +|- 0.470639 kJ/mol"""),
@@ -46554,7 +46444,7 @@ H    -1.179559    -0.319592    -0.972803
 )
 
 entry(
-    index = 3327,
+    index = 3317,
     label = "C2BrF4 + CH2F2 <=> C2HBrF4 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.30448e-07,'cm^3/(mol*s)'), n=5.79962, Ea=(28.8313,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.3129, dn = +|- 0.15737, dEa = +|- 0.856403 kJ/mol"""),
@@ -46583,7 +46473,7 @@ H    -3.442624    0.000197    -1.322752
 )
 
 entry(
-    index = 3328,
+    index = 3318,
     label = "CH2Br-2 + BrHO-2 <=> CH3Br-2 + BrO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00154786,'cm^3/(mol*s)'), n=4.1645, Ea=(7.16223,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35452, dn = +|- 0.0398666, dEa = +|- 0.216952 kJ/mol"""),
@@ -46607,7 +46497,7 @@ H    0.082809    1.363488    -0.067777
 )
 
 entry(
-    index = 3329,
+    index = 3319,
     label = "C2H2F3-4 + CH2O <=> C2H3F3-4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000208094,'cm^3/(mol*s)'), n=5.10772, Ea=(9.7526,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.01748, dn = +|- 0.0922087, dEa = +|- 0.501796 kJ/mol"""),
@@ -46635,7 +46525,7 @@ H    2.320588    1.217832    -1.066119
 )
 
 entry(
-    index = 3330,
+    index = 3320,
     label = "C6H5-2 + CH2Cl2 <=> C6H6-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0596797,'cm^3/(mol*s)'), n=4.26237, Ea=(3.35581,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.29473, dn = +|- 0.0339359, dEa = +|- 0.184678 kJ/mol"""),
@@ -46668,7 +46558,7 @@ H    -1.056897    -2.149051    -0.081124
 )
 
 entry(
-    index = 3331,
+    index = 3321,
     label = "Cl + C2H2Cl4 <=> ClH + C2HCl4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(307178,'cm^3/(mol*s)'), n=2.58309, Ea=(-1.10274,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15023, dn = +|- 0.018388, dEa = +|- 0.100067 kJ/mol"""),
@@ -46694,7 +46584,7 @@ H    -0.415955    0.464464    1.752233
 )
 
 entry(
-    index = 3332,
+    index = 3322,
     label = "HO + C2HF3 <=> H2O + C2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.196014,'cm^3/(mol*s)'), n=4.25864, Ea=(15.1877,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79497, dn = +|- 0.0768555, dEa = +|- 0.418245 kJ/mol"""),
@@ -46719,7 +46609,7 @@ H    -2.288833    -1.095605    0.840301
 )
 
 entry(
-    index = 3333,
+    index = 3323,
     label = "C2H4Cl-4 + CH2Cl2 <=> C2H5Cl-4 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00066087,'cm^3/(mol*s)'), n=3.88151, Ea=(25.2271,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.08056, dn = +|- 0.0962541, dEa = +|- 0.523811 kJ/mol"""),
@@ -46748,7 +46638,7 @@ H    -1.840303    1.398048    -0.819419
 )
 
 entry(
-    index = 3334,
+    index = 3324,
     label = "C2H5O-7 + C2HBrF4-2 <=> C2H6O-7 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.38286e-08,'cm^3/(mol*s)'), n=5.94133, Ea=(9.31288,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97454, dn = +|- 0.0893824, dEa = +|- 0.486416 kJ/mol"""),
@@ -46781,7 +46671,7 @@ H    1.53048    0.570386    0.546468
 )
 
 entry(
-    index = 3335,
+    index = 3325,
     label = "C2H4Cl-3 + C2H4O-2 <=> C2H5Cl-3 + C2H3O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000670882,'cm^3/(mol*s)'), n=4.48492, Ea=(28.0813,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72535, dn = +|- 0.0716583, dEa = +|- 0.389962 kJ/mol"""),
@@ -46812,7 +46702,7 @@ H    -1.035674    0.920703    -1.114636
 )
 
 entry(
-    index = 3336,
+    index = 3326,
     label = "C2HCl2 + ClH-2 <=> C2H2Cl2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(131333,'cm^3/(mol*s)'), n=1.87058, Ea=(-4.26914,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06018, dn = +|- 0.00767804, dEa = +|- 0.0417836 kJ/mol"""),
@@ -46836,7 +46726,7 @@ H    -0.163942    -2.189707    0.114205
 )
 
 entry(
-    index = 3337,
+    index = 3327,
     label = "HO + C2H2F2-2 <=> H2O + C2HF2-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.858668,'cm^3/(mol*s)'), n=4.13126, Ea=(10.4027,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.65153, dn = +|- 0.065914, dEa = +|- 0.358702 kJ/mol"""),
@@ -46861,7 +46751,7 @@ H    -2.510772    -0.35095    0.892549
 )
 
 entry(
-    index = 3338,
+    index = 3328,
     label = "C2F5-2 + C2H6O-2 <=> C2HF5-2 + C2H5O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.24434e-06,'cm^3/(mol*s)'), n=5.04676, Ea=(21.0714,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.05821, dn = +|- 0.094835, dEa = +|- 0.516089 kJ/mol"""),
@@ -46894,7 +46784,7 @@ H    1.819996    1.469934    -0.11415
 )
 
 entry(
-    index = 3339,
+    index = 3329,
     label = "HO + CH3Br <=> H2O + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(693.013,'cm^3/(mol*s)'), n=3.22239, Ea=(0.217169,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0659, dn = +|- 0.00838502, dEa = +|- 0.045631 kJ/mol"""),
@@ -46918,7 +46808,7 @@ H    -2.575257    -1.237568    -0.328643
 )
 
 entry(
-    index = 3340,
+    index = 3330,
     label = "C2BrF4 + C3H8-3 <=> C2HBrF4 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(9.655e-06,'cm^3/(mol*s)'), n=5.17092, Ea=(27.953,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.27456, dn = +|- 0.107966, dEa = +|- 0.587549 kJ/mol"""),
@@ -46953,7 +46843,7 @@ H    -5.131844    -0.488221    -0.109108
 )
 
 entry(
-    index = 3341,
+    index = 3331,
     label = "C2F5-2 + C3H8 <=> C2HF5-2 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000464662,'cm^3/(mol*s)'), n=4.74709, Ea=(10.7378,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.66616, dn = +|- 0.0670722, dEa = +|- 0.365004 kJ/mol"""),
@@ -46988,7 +46878,7 @@ H    2.422877    -2.083267    0.519951
 )
 
 entry(
-    index = 3342,
+    index = 3332,
     label = "C3HBrF3-2 + CHF3 <=> C3H2BrF3-2 + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3455e-06,'cm^3/(mol*s)'), n=5.29789, Ea=(16.7308,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.39948, dn = +|- 0.114991, dEa = +|- 0.625775 kJ/mol"""),
@@ -47018,7 +46908,7 @@ H    0.17136    -2.09198    -0.703685
 )
 
 entry(
-    index = 3343,
+    index = 3333,
     label = "H + BrHO-2 <=> H2 + BrO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(16.6325,'cm^3/(mol*s)'), n=3.64404, Ea=(16.3543,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.37511, dn = +|- 0.113649, dEa = +|- 0.618476 kJ/mol"""),
@@ -47039,7 +46929,7 @@ H    -2.409411    1.382266    -0.038159
 )
 
 entry(
-    index = 3344,
+    index = 3334,
     label = "CH3-2 + CHBrF2-2 <=> CH4-2 + CBrF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0707831,'cm^3/(mol*s)'), n=3.78433, Ea=(20.7407,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.04331, dn = +|- 0.0938801, dEa = +|- 0.510892 kJ/mol"""),
@@ -47065,7 +46955,7 @@ H    -3.544719    -0.310004    -0.140455
 )
 
 entry(
-    index = 3345,
+    index = 3335,
     label = "C2BrF4 + CH2O <=> C2HBrF4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00346092,'cm^3/(mol*s)'), n=4.78055, Ea=(8.44618,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.70142, dn = +|- 0.0698235, dEa = +|- 0.379977 kJ/mol"""),
@@ -47093,7 +46983,7 @@ H    -3.328628    1.580286    0.455315
 )
 
 entry(
-    index = 3346,
+    index = 3336,
     label = "O + C2H5F-2 <=> HO-2 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(21908.5,'cm^3/(mol*s)'), n=2.94077, Ea=(4.70792,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34966, dn = +|- 0.0393948, dEa = +|- 0.214385 kJ/mol"""),
@@ -47119,7 +47009,7 @@ H    0.522289    0.496796    1.46774
 )
 
 entry(
-    index = 3347,
+    index = 3337,
     label = "C2H3Cl2-3 + CH3Cl <=> C2H4Cl2-3 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.63698e-05,'cm^3/(mol*s)'), n=4.77441, Ea=(28.4801,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.02027, dn = +|- 0.0923906, dEa = +|- 0.502786 kJ/mol"""),
@@ -47148,7 +47038,7 @@ H    -3.006409    -0.071137    1.43191
 )
 
 entry(
-    index = 3348,
+    index = 3338,
     label = "C6H5-2 + C2H5Cl-2 <=> C6H6-2 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0265405,'cm^3/(mol*s)'), n=4.60059, Ea=(13.1809,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.59262, dn = +|- 0.0611419, dEa = +|- 0.332732 kJ/mol"""),
@@ -47184,7 +47074,7 @@ H    -0.657337    1.841188    -0.798013
 )
 
 entry(
-    index = 3349,
+    index = 3339,
     label = "O + C2H4F2-3 <=> HO-2 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1053.55,'cm^3/(mol*s)'), n=3.30416, Ea=(9.83092,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63572, dn = +|- 0.0646499, dEa = +|- 0.351822 kJ/mol"""),
@@ -47210,7 +47100,7 @@ H    0.697434    -1.605743    -0.378663
 )
 
 entry(
-    index = 3350,
+    index = 3340,
     label = "C2H2F3-5 + CH2O <=> C2H3F3-5 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000155461,'cm^3/(mol*s)'), n=4.87728, Ea=(10.5758,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.88806, dn = +|- 0.0834984, dEa = +|- 0.454395 kJ/mol"""),
@@ -47238,7 +47128,7 @@ H    -1.757184    -0.484156    -1.638566
 )
 
 entry(
-    index = 3351,
+    index = 3341,
     label = "F + C3H2F4-2 <=> FH + C3HF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.35148e+06,'cm^3/(mol*s)'), n=2.1439, Ea=(2.7353,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09718, dn = +|- 0.0121848, dEa = +|- 0.0663094 kJ/mol"""),
@@ -47265,7 +47155,7 @@ H    0.910686    -2.014641    -0.358082
 )
 
 entry(
-    index = 3352,
+    index = 3342,
     label = "CH3-2 + C2HF3O <=> CH4-2 + C2F3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.172248,'cm^3/(mol*s)'), n=3.74107, Ea=(11.918,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.8989, dn = +|- 0.084251, dEa = +|- 0.458491 kJ/mol"""),
@@ -47293,7 +47183,7 @@ H    3.318666    -0.144356    -0.873288
 )
 
 entry(
-    index = 3353,
+    index = 3343,
     label = "CF3-2 + CH2Cl2 <=> CHF3-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.90156e-05,'cm^3/(mol*s)'), n=5.31003, Ea=(15.6325,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.36798, dn = +|- 0.113254, dEa = +|- 0.616326 kJ/mol"""),
@@ -47319,7 +47209,7 @@ H    -1.237959    -0.007253    1.413581
 )
 
 entry(
-    index = 3354,
+    index = 3344,
     label = "O + C2H5Cl <=> HO-2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(22701.4,'cm^3/(mol*s)'), n=2.92354, Ea=(4.94648,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34277, dn = +|- 0.0387227, dEa = +|- 0.210727 kJ/mol"""),
@@ -47345,7 +47235,7 @@ H    0.503811    -0.953491    0.436301
 )
 
 entry(
-    index = 3355,
+    index = 3345,
     label = "C4H3-3 + CHCl3-2 <=> C4H4-3 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0990796,'cm^3/(mol*s)'), n=3.96996, Ea=(-0.352308,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14386, dn = +|- 0.0176581, dEa = +|- 0.0960949 kJ/mol"""),
@@ -47374,7 +47264,7 @@ H    -3.347606    -2.160309    -0.184655
 )
 
 entry(
-    index = 3356,
+    index = 3346,
     label = "C2H4Cl-4 + C3H6 <=> C2H5Cl-4 + C3H5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.31277e-06,'cm^3/(mol*s)'), n=4.87312, Ea=(23.3871,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.1059, dn = +|- 0.0978447, dEa = +|- 0.532467 kJ/mol"""),
@@ -47407,7 +47297,7 @@ H    -3.13151    1.089411    0.009612
 )
 
 entry(
-    index = 3357,
+    index = 3347,
     label = "C4H5-8 + CHCl3-2 <=> C4H6-8 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.138829,'cm^3/(mol*s)'), n=3.91672, Ea=(-0.469996,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12821, dn = +|- 0.0158488, dEa = +|- 0.0862487 kJ/mol"""),
@@ -47438,7 +47328,7 @@ H    -0.675392    -2.569387    -0.84976
 )
 
 entry(
-    index = 3358,
+    index = 3348,
     label = "C2BrF4 + C2H6 <=> C2HBrF4 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.000361192,'cm^3/(mol*s)'), n=4.96396, Ea=(22.6327,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.96831, dn = +|- 0.0889672, dEa = +|- 0.484156 kJ/mol"""),
@@ -47470,7 +47360,7 @@ H    4.76975    -0.669308    -0.685259
 )
 
 entry(
-    index = 3359,
+    index = 3349,
     label = "C2F5-2 + BrH <=> C2HF5-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1874.3,'cm^3/(mol*s)'), n=2.66823, Ea=(-0.251981,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08013, dn = +|- 0.0101266, dEa = +|- 0.0551085 kJ/mol"""),
@@ -47496,7 +47386,7 @@ H    0.811037    -0.130946    0.011565
 )
 
 entry(
-    index = 3360,
+    index = 3350,
     label = "F + C3H2BrF3 <=> FH + C3HBrF3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.9605e+07,'cm^3/(mol*s)'), n=2.02469, Ea=(-0.273529,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05469, dn = +|- 0.00699527, dEa = +|- 0.038068 kJ/mol"""),
@@ -47523,7 +47413,7 @@ H    -2.104032    1.228784    -0.401076
 )
 
 entry(
-    index = 3361,
+    index = 3351,
     label = "C2H3Cl2-4 + CH4O <=> C2H4Cl2-4 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.44798e-06,'cm^3/(mol*s)'), n=4.92006, Ea=(22.7787,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.09398, dn = +|- 0.0970985, dEa = +|- 0.528406 kJ/mol"""),
@@ -47553,7 +47443,7 @@ H    -1.155522    1.92019    -0.58267
 )
 
 entry(
-    index = 3362,
+    index = 3352,
     label = "C3HF4-4 + CHF3 <=> C3H2F4-4 + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00045842,'cm^3/(mol*s)'), n=4.84647, Ea=(11.1914,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76678, dn = +|- 0.0747758, dEa = +|- 0.406927 kJ/mol"""),
@@ -47583,7 +47473,7 @@ H    1.402857    2.518385    -0.100303
 )
 
 entry(
-    index = 3363,
+    index = 3353,
     label = "HO + C2H2F4-2 <=> H2O + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(168.527,'cm^3/(mol*s)'), n=3.39716, Ea=(1.86489,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14562, dn = +|- 0.0178605, dEa = +|- 0.097196 kJ/mol"""),
@@ -47610,7 +47500,7 @@ H    1.383562    1.079826    1.594159
 )
 
 entry(
-    index = 3364,
+    index = 3354,
     label = "CH3-2 + CH3Br <=> CH4-2 + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00504292,'cm^3/(mol*s)'), n=4.7148, Ea=(31.7665,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.06121, dn = +|- 0.0950263, dEa = +|- 0.517129 kJ/mol"""),
@@ -47636,7 +47526,7 @@ H    3.40585    -0.074615    0.975737
 )
 
 entry(
-    index = 3365,
+    index = 3355,
     label = "O + C2HBrF4-2 <=> HO-2 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.32352,'cm^3/(mol*s)'), n=3.85055, Ea=(15.9019,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.20421, dn = +|- 0.103838, dEa = +|- 0.565085 kJ/mol"""),
@@ -47662,7 +47552,7 @@ H    2.259632    0.203649    -0.018195
 )
 
 entry(
-    index = 3366,
+    index = 3356,
     label = "O + C2H5F <=> HO-2 + C2H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(536.187,'cm^3/(mol*s)'), n=3.38735, Ea=(12.2733,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.65889, dn = +|- 0.0664982, dEa = +|- 0.361881 kJ/mol"""),
@@ -47688,7 +47578,7 @@ H    -1.143558    1.037239    -0.261468
 )
 
 entry(
-    index = 3367,
+    index = 3357,
     label = "HO + C2H2Cl4 <=> H2O + C2HCl4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(290.52,'cm^3/(mol*s)'), n=3.22364, Ea=(-2.30592,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05701, dn = +|- 0.00728429, dEa = +|- 0.0396408 kJ/mol"""),
@@ -47715,7 +47605,7 @@ H    -1.644798    0.889042    -0.479758
 )
 
 entry(
-    index = 3368,
+    index = 3358,
     label = "HO + C2H3Cl3-2 <=> H2O + C2H2Cl3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(271.044,'cm^3/(mol*s)'), n=3.10018, Ea=(-3.2763,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03694, dn = +|- 0.00476512, dEa = +|- 0.0259316 kJ/mol"""),
@@ -47742,7 +47632,7 @@ H    0.514614    2.837842    0.055515
 )
 
 entry(
-    index = 3369,
+    index = 3359,
     label = "C2ClF4 + C3H8-3 <=> C2HClF4 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(3.34791e-05,'cm^3/(mol*s)'), n=5.09024, Ea=(24.3142,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.12511, dn = +|- 0.0990373, dEa = +|- 0.538957 kJ/mol"""),
@@ -47777,7 +47667,7 @@ H    -2.608437    1.504241    -0.088804
 )
 
 entry(
-    index = 3370,
+    index = 3360,
     label = "C4H5-8 + C2H4Cl2 <=> C4H6-8 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00239311,'cm^3/(mol*s)'), n=4.53779, Ea=(9.21257,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53347, dn = +|- 0.0561696, dEa = +|- 0.305673 kJ/mol"""),
@@ -47811,33 +47701,7 @@ H    1.098062    2.430805    0.955198
 )
 
 entry(
-    index = 3371,
-    label = "CF3-2 + CH2F2 <=> CHF3-2 + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(7.17589e-08,'cm^3/(mol*s)'), n=6.08849, Ea=(19.9441,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.72266, dn = +|- 0.172691, dEa = +|- 0.939779 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FCF + F[C](F)F <=> FC(F)F + F[CH]F
-barrier = 49.437747 kJ/mol
-
-Atom XYZ coordinates (angstrom)
-F    1.768713    -0.385063    1.427325
-F    1.897065    1.133894    -0.133758
-F    -1.685274    -1.259269    0.279016
-F    -1.557818    0.246071    -1.268298
-F    -1.595138    0.834905    0.812644
-C    1.520415    -0.116391    0.143529
-C    -1.176352    -0.080328    -0.043262
-H    0.211885    -0.151755    0.001535
-H    2.005048    -0.835517    -0.516342
-""",
-)
-
-entry(
-    index = 3372,
+    index = 3361,
     label = "HO + C2HCl2F3 <=> H2O + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(637.287,'cm^3/(mol*s)'), n=3.13583, Ea=(-2.38455,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04369, dn = +|- 0.0056186, dEa = +|- 0.0305762 kJ/mol"""),
@@ -47864,7 +47728,7 @@ H    -1.121258    0.606579    2.453274
 )
 
 entry(
-    index = 3373,
+    index = 3362,
     label = "C2H3 + C2H4Cl2 <=> C2H4 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00424327,'cm^3/(mol*s)'), n=4.49947, Ea=(9.11746,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53467, dn = +|- 0.0562724, dEa = +|- 0.306232 kJ/mol"""),
@@ -47894,7 +47758,7 @@ H    0.363017    2.603036    0.749543
 )
 
 entry(
-    index = 3374,
+    index = 3363,
     label = "C2BrF4 + H2O2 <=> C2HBrF4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000165712,'cm^3/(mol*s)'), n=4.56635, Ea=(3.77626,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47188, dn = +|- 0.050784, dEa = +|- 0.276365 kJ/mol"""),
@@ -47922,7 +47786,7 @@ H    -3.133729    0.795745    1.275881
 )
 
 entry(
-    index = 3375,
+    index = 3364,
     label = "C6H5-2 + CHCl3-2 <=> C6H6-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(139.282,'cm^3/(mol*s)'), n=2.85817, Ea=(-0.488744,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10636, dn = +|- 0.0132788, dEa = +|- 0.0722628 kJ/mol"""),
@@ -47955,7 +47819,7 @@ H    -1.262049    2.129971    0.331897
 )
 
 entry(
-    index = 3376,
+    index = 3365,
     label = "C2BrF4 + BrH <=> C2HBrF4 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1195.35,'cm^3/(mol*s)'), n=2.65996, Ea=(-0.786561,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08592, dn = +|- 0.0108288, dEa = +|- 0.0589298 kJ/mol"""),
@@ -47981,7 +47845,7 @@ H    -1.590004    -0.140865    0.002162
 )
 
 entry(
-    index = 3377,
+    index = 3366,
     label = "C3HF4-5 + CHF3 <=> C3H2F4-5 + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.23788e-05,'cm^3/(mol*s)'), n=5.02847, Ea=(13.6708,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.00664, dn = +|- 0.0915013, dEa = +|- 0.497947 kJ/mol"""),
@@ -48011,7 +47875,7 @@ H    -0.165215    -2.042797    -0.060254
 )
 
 entry(
-    index = 3378,
+    index = 3367,
     label = "Cl + C2HCl2F3 <=> ClH + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(358928,'cm^3/(mol*s)'), n=2.46348, Ea=(-1.00205,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12109, dn = +|- 0.0150173, dEa = +|- 0.0817234 kJ/mol"""),
@@ -48037,7 +47901,7 @@ H    -1.08744    -0.289451    0.000494
 )
 
 entry(
-    index = 3379,
+    index = 3368,
     label = "C2H3 + C2H4Cl2-2 <=> C2H4 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0045434,'cm^3/(mol*s)'), n=4.59758, Ea=(18.3602,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.68571, dn = +|- 0.0686053, dEa = +|- 0.373347 kJ/mol"""),
@@ -48067,7 +47931,7 @@ H    -2.882374    -1.392125    0.66874
 )
 
 entry(
-    index = 3380,
+    index = 3369,
     label = "C3HF4-6 + CHF3 <=> C3H2F4-6 + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.61034e-07,'cm^3/(mol*s)'), n=5.84404, Ea=(22.5218,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.40235, dn = +|- 0.16087, dEa = +|- 0.875451 kJ/mol"""),
@@ -48097,7 +47961,7 @@ H    1.367114    0.275877    -0.113828
 )
 
 entry(
-    index = 3381,
+    index = 3370,
     label = "CH2Br-2 + C2H6 <=> CH3Br-2 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.00120598,'cm^3/(mol*s)'), n=4.79032, Ea=(36.5156,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.06602, dn = +|- 0.0953326, dEa = +|- 0.518796 kJ/mol"""),
@@ -48126,7 +47990,7 @@ H    1.710649    -1.409964    -0.635889
 )
 
 entry(
-    index = 3382,
+    index = 3371,
     label = "C2H2F3-6 + CH2O <=> C2H3F3-6 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0113618,'cm^3/(mol*s)'), n=4.21979, Ea=(7.67488,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.37854, dn = +|- 0.0421761, dEa = +|- 0.229521 kJ/mol"""),
@@ -48154,7 +48018,7 @@ H    1.90767    -1.459364    -0.24567
 )
 
 entry(
-    index = 3383,
+    index = 3372,
     label = "C6H5-2 + C2H5Cl <=> C6H6-2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0270753,'cm^3/(mol*s)'), n=4.39392, Ea=(5.38839,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.3799, dn = +|- 0.0423055, dEa = +|- 0.230225 kJ/mol"""),
@@ -48190,7 +48054,7 @@ H    2.237352    1.145807    1.030113
 )
 
 entry(
-    index = 3384,
+    index = 3373,
     label = "C2H4Cl-3 + C3H4 <=> C2H5Cl-3 + C3H3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.000298997,'cm^3/(mol*s)'), n=4.75289, Ea=(28.2983,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.0476, dn = +|- 0.0941558, dEa = +|- 0.512392 kJ/mol"""),
@@ -48221,7 +48085,7 @@ H    2.419595    2.183044    -0.512042
 )
 
 entry(
-    index = 3385,
+    index = 3374,
     label = "H + C2HBrF4-2 <=> H2 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.90813,'cm^3/(mol*s)'), n=3.94265, Ea=(22.1002,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.84142, dn = +|- 0.137201, dEa = +|- 0.746641 kJ/mol"""),
@@ -48247,7 +48111,7 @@ H    -3.415378    0.801834    0.00451
 )
 
 entry(
-    index = 3386,
+    index = 3375,
     label = "C2H4Cl-4 + C3H4 <=> C2H5Cl-4 + C3H3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(7.37363e-05,'cm^3/(mol*s)'), n=4.9232, Ea=(30.5433,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.25747, dn = +|- 0.106976, dEa = +|- 0.582158 kJ/mol"""),
@@ -48278,7 +48142,7 @@ H    0.790621    -2.224386    0.374142
 )
 
 entry(
-    index = 3387,
+    index = 3376,
     label = "CH3-2 + C2HBrF4-2 <=> CH4-2 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00253506,'cm^3/(mol*s)'), n=4.77398, Ea=(22.3387,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.04046, dn = +|- 0.0936967, dEa = +|- 0.509894 kJ/mol"""),
@@ -48307,7 +48171,7 @@ H    -3.947558    -0.245126    -0.820365
 )
 
 entry(
-    index = 3388,
+    index = 3377,
     label = "H + C2HCl2F3 <=> H2 + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(26.1997,'cm^3/(mol*s)'), n=3.62444, Ea=(16.9611,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.34564, dn = +|- 0.112009, dEa = +|- 0.60955 kJ/mol"""),
@@ -48333,7 +48197,7 @@ H    0.688982    0.00759    2.541484
 )
 
 entry(
-    index = 3389,
+    index = 3378,
     label = "CH3-2 + BrHO-2 <=> CH4-2 + BrO-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.061911,'cm^3/(mol*s)'), n=4.18155, Ea=(7.41213,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.38956, dn = +|- 0.0432225, dEa = +|- 0.235215 kJ/mol"""),
@@ -48357,7 +48221,7 @@ H    -0.672901    -0.35952    0.992597
 )
 
 entry(
-    index = 3390,
+    index = 3379,
     label = "C2H3 + CHBrF2-2 <=> C2H4 + CBrF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00276522,'cm^3/(mol*s)'), n=4.56327, Ea=(8.02108,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.57119, dn = +|- 0.0593616, dEa = +|- 0.323044 kJ/mol"""),
@@ -48384,7 +48248,7 @@ H    -2.455292    1.640222    0.887147
 )
 
 entry(
-    index = 3391,
+    index = 3380,
     label = "C2H2F3-5 + H2O2 <=> C2H3F3-5 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000180998,'cm^3/(mol*s)'), n=4.36959, Ea=(2.75471,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.38312, dn = +|- 0.0426124, dEa = +|- 0.231895 kJ/mol"""),
@@ -48412,7 +48276,7 @@ H    2.637006    -0.439456    -0.824601
 )
 
 entry(
-    index = 3392,
+    index = 3381,
     label = "C2H3 + C2HBrF4-2 <=> C2H4 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00214662,'cm^3/(mol*s)'), n=4.6113, Ea=(9.91419,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63546, dn = +|- 0.0646291, dEa = +|- 0.351709 kJ/mol"""),
@@ -48442,7 +48306,7 @@ H    3.628128    -0.734263    1.410479
 )
 
 entry(
-    index = 3393,
+    index = 3382,
     label = "C2ClF4 + C3H8 <=> C2HClF4 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.58888e-05,'cm^3/(mol*s)'), n=4.89862, Ea=(15.0701,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.84642, dn = +|- 0.0805685, dEa = +|- 0.438451 kJ/mol"""),
@@ -48477,7 +48341,7 @@ H    2.939646    -0.617464    -0.947122
 )
 
 entry(
-    index = 3394,
+    index = 3383,
     label = "H + C2HClF4-2 <=> H2 + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.45408,'cm^3/(mol*s)'), n=3.92342, Ea=(24.2602,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.85465, dn = +|- 0.137811, dEa = +|- 0.749962 kJ/mol"""),
@@ -48503,7 +48367,7 @@ H    -2.551383    -1.727701    0.005801
 )
 
 entry(
-    index = 3395,
+    index = 3384,
     label = "CH2Br-2 + CH2O <=> CH3Br-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00021424,'cm^3/(mol*s)'), n=4.78244, Ea=(11.2219,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.88805, dn = +|- 0.083498, dEa = +|- 0.454393 kJ/mol"""),
@@ -48528,7 +48392,7 @@ H    -1.868472    -1.551651    -0.271789
 )
 
 entry(
-    index = 3396,
+    index = 3385,
     label = "CH3O-3 + C2H4Cl2 <=> CH4O-3 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00524535,'cm^3/(mol*s)'), n=4.34499, Ea=(9.84972,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.51192, dn = +|- 0.0543098, dEa = +|- 0.295552 kJ/mol"""),
@@ -48558,7 +48422,7 @@ H    2.819455    0.365719    -0.310937
 )
 
 entry(
-    index = 3397,
+    index = 3386,
     label = "CH2Cl-2 + C2H6O2-2 <=> CH3Cl-2 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00132148,'cm^3/(mol*s)'), n=3.9594, Ea=(-0.343464,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15253, dn = +|- 0.0186503, dEa = +|- 0.101494 kJ/mol"""),
@@ -48589,7 +48453,7 @@ H    2.010012    0.670507    1.495664
 )
 
 entry(
-    index = 3398,
+    index = 3387,
     label = "C2HO-2 + CHCl3-2 <=> C2H2O-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0125564,'cm^3/(mol*s)'), n=4.51739, Ea=(9.40405,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.54352, dn = +|- 0.0570279, dEa = +|- 0.310344 kJ/mol"""),
@@ -48615,7 +48479,7 @@ H    -1.343389    -1.919466    -1.442336
 )
 
 entry(
-    index = 3399,
+    index = 3388,
     label = "CHF2-2 + CHCl3-2 <=> CH2F2-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.32774e-05,'cm^3/(mol*s)'), n=5.16588, Ea=(16.2547,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.3066, dn = +|- 0.109804, dEa = +|- 0.597551 kJ/mol"""),
@@ -48641,7 +48505,7 @@ H    2.39606    -1.103577    -0.008816
 )
 
 entry(
-    index = 3400,
+    index = 3389,
     label = "C2ClF4 + BrH <=> C2HClF4 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1629.81,'cm^3/(mol*s)'), n=2.66452, Ea=(-0.86615,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08369, dn = +|- 0.0105588, dEa = +|- 0.0574605 kJ/mol"""),
@@ -48667,7 +48531,7 @@ H    -1.090044    -0.145645    -0.001965
 )
 
 entry(
-    index = 3401,
+    index = 3390,
     label = "C2H4Cl-4 + C2H4O <=> C2H5Cl-4 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00010686,'cm^3/(mol*s)'), n=4.85315, Ea=(12.9131,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97081, dn = +|- 0.0891341, dEa = +|- 0.485064 kJ/mol"""),
@@ -48698,7 +48562,7 @@ H    -1.862592    -1.875878    0.870842
 )
 
 entry(
-    index = 3402,
+    index = 3391,
     label = "HO + CHClO <=> H2O + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(11337,'cm^3/(mol*s)'), n=2.83608, Ea=(-3.6811,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04734, dn = +|- 0.00607676, dEa = +|- 0.0330695 kJ/mol"""),
@@ -48721,7 +48585,7 @@ H    -2.804575    -0.220044    -0.037764
 )
 
 entry(
-    index = 3403,
+    index = 3392,
     label = "C2BrF4 + C3H8 <=> C2HBrF4 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.28371e-05,'cm^3/(mol*s)'), n=4.95414, Ea=(18.2351,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.93149, dn = +|- 0.0864862, dEa = +|- 0.470655 kJ/mol"""),
@@ -48756,7 +48620,7 @@ H    1.40498    -2.092396    1.027322
 )
 
 entry(
-    index = 3404,
+    index = 3393,
     label = "C6H5-2 + C2H4Cl2-2 <=> C6H6-2 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00369907,'cm^3/(mol*s)'), n=4.5789, Ea=(12.4265,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.56622, dn = +|- 0.0589455, dEa = +|- 0.320779 kJ/mol"""),
@@ -48792,7 +48656,7 @@ H    -0.968338    1.927036    -0.015651
 )
 
 entry(
-    index = 3405,
+    index = 3394,
     label = "BrO + CH2O <=> BrHO + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(126.154,'cm^3/(mol*s)'), n=3.23701, Ea=(-3.70566,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07082, dn = +|- 0.00898983, dEa = +|- 0.0489223 kJ/mol"""),
@@ -48815,7 +48679,7 @@ H    -3.128852    0.945946    -0.090741
 )
 
 entry(
-    index = 3406,
+    index = 3395,
     label = "C2ClF4 + C2H6O <=> C2HClF4 + C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000532456,'cm^3/(mol*s)'), n=4.5144, Ea=(5.9574,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47108, dn = +|- 0.0507125, dEa = +|- 0.275976 kJ/mol"""),
@@ -48848,7 +48712,7 @@ H    -2.207135    -1.539952    0.993568
 )
 
 entry(
-    index = 3407,
+    index = 3396,
     label = "HO + C2HBrF4-2 <=> H2O + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(155.485,'cm^3/(mol*s)'), n=3.38049, Ea=(1.94052,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13802, dn = +|- 0.0169857, dEa = +|- 0.0924358 kJ/mol"""),
@@ -48875,7 +48739,7 @@ H    -3.155017    0.860419    0.914215
 )
 
 entry(
-    index = 3408,
+    index = 3397,
     label = "C2H4Cl-4 + CH4O2-3 <=> C2H5Cl-4 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000183916,'cm^3/(mol*s)'), n=4.15466, Ea=(-0.172393,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.2228, dn = +|- 0.0264261, dEa = +|- 0.14381 kJ/mol"""),
@@ -48906,7 +48770,7 @@ H    -1.635197    0.212983    -1.55781
 )
 
 entry(
-    index = 3409,
+    index = 3398,
     label = "O + BrH <=> HO-2 + Br",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.1265e+08,'cm^3/(mol*s)'), n=1.57315, Ea=(2.64349,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08664, dn = +|- 0.010916, dEa = +|- 0.0594047 kJ/mol"""),
@@ -48926,7 +48790,7 @@ H    0.039698    0.331906    0.0
 )
 
 entry(
-    index = 3410,
+    index = 3399,
     label = "HO + C2HFO <=> H2O + C2FO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(48.5972,'cm^3/(mol*s)'), n=3.46412, Ea=(4.30463,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.24936, dn = +|- 0.0292498, dEa = +|- 0.159176 kJ/mol"""),
@@ -48950,7 +48814,7 @@ H    1.908488    -1.160841    -0.786397
 )
 
 entry(
-    index = 3411,
+    index = 3400,
     label = "Cl + C2H5Cl-2 <=> ClH + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(340933,'cm^3/(mol*s)'), n=2.67501, Ea=(-2.60725,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.16248, dn = +|- 0.0197805, dEa = +|- 0.107645 kJ/mol"""),
@@ -48976,7 +48840,7 @@ H    -1.819243    1.481861    0.718227
 )
 
 entry(
-    index = 3412,
+    index = 3401,
     label = "C2H3Cl2-3 + CH4O <=> C2H4Cl2-3 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(9.4987e-06,'cm^3/(mol*s)'), n=4.55596, Ea=(13.1021,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.69426, dn = +|- 0.0692696, dEa = +|- 0.376963 kJ/mol"""),
@@ -49006,7 +48870,7 @@ H    -2.136847    0.927396    0.937299
 )
 
 entry(
-    index = 3413,
+    index = 3402,
     label = "CH2Cl-2 + C3H6O-4 <=> CH3Cl-2 + C3H5O-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.00191243,'cm^3/(mol*s)'), n=4.50187, Ea=(30.3145,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76787, dn = +|- 0.0748569, dEa = +|- 0.407368 kJ/mol"""),
@@ -49037,7 +48901,7 @@ H    -0.393564    -0.452238    -1.513721
 )
 
 entry(
-    index = 3414,
+    index = 3403,
     label = "C2H4Cl-4 + C2H4O-2 <=> C2H5Cl-4 + C2H3O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.36757e-05,'cm^3/(mol*s)'), n=4.45147, Ea=(28.6456,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.66787, dn = +|- 0.0672075, dEa = +|- 0.365741 kJ/mol"""),
@@ -49068,7 +48932,7 @@ H    1.771496    -0.648923    -2.031999
 )
 
 entry(
-    index = 3415,
+    index = 3404,
     label = "HO + C2H3Cl <=> H2O + C2H2Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.04141,'cm^3/(mol*s)'), n=3.84109, Ea=(3.79449,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35625, dn = +|- 0.0400345, dEa = +|- 0.217866 kJ/mol"""),
@@ -49093,7 +48957,7 @@ H    1.292641    -1.462418    0.014141
 )
 
 entry(
-    index = 3416,
+    index = 3405,
     label = "C3HF4-6 + H2-2 <=> C3H2F4-6 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(162.357,'cm^3/(mol*s)'), n=3.17738, Ea=(19.3477,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.22966, dn = +|- 0.027161, dEa = +|- 0.147809 kJ/mol"""),
@@ -49120,7 +48984,7 @@ H    1.84053    2.310671    -0.060353
 )
 
 entry(
-    index = 3417,
+    index = 3406,
     label = "CF3-2 + C2HBrF4-2 <=> CHF3-2 + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.48731e-07,'cm^3/(mol*s)'), n=5.87205, Ea=(22.9722,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.44549, dn = +|- 0.162526, dEa = +|- 0.88446 kJ/mol"""),
@@ -49149,7 +49013,7 @@ H    1.398557    -0.17692    -0.0462
 )
 
 entry(
-    index = 3418,
+    index = 3407,
     label = "C2BrF4 + HO2-4 <=> C2HBrF4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(19.5336,'cm^3/(mol*s)'), n=3.31378, Ea=(-4.31902,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07889, dn = +|- 0.00997637, dEa = +|- 0.054291 kJ/mol"""),
@@ -49176,7 +49040,7 @@ H    2.182774    0.340128    -0.375476
 )
 
 entry(
-    index = 3419,
+    index = 3408,
     label = "HO + C2H4Cl2-5 <=> H2O + C2H3Cl2-5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5061.21,'cm^3/(mol*s)'), n=2.9195, Ea=(-4.0032,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04616, dn = +|- 0.00592845, dEa = +|- 0.0322624 kJ/mol"""),
@@ -49203,7 +49067,7 @@ H    -0.931679    2.306707    0.75811
 )
 
 entry(
-    index = 3420,
+    index = 3409,
     label = "CHCl2-2 + C3H6 <=> CH2Cl2-2 + C3H5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.4076e-05,'cm^3/(mol*s)'), n=4.97969, Ea=(21.8376,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.16769, dn = +|- 0.101644, dEa = +|- 0.553143 kJ/mol"""),
@@ -49233,7 +49097,7 @@ H    2.290505    -1.178526    -1.073428
 )
 
 entry(
-    index = 3421,
+    index = 3410,
     label = "C2H3 + CH3Br <=> C2H4 + CH2Br",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00135881,'cm^3/(mol*s)'), n=4.62338, Ea=(15.0779,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.699, dn = +|- 0.0696366, dEa = +|- 0.37896 kJ/mol"""),
@@ -49260,7 +49124,7 @@ H    0.103833    1.82322    1.118835
 )
 
 entry(
-    index = 3422,
+    index = 3411,
     label = "HO + C2HF3O <=> H2O + C2F3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8005.8,'cm^3/(mol*s)'), n=2.84104, Ea=(-4.23447,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04634, dn = +|- 0.00595144, dEa = +|- 0.0323875 kJ/mol"""),
@@ -49286,7 +49150,7 @@ H    2.355235    -1.119823    0.620166
 )
 
 entry(
-    index = 3423,
+    index = 3412,
     label = "C2ClF4 + C2H6O-2 <=> C2HClF4 + C2H5O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.44694e-05,'cm^3/(mol*s)'), n=4.97497, Ea=(22.171,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97479, dn = +|- 0.0893991, dEa = +|- 0.486507 kJ/mol"""),
@@ -49319,7 +49183,7 @@ H    2.554923    -1.418824    0.337362
 )
 
 entry(
-    index = 3424,
+    index = 3413,
     label = "C2F5-2 + C3H8-3 <=> C2HF5-2 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(3.02384e-05,'cm^3/(mol*s)'), n=4.98693, Ea=(18.7588,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97225, dn = +|- 0.08923, dEa = +|- 0.485586 kJ/mol"""),
@@ -49354,7 +49218,7 @@ H    -2.892671    -1.724107    -0.775562
 )
 
 entry(
-    index = 3425,
+    index = 3414,
     label = "CF3-2 + C2HClF4-2 <=> CHF3-2 + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.91022e-07,'cm^3/(mol*s)'), n=5.92986, Ea=(24.0931,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.59062, dn = +|- 0.167946, dEa = +|- 0.913957 kJ/mol"""),
@@ -49383,7 +49247,7 @@ H    -0.923836    -0.185954    0.036495
 )
 
 entry(
-    index = 3426,
+    index = 3415,
     label = "C2H4Cl-3 + CH4O2-3 <=> C2H5Cl-3 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00391721,'cm^3/(mol*s)'), n=4.05928, Ea=(0.593929,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.17396, dn = +|- 0.0210707, dEa = +|- 0.114666 kJ/mol"""),
@@ -49414,7 +49278,7 @@ H    -2.669603    -2.090646    -0.045723
 )
 
 entry(
-    index = 3427,
+    index = 3416,
     label = "C2H5O-7 + C2HClF4-2 <=> C2H6O-7 + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.14746e-08,'cm^3/(mol*s)'), n=5.9937, Ea=(10.7027,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.04066, dn = +|- 0.0937098, dEa = +|- 0.509965 kJ/mol"""),
@@ -49447,7 +49311,7 @@ H    -0.989781    -0.505243    0.330199
 )
 
 entry(
-    index = 3428,
+    index = 3417,
     label = "C4H3-3 + CH2Cl2 <=> C4H4-3 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0161221,'cm^3/(mol*s)'), n=4.28364, Ea=(2.95395,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.30697, dn = +|- 0.0351724, dEa = +|- 0.191407 kJ/mol"""),
@@ -49476,7 +49340,7 @@ H    3.386246    -1.389463    1.408844
 )
 
 entry(
-    index = 3429,
+    index = 3418,
     label = "HO + CHBrF2-2 <=> H2O + CBrF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1011.78,'cm^3/(mol*s)'), n=3.18113, Ea=(1.47469,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06636, dn = +|- 0.00844133, dEa = +|- 0.0459374 kJ/mol"""),
@@ -49500,7 +49364,7 @@ H    2.940401    -1.065237    0.41253
 )
 
 entry(
-    index = 3430,
+    index = 3419,
     label = "Cl + C2HBrF4-2 <=> ClH + C2BrF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(58243.4,'cm^3/(mol*s)'), n=2.82461, Ea=(5.49137,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.27957, dn = +|- 0.0323888, dEa = +|- 0.176258 kJ/mol"""),
@@ -49526,7 +49390,7 @@ H    1.960413    0.025412    0.002563
 )
 
 entry(
-    index = 3431,
+    index = 3420,
     label = "C2BrF4 + CH3F <=> C2HBrF4 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.1075e-06,'cm^3/(mol*s)'), n=5.50516, Ea=(28.7521,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.80761, dn = +|- 0.135628, dEa = +|- 0.738084 kJ/mol"""),
@@ -49555,7 +49419,7 @@ H    3.659414    -0.501295    -0.576622
 )
 
 entry(
-    index = 3432,
+    index = 3421,
     label = "C2H3 + C2H3F3-2 <=> C2H4 + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000433541,'cm^3/(mol*s)'), n=4.66102, Ea=(10.7726,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.6862, dn = +|- 0.0686432, dEa = +|- 0.373554 kJ/mol"""),
@@ -49586,33 +49450,7 @@ H    -2.621446    0.848154    -0.718151
 )
 
 entry(
-    index = 3433,
-    label = "CHF2-2 + CH2O <=> CH2F2-2 + CHO",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.13664e-05,'cm^3/(mol*s)'), n=5.34976, Ea=(13.4207,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.4558, dn = +|- 0.118039, dEa = +|- 0.642362 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CDO + F[CH]F <=> FCF + [CH]DO
-barrier = 38.707554 kJ/mol
-T1 = 0.021200572
-
-Atom XYZ coordinates (angstrom)
-F    1.282773    -1.30817    0.064719
-F    1.748037    0.816943    -0.111644
-O    -2.474084    0.645008    0.209931
-C    0.959917    -0.08125    0.491457
-C    -1.564187    0.386801    -0.499119
-H    -0.385659    0.171113    -0.004963
-H    -1.645738    0.311719    -1.603864
-H    1.019375    -0.004227    1.576477
-""",
-)
-
-entry(
-    index = 3434,
+    index = 3422,
     label = "F + H2O-2 <=> FH + HO-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.36508e+08,'cm^3/(mol*s)'), n=1.74742, Ea=(-2.25003,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04919, dn = +|- 0.00630874, dEa = +|- 0.0343319 kJ/mol"""),
@@ -49634,7 +49472,7 @@ H    1.119449    -0.839126    0.106859
 )
 
 entry(
-    index = 3435,
+    index = 3423,
     label = "C2HF2-3 + H2-2 <=> C2H2F2-3 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(30596.9,'cm^3/(mol*s)'), n=2.56276, Ea=(16.6942,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08854, dn = +|- 0.0111454, dEa = +|- 0.0606527 kJ/mol"""),
@@ -49659,7 +49497,7 @@ H    2.824955    0.633925    0.011983
 )
 
 entry(
-    index = 3436,
+    index = 3424,
     label = "CCl3 + C3H6 <=> CHCl3 + C3H5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(4.56908e-05,'cm^3/(mol*s)'), n=5.10036, Ea=(23.4118,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.21444, dn = +|- 0.104447, dEa = +|- 0.568398 kJ/mol"""),
@@ -49690,7 +49528,7 @@ H    3.360855    0.358594    1.018266
 )
 
 entry(
-    index = 3437,
+    index = 3425,
     label = "F + ClH-2 <=> FH + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.19129e+09,'cm^3/(mol*s)'), n=1.2595, Ea=(0.0723515,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01896, dn = +|- 0.00246797, dEa = +|- 0.0134306 kJ/mol"""),
@@ -49711,7 +49549,7 @@ H    0.06001    0.513106    -0.0
 )
 
 entry(
-    index = 3438,
+    index = 3426,
     label = "CH3-2 + C2H4F2-3 <=> CH4-2 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00035096,'cm^3/(mol*s)'), n=4.97632, Ea=(28.0107,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.38451, dn = +|- 0.114168, dEa = +|- 0.6213 kJ/mol"""),
@@ -49741,7 +49579,7 @@ H    -2.207924    -0.429846    -1.01204
 )
 
 entry(
-    index = 3439,
+    index = 3427,
     label = "C2F5-2 + C2H6O <=> C2HF5-2 + C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.85099e-05,'cm^3/(mol*s)'), n=4.65307, Ea=(9.19787,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.61554, dn = +|- 0.0630191, dEa = +|- 0.342947 kJ/mol"""),
@@ -49775,7 +49613,7 @@ H    -1.817759    1.627322    -0.648849
 )
 
 entry(
-    index = 3440,
+    index = 3428,
     label = "C2H5-2 + C2H5Cl <=> C2H6-2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.81309e-05,'cm^3/(mol*s)'), n=4.72483, Ea=(24.7748,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.98091, dn = +|- 0.0898055, dEa = +|- 0.488718 kJ/mol"""),
@@ -49808,7 +49646,7 @@ H    -2.505436    -0.146707    1.549756
 )
 
 entry(
-    index = 3441,
+    index = 3429,
     label = "HO + CHClF2-2 <=> H2O + CClF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(502.407,'cm^3/(mol*s)'), n=3.25283, Ea=(1.13512,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08685, dn = +|- 0.0109416, dEa = +|- 0.0595439 kJ/mol"""),
@@ -49833,7 +49671,7 @@ H    2.525941    -0.9721    0.204298
 )
 
 entry(
-    index = 3442,
+    index = 3430,
     label = "C2H3F2-6 + H2O2 <=> C2H4F2-6 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00016016,'cm^3/(mol*s)'), n=4.25875, Ea=(3.34015,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34231, dn = +|- 0.038677, dEa = +|- 0.210479 kJ/mol"""),
@@ -49862,7 +49700,7 @@ H    1.92385    1.289969    -0.160911
 )
 
 entry(
-    index = 3443,
+    index = 3431,
     label = "HO + ClH-2 <=> H2O + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(327231,'cm^3/(mol*s)'), n=2.37899, Ea=(-0.869779,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02379, dn = +|- 0.00308867, dEa = +|- 0.0168084 kJ/mol"""),
@@ -49884,7 +49722,7 @@ H    1.841456    0.835553    -0.058868
 )
 
 entry(
-    index = 3444,
+    index = 3432,
     label = "C2H3 + C2H5F-2 <=> C2H4 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000695561,'cm^3/(mol*s)'), n=4.68311, Ea=(9.84209,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.69151, dn = +|- 0.0690559, dEa = +|- 0.3758 kJ/mol"""),
@@ -49915,7 +49753,7 @@ H    -1.893728    -1.65373    -0.914889
 )
 
 entry(
-    index = 3445,
+    index = 3433,
     label = "CHF2-2 + CH4O <=> CH2F2-2 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.77628e-07,'cm^3/(mol*s)'), n=5.51109, Ea=(23.2113,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.95723, dn = +|- 0.142449, dEa = +|- 0.775204 kJ/mol"""),
@@ -49943,7 +49781,7 @@ H    -1.723084    -1.307681    -0.139864
 )
 
 entry(
-    index = 3446,
+    index = 3434,
     label = "C2H4Cl-4 + H2O2 <=> C2H5Cl-4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.48911e-05,'cm^3/(mol*s)'), n=4.50939, Ea=(4.35418,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53545, dn = +|- 0.0563392, dEa = +|- 0.306596 kJ/mol"""),
@@ -49972,7 +49810,7 @@ H    -1.780177    -1.337426    -1.275863
 )
 
 entry(
-    index = 3447,
+    index = 3435,
     label = "C2HO-2 + C2H4Cl2 <=> C2H2O-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.0476909,'cm^3/(mol*s)'), n=4.28103, Ea=(11.1314,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.37529, dn = +|- 0.0418661, dEa = +|- 0.227834 kJ/mol"""),
@@ -50002,7 +49840,7 @@ H    0.419659    -2.424854    -0.085102
 )
 
 entry(
-    index = 3448,
+    index = 3436,
     label = "C2H3 + C2H4F2-3 <=> C2H4 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00124041,'cm^3/(mol*s)'), n=4.65936, Ea=(9.99105,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.67817, dn = +|- 0.0680162, dEa = +|- 0.370142 kJ/mol"""),
@@ -50033,7 +49871,7 @@ H    -2.389658    1.457938    1.125477
 )
 
 entry(
-    index = 3449,
+    index = 3437,
     label = "HO + C2H4Cl2-2 <=> H2O + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(456.058,'cm^3/(mol*s)'), n=3.11779, Ea=(-4.27792,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04221, dn = +|- 0.00543185, dEa = +|- 0.0295599 kJ/mol"""),
@@ -50061,7 +49899,7 @@ H    1.781947    -0.971371    0.041903
 )
 
 entry(
-    index = 3450,
+    index = 3438,
     label = "C2H3Cl2-4 + C2H6O2-2 <=> C2H4Cl2-4 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000175537,'cm^3/(mol*s)'), n=4.32289, Ea=(3.03755,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.33942, dn = +|- 0.0383938, dEa = +|- 0.208937 kJ/mol"""),
@@ -50096,32 +49934,7 @@ H    -2.058361    -1.793941    0.433968
 )
 
 entry(
-    index = 3451,
-    label = "HO + CH3F <=> H2O + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(1339.5,'cm^3/(mol*s)'), n=3.1719, Ea=(3.53251,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06757, dn = +|- 0.00859005, dEa = +|- 0.0467467 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CF + [OH] <=> O + [CH2]F
-barrier = 13.552804 kJ/mol
-T1 = 0.024039924
-
-Atom XYZ coordinates (angstrom)
-F    -1.255693    -0.567278    -0.107185
-O    1.726295    -0.014377    0.233778
-C    -0.68588    0.671909    -0.077585
-H    0.474577    0.531813    0.069758
-H    -1.053523    1.235028    0.777347
-H    -0.831373    1.176069    -1.030344
-H    1.447922    -0.944588    0.223487
-""",
-)
-
-entry(
-    index = 3452,
+    index = 3439,
     label = "F + H2-2 <=> FH + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.02387e+10,'cm^3/(mol*s)'), n=1.18301, Ea=(0.0691356,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00957, dn = +|- 0.00125137, dEa = +|- 0.0068099 kJ/mol"""),
@@ -50142,7 +49955,7 @@ H    -0.269606    0.27505    -0.0
 )
 
 entry(
-    index = 3453,
+    index = 3440,
     label = "C2H3 + C2H3F3 <=> C2H4 + C2H2F3",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00407211,'cm^3/(mol*s)'), n=4.61293, Ea=(19.8457,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.70458, dn = +|- 0.0700676, dEa = +|- 0.381305 kJ/mol"""),
@@ -50173,7 +49986,7 @@ H    3.162008    1.296652    -0.259165
 )
 
 entry(
-    index = 3454,
+    index = 3441,
     label = "H + C2H5Cl <=> H2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6949.16,'cm^3/(mol*s)'), n=3.04431, Ea=(14.4548,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.65199, dn = +|- 0.0659502, dEa = +|- 0.358898 kJ/mol"""),
@@ -50200,7 +50013,7 @@ H    0.626448    2.259785    -1.001702
 )
 
 entry(
-    index = 3455,
+    index = 3442,
     label = "HO + CHCl2F <=> H2O + CCl2F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1558.17,'cm^3/(mol*s)'), n=2.99725, Ea=(-4.06675,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03792, dn = +|- 0.00489034, dEa = +|- 0.0266131 kJ/mol"""),
@@ -50225,7 +50038,7 @@ H    -1.827356    -2.141362    -0.132301
 )
 
 entry(
-    index = 3456,
+    index = 3443,
     label = "C2H3Cl2-3 + C3H6O-4 <=> C2H4Cl2-3 + C3H5O-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(1.65295e-05,'cm^3/(mol*s)'), n=4.34184, Ea=(17.6838,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53565, dn = +|- 0.0563562, dEa = +|- 0.306689 kJ/mol"""),
@@ -50260,31 +50073,7 @@ H    1.248877    -0.729425    -0.261784
 )
 
 entry(
-    index = 3457,
-    label = "HO + CHFO <=> H2O + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(116.569,'cm^3/(mol*s)'), n=3.32535, Ea=(3.3921,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13659, dn = +|- 0.0168206, dEa = +|- 0.0915369 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: ODCF + [OH] <=> O + OD[C]F
-barrier = 14.096212 kJ/mol
-T1 = 0.028242741000000002
-
-Atom XYZ coordinates (angstrom)
-F    -0.624262    -1.185191    -0.031048
-O    -1.434975    0.862044    0.166833
-O    1.977842    0.386793    0.10157
-C    -0.523296    0.137    0.092993
-H    0.631855    0.42862    0.113564
-H    2.132099    -0.568433    0.011487
-""",
-)
-
-entry(
-    index = 3458,
+    index = 3444,
     label = "H + CHClO <=> H2 + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4369.24,'cm^3/(mol*s)'), n=3.03133, Ea=(4.90657,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.52821, dn = +|- 0.055718, dEa = +|- 0.303215 kJ/mol"""),
@@ -50307,7 +50096,7 @@ H    0.909401    2.491074    0.196626
 )
 
 entry(
-    index = 3459,
+    index = 3445,
     label = "C2H3Cl2-4 + HO2-4 <=> C2H4Cl2-4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.07576,'cm^3/(mol*s)'), n=3.2809, Ea=(-5.6594,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13142, dn = +|- 0.0162217, dEa = +|- 0.0882777 kJ/mol"""),
@@ -50335,7 +50124,7 @@ H    -0.215128    -1.102408    -0.903088
 )
 
 entry(
-    index = 3460,
+    index = 3446,
     label = "C2H3 + C2H5F <=> C2H4 + C2H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00398332,'cm^3/(mol*s)'), n=4.63777, Ea=(18.573,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.71738, dn = +|- 0.0710501, dEa = +|- 0.386652 kJ/mol"""),
@@ -50366,7 +50155,7 @@ H    1.494219    -1.689519    0.102109
 )
 
 entry(
-    index = 3461,
+    index = 3447,
     label = "CH3O-3 + CH3Cl <=> CH4O-3 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000355357,'cm^3/(mol*s)'), n=4.67761, Ea=(11.3574,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.80649, dn = +|- 0.0776961, dEa = +|- 0.422819 kJ/mol"""),
@@ -50394,7 +50183,7 @@ H    -0.552052    0.929817    -0.025755
 )
 
 entry(
-    index = 3462,
+    index = 3448,
     label = "HO + C3H2F4-2 <=> H2O + C3HF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.263909,'cm^3/(mol*s)'), n=4.11505, Ea=(11.2863,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.62511, dn = +|- 0.0637949, dEa = +|- 0.34717 kJ/mol"""),
@@ -50423,7 +50212,7 @@ H    -2.329643    1.803611    -0.184789
 )
 
 entry(
-    index = 3463,
+    index = 3449,
     label = "O + C2HCl2F3 <=> HO-2 + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(94.129,'cm^3/(mol*s)'), n=3.46465, Ea=(9.66283,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76683, dn = +|- 0.0747796, dEa = +|- 0.406948 kJ/mol"""),
@@ -50450,7 +50239,7 @@ H    0.631887    -0.616515    1.151045
 )
 
 entry(
-    index = 3464,
+    index = 3450,
     label = "C2H4Cl-4 + CH4O <=> C2H5Cl-4 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.49816e-07,'cm^3/(mol*s)'), n=4.98955, Ea=(27.9002,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.27236, dn = +|- 0.107839, dEa = +|- 0.586858 kJ/mol"""),
@@ -50481,33 +50270,7 @@ H    1.478026    -1.193098    -0.758476
 )
 
 entry(
-    index = 3465,
-    label = "CF3-2 + H2O2 <=> CHF3-2 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(0.00130527,'cm^3/(mol*s)'), n=4.66338, Ea=(7.74574,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.61422, dn = +|- 0.0629114, dEa = +|- 0.342361 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: F[C](F)F + OO <=> FC(F)F + [O]O
-barrier = 28.277119 kJ/mol
-T1 = 0.019385971999999998
-
-Atom XYZ coordinates (angstrom)
-F    0.98095    -0.967929    0.796838
-F    1.696002    0.171438    -0.897238
-F    0.494569    1.132464    0.625108
-O    -1.534233    -0.377956    -1.10307
-O    -2.314053    -0.177481    0.023935
-C    0.710693    0.011802    -0.037677
-H    -0.492367    -0.28563    -0.722729
-H    -2.560755    0.755043    -0.038964
-""",
-)
-
-entry(
-    index = 3466,
+    index = 3451,
     label = "C2H3F2-6 + CH2O <=> C2H4F2-6 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00152503,'cm^3/(mol*s)'), n=4.43141, Ea=(8.15764,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.51181, dn = +|- 0.0543, dEa = +|- 0.295499 kJ/mol"""),
@@ -50536,7 +50299,7 @@ H    -1.367192    1.118774    -1.131438
 )
 
 entry(
-    index = 3467,
+    index = 3452,
     label = "HO + C2HClF4-2 <=> H2O + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(436.593,'cm^3/(mol*s)'), n=3.2862, Ea=(-1.22477,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08623, dn = +|- 0.0108672, dEa = +|- 0.0591387 kJ/mol"""),
@@ -50564,7 +50327,7 @@ H    2.554377    -1.238631    0.818862
 )
 
 entry(
-    index = 3468,
+    index = 3453,
     label = "C2H3 + CHCl3-2 <=> C2H4 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(14.8074,'cm^3/(mol*s)'), n=3.63969, Ea=(-3.70722,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03551, dn = +|- 0.00458424, dEa = +|- 0.0249473 kJ/mol"""),
@@ -50592,7 +50355,7 @@ H    2.360472    -0.394446    -1.848885
 )
 
 entry(
-    index = 3469,
+    index = 3454,
     label = "C3HF4-4 + HO-4 <=> C3H2F4-4 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(46.7656,'cm^3/(mol*s)'), n=3.23109, Ea=(4.48563,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05707, dn = +|- 0.00729111, dEa = +|- 0.0396779 kJ/mol"""),
@@ -50620,7 +50383,7 @@ H    0.08233    1.552823    0.24688
 )
 
 entry(
-    index = 3470,
+    index = 3455,
     label = "C3H7-4 + C2H5Cl <=> C3H8-4 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.13868e-05,'cm^3/(mol*s)'), n=4.69157, Ea=(23.4488,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.92244, dn = +|- 0.0858695, dEa = +|- 0.467298 kJ/mol"""),
@@ -50656,7 +50419,7 @@ H    0.895518    0.765472    1.422729
 )
 
 entry(
-    index = 3471,
+    index = 3456,
     label = "C2H3Cl2-4 + C3H6O-4 <=> C2H4Cl2-4 + C3H5O-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(1.22737e-05,'cm^3/(mol*s)'), n=4.53091, Ea=(28.8662,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.68609, dn = +|- 0.0686348, dEa = +|- 0.373508 kJ/mol"""),
@@ -50691,7 +50454,7 @@ H    1.632083    -0.372917    2.117771
 )
 
 entry(
-    index = 3472,
+    index = 3457,
     label = "HO + C2HF5 <=> H2O + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(108.079,'cm^3/(mol*s)'), n=3.43515, Ea=(1.57413,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15614, dn = +|- 0.0190619, dEa = +|- 0.103734 kJ/mol"""),
@@ -50719,33 +50482,7 @@ H    2.105603    -1.716024    0.154199
 )
 
 entry(
-    index = 3473,
-    label = "CH2F-2 + H2O2 <=> CH3F-2 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(7.29486e-05,'cm^3/(mol*s)'), n=4.71135, Ea=(6.90614,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76045, dn = +|- 0.0743048, dEa = +|- 0.404364 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: [CH2]F + OO <=> CF + [O]O
-barrier = 33.389759 kJ/mol
-T1 = 0.021168614
-
-Atom XYZ coordinates (angstrom)
-F    -1.231497    -0.83098    -0.331873
-O    1.183883    0.907439    -0.599846
-O    1.652976    -0.085105    0.243509
-C    -1.240269    0.510258    -0.180808
-H    -1.403363    0.795682    0.854483
-H    -1.852835    0.995639    -0.935103
-H    0.035005    0.88587    -0.430486
-H    1.663019    -0.870992    -0.318771
-""",
-)
-
-entry(
-    index = 3474,
+    index = 3458,
     label = "CF3-2 + C2H4F2-3 <=> CHF3-2 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.59798e-06,'cm^3/(mol*s)'), n=5.60354, Ea=(19.8568,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.8601, dn = +|- 0.138062, dEa = +|- 0.751326 kJ/mol"""),
@@ -50775,7 +50512,7 @@ H    2.908163    -0.386768    0.541388
 )
 
 entry(
-    index = 3475,
+    index = 3459,
     label = "C2H3 + CHF3 <=> C2H4 + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.0514e-05,'cm^3/(mol*s)'), n=5.03692, Ea=(16.9008,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.13444, dn = +|- 0.0996126, dEa = +|- 0.542088 kJ/mol"""),
@@ -50803,7 +50540,7 @@ H    2.141692    -1.270197    0.274473
 )
 
 entry(
-    index = 3476,
+    index = 3460,
     label = "C2F5-2 + C2H6 <=> C2HF5-2 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.000107525,'cm^3/(mol*s)'), n=5.07281, Ea=(22.8465,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.09966, dn = +|- 0.0974542, dEa = +|- 0.530342 kJ/mol"""),
@@ -50836,7 +50573,7 @@ H    2.862886    0.815976    -0.866565
 )
 
 entry(
-    index = 3477,
+    index = 3461,
     label = "C3H7-2 + CHCl3-2 <=> C3H8-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0257753,'cm^3/(mol*s)'), n=4.03231, Ea=(2.60359,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.23738, dn = +|- 0.0279836, dEa = +|- 0.152286 kJ/mol"""),
@@ -50869,7 +50606,7 @@ H    1.710087    0.202483    -1.927871
 )
 
 entry(
-    index = 3478,
+    index = 3462,
     label = "C2HF4-3 + CH2F2 <=> C2H2F4-3 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.10541e-07,'cm^3/(mol*s)'), n=5.61421, Ea=(32.0305,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.19189, dn = +|- 0.152481, dEa = +|- 0.829797 kJ/mol"""),
@@ -50899,7 +50636,7 @@ H    -2.187846    0.170735    -1.537982
 )
 
 entry(
-    index = 3479,
+    index = 3463,
     label = "C2H4F-4 + H2O2 <=> C2H5F-4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000224377,'cm^3/(mol*s)'), n=4.12429, Ea=(0.782738,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.25157, dn = +|- 0.0294815, dEa = +|- 0.160437 kJ/mol"""),
@@ -50928,7 +50665,7 @@ H    -1.25141    -1.3818    -0.371956
 )
 
 entry(
-    index = 3480,
+    index = 3464,
     label = "C2H3O-5 + CHCl3-2 <=> C2H4O-5 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00370875,'cm^3/(mol*s)'), n=4.72462, Ea=(22.2759,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.90523, dn = +|- 0.0846881, dEa = +|- 0.46087 kJ/mol"""),
@@ -50957,7 +50694,7 @@ H    -2.57147    -1.38092    1.063982
 )
 
 entry(
-    index = 3481,
+    index = 3465,
     label = "H + CHCl2F <=> H2 + CCl2F",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1002.36,'cm^3/(mol*s)'), n=3.26685, Ea=(8.0317,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.74629, dn = +|- 0.0732432, dEa = +|- 0.398587 kJ/mol"""),
@@ -50981,7 +50718,7 @@ H    -0.31516    1.316378    2.2456
 )
 
 entry(
-    index = 3482,
+    index = 3466,
     label = "C2ClF4 + C2H6 <=> C2HClF4 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.000512344,'cm^3/(mol*s)'), n=4.96419, Ea=(23.6296,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.95239, dn = +|- 0.0879001, dEa = +|- 0.478349 kJ/mol"""),
@@ -51014,7 +50751,7 @@ H    -3.139176    1.207036    0.670324
 )
 
 entry(
-    index = 3483,
+    index = 3467,
     label = "CH3-2 + C2H5F-2 <=> CH4-2 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000211752,'cm^3/(mol*s)'), n=5.10524, Ea=(26.5142,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.55734, dn = +|- 0.123362, dEa = +|- 0.67133 kJ/mol"""),
@@ -51044,7 +50781,7 @@ H    1.938051    1.51637    -0.253803
 )
 
 entry(
-    index = 3484,
+    index = 3468,
     label = "C2HF4-4 + H2O2 <=> C2H2F4-4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.05919e-05,'cm^3/(mol*s)'), n=4.73937, Ea=(5.76014,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63523, dn = +|- 0.0646104, dEa = +|- 0.351607 kJ/mol"""),
@@ -51073,7 +50810,7 @@ H    -1.912016    1.778739    0.398575
 )
 
 entry(
-    index = 3485,
+    index = 3469,
     label = "Cl + HO-4 <=> ClH + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.91345e+06,'cm^3/(mol*s)'), n=2.13065, Ea=(17.7689,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.29815, dn = +|- 0.0342828, dEa = +|- 0.186566 kJ/mol"""),
@@ -51094,7 +50831,7 @@ H    -0.063252    0.318708    -0.0
 )
 
 entry(
-    index = 3486,
+    index = 3470,
     label = "O + C2H4F2-2 <=> HO-2 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(240.606,'cm^3/(mol*s)'), n=3.47429, Ea=(17.3738,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.86418, dn = +|- 0.0818262, dEa = +|- 0.445295 kJ/mol"""),
@@ -51121,7 +50858,7 @@ H    -0.760798    -0.088548    0.623033
 )
 
 entry(
-    index = 3487,
+    index = 3471,
     label = "C2H2F3-6 + HO-4 <=> C2H3F3-6 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0136376,'cm^3/(mol*s)'), n=3.94229, Ea=(18.668,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.74619, dn = +|- 0.0732363, dEa = +|- 0.398549 kJ/mol"""),
@@ -51148,7 +50885,7 @@ H    1.650992    0.45067    0.200131
 )
 
 entry(
-    index = 3488,
+    index = 3472,
     label = "C2H5-2 + CH2Cl2 <=> C2H6-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000600096,'cm^3/(mol*s)'), n=4.55875, Ea=(15.7842,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.74256, dn = +|- 0.0729624, dEa = +|- 0.397059 kJ/mol"""),
@@ -51178,7 +50915,7 @@ H    -2.107237    -1.689732    0.45841
 )
 
 entry(
-    index = 3489,
+    index = 3473,
     label = "CH3-2 + C2H2F4 <=> CH4-2 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00123401,'cm^3/(mol*s)'), n=4.83336, Ea=(27.3064,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.15842, dn = +|- 0.101081, dEa = +|- 0.550078 kJ/mol"""),
@@ -51208,7 +50945,7 @@ H    -3.173178    -0.937186    0.88752
 )
 
 entry(
-    index = 3490,
+    index = 3474,
     label = "CH2F-2 + C2H4F2-3 <=> CH3F-2 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(2.29817e-06,'cm^3/(mol*s)'), n=5.31012, Ea=(32.5077,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.87963, dn = +|- 0.138956, dEa = +|- 0.756193 kJ/mol"""),
@@ -51238,7 +50975,7 @@ H    -2.492612    0.438875    -0.585765
 )
 
 entry(
-    index = 3491,
+    index = 3475,
     label = "C2H3 + C2H3F3-3 <=> C2H4 + C2H2F3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000403061,'cm^3/(mol*s)'), n=4.70465, Ea=(8.57144,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.68805, dn = +|- 0.068787, dEa = +|- 0.374336 kJ/mol"""),
@@ -51269,7 +51006,7 @@ H    2.683327    -1.161333    0.269264
 )
 
 entry(
-    index = 3492,
+    index = 3476,
     label = "C2H3 + C2H5Cl-2 <=> C2H4 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00409159,'cm^3/(mol*s)'), n=4.55921, Ea=(14.6966,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63553, dn = +|- 0.064635, dEa = +|- 0.351741 kJ/mol"""),
@@ -51300,7 +51037,7 @@ H    3.05233    -0.408985    1.490489
 )
 
 entry(
-    index = 3493,
+    index = 3477,
     label = "HO + C2H3F3-2 <=> H2O + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(71.6394,'cm^3/(mol*s)'), n=3.27905, Ea=(-0.669793,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08484, dn = +|- 0.0106983, dEa = +|- 0.05822 kJ/mol"""),
@@ -51328,7 +51065,7 @@ H    1.29675    -0.41774    -0.296927
 )
 
 entry(
-    index = 3494,
+    index = 3478,
     label = "CCl3 + H2O2 <=> CHCl3 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.28226e-06,'cm^3/(mol*s)'), n=5.34466, Ea=(11.312,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.36886, dn = +|- 0.113304, dEa = +|- 0.616593 kJ/mol"""),
@@ -51354,7 +51091,7 @@ H    -2.682094    0.948512    -0.837399
 )
 
 entry(
-    index = 3495,
+    index = 3479,
     label = "C2F5-2 + H2O2 <=> C2HF5-2 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.23688e-05,'cm^3/(mol*s)'), n=4.8052, Ea=(8.17727,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.73959, dn = +|- 0.0727382, dEa = +|- 0.395839 kJ/mol"""),
@@ -51383,7 +51120,7 @@ H    2.274442    -1.809056    0.132793
 )
 
 entry(
-    index = 3496,
+    index = 3480,
     label = "HO + C2H4F2-2 <=> H2O + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4552.15,'cm^3/(mol*s)'), n=2.97703, Ea=(-0.778445,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02983, dn = +|- 0.00386171, dEa = +|- 0.0210153 kJ/mol"""),
@@ -51411,7 +51148,7 @@ H    -2.307058    -0.993662    -0.134623
 )
 
 entry(
-    index = 3497,
+    index = 3481,
     label = "H + C2H4Cl2 <=> H2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4835.36,'cm^3/(mol*s)'), n=3.16527, Ea=(14.9109,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76283, dn = +|- 0.0744823, dEa = +|- 0.40533 kJ/mol"""),
@@ -51438,7 +51175,7 @@ H    0.196286    2.042691    1.283283
 )
 
 entry(
-    index = 3498,
+    index = 3482,
     label = "Cl + C2H4Cl2-2 <=> ClH + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(41538.7,'cm^3/(mol*s)'), n=2.90862, Ea=(-1.73871,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.20256, dn = +|- 0.0242337, dEa = +|- 0.131879 kJ/mol"""),
@@ -51465,7 +51202,7 @@ H    1.595006    -0.478676    -0.454338
 )
 
 entry(
-    index = 3499,
+    index = 3483,
     label = "H + C2HF3O <=> H2 + C2F3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3337.54,'cm^3/(mol*s)'), n=3.09142, Ea=(5.98056,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.58757, dn = +|- 0.0607247, dEa = +|- 0.330462 kJ/mol"""),
@@ -51491,7 +51228,7 @@ H    1.831171    -2.400466    -0.017302
 )
 
 entry(
-    index = 3500,
+    index = 3484,
     label = "C2ClF4 + CH2O <=> C2HClF4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000928212,'cm^3/(mol*s)'), n=4.83601, Ea=(9.20358,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76165, dn = +|- 0.0743944, dEa = +|- 0.404852 kJ/mol"""),
@@ -51520,7 +51257,7 @@ H    -2.675416    -1.836199    -0.227634
 )
 
 entry(
-    index = 3501,
+    index = 3485,
     label = "C2H3F2-5 + CH2O <=> C2H4F2-5 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.36749e-05,'cm^3/(mol*s)'), n=5.18882, Ea=(14.937,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.33169, dn = +|- 0.111225, dEa = +|- 0.605284 kJ/mol"""),
@@ -51549,7 +51286,7 @@ H    1.601283    -0.253516    -1.575873
 )
 
 entry(
-    index = 3502,
+    index = 3486,
     label = "CHCl2-2 + C2H4O <=> CH2Cl2-2 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000178472,'cm^3/(mol*s)'), n=4.79279, Ea=(14.0962,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.89942, dn = +|- 0.0842864, dEa = +|- 0.458683 kJ/mol"""),
@@ -51578,7 +51315,7 @@ H    -1.182243    -0.465742    -1.348096
 )
 
 entry(
-    index = 3503,
+    index = 3487,
     label = "C2H3Cl2-4 + C3H4 <=> C2H4Cl2-4 + C3H3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(4.26324e-05,'cm^3/(mol*s)'), n=4.91883, Ea=(31.2803,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.21529, dn = +|- 0.104498, dEa = +|- 0.568673 kJ/mol"""),
@@ -51610,7 +51347,7 @@ H    -2.006654    -0.586948    -1.548659
 )
 
 entry(
-    index = 3504,
+    index = 3488,
     label = "ClO-2 + CHClO <=> ClHO-2 + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.139443,'cm^3/(mol*s)'), n=3.60576, Ea=(12.8822,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.08805, dn = +|- 0.096726, dEa = +|- 0.526379 kJ/mol"""),
@@ -51634,7 +51371,7 @@ H    0.099492    -0.416119    0.170858
 )
 
 entry(
-    index = 3505,
+    index = 3489,
     label = "C2H3Cl2-4 + C2H4O <=> C2H4Cl2-4 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.13814e-05,'cm^3/(mol*s)'), n=4.72951, Ea=(14.5604,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.83948, dn = +|- 0.0800742, dEa = +|- 0.435761 kJ/mol"""),
@@ -51666,7 +51403,7 @@ H    -0.88788    1.456214    1.248817
 )
 
 entry(
-    index = 3506,
+    index = 3490,
     label = "ClO-2 + H2O2 <=> ClHO-2 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0864099,'cm^3/(mol*s)'), n=3.99429, Ea=(6.5601,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.48852, dn = +|- 0.0522608, dEa = +|- 0.284401 kJ/mol"""),
@@ -51690,7 +51427,7 @@ H    -0.427423    -0.111121    0.982722
 )
 
 entry(
-    index = 3507,
+    index = 3491,
     label = "HO + C2H4F2 <=> H2O + C2H3F2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(41.636,'cm^3/(mol*s)'), n=3.42765, Ea=(1.6447,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1516, dn = +|- 0.0185442, dEa = +|- 0.100917 kJ/mol"""),
@@ -51718,7 +51455,7 @@ H    -1.535645    -0.46336    0.045847
 )
 
 entry(
-    index = 3508,
+    index = 3492,
     label = "C3HF4-5 + CH4 <=> C3H2F4-5 + CH3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.115229,'cm^3/(mol*s)'), n=4.45282, Ea=(12.118,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47883, dn = +|- 0.0514028, dEa = +|- 0.279732 kJ/mol"""),
@@ -51749,7 +51486,7 @@ H    -0.93044    -1.586608    1.124078
 )
 
 entry(
-    index = 3509,
+    index = 3493,
     label = "C2H3F2-4 + H2O2 <=> C2H4F2-4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000160184,'cm^3/(mol*s)'), n=4.59008, Ea=(2.34657,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47857, dn = +|- 0.0513793, dEa = +|- 0.279604 kJ/mol"""),
@@ -51778,7 +51515,7 @@ H    1.992143    0.438986    -1.59539
 )
 
 entry(
-    index = 3510,
+    index = 3494,
     label = "CH2Cl-2 + C3H8 <=> CH3Cl-2 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.06941e-05,'cm^3/(mol*s)'), n=4.73759, Ea=(31.4058,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97498, dn = +|- 0.0894115, dEa = +|- 0.486574 kJ/mol"""),
@@ -51811,7 +51548,7 @@ H    1.756837    -0.239637    1.51934
 )
 
 entry(
-    index = 3511,
+    index = 3495,
     label = "CF3-2 + C2H3F3-3 <=> CHF3-2 + C2H2F3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.04321e-07,'cm^3/(mol*s)'), n=5.89119, Ea=(19.3701,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.32013, dn = +|- 0.157657, dEa = +|- 0.857962 kJ/mol"""),
@@ -51841,7 +51578,7 @@ H    -0.16136    -0.200991    -0.108329
 )
 
 entry(
-    index = 3512,
+    index = 3496,
     label = "CF3-2 + C2H2F4-2 <=> CHF3-2 + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.87492e-07,'cm^3/(mol*s)'), n=5.86419, Ea=(22.1206,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.36151, dn = +|- 0.159284, dEa = +|- 0.866816 kJ/mol"""),
@@ -51871,7 +51608,7 @@ H    2.876401    -0.183064    0.203465
 )
 
 entry(
-    index = 3513,
+    index = 3497,
     label = "C2H3Cl2-3 + C2H6O2-2 <=> C2H4Cl2-3 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000263218,'cm^3/(mol*s)'), n=4.0057, Ea=(-0.533621,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14023, dn = +|- 0.0172407, dEa = +|- 0.093823 kJ/mol"""),
@@ -51906,7 +51643,7 @@ H    0.868452    -0.829448    1.108807
 )
 
 entry(
-    index = 3514,
+    index = 3498,
     label = "C2ClF4 + HO2-4 <=> C2HClF4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(17.0529,'cm^3/(mol*s)'), n=3.34111, Ea=(0.656234,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0498, dn = +|- 0.0063845, dEa = +|- 0.0347442 kJ/mol"""),
@@ -51934,7 +51671,7 @@ H    -1.70132    0.384604    -0.259121
 )
 
 entry(
-    index = 3515,
+    index = 3499,
     label = "CH2F-2 + HO2-4 <=> CH3F-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0658182,'cm^3/(mol*s)'), n=3.68782, Ea=(-7.02167,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.17855, dn = +|- 0.0215832, dEa = +|- 0.117455 kJ/mol"""),
@@ -51959,7 +51696,7 @@ H    -0.314572    -0.499779    0.007366
 )
 
 entry(
-    index = 3516,
+    index = 3500,
     label = "C2H2F + H2-2 <=> C2H3F + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(131.167,'cm^3/(mol*s)'), n=3.22972, Ea=(17.9059,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.26603, dn = +|- 0.0309911, dEa = +|- 0.168652 kJ/mol"""),
@@ -51984,7 +51721,7 @@ H    0.414802    2.5453    0.0162
 )
 
 entry(
-    index = 3517,
+    index = 3501,
     label = "O + C2H4Cl2 <=> HO-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(489.897,'cm^3/(mol*s)'), n=3.50009, Ea=(12.0958,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.80446, dn = +|- 0.0775486, dEa = +|- 0.422017 kJ/mol"""),
@@ -52011,7 +51748,7 @@ H    -1.055425    -1.05192    0.231264
 )
 
 entry(
-    index = 3518,
+    index = 3502,
     label = "HO + C3H7Cl <=> H2O + C3H6Cl",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(483.128,'cm^3/(mol*s)'), n=3.017, Ea=(-5.66545,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05576, dn = +|- 0.00712927, dEa = +|- 0.0387972 kJ/mol"""),
@@ -52042,7 +51779,7 @@ H    -1.833868    -0.721445    -1.260163
 )
 
 entry(
-    index = 3519,
+    index = 3503,
     label = "CH2Cl-2 + CH4O <=> CH3Cl-2 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.568e-06,'cm^3/(mol*s)'), n=5.03036, Ea=(27.3516,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.43771, dn = +|- 0.117067, dEa = +|- 0.637076 kJ/mol"""),
@@ -52070,7 +51807,7 @@ H    -2.008065    0.020257    1.555905
 )
 
 entry(
-    index = 3520,
+    index = 3504,
     label = "C2Cl3 + HO-4 <=> C2HCl3 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.280379,'cm^3/(mol*s)'), n=3.75994, Ea=(6.80171,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34664, dn = +|- 0.0390999, dEa = +|- 0.21278 kJ/mol"""),
@@ -52095,7 +51832,7 @@ H    0.59123    -1.736516    -0.048408
 )
 
 entry(
-    index = 3521,
+    index = 3505,
     label = "O + ClHO <=> HO-2 + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.3409e+08,'cm^3/(mol*s)'), n=1.5809, Ea=(2.96803,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01859, dn = +|- 0.00242037, dEa = +|- 0.0131715 kJ/mol"""),
@@ -52117,7 +51854,7 @@ H    1.898282    0.822552    0.492069
 )
 
 entry(
-    index = 3522,
+    index = 3506,
     label = "H + ClH-2 <=> H2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.62067e+09,'cm^3/(mol*s)'), n=1.182, Ea=(5.99885,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11334, dn = +|- 0.0141052, dEa = +|- 0.0767598 kJ/mol"""),
@@ -52138,7 +51875,7 @@ H    -1.1773    0.019653    -0.0
 )
 
 entry(
-    index = 3523,
+    index = 3507,
     label = "C2HF4-3 + C2H4F2-2 <=> C2H2F4-3 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.76063e-07,'cm^3/(mol*s)'), n=5.33428, Ea=(24.5875,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.61037, dn = +|- 0.126058, dEa = +|- 0.686004 kJ/mol"""),
@@ -52171,7 +51908,7 @@ H    1.367042    0.115248    2.056475
 )
 
 entry(
-    index = 3524,
+    index = 3508,
     label = "C4H5-8 + C2H4Cl2-2 <=> C4H6-8 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0147751,'cm^3/(mol*s)'), n=4.39607, Ea=(9.49444,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.43811, dn = +|- 0.047734, dEa = +|- 0.259767 kJ/mol"""),
@@ -52206,7 +51943,7 @@ H    -0.43932    -0.065898    -0.630258
 )
 
 entry(
-    index = 3525,
+    index = 3509,
     label = "C2H3F2-4 + CH2O <=> C2H4F2-4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.45367e-05,'cm^3/(mol*s)'), n=5.22185, Ea=(11.0383,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.18244, dn = +|- 0.102535, dEa = +|- 0.55799 kJ/mol"""),
@@ -52235,7 +51972,7 @@ H    -2.292156    -0.56842    -1.562789
 )
 
 entry(
-    index = 3526,
+    index = 3510,
     label = "CHF2-2 + C2H5F-2 <=> CH2F2-2 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.01445e-05,'cm^3/(mol*s)'), n=4.64096, Ea=(26.3431,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.13721, dn = +|- 0.150211, dEa = +|- 0.817443 kJ/mol"""),
@@ -52265,55 +52002,7 @@ H    -2.070407    -0.284088    -0.665839
 )
 
 entry(
-    index = 3527,
-    label = "H + CH2F2 <=> H2 + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(23.2459,'cm^3/(mol*s)'), n=3.74928, Ea=(20.9121,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.50589, dn = +|- 0.120691, dEa = +|- 0.656798 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FCF + [H] <=> [H][H] + F[CH]F
-barrier = 44.916563 kJ/mol
-T1 = 0.018460908
-
-Atom XYZ coordinates (angstrom)
-F    1.090546    -0.43989    -0.101637
-F    -1.089783    -0.44162    -0.101445
-C    -7.3e-05    0.181598    0.349383
-H    -0.001211    1.399091    -0.201581
-H    -3.5e-05    0.257528    1.435859
-H    -0.002572    2.220168    -0.672528
-""",
-)
-
-entry(
-    index = 3528,
-    label = "F + CHF3 <=> FH + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.54434e+11,'cm^3/(mol*s)'), n=-0.104538, Ea=(-0.408037,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02475, dn = +|- 0.00321201, dEa = +|- 0.0174796 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FC(F)F + [F] <=> F + F[C](F)F
-barrier = 0.901941 kJ/mol
-T1 = 0.0214048
-
-Atom XYZ coordinates (angstrom)
-F    -0.846125    1.086418    -0.508085
-F    -0.848591    -1.071674    -0.536984
-F    -0.487956    -0.018386    1.312467
-F    2.257613    0.002943    -0.495254
-C    -0.296095    -0.000368    0.004948
-H    0.811181    0.001067    -0.211937
-""",
-)
-
-entry(
-    index = 3529,
+    index = 3511,
     label = "C3H7-2 + C2H5Cl <=> C3H8-2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000129444,'cm^3/(mol*s)'), n=4.71236, Ea=(26.4548,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.91457, dn = +|- 0.0853302, dEa = +|- 0.464364 kJ/mol"""),
@@ -52349,31 +52038,7 @@ H    -1.308805    0.983468    1.294986
 )
 
 entry(
-    index = 3530,
-    label = "CF3-2 + HO-4 <=> CHF3-2 + O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.00227849,'cm^3/(mol*s)'), n=4.51125, Ea=(15.5942,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.2024, dn = +|- 0.103731, dEa = +|- 0.564501 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: [OH] + F[C](F)F <=> FC(F)F + [O]
-barrier = 42.562922 kJ/mol
-T1 = 0.020589324
-
-Atom XYZ coordinates (angstrom)
-F    -0.885532    1.070372    -0.419007
-F    -0.177641    0.037925    1.343176
-F    -0.859202    -1.09053    -0.371405
-O    2.079985    -0.027867    -0.873001
-C    -0.256661    0.007143    0.030755
-H    0.983672    0.002932    -0.459643
-""",
-)
-
-entry(
-    index = 3531,
+    index = 3512,
     label = "C2H4F-3 + CH2O <=> C2H5F-3 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.2114e-05,'cm^3/(mol*s)'), n=5.24402, Ea=(15.1443,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.42087, dn = +|- 0.116156, dEa = +|- 0.632119 kJ/mol"""),
@@ -52402,7 +52067,7 @@ H    2.079757    -1.773266    0.272932
 )
 
 entry(
-    index = 3532,
+    index = 3513,
     label = "C3H7-4 + CHCl3-2 <=> C3H8-4 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00610329,'cm^3/(mol*s)'), n=3.98005, Ea=(2.15267,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.20631, dn = +|- 0.0246428, dEa = +|- 0.134105 kJ/mol"""),
@@ -52435,7 +52100,7 @@ H    3.797172    1.234733    -0.420429
 )
 
 entry(
-    index = 3533,
+    index = 3514,
     label = "CH2Cl-2 + CH2O <=> CH3Cl-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.2147e-05,'cm^3/(mol*s)'), n=5.18532, Ea=(16.5255,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.48828, dn = +|- 0.119765, dEa = +|- 0.651757 kJ/mol"""),
@@ -52461,7 +52126,7 @@ H    1.409263    -1.558559    0.148018
 )
 
 entry(
-    index = 3534,
+    index = 3515,
     label = "CH2Cl-2 + C2H4O-2 <=> CH3Cl-2 + C2H3O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000971215,'cm^3/(mol*s)'), n=4.49139, Ea=(34.6311,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.7913, dn = +|- 0.0765872, dEa = +|- 0.416785 kJ/mol"""),
@@ -52490,33 +52155,7 @@ H    -1.502414    -0.8479    -1.438966
 )
 
 entry(
-    index = 3535,
-    label = "CFO-2 + CH3F <=> CHFO-2 + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(2.8842e-06,'cm^3/(mol*s)'), n=5.75355, Ea=(33.6929,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.30361, dn = +|- 0.157001, dEa = +|- 0.854394 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CF + OD[C]F <=> ODCF + [CH2]F
-barrier = 60.917932 kJ/mol
-T1 = 0.020555821999999998
-
-Atom XYZ coordinates (angstrom)
-F    -1.71666    0.803255    -0.933506
-F    1.278299    -1.359746    -1.062304
-O    -2.35472    -0.448616    0.776434
-C    1.128803    -0.653919    0.079709
-C    -1.508049    -0.044511    0.079842
-H    -0.174352    -0.326165    0.13851
-H    1.304626    -1.270046    0.957396
-H    1.668553    0.288401    0.040708
-""",
-)
-
-entry(
-    index = 3536,
+    index = 3516,
     label = "C2H2F-2 + H2-2 <=> C2H3F-2 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7236.67,'cm^3/(mol*s)'), n=2.72465, Ea=(18.133,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05369, dn = +|- 0.00687124, dEa = +|- 0.037393 kJ/mol"""),
@@ -52541,7 +52180,7 @@ H    0.9559    2.27289    -0.013743
 )
 
 entry(
-    index = 3537,
+    index = 3517,
     label = "C4H3-3 + C2H5Cl-2 <=> C4H4-3 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00392318,'cm^3/(mol*s)'), n=4.32764, Ea=(5.25298,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35643, dn = +|- 0.0400523, dEa = +|- 0.217963 kJ/mol"""),
@@ -52574,7 +52213,7 @@ H    1.51001    2.971468    0.528059
 )
 
 entry(
-    index = 3538,
+    index = 3518,
     label = "C3H5O-5 + CHCl3-2 <=> C3H6O-5 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000471369,'cm^3/(mol*s)'), n=4.63205, Ea=(15.2895,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.73356, dn = +|- 0.0722824, dEa = +|- 0.393358 kJ/mol"""),
@@ -52606,7 +52245,7 @@ H    0.33795    -0.724078    -1.971661
 )
 
 entry(
-    index = 3539,
+    index = 3519,
     label = "HO + C2H3Cl3 <=> H2O + C2H2Cl3",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1222.13,'cm^3/(mol*s)'), n=3.21351, Ea=(-3.64843,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05064, dn = +|- 0.00649047, dEa = +|- 0.0353209 kJ/mol"""),
@@ -52634,7 +52273,7 @@ H    2.782533    -0.127031    0.429494
 )
 
 entry(
-    index = 3540,
+    index = 3520,
     label = "C2H3Cl2-3 + C2H5Cl <=> C2H4Cl2-3 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.23875e-05,'cm^3/(mol*s)'), n=4.53849, Ea=(16.085,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.67246, dn = +|- 0.0675684, dEa = +|- 0.367705 kJ/mol"""),
@@ -52667,7 +52306,7 @@ H    1.253299    1.978986    -0.728311
 )
 
 entry(
-    index = 3541,
+    index = 3521,
     label = "CH3O-3 + C2H5Cl <=> CH4O-3 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0100737,'cm^3/(mol*s)'), n=4.16347, Ea=(6.50514,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.35946, dn = +|- 0.0403451, dEa = +|- 0.219556 kJ/mol"""),
@@ -52698,7 +52337,7 @@ H    0.697587    -0.029797    0.644945
 )
 
 entry(
-    index = 3542,
+    index = 3522,
     label = "C2H3 + C2H5Cl <=> C2H4 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0103479,'cm^3/(mol*s)'), n=4.40465, Ea=(6.09529,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.43298, dn = +|- 0.0472645, dEa = +|- 0.257212 kJ/mol"""),
@@ -52729,7 +52368,7 @@ H    2.009383    -1.520096    -0.028873
 )
 
 entry(
-    index = 3543,
+    index = 3523,
     label = "C2H4Cl-4 + CHCl3-2 <=> C2H5Cl-4 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00152767,'cm^3/(mol*s)'), n=4.41464, Ea=(8.41247,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.50729, dn = +|- 0.0539074, dEa = +|- 0.293362 kJ/mol"""),
@@ -52759,7 +52398,7 @@ H    -1.786997    -0.05357    -1.419113
 )
 
 entry(
-    index = 3544,
+    index = 3524,
     label = "H + C2H2F4 <=> H2 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(74.9616,'cm^3/(mol*s)'), n=3.61814, Ea=(21.6598,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.34766, dn = +|- 0.112122, dEa = +|- 0.610165 kJ/mol"""),
@@ -52786,7 +52425,7 @@ H    -1.419795    2.354116    -0.316204
 )
 
 entry(
-    index = 3545,
+    index = 3525,
     label = "H + C2H5F-2 <=> H2 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2215.41,'cm^3/(mol*s)'), n=3.20028, Ea=(17.5766,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.81892, dn = +|- 0.0785972, dEa = +|- 0.427723 kJ/mol"""),
@@ -52813,7 +52452,7 @@ H    -0.490764    2.210143    -0.76923
 )
 
 entry(
-    index = 3546,
+    index = 3526,
     label = "CHF2-2 + C2H3F3-2 <=> CH2F2-2 + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.97565e-07,'cm^3/(mol*s)'), n=5.67447, Ea=(30.7105,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.27204, dn = +|- 0.15574, dEa = +|- 0.84753 kJ/mol"""),
@@ -52843,7 +52482,7 @@ H    1.487605    -0.916864    -1.149051
 )
 
 entry(
-    index = 3547,
+    index = 3527,
     label = "C2H5O-7 + C2HF5 <=> C2H6O-7 + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.13812e-09,'cm^3/(mol*s)'), n=6.06668, Ea=(10.3544,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.113, dn = +|- 0.0982866, dEa = +|- 0.534872 kJ/mol"""),
@@ -52877,7 +52516,7 @@ H    -0.712438    -0.618238    0.495394
 )
 
 entry(
-    index = 3548,
+    index = 3528,
     label = "H + C2H3F3-3 <=> H2 + C2H2F3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(39.5135,'cm^3/(mol*s)'), n=3.61619, Ea=(19.2164,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.32337, dn = +|- 0.110756, dEa = +|- 0.60273 kJ/mol"""),
@@ -52904,7 +52543,7 @@ H    0.824598    0.332081    2.318164
 )
 
 entry(
-    index = 3549,
+    index = 3529,
     label = "C2H3Cl2-3 + C2H6 <=> C2H4Cl2-3 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.000283268,'cm^3/(mol*s)'), n=4.5905, Ea=(30.9878,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.7776, dn = +|- 0.0755784, dEa = +|- 0.411295 kJ/mol"""),
@@ -52937,7 +52576,7 @@ H    2.543411    -0.231719    1.43458
 )
 
 entry(
-    index = 3550,
+    index = 3530,
     label = "CH3O-3 + CHCl3-2 <=> CH4O-3 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(30.9078,'cm^3/(mol*s)'), n=2.735, Ea=(-1.19818,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0792, dn = +|- 0.0100133, dEa = +|- 0.0544918 kJ/mol"""),
@@ -52965,7 +52604,7 @@ H    0.782674    -0.544938    -0.318579
 )
 
 entry(
-    index = 3551,
+    index = 3531,
     label = "C4H3-3 + C2H5Cl <=> C4H4-3 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.059815,'cm^3/(mol*s)'), n=4.00003, Ea=(-0.759504,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14737, dn = +|- 0.0180613, dEa = +|- 0.0982892 kJ/mol"""),
@@ -52998,7 +52637,7 @@ H    -2.316385    1.586032    2.086934
 )
 
 entry(
-    index = 3552,
+    index = 3532,
     label = "C2H + ClH-2 <=> C2H2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1366.12,'cm^3/(mol*s)'), n=3.18683, Ea=(-1.3252,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07654, dn = +|- 0.00968918, dEa = +|- 0.0527282 kJ/mol"""),
@@ -53021,7 +52660,7 @@ H    -0.14702    0.333001    0.038275
 )
 
 entry(
-    index = 3553,
+    index = 3533,
     label = "C2H4Cl-3 + C3H6O-4 <=> C2H5Cl-3 + C3H5O-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.0127863,'cm^3/(mol*s)'), n=3.52719, Ea=(27.4034,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.70923, dn = +|- 0.0704255, dEa = +|- 0.383253 kJ/mol"""),
@@ -53056,7 +52695,7 @@ H    1.017347    -2.550284    0.117239
 )
 
 entry(
-    index = 3554,
+    index = 3534,
     label = "C2H2F3-4 + CH3F <=> C2H3F3-4 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(4.7871e-07,'cm^3/(mol*s)'), n=5.70411, Ea=(32.2331,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.22635, dn = +|- 0.153892, dEa = +|- 0.837476 kJ/mol"""),
@@ -53086,7 +52725,7 @@ H    1.899469    0.974726    -1.19287
 )
 
 entry(
-    index = 3555,
+    index = 3535,
     label = "CHCl2-2 + HO2-4 <=> CH2Cl2-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(25.9818,'cm^3/(mol*s)'), n=3.16397, Ea=(-4.64546,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12863, dn = +|- 0.0158972, dEa = +|- 0.0865121 kJ/mol"""),
@@ -53111,7 +52750,7 @@ H    -0.563483    0.498611    1.471577
 )
 
 entry(
-    index = 3556,
+    index = 3536,
     label = "CH3-2 + C2H2F4-2 <=> CH4-2 + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0038518,'cm^3/(mol*s)'), n=4.89301, Ea=(25.5407,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.20994, dn = +|- 0.10418, dEa = +|- 0.566943 kJ/mol"""),
@@ -53141,7 +52780,7 @@ H    -2.999237    0.516167    -0.586963
 )
 
 entry(
-    index = 3557,
+    index = 3537,
     label = "HO + C3H2F4-3 <=> H2O + C3HF4-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0787727,'cm^3/(mol*s)'), n=4.33618, Ea=(11.8049,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79279, dn = +|- 0.0766964, dEa = +|- 0.417379 kJ/mol"""),
@@ -53170,7 +52809,7 @@ H    2.181287    0.501782    -0.240037
 )
 
 entry(
-    index = 3558,
+    index = 3538,
     label = "ClO-2 + CH2O <=> ClHO-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.79788,'cm^3/(mol*s)'), n=3.71684, Ea=(9.2409,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34416, dn = +|- 0.0388586, dEa = +|- 0.211467 kJ/mol"""),
@@ -53194,34 +52833,7 @@ H    2.521418    1.124867    0.095733
 )
 
 entry(
-    index = 3559,
-    label = "CF3-2 + CH4 <=> CHF3-2 + CH3",
-    degeneracy = 4.0,
-    kinetics = Arrhenius(A=(5.78389e-05,'cm^3/(mol*s)'), n=5.46824, Ea=(30.1798,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.7703, dn = +|- 0.13387, dEa = +|- 0.728518 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: F[C](F)F + C <=> FC(F)F + [CH3]
-barrier = 55.410768 kJ/mol
-T1 = 0.01655686
-
-Atom XYZ coordinates (angstrom)
-F    0.735567    -0.952371    0.880801
-F    1.009572    -0.228006    -1.137945
-F    0.792211    1.174184    0.493586
-C    -2.253478    0.00421    -0.339299
-C    0.402642    -0.001147    0.019001
-H    -0.941188    0.001557    -0.16231
-H    -2.602293    -0.84967    0.230362
-H    -2.380442    -0.097126    -1.411169
-H    -2.57483    0.96116    0.05598
-""",
-)
-
-entry(
-    index = 3560,
+    index = 3539,
     label = "C2H3F2-5 + H2O2 <=> C2H4F2-5 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.85869e-06,'cm^3/(mol*s)'), n=4.80806, Ea=(6.20431,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.7771, dn = +|- 0.0755416, dEa = +|- 0.411095 kJ/mol"""),
@@ -53250,7 +52862,7 @@ H    -1.94438    0.774304    -0.705151
 )
 
 entry(
-    index = 3561,
+    index = 3540,
     label = "C2H3 + CH2Cl2 <=> C2H4 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.135882,'cm^3/(mol*s)'), n=4.12657, Ea=(0.84391,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.23006, dn = +|- 0.0272043, dEa = +|- 0.148045 kJ/mol"""),
@@ -53278,7 +52890,7 @@ H    -1.663162    -2.157117    -0.279434
 )
 
 entry(
-    index = 3562,
+    index = 3541,
     label = "C2H4Cl-4 + CH2O <=> C2H5Cl-4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.59934e-05,'cm^3/(mol*s)'), n=5.18071, Ea=(16.0042,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.38241, dn = +|- 0.114053, dEa = +|- 0.62067 kJ/mol"""),
@@ -53307,7 +52919,7 @@ H    -2.021158    -2.009763    -0.080319
 )
 
 entry(
-    index = 3563,
+    index = 3542,
     label = "CH3O-3 + CH3F <=> CH4O-3 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(9.99079e-05,'cm^3/(mol*s)'), n=4.91737, Ea=(17.3996,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.15602, dn = +|- 0.100934, dEa = +|- 0.549281 kJ/mol"""),
@@ -53335,7 +52947,7 @@ H    0.051243    -0.82257    0.129502
 )
 
 entry(
-    index = 3564,
+    index = 3543,
     label = "C2H3F2-6 + CH3F <=> C2H4F2-6 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000947034,'cm^3/(mol*s)'), n=4.03299, Ea=(28.5192,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.33343, dn = +|- 0.111324, dEa = +|- 0.605819 kJ/mol"""),
@@ -53365,33 +52977,7 @@ H    -1.989562    0.206869    1.27696
 )
 
 entry(
-    index = 3565,
-    label = "CHF2-2 + H2O2 <=> CH2F2-2 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(5.47153e-05,'cm^3/(mol*s)'), n=4.87748, Ea=(5.95873,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79002, dn = +|- 0.0764933, dEa = +|- 0.416274 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: F[CH]F + OO <=> FCF + [O]O
-barrier = 30.995143 kJ/mol
-T1 = 0.020338914
-
-Atom XYZ coordinates (angstrom)
-F    -1.637112    0.804255    -0.300743
-F    -0.849375    -1.219793    -0.135656
-O    1.615163    0.51059    -0.343162
-O    2.171932    -0.644957    0.177709
-C    -0.747224    0.030601    0.311951
-H    -0.826447    0.084027    1.398283
-H    0.503008    0.432071    -0.032799
-H    2.143439    -1.262032    -0.565622
-""",
-)
-
-entry(
-    index = 3566,
+    index = 3544,
     label = "CH3-2 + C2HClF4-2 <=> CH4-2 + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00283631,'cm^3/(mol*s)'), n=4.73559, Ea=(19.335,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.96881, dn = +|- 0.0890008, dEa = +|- 0.484339 kJ/mol"""),
@@ -53421,7 +53007,7 @@ H    3.556475    -0.043585    -0.699072
 )
 
 entry(
-    index = 3567,
+    index = 3545,
     label = "CF3-2 + CH4O-2 <=> CHF3-2 + CH3O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.30905e-05,'cm^3/(mol*s)'), n=4.55531, Ea=(15.1242,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.60244, dn = +|- 0.125658, dEa = +|- 0.683827 kJ/mol"""),
@@ -53449,7 +53035,7 @@ H    0.373756    -0.544515    0.322083
 )
 
 entry(
-    index = 3568,
+    index = 3546,
     label = "CF3-2 + CHCl3-2 <=> CHF3-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0149032,'cm^3/(mol*s)'), n=4.58358, Ea=(5.71623,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.50147, dn = +|- 0.0533984, dEa = +|- 0.290592 kJ/mol"""),
@@ -53476,33 +53062,7 @@ H    -0.375437    0.001057    -0.123157
 )
 
 entry(
-    index = 3569,
-    label = "CH2F-2 + CH2O <=> CH3F-2 + CHO",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.9626e-05,'cm^3/(mol*s)'), n=5.29008, Ea=(15.8172,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.5636, dn = +|- 0.123683, dEa = +|- 0.673077 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CDO + [CH2]F <=> CF + [CH]DO
-barrier = 42.925198 kJ/mol
-T1 = 0.022436417
-
-Atom XYZ coordinates (angstrom)
-F    2.057198    -0.340843    -0.075274
-O    -2.235171    0.187196    0.250572
-C    1.247905    0.750123    -0.038448
-C    -1.222881    -0.42241    0.184398
-H    1.268235    1.292323    -0.979151
-H    1.412501    1.337256    0.860161
-H    -0.083055    0.183783    0.079856
-H    -1.174177    -1.532264    0.206405
-""",
-)
-
-entry(
-    index = 3570,
+    index = 3547,
     label = "O + C2H2F4-2 <=> HO-2 + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.35833,'cm^3/(mol*s)'), n=4.04531, Ea=(24.1646,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.55651, dn = +|- 0.123319, dEa = +|- 0.671098 kJ/mol"""),
@@ -53529,7 +53089,7 @@ H    1.603264    -0.116171    -1.118578
 )
 
 entry(
-    index = 3571,
+    index = 3548,
     label = "H + C2H4F2-2 <=> H2 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(166.618,'cm^3/(mol*s)'), n=3.43624, Ea=(16.6734,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.0656, dn = +|- 0.0953061, dEa = +|- 0.518652 kJ/mol"""),
@@ -53556,34 +53116,7 @@ H    0.436346    2.588856    0.268556
 )
 
 entry(
-    index = 3572,
-    label = "CHF2-2 + CH3F <=> CH2F2-2 + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(1.13549e-06,'cm^3/(mol*s)'), n=5.82576, Ea=(34.8898,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.68218, dn = +|- 0.171254, dEa = +|- 0.93196 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CF + F[CH]F <=> FCF + [CH2]F
-barrier = 63.494492 kJ/mol
-T1 = 0.017150697
-
-Atom XYZ coordinates (angstrom)
-F    -1.85421    -0.915362    -0.605805
-F    -1.51251    0.852817    0.629192
-F    2.201393    -0.168938    -0.78752
-C    -1.084994    0.169928    -0.44189
-C    1.391868    -0.716578    0.157206
-H    0.15538    -0.27861    -0.141706
-H    -1.087655    0.794059    -1.334685
-H    1.625265    -0.331008    1.145813
-H    1.365788    -1.79945    0.072312
-""",
-)
-
-entry(
-    index = 3573,
+    index = 3549,
     label = "CF3-2 + C2H5F <=> CHF3-2 + C2H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.46285e-06,'cm^3/(mol*s)'), n=5.35708, Ea=(24.4253,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.5242, dn = +|- 0.121648, dEa = +|- 0.662004 kJ/mol"""),
@@ -53613,7 +53146,7 @@ H    -3.070698    -0.602441    -0.369717
 )
 
 entry(
-    index = 3574,
+    index = 3550,
     label = "Cl + H2O2 <=> ClH + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.05782e+07,'cm^3/(mol*s)'), n=2.01634, Ea=(2.01749,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01446, dn = +|- 0.00188678, dEa = +|- 0.0102678 kJ/mol"""),
@@ -53636,7 +53169,7 @@ H    2.189682    -0.518005    0.73172
 )
 
 entry(
-    index = 3575,
+    index = 3551,
     label = "O + C2HClF4-2 <=> HO-2 + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.02161,'cm^3/(mol*s)'), n=4.0678, Ea=(19.85,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.55662, dn = +|- 0.123324, dEa = +|- 0.671127 kJ/mol"""),
@@ -53663,7 +53196,7 @@ H    1.2111    -0.269022    0.531129
 )
 
 entry(
-    index = 3576,
+    index = 3552,
     label = "C2HCl2 + HO-4 <=> C2H2Cl2 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.32453,'cm^3/(mol*s)'), n=3.38301, Ea=(2.51511,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12234, dn = +|- 0.0151638, dEa = +|- 0.0825209 kJ/mol"""),
@@ -53688,7 +53221,7 @@ H    -0.312728    -2.268392    0.279382
 )
 
 entry(
-    index = 3577,
+    index = 3553,
     label = "CHCl2-2 + C2H4O-2 <=> CH2Cl2-2 + C2H3O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000696936,'cm^3/(mol*s)'), n=4.73905, Ea=(36.4362,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.93427, dn = +|- 0.0866753, dEa = +|- 0.471683 kJ/mol"""),
@@ -53717,7 +53250,7 @@ H    -2.494902    0.07853    -1.277471
 )
 
 entry(
-    index = 3578,
+    index = 3554,
     label = "C3H7-2 + CH2Cl2 <=> C3H8-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000169356,'cm^3/(mol*s)'), n=4.54947, Ea=(15.913,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.70295, dn = +|- 0.0699419, dEa = +|- 0.380621 kJ/mol"""),
@@ -53750,33 +53283,7 @@ H    0.908594    -0.367162    1.878729
 )
 
 entry(
-    index = 3579,
-    label = "CF3-2 + CH2O <=> CHF3-2 + CHO",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(0.00438831,'cm^3/(mol*s)'), n=4.82853, Ea=(9.29726,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.75638, dn = +|- 0.0740006, dEa = +|- 0.402709 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CDO + F[C](F)F <=> FC(F)F + [CH]DO
-barrier = 27.855686 kJ/mol
-T1 = 0.020637875
-
-Atom XYZ coordinates (angstrom)
-F    -1.481402    -0.014408    -1.081946
-F    -0.965229    1.262617    0.586187
-F    -1.344101    -0.842165    0.912142
-O    2.681009    0.255015    -0.080265
-C    -0.835933    0.050955    0.074308
-C    1.841481    -0.529201    -0.348292
-H    0.619707    -0.264165    -0.156305
-H    2.03968    -1.532397    -0.776612
-""",
-)
-
-entry(
-    index = 3580,
+    index = 3555,
     label = "C2H4F-4 + CH2O <=> C2H5F-4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000187585,'cm^3/(mol*s)'), n=4.79739, Ea=(9.99912,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.87977, dn = +|- 0.0829205, dEa = +|- 0.45125 kJ/mol"""),
@@ -53805,7 +53312,7 @@ H    1.939927    0.112595    -1.567405
 )
 
 entry(
-    index = 3581,
+    index = 3556,
     label = "CCl3 + C2H6O2-2 <=> CHCl3 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.64574e-05,'cm^3/(mol*s)'), n=4.75283, Ea=(5.76779,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63389, dn = +|- 0.0645029, dEa = +|- 0.351022 kJ/mol"""),
@@ -53837,7 +53344,7 @@ H    -0.057344    -0.728938    -0.541398
 )
 
 entry(
-    index = 3582,
+    index = 3557,
     label = "CHF2-2 + C2H4F2-2 <=> CH2F2-2 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.2838e-07,'cm^3/(mol*s)'), n=5.7973, Ea=(26.221,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.3953, dn = +|- 0.160598, dEa = +|- 0.873969 kJ/mol"""),
@@ -53867,7 +53374,7 @@ H    2.082015    -0.854618    -0.95438
 )
 
 entry(
-    index = 3583,
+    index = 3558,
     label = "C2H2Cl-3 + HO-4 <=> C2H3Cl-3 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(13.1899,'cm^3/(mol*s)'), n=3.32004, Ea=(1.12059,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09494, dn = +|- 0.0119158, dEa = +|- 0.0648453 kJ/mol"""),
@@ -53892,7 +53399,7 @@ H    -0.114697    1.423939    0.230231
 )
 
 entry(
-    index = 3584,
+    index = 3559,
     label = "C2H3F2-6 + C2H2F4 <=> C2H4F2-6 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.99495e-05,'cm^3/(mol*s)'), n=4.83711, Ea=(23.8165,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.02609, dn = +|- 0.0927683, dEa = +|- 0.504841 kJ/mol"""),
@@ -53925,7 +53432,7 @@ H    -1.616862    1.803396    1.074412
 )
 
 entry(
-    index = 3585,
+    index = 3560,
     label = "C4H5-8 + CH2Cl2 <=> C4H6-8 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.387483,'cm^3/(mol*s)'), n=3.98123, Ea=(-0.0630978,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15033, dn = +|- 0.0183992, dEa = +|- 0.100128 kJ/mol"""),
@@ -53957,7 +53464,7 @@ H    0.747893    2.079324    -0.702468
 )
 
 entry(
-    index = 3586,
+    index = 3561,
     label = "CH3-2 + C2H4F2-2 <=> CH4-2 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8539e-05,'cm^3/(mol*s)'), n=5.213, Ea=(23.7746,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.67843, dn = +|- 0.12944, dEa = +|- 0.704406 kJ/mol"""),
@@ -53987,7 +53494,7 @@ H    -2.495387    -0.807146    -0.396078
 )
 
 entry(
-    index = 3587,
+    index = 3562,
     label = "CCl3 + C2H4O <=> CHCl3 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00189449,'cm^3/(mol*s)'), n=4.78454, Ea=(13.8071,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.81333, dn = +|- 0.0781926, dEa = +|- 0.425521 kJ/mol"""),
@@ -54016,32 +53523,7 @@ H    -0.688566    -0.136475    -0.232837
 )
 
 entry(
-    index = 3588,
-    label = "HO + CH2F2 <=> H2O + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1906.99,'cm^3/(mol*s)'), n=3.17229, Ea=(3.8144,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06427, dn = +|- 0.00818355, dEa = +|- 0.0445346 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FCF + [OH] <=> O + F[CH]F
-barrier = 12.945787 kJ/mol
-T1 = 0.023257091
-
-Atom XYZ coordinates (angstrom)
-F    0.398292    0.879751    -0.537167
-F    1.159577    -1.068926    0.080593
-O    -2.076627    -0.796071    0.148295
-C    0.33125    -0.071844    0.407816
-H    -0.770908    -0.489431    0.422801
-H    0.588907    0.340146    1.384077
-H    -2.135677    -0.385158    -0.729899
-""",
-)
-
-entry(
-    index = 3589,
+    index = 3563,
     label = "C2H3Cl2-3 + C3H4 <=> C2H4Cl2-3 + C3H3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(5.2939e-05,'cm^3/(mol*s)'), n=4.70174, Ea=(21.5497,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.92619, dn = +|- 0.0861256, dEa = +|- 0.468692 kJ/mol"""),
@@ -54073,7 +53555,7 @@ H    2.650518    -2.171762    1.253647
 )
 
 entry(
-    index = 3590,
+    index = 3564,
     label = "CH2Cl-2 + ClHO <=> CH3Cl-2 + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000106895,'cm^3/(mol*s)'), n=4.50669, Ea=(10.2734,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.67231, dn = +|- 0.0675567, dEa = +|- 0.367641 kJ/mol"""),
@@ -54098,7 +53580,7 @@ H    -1.476303    1.590785    -0.853485
 )
 
 entry(
-    index = 3591,
+    index = 3565,
     label = "HO + C2H5F-2 <=> H2O + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5674.16,'cm^3/(mol*s)'), n=2.91703, Ea=(-2.6119,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03721, dn = +|- 0.00480012, dEa = +|- 0.0261221 kJ/mol"""),
@@ -54126,7 +53608,7 @@ H    2.138395    -0.188893    -0.437627
 )
 
 entry(
-    index = 3592,
+    index = 3566,
     label = "HO + CH2Cl2 <=> H2O + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9486.36,'cm^3/(mol*s)'), n=2.96962, Ea=(-4.549,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05167, dn = +|- 0.00661933, dEa = +|- 0.0360222 kJ/mol"""),
@@ -54151,7 +53633,7 @@ H    2.372618    0.938124    -0.638578
 )
 
 entry(
-    index = 3593,
+    index = 3567,
     label = "C2H3 + C2HClF4-2 <=> C2H4 + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0165286,'cm^3/(mol*s)'), n=4.3912, Ea=(5.00521,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.41757, dn = +|- 0.0458439, dEa = +|- 0.249481 kJ/mol"""),
@@ -54182,7 +53664,7 @@ H    3.082576    0.922792    -1.414661
 )
 
 entry(
-    index = 3594,
+    index = 3568,
     label = "H + C2H5F <=> H2 + C2H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3262.86,'cm^3/(mol*s)'), n=3.15371, Ea=(28.7861,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.82771, dn = +|- 0.0792304, dEa = +|- 0.431169 kJ/mol"""),
@@ -54209,7 +53691,7 @@ H    1.44266    -1.758367    1.103644
 )
 
 entry(
-    index = 3595,
+    index = 3569,
     label = "C2H3 + CH3F <=> C2H4 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(9.88331e-05,'cm^3/(mol*s)'), n=4.96603, Ea=(16.1452,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.06734, dn = +|- 0.0954162, dEa = +|- 0.519251 kJ/mol"""),
@@ -54237,7 +53719,7 @@ H    -1.847146    1.632274    0.083792
 )
 
 entry(
-    index = 3596,
+    index = 3570,
     label = "C2H3 + C2H4F2-2 <=> C2H4 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000519463,'cm^3/(mol*s)'), n=4.75232, Ea=(8.58366,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.73023, dn = +|- 0.0720294, dEa = +|- 0.391981 kJ/mol"""),
@@ -54268,7 +53750,7 @@ H    -1.873605    1.610078    -0.98466
 )
 
 entry(
-    index = 3597,
+    index = 3571,
     label = "CH2Cl-2 + C2H4O <=> CH3Cl-2 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000329329,'cm^3/(mol*s)'), n=4.76174, Ea=(15.0163,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97252, dn = +|- 0.0892483, dEa = +|- 0.485686 kJ/mol"""),
@@ -54297,7 +53779,7 @@ H    -0.984038    1.775651    -0.872455
 )
 
 entry(
-    index = 3598,
+    index = 3572,
     label = "CF3-2 + CH4O <=> CHF3-2 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000135806,'cm^3/(mol*s)'), n=5.11801, Ea=(13.6129,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.10105, dn = +|- 0.0975416, dEa = +|- 0.530818 kJ/mol"""),
@@ -54325,7 +53807,7 @@ H    2.21895    1.270386    -0.298264
 )
 
 entry(
-    index = 3599,
+    index = 3573,
     label = "CCl3 + CH4O2-3 <=> CHCl3 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.13312e-06,'cm^3/(mol*s)'), n=4.93862, Ea=(7.49747,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.82601, dn = +|- 0.0791086, dEa = +|- 0.430506 kJ/mol"""),
@@ -54354,7 +53836,7 @@ H    0.511347    -0.400493    -0.676083
 )
 
 entry(
-    index = 3600,
+    index = 3574,
     label = "HO + C2H5Cl-2 <=> H2O + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(403.915,'cm^3/(mol*s)'), n=3.10132, Ea=(-4.36659,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04126, dn = +|- 0.00531249, dEa = +|- 0.0289104 kJ/mol"""),
@@ -54382,7 +53864,7 @@ H    -1.027734    -1.645943    -0.291181
 )
 
 entry(
-    index = 3601,
+    index = 3575,
     label = "C2HF4-4 + CH3F <=> C2H2F4-4 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(9.03014e-06,'cm^3/(mol*s)'), n=5.61728, Ea=(27.7684,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.99843, dn = +|- 0.144267, dEa = +|- 0.785097 kJ/mol"""),
@@ -54412,7 +53894,7 @@ H    -2.539487    0.785815    0.307953
 )
 
 entry(
-    index = 3602,
+    index = 3576,
     label = "CH3O-3 + ClH-2 <=> CH4O-3 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(78.0955,'cm^3/(mol*s)'), n=3.13311, Ea=(4.90243,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12612, dn = +|- 0.0156048, dEa = +|- 0.0849206 kJ/mol"""),
@@ -54437,7 +53919,7 @@ H    0.17488    -0.472086    0.256092
 )
 
 entry(
-    index = 3603,
+    index = 3577,
     label = "HO + C2H2F2 <=> H2O + C2HF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.77383,'cm^3/(mol*s)'), n=4.12729, Ea=(17.2482,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.67405, dn = +|- 0.0676934, dEa = +|- 0.368385 kJ/mol"""),
@@ -54463,7 +53945,7 @@ H    1.456517    -0.443225    -0.307685
 )
 
 entry(
-    index = 3604,
+    index = 3578,
     label = "C2HF2-4 + H2-2 <=> C2H2F2-4 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2706.93,'cm^3/(mol*s)'), n=2.87807, Ea=(16.9186,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06092, dn = +|- 0.00776943, dEa = +|- 0.0422809 kJ/mol"""),
@@ -54488,7 +53970,7 @@ H    -1.668285    2.454025    -0.000421
 )
 
 entry(
-    index = 3605,
+    index = 3579,
     label = "C2H4Cl-4 + C2H4Cl2 <=> C2H5Cl-4 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(1.07908e-05,'cm^3/(mol*s)'), n=4.82918, Ea=(26.3454,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.98061, dn = +|- 0.0897856, dEa = +|- 0.48861 kJ/mol"""),
@@ -54521,7 +54003,7 @@ H    1.243762    -0.370084    -1.819186
 )
 
 entry(
-    index = 3606,
+    index = 3580,
     label = "CH3-2 + C2HF5 <=> CH4-2 + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000502707,'cm^3/(mol*s)'), n=4.87759, Ea=(23.1804,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.16853, dn = +|- 0.101695, dEa = +|- 0.553419 kJ/mol"""),
@@ -54551,7 +54033,7 @@ H    -3.244208    -0.687959    -0.500645
 )
 
 entry(
-    index = 3607,
+    index = 3581,
     label = "HO + C2H5F <=> H2O + C2H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(192.155,'cm^3/(mol*s)'), n=3.18531, Ea=(-1.91687,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05532, dn = +|- 0.00707394, dEa = +|- 0.0384961 kJ/mol"""),
@@ -54579,7 +54061,7 @@ H    -1.24865    0.361981    -0.061192
 )
 
 entry(
-    index = 3608,
+    index = 3582,
     label = "C2H3Cl2-3 + CH4O2-3 <=> C2H4Cl2-3 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000148671,'cm^3/(mol*s)'), n=4.18561, Ea=(2.30344,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.26704, dn = +|- 0.0310953, dEa = +|- 0.169219 kJ/mol"""),
@@ -54611,7 +54093,7 @@ H    -3.863969    0.494679    -0.159486
 )
 
 entry(
-    index = 3609,
+    index = 3583,
     label = "C3H7-4 + CH3Cl <=> C3H8-4 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.20911e-05,'cm^3/(mol*s)'), n=4.75577, Ea=(29.44,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.02978, dn = +|- 0.0930073, dEa = +|- 0.506142 kJ/mol"""),
@@ -54644,7 +54126,7 @@ H    -0.099586    1.379617    -2.065944
 )
 
 entry(
-    index = 3610,
+    index = 3584,
     label = "C2H4Cl-3 + CH4O <=> C2H5Cl-3 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7.24207e-06,'cm^3/(mol*s)'), n=4.86953, Ea=(21.0129,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.06318, dn = +|- 0.0951516, dEa = +|- 0.517811 kJ/mol"""),
@@ -54675,7 +54157,7 @@ H    -1.304696    -1.183134    -0.508257
 )
 
 entry(
-    index = 3611,
+    index = 3585,
     label = "C2H2F3-6 + H2-2 <=> C2H3F3-6 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(11.7433,'cm^3/(mol*s)'), n=3.32783, Ea=(29.6117,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.46697, dn = +|- 0.0503451, dEa = +|- 0.273976 kJ/mol"""),
@@ -54702,7 +54184,7 @@ H    2.598249    1.07421    0.424808
 )
 
 entry(
-    index = 3612,
+    index = 3586,
     label = "H + CH3Cl <=> H2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1002.09,'cm^3/(mol*s)'), n=3.31563, Ea=(21.8854,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.00171, dn = +|- 0.0911782, dEa = +|- 0.496189 kJ/mol"""),
@@ -54726,7 +54208,7 @@ H    1.754185    1.815895    -0.276679
 )
 
 entry(
-    index = 3613,
+    index = 3587,
     label = "C2H3Cl2-4 + CH2Cl2 <=> C2H4Cl2-4 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.97389e-05,'cm^3/(mol*s)'), n=4.81224, Ea=(21.3378,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.94384, dn = +|- 0.087324, dEa = +|- 0.475214 kJ/mol"""),
@@ -54756,7 +54238,7 @@ H    1.299084    -1.215434    1.002004
 )
 
 entry(
-    index = 3614,
+    index = 3588,
     label = "C3H2F3-5 + CHF3 <=> C3H3F3-5 + CF3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.07516e-05,'cm^3/(mol*s)'), n=5.08323, Ea=(13.7375,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.06772, dn = +|- 0.0954403, dEa = +|- 0.519382 kJ/mol"""),
@@ -54787,7 +54269,7 @@ H    -0.341004    2.659145    0.066847
 )
 
 entry(
-    index = 3615,
+    index = 3589,
     label = "CF3-2 + ClH-2 <=> CHF3-2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(287.203,'cm^3/(mol*s)'), n=2.94673, Ea=(10.7927,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02445, dn = +|- 0.00317317, dEa = +|- 0.0172683 kJ/mol"""),
@@ -54811,7 +54293,7 @@ H    0.671307    -0.002108    -0.15604
 )
 
 entry(
-    index = 3616,
+    index = 3590,
     label = "C4H3-3 + C2H4Cl2-2 <=> C4H4-3 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.010894,'cm^3/(mol*s)'), n=4.18708, Ea=(2.00044,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.2457, dn = +|- 0.0288642, dEa = +|- 0.157078 kJ/mol"""),
@@ -54844,7 +54326,7 @@ H    2.139963    2.891933    -1.01192
 )
 
 entry(
-    index = 3617,
+    index = 3591,
     label = "CH3-2 + C2H4Cl2 <=> CH4-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00876598,'cm^3/(mol*s)'), n=4.62803, Ea=(20.1897,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.86443, dn = +|- 0.0818436, dEa = +|- 0.44539 kJ/mol"""),
@@ -54874,7 +54356,7 @@ H    -0.141831    -0.404515    -1.535545
 )
 
 entry(
-    index = 3618,
+    index = 3592,
     label = "C4H5-8 + C2H5Cl-2 <=> C4H6-8 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00606334,'cm^3/(mol*s)'), n=4.50189, Ea=(12.0364,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.54323, dn = +|- 0.0570028, dEa = +|- 0.310207 kJ/mol"""),
@@ -54909,7 +54391,7 @@ H    1.191042    -1.99423    0.661322
 )
 
 entry(
-    index = 3619,
+    index = 3593,
     label = "C2H4Cl-4 + C2H6O2-2 <=> C2H5Cl-4 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.03235e-05,'cm^3/(mol*s)'), n=4.42738, Ea=(2.21743,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.40635, dn = +|- 0.0448, dEa = +|- 0.2438 kJ/mol"""),
@@ -54944,7 +54426,7 @@ H    0.805434    -0.118529    0.99815
 )
 
 entry(
-    index = 3620,
+    index = 3594,
     label = "C2F5-2 + CH3F <=> C2HF5-2 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.46617e-07,'cm^3/(mol*s)'), n=5.64757, Ea=(28.27,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.05842, dn = +|- 0.14687, dEa = +|- 0.799259 kJ/mol"""),
@@ -54974,7 +54456,7 @@ H    1.054633    0.254773    0.621149
 )
 
 entry(
-    index = 3621,
+    index = 3595,
     label = "O + CHClO <=> HO-2 + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(19656.1,'cm^3/(mol*s)'), n=2.93242, Ea=(10.2075,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.43705, dn = +|- 0.0476374, dEa = +|- 0.259241 kJ/mol"""),
@@ -54997,7 +54479,7 @@ H    1.149196    -0.200882    0.143929
 )
 
 entry(
-    index = 3622,
+    index = 3596,
     label = "C2H3 + C2H2F4 <=> C2H4 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0013336,'cm^3/(mol*s)'), n=4.62141, Ea=(10.9619,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.64946, dn = +|- 0.0657489, dEa = +|- 0.357803 kJ/mol"""),
@@ -55028,7 +54510,7 @@ H    2.274972    -1.811647    -1.048751
 )
 
 entry(
-    index = 3623,
+    index = 3597,
     label = "CH3-2 + CHClO <=> CH4-2 + CClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.056674,'cm^3/(mol*s)'), n=4.38506, Ea=(7.60586,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53525, dn = +|- 0.0563214, dEa = +|- 0.306499 kJ/mol"""),
@@ -55054,7 +54536,7 @@ H    0.460588    -0.076684    0.378568
 )
 
 entry(
-    index = 3624,
+    index = 3598,
     label = "C2H3Cl2-3 + C2H4O-2 <=> C2H4Cl2-3 + C2H3O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(4.808e-05,'cm^3/(mol*s)'), n=4.39862, Ea=(21.4719,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.61084, dn = +|- 0.0626362, dEa = +|- 0.340864 kJ/mol"""),
@@ -55086,7 +54568,7 @@ H    2.604084    -1.468203    -0.06192
 )
 
 entry(
-    index = 3625,
+    index = 3599,
     label = "CH3-2 + CH3Cl <=> CH4-2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.133881,'cm^3/(mol*s)'), n=3.80413, Ea=(30.0047,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.17393, dn = +|- 0.102022, dEa = +|- 0.555198 kJ/mol"""),
@@ -55113,7 +54595,7 @@ H    2.990163    0.304672    0.158573
 )
 
 entry(
-    index = 3626,
+    index = 3600,
     label = "C2H5-2 + C2HCl2F3 <=> C2H6-2 + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0479663,'cm^3/(mol*s)'), n=4.09007, Ea=(5.45872,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.29141, dn = +|- 0.0335983, dEa = +|- 0.182841 kJ/mol"""),
@@ -55146,7 +54628,7 @@ H    -3.170623    0.581575    -0.382554
 )
 
 entry(
-    index = 3627,
+    index = 3601,
     label = "H + C2H4Cl2-2 <=> H2 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(533.412,'cm^3/(mol*s)'), n=3.27403, Ea=(25.4267,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.94003, dn = +|- 0.0870661, dEa = +|- 0.473811 kJ/mol"""),
@@ -55173,7 +54655,7 @@ H    -0.037982    1.334591    2.181085
 )
 
 entry(
-    index = 3628,
+    index = 3602,
     label = "F + C2H2-2 <=> FH + C2H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(160.573,'cm^3/(mol*s)'), n=3.75717, Ea=(23.4071,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.93583, dn = +|- 0.086781, dEa = +|- 0.472259 kJ/mol"""),
@@ -55196,7 +54678,7 @@ H    2.765697    -0.362326    6e-06
 )
 
 entry(
-    index = 3629,
+    index = 3603,
     label = "H + C2H2F4-2 <=> H2 + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(38.7565,'cm^3/(mol*s)'), n=3.70877, Ea=(20.101,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.44203, dn = +|- 0.1173, dEa = +|- 0.638342 kJ/mol"""),
@@ -55223,7 +54705,7 @@ H    -1.037372    -0.004002    2.334344
 )
 
 entry(
-    index = 3630,
+    index = 3604,
     label = "CH3O-3 + CH2Cl2 <=> CH4O-3 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.35828,'cm^3/(mol*s)'), n=3.16452, Ea=(2.5837,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.30268, dn = +|- 0.0347404, dEa = +|- 0.189056 kJ/mol"""),
@@ -55251,7 +54733,7 @@ H    1.185127    -0.329292    1.475768
 )
 
 entry(
-    index = 3631,
+    index = 3605,
     label = "CF3-2 + C3H8 <=> CHF3-2 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00251993,'cm^3/(mol*s)'), n=4.86972, Ea=(12.5628,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79192, dn = +|- 0.0766321, dEa = +|- 0.417029 kJ/mol"""),
@@ -55284,7 +54766,7 @@ H    -1.589265    -2.136723    0.276005
 )
 
 entry(
-    index = 3632,
+    index = 3606,
     label = "CF3-2 + C2H4F2-2 <=> CHF3-2 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.59244e-06,'cm^3/(mol*s)'), n=5.69136, Ea=(16.7202,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.86829, dn = +|- 0.138437, dEa = +|- 0.75337 kJ/mol"""),
@@ -55314,7 +54796,7 @@ H    0.078005    -0.049764    0.145813
 )
 
 entry(
-    index = 3633,
+    index = 3607,
     label = "C2H3F2-6 + HO-4 <=> C2H4F2-6 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0922782,'cm^3/(mol*s)'), n=3.80666, Ea=(16.3002,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.57341, dn = +|- 0.0595473, dEa = +|- 0.324054 kJ/mol"""),
@@ -55341,33 +54823,7 @@ H    0.507838    0.206989    1.394177
 )
 
 entry(
-    index = 3634,
-    label = "CF3-2 + CHFO <=> CHF3-2 + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.68627e-06,'cm^3/(mol*s)'), n=4.95224, Ea=(23.012,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.7255, dn = +|- 0.172791, dEa = +|- 0.940323 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: ODCF + F[C](F)F <=> FC(F)F + OD[C]F
-barrier = 51.431472 kJ/mol
-T1 = 0.019125687
-
-Atom XYZ coordinates (angstrom)
-F    2.160169    0.671778    0.510679
-F    -1.451631    1.299693    -0.16244
-F    -1.35189    -0.30896    1.280707
-F    -1.737071    -0.746682    -0.802181
-O    2.152697    -0.808485    -1.137534
-C    -1.096482    0.044472    0.035425
-C    1.583003    -0.148094    -0.363061
-H    0.270531    -0.072475    -0.189138
-""",
-)
-
-entry(
-    index = 3635,
+    index = 3608,
     label = "C2H3Cl2-3 + C3H6 <=> C2H4Cl2-3 + C3H5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.14959e-05,'cm^3/(mol*s)'), n=4.57431, Ea=(14.1294,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.70783, dn = +|- 0.0703173, dEa = +|- 0.382664 kJ/mol"""),
@@ -55401,7 +54857,7 @@ H    3.376982    1.163264    1.476528
 )
 
 entry(
-    index = 3636,
+    index = 3609,
     label = "C2HF4-3 + CH2O <=> C2H2F4-3 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000197652,'cm^3/(mol*s)'), n=4.8649, Ea=(12.1504,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.91193, dn = +|- 0.0851493, dEa = +|- 0.46338 kJ/mol"""),
@@ -55430,7 +54886,7 @@ H    2.313102    -1.235106    0.928114
 )
 
 entry(
-    index = 3637,
+    index = 3610,
     label = "H + C2H3F3-2 <=> H2 + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(97.7445,'cm^3/(mol*s)'), n=3.50372, Ea=(22.0102,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.21857, dn = +|- 0.104692, dEa = +|- 0.569731 kJ/mol"""),
@@ -55457,7 +54913,7 @@ H    1.410921    2.335071    -0.572206
 )
 
 entry(
-    index = 3638,
+    index = 3611,
     label = "C2F5-2 + CH2O <=> C2HF5-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000786198,'cm^3/(mol*s)'), n=4.8777, Ea=(9.8684,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.81132, dn = +|- 0.0780468, dEa = +|- 0.424728 kJ/mol"""),
@@ -55486,31 +54942,7 @@ H    2.312517    -0.569524    1.797224
 )
 
 entry(
-    index = 3639,
-    label = "H + CH3F <=> H2 + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(601.877,'cm^3/(mol*s)'), n=3.3952, Ea=(26.2682,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.1174, dn = +|- 0.0985597, dEa = +|- 0.536358 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CF + [H] <=> [H][H] + [CH2]F
-barrier = 46.850281 kJ/mol
-T1 = 0.01922212
-
-Atom XYZ coordinates (angstrom)
-F    0.689982    0.359488    -0.001595
-C    -0.464308    -0.345893    0.000951
-H    -1.459729    0.556692    -0.002181
-H    -0.585829    -0.906399    0.92336
-H    -0.585687    -0.913358    -0.917217
-H    -2.107244    1.235579    -0.003562
-""",
-)
-
-entry(
-    index = 3640,
+    index = 3612,
     label = "C2HO-2 + CH3Cl <=> C2H2O-2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0281108,'cm^3/(mol*s)'), n=4.42902, Ea=(21.6276,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53098, dn = +|- 0.0559554, dEa = +|- 0.304507 kJ/mol"""),
@@ -55537,7 +54969,7 @@ H    1.894762    2.096443    -0.031817
 )
 
 entry(
-    index = 3641,
+    index = 3613,
     label = "C2H3 + CH3Cl <=> C2H4 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0080074,'cm^3/(mol*s)'), n=4.6693, Ea=(12.7347,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.71363, dn = +|- 0.0707631, dEa = +|- 0.38509 kJ/mol"""),
@@ -55565,7 +54997,7 @@ H    -0.463154    1.535232    0.978552
 )
 
 entry(
-    index = 3642,
+    index = 3614,
     label = "C3H7-2 + C2H4Cl2 <=> C3H8-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.000105992,'cm^3/(mol*s)'), n=4.62874, Ea=(22.6173,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79735, dn = +|- 0.0770296, dEa = +|- 0.419192 kJ/mol"""),
@@ -55601,7 +55033,7 @@ H    2.243979    -1.523778    1.194382
 )
 
 entry(
-    index = 3643,
+    index = 3615,
     label = "CHCl2-2 + CH4O <=> CH2Cl2-2 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.11543e-05,'cm^3/(mol*s)'), n=5.05659, Ea=(29.3572,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.23548, dn = +|- 0.105689, dEa = +|- 0.575157 kJ/mol"""),
@@ -55629,7 +55061,7 @@ H    2.607724    0.676015    -0.065805
 )
 
 entry(
-    index = 3644,
+    index = 3616,
     label = "C2H4Cl-3 + C2H6O2-2 <=> C2H5Cl-3 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000682668,'cm^3/(mol*s)'), n=4.26323, Ea=(3.06386,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.29219, dn = +|- 0.033678, dEa = +|- 0.183275 kJ/mol"""),
@@ -55664,7 +55096,7 @@ H    -3.26041    0.608516    0.480987
 )
 
 entry(
-    index = 3645,
+    index = 3617,
     label = "CF3-2 + C2HF3O <=> CHF3-2 + C2F3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000287647,'cm^3/(mol*s)'), n=5.02975, Ea=(10.7134,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.97353, dn = +|- 0.0893151, dEa = +|- 0.48605 kJ/mol"""),
@@ -55693,7 +55125,7 @@ H    0.588125    0.443357    0.04604
 )
 
 entry(
-    index = 3646,
+    index = 3618,
     label = "HO + C2H3F-3 <=> H2O + C2H2F-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.339929,'cm^3/(mol*s)'), n=4.02362, Ea=(9.34359,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.53717, dn = +|- 0.0564859, dEa = +|- 0.307394 kJ/mol"""),
@@ -55719,7 +55151,7 @@ H    1.384684    -1.132258    -0.050134
 )
 
 entry(
-    index = 3647,
+    index = 3619,
     label = "CH2Cl-2 + C3H4 <=> CH3Cl-2 + C3H3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(2.96109e-05,'cm^3/(mol*s)'), n=4.88896, Ea=(31.7628,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.31873, dn = +|- 0.110493, dEa = +|- 0.601301 kJ/mol"""),
@@ -55748,7 +55180,7 @@ H    1.47875    2.369909    0.184045
 )
 
 entry(
-    index = 3648,
+    index = 3620,
     label = "CF3-2 + C2H4F2 <=> CHF3-2 + C2H3F2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.93229e-06,'cm^3/(mol*s)'), n=5.49468, Ea=(28.1061,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.77871, dn = +|- 0.134269, dEa = +|- 0.730686 kJ/mol"""),
@@ -55778,7 +55210,7 @@ H    0.786569    -1.530802    -1.443814
 )
 
 entry(
-    index = 3649,
+    index = 3621,
     label = "C2H4Cl-3 + CH3Cl <=> C2H5Cl-3 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(5.78925e-05,'cm^3/(mol*s)'), n=4.82647, Ea=(29.7553,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.05904, dn = +|- 0.0948876, dEa = +|- 0.516375 kJ/mol"""),
@@ -55808,7 +55240,7 @@ H    -1.049033    -0.668634    -1.479359
 )
 
 entry(
-    index = 3650,
+    index = 3622,
     label = "C2H3Cl2-3 + C3H8 <=> C2H4Cl2-3 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.37447e-05,'cm^3/(mol*s)'), n=4.49902, Ea=(19.6714,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.64517, dn = +|- 0.065407, dEa = +|- 0.355943 kJ/mol"""),
@@ -55844,7 +55276,7 @@ H    2.88731    -1.344238    -1.012339
 )
 
 entry(
-    index = 3651,
+    index = 3623,
     label = "C3H2F3-5 + H2-2 <=> C3H3F3-5 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1529.05,'cm^3/(mol*s)'), n=2.89384, Ea=(17.2339,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08583, dn = +|- 0.010819, dEa = +|- 0.0588766 kJ/mol"""),
@@ -55872,7 +55304,7 @@ H    1.491067    -2.602434    0.11354
 )
 
 entry(
-    index = 3652,
+    index = 3624,
     label = "CH3-2 + CHClF2-2 <=> CH4-2 + CClF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00105905,'cm^3/(mol*s)'), n=4.86567, Ea=(21.2832,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.14812, dn = +|- 0.100452, dEa = +|- 0.546658 kJ/mol"""),
@@ -55899,7 +55331,7 @@ H    2.957459    0.141455    -0.28282
 )
 
 entry(
-    index = 3653,
+    index = 3625,
     label = "C2HF4-3 + HO2-4 <=> C2H2F4-3 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.55219,'cm^3/(mol*s)'), n=3.44916, Ea=(-2.09817,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04795, dn = +|- 0.00615376, dEa = +|- 0.0334885 kJ/mol"""),
@@ -55927,7 +55359,7 @@ H    1.409551    -0.701267    2.096281
 )
 
 entry(
-    index = 3654,
+    index = 3626,
     label = "Cl + CH3F <=> ClH + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(672497,'cm^3/(mol*s)'), n=2.62179, Ea=(-2.67265,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15553, dn = +|- 0.0189926, dEa = +|- 0.103357 kJ/mol"""),
@@ -55951,7 +55383,7 @@ H    0.206518    0.131366    0.000372
 )
 
 entry(
-    index = 3655,
+    index = 3627,
     label = "C2H2F3-4 + CH2F2 <=> C2H3F3-4 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.10402e-08,'cm^3/(mol*s)'), n=5.92391, Ea=(29.8004,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.54639, dn = +|- 0.166318, dEa = +|- 0.905097 kJ/mol"""),
@@ -55981,7 +55413,7 @@ H    -1.643216    1.633414    0.482784
 )
 
 entry(
-    index = 3656,
+    index = 3628,
     label = "CH2F-2 + C2H4F2-2 <=> CH3F-2 + C2H3F2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.0913e-06,'cm^3/(mol*s)'), n=5.46206, Ea=(29.9019,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.04901, dn = +|- 0.146465, dEa = +|- 0.797055 kJ/mol"""),
@@ -56011,7 +55443,7 @@ H    -0.335307    -0.427397    0.111953
 )
 
 entry(
-    index = 3657,
+    index = 3629,
     label = "C2H3 + C2HF5 <=> C2H4 + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00449664,'cm^3/(mol*s)'), n=4.59338, Ea=(8.05014,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.58947, dn = +|- 0.0608818, dEa = +|- 0.331316 kJ/mol"""),
@@ -56042,7 +55474,7 @@ H    2.425297    -0.804311    -1.898083
 )
 
 entry(
-    index = 3658,
+    index = 3630,
     label = "CF3-2 + C2H6O <=> CHF3-2 + C2H5O",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00164953,'cm^3/(mol*s)'), n=4.68875, Ea=(9.76508,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.64615, dn = +|- 0.0654848, dEa = +|- 0.356366 kJ/mol"""),
@@ -56073,7 +55505,7 @@ H    1.635608    -1.050571    1.180195
 )
 
 entry(
-    index = 3659,
+    index = 3631,
     label = "C2F3-2 + H2-2 <=> C2HF3-2 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(12900.2,'cm^3/(mol*s)'), n=2.71201, Ea=(16.4451,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05394, dn = +|- 0.00690262, dEa = +|- 0.0375638 kJ/mol"""),
@@ -56098,7 +55530,7 @@ H    1.463733    2.510636    0.292809
 )
 
 entry(
-    index = 3660,
+    index = 3632,
     label = "CH3-2 + C2H4Cl2-2 <=> CH4-2 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00532335,'cm^3/(mol*s)'), n=4.57744, Ea=(30.666,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.85663, dn = +|- 0.0812929, dEa = +|- 0.442393 kJ/mol"""),
@@ -56128,7 +55560,7 @@ H    -2.879708    -0.402864    1.363233
 )
 
 entry(
-    index = 3661,
+    index = 3633,
     label = "C2Cl3 + ClH-2 <=> C2HCl3 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1729.18,'cm^3/(mol*s)'), n=2.89204, Ea=(-3.12216,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0491, dn = +|- 0.00629787, dEa = +|- 0.0342728 kJ/mol"""),
@@ -56153,7 +55585,7 @@ H    -1.566843    0.040439    -0.081186
 )
 
 entry(
-    index = 3662,
+    index = 3634,
     label = "C2Cl2F3-2 + CH2O <=> C2HCl2F3-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000144031,'cm^3/(mol*s)'), n=5.0402, Ea=(15.4889,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.07923, dn = +|- 0.0961701, dEa = +|- 0.523354 kJ/mol"""),
@@ -56182,59 +55614,7 @@ H    -1.953563    0.710306    2.250261
 )
 
 entry(
-    index = 3663,
-    label = "CFO-2 + H2O2 <=> CHFO-2 + HO2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(9.36825e-05,'cm^3/(mol*s)'), n=4.86473, Ea=(8.36083,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.80022, dn = +|- 0.0772396, dEa = +|- 0.420335 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: OD[C]F + OO <=> ODCF + [O]O
-barrier = 31.762879 kJ/mol
-T1 = 0.024898197
-
-Atom XYZ coordinates (angstrom)
-F    -1.912828    -0.728271    -0.058169
-O    1.419896    -0.860839    -0.231008
-O    2.09473    0.260641    0.192833
-O    -0.965325    1.274734    -0.118544
-C    -0.889852    0.110581    -0.108458
-H    0.330032    -0.561247    -0.157045
-H    2.310741    0.724035    -0.62817
-""",
-)
-
-entry(
-    index = 3664,
-    label = "CH3-2 + CH2F2 <=> CH4-2 + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(0.000119603,'cm^3/(mol*s)'), n=5.33723, Ea=(28.5848,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.95973, dn = +|- 0.14256, dEa = +|- 0.775808 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FCF + [CH3] <=> C + F[CH]F
-barrier = 57.238084 kJ/mol
-T1 = 0.017229232
-
-Atom XYZ coordinates (angstrom)
-F    0.915724    -1.301695    0.510302
-F    1.020302    0.542213    -0.656269
-C    0.484416    -0.033604    0.430775
-C    -2.121398    -0.250443    -0.145095
-H    -0.817992    -0.089797    0.225257
-H    0.74552    0.521497    1.331589
-H    -2.256172    -1.325898    -0.156225
-H    -2.171537    0.21488    -1.122773
-H    -2.69051    0.26211    0.622171
-""",
-)
-
-entry(
-    index = 3665,
+    index = 3635,
     label = "C2ClF4 + CH3F <=> C2HClF4 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.28013e-06,'cm^3/(mol*s)'), n=5.51595, Ea=(29.6549,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.80276, dn = +|- 0.135401, dEa = +|- 0.736847 kJ/mol"""),
@@ -56264,7 +55644,7 @@ H    -3.199709    0.872919    0.023515
 )
 
 entry(
-    index = 3666,
+    index = 3636,
     label = "C2H4Cl-3 + C3H8 <=> C2H5Cl-3 + C3H7",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00113155,'cm^3/(mol*s)'), n=4.64321, Ea=(27.5326,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.8185, dn = +|- 0.0785667, dEa = +|- 0.427557 kJ/mol"""),
@@ -56300,7 +55680,7 @@ H    -1.671932    -0.900301    1.139571
 )
 
 entry(
-    index = 3667,
+    index = 3637,
     label = "CH2F-2 + CH4O <=> CH3F-2 + CH3O",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(7.20575e-07,'cm^3/(mol*s)'), n=5.28616, Ea=(27.2605,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.86071, dn = +|- 0.13809, dEa = +|- 0.751479 kJ/mol"""),
@@ -56328,7 +55708,7 @@ H    -1.294306    1.550307    -0.664476
 )
 
 entry(
-    index = 3668,
+    index = 3638,
     label = "C2HCl2 + H2-2 <=> C2H2Cl2 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4437.61,'cm^3/(mol*s)'), n=2.75314, Ea=(18.0793,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05319, dn = +|- 0.00680891, dEa = +|- 0.0370538 kJ/mol"""),
@@ -56353,7 +55733,7 @@ H    -2.30818    2.301547    0.348008
 )
 
 entry(
-    index = 3669,
+    index = 3639,
     label = "CHCl2-2 + CH4O2-3 <=> CH2Cl2-2 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.44309e-05,'cm^3/(mol*s)'), n=4.63574, Ea=(5.77254,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.60092, dn = +|- 0.0618249, dEa = +|- 0.336449 kJ/mol"""),
@@ -56382,7 +55762,7 @@ H    -1.400982    -0.660157    1.069209
 )
 
 entry(
-    index = 3670,
+    index = 3640,
     label = "C2H4Cl-3 + C2H6 <=> C2H5Cl-3 + C2H5",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.00107793,'cm^3/(mol*s)'), n=4.7178, Ea=(37.8613,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.94856, dn = +|- 0.0876423, dEa = +|- 0.476946 kJ/mol"""),
@@ -56415,7 +55795,7 @@ H    -2.657673    1.590101    -0.556579
 )
 
 entry(
-    index = 3671,
+    index = 3641,
     label = "C2H3 + C2H4F2 <=> C2H4 + C2H3F2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000961544,'cm^3/(mol*s)'), n=4.59729, Ea=(18.8985,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.69451, dn = +|- 0.0692894, dEa = +|- 0.37707 kJ/mol"""),
@@ -56446,7 +55826,7 @@ H    -2.826993    -1.476612    0.362381
 )
 
 entry(
-    index = 3672,
+    index = 3642,
     label = "Cl + C2HClF4-2 <=> ClH + C2ClF4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(151721,'cm^3/(mol*s)'), n=2.73422, Ea=(1.98623,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.22377, dn = +|- 0.0265303, dEa = +|- 0.144377 kJ/mol"""),
@@ -56473,7 +55853,7 @@ H    -1.488066    0.046216    -0.003486
 )
 
 entry(
-    index = 3673,
+    index = 3643,
     label = "CH3-2 + CH2Cl2 <=> CH4-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0139741,'cm^3/(mol*s)'), n=4.59982, Ea=(15.5349,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79979, dn = +|- 0.077208, dEa = +|- 0.420163 kJ/mol"""),
@@ -56500,7 +55880,7 @@ H    0.100709    0.229393    1.733221
 )
 
 entry(
-    index = 3674,
+    index = 3644,
     label = "O + C2HF3O <=> HO-2 + C2F3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(59021,'cm^3/(mol*s)'), n=2.82899, Ea=(9.45209,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.37957, dn = +|- 0.0422744, dEa = +|- 0.230056 kJ/mol"""),
@@ -56526,7 +55906,7 @@ H    -1.626691    -0.022657    -0.038149
 )
 
 entry(
-    index = 3675,
+    index = 3645,
     label = "O + C2H5Cl-2 <=> HO-2 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(57.7412,'cm^3/(mol*s)'), n=3.66129, Ea=(19.8124,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.9938, dn = +|- 0.0906576, dEa = +|- 0.493356 kJ/mol"""),
@@ -56553,7 +55933,7 @@ H    -1.540427    -0.185656    0.100589
 )
 
 entry(
-    index = 3676,
+    index = 3646,
     label = "H + C2H4F2-3 <=> H2 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(712.112,'cm^3/(mol*s)'), n=3.34957, Ea=(19.6195,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.01597, dn = +|- 0.0921103, dEa = +|- 0.501261 kJ/mol"""),
@@ -56580,34 +55960,7 @@ H    1.569587    2.379204    0.168639
 )
 
 entry(
-    index = 3677,
-    label = "CF3-2 + CH3F <=> CHF3-2 + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(3.0289e-05,'cm^3/(mol*s)'), n=4.82368, Ea=(23.3143,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.34455, dn = +|- 0.158619, dEa = +|- 0.8632 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CF + F[C](F)F <=> FC(F)F + [CH2]F
-barrier = 50.798770 kJ/mol
-T1 = 0.016677129
-
-Atom XYZ coordinates (angstrom)
-F    2.186183    0.458778    0.986732
-F    -1.520187    -0.747787    -0.905672
-F    -1.412176    -0.248742    1.195844
-F    -1.146956    1.293574    -0.297031
-C    1.742341    -0.395452    0.033764
-C    -0.924383    0.022151    -0.004331
-H    0.444473    -0.230934    -0.022942
-H    2.125321    -0.125453    -0.947054
-H    1.904556    -1.430029    0.325164
-""",
-)
-
-entry(
-    index = 3678,
+    index = 3647,
     label = "CH2Cl-2 + CH2Cl2 <=> CH3Cl-2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.70746e-05,'cm^3/(mol*s)'), n=4.88019, Ea=(23.2358,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.17754, dn = +|- 0.102239, dEa = +|- 0.556383 kJ/mol"""),
@@ -56634,7 +55987,7 @@ H    1.662927    0.389659    1.541083
 )
 
 entry(
-    index = 3679,
+    index = 3648,
     label = "CH2Cl-2 + CH4O2-3 <=> CH3Cl-2 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.86806e-05,'cm^3/(mol*s)'), n=4.38163, Ea=(4.90341,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47295, dn = +|- 0.0508793, dEa = +|- 0.276883 kJ/mol"""),
@@ -56663,7 +56016,7 @@ H    -0.973493    0.607407    -1.692056
 )
 
 entry(
-    index = 3680,
+    index = 3649,
     label = "CH3-2 + C2H5Cl-2 <=> CH4-2 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00805706,'cm^3/(mol*s)'), n=4.62824, Ea=(34.0244,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.94831, dn = +|- 0.0876258, dEa = +|- 0.476856 kJ/mol"""),
@@ -56693,33 +56046,7 @@ H    -3.69555    -0.779681    0.084945
 )
 
 entry(
-    index = 3681,
-    label = "CH3-2 + CHFO <=> CH4-2 + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.00192763,'cm^3/(mol*s)'), n=4.93778, Ea=(25.0671,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.32648, dn = +|- 0.110931, dEa = +|- 0.603684 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: ODCF + [CH3] <=> C + OD[C]F
-barrier = 50.127656 kJ/mol
-T1 = 0.02147778
-
-Atom XYZ coordinates (angstrom)
-F    -0.907116    0.274039    -1.386235
-O    -1.40246    -0.251119    0.704364
-C    2.075676    0.128094    0.148533
-C    -0.601888    -0.00104    -0.110258
-H    2.432133    -0.542027    -0.624955
-H    2.247263    -0.213062    1.162564
-H    2.296797    1.17498    -0.023457
-H    0.713177    0.06218    0.029702
-""",
-)
-
-entry(
-    index = 3682,
+    index = 3650,
     label = "C2ClF4 + H2O2 <=> C2HClF4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.64321e-05,'cm^3/(mol*s)'), n=4.8131, Ea=(7.42453,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72358, dn = +|- 0.0715237, dEa = +|- 0.389229 kJ/mol"""),
@@ -56748,7 +56075,7 @@ H    -2.695622    -1.063823    1.016481
 )
 
 entry(
-    index = 3683,
+    index = 3651,
     label = "CF3-2 + HO2-4 <=> CHF3-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(65.2819,'cm^3/(mol*s)'), n=3.36263, Ea=(0.558479,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03758, dn = +|- 0.00484612, dEa = +|- 0.0263724 kJ/mol"""),
@@ -56773,7 +56100,7 @@ H    0.938235    0.067844    -0.103847
 )
 
 entry(
-    index = 3684,
+    index = 3652,
     label = "C2H4Cl-3 + C2H5Cl <=> C2H5Cl-3 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000188772,'cm^3/(mol*s)'), n=4.68899, Ea=(22.3785,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.86957, dn = +|- 0.0822059, dEa = +|- 0.447362 kJ/mol"""),
@@ -56806,7 +56133,7 @@ H    1.99437    1.470302    1.617986
 )
 
 entry(
-    index = 3685,
+    index = 3653,
     label = "C2HF4-4 + CH2F2 <=> C2H2F4-4 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.55621e-07,'cm^3/(mol*s)'), n=5.91675, Ea=(26.5884,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.51517, dn = +|- 0.165156, dEa = +|- 0.898774 kJ/mol"""),
@@ -56836,7 +56163,7 @@ H    2.568934    0.566573    0.625736
 )
 
 entry(
-    index = 3686,
+    index = 3654,
     label = "O + C2H4Cl2-2 <=> HO-2 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(60.2202,'cm^3/(mol*s)'), n=3.65704, Ea=(19.8656,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.00182, dn = +|- 0.0911852, dEa = +|- 0.496226 kJ/mol"""),
@@ -56863,7 +56190,7 @@ H    1.364585    -0.22043    0.007971
 )
 
 entry(
-    index = 3687,
+    index = 3655,
     label = "C2H3F2-5 + HO2-4 <=> C2H4F2-5 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.79818,'cm^3/(mol*s)'), n=3.34555, Ea=(-5.58839,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11344, dn = +|- 0.0141177, dEa = +|- 0.0768279 kJ/mol"""),
@@ -56891,7 +56218,7 @@ H    -1.012065    0.079454    0.299125
 )
 
 entry(
-    index = 3688,
+    index = 3656,
     label = "CH3-2 + C2HCl2F3 <=> CH4-2 + C2Cl2F3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.215067,'cm^3/(mol*s)'), n=4.16365, Ea=(6.53903,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.3555, dn = +|- 0.039962, dEa = +|- 0.217472 kJ/mol"""),
@@ -56921,34 +56248,7 @@ H    -1.336662    -1.3711    -2.444042
 )
 
 entry(
-    index = 3689,
-    label = "CH3-2 + CH3F <=> CH4-2 + CH2F",
-    degeneracy = 3.0,
-    kinetics = Arrhenius(A=(0.00025499,'cm^3/(mol*s)'), n=5.16834, Ea=(34.7696,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.78, dn = +|- 0.13433, dEa = +|- 0.731017 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: CF + [CH3] <=> C + [CH2]F
-barrier = 62.704614 kJ/mol
-T1 = 0.017165178
-
-Atom XYZ coordinates (angstrom)
-F    1.143717    -0.572446    -0.63185
-C    0.592874    0.489946    0.020552
-C    -2.006958    -0.159571    0.019718
-H    -0.700878    0.249605    0.064333
-H    0.948642    0.536937    1.046773
-H    0.733541    1.405306    -0.548859
-H    -2.509719    0.584183    -0.587961
-H    -1.944615    -1.13898    -0.440686
-H    -2.328256    -0.175944    1.054998
-""",
-)
-
-entry(
-    index = 3690,
+    index = 3657,
     label = "HO + C2H3F3 <=> H2O + C2H2F3",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(25.5639,'cm^3/(mol*s)'), n=3.68129, Ea=(4.03666,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.27363, dn = +|- 0.0317775, dEa = +|- 0.172932 kJ/mol"""),
@@ -56976,7 +56276,7 @@ H    -2.170559    -0.970946    -0.091638
 )
 
 entry(
-    index = 3691,
+    index = 3658,
     label = "CH3O-3 + C2H5Cl-2 <=> CH4O-3 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00178414,'cm^3/(mol*s)'), n=4.51708, Ea=(17.7469,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72576, dn = +|- 0.0716902, dEa = +|- 0.390135 kJ/mol"""),
@@ -57007,7 +56307,7 @@ H    1.238856    -0.739477    0.18239
 )
 
 entry(
-    index = 3692,
+    index = 3659,
     label = "O + C2HF5 <=> HO-2 + C2F5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.456928,'cm^3/(mol*s)'), n=4.16696, Ea=(24.0087,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.74611, dn = +|- 0.132718, dEa = +|- 0.722249 kJ/mol"""),
@@ -57034,7 +56334,7 @@ H    1.417976    0.433423    0.490824
 )
 
 entry(
-    index = 3693,
+    index = 3660,
     label = "C2H2F3-6 + CH2F2 <=> C2H3F3-6 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.59525e-06,'cm^3/(mol*s)'), n=5.30351, Ea=(23.2009,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.67932, dn = +|- 0.129483, dEa = +|- 0.704644 kJ/mol"""),
@@ -57064,7 +56364,7 @@ H    -0.14942    -0.28003    -1.746288
 )
 
 entry(
-    index = 3694,
+    index = 3661,
     label = "C2H4Cl-3 + CH2O <=> C2H5Cl-3 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000129039,'cm^3/(mol*s)'), n=4.9181, Ea=(11.8339,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.98382, dn = +|- 0.0899987, dEa = +|- 0.489769 kJ/mol"""),
@@ -57093,7 +56393,7 @@ H    2.206321    -0.605347    -1.536851
 )
 
 entry(
-    index = 3695,
+    index = 3662,
     label = "HO + CH3Cl <=> H2O + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1721.69,'cm^3/(mol*s)'), n=3.16742, Ea=(-0.601164,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04987, dn = +|- 0.00639364, dEa = +|- 0.034794 kJ/mol"""),
@@ -57118,33 +56418,7 @@ H    -2.11241    -0.812122    -0.03611
 )
 
 entry(
-    index = 3696,
-    label = "CFO-2 + CH2F2 <=> CHFO-2 + CHF2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.00907e-07,'cm^3/(mol*s)'), n=5.97663, Ea=(32.0315,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.72034, dn = +|- 0.172609, dEa = +|- 0.939331 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FCF + OD[C]F <=> ODCF + F[CH]F
-barrier = 60.740493 kJ/mol
-T1 = 0.019824166
-
-Atom XYZ coordinates (angstrom)
-F    1.728541    -0.121514    0.87465
-F    -1.864787    0.311456    0.712423
-F    -1.395363    -1.621568    -0.181047
-O    1.95099    0.847104    -1.103782
-C    -1.353075    -0.301294    -0.354144
-C    1.285487    0.315938    -0.304048
-H    -0.046202    0.03517    -0.395566
-H    -1.847446    0.004664    -1.275875
-""",
-)
-
-entry(
-    index = 3697,
+    index = 3663,
     label = "CHCl2-2 + H2O2 <=> CH2Cl2-2 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.26294e-06,'cm^3/(mol*s)'), n=4.97014, Ea=(10.043,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.01906, dn = +|- 0.0923121, dEa = +|- 0.502359 kJ/mol"""),
@@ -57170,7 +56444,7 @@ H    -2.57262    -0.221473    -0.557605
 )
 
 entry(
-    index = 3698,
+    index = 3664,
     label = "CH2Cl-2 + C3H6 <=> CH3Cl-2 + C3H5",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.8183e-05,'cm^3/(mol*s)'), n=4.91044, Ea=(26.5939,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.27024, dn = +|- 0.107716, dEa = +|- 0.586188 kJ/mol"""),
@@ -57201,7 +56475,7 @@ H    2.651815    -0.8509    1.471488
 )
 
 entry(
-    index = 3699,
+    index = 3665,
     label = "F + C3H2F4-3 <=> FH + C3HF4-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.04038e+07,'cm^3/(mol*s)'), n=2.03069, Ea=(-0.348524,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05146, dn = +|- 0.00659297, dEa = +|- 0.0358787 kJ/mol"""),
@@ -57229,7 +56503,7 @@ H    -2.388469    -0.467927    -0.430634
 )
 
 entry(
-    index = 3700,
+    index = 3666,
     label = "C2H3Cl2-4 + CH4O2-3 <=> C2H4Cl2-4 + CH3O2-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.97388e-05,'cm^3/(mol*s)'), n=4.47751, Ea=(5.07835,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47701, dn = +|- 0.0512406, dEa = +|- 0.27885 kJ/mol"""),
@@ -57261,7 +56535,7 @@ H    2.594229    0.455193    -1.243569
 )
 
 entry(
-    index = 3701,
+    index = 3667,
     label = "Cl + CH2F2 <=> ClH + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(248383,'cm^3/(mol*s)'), n=2.67233, Ea=(-0.695785,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.17865, dn = +|- 0.0215952, dEa = +|- 0.11752 kJ/mol"""),
@@ -57285,7 +56559,7 @@ H    -0.760047    0.038137    1.128408
 )
 
 entry(
-    index = 3702,
+    index = 3668,
     label = "CH3-2 + ClHO <=> CH4-2 + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.101856,'cm^3/(mol*s)'), n=4.29478, Ea=(6.96757,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.45687, dn = +|- 0.0494371, dEa = +|- 0.269035 kJ/mol"""),
@@ -57310,7 +56584,7 @@ H    -0.994111    0.210662    -0.348724
 )
 
 entry(
-    index = 3703,
+    index = 3669,
     label = "C2HF4-3 + CH3F <=> C2H2F4-3 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.95975e-06,'cm^3/(mol*s)'), n=5.35159, Ea=(33.6113,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.77051, dn = +|- 0.13388, dEa = +|- 0.728572 kJ/mol"""),
@@ -57340,7 +56614,7 @@ H    2.149039    -0.973408    -1.113762
 )
 
 entry(
-    index = 3704,
+    index = 3670,
     label = "CH3-2 + CHCl3-2 <=> CH4-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.37906,'cm^3/(mol*s)'), n=4.14422, Ea=(4.92192,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.32498, dn = +|- 0.0369701, dEa = +|- 0.20119 kJ/mol"""),
@@ -57367,7 +56641,7 @@ H    -2.752161    -0.648073    -1.005482
 )
 
 entry(
-    index = 3705,
+    index = 3671,
     label = "CHCl2-2 + CH2O <=> CH2Cl2-2 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.64388e-05,'cm^3/(mol*s)'), n=5.2679, Ea=(17.3349,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.47481, dn = +|- 0.119052, dEa = +|- 0.647876 kJ/mol"""),
@@ -57393,7 +56667,7 @@ H    -0.405406    -0.278258    1.532955
 )
 
 entry(
-    index = 3706,
+    index = 3672,
     label = "CH3O-3 + CH2F2 <=> CH4O-3 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.39254e-05,'cm^3/(mol*s)'), n=4.98234, Ea=(14.7609,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.16877, dn = +|- 0.101709, dEa = +|- 0.553497 kJ/mol"""),
@@ -57421,7 +56695,7 @@ H    -0.160099    0.131664    0.771502
 )
 
 entry(
-    index = 3707,
+    index = 3673,
     label = "CH3-2 + C2H3F3-3 <=> CH4-2 + C2H2F3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000136748,'cm^3/(mol*s)'), n=5.09415, Ea=(24.992,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.50852, dn = +|- 0.120829, dEa = +|- 0.657548 kJ/mol"""),
@@ -57451,7 +56725,7 @@ H    2.629994    0.707453    -1.149531
 )
 
 entry(
-    index = 3708,
+    index = 3674,
     label = "C2H3Cl2-4 + CHCl3-2 <=> C2H4Cl2-4 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000794462,'cm^3/(mol*s)'), n=4.56166, Ea=(11.5424,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.62758, dn = +|- 0.0639945, dEa = +|- 0.348256 kJ/mol"""),
@@ -57481,7 +56755,7 @@ H    -1.478763    -1.696598    -0.341017
 )
 
 entry(
-    index = 3709,
+    index = 3675,
     label = "H + CH2Cl2 <=> H2 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1411.16,'cm^3/(mol*s)'), n=3.21154, Ea=(10.7169,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.75583, dn = +|- 0.0739592, dEa = +|- 0.402483 kJ/mol"""),
@@ -57505,7 +56779,7 @@ H    -0.48205    2.434474    -0.970798
 )
 
 entry(
-    index = 3710,
+    index = 3676,
     label = "CHCl2-2 + C3H6O-4 <=> CH2Cl2-2 + C3H5O-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(1.37871e-05,'cm^3/(mol*s)'), n=4.74661, Ea=(33.5481,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.90038, dn = +|- 0.0843531, dEa = +|- 0.459046 kJ/mol"""),
@@ -57537,7 +56811,7 @@ H    -1.441398    0.661223    -2.153001
 )
 
 entry(
-    index = 3711,
+    index = 3677,
     label = "C2H2F3-6 + CH4 <=> C2H3F3-6 + CH3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.00691205,'cm^3/(mol*s)'), n=4.63829, Ea=(38.1573,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.87766, dn = +|- 0.0827731, dEa = +|- 0.450448 kJ/mol"""),
@@ -57567,7 +56841,7 @@ H    -2.564804    -0.688129    0.868643
 )
 
 entry(
-    index = 3712,
+    index = 3678,
     label = "CH3O-4 + CHCl3-2 <=> CH4O-4 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00179773,'cm^3/(mol*s)'), n=4.48442, Ea=(11.3138,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.62487, dn = +|- 0.0637752, dEa = +|- 0.347062 kJ/mol"""),
@@ -57595,7 +56869,7 @@ H    -2.667495    -0.620473    0.439087
 )
 
 entry(
-    index = 3713,
+    index = 3679,
     label = "C2HF4-4 + HO2-4 <=> C2H2F4-4 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.19715,'cm^3/(mol*s)'), n=3.44889, Ea=(-4.56439,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06112, dn = +|- 0.00779413, dEa = +|- 0.0424154 kJ/mol"""),
@@ -57623,7 +56897,7 @@ H    1.266369    0.232467    -0.611427
 )
 
 entry(
-    index = 3714,
+    index = 3680,
     label = "C2H5-2 + CH3Cl <=> C2H6-2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000200328,'cm^3/(mol*s)'), n=4.77867, Ea=(32.6481,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.10164, dn = +|- 0.097578, dEa = +|- 0.531016 kJ/mol"""),
@@ -57653,7 +56927,7 @@ H    -1.35421    1.799792    -0.240099
 )
 
 entry(
-    index = 3715,
+    index = 3681,
     label = "CH2Cl-2 + H2O2 <=> CH3Cl-2 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.77678e-05,'cm^3/(mol*s)'), n=4.60006, Ea=(7.75859,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.71059, dn = +|- 0.0705301, dEa = +|- 0.383822 kJ/mol"""),
@@ -57679,7 +56953,7 @@ H    -1.908409    -1.175326    -0.992314
 )
 
 entry(
-    index = 3716,
+    index = 3682,
     label = "CH2Cl-2 + CHCl3-2 <=> CH3Cl-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0255087,'cm^3/(mol*s)'), n=3.48762, Ea=(11.2368,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.63425, dn = +|- 0.064532, dEa = +|- 0.351181 kJ/mol"""),
@@ -57706,7 +56980,7 @@ H    -1.932326    -1.50888    0.470514
 )
 
 entry(
-    index = 3717,
+    index = 3683,
     label = "C2H3Cl2-3 + C3H8-3 <=> C2H4Cl2-3 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(4.82528e-05,'cm^3/(mol*s)'), n=4.55741, Ea=(29.878,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72153, dn = +|- 0.0713673, dEa = +|- 0.388378 kJ/mol"""),
@@ -57742,7 +57016,7 @@ H    0.202107    -1.591321    1.635405
 )
 
 entry(
-    index = 3718,
+    index = 3684,
     label = "C2H5-2 + C2H4Cl2 <=> C2H6-2 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(7.95998e-05,'cm^3/(mol*s)'), n=4.59033, Ea=(21.0157,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.80636, dn = +|- 0.0776868, dEa = +|- 0.422769 kJ/mol"""),
@@ -57775,7 +57049,7 @@ H    -1.946515    -1.20786    1.539225
 )
 
 entry(
-    index = 3719,
+    index = 3685,
     label = "C2H4Cl-3 + C2H4Cl2 <=> C2H5Cl-3 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(7.33293e-05,'cm^3/(mol*s)'), n=4.64797, Ea=(18.0054,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.76152, dn = +|- 0.0743847, dEa = +|- 0.404799 kJ/mol"""),
@@ -57808,7 +57082,7 @@ H    0.795324    1.173363    1.79119
 )
 
 entry(
-    index = 3720,
+    index = 3686,
     label = "HO + C2H3F3-3 <=> H2O + C2H2F3-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(141.644,'cm^3/(mol*s)'), n=3.18861, Ea=(-1.22094,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06404, dn = +|- 0.00815553, dEa = +|- 0.0443821 kJ/mol"""),
@@ -57836,7 +57110,7 @@ H    -1.653602    1.326947    -0.943048
 )
 
 entry(
-    index = 3721,
+    index = 3687,
     label = "C2HCl2-2 + ClH-2 <=> C2H2Cl2-2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1683.44,'cm^3/(mol*s)'), n=2.75012, Ea=(-4.90423,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08548, dn = +|- 0.0107756, dEa = +|- 0.0586406 kJ/mol"""),
@@ -57861,7 +57135,7 @@ H    0.175336    -1.845365    0.082515
 )
 
 entry(
-    index = 3722,
+    index = 3688,
     label = "CCl3 + HO2-4 <=> CHCl3 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.4909,'cm^3/(mol*s)'), n=3.39981, Ea=(-3.06701,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05948, dn = +|- 0.00759147, dEa = +|- 0.0413125 kJ/mol"""),
@@ -57886,7 +57160,7 @@ H    -0.85677    -0.309346    -0.792608
 )
 
 entry(
-    index = 3723,
+    index = 3689,
     label = "HO + C3H2F4 <=> H2O + C3HF4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.607821,'cm^3/(mol*s)'), n=4.16818, Ea=(13.5364,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72113, dn = +|- 0.0713369, dEa = +|- 0.388213 kJ/mol"""),
@@ -57915,7 +57189,7 @@ H    -2.278863    -0.515693    0.442901
 )
 
 entry(
-    index = 3724,
+    index = 3690,
     label = "CClO-2 + HO2-4 <=> CHClO-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.11111,'cm^3/(mol*s)'), n=3.55934, Ea=(-2.33131,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02507, dn = +|- 0.00325251, dEa = +|- 0.0177001 kJ/mol"""),
@@ -57939,7 +57213,7 @@ H    -1.111539    0.361926    -0.003719
 )
 
 entry(
-    index = 3725,
+    index = 3691,
     label = "C2H4Cl-3 + H2O2 <=> C2H5Cl-3 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00022468,'cm^3/(mol*s)'), n=4.27218, Ea=(2.34228,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.31927, dn = +|- 0.036403, dEa = +|- 0.198104 kJ/mol"""),
@@ -57968,7 +57242,7 @@ H    -1.442773    -1.298721    0.123613
 )
 
 entry(
-    index = 3726,
+    index = 3692,
     label = "C2HF4-3 + H2O2 <=> C2H2F4-3 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.65163e-06,'cm^3/(mol*s)'), n=4.70278, Ea=(10.3286,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.77278, dn = +|- 0.0752216, dEa = +|- 0.409353 kJ/mol"""),
@@ -57997,7 +57271,7 @@ H    -2.340662    0.175256    1.451687
 )
 
 entry(
-    index = 3727,
+    index = 3693,
     label = "C2H3Cl2-3 + CH2Cl2 <=> C2H4Cl2-3 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000133417,'cm^3/(mol*s)'), n=4.48031, Ea=(10.9358,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.58413, dn = +|- 0.0604397, dEa = +|- 0.32891 kJ/mol"""),
@@ -58027,7 +57301,7 @@ H    1.738209    1.460354    0.998223
 )
 
 entry(
-    index = 3728,
+    index = 3694,
     label = "C2H3Cl2-4 + C2H4O-2 <=> C2H4Cl2-4 + C2H3O-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.000165845,'cm^3/(mol*s)'), n=4.56001, Ea=(35.7152,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.75529, dn = +|- 0.0739191, dEa = +|- 0.402265 kJ/mol"""),
@@ -58059,7 +57333,7 @@ H    2.395303    0.147205    -1.262939
 )
 
 entry(
-    index = 3729,
+    index = 3695,
     label = "C2H2F3-5 + CH3F <=> C2H3F3-5 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.4457e-06,'cm^3/(mol*s)'), n=5.32867, Ea=(35.7765,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.74643, dn = +|- 0.132733, dEa = +|- 0.722331 kJ/mol"""),
@@ -58089,7 +57363,7 @@ H    2.247167    0.818231    -0.770161
 )
 
 entry(
-    index = 3730,
+    index = 3696,
     label = "HO + C2H4F2-3 <=> H2O + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(520.878,'cm^3/(mol*s)'), n=3.06654, Ea=(-3.72248,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03639, dn = +|- 0.0046963, dEa = +|- 0.0255571 kJ/mol"""),
@@ -58117,7 +57391,7 @@ H    -0.658245    1.01212    0.070905
 )
 
 entry(
-    index = 3731,
+    index = 3697,
     label = "CF3-2 + C2H3F3-2 <=> CHF3-2 + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.4035e-07,'cm^3/(mol*s)'), n=5.69148, Ea=(22.7204,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.09169, dn = +|- 0.148291, dEa = +|- 0.806995 kJ/mol"""),
@@ -58147,7 +57421,7 @@ H    -2.877873    0.396522    -0.044382
 )
 
 entry(
-    index = 3732,
+    index = 3698,
     label = "C2H3F2-6 + H2-2 <=> C2H4F2-6 + H-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.13036,'cm^3/(mol*s)'), n=3.40173, Ea=(30.0379,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.50691, dn = +|- 0.0538741, dEa = +|- 0.293181 kJ/mol"""),
@@ -58174,7 +57448,7 @@ H    1.938114    -0.002014    1.804981
 )
 
 entry(
-    index = 3733,
+    index = 3699,
     label = "C2H3Cl2-3 + C2H4O <=> C2H4Cl2-3 + C2H3O",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00181325,'cm^3/(mol*s)'), n=4.22009, Ea=(6.09566,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.38462, dn = +|- 0.0427543, dEa = +|- 0.232667 kJ/mol"""),
@@ -58206,7 +57480,7 @@ H    -3.132026    0.561923    1.62504
 )
 
 entry(
-    index = 3734,
+    index = 3700,
     label = "CH2F-2 + C2H5F-2 <=> CH3F-2 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5.43862e-06,'cm^3/(mol*s)'), n=5.37821, Ea=(31.5279,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.95909, dn = +|- 0.142532, dEa = +|- 0.775653 kJ/mol"""),
@@ -58236,7 +57510,7 @@ H    1.453692    0.528428    1.3676
 )
 
 entry(
-    index = 3735,
+    index = 3701,
     label = "F + CHFO <=> FH + CFO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.74815e+08,'cm^3/(mol*s)'), n=1.72808, Ea=(-0.577896,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01097, dn = +|- 0.0014336, dEa = +|- 0.0078016 kJ/mol"""),
@@ -58259,7 +57533,7 @@ H    -0.642315    0.493543    0.0253
 )
 
 entry(
-    index = 3736,
+    index = 3702,
     label = "C4H5-8 + C2H5Cl <=> C4H6-8 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0467819,'cm^3/(mol*s)'), n=4.21726, Ea=(3.18342,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.27898, dn = +|- 0.0323273, dEa = +|- 0.175924 kJ/mol"""),
@@ -58294,7 +57568,7 @@ H    1.643693    2.164386    1.779326
 )
 
 entry(
-    index = 3737,
+    index = 3703,
     label = "CH3-2 + C2H5Cl <=> CH4-2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.0061077,'cm^3/(mol*s)'), n=4.73315, Ea=(22.1314,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.99921, dn = +|- 0.0910141, dEa = +|- 0.495295 kJ/mol"""),
@@ -58324,7 +57598,7 @@ H    0.027046    0.61823    1.625126
 )
 
 entry(
-    index = 3738,
+    index = 3704,
     label = "CF3-2 + C2H5F-2 <=> CHF3-2 + C2H4F-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.81615e-05,'cm^3/(mol*s)'), n=5.4189, Ea=(16.2637,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.47165, dn = +|- 0.118884, dEa = +|- 0.646963 kJ/mol"""),
@@ -58354,7 +57628,7 @@ H    -1.704448    0.544327    -1.569223
 )
 
 entry(
-    index = 3739,
+    index = 3705,
     label = "C2H4F-3 + H2O2 <=> C2H5F-3 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(9.93791e-05,'cm^3/(mol*s)'), n=4.47035, Ea=(3.24364,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47277, dn = +|- 0.0508631, dEa = +|- 0.276795 kJ/mol"""),
@@ -58383,7 +57657,7 @@ H    1.698558    -0.835445    -1.436041
 )
 
 entry(
-    index = 3740,
+    index = 3706,
     label = "C2ClF4 + CH2F2 <=> C2HClF4 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.34405e-07,'cm^3/(mol*s)'), n=5.75848, Ea=(28.3874,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.1611, dn = +|- 0.151208, dEa = +|- 0.822868 kJ/mol"""),
@@ -58413,7 +57687,7 @@ H    -2.829179    -0.143478    1.359248
 )
 
 entry(
-    index = 3741,
+    index = 3707,
     label = "C2H3Cl2-3 + C2H5Cl-2 <=> C2H4Cl2-3 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.48929e-05,'cm^3/(mol*s)'), n=4.52183, Ea=(24.9495,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.66724, dn = +|- 0.0671573, dEa = +|- 0.365468 kJ/mol"""),
@@ -58446,7 +57720,7 @@ H    2.558214    0.556918    -2.03053
 )
 
 entry(
-    index = 3742,
+    index = 3708,
     label = "C4H3-3 + C2H4Cl2 <=> C4H4-3 + C2H3Cl2",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(0.0657624,'cm^3/(mol*s)'), n=3.99538, Ea=(-1.30617,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13773, dn = +|- 0.0169526, dEa = +|- 0.0922555 kJ/mol"""),
@@ -58479,7 +57753,7 @@ H    -2.571384    0.889454    -2.455832
 )
 
 entry(
-    index = 3743,
+    index = 3709,
     label = "C2H4F-4 + CH2F2 <=> C2H5F-4 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.02343e-06,'cm^3/(mol*s)'), n=5.20003, Ea=(28.7107,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.61694, dn = +|- 0.126389, dEa = +|- 0.687802 kJ/mol"""),
@@ -58509,7 +57783,7 @@ H    1.180097    0.576983    1.601427
 )
 
 entry(
-    index = 3744,
+    index = 3710,
     label = "C2H4Cl-3 + C3H8-3 <=> C2H5Cl-3 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.000159066,'cm^3/(mol*s)'), n=4.70749, Ea=(35.8742,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.88895, dn = +|- 0.0835607, dEa = +|- 0.454734 kJ/mol"""),
@@ -58545,7 +57819,7 @@ H    0.612779    -1.176814    -1.439111
 )
 
 entry(
-    index = 3745,
+    index = 3711,
     label = "C2F5-2 + HO2-4 <=> C2HF5-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(22.6231,'cm^3/(mol*s)'), n=3.32899, Ea=(2.00417,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04796, dn = +|- 0.00615495, dEa = +|- 0.033495 kJ/mol"""),
@@ -58573,7 +57847,7 @@ H    -1.458684    -0.270389    -0.04195
 )
 
 entry(
-    index = 3746,
+    index = 3712,
     label = "CF3-2 + CH3Cl <=> CHF3-2 + CH2Cl",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.00689e-05,'cm^3/(mol*s)'), n=5.45093, Ea=(19.7821,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.64865, dn = +|- 0.127971, dEa = +|- 0.696413 kJ/mol"""),
@@ -58600,7 +57874,7 @@ H    -1.414736    1.259618    0.835198
 )
 
 entry(
-    index = 3747,
+    index = 3713,
     label = "C3HF4-6 + HO-4 <=> C3H2F4-6 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.366231,'cm^3/(mol*s)'), n=3.7491, Ea=(9.73245,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.38455, dn = +|- 0.0427478, dEa = +|- 0.232632 kJ/mol"""),
@@ -58628,7 +57902,7 @@ H    -1.606841    0.849586    -0.220261
 )
 
 entry(
-    index = 3748,
+    index = 3714,
     label = "CH3-2 + C2H3F3-2 <=> CH4-2 + C2H2F3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000445873,'cm^3/(mol*s)'), n=4.87778, Ea=(28.5341,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.23569, dn = +|- 0.105702, dEa = +|- 0.575224 kJ/mol"""),
@@ -58658,56 +57932,7 @@ H    -2.277496    2.159237    0.299238
 )
 
 entry(
-    index = 3749,
-    label = "HO + CHF3 <=> H2O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(18.3014,'cm^3/(mol*s)'), n=3.7645, Ea=(8.38799,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.36214, dn = +|- 0.0406036, dEa = +|- 0.220963 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: FC(F)F + [OH] <=> O + F[C](F)F
-barrier = 22.281109 kJ/mol
-T1 = 0.022154005
-
-Atom XYZ coordinates (angstrom)
-F    0.991834    1.074026    -0.461468
-F    0.30582    0.060916    1.320071
-F    1.007334    -1.08397    -0.373447
-O    -2.030372    -0.037164    -0.67399
-C    0.363953    0.007356    -0.003287
-H    -0.7685    -0.018945    -0.448958
-H    -2.364138    -0.002322    0.237361
-""",
-)
-
-entry(
-    index = 3750,
-    label = "CF3-2 + H2-2 <=> CHF3-2 + H-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(0.0258145,'cm^3/(mol*s)'), n=4.22454, Ea=(21.1257,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.17123, dn = +|- 0.101858, dEa = +|- 0.554309 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: [H][H] + F[C](F)F <=> FC(F)F + [H]
-barrier = 50.438013 kJ/mol
-T1 = 0.017548087
-
-Atom XYZ coordinates (angstrom)
-F    -0.679799    1.075162    -0.021584
-F    1.096213    0.027277    -0.672035
-F    -0.648276    -1.086534    -0.046799
-C    0.068802    0.002766    0.156123
-H    0.538786    -0.005843    1.441563
-H    0.855219    -0.012846    2.301809
-""",
-)
-
-entry(
-    index = 3751,
+    index = 3715,
     label = "C2HO-2 + C2H4Cl2-2 <=> C2H2O-2 + C2H3Cl2-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.0291175,'cm^3/(mol*s)'), n=4.35866, Ea=(21.8826,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.45788, dn = +|- 0.0495282, dEa = +|- 0.26953 kJ/mol"""),
@@ -58737,7 +57962,7 @@ H    -1.937571    -1.811334    0.289765
 )
 
 entry(
-    index = 3752,
+    index = 3716,
     label = "CF3-2 + C3H8-3 <=> CHF3-2 + C3H7-3",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.000110674,'cm^3/(mol*s)'), n=5.14459, Ea=(18.0677,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.14183, dn = +|- 0.100067, dEa = +|- 0.544559 kJ/mol"""),
@@ -58770,7 +57995,7 @@ H    -1.39776    1.488007    0.031214
 )
 
 entry(
-    index = 3753,
+    index = 3717,
     label = "C2F5-2 + CH2F2 <=> C2HF5-2 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.81374e-06,'cm^3/(mol*s)'), n=4.92621, Ea=(26.9207,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.52095, dn = +|- 0.165372, dEa = +|- 0.899949 kJ/mol"""),
@@ -58800,7 +58025,7 @@ H    -0.904198    0.423906    -0.158184
 )
 
 entry(
-    index = 3754,
+    index = 3718,
     label = "CH3-2 + C2H4F2 <=> CH4-2 + C2H3F2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.5887,'cm^3/(mol*s)'), n=3.56265, Ea=(39.2599,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.84847, dn = +|- 0.0807143, dEa = +|- 0.439244 kJ/mol"""),
@@ -58830,7 +58055,7 @@ H    2.151144    1.086471    -0.867799
 )
 
 entry(
-    index = 3755,
+    index = 3719,
     label = "CFO-2 + C2H2F4 <=> CHFO-2 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.02031e-07,'cm^3/(mol*s)'), n=5.78241, Ea=(34.1991,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.40627, dn = +|- 0.161022, dEa = +|- 0.876274 kJ/mol"""),
@@ -58859,7 +58084,7 @@ H    0.886673    -0.181931    -0.474368
 )
 
 entry(
-    index = 3756,
+    index = 3720,
     label = "CH2F-2 + CHCl3-2 <=> CH3F-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.196392,'cm^3/(mol*s)'), n=3.57387, Ea=(10.8975,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.68098, dn = +|- 0.0682362, dEa = +|- 0.371339 kJ/mol"""),
@@ -58886,7 +58111,7 @@ H    1.790954    0.262042    2.195614
 )
 
 entry(
-    index = 3757,
+    index = 3721,
     label = "C2H4Cl-4 + C3H6O-4 <=> C2H5Cl-4 + C3H5O-4",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(0.00013655,'cm^3/(mol*s)'), n=4.49891, Ea=(31.1378,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.69775, dn = +|- 0.0695401, dEa = +|- 0.378435 kJ/mol"""),
@@ -58921,7 +58146,7 @@ H    0.756606    -1.792704    -0.702088
 )
 
 entry(
-    index = 3758,
+    index = 3722,
     label = "HO + C2H3F-4 <=> H2O + C2H2F-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.99175,'cm^3/(mol*s)'), n=3.90075, Ea=(9.85717,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.47068, dn = +|- 0.0506762, dEa = +|- 0.275778 kJ/mol"""),
@@ -58947,7 +58172,7 @@ H    0.747447    0.0434    0.398126
 )
 
 entry(
-    index = 3759,
+    index = 3723,
     label = "CH2Cl-2 + C2H5Cl <=> CH3Cl-2 + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.55382e-05,'cm^3/(mol*s)'), n=4.84929, Ea=(27.8877,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.13125, dn = +|- 0.0994164, dEa = +|- 0.54102 kJ/mol"""),
@@ -58977,7 +58202,7 @@ H    1.461542    -1.205417    0.681265
 )
 
 entry(
-    index = 3760,
+    index = 3724,
     label = "CH2Cl-2 + HO2-4 <=> CH3Cl-2 + O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(35.6412,'cm^3/(mol*s)'), n=2.94589, Ea=(-7.23688,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.20143, dn = +|- 0.0241102, dEa = +|- 0.131207 kJ/mol"""),
@@ -59002,7 +58227,7 @@ H    0.454605    1.817895    -0.818582
 )
 
 entry(
-    index = 3761,
+    index = 3725,
     label = "CHCl2-2 + C2H6O2-2 <=> CH2Cl2-2 + C2H5O2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.96963e-05,'cm^3/(mol*s)'), n=4.46907, Ea=(4.077,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.44871, dn = +|- 0.0486988, dEa = +|- 0.265017 kJ/mol"""),
@@ -59034,7 +58259,7 @@ H    2.022187    -0.482567    -0.969255
 )
 
 entry(
-    index = 3762,
+    index = 3726,
     label = "HO + C2H5Cl <=> H2O + C2H4Cl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6218.43,'cm^3/(mol*s)'), n=2.91189, Ea=(-4.7845,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06417, dn = +|- 0.00817163, dEa = +|- 0.0444697 kJ/mol"""),
@@ -59062,7 +58287,7 @@ H    -0.87278    2.084387    -0.203832
 )
 
 entry(
-    index = 3763,
+    index = 3727,
     label = "H + ClHO <=> H2 + ClO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.27408,'cm^3/(mol*s)'), n=3.74123, Ea=(11.0646,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.32679, dn = +|- 0.110949, dEa = +|- 0.60378 kJ/mol"""),
@@ -59084,7 +58309,7 @@ H    -2.080324    1.348837    -0.039559
 )
 
 entry(
-    index = 3764,
+    index = 3728,
     label = "CH3-2 + C2H5F <=> CH4-2 + C2H4F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(0.00466914,'cm^3/(mol*s)'), n=4.66453, Ea=(38.174,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.98447, dn = +|- 0.0900414, dEa = +|- 0.490002 kJ/mol"""),
@@ -59114,7 +58339,7 @@ H    -2.991797    -0.169332    0.50246
 )
 
 entry(
-    index = 3765,
+    index = 3729,
     label = "C2H4F-4 + CH3F <=> C2H5F-4 + CH2F",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.37925e-05,'cm^3/(mol*s)'), n=5.01782, Ea=(34.286,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.42731, dn = +|- 0.116506, dEa = +|- 0.63402 kJ/mol"""),
@@ -59144,7 +58369,7 @@ H    -0.035125    1.895252    -0.36855
 )
 
 entry(
-    index = 3766,
+    index = 3730,
     label = "CHF2-2 + C2H4F2-3 <=> CH2F2-2 + C2H3F2-3",
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(2.9115e-07,'cm^3/(mol*s)'), n=5.63673, Ea=(27.7634,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.18764, dn = +|- 0.152307, dEa = +|- 0.828847 kJ/mol"""),
@@ -59174,7 +58399,7 @@ H    -1.336661    0.478335    -1.595687
 )
 
 entry(
-    index = 3767,
+    index = 3731,
     label = "C2H3Cl2-4 + H2O2 <=> C2H4Cl2-4 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.12078e-05,'cm^3/(mol*s)'), n=4.69251, Ea=(7.52712,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.70819, dn = +|- 0.0703457, dEa = +|- 0.382819 kJ/mol"""),
@@ -59203,7 +58428,7 @@ H    2.977446    0.093581    1.316615
 )
 
 entry(
-    index = 3768,
+    index = 3732,
     label = "C3HF4-5 + HO-4 <=> C3H2F4-5 + O-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(12.8626,'cm^3/(mol*s)'), n=3.39388, Ea=(4.0743,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13573, dn = +|- 0.0167216, dEa = +|- 0.0909985 kJ/mol"""),
@@ -59231,7 +58456,7 @@ H    -2.588419    -0.367048    -0.203395
 )
 
 entry(
-    index = 3769,
+    index = 3733,
     label = "H + C2H5Cl-2 <=> H2 + C2H4Cl-2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3144.11,'cm^3/(mol*s)'), n=3.15729, Ea=(26.2295,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.82495, dn = +|- 0.0790319, dEa = +|- 0.430089 kJ/mol"""),
@@ -59258,7 +58483,7 @@ H    1.542498    -1.699733    1.38159
 )
 
 entry(
-    index = 3770,
+    index = 3734,
     label = "CF3-2 + C2H2F4 <=> CHF3-2 + C2HF4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.67026e-07,'cm^3/(mol*s)'), n=5.75277, Ea=(23.9339,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.24053, dn = +|- 0.154468, dEa = +|- 0.840611 kJ/mol"""),
@@ -59288,7 +58513,7 @@ H    0.775257    0.164726    1.821543
 )
 
 entry(
-    index = 3771,
+    index = 3735,
     label = "C2H3 + CHFO <=> C2H4 + CFO",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000961508,'cm^3/(mol*s)'), n=4.61828, Ea=(9.74126,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.66237, dn = +|- 0.0667729, dEa = +|- 0.363376 kJ/mol"""),
@@ -59315,7 +58540,7 @@ H    -1.791526    -1.806507    -0.148134
 )
 
 entry(
-    index = 3772,
+    index = 3736,
     label = "C3H7-4 + CH2Cl2 <=> C3H8-4 + CHCl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.59149e-05,'cm^3/(mol*s)'), n=4.49815, Ea=(13.5704,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.66212, dn = +|- 0.0667536, dEa = +|- 0.363271 kJ/mol"""),
@@ -59348,7 +58573,7 @@ H    1.688778    0.903718    1.79062
 )
 
 entry(
-    index = 3773,
+    index = 3737,
     label = "C2H3Cl2-3 + CHCl3-2 <=> C2H4Cl2-3 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00273444,'cm^3/(mol*s)'), n=4.07359, Ea=(3.21917,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.24222, dn = +|- 0.0284966, dEa = +|- 0.155077 kJ/mol"""),
@@ -59378,7 +58603,7 @@ H    -1.404784    0.582761    1.178157
 )
 
 entry(
-    index = 3774,
+    index = 3738,
     label = "C2H3Cl2-3 + H2O2 <=> C2H4Cl2-3 + HO2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000118524,'cm^3/(mol*s)'), n=4.16726, Ea=(1.40365,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.26624, dn = +|- 0.0310125, dEa = +|- 0.168769 kJ/mol"""),
@@ -59407,7 +58632,7 @@ H    2.419235    -0.960302    -0.592002
 )
 
 entry(
-    index = 3775,
+    index = 3739,
     label = "CHCl2-2 + CHCl3-2 <=> CH2Cl2-2 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.000559152,'cm^3/(mol*s)'), n=4.65977, Ea=(13.3157,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72924, dn = +|- 0.0719547, dEa = +|- 0.391575 kJ/mol"""),
@@ -59434,7 +58659,7 @@ H    -1.79634    -0.003977    1.31155
 )
 
 entry(
-    index = 3776,
+    index = 3740,
     label = "CH3-2 + ClH-2 <=> CH4-2 + Cl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4677.76,'cm^3/(mol*s)'), n=2.63464, Ea=(-2.22503,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13161, dn = +|- 0.0162445, dEa = +|- 0.088402 kJ/mol"""),
@@ -59458,7 +58683,7 @@ H    -0.272033    0.128059    -0.00109
 )
 
 entry(
-    index = 3777,
+    index = 3741,
     label = "C2H3 + C2H2F4-2 <=> C2H4 + C2HF4-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00109962,'cm^3/(mol*s)'), n=4.67942, Ea=(9.4597,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.67821, dn = +|- 0.0680193, dEa = +|- 0.370158 kJ/mol"""),
@@ -59489,7 +58714,7 @@ H    2.442027    -0.797497    -1.687782
 )
 
 entry(
-    index = 3778,
+    index = 3742,
     label = "C2H3F2-6 + CH2F2 <=> C2H4F2-6 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(7.77925e-07,'cm^3/(mol*s)'), n=5.34451, Ea=(25.0662,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.7748, dn = +|- 0.134084, dEa = +|- 0.729679 kJ/mol"""),
@@ -59519,30 +58744,7 @@ H    1.902631    -0.108641    -1.425249
 )
 
 entry(
-    index = 3779,
-    label = "O + CHFO <=> HO-2 + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.36402,'cm^3/(mol*s)'), n=4.13436, Ea=(22.3122,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.77664, dn = +|- 0.134171, dEa = +|- 0.730152 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: ODCF + [O] <=> [OH] + OD[C]F
-barrier = 45.416897 kJ/mol
-T1 = 0.02930241
-
-Atom XYZ coordinates (angstrom)
-F    0.704514    1.179012    0.034489
-O    1.163267    -0.989968    0.05598
-O    -2.091113    -0.286004    0.203748
-C    0.406692    -0.105541    0.085092
-H    -0.879222    -0.209605    0.169398
-""",
-)
-
-entry(
-    index = 3780,
+    index = 3743,
     label = "C2H4Cl-3 + CHCl3-2 <=> C2H5Cl-3 + CCl3-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00281257,'cm^3/(mol*s)'), n=4.27761, Ea=(6.16119,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.37036, dn = +|- 0.0413947, dEa = +|- 0.225269 kJ/mol"""),
@@ -59572,30 +58774,7 @@ H    1.945646    0.695429    -1.683113
 )
 
 entry(
-    index = 3781,
-    label = "H + CHFO <=> H2 + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.99492,'cm^3/(mol*s)'), n=3.94282, Ea=(19.4338,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.83304, dn = +|- 0.136813, dEa = +|- 0.74453 kJ/mol"""),
-    rank = 7,
-    shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
-"""
-Training reaction from kinetics library: autotst/H_Abstraction
-Original entry: ODCF + [H] <=> [H][H] + OD[C]F
-barrier = 45.810726 kJ/mol
-T1 = 0.023445017000000002
-
-Atom XYZ coordinates (angstrom)
-F    -0.900437    -0.719793    0.051157
-O    1.203252    -0.032145    -0.031038
-C    0.060537    0.197756    0.004802
-H    -0.517384    1.399868    -0.000971
-H    -0.950738    2.253291    -0.023945
-""",
-)
-
-entry(
-    index = 3782,
+    index = 3744,
     label = "C2H3 + CH2F2 <=> C2H4 + CHF2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.000139827,'cm^3/(mol*s)'), n=4.99673, Ea=(12.5134,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.02412, dn = +|- 0.0926404, dEa = +|- 0.504146 kJ/mol"""),
@@ -59623,7 +58802,7 @@ H    1.917617    1.862424    -0.101707
 )
 
 entry(
-    index = 3783,
+    index = 3745,
     label = "C2HF4-4 + CH2O <=> C2H2F4-4 + CHO",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(0.00051631,'cm^3/(mol*s)'), n=4.88755, Ea=(8.43732,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79124, dn = +|- 0.0765824, dEa = +|- 0.416759 kJ/mol"""),
@@ -59652,7 +58831,7 @@ H    1.786071    0.448522    1.89497
 )
 
 entry(
-    index = 3784,
+    index = 3746,
     label = "CF3-2 + CHClF2-2 <=> CHF3-2 + CClF2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.64096e-07,'cm^3/(mol*s)'), n=5.85006, Ea=(17.5695,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.18867, dn = +|- 0.152349, dEa = +|- 0.829078 kJ/mol"""),
@@ -59675,6 +58854,566 @@ F    1.792674    0.935496    1.001302
 C    -1.123228    -0.477749    0.106522
 C    1.527891    0.02319    0.084094
 H    0.173034    -0.236244    0.1014
+""",
+)
+
+entry(
+    index = 3747,
+    label = "CH3F + H <=> CH2F-2 + H2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(228000,'cm^3/(mol*s)'), n=2.63, Ea=(34.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3748,
+    label = "CH2F2 + H <=> CHF2-2 + H2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(134000,'cm^3/(mol*s)'), n=2.65, Ea=(33.1,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3749,
+    label = "CF3-2 + H2-2 <=> CHF3 + H",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(77.1,'cm^3/(mol*s)'), n=3.2, Ea=(29.5,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3750,
+    label = "CH3F + O <=> CH2F-2 + HO-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1190,'cm^3/(mol*s)'), n=3.14, Ea=(19.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3751,
+    label = "CH2F2 + O <=> CHF2-2 + HO-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(558,'cm^3/(mol*s)'), n=3.2, Ea=(21.6,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3752,
+    label = "CF3-2 + HO-4 <=> CHF3 + O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.613,'cm^3/(mol*s)'), n=3.66, Ea=(21.1,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3753,
+    label = "CH4 + F <=> CH3-2 + HF",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(2.71e+13,'cm^3/(mol*s)'), n=0.16, Ea=(1.5,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3754,
+    label = "CH3F + F <=> CH2F-2 + HF",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.31e+11,'cm^3/(mol*s)'), n=0.63, Ea=(-0.9,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3755,
+    label = "CH2F2 + F <=> CHF2-2 + HF",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.9e+13,'cm^3/(mol*s)'), n=0.16, Ea=(2.77,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3756,
+    label = "CHF3 + F <=> CF3-2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.02e+12,'cm^3/(mol*s)'), n=0.16, Ea=(6.37,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3757,
+    label = "CH3F + HO <=> CH2F-2 + H2O-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.36e+06,'cm^3/(mol*s)'), n=2.01, Ea=(7.79,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3758,
+    label = "CH2F2 + HO <=> CHF2-2 + H2O-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(130000,'cm^3/(mol*s)'), n=2.35, Ea=(6.67,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3759,
+    label = "CHF3 + HO <=> CF3-2 + H2O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(19100,'cm^3/(mol*s)'), n=2.46, Ea=(12.06,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3760,
+    label = "CH3-2 + FHO <=> CH4 + OF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.44,'cm^3/(mol*s)'), n=3.87, Ea=(16.8,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3761,
+    label = "CH2F-2 + FHO <=> CH3F + OF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0593,'cm^3/(mol*s)'), n=3.91, Ea=(21.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3762,
+    label = "CHF2-2 + FHO <=> CH2F2 + OF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0177,'cm^3/(mol*s)'), n=4.08, Ea=(21.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3763,
+    label = "CF3-2 + FHO <=> CHF3 + OF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.348,'cm^3/(mol*s)'), n=3.72, Ea=(27.5,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3764,
+    label = "CH2F-2 + H2O2 <=> CH3F + HO2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.00316,'cm^3/(mol*s)'), n=4.13, Ea=(8.3,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3765,
+    label = "CHF2-2 + H2O2 <=> CH2F2 + HO2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.000227,'cm^3/(mol*s)'), n=4.47, Ea=(14.1,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3766,
+    label = "CF3-2 + H2O2 <=> CHF3 + HO2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0054,'cm^3/(mol*s)'), n=4.1, Ea=(3.9,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3767,
+    label = "CH3-2 + CH3F <=> CH2F-2 + CH4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.495,'cm^3/(mol*s)'), n=3.93, Ea=(37.9,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3768,
+    label = "CH2F2 + CH3-2 <=> CH4 + CHF2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.378,'cm^3/(mol*s)'), n=3.93, Ea=(34.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3769,
+    label = "CF3-2 + CH4 <=> CH3-2 + CHF3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(0.381,'cm^3/(mol*s)'), n=4.12, Ea=(41.4,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3770,
+    label = "CH3F + CHF2-2 <=> CH2F-2 + CH2F2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0479,'cm^3/(mol*s)'), n=4.25, Ea=(43.1,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3771,
+    label = "CF3-2 + CH3F <=> CH2F-2 + CHF3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.262,'cm^3/(mol*s)'), n=4.17, Ea=(31.6,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3772,
+    label = "CF3-2 + CH2F2 <=> CHF2-2 + CHF3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0874,'cm^3/(mol*s)'), n=4.25, Ea=(33.8,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3773,
+    label = "CHFO + H <=> CFO-2 + H2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(58600,'cm^3/(mol*s)'), n=2.69, Ea=(30.3,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3774,
+    label = "CHFO + O <=> CFO-2 + HO-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(135,'cm^3/(mol*s)'), n=3.31, Ea=(23.9,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3775,
+    label = "CH2O + F <=> CHO-2 + HF",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.23e+13,'cm^3/(mol*s)'), n=0.1, Ea=(4.93,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3776,
+    label = "CHFO + F <=> CFO-2 + HF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.94e+13,'cm^3/(mol*s)'), n=-0.02, Ea=(8.95,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3777,
+    label = "CHFO + HO <=> CFO-2 + H2O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(26900,'cm^3/(mol*s)'), n=2.6, Ea=(-3,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3778,
+    label = "CH2O + OF <=> FHO + CHO-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(18000,'cm^3/(mol*s)'), n=2.71, Ea=(0.2,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3779,
+    label = "CFO-2 + FHO <=> CHFO + OF",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00162,'cm^3/(mol*s)'), n=4.4, Ea=(25.8,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3780,
+    label = "CFO-2 + H2O2 <=> CHFO + HO2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.00289,'cm^3/(mol*s)'), n=4.25, Ea=(6.8,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3781,
+    label = "CH3-2 + CHFO <=> CH4 + CFO-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.614,'cm^3/(mol*s)'), n=3.81, Ea=(28.2,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3782,
+    label = "CH3F + CFO-2 <=> CH2F-2 + CHFO",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0882,'cm^3/(mol*s)'), n=4.23, Ea=(40.1,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3783,
+    label = "CH2O + CHF2-2 <=> CH2F2 + CHO-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.244,'cm^3/(mol*s)'), n=4.04, Ea=(19.4,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3784,
+    label = "CHF2-2 + CHFO <=> CH2F2 + CFO-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0376,'cm^3/(mol*s)'), n=4.15, Ea=(40.3,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3785,
+    label = "CF3-2 + CH2O <=> CHF3 + CHO-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.06,'cm^3/(mol*s)'), n=3.79, Ea=(13.5,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
+""",
+)
+
+entry(
+    index = 3786,
+    label = "CF3-2 + CHFO <=> CHF3 + CFO-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0128,'cm^3/(mol*s)'), n=4.26, Ea=(32.3,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """ANL0 method from Brown""",
+    longDesc = 
+"""
+Electronic structures done using ANL0 compound method. 
+Torsional scans with  M06-2X/cc-pVTZ.
 """,
 )
 
