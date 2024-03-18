@@ -5,9 +5,12 @@ name = "Solvent Descriptors"
 shortDesc = u""
 longDesc = u"""
 Most of the Abraham (s_g, b_g, e_g, l_g, a_g, c_g) and Mintz solvent parameters (s_h, b_h, e_h, l_h, a_h, c_h) 
-are fitted by Yunsie Chung and Pierre Walker using experimental solute parameter, solvation free energy, 
-and solvation enthalpy data (manuscript in preparation). Abraham solvent parameters are used for solvation 
-free energy (dGsolv) calculations, and Mintz solvent parameters are used for solvation enthalpy (dHsolv) calculations.
+are fitted using experimental solute parameter, solvation free energy, and solvation enthalpy data.Abraham solvent parameters 
+are used for solvation free energy (dGsolv) calculations, and Mintz solvent parameters are used for solvation enthalpy (dHsolv) calculations.
+The fitting is described in:
+    Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+    & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
+
 
 The majority of the viscosity parameters (A, B, C, D, E) are obtained from:
     Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K., Rani, K. Y. (2007) Viscosity of Liquids.
