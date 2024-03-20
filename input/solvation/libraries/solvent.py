@@ -3237,7 +3237,7 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = 13.687,
+        A = -13.687,
         B = 1916.0,
         C = 0.24197,
         D = 0,
@@ -3259,7 +3259,7 @@ u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -3366,7 +3366,7 @@ entry(
         l_h = -8.34576,
         a_h = -50.69463,
         c_h = -6.74398,
-        A = -10.638,
+        A = -106.38,
         B = 7434.0,
         C = 13.285,
         D = 0,
@@ -3388,7 +3388,7 @@ u"""
 Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -3665,7 +3665,7 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = 7.168,
+        A = -7.168,
         B = 1156.0,
         C = -0.6556,
         D = 0,
@@ -3687,7 +3687,7 @@ u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -4095,11 +4095,11 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = -15.465,
-        B = 9891.9,
-        C = 203.56,
-        D = 0,
-        E = 0,
+        A = 54.342,
+        B = -4682.3,
+        C = -8.9055,
+        D = 174970000,
+        E = -3,
         alpha = None,
         beta = None,
         eps = None,
@@ -4116,8 +4116,7 @@ entry(
 u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
-Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
 )
 
@@ -4138,11 +4137,11 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = -95.728,
-        B = 7010.0,
-        C = -0.18892,
-        D = 0,
-        E = 0,
+        A = -70.059,
+        B = -5721.1,
+        C = 8.4609,
+        D = 18893,
+        E = -1.1,
         alpha = None,
         beta = None,
         eps = None,
@@ -4159,8 +4158,7 @@ entry(
 u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
-Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
 )
 
@@ -4181,9 +4179,9 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = 8.6589,
-        B = 2685.5,
-        C = -0.944,
+        A = -128.56,
+        B = 8568.6,
+        C = 16.631,
         D = 0,
         E = 0,
         alpha = None,
@@ -4202,8 +4200,7 @@ entry(
 u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
-Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
 )
 
@@ -4353,7 +4350,7 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = 13.653,
+        A = -13.653,
         B = 2393.7,
         C = -0.10063,
         D = 0,
@@ -4375,7 +4372,7 @@ u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -4439,7 +4436,7 @@ entry(
         l_h = -8.60835,
         a_h = -70.70626,
         c_h = -6.54809,
-        A = -12.233,
+        A = -122.33,
         B = 8149.3,
         C = 15.678,
         D = 0,
@@ -4461,7 +4458,7 @@ u"""
 Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -4734,7 +4731,7 @@ entry(
         c_h = None,
         A = -11.276,
         B = 991.96,
-        C = 3.5693,
+        C = -0.018892,
         D = 0,
         E = 0,
         alpha = None,
@@ -4754,7 +4751,7 @@ u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -5656,11 +5653,11 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = -7.5336,
-        B = 5578.3,
-        C = 9.0957,
-        D = 0,
-        E = 0,
+        A = -395.22,
+        B = 17970,
+        C = 58.786,
+        D = -0.000054961,
+        E = 2,
         alpha = None,
         beta = None,
         eps = None,
@@ -5677,8 +5674,7 @@ entry(
 u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
-Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
 )
 
@@ -5826,9 +5822,9 @@ entry(
         l_h = None,
         a_h = None,
         c_h = None,
-        A = -14.436,
-        B = 3177.9,
-        C = 0.012322,
+        A = -57.427,
+        B = 5623.9,
+        C = 6.2001,
         D = 0,
         E = 0,
         alpha = None,
@@ -5847,8 +5843,7 @@ entry(
 u"""
 Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
-Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
 )
 
@@ -6848,7 +6843,7 @@ entry(
         l_h = -6.06505,
         a_h = -22.01269,
         c_h = -2.85078,
-        A = -6.2425,
+        A = -62.425,
         B = 5966.9,
         C = 6.8296,
         D = 0,
@@ -6870,7 +6865,7 @@ u"""
 Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source. 
 """,
 )
 
@@ -7184,7 +7179,7 @@ entry(
         l_h = -6.23321,
         a_h = -44.28415,
         c_h = -3.22667,
-        A = -10.352,
+        A = -103.52,
         B = 7563.0,
         C = 13.009,
         D = 0,
@@ -7206,7 +7201,7 @@ u"""
 Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source. 
 """,
 )
 
@@ -8360,7 +8355,7 @@ entry(
         l_h = -9.68255,
         a_h = -49.04689,
         c_h = -6.09563,
-        A = -2.279,
+        A = -28.279,
         B = 2355.1,
         C = 2.4141,
         D = 0,
@@ -8381,8 +8376,7 @@ entry(
 u"""
 Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
-Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
 )
 
