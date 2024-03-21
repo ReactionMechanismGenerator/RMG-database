@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_DoubleBond_to_Bidentate"
+name = "Surface_Monodentate_to_Bidentate"
 shortDesc = u""
 longDesc = u"""
-If an adsorbate has an internal double bond, then it can fall over onto a vacant site, creating a bidentate.
+If a monodentate adsorbate has an internal double or triple bond, then it can fall over onto a vacant site, creating a bidentate.
 
  *1=*2                    *1--*2  
   |              ---->    ||   |     
@@ -15,9 +15,9 @@ will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s)
 """
 
-template(reactants=["Combined", "VacantSite"], products=["Adsorbate"], ownReverse=False)
+template(reactants=["Monodentate", "VacantSite"], products=["Bidentate"], ownReverse=False)
 
-reverse = "Surface_Bidentate_to_DoubleBond"
+reverse = "Surface_Bidentate_to_Monodentate"
 
 recipe(actions=[
     ['FORM_BOND', '*2', 1, '*4'],
@@ -27,7 +27,7 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Combined",
+    label = "Monodentate",
     group =
 """
 1 *1 R!H     u0 {2,[D,T]} {3,[S,D]}
@@ -50,7 +50,7 @@ entry(
 
 tree(
 """
-L1: Combined
+L1: Monodentate
 
 L1: VacantSite
 """
