@@ -9,7 +9,7 @@ Group definitions to estimate critical point properties via group additivity, fr
 Joback, K. G. A unified approach to physical property estimation using multivariate statistical techniques,
 PhD Thesis, Massachusetts Institute of Technology: Cambridge, MA, 1984.
 
-Note the Pc contributions are all the negative of what is in Table 3 of Joback's thesis.
+The Pc contributions are in Table 3 of Joback's thesis.
 The Tb contributions are from table 13.
 
 `structureIndex` is 0 if linear, 1 if makes molecule nonlinear
@@ -51,7 +51,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0141,
-        Pc = -0.0012,
+        Pc = 0.0012,
         Vc = 65,
         Tb = 23.58,
         structureIndex = 1,
@@ -95,7 +95,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0164,
-        Pc = 0.002,
+        Pc = -0.002,
         Vc = 41,
         Tb = 21.74,
         structureIndex = 1,
@@ -117,7 +117,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0067,
-        Pc = 0.0043,
+        Pc = -0.0043,
         Vc = 27,
         Tb = 18.25,
         structureIndex = 1,
@@ -139,7 +139,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0067,
-        Pc = 0.0043,
+        Pc = -0.0043,
         Vc = 27,
         Tb = 23.94,
         structureIndex = 1,
@@ -161,7 +161,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0067,
-        Pc = 0.0043,
+        Pc = -0.0043,
         Vc = 27,
         Tb = 20.17,
         structureIndex = 1,
@@ -183,7 +183,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0067,
-        Pc = 0.0043,
+        Pc = -0.0043,
         Vc = 27,
         Tb = 29.96,
         structureIndex = 1,
@@ -204,7 +204,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0113,
-        Pc = -0.0028,
+        Pc = 0.0028,
         Vc = 56,
         Tb = 18.18,
         structureIndex = 1,
@@ -225,7 +225,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0117,
-        Pc = 0.0011,
+        Pc = -0.0011,
         Vc = 38,
         Tb = 24.14,
         structureIndex = 1,
@@ -246,7 +246,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.038,
-        Pc = 0.0031,
+        Pc = -0.0031,
         Vc = 62,
         Tb = 76.75,
         structureIndex = 1,
@@ -268,7 +268,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0791,
-        Pc = 0.0077,
+        Pc = -0.0077,
         Vc = 89,
         Tb = 169.09,
         structureIndex = 1,
@@ -290,7 +290,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0481,
-        Pc = 0.0005,
+        Pc = -0.0005,
         Vc = 82,
         Tb = 81.1,
         structureIndex = 1,
@@ -311,7 +311,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0129,
-        Pc = -0.0006,
+        Pc = 0.0006,
         Vc = 46,
         Tb = 24.96,
         structureIndex = 1,
@@ -332,7 +332,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0379,
-        Pc = 0.003,
+        Pc = -0.003,
         Vc = 82,
         Tb = 72.24,
         structureIndex = 1,
@@ -352,7 +352,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0026,
-        Pc = 0.0028,
+        Pc = -0.0028,
         Vc = 36,
         Tb = 26.15,
         structureIndex = 0,
@@ -372,7 +372,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0027,
-        Pc = -0.0008,
+        Pc = 0.0008,
         Vc = 46,
         Tb = 9.2,
         structureIndex = 0,
@@ -392,7 +392,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.002,
-        Pc = 0.0016,
+        Pc = -0.0016,
         Vc = 37,
         Tb = 27.38,
         structureIndex = 0,
@@ -424,7 +424,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0741,
-        Pc = 0.0112,
+        Pc = -0.0112,
         Vc = 28,
         Tb = 92.88,
         structureIndex = 1,
@@ -444,7 +444,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.024,
-        Pc = 0.0184,
+        Pc = -0.0184,
         Vc = -25,
         Tb = 76.34,
         structureIndex = 1,
@@ -486,7 +486,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0168,
-        Pc = 0.0015,
+        Pc = -0.0015,
         Vc = 18,
         Tb = 22.42,
         structureIndex = 1,
@@ -527,7 +527,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
-        Pc = 0.0101,
+        Pc = -0.0101,
         Vc = 36,
         Tb = -10.5,
         structureIndex = 0,
@@ -645,7 +645,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0031,
-        Pc = 0.0084,
+        Pc = -0.0084,
         Vc = 63,
         Tb = 63.56,
         structureIndex = 1,
@@ -665,7 +665,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0119,
-        Pc = 0.0049,
+        Pc = -0.0049,
         Vc = 54,
         Tb = 68.78,
         structureIndex = 1,
@@ -683,7 +683,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0111,
-        Pc = -0.0057,
+        Pc = 0.0057,
         Vc = 27,
         Tb = 6.31,
         structureIndex = 1,
@@ -723,7 +723,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0105,
-        Pc = -0.0049,
+        Pc = 0.0049,
         Vc = 58,
         Tb = 38.13,
         structureIndex = 1,
@@ -741,7 +741,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0133,
-        Pc = 0.0057,
+        Pc = -0.0057,
         Vc = 71,
         Tb = 66.86,
         structureIndex = 1,
@@ -774,7 +774,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0243,
-        Pc = 0.0109,
+        Pc = -0.0109,
         Vc = 38,
         Tb = 73.23,
         structureIndex = 1,
@@ -795,7 +795,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0295,
-        Pc = 0.0077,
+        Pc = -0.0077,
         Vc = 35,
         Tb = 50.17,
         structureIndex = 1,
@@ -816,7 +816,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0169,
-        Pc = 0.0074,
+        Pc = -0.0074,
         Vc = 9,
         Tb = 11.74,
         structureIndex = 1,
@@ -836,7 +836,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0496,
-        Pc = -0.0101,
+        Pc = 0.0101,
         Vc = 91,
         Tb = 125.66,
         structureIndex = 0,
@@ -857,7 +857,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0437,
-        Pc = 0.0064,
+        Pc = -0.0064,
         Vc = 91,
         Tb = 152.54,
         structureIndex = 1,
@@ -913,4 +913,3 @@ L1: R
         L3: Nt-CtR
 """
 )
-
