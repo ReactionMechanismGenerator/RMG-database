@@ -53,7 +53,7 @@ doi:10.1039/d3dd00184a
 )
 
 entry(
-    index = 1,
+    index = 3,
     label = "HXCO + Pt_4 <=> HXCXO",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
