@@ -2,11 +2,15 @@
 # encoding: utf-8
 
 name = "Surface Adsorption Corrections Pt(111)"
-shortDesc = u"Surface adsorption Pt(111), Blondal 2018 & Kreitz 2023"
+shortDesc = u"Surface adsorption corrections Pt(111)"
 longDesc = u"""
-Changes due to adsorbing on a surface.
-Here, Pt(111)
-Note: "-h" means "horizontal"
+Changes in thermophysical properties due to adsorption on a surface, here Pt(111). Adsorption corrections are based on DFT calculations performed by Katrin Blondal and 
+Bjarne Kreitz (Brown University). The computational methods and details are explained in Kreitz, Blöndal, Goldsmith et al. ACS Catal, 2022, 12,
+11137-11151 (https://doi.org/10.1021/acscatal.2c03378) and Kreitz, Goldsmith et al., Angew. Chem. Int. Ed., 2023, 62, e202306514 (https://onlinelibrary.wiley.com/doi/10.1002/anie.202306514). 
+The calculation of the adsorption corrections is explained in detail in the SI. 
+If you use these adsorption corrections database in your work, please cite the publications mentioned above. 
+
+TODO: Update adsorption corrections for N containing molecules. 
 """
 
 entry(
@@ -84,7 +88,7 @@ R*bidentate or R*single_chemisorbed and thus not R*vdW.
 #         H298=(-1.45, 'kcal/mol'),
 #         S298=(-7.73, 'cal/(mol*K)'),
 #     ),
-#     shortDesc=u"""Came from H2 vdW-bonded on Pt(111)""",
+#     shortDesc=u"""Came from H2 physisorbed on Pt(111)""",
 #     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
 #             DFT binding energy: -0.054 eV.
 #             Linear scaling parameters: ref_adatom_H = -2.479 eV, psi = -0.05448 eV, gamma_H(X) = 0.000.
@@ -114,7 +118,7 @@ entry(
         H298=(-49.08, 'kJ/mol'),
         S298=(-123.53, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged H2O, HOOH, CH3OH, HCOOH, CH3CH2OH, CH3OCH3, CH3OCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged H2OX, HOOHX, CH3OHX, HCOOHX, CH3CH2OHX, CH3OCH3X, CH3OCH2OHX on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -145,7 +149,7 @@ entry(
         H298=(-194.2, 'kJ/mol'),
         S298=(-157.49, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *OCH3, *OH, *OCH2CH3, HC*O3, HC*OO, *OCHCH2, *OOH, *OCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged XOCH3, XOH, XOCH2CH3, HOC(O)XO, HC(O)XO, XOCHCH2, XOOH, XOCH2OH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -180,7 +184,7 @@ entry(
         H298=(-63.01, 'kJ/mol'),
         S298=(-110.35, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from HOOH vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from HOOHX physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -214,7 +218,7 @@ entry(
         H298=(-107.21, 'kJ/mol'),
         S298=(-167.43, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from O2-bi bidentate, twice single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XOXO, twice single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -246,7 +250,7 @@ entry(
         H298=(-134.04, 'kJ/mol'),
         S298=(-120.71, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from OOH single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XOOH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -278,7 +282,7 @@ entry(
         H298=(-382.56, 'kJ/mol'),
         S298=(-140.6, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from O double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XO double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -311,7 +315,7 @@ entry(
         H298=(-30.61, 'kcal/mol'),
         S298=(-35.75, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from O-NH2 single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XONH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.698 eV.
             Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.09537 eV, gamma_O(X) = 0.500.
@@ -344,7 +348,7 @@ entry(
         H298=(-182.55, 'kJ/mol'),
         S298=(-149.81, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *OCH3, *OCH2CH3, and *OCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged XOCH3, XOCH2CH3, and XOCH2OH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -379,7 +383,7 @@ entry(
         H298=(-16.11, 'kcal/mol'),
         S298=(-32.0, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from NH3 vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from NH3X physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.673 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67337 eV, gamma_N(X) = 0.000.
@@ -407,7 +411,7 @@ entry(
         H298=(-53.39, 'kcal/mol'),
         S298=(-47.88, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from NH2 single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.030 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.58258 eV, gamma_N(X) = 0.333.
@@ -435,7 +439,7 @@ entry(
         H298=(-88.28, 'kcal/mol'),
         S298=(-40.72, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from NH double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.440 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.54193 eV, gamma_N(X) = 0.667.
@@ -462,7 +466,7 @@ entry(
         H298=(-103.33, 'kcal/mol'),
         S298=(-32.92, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from N triple-bonded on Pt(111)""",
+    shortDesc=u"""Came from XN triple-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -4.352 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.00000 eV, gamma_N(X) = 1.000.
@@ -493,7 +497,7 @@ entry(
         H298=(-18.16, 'kcal/mol'),
         S298=(-32.2, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2N-OH vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from H2XNOH physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.654 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.65407 eV, gamma_N(X) = 0.000.
@@ -523,7 +527,7 @@ entry(
         H298=(-39.84, 'kcal/mol'),
         S298=(-37.88, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-O vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from HNOX physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -1.26632 eV, gamma_N(X) = 0.000.
@@ -553,7 +557,7 @@ entry(
         H298=(-44.41, 'kcal/mol'),
         S298=(-45.51, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-OH single-bonded on Pt(111)""",
+    shortDesc=u"""Came from HXNOH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.370 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.08004 eV, gamma_N(X) = 0.333.
@@ -581,7 +585,7 @@ entry(
         H298=(-47.5, 'kcal/mol'),
         S298=(-40.63, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from NO single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNO single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.580 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.13417 eV, gamma_N(X) = 0.333.
@@ -612,7 +616,7 @@ entry(
         H298=(-42.57, 'kcal/mol'),
         S298=(-35.43, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from NO-h bidentate, double- and single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNXO bidentate, double- and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.390 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 1.51181 eV, gamma_N(X) = 0.667.
@@ -641,7 +645,7 @@ entry(
         H298=(-70.93, 'kcal/mol'),
         S298=(-44.7, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from NOH double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNOH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.260 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.35381 eV, gamma_N(X) = 0.667.
@@ -675,7 +679,7 @@ entry(
         H298=(-26.81, 'kcal/mol'),
         S298=(-31.95, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2N-NH2 vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from NH2NH2X physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.977 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.97746 eV, gamma_N(X) = 0.000.
@@ -706,7 +710,7 @@ entry(
         H298=(-24.31, 'kcal/mol'),
         S298=(-42.07, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-NH vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from NHNHX physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.676 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.67607 eV, gamma_N(X) = 0.000.
@@ -735,7 +739,7 @@ entry(
 #        H298=(-6.31, 'kcal/mol'),
 #        S298=(-15.27, 'cal/(mol*K)'),
 #    ),
-#    shortDesc=u"""Came from NN vdW-bonded on Pt(111)""",
+#    shortDesc=u"""Came from NN physisorbed on Pt(111)""",
 #    longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
 #            DFT binding energy: -0.109 eV.
 #            Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.10949 eV, gamma_N(X) = 0.000.
@@ -765,7 +769,7 @@ entry(
         H298=(-40.74, 'kcal/mol'),
         S298=(-45.43, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-NH2 single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNHNH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.270 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.18029 eV, gamma_N(X) = 0.333.
@@ -794,7 +798,7 @@ entry(
         H298=(-37.65, 'kcal/mol'),
         S298=(-43.45, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from N-NH single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNNH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.060 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.39360 eV, gamma_N(X) = 0.333.
@@ -826,7 +830,7 @@ entry(
         H298=(-59.44, 'kcal/mol'),
         S298=(-43.17, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from N-NH2 double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNNH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.040 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = 0.86160 eV, gamma_N(X) = 0.667.
@@ -859,7 +863,7 @@ entry(
         H298=(-27.1, 'kcal/mol'),
         S298=(-42.53, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-NH-h bidentate, twice single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNHXNH bidentate, twice single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.982 eV.
             Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 1.91976 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.333.
@@ -891,7 +895,7 @@ entry(
         H298=(-51.48, 'kcal/mol'),
         S298=(-46.63, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-CH3 single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNHCH3 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.850 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.40192 eV, gamma_N(X) = 0.333.
@@ -921,7 +925,7 @@ entry(
         H298=(-50.13, 'kcal/mol'),
         S298=(-44.16, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from N-CH2 single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNCH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.660 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.21342 eV, gamma_N(X) = 0.333.
@@ -954,7 +958,7 @@ entry(
         H298=(-84.35, 'kcal/mol'),
         S298=(-47.17, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from N-CH3 double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNCH3 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.050 eV.
             Linear scaling parameters: ref_adatom_N = -4.352 eV, psi = -0.14794 eV, gamma_N(X) = 0.667.
@@ -1014,7 +1018,7 @@ entry(
         H298=(-657.91, 'kJ/mol'),
         S298=(-133.84, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from C quadruple-bonded on Pt(111)""",
+    shortDesc=u"""Came from XC quadruple-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1046,7 +1050,7 @@ entry(
         H298=(-613.35, 'kJ/mol'),
         S298=(-163.77, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CC-bi double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCXC double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1077,7 +1081,7 @@ entry(
         H298=(-429.79, 'kJ/mol'),
         S298=(-168.79, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *CCH2, *CCCH2, *CCO on Pt(111)""",
+    shortDesc=u"""Came from averaged XCCH2, XCCCH2, XCCO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1116,7 +1120,7 @@ entry(
         H298=(-594.9, 'kJ/mol'),
         S298=(-174.23, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *CCH3, *CCH2CH3, *CCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCCH3, XCCH2CH3, XCCH2OH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1149,7 +1153,7 @@ entry(
         H298=(-571.12, 'kJ/mol'),
         S298=(-176.66, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *CH, *CCH3, *COH, *CCHCH2, *CCH2CH3, CCHO, CCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCH, XCCH3, XCOH, XCCHCH2, XCCH2CH3, XCCHO, XCCH2OH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1185,7 +1189,7 @@ entry(
         H298=(-221.27, 'kJ/mol'),
         S298=(-175.96, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCH-bi double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHXCH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1217,7 +1221,7 @@ entry(
         H298=(-370.06, 'kJ/mol'),
         S298=(-174.19, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *CH2, CH3*CCH3, CH3*COH, *CHCH2CH3, *CHCH3, *CHCHCH2-mono, *CHCHO-mono, *HCOH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCH2, CH3XCCH3, CH3XCOH, XCHCH2CH3, XCHCH3, XCHCHCH2, XCHCHO, XCHOH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1253,7 +1257,7 @@ entry(
         H298=(-124.09, 'kJ/mol'),
         S298=(-192.34, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH2CH2 and CH3CHCH2 on Pt(111)""",
+    shortDesc=u"""Came from averaged XCH2XCH2 and CH3XCHXCH2 on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1286,7 +1290,7 @@ entry(
         H298=(-212.02, 'kJ/mol'),
         S298=(-176.19, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH2CH2CH3, CH2CH2OH, CH2CH3, CH2CHCH2, CH2CHO, CH3, CH3CHCH3, CH3CHOH, H2COH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCH2CH2CH3, XCH2CH2OH, XCH2CH3, XCH2CHCH2, XCH2CHO, XCH3, CH3XCHCH3, CH3XCHOH, XCH2OH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1323,7 +1327,7 @@ entry(
         H298=(-29.6, 'kJ/mol'),
         S298=(-137.34, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH3CH3, CH3CH2CH3, CH3CH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged CH3CH3X, CH3CH2CH3X, CH3CH2OHX on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1357,7 +1361,7 @@ entry(
         H298=(-41.27, 'kJ/mol'),
         S298=(-125.91, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH4, CH3CH3, CH3CH2CH3, CH3CH2OH, CH3OH, CH3OCH3, CH3OCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged CH4X, CH3CH3X, CH3CH2CH3X, CH3CH2OHX, CH3OHX, CH3OCH3X, CH3OCH2OHX on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1389,7 +1393,7 @@ entry(
         H298=(-88.23, 'kcal/mol'),
         S298=(-34.98, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from CN bidentate, double- and single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCXN bidentate, double- and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -3.340 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.13303 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.333.
@@ -1418,7 +1422,7 @@ entry(
         H298=(-48.26, 'kcal/mol'),
         S298=(-30.68, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from CNH double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCNH double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.740 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.63638 eV, gamma_C(X) = 0.500.
@@ -1450,7 +1454,7 @@ entry(
         H298=(-106.38, 'kcal/mol'),
         S298=(-49.82, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from CNH2 triple-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCNH2 triple-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -4.060 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 1.00119 eV, gamma_C(X) = 0.750.
@@ -1513,7 +1517,7 @@ entry(
         H298=(-463.49, 'kJ/mol'),
         S298=(-187.54, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from COH triple-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCOH triple-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1550,7 +1554,7 @@ entry(
         H298=(-330.81, 'kJ/mol'),
         S298=(-214.97, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CHCH2, CH2COH, CHCHCH3 on Pt(111)""",
+    shortDesc=u"""Came from averaged XCHXCH2, XCH2XCOH, XCHXCHCH3 on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1586,7 +1590,7 @@ entry(
         H298=(-214.46, 'kJ/mol'),
         S298=(-192.28, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH2CH2CH3, CH2CH2OH, CH2CH3, CH3CHCH3, CH3CHOH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCH2CH2CH3, XCH2CH2OH, XCH2CH3, CH3XCHCH3, CH3XCHOH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1622,7 +1626,7 @@ entry(
         H298=(-12.55, 'kcal/mol'),
         S298=(-33.14, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2C-NH vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from H2CNHX physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.228 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.22807 eV, gamma_C(X) = 0.000.
@@ -1655,7 +1659,7 @@ entry(
         H298=(-53.29, 'kcal/mol'),
         S298=(-39.03, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2C-NH2 single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCH2NH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.980 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.29283 eV, gamma_C(X) = 0.250.
@@ -1687,7 +1691,7 @@ entry(
         H298=(-73.08, 'kJ/mol'),
         S298=(-122.36, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged H2CO, HCOOH, CH3CHO, OCO2H2, CH2CO on Pt(111)""",
+    shortDesc=u"""Came from averaged H2COX, HCOOHX, CH3CHOX, OCO2H2X, CH2COX on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1721,7 +1725,7 @@ entry(
         H298=(-225.57, 'kJ/mol'),
         S298=(-157.56, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged H2COH, CH3CHOH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCH2OH, CH3XCHOH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1759,7 +1763,7 @@ entry(
         H298=(-23.1, 'kcal/mol'),
         S298=(-33.73, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H3C-NH2 vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from CH3NH2X physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.879 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.87925 eV, gamma_C(X) = 0.000.
@@ -1792,7 +1796,7 @@ entry(
         H298=(-57.56, 'kJ/mol'),
         S298=(-139.36, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH3OH, CH3OCH3, H2CO2H2, CH3OCH2OH on Pt(111)""",
+    shortDesc=u"""Came from averaged CH3OHX, CH3OCH3X, H2CO2H2X, CH3OCH2OHX on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1825,7 +1829,7 @@ entry(
         H298=(-440.52, 'kJ/mol'),
         S298=(-184.43, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHC-bi single- and double bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHXC single- and double bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1860,7 +1864,7 @@ entry(
         H298=(-288.17, 'kJ/mol'),
         S298=(-182.51, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH2CCH3, CH2COH, CHCCH2, CHCH2, CHCHCH3 on Pt(111)""",
+    shortDesc=u"""Came from averaged CH2XCCH3, CH2XCOH, XCHCCH2, XCHCH2, XCHCHCH3 on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1897,7 +1901,7 @@ entry(
         H298=(-372.23, 'kJ/mol'),
         S298=(-179.04, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH3*CCH3, CH3*COH, *CHCH2CH3, *CHCH3 on Pt(111)""",
+    shortDesc=u"""Came from averaged CH3XCCH3, CH3XCOH, XCHCH2CH3, XCHCH3 on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -1931,7 +1935,7 @@ entry(
         H298=(-7.52, 'kcal/mol'),
         S298=(-22.92, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HCN vdW-bonded on Pt(111)""",
+    shortDesc=u"""Came from HCNX physisorbed on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.010 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.00995 eV, gamma_C(X) = 0.000.
@@ -1962,7 +1966,7 @@ entry(
         H298=(-22.54, 'kcal/mol'),
         S298=(-35.76, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HCN-h bidentate, twice double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCXNH, twice double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.650 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 2.37733 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.667.
@@ -1994,7 +1998,7 @@ entry(
         H298=(-63.07, 'kcal/mol'),
         S298=(-38.15, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HCNH single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHNH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.220 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = -0.52691 eV, gamma_C(X) = 0.250.
@@ -2027,7 +2031,7 @@ entry(
         H298=(-70.06, 'kcal/mol'),
         S298=(-46.17, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HCNH-h bidentate, double- and single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHXNH, double- and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.490 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.71054 eV, gamma_C1(X) = 0.500, gamma_N2(X) = 0.333.
@@ -2058,7 +2062,7 @@ entry(
         H298=(-69.75, 'kcal/mol'),
         S298=(-37.75, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HCNH2 double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHNH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -2.670 eV.
             Linear scaling parameters: ref_adatom_C = -6.750 eV, psi = 0.70666 eV, gamma_C(X) = 0.500.
@@ -2089,7 +2093,7 @@ entry(
         H298=(-282.27, 'kJ/mol'),
         S298=(-161.1, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged HCO, COOH, CH3CO, CHCO, CH3CH2CO on Pt(111)""",
+    shortDesc=u"""Came from averaged HXCO, OXCOH, CH3XCO, CHXCO, CH3CH2XCO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2124,7 +2128,7 @@ entry(
         H298=(-238.17, 'kJ/mol'),
         S298=(-167.73, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from HCO-bi double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHXO double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2159,7 +2163,7 @@ entry(
         H298=(-325.89, 'kJ/mol'),
         S298=(-146.57, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged H*COH and CH3*COH on Pt(111)""",
+    shortDesc=u"""Came from averaged XCHOH and CH3XCOH on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2514,7 +2518,7 @@ entry(
 3 R!H u0 {2,T}
 4 R   u0 {2,S}
 """,
-    thermo=u'(CRN)*',
+    thermo=u'(CRCR)*',
     metal = "Pt",
     facet = "111",
 )
@@ -2552,7 +2556,7 @@ entry(
         H298=(-43.06, 'kcal/mol'),
         S298=(-45.85, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from HN-N-h bidentate, single- and double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XNHXN single- and double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.280 eV.
             Linear scaling parameters: ref_adatom_N1 = -4.352 eV, ref_adatom_N2 = -4.352 eV, psi = 3.07184 eV, gamma_N1(X) = 0.333, gamma_N2(X) = 0.667.
@@ -2582,7 +2586,7 @@ entry(
         H298=(-59.58, 'kJ/mol'),
         S298=(-115.19, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CHCH and CHCCH3 on Pt(111)""",
+    shortDesc=u"""Came from averaged CHCHX and CHCCH3X on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2616,7 +2620,7 @@ entry(
         H298=(-51.5, 'kcal/mol'),
         S298=(-47.12, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2CN-h bidentate, single- and double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCH2XN bidentate, single- and double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -1.710 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = -0.37462 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.667.
@@ -2648,7 +2652,7 @@ entry(
         H298=(-25.1, 'kcal/mol'),
         S298=(-47.43, 'cal/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2CNH-h bidentate, twice single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCH2XNH twice single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb). Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.756 eV.
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_N2 = 0.525 eV, psi = 0.75753 eV, gamma_C1(X) = 0.250, gamma_N2(X) = 0.333.
@@ -2676,7 +2680,7 @@ entry(
         H298=(-429.79, 'kJ/mol'),
         S298=(-168.79, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *CCH2, *CCCH2, *CCO on Pt(111)""",
+    shortDesc=u"""Came from averaged XCCH2, XCCCH2, XCCO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2715,7 +2719,7 @@ entry(
         H298=(-61.03, 'kJ/mol'),
         S298=(-170.27, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from H2CO-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCH2XO single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2749,7 +2753,7 @@ entry(
         H298=(-76.74, 'kJ/mol'),
         S298=(-143.86, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CH2CH2, CH3CHCH2, CH2CCH2 on Pt(111)""",
+    shortDesc=u"""Came from averaged CH2CH2X, CH3CHCH2X, CH2CCH2X on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2783,7 +2787,7 @@ entry(
         H298=(-396.35, 'kJ/mol'),
         S298=(-202.17, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCO-bi double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHXCO double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2815,7 +2819,7 @@ entry(
         H298=(-440.28, 'kJ/mol'),
         S298=(-204.35, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CCCH2-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCXCCH2 twice single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2848,7 +2852,7 @@ entry(
         H298=(-436.46, 'kJ/mol'),
         S298=(-201.88, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged *C*CH2 and *C*CHCH3 on Pt(111)""",
+    shortDesc=u"""Came from averaged XCXCH2 and XCXCHCH3 on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2883,7 +2887,7 @@ entry(
         H298=(-179.99, 'kJ/mol'),
         S298=(-191.92, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CH2CCH2-bi single and single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCH2CXCH2 single and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2916,7 +2920,7 @@ entry(
         H298=(-227.58, 'kJ/mol'),
         S298=(-194.29, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCCH3-bi single and single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHXCCH3 single and single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2948,7 +2952,7 @@ entry(
         H298=(-488.53, 'kJ/mol'),
         S298=(-158.38, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CCCH3-bi triple and double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCXCCH3 triple and double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -2982,7 +2986,7 @@ entry(
         H298=(-543.25, 'kJ/mol'),
         S298=(-229.45, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CCHCH2-bi double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCCHXCH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3018,7 +3022,7 @@ entry(
         H298=(-389.14, 'kJ/mol'),
         S298=(-209.34, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CH2CH2CH2-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCH2CH2XCH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3052,7 +3056,7 @@ entry(
         H298=(-612.92, 'kJ/mol'),
         S298=(-200.99, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCHCH-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCHXCH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3087,7 +3091,7 @@ entry(
         H298=(-426.75, 'kJ/mol'),
         S298=(-227.78, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCHCH2-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCHXCH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3122,7 +3126,7 @@ entry(
         H298=(-529.03, 'kJ/mol'),
         S298=(-222.29, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCH2CH2-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCH2XCH2 single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3156,7 +3160,7 @@ entry(
         H298=(-370.79, 'kJ/mol'),
         S298=(-196.35, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCCH-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCXCH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3189,7 +3193,7 @@ entry(
         H298=(-432.93, 'kJ/mol'),
         S298=(-179.15, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCC-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCXC single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3221,7 +3225,7 @@ entry(
         H298=(-354.62, 'kJ/mol'),
         S298=(-179.72, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CO3-bi and H2CO2-bi on Pt(111)""",
+    shortDesc=u"""Came from averaged OC(XO)XO and H2C(XO)XO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3254,7 +3258,7 @@ entry(
         H298=(-446.49, 'kJ/mol'),
         S298=(-211.15, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCHO-bi single and single -bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCHXO single and single -bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3316,7 +3320,7 @@ entry(
         H298=(-379.17, 'kJ/mol'),
         S298=(-179.05, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CHCHCH2 and CHCHO on Pt(111)""",
+    shortDesc=u"""Came from averaged XCHCHCH2 and XCHCHO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3351,7 +3355,7 @@ entry(
         H298=(-565.15, 'kJ/mol'),
         S298=(-180.28, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CCHCH2 and CCHO triple-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCCHCH2 and XCCHO triple-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3386,7 +3390,7 @@ entry(
         H298=(-228.04, 'kJ/mol'),
         S298=(-194.23, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged on Pt(111)""",
+    shortDesc=u"""Came from averaged XOCHCH2, HOC(O)XO, HC(O)XO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3481,7 +3485,7 @@ entry(
         H298=(-446.49, 'kJ/mol'),
         S298=(-211.15, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCHO-bi single and single -bonded on Pt(111)""",
+    shortDesc=u"""Same as child node RC-*=R-O-*""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3510,7 +3514,7 @@ entry(
         H298=(-354.62, 'kJ/mol'),
         S298=(-179.72, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from averaged CO3-bi and H2CO2-bi on Pt(111)""",
+    shortDesc=u"""Came from averaged OC(XO)XO and H2C(XO)XO on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3544,7 +3548,7 @@ entry(
         H298=(-477.2, 'kJ/mol'),
         S298=(-200.61, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CCH2CH2-bi double-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCCH2XCH2 double-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3577,7 +3581,7 @@ entry(
         H298=(-402.33, 'kJ/mol'),
         S298=(-202.29, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCHC-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCHXC single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3609,7 +3613,7 @@ entry(
         H298=(-671.16, 'kJ/mol'),
         S298=(-243.65, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CCH2C-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCCH2XC single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3643,7 +3647,7 @@ entry(
         H298=(-230.02, 'kJ/mol'),
         S298=(-203.94, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCH2CH-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCH2XCH single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
@@ -3676,7 +3680,7 @@ entry(
         H298=(-457.3, 'kJ/mol'),
         S298=(-222.49, 'J/(mol*K)'),
     ),
-    shortDesc=u"""Came from CHCH2C-bi single-bonded on Pt(111)""",
+    shortDesc=u"""Came from XCHCH2XC single-bonded on Pt(111)""",
     longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (files: compute_NASA_for_Pt-adsorbates.ipynb and compute_NASA_for_Pt-gas_phase.ipynb).
             Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
             using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
