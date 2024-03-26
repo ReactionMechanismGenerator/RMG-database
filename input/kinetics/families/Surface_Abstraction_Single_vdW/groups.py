@@ -35,7 +35,7 @@ entry(
 """
 multiplicity [1]
 1 *1 Xv u0 p0 c0
-2 *2 R  u0 px cx {3,S}
+2 *2 R!H  u0 px cx {3,S}
 3 *3 R  u0 px cx {2,S}
 """,
     # Note: shuold we restrict it so atoms *2 and *3 have no charge?
@@ -48,21 +48,8 @@ entry(
     label = "Abstracting",
     group =
 """
-1 *5 X u0 p0 c0 {2,S}
-2 *4 R ux px cx {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 3,
-    label = "H-H",
-    group =
-"""
-multiplicity [1]
-1 *1 Xv u0 p0 c0
-2 *2 H  u0 p0 c0 {3,S}
-3 *3 H  u0 p0 c0 {2,S}
+1 *5 X   u0 p0 c0 {2,S}
+2 *4 R!H ux px cx {1,S}
 """,
     kinetics = None,
 )
@@ -588,7 +575,6 @@ entry(
 tree(
 """
 L1: Donating
-    L2: H-H
     L2: O-R
         L3: O-H
             L4: H2O
