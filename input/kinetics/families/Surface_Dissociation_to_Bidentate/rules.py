@@ -10,19 +10,21 @@ entry(
     index = 1,
     label = "Combined;VacantSite1;VacantSite2",
     kinetics = SurfaceArrheniusBEP(
-        A = (5.726E21, 'm^4/(mol^2*s)'), 
-        n = 0.0,  
-        alpha = 0.0824, 
-        E0 = (12.11, 'kcal/mol'), 
+        A = (1.41E30, 'cm^4/(mol^2*s)'),
+        n = 0.0,
+        alpha = 0.87,
+        E0 = (77.188, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-A and n factors are from the average rates of training reactions 1-3, and alpha and E0 are BEP
-parameters from training reactions 1-3 (in the Surface_Dissociation_to_Bidentate 
-forward direction).
-The A factor has been divided by 2.33 here to account for the average degeneracy of the training reactions.
+A and n factors are from the average rates of training reactions 1-2 and reverse of 3-4, and alpha and E0 are BEP
+parameters from training reactions 1-2 and reverse of 3-4.
+
+Details on the computational method to derive the rate constants for the BEP relation are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
 """
 )
