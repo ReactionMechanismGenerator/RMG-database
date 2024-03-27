@@ -30,10 +30,10 @@ entry(
     index = 2,
     label = "C-H_Bidentate;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (7.250e16, 'm^2/(mol*s)'), 
+        A = (1.36e18, 'm^2/(mol*s)'),
         n = 0.0,
-        alpha = 0.961, 
-        E0 = (22.37, 'kcal/mol'), 
+        alpha = 0.85,
+        E0 = (65.61, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),

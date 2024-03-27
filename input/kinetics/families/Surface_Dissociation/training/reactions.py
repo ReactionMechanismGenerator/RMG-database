@@ -373,16 +373,21 @@ entry(
     label = "HCCH2_2X + Ni_4 <=> HCCH_2X + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(1.9460e16, 'm^2/(mol*s)'),
-        n = 0.512, 
-        Ea=(69707.5, 'J/mol'),
+        A=(4.75e21, 'cm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(72, 'kJ/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank=8,
     shortDesc = u"""Default""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
+A divided by 2 because of the degeneracy.
+
 """,
     metal = "Pt",
 )
@@ -392,16 +397,20 @@ entry(
     label = "H2CCH2_2X + Ni_4 <=> H2CCH_2X + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(3.034e15, 'm^2/(mol*s)'), 
-        n = 0.661, 
-        Ea=(55411.0, 'J/mol'),
+        A=(2.225e21, 'cm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(59, 'kJ/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank=8,
     shortDesc = u"""Default""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
+A divided by 2 because of the degeneracy.
 """,
     metal = "Pt",
 )
@@ -411,16 +420,88 @@ entry(
     label = "H2CO_2X + Ni_4 <=> HCO_2X + HX_5",
     degeneracy = 2,
     kinetics = SurfaceArrhenius(
-        A=(1.438e17, 'm^2/(mol*s)'),
-        n = 0.043, 
-        Ea=(1417.1, 'J/mol'),
+        A=(0.875e21, 'cm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(2, 'kJ/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
     rank=8,
     shortDesc = u"""Default""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
+A divided by 2 because of the degeneracy.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 63,
+    label = "XCXCH_3 + HX_5 <=> XCXCH2_1 + Ni_4",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(2.595e19, 'cm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(34, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
+A divided by 2 because of the degeneracy.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 64,
+    label = "XCXCH_4 + HX_5 <=> XCHXCH_1 + Ni_4",
+    degeneracy = 2,
+    kinetics = SurfaceArrhenius(
+        A=(1.66e21, 'cm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(62, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
+A divided by 2 because of the degeneracy.
+""",
+    metal = "Pt",
+)
+
+entry(
+    index = 65,
+    label = "XCHXCH2_1 + Ni_4 <=> XCXCH2_3 + HX_5",
+    degeneracy = 1,
+    kinetics = SurfaceArrhenius(
+        A=(9.69e21, 'cm^2/(mol*s)'),
+        n = 0.0,
+        Ea=(48, 'kJ/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank=8,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
+doi:10.1039/d3dd00184a
 """,
     metal = "Pt",
 )
