@@ -109,25 +109,21 @@ surface = {
     'Surface_Adsorption_Dissociative',
     'Surface_Dissociation',
     'Surface_Abstraction',
-    'Surface_EleyRideal_Addition_Multiple_Bond',
-    'Surface_Migration',
     'Surface_Dissociation_Double_vdW',
-    'Surface_Addition_Single_vdW',
     'Surface_Dissociation_vdW',
     'Surface_Abstraction_vdW',
     'Surface_Dissociation_Beta',
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
-    'Surface_DoubleBond_to_Bidentate', 
     'Surface_Dissociation_to_Bidentate', 
     'Surface_vdW_to_Bidentate',
-    'Surface_Abstraction_Single_vdW',
     'Surface_Adsorption_Dissociative_Double',
     'Surface_Abstraction_Beta',
     'Surface_Abstraction_Beta_double_vdW',
     'Surface_Dissociation_Double',
     'Surface_Dissociation_Beta_vdW',
     'Surface_Abstraction_Beta_vdW',
+    'Surface_Abstraction_Single_vdW',
 }
 
 # reaction families for halogen chemistry only
@@ -147,4 +143,8 @@ halogens = {
 # Surface chemistry families that are under development and not yet working well.
 surface_development = {
     #'Surface_Adsorption_Double',
+    'Surface_EleyRideal_Addition_Multiple_Bond',
+    'Surface_Migration',
+    'Surface_DoubleBond_to_Bidentate',
+    'Surface_Addition_Single_vdW',
 }
