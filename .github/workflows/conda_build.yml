@@ -1,49 +1,34 @@
 name: Conda Build
 
 on:
+  pull_request:
   push:
     branches:
       - stable
 jobs:
-  build-linux:
+  build:
     runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v2
-      - uses: conda-incubator/setup-miniconda@v2
-      - name: Conda info
+      - uses: actions/checkout@v4
+      - name: Setup Conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: false
+          conda-solver: libmamba
+          auto-activate-base: true
+          activate-environment: ""
+      - name: Install Build Tools
+        run: conda install python anaconda-client conda-build
+      - name: Configure Auto-Upload
+        if: github.ref == 'refs/heads/stable'
         run: |
-          conda info
-          conda list
+          conda config --set anaconda_upload yes
       - name: Build Binary
         env: 
           CONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
         run: |
-          conda install -y conda-build 
-          conda install -y anaconda-client 
-          conda config --add channels rmg
-          conda config --set anaconda_upload yes
-          conda build --token $CONDA_TOKEN --user rmg .conda
-  build-osx:
-    runs-on: macos-latest
-    defaults:
-      run:
-        shell: bash -l {0}
-    steps:
-      - uses: actions/checkout@v2
-      - uses: conda-incubator/setup-miniconda@v2
-      - name: Conda info
-        run: |
-          conda info
-          conda list
-      - name: Build Binary
-        env: 
-          CONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
-        run: |
-          conda install -y conda-build 
-          conda install -y anaconda-client 
-          conda config --add channels rmg
-          conda config --set anaconda_upload yes
-          conda build --token $CONDA_TOKEN --user rmg .conda
+          conda config --add channels conda-forge
+          conda-build --token $CONDA_TOKEN --user rmg .conda
