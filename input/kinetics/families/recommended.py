@@ -146,6 +146,5 @@ surface_development = {
     #'Surface_Adsorption_Double',
     'Surface_EleyRideal_Addition_Multiple_Bond',
     'Surface_Migration',
-    'Surface_DoubleBond_to_Bidentate',
     'Surface_Addition_Single_vdW',
 }
