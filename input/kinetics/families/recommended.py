@@ -115,6 +115,7 @@ surface = {
     'Surface_Dissociation_Beta',
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
+    'Surface_Monodentate_to_Bidentate',
     'Surface_Dissociation_to_Bidentate', 
     'Surface_vdW_to_Bidentate',
     'Surface_Adsorption_Dissociative_Double',
@@ -145,6 +146,5 @@ surface_development = {
     #'Surface_Adsorption_Double',
     'Surface_EleyRideal_Addition_Multiple_Bond',
     'Surface_Migration',
-    'Surface_DoubleBond_to_Bidentate',
     'Surface_Addition_Single_vdW',
 }
