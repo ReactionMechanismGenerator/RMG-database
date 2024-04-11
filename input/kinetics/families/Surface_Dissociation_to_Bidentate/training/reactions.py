@@ -13,7 +13,7 @@ entry(
     label = "H2CCH3_X + Pt_5 + Pt_6 <=> H2CCH2_2X + H_X",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
-        A=(0.557E30, 'cm^4/(mol^2*s)'),
+        A=(0.557E22, 'm^4/(mol^2*s)'),
         n = 0.0,
         Ea=(46, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -36,7 +36,7 @@ entry(
     label = "HCCH3_X + Pt_5 + Pt_6 <=> HCCH2_2X + H_X",
     degeneracy = 3,
     kinetics = SurfaceArrhenius(
-        A=(0.65E30, 'cm^4/(mol^2*s)'),
+        A=(0.65E22, 'm^4/(mol^2*s)'),
         n = 0.0,
         Ea=(49, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -59,7 +59,7 @@ entry(
     label = "H2CO_2X + H_X <=> H2COH_X + Pt_5 + Pt_6",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(8.22E20, 'cm^2/(mol*s)'),
+        A=(8.22E16, 'm^2/(mol*s)'),
         n = 0.0,
         Ea=(29, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -81,7 +81,7 @@ entry(
     label = "XCXCH2 + H_X <=> XCCH3 + Pt_5 + Pt_6",
     degeneracy = 1,
     kinetics = SurfaceArrhenius(
-        A=(1.07E22, 'cm^2/(mol*s)'),
+        A=(1.07E18, 'm^2/(mol*s)'),
         n = 0.0,
         Ea=(72, 'kJ/mol'),
         Tmin = (298, 'K'),
