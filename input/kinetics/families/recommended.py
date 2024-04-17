@@ -155,9 +155,9 @@ surface_development = {
 # Electrochemical families!
 electrochem = {
     'Surface_Proton_Electron_Reduction_Alpha',
-    # 'Surface_Proton_Electron_Reduction_Alpha_vdW',
+    'Surface_Proton_Electron_Reduction_Alpha_vdW',
     'Surface_Proton_Electron_Reduction_Beta',
-    # 'Surface_Proton_Electron_Reduction_Beta_vdW',
+    'Surface_Proton_Electron_Reduction_Beta_vdW',
     'Surface_Proton_Electron_Reduction_Beta_Dissociation',
     '1,2_Elimination_LiR',
     '1,2_Intra_Elimination_LiR',
