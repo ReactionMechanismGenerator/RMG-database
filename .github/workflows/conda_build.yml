@@ -31,4 +31,4 @@ jobs:
           CONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
         run: |
           conda config --add channels conda-forge
-          conda-build --token $CONDA_TOKEN --user rmg .conda
+          conda-build --token "$CONDA_TOKEN" --user rmg .conda
