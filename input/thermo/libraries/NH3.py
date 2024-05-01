@@ -698,7 +698,7 @@ ThermoData(
 
 entry(
     index=23,
-    label="HNOH",
+    label="NHOH",
     molecule="""
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -1906,7 +1906,7 @@ ThermoData(
 
 entry(
     index=61,
-    label="NH2NHOO",
+    label="N2H3OO",
     molecule="""
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -2102,7 +2102,7 @@ ThermoData(
 
 entry(
     index=67,
-    label="OHNHOO",
+    label="HONHOO",
     molecule="""
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
