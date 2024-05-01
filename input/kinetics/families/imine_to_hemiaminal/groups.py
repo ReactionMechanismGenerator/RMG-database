@@ -5,7 +5,7 @@ name = "imine_to_hemiaminal/groups"
 shortDesc = u""
 longDesc = u"""
 This family describes solution-phase hydrolysis of imine groups:
-C=NR + H2O <=> C(OH)N(R1)R2 + H2O 
+RC=NR' + H2O <=> RC(OH)NR'
 atom labels:
 RC[*1]=N[*2]R' + H[*4]O[*3]H <=>  RC[*1](OH[*3])N[*2](H[*4])R'
 """
