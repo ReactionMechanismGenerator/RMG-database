@@ -1740,14 +1740,15 @@ and is ~40 times lower in rate, and can be neglected.
 )
 
 entry(
-    index = 87,
-    label = "NH2 + H <=> NH + H2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.09e+05, 'cm^3/(mol*s)'), n=2.59, Ea=(1812, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Sarathy2020]""",
-    longDesc =
+    index=87,
+    label="NH2 + H <=> NH + H2",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(1.09e+05, 'cm^3/(mol*s)'), n=2.59, Ea=(1812, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Sarathy2020]""",
+    longDesc=
 u"""
 Part of the "NHx" subset
+Table 6 (given in s^-1 units, probably an error?)
 CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
 
 Also available from [Hanson1990a], R9 in Table 1, p. 521:
@@ -1756,13 +1757,14 @@ Also available from [Hanson1990a], R9 in Table 1, p. 521:
 )
 
 entry(
-    index = 88,
-    label = "HNCO <=> NH + CO",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(3.26e+35, 'cm^3/(mol*s)'), n=-5.11, Ea=(110000, 'cal/mol'), T0 = (1, 'K'), Tmin=(1830, 'K'), Tmax=(3340, 'K'))),
-    shortDesc = u"""[Hanson1989]""",
-    longDesc =
+    index=88,
+    label="HNCO <=> NH + CO",
+    degeneracy=1,
+    kinetics=ThirdBody(
+        arrheniusLow=Arrhenius(A=(3.26e+35, 'cm^3/(mol*s)'), n=-5.11, Ea=(110000, 'cal/mol'),
+                               T0=(1, 'K'), Tmin=(1830, 'K'), Tmax=(3340, 'K'))),
+    shortDesc=u"""[Hanson1989]""",
+    longDesc=
 u"""
 Part of the "NHx" subset
 T range: 1830-3340 K
@@ -1773,14 +1775,14 @@ Measured in Ar
 )
 
 entry(
-    index = 89,
-    label = "H + NCO <=> HNCO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.80e+12, 'cm^3/(mol*s)'), n=0.493, Ea=(-294, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(200, 'K'), Tmax=(2500, 'K')),
-    elementary_high_p = True,
-    shortDesc = u"""[Klippenstein2009b]""",
-    longDesc =
+    index=89,
+    label="H + NCO <=> HNCO",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(2.80e+12, 'cm^3/(mol*s)'), n=0.493, Ea=(-294, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    elementary_high_p=True,
+    shortDesc=u"""[Klippenstein2009b]""",
+    longDesc=
 u"""
 Part of the "NHx" subset
 T range: 200-2500 K
@@ -1919,7 +1921,7 @@ and the moment of inertia and harmonic vibrational frequencies were obtained by 
 
 entry(
     index = 97,
-    label = "N2H3 + HNO <=> N2H2 + HNOH",
+    label = "N2H3 + HNO <=> N2H2 + NHOH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.85e-17, 'cm^3/(mol*s)'), n=8.15, Ea=(904, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Lin2014a]""",
@@ -2681,8 +2683,10 @@ entry(
         T0=(1, 'K')),
     shortDesc =u"""[Glarborg2021]""",
     longDesc =
-u"""Reaction 5a, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
-[Altinay&Macdonald2015]. Original information taken from [Song&Golden2001] Shock tube experiments were  
+u"""
+Reaction 5a, Table 2
+Experimental work re-interpreted using direct measurements from [Altinay&Macdonald2015].
+Original information taken from [Song&Golden2001] Shock tube experiments were  
 performed behind reflected shockwaves in a stainless steel shock tube. Rates were calculated using their branching 
 ratio results data and the overall rate coefficient.
 
@@ -2699,13 +2703,14 @@ entry(
         T0=(1, 'K')),
     shortDesc = u"""[Glarborg2021]""",
     longDesc =
-u"""Reaction 5b, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
-[Altinay&Macdonald2015]. Original information taken from [Song&Golden2001] Shock tube experiments  were  
-performed behind reflected shockwaves in a stainless steel shock tube.  Rates were calculated using their branching 
-ratio results data and the overall rate coefficient.
+u"""
+Reaction 5b, Table 2. Experimental work re-interpreted using direct measurements from [Altinay&Macdonald2015].
+Original information taken from [Song&Golden2001]. Shock tube experiments were performed behind reflected shockwaves
+in a stainless steel shock tube. Rates were calculated using their branching ratio results data and the overall rate
+coefficient.
 
-Previously taken from [Lin1999a].
-Part of the "Thermal de-NOx" mechanism k1b T range: 300-2500 K
+Also available from [Lin1999a].
+Part of the "Thermal de-NOx" mechanism
 """,
 )
 
@@ -2753,7 +2758,7 @@ entry(
     longDesc =
 u"""
 Part of the "Thermal de-NOx" mechanism
-calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level
 Also availabvle from [Bozzelli1994]:
     kinetics = Arrhenius(A=(6.1e+13, 'cm^3/(mol*s)'), n=-0.50, Ea=(120, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(4000, 'K')),
 T range: 300-4000 K, k2a, QRRK
@@ -2769,7 +2774,7 @@ entry(
     longDesc=
     u"""
     Part of the "Thermal de-NOx" mechanism
-    calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+    calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level
 """,
 )
 
@@ -2782,7 +2787,7 @@ entry(
     longDesc=
     u"""
     Part of the "Thermal de-NOx" mechanism
-    calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+    calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level
 """,
 )
 
@@ -2829,8 +2834,8 @@ Also available from [Klippenstein2009a], Table 3, p. 10245, calculated at the CC
 entry(
     index = 149,
     label='NH3 + O <=> NH2 + OH',
-    kinetics=Arrhenius(A=(4.43e+02, 'cm^3/(mol*s)'), n=3.180, Ea=(6739.9, 'cal/mol'), T0=(1, 'K'),
-                       Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics=Arrhenius(A=(4.430e+02, 'cm^3/(mol*s)'), n=3.180, Ea=(6739.9, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc=u"""[Stagni2020]""",
     longDesc=
 u"""
@@ -2850,9 +2855,10 @@ Part of the "Thermal de-NOx" mechanism Table 3, p. 10245
 
 entry(
     index = 150,
-    label = "NH2OH + OH <=> HNOH + H2O",
+    label = "NH2OH + OH <=> NHOH + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.54e+04, 'cm^3/(mol*s)'), n=2.61, Ea=(-3537, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(1.54e+04, 'cm^3/(mol*s)'), n=2.61, Ea=(-3537, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -2868,7 +2874,8 @@ entry(
     index = 151,
     label = "NH2OH + OH <=> NH2O + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.53e+05, 'cm^3/(mol*s)'), n=2.28, Ea=(-1296, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(1.53e+05, 'cm^3/(mol*s)'), n=2.28, Ea=(-1296, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -2882,9 +2889,10 @@ Train!
 
 entry(
     index = 152,
-    label = "NH2OH + NH2 <=> HNOH + NH3",
+    label = "NH2OH + NH2 <=> NHOH + NH3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.08e-01, 'cm^3/(mol*s)'), n=4.00, Ea=(-97, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(1.08e-01, 'cm^3/(mol*s)'), n=4.00, Ea=(-97, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -2900,7 +2908,8 @@ entry(
     index = 153,
     label = "NH2OH + NH2 <=> NH2O + NH3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(9.45e+00, 'cm^3/(mol*s)'), n=3.42, Ea=(-1013, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(9.45e+00, 'cm^3/(mol*s)'), n=3.42, Ea=(-1013, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -2914,9 +2923,10 @@ Train!
 
 entry(
     index = 154,
-    label = "NH2OH + NH <=> HNOH + NH2",
+    label = "NH2OH + NH <=> NHOH + NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.91e-03, 'cm^3/(mol*s)'), n=4.40, Ea=(1564, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(2.91e-03, 'cm^3/(mol*s)'), n=4.40, Ea=(1564, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -2932,7 +2942,8 @@ entry(
     index = 155,
     label = "NH2OH + NH <=> NH2O + NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.46e-03, 'cm^3/(mol*s)'), n=4.60, Ea=(2424, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(1.46e-03, 'cm^3/(mol*s)'), n=4.60, Ea=(2424, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -2947,8 +2958,8 @@ entry(
     index = 156,
     label = "NH + NH <=> N2H2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.26e+13, 'cm^3/(mol*s)'), n=-0.036, Ea=(-161, 'cal/mol'), T0=(1, 'K'),
-                         Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(6.26e+13, 'cm^3/(mol*s)'), n=-0.036, Ea=(-161, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
     elementary_high_p = True,
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
@@ -2965,7 +2976,8 @@ entry(
     index = 157,
     label = "NH + NH <=> NH2 + N",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.66e-01, 'cm^3/(mol*s)'), n=3.88, Ea=(342, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(5.66e-01, 'cm^3/(mol*s)'), n=3.88, Ea=(342, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Klippenstein2009a]""",
     longDesc =
 u"""
@@ -3023,6 +3035,9 @@ entry(
     shortDesc=u"""[Klippenstein2009a]""",
     longDesc=
 u"""
+
+The rate coefficient should be PDep, this rate coefficient should be improved.
+
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
 T range: 500-2500 K
@@ -3059,7 +3074,7 @@ u"""
 Part of the "Thermal de-NOx" mechanism
 Table 3, p. 10245
 T range: 300-2500 K
-calculated at the (CCSD(T) and CAS+1+2+QC level
+calculated at the CCSD(T) and CAS+1+2+QC level
 Also available from [Hanson1990a]:
     kinetics = Arrhenius(A=(5.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
 R12 in Table 1, p. 521, T range: 2200-2800 K, Shock Tube
@@ -3072,8 +3087,7 @@ Train both!!!
 entry(
     index = 163,
     label='NH3 + H <=> NH2 + H2',
-    kinetics=Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'),
-                       T0=(1, 'K')),
+    kinetics=Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Glarborg2021]""",
     longDesc=
 u"""Reaction 10, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
@@ -3097,8 +3111,7 @@ Tmin=(300, 'K'), Tmax=(2500, 'K'))
 entry(
     index = 164,
     label='NH3 + OH <=> NH2 + H2O ',
-    kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'),
-                       T0=(1, 'K')),
+    kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'), T0=(1, 'K')),
     shortDesc= u"""[Glarborg2021]""",
     longDesc=
 u"""Reaction 12, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
@@ -3121,7 +3134,8 @@ entry(
     index = 165,
     label = "NH3 + NO2 <=> NH2 + HNO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.91e+00, 'cm^3/(mol*s)'), n=3.41, Ea=(29880, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
+    kinetics = Arrhenius(A=(4.91e+00, 'cm^3/(mol*s)'), n=3.41, Ea=(29880, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
     shortDesc = u"""[Lin1996a]""",
     longDesc =
 u"""
@@ -3165,14 +3179,14 @@ entry(
     label = "NH3 + NO3 <=> HNO3 + NH2",
     degeneracy = 1,
     kinetics = PDepArrhenius(
-        pressures = ([1, 10, 100, 760, 7600, 76000], 'torr'),
-        arrhenius = [
-            Arrhenius(A=(2.57e+00, 'cm^3/(mol*s)'), n=3.61, Ea=(964, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(5.67e+00, 'cm^3/(mol*s)'), n=3.53, Ea=(1598, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(4.61e+00, 'cm^3/(mol*s)'), n=3.56, Ea=(1691, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(4.06e+00, 'cm^3/(mol*s)'), n=3.57, Ea=(1689, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(3.85e+00, 'cm^3/(mol*s)'), n=3.58, Ea=(1679, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(3.63e+00, 'cm^3/(mol*s)'), n=3.59, Ea=(1669, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+        pressures=([1, 10, 100, 760, 7600, 76000], 'torr'),
+        arrhenius=[
+            Arrhenius(A=(2.57e+00, 'cm^3/(mol*s)'), n=3.61, Ea=(964, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(5.67e+00, 'cm^3/(mol*s)'), n=3.53, Ea=(1598, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(4.61e+00, 'cm^3/(mol*s)'), n=3.56, Ea=(1691, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(4.06e+00, 'cm^3/(mol*s)'), n=3.57, Ea=(1689, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(3.85e+00, 'cm^3/(mol*s)'), n=3.58, Ea=(1679, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(3.63e+00, 'cm^3/(mol*s)'), n=3.59, Ea=(1669, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
         ],
     ),
     shortDesc = u"""[Lin2010c]""",
@@ -3193,12 +3207,12 @@ entry(
     kinetics = PDepArrhenius(
         pressures = ([1, 10, 100, 760, 7600, 76000], 'torr'),
         arrhenius = [
-            Arrhenius(A=(8.91e+04, 'cm^3/(mol*s)'), n=2.00, Ea=(24641, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(1.36e+07, 'cm^3/(mol*s)'), n=1.40, Ea=(26390, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(5.09e+08, 'cm^3/(mol*s)'), n=0.99, Ea=(28353, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(1.73e+08, 'cm^3/(mol*s)'), n=1.17, Ea=(29562, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(7.17e+04, 'cm^3/(mol*s)'), n=2.19, Ea=(29870, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-            Arrhenius(A=(3.46e-02, 'cm^3/(mol*s)'), n=4.04, Ea=(28946, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(8.91e+04, 'cm^3/(mol*s)'), n=2.00, Ea=(24641, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.36e+07, 'cm^3/(mol*s)'), n=1.40, Ea=(26390, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(5.09e+08, 'cm^3/(mol*s)'), n=0.99, Ea=(28353, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(1.73e+08, 'cm^3/(mol*s)'), n=1.17, Ea=(29562, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(7.17e+04, 'cm^3/(mol*s)'), n=2.19, Ea=(29870, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(3.46e-02, 'cm^3/(mol*s)'), n=4.04, Ea=(28946, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
         ],
     ),
     shortDesc = u"""[Lin2010c]""",
@@ -3238,8 +3252,7 @@ and B3LYP/6-311++G(d,p) anharmonic ZPE corrections
 entry(
     index = 170,
     label = 'NH2 + NO2 <=> NH2O + NO',
-    kinetics = Arrhenius(A=(8.6e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'),
-        T0=(1, 'K')),
+    kinetics = Arrhenius(A=(8.6e+11, 'cm^3/(mol*s)'), n=0.11, Ea=(-1186, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""[Glarborg2018]""",
     longDesc =
 u"""
@@ -3291,8 +3304,8 @@ entry(
     label = "NO2 <=> NO + O",
     degeneracy = 1,
     kinetics = Lindemann(
-        arrheniusHigh = Arrhenius(A=(3.98e+14, 's^-1'), n=0, Ea=(71700, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(2100, 'K')),
-        arrheniusLow = Arrhenius(A=(3.98e+15, 'cm^3/(mol*s)'), n=0, Ea=(60000, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(2100, 'K'))),
+        arrheniusHigh=Arrhenius(A=(3.98e+14, 's^-1'), n=0, Ea=(71700, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(2100, 'K')),
+        arrheniusLow=Arrhenius(A=(3.98e+15, 'cm^3/(mol*s)'), n=0, Ea=(60000, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(2100, 'K'))),
     elementary_high_p = True,
     shortDesc = u"""[Hanson1997]""",
     longDesc =
@@ -3308,7 +3321,8 @@ entry(
     index = 173,
     label = "NO2 + NO2 <=> NO + NO + O2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.51e+12, 'cm^3/(mol*s)'), n=0, Ea=(27600, 'cal/mol'), T0=(1, 'K'), Tmin=(625, 'K'), Tmax=(2100, 'K')),
+    kinetics = Arrhenius(A=(4.51e+12, 'cm^3/(mol*s)'), n=0, Ea=(27600, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(625, 'K'), Tmax=(2100, 'K')),
     shortDesc = u"""[Lin1998b]""",
     longDesc =
 u"""
@@ -3322,7 +3336,8 @@ entry(
     index = 174,
     label = "NO2 + NO2 <=> NO3 + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(25800, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(2100, 'K')),
+    kinetics = Arrhenius(A=(1.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(25800, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(2100, 'K')),
     shortDesc = u"""[Hanson1997]""",
     longDesc =
 u"""
@@ -3395,7 +3410,8 @@ entry(
     index = 178,
     label = "N2O + CO <=> N2 + CO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(20330, 'cal/mol'), T0=(1, 'K'), Tmin=(700, 'K'), Tmax=(2500, 'K')),
+    kinetics = Arrhenius(A=(3.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(20330, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(700, 'K'), Tmax=(2500, 'K')),
     shortDesc = u"""[Herron1991]""",
     longDesc =
 u"""
@@ -3409,7 +3425,8 @@ entry(
     index = 179,
     label = "NO2 + HCO <=> CO + HONO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.24e+23, 'cm^3/(mol*s)'), n=-3.29, Ea=(2355, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    kinetics = Arrhenius(A=(1.24e+23, 'cm^3/(mol*s)'), n=-3.29, Ea=(2355, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Lin1990]""",
     longDesc =
 u"""
@@ -3423,7 +3440,8 @@ entry(
     index = 180,
     label = "HONO + H <=> H2 + NO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.01e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6614, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3500, 'K')),
+    kinetics = Arrhenius(A=(2.01e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6614, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3500, 'K')),
     shortDesc = u"""[Lin1997a]""",
     longDesc =
 u"""
@@ -3439,7 +3457,8 @@ entry(
     label = "NO <=> N + O",
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusLow = Arrhenius(A=(9.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(148000, 'cal/mol'), T0 = (1, 'K'), Tmin=(2400, 'K'), Tmax=(6200, 'K')),
+        arrheniusLow = Arrhenius(A=(9.6e+14, 'cm^3/(mol*s)'), n=0, Ea=(148000, 'cal/mol'),
+                                 T0=(1, 'K'), Tmin=(2400, 'K'), Tmax=(6200, 'K')),
         efficiencies={'N#N': 1.5, 'O=C=O': 2.5}),
     shortDesc = u"""[Herron1991]""",
     longDesc =
@@ -3455,7 +3474,8 @@ entry(
     index = 182,
     label = "NO2 + HCO <=> H + CO2 + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.39e+15, 'cm^3/(mol*s)'), n=-0.75, Ea=(1930, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+    kinetics = Arrhenius(A=(8.39e+15, 'cm^3/(mol*s)'), n=-0.75, Ea=(1930, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Lin1990]""",
     longDesc =
 u"""
@@ -3469,7 +3489,8 @@ entry(
     index = 183,
     label = "HONO + H <=> OH + HNO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.64e+10, 'cm^3/(mol*s)'), n=0.86, Ea=(4970, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3500, 'K')),
+    kinetics = Arrhenius(A=(5.64e+10, 'cm^3/(mol*s)'), n=0.86, Ea=(4970, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3500, 'K')),
     shortDesc = u"""[Lin1997a]""",
     longDesc =
 u"""
@@ -3483,7 +3504,8 @@ entry(
     index = 184,
     label = "HONO + HONO <=> H2O + NO2 + NO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.49e-01, 'cm^3/(mol*s)'), n=3.64, Ea=(12140, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
+    kinetics = Arrhenius(A=(3.49e-01, 'cm^3/(mol*s)'), n=3.64, Ea=(12140, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
     shortDesc = u"""[Lin1998c]""",
     longDesc =
 u"""
@@ -3497,7 +3519,8 @@ entry(
     index = 185,
     label = "HNO3 + H <=> H2 + NO3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.56e+08, 'cm^3/(mol*s)'), n=1.53, Ea=(16400, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(5.56e+08, 'cm^3/(mol*s)'), n=1.53, Ea=(16400, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin1997b]""",
     longDesc =
 u"""
@@ -3512,7 +3535,8 @@ entry(
     index = 186,
     label = "HNO3 + H <=> OH + HONO",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.82e+05, 'cm^3/(mol*s)'), n=2.30, Ea=(6977, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(3.82e+05, 'cm^3/(mol*s)'), n=2.30, Ea=(6977, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin1997b]""",
     longDesc =
 u"""
@@ -3527,7 +3551,8 @@ entry(
     index = 187,
     label = "HNO3 + H <=> H2O + NO2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(6.08e+01, 'cm^3/(mol*s)'), n=3.29, Ea=(6286, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(6.08e+01, 'cm^3/(mol*s)'), n=3.29, Ea=(6286, 'cal/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""[Lin1997b]""",
     longDesc =
 u"""
@@ -3540,51 +3565,55 @@ RRKM
 entry(
     index=188,
     label="HNNO2 <=> NO2 + NH",
-    kinetics=Lindemann(
-        arrheniusHigh=Arrhenius(A=(1.00e+15, 's^-1'), n=0, Ea=(38160, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
-        # arrheniusLow=Arrhenius(A=(6.09e+44, 'cm^3/(mol*s)'), n=-9.92, Ea=(46900, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
-        arrheniusLow=Arrhenius(A=(5.06e+40, 'cm^3/(mol*s)'), n=-10.92, Ea=(46900, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+    kinetics=Arrhenius(A=(1.00e+15, 's^-1'), n=0, Ea=(38160, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
     elementary_high_p=True,
     shortDesc=u"""[Lin1998d]""",
     longDesc=
     u"""
     Part of the "NOx" subset
-    k1a,inf and k1a,1atm
+    k1a,inf
+    B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p)
+
+    [Lin1998d] gave k1a,inf and k1a,1atm. We can fit it into Lindemann form:
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(1.00e+15, 's^-1'), n=0, Ea=(38160, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
+        # arrheniusLow=Arrhenius(A=(6.09e+44, 's^-1'), n=-9.92, Ea=(46900, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),  # given in s^-1 units, converted below
+        arrheniusLow=Arrhenius(A=(5.06e+40, 'cm^3/(mol*s)'), n=-9.92, Ea=(46900, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
     arrheniusLow (k1a,1atm) was given in s^-1 units, here multiplied by P/RT where P=1bar to get to cm^3/(mol*s) units
     P/RT = 12.0e+03 cm^3/(mol*K) / T
-    
-    B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p)
     """,
 )
 
 entry(
     index=189,
     label="HNNO2 <=> N2O + OH",
-    kinetics=Lindemann(
-        arrheniusHigh=Arrhenius(A=(7.43e+12, 's^-1'), n=0, Ea=(32220, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
-        # arrheniusLow=Arrhenius(A=(1.36e+54, 'cm^3/(mol*s)'), n=-13.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
-        arrheniusLow=Arrhenius(A=(1.13e+50, 'cm^3/(mol*s)'), n=-14.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+    kinetics=Arrhenius(A=(7.43e+12, 's^-1'), n=0, Ea=(32220, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
     elementary_high_p=True,
     shortDesc=u"""[Lin1998d]""",
     longDesc=
     u"""
     Part of the "NOx" subset
-    k1b,inf and k1b,1atm
-    arrheniusLow (k1b,1atm) was given in s^-1 units, here multiplied by P/RT where P=1bar to get to cm^3/(mol*s) units
+    k1b,inf
+
+    [Lin1998d] gave k1a,inf and k1a,1atm. We can fit it into Lindemann form:
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(7.43e+12, 's^-1'), n=0, Ea=(32220, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K')),
+        # arrheniusLow=Arrhenius(A=(1.36e+54, 's^-1'), n=-13.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),  # given in s^-1 units, converted below
+        arrheniusLow=Arrhenius(A=(1.13e+50, 'cm^3/(mol*s)'), n=-13.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
+    arrheniusLow (k1a,1atm) was given in s^-1 units, here multiplied by P/RT where P=1bar to get to cm^3/(mol*s) units
     P/RT = 12.0e+03 cm^3/(mol*K) / T
     
-    B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p)
     """,
 )
 
 entry(
-    index = 190,
-    label = "NO2 + NH <=> HNO + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.25e+06, 'cm^3/(mol*s)'), n=1.96, Ea=(2345, 'cal/mol'),
-                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-    shortDesc = u"""[Lin1998d]""",
-    longDesc =
+    index=190,
+    label="NO2 + NH <=> HNO + NO",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(1.25e+06, 'cm^3/(mol*s)'), n=1.96, Ea=(2345, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[Lin1998d]""",
+    longDesc=
 u"""
 Part of the "NOx" subset
 calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
@@ -3593,13 +3622,13 @@ k4, p. 8894
 )
 
 entry(
-    index = 191,
-    label = "HCO + HNO <=> CH2O + NO",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'),
-                         T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
-    shortDesc = u"""[Lin2004]""",
-    longDesc =
+    index=191,
+    label="HCO + HNO <=> CH2O + NO",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(5.83e-01, 'cm^3/(mol*s)'), n=3.84, Ea=(115, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(3000, 'K')),
+    shortDesc=u"""[Lin2004]""",
+    longDesc=
 u"""
 Part of the "NOx" subset
 calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
@@ -3626,7 +3655,7 @@ k2, p. 211
 
 entry(
     index = 193,
-    label = "HCO + HNO <=> HNOH + CO",
+    label = "HCO + HNO <=> NHOH + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.31e+13, 'cm^3/(mol*s)'), n=-0.205, Ea=(3647, 'cal/mol'),
                          T0=(1, 'K'), Tmin=(1000, 'K'), Tmax=(3000, 'K')),
@@ -3636,7 +3665,7 @@ u"""
 Part of the "NOx" subset
 T range: 1000-3000 K
 calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
-k4(HNOH+CO), p. 213
+k4(NHOH+CO), p. 213
 The Low T (200-400 K) rate is:
     kinetics = Arrhenius(A=(1.04e-07, 'cm^3/(mol*s)'), n=6.23, Ea=(-3291, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(400, 'K')),
 
@@ -3869,12 +3898,11 @@ Shock tube measurement
 )
 
 entry(
-    index = 207,
-    label = "HNCO + O <=> NCO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(3.63e+03, 'cm^3/(mol*s)'), n=2.88, Ea=(10107, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Sarathy2020]""",
-    longDesc =
+    index=207,
+    label="HNCO + O <=> NCO + OH",
+    kinetics=Arrhenius(A=(3.63e+03, 'cm^3/(mol*s)'), n=2.88, Ea=(10107, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Sarathy2020]""",
+    longDesc=
 u"""
 Part of the "Prompt NO, NCN subset" mechanism
 CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
@@ -3882,12 +3910,11 @@ CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
 )
 
 entry(
-    index = 208,
-    label = "NH + O2 <=> NO + OH",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.28e+06, 'cm^3/(mol*s)'), n=1.5, Ea=(100, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3300, 'K')),
-    shortDesc = u"""[Miller1992]""",
-    longDesc =
+    index=208,
+    label="NH + O2 <=> NO + OH",
+    kinetics=Arrhenius(A=(1.28e+06, 'cm^3/(mol*s)'), n=1.5, Ea=(100, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3300, 'K')),
+    shortDesc=u"""[Miller1992]""",
+    longDesc=
 u"""
 Part of the "NOx" subset
 k4
@@ -3897,7 +3924,7 @@ Also available from R. Talipov et al., J. Phys. Chem. A 2009, 113(23), 6468-6476
 which suggests a significantly lower rate (see rate coefficient on NIST kinetics)
 Experimental data (though old) agree with the [Miller1992] rate.
 
-NOx2018 suggest a different rate, similar to ours but lower at above 1100 K, we can consider shifting to that:
+NOx2018 suggest a different rate, similar to ours but lower above 1100 K, we can consider shifting to that:
 NH+O2=HNO+O                          2.4E13   0.000   13850
 ! Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
 ! Final value used in P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci. 67 (2018) 31-68 
@@ -3905,12 +3932,11 @@ NH+O2=HNO+O                          2.4E13   0.000   13850
 )
 
 entry(
-    index = 209,
-    label = "N2O5 + H2O <=> HNO3 + HNO3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(5.73e+07, 'cm^3/(mol*s)'), n=3.354, Ea=(15700, 'cal/mol'), T0=(298, 'K'), Tmin=(180, 'K'), Tmax=(1800, 'K')),
-    shortDesc = u"""[Marshall2014]""",
-    longDesc =
+    index=209,
+    label="N2O5 + H2O <=> HNO3 + HNO3",
+    kinetics=Arrhenius(A=(5.73e+07, 'cm^3/(mol*s)'), n=3.354, Ea=(15700, 'cal/mol'), T0=(298, 'K'), Tmin=(180, 'K'), Tmax=(1800, 'K')),
+    shortDesc=u"""[Marshall2014]""",
+    longDesc=
 u"""
 Part of the "NOx" subset
 p. 11413
@@ -4850,18 +4876,16 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 )
 
 entry(
-    index = 269,
-    label = 'NH2 + HO2 <=> NH3 + O2',
+    index=269,
+    label='NH2 + HO2 <=> NH3 + O2',
     kinetics=MultiArrhenius(
         arrhenius=[
-            Arrhenius(A=(6.04e+18, 'cm^3/(mol*s)'), n=-1.91, Ea=(306, 'cal/mol'),
-                      T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-            Arrhenius(A=(5.91e7, 'cm^3/(mol*s)'), n=1.59, Ea=(-1373, 'cal/mol'),
-                      T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+            Arrhenius(A=(6.04e+18, 'cm^3/(mol*s)'), n=-1.91, Ea=(306, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+            Arrhenius(A=(5.91e+07, 'cm^3/(mol*s)'), n=1.59, Ea=(-1373, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
         ],
     ),
-    shortDesc = u"""[Klippenstein2022]""",
-    longDesc =
+    shortDesc=u"""[Klippenstein2022]""",
+    longDesc=
 u"""
 R1a
 CASPT2/CBS//CASPT2/cc-pVTZ-F12
@@ -4874,12 +4898,12 @@ Optimized and characterized the stationary points of the PESs with the CCSD meth
 )
 
 entry(
-    index = 270,
-    label = 'NH2 + HO2 <=> NH2O + OH',
-    kinetics = Arrhenius(A=(2.19e+09, 'cm^3/(mol*s)'), n=0.791, Ea=(-1428, 'cal/mol'),
-                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-    shortDesc = u"""[Klippenstein2022]""",
-    longDesc =
+    index=270,
+    label='NH2 + HO2 <=> NH2O + OH',
+    kinetics=Arrhenius(A=(2.19e+09, 'cm^3/(mol*s)'), n=0.791, Ea=(-1428, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Klippenstein2022]""",
+    longDesc=
 u"""
 R1c
 CASPT2/CBS//CASPT2/cc-pVTZ-F12
@@ -5598,9 +5622,9 @@ entry(
     degeneracy=1,
     elementary_high_p=True,
     kinetics=Troe(
-        arrheniusHigh=Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-0.41, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+        arrheniusHigh=Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-0.410, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         arrheniusLow=Arrhenius(A=(2.4e+14, 'cm^6/(mol^2*s)'), n=0.206, Ea=(-1550, 'cal/mol'), T0=(1, 'K')),
-        alpha=0.82, T3=(1e-30, 'K'), T1=(1e+30, 'K'), T2=(1e+30, 'K'), efficiencies={'N#N': 1.6}),
+        alpha=0.82, T3=(1e-30, 'K'), T1=(1e+30, 'K'), T2=(1e+30, 'K'), efficiencies={'N#N': 1.6, 'N': 4}),
     shortDesc=u"""[Glarborg2022]""",
     longDesc=
 u"""
@@ -5713,7 +5737,7 @@ entry(
 
 entry(
     index=329,
-    label='N + HNOH <=> NH + HNO',
+    label='N + NHOH <=> NH + HNO',
     kinetics=Arrhenius(A=(30.8138, 'cm^3/(mol*s)'), n=3.39795, Ea=(22.6251, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -5726,7 +5750,7 @@ entry(
 
 entry(
     index=330,
-    label='NH + HNOH <=> NH2OH + N',
+    label='NH + NHOH <=> NH2OH + N',
     kinetics=Arrhenius(A=(2.85669e-06, 'cm^3/(mol*s)'), n=5.32063, Ea=(14.7829, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -5853,7 +5877,7 @@ entry(
 
 entry(
     index=339,
-    label='NH + HNOH <=> HNO + NH2',
+    label='NH + NHOH <=> HNO + NH2',
     kinetics=Arrhenius(A=(218124, 'cm^3/(mol*s)'), n=2.23762, Ea=(10.844, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -5967,7 +5991,7 @@ entry(
 
 entry(
     index=347,
-    label='HNOH + N2H3 <=> N2H4 + HNO',
+    label='NHOH + N2H3 <=> N2H4 + HNO',
     kinetics=Arrhenius(A=(3.63865, 'cm^3/(mol*s)'), n=3.21359, Ea=(-2.75823, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -5993,7 +6017,7 @@ entry(
 
 entry(
     index=349,
-    label='HNOH + N2H4 <=> NH2OH + N2H3',
+    label='NHOH + N2H4 <=> NH2OH + N2H3',
     kinetics=Arrhenius(A=(1.16857e-06, 'cm^3/(mol*s)'), n=4.9734, Ea=(20.0134, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6045,7 +6069,7 @@ entry(
 
 entry(
     index=353,
-    label='H2NN(T) + NH2OH <=> HNOH + N2H3',
+    label='H2NN(T) + NH2OH <=> NHOH + N2H3',
     kinetics=Arrhenius(A=(0.00222861, 'cm^3/(mol*s)'), n=4.08146, Ea=(10.7837, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6097,7 +6121,7 @@ entry(
 
 entry(
     index=357,
-    label='HNO + HNOH <=> NO + NH2OH',
+    label='HNO + NHOH <=> NO + NH2OH',
     kinetics=Arrhenius(A=(0.156126, 'cm^3/(mol*s)'), n=3.85677, Ea=(-7.82899, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6241,7 +6265,7 @@ entry(
 
 entry(
     index=368,
-    label='HONO + HNOH <=> NO2 + NH2OH',
+    label='HONO + NHOH <=> NO2 + NH2OH',
     kinetics=Arrhenius(A=(2731.65, 'cm^3/(mol*s)'), n=2.31076, Ea=(18.3768, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6358,7 +6382,7 @@ entry(
 
 entry(
     index=377,
-    label='HNOH + O2 <=> HNO + HO2',
+    label='NHOH + O2 <=> HNO + HO2',
     kinetics=Arrhenius(A=(0.000376483, 'cm^3/(mol*s)'), n=4.61521, Ea=(75.8714, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6437,7 +6461,7 @@ entry(
 
 entry(
     index=383,
-    label='HNOH + N2H2 <=> NNH + NH2OH',
+    label='NHOH + N2H2 <=> NNH + NH2OH',
     kinetics=Arrhenius(A=(0.000587998, 'cm^3/(mol*s)'), n=4.5746, Ea=(1.07353, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6463,7 +6487,7 @@ entry(
 
 entry(
     index=385,
-    label='HNOH + NH3O <=> NH2O + NH2OH',
+    label='NHOH + NH3O <=> NH2O + NH2OH',
     kinetics=Arrhenius(A=(9.10472, 'cm^3/(mol*s)'), n=3.66473, Ea=(-5.31092, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6489,7 +6513,7 @@ entry(
 
 entry(
     index=387,
-    label='HNOH + NH2NO <=> HNNO + NH2OH',
+    label='NHOH + NH2NO <=> HNNO + NH2OH',
     kinetics=Arrhenius(A=(1.01102e-10, 'cm^3/(mol*s)'), n=6.24238, Ea=(15.2554, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6528,7 +6552,7 @@ entry(
 
 entry(
     index=390,
-    label='NO + H2NN(S) <=> HNOH + N2',
+    label='NO + H2NN(S) <=> NHOH + N2',
     kinetics=Arrhenius(A=(1.42556, 'cm^3/(mol*s)'), n=3.42359, Ea=(1.9558, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6555,7 +6579,7 @@ entry(
 
 entry(
     index=392,
-    label='HNO2 + NH2O <=> HONO + HNOH',
+    label='HNO2 + NH2O <=> HONO + NHOH',
     kinetics=Arrhenius(A=(0.855685,'cm^3/(mol*s)'), n=3.38223, Ea=(-8.58211, 'kJ/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc=u"""[GrinbergDana2024]""",
@@ -6929,7 +6953,7 @@ RMG estimates this spin-forbidden reaction with a high rate coefficient
 
 entry(
     index=416,
-    label="HNO + HNOH <=> HNO(T) + HNOH",
+    label="HNO + NHOH <=> HNO(T) + NHOH",
     kinetics=Arrhenius(A=(1e-5, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'kcal/mol'), T0=(1, 'K')),
     shortDesc=u"""est.""",
     longDesc =
@@ -7006,6 +7030,7 @@ entry(
     index=422,
     label="NH + O2 <=> HNOO",
     degeneracy=1,
+    elementary_high_p=True,
     kinetics=PDepArrhenius(
         pressures=([0.1, 1, 10], 'atm'),
         arrhenius=[
@@ -7049,7 +7074,7 @@ entry(
 
 entry(
     index=425,
-    label="NH2 + OH <=> HNOH + H",
+    label="NH2 + OH <=> NHOH + H",
     duplicate=True,
     kinetics=MultiArrhenius(
         arrhenius=[
@@ -7060,7 +7085,7 @@ entry(
     shortDesc=u"""[Mousavipour2009]""",
     longDesc=
     u"""
-    R4 & R5 (cis & trans HNOH)
+    R4 & R5 (cis & trans NHOH)
     CCSD(full)/Aug-cc-pVTZ//B3LYP/6-311++G(3df,3p)
     Passes through NH2OH*, should be re-computed as PDep
     This work only gives Arrhenius expressions, unclear whether for 1 bar or as high-P-limit
