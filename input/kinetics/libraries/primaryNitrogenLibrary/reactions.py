@@ -5802,7 +5802,7 @@ entry(
 
 entry(
     index=334,
-    label='NH + O2 <=> O + HNO',
+    label='NH + O2 <=> O + HNO(T)',
     kinetics=Arrhenius(A=(4.61e+05, 'cm^3/(mol*s)'), n=2.0, Ea=(6500, 'cal/mol'),
                        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3300, 'K')),
     shortDesc=u"""[Miller1992]""",
@@ -5811,6 +5811,8 @@ entry(
     Part of the "NOx" subset
     k3
     BAC-MP4
+    
+    Also studied by 10.1021/jp902527a
     """,
 )
 
