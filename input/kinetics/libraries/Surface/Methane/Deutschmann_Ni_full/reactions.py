@@ -333,7 +333,7 @@ entry(
     index = 38,
     label = "CX + HOX <=> HX + OCX",
     kinetics = SurfaceArrhenius(
-        A=(3.88E21, 'm^2/(mol*s)'),
+        A=(3.88E23, 'm^2/(mol*s)'),
         n = 0.188,
         Ea=(62500.0, 'J/mol'),
         Tmin = (200, 'K'),
