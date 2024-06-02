@@ -12,11 +12,11 @@ entry(
     index = 0,
     label = "vinyl + C2H2 <=> n-C4H5",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[9.58,0.8779,-0.188,0.01662],[1.469,0.9056,-0.05423,-0.03225],[-0.2689,0.2664,0.06046,-0.01894],[-0.1052,0.0355,0.0371,0.003215],[-0.04171,0.003508,0.006799,0.004329],[-0.0226,0.00791,-0.001132,0.0005545]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""!! Model 1 base mechanism !! Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[9.58,0.8779,-0.188,0.01662],[1.469,0.9056,-0.05423,-0.03225],[-0.2689,0.2664,0.06046,-0.01894],[-0.1052,0.0355,0.0371,0.003215],[-0.04171,0.003508,0.006799,0.004329],[-0.0226,0.00791,-0.001132,0.0005545]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Model 1 base mechanism Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
     longDesc = 
 """
 Originally from reaction library: Unclassified
-!! Model 1 base mechanism !! Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES
+Model 1 base mechanism Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES
 """,
 )
 
