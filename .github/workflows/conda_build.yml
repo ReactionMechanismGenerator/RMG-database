@@ -33,4 +33,4 @@ jobs:
           : "${CONDA_TOKEN:=default_value}"
           echo "CONDA_TOKEN=$CONDA_TOKEN" >> $GITHUB_ENV
           conda config --add channels conda-forge
-          conda-build --token $CONDA_TOKEN --user rmg .conda
+          conda-build --token "$CONDA_TOKEN" --user rmg .conda
