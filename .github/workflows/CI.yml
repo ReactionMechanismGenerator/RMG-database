@@ -166,7 +166,7 @@ jobs:
           repository: ReactionMechanismGenerator/RMG-Py
           github-token:  ${{ secrets.GITHUB_TOKEN }}
           name: stable_regression_results
-          path: ../RMG-Py/stable_regression_results
+          path: RMG-Py/stable_regression_results
 
       # Regression Testing - Actual Comparisons
       - name: Regression Tests - Compare to Baseline
