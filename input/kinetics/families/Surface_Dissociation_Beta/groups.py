@@ -90,42 +90,11 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 6,
-    label = "CH3",
-    group =
-"""
-1 *1 R!H u0 px cx {2,S} {6,[D,T]}
-2 *2 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-3 *3 H   u0 p0 c0 {2,S}
-4    H   u0 p0 c0 {2,S}
-5    H   u0 p0 c0 {2,S}
-6 *4 Xo  u0 p0 c0 {1,[D,T]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 7,
-    label = "CR-H",
-    group =
-"""
-1 *1 R!H u0 {2,S} {4,D}
-2 *2 C   u0 {1,S} {3,S} {5,S}
-3 *3 H   u0 {2,S}
-4 *4 Xo  u0 {1,D}
-5    R!H u0 {2,S}  
-""",
-    kinetics = None,
-)
-
 tree(
 """
 L1: Combined
     L2: R-H
-      L3: CR-H
       L3: C-H
-	L4: CH3
       L3: O-H
 L1: VacantSite
 """
