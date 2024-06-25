@@ -289,34 +289,6 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 22,
-    label = "CH2R",
-    group =
-"""
-1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H   u0 {1,S}
-3 *3 Xo  u0 {1,S}
-4    H   u0 {1,S}
-5    R!H u0 px cx {1,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 23,
-    label = "CHR",
-    group =
-"""
-1 *1 C   u0 {2,S} {3,D} {4,S}
-2 *2 H   u0 {1,S}
-3 *3 Xo  u0 {1,D}
-4    R!H u0 px cx {1,S}
-""",
-    kinetics = None,
-)
-
-
 tree(
 """
 L1: Combined
@@ -326,8 +298,6 @@ L1: Combined
             L4: CH2
             L4: CH3
             L4: C-H_Bidentate
-            L4: CH2R
-            L4: CHR
         L3: C-O
             L4: C-OH
         L3: C-C
