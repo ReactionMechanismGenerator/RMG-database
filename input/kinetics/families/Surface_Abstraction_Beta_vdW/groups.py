@@ -92,28 +92,12 @@ entry(
     kinetics = None,
 )
 
-entry(
-    index = 6,
-    label = "R-CH3",
-    group =
-"""
-1 *1 R!H u0 px cx {2,S} {4,S}
-2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-3 *3 H   u0 {2,S}
-4 *5 Xo  u0 {1,S}
-5    H   u0 {2,S}
-6    H   u0 {2,S}
-""",
-    kinetics = None,
-)
-
 tree(
 """
 L1: Abstracting
     L2: O
 L1: Donating
     L2: R-C-H
-	L3: R-CH3
     L2: R-O-H
 """
 )
