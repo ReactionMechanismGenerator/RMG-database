@@ -163,6 +163,7 @@ entry(
         Ea=(157900., 'J/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-120000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
@@ -321,6 +322,7 @@ entry(
         Ea=(116200.0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-50000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R36""",
@@ -329,15 +331,31 @@ entry(
 
 #skip R37
 
+# entry(
+#     index = 38,
+#     label = "CX + HOX <=> HX + OCX",
+#     kinetics = SurfaceArrhenius(
+#         A=(3.88E23, 'm^2/(mol*s)'),
+#         n = 0.188,
+#         Ea=(62500.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R38""",
+# 	metal = "Ni",
+# )
+
 entry(
     index = 38,
-    label = "CX + HOX <=> HX + OCX",
+    label = "HX + OCX <=> CX + HOX",
     kinetics = SurfaceArrhenius(
-        A=(3.88E23, 'm^2/(mol*s)'),
-        n = 0.188,
-        Ea=(62500.0, 'J/mol'),
+        A=(3.522E14, 'm^2/(mol*s)'),
+        n = -0.188,
+        Ea=(105450, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-50000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R38""",
@@ -353,6 +371,7 @@ entry(
         Ea=(241700.0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-100000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R39 is used instead of R40 to avoid having CO2(s) as reactant""",
@@ -370,6 +389,7 @@ entry(
         Ea=(123600.0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-50000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R41. Deutschmann actually uses vdW CO2, but we skip it and use reverse reaction""",
@@ -380,22 +400,38 @@ entry(
 #skip R42
 #skip R43
 
+# entry(
+#     index = 44,
+#     label = "HOCXO + Ni <=> OCX + HOX",
+#     kinetics = SurfaceArrhenius(
+#         A=(1.46E20, 'm^2/(mol*s)'),
+#         n = -0.213,
+#         Ea=(54300.0, 'J/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""Default""",
+#     longDesc = u"""R44""",
+# 	metal = "Ni",
+# )
+
+#skip R45
+
 entry(
-    index = 44,
-    label = "HOCXO + Ni <=> OCX + HOX",
+    index = 45,
+    label = "OCX + HOX <=> HOCXO + Ni",
     kinetics = SurfaceArrhenius(
-        A=(1.46E20, 'm^2/(mol*s)'),
-        n = -0.213,
-        Ea=(54300.0, 'J/mol'),
+        A=(6.003E17, 'm^2/(mol*s)'),
+        n = 0.213,
+        Ea=(97630.0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-50000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R44""",
 	metal = "Ni",
 )
-
-#skip R45
 
 entry(
     index = 46,
@@ -424,6 +460,7 @@ entry(
         Ea=(0.0, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
+        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (50000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""R48""",
