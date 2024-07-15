@@ -694,6 +694,12 @@ atom_energies = {
         "O": -74.97847534 + SOC["O"],
         "S": -397.6571654 + SOC["S"],
     },
+    "LevelOfTheory(method='mrcif12+davidson',basis='augccpvtzf12',software='molpro')": {
+        "H": -0.504026724651973 + SOC["H"],
+        "C": -37.7704504799784 + SOC["C"],
+        "N": -54.5192652543354 + SOC["N"],
+        "O": -74.9738328871232 + SOC["O"],
+    },
 }
 
 # Petersson-type bond additivity correction parameters
