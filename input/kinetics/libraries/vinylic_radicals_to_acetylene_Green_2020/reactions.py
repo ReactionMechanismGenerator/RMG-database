@@ -12,76 +12,76 @@ entry(
     index = 0,
     label = "vinyl + C2H2 <=> n-C4H5",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[9.58,0.8779,-0.188,0.01662],[1.469,0.9056,-0.05423,-0.03225],[-0.2689,0.2664,0.06046,-0.01894],[-0.1052,0.0355,0.0371,0.003215],[-0.04171,0.003508,0.006799,0.004329],[-0.0226,0.00791,-0.001132,0.0005545]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Model 1 base mechanism Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[9.58,0.8779,-0.188,0.01662],[1.469,0.9056,-0.05423,-0.03225],[-0.2689,0.2664,0.06046,-0.01894],[-0.1052,0.0355,0.0371,0.003215],[-0.04171,0.003508,0.006799,0.004329],[-0.0226,0.00791,-0.001132,0.0005545]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm')),#, comment="""Model 1 base mechanism Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
 )
 
 entry(
     index = 1,
     label = "c-C4H5 <=> n-C4H5",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[-3.45,0.5338,-0.1185,0.008664],[11.49,0.8199,-0.1346,-0.0109],[-0.3983,0.4108,-0.008573,-0.02387],[-0.2107,0.1349,0.03359,-0.009739],[-0.08108,0.02235,0.02265,0.003057],[-0.02811,-0.003668,0.005801,0.004868]], kunits='s^-1', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[-3.45,0.5338,-0.1185,0.008664],[11.49,0.8199,-0.1346,-0.0109],[-0.3983,0.4108,-0.008573,-0.02387],[-0.2107,0.1349,0.03359,-0.009739],[-0.08108,0.02235,0.02265,0.003057],[-0.02811,-0.003668,0.005801,0.004868]], kunits='s^-1', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm')),#, comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
 )
 
 entry(
     index = 2,
     label = "vinyl + C2H2 <=> c-C4H5",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[8.159,-0.1991,-0.5212,0.01995],[1.663,1.614,0.07494,-0.1005],[-0.4313,0.3823,0.1346,-0.006412],[-0.1877,0.004681,0.04256,0.01721],[-0.02678,-0.02879,-0.004976,0.006623],[0.01555,-0.003253,-0.008321,-0.00146]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[8.159,-0.1991,-0.5212,0.01995],[1.663,1.614,0.07494,-0.1005],[-0.4313,0.3823,0.1346,-0.006412],[-0.1877,0.004681,0.04256,0.01721],[-0.02678,-0.02879,-0.004976,0.006623],[0.01555,-0.003253,-0.008321,-0.00146]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm')),#, comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
 )
 
 entry(
     index = 3,
     label = "vinyl + C2H2 <=> C4H4 + H",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[8.852,-1.238,-0.1991,0.007344],[3.201,1.12,0.04537,-0.04892],[0.0421,0.1513,0.1078,0.002654],[-0.0389,-0.06835,0.02159,0.01814],[0.008145,-0.03241,-0.01074,0.004287],[0.01632,0.0009743,-0.005262,-0.001633]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[8.852,-1.238,-0.1991,0.007344],[3.201,1.12,0.04537,-0.04892],[0.0421,0.1513,0.1078,0.002654],[-0.0389,-0.06835,0.02159,0.01814],[0.008145,-0.03241,-0.01074,0.004287],[0.01632,0.0009743,-0.005262,-0.001633]], kunits='cm^3/(mol*s)', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm')),#, comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
 )
 
 entry(
     index = 4,
     label = "n-C4H5 <=> C4H4 + H",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[-3.652,0.5694,-0.09594,-0.001],[11.83,0.7646,-0.06869,-0.01137],[-0.3143,0.3596,0.009478,-0.01032],[-0.1846,0.1119,0.02738,-0.004409],[-0.07781,0.02537,0.01235,0.001436],[-0.03289,0.008311,0.000994,0.001724]], kunits='s^-1', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[-3.652,0.5694,-0.09594,-0.001],[11.83,0.7646,-0.06869,-0.01137],[-0.3143,0.3596,0.009478,-0.01032],[-0.1846,0.1119,0.02738,-0.004409],[-0.07781,0.02537,0.01235,0.001436],[-0.03289,0.008311,0.000994,0.001724]], kunits='s^-1', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm')),#, comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
 )
 
 entry(
     index = 5,
     label = "c-C4H5 <=> C4H4 + H",
     degeneracy = 1.0,
-    kinetics = Chebyshev(coeffs=[[-7.835,-0.744,-0.3815,0.02608],[15.33,1.634,-0.01247,-0.09401],[-0.4632,0.5039,0.1037,-0.01133],[-0.2898,0.07036,0.04583,0.01471],[-0.07297,-0.01558,0.0005088,0.007329],[0.003194,-0.005289,-0.008331,-0.0004798]], kunits='s^-1', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm'), comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
+    kinetics = Chebyshev(coeffs=[[-7.835,-0.744,-0.3815,0.02608],[15.33,1.634,-0.01247,-0.09401],[-0.4632,0.5039,0.1037,-0.01133],[-0.2898,0.07036,0.04583,0.01471],[-0.07297,-0.01558,0.0005088,0.007329],[0.003194,-0.005289,-0.008331,-0.0004798]], kunits='s^-1', Tmin=(298,'K'), Tmax=(2000,'K'), Pmin=(0.001,'atm'), Pmax=(131.579,'atm')),#, comment="""Pressure-dependent rate coefficients calculated with Arkane using Ribeiro and Mebel PES"""),
 )
 
 entry(
     index = 6,
     label = "C2H2 + H <=> vinyl",
     degeneracy = 1.0,
-    kinetics = Troe(arrheniusHigh=Arrhenius(A=(1.71e+10,'cm^3/(mol*s)'), n=1.266, Ea=(2.709,'kcal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.35e+31,'cm^6/(mol^2*s)'), n=-4.664, Ea=(3.78,'kcal/mol'), T0=(1,'K')), alpha=0.7878, T3=(-10200,'K'), T1=(1e-30,'K'), efficiencies={}, comment="""Pressure-dependent rate coefficients in Troe format from Miller and Klippenstein 2004"""),
+    kinetics = Troe(arrheniusHigh=Arrhenius(A=(1.71e+10,'cm^3/(mol*s)'), n=1.266, Ea=(2.709,'kcal/mol'), T0=(1,'K')), arrheniusLow=Arrhenius(A=(6.35e+31,'cm^6/(mol^2*s)'), n=-4.664, Ea=(3.78,'kcal/mol'), T0=(1,'K')), alpha=0.7878, T3=(-10200,'K'), T1=(1e-30,'K'), efficiencies={}),#, comment="""Pressure-dependent rate coefficients in Troe format from Miller and Klippenstein 2004"""),
 )
 
 entry(
     index = 7,
     label = "n-C4H5 + C2H2 <=> benzene + H",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.4e+16,'cm^3/(mol*s)'), n=-1, Ea=(8.896,'kcal/mol'), T0=(1,'K'), comment="""Arrhenius expression from Senosiain and Miller 2007"""),
+    kinetics = Arrhenius(A=(1.4e+16,'cm^3/(mol*s)'), n=-1, Ea=(8.896,'kcal/mol'), T0=(1,'K')),#, comment="""Arrhenius expression from Senosiain and Miller 2007"""),
 )
 
 entry(
     index = 8,
     label = "n-C4H5 + C2H2 <=> fulvene + H",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5e+15,'cm^3/(mol*s)'), n=-0.76, Ea=(8.767,'kcal/mol'), T0=(1,'K'), comment="""Arrhenius expression from Senosiain and Miller 2007"""),
+    kinetics = Arrhenius(A=(1.5e+15,'cm^3/(mol*s)'), n=-0.76, Ea=(8.767,'kcal/mol'), T0=(1,'K')),#, comment="""Arrhenius expression from Senosiain and Miller 2007"""),
 )
 
 entry(
     index = 9,
     label = "n-C4H5 + C2H2 <=> C6H7",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.85e+48,'cm^3/(mol*s)'), n=-12.29, Ea=(15.7,'kcal/mol'), T0=(1,'K'), comment="""Arrhenius expression from Senosiain and Miller 2007 (truncated to first three terms)"""),
+    kinetics = Arrhenius(A=(2.85e+48,'cm^3/(mol*s)'), n=-12.29, Ea=(15.7,'kcal/mol'), T0=(1,'K')),#, comment="""Arrhenius expression from Senosiain and Miller 2007 (truncated to first three terms)"""),
 )
 
 entry(
     index = 10,
     label = "vinyl + vinyl <=> C4H6",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.33e+12,'cm^3/(mol*s)'), n=0, Ea=(-0.011,'kcal/mol'), T0=(1,'K'), comment="""Experimental Arrhenius expression from Ismail et al. 2009 (assume 100% yield of C4H6)"""),
+    kinetics = Arrhenius(A=(7.33e+12,'cm^3/(mol*s)'), n=0, Ea=(-0.011,'kcal/mol'), T0=(1,'K')),#, comment="""Experimental Arrhenius expression from Ismail et al. 2009 (assume 100% yield of C4H6)"""),
 )
 
