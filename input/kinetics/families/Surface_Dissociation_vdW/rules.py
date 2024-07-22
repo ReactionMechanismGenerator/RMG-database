@@ -88,9 +88,9 @@ entry(
     index = 8,
     label = "C-C;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (4.18e17, 'm^2/(mol*s)'),
+        A = (2.09e17, 'm^2/(mol*s)'),
         n = 0,
-	alpha =0.72,
+	    alpha =0.72,
         E0 = (126.39, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
@@ -100,5 +100,8 @@ entry(
     longDesc = u"""
 E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
 Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
+
+BK: This group is symmetrical, and RMG matches this node from both directions. Thus, a reaction degeneracy of 2 is applied, and the pre-exponential coefficient A is doubled. 
+We divided the pre-exponential coefficient by a factor of 2 so that RMG predicts the correct rate.
     """
 )
