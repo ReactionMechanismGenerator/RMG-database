@@ -139,11 +139,11 @@ entry(
     index = 7,
     label = "N2H3 + NH2 <=> N2H2 + NH3",
     duplicate = True,
-    kinetics = Arrhenius(A=(9.2e+05, 'cm^3/(mol*s)'), n=1.94, Ea=(-1.152, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(6.08e-01, 'cm^3/(mol*s)'), n=3.57, Ea=(1194, 'cal/mol'), T0=(1, 'K')),
     longDesc =
 u"""
-Taken from the Nitrogen_Dean_and_Bozzelli library
-The same rate appears in the NOx2018 library
+Taken from https://doi.org/10.1021/acs.jpca.0c03144
+Also available from D&B (the same rate appears in the NOx2018 library)
 D&B estimated this rate of the direct hydrogen transfer reaction (not including the well-skipping rate)
 """,
 )

@@ -65,6 +65,41 @@ u"""
 )
 
 entry(
+    label = "NNOH",
+    molecule =
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {4,S}
+2 N u0 p1 c0 {1,S} {3,D}
+3 N u1 p1 c0 {2,D}
+4 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+See https://doi.org/10.1002/cphc.202200373 for a discussion of the NNOH radical.
+""",
+)
+
+entry(
+    label = "NNOOH",
+    molecule =
+"""
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 N u0 p1 c0 {1,D} {3,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 O u0 p2 c0 {3,S} {5,S}
+5 H u0 p0 c0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+See https://doi.org/10.1002/cphc.202200373 for a discussion of the NNOOH radical.
+""",
+)
+
+entry(
     label = "Carbene_D_triplet",
     group =
 """
@@ -491,7 +526,6 @@ u"""
 We assume that CO2 binds only via physisorption to the surface
 """,
 )
-
 
 entry(
     label = "O2X2",
