@@ -22,7 +22,7 @@ Notes:
   Such instances are marked with the comment 'conformer-dup'.
 - Some excited species were combined with their ground state in this library (e.g.: NCN, CH2NCN).
 
-This library consists of the following subsets:
+This library contains the following subsets:
 * Thermal NO
 * Prompt NO
 * N2O Pathway
@@ -66,7 +66,7 @@ Reference legend:
 [Goldsmith2019] X. Chen, M.E. Fuller, C.F. Goldsmith, Reaction Chemistry and Engineering, 2019, 4, 323-333, doi: 10.1039/C8RE00201K
 [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green, A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p
 [GrinbergDana2019] A. Grinberg Dana, K.B. Moore, A.W. Jasper, W.H. Green, J. Phys. Chem. A, 2019, 123(22), 4679-4692, doi: 10.1021/acs.jpca.9b02217
-[GrinbergDana2024] J.M. Velasco, K. Kaplan, M. Keslin, A. Grinberg Dana, internal computations for the NH3 modeling paper
+[GrinbergDana2024] A. Grinberg Dana, K. Kaplan, M. Keslin, C. Cao, W.H. Green, "NH3-1", submitted
 [GRI] (RMG's GRI-Mech3.0-N library) GRI-Mech 3.0, http://www.me.berkeley.edu/gri_mech/
 [Hanson1981] T.R. Roose, R.K. Hanson, C.H. Kruger, Symposium (International) on Combustion, 1981, 18(1), 853-862, doi: 10.1016/S0082-0784(81)80089-6
 [Hanson1984a] M.Y. Louge, R.K. Hanson, Int. J. Chem. Kin., 1984, 16(3), 231-250, doi: 10.1002/kin.550160306
@@ -86,6 +86,7 @@ Reference legend:
 [Huynh2019] T.V.-T Mai, H.T. Nguyen, L.K. Huynh, Phys. Chem. Chem. Phys., 2019, 21, 23733, doi: 10.1039/c9cp04585f
 [Hwang2003] D. Hwang, A. M. Mebel, J. Phys. Chem. A, 2003, 107, 2865-2875, doi: 10.1021/jp0270349
 [Kanno2020] N. Kanno, T. Kito, Int. K. Chem. Kin., 2020, 52(8), 548-555, doi: 10.1002/kin.21370
+[Keslin2024] M. Keslin, A. Grinberg Dana, "N2H3", submitted
 [Klemm1985] J.V. Michael, J.W. Sutherland, R.B. Klemm, Int. J. Chem. Kin., 1985, 17(3), 315-326, doi: 10.1002/kin.550170308
 [Klemm1990] J.W. Sutherland, P.M. Patterson, R.B. Klemm, J. Phys. Chem., 1990, 94(6), 2471-2475, doi: 10.1021/j100369a049
 [Klippenstein2000] J.A. Miller, S.J. Klippenstein, J. Phys. Chem. A, 2020, 104, 2061-2069, doi: 10.1021/jp992836y
@@ -2976,42 +2977,6 @@ Train!
 )
 
 entry(
-    index=158,
-    label="NH2 + NH <=> N2H2 + H",
-    degeneracy=1,
-    kinetics=ThirdBody(
-        arrheniusLow=Arrhenius(A=(4.26e+14, 'cm^6/(mol^2*s)'), n=-0.272, Ea=(-78, 'cal/mol'),
-                               T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K'))),
-    shortDesc=u"""[Klippenstein2009a]""",
-    longDesc=
-u"""
-Part of the "Thermal de-NOx" mechanism
-Table 3, p. 10245
-calculated at the (CCSD(T) and CAS+1+2+QC level
-Also available from [Hanson1990a]:
-    kinetics = Arrhenius(A=(1.50e+15, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-R11 in Table 1, p. 521, T range: 2200-2800 K, Shock Tube
-""",
-)
-
-entry(
-    index=159,
-    label="NH2 + NH <=> NH3 + N",
-    degeneracy=1,
-    kinetics=Arrhenius(A=(9.58e+03, 'cm^3/(mol*s)'), n=2.46, Ea=(107, 'cal/mol'),
-                       T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
-    shortDesc=u"""[Klippenstein2009a]""",
-    longDesc=
-u"""
-Part of the "Thermal de-NOx" mechanism
-Table 3, p. 10245
-T range: 200-2500 K
-calculated at the (CCSD(T) and CAS+1+2+QC level
-Train!
-""",
-)
-
-entry(
     index=160,
     label="NH2 + NH2 <=> N2H2 + H2",
     degeneracy=1,
@@ -5350,22 +5315,6 @@ Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
 )
 
 entry(
-    index = 304,
-    label = 'N2H3 <=> N2H2 + H',
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(1.275e+11, 's^-1'), n=0.819, Ea=(48065.2, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-        arrheniusLow = Arrhenius(A=(3.840e+40, 'cm^3/(mol*s)'), n=-6.880, Ea=(54463.0, 'cal/mol'), T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-        alpha=0.842, T1=(28, 'K'), T2=(7298, 'K'), T3=(80000, 'K'),
-        efficiencies={'[Ar]': 1.00, 'N#N': 2.00, 'CNN': 5.00}),
-    shortDesc = u"""[Dievart2020]""",
-    longDesc =
-u"""
-Table 9
-Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
-""",
-)
-
-entry(
     index = 305,
     label = 'N2H3 + H <=> N2H2 + H2',
     kinetics = Arrhenius(A=(7.476e+03, 'cm^3/(mol*s)'), n=2.796, Ea=(4684.4, 'cal/mol'),
@@ -5463,22 +5412,6 @@ entry(
     u"""
     PDep route, showed to be more dominant than the direct H Abstraction route in the "NH3-1" paper.
     """,
-)
-
-entry(
-    index = 312,
-    label = 'N2H2 + H <=> NNH + H2',   # add our pdep, take DnC comment there
-    kinetics = Arrhenius(A=(4.82e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(739, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""[Sarathy2020]""",
-    longDesc =
-u"""
-CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
-Direct H Abstraction route
-
-PDep route also available from [Dievart2020], Table 9, Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory:
-    kinetics = Arrhenius(A=(3.886e+08, 'cm^3/(mol*s)'), n=1.732, Ea=(738.2, 'cal/mol'),
-                         T0=(1, 'K'), Tmin=(250, 'K'), Tmax=(2500, 'K')),
-""",
 )
 
 entry(
@@ -7224,5 +7157,421 @@ entry(
     u"""
     CBS-APNO//M062X/6-311++G(2df,2p)
     This is the upper bound for the rate coefficient
+    """,
+)
+
+entry(
+    index=434,
+    label="NH3N <=> N2H3",
+    kinetics=Chebyshev(coeffs=[
+        [3.06871, 2.61915, -0.103719, -0.0299276],
+        [2.4807, 1.00163, 0.031824, 0.0156251],
+        [-0.426369, 0.173221, 0.00850579, -0.00450563],
+        [-0.413288, 0.000321805, 0.0200196, 0.00594595],
+        [-0.138161, 0.000490927, 0.00348058, 0.00214264],
+        [-0.0362839, -0.001124, -0.00123054, -0.000668605]],
+        kunits='s^-1', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=435,
+    label="NH3 + N(D) <=> N2H3",
+    kinetics=Chebyshev(coeffs=[
+        [1.91043, 1.99748, -0.00175183, -0.00097106],
+        [5.29371, 0.00111178, 0.000772905, 0.000428268],
+        [-0.136643, 0.000769447, 0.000534776, 0.000296191],
+        [-0.0607542, 0.000255031, 0.000177301, 9.8246e-05],
+        [-0.0123257, -5.32424e-05, -3.68871e-05, -2.03232e-05],
+        [0.00857654, -0.000101222, -7.02771e-05, -3.88562e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=436,
+    label="H2NN(S) + H <=> N2H3",
+    kinetics=Chebyshev(coeffs=[
+        [5.6017, 1.65515, -0.143313, -0.0393545],
+        [2.49481, 0.366464, 0.123887, 0.0233048],
+        [-0.204155, -0.0245627, 0.0229015, 0.0150622],
+        [-0.147303, 0.00934904, -0.00186854, 0.000815845],
+        [-0.0445049, -0.00887709, -0.0036334, -0.00114767],
+        [-0.00446508, -0.00628418, -0.00311657, -0.000981243]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=437,
+    label="NNH + H2 <=> N2H3",
+    kinetics=Chebyshev(coeffs=[
+        [-23.0611, 1.86116, -0.0829835, -0.0360936],
+        [24.9303, 0.131578, 0.0737386, 0.028818],
+        [-0.209326, 0.0047585, 0.00870255, 0.00715728],
+        [-0.100412, 0.00694206, 0.00236968, 0.000432406],
+        [-0.0179703, -0.00638677, -0.00302867, -0.00100676],
+        [0.0057208, -0.00330204, -0.00228541, -0.00104966]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NH2 + NH <=> N2H3",
+    kinetics=Chebyshev(coeffs=[
+        [10.9069, 1.95899, -0.0275561, -0.0144041],
+        [-1.33124, 0.0477536, 0.0318153, 0.0163773],
+        [-0.459677, -0.00434045, -0.00255655, -0.00100141],
+        [-0.173734, -0.00247347, -0.00172824, -0.000964066],
+        [-0.0568796, -0.000478918, -0.000355954, -0.000218216],
+        [-0.00999714, -7.92871e-05, -5.68307e-05, -3.31484e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=435,
+    label="NH3 + N(D) <=> NH3N",
+    kinetics=Chebyshev(coeffs=[
+        [3.27539, 1.99781, -0.0015254, -0.000845383],
+        [5.60678, 0.000887198, 0.000616613, 0.000341517],
+        [-0.0384492, 0.000697286, 0.000484563, 0.000268325],
+        [-0.0491044, 0.00025755, 0.000179057, 9.92245e-05],
+        [-0.00917689, -4.26085e-05, -2.9486e-05, -1.62144e-05],
+        [0.00675816, -9.42729e-05, -6.5442e-05, -3.61734e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=435,
+    label="H2NN(S) + H <=> NH3N",
+    kinetics=Chebyshev(coeffs=[
+        [7.52612, 1.37623, -0.11558, -0.0187621],
+        [2.2061, 0.687236, 0.0625826, -0.00650519],
+        [-0.0878975, -0.0603722, 0.0467026, 0.018792],
+        [-0.168041, -0.0110308, 0.00808683, 0.00477344],
+        [-0.0602826, 0.00364109, -0.00482014, -0.000588335],
+        [-0.0101325, -0.00624978, -0.00414146, -0.000720616]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=435,
+    label="NNH + H2 <=> NH3N",
+    kinetics=Chebyshev(coeffs=[
+        [-21.6106, 1.80828, -0.0762607, -0.0313566],
+        [25.1076, 0.215007, 0.056972, 0.0198699],
+        [-0.105391, -0.0490176, 0.0205366, 0.0109071],
+        [-0.141679, 0.0375872, -0.0018988, 0.000441184],
+        [-0.01501, -0.0155544, 0.000121753, -0.000621636],
+        [0.000695591, -0.00188173, -0.00308338, -0.00102264]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NH2 + NH <=> NH3N",
+    kinetics=Chebyshev(coeffs=[
+        [7.19224, 1.38373, -0.182199, -0.0200376],
+        [0.184627, 0.613435, 0.145498, -0.000190149],
+        [-0.159879, 0.0324325, 0.0379227, 0.0139111],
+        [-0.10178, -0.016008, 0.00244113, 0.00474114],
+        [-0.0301897, -0.015186, -0.00468545, 0.000235293],
+        [-0.0010235, -0.00923504, -0.00410689, -0.000740674]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="H2NN(S) + H <=> NH3 + N(D)",
+    kinetics=Chebyshev(coeffs=[
+        [-6.65629, -0.00215116, -0.00149566, -0.000828915],
+        [17.0054, 0.000926089, 0.00064366, 0.000356512],
+        [0.112827, 0.000696925, 0.000484336, 0.000268222],
+        [0.032568, 0.000245776, 0.000170887, 9.47114e-05],
+        [0.0129082, -5.04975e-05, -3.49702e-05, -1.9253e-05],
+        [0.00641172, -9.68676e-05, -6.72518e-05, -3.71818e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NNH + H2 <=> NH3 + N(D)",
+    kinetics=Chebyshev(coeffs=[
+        [-33.9887, -0.00214413, -0.00149077, -0.00082621],
+        [38.2371, 0.000931822, 0.000647647, 0.000358722],
+        [0.166688, 0.000696026, 0.000483716, 0.000267882],
+        [0.0772963, 0.000243313, 0.000169178, 9.37663e-05],
+        [0.0352279, -5.19479e-05, -3.59787e-05, -1.9812e-05],
+        [0.0160302, -9.72514e-05, -6.75198e-05, -3.73314e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NH2 + NH <=> NH3 + N(D)",
+    kinetics=Chebyshev(coeffs=[
+        [-7.26572, -0.00246272, -0.00171248, -0.000949261],
+        [15.3392, 0.00116225, 0.000808009, 0.000447732],
+        [0.0887184, 0.000769228, 0.000534651, 0.000296148],
+        [0.0424789, 0.000240545, 0.000167247, 9.26911e-05],
+        [0.0183107, -6.28406e-05, -4.35594e-05, -2.40199e-05],
+        [0.00742747, -0.000104248, -7.23872e-05, -4.00315e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=159,
+    label="NH2 + NH <=> NH3 + N",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(9.58e+03, 'cm^3/(mol*s)'), n=2.46, Ea=(107, 'cal/mol'),
+                       T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K')),
+    shortDesc=u"""[Klippenstein2009a]""",
+    longDesc=
+u"""
+Part of the "Thermal de-NOx" mechanism
+Table 3, p. 10245
+calculated at the CCSD(T) and CAS+1+2+QC levels
+Unlike the above reaction, NH2 + NH <=> NH3 + N(D), this is a direct H abstraction on the quartet surface.
+See [Keslin2024] for rate comparison.
+""",
+)
+
+entry(
+    index=438,
+    label="NNH + H2 <=> H2NN(S) + H",
+    kinetics=Chebyshev(coeffs=[
+        [-19.9961, -0.0907395, -0.0573165, -0.026753],
+        [26.3258, 0.0875929, 0.0540348, 0.0240446],
+        [0.278697, 0.00928396, 0.00713309, 0.00444133],
+        [0.0963012, -0.001505, -0.00095983, -0.000412962],
+        [0.0376263, -0.00496945, -0.00306778, -0.00137162],
+        [0.0144855, -0.00243798, -0.00160067, -0.000798141]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NH2 + NH <=> H2NN(S) + H",
+    kinetics=Chebyshev(coeffs=[
+        [7.78747, -0.211412, -0.112419, -0.0387632],
+        [2.33037, 0.235535, 0.117222, 0.0348175],
+        [0.29474, -0.0114286, 0.00403608, 0.00764908],
+        [0.0844578, -0.0060679, -0.00496097, -0.00195064],
+        [0.0285232, -0.00778226, -0.00434041, -0.00176729],
+        [0.00832088, -0.00292052, -0.00192816, -0.000948896]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NH2 + NH <=> NNH + H2",
+    kinetics=Chebyshev(coeffs=[
+        [6.60464, -0.103775, -0.0654903, -0.0306201],
+        [3.29741, 0.105098, 0.0647542, 0.0289165],
+        [0.246903, 0.00556976, 0.00528782, 0.003929],
+        [0.0864297, -0.00205813, -0.00157326, -0.000883658],
+        [0.0314795, -0.00549281, -0.0033399, -0.00146991],
+        [0.00892119, -0.00228308, -0.00152836, -0.00077977]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="N2H3 <=> N2H2 + H",
+    kinetics=Chebyshev(coeffs=[
+        [-5.86096, 0.8615, -0.142186, 0.0107327],
+        [13.9717, 0.817673, 0.0206287, -0.0275338],
+        [-0.592937, 0.222625, 0.0672396, -0.000893898],
+        [-0.295358, 0.0234241, 0.0246882, 0.00784605],
+        [-0.121969, -0.0157465, 0.000787666, 0.00321463],
+        [-0.0384373, -0.0142472, -0.00401293, -9.77209e-05]],
+        kunits='s^-1', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="N2H2 + H <=> NH3 + N(D)",
+    kinetics=Chebyshev(coeffs=[
+        [-14.8591, -0.00247301, -0.00171964, -0.000953222],
+        [23.3689, 0.00115549, 0.000803308, 0.000445125],
+        [0.192724, 0.000772185, 0.000536702, 0.000297279],
+        [0.0575206, 0.000245138, 0.000170437, 9.44564e-05],
+        [0.0208734, -6.03857e-05, -4.18521e-05, -2.30734e-05],
+        [0.00782428, -0.000103427, -7.18151e-05, -3.9713e-05]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="H2NN(S) + H <=> N2H2 + H",
+    kinetics=Chebyshev(coeffs=[
+        [8.80152, -0.297647, -0.132336, -0.0384388],
+        [3.67281, 0.329771, 0.126131, 0.0279037],
+        [0.208453, -0.0242448, 0.0157659, 0.0132623],
+        [0.0171076, 0.00302182, -0.00449919, -0.000763099],
+        [0.00981681, -0.0104675, -0.00464549, -0.00175264],
+        [0.00506299, -0.00537284, -0.00307474, -0.00117139]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=438,
+    label="NNH + H2 <=> N2H2 + H",
+    duplicate=True,
+    kinetics=Chebyshev(coeffs=[
+        [-19.7105, -0.123663, -0.0755565, -0.0337561],
+        [26.0492, 0.122186, 0.0714479, 0.0295809],
+        [0.196854, 0.00547262, 0.00733101, 0.00589149],
+        [0.0610568, 0.00253132, 0.000424635, -0.000268969],
+        [0.0327658, -0.00663858, -0.00359601, -0.0013932],
+        [0.0137962, -0.00312946, -0.00213897, -0.0010409]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    """,
+)
+
+entry(
+    index=312,
+    label='N2H2 + H <=> NNH + H2',
+    duplicate=True,
+    kinetics=Arrhenius(A=(4.82e+08, 'cm^3/(mol*s)'), n=1.76, Ea=(739, 'cal/mol'), T0=(1, 'K')),
+    shortDesc=u"""[Sarathy2020]""",
+    longDesc=
+    u"""
+    CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+    Direct H Abstraction route
+    """,
+)
+
+entry(
+    index=438,
+    label="NH2 + NH <=> N2H2 + H",
+    duplicate=True,
+    kinetics=Chebyshev(coeffs=[
+        [13.8542, -0.0389944, -0.026215, -0.0137161],
+        [-0.185937, 0.0467118, 0.0311642, 0.0160826],
+        [-0.0308853, -0.00508843, -0.00308108, -0.00129587],
+        [-0.0106052, -0.00258638, -0.00181438, -0.00101879],
+        [-0.00303123, -0.000409202, -0.000308368, -0.000192685],
+        [-0.000325178, -9.19343e-06, -7.65236e-06, -5.49003e-06]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    Part of the "Thermal de-NOx" mechanism
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
+    Also available from [Klippenstein2009a] Table 3, p. 10245 at the (CCSD(T) and CAS+1+2+QC levels
+    Also available from [Hanson1990a]:
+        kinetics = Arrhenius(A=(1.50e+15, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    R11 in Table 1, p. 521, T range: 2200-2800 K, Shock Tube
+    """,
+)
+
+entry(
+    index=438,
+    label="N2H2 + H <=> NH3N",
+    duplicate=True,
+    kinetics=Chebyshev(coeffs=[
+        [1.54502, 0.795238, -0.101641, -0.0261534],
+        [6.84341, 1.04829, 0.0354356, 0.0121237],
+        [-0.0276362, 0.127494, 0.0280065, 0.000937967],
+        [-0.200424, -0.0122187, 0.020149, 0.00681349],
+        [-0.0585531, -0.00582004, 0.00128175, 0.000758191],
+        [-0.020421, -0.0070095, -0.00150373, -0.000462353]],
+        kunits='cm^3/(mol*s)', Tmin=(300, 'K'), Tmax=(3000, 'K'), Pmin=(0.01, 'bar'), Pmax=(100, 'bar')),
+    shortDesc=u"""[Keslin2024]""",
+    longDesc=
+    u"""
+    MRCI-F12+Q/aug-cc-pVTZ-F12//B2PLYPD3/aug-cc-pVTZ
     """,
 )
