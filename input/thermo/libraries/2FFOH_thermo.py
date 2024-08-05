@@ -20483,3 +20483,98 @@ H      -1.55849600   -1.19380100    0.07975600
 H       0.12646400    0.11683800    1.89513000
 """,
 )
+
+entry(
+    index = 316,
+    label = "P360",
+    molecule = 
+"""
+multiplicity 3
+1 O u1 p2 c0 {3,S}
+2 O u1 p2 c0 {4,S}
+3 C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+4 C u0 p0 c0 {2,S} {3,S} {5,D}
+5 C u0 p0 c0 {4,D} {8,S} {9,S}
+6 H u0 p0 c0 {3,S}
+7 H u0 p0 c0 {3,S}
+8 H u0 p0 c0 {5,S}
+9 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.90223,0.00651509,0.000117372,-2.73549e-07,1.9381e-10,3828.06,11.5894], Tmin=(10,'K'), Tmax=(466.716,'K')),
+            NASAPolynomial(coeffs=[3.15389,0.0311032,-2.00643e-05,6.20401e-09,-7.35069e-13,3699.97,12.5089], Tmin=(466.716,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (31.8116,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (207.862,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-C': 1, 'C-O': 2, 'C-H': 4, 'C=C': 1}
+1D rotors:
+* Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 2], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [4, 5], dihedral: [2, 4, 5, 8], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O      -1.03232500    1.34422700   -0.85224400
+O       0.39681000   -1.08043800    1.22213400
+C      -1.13751100    0.26726700   -0.06435600
+C       0.24625000   -0.45824700    0.18332200
+C       1.23783500   -0.34238300   -0.84055100
+H      -1.69398400   -0.52960700   -0.60347100
+H      -1.61540200    0.42451000    0.91483900
+H       1.04539900    0.25683700   -1.72000000
+H       2.18731600   -0.84382900   -0.70380700
+""",
+)
+
+entry(
+    index = 317,
+    label = "P361",
+    molecule = 
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p1 c0 {1,S} {6,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.05409,-0.00459596,5.46264e-05,-7.88839e-08,3.81397e-11,42817.8,5.45641], Tmin=(10,'K'), Tmax=(489.76,'K')),
+            NASAPolynomial(coeffs=[1.10355,0.0179916,-9.92723e-06,2.69076e-09,-2.86319e-13,43125,17.7698], Tmin=(489.76,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (356.01,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (133.032,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-C': 1, 'C-H': 4}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [3, 1, 2, 6], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C      -0.37614600   -0.14727300   -0.02937600
+C       0.99116200   -0.02309100   -0.51921900
+H      -0.55143800    0.95872900   -0.12440800
+H      -1.08798100   -0.61173600   -0.71617400
+H      -0.58728400   -0.39897700    1.01940100
+H       1.61168700    0.22234800    0.36977600
+""",
+)
+
