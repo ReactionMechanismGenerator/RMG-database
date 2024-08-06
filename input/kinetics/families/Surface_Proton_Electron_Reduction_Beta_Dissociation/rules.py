@@ -18,7 +18,7 @@ entry(
         Ea = (100, 'kJ/mol'), # activation energy at the reversible potential
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -36,7 +36,7 @@ entry(
         Ea = (40, 'kJ/mol'), # activation energy at the reversible potential
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -54,7 +54,7 @@ entry(
         Ea = (20, 'kJ/mol'), # activation energy at the reversible potential
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -72,7 +72,7 @@ entry(
         Ea = (10, 'kJ/mol'), # activation energy at the reversible potential
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -90,7 +90,7 @@ entry(
         Ea = (40, 'kJ/mol'), # activation energy at the reversible potential
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -108,7 +108,7 @@ entry(
         Ea = (10, 'kJ/mol'), #
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -126,7 +126,7 @@ entry(
         Ea = (20, 'kJ/mol'), #
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",
@@ -144,7 +144,7 @@ entry(
         Ea = (20, 'kJ/mol'), #
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",

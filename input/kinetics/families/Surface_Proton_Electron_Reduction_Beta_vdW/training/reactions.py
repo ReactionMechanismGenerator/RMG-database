@@ -20,7 +20,7 @@ entry(
         Ea = (1.00, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2017.01.050""",
     longDesc = u"""
@@ -43,7 +43,7 @@ entry(
         Ea = (0.90, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2017.01.050""",
     longDesc = u"""
@@ -65,7 +65,7 @@ entry(
         Ea = (1.46, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://pubs.rsc.org/en/content/getauthorversionpdf/c8cy01845f Table 1""",
     longDesc = u"""

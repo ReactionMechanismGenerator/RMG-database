@@ -20,7 +20,7 @@ training set for generating rate rules to populate this kinetics family.
 #         Ea = (0.61, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Tafel""",
@@ -42,7 +42,7 @@ entry(
         Ea = (0.44, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""Tafel""",
@@ -64,7 +64,7 @@ entry(
 #         Ea = (0.19, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -86,7 +86,7 @@ entry(
 #         Ea = (0.13, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -108,7 +108,7 @@ entry(
 #         Ea = (0.77, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Tafel""",
@@ -130,7 +130,7 @@ entry(
         Ea = (0.44, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""Tafel""",
@@ -152,7 +152,7 @@ entry(
 #         Ea = (0.59, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -174,7 +174,7 @@ entry(
 #         Ea = (0.53, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -196,7 +196,7 @@ entry(
 #         Ea = (0.62, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Tafel""",
@@ -218,7 +218,7 @@ entry(
         Ea = (0.37, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""Tafel""",
@@ -240,7 +240,7 @@ entry(
 #         Ea = (0.15, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2017.01.050""",
 #     longDesc = u"""
@@ -263,7 +263,7 @@ entry(
 #         Ea = (0.78, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Tafel""",
@@ -285,7 +285,7 @@ entry(
         Ea = (0.59, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""Tafel""",
@@ -307,7 +307,7 @@ entry(
 #         Ea = (0.17, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -329,7 +329,7 @@ entry(
 #         Ea = (0.09, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -351,7 +351,7 @@ entry(
 #         Ea = (1.20, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Tafel""",
@@ -373,7 +373,7 @@ entry(
         Ea = (0.97, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""Tafel""",
@@ -395,7 +395,7 @@ entry(
 #         Ea = (0.99, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -417,7 +417,7 @@ entry(
 #         Ea = (0.43, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -439,7 +439,7 @@ entry(
 #         Ea = (0.87, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Tafel""",
@@ -461,7 +461,7 @@ entry(
         Ea = (0.48, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""Tafel""",
@@ -483,7 +483,7 @@ entry(
 #         Ea = (0.06, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
@@ -505,7 +505,7 @@ entry(
 #         Ea = (0.03, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
 #     longDesc = u"""Heyrovsky""",
