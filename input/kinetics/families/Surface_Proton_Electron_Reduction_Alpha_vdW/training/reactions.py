@@ -20,7 +20,7 @@ training set for generating rate rules to populate this kinetics family.
 #         Ea = (0.89, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2017.01.050""",
 #     longDesc = u"""
@@ -43,7 +43,7 @@ entry(
         Ea = (0.53, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""
@@ -66,7 +66,7 @@ entry(
 #         Ea = (0.14, 'eV/molecule'), # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""https://doi.org/10.1016/j.cattod.2017.01.050""",
 #     longDesc = u"""
@@ -89,7 +89,7 @@ entry(
         Ea = (0.12, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""
@@ -112,7 +112,7 @@ entry(
         Ea = (0.23, 'eV/molecule'), # activation energy
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff 
+        electrons = 1, # electron stochiometric coeff 
     ),
     shortDesc = u"""https://doi.org/10.1016/j.cattod.2018.03.048""",
     longDesc = u"""
