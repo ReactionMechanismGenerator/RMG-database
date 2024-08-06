@@ -18,7 +18,7 @@ entry(
         Ea = (50, 'kJ/mol'), # activation energy at the reversible potential
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
-        electrons = -1, # electron stochiometric coeff
+        electrons = 1, # electron stochiometric coeff
     ),
     rank = 0,
     shortDesc = u"""Default""",

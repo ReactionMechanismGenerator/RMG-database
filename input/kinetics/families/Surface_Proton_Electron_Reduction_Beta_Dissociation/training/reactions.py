@@ -20,7 +20,7 @@ training set for generating rate rules to populate this kinetics family.
 #         Ea = (40, 'kJ/mol') # activation energy
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
-#         electrons = -1, # electron stochiometric coeff 
+#         electrons = 1, # electron stochiometric coeff 
 #     ),
 #     shortDesc = u"""Default""",
 #     longDesc = u"""
