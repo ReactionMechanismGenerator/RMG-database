@@ -363,6 +363,53 @@ pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 12.0
 """,
 )
 
+entry(
+    index = 9,
+    label = "s34_n-C4H5 + 2FFOH <=> s35_1,3-butadiene + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0665901,'cm^3/(mol*s)'), n=3.59977, Ea=(1.56916,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 16
+TS method summary for TS0 in s34_n-C4H5 + s19_furfuryl <=> s35_1,3-butadiene + s21_P2:
+Methods that successfully generated a TS guess:
+user guess 0 + autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: heuristics
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.59256400    1.41900400   -1.21605900
+O       1.33438800   -1.17670300   -0.32984800
+C       0.92559700   -0.16813000    0.56686800
+C       1.05420800    1.20886700    0.05764900
+C       1.46919700    2.39146300    0.59521400
+C       1.25870500    3.39257300   -0.40773100
+C       0.73289800    2.75089200   -1.48183700
+H      -0.23911100   -0.36421600    0.85464200
+H       1.47125800   -0.29878900    1.50105300
+H       1.88496300    2.53126000    1.58036700
+H       1.48012800    4.44557400   -0.33716100
+H       0.42622500    3.06830300   -2.46375000
+H       0.95089000   -0.97431900   -1.19093500
+C      -1.42668400   -3.08275400    0.63503000
+C      -2.19433100   -1.93495600    1.11169800
+C      -1.92600200   -4.31955700    0.54292200
+C      -1.74130900   -0.69496500    1.23039100
+H      -0.39829500   -2.88826500    0.34343400
+H      -3.23405300   -2.14154100    1.38890300
+H      -2.95072700   -4.54210100    0.82488300
+H      -1.32582500   -5.14733500    0.18471300
+H      -2.25317500    0.19614800    1.57527300
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [13, 2, 3, 4], invalidation reason: Another conformer for TS0 exists which is 4.86 kJ/mol lower.Another conformer for TS0 exists which is 4.86 kJ/mol lower.
+pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.77 kJ/mol
+* Invalidated! pivots: [14, 15], dihedral: [16, 14, 15, 17], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+""",
+)
+
 
 
 
