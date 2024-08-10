@@ -410,6 +410,86 @@ pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.7
 """,
 )
 
+entry(
+    index = 10,
+    label = "CHO + 2FFOH <=> formaldehyde + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.27509e-08,'cm^3/(mol*s)'), n=5.52049, Ea=(25.2695,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN18
+TS method summary for TS0 in CHO + furfuryl <=> formaldehyde + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       1.52186300   -0.84542900    0.43284700
+O      -1.48725300   -0.22325300   -1.43556300
+O      -3.59993100   -0.04821300    0.59543400
+C      -0.73556800   -0.74664300   -0.38865200
+C       0.59675900   -0.17506300   -0.32363700
+C       1.14865900    0.97417100   -0.82363400
+C       2.49724400    1.00822200   -0.35482400
+C       2.66982800   -0.10946400    0.40058700
+C      -2.65435900   -0.08212500    1.32681500
+H      -1.41383900   -0.35773200    0.68620200
+H      -0.75036500   -1.83968500   -0.30265000
+H       0.64581100    1.68708700   -1.45548300
+H       3.24086900    1.76274600   -0.55686300
+H       3.50160400   -0.51534600    0.95068500
+H      -2.42183300   -0.26117600   -1.18398400
+H      -2.75949000   -0.22789900    2.43261900
+
+1D rotors:
+* Invalidated! pivots: [2, 4], dihedral: [15, 2, 4, 5], invalidation reason: Another conformer for TS0 exists which is 2.88 kJ/mol lower.Another conformer for TS0 exists which is 2.88 kJ/mol lower.
+* Invalidated! pivots: [4, 5], dihedral: [2, 4, 5, 1], invalidation reason:
+""",
+)
+
+entry(
+    index = 11,
+    label = "H_rad + P389 <=> H2 + P390",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.69896e+06,'cm^3/(mol*s)'), n=2.14096, Ea=(13.5192,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN19
+TS method summary for TS0 in H_rad + r1 <=> H2 + p1:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.72246500    1.46954900   -0.41574300
+O      -1.36831400    1.99849700    0.28101600
+C      -0.52493000   -0.30982000    0.46342800
+C       0.85502700   -0.73647000    0.14066000
+C      -0.52295600    1.17138600    0.14363100
+C       1.48823300    0.32155400   -0.37270800
+H      -1.32705800   -0.80411000   -0.26984500
+H      -0.92384200   -0.53543000    1.45250100
+H       1.26930600   -1.72370200    0.26870900
+H       2.49327700    0.43744300   -0.74748900
+H      -2.16110600   -1.28879600   -0.94416300
+
+
+No rotors considered for this TS.
+""",
+)
+
+
+
+
+
+
+
 
 
 
