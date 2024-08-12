@@ -22186,3 +22186,85 @@ H      -1.28777400    0.70464900   -0.46954900
 H      -1.17598700   -0.86842400    0.48812200
 """,
 )
+
+entry(
+    index = 350,
+    label = "P394",
+    molecule = 
+"""
+1 O u0 p2 c0 {2,S} {6,S}
+2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.00083,-0.000168742,2.29616e-05,-2.44786e-08,8.3301e-12,-25752.6,5.21462], Tmin=(10,'K'), Tmax=(770.322,'K')),
+            NASAPolynomial(coeffs=[1.01826,0.0153191,-7.19786e-06,1.62335e-09,-1.41295e-13,-25293.1,18.8254], Tmin=(770.322,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-214.117,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (128.874,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-H': 3, 'H-O': 1, 'C-O': 1}
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+C      -0.36696800    0.00678200    0.06148800
+O       0.99251000   -0.05476900    0.46979700
+H      -0.61107800    0.94745500   -0.45086600
+H      -0.52386500   -0.81151100   -0.64265500
+H      -1.06517300   -0.12710600    0.89907200
+H       1.14568200    0.66186800    1.09169700
+""",
+)
+
+entry(
+    index = 351,
+    label = "methanol_rad",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {5,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 H u0 p0 c0 {2,S}
+4 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {1,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[4.0451,-0.00442673,6.0427e-05,-1.17337e-07,7.74066e-11,-3204.41,6.02074], Tmin=(10,'K'), Tmax=(446.473,'K')),
+            NASAPolynomial(coeffs=[2.7,0.0115172,-6.21839e-06,1.70682e-09,-1.86537e-13,-3123.1,10.9909], Tmin=(446.473,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-26.6435,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (108.088,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-O': 1, 'C-H': 2, 'H-O': 1}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 3], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       0.84001600   -0.32479700    0.34843500
+C      -0.45453900   -0.00618400    0.04527600
+H      -1.14720100   -0.81678000    0.22036900
+H      -0.64835000    0.73598100   -0.72208600
+H       1.41007400    0.41178000    0.10800700
+""",
+)

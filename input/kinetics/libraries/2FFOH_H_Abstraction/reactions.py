@@ -526,6 +526,51 @@ pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.8
 """,
 )
 
+entry(
+    index = 13,
+    label = "methanol_rad + 2FFOH <=> methanol + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.28079e-09,'cm^3/(mol*s)'), n=5.5223, Ea=(8.89939,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 24
+TS method summary for TS0 in methanol_rad + furfuryl <=> methanol + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -0.85166300    0.03063000    0.82759400
+O       1.96353100    0.71644400    1.43600800
+O       1.34047700   -1.85036800    0.29571400
+C       2.22509400    1.05452600    0.10483300
+C      -0.62638000   -0.57048800   -0.39517100
+C      -1.76671300   -0.50036100   -1.14329000
+C      -2.75265900    0.16101500   -0.34270700
+C      -2.15354200    0.45717000    0.83708300
+C       0.74137900   -1.02425000   -0.66332100
+H       1.48445300    0.06573000   -0.63093600
+H       3.27723800    0.90175900   -0.11911500
+H       1.82824300    2.02140700   -0.21199400
+H      -1.89295900   -0.89468000   -2.13900500
+H      -3.77613400    0.37259500   -0.60888300
+H       0.83873300   -1.46924900   -1.65245500
+H      -2.48852300    0.92473600    1.74718100
+H       1.02946100    0.89298500    1.60959400
+H       1.57986300   -1.28969700    1.04906800
+
+1D rotors:
+pivots: [2, 4], dihedral: [17, 2, 4, 11], rotor symmetry: 2, max scan energy: 28.36 kJ/mol
+pivots: [3, 9], dihedral: [18, 3, 9, 5], rotor symmetry: 1, max scan energy: 24.56 kJ/mol
+pivots: [5, 9], dihedral: [1, 5, 9, 3], rotor symmetry: 1, max scan energy: 25.00 kJ/mol
+""",
+)
+
+
+
 
 
 
