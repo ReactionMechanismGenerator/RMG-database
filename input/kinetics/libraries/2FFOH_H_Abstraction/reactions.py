@@ -484,6 +484,49 @@ No rotors considered for this TS.
 """,
 )
 
+entry(
+    index = 12,
+    label = "Vinyl_radical + 2FFOH <=> ethylene + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0230744,'cm^3/(mol*s)'), n=3.92469, Ea=(3.15646,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 21
+TS method summary for TS0 in Vinyl_radical + furfuryl <=> ethylene + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: heuristics
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.23380200    1.06131200   -0.64530000
+O       1.13260800   -1.63146100   -0.59056900
+C       0.45490300   -1.04827200    0.49885100
+C       0.48662200    0.42442100    0.54224000
+C       0.63746800    1.34825600    1.53405700
+C       0.47477300    2.63403100    0.92332700
+C       0.23845000    2.40351900   -0.39298900
+H      -0.70411500   -1.41180400    0.44070300
+H       0.84432600   -1.48302100    1.41917300
+H       0.84970100    1.13978700    2.57059600
+H       0.53655200    3.59805700    1.40261900
+H       0.07057500    3.04150600   -1.24370100
+H       0.88580000   -1.13808600   -1.38118000
+C      -2.06190000   -2.13192100    0.11635900
+C      -1.91391300   -3.13366500   -0.72042400
+H      -2.94834200   -1.72374200    0.59011800
+H      -2.75633100   -3.73271900   -1.07181200
+H      -0.93252900   -3.41093800   -1.09953200
+
+1D rotors:
+pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 2, max scan energy: 16.26 kJ/mol
+pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.81 kJ/mol
+""",
+)
+
+
 
 
 
