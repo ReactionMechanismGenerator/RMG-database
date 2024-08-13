@@ -569,6 +569,143 @@ pivots: [5, 9], dihedral: [1, 5, 9, 3], rotor symmetry: 1, max scan energy: 25.0
 """,
 )
 
+entry(
+    index = 14,
+    label = "P1 + MF <=> 2FFOH + P10",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0287753,'cm^3/(mol*s)'), n=4.01573, Ea=(-3.05482,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 22
+TS method summary for TS0 in P1 + MF <=> furfuryl + P10:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: heuristics
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.89241300   -1.94588900   -0.43036900
+C       1.54233900   -0.84470500    0.09396400
+C       1.33190800   -0.66330800    1.56725300
+C       0.79849400   -1.46032800    2.53127200
+C       0.89182100   -0.72565200    3.76053100
+C       1.47469900    0.46006000    3.45182000
+O       1.74927600    0.51870000    2.11386700
+H       1.26553800    0.08997600   -0.42982600
+H       2.61844100   -0.97264900   -0.12110500
+H       0.39989700   -2.44941000    2.37710000
+H       0.56823200   -1.04348400    4.73913800
+H       1.75217400    1.32790200    4.02557300
+O      -1.32227900    0.29217900   -2.84016700
+C      -1.50593000   -1.08336400   -0.86569600
+C      -1.40155000    0.22703900   -1.47280300
+C      -1.29672600    1.50158500   -0.95787800
+C      -1.15818100    2.38524400   -2.06444200
+C      -1.17917000    1.60068700   -3.17856500
+H      -0.39488500   -1.54836100   -0.69907200
+H      -1.99116800   -1.81879200   -1.50758600
+H      -1.93953900   -1.05695300    0.13242000
+H      -1.32282100    1.75948300    0.08901600
+H      -1.05850900    3.45852800   -2.03967700
+H      -1.11391800    1.80909800   -4.23312600
+
+1D rotors:
+pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.50 kJ/mol
+* Invalidated! pivots: [14, 15], dihedral: [19, 14, 15, 13], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+""",
+)
+
+entry(
+    index = 15,
+    label = "P10 + 2FFOH <=> MF + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.95041e-10,'cm^3/(mol*s)'), n=5.77838, Ea=(31.3798,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 23
+TS method summary for TS0 in P10 + furfuryl <=> MF + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       2.75301300   -1.04846200   -1.20446100
+O      -3.03521900   -0.91916600   -0.27983000
+O       0.26012900    1.46932400   -0.60256000
+C       0.71467700    0.18933800   -0.91923900
+C       2.12988800    0.03565800   -0.64474400
+C      -2.13820500   -0.43402200    0.64367000
+C       3.01410100    0.72458600    0.14291300
+C      -2.62712800    0.75327900    1.15462900
+C      -3.88534800    0.98911900    0.52459900
+C       4.25805100    0.02734700    0.05444900
+C      -4.08492300   -0.04927200   -0.33123900
+C       4.04581800   -1.03510100   -0.76690000
+C      -0.90315800   -1.14596700    0.80957900
+H       0.02063200   -0.61572500   -0.10750300
+H       0.41132300   -0.18330900   -1.90435600
+H      -2.14588600    1.35924500    1.90604600
+H      -4.55588800    1.81722800    0.69122600
+H       2.79321500    1.62139700    0.69726700
+H       5.18801300    0.28567100    0.53580700
+H      -4.87955500   -0.31170200   -1.00865600
+H       4.67101000   -1.83251900   -1.13065800
+H      -0.37518800   -0.94079400    1.73691900
+H      -0.92697300   -2.19684200    0.53409400
+H      -0.70239800    1.44089300   -0.53105500
+
+1D rotors:
+* Invalidated! pivots: [3, 4], dihedral: [24, 3, 4, 5], invalidation reason: Another conformer for TS0 exists which is 2.54 kJ/mol lower.Another conformer for TS0 exists which is 2.54 kJ/mol lower.
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 1], invalidation reason:
+""",
+)
+
+entry(
+    index = 16,
+    label = "methane_rad + 2FFOH <=> mathane + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.021089,'cm^3/(mol*s)'), n=4.38858, Ea=(17.9507,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 25
+TS method summary for TS0 in methane_rad + furfuryl <=> mathane + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -1.24058600    0.43924200    0.72383200
+O       0.73334600    2.21447100   -0.23930000
+C       2.64261700   -0.40769600    0.84451600
+C      -0.60670300    0.19842000   -0.46905100
+C      -1.32244300   -0.71150100   -1.19104100
+C      -2.47047400   -1.04776200   -0.40273900
+C      -2.37527300   -0.32224100    0.73999100
+C       0.68958000    0.87022900   -0.64730000
+H       1.54166900    0.24618300    0.00962200
+H       3.44254000    0.32326800    0.78205500
+H       2.17196500   -0.50061500    1.81868300
+H       2.82319000   -1.34524000    0.32749200
+H      -1.06992200   -1.08711600   -2.16982400
+H      -3.26356200   -1.73114800   -0.66151100
+H       1.03981300    0.80498800   -1.67723100
+H      -2.99478900   -0.22291100    1.61474300
+H       0.25893200    2.27942600    0.59696500
+
+1D rotors:
+pivots: [2, 8], dihedral: [17, 2, 8, 4], rotor symmetry: 1, max scan energy: 16.07 kJ/mol
+pivots: [4, 8], dihedral: [1, 4, 8, 2], rotor symmetry: 1, max scan energy: 14.41 kJ/mol
+""",
+)
+
 
 
 
