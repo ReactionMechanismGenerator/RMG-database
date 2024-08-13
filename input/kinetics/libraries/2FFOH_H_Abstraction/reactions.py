@@ -744,6 +744,53 @@ pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.8
 """,
 )
 
+entry(
+    index = 18,
+    label = "But-2-yn-1-yl_radical + 2FFOH <=> buta-1,2-diene + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.72695e-09,'cm^3/(mol*s)'), n=5.22517, Ea=(34.3294,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 26
+TS method summary for TS0 in r1 + furfuryl <=> p1 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -2.11445900    0.38651300   -0.51032200
+O      -0.50329500   -1.10952200   -2.19324400
+C      -0.35274400   -1.21315500   -0.80782100
+C       2.76546300   -0.10787200   -1.57916000
+C      -1.44781800   -0.69648200    0.00496800
+C      -1.92816100   -0.97682800    1.25529700
+C      -2.95501700   -0.01799100    1.52107400
+C      -3.03113100    0.77942300    0.42452400
+C       1.95068600    1.64348900    1.76801300
+C       1.92318200    0.20244600   -0.39110500
+C       1.98450900    0.92482400    0.65456900
+H      -0.05679300   -2.22707700   -0.54393000
+H       0.71566000   -0.51371000   -0.49292500
+H       3.64535000    0.54054800   -1.62104400
+H       2.19495300    0.01527100   -2.50363100
+H       3.10783900   -1.14754300   -1.55355200
+H      -1.59402300   -1.77283100    1.90115900
+H      -3.56084800    0.05991500    2.40978600
+H      -3.65021100    1.61654300    0.15147700
+H       1.55123600    2.65240600    1.77707400
+H       2.33791600    1.25406900    2.70399200
+H      -0.98239000   -0.29243800   -2.37519900
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [22, 2, 3, 5], invalidation reason: Two consecutive points are inconsistent by more than 5.35 kJ/molTwo consecutive points are inconsistent by more than 5.35 kJ/mol
+pivots: [3, 5], dihedral: [2, 3, 5, 1], rotor symmetry: 1, max scan energy: 24.68 kJ/mol
+pivots: [4, 10], dihedral: [14, 4, 10, 11], rotor symmetry: 3, max scan energy: 2.05 kJ/mol
+""",
+)
+
 
 
 
