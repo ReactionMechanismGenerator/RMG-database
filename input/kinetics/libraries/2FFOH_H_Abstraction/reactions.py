@@ -706,6 +706,44 @@ pivots: [4, 8], dihedral: [1, 4, 8, 2], rotor symmetry: 1, max scan energy: 14.4
 """,
 )
 
+entry(
+    index = 17,
+    label = "2FFOH + H_rad <=> P2 + H2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.53704e+06,'cm^3/(mol*s)'), n=2.18658, Ea=(14.9787,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN 5
+TS method summary for TS0 in 2FFOH + H_rad <=> P2 + H2:
+Methods that successfully generated a TS guess:
+autotst,autotst,autotst,autotst,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.69390400   -0.94115100    0.07284900
+O      -1.84620100   -0.89974100    1.40199500
+C      -1.53493100   -0.05029200    0.32476800
+C      -0.08897200    0.18274500    0.11357200
+C       0.67877400    1.28584900   -0.10510800
+C       2.02146900    0.81920200   -0.28784900
+C       1.97377900   -0.53144100   -0.16589700
+H      -1.98360000   -0.49897300   -0.66172100
+H      -2.05992300    0.89371000    0.47283600
+H       0.33393700    2.30742200   -0.12586300
+H       2.90064700    1.41410300   -0.47699100
+H       2.71516000   -1.31073100   -0.21175900
+H      -1.27506300   -1.67329000    1.33795500
+H      -2.52888100   -0.99741200   -1.68878700
+
+1D rotors:
+pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 1, max scan energy: 16.40 kJ/mol
+pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.89 kJ/mol
+""",
+)
+
 
 
 
