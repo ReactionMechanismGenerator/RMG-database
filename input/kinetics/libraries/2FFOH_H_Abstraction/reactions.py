@@ -791,6 +791,45 @@ pivots: [4, 10], dihedral: [14, 4, 10, 11], rotor symmetry: 3, max scan energy: 
 """,
 )
 
+entry(
+    index = 19,
+    label = "HO2 + 2FFOH <=> H2O2 + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.51255e-08,'cm^3/(mol*s)'), n=5.32856, Ea=(14.8414,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+TS method summary for TS0 in HO2 + furfuryl <=> H2O2 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: heuristics
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.56301300    1.18587000   -0.48457000
+O       1.17083700   -1.51504600   -0.80673700
+C       0.45913300   -1.08184100    0.30783500
+C       0.47973400    0.34937000    0.59479200
+C       0.32583200    1.08776100    1.73839100
+C       0.32446500    2.45831200    1.33831900
+C       0.47174600    2.46261300   -0.01329700
+H      -0.76271400   -1.37303000    0.02917900
+H       0.70423600   -1.70397500    1.16713800
+H       0.23178600    0.69818600    2.73948100
+H       0.23375600    3.32470400    1.97371900
+H       0.53879900    3.24150300   -0.75331100
+H       0.93031500   -0.94321400   -1.54759400
+O      -1.45567400   -1.76035200   -1.91711300
+O      -1.82854300   -1.73471200   -0.56627500
+H      -1.18340000   -2.68097400   -2.04809700
+
+1D rotors:
+pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 2, max scan energy: 25.89 kJ/mol
+pivots: [14, 15], dihedral: [16, 14, 15, 8], rotor symmetry: 2, max scan energy: 53.56 kJ/mol
+""",
+)
+
 
 
 
