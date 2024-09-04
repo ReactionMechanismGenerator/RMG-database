@@ -17,43 +17,43 @@ Using p-type bond additivity corrections for thermo
 Using the following ESS settings: {'gaussian': ['local'], 'molpro': ['local']}
 """
 
-entry(
-    index = 0,
-    label = "2FFOH + H_rad <=> P1 + H2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(578.285,'cm^3/(mol*s)'), n=3.0612, Ea=(38.7555,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-RXN 2
-TS method summary for TS0 in 2FFOH + H_rad <=> P1 + H2:
-Methods that successfully generated a TS guess:
-autotst,autotst,autotst,autotst,heuristics,
-The method that generated the best TS guess and its output used for the optimization: autotst
+# entry(
+#     index = 0,
+#     label = "2FFOH + H_rad <=> P1 + H2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(578.285,'cm^3/(mol*s)'), n=3.0612, Ea=(38.7555,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# RXN 2
+# TS method summary for TS0 in 2FFOH + H_rad <=> P1 + H2:
+# Methods that successfully generated a TS guess:
+# autotst,autotst,autotst,autotst,heuristics,
+# The method that generated the best TS guess and its output used for the optimization: autotst
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-O       0.66737700    0.64839500   -1.26344600
-O      -2.26188800   -0.08593100    0.77829200
-C      -1.54618400    0.51507800   -0.25784600
-C      -0.06712200    0.33196700   -0.15656100
-C       0.75238200   -0.08826500    0.84614100
-C       2.08592200   -0.03184500    0.32466400
-C       1.97715400    0.42164700   -0.95028400
-H      -1.79888100    1.58478800   -0.16418200
-H      -1.89381500    0.21198400   -1.25602400
-H       0.43878800   -0.39396100    1.83062400
-H       2.99879300   -0.29653100    0.83403000
-H       2.68751300    0.62532800   -1.73324100
-H      -2.12037600   -1.29270700    0.68191000
-H      -1.91966200   -2.15004700    0.48582000
+# Optimized TS geometry:
+# O       0.66737700    0.64839500   -1.26344600
+# O      -2.26188800   -0.08593100    0.77829200
+# C      -1.54618400    0.51507800   -0.25784600
+# C      -0.06712200    0.33196700   -0.15656100
+# C       0.75238200   -0.08826500    0.84614100
+# C       2.08592200   -0.03184500    0.32466400
+# C       1.97715400    0.42164700   -0.95028400
+# H      -1.79888100    1.58478800   -0.16418200
+# H      -1.89381500    0.21198400   -1.25602400
+# H       0.43878800   -0.39396100    1.83062400
+# H       2.99879300   -0.29653100    0.83403000
+# H       2.68751300    0.62532800   -1.73324100
+# H      -2.12037600   -1.29270700    0.68191000
+# H      -1.91966200   -2.15004700    0.48582000
 
-1D rotors:
-pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 1, max scan energy: 18.85 kJ/mol
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 1], invalidation reason: Another conformer for TS0 exists which is 3.88 kJ/mol lower.Another conformer for TS0 exists which is 3.88 kJ/mol lower.
-""",
-)
+# 1D rotors:
+# pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 1, max scan energy: 18.85 kJ/mol
+# * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 1], invalidation reason: Another conformer for TS0 exists which is 3.88 kJ/mol lower.Another conformer for TS0 exists which is 3.88 kJ/mol lower.
+# """,
+# )
 
 entry(
     index = 1,
@@ -170,44 +170,44 @@ pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.4
 """,
 )
 
-entry(
-    index = 4,
-    label = "2FFOH + OH_rad <=> P3 + H2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.00753898,'cm^3/(mol*s)'), n=4.02856, Ea=(6.5407,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-RXN 9 
-TS method summary for TS0 in 2FFOH + OH_rad <=> P3 + H2O:
-Methods that successfully generated a TS guess:
-autotst,autotst,autotst,autotst,heuristics,heuristics,
-The method that generated the best TS guess and its output used for the optimization: autotst
+# entry(
+#     index = 4,
+#     label = "2FFOH + OH_rad <=> P3 + H2O",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(0.00753898,'cm^3/(mol*s)'), n=4.02856, Ea=(6.5407,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# RXN 9 
+# TS method summary for TS0 in 2FFOH + OH_rad <=> P3 + H2O:
+# Methods that successfully generated a TS guess:
+# autotst,autotst,autotst,autotst,heuristics,heuristics,
+# The method that generated the best TS guess and its output used for the optimization: autotst
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-O       0.28234900   -1.64226800    0.83785100
-O       1.64695300    1.69373200    0.38569000
-O      -0.67420800    2.13950300   -1.34704200
-C       1.75583400    0.28540100    0.41503800
-C       0.43310500   -0.40634400    0.27389000
-C      -1.67177300   -1.13174300   -0.14967000
-C      -0.99484900   -2.06189000    0.57252600
-C      -0.72274100   -0.08519400   -0.36123000
-H       2.19135600    0.01219200    1.37908100
-H       2.44100300   -0.08322900   -0.36462700
-H      -2.68468000   -1.20019400   -0.51041500
-H      -1.25219300   -3.03732300    0.94912800
-H       1.15539700    1.94998900   -0.40901600
-H      -0.80738900    1.00227700   -1.08576700
-H      -1.09816100    2.56519000   -0.58533900
+# Optimized TS geometry:
+# O       0.28234900   -1.64226800    0.83785100
+# O       1.64695300    1.69373200    0.38569000
+# O      -0.67420800    2.13950300   -1.34704200
+# C       1.75583400    0.28540100    0.41503800
+# C       0.43310500   -0.40634400    0.27389000
+# C      -1.67177300   -1.13174300   -0.14967000
+# C      -0.99484900   -2.06189000    0.57252600
+# C      -0.72274100   -0.08519400   -0.36123000
+# H       2.19135600    0.01219200    1.37908100
+# H       2.44100300   -0.08322900   -0.36462700
+# H      -2.68468000   -1.20019400   -0.51041500
+# H      -1.25219300   -3.03732300    0.94912800
+# H       1.15539700    1.94998900   -0.40901600
+# H      -0.80738900    1.00227700   -1.08576700
+# H      -1.09816100    2.56519000   -0.58533900
 
-1D rotors:
-* Invalidated! pivots: [2, 4], dihedral: [13, 2, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-* Invalidated! pivots: [4, 5], dihedral: [2, 4, 5, 1], invalidation reason: Another conformer for TS0 exists which is 7.36 kJ/mol lower.Another conformer for TS0 exists which is 7.36 kJ/mol lower.
-""",
-)
+# 1D rotors:
+# * Invalidated! pivots: [2, 4], dihedral: [13, 2, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+# * Invalidated! pivots: [4, 5], dihedral: [2, 4, 5, 1], invalidation reason: Another conformer for TS0 exists which is 7.36 kJ/mol lower.Another conformer for TS0 exists which is 7.36 kJ/mol lower.
+# """,
+# )
 
 entry(
     index = 5,
@@ -247,44 +247,44 @@ pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.2
 """,
 )
 
-entry(
-    index = 6,
-    label = "2FFOH + OH_rad <=> P4 + H2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.78402,'cm^3/(mol*s)'), n=3.60945, Ea=(13.4437,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-RXN 12
-TS method summary for TS0 in 2FFOH + OH_rad <=> P4 + H2O:
-Methods that successfully generated a TS guess:
-autotst,autotst,autotst,autotst,heuristics,heuristics,
-The method that generated the best TS guess and its output used for the optimization: heuristics
+# entry(
+#     index = 6,
+#     label = "2FFOH + OH_rad <=> P4 + H2O",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(9.78402,'cm^3/(mol*s)'), n=3.60945, Ea=(13.4437,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# RXN 12
+# TS method summary for TS0 in 2FFOH + OH_rad <=> P4 + H2O:
+# Methods that successfully generated a TS guess:
+# autotst,autotst,autotst,autotst,heuristics,heuristics,
+# The method that generated the best TS guess and its output used for the optimization: heuristics
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-O       0.01844900   -2.14694100   -2.20019200
-C      -0.09590100   -2.21044500   -0.77982000
-C      -0.05843900   -0.87140400   -0.12621000
-C       0.84578300   -0.22761100    0.66323700
-C       0.26647700    1.04859200    0.93414100
-C      -0.91992500    1.12127200    0.28911000
-O      -1.14308600   -0.06128800   -0.36196000
-H      -0.72820500   -1.63348300   -2.52549700
-H      -1.01565100   -2.73581100   -0.48706300
-H       0.75265200   -2.79790400   -0.42813100
-H       1.78859800   -0.61566500    1.01247200
-H       0.75121700    1.98631600    1.72732500
-H      -1.68347400    1.87349900    0.19812100
-O       1.28180900    2.92812600    2.12226300
-H       1.72594800    3.24963900    1.32330200
+# Optimized TS geometry:
+# O       0.01844900   -2.14694100   -2.20019200
+# C      -0.09590100   -2.21044500   -0.77982000
+# C      -0.05843900   -0.87140400   -0.12621000
+# C       0.84578300   -0.22761100    0.66323700
+# C       0.26647700    1.04859200    0.93414100
+# C      -0.91992500    1.12127200    0.28911000
+# O      -1.14308600   -0.06128800   -0.36196000
+# H      -0.72820500   -1.63348300   -2.52549700
+# H      -1.01565100   -2.73581100   -0.48706300
+# H       0.75265200   -2.79790400   -0.42813100
+# H       1.78859800   -0.61566500    1.01247200
+# H       0.75121700    1.98631600    1.72732500
+# H      -1.68347400    1.87349900    0.19812100
+# O       1.28180900    2.92812600    2.12226300
+# H       1.72594800    3.24963900    1.32330200
 
-1D rotors:
-pivots: [1, 2], dihedral: [8, 1, 2, 3], rotor symmetry: 1, max scan energy: 11.29 kJ/mol
-pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.18 kJ/mol
-""",
-)
+# 1D rotors:
+# pivots: [1, 2], dihedral: [8, 1, 2, 3], rotor symmetry: 1, max scan energy: 11.29 kJ/mol
+# pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.18 kJ/mol
+# """,
+# )
 
 entry(
     index = 7,
@@ -324,44 +324,44 @@ pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 13.0
 """,
 )
 
-entry(
-    index = 8,
-    label = "2FFOH + OH_rad <=> P5 + H2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.53484,'cm^3/(mol*s)'), n=3.65382, Ea=(16.8022,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-RXN 15
-TS method summary for TS0 in 2FFOH + OH_rad <=> P5 + H2O:
-Methods that successfully generated a TS guess:
-user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,
-The method that generated the best TS guess and its output used for the optimization: heuristics
+# entry(
+#     index = 8,
+#     label = "2FFOH + OH_rad <=> P5 + H2O",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(9.53484,'cm^3/(mol*s)'), n=3.65382, Ea=(16.8022,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# RXN 15
+# TS method summary for TS0 in 2FFOH + OH_rad <=> P5 + H2O:
+# Methods that successfully generated a TS guess:
+# user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,
+# The method that generated the best TS guess and its output used for the optimization: heuristics
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-O       0.43725000   -2.03928000   -1.95462300
-C       0.54953200   -2.09889800   -0.53464400
-C       0.55881900   -0.75830400    0.11269300
-C       1.47400200   -0.04207300    0.82274100
-C       0.85349800    1.20180200    1.18243500
-C      -0.41288700    1.11265200    0.69616800
-O      -0.61169300   -0.03134200    0.01278500
-H      -0.40653000   -1.62345800   -2.15985100
-H      -0.25545400   -2.71195600   -0.10589900
-H       1.49715400   -2.59448600   -0.31939300
-H       2.47577400   -0.35963600    1.06742800
-H       1.27788000    2.02083800    1.73868900
-H      -1.44768200    1.96286500    0.75939200
-O      -2.15339800    2.80584400    0.47745000
-H      -1.77872000    3.13646200   -0.35202700
+# Optimized TS geometry:
+# O       0.43725000   -2.03928000   -1.95462300
+# C       0.54953200   -2.09889800   -0.53464400
+# C       0.55881900   -0.75830400    0.11269300
+# C       1.47400200   -0.04207300    0.82274100
+# C       0.85349800    1.20180200    1.18243500
+# C      -0.41288700    1.11265200    0.69616800
+# O      -0.61169300   -0.03134200    0.01278500
+# H      -0.40653000   -1.62345800   -2.15985100
+# H      -0.25545400   -2.71195600   -0.10589900
+# H       1.49715400   -2.59448600   -0.31939300
+# H       2.47577400   -0.35963600    1.06742800
+# H       1.27788000    2.02083800    1.73868900
+# H      -1.44768200    1.96286500    0.75939200
+# O      -2.15339800    2.80584400    0.47745000
+# H      -1.77872000    3.13646200   -0.35202700
 
-1D rotors:
-pivots: [1, 2], dihedral: [8, 1, 2, 3], rotor symmetry: 1, max scan energy: 11.63 kJ/mol
-pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 12.00 kJ/mol
-""",
-)
+# 1D rotors:
+# pivots: [1, 2], dihedral: [8, 1, 2, 3], rotor symmetry: 1, max scan energy: 11.63 kJ/mol
+# pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 12.00 kJ/mol
+# """,
+# )
 
 entry(
     index = 9,
@@ -706,43 +706,43 @@ pivots: [4, 8], dihedral: [1, 4, 8, 2], rotor symmetry: 1, max scan energy: 14.4
 """,
 )
 
-entry(
-    index = 17,
-    label = "2FFOH + H_rad <=> P2 + H2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.53704e+06,'cm^3/(mol*s)'), n=2.18658, Ea=(14.9787,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
-    longDesc = 
-"""
-RXN 5
-TS method summary for TS0 in 2FFOH + H_rad <=> P2 + H2:
-Methods that successfully generated a TS guess:
-autotst,autotst,autotst,autotst,heuristics,
-The method that generated the best TS guess and its output used for the optimization: autotst
+# entry(
+#     index = 17,
+#     label = "2FFOH + H_rad <=> P2 + H2",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(2.53704e+06,'cm^3/(mol*s)'), n=2.18658, Ea=(14.9787,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# RXN 5
+# TS method summary for TS0 in 2FFOH + H_rad <=> P2 + H2:
+# Methods that successfully generated a TS guess:
+# autotst,autotst,autotst,autotst,heuristics,
+# The method that generated the best TS guess and its output used for the optimization: autotst
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# TS external symmetry: 1, TS optical isomers: 2
 
-Optimized TS geometry:
-O       0.69390400   -0.94115100    0.07284900
-O      -1.84620100   -0.89974100    1.40199500
-C      -1.53493100   -0.05029200    0.32476800
-C      -0.08897200    0.18274500    0.11357200
-C       0.67877400    1.28584900   -0.10510800
-C       2.02146900    0.81920200   -0.28784900
-C       1.97377900   -0.53144100   -0.16589700
-H      -1.98360000   -0.49897300   -0.66172100
-H      -2.05992300    0.89371000    0.47283600
-H       0.33393700    2.30742200   -0.12586300
-H       2.90064700    1.41410300   -0.47699100
-H       2.71516000   -1.31073100   -0.21175900
-H      -1.27506300   -1.67329000    1.33795500
-H      -2.52888100   -0.99741200   -1.68878700
+# Optimized TS geometry:
+# O       0.69390400   -0.94115100    0.07284900
+# O      -1.84620100   -0.89974100    1.40199500
+# C      -1.53493100   -0.05029200    0.32476800
+# C      -0.08897200    0.18274500    0.11357200
+# C       0.67877400    1.28584900   -0.10510800
+# C       2.02146900    0.81920200   -0.28784900
+# C       1.97377900   -0.53144100   -0.16589700
+# H      -1.98360000   -0.49897300   -0.66172100
+# H      -2.05992300    0.89371000    0.47283600
+# H       0.33393700    2.30742200   -0.12586300
+# H       2.90064700    1.41410300   -0.47699100
+# H       2.71516000   -1.31073100   -0.21175900
+# H      -1.27506300   -1.67329000    1.33795500
+# H      -2.52888100   -0.99741200   -1.68878700
 
-1D rotors:
-pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 1, max scan energy: 16.40 kJ/mol
-pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.89 kJ/mol
-""",
-)
+# 1D rotors:
+# pivots: [2, 3], dihedral: [13, 2, 3, 4], rotor symmetry: 1, max scan energy: 16.40 kJ/mol
+# pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 12.89 kJ/mol
+# """,
+# )
 
 entry(
     index = 18,
