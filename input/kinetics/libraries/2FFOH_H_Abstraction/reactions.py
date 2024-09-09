@@ -830,6 +830,53 @@ pivots: [14, 15], dihedral: [16, 14, 15, 8], rotor symmetry: 2, max scan energy:
 """,
 )
 
+entry(
+    index = 20,
+    label = "r20 + 2FFOH <=> p1_20 + p2_20",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.34552e-07,'cm^3/(mol*s)'), n=4.44422, Ea=(28.5775,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+TS method summary for TS0 in r1 + 2FFOH <=> p1 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -2.25184000    1.03677400   -0.97139400
+O      -0.26029200   -1.80851200   -0.07144000
+O       2.45941200   -1.91630300   -0.03859900
+C       1.31955500    0.64522000    1.08164500
+C      -1.86164100   -0.10211200   -0.31727500
+C       2.43751500    1.07558500    0.31437400
+C      -2.88773000   -0.56519000    0.46422000
+C       3.36273600    0.28482800   -0.33372300
+C      -3.97637500    0.33617700    0.27144900
+C      -3.53889000    1.28526500   -0.60077300
+C      -0.49375300   -0.53646700   -0.51391300
+C       3.35813000   -1.15132500   -0.40957500
+H       1.37928100   -0.32917800    1.55839500
+H       0.80557500    1.40690400    1.66214300
+H       0.29577600    0.25058200    0.21493600
+H       2.56132600    2.15019300    0.19938900
+H       4.19222300    0.77316200   -0.83526600
+H      -2.85417200   -1.44679600    1.08243800
+H      -4.95625300    0.28398900    0.71871100
+H      -0.07373200   -0.27502900   -1.49364000
+H      -3.99395500    2.15515600   -1.04298300
+H       4.26693200   -1.59328600   -0.86080500
+H       0.71017400   -1.95952900   -0.07831800
+
+1D rotors:
+* Invalidated! pivots: [2, 11], dihedral: [23, 2, 11, 5], invalidation reason: 
+* Invalidated! pivots: [4, 6], dihedral: [13, 4, 6, 8], invalidation reason: Another conformer for TS0 exists which is 3.85 kJ/mol lower.Another conformer for TS0 exists which is 3.85 kJ/mol lower.
+* Invalidated! pivots: [5, 11], dihedral: [1, 5, 11, 2], invalidation reason: 
+* Invalidated! pivots: [8, 12], dihedral: [6, 8, 12, 3], invalidation reason:
+""",
+)
 
 
 
