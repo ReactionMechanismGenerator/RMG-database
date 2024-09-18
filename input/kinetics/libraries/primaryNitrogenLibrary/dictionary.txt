@@ -41,9 +41,19 @@ H2O
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 
+H2O2
+1 O u0 p2 c0 {2,S} {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
+
 N
 multiplicity 4
 1 N u3 p1 c0
+
+N(D)
+multiplicity 2
+1 N u1 p2 c0
 
 N2
 1 N u0 p1 c0 {2,T}
@@ -52,6 +62,11 @@ N2
 NH
 multiplicity 3
 1 N u2 p1 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+NH(S)
+multiplicity 1
+1 N u0 p2 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 
 NH2
@@ -106,6 +121,14 @@ multiplicity 2
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 
+NH3N
+multiplicity 2
+1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 N u1 p2 c-1 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+
 N2H4
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -127,12 +150,26 @@ multiplicity 2
 1 N u1 p1 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 
-H2NO
+NH2O
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u1 p2 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
+
+NHOH
+multiplicity 2
+1 N u1 p1 c0 {2,S} {3,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {2,S}
+
+H2NOH
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
 
 NH2OH
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -140,6 +177,22 @@ NH2OH
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {2,S}
+
+NH3O
+1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 O u0 p3 c-1 {1,S}
+3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+
+NH2NHO
+multiplicity 2
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 N u0 p1 c0 {1,S} {3,S} {6,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
 
 N2O
 1 N u0 p2 c-1 {2,D}
@@ -175,13 +228,6 @@ HON
 2 N u0 p2 c-1 {1,D}
 3 H u0 p0 c0 {1,S}
 
-HNOH
-multiplicity 2
-1 N u1 p1 c0 {2,S} {3,S}
-2 H u0 p0 c0 {1,S}
-3 O u0 p2 c0 {1,S} {4,S}
-4 H u0 p0 c0 {3,S}
-
 HNO2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 H u0 p0 c0 {1,S}
@@ -194,6 +240,13 @@ NH2NO
 3 O u0 p2 c0 {2,D}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
+
+HNOO
+multiplicity 3
+1 N u1 p1 c0 {2,S} {4,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u1 p2 c0 {2,S}
+4 H u0 p0 c0 {1,S}
 
 HNO3
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -255,13 +308,6 @@ multiplicity 2
 2 N u0 p1 c0 {1,D} {3,S}
 3 O u1 p2 c0 {2,S}
 4 H u0 p0 c0 {1,S}
-
-NNOH
-multiplicity 2
-1 N u1 p1 c0 {2,D}
-2 N u0 p1 c0 {1,D} {3,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 H u0 p0 c0 {3,S}
 
 HNNO2
 multiplicity 2
@@ -346,6 +392,16 @@ NHNHNH
 4 H u0 p0 c0 {3,S}
 5 N u0 p1 c0 {3,D} {6,S}
 6 H u0 p0 c0 {5,S}
+
+NHNH2NH
+multiplicity 2
+1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 N u1 p1 c0 {1,S} {6,S}
+3 N u0 p2 c-1 {1,S} {7,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
 
 cN3H3
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -982,3 +1038,20 @@ multiplicity 2
 2 N u0 p1 c0 {1,D} {4,S}
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {2,S}
+
+NH2OOH
+1 N u0 p1 c0 {2,S} {4,S} {5,S}
+2 O u0 p2 c0 {1,S} {3,S}
+3 O u0 p2 c0 {2,S} {6,S}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {3,S}
+
+HONHOO
+multiplicity 2
+1 O u0 p2 c0 {3,S} {4,S}
+2 O u0 p2 c0 {4,S} {6,S}
+3 O u1 p2 c0 {1,S}
+4 N u0 p1 c0 {1,S} {2,S} {5,S}
+5 H u0 p0 c0 {4,S}
+6 H u0 p0 c0 {2,S}

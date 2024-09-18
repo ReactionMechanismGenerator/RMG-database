@@ -3146,3 +3146,47 @@ entry(
     """,
 )
 
+entry(
+    index=71,
+    label="NH2NO2(T)",
+    molecule=
+    """
+    multiplicity 3
+    1 O u1 p2 c0 {4,S}
+    2 O u1 p2 c0 {4,S}
+    3 N u0 p1 c0 {4,S} {5,S} {6,S}
+    4 N u0 p1 c0 {1,S} {2,S} {3,S}
+    5 H u0 p0 c0 {3,S}
+    6 H u0 p0 c0 {3,S}
+    """,
+    thermo=NASA(polynomials=[
+        NASAPolynomial(coeffs=[3.93159, 0.00472342, 6.65323e-05, -1.66728e-07, 1.24546e-10, 33648, 10.8335],
+                       Tmin=(10, 'K'), Tmax=(452.447, 'K')),
+        NASAPolynomial(coeffs=[3.87696, 0.0166599, -1.10128e-05, 3.48307e-09, -4.19249e-13, 33535.8, 9.75816],
+                       Tmin=(452.447, 'K'), Tmax=(3000, 'K')),
+    ],
+        Tmin=(10, 'K'),
+        Tmax=(3000, 'K'),
+        E0=(279.758, 'kJ/mol'),
+        Cp0=(33.2579, 'J/(mol*K)'),
+        CpInf=(128.874, 'J/(mol*K)'),
+    ),
+    shortDesc="""""",
+    longDesc=
+    """
+    CBS-QB3
+    Bond corrections: {'N-O': 2, 'H-N': 2, 'N-N': 1}
+    1D rotors:
+    pivots: [1, 2], dihedral: [5, 1, 2, 3], rotor symmetry: 1, max scan energy: 10.84 kJ/mol
+
+    External symmetry: 1, optical isomers: 2
+
+    Geometry:
+    N       0.78155200   -0.22032600    0.24201200
+    N      -0.59021400    0.09619700    0.28452600
+    O      -1.09581700    0.91055300   -0.60374100
+    O      -1.39064200   -0.92035400    0.36029700
+    H       1.28981900    0.64340200    0.40847200
+    H       0.99998500   -0.57200700   -0.69195200
+    """,
+)
