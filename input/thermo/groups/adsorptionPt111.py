@@ -338,9 +338,9 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {1,S} {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {2,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1110,9 +1110,9 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,T} {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {2,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1180,8 +1180,8 @@ entry(
 2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 C  u0 p0 c0 {2,D} {3,S} {6,S}
-5 R  u0 p0 c0 {3,S}
-6 R  u0 p0 c0 {4,S}
+5 R  u0 px c0 {3,S}
+6 R  u0 px c0 {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1246,10 +1246,10 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
-5 R  u0 p0 c0 {3,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {4,S}
-8 R  u0 p0 c0 {4,S}
+5 R  u0 px c0 {3,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {4,S}
+8 R  u0 px c0 {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1314,12 +1314,12 @@ entry(
 1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {2,S}
-7 R  u0 p0 c0 {3,S}
-8 R  u0 p0 c0 {3,S}
-9 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {2,S}
+7 R  u0 px c0 {3,S}
+8 R  u0 px c0 {3,S}
+9 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1509,7 +1509,7 @@ entry(
 1 * X u0 p0 c0 {2,T}
 2 C  u0 p0 c0 {1,T} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
-4 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1544,9 +1544,9 @@ entry(
 2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,D} {3,S} {7,S}
-5 R  u0 p0 c0 {3,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {4,S}
+5 R  u0 px c0 {3,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1578,11 +1578,11 @@ entry(
 1 * X u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {3,S}
-8 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {3,S}
+8 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1682,8 +1682,8 @@ entry(
 1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 O  u0 p2 c0 {2,D}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1715,9 +1715,9 @@ entry(
 1 * X u0 p0 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S} {6,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1785,9 +1785,9 @@ entry(
 1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {2,S} {7,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {2,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {2,S}
 7 R  u0 p0 c0 {3,S}
 """,
     thermo=ThermoData(
@@ -1821,7 +1821,7 @@ entry(
 2 X u0  p0 c0 {4,D}
 3 C  u0  p0 c0 {1,S} {4,D} {5,S}
 4 C  u0  p0 c0 {2,D} {3,D}
-5 R  u0  p0 c0 {3,S}
+5 R  u0  px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1854,9 +1854,9 @@ entry(
 1 * X u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 C  u0  p0 c0 {2,D} {5,S} {6,S}
-4 R  u0  p0 c0 {2,S}
-5 R  u0  p0 c0 {3,S}
-6 R  u0  p0 c0 {3,S}
+4 R  u0  px c0 {2,S}
+5 R  u0  px c0 {3,S}
+6 R  u0  px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1890,10 +1890,10 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {1,D} {2,S} {7,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {2,S}
-7 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {2,S}
+7 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2085,7 +2085,7 @@ entry(
 1 * X u0  p0 c0 {2,S}
 2 C  u0  p0 c0 {1,S} {3,D} {4,S}
 3 O  u0  p2 c0 {2,D}
-4 R  u0  p0 c0 {2,S}
+4 R  u0  px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2120,7 +2120,7 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 O  u0 p2 c0 {2,S} {3,S}
-5 R  u0 p0 c0 {3,S}
+5 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2154,8 +2154,8 @@ entry(
 1 * X u0 p0 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2577,8 +2577,8 @@ entry(
 1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,T} {4,S}
 3 C  u0 p0 c0 {2,T} {5,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2710,8 +2710,8 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 O  u0 p2 c0 {2,S} {3,S}
-5 R  u0 p0 c0 {3,S}
-6 R  u0 p0 c0 {3,S}
+5 R  u0 px c0 {3,S}
+6 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2743,9 +2743,9 @@ entry(
 1 * X u0 p0 c0
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 C  u0 p0 c0 {2,D} {6,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {2,S}
-6 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
+6 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2778,8 +2778,8 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,D} {4,S} {5,S}
 4 C  u0 p0 c0 {2,S} {3,S} {6,D}
-5 R  u0 p0 c0 {3,S}
-6 R!H  u0 p0 c0 {4,D}
+5 R  u0 px c0 {3,S}
+6 R!H  u0 px c0 {4,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2811,7 +2811,7 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,T} {4,S}
 4 C  u0 p0 c0 {2,S} {3,S} {5,D}
-5 R!H  u0 p0 c0 {4,D}
+5 R!H  u0 px c0 {4,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2843,8 +2843,8 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,T} {4,S}
 4 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-5 R  u0 p0 c0 {4,S}
-6 R  u0 p0 c0 {4,S}
+5 R  u0 px c0 {4,S}
+6 R  u0 px c0 {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2877,9 +2877,9 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
 4 C  u0 p0 c0 {2,S} {3,S} {7,D}
-5 R  u0 p0 c0 {3,S}
-6 R  u0 p0 c0 {3,S}
-7 R!H  u0 p0 c0 {4,D}
+5 R  u0 px c0 {3,S}
+6 R  u0 px c0 {3,S}
+7 R!H  u0 px c0 {4,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2911,8 +2911,8 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 C  u0 p0 c0 {1,S} {4,D} {5,S}
 4 C  u0 p0 c0 {2,S} {3,D} {6,S}
-5 R  u0 p0 c0 {3,S}
-6 R  u0 p0 c0 {4,S}
+5 R  u0 px c0 {3,S}
+6 R  u0 px c0 {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2944,7 +2944,7 @@ entry(
 2 X u0 p0 c0 {4,D}
 3 C  u0 p0 c0 {1,T} {4,S}
 4 C  u0 p0 c0 {2,D} {3,S} {5,S}
-5 R  u0 p0 c0 {4,S}
+5 R  u0 px c0 {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -2975,10 +2975,10 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,D} {4,D} 
-4 R!H  u0 p0 c0 {3,D} {5,S}
+4 R!H  u0 px c0 {3,D} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-6 R  u0 p0 c0 {5,S}
-7 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {5,S}
+7 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3009,12 +3009,12 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
-4 R!H  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 px c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-6 R  u0 p0 c0 {5,S}
-7 R  u0 p0 c0 {5,S}
-8 R  u0 p0 c0 {3,S}
-9 R  u0 p0 c0 {3,S}
+6 R  u0 px c0 {5,S}
+7 R  u0 px c0 {5,S}
+8 R  u0 px c0 {3,S}
+9 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3045,10 +3045,10 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,D} {4,S} {6,S}
-4 R!H  u0 p0 c0 {3,S} {5,D}
+4 R!H  u0 px c0 {3,S} {5,D}
 5 C  u0 p0 c0 {2,S} {4,D} {7,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3079,11 +3079,11 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
-4 R!H  u0 p0 c0 {3,D} {5,S}
+4 R!H  u0 px c0 {3,D} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {5,S}
-8 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {5,S}
+8 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3114,11 +3114,11 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,D} {4,S} {6,S}
-4 R!H  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 px c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {5,S}
-8 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {5,S}
+8 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3151,8 +3151,8 @@ entry(
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
 4 R!H  u0 p0 c0 {3,D} {5,D}
 5 C  u0 p0 c0 {2,S} {4,D} {7,S}
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3185,7 +3185,7 @@ entry(
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
 4 R!H  u0 p0 c0 {3,D} {5,D}
 5 C  u0 p0 c0 {2,D} {4,D}
-6 R  u0 p0 c0 {3,S}
+6 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3248,9 +3248,9 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,S} {4,D} {6,S}
-4 R!H  u0 p0 c0 {3,D} {5,S}
+4 R!H  u0 px c0 {3,D} {5,S}
 5 O  u0 p2 c0 {2,S} {4,S}
-6 R  u0 p0 c0 {3,S} 
+6 R  u0 px c0 {3,S} 
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3310,9 +3310,9 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 C  u0 p0 c0 {3,S} {4,S} {5,D}
 3 C  u0 p0 c0 {1,D} {2,S} {6,S}
-4 R  u0 p0 c0 {2,S}
-5 R!H  u0 c0 {2,D}
-6 R  u0 c0 {3,S}
+4 R  u0 px c0 {2,S}
+5 R!H  u0 px c0 {2,D}
+6 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3346,8 +3346,8 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 C  u0 p0 c0 {3,S} {4,S} {5,D}
 3 C  u0 p0 c0 {1,T} {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R!H  u0 c0 {2,D}
+4 R  u0 px c0 {2,S}
+5 R!H  u0 px c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3381,8 +3381,8 @@ entry(
 1 * X u0 p0 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,D}
 3 O  u0 p2 c0 {1,S} {2,S}
-4 R  u0 p0 c0 {2,S}
-5 R!H  u0 c0 {2,D}
+4 R  u0 px c0 {2,S}
+5 R!H  u0 px c0 {2,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3477,7 +3477,7 @@ entry(
 2 X u0 {4,S}
 3 C  u0 {1,[S,D,T]} {5,[S,D,T]}
 4 O  u0 p2 {2,S} {5,S}
-5 R!H  u0 {3,[S,D,T]} {4,S}
+5 R!H  u0 px {3,[S,D,T]} {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3506,7 +3506,7 @@ entry(
 2 X u0 p0 c0 {4,S}
 3 O  u0 p2 c0 {1,S} {5,S}
 4 O  u0 p2 c0 {2,S} {5,S}
-5 R!H  u0 p0 c0 {3,S} {4,S}
+5 R!H  u0 px c0 {3,S} {4,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3537,10 +3537,10 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R!H  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 px c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
-6 R  u0 p0 c0 {5,S}
-7 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {5,S}
+7 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3571,9 +3571,9 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,S}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R!H  u0 p0 c0 {3,S} {5,D}
+4 R!H  u0 px c0 {3,S} {5,D}
 5 C  u0 p0 c0 {2,S} {4,D} {6,S} 
-6 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3604,7 +3604,7 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,T}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R!H  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 px c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,T} {4,S}
 """,
     thermo=ThermoData(
@@ -3636,10 +3636,10 @@ entry(
 1 * X u0 p0 c0 {3,D}
 2 X u0 p0 c0 {5,D}
 3 C  u0 p0 c0 {1,D} {4,S} {6,S}
-4 R!H  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 px c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,D} {4,S} {7,S} 
-6 R  u0 p0 c0 {3,S}
-7 R  u0 p0 c0 {5,S}
+6 R  u0 px c0 {3,S}
+7 R  u0 px c0 {5,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3670,7 +3670,7 @@ entry(
 1 * X u0 p0 c0 {3,T}
 2 X u0 p0 c0 {5,D}
 3 C  u0 p0 c0 {1,T} {4,S} 
-4 R!H  u0 p0 c0 {3,S} {5,S}
+4 R!H  u0 px c0 {3,S} {5,S}
 5 C  u0 p0 c0 {2,D} {4,S} {6,S} 
 6 R  u0 p0 c0 {5,S}
 """,
