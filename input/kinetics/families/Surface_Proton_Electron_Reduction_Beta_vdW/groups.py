@@ -55,16 +55,6 @@ entry(
 )
 
 entry(
-    index = 3,
-    label = "Electron",
-    group =
-"""
-1 * e u0 p0 c-1
-""",
-    kinetics = None,
-)
-
-entry(
     index = 4,
     label = "CRX",
     group =
