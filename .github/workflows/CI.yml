@@ -35,7 +35,7 @@ concurrency:
 
 env:
   # update this to run tests with un merged rmg-py branches
-  RMG_PY_BRANCH: electrochem
+  RMG_PY_BRANCH: echem-rebase
 
 jobs:
   build-and-test-linux:
