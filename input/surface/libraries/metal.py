@@ -4,8 +4,8 @@
 name = "Metal Binding Energies"
 shortDesc = ""
 longDesc = """
-Metal binding energies and surface site densities. 
-The DFT calculations were performed by Katrin Blondal and Bjarne Kreitz (both Brown University) using Quantum Espresso with PAW PBE pseudopotentials. PBE was used as the xc-functional and a vdW-corr (DFT-D3) was applied. A 3x3 cell was used for the fcc(111) and hcp(0001) facets with 4 layers and a 1x3 cell with 12 layers for the (211) facets. Further the following settings were used: vaccum=10A (above and below), dftd3_version=4, dftd3_threebody=True, occupations='smearing', smearing='marzari-vanderbilt', degauss=0.005, mixing_mode='local-TF', tprnfor=True, nosym=True. 
+Metal binding energies and surface site densities.
+The DFT calculations were performed by Katrin Blondal and Bjarne Kreitz (both Brown University) using Quantum Espresso with PAW PBE pseudopotentials. PBE was used as the xc-functional and a vdW-corr (DFT-D3) was applied. A 3x3 cell was used for the fcc(111) and hcp(0001) facets with 4 layers and a 1x3 cell with 12 layers for the (211) facets. Further the following settings were used: vaccum=10A (above and below), dftd3_version=4, dftd3_threebody=True, occupations='smearing', smearing='marzari-vanderbilt', degauss=0.005, mixing_mode='local-TF', tprnfor=True, nosym=True.
 Structures were optimized in a multistep procedure according to Blondal et al. (https://doi.org/10.1021/acs.iecr.9b01464) with (1) a (2,2,1) k-point grid ((2,1,1) for (211) facets) and 40 Ry cutoff and (2) (4,4,1) grid ((4,2,1) for (211) facets) and 50 Ry until forces were below 0.01 eV/A. The single point energy was computed on a (6,6,1) grid ((6,4,1) for (211) facets) and 60 Ry. Prior to the relaxation, the lattice constant of the bulk metal was determined through optimization with the calculator settings using a k-point grid of (21,21,21).
 """
 entry(
@@ -21,7 +21,7 @@ entry(
     facet = "111",
     metal = "Pt",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.93 Angstrom.
 """,
@@ -40,7 +40,7 @@ entry(
     facet = "0001",
     metal = "Ru",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=2.70 Angstrom and c=4.27 Angstrom.
 """,
@@ -59,7 +59,7 @@ entry(
     facet = "111",
     metal = "Rh",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.8 Angstrom.
 """,
@@ -78,7 +78,7 @@ entry(
     facet = "111",
     metal = "Ir",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.85 Angstrom.
 """,
@@ -97,7 +97,7 @@ entry(
     facet = "111",
     metal = "Au",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=4.11 Angstrom.
 """,
@@ -116,7 +116,7 @@ entry(
     facet = "111",
     metal = "Pd",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.96 Angstrom.
 """,
@@ -135,7 +135,7 @@ entry(
     facet = "111",
     metal = "Cu",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.56 Angstrom.
 """,
@@ -154,7 +154,7 @@ entry(
     facet = "111",
     metal = "Ag",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=4.09 Angstrom.
 """,
@@ -173,7 +173,7 @@ entry(
     facet = "111",
     metal = "Ni",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.49 Angstrom.
 """,
@@ -192,7 +192,7 @@ entry(
     facet = "0001",
     metal = "Co",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=2.48 Angstrom and c=4.01 Angstrom.
 """,
@@ -211,7 +211,7 @@ entry(
     facet = "211",
     metal = "Pt",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.93 Angstrom.
 """,
@@ -230,7 +230,7 @@ entry(
     facet = "211",
     metal = "Rh",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.8 Angstrom.
 """,
@@ -249,7 +249,7 @@ entry(
     facet = "211",
     metal = "Ag",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=4.09 Angstrom.
 """,
@@ -268,7 +268,7 @@ entry(
     facet = "211",
     metal = "Pd",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.96 Angstrom.
 """,
@@ -287,7 +287,7 @@ entry(
     facet = "211",
     metal = "Au",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=4.11 Angstrom.
 """,
@@ -306,7 +306,7 @@ entry(
     facet = "211",
     metal = "Ir",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.85 Angstrom.
 """,
@@ -325,7 +325,7 @@ entry(
     facet = "211",
     metal = "Ru",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=2.70 Angstrom and c=4.27 Angstrom.
 """,
@@ -344,7 +344,7 @@ entry(
     facet = "211",
     metal = "Co",
     shortDesc = """hcp""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=2.48 Angstrom and c=4.01 Angstrom.
 """,
@@ -363,7 +363,7 @@ entry(
     facet = "211",
     metal = "Ni",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.49 Angstrom.
 """,
@@ -382,9 +382,28 @@ entry(
     facet = "211",
     metal = "Cu",
     shortDesc = """fcc""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Katrin Blondal and Bjarne Kreitz at Brown University. The lattice constant is a=3.56 Angstrom.
 """,
 )
 
+entry(
+    index = 20,
+    label = "Li110",
+    bindingEnergies = {
+        'H': (-0.91,'eV/molecule'),
+        'C': (-0.5,'eV/molecule'),
+        'N': (-1,'eV/molecule'),
+        'O': (-1.88,'eV/molecule'),
+        'F': (-4.33,'eV/molecule'),
+    },
+    surfaceSiteDensity = (3.1210000000000003e-09, 'mol/cm^2'),
+    facet = "110",
+    metal = "Li",
+    shortDesc = """fcc""",
+    longDesc =
+"""
+
+""",
+)

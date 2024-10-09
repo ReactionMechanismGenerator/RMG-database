@@ -1719,3 +1719,330 @@ Converted to training reaction from rate rule: O-O2s(Cs)Cs(HHH);OsJ-Cs
 """,
 )
 
+entry(
+    index = 128,
+    label = "CH3LiO + C2H5-2 <=> C3H8O-6 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00266112,'cm^3/(mol*s)'), n=4.54216, Ea=(65.2952,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]OC + C[CH2] <=> [Li] + COCC
+TS method summary for TS2 in [Li]OC + C[CH2] <=> [Li] + COCC:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+Li      0.95543900   -2.06606100    0.49168200
+C      -1.75006400    0.40919300    0.35197900
+C      -0.92556700   -0.39675200   -0.59963000
+O       0.88790900   -0.39946500    0.11588300
+C       1.47810800    0.86505900   -0.03509700
+H      -1.29395600    1.37884800    0.56898500
+H      -1.90037200   -0.11068200    1.30024000
+H      -2.74501400    0.61653300   -0.07202800
+H      -1.15395000   -1.45760200   -0.67306700
+H      -0.66073800    0.05265400   -1.54957700
+H       1.04427800    1.60592100    0.65130900
+H       1.36341600    1.24189300   -1.06273700
+H       2.55152500    0.80698400    0.17628500
+
+1D rotors:
+pivots: [2, 3], dihedral: [6, 2, 3, 9], rotor symmetry: 3, max scan energy: 4.07 kJ/mol
+* Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 11], invalidation reason: Two consecutive points are inconsistent by more than 0.60 kJ/molTwo consecutive points are inconsistent by more than 0.75 kJ/molTwo consecutive points are inconsistent by more than 0.80 kJ/mol
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+""",
+)
+
+entry(
+    index = 129,
+    label = "HLiO + H <=> H2O + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.03649e+11,'cm^3/(mol*s)'), n=0.812216, Ea=(-21.6525,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.6576610150461983,B=2.4435784684265482,E=0.404796645816695,L=7.698368077501874,A=0.9750486732350473,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]O + [H] <=> [Li] + O
+TS method summary for TS9 in [Li]O + [H] <=> [Li] + O:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 1
+
+Optimized TS geometry:
+Li      1.28826489    0.18010119    0.00207350
+O      -0.36733064    0.11184220    0.00745957
+H       0.39396705   -1.32898954   -0.00633395
+H      -1.27901258   -0.17912694    0.00905353
+
+
+No rotors considered for this TS.
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2114.547977695349 J/mol
+""",
+)
+
+entry(
+    index = 130,
+    label = "CH3LiO + H <=> CH4O-2 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.47113e+11,'cm^3/(mol*s)'), n=0.774968, Ea=(-24.6724,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.4067121409688057,B=1.4628968939845368,E=0.9656443938025181,L=7.661570379273675,A=0.443175955652443,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]OC + [H] <=> [Li] + CO
+TS method summary for TS11 in [Li]OC + [H] <=> [Li] + CO:
+Methods that successfully generated a TS guess:
+user guess 0,user guess 0,
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 1
+
+Optimized TS geometry:
+Li      2.05286763    0.11494012   -0.00863872
+O       0.38320517    0.12959365   -0.00264163
+C      -1.00062168   -0.00723588   -0.00489942
+H       0.96172040   -1.23025812    0.00873654
+H      -1.46633645    0.98431418   -0.00871499
+H      -1.35936775   -0.54162168    0.88336582
+H      -1.35623697   -0.54719021   -0.89107706
+
+1D rotors:
+pivots: [2, 3], dihedral: [1, 2, 3, 5], rotor symmetry: 1, max scan energy: 0.65 kJ/mol (set as a FreeRotor)
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1321.823066484516 J/mol
+""",
+)
+
+entry(
+    index = 131,
+    label = "HLiO + CH3-2 <=> CH4O-3 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.07712e+06,'cm^3/(mol*s)'), n=2.28023, Ea=(85.5904,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.4173362998736376,B=2.357499252462657,E=0.5167298959343533,L=7.9017680525604375,A=1.0064038665607862,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]O + [CH3] <=> [Li] + CO
+TS method summary for TS12 in [Li]O + [CH3] <=> [Li] + CO:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 1
+
+Optimized TS geometry:
+Li     -0.28748200   -0.18010600    1.00319500
+O       0.86993900    0.39784300   -0.11608000
+C       2.59811800   -0.51057100   -0.06290500
+H       0.96229700    1.06152900   -0.80658800
+H       3.25030100    0.31559600    0.18187100
+H       2.64875300   -0.90201200   -1.06889700
+H       2.43978600   -1.23892300    0.72228500
+
+
+No rotors considered for this TS.
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 2046.4105178239631 J/mol
+""",
+)
+
+entry(
+    index = 132,
+    label = "HLiO + C2H5-2 <=> C2H6O-5 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(26.5507,'cm^3/(mol*s)'), n=3.72095, Ea=(84.1068,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.9913576154323054,B=3.1755887609180435,E=-0.2623364392566645,L=7.244831699370673,A=0.5572363451823703,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]O + C[CH2] <=> [Li] + CCO
+TS method summary for TS15 in [Li]O + C[CH2] <=> [Li] + CCO:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+Li     -2.57304700    0.27516400   -0.65750400
+C       1.54543100   -0.31294900   -0.20991200
+C       0.50691500    0.68250500    0.19066600
+O      -1.20609000   -0.34489700    0.18644900
+H       1.31703400   -0.75838900   -1.18091300
+H       2.53974800    0.15487200   -0.28938100
+H       1.63329600   -1.12303200    0.51949300
+H       0.22894600    1.43785900   -0.53575000
+H       0.48492400    1.02184600    1.21876200
+H      -1.09958300   -1.00876300    0.87538500
+
+1D rotors:
+pivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry: 3, max scan energy: 5.59 kJ/mol
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1614.986893512281 J/mol
+""",
+)
+
+entry(
+    index = 133,
+    label = "C2H5LiO + H <=> C2H6O-3 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.77483e+09,'cm^3/(mol*s)'), n=1.18598, Ea=(-23.16,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-8.623486006056842,B=14.917486429580572,E=-5.719694357458241,L=40.120001635540106,A=-6.502228345652631,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]OCC + [H] <=> [Li] + CCO
+TS method summary for TS16 in [Li]OCC + [H] <=> [Li] + CCO:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+Li      2.49143616    0.55729277   -0.12525674
+C      -1.41113872    0.44040349   -0.02571704
+C      -0.33003762   -0.62547457    0.03698411
+O       0.94967788   -0.09370527   -0.11768223
+H      -1.37208971    0.96882848   -0.98064514
+H      -2.40427692   -0.00332329    0.08351568
+H      -1.26743662    1.17043881    0.77319839
+H      -0.49296294   -1.36694873   -0.75554854
+H      -0.39930548   -1.16567232    0.99075815
+H       1.34235779    0.48281906    1.16520496
+
+1D rotors:
+pivots: [2, 3], dihedral: [5, 2, 3, 4], rotor symmetry: 3, max scan energy: 13.87 kJ/mol
+pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 0.52 kJ/mol (set as a FreeRotor)
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1.736364652060729e-05 J/mol
+""",
+)
+
+entry(
+    index = 134,
+    label = "CH3LiO + CH3-2 <=> C2H6O-4 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3026.56,'cm^3/(mol*s)'), n=2.80221, Ea=(80.834,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.223920620501668,B=0.8264175269682525,E=0.40415741933873844,L=5.605210034978575,A=0.4397271958947774,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]OC + [CH3] <=> [Li] + COC
+TS method summary for TS1 in [Li]OC + [CH3] <=> [Li] + COC:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 1
+
+Optimized TS geometry:
+Li      6.51706400   -1.13632600   -3.21539400
+C       4.02423400   -1.41606000   -2.34418400
+O       5.56418700   -0.34050500   -2.05108800
+C       5.26882800    0.60085300   -1.05050100
+H       3.90830800   -1.82877700   -1.35110600
+H       4.26586000   -2.13817000   -3.11854700
+H       3.32573800   -0.64407500   -2.63764800
+H       4.99996100    0.11042200   -0.10400400
+H       4.43692100    1.25540800   -1.34741500
+H       6.14543300    1.23014000   -0.86797000
+
+1D rotors:
+* Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 8], invalidation reason: Two consecutive points are inconsistent by more than 1.40 kJ/molTwo consecutive points are inconsistent by more than 1.52 kJ/mol But unable to propose troubleshooting methods.
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1526.5386694571223 J/mol
+""",
+)
+
+entry(
+    index = 135,
+    label = "C2H5LiO + CH3-2 <=> C3H8O-7 + Li",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.09569,'cm^3/(mol*s)'), n=3.2546, Ea=(82.2788,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.091886494292463,B=0.5254418313743373,E=1.2963729646265112,L=5.721969023897385,A=0.6575614317431779,comment='')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: [Li]OCC + [CH3] <=> [Li] + COCC
+TS method summary for TS3 in [Li]OCC + [CH3] <=> [Li] + COCC:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 1
+
+Optimized TS geometry:
+Li     -2.74010800   -4.87944000   -2.74685100
+C      -2.29023200   -1.71339600   -1.09005000
+C      -3.11923600   -1.87939400   -2.35977600
+O      -3.12657200   -3.21901700   -2.79202100
+C      -4.17095700   -3.35427200   -4.36839000
+H      -1.25332700   -2.01355600   -1.26099300
+H      -2.69616100   -2.32265000   -0.27855700
+H      -2.29596500   -0.66546600   -0.76876900
+H      -4.14967400   -1.54173400   -2.17015500
+H      -2.70920200   -1.23314600   -3.15098300
+H      -3.61682000   -2.67724300   -5.00431900
+H      -5.11687000   -2.99859300   -3.98292400
+H      -4.16500100   -4.39266700   -4.68634200
+
+1D rotors:
+pivots: [2, 3], dihedral: [6, 2, 3, 4], rotor symmetry: 3, max scan energy: 15.23 kJ/mol
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 1], invalidation reason: Two consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent by more than 6.64 kJ/mol
+ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1616.2708289398845 J/mol
+""",
+)
+

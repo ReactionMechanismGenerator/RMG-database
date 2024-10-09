@@ -50,7 +50,7 @@ entry(
     kinetics = Arrhenius(A=(3.16601e+09,'1/s'), n=1.07561, Ea=(193.552,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to Multiple Arrhenius kinetics over range 300.0-2000.0 K. """),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 by Xiaorui Dong.""",
-    longDesc = 
+    longDesc =
 """
 There are two different TS conformers (cis and trans) related to different H atom
 reacting. The kinetics is fitted from the sum of the individual rate coeffs.
@@ -136,7 +136,7 @@ entry(
     kinetics = Arrhenius(A=(2.34423e+11,'1/s'), n=0, Ea=(181.5,'kJ/mol'), T0=(1,'K'), Tmin=(602,'K'), Tmax=(694,'K')),
     rank = 9,
     shortDesc = """Measured from experiment""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Vitins P, Egger K W. The thermochemical kinetics of the retro-‘ene’reactions of
 molecules with the general structure (allyl) XYH in the gas phase. Part IX.
@@ -152,7 +152,7 @@ entry(
     kinetics = Arrhenius(A=(1.23027e+11,'1/s'), n=0, Ea=(174.05,'kJ/mol'), T0=(1,'K'), Tmin=(725,'K'), Tmax=(810,'K')),
     rank = 9,
     shortDesc = """Measured from experiment""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Kwart H, Sarner S F, Slutsky J. Mechanisms of thermolytic fragmentation of allyl
 ethers. I[J]. Journal of the American Chemical Society, 1973, 95(16): 5234-5242.
@@ -166,7 +166,7 @@ entry(
     kinetics = Arrhenius(A=(1.69824e+11,'1/s'), n=0, Ea=(160,'kJ/mol'), T0=(1,'K'), Tmin=(588,'K'), Tmax=(691,'K')),
     rank = 9,
     shortDesc = """Measured from experiment""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Martin G, Ropero M, Avila R. Gas-phase thermolysis of sulfur compounds.
 Part V. Methyl allyl, diallyl and benzyl allyl sulfides[J]. Phosphorus and Sulfur
@@ -181,7 +181,7 @@ entry(
     kinetics = Arrhenius(A=(1e+08,'1/s'), n=1.2, Ea=(44,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at CBS-QB3""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Jarvis, M. W., Daily, J. W., Carstensen, H. H., Dean, A. M., Sharma, S., Dayton,
 D. C., ... & Nimlos, M. R. (2011). Direct detection of products from the pyrolysis
@@ -196,7 +196,7 @@ entry(
     kinetics = Arrhenius(A=(5.5e+07,'1/s'), n=1.6, Ea=(54,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at CBS-QB3""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Jarvis, M. W., Daily, J. W., Carstensen, H. H., Dean, A. M., Sharma, S., Dayton,
 D. C., ... & Nimlos, M. R. (2011). Direct detection of products from the pyrolysis
@@ -211,7 +211,7 @@ entry(
     kinetics = Arrhenius(A=(7.94328e+12,'1/s'), n=0, Ea=(44.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -225,7 +225,7 @@ entry(
     kinetics = Arrhenius(A=(2.2e+06,'1/s'), n=0.9, Ea=(49,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at CBS-QB3""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Jarvis, M. W., Daily, J. W., Carstensen, H. H., Dean, A. M., Sharma, S., Dayton,
 D. C., ... & Nimlos, M. R. (2011). Direct detection of products from the pyrolysis
@@ -240,7 +240,7 @@ entry(
     kinetics = Arrhenius(A=(8.91251e+12,'1/s'), n=0, Ea=(39.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -254,7 +254,7 @@ entry(
     kinetics = Arrhenius(A=(1.25893e+13,'1/s'), n=0, Ea=(40,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -268,7 +268,7 @@ entry(
     kinetics = Arrhenius(A=(3.98107e+11,'1/s'), n=0, Ea=(36.6,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -282,7 +282,7 @@ entry(
     kinetics = Arrhenius(A=(2.51189e+12,'1/s'), n=0, Ea=(43.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -296,7 +296,7 @@ entry(
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(43.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -310,7 +310,7 @@ entry(
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(36.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -324,7 +324,7 @@ entry(
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(43.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -338,7 +338,7 @@ entry(
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(45.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -352,7 +352,7 @@ entry(
     kinetics = Arrhenius(A=(2.51189e+12,'1/s'), n=0, Ea=(41.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -366,7 +366,7 @@ entry(
     kinetics = Arrhenius(A=(6.30957e+12,'1/s'), n=0, Ea=(44.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -380,7 +380,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13,'1/s'), n=0, Ea=(39.3,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -394,7 +394,7 @@ entry(
     kinetics = Arrhenius(A=(1.99526e+12,'1/s'), n=0, Ea=(47.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -408,7 +408,7 @@ entry(
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(46.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -422,7 +422,7 @@ entry(
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(46.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -436,7 +436,7 @@ entry(
     kinetics = Arrhenius(A=(7.94328e+11,'1/s'), n=0, Ea=(45.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -450,7 +450,7 @@ entry(
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(48.6,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -464,7 +464,7 @@ entry(
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(48.3,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -478,7 +478,7 @@ entry(
     kinetics = Arrhenius(A=(2.23872e+12,'1/s'), n=0, Ea=(43.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -492,7 +492,7 @@ entry(
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(43.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -506,7 +506,7 @@ entry(
     kinetics = Arrhenius(A=(7.94328e+12,'1/s'), n=0, Ea=(44.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc = 
+    longDesc =
 """
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
@@ -520,7 +520,7 @@ entry(
     kinetics = Arrhenius(A=(1.19e+11,'1/s'), n=0.59, Ea=(49800,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 5,
     shortDesc = """calculated at CCSD(T)/CBS//M06-2X/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Sun, W., Tao, T., Zhang, R., Liao, H., Huang, C., Zhang, F., ... & Yang, B. (2017).
 Experimental and modeling efforts towards a better understanding of the high-temperature
@@ -536,7 +536,7 @@ entry(
     kinetics = Arrhenius(A=(1.36e+14,'1/s'), n=-0.3, Ea=(49900,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 5,
     shortDesc = """calculated at CCSD(T)/CBS//M06-2X/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Sun, W., Tao, T., Zhang, R., Liao, H., Huang, C., Zhang, F., ... & Yang, B. (2017).
 Experimental and modeling efforts towards a better understanding of the high-temperature
@@ -552,7 +552,7 @@ entry(
     kinetics = Arrhenius(A=(6.93e+08,'1/s'), n=1.27, Ea=(48500,'cal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
     rank = 5,
     shortDesc = """calculated at CCSD(T)/CBS//M06-2X/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Cited from: Sun, W., Tao, T., Zhang, R., Liao, H., Huang, C., Zhang, F., ... & Yang, B. (2017).
 Experimental and modeling efforts towards a better understanding of the high-temperature
@@ -568,7 +568,7 @@ entry(
     kinetics = Arrhenius(A=(2.0893e+13,'1/s'), n=0, Ea=(49518,'cal/mol'), T0=(1,'K'), Tmin=(900,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at G3//MP2/aug-cc-pVDZ""",
-    longDesc = 
+    longDesc =
 """
 AlAbbad, M., Giri, B. R., Szőri, M., & Farooq, A. (2017). On the high-temperature
 unimolecular decomposition of ethyl levulinate. Proceedings of the Combustion
@@ -583,7 +583,7 @@ entry(
     kinetics = Arrhenius(A=(348015,'1/s'), n=0.286, Ea=(158771,'J/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1300,'K')),
     rank = 5,
     shortDesc = """calculated at G3//MP2/aug-cc-pVDZ""",
-    longDesc = 
+    longDesc =
 """
 AlAbbad, M., Giri, B. R., Szőri, M., Viskolcz, B., & Farooq, A. (2017). A high
 temperature kinetic study for the thermal unimolecular decomposition of diethyl
@@ -598,7 +598,7 @@ entry(
     kinetics = Arrhenius(A=(127.587,'s^-1'), n=2.97303, Ea=(221.127,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.52331, dn = +|- 0.0559292, dEa = +|- 0.286484 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -611,7 +611,7 @@ entry(
     kinetics = Arrhenius(A=(34.7517,'s^-1'), n=3.09547, Ea=(214.25,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.47481, dn = +|- 0.0516299, dEa = +|- 0.264462 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -624,7 +624,7 @@ entry(
     kinetics = Arrhenius(A=(13.6131,'s^-1'), n=3.07798, Ea=(218.469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.52121, dn = +|- 0.0557459, dEa = +|- 0.285545 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -637,7 +637,7 @@ entry(
     kinetics = Arrhenius(A=(7.78487,'s^-1'), n=3.40032, Ea=(211.103,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.70197, dn = +|- 0.0706665, dEa = +|- 0.361972 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -650,7 +650,7 @@ entry(
     kinetics = Arrhenius(A=(171001,'s^-1'), n=2.19797, Ea=(217.237,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.46775, dn = +|- 0.050992, dEa = +|- 0.261195 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -663,7 +663,7 @@ entry(
     kinetics = Arrhenius(A=(13104.2,'s^-1'), n=2.29082, Ea=(214.941,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.43309, dn = +|- 0.0478167, dEa = +|- 0.24493 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -676,7 +676,7 @@ entry(
     kinetics = Arrhenius(A=(6102.65,'s^-1'), n=2.55399, Ea=(214.789,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.35527, dn = +|- 0.0403969, dEa = +|- 0.206924 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -689,7 +689,7 @@ entry(
     kinetics = Arrhenius(A=(3416.42,'s^-1'), n=2.62955, Ea=(212.275,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.33575, dn = +|- 0.0384693, dEa = +|- 0.19705 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -702,7 +702,7 @@ entry(
     kinetics = Arrhenius(A=(918.473,'s^-1'), n=2.68918, Ea=(213.037,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.44504, dn = +|- 0.0489194, dEa = +|- 0.250578 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -715,7 +715,7 @@ entry(
     kinetics = Arrhenius(A=(3.21309,'s^-1'), n=3.32108, Ea=(220.256,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.52174, dn = +|- 0.0557923, dEa = +|- 0.285783 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -728,7 +728,7 @@ entry(
     kinetics = Arrhenius(A=(3.7605e+06,'s^-1'), n=1.80968, Ea=(236.043,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.60655, dn = +|- 0.0629992, dEa = +|- 0.322699 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -741,7 +741,7 @@ entry(
     kinetics = Arrhenius(A=(1.2279e+08,'s^-1'), n=1.36832, Ea=(234.848,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.45449, dn = +|- 0.049786, dEa = +|- 0.255017 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -754,7 +754,7 @@ entry(
     kinetics = Arrhenius(A=(1.13509e+12,'s^-1'), n=0.169307, Ea=(240.476,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.14422, dn = +|- 0.0179031, dEa = +|- 0.0917044 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -767,7 +767,7 @@ entry(
     kinetics = Arrhenius(A=(6.05189e+12,'s^-1'), n=0.0499164, Ea=(232.901,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.22917, dn = +|- 0.0274189, dEa = +|- 0.140447 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -780,7 +780,7 @@ entry(
     kinetics = Arrhenius(A=(9.91109e+07,'s^-1'), n=1.51788, Ea=(236.313,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.50331, dn = +|- 0.0541732, dEa = +|- 0.277489 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -793,7 +793,7 @@ entry(
     kinetics = Arrhenius(A=(4838.42,'s^-1'), n=2.3826, Ea=(221.139,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.44929, dn = +|- 0.04931, dEa = +|- 0.252579 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -806,7 +806,7 @@ entry(
     kinetics = Arrhenius(A=(669082,'s^-1'), n=2.05353, Ea=(215.947,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.26289, dn = +|- 0.0310154, dEa = +|- 0.158869 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -819,7 +819,7 @@ entry(
     kinetics = Arrhenius(A=(2.4836e+09,'s^-1'), n=1.04991, Ea=(238.94,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.28482, dn = +|- 0.0333034, dEa = +|- 0.170589 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -832,7 +832,7 @@ entry(
     kinetics = Arrhenius(A=(1.89231e+07,'s^-1'), n=1.41637, Ea=(213.544,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.17678, dn = +|- 0.0216307, dEa = +|- 0.110798 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -845,7 +845,7 @@ entry(
     kinetics = Arrhenius(A=(5.75702e+08,'s^-1'), n=1.30992, Ea=(238.61,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.87631, dn = +|- 0.083625, dEa = +|- 0.428349 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
@@ -858,7 +858,7 @@ entry(
     kinetics = Arrhenius(A=(3.86302e+06,'s^-1'), n=1.81611, Ea=(228.248,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.23831, dn = +|- 0.155918, dEa = +|- 0.803992 kJ/mol"""),
     rank = 4,
     shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
 """
 Original entry: r001085 <=> p001091_0 + p001091_1
 Calculated by Kevin Spiekermann
@@ -875,13 +875,56 @@ entry(
     kinetics = Arrhenius(A=(9.54463e+09,'s^-1'), n=0.829688, Ea=(151.966,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.298, dn = +|- 0.034609, dEa = +|- 0.178462 kJ/mol"""),
     rank = 4,
     shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
 """
 Original entry: r005588 <=> p005591_0 + p001091_1
 Calculated by Kevin Spiekermann
 opt, freq: wB97X-D3/def2-TZVP
 sp: CCSD(T)-F12a/cc-pVDZ-F12
 All species include systematic conformer search and 1D rotor scans
-""",
+"""
 )
 
+entry(
+    index = 67,
+    label = "C3H5LiO2 <=> C2H3LiO + CH2O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.46545e+14,'s^-1'), n=0.20628, Ea=(62.2385,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.7509029646949823,B=2.006218503247397,E=1.143393868363932,L=8.571412669855551,A=0.5404851704510933,comment='')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: LithiumPrimaryKinetics
+Original entry: O=CCCO[Li] <=> [Li]OC=C + C=O
+TS method summary for TS10 in O=CCCO[Li] <=> [Li]OC=C + C=O:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+Li      0.67050684   -1.60390085   -0.36093039
+O      -0.92604375   -1.15828311   -0.03727727
+C      -1.60083705   -0.10816047    0.33621254
+O       2.05006768   -0.34074837    0.03435938
+C       1.84701267    0.85995531    0.09314486
+C      -1.65781511    1.09798726   -0.28717014
+H      -2.17928322   -0.21866717    1.26598488
+H       0.96975439    1.32395018   -0.38007248
+H       2.53532757    1.50855856    0.65878630
+H      -1.19345872    1.25604363   -1.25688972
+H      -2.27676986    1.89077262    0.11390132
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 6.68 kJ/mol
+* Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 10], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
+    fit to dGsolv298 for library solvents:
+    ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
+     "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
+    "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
+    "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
+    "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
+    MAE error: 1179.836010787957 J/mol
+""",
+)
