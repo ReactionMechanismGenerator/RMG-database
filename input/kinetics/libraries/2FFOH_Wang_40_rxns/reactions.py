@@ -69,3 +69,38 @@ pivots: [4, 8], dihedral: [1, 4, 8, 2], rotor symmetry: 1, max scan energy: 14.4
 """,
 )
 
+entry(
+    index = 1,
+    label = "O + furfuryl <=> OH + P1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.92961e-12,'cm^3/(mol*s)'), n=7.10738, Ea=(95.2134,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+TS method summary for TS0 in O + furfuryl <=> OH + P1:
+Methods that successfully generated a TS guess:
+user guess 0 + autotst,autotst,autotst,autotst,heuristics,
+The method that generated the best TS guess and its output used for the optimization: user guess 0 + autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -0.79091000   -0.18706000   -1.35615200
+O       2.04612800   -0.99021700    0.73211400
+O       2.27086400    1.26570200    0.97800100
+C       1.26496400   -1.04139900   -0.40896300
+C      -0.02958900   -0.32772400   -0.24765900
+C      -0.62589500    0.26066000    0.81702300
+C      -1.85158100    0.81253900    0.32332600
+C      -1.89739600    0.50846000   -0.99170900
+H       1.09425200   -2.11541400   -0.58210200
+H       1.80135500   -0.67145600   -1.28994200
+H      -0.24312900    0.29195800    1.82227500
+H      -2.59247500    1.36103000    0.87724800
+H      -2.60848700    0.70549300   -1.77297400
+H       2.16189700    0.12732800    1.09951000
+
+1D rotors:
+pivots: [4, 5], dihedral: [2, 4, 5, 1], rotor symmetry: 1, max scan energy: 9.51 kJ/mol
+""",
+)
