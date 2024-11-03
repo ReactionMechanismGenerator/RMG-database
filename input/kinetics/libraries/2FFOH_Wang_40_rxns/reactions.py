@@ -39,6 +39,7 @@ entry(
     kinetics = Arrhenius(A=(1.03309e+06,'cm^3/(mol*s)'), n=2.31879, Ea=(15.7214,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
+RXN_5 (rxn 26 from Wang's table)
 TS method summary for TS0 in O + furfuryl <=> OH + P2:
 Methods that successfully generated a TS guess:
 user guess 0,autotst,autotst,autotst,autotst,heuristics,
@@ -76,6 +77,7 @@ entry(
     kinetics = Arrhenius(A=(4.92961e-12,'cm^3/(mol*s)'), n=7.10738, Ea=(95.2134,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
+RXN_1 (rxn 14 from Wang's table)
 TS method summary for TS0 in O + furfuryl <=> OH + P1:
 Methods that successfully generated a TS guess:
 user guess 0 + autotst,autotst,autotst,autotst,heuristics,
@@ -102,5 +104,100 @@ H       2.16189700    0.12732800    1.09951000
 
 1D rotors:
 pivots: [4, 5], dihedral: [2, 4, 5, 1], rotor symmetry: 1, max scan energy: 9.51 kJ/mol
+""",
+)
+
+entry(
+    index = 2,
+    label = "benzene_rad + furfuryl <=> benzene + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0168004,'cm^3/(mol*s)'), n=4.1125, Ea=(-1.31273,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN_4 (rxn 23 from Wang's table)
+TS method summary for TS0 in benzene_rad + furfuryl <=> benzene + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -2.14747600   -0.20648300    0.87821800
+O      -1.38925400    2.48146600    1.08989900
+C      -1.20750500    1.76911100   -0.09530100
+C      -2.04041900    0.56334400   -0.23653400
+C      -2.64646800   -0.05130600   -1.28222600
+C       3.45000200   -1.03203000    0.21665700
+C      -3.16472700   -1.28643500   -0.77609500
+C       3.56055500    0.33025800    0.46631100
+C       2.22686100   -1.58660700   -0.13806400
+C      -2.83640100   -1.32283800    0.53377300
+C       2.44165200    1.15401700    0.36078600
+C       1.09880400   -0.77572400   -0.24659600
+C       1.24705700    0.56981800    0.00424700
+H      -0.06468000    1.36687400   -0.12976300
+H      -1.32126000    2.44142300   -0.94129400
+H      -2.71658500    0.32930300   -2.28610900
+H      -3.71661200   -2.03605100   -1.31510800
+H       4.51677000    0.75458300    0.74368900
+H       4.32258500   -1.66535700    0.30042300
+H       2.14799100   -2.64884600   -0.32941900
+H      -3.02046300   -2.02780000    1.32373200
+H       2.51771000    2.21600800    0.55482100
+H       0.13686100   -1.19560400   -0.51981600
+H      -1.39499900    1.85877400    1.82386900
+
+1D rotors:
+pivots: [2, 3], dihedral: [24, 2, 3, 4], rotor symmetry: 1, max scan energy: 15.93 kJ/mol
+pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 13.49 kJ/mol
+""",
+)
+
+entry(
+    index = 3,
+    label = "R1_3 + furfuryl <=> P1_3 + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.0472e-08,'cm^3/(mol*s)'), n=5.46973, Ea=(23.4424,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN_2 (rxn 20 from Wang's table)
+TS method summary for TS0 in R1 + furfuryl <=> P1 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       2.09020100   -1.48863500   -0.18102700
+O       0.30751000    1.42028000   -1.26141100
+C       1.69193100   -0.19354800   -0.26607100
+C       2.53917400    0.60615400    0.43214100
+C       3.53525900   -0.25995300    0.98115300
+C      -1.80780400   -0.24855300    0.38255500
+C      -2.47342900    1.00664400    0.20941100
+C       3.21115500   -1.50994300    0.58091800
+C       0.46230900    0.06607300   -1.00055200
+C      -2.06670900   -1.42415400    0.90563700
+C      -3.29438300    1.29003600   -0.81403700
+H      -0.52766500   -0.23096900   -0.24935300
+H      -2.21736900    1.79162000    0.91543000
+H       2.45662300    1.67405100    0.52454500
+H       4.37974400    0.01378200    1.58865200
+H       0.32414100   -0.58750300   -1.86457100
+H       3.65583500   -2.47547500    0.73890400
+H      -1.34593000   -2.23259500    0.86107300
+H      -3.00865600   -1.62760500    1.40805700
+H      -3.73143200    2.27245100   -0.92323900
+H      -3.55472000    0.53620900   -1.54556000
+H      -0.62568700    1.60183400   -1.42285000
+
+1D rotors:
+* Invalidated! pivots: [2, 9], dihedral: [22, 2, 9, 3], invalidation reason: 
+* Invalidated! pivots: [3, 9], dihedral: [1, 3, 9, 2], invalidation reason: 
+* Invalidated! pivots: [6, 7], dihedral: [10, 6, 7, 11], invalidation reason:
 """,
 )
