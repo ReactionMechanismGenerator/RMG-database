@@ -120,7 +120,7 @@ C=C=CCO
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {5,S}
 
-[C-]#[O+]
+CO
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
 
