@@ -328,3 +328,42 @@ H       1.37257200   -0.96412900   -0.85586700
 * Invalidated! pivots: [4, 9], dihedral: [12, 4, 9, 18], invalidation reason:
 """,
 )
+
+entry(
+    index = 7,
+    label = "O2 + furfuryl <=> HO2 + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.97926e-06,'cm^3/(mol*s)'), n=5.15884, Ea=(131.806,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN O2 abstraction i site, not from Wang's table
+TS method summary for TS0 in O2 + furfuryl <=> HO2 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.98092500   -0.23189900   -1.30918600
+O      -1.46385600   -0.97768000    1.19251500
+O      -2.77856500    1.06350100   -0.46181700
+O      -3.62332000    0.51287000    0.30696000
+C       0.36917700   -0.26695500   -0.09603100
+C       1.21937900    0.19353500    0.87015100
+C       2.43071500    0.52477800    0.20269300
+C       2.22707000    0.25067200   -1.10971900
+C      -0.99755800   -0.70200700   -0.06340900
+H       0.98909800    0.27049400    1.91767800
+H       3.33448900    0.91337200    0.63739400
+H      -1.30275100   -1.38493000   -0.85944800
+H       2.84552300    0.33645900   -1.98471600
+H      -2.42943200   -0.88642500    1.18955500
+H      -1.80089600    0.38421300   -0.43262100
+
+1D rotors:
+pivots: [2, 5], dihedral: [15, 2, 5, 6], rotor symmetry: 1, max scan energy: 34.96 kJ/mol
+* Invalidated! pivots: [5, 6], dihedral: [2, 5, 6, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+""",
+)
