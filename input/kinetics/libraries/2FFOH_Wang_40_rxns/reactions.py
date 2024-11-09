@@ -367,3 +367,86 @@ pivots: [2, 5], dihedral: [15, 2, 5, 6], rotor symmetry: 1, max scan energy: 34.
 * Invalidated! pivots: [5, 6], dihedral: [2, 5, 6, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
 """,
 )
+
+entry(
+    index = 8,
+    label = "R1_3 + furfuryl <=> P1_3 + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.53202e-08,'cm^3/(mol*s)'), n=5.08555, Ea=(38.6563,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN_3 ,Wang's rxn 22
+TS method summary for TS0 in R1 + furfuryl <=> P1 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -2.47037000    0.47998700   -1.19593800
+O       0.27408500   -1.71961000   -0.56735400
+C       1.49710600    1.15110200   -0.28094900
+C      -1.64251000   -0.36792600   -0.52987000
+C       2.64996800    0.37919900   -0.74226000
+C       1.39786000    0.90185000    1.15281800
+C       3.12851000   -0.33408600    0.31245900
+C       2.34373500   -0.00936500    1.49322000
+C      -2.20902900   -0.74551800    0.65157800
+C      -3.47479800   -0.09217900    0.70715100
+C      -3.57617500    0.63454900   -0.43121900
+C      -0.35332800   -0.62974900   -1.11424900
+H       1.21975400    2.09839500   -0.72861600
+H       0.45906100    0.41218600   -0.73998500
+H       3.02902900    0.37664900   -1.75236300
+H       0.65080600    1.33292300    1.79996300
+H       3.95886700   -1.02391000    0.28999500
+H       2.49431700   -0.43808000    2.47175200
+H      -1.76335000   -1.40998600    1.37003200
+H      -4.21265200   -0.15543400    1.48730200
+H      -0.29437700   -0.52749900   -2.19889400
+H      -4.33904800    1.27860600   -0.82935400
+H       1.23243700   -1.59220800   -0.62541600
+
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [23, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
+""",
+)
+
+entry(
+    index = 9,
+    label = "O + furfuryl <=> OH + P1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.76809e-12,'cm^3/(mol*s)'), n=7.11149, Ea=(95.2718,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN_5 ,Wang's rxn 26
+TS method summary for TS0 in O + furfuryl <=> OH + P1:
+Methods that successfully generated a TS guess:
+user guess 0 + autotst,autotst,autotst,autotst,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -0.65164000    0.54233500    1.33450700
+O       2.05291900   -1.17201700   -0.33913100
+O       2.06014100    0.61174500   -1.75979300
+C       1.38065700   -0.62897100    0.74163600
+C       0.02029300   -0.14620600    0.38447000
+C      -0.71433500   -0.23147900   -0.75059600
+C      -1.93577000    0.46501700   -0.47930100
+C      -1.84133800    0.90668700    0.79344900
+H       1.31882500   -1.45007100    1.47279900
+H       1.95728300    0.16764200    1.22496500
+H      -0.42403100   -0.72984200   -1.65910000
+H      -2.76631100    0.61401600   -1.14608300
+H      -2.49656600    1.47005400    1.43230800
+H       2.03967200   -0.41901100   -1.25022700
+
+1D rotors:
+pivots: [4, 5], dihedral: [2, 4, 5, 1], rotor symmetry: 1, max scan energy: 9.51 kJ/mol
+""",
+)
