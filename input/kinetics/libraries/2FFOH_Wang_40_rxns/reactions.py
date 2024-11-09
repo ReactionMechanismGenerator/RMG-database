@@ -450,3 +450,42 @@ H       2.03967200   -0.41901100   -1.25022700
 pivots: [4, 5], dihedral: [2, 4, 5, 1], rotor symmetry: 1, max scan energy: 9.51 kJ/mol
 """,
 )
+
+entry(
+    index = 10,
+    label = "OH + furfuryl <=> P1 + H2O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.0838e-09,'cm^3/(mol*s)'), n=5.92933, Ea=(159.214,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN_14 ,Wang's rxn 27
+TS method summary for TS0 in OH + furfuryl <=> P1 + H2O:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.09072900    0.92453800   -0.28756200
+O       1.65940700   -1.39829800    0.69696700
+O       2.96091900    0.21303000   -0.24147600
+C       0.59785500   -1.44828600   -0.22279700
+C      -0.37473300   -0.33396500   -0.05486200
+C      -1.67985600   -0.28218600    0.29124200
+C      -2.05237400    1.10163700    0.27240200
+C      -0.94154500    1.78108900   -0.07887900
+H       0.98302500   -1.47625100   -1.24580800
+H       0.07388100   -2.38905600   -0.03616700
+H      -2.30141800   -1.12588700    0.53585400
+H      -3.01504800    1.52599800    0.49548700
+H      -0.72569700    2.82469600   -0.21821300
+H       2.47241900   -0.79336500    0.30325200
+H       2.25244200    0.87630900   -0.20944200
+
+1D rotors:
+* Invalidated! pivots: [3, 4], dihedral: [15, 3, 4, 5], invalidation reason: Two consecutive points are inconsistent by more than 4.83 kJ/molTwo consecutive points are inconsistent by more than 4.83 kJ/mol
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 1], invalidation reason: Two consecutive points are inconsistent by more than 6.14 kJ/molTwo consecutive points are inconsistent by more than 6.14 kJ/mol
+""",
+)
