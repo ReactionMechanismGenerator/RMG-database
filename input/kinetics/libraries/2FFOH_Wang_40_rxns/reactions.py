@@ -489,3 +489,45 @@ H       2.25244200    0.87630900   -0.20944200
 * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 1], invalidation reason: Two consecutive points are inconsistent by more than 6.14 kJ/molTwo consecutive points are inconsistent by more than 6.14 kJ/mol
 """,
 )
+
+entry(
+    index = 11,
+    label = "methanol_rad + furfuryl <=> methanol + P1",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.16686e-19,'cm^3/(mol*s)'), n=8.47453, Ea=(112.914,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+RXN_10a ,Wang's rxn 33
+TS method summary for TS0 in methanol_rad + furfuryl <=> methanol + P1:
+Methods that successfully generated a TS guess:
+user guess 0 + heuristics,autotst,autotst,autotst,autotst,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -1.54587100   -0.02584000   -1.37026200
+O       1.07111700   -1.83310100    0.36538000
+O       1.97184100    0.04223400    1.35675800
+C       0.36984800   -1.35054000   -0.71851000
+C       2.34095600    0.85054000    0.29067300
+C      -0.79820600   -0.50489600   -0.34572400
+C      -1.28254500   -0.07073000    0.83943300
+C      -2.42165300    0.74024500    0.52398400
+C      -2.53098200    0.72916900   -0.82194800
+H       1.02067700   -0.80963500   -1.42308500
+H       0.02840100   -2.23925100   -1.27062500
+H       3.03225700    0.34908700   -0.39326200
+H       2.86336600    1.71029100    0.72589300
+H       1.47218800    1.23747300   -0.25404200
+H      -0.86980600   -0.29402000    1.80708800
+H      -3.06672200    1.25862100    1.21110900
+H      -3.21792100    1.18230900   -1.51316200
+H       1.56315500   -0.97195800    0.99040200
+
+1D rotors:
+* Invalidated! pivots: [2, 5], dihedral: [18, 2, 5, 12], invalidation reason: Two consecutive points are inconsistent by more than 2.06 kJ/molTwo consecutive points are inconsistent by more than 2.06 kJ/mol
+pivots: [4, 6], dihedral: [3, 4, 6, 1], rotor symmetry: 1, max scan energy: 13.12 kJ/mol
+""",
+)
