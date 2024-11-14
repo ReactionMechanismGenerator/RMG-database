@@ -531,3 +531,43 @@ H       1.56315500   -0.97195800    0.99040200
 pivots: [4, 6], dihedral: [3, 4, 6, 1], rotor symmetry: 1, max scan energy: 13.12 kJ/mol
 """,
 )
+
+entry(
+    index = 12,
+    label = "HO2 + furfuryl <=> H2O2 + P2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.48399e-10,'cm^3/(mol*s)'), n=6.12879, Ea=(25.3207,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+HO2 abs from i site of furfuryl
+TS method summary for TS0 in HO2 + furfuryl <=> H2O2 + P2:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -2.36817600   -0.09888200   -0.30983700
+C      -1.45285400    0.69090500   -0.97721000
+C      -0.06567200    0.59476400   -0.52550300
+C       1.13540200    0.77512000   -1.13521600
+C       2.12438500    0.64091700   -0.11361600
+C       1.45053900    0.39255400    1.03198100
+O       0.11625900    0.36505300    0.79926000
+H      -2.18824300   -0.03779400    0.63657000
+H      -1.56965600    0.58180500   -2.05135900
+H      -1.80167000    1.88143400   -0.72777300
+H       1.29170600    0.97349800   -2.18103300
+H       3.19208500    0.71235200   -0.22132400
+H       1.75710900    0.21234300    2.04602900
+O      -2.35167100    2.89853000   -0.15992600
+O      -2.89579900    2.35985400    0.98223100
+H      -3.79267800    2.11767200    0.71371000
+
+1D rotors:
+pivots: [2, 5], dihedral: [15, 2, 5, 6], rotor symmetry: 1, max scan energy: 21.66 kJ/mol
+* Invalidated! pivots: [5, 6], dihedral: [2, 5, 6, 1], invalidation reason: Internal coordinate error; Internal coordinate error;
+""",
+)
