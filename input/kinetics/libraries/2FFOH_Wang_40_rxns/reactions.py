@@ -571,3 +571,39 @@ pivots: [2, 5], dihedral: [15, 2, 5, 6], rotor symmetry: 1, max scan energy: 21.
 * Invalidated! pivots: [5, 6], dihedral: [2, 5, 6, 1], invalidation reason: Internal coordinate error; Internal coordinate error;
 """,
 )
+
+entry(
+    index = 13,
+    label = "O2 + P2 <=> furfural + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.27303e-09,'cm^3/(mol*s)'), n=5.97992, Ea=(34.8552,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+Disproportionation reaction to form furfural
+TS method summary for TS0 in O2 + P2 <=> furfural + HO2:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O      -2.63938600    0.40475000    0.01698100
+C      -1.50270400    1.00834700    0.06668500
+C      -0.26729700    0.35621500    0.08909300
+C       1.03039500    0.83109400    0.16307000
+C       1.86501400   -0.30428400    0.17266700
+C       1.03686400   -1.38702200    0.10909800
+O      -0.24913200   -1.00649300    0.05632300
+H      -2.67992100   -0.53466600    0.47911200
+H      -1.52012600    2.09181700    0.09268400
+H       1.32036100    1.86661900    0.20457100
+H       2.93902600   -0.32999800    0.22181400
+H       1.21703700   -2.44704000    0.09432000
+O      -2.87329300   -1.82969900    1.04711700
+O      -2.84716400   -2.53599300    0.02617800
+
+
+No rotors considered for this TS.
+""",
+)
