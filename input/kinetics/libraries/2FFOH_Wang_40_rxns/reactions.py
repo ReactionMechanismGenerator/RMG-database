@@ -336,6 +336,7 @@ entry(
     kinetics = Arrhenius(A=(2.97926e-06,'cm^3/(mol*s)'), n=5.15884, Ea=(131.806,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
+Wang's rxn 12
 RXN O2 abstraction i site, not from Wang's table
 TS method summary for TS0 in O2 + furfuryl <=> HO2 + P2:
 Methods that successfully generated a TS guess:
@@ -539,6 +540,7 @@ entry(
     kinetics = Arrhenius(A=(3.48399e-10,'cm^3/(mol*s)'), n=6.12879, Ea=(25.3207,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
+Wang's rxn 16
 HO2 abs from i site of furfuryl
 TS method summary for TS0 in HO2 + furfuryl <=> H2O2 + P2:
 Methods that successfully generated a TS guess:
