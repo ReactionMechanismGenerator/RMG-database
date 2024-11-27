@@ -125,6 +125,10 @@ surface = {
     'Surface_Dissociation_Beta_vdW',
     'Surface_Abstraction_Beta_vdW',
     'Surface_Abstraction_Single_vdW',
+    #'Surface_Carbonate_Deposition',
+    #'Surface_Carbonate_F_CO_Decomposition',
+    #'Surface_Carbonate_2F_Decomposition',
+    #'Surface_Carbonate_CO_Decomposition'
 }
 
 # reaction families for halogen chemistry only
@@ -146,4 +150,23 @@ surface_development = {
     #'Surface_Adsorption_Double',
     'Surface_EleyRideal_Addition_Multiple_Bond',
     'Surface_Migration',
+}
+
+# Electrochemical families!
+electrochem = {
+    'Surface_Proton_Electron_Reduction_Alpha',
+    'Surface_Proton_Electron_Reduction_Alpha_vdW',
+    'Surface_Proton_Electron_Reduction_Beta',
+    'Surface_Proton_Electron_Reduction_Beta_vdW',
+    'Surface_Proton_Electron_Reduction_Beta_Dissociation',
+    '1,2_Elimination_LiR',
+    '1,2_Intra_Elimination_LiR',
+    'Cation_Addition_MultipleBond',
+    'Cation_NO_Substitution',
+    'Cation_NO_Ring_Opening',
+    'Cation_Li_Abstraction',
+    'Cation_R_Recombination',
+    'Cation_Addition_MultipleBond_Disprop',
+    'Li_Abstraction',
+    'R_Addition_MultipleBond_Disprop',
 }
