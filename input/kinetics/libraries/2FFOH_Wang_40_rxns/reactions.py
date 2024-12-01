@@ -609,3 +609,51 @@ O      -2.84716400   -2.53599300    0.02617800
 No rotors considered for this TS.
 """,
 )
+
+entry(
+    index = 14,
+    label = "R1_12f + furfuryl <=> P1 + P1_12f",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.79496e-06,'cm^3/(mol*s)'), n=4.50314, Ea=(0.223588,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    longDesc = 
+"""
+It's like Wang's 21 rxn but from P1 instead of P2
+TS method summary for TS0 in R1_12f + furfuryl <=> P1 + P1_12f:
+Methods that successfully generated a TS guess:
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+O       0.44656900   -0.20746600    1.72006700
+C      -0.24036500   -1.04497100    0.84187800
+C      -1.45886900   -0.39882500    0.27437700
+C      -2.11492100    0.74595600    0.57178700
+C      -3.22178700    0.81470900   -0.33720500
+C      -3.14467500   -0.29254100   -1.10566600
+O      -2.07260300   -1.04299400   -0.74650900
+H       0.88899000    0.70076700    1.05369100
+H       0.39808900   -1.40765900    0.02715600
+H      -0.51988500   -1.92335700    1.43698000
+H      -1.84367100    1.44183700    1.34596300
+H      -3.96922300    1.58542200   -0.40410700
+H      -3.74035100   -0.67646300   -1.91353000
+C       1.34600700    1.44006200    0.11184000
+C       2.44035200    1.01635700   -0.49190700
+C       3.16160300   -0.20426400   -0.14416600
+C       4.23822900   -0.62288200   -0.80146100
+H       0.74336800    2.31342800   -0.09361200
+H       2.85040700    1.60852100   -1.30955100
+H       2.77486600   -0.76537400    0.69951200
+H       4.63555800   -0.06506800   -1.64064300
+H       4.75363400   -1.53037000   -0.52125600
+
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [8, 1, 2, 3], invalidation reason: Another conformer for TS0 exists which is 3.44 kJ/mol lower.Another conformer for TS0 exists which is 3.44 kJ/mol lower.
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
+* Invalidated! pivots: [15, 16], dihedral: [14, 15, 16, 17], invalidation reason:
+""",
+)
+
