@@ -1542,3 +1542,240 @@ H      -2.14311500    0.26008000   -1.08160600
 H      -1.83717000   -0.45740000    1.53870800
 """,
 )
+
+entry(
+    index = 33,
+    label = "P11",
+    molecule = 
+"""
+multiplicity 2
+1  O u0 p2 c0 {4,S} {8,S}
+2  O u0 p2 c0 {4,S} {15,S}
+3  O u0 p2 c0 {5,S} {14,S}
+4  C u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+5  C u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
+6  C u0 p0 c0 {4,S} {7,D} {11,S}
+7  C u0 p0 c0 {6,D} {8,S} {12,S}
+8  C u1 p0 c0 {1,S} {7,S} {13,S}
+9  H u0 p0 c0 {5,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {8,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {2,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.81448,0.0109004,0.000200874,-4.02584e-07,2.39327e-10,-45165.9,13.0141], Tmin=(10,'K'), Tmax=(568.384,'K')),
+            NASAPolynomial(coeffs=[2.8493,0.0602501,-4.16738e-05,1.36354e-08,-1.68522e-12,-45743.6,11.0781], Tmin=(568.384,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-375.606,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (353.365,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C=C': 1, 'C-O': 4, 'C-C': 3, 'H-O': 2, 'C-H': 5}
+1D rotors:
+* Invalidated! pivots: [1, 2], dihedral: [9, 1, 2, 3], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+pivots: [3, 4], dihedral: [2, 3, 4, 12], rotor symmetry: 1, max scan energy: 27.68 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       2.29887600   -0.51801000   -0.65636600
+C       1.29326400   -0.93941400    0.24044300
+C       0.16079900    0.08837200    0.30312300
+O      -0.27113900    0.40331700   -0.97174300
+C      -0.96794000   -0.27833600    1.21068600
+C      -1.00607300    0.63065000    2.24173700
+C       0.01570300    1.53917100    2.05046500
+O       0.73053500    1.27727300    0.93862800
+H       2.73244900    0.24825400   -0.27256800
+H       1.68567600   -1.10926800    1.24692100
+H       0.89609500   -1.87753400   -0.14794300
+H       0.50359700    0.37631700   -1.54712600
+H      -1.63429800   -1.10214800    1.01649900
+H      -1.71025000    0.65924400    3.05793600
+H       0.31136700    2.40270600    2.62341200
+""",
+)
+
+entry(
+    index = 34,
+    label = "P420",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,D} {7,S}
+2  C u0 p0 c0 {1,S} {4,D} {6,S}
+3  C u0 p0 c0 {1,D} {5,S} {8,S}
+4  C u0 p0 c0 {2,D} {9,S} {10,S}
+5  O u0 p2 c0 {3,S} {11,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {1,S}
+8  H u0 p0 c0 {3,S}
+9  O u1 p2 c0 {4,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.96276,0.00251135,0.000134651,-2.72702e-07,1.80963e-10,-25064.3,10.882], Tmin=(10,'K'), Tmax=(386.558,'K')),
+            NASAPolynomial(coeffs=[-0.102713,0.0445745,-2.85496e-05,8.72193e-09,-1.02077e-12,-24750,26.632], Tmin=(386.558,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-208.398,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C=O': 1, 'C-C': 2, 'H-O': 1, 'C-H': 4, 'C=C': 1, 'C-O': 1}
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 11], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+
+
+External symmetry: 1, optical isomers: 1
+
+Geometry:
+O       1.56920500    0.92066400   -0.75018300
+C       1.62686500   -0.11658500   -0.07142200
+C       0.52794700   -0.86913100    0.41898600
+C      -0.83553300   -0.60904700    0.24636800
+C      -1.45066300    0.42567700   -0.43174500
+O      -0.88440500    1.40556800   -1.07186100
+H       2.62211400   -0.50596900    0.18513400
+H       0.79149400   -1.74808900    0.99455100
+H      -1.52414300   -1.30922500    0.70325000
+H      -2.53512700    0.46220200   -0.45759100
+H       0.12859600    1.31601100   -1.01144300
+""",
+)
+
+entry(
+    index = 35,
+    label = "P421",
+    molecule = 
+"""
+multiplicity 2
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2  C u0 p0 c0 {1,S} {4,D} {7,S}
+3  C u0 p0 c0 {1,S} {8,D} {9,S}
+4  C u0 p0 c0 {2,D} {10,S} {11,S}
+5  H u0 p0 c0 {1,S}
+6  H u0 p0 c0 {1,S}
+7  H u0 p0 c0 {2,S}
+8  O u0 p2 c0 {3,D}
+9  H u0 p0 c0 {3,S}
+10 O u1 p2 c0 {4,S}
+11 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89655,0.0280073,-5.66126e-07,-1.20556e-08,4.57104e-12,-18247.6,12.0948], Tmin=(10,'K'), Tmax=(1224.33,'K')),
+            NASAPolynomial(coeffs=[9.7565,0.0223848,-1.02451e-05,2.23603e-09,-1.89312e-13,-20696,-21.5011], Tmin=(1224.33,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-151.673,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (257.749,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C=O': 2, 'C-C': 3, 'C-H': 5}
+1D rotors:
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: 
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.61814100   -0.46025100   -1.46027800
+C       1.71757200    0.09182500   -0.37010900
+C       0.69363000    0.03409300    0.62143900
+C      -0.57183000   -0.69603200    0.38057700
+C      -1.50441700    0.14736800   -0.49153200
+O      -2.57408100    0.53790200   -0.13041000
+H       2.62170700    0.67098900   -0.11793900
+H       0.82355100    0.59081000    1.54165900
+H      -0.36300000   -1.60591000   -0.19146500
+H      -1.09147300   -0.93527700    1.30612300
+H      -1.10458800    0.37393100   -1.49787600
+""",
+)
+
+entry(
+    index = 36,
+    label = "P425",
+    molecule = 
+"""
+multiplicity 2
+1  O u0 p2 c0 {3,S} {11,S}
+2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+3  C u0 p0 c0 {1,S} {2,S} {8,S} {9,S}
+4  C u0 p0 c0 {2,S} {5,D} {10,S}
+5  C u1 p0 c0 {4,D} {12,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {3,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {4,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.87921,0.0108103,0.000200173,-6.93591e-07,7.69188e-10,7773.89,11.7363], Tmin=(10,'K'), Tmax=(285.039,'K')),
+            NASAPolynomial(coeffs=[2.90249,0.0389223,-2.35734e-05,7.02656e-09,-8.15129e-13,7771.04,14.1959], Tmin=(285.039,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (64.6609,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (274.378,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+Bond corrections: {'C-C': 2, 'H-O': 1, 'C-H': 6, 'C=C': 1, 'C-O': 1}
+1D rotors:
+pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 13.74 kJ/mol
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.Significant difference observed between consecutive conformers But unable to propose troubleshooting methods.
+pivots: [4, 5], dihedral: [3, 4, 5, 12], rotor symmetry: 1, max scan energy: 13.72 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C       1.98221400    0.75908200    0.37525300
+C       1.12396500    0.02722000   -0.28023200
+C       0.00154200   -0.77021200    0.32706600
+C       0.33456600   -2.26214400    0.34080100
+O       1.42134800   -2.56441700    1.18161200
+H       2.83768700    1.37796100    0.15102000
+H       1.24385600   -0.06765200   -1.36474500
+H      -0.91099100   -0.61729300   -0.25535600
+H      -0.18604000   -0.43767300    1.34876900
+H       0.52250900   -2.60749700   -0.68554800
+H      -0.51737400   -2.82327700    0.72689800
+H       2.13737100   -1.95757800    0.97426300
+""",
+)
+
+
