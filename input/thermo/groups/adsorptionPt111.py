@@ -242,7 +242,7 @@ entry(
 1 * X u0 p0 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
 3 O  u0 p2 c0 {2,S} {4,S}
-4 R  u0 p0 c0 {3,S}
+4 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
