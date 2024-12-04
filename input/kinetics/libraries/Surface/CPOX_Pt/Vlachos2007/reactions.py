@@ -30,7 +30,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R1"""
+    longDesc = u"""R1""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R1
@@ -45,7 +46,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R2"""
+#    longDesc = u"""R2""",
+#    metal = "Pt",
 #)
 
 
@@ -60,7 +62,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R3"""
+    longDesc = u"""R3""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R3
@@ -75,7 +78,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R4"""
+#    longDesc = u"""R4""",
+#    metal = "Pt",
 #)
 
 
@@ -92,7 +96,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R5"""
+    longDesc = u"""R5""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R5
@@ -107,7 +112,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R6"""
+#    longDesc = u"""R6""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -121,7 +127,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R7. CO2X is vdW CO2."""
+    longDesc = u"""R7. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 
@@ -137,7 +144,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R8. CO2X is vdW CO2."""
+#    longDesc = u"""R8. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R10
@@ -152,7 +160,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R9. CO2X is vdW CO2."""
+#    longDesc = u"""R9. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -166,7 +175,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R10. CO2X is vdW CO2."""
+    longDesc = u"""R10. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 
@@ -182,7 +192,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R11"""
+    longDesc = u"""R11""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R11
@@ -197,7 +208,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R12"""
+#    longDesc = u"""R12""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R14
@@ -212,7 +224,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R13"""
+#    longDesc = u"""R13""",
+#    metal = "Pt",
 #)
 
 
@@ -227,7 +240,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R14"""
+    longDesc = u"""R14""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R16
@@ -242,7 +256,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R15. H2OX is vdW H2O."""
+#    longDesc = u"""R15. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -256,7 +271,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R16. H2OX is vdW H2O."""
+    longDesc = u"""R16. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 entry(
@@ -270,7 +286,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R17. H2OX is vdW H2O."""
+    longDesc = u"""R17. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 
@@ -286,7 +303,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R18. H2OX is vdW H2O."""
+#    longDesc = u"""R18. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -300,7 +318,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R19"""
+    longDesc = u"""R19""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R19
@@ -315,7 +334,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R20"""
+#    longDesc = u"""R20""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -329,7 +349,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R21. H2OX is vdW H2O."""
+    longDesc = u"""R21. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R21
@@ -344,7 +365,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R22. H2OX is vdW H2O."""
+#    longDesc = u"""R22. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -358,7 +380,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R23"""
+    longDesc = u"""R23""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R23
@@ -373,7 +396,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R24"""
+#    longDesc = u"""R24""",
+#    metal = "Pt",
 #)
 
 
@@ -389,7 +413,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R25. CO2X is vdW CO2."""
+    longDesc = u"""R25. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R25
@@ -404,7 +429,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R26. CO2X is vdW CO2."""
+#    longDesc = u"""R26. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -418,7 +444,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R27"""
+    longDesc = u"""R27""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R27
@@ -433,7 +460,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R28"""
+#    longDesc = u"""R28""",
+#    metal = "Pt",
 #)
 
 
@@ -448,7 +476,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R29"""
+    longDesc = u"""R29""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R29
@@ -463,7 +492,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R30"""
+#    longDesc = u"""R30""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -477,7 +507,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R31. CO2X is vdW CO2."""
+    longDesc = u"""R31. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R31
@@ -492,7 +523,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R32. CO2X is vdW CO2."""
+#    longDesc = u"""R32. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R34
@@ -507,7 +539,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R33. H2OX is vdW H2O."""
+#    longDesc = u"""R33. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 
@@ -522,7 +555,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R34. H2OX is vdW H2O."""
+    longDesc = u"""R34. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R36
@@ -537,7 +571,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R35. CO2X is vdW CO2."""
+#    longDesc = u"""R35. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -551,7 +586,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R36. CO2X is vdW CO2."""
+    longDesc = u"""R36. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R38
@@ -566,7 +602,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R37. CO2X is vdW CO2 and H2OX is vdW H2O."""
+#    longDesc = u"""R37. CO2X is vdW CO2 and H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -580,7 +617,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R38. CO2X is vdW CO2 and H2OX is vdW H2O."""
+    longDesc = u"""R38. CO2X is vdW CO2 and H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 entry(
@@ -594,7 +632,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R39"""
+    longDesc = u"""R39""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R39
@@ -609,7 +648,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R40"""
+#    longDesc = u"""R40""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R42
@@ -624,7 +664,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R41"""
+#    longDesc = u"""R41""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -638,7 +679,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R42"""
+    longDesc = u"""R42""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R44
@@ -653,7 +695,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R43. CO2X is vdW CO2."""
+#    longDesc = u"""R43. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -667,7 +710,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R44. CO2X is vdW CO2."""
+    longDesc = u"""R44. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R46
@@ -682,7 +726,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R45. CO2X is vdW CO2 and H2OX is vdW H2O."""
+#    longDesc = u"""R45. CO2X is vdW CO2 and H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -696,7 +741,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R46. CO2X is vdW CO2."""
+    longDesc = u"""R46. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 #CH4 Oxidation and Reforming on Platinum
@@ -711,7 +757,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R47"""
+    longDesc = u"""R47""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R47
@@ -726,7 +773,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R48"""
+#    longDesc = u"""R48""",
+#    metal = "Pt",
 #)
 
 
@@ -741,7 +789,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R49"""
+    longDesc = u"""R49""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R49
@@ -756,7 +805,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R50"""
+#    longDesc = u"""R50""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -770,7 +820,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R51"""
+    longDesc = u"""R51""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R51
@@ -785,7 +836,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R52"""
+#    longDesc = u"""R52""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -799,7 +851,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R53"""
+    longDesc = u"""R53""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R53
@@ -814,7 +867,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R54"""
+#    longDesc = u"""R54""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -828,7 +882,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R55"""
+    longDesc = u"""R55""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R55
@@ -843,7 +898,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R56"""
+#    longDesc = u"""R56""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R58
@@ -858,7 +914,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R57"""
+#    longDesc = u"""R57""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -872,7 +929,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R58"""
+    longDesc = u"""R58""",
+    metal="Pt",
 )
 
 entry(
@@ -886,7 +944,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R59"""
+    longDesc = u"""R59""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R59
@@ -901,7 +960,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R60"""
+#    longDesc = u"""R60""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R62
@@ -916,7 +976,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R61"""
+#    longDesc = u"""R61""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -930,7 +991,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R62"""
+    longDesc = u"""R62""",
+    metal="Pt",
 )
 
 entry(
@@ -944,7 +1006,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R63"""
+    longDesc = u"""R63""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R63
@@ -959,7 +1022,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R64"""
+#    longDesc = u"""R64""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R66
@@ -974,7 +1038,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R65"""
+#    longDesc = u"""R65""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -988,7 +1053,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R66"""
+    longDesc = u"""R66""",
+    metal="Pt",
 )
 
 entry(
@@ -1002,7 +1068,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R67"""
+    longDesc = u"""R67""",
+    metal="Pt",
 )
 
 #reverse of R67
@@ -1017,7 +1084,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R68"""
+#    longDesc = u"""R68""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R70
@@ -1032,7 +1100,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R69. H2OX is vdW H2O."""
+#    longDesc = u"""R69. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1046,7 +1115,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R70. H2OX is vdW H2O."""
+    longDesc = u"""R70. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R72
@@ -1061,7 +1131,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R71. H2OX is vdW H2O."""
+#    longDesc = u"""R71. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1075,7 +1146,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R72. H2OX is vdW H2O."""
+    longDesc = u"""R72. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 entry(
@@ -1089,7 +1161,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R73. H2OX is vdW H2O."""
+    longDesc = u"""R73. H2OX is vdW H2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R73
@@ -1104,7 +1177,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R74. H2OX is vdW H2O."""
+#    longDesc = u"""R74. H2OX is vdW H2O.""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R76
@@ -1119,7 +1193,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R75"""
+#    longDesc = u"""R75""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1133,7 +1208,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R76"""
+    longDesc = u"""R76""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R78
@@ -1148,7 +1224,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R77"""
+#    longDesc = u"""R77""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1162,7 +1239,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R78"""
+    longDesc = u"""R78""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R80
@@ -1177,7 +1255,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R79"""
+#    longDesc = u"""R79""",
+#    metal = "Pt",
 #)
 
 
@@ -1193,7 +1272,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R80"""
+    longDesc = u"""R80""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R82
@@ -1208,7 +1288,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R81. CO2X is vdW CO2."""
+#    longDesc = u"""R81. CO2X is vdW CO2.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1222,7 +1303,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R82. CO2X is vdW CO2."""
+    longDesc = u"""R82. CO2X is vdW CO2.""",
+    metal="Pt",
 )
 
 #Oxygenates Decomposition on Platinum
@@ -1237,7 +1319,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R83. CH3OHX is vdW CH3OH."""
+    longDesc = u"""R83. CH3OHX is vdW CH3OH.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R83
@@ -1252,7 +1335,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R84. CH3OHX is vdW CH3OH."""
+#    longDesc = u"""R84. CH3OHX is vdW CH3OH.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1266,7 +1350,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R85"""
+    longDesc = u"""R85""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R85
@@ -1281,7 +1366,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R86"""
+#    longDesc = u"""R86""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1295,7 +1381,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R87. CH2OX is vdW CH2O."""
+    longDesc = u"""R87. CH2OX is vdW CH2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R87
@@ -1310,7 +1397,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R88. CH2OX is vdW CH2O."""
+#    longDesc = u"""R88. CH2OX is vdW CH2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1324,7 +1412,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R89"""
+    longDesc = u"""R89""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R89
@@ -1339,7 +1428,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R90"""
+#    longDesc = u"""R90""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1353,7 +1443,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R91"""
+    longDesc = u"""R91""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R91
@@ -1368,7 +1459,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R92"""
+#    longDesc = u"""R92""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R94
@@ -1383,7 +1475,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R93. CH3OHX is vdW CH3OH."""
+#    longDesc = u"""R93. CH3OHX is vdW CH3OH.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1397,7 +1490,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R94. CH3OHX is vdW CH3OH."""
+    longDesc = u"""R94. CH3OHX is vdW CH3OH.""",
+    metal="Pt",
 )
 
 entry(
@@ -1411,7 +1505,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R95. CH2OX is vdW CH2O."""
+    longDesc = u"""R95. CH2OX is vdW CH2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R95
@@ -1426,7 +1521,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R96. CH2OX is vdW CH2O."""
+#    longDesc = u"""R96. CH2OX is vdW CH2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1440,7 +1536,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R97. CH2OX is vdW CH2O."""
+    longDesc = u"""R97. CH2OX is vdW CH2O.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R97
@@ -1455,7 +1552,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R98. CH2OX is vdW CH2O."""
+#    longDesc = u"""R98. CH2OX is vdW CH2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1469,7 +1567,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R99"""
+    longDesc = u"""R99""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R99
@@ -1484,7 +1583,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R100"""
+#    longDesc = u"""R100""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1498,7 +1598,8 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R101. CH3OHX is vdW CH3OH."""
+    longDesc = u"""R101. CH3OHX is vdW CH3OH.""",
+    metal="Pt",
 )
 
 #endothermic - reverse of R101
@@ -1513,7 +1614,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R102. CH3OHX is vdW CH3OH."""
+#    longDesc = u"""R102. CH3OHX is vdW CH3OH.""",
+#    metal = "Pt",
 #)
 
 #endothermic - reverse of R104
@@ -1528,7 +1630,8 @@ entry(
 #        Tmax = (3000, 'K'),
 #    ),
 #    shortDesc = u"""Default""",
-#    longDesc = u"""R103. CH2OX is vdW CH2O."""
+#    longDesc = u"""R103. CH2OX is vdW CH2O.""",
+#    metal = "Pt",
 #)
 
 entry(
@@ -1542,5 +1645,6 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
-    longDesc = u"""R104. CH2OX is vdW CH2O."""
+    longDesc = u"""R104. CH2OX is vdW CH2O.""",
+    metal="Pt",
 )
