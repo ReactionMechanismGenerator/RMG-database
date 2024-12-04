@@ -4,13 +4,14 @@
 name = "Vlachos_Pt"
 shortDesc = u""
 longDesc = u"""
-test surface mechanism: based upon D.G. Vlachos' work:
-"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, Reforming, and Combustion, and for Oxygenate Decomposition and Oxidation on Platinum"
+Surface mechanism: based upon D.G. Vlachos' work:
+"A Catalytic Reaction Mechanism for Methane Partial Oxidation at Short Contact Times, Reforming, and Combustion, and for
+Oxygenate Decomposition and Oxidation on Platinum"
 Mhadeshwar and Vlachos
 Ind. Eng. Chem. Res., 2007, 46, 5310-5324
 
-Note: The pre-exponential values are for surface coverage 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). 
-The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface coverage)^(n-1)*(300K)^b), where n is the
+Note: The pre-exponential values are determined using a surface site density of 2.72E-5 mol/m2 (same as in the Deutschmann 2006 mechanism). 
+The pre-exponenitals listed here are calculated as follows: A = A_from_paper/(surface site density)^(n-1)*(300K)^b), where n is the
 order of reaction and b is the given temperature exponent. 
 For sticking coefficients, A = sticking_coefficient_from_paper/(300K)^b.
 The activation energy is for 300K and does not include coverage or temperature dependence terms. 
