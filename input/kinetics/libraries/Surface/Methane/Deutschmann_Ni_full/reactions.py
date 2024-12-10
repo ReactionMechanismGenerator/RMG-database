@@ -163,7 +163,7 @@ entry(
         Ea=(157900., 'J/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
-        coverage_dependence = {'OCX': {'a': 0.0, 'm': 0.0, 'E': (-120000, 'J/mol')}},
+        coverage_dependence = {'CX': {'a': 0.0, 'm': 0.0, 'E': (-120000, 'J/mol')}},
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
