@@ -11,7 +11,7 @@ entry(
     index = 0,
     label = "OCC1=CC=CO1 <=> O1C[C]C=C1CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.42e+11,'1/s'), n=0.57, Ea=(69322,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.42e+11,'1/s'), n=0.57, Ea=(69322,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -19,7 +19,7 @@ entry(
     index = 1,
     label = "OCC1=CC=CO1 <=> OCC1=CC[C]O1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.88e+10,'1/s'), n=0.85, Ea=(65028,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.88e+10,'1/s'), n=0.85, Ea=(65028,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
    
 )
 
@@ -27,7 +27,7 @@ entry(
     index = 2,
     label = "OCC1=CC=CO1 <=> OCC1[C]C=CO1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.83e+07,'1/s'), n=1.62, Ea=(67537,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(2.83e+07,'1/s'), n=1.62, Ea=(67537,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -35,7 +35,7 @@ entry(
     index = 3,
     label = "OCC1=CC=CO1 <=> OCC1[C]OC=C1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.09e+08,'1/s'), n=1.02, Ea=(73630,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.09e+08,'1/s'), n=1.02, Ea=(73630,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -43,7 +43,7 @@ entry(
     index = 4,
     label = "OCC1=CC=CO1 <=> O=CC=CC=CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.86e+09,'1/s'), n=1.1, Ea=(75842,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(2.86e+09,'1/s'), n=1.1, Ea=(75842,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -52,7 +52,7 @@ entry(
 #     index = 5,
 #     label = "O1C[C]C=C1CO <=> OCC1=CC=CO1",
 #     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(5.71e+11,'1/s'), n=0.36, Ea=(11916,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+#     kinetics = Arrhenius(A=(5.71e+11,'1/s'), n=0.36, Ea=(11916,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 # )
 
@@ -60,7 +60,7 @@ entry(
     index = 6,
     label = "O1C[C]C=C1CO <=> C=C=CC(=O)CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.16e+10,'1/s'), n=0.3, Ea=(428,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.16e+10,'1/s'), n=0.3, Ea=(428,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -69,7 +69,7 @@ entry(
 #     index = 7,
 #     label = "C=C=CC(=O)CO <=> O1C[C]C=C1CO",
 #     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(1.8e+15,'1/s'), n=-0.96, Ea=(37201,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+#     kinetics = Arrhenius(A=(1.8e+15,'1/s'), n=-0.96, Ea=(37201,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 # )
 
@@ -77,7 +77,7 @@ entry(
     index = 8,
     label = "C=C=CC(=O)CO <=> C=C=CCO + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.4e+14,'1/s'), n=0.51, Ea=(92740,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(5.4e+14,'1/s'), n=0.51, Ea=(92740,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -85,7 +85,7 @@ entry(
     index = 9,
     label = "C=C=CC(=O)CO <=> C#CCCO + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.65e+16,'1/s'), n=-0.81, Ea=(86328,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(2.65e+16,'1/s'), n=-0.81, Ea=(86328,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -93,7 +93,7 @@ entry(
     index = 10,
     label = "C=C=CC(=O)CO <=> O=C=CO + C=C=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5e+13,'1/s'), n=-0.11, Ea=(68683,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(1.5e+13,'1/s'), n=-0.11, Ea=(68683,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -101,7 +101,7 @@ entry(
     index = 11,
     label = "C=C=CC(=O)CO <=> O=C=CO + C#CC",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.46e+13,'1/s'), n=-0.52, Ea=(58922,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(1.46e+13,'1/s'), n=-0.52, Ea=(58922,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -109,7 +109,7 @@ entry(
     index = 12,
     label = "C=C=CC(=O)CO <=> C#CCO + O=C=C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.37e+13,'1/s'), n=-0.46, Ea=(84702,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(4.37e+13,'1/s'), n=-0.46, Ea=(84702,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -118,7 +118,7 @@ entry(
 #     index = 13,
 #     label = "OCC1=CC[C]O1 <=> OCC1=CC=CO1",
 #     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(3.99e+11,'1/s'), n=0.38, Ea=(10103,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+#     kinetics = Arrhenius(A=(3.99e+11,'1/s'), n=0.38, Ea=(10103,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 # )
 
@@ -126,7 +126,7 @@ entry(
     index = 14,
     label = "OCC1=CC[C]O1 <=> O=C=C + OCC#C",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.04e+11,'1/s'), n=0.85, Ea=(30834,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.04e+11,'1/s'), n=0.85, Ea=(30834,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -135,7 +135,7 @@ entry(
 #     index = 15,
 #     label = "OCC1[C]C=CO1 <=> OCC1=CC=CO1",
 #     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(5.77e+13,'1/s'), n=-0.16, Ea=(10764,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+#     kinetics = Arrhenius(A=(5.77e+13,'1/s'), n=-0.16, Ea=(10764,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 # )
 
@@ -143,7 +143,7 @@ entry(
     index = 16,
     label = "OCC1[C]C=CO1 <=> O=CC=C=CCO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.01e+15,'1/s'), n=-0.4, Ea=(2480,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(1.01e+15,'1/s'), n=-0.4, Ea=(2480,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -152,7 +152,7 @@ entry(
 #     index = 17,
 #     label = "O=CC=C=CCO <=> OCC1[C]C=CO1",
 #     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(2.61e+07,'1/s'), n=1.14, Ea=(30068,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+#     kinetics = Arrhenius(A=(2.61e+07,'1/s'), n=1.14, Ea=(30068,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 # )
 
@@ -160,7 +160,7 @@ entry(
     index = 18,
     label = "O=CC=C=CCO <=> C#CCCO + CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.86e+07,'1/s'), n=1.65, Ea=(43984,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(5.86e+07,'1/s'), n=1.65, Ea=(43984,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -168,7 +168,7 @@ entry(
     index = 19,
     label = "O=CC=C=CCO <=> O=CC=C=C=C + O",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.03e+07,'1/s'), n=1.46, Ea=(63881,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(4.03e+07,'1/s'), n=1.46, Ea=(63881,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -177,7 +177,7 @@ entry(
 #     index = 20,
 #     label = "OCC1[C]OC=C1 <=> OCC1=CC=CO1",
 #     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(2.96e+13,'1/s'), n=-0.5, Ea=(17187,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+#     kinetics = Arrhenius(A=(2.96e+13,'1/s'), n=-0.5, Ea=(17187,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 # )
 
@@ -185,7 +185,7 @@ entry(
     index = 21,
     label = "OCC1[C]OC=C1 <=> O1C=CC(CO)=C1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.83e+13,'1/s'), n=-0.07, Ea=(8993,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(2.83e+13,'1/s'), n=-0.07, Ea=(8993,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
@@ -193,7 +193,7 @@ entry(
     index = 22,
     label = "O=CC=CC=CO <=> O1C=CC=CC1(O)",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.73e+09,'1/s'), n=0.41, Ea=(13573,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.73e+09,'1/s'), n=0.41, Ea=(13573,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
