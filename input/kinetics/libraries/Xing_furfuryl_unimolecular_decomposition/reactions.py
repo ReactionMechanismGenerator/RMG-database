@@ -60,7 +60,7 @@ entry(
     index = 6,
     label = "O1C[C]C=C1CO <=> C=C=CC(=O)CO",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.16e+10,'1/s'), n=0.3, Ea=(428,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    kinetics = Arrhenius(A=(3.16e+10,'1/s'), n=0.73, Ea=(428,'cal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     
 )
 
