@@ -169,42 +169,82 @@ entry(
     index = 3,
     label = "HO2 + furfuryl <=> H2O2 + P1",
     degeneracy = 1.0,
-    kinetics = Arrhenius(A=(0.349419,'cm^3/(mol*s)'), n=3.75817, Ea=(132.022,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    kinetics = Arrhenius(A=(8.93382e-05,'cm^3/(mol*s)'), n=4.67884, Ea=(81.8086,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
-RXN_7c ,Wang's rxn 29
+RXN_7f ,Wang's rxn 29
 TS method summary for TS0 in HO2 + furfuryl <=> H2O2 + P1:
 Methods that successfully generated a TS guess:
-user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
-The method that generated the best TS guess and its output used for the optimization: heuristics
+user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,
+The method that generated the best TS guess and its output used for the optimization: autotst
 
 
 TS external symmetry: 1, TS optical isomers: 2
 
 Optimized TS geometry:
-O      -0.49040200   -1.58985400   -3.02708500
-C      -1.38625300   -1.59310600   -1.93130400
-C      -0.77862000   -1.07268100   -0.68046500
-C      -0.42432600   -1.61769900    0.50489800
-C       0.14393100   -0.56723000    1.31144200
-C       0.07212600    0.51463400    0.51218500
-O      -0.46724900    0.26914500   -0.67654300
-H      -0.20598700   -0.68650200   -3.19019400
-H      -2.28871200   -1.02157500   -2.16869900
-H      -1.67544400   -2.62882900   -1.76527000
-H      -0.54504400   -2.65057000    0.78396100
-H       0.53128000   -0.61342900    2.31225000
-H       0.56649900    1.87694400    0.91216300
-O       1.06975700    2.70242200    1.34046300
-O       1.69367900    2.14941800    2.46101500
-H       2.59482700    1.99714100    2.14923500
+O      -1.21743900   -0.09493900    1.41891100
+O       1.94094500    0.63433400   -0.17892100
+O       1.92957000   -2.12501900   -1.05402900
+O       1.96071700   -1.00878400   -1.86629800
+C       1.09317500    0.09260200    0.73623000
+C      -0.34300600    0.39386200    0.50589300
+C      -1.00039100    1.06226400   -0.46970500
+C      -2.38929300    0.98211100   -0.13336100
+C      -2.45774300    0.27287700    1.01511500
+H       1.41379400    0.41297900    1.74181400
+H       1.24277600   -1.00965800    0.76299400
+H      -0.54596000    1.54429100   -1.31686300
+H      -3.22025100    1.39673800   -0.67598600
+H      -3.27135100   -0.04130600    1.64310800
+H       2.00050200   -0.16123700   -1.18398800
+H       2.86395700   -2.35122000   -0.94511300
 
 1D rotors:
-pivots: [1, 2], dihedral: [8, 1, 2, 3], rotor symmetry: 1, max scan energy: 9.94 kJ/mol
-pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.96 kJ/mol
-pivots: [14, 15], dihedral: [13, 14, 15, 16], rotor symmetry: 2, max scan energy: 32.37 kJ/mol
+* Invalidated! pivots: [4, 5], dihedral: [16, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
+pivots: [5, 6], dihedral: [4, 5, 6, 1], rotor symmetry: 1, max scan energy: 9.19 kJ/mol
 """,
 )
+# OLD RUN 7C (not good TS)
+# entry(
+#     index = 3,
+#     label = "HO2 + furfuryl <=> H2O2 + P1",
+#     degeneracy = 1.0,
+#     kinetics = Arrhenius(A=(0.349419,'cm^3/(mol*s)'), n=3.75817, Ea=(132.022,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+#     longDesc = 
+# """
+# RXN_7c ,Wang's rxn 29
+# TS method summary for TS0 in HO2 + furfuryl <=> H2O2 + P1:
+# Methods that successfully generated a TS guess:
+# user guess 0,autotst,autotst,autotst,autotst,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,heuristics,
+# The method that generated the best TS guess and its output used for the optimization: heuristics
+
+
+# TS external symmetry: 1, TS optical isomers: 2
+
+# Optimized TS geometry:
+# O      -0.49040200   -1.58985400   -3.02708500
+# C      -1.38625300   -1.59310600   -1.93130400
+# C      -0.77862000   -1.07268100   -0.68046500
+# C      -0.42432600   -1.61769900    0.50489800
+# C       0.14393100   -0.56723000    1.31144200
+# C       0.07212600    0.51463400    0.51218500
+# O      -0.46724900    0.26914500   -0.67654300
+# H      -0.20598700   -0.68650200   -3.19019400
+# H      -2.28871200   -1.02157500   -2.16869900
+# H      -1.67544400   -2.62882900   -1.76527000
+# H      -0.54504400   -2.65057000    0.78396100
+# H       0.53128000   -0.61342900    2.31225000
+# H       0.56649900    1.87694400    0.91216300
+# O       1.06975700    2.70242200    1.34046300
+# O       1.69367900    2.14941800    2.46101500
+# H       2.59482700    1.99714100    2.14923500
+
+# 1D rotors:
+# pivots: [1, 2], dihedral: [8, 1, 2, 3], rotor symmetry: 1, max scan energy: 9.94 kJ/mol
+# pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 11.96 kJ/mol
+# pivots: [14, 15], dihedral: [13, 14, 15, 16], rotor symmetry: 2, max scan energy: 32.37 kJ/mol
+# """,
+# )
 
 entry(
     index = 4,
