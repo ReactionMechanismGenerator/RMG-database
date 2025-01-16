@@ -544,6 +544,13 @@ atom_energies = {
         "C": -37.788504810868 + SOC["C"],
         "S": -397.666903000231 + SOC["S"],
     },
+    "LevelOfTheory(method='ccsd(t)f12',basis='augccpvtzf12',software='molpro')": {
+        'H': -0.499809811302 + SOC["H"],
+        'N': -54.51301792591 + SOC["N"],
+        'O': -74.970882177931 + SOC["O"],
+        'C': -37.776086428513 + SOC["C"],
+        'S': -397.649699183441 + SOC["S"],
+    },
     "LevelOfTheory(method='ccsd(t)f12',basis='augccpvqz',software='molpro')": {
         "H": -0.499949526073 + SOC["H"],
         "N": -54.529569719016 + SOC["N"],
