@@ -36,6 +36,7 @@ entry(
     index = 0,
     label = "furan + OHCH2 <=> rad1",
     degeneracy = 1.0,
+    elementary_high_p = True,
     kinetics = Arrhenius(A=(1.41514,'cm^3/(mol*s)'), n=3.14438, Ea=(24.1471,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
