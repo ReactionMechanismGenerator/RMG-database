@@ -460,7 +460,8 @@ entry(
 
 entry(
     index=45,
-    label="H2 + O2 <=> O + H2O",
+    label="H2 + O2 => O + H2O",
+    reversible = False,
     kinetics=Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(69545, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Konnov2015]""",
     longDesc=u"""Table 2, Reaction X2""",
@@ -468,7 +469,8 @@ entry(
 
 entry(
     index=46,
-    label="H2 + O2 + O2 <=> HO2 + HO2",
+    label="H2 + O2 + O2 => HO2 + HO2",
+    reversible = False,
     kinetics=Arrhenius(A=(2e+17, 'cm^6/(mol^2*s)'), n=0, Ea=(25830, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Konnov2015]""",
     longDesc=u"""Table 2, Reaction X3""",
