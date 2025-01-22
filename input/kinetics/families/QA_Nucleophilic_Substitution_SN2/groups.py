@@ -124,12 +124,44 @@ group(
 26   H u0 p0 c0 {25,S}
 27   H u0 p0 c0 {25,S}
 28   H u0 p0 c0 {25,S}
-
 """,
     kinetics=None,
 )
 
 #C6H5-CH2-(N+)R2-CH3 adjacency
+group(
+    index = 5,
+    label="C6H5-CH2-(N+)R2-CH3", 
+    group=
+"""
+1 *2 N u0 p1 c+1 {2,S} {3,S} {4,S} {5,S}
+2 *1 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+3    R u0 p0 c0 {1,S}
+4    R u0 p0 c0 {1,S}
+5    C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+6    H u0 p0 c0 {2,S}
+7    H u0 p0 c0 {2,S}
+8    H u0 p0 c0 {2,S}
+9    H u0 p0 c0 {5,S}
+10   H u0 p0 c0 {5,S}
+11   H u0 p0 c0 {5,S}
+12   C u0 p0 c0 {13,B} {14,B} {15,S}
+13   C u0 p0 c0 {12,B} {16,B} {17,S}
+14   C u0 p0 c0 {12,B} {18,B} {19,S}
+15   H u0 p0 c0 {12,S}
+16   C u0 p0 c0 {13,B} {20,B} {21,S}
+17   H u0 p0 c0 {13,S}
+18   C u0 p0 c0 {14,B} {22,B} {23,S}
+19   H u0 p0 c0 {14,S}
+20   C u0 p0 c0 {16,B} {22,B} {24,S}
+21   H u0 p0 c0 {16,S}
+22   C u0 p0 c0 {18,B} {20,B} {25,S}
+23   H u0 p0 c0 {18,S}
+24   H u0 p0 c0 {20,S}
+25   H u0 p0 c0 {22,S}
+""",
+    kinetics=None,
+)
 
 tree(
 """
