@@ -80,6 +80,11 @@ jobs:
           mamba info
           mamba list
 
+      - name: Make libtiff Symlink to Avoid Runner Bug
+        run: | # This action may need to be removed/adjusted in future runs.
+          if [ ! -f /usr/lib/x86_64-linux-gnu/libtiff.so.5 ] && [ -f /usr/lib/x86_64-linux-gnu/libtiff.so.6 ]; then sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gnu/libtiff.so.5; fi
+          find /usr/lib -name libtiff*
+
       # modify env variables as directed in the RMG installation instructions
       - name: Set Environment Variables
         run: |
