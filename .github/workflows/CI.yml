@@ -80,6 +80,11 @@ jobs:
           mamba info
           mamba list
 
+      - name: Make libtiff Symlink to Avoid Runner Bug
+        run: | # This action may need to be removed/adjusted in future runs.
+          if [ ! -f /usr/lib/x86_64-linux-gnu/libtiff.so.5 ] && [ -f /usr/lib/x86_64-linux-gnu/libtiff.so.6 ]; then sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gnu/libtiff.so.5; fi
+          find /usr/lib -name libtiff*
+
       # modify env variables as directed in the RMG installation instructions
       - name: Set Environment Variables
         run: |
@@ -130,7 +135,7 @@ jobs:
       # Upload Regression Results as Failed if above step failed
       - name: Upload Failed Results
         if: ${{ failure() && steps.regression-execution.conclusion == 'failure' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: failed_regression_results
           path: |
@@ -139,7 +144,7 @@ jobs:
       # Upload Regression Results as Dynamic if Push to non-main Branch
       - name: Upload Results as Dynamic
         if: ${{ env.REFERENCE_JOB == 'false' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dynamic_regression_results
           path: |
@@ -269,14 +274,14 @@ jobs:
 
       - name: Upload regression summary artifact
        # the annotate workflow uses this artifact to add a comment to the PR
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if : ${{ github.event_name == 'pull_request' }}
         with:
           name: regression_summary
           path: RMG-Py/summary.txt
 
       - name: Upload Comparison Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: regression_test_comparison_results
           path: |
