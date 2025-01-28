@@ -54,8 +54,8 @@ jobs:
       - name: Checkout RMG-Py
         uses: actions/checkout@v4
         with:
-          repository: ReactionMechanismGenerator/RMG-Py
-          ref: ${{ env.RMG_PY_BRANCH }}
+          repository: 12Chao/RMG-Py
+          ref: cov_dep_therm
           path: RMG-Py
 
       - name: Checkout RMG-database
