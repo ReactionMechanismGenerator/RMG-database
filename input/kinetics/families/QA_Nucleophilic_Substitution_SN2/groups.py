@@ -28,8 +28,8 @@ allowChargedSpecies = True
 
 
 recipe(actions=[
-    ['FORM_BOND', '*1', 1, '*2'],
-    ['BREAK_BOND', '*1', 1, '*3'],
+    ['BREAK_BOND', '*1', 1, '*2'],
+    ['FORM_BOND', '*1', 1, '*3'],
     ['LOSE_PAIR', '*3', '1'],
     ['GAIN_PAIR', '*2', '1'],
    
@@ -93,7 +93,7 @@ entry(
 
 entry(
     index = 4,
-    label="C6H5-CH2-(N+)(CH3)3)", #TMBA
+    label="C6H5-CH2-(N+)(CH3)3", #TMBA
     group=
 """
 1 *2 N u0 p0 c+1 {2,S} {7,S} {8,S} {9,S}
@@ -126,7 +126,7 @@ entry(
     label="C6H5-CH2-(N+)R2-CH3", 
     group=
 """
-1 *2 N u0 p1 c+1 {2,S} {3,S} {4,S} {5,S}
+1 *2 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 *1 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 3    R u0 p0 c0 {1,S}
 4    R u0 p0 c0 {1,S}
@@ -219,7 +219,7 @@ tree(
 """
 L1: R-CH2-(N+)R2-CH3
     L2: C6H5-CH2-(N+)R2-CH3
-        L3: C6H5-CH2-(N+)(CH3)3)
+        L3: C6H5-CH2-(N+)(CH3)3
         L3: C6H5-CH2-(N+)(CH2CH3)3
 """
 )
