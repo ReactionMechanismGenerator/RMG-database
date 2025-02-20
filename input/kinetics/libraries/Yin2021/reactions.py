@@ -149,12 +149,12 @@ entry(
     ),
 ),
 
-entry(
-    index=15,
-    label="HOCHO + OH <=> H + HCO(OH)2",
-    degeneracy=1,
-    kinetics=Arrhenius(A=(7.46E+07, 'cm^3/(mol*s)'), n=1.36, Ea=(1421.0, 'cal/mol'), T0=(1, 'K')),
-),
+# entry(
+#     index=15,
+#     label="HOCHO + OH <=> HCO(OH)2", ########### Yin is not balanced ##########
+#     degeneracy=1,
+#     kinetics=Arrhenius(A=(7.46E+07, 'cm^3/(mol*s)'), n=1.36, Ea=(1421.0, 'cal/mol'), T0=(1, 'K')),
+# ),
 
 entry(
     index=16,
