@@ -407,3 +407,25 @@ entry(
 
 """,
 )
+
+entry(
+    index = 21,
+    label = "Fe110",
+    bindingEnergies = {
+        'H': (-3.02, 'eV/molecule'),
+        'C': (-7.60, 'eV/molecule'),
+        'N': (-6.15, 'eV/molecule'),
+        'O': (-6.09, 'eV/molecule'),
+        'S': (-5.72, 'eV/molecule'),
+    },
+    surfaceSiteDensity = (2.891174e-09, 'mol/cm^2'),
+    facet = "110",
+    metal = "Fe",
+    shortDesc = """bcc""",
+    longDesc =
+"""
+Calculated by Xu L, Kirvassilis D, Bai Y, Mavrikakis M. Atomic and molecular adsorption on Fe(110).
+Surface science. 2018;667:54-65. doi:10.1016/j.susc.2017.09.002
+Lattice constant using PW91 is a=2.85 Angstrom.
+""",
+)
