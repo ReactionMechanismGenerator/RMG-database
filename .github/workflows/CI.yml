@@ -85,6 +85,11 @@ jobs:
           if [ ! -f /usr/lib/x86_64-linux-gnu/libtiff.so.5 ] && [ -f /usr/lib/x86_64-linux-gnu/libtiff.so.6 ]; then sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gnu/libtiff.so.5; fi
           find /usr/lib -name libtiff*
 
+      - name: Make libmkl Symlink to Avoid Runner Bug    
+        run: |
+          if [ ! -f $CONDA_PREFIX/lib/libmkl_rt.so.2 ] && [ -f $CONDA_PREFIX/lib/libmkl_rt.so ]; then sudo ln -s $CONDA_PREFIX/lib/libmkl_rt.so $CONDA_PREFIX/lib/libmkl_rt.so.2; fi
+          find $CONDA_PREFIX -iname 'libmkl_rt.so*'
+
       # modify env variables as directed in the RMG installation instructions
       - name: Set Environment Variables
         run: |
