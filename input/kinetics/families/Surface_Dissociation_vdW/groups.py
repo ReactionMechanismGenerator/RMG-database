@@ -58,7 +58,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H u0 px cx {2,S}
+1 *1 R!H u0 px c0 {2,S}
 2 *2 H   u0 p0 c0 {1,S}
 3 *3 Xv  u0 p0 c0
 """,
@@ -71,7 +71,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 C  u0 px cx {2,S}
+1 *1 C  u0 px c0 {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
 """,
@@ -84,7 +84,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 O  u0 px cx {2,S}
+1 *1 O  u0 px c0 {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
 """,
@@ -97,7 +97,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 N  u0 px cx {2,S}
+1 *1 N  u0 px c0 {2,S}
 2 *2 H  u0 p0 c0 {1,S}
 3 *3 Xv u0 p0 c0
 """,
@@ -154,7 +154,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 C   u0 px cx {2,S} {3,S} {4,D}
+1 *1 C   u0 px c0 {2,S} {3,S} {4,D}
 2 *2 H   u0 p0 c0 {1,S}
 3    H   u0 p0 c0 {1,S}
 4    R!H u0 px cx {1,D}
@@ -170,7 +170,7 @@ entry(
 """
 multiplicity [1]
 1    R!H u0 px cx {2,S}
-2 *1 C   u0 px cx {1,S} {3,S} {4,S} {5,S}
+2 *1 C   u0 px c0 {1,S} {3,S} {4,S} {5,S}
 3 *2 H   u0 p0 c0 {2,S}
 4    H   u0 p0 c0 {2,S}
 5    H   u0 p0 c0 {2,S}
@@ -198,7 +198,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H u0 px cx {2,[S,D]}
+1 *1 R!H u0 px c0 {2,[S,D]}
 2 *2 C   u0 p0 c0 {1,[S,D]}
 3 *3 Xv  u0 p0 c0
 """,
