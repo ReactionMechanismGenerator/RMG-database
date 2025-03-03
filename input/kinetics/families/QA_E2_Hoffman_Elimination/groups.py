@@ -32,13 +32,13 @@ allowChargedSpecies = True
 recipe(actions=[
     ['BREAK_BOND', '*1', 1, '*2'],
     ['BREAK_BOND', '*3', 1, '*4'],
-    ['CHANGE_BOND', '*1', 2, '*3'],
     ['FORM_BOND', '*2', 1, '*5'],
     ['LOSE_PAIR', '*5', '1'],
     ['GAIN_PAIR', '*4', '1'],
+    ['CHANGE_BOND', '*1', 1, '*3'],
 ])
 
-group(
+entry(
     index = 0,
     label="R-CHR-CR2-NR3",
     group=
@@ -64,7 +64,7 @@ entry(
     group =
 """
 1 *5 O u0 p3 c-1 {2,S} 
-2    H uo p0 c0 {1,s}
+2    H u0 p0 c0 {1,S}
 """,
     kinetics = None,
 )
@@ -74,8 +74,8 @@ entry(
     label = "CR2=CR2",
     group =
 """
-1 *1 C u0 p0 c0 {2,D} {5,S} {5,S}
-2 *2 O u0 p0 c0 {1,D} {3,S} {4,S}
+1 *1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 *3 C u0 p0 c0 {1,D} {3,S} {4,S}
 3    R u0 p0 c0 {2,S}
 4    R u0 p0 c0 {2,S}
 5    R u0 p0 c0 {1,S}
@@ -110,13 +110,4 @@ entry(
 )
 
 
-tree(
-"""
-L1: NNHNH2
-    L2: non_charged
-        L3: non_charged4
-    L2: charged
-        L3: chargedS
-        L3: chargedD
-"""
-)
+
