@@ -187,10 +187,11 @@ H2O
 10 H u0 p0 c0 {6,S}
 
 C2H2O
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 H u0 p0 c0 {2,S}
+1 O u0 p2 c0 {3,D}
+2 C u0 p0 c0 {3,D} {4,S} {5,S}
+3 C u0 p0 c0 {1,D} {2,D}
 4 H u0 p0 c0 {2,S}
+5 H u0 p0 c0 {2,S}
 
 P1g
 1 O u0 p2 c0 {2,S} {7,S}
