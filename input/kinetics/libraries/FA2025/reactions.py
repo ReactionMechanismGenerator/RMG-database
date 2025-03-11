@@ -563,3 +563,30 @@ entry(
     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
     """,
 )
+
+entry(
+    index=22,
+    label="CHO + OH <=> HOCHO",
+    # duplicate=True,
+    kinetics = Chebyshev(
+        coeffs = [
+            [12.76, 1.985, -0.01045, -0.005674],
+            [-1.208, 0.01794, 0.01229, 0.006641],
+            [-0.6302, -0.001956, -0.001297, -0.0006609],
+            [-0.2888, -0.0009004, -0.0006287, -0.0003508],
+            [-0.1224, -0.0002553, -0.0001785, -9.978e-05],
+            [-0.04927, 0.0001015, 6.870e-05, 3.637e-05],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+        Pmin = (0.01, 'bar'),
+        Pmax = (100, 'bar'),
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
