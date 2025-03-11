@@ -590,3 +590,10 @@ entry(
     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
     """,
 )
+
+entry(
+    index=23,
+    label="HOCHO + OH <=> HOCO + H2O",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(2.70E-01, 'cm^3/(mol*s)'), n=3.93, Ea=(12500, 'cal/mol'), T0=(1, 'K')),
+),
