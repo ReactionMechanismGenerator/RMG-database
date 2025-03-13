@@ -597,3 +597,17 @@ entry(
     degeneracy=1,
     kinetics=Arrhenius(A=(2.70E-01, 'cm^3/(mol*s)'), n=3.93, Ea=(12500, 'cal/mol'), T0=(1, 'K')),
 ),
+
+entry(
+    index=24,
+    label="HOCO + HO2 <=> HOCOO + OH",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(7.28E+12, 'cm^3/(mol*s)'), n=0.02, Ea=(118.6, 'cal/mol'), T0=(1, 'K')),
+),
+
+entry(
+    index=25,
+    label="HOCO + HO2 <=> H2O + CO3",
+    degeneracy=1,
+    kinetics=Arrhenius(A=(9.23E+08, 'cm^3/(mol*s)'), n=0.68, Ea=(-549.0, 'cal/mol'), T0=(1, 'K')),
+),
