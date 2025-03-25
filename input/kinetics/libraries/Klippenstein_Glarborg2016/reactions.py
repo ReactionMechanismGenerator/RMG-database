@@ -11210,7 +11210,7 @@ entry(
 
 entry(
     index = 586,
-    label = "CH3OH + H <=> CH3 + OH",
+    label = "CH3OH + H <=> CH3 + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.9558e+5, 'cm^3/(mol*s)'), n=2.485, Ea=(52234, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""Added from Moses et al., Astrophysical Journal, 737:15 (37pp), 2011. The ab-initio calculation was done by Stephen J. Klippenstein at the QCISD(T)/CBS//QCISD(T)/cc-pVTZ with the spin-restricted formalism using the MOLPRO""",
