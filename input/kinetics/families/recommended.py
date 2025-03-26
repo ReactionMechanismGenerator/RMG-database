@@ -131,6 +131,95 @@ surface = {
     #'Surface_Carbonate_CO_Decomposition'
 }
 
+pharma = {  # Add from: https://www.chemistrysteps.com/;
+    '1+2_Cycloaddition',
+    '1,2-Birad_to_alkene',
+    '1,2_Insertion_carbene',
+    '1,2_Insertion_CO',
+    '1,2_NH3_elimination',
+    '1,2_shiftC',
+    '1,2_shiftS',
+    '1,2_XY_interchange',
+    '1,3_Insertion_CO2',
+    '1,3_Insertion_ROR',
+    '1,3_Insertion_RSR',
+    '1,3_NH3_elimination',
+    '1,3_sigmatropic_rearrangement',
+    '1,4_Cyclic_birad_scission',
+    '1,4_Linear_birad_scission',
+    '2+2_cycloaddition',
+    '6_membered_central_C-C_shift',
+    'acetal_hydrolysis',  # API-specific
+    'alcohol_dehydrogenation',  # API-specific
+    'amide_alcoholysis',  # API-specific
+    'amide_hydrolysis',  # API-specific
+    'amine_hydrolysis',  # API-specific
+    # 'amino_hydrolysis',  # API-specific, not defined correctly
+    # 'benzene_amino_to_cyclic_aldehyde_and_imine',  # API-specific, recipe isn't physical
+    'Bimolec_Hydroperoxide_Decomposition',
+    'Birad_R_Recombination',
+    'Birad_recombination',
+    'Br_Abstraction',
+    'Cl_Abstraction',
+    'CO_Disproportionation',
+    'Concerted_Intra_Diels_alder_monocyclic_1,2_shiftH',
+    'Cyclic_Ether_Formation',
+    'Cyclic_Thioether_Formation',
+    'Cyclopentadiene_scission',
+    'Diels_alder_addition',
+    'Diels_alder_addition_Aromatic',
+    'Disproportionation',
+    'Disproportionation-Y',
+    'ether_peroxide_decomposition',  # API-specific
+    'F_Abstraction',
+    'H2_Loss',
+    'H_Abstraction',
+    'hemiacetal_hydrolysis',  # API-specific
+    'hemiaminal_and_HCN',  # API-specific
+    'hemiaminal_hydrolysis',  # API-specific
+    'HO2_Elimination_from_PeroxyRadical',
+    'HOCK_rearrangement',  # API-specific
+    'hydroperoxide_to_alcohol',  # API-specific
+    'hydroxylamine_to_nitroso',  # API-specific
+    # 'imine_to_hemiaminal',  # API-specific, UndeterminableKineticsError
+    'Intra_2+2_cycloaddition_Cd',
+    'Intra_5_membered_conjugated_C=C_C=C_addition',
+    'Intra_Diels_alder_monocyclic',
+    'Intra_Disproportionation',
+    'Intra_ene_reaction',
+    'intra_H_migration',
+    'intra_halogen_migration',
+    'intra_NO2_ONO_conversion',
+    'intra_OH_migration',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exo_scission',
+    'Intra_R_Add_Exocyclic',
+    'Intra_R_Add_ExoTetCyclic',
+    'Intra_Retro_Diels_alder_bicyclic',
+    'intra_substitutionCS_cyclization',
+    'intra_substitutionCS_isomerization',
+    'intra_substitutionS_cyclization',
+    'intra_substitutionS_isomerization',
+    'Ketoenol',
+    'Korcek_step1',
+    'Korcek_step2',
+    'methanoate_hydrolysis',  # API-specific
+    'nitroso_to_oxime',  # API-specific
+    'oxidation_of_phenols',  # API-specific
+    'Peroxyl_Disproportionation',
+    'Peroxyl_Termination',
+    'R_Addition_COm',
+    'R_Addition_CSm',
+    'R_Addition_MultipleBond',
+    'R_Recombination',
+    'Retroene',
+    'Singlet_Val6_to_triplet',
+    'thione_hydrolysis',  # API-specific
+    'XY_Addition_MultipleBond',
+    'XY_elimination_hydroxyl',
+    # 'cyclic_imine_to_hemiaminal',     # not implemented yet!
+}
+
 # reaction families for halogen chemistry only
 halogens = {
     'Cl_Abstraction',
