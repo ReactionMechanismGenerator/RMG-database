@@ -54,28 +54,8 @@ multiplicity 3
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {3,S}
 
-CHO
+HCO
 multiplicity 2
-1 O u0 p2 c0 {2,D}
-2 C u1 p0 c0 {1,D} {3,S}
-3 H u0 p0 c0 {2,S}
-
-HOCOO
-multiplicity 2
-1 O u0 p2 c0 {2,S} {5,S}
-2 C u0 p0 c0 {1,S} {3,S} {4,D}
-3 O u1 p2 c0 {2,S}
-4 O u0 p2 c0 {2,D}
-5 H u0 p0 c0 {1,S}
-
-HO2
-multiplicity 2
-1 O u0 p2 c0 {2,S} {3,S}
-2 O u1 p2 c0 {1,S}
+1 C u1 p0 c0 {2,D} {3,S}
+2 O u0 p2 c0 {1,D}
 3 H u0 p0 c0 {1,S}
-
-CO3
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {4,S}
-4 O u0 p2 c0 {2,S} {3,S}
