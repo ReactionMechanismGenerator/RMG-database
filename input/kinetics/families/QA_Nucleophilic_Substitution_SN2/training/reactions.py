@@ -13,7 +13,7 @@ training set for generating rate rules to populate this kinetics family.
 
 entry(
     index = 0,
-    label = "C6H5-CH2-N(CH3)3 + OH <=> C6H5-CH2-OH + N(CH3)3", #TMBA degradation, N charge is +1 in C6H5-CH2-N(CH3)3
+    label = "C6H5-CH2-(N)(CH3)3 <=> C6H5-CH2-OH + N(CH3)3", #TMBA degradation, N charge is +1 in C6H5-CH2-N(CH3)3
     degeneracy = 1,
     kinetics = Arrhenius(A=(97.5001, 'cm^3/(mol*s)'), n=3.59734, Ea=(52.8018, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(270, 'K'), Tmax=(600, 'K')),
