@@ -283,31 +283,31 @@ entry(
     """,
 )
 
-# entry(
-#     index=12,
-#     label="OH + HCO <=> HOCHO",
-#     kinetics = Chebyshev(
-#         coeffs = [
-#             [6.257, 2.000, -2.792e-09, -1.550e-09],
-#             [-0.9233, 4.343e-09, 3.023e-09, 1.678e-09],
-#             [-0.3803, -3.394e-10, -2.362e-10, -1.311e-10],
-#             [-0.1273, -2.112e-10, -1.470e-10, -8.162e-11],
-#             [-0.03026, -6.627e-12, -4.607e-12, -2.555e-12],
-#             [0.01311, -4.415e-11, -3.073e-11, -1.705e-11],
-#         ],
-#         kunits = 'cm^3/(mol*s)',
-#         Tmin=(300,'K'), 
-#         Tmax=(3000,'K'), 
-#         Pmin=(0.01,'bar'), 
-#         Pmax=(100,'bar')
-#     ),
-#     shortDesc=u"""FA2025""",
-#     longDesc=
-#     u"""
-#     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-#     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-#     """,
-# )
+entry(
+    index=12,
+    label="OH + HCO <=> HOCHO",
+    kinetics = Chebyshev(
+        coeffs = [
+            [6.257, 2.000, -2.792e-09, -1.550e-09],
+            [-0.9233, 4.343e-09, 3.023e-09, 1.678e-09],
+            [-0.3803, -3.394e-10, -2.362e-10, -1.311e-10],
+            [-0.1273, -2.112e-10, -1.470e-10, -8.162e-11],
+            [-0.03026, -6.627e-12, -4.607e-12, -2.555e-12],
+            [0.01311, -4.415e-11, -3.073e-11, -1.705e-11],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
 
 entry(
     index=13,
@@ -413,31 +413,31 @@ entry(
     """,
 )
 
-# entry(
-#     index=17,
-#     label="OH + HCO <=> DHC",
-#     kinetics = Chebyshev(
-#         coeffs = [
-#             [4.771, 1.998, -0.001417, -0.0007852],
-#             [-0.2949, 0.001202, 0.0008349, 0.0004620],
-#             [0.04091, -0.0007670, -0.0005326, -0.0002946],
-#             [0.03333, -0.0001653, -0.0001151, -0.00006392],
-#             [-0.01281, -0.00002560, -0.00001772, -0.000009742],
-#             [-0.01093, -0.00001752, -0.00001212, -0.000006658],
-#         ],
-#         kunits = 'cm^3/(mol*s)',
-#         Tmin=(300,'K'), 
-#         Tmax=(3000,'K'), 
-#         Pmin=(0.01,'bar'), 
-#         Pmax=(100,'bar')
-#     ),
-#     shortDesc=u"""FA2025""",
-#     longDesc=
-#     u"""
-#     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-#     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-#     """,
-# )
+entry(
+    index=17,
+    label="OH + HCO <=> DHC",
+    kinetics = Chebyshev(
+        coeffs = [
+            [4.771, 1.998, -0.001417, -0.0007852],
+            [-0.2949, 0.001202, 0.0008349, 0.0004620],
+            [0.04091, -0.0007670, -0.0005326, -0.0002946],
+            [0.03333, -0.0001653, -0.0001151, -0.00006392],
+            [-0.01281, -0.00002560, -0.00001772, -0.000009742],
+            [-0.01093, -0.00001752, -0.00001212, -0.000006658],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
 
 entry(
     index=18,
@@ -517,31 +517,31 @@ entry(
     """,
 )
 
-# entry(
-#     index=21,
-#     label="OH + HCO <=> H2O + CO",
-#     kinetics = Chebyshev(
-#         coeffs = [
-#             [9.613, -0.00008800, -0.00006112, -0.00003381],
-#             [-0.08011, 0.00004696, 0.00003254, 0.00001794],
-#             [-0.1295, -0.00003350, -0.00002323, -0.00001281],
-#             [-0.06012, -0.000008243, -0.000005742, -0.000003193],
-#             [-0.02490, -0.000001419, -0.0000009823, -0.0000005407],
-#             [-0.004674, -0.0000009317, -0.0000006442, -0.0000003537],
-#         ],
-#         kunits = 'cm^3/(mol*s)',
-#         Tmin=(300,'K'), 
-#         Tmax=(3000,'K'), 
-#         Pmin=(0.01,'bar'), 
-#         Pmax=(100,'bar')
-#     ),
-#     shortDesc=u"""FA2025""",
-#     longDesc=
-#     u"""
-#     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-#     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-#     """,
-# )
+entry(
+    index=21,
+    label="OH + HCO <=> H2O + CO",
+    kinetics = Chebyshev(
+        coeffs = [
+            [9.613, -0.00008800, -0.00006112, -0.00003381],
+            [-0.08011, 0.00004696, 0.00003254, 0.00001794],
+            [-0.1295, -0.00003350, -0.00002323, -0.00001281],
+            [-0.06012, -0.000008243, -0.000005742, -0.000003193],
+            [-0.02490, -0.000001419, -0.0000009823, -0.0000005407],
+            [-0.004674, -0.0000009317, -0.0000006442, -0.0000003537],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
 
 entry(
     index=22,
@@ -595,31 +595,31 @@ entry(
     """,
 )
 
-# entry(
-#     index=24,
-#     label="OH + HCO <=> H + HOCO",
-#     kinetics = Chebyshev(
-#         coeffs = [
-#             [6.901, -2.905e-09, -2.022e-09, -1.123e-09],
-#             [-1.219, 3.623e-09, 2.522e-09, 1.400e-09],
-#             [-0.3153, -5.510e-10, -3.835e-10, -2.129e-10],
-#             [-0.09406, -1.974e-10, -1.374e-10, -7.630e-11],
-#             [-0.03192, 2.004e-11, 1.395e-11, 7.743e-12],
-#             [-0.007052, -8.888e-12, -6.186e-12, -3.434e-12],
-#         ],
-#         kunits = 'cm^3/(mol*s)',
-#         Tmin=(300,'K'), 
-#         Tmax=(3000,'K'), 
-#         Pmin=(0.01,'bar'), 
-#         Pmax=(100,'bar')
-#     ),
-#     shortDesc=u"""FA2025""",
-#     longDesc=
-#     u"""
-#     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-#     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-#     """,
-# )
+entry(
+    index=24,
+    label="OH + HCO <=> H + HOCO",
+    kinetics = Chebyshev(
+        coeffs = [
+            [6.901, -2.905e-09, -2.022e-09, -1.123e-09],
+            [-1.219, 3.623e-09, 2.522e-09, 1.400e-09],
+            [-0.3153, -5.510e-10, -3.835e-10, -2.129e-10],
+            [-0.09406, -1.974e-10, -1.374e-10, -7.630e-11],
+            [-0.03192, 2.004e-11, 1.395e-11, 7.743e-12],
+            [-0.007052, -8.888e-12, -6.186e-12, -3.434e-12],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
 
 entry(
     index=25,
@@ -647,57 +647,57 @@ entry(
     """,
 )
 
-# entry(
-#     index=26,
-#     label="OH + HCO <=> H + OCHO",
-#     kinetics = Chebyshev(
-#         coeffs = [
-#             [16.73, -1.996e-09, -1.389e-09, -7.712e-10],
-#             [0.4512, 2.636e-09, 1.834e-09, 1.019e-09],
-#             [0.1172, -5.732e-10, -3.990e-10, -2.215e-10],
-#             [0.04059, -1.113e-10, -7.745e-11, -4.301e-11],
-#             [0.01581, 4.041e-11, 2.813e-11, 1.562e-11],
-#             [0.006570, -1.459e-12, -1.015e-12, -5.636e-13],
-#         ],
-#         kunits = 'cm^3/(mol*s)',
-#         Tmin=(300,'K'), 
-#         Tmax=(3000,'K'), 
-#         Pmin=(0.01,'bar'), 
-#         Pmax=(100,'bar')
-#     ),
-#     shortDesc=u"""FA2025""",
-#     longDesc=
-#     u"""
-#     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-#     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-#     """,
-# )
+entry(
+    index=26,
+    label="OH + HCO <=> H + OCHO",
+    kinetics = Chebyshev(
+        coeffs = [
+            [16.73, -1.996e-09, -1.389e-09, -7.712e-10],
+            [0.4512, 2.636e-09, 1.834e-09, 1.019e-09],
+            [0.1172, -5.732e-10, -3.990e-10, -2.215e-10],
+            [0.04059, -1.113e-10, -7.745e-11, -4.301e-11],
+            [0.01581, 4.041e-11, 2.813e-11, 1.562e-11],
+            [0.006570, -1.459e-12, -1.015e-12, -5.636e-13],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
 
-# entry(
-#     index=27,
-#     label="OH + HCO <=> H2 + CO2",
-#     kinetics = Chebyshev(
-#         coeffs = [
-#             [8.627, -0.0001696, -0.0001178, -0.00006516],
-#             [-0.05488, 0.00008533, 0.00005913, 0.00003259],
-#             [-0.1122, -0.00006604, -0.00004579, -0.00002526],
-#             [-0.05204, -0.00001731, -0.00001205, -0.000006701],
-#             [-0.02164, -0.000003755, -0.000002603, -0.000001436],
-#             [-0.002912, -0.000002168, -0.000001501, -0.0000008260],
-#         ],
-#         kunits = 'cm^3/(mol*s)',
-#         Tmin=(300,'K'), 
-#         Tmax=(3000,'K'), 
-#         Pmin=(0.01,'bar'), 
-#         Pmax=(100,'bar')
-#     ),
-#     shortDesc=u"""FA2025""",
-#     longDesc=
-#     u"""
-#     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-#     the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-#     """,
-# )
+entry(
+    index=27,
+    label="OH + HCO <=> H2 + CO2",
+    kinetics = Chebyshev(
+        coeffs = [
+            [8.627, -0.0001696, -0.0001178, -0.00006516],
+            [-0.05488, 0.00008533, 0.00005913, 0.00003259],
+            [-0.1122, -0.00006604, -0.00004579, -0.00002526],
+            [-0.05204, -0.00001731, -0.00001205, -0.000006701],
+            [-0.02164, -0.000003755, -0.000002603, -0.000001436],
+            [-0.002912, -0.000002168, -0.000001501, -0.0000008260],
+        ],
+        kunits = 'cm^3/(mol*s)',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
+    shortDesc=u"""FA2025""",
+    longDesc=
+    u"""
+    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    """,
+)
 
 # entry(
 #     index=28,
