@@ -6,7 +6,7 @@ shortDesc = u""
 longDesc = u"""
 This family describes reactions on a singlet PES of the sort:
 
-R-CHR-CR2-NR3 + OH -> CR2=CR2 + NR3 + H2O
+R-CHR-CR2-NR3 + OH -> CR2CR2 + NR3 + H2O
 
 OH attacks a proton on the second carbon next to QA ,  QA group and water are eliminated as NR3 and H2O.
 
@@ -18,7 +18,7 @@ atom labeling:
 *5 - O on the OH
 """
 
-template(reactants=["R-CHR-CR2-NR3","OH"], products=["CR2=CR2", "NR3","H2O"], ownReverse=False)
+template(reactants=["R-CHR-CR2-NR3"], products=["CR2=CR2", "NR3", "H2O"], ownReverse=False)
 
 reversible = True
 
@@ -54,24 +54,16 @@ entry(
 9    R u0 p0 c0 {4,S}
 10   R u0 p0 c0 {4,S}
 11   R u0 p0 c0 {4,S}
+12 *5 O u0 p3 c-1 {13,S} 
+13    H u0 p0 c0 {12,S}
 """,
     kinetics=None,
 )
 
-entry(
-    index = 1,
-    label = "OH",
-    group =
-"""
-1 *5 O u0 p3 c-1 {2,S} 
-2    H u0 p0 c0 {1,S}
-""",
-    kinetics = None,
-)
 
 entry(
-    index = 2,
-    label = "CR2=CR2",
+    index = 1,
+    label = "CR2CR2",
     group =
 """
 1 *1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -85,7 +77,7 @@ entry(
 )
 
 entry(
-    index = 3,
+    index = 2,
     label = "H2O",
     group =
 """
@@ -109,5 +101,11 @@ entry(
     kinetics = None,
 )
 
+
+tree(
+"""
+L1: R-CHR-CR2-NR3
+"""
+)
 
 

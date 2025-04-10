@@ -1,0 +1,34 @@
+
+R-CHR-CR2-NR3
+1 *1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+2 *2 H u0 p0 c0 {1,S}
+3 *3 C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
+4 *4 N u0 p0 c+1 {3,S} {9,S} {10,S} {11,S}
+5    R u0 p0 c0 {1,S}
+6    R u0 p0 c0 {1,S}
+7    R u0 p0 c0 {3,S}
+8    R u0 p0 c0 {3,S}
+9    R u0 p0 c0 {4,S}
+10   R u0 p0 c0 {4,S}
+11   R u0 p0 c0 {4,S}
+12 *5 O u0 p3 c-1 {13,S} 
+13    H u0 p0 c0 {12,S}
+
+CR2CR2
+1 *1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 *3 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    R u0 p0 c0 {2,S}
+4    R u0 p0 c0 {2,S}
+5    R u0 p0 c0 {1,S}
+6    R u0 p0 c0 {1,S}
+
+H2O
+1 *5 O u0 p2 c0 {2,S} {3,S}
+2 *2 H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+
+NR3
+1 *4 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    R u0 p0 c0 {1,S}
+3    R u0 p0 c0 {1,S}
+4    R u0 p0 c0 {1,S}
