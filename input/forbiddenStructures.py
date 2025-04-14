@@ -7,6 +7,20 @@ longDesc = u"""
 
 """
 entry(
+    label = "O2_singlet",
+    molecule =
+"""
+1 O u0 p2 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+entry(
     label = "Ods",
     group =
 """
