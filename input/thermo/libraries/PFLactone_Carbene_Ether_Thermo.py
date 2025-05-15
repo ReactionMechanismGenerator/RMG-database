@@ -374,3 +374,42 @@ multiplicity 1
     longDesc = u""" SMILES =  C[C]OC; Partition function via MESS, conversion via automech,
     Hf(0 K) = -2.23 kcal/mol; Hf(298 K) = -6.10 kcal/mol; Hf(0 K) computed via CBH-1(ANL0).""",
 )
+
+#manually added in my NK, sent through text. 
+entry(
+    index = 10,
+    label = "C3F7OC(CF3)OCO",
+    molecule =
+"""
+1  C  u0 p0 c0 {2,D} {3,S} {4,S}
+2  O  u0 p2 c0 {1,D}
+3  O  u0 p2 c0 {1,S} {4,S}
+4  C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+5  O  u0 p2 c0 {4,S} {10,S}
+6  C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+7  F  u0 p3 c0 {6,S}
+8  F  u0 p3 c0 {6,S}
+9  F  u0 p3 c0 {6,S}
+10 C  u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
+11 F  u0 p3 c0 {10,S}
+12 F  u0 p3 c0 {10,S}
+13 C  u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F  u0 p3 c0 {13,S}
+15 F  u0 p3 c0 {13,S}
+16 C  u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F  u0 p3 c0 {16,S}
+18 F  u0 p3 c0 {16,S}
+19 F  u0 p3 c0 {16,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[1.03353843E+00, 1.53196799E-01, -2.00578715E-04, 1.27712779E-07, -3.20899329E-11, -3.03410417E+05, 2.89283905E+01], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[3.40750842E+01, 2.78927383E-02, -1.68617898E-05, 4.65473250E-09, -4.86295876E-13, -3.10595123E+05, -1.32750483E+02], Tmin=(1000,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (200,'K'),
+        Tmax = (3000,'K'),
+    ),
+    shortDesc = u"""""",
+    longDesc = u""" SMILES =  O=C1OC1(OC(F)(F)C(F)(F)C(F)(F)F)C(F)(F)F; Partition function via MESS, conversion via automech,
+    Hf(0 K) = -588.41 kcal/mol; Hf(298 K) = -591.85 kcal/mol; Hf(0 K) computed via CBH-1-CF4(ANL0).""",
+)
