@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "phi05_3"
+name = "phi1_1"
 shortDesc = u""
 longDesc = u"""
 
