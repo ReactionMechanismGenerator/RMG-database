@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "phi2_1"
+name = "phi2_2"
 shortDesc = u""
 longDesc = u"""
 
@@ -697,5 +697,42 @@ entry(
     longDesc=
     u"""
     Based on Nguyen's HEAT protocal.   
+    """,
+)
+
+entry(
+    index=27,
+    label = 'HOCHO + OH <=> HOCO + H2O', 
+    kinetics = Arrhenius(
+        A = (30703.2, 'cm^3/(mol*s)'),
+        n = 2.52013,
+        Ea = (29.3851, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc=u"""CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc=
+    u"""
+    Calculated at the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
+    """,
+)
+
+entry(
+    index=28,
+    label = 'HOCHO + OH <=> OCHO + H2O', 
+    kinetics = Arrhenius(
+        A = (0.0765648, 'cm^3/(mol*s)'),
+        n = 4.05778,
+        Ea = (41.3556, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc=u"""CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP""",
+    longDesc=
+    u"""
+    Calculated at the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
+    H_abs reaction, ARC couldn't caluclate the reversed reaction rate.   
     """,
 )
