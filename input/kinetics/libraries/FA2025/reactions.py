@@ -1073,3 +1073,36 @@ u"""
     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
 """,
 )
+
+
+entry(
+    index = 43,
+    label = "HOCHO + HOCHO <=> HOCHO + CO + H2O",
+    kinetics = Arrhenius(A=(4.79e-01, '(cm^3/(mol*s))'), n=3.40, Ea=(104.59, 'kJ/mol'),
+                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    longDesc = 
+"""
+
+TS method summary for TS0 in HOCHO + HOCHO <=> HOCHO + CO + H2O:
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C      -5.31806600    0.95127700   -0.06259500
+H      -6.50508100    1.09039000   -0.54026300
+O      -4.34825500    1.36904000    0.38136900
+O      -5.25710500   -0.77504500   -0.38224100
+H      -4.39736300   -1.08534800   -0.67872700
+C      -7.90086200   -0.00547300   -1.78732000
+H      -8.84606200   -0.03244500   -2.34730600
+O      -7.66242600    1.05094000   -1.14742800
+O      -7.17500800   -1.02113300   -1.85083000
+H      -6.08134000   -0.96262100   -1.09028200
+
+
+No rotors considered for this TS.
+""",
+)
