@@ -42,7 +42,7 @@ entry(
     molecule = "O",
     solvent = SolventData(
         # Abraham gas-to-solvent parameters for solvation free energy (dGsolv) correction at 298K
-        s_g = 2.74983,
+        s_g = 10.0, # 2.74983,
         b_g = 4.84491,
         e_g = 0.83346,
         l_g = -0.22544,
