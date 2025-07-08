@@ -31,8 +31,8 @@ jobs:
           miniforge-version: latest
           auto-update-conda: true
           show-channel-urls: true
-          conda-remove-defaults: "true"
-          auto-activate-base: "true"
+          conda-remove-defaults: true
+          auto-activate-base: true
           activate-environment: ""
 
       - name: Install Build Tools
