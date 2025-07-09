@@ -3655,25 +3655,25 @@ entry(
 
 entry(
     index = 403,
-    label = "CH3CHO + OH <=> CH3CHO + OH",
+    label = "CH3CHOOH <=> CH3CHO + OH",
     degeneracy = 1,
     kinetics = PDepArrhenius(
         pressures = ([1, 10, 100], 'atm'),
         arrhenius = [
             Arrhenius(
-                A = (3.5e+12, 'cm^3/(mol*s)'),
+                A = (3.5e+12, 's^-1'),
                 n = -0.947,
                 Ea = (979, 'cal/mol'),
                 T0 = (1, 'K'),
             ),
             Arrhenius(
-                A = (3.5e+13, 'cm^3/(mol*s)'),
+                A = (3.5e+13, 's^-1'),
                 n = -0.947,
                 Ea = (980, 'cal/mol'),
                 T0 = (1, 'K'),
             ),
             Arrhenius(
-                A = (5.8e+14, 'cm^3/(mol*s)'),
+                A = (5.8e+14, 's^-1'),
                 n = -1.012,
                 Ea = (1068, 'cal/mol'),
                 T0 = (1, 'K'),
