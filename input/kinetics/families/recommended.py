@@ -109,24 +109,26 @@ surface = {
     'Surface_Adsorption_Dissociative',
     'Surface_Dissociation',
     'Surface_Abstraction',
-    'Surface_EleyRideal_Addition_Multiple_Bond',
-    'Surface_Migration',
     'Surface_Dissociation_Double_vdW',
-    'Surface_Addition_Single_vdW',
     'Surface_Dissociation_vdW',
     'Surface_Abstraction_vdW',
-    'Surface_Dual_Adsorption_vdW',
     'Surface_Dissociation_Beta',
-    'Surface_Adsorption_Abstraction_vdW',
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
-    'Surface_DoubleBond_to_Bidentate', 
+    'Surface_Monodentate_to_Bidentate',
     'Surface_Dissociation_to_Bidentate', 
     'Surface_vdW_to_Bidentate',
-    'Surface_Abstraction_Single_vdW',
     'Surface_Adsorption_Dissociative_Double',
     'Surface_Abstraction_Beta',
     'Surface_Abstraction_Beta_double_vdW',
+    'Surface_Dissociation_Double',
+    'Surface_Dissociation_Beta_vdW',
+    'Surface_Abstraction_Beta_vdW',
+    'Surface_Abstraction_Single_vdW',
+    #'Surface_Carbonate_Deposition',
+    #'Surface_Carbonate_F_CO_Decomposition',
+    #'Surface_Carbonate_2F_Decomposition',
+    #'Surface_Carbonate_CO_Decomposition'
 }
 
 # reaction families for halogen chemistry only
@@ -146,4 +148,25 @@ halogens = {
 # Surface chemistry families that are under development and not yet working well.
 surface_development = {
     #'Surface_Adsorption_Double',
+    'Surface_EleyRideal_Addition_Multiple_Bond',
+    'Surface_Migration',
+}
+
+# Electrochemical families!
+electrochem = {
+    'Surface_Proton_Electron_Reduction_Alpha',
+    'Surface_Proton_Electron_Reduction_Alpha_vdW',
+    'Surface_Proton_Electron_Reduction_Beta',
+    'Surface_Proton_Electron_Reduction_Beta_vdW',
+    'Surface_Proton_Electron_Reduction_Beta_Dissociation',
+    '1,2_Elimination_LiR',
+    '1,2_Intra_Elimination_LiR',
+    'Cation_Addition_MultipleBond',
+    'Cation_NO_Substitution',
+    'Cation_NO_Ring_Opening',
+    'Cation_Li_Abstraction',
+    'Cation_R_Recombination',
+    'Cation_Addition_MultipleBond_Disprop',
+    'Li_Abstraction',
+    'R_Addition_MultipleBond_Disprop',
 }

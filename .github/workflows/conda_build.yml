@@ -1,49 +1,64 @@
 name: Conda Build
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
+  pull_request:
+  workflow_dispatch:
   push:
     branches:
       - stable
 jobs:
-  build-linux:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12"]
     runs-on: ubuntu-latest
+    name: Build Python ${{ matrix.python-version }}
     defaults:
       run:
         shell: bash -l {0}
     steps:
-      - uses: actions/checkout@v2
-      - uses: conda-incubator/setup-miniconda@v2
-      - name: Conda info
+      - uses: actions/checkout@v4
+
+      - name: Setup Miniforge
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-variant: Miniforge3
+          miniforge-version: latest
+          auto-update-conda: true
+          show-channel-urls: true
+          conda-remove-defaults: true
+          auto-activate-base: true
+          activate-environment: ""
+
+      - name: Install Build Tools
+        run: conda install python anaconda-client conda-build
+
+      - name: Configure Auto-Upload
+        if: github.ref == 'refs/heads/stable'
         run: |
-          conda info
-          conda list
-      - name: Build Binary
-        env: 
-          CONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
-        run: |
-          conda install -y conda-build 
-          conda install -y anaconda-client 
-          conda config --add channels rmg
           conda config --set anaconda_upload yes
-          conda build --token $CONDA_TOKEN --user rmg .conda
-  build-osx:
-    runs-on: macos-latest
-    defaults:
-      run:
-        shell: bash -l {0}
+
+      - name: Build Binary
+        run: |
+          # set a default value to the conda_token if needed (like from forks)
+          : "${CONDA_TOKEN:=${{ secrets.ANACONDA_TOKEN }}}"
+          : "${CONDA_TOKEN:=default_value}"
+          echo "CONDA_TOKEN=$CONDA_TOKEN" >> $GITHUB_ENV
+          conda config --add channels rmg
+          conda config --add channels conda-forge
+          CONDA_PY=${{ matrix.python-version }} conda build --token $CONDA_TOKEN --user rmg .
+
+  result:
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    name: Final Results
+    needs: [build]
     steps:
-      - uses: actions/checkout@v2
-      - uses: conda-incubator/setup-miniconda@v2
-      - name: Conda info
-        run: |
-          conda info
-          conda list
-      - name: Build Binary
-        env: 
-          CONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
-        run: |
-          conda install -y conda-build 
-          conda install -y anaconda-client 
-          conda config --add channels rmg
-          conda config --set anaconda_upload yes
-          conda build --token $CONDA_TOKEN --user rmg .conda
+      - run: exit 1
+        # see https://github.com/orgs/community/discussions/26822?sort=new#discussioncomment-8285141
+        if: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') || contains(needs.*.result, 'skipped') }}

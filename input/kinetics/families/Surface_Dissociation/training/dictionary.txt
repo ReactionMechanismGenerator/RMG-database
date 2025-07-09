@@ -185,3 +185,51 @@ HCO_2X
 3    O u0 p2 {1,S} {5,S}  
 4 *3 X u0 p0 {1,D}
 5    X u0 p0 {3,S}
+
+
+XCXCH2_1
+1    C u0 p0 {2,S} {5,T}
+2 *1 C u0 p0 {1,S} {3,S} {4,S} {6,S}
+3 *2 H u0 p0 {2,S}
+4    H u0 p0 {2,S}
+5    X u0 p0 {1,T}
+6 *3 X u0 p0 {2,S}
+
+XCXCH_3
+1    C u0 p0 {2,S} {4,T}
+2 *1 C u0 p0 {1,S} {3,S} {5,D}
+3    H u0 p0 {2,S}
+4    X u0 p0 {1,T}
+5 *3 X u0 p0 {2,D}
+
+XCHXCH2_1
+1 *1 C u0 p0 {2,S} {3,S} {6,D}
+2    C u0 p0 {1,S} {4,S} {5,S} {7,S}
+3 *2 H u0 p0 {1,S}
+4    H u0 p0 {2,S}
+5    H u0 p0 {2,S}
+6 *3 X u0 p0 {1,D}
+7    X u0 p0 {2,S}
+
+XCXCH2_3
+1 *1 C u0 p0 {2,S} {5,T}
+2    C u0 p0 {1,S} {3,S} {4,S} {6,S}
+3    H u0 p0 {2,S}
+4    H u0 p0 {2,S}
+5 *3 X u0 p0 {1,T}
+6    X u0 p0 {2,S}
+
+XCHXCH_1
+1 *1 C u0 p0 {2,S} {3,S} {5,D}
+2    C u0 p0 {1,S} {4,S} {6,D}
+3 *2 H u0 p0 {1,S}
+4    H u0 p0 {2,S}
+5 *3 X u0 p0 {1,D}
+6    X u0 p0 {2,D}
+
+XCXCH_4
+1 *1 C u0 p0 {2,S} {4,T}
+2    C u0 p0 {1,S} {3,S} {5,D}
+3    H u0 p0 {2,S}
+4 *3 X u0 p0 {1,T}
+5    X u0 p0 {2,D}
