@@ -1,40 +1,42 @@
 name: Conda Build
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   pull_request:
+  workflow_dispatch:
   push:
     branches:
       - stable
 jobs:
   build:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12"]
     runs-on: ubuntu-latest
+    name: Build Python ${{ matrix.python-version }}
     defaults:
       run:
         shell: bash -l {0}
     steps:
       - uses: actions/checkout@v4
 
-      # Step to create a custom condarc.yml before setting up conda
-      - name: Create custom conda config file
-        run: |
-          RUNNER_CWD=$(pwd)
-          echo "channels:" > $RUNNER_CWD/condarc.yml
-          echo "  - conda-forge" >> $RUNNER_CWD/condarc.yml
-          echo "show_channel_urls: true" >> $RUNNER_CWD/condarc.yml
-
-      - name: Setup Conda
+      - name: Setup Miniforge
         uses: conda-incubator/setup-miniconda@v3
         with:
           miniforge-variant: Miniforge3
           miniforge-version: latest
-          use-mamba: true
-          condarc-file: condarc.yml
-          auto-update-conda: false
+          auto-update-conda: true
+          show-channel-urls: true
+          conda-remove-defaults: true
           auto-activate-base: true
           activate-environment: ""
 
       - name: Install Build Tools
-        run: mamba install python anaconda-client conda-build conda-verify
+        run: conda install python anaconda-client conda-build
 
       - name: Configure Auto-Upload
         if: github.ref == 'refs/heads/stable'
@@ -43,18 +45,20 @@ jobs:
 
       - name: Build Binary
         run: |
-          # Set the CONDA_TOKEN environment variable
-          if [ -z "${{ secrets.ANACONDA_TOKEN }}" ]; then
-            export CONDA_TOKEN="default_value"
-          else
-            export CONDA_TOKEN="${{ secrets.ANACONDA_TOKEN }}"
-          fi
-
+          # set a default value to the conda_token if needed (like from forks)
+          : "${CONDA_TOKEN:=${{ secrets.ANACONDA_TOKEN }}}"
+          : "${CONDA_TOKEN:=default_value}"
           echo "CONDA_TOKEN=$CONDA_TOKEN" >> $GITHUB_ENV
-      
-          # Conditionally add the --token and --user flags for stable branches
-          if [[ "${GITHUB_REF}" == "refs/heads/stable" ]]; then
-            conda-build --token "$CONDA_TOKEN" --user rmg .conda
-          else        
-            conda-build .conda
-          fi
+          conda config --add channels rmg
+          conda config --add channels conda-forge
+          CONDA_PY=${{ matrix.python-version }} conda build --token $CONDA_TOKEN --user rmg .
+
+  result:
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    name: Final Results
+    needs: [build]
+    steps:
+      - run: exit 1
+        # see https://github.com/orgs/community/discussions/26822?sort=new#discussioncomment-8285141
+        if: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') || contains(needs.*.result, 'skipped') }}
