@@ -3655,7 +3655,7 @@ entry(
 
 entry(
     index = 403,
-    label = "CH3CHO + OH <=> CH3CHO + OH",
+    label = "CH3CHOOH <=> CH3CHO + OH",
     degeneracy = 1,
     kinetics = PDepArrhenius(
         pressures = ([1, 10, 100], 'atm'),
