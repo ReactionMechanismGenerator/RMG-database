@@ -116,7 +116,7 @@ surface = {
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
     'Surface_Monodentate_to_Bidentate',
-    'Surface_Dissociation_to_Bidentate', 
+    'Surface_Dissociation_to_Bidentate',
     'Surface_vdW_to_Bidentate',
     'Surface_Adsorption_Dissociative_Double',
     'Surface_Abstraction_Beta',
@@ -169,4 +169,25 @@ electrochem = {
     'Cation_Addition_MultipleBond_Disprop',
     'Li_Abstraction',
     'R_Addition_MultipleBond_Disprop',
+}
+
+# CO2RR families
+surface_CO2 = {
+    'Surface_Adsorption_Single',
+    'Surface_Adsorption_vdW',
+    'Surface_Adsorption_Dissociative',
+    'Surface_Dissociation',
+    'Surface_Abstraction',
+    'Surface_EleyRideal_Addition_Multiple_Bond',
+    'Surface_Migration',
+    'Surface_Dissociation_Double_vdW',
+    'Surface_Addition_Single_vdW',
+    'Surface_Dissociation_vdW',
+    'Surface_Abstraction_vdW',
+    'Surface_Dissociation_Beta',
+    'Surface_Adsorption_Bidentate',
+    'Surface_Bidentate_Dissociation',
+    'Surface_vdW_to_Bidentate',
+    'Surface_Abstraction_Single_vdW',
+    'Surface_Adsorption_Dissociative_Double',
 }
