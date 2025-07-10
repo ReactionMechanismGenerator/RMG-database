@@ -4,11 +4,11 @@
 name = "Solvent Descriptors"
 shortDesc = u""
 longDesc = u"""
-Most of the Abraham (s_g, b_g, e_g, l_g, a_g, c_g) and Mintz solvent parameters (s_h, b_h, e_h, l_h, a_h, c_h) 
-are fitted using experimental solute parameter, solvation free energy, and solvation enthalpy data.Abraham solvent parameters 
+Most of the Abraham (s_g, b_g, e_g, l_g, a_g, c_g) and Mintz solvent parameters (s_h, b_h, e_h, l_h, a_h, c_h)
+are fitted using experimental solute parameter, solvation free energy, and solvation enthalpy data.Abraham solvent parameters
 are used for solvation free energy (dGsolv) calculations, and Mintz solvent parameters are used for solvation enthalpy (dHsolv) calculations.
 The fitting is described in:
-    Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+    Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
     & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 
 
@@ -82,7 +82,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -127,7 +127,7 @@ entry(
 u"""
 alpha = 0.328, #primary alcohols
 beta = 0.45, #primary alcohols,
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -170,7 +170,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -213,7 +213,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -256,7 +256,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -299,7 +299,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -342,7 +342,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -386,7 +386,7 @@ entry(
     longDesc =
 u"""
 beta = 0.05, # Note 24 in Snelgrove et al. 2001
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -429,7 +429,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -472,7 +472,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -552,7 +552,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -595,7 +595,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -638,7 +638,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -681,7 +681,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -724,7 +724,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -767,7 +767,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -810,7 +810,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -853,7 +853,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 The source of the Mintz parameters is unknown.
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -897,7 +897,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -940,7 +940,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -984,7 +984,7 @@ entry(
     longDesc =
 u"""
 eps = 2.2 # aerage of range 2.0-2.4
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -1027,7 +1027,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 The source of the Mintz parameters is unknown.
 Viscosity parameters (A, B, C, D, E): the DIPPR
@@ -1071,7 +1071,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -1114,7 +1114,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR
 """,
@@ -1159,7 +1159,7 @@ entry(
 u"""
 [Abraham2012]: Michael H. Abraham and William E. Acree Jr Phys. Chem. Chem. Phys., 2012,14, 7433–7440
 [Mohsen-Nia2012]: DOI: 10.1016/j.jct.2012.08.009
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -1316,7 +1316,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1360,7 +1360,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1404,7 +1404,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1448,7 +1448,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1492,7 +1492,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1536,7 +1536,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1580,7 +1580,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1624,7 +1624,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1668,7 +1668,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1712,7 +1712,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1756,7 +1756,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1800,7 +1800,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1844,7 +1844,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1888,7 +1888,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1932,7 +1932,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -1976,7 +1976,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2020,7 +2020,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -2062,7 +2062,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -2104,7 +2104,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -2146,7 +2146,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2190,7 +2190,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -2232,7 +2232,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2276,7 +2276,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2320,7 +2320,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2364,7 +2364,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2408,7 +2408,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2452,7 +2452,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2496,7 +2496,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2540,7 +2540,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2584,7 +2584,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -2626,7 +2626,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2670,7 +2670,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2714,7 +2714,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2758,7 +2758,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2802,7 +2802,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2846,7 +2846,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2890,7 +2890,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2934,7 +2934,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -2978,7 +2978,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3022,7 +3022,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3066,7 +3066,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3110,7 +3110,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3154,7 +3154,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3198,7 +3198,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3242,7 +3242,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3286,7 +3286,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3330,7 +3330,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
@@ -3374,7 +3374,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3418,7 +3418,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3462,7 +3462,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
@@ -3506,7 +3506,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3550,7 +3550,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3594,7 +3594,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3637,7 +3637,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3680,7 +3680,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -3721,7 +3721,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3764,7 +3764,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
@@ -3807,7 +3807,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3850,7 +3850,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3893,7 +3893,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3936,7 +3936,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -3979,7 +3979,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4022,7 +4022,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4065,7 +4065,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4108,7 +4108,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4151,7 +4151,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4194,7 +4194,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
@@ -4236,7 +4236,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
@@ -4278,7 +4278,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
@@ -4320,7 +4320,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4363,7 +4363,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4406,7 +4406,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4449,7 +4449,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
@@ -4492,7 +4492,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4535,7 +4535,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
@@ -4578,7 +4578,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4621,7 +4621,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4664,7 +4664,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -4705,7 +4705,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -4746,7 +4746,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -4787,7 +4787,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -4828,7 +4828,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
@@ -4871,7 +4871,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4914,7 +4914,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -4957,7 +4957,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5000,7 +5000,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5041,7 +5041,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5082,7 +5082,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5125,7 +5125,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5166,7 +5166,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5207,7 +5207,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5248,7 +5248,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5291,7 +5291,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5332,7 +5332,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5373,7 +5373,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5414,7 +5414,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5455,7 +5455,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5496,7 +5496,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5537,7 +5537,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5580,7 +5580,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5623,7 +5623,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5666,7 +5666,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5709,7 +5709,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5752,7 +5752,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
@@ -5794,7 +5794,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5837,7 +5837,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -5880,7 +5880,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -5921,7 +5921,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
@@ -5963,7 +5963,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6006,7 +6006,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6049,7 +6049,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -6090,7 +6090,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6133,7 +6133,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6176,7 +6176,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6219,7 +6219,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6262,7 +6262,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6305,7 +6305,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -6346,7 +6346,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6389,7 +6389,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6432,7 +6432,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6475,7 +6475,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6518,7 +6518,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6561,7 +6561,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6604,7 +6604,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6647,7 +6647,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6690,7 +6690,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6733,7 +6733,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6776,7 +6776,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -6817,7 +6817,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -6858,7 +6858,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -6899,7 +6899,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -6942,10 +6942,10 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source. 
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -6985,7 +6985,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7026,7 +7026,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7069,7 +7069,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7112,7 +7112,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7155,7 +7155,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7196,7 +7196,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7237,7 +7237,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7278,10 +7278,10 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source. 
+Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht. NOTE: Typo corrected from original source.
 """,
 )
 
@@ -7321,7 +7321,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7364,7 +7364,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7407,7 +7407,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7448,7 +7448,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7491,7 +7491,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7534,7 +7534,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7575,7 +7575,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7618,7 +7618,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7659,7 +7659,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7700,7 +7700,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7741,7 +7741,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7782,7 +7782,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7825,7 +7825,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7868,7 +7868,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -7909,7 +7909,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7952,7 +7952,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -7995,7 +7995,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8036,7 +8036,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -8079,7 +8079,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8120,7 +8120,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8161,7 +8161,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -8204,7 +8204,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -8247,7 +8247,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8288,7 +8288,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8329,7 +8329,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8370,7 +8370,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -8413,7 +8413,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8454,7 +8454,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): the DIPPR, version 2023.
 """,
@@ -8496,7 +8496,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham and Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8537,7 +8537,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Abraham parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -8581,7 +8581,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """,
 )
@@ -8623,7 +8623,7 @@ entry(
     shortDesc = u""" """,
     longDesc =
 u"""
-Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+Mintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 Viscosity parameters (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
@@ -8713,5 +8713,55 @@ u"""
 Abraham and Mintz parameters: fitted by Matt Johnson
 Viscosity parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
 Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+""",
+)
+
+entry(
+    index = 204,
+    label = "dummy solvent",
+    molecule = "O",
+    solvent = SolventData(
+        # Abraham gas-to-solvent parameters for solvation free energy (dGsolv) correction at 298K
+        s_g = 0,
+        b_g = 0,
+        e_g = 0,
+        l_g = 0,
+        a_g = 0,
+        c_g = 0,
+        # Mintz parameters for solvation enthaly (dHsolv) correction at 298K
+        s_h = 0,
+        b_h = 0,
+        e_h = 0,
+        l_h = 0,
+        a_h = 0,
+        c_h = 0,
+        # viscosity parameters
+        A = 0,
+        B = 0,
+        C = 0,
+        D = 0,
+        E = 0,
+        # These are SOLUTE parameters that can be potentially used for intrinsic rate correction in H-abstraction rxns
+        alpha = None,
+        beta = None,
+        # Dielectric constant
+        eps = 1,
+        #index of refraction
+        n = 1,
+        # Name of the solvent used in the external fluid property calculation package, CoolProp.
+        name_in_coolprop = "water",
+    ),
+    # The number of data used to fit the Abraham and Mintz parameters and their associated solvation free energy and
+    # solvation enthalpy mean absolute error.
+    dataCount = DataCountSolvent(
+        dGsolvCount = 5224,
+        dGsolvMAE = (0,'kcal/mol'),
+        dHsolvCount = 58,
+        dHsolvMAE = (0,'kcal/mol'),
+    ),
+    shortDesc = u""" """,
+    longDesc =
+u"""
+This is a dummy solvent with no Abraham and Mintz parameters for debugging.
 """,
 )
