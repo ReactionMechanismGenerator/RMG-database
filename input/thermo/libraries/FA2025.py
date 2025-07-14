@@ -903,3 +903,92 @@ H      -1.09964500   -0.78943500    1.14957500
 H       0.71053500   -0.66552700   -1.48436800
 """,
 )
+
+entry(
+    index = 21,
+    label = "O[C]1OO1[262]",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {4,S}
+2 O u0 p2 c0 {1,S} {4,S}
+3 O u0 p2 c0 {4,S} {5,S}
+4 C u1 p0 c0 {1,S} {2,S} {3,S}
+5 H u0 p0 c0 {3,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.93537,0.00417763,5.42901e-05,-1.31746e-07,9.21733e-11,-945.911,9.66795], Tmin=(10,'K'), Tmax=(500.046,'K')),
+            NASAPolynomial(coeffs=[4.45112,0.0126538,-8.9382e-06,2.94887e-09,-3.6476e-13,-1155.04,5.96183], Tmin=(500.046,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (-7.8807,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (103.931,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+lot: qbs
+Bond corrections: {'O-O': 1, 'C-O': 3, 'H-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [5, 1, 2, 3], rotor symmetry: 1, max scan energy: 8.51 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.12098400    0.08488700    0.46174100
+C      -0.21583100   -0.07414000    0.49745000
+O      -0.82952400   -0.17769200    1.68732900
+O      -1.09909000    0.95805500    0.67101500
+H       1.42219500   -0.00452400   -0.44992500
+""",
+)
+
+entry(
+    index = 22,
+    label = "OO[C]1OO1[266]",
+    molecule = 
+"""
+multiplicity 2
+1 O u0 p2 c0 {2,S} {5,S}
+2 O u0 p2 c0 {1,S} {5,S}
+3 O u0 p2 c0 {4,S} {5,S}
+4 O u0 p2 c0 {3,S} {6,S}
+5 C u1 p0 c0 {1,S} {2,S} {3,S}
+6 H u0 p0 c0 {4,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.80238,0.0193202,-2.90836e-06,-1.79305e-08,1.16996e-11,11141,11.4911], Tmin=(10,'K'), Tmax=(742.511,'K')),
+            NASAPolynomial(coeffs=[6.24867,0.0143622,-9.49925e-06,2.89769e-09,-3.33483e-13,10551.2,-1.10856], Tmin=(742.511,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (92.616,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (128.874,'J/(mol*K)'),
+    ),
+    shortDesc = """""",
+    longDesc = 
+"""
+lot: qbs
+Bond corrections: {'O-O': 2, 'C-O': 3, 'H-O': 1}
+1D rotors:
+pivots: [1, 2], dihedral: [6, 1, 2, 3], rotor symmetry: 1, max scan energy: 20.57 kJ/mol
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Bond ([[1, 2]]) broke during the scan. But unable to propose troubleshooting methods.Bond ([[1, 2]]) broke during the scan. But unable to propose troubleshooting methods.
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+O       1.72065500   -0.34247800   -0.33672600
+O       0.48268500   -0.64589200    0.37697300
+C       0.72880800   -1.73239800    1.14470900
+O       1.04906900   -1.66451300    2.47364900
+O      -0.29067500   -2.18015900    1.88999400
+H       1.84463500    0.57342900   -0.04503800
+""",
+)
