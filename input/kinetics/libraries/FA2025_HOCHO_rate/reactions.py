@@ -184,8 +184,9 @@ entry(
     label="HOCHO <=> H2O + CO",
     kinetics=Lindemann(
         arrheniusHigh=Arrhenius(A=(0.118058,'1/s'), n=3.97427, Ea=(240.209,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), #"Fitted at 1e6 bar"
-        arrheniusLow=Arrhenius(A=(2.30763e+17,'1/s'), n=-2.74926, Ea=(252.12,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
-        ), 
+        arrheniusLow=Arrhenius(A=(1.91856e+23,'cm^3/(mol*s)'), n=-1.74926, Ea=(252.12,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
+        ),
+    elementary_high_p = True,
     # kinetics = Chebyshev(
     #     coeffs = [
     #         [-13.03, 0.5493, -0.06648, -0.0007533],
@@ -266,8 +267,9 @@ entry(
     label="HOCHO <=> H2 + CO2",
     kinetics=Lindemann(
         arrheniusHigh=Arrhenius(A=(9.19577e-40,'1/s'), n=15.3593, Ea=(149.903,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), # "Fitted at 1e6 bar"
-        arrheniusLow=Arrhenius(A=(0.0227629,'1/s'), n=2.35461, Ea=(199.588,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),  # "Fitted at 1e-4 bar"
+        arrheniusLow=Arrhenius(A=(18925,'cm^3/(mol*s)'), n=3.35461, Ea=(199.588,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))  # "Fitted at 1e-4 bar"
         ),
+    elementary_high_p = True,
     # kinetics = Chebyshev(
     #     coeffs = [
     #         [-9.87, 0.5218, -0.04411, -6.759e-03],
