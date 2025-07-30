@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 name = "CO2RR_Adsorbates_Ag111"
+solvent = "water"
 shortDesc = u"Place holder for short description"
 longDesc = u"""
 Place holder for long description
@@ -10,7 +11,7 @@ Place holder for long description
 entry(
     index = 0,
     label = "CHX",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 H u0 p0 c0 {1,S}
@@ -25,7 +26,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CHX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -34,7 +35,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 1,
     label = "COX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -49,7 +50,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""COX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -58,7 +59,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 2,
     label = "HCOOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -75,7 +76,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""HCOOH""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -84,7 +85,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 3,
     label = "COHX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -100,7 +101,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""COHX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -109,7 +110,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 4,
     label = "CHOHX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 C u0 p0 c0 {1,S} {3,S} {5,D}
@@ -126,7 +127,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CHOHX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -135,7 +136,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 5,
     label = "COOHX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {3,D}
@@ -152,7 +153,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""COOHX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -161,7 +162,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 6,
     label = "HCOOX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
 2 O u0 p2 c0 {3,D}
@@ -178,7 +179,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""HCOOX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -187,7 +188,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 7,
     label = "CX",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,Q}
 2 X u0 p0 c0 {1,Q}
@@ -201,7 +202,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -210,7 +211,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 8,
     label = "CH3X",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -227,7 +228,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CH3X""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -236,7 +237,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 9,
     label = "CHOX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -252,7 +253,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CHOX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -261,7 +262,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 10,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -278,7 +279,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CH4""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -287,7 +288,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 11,
     label = "CH2X",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 H u0 p0 c0 {1,S}
@@ -303,7 +304,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CH2X""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
@@ -312,7 +313,7 @@ u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics.
 entry(
     index = 12,
     label = "CH2OHX",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
@@ -330,7 +331,7 @@ entry(
     Tmax=(2000.0, 'K'),
 ),
     shortDesc = u"""CH2OHX""",
-    longDesc = 
+    longDesc =
 u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
 """,
 )
