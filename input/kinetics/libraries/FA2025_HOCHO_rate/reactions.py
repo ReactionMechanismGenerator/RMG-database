@@ -182,26 +182,26 @@ entry(
 entry(
     index=8,
     label="HOCHO <=> H2O + CO",
-    kinetics=Lindemann(
-        arrheniusHigh=Arrhenius(A=(0.118058,'1/s'), n=3.97427, Ea=(240.209,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), #"Fitted at 1e6 bar"
-        arrheniusLow=Arrhenius(A=(1.91856e+23,'cm^3/(mol*s)'), n=-1.74926, Ea=(252.12,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
-        ),
-    elementary_high_p = True,
-    # kinetics = Chebyshev(
-    #     coeffs = [
-    #         [-13.03, 0.5493, -0.06648, -0.0007533],
-    #         [20.19, 0.8176, -0.06179, -0.008217],
-    #         [-0.06541, 0.3255, 0.03136, -0.009102],
-    #         [-0.4846, 0.05542, 0.03466, 0.001873],
-    #         [-0.05964, -0.009936, 0.006159, 0.005113],
-    #         [-0.04374, -0.01576, -0.00322, 0.001076],
-    #     ],
-    #     kunits = '1/s',
-    #     Tmin=(300,'K'), 
-    #     Tmax=(3000,'K'), 
-    #     Pmin=(0.01,'bar'), 
-    #     Pmax=(100,'bar')
-    # ),
+    # kinetics=Lindemann(
+    #     arrheniusHigh=Arrhenius(A=(0.118058,'1/s'), n=3.97427, Ea=(240.209,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), #"Fitted at 1e6 bar"
+    #     arrheniusLow=Arrhenius(A=(1.91856e+23,'cm^3/(mol*s)'), n=-1.74926, Ea=(252.12,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
+    #     ),
+    # elementary_high_p = True,
+    kinetics = Chebyshev(
+        coeffs = [
+            [-13.03, 0.5493, -0.06648, -0.0007533],
+            [20.19, 0.8176, -0.06179, -0.008217],
+            [-0.06541, 0.3255, 0.03136, -0.009102],
+            [-0.4846, 0.05542, 0.03466, 0.001873],
+            [-0.05964, -0.009936, 0.006159, 0.005113],
+            [-0.04374, -0.01576, -0.00322, 0.001076],
+        ],
+        kunits = '1/s',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
     shortDesc=u"""FA2025""",
     longDesc=
     u"""
@@ -265,26 +265,26 @@ entry(
 entry(
     index=11,
     label="HOCHO <=> H2 + CO2",
-    kinetics=Lindemann(
-        arrheniusHigh=Arrhenius(A=(9.19577e-40,'1/s'), n=15.3593, Ea=(149.903,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), # "Fitted at 1e6 bar"
-        arrheniusLow=Arrhenius(A=(18925,'cm^3/(mol*s)'), n=3.35461, Ea=(199.588,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))  # "Fitted at 1e-4 bar"
-        ),
-    elementary_high_p = True,
-    # kinetics = Chebyshev(
-    #     coeffs = [
-    #         [-9.87, 0.5218, -0.04411, -6.759e-03],
-    #         [18.03, 0.8255, -0.05047, -0.01098],
-    #         [0.9446, 0.3801, 0.01371, -4.207e-03],
-    #         [-0.5878, 0.06189, 0.03295, 2.808e-03],
-    #         [-0.2214, -0.02559, 0.01045, 4.807e-03],
-    #         [0.05489, -0.01216, -7.121e-03, 1.920e-03],
-    #     ],
-    #     kunits = '1/s',
-    #     Tmin=(300,'K'), 
-    #     Tmax=(3000,'K'), 
-    #     Pmin=(0.01,'bar'), 
-    #     Pmax=(100,'bar')
-    # ),
+    # kinetics=Lindemann(
+    #     arrheniusHigh=Arrhenius(A=(9.19577e-40,'1/s'), n=15.3593, Ea=(149.903,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), # "Fitted at 1e6 bar"
+    #     arrheniusLow=Arrhenius(A=(18925,'cm^3/(mol*s)'), n=3.35461, Ea=(199.588,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))  # "Fitted at 1e-4 bar"
+    #     ),
+    # elementary_high_p = True,
+    kinetics = Chebyshev(
+        coeffs = [
+            [-12.87, 0.5218, -0.04411, -6.759e-03],
+            [18.03, 0.8255, -0.05047, -0.01098],
+            [0.9446, 0.3801, 0.01371, -4.207e-03],
+            [-0.5878, 0.06189, 0.03295, 2.808e-03],
+            [-0.2214, -0.02559, 0.01045, 4.807e-03],
+            [0.05489, -0.01216, -7.121e-03, 1.920e-03],
+        ],
+        kunits = '1/s',
+        Tmin=(300,'K'), 
+        Tmax=(3000,'K'), 
+        Pmin=(0.01,'bar'), 
+        Pmax=(100,'bar')
+    ),
     shortDesc=u"""FA2025""",
     longDesc=
     u"""
@@ -746,373 +746,373 @@ entry(
     """,
 )
 
-entry(
-    index = 30,
-    label = "O[CH]O <=> [O]CO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-3.263e+00,  2.508e+00, -3.981e-02, -2.895e-02],
-            [ 6.742e+00,  1.623e+00, -1.532e-02, -2.171e-02],
-            [ 1.358e-01, -4.110e-02, -3.889e-02,  2.964e-02],
-            [-9.837e-02, -1.858e-01,  3.196e-02,  1.486e-02],
-            [-3.340e-02, -2.708e-02,  2.709e-02, -1.041e-02],
-            [-2.395e-02,  3.246e-02, -1.629e-03, -6.735e-03],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 30,
+#     label = "O[CH]O <=> [O]CO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-3.263e+00,  2.508e+00, -3.981e-02, -2.895e-02],
+#             [ 6.742e+00,  1.623e+00, -1.532e-02, -2.171e-02],
+#             [ 1.358e-01, -4.110e-02, -3.889e-02,  2.964e-02],
+#             [-9.837e-02, -1.858e-01,  3.196e-02,  1.486e-02],
+#             [-3.340e-02, -2.708e-02,  2.709e-02, -1.041e-02],
+#             [-2.395e-02,  3.246e-02, -1.629e-03, -6.735e-03],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 31,
-    label = "H + HOCHO <=> [O]CO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [ 6.678e+00,  1.511e+00, -8.362e-02, -1.392e-02],
-            [ 2.017e+00,  5.578e-01,  6.967e-02,  4.345e-03],
-            [-2.708e-01, -2.456e-02,  2.279e-02,  1.029e-02],
-            [-1.133e-01, -2.994e-02, -9.507e-04,  1.516e-03],
-            [ 2.983e-03, -1.883e-02, -6.767e-03, -1.709e-03],
-            [ 1.890e-02, -3.352e-03, -3.930e-03, -1.316e-03],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc =
-u"""
-    From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 31,
+#     label = "H + HOCHO <=> [O]CO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [ 6.678e+00,  1.511e+00, -8.362e-02, -1.392e-02],
+#             [ 2.017e+00,  5.578e-01,  6.967e-02,  4.345e-03],
+#             [-2.708e-01, -2.456e-02,  2.279e-02,  1.029e-02],
+#             [-1.133e-01, -2.994e-02, -9.507e-04,  1.516e-03],
+#             [ 2.983e-03, -1.883e-02, -6.767e-03, -1.709e-03],
+#             [ 1.890e-02, -3.352e-03, -3.930e-03, -1.316e-03],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc =
+# u"""
+#     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 32,
-    label = "OH + CH2O <=> [O]CO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-3.794e+00,  1.999e+00, -9.837e-04, -5.451e-04],
-            [ 9.509e+00,  5.474e-04,  3.802e-04,  2.104e-04],
-            [ 3.300e-03,  5.541e-04,  3.855e-04,  2.138e-04],
-            [-1.867e-02,  1.715e-04,  1.193e-04,  6.612e-05],
-            [ 3.244e-02, -1.409e-04, -9.790e-05, -5.418e-05],
-            [ 1.812e-02, -8.475e-05, -5.888e-05, -3.259e-05],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc =
-u"""
-    From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 32,
+#     label = "OH + CH2O <=> [O]CO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-3.794e+00,  1.999e+00, -9.837e-04, -5.451e-04],
+#             [ 9.509e+00,  5.474e-04,  3.802e-04,  2.104e-04],
+#             [ 3.300e-03,  5.541e-04,  3.855e-04,  2.138e-04],
+#             [-1.867e-02,  1.715e-04,  1.193e-04,  6.612e-05],
+#             [ 3.244e-02, -1.409e-04, -9.790e-05, -5.418e-05],
+#             [ 1.812e-02, -8.475e-05, -5.888e-05, -3.259e-05],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc =
+# u"""
+#     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 33,
-    label = "H + HOCHO <=> O[CH]O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [ 6.919e+00,  7.616e-01, -8.212e-02, -6.470e-03],
-            [ 2.947e+00,  9.417e-01, -3.805e-02, -1.510e-02],
-            [-8.917e-02,  2.060e-01,  5.011e-02,  2.063e-04],
-            [-1.341e-01, -1.281e-02,  2.149e-02,  6.413e-03],
-            [-1.739e-02, -6.379e-03,  1.350e-04,  1.080e-03],
-            [-9.173e-03,  2.179e-03,  9.040e-04, -7.113e-04],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc =
-u"""
-    From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 33,
+#     label = "H + HOCHO <=> O[CH]O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [ 6.919e+00,  7.616e-01, -8.212e-02, -6.470e-03],
+#             [ 2.947e+00,  9.417e-01, -3.805e-02, -1.510e-02],
+#             [-8.917e-02,  2.060e-01,  5.011e-02,  2.063e-04],
+#             [-1.341e-01, -1.281e-02,  2.149e-02,  6.413e-03],
+#             [-1.739e-02, -6.379e-03,  1.350e-04,  1.080e-03],
+#             [-9.173e-03,  2.179e-03,  9.040e-04, -7.113e-04],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc =
+# u"""
+#     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 34,
-    label = "OH + CH2O <=> O[CH]O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-4.225e+00,  1.988e+00, -8.480e-03, -4.657e-03],
-            [ 9.526e+00,  1.004e-02,  6.912e-03,  3.770e-03],
-            [ 3.734e-01, -2.259e-03, -1.538e-03, -8.233e-04],
-            [ 1.696e-01, -8.566e-05, -6.527e-05, -4.137e-05],
-            [ 4.325e-02,  1.286e-04,  8.887e-05,  4.877e-05],
-            [ 2.101e-03,  7.872e-05,  5.487e-05,  3.053e-05],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc =
-u"""
-    From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 34,
+#     label = "OH + CH2O <=> O[CH]O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-4.225e+00,  1.988e+00, -8.480e-03, -4.657e-03],
+#             [ 9.526e+00,  1.004e-02,  6.912e-03,  3.770e-03],
+#             [ 3.734e-01, -2.259e-03, -1.538e-03, -8.233e-04],
+#             [ 1.696e-01, -8.566e-05, -6.527e-05, -4.137e-05],
+#             [ 4.325e-02,  1.286e-04,  8.887e-05,  4.877e-05],
+#             [ 2.101e-03,  7.872e-05,  5.487e-05,  3.053e-05],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc =
+# u"""
+#     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 35,
-    label = "OH + CH2O <=> H + HOCHO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [ 3.160e-01, -1.797e-03, -1.246e-03, -6.877e-04],
-            [ 9.798e+00,  8.284e-04,  5.711e-04,  3.121e-04],
-            [ 2.623e-01,  4.407e-04,  3.087e-04,  1.731e-04],
-            [ 1.005e-01,  1.382e-04,  9.580e-05,  5.281e-05],
-            [ 3.925e-02, -1.385e-04, -9.626e-05, -5.334e-05],
-            [ 1.606e-02, -7.905e-05, -5.492e-05, -3.039e-05],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc =
-u"""
-    From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 35,
+#     label = "OH + CH2O <=> H + HOCHO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [ 3.160e-01, -1.797e-03, -1.246e-03, -6.877e-04],
+#             [ 9.798e+00,  8.284e-04,  5.711e-04,  3.121e-04],
+#             [ 2.623e-01,  4.407e-04,  3.087e-04,  1.731e-04],
+#             [ 1.005e-01,  1.382e-04,  9.580e-05,  5.281e-05],
+#             [ 3.925e-02, -1.385e-04, -9.626e-05, -5.334e-05],
+#             [ 1.606e-02, -7.905e-05, -5.492e-05, -3.039e-05],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc =
+# u"""
+#     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 36,
-    label = "O[C](O)O <=> [O]C(O)O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-2.353e+00,  3.617e+00, -1.585e-01, -2.995e-02],
-            [ 6.817e+00,  3.862e-01,  1.406e-01,  1.211e-02],
-            [-1.817e-01,  4.256e-02,  3.099e-02,  1.528e-02],
-            [-1.028e-01, -4.070e-02, -8.814e-03,  3.993e-03],
-            [-4.527e-02, -2.106e-02, -1.029e-02, -2.305e-03],
-            [-3.803e-02,  6.337e-03, -6.571e-04, -2.129e-03],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
-""",
-)
+# entry(
+#     index = 36,
+#     label = "O[C](O)O <=> [O]C(O)O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-2.353e+00,  3.617e+00, -1.585e-01, -2.995e-02],
+#             [ 6.817e+00,  3.862e-01,  1.406e-01,  1.211e-02],
+#             [-1.817e-01,  4.256e-02,  3.099e-02,  1.528e-02],
+#             [-1.028e-01, -4.070e-02, -8.814e-03,  3.993e-03],
+#             [-4.527e-02, -2.106e-02, -1.029e-02, -2.305e-03],
+#             [-3.803e-02,  6.337e-03, -6.571e-04, -2.129e-03],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+# """,
+# )
 
-entry(
-    index = 37,
-    label = "OH + HOCHO <=> [O]C(O)O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-1.187e+01,  1.985e+00, -1.028e-02, -5.627e-03],
-            [ 1.632e+01,  6.465e-03,  4.453e-03,  2.429e-03],
-            [-5.463e-02,  7.211e-03,  4.951e-03,  2.687e-03],
-            [ 2.838e-02, -7.815e-04, -5.237e-04, -2.723e-04],
-            [ 3.661e-02, -1.732e-03, -1.179e-03, -6.302e-04],
-            [-6.361e-03,  6.712e-04,  4.549e-04,  2.414e-04],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
-""",
-)
+# entry(
+#     index = 37,
+#     label = "OH + HOCHO <=> [O]C(O)O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-1.187e+01,  1.985e+00, -1.028e-02, -5.627e-03],
+#             [ 1.632e+01,  6.465e-03,  4.453e-03,  2.429e-03],
+#             [-5.463e-02,  7.211e-03,  4.951e-03,  2.687e-03],
+#             [ 2.838e-02, -7.815e-04, -5.237e-04, -2.723e-04],
+#             [ 3.661e-02, -1.732e-03, -1.179e-03, -6.302e-04],
+#             [-6.361e-03,  6.712e-04,  4.549e-04,  2.414e-04],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+# """,
+# )
 
-entry(
-    index = 38,
-    label = "H + O=C(O)O <=> [O]C(O)O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [ 3.201e+00,  1.648e+00, -1.495e-01, -3.074e-02],
-            [ 5.271e+00,  3.678e-01,  1.387e-01,  1.526e-02],
-            [-2.407e-01,  2.690e-02,  2.574e-02,  1.521e-02],
-            [-3.930e-02, -4.126e-02, -1.137e-02,  2.302e-03],
-            [ 1.976e-02, -1.811e-02, -1.020e-02, -3.122e-03],
-            [-1.857e-03,  7.537e-03,  3.198e-04, -1.897e-03],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
-""",
-)
+# entry(
+#     index = 38,
+#     label = "H + O=C(O)O <=> [O]C(O)O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [ 3.201e+00,  1.648e+00, -1.495e-01, -3.074e-02],
+#             [ 5.271e+00,  3.678e-01,  1.387e-01,  1.526e-02],
+#             [-2.407e-01,  2.690e-02,  2.574e-02,  1.521e-02],
+#             [-3.930e-02, -4.126e-02, -1.137e-02,  2.302e-03],
+#             [ 1.976e-02, -1.811e-02, -1.020e-02, -3.122e-03],
+#             [-1.857e-03,  7.537e-03,  3.198e-04, -1.897e-03],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+# """,
+# )
 
-entry(
-    index = 39,
-    label = "OH + HOCHO <=> O[C](O)O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-1.348e+01,  1.985e+00, -1.051e-02, -5.758e-03],
-            [ 1.689e+01,  6.231e-03,  4.290e-03,  2.338e-03],
-            [ 3.916e-01,  7.044e-03,  4.835e-03,  2.622e-03],
-            [ 6.973e-02, -8.127e-04, -5.453e-04, -2.842e-04],
-            [-7.473e-03, -1.706e-03, -1.161e-03, -6.205e-04],
-            [-9.800e-03,  7.061e-04,  4.792e-04,  2.549e-04],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
-""",
-)
+# entry(
+#     index = 39,
+#     label = "OH + HOCHO <=> O[C](O)O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-1.348e+01,  1.985e+00, -1.051e-02, -5.758e-03],
+#             [ 1.689e+01,  6.231e-03,  4.290e-03,  2.338e-03],
+#             [ 3.916e-01,  7.044e-03,  4.835e-03,  2.622e-03],
+#             [ 6.973e-02, -8.127e-04, -5.453e-04, -2.842e-04],
+#             [-7.473e-03, -1.706e-03, -1.161e-03, -6.205e-04],
+#             [-9.800e-03,  7.061e-04,  4.792e-04,  2.549e-04],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+# """,
+# )
 
-entry(
-    index = 40,
-    label = "H + O=C(O)O <=> O[C](O)O",
-    kinetics = Chebyshev(
-        coeffs = [
-            [ 9.773e+00,  1.886e+00, -5.947e-02, -1.793e-02],
-            [-4.793e-01,  1.359e-01,  6.881e-02,  1.886e-02],
-            [ 3.453e-02, -1.778e-02, -7.556e-03, -6.586e-04],
-            [ 3.256e-02, -4.239e-03, -2.468e-03, -8.271e-04],
-            [-9.001e-05, -1.531e-03, -6.284e-04, -7.294e-05],
-            [-6.643e-03, -4.835e-04, -1.945e-04, -4.952e-05],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
-""",
-)
+# entry(
+#     index = 40,
+#     label = "H + O=C(O)O <=> O[C](O)O",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [ 9.773e+00,  1.886e+00, -5.947e-02, -1.793e-02],
+#             [-4.793e-01,  1.359e-01,  6.881e-02,  1.886e-02],
+#             [ 3.453e-02, -1.778e-02, -7.556e-03, -6.586e-04],
+#             [ 3.256e-02, -4.239e-03, -2.468e-03, -8.271e-04],
+#             [-9.001e-05, -1.531e-03, -6.284e-04, -7.294e-05],
+#             [-6.643e-03, -4.835e-04, -1.945e-04, -4.952e-05],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+# """,
+# )
 
-entry(
-    index = 41,
-    label = "OH + HOCHO <=> O[CH]OO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-1.419e+01,  1.492e+00, -1.553e-01, -3.404e-02],
-            [ 1.878e+01,  5.057e-01,  1.081e-01,  8.756e-03],
-            [-9.685e-02,  4.333e-02,  5.102e-02,  1.522e-02],
-            [ 3.389e-02, -4.685e-02, -5.648e-03,  6.717e-03],
-            [ 3.642e-02, -2.055e-02, -1.004e-02, -1.042e-03],
-            [ 7.043e-03,  6.069e-03, -1.753e-03, -2.392e-03],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
-""",
-)
+# entry(
+#     index = 41,
+#     label = "OH + HOCHO <=> O[CH]OO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-1.419e+01,  1.492e+00, -1.553e-01, -3.404e-02],
+#             [ 1.878e+01,  5.057e-01,  1.081e-01,  8.756e-03],
+#             [-9.685e-02,  4.333e-02,  5.102e-02,  1.522e-02],
+#             [ 3.389e-02, -4.685e-02, -5.648e-03,  6.717e-03],
+#             [ 3.642e-02, -2.055e-02, -1.004e-02, -1.042e-03],
+#             [ 7.043e-03,  6.069e-03, -1.753e-03, -2.392e-03],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+# """,
+# )
 
-entry(
-    index = 42,
-    label = "H + O=C(O)O <=> OH + HOCHO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [-1.178e+01, -1.514e-02, -1.045e-02, -5.725e-03],
-            [ 2.033e+01,  6.300e-03,  4.337e-03,  2.365e-03],
-            [ 3.555e-02,  7.030e-03,  4.826e-03,  2.618e-03],
-            [ 2.403e-02, -8.282e-04, -5.560e-04, -2.900e-04],
-            [ 1.725e-02, -1.708e-03, -1.163e-03, -6.216e-04],
-            [ 1.103e-02,  7.036e-04,  4.775e-04,  2.539e-04],
-        ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
-    ),
-    shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
-u"""
-    From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
-""",
-)
-
-
-entry(
-    index = 43,
-    label = "HOCHO + HOCHO <=> HOCHO + CO + H2O",
-    kinetics = Arrhenius(A=(4.79e-01, '(cm^3/(mol*s))'), n=3.40, Ea=(104.59, 'kJ/mol'),
-                         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-    longDesc = 
-"""
-
-TS method summary for TS0 in HOCHO + HOCHO <=> HOCHO + CO + H2O:
-
-The method that generated the best TS guess and its output used for the optimization: user guess 0
+# entry(
+#     index = 42,
+#     label = "H + O=C(O)O <=> OH + HOCHO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [-1.178e+01, -1.514e-02, -1.045e-02, -5.725e-03],
+#             [ 2.033e+01,  6.300e-03,  4.337e-03,  2.365e-03],
+#             [ 3.555e-02,  7.030e-03,  4.826e-03,  2.618e-03],
+#             [ 2.403e-02, -8.282e-04, -5.560e-04, -2.900e-04],
+#             [ 1.725e-02, -1.708e-03, -1.163e-03, -6.216e-04],
+#             [ 1.103e-02,  7.036e-04,  4.775e-04,  2.539e-04],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
+#     longDesc = 
+# u"""
+#     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
+#     the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+# """,
+# )
 
 
-TS external symmetry: 1, TS optical isomers: 2
+# entry(
+#     index = 43,
+#     label = "HOCHO + HOCHO <=> HOCHO + CO + H2O",
+#     kinetics = Arrhenius(A=(4.79e-01, '(cm^3/(mol*s))'), n=3.40, Ea=(104.59, 'kJ/mol'),
+#                          T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+#     longDesc = 
+# """
 
-Optimized TS geometry:
-C      -5.31806600    0.95127700   -0.06259500
-H      -6.50508100    1.09039000   -0.54026300
-O      -4.34825500    1.36904000    0.38136900
-O      -5.25710500   -0.77504500   -0.38224100
-H      -4.39736300   -1.08534800   -0.67872700
-C      -7.90086200   -0.00547300   -1.78732000
-H      -8.84606200   -0.03244500   -2.34730600
-O      -7.66242600    1.05094000   -1.14742800
-O      -7.17500800   -1.02113300   -1.85083000
-H      -6.08134000   -0.96262100   -1.09028200
+# TS method summary for TS0 in HOCHO + HOCHO <=> HOCHO + CO + H2O:
+
+# The method that generated the best TS guess and its output used for the optimization: user guess 0
 
 
-No rotors considered for this TS.
-""",
-)
+# TS external symmetry: 1, TS optical isomers: 2
+
+# Optimized TS geometry:
+# C      -5.31806600    0.95127700   -0.06259500
+# H      -6.50508100    1.09039000   -0.54026300
+# O      -4.34825500    1.36904000    0.38136900
+# O      -5.25710500   -0.77504500   -0.38224100
+# H      -4.39736300   -1.08534800   -0.67872700
+# C      -7.90086200   -0.00547300   -1.78732000
+# H      -8.84606200   -0.03244500   -2.34730600
+# O      -7.66242600    1.05094000   -1.14742800
+# O      -7.17500800   -1.02113300   -1.85083000
+# H      -6.08134000   -0.96262100   -1.09028200
+
+
+# No rotors considered for this TS.
+# """,
+# )
