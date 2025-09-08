@@ -182,32 +182,32 @@ entry(
 entry(
     index=8,
     label="HOCHO <=> H2O + CO",
-    # kinetics=Lindemann(
-    #     arrheniusHigh=Arrhenius(A=(0.118058,'1/s'), n=3.97427, Ea=(240.209,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), #"Fitted at 1e6 bar"
-    #     arrheniusLow=Arrhenius(A=(1.91856e+23,'cm^3/(mol*s)'), n=-1.74926, Ea=(252.12,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
-    #     ),
-    # elementary_high_p = True,
-    kinetics = Chebyshev(
-        coeffs = [
-            [-13.03, 0.5493, -0.06648, -0.0007533],
-            [20.19, 0.8176, -0.06179, -0.008217],
-            [-0.06541, 0.3255, 0.03136, -0.009102],
-            [-0.4846, 0.05542, 0.03466, 0.001873],
-            [-0.05964, -0.009936, 0.006159, 0.005113],
-            [-0.04374, -0.01576, -0.00322, 0.001076],
-        ],
-        kunits = '1/s',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
-        Pmax=(100,'bar')
-    ),
-    shortDesc=u"""FA2025""",
-    longDesc=
-    u"""
-    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
-    """,
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(8.02386e-07,'1/s'), n=4.85458, Ea=(29.16,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), #"Fitted at 1e6 bar"
+        arrheniusLow=Arrhenius(A=(9.24988e+27,'cm^3/(mol*s)'), n=-3.09095, Ea=(65.179,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
+        ),
+    elementary_high_p = True,
+    # kinetics = Chebyshev(
+    #     coeffs = [
+    #         [-13.03, 0.5493, -0.06648, -0.0007533],
+    #         [20.19, 0.8176, -0.06179, -0.008217],
+    #         [-0.06541, 0.3255, 0.03136, -0.009102],
+    #         [-0.4846, 0.05542, 0.03466, 0.001873],
+    #         [-0.05964, -0.009936, 0.006159, 0.005113],
+    #         [-0.04374, -0.01576, -0.00322, 0.001076],
+    #     ],
+    #     kunits = '1/s',
+    #     Tmin=(300,'K'), 
+    #     Tmax=(3000,'K'), 
+    #     Pmin=(0.01,'bar'), 
+    #     Pmax=(100,'bar')
+    # ),
+    # shortDesc=u"""FA2025""",
+    # longDesc=
+    # u"""
+    # From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    # the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    # """,
 )
 
 entry(
@@ -265,32 +265,32 @@ entry(
 entry(
     index=11,
     label="HOCHO <=> H2 + CO2",
-    # kinetics=Lindemann(
-    #     arrheniusHigh=Arrhenius(A=(9.19577e-40,'1/s'), n=15.3593, Ea=(149.903,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), # "Fitted at 1e6 bar"
-    #     arrheniusLow=Arrhenius(A=(18925,'cm^3/(mol*s)'), n=3.35461, Ea=(199.588,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))  # "Fitted at 1e-4 bar"
-    #     ),
-    # elementary_high_p = True,
-    kinetics = Chebyshev(
-        coeffs = [
-            [-12.87, 0.5218, -0.04411, -6.759e-03],
-            [18.03, 0.8255, -0.05047, -0.01098],
-            [0.9446, 0.3801, 0.01371, -4.207e-03],
-            [-0.5878, 0.06189, 0.03295, 2.808e-03],
-            [-0.2214, -0.02559, 0.01045, 4.807e-03],
-            [0.05489, -0.01216, -7.121e-03, 1.920e-03],
-        ],
-        kunits = '1/s',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
-        Pmax=(100,'bar')
-    ),
-    shortDesc=u"""FA2025""",
-    longDesc=
-    u"""
-    From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. Increased by a factor of 100.
-    """,
+    kinetics=Lindemann(
+        arrheniusHigh=Arrhenius(A=(1.8036e+16,'1/s'), n=-1, Ea=(57.12,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), # "Fitted at 1e6 bar"
+        arrheniusLow=Arrhenius(A=(1.89521e-12,'cm^3/(mol*s)'), n=7.24515, Ea=(22.446,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))  # "Fitted at 1e-4 bar"
+        ),
+    elementary_high_p = True,
+    # kinetics = Chebyshev(
+    #     coeffs = [
+    #         [-12.87, 0.5218, -0.04411, -6.759e-03],
+    #         [18.03, 0.8255, -0.05047, -0.01098],
+    #         [0.9446, 0.3801, 0.01371, -4.207e-03],
+    #         [-0.5878, 0.06189, 0.03295, 2.808e-03],
+    #         [-0.2214, -0.02559, 0.01045, 4.807e-03],
+    #         [0.05489, -0.01216, -7.121e-03, 1.920e-03],
+    #     ],
+    #     kunits = '1/s',
+    #     Tmin=(300,'K'), 
+    #     Tmax=(3000,'K'), 
+    #     Pmin=(0.01,'bar'), 
+    #     Pmax=(100,'bar')
+    # ),
+    # shortDesc=u"""FA2025""",
+    # longDesc=
+    # u"""
+    # From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
+    # the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. Increased by a factor of 100.
+    # """,
 )
 
 entry(
