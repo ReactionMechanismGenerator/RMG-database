@@ -30,170 +30,554 @@ entry(
     label = "Root",
     group = 
 """
-1 *1 Cdd            u0 {2,D} {3,D}
-2 *2 O2d            u0 {1,D}
-3    O2d            u0 {1,D}
-4 *3 [H,Cs,Cd,Cb,N] u0 c0 {5,S}
-5 *4 [H,Cs,Cd,Cb,N] u0 c0 {4,S}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 R         u0 c0 {5,S}
+5 *4 R         u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 1,
-    label = "Root_5CbCdCsHN->Cs",
+    label = "Root_4R->F",
     group = 
 """
-1 *1 Cdd            u0 {2,D} {3,D}
-2 *2 O2d            u0 {1,D}
-3    O2d            u0 {1,D}
-4 *3 [H,Cs,Cd,Cb,N] u0 c0 {5,S}
-5 *4 Cs             u0 c0 {4,S}
+1 *1 Cdd       u0 r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 F         u0 c0 r0 {5,S}
+5 *4 R         u0 c0 r0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "Root_5CbCdCsHN->Cs_4CbCdCsHN->Cs",
+    label = "Root_N-4R->F",
     group = 
 """
-1 *1 Cdd u0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S}
-5 *4 Cs  u0 c0 {4,S}
+1 *1 Cdd                         u0 {2,D} {3,D}
+2 *2 [O2d,S2d]                   u0 {1,D}
+3    [O2d,S2d]                   u0 {1,D}
+4 *3 [Li,Br,O,C,Si,P,S,I,H,Cl,N] u0 c0 {5,S}
+5 *4 R                           u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 3,
-    label = "Root_5CbCdCsHN->Cs_N-4CbCdCsHN->Cs",
+    label = "Root_N-4R->F_5R->C",
     group = 
 """
-1 *1 Cdd   u0 {2,D} {3,D}
-2 *2 O2d   u0 {1,D}
-3    O2d   u0 {1,D}
-4 *3 [H,N] u0 c0 {5,S}
-5 *4 Cs    u0 c0 {4,S}
+1 *1 Cdd                         u0 {2,D} {3,D}
+2 *2 [O2d,S2d]                   u0 {1,D}
+3    [O2d,S2d]                   u0 {1,D}
+4 *3 [Li,Br,O,C,Si,P,S,I,H,Cl,N] u0 c0 {5,S}
+5 *4 C                           u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 4,
-    label = "Root_N-5CbCdCsHN->Cs",
+    label = "Root_N-4R->F_5R->C_4BrCClHILiNOPSSi->C",
     group = 
 """
-1 *1 Cdd            u0 {2,D} {3,D}
-2 *2 O2d            u0 {1,D}
-3    O2d            u0 {1,D}
-4 *3 [H,Cs,Cd,Cb,N] u0 c0 {5,S}
-5 *4 [Cd,Cb,H,N]    u0 c0 {4,S}
+1 *1 Cdd       u0 r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 r0 {5,S}
+5 *4 C         u0 c0 r0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 5,
-    label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H",
+    label = "Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C",
     group = 
 """
-1 *1 Cdd         u0 {2,D} {3,D}
-2 *2 O2d         u0 {1,D}
-3    O2d         u0 {1,D}
-4 *3 H           u0 c0 {5,S}
-5 *4 [Cd,Cb,H,N] u0 c0 {4,S}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 [H,N]     u0 c0 {5,S}
+5 *4 C         u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 6,
-    label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_5CbCdHN->Cd",
+    label = "Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C_4HN->H",
     group = 
 """
-1 *1 Cdd u0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 H   u0 c0 {5,S}
-5 *4 Cd  u0 c0 {4,S}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 H         u0 c0 {5,S}
+5 *4 C         u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 7,
-    label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_5CbCdHN->Cd_Ext-5Cd-R_Ext-6R!H-R",
+    label = "Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C_4HN->H_Ext-5C-R_Ext-6R!H-R",
     group = 
 """
-1 *1 Cdd u0 r0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 H   u0 c0 r0 {5,S}
-5 *4 Cd  u0 c0 r0 {4,S} {6,D}
-6    N   u0 r0 {5,D} {7,[S,D,T,B,Q]}
-7    R!H ux {6,[S,D,T,B,Q]}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 H         u0 c0 {5,S}
+5 *4 C         u0 c0 {4,S} {6,D}
+6    N         u0 r0 {5,D} {7,[S,B,D,T,Q]}
+7    R!H       ux {6,[S,B,D,T,Q]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 8,
-    label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_N-5CbCdHN->Cd",
+    label = "Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C_N-4HN->H",
     group = 
 """
-1 *1 Cdd u0 r0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 H   u0 c0 r0 {5,S}
-5 *4 H   u0 c0 r0 {4,S}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 N         u0 c0 {5,S}
+5 *4 C         u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 9,
-    label = "Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H",
+    label = "Root_N-4R->F_N-5R->C",
     group = 
 """
-1 *1 Cdd u0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S}
-5 *4 H   u0 c0 {4,S}
+1 *1 Cdd                         u0 {2,D} {3,D}
+2 *2 [O2d,S2d]                   u0 {1,D}
+3    [O2d,S2d]                   u0 {1,D}
+4 *3 [Li,Br,O,C,Si,P,S,I,H,Cl,N] u0 c0 {5,S}
+5 *4 H                           u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 10,
-    label = "Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H_Ext-4CsN-R",
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C",
     group = 
 """
-1 *1 Cdd u0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S} {6,[S,D,T,B,Q]}
-5 *4 H   u0 c0 {4,S}
-6    R!H ux {4,[S,D,T,B,Q]}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S}
+5 *4 H         u0 c0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 11,
-    label = "Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H_Ext-4CsN-R_Ext-4CsN-R",
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R",
     group = 
 """
-1 *1 Cdd u0 {2,D} {3,D}
-2 *2 O2d u0 {1,D}
-3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
-5 *4 H   u0 c0 {4,S}
-6    R!H ux {4,[S,D,T,B,Q]}
-7    R!H ux {4,[S,D,T,B,Q]}
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    R!H       ux {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_6R!H-u1",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    R!H       u1 {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_6R!H-u1_Ext-4C-R",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    R!H       u1 {4,[S,B,D,T,Q]}
+7    R!H       ux {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,[S,B,D,T,Q]}
+5 *4 H         u0       c0 {4,S}
+6    R!H       u[0,2,3] {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 15,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,S}
+5 *4 H         u0       c0 {4,S}
+6    O         u[0,2,3] {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 16,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,S} {7,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+5 *4 H         u0       c0 {4,S}
+6    O         u[0,2,3] {4,S}
+7    R!H       ux       {4,[S,B,D,T,Q]}
+8    R!H       ux       {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_10R!H->C",
+    group = 
+"""
+1  *1 Cdd       u0       {2,D} {3,D}
+2  *2 [O2d,S2d] u0       {1,D}
+3     [O2d,S2d] u0       {1,D}
+4  *3 C         u0       c0 {5,S} {6,S} {7,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+5  *4 H         u0       c0 {4,S}
+6     O         u[0,2,3] {4,S} {9,[S,B,D,T,Q]}
+7     R!H       ux       {4,[S,B,D,T,Q]}
+8     R!H       ux       {4,[S,B,D,T,Q]}
+9     C         ux       {6,[S,B,D,T,Q]} {10,S}
+10    C         u0       {9,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 18,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_10R!H->C_Ext-10C-R_11R!H->C",
+    group = 
+"""
+1  *1 Cdd       u0       r0 {2,D} {3,D}
+2  *2 [O2d,S2d] u0       {1,D}
+3     [O2d,S2d] u0       {1,D}
+4  *3 C         u0       c0 r0 {5,S} {6,S} {7,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+5  *4 H         u0       c0 r0 {4,S}
+6     O         u[0,2,3] r0 {4,S} {9,[S,B,D,T,Q]}
+7     R!H       ux       {4,[S,B,D,T,Q]}
+8     R!H       ux       {4,[S,B,D,T,Q]}
+9     C         ux       {6,[S,B,D,T,Q]} {10,S}
+10    C         u0       r0 {9,S} {11,S}
+11    C         u0       r0 {10,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 19,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_10R!H->C_Ext-10C-R_N-11R!H->C",
+    group = 
+"""
+1  *1 Cdd       u0       r0 {2,D} {3,D}
+2  *2 [O2d,S2d] u0       {1,D}
+3     [O2d,S2d] u0       {1,D}
+4  *3 C         u0       c0 r0 {5,S} {6,S} {7,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+5  *4 H         u0       c0 r0 {4,S}
+6     O         u[0,2,3] r0 {4,S} {9,[S,B,D,T,Q]}
+7     R!H       ux       {4,[S,B,D,T,Q]}
+8     R!H       ux       {4,[S,B,D,T,Q]}
+9     C         ux       {6,[S,B,D,T,Q]} {10,S}
+10    C         u0       r0 {9,S} {11,S}
+11    F         u0       r0 {10,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 20,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_N-10R!H->C",
+    group = 
+"""
+1  *1 Cdd       u0       r0 {2,D} {3,D}
+2  *2 [O2d,S2d] u0       {1,D}
+3     [O2d,S2d] u0       {1,D}
+4  *3 C         u0       c0 r0 {5,S} {6,S} {7,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+5  *4 H         u0       c0 r0 {4,S}
+6     O         u[0,2,3] r0 {4,S} {9,[S,B,D,T,Q]}
+7     R!H       ux       {4,[S,B,D,T,Q]}
+8     R!H       ux       {4,[S,B,D,T,Q]}
+9     C         ux       {6,[S,B,D,T,Q]} {10,S}
+10    F         u0       r0 {9,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 21,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-7R!H-R",
+    group = 
+"""
+1 *1 Cdd       u0 r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 r0 {5,S} {6,S}
+5 *4 H         u0 c0 r0 {4,S}
+6    O         u0 r0 {4,S} {7,S}
+7    C         u0 r0 {6,S} {8,[S,B,D,T,Q]}
+8    R!H       ux {7,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 22,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,[S,B,D,T,Q]}
+5 *4 H         u0       c0 {4,S}
+6    [C,F]     u[0,2,3] {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 23,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,[S,B,D,T,Q]}
+5 *4 H         u0       c0 {4,S}
+6    F         u[0,2,3] {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 24,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0       c0 {4,S}
+6    F         u[0,2,3] {4,[S,B,D,T,Q]}
+7    C         ux       {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 25,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C",
+    group = 
+"""
+1 *1 Cdd       u0       {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0       c0 {4,S}
+6    F         u[0,2,3] {4,[S,B,D,T,Q]}
+7    C         ux       {4,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+8    C         ux       {7,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_9R!H->C",
+    group = 
+"""
+1 *1 Cdd       u0       r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 r0 {5,S} {6,S} {7,S}
+5 *4 H         u0       c0 r0 {4,S}
+6    F         u[0,2,3] r0 {4,S}
+7    C         u0       r0 {4,S} {8,S}
+8    C         ux       r0 {7,S} {9,S}
+9    C         u0       r0 {8,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 27,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_N-9R!H->C",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    F         u0 {4,[S,B,D,T,Q]}
+7    C         ux {4,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+8    C         ux {7,[S,B,D,T,Q]} {9,[S,B,D,T,Q]}
+9    F         ux {8,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 28,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_N-9R!H->C_8C-u0",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    F         u0 {4,[S,B,D,T,Q]}
+7    C         ux {4,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+8    C         u0 {7,[S,B,D,T,Q]} {9,[S,B,D,T,Q]}
+9    F         ux {8,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 29,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_N-9R!H->C_N-8C-u0",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    F         u0 {4,[S,B,D,T,Q]}
+7    C         ux {4,[S,B,D,T,Q]} {8,[S,B,D,T,Q]}
+8    C         u1 {7,[S,B,D,T,Q]} {9,[S,B,D,T,Q]}
+9    F         ux {8,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 30,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_N-8R!H->C",
+    group = 
+"""
+1 *1 Cdd       u0       r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 r0 {5,S} {6,S} {7,S}
+5 *4 H         u0       c0 r0 {4,S}
+6    F         u[0,2,3] r0 {4,S}
+7    C         u0       r0 {4,S} {8,S}
+8    F         u0       r0 {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 31,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_N-7R!H->C",
+    group = 
+"""
+1 *1 Cdd       u0       r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0       {1,D}
+3    [O2d,S2d] u0       {1,D}
+4 *3 C         u0       c0 r0 {5,S} {6,S} {7,S}
+5 *4 H         u0       c0 r0 {4,S}
+6    F         u[0,2,3] r0 {4,S}
+7    F         u0       r0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 32,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_N-6CF->F",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    C         u0 {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 33,
+    label = "Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_N-6CF->F_Ext-4C-R",
+    group = 
+"""
+1 *1 Cdd       u0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 C         u0 c0 {5,S} {6,[S,B,D,T,Q]} {7,[S,B,D,T,Q]}
+5 *4 H         u0 c0 {4,S}
+6    C         u0 {4,[S,B,D,T,Q]}
+7    R!H       ux {4,[S,B,D,T,Q]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 34,
+    label = "Root_N-4R->F_N-5R->C_N-4BrCClHILiNOPSSi->C",
+    group = 
+"""
+1 *1 Cdd       u0 r0 {2,D} {3,D}
+2 *2 [O2d,S2d] u0 {1,D}
+3    [O2d,S2d] u0 {1,D}
+4 *3 H         u0 c0 r0 {5,S}
+5 *4 H         u0 c0 r0 {4,S}
 """,
     kinetics = None,
 )
@@ -201,17 +585,40 @@ entry(
 tree(
 """
 L1: Root
-    L2: Root_5CbCdCsHN->Cs
-        L3: Root_5CbCdCsHN->Cs_4CbCdCsHN->Cs
-        L3: Root_5CbCdCsHN->Cs_N-4CbCdCsHN->Cs
-    L2: Root_N-5CbCdCsHN->Cs
-        L3: Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H
-            L4: Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_5CbCdHN->Cd
-                L5: Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_5CbCdHN->Cd_Ext-5Cd-R_Ext-6R!H-R
-            L4: Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_N-5CbCdHN->Cd
-        L3: Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H
-            L4: Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H_Ext-4CsN-R
-                L5: Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H_Ext-4CsN-R_Ext-4CsN-R
+    L2: Root_4R->F
+    L2: Root_N-4R->F
+        L3: Root_N-4R->F_5R->C
+            L4: Root_N-4R->F_5R->C_4BrCClHILiNOPSSi->C
+            L4: Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C
+                L5: Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C_4HN->H
+                    L6: Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C_4HN->H_Ext-5C-R_Ext-6R!H-R
+                L5: Root_N-4R->F_5R->C_N-4BrCClHILiNOPSSi->C_N-4HN->H
+        L3: Root_N-4R->F_N-5R->C
+            L4: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C
+                L5: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R
+                    L6: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_6R!H-u1
+                        L7: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_6R!H-u1_Ext-4C-R
+                    L6: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1
+                        L7: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O
+                            L8: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R
+                                L9: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_10R!H->C
+                                    L10: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_10R!H->C_Ext-10C-R_11R!H->C
+                                    L10: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_10R!H->C_Ext-10C-R_N-11R!H->C
+                                L9: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-4C-R_Ext-4C-R_Ext-8R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-9R!H-R_N-10R!H->C
+                            L8: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_6R!H->O_Ext-6O-R_Ext-7R!H-R
+                        L7: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O
+                            L8: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F
+                                L9: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C
+                                    L10: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C
+                                        L11: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_9R!H->C
+                                        L11: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_N-9R!H->C
+                                            L12: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_N-9R!H->C_8C-u0
+                                            L12: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_8R!H->C_Ext-8C-R_N-9R!H->C_N-8C-u0
+                                    L10: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_7R!H->C_Ext-7C-R_N-8R!H->C
+                                L9: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_6CF->F_Ext-4C-R_N-7R!H->C
+                            L8: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_N-6CF->F
+                                L9: Root_N-4R->F_N-5R->C_4BrCClHILiNOPSSi->C_Ext-4C-R_N-6R!H-u1_N-6R!H->O_N-6CF->F_Ext-4C-R
+            L4: Root_N-4R->F_N-5R->C_N-4BrCClHILiNOPSSi->C
 """
 )
 
