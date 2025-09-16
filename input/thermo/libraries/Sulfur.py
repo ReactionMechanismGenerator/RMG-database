@@ -23,7 +23,7 @@ multiplicity 3
     shortDesc=u"""""",
     longDesc=u"""
 H298 from ATcT: 279.07 kJ/mol
-H298 from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP:(278.326,'kJ/mol')
+H298 from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP: 278.326 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -54,11 +54,11 @@ entry(
     shortDesc=u"""""",
     longDesc=u"""
 H298 from ATcT: -20.3 kJ/mol
-H298 from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP:(-16.4376,'kJ/mol')
+H298 from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP: -16.4376 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
-    H298=(-20.3 kJ/mol,'kJ/mol'),
+    H298=(-20.3,'kJ/mol'),
     S298=(205.489,'J/(mol*K)'),
     Tdata=([300,400,500,600,800,1000,1500,2000,2500,3000],'K'),
     Cpdata=([34.1625,35.3189,36.8089,38.5204,42.0146,45.0112,50.3582,53.3055,54.7994,55.9233],'J/(mol*K)'),
@@ -307,13 +307,13 @@ multiplicity 1
 3 O u0 p2 c0 {1,D}
 """,
     thermo=NASA(polynomials=[
-        # NASA polynomials are not provided, so only ThermoData is included in longDesc
-    ],
-        Tmin=(298,'K'), Tmax=(3000,'K'), E0=(-74.2163,'kJ/mol'), Cp0=(33.2579,'J/(mol*K)'), CpInf=(58.2013,'J/(mol*K)')),
+        NASAPolynomial(coeffs=[3.9755, 0.00140522, 2.06227e-05, -4.26925e-08, 2.51361e-11, -8924.9, 8.48197], Tmin=(10, 'K'), Tmax=(597.631, 'K')),
+        NASAPolynomial(coeffs=[4.22875, 0.00554163, -4.39573e-06, 1.54302e-09, -1.9829e-13, -9059.31, 6.5193], Tmin=(597.631, 'K'), Tmax=(3000, 'K'))],
+        Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-74.2163, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT: -52.64 kJ/mol  
-H298 from high-level computations:-62.926,kJ/mol
+H298 from ATcT: -52.64 kJ/mol
+H298 from high-level computations: -62.926 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -343,8 +343,8 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(136.996, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(37.4151, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT: 143.26 kJ/mol  
-H298 from high-level computations:145.677,kJ/mol
+H298 from ATcT: 143.26 kJ/mol
+H298 from high-level computations: 145.677 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -374,7 +374,7 @@ multiplicity 3
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-3.58678, 'kJ/mol'), Cp0=(29.1007, 'J/(mol*K)'), CpInf=(37.4151, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:5.13256,kJ/mol
+H298 from high-level computations: 5.13256 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -405,8 +405,8 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-330.224, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from ATcT: -296.75 kJ/mol  
-H298 from high-level computations:-319.669,kJ/mol
+H298 from ATcT: -296.75 kJ/mol
+H298 from high-level computations: -319.669 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -437,7 +437,7 @@ entry(
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(12.9076, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:27.4437,kJ/mol
+H298 from high-level computations: 27.4437 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -469,7 +469,7 @@ multiplicity 2
     shortDesc=u"""""",
     longDesc=u"""
 ATcT H298: -5.18 kJ/mol
-H298 from high-level computations:-6.44878,kJ/mol
+H298 from high-level computations: -6.44878 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -501,7 +501,7 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-268.371, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(78.9875, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-255.665,kJ/mol
+H298 from high-level computations: -255.665 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -535,9 +535,8 @@ multiplicity 2
     shortDesc=u"""""",
     longDesc=u"""
 ATcT H298: -374.7 kJ/mol
-H298 from high-level computations:-388.266,kJ/mol
+H298 from high-level computations: -388.266 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
-
 
 ThermoData(
     H298=(-374.7,'kJ/mol'),
@@ -567,7 +566,7 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-41.3683, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-31.3236,kJ/mol
+H298 from high-level computations: -31.3236 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -599,7 +598,7 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-187.667, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-176.692,kJ/mol
+H298 from high-level computations: -176.692 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -632,7 +631,7 @@ multiplicity 1
     shortDesc=u"""""",
     longDesc=u"""
 ATcT H298: -114.32 kJ/mol
-H298 from high-level computations:-113.397,kJ/mol
+H298 from high-level computations: -113.397 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -664,9 +663,8 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(110.233, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-    H298 from high-level computations:123.565,kJ/mol
+H298 from high-level computations: 123.565 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
-
 
 ThermoData(
     H298=(123.565,'kJ/mol'),
@@ -694,9 +692,9 @@ multiplicity 2
         NASAPolynomial(coeffs=[3.99324, 0.000384408, 1.26992e-05, -2.19379e-08, 1.17605e-11, 11869.7, 7.33301], Tmin=(10, 'K'), Tmax=(574.972, 'K')),
         NASAPolynomial(coeffs=[3.51194, 0.00515713, -3.46809e-06, 1.11635e-09, -1.3704e-13, 11901.5, 9.18386], Tmin=(574.972, 'K'), Tmax=(3000, 'K'))],
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(98.687, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
-    shortDesc=u"""""""",
+    shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:109.344,kJ/mol
+H298 from high-level computations: 109.344 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -728,7 +726,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(10.3749, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(78.9875, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:22.1496,kJ/mol
+H298 from high-level computations: 22.1496 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -761,7 +759,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-297.337, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(99.7737, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-283.415,kJ/mol
+H298 from high-level computations: -283.415 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -793,7 +791,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(123.904, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:134.681,kJ/mol
+H298 from high-level computations: 134.681 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -825,7 +823,7 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-46.5664, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-32.8514,kJ/mol
+H298 from high-level computations: -32.8514 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -859,7 +857,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-123.956, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(120.56, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-104.689,kJ/mol
+H298 from high-level computations: -104.689 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -891,7 +889,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-211.772, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-198.85,kJ/mol
+H298 from high-level computations: -198.85 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -923,7 +921,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-169.74, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-155.302,kJ/mol
+H298 from high-level computations: -155.302 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -954,7 +952,7 @@ multiplicity 3
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(112.637, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(58.2013, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:124.541,kJ/mol
+H298 from high-level computations: 124.541 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -985,7 +983,7 @@ entry(
     shortDesc=u"""""",
     longDesc=u"""
 ATcT H298: 163.7 kJ/mol
-H298 from high-level computations:165.742,kJ/mol
+H298 from high-level computations: 165.742 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -1016,7 +1014,7 @@ entry(
     shortDesc=u"""""",
     longDesc=u"""
 ATcT H298: 134.3 kJ/mol
-H298 from high-level computations:137.384,kJ/mol
+H298 from high-level computations: 137.384 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -1048,7 +1046,7 @@ multiplicity 2
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-75.4837, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(78.9875, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-61.9898,kJ/mol
+H298 from high-level computations: -61.9898 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -1080,7 +1078,7 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(74.9248, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:88.1877,kJ/mol
+H298 from high-level computations: 88.1877 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -1112,7 +1110,7 @@ multiplicity 3
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-48.484, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-34.0869,kJ/mol
+H298 from high-level computations: -34.0869 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -1145,7 +1143,7 @@ multiplicity 1
     shortDesc=u"""""",
     longDesc=u"""
 ATcT H298: -114.32 kJ/mol
-H298 from high-level computations:-110.067,kJ/mol
+H298 from high-level computations: -110.067 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
@@ -1177,16 +1175,16 @@ multiplicity 1
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(97.9313, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:111.58,kJ/mol
+H298 from high-level computations: 111.58 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
-    H298=(111.58, 'kJ/mol'),
-    S298=(288.513, 'J/(mol*K)'),
-    Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500, 3000], 'K'),
-    Cpdata=([61.0041, 68.3816, 72.6795, 75.2182, 78.6109, 80.4335, 81.6109, 82.0731, 83.1109, 81.4869], 'J/(mol*K)'),
-    Cp0=(33.2579, 'J/(mol*K)'),
-    CpInf=(83.1447, 'J/(mol*K)'),
+    H298=(111.58,'kJ/mol'),
+    S298=(288.513,'J/(mol*K)'),
+    Tdata=([300,400,500,600,800,1000,1500,2000,2500,3000],'K'),
+    Cpdata=([61.0041,68.3816,72.6795,75.2182,78.6109,80.4335,81.6109,82.0731,83.1109,81.4869],'J/(mol*K)'),
+    Cp0=(33.2579,'J/(mol*K)'),
+    CpInf=(83.1447,'J/(mol*K)'),
     Tmin=(298,'K'),
     Tmax=(3000,'K'),
 )
@@ -1209,16 +1207,16 @@ multiplicity 3
         Tmin=(10, 'K'), Tmax=(3000, 'K'), E0=(-30.9336, 'kJ/mol'), Cp0=(33.2579, 'J/(mol*K)'), CpInf=(83.1447, 'J/(mol*K)')),
     shortDesc=u"""""",
     longDesc=u"""
-H298 from high-level computations:-15.8168,kJ/mol
+H298 from high-level computations: -15.8168 kJ/mol
 S298 and Cp from CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP computations
 
 ThermoData(
-    H298=(-15.8168, 'kJ/mol'),
-    S298=(314.058, 'J/(mol*K)'),
-    Tdata=([300, 400, 500, 600, 800, 1000, 1500, 2000, 2500, 3000], 'K'),
-    Cpdata=([63.986, 68.692, 71.9833, 74.4421, 77.8962, 79.9395, 81.6587, 82.0271, 82.663, 81.9546], 'J/(mol*K)'),
-    Cp0=(33.2579, 'J/(mol*K)'),
-    CpInf=(83.1447, 'J/(mol*K)'),
+    H298=(-15.8168,'kJ/mol'),
+    S298=(314.058,'J/(mol*K)'),
+    Tdata=([300,400,500,600,800,1000,1500,2000,2500,3000],'K'),
+    Cpdata=([63.986,68.692,71.9833,74.4421,77.8962,79.9395,81.6587,82.0271,82.663,81.9546],'J/(mol*K)'),
+    Cp0=(33.2579,'J/(mol*K)'),
+    CpInf=(83.1447,'J/(mol*K)'),
     Tmin=(298,'K'),
     Tmax=(3000,'K'),
 )
