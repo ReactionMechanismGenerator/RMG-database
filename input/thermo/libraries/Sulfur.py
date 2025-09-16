@@ -1098,7 +1098,7 @@ ThermoData(
 
 entry(
     index=35,
-    label="O2S2",
+    label="O2S2_triplet",
     molecule="""
 multiplicity 3
 1 S u0 p1 c0 {2,S} {3,S} {4,D}
@@ -1130,7 +1130,7 @@ ThermoData(
 
 entry(
     index=36,
-    label="O2S2",
+    label="O2S2_cyclic",
     molecule="""
 multiplicity 1
 1 S u0 p1 c0 {2,S} {3,S} {4,D}
