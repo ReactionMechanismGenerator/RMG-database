@@ -256,7 +256,7 @@ Original entry: C2H5OC(O)CH3 <=> CH3CHO+CH3CHO
 
 entry(
     index = 19,
-    label = "C2F5OCFHCF3 <=> CF3CFO+C2F5H",
+    label = "C2F5OCFHCF3 <=> C2F4O-2+C2HF5",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.98e+09,'s^-1'), n=0.79, Ea=(79774,'cal/mol'), T0=(1,'K')),
 )
