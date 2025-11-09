@@ -56,29 +56,51 @@ entry(
     """,
 )
 
+# entry(
+#     index=3,
+#     label="H + CO2 <=> OH + CO",
+#     kinetics = Chebyshev(
+#         coeffs = [
+#             [3.059, -0.4682, -0.2248, -0.06454],
+#             [8.829, 0.3524, 0.1352, 0.01461],
+#             [0.1047, -0.001557, 0.005639, 0.004925],
+#             [0.01399, -0.03095, -0.008608, 0.0005584],
+#             [0.01784, 0.006885, 0.0002928, -0.0006501],
+#             [0.0003425, -0.003347, -0.0001403, 0.0003884],
+#         ],
+#         kunits = 'cm^3/(mol*s)',
+#         Tmin = (300, 'K'),
+#         Tmax = (3000, 'K'),
+#         Pmin = (0.01, 'bar'),
+#         Pmax = (100, 'bar'),
+#     ),
+#     shortDesc=u"""FA2025""",
+#     longDesc=
+#     u"""
+#     Calculated based on Nguyen's HEAT protocal.
+#     """,
+# )
+
 entry(
-    index=3,
-    label="H + CO2 <=> OH + CO",
-    kinetics = Chebyshev(
-        coeffs = [
-            [3.059, -0.4682, -0.2248, -0.06454],
-            [8.829, 0.3524, 0.1352, 0.01461],
-            [0.1047, -0.001557, 0.005639, 0.004925],
-            [0.01399, -0.03095, -0.008608, 0.0005584],
-            [0.01784, 0.006885, 0.0002928, -0.0006501],
-            [0.0003425, -0.003347, -0.0001403, 0.0003884],
+    index = 3,
+    label = "CO + OH <=> CO2 + H",
+    degeneracy = 1,
+    kinetics = PDepArrhenius(
+        pressures = ([0.01315, 0.1315, 1.315, 13.158, 131.58], 'atm'),
+        arrhenius = [
+            Arrhenius(A=(210000, 'cm^3/(mol*s)'), n=1.9, Ea=(-1064, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(
+                A = (250000, 'cm^3/(mol*s)'),
+                n = 1.88,
+                Ea = (-1043, 'cal/mol'),
+                T0 = (1, 'K'),
+            ),
+            Arrhenius(A=(870000, 'cm^3/(mol*s)'), n=1.73, Ea=(-685, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(6.8e+06, 'cm^3/(mol*s)'), n=1.48, Ea=(48, 'cal/mol'), T0=(1, 'K')),
+            Arrhenius(A=(2.3e+07, 'cm^3/(mol*s)'), n=1.35, Ea=(974, 'cal/mol'), T0=(1, 'K')),
         ],
-        kunits = 'cm^3/(mol*s)',
-        Tmin = (300, 'K'),
-        Tmax = (3000, 'K'),
-        Pmin = (0.01, 'bar'),
-        Pmax = (100, 'bar'),
     ),
-    shortDesc=u"""FA2025""",
-    longDesc=
-    u"""
-    Calculated based on Nguyen's HEAT protocal.
-    """,
+    shortDesc = u"""From Klippenstein_Glarborg2016""",
 )
 
 entry(
