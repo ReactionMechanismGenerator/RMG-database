@@ -9,1589 +9,1694 @@ longDesc = """
 entry(
     index = 1,
     label = "Root",
-    kinetics = ArrheniusBM(A=(3.50469e+53,'m^3/(mol*s)'), n=-13.541, w0=(581.04,'kJ/mol'), E0=(336.403,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=1.513119107657762, var=99.27123869380007, Tref=1000.0, N=63, data_mean=0.0, correlation='Root',), comment="""BM rule fitted to 63 training reactions at node Root
-    Total Standard Deviation in ln(k): 23.775975334650404"""),
+    kinetics = ArrheniusBM(A=(4.30005e+53,'m^3/(mol*s)'), n=-13.5694, w0=(581.04,'kJ/mol'), E0=(337.012,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=1.5233267459670397, var=98.00751797024216, Tref=1000.0, N=63, data_mean=0.0, correlation='Root',), comment="""BM rule fitted to 63 training reactions at node Root
+    Total Standard Deviation in ln(k): 23.674080096564104"""),
     rank = 11,
     shortDesc = """BM rule fitted to 63 training reactions at node Root
-Total Standard Deviation in ln(k): 23.775975334650404""",
+Total Standard Deviation in ln(k): 23.674080096564104""",
     longDesc = 
 """
 BM rule fitted to 63 training reactions at node Root
-Total Standard Deviation in ln(k): 23.775975334650404
+Total Standard Deviation in ln(k): 23.674080096564104
 """,
 )
 
 entry(
     index = 2,
-    label = "HH",
-    kinetics = ArrheniusBM(A=(1.57245e+40,'m^3/(mol*s)'), n=-9.46179, w0=(627,'kJ/mol'), E0=(286.086,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=2.0057215542285545, var=62.159225863125215, Tref=1000.0, N=4, data_mean=0.0, correlation='HH',), comment="""BM rule fitted to 4 training reactions at node HH
-    Total Standard Deviation in ln(k): 20.845057760557747"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H",
+    kinetics = ArrheniusBM(A=(1.47559e+25,'m^3/(mol*s)'), n=-5.39954, w0=(604.163,'kJ/mol'), E0=(204.605,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.6013619775147557, var=9.016657063212783, Tref=1000.0, N=46, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H',), comment="""BM rule fitted to 46 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H
+    Total Standard Deviation in ln(k): 7.5307279017446"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node HH
-Total Standard Deviation in ln(k): 20.845057760557747""",
+    shortDesc = """BM rule fitted to 46 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H
+Total Standard Deviation in ln(k): 7.5307279017446""",
     longDesc = 
 """
-BM rule fitted to 4 training reactions at node HH
-Total Standard Deviation in ln(k): 20.845057760557747
+BM rule fitted to 46 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H
+Total Standard Deviation in ln(k): 7.5307279017446
 """,
 )
 
 entry(
     index = 3,
-    label = "HH_2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(160.794,'m^3/(mol*s)'), n=1.48251, w0=(627,'kJ/mol'), E0=(132.78,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.18444078152295718, var=0.3527504141347885, Tref=1000.0, N=3, data_mean=0.0, correlation='HH_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 3 training reactions at node HH_2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 1.6540872511930813"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H",
+    kinetics = ArrheniusBM(A=(1.07751e+08,'m^3/(mol*s)'), n=-0.562555, w0=(518.471,'kJ/mol'), E0=(370.115,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.6189277179997523, var=35.95234309915544, Tref=1000.0, N=17, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H',), comment="""BM rule fitted to 17 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H
+    Total Standard Deviation in ln(k): 13.57554097482504"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node HH_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 1.6540872511930813""",
+    shortDesc = """BM rule fitted to 17 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H
+Total Standard Deviation in ln(k): 13.57554097482504""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node HH_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 1.6540872511930813
+BM rule fitted to 17 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H
+Total Standard Deviation in ln(k): 13.57554097482504
 """,
 )
 
 entry(
     index = 4,
-    label = "HH_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->Br1s",
-    kinetics = ArrheniusBM(A=(1.50896,'m^3/(mol*s)'), n=2.11145, w0=(627,'kJ/mol'), E0=(120.317,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HH_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->Br1s',), comment="""BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->Br1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R",
+    kinetics = ArrheniusBM(A=(1.67081e+07,'m^3/(mol*s)'), n=-0.25099, w0=(584,'kJ/mol'), E0=(109.795,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.05783420753682775, var=0.11014630303709819, Tref=1000.0, N=12, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R',), comment="""BM rule fitted to 12 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R
+    Total Standard Deviation in ln(k): 0.8106495025147907"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->Br1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 12 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R
+Total Standard Deviation in ln(k): 0.8106495025147907""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->Br1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 12 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R
+Total Standard Deviation in ln(k): 0.8106495025147907
 """,
 )
 
 entry(
     index = 5,
-    label = "HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s",
-    kinetics = ArrheniusBM(A=(11.6611,'m^3/(mol*s)'), n=1.785, w0=(627,'kJ/mol'), E0=(127.726,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.12638824541802388, var=0.1087312542899948, Tref=1000.0, N=2, data_mean=0.0, correlation='HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s',), comment="""BM rule fitted to 2 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s
-    Total Standard Deviation in ln(k): 0.9786082211207049"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s",
+    kinetics = ArrheniusBM(A=(396.492,'m^3/(mol*s)'), n=1.28632, w0=(529,'kJ/mol'), E0=(73.8371,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.3399281796983404, var=2.6054747464730257, Tref=1000.0, N=7, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s',), comment="""BM rule fitted to 7 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s
+    Total Standard Deviation in ln(k): 4.09003062839241"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s
-Total Standard Deviation in ln(k): 0.9786082211207049""",
+    shortDesc = """BM rule fitted to 7 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s
+Total Standard Deviation in ln(k): 4.09003062839241""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s
-Total Standard Deviation in ln(k): 0.9786082211207049
+BM rule fitted to 7 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s
+Total Standard Deviation in ln(k): 4.09003062839241
 """,
 )
 
 entry(
     index = 6,
-    label = "HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_3Cl1sF1sH->F1s",
-    kinetics = ArrheniusBM(A=(2.13948,'m^3/(mol*s)'), n=1.96174, w0=(627,'kJ/mol'), E0=(121.872,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_3Cl1sF1sH->F1s',), comment="""BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_3Cl1sF1sH->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s",
+    kinetics = ArrheniusBM(A=(2.53375e+19,'m^3/(mol*s)'), n=-3.80026, w0=(632.611,'kJ/mol'), E0=(213.534,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.6101362338219153, var=23.976613655258173, Tref=1000.0, N=27, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s',), comment="""BM rule fitted to 27 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s
+    Total Standard Deviation in ln(k): 11.349375444939106"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_3Cl1sF1sH->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 27 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s
+Total Standard Deviation in ln(k): 11.349375444939106""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_3Cl1sF1sH->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 27 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s
+Total Standard Deviation in ln(k): 11.349375444939106
 """,
 )
 
 entry(
     index = 7,
-    label = "HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_N-3Cl1sF1sH->F1s",
-    kinetics = ArrheniusBM(A=(1.39739,'m^3/(mol*s)'), n=2.08325, w0=(627,'kJ/mol'), E0=(124.994,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_N-3Cl1sF1sH->F1s',), comment="""BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_N-3Cl1sF1sH->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(149.329,'m^3/(mol*s)'), n=1.15044, w0=(558.965,'kJ/mol'), E0=(360.634,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.02444579981017453, var=27.257607940150287, Tref=1000.0, N=10, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs',), comment="""BM rule fitted to 10 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+    Total Standard Deviation in ln(k): 10.527906711693689"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_N-3Cl1sF1sH->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 10 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 10.527906711693689""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HH_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->Br1s_N-3Cl1sF1sH->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 10 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 10.527906711693689
 """,
 )
 
 entry(
     index = 8,
-    label = "HH_N-2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(3.26413e-09,'m^3/(mol*s)'), n=4.30786, w0=(627,'kJ/mol'), E0=(215.887,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HH_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node HH_N-2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(0.0284828,'m^3/(mol*s)'), n=1.92223, w0=(481,'kJ/mol'), E0=(274.257,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.4205111057330172, var=172.01008088991162, Tref=1000.0, N=7, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs',), comment="""BM rule fitted to 7 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+    Total Standard Deviation in ln(k): 27.34918509141041"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HH_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 7 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 27.34918509141041""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HH_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 7 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 27.34918509141041
 """,
 )
 
 entry(
     index = 9,
-    label = "HY",
-    kinetics = ArrheniusBM(A=(1.19308e+15,'m^3/(mol*s)'), n=-2.48619, w0=(617.447,'kJ/mol'), E0=(143.525,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.4567526169257262, var=16.42503569342746, Tref=1000.0, N=19, data_mean=0.0, correlation='HY',), comment="""BM rule fitted to 19 training reactions at node HY
-    Total Standard Deviation in ln(k): 9.27237233211209"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(1.13979e+06,'m^3/(mol*s)'), n=0.0863482, w0=(584,'kJ/mol'), E0=(109.454,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.028930789527083983, var=0.07206278047358167, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs',), comment="""BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+    Total Standard Deviation in ln(k): 0.6108517669800518"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 19 training reactions at node HY
-Total Standard Deviation in ln(k): 9.27237233211209""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 0.6108517669800518""",
     longDesc = 
 """
-BM rule fitted to 19 training reactions at node HY
-Total Standard Deviation in ln(k): 9.27237233211209
+BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 0.6108517669800518
 """,
 )
 
 entry(
     index = 10,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(2.09705e+20,'m^3/(mol*s)'), n=-4.05784, w0=(643.25,'kJ/mol'), E0=(196.789,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-1.2457410906396802, var=110.73801540920508, Tref=1000.0, N=4, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 4 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 24.226257307947215"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(4.08908e+07,'m^3/(mol*s)'), n=-0.363436, w0=(584,'kJ/mol'), E0=(109.908,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.06746868073200103, var=0.08249864241260736, Tref=1000.0, N=9, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs',), comment="""BM rule fitted to 9 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+    Total Standard Deviation in ln(k): 0.7453308726894404"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 24.226257307947215""",
+    shortDesc = """BM rule fitted to 9 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 0.7453308726894404""",
     longDesc = 
 """
-BM rule fitted to 4 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 24.226257307947215
+BM rule fitted to 9 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs
+Total Standard Deviation in ln(k): 0.7453308726894404
 """,
 )
 
 entry(
     index = 11,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(7.17793e-29,'m^3/(mol*s)'), n=9.77658, w0=(614.167,'kJ/mol'), E0=(40.8472,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=3.871898927309629, var=53.89863301171256, Tref=1000.0, N=3, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 3 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 24.44628983841625"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_3Br1sCCl1sF1sHI1s->F1s",
+    kinetics = Arrhenius(A=(214000,'m^3/(mol*s)'), n=0, Ea=(39.999,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_3Br1sCCl1sF1sHI1s->F1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 24.44628983841625""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_3Br1sCCl1sF1sHI1s->F1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 24.44628983841625
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_3Br1sCCl1sF1sHI1s->F1s
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 12,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->F1s",
-    kinetics = ArrheniusBM(A=(3.98081e-09,'m^3/(mol*s)'), n=4.16158, w0=(730.5,'kJ/mol'), E0=(145.218,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s",
+    kinetics = ArrheniusBM(A=(2.28047e+06,'m^3/(mol*s)'), n=0.110072, w0=(529,'kJ/mol'), E0=(66.8802,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.1228852807500813, var=1.6630932046347704, Tref=1000.0, N=6, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s
+    Total Standard Deviation in ln(k): 2.8940828089895545"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s
+Total Standard Deviation in ln(k): 2.8940828089895545""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s
+Total Standard Deviation in ln(k): 2.8940828089895545
 """,
 )
 
 entry(
     index = 13,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s",
-    kinetics = ArrheniusBM(A=(490.447,'m^3/(mol*s)'), n=0.685287, w0=(556,'kJ/mol'), E0=(104.475,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.00036256892132874644, var=1.6680856284811425, Tref=1000.0, N=2, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s',), comment="""BM rule fitted to 2 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s
-    Total Standard Deviation in ln(k): 2.5901143242066227"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H",
+    kinetics = ArrheniusBM(A=(0.00894059,'m^3/(mol*s)'), n=2.5125, w0=(621.938,'kJ/mol'), E0=(100.559,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.23244784692196094, var=12.899207574774826, Tref=1000.0, N=8, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 8 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 7.7841394335065806"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s
-Total Standard Deviation in ln(k): 2.5901143242066227""",
+    shortDesc = """BM rule fitted to 8 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 7.7841394335065806""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s
-Total Standard Deviation in ln(k): 2.5901143242066227
+BM rule fitted to 8 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 7.7841394335065806
 """,
 )
 
 entry(
     index = 14,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_4Br1sCl1s->Cl1s",
-    kinetics = ArrheniusBM(A=(2.53881,'m^3/(mol*s)'), n=1.26919, w0=(583,'kJ/mol'), E0=(96.1337,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_4Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_4Br1sCl1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H",
+    kinetics = ArrheniusBM(A=(2.74024e+08,'m^3/(mol*s)'), n=-0.727258, w0=(637.105,'kJ/mol'), E0=(191.951,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.2929637864645238, var=23.484033945739345, Tref=1000.0, N=19, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 19 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 10.451101865837275"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_4Br1sCl1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 19 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 10.451101865837275""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_4Br1sCl1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 19 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 10.451101865837275
 """,
 )
 
 entry(
     index = 15,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_N-4Br1sCl1s->Cl1s",
-    kinetics = ArrheniusBM(A=(214000,'m^3/(mol*s)'), n=-6.53332e-08, w0=(529,'kJ/mol'), E0=(113.537,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_N-4Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_N-4Br1sCl1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H",
+    kinetics = ArrheniusBM(A=(7.88149e-13,'m^3/(mol*s)'), n=5.26076, w0=(530.8,'kJ/mol'), E0=(296.217,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.3459676098171128, var=44.29986627532601, Tref=1000.0, N=5, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 5 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 14.212410090385184"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_N-4Br1sCl1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 5 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 14.212410090385184""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->F1s_N-4Br1sCl1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 5 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 14.212410090385184
 """,
 )
 
 entry(
     index = 16,
-    label = "HY_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(0.0514528,'m^3/(mol*s)'), n=2.19387, w0=(730.5,'kJ/mol'), E0=(80.0732,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H",
+    kinetics = ArrheniusBM(A=(0.0013635,'m^3/(mol*s)'), n=2.58942, w0=(616.793,'kJ/mol'), E0=(351.109,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-2.561374114612063, var=45.216344220470596, Tref=1000.0, N=5, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 5 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 19.91607336892996"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 5 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 19.91607336892996""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 5 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 19.91607336892996
 """,
 )
 
 entry(
     index = 17,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(1504.93,'m^3/(mol*s)'), n=0.934412, w0=(610.567,'kJ/mol'), E0=(51.7021,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0017462377678182982, var=10.47826062367848, Tref=1000.0, N=15, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 15 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 6.493743349677761"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O",
+    kinetics = ArrheniusBM(A=(1.15378e+28,'m^3/(mol*s)'), n=-6.55063, w0=(531,'kJ/mol'), E0=(379.899,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.590729050620465, var=52.21530137929554, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O',), comment="""BM rule fitted to 3 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O
+    Total Standard Deviation in ln(k): 15.97049077888919"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 15 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 6.493743349677761""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O
+Total Standard Deviation in ln(k): 15.97049077888919""",
     longDesc = 
 """
-BM rule fitted to 15 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 6.493743349677761
+BM rule fitted to 3 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O
+Total Standard Deviation in ln(k): 15.97049077888919
 """,
 )
 
 entry(
     index = 18,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s",
-    kinetics = ArrheniusBM(A=(4.88137e+07,'m^3/(mol*s)'), n=-0.254532, w0=(529,'kJ/mol'), E0=(65.0974,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.14958433561577356, var=4.360014987880059, Tref=1000.0, N=6, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s',), comment="""BM rule fitted to 6 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s
-    Total Standard Deviation in ln(k): 4.5618569695479625"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O",
+    kinetics = ArrheniusBM(A=(2.84494e+11,'m^3/(mol*s)'), n=-1.89521, w0=(443.5,'kJ/mol'), E0=(137.781,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.4540615412450565, var=34.02892237583595, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O',), comment="""BM rule fitted to 4 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O
+    Total Standard Deviation in ln(k): 12.83534277500452"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 6 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s
-Total Standard Deviation in ln(k): 4.5618569695479625""",
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O
+Total Standard Deviation in ln(k): 12.83534277500452""",
     longDesc = 
 """
-BM rule fitted to 6 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s
-Total Standard Deviation in ln(k): 4.5618569695479625
+BM rule fitted to 4 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O
+Total Standard Deviation in ln(k): 12.83534277500452
 """,
 )
 
 entry(
     index = 19,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R",
-    kinetics = ArrheniusBM(A=(182781,'m^3/(mol*s)'), n=0.429862, w0=(529,'kJ/mol'), E0=(67.3104,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.11376048881184615, var=1.910664946019741, Tref=1000.0, N=4, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R',), comment="""BM rule fitted to 4 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R
-    Total Standard Deviation in ln(k): 3.0569116084701915"""),
-    rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 3.0569116084701915""",
-    longDesc = 
-"""
-BM rule fitted to 4 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 3.0569116084701915
-""",
-)
-
-entry(
-    index = 20,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_6R!H->C",
-    kinetics = ArrheniusBM(A=(3.94494e+11,'m^3/(mol*s)'), n=-1.44224, w0=(529,'kJ/mol'), E0=(47.9409,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_6R!H->C',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_6R!H->C
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-7R!H=6R!H",
+    kinetics = Arrhenius(A=(6.23333e+06,'m^3/(mol*s)'), n=-0.146, Ea=(0.0118826,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-7R!H=6R!H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-7R!H=6R!H
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_6R!H->C
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-7R!H=6R!H
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_6R!H->C
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-7R!H=6R!H
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
-    index = 21,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C",
-    kinetics = ArrheniusBM(A=(1414.37,'m^3/(mol*s)'), n=1.0539, w0=(529,'kJ/mol'), E0=(73.7669,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.00634481711925604, var=0.25011904153038805, Tref=1000.0, N=3, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C',), comment="""BM rule fitted to 3 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C
-    Total Standard Deviation in ln(k): 1.0185479085825118"""),
+    index = 20,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H",
+    kinetics = ArrheniusBM(A=(490108,'m^3/(mol*s)'), n=0.201831, w0=(584,'kJ/mol'), E0=(107.984,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.47428387515166337, var=0.06288991772562831, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H
+    Total Standard Deviation in ln(k): 1.6944127300954466"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C
-Total Standard Deviation in ln(k): 1.0185479085825118""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H
+Total Standard Deviation in ln(k): 1.6944127300954466""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C
-Total Standard Deviation in ln(k): 1.0185479085825118
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H
+Total Standard Deviation in ln(k): 1.6944127300954466
+""",
+)
+
+entry(
+    index = 21,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R",
+    kinetics = ArrheniusBM(A=(9.16873e+07,'m^3/(mol*s)'), n=-0.471498, w0=(584,'kJ/mol'), E0=(108.904,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.07514140315329598, var=0.030917555371422278, Tref=1000.0, N=6, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R',), comment="""BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R
+    Total Standard Deviation in ln(k): 0.5412978538803993"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R
+Total Standard Deviation in ln(k): 0.5412978538803993""",
+    longDesc = 
+"""
+BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R
+Total Standard Deviation in ln(k): 0.5412978538803993
 """,
 )
 
 entry(
     index = 22,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R",
-    kinetics = ArrheniusBM(A=(227.818,'m^3/(mol*s)'), n=1.29984, w0=(529,'kJ/mol'), E0=(75.7342,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.0204191866451209, var=0.4525545401550183, Tref=1000.0, N=2, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R',), comment="""BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R
-    Total Standard Deviation in ln(k): 1.3999333595844436"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-4Br1sCbCdCl1sCtF1sHO-R",
+    kinetics = Arrhenius(A=(2.13e+07,'m^3/(mol*s)'), n=-0.274, Ea=(-2.87022,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-4Br1sCbCdCl1sCtF1sHO-R',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-4Br1sCbCdCl1sCtF1sHO-R
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 1.3999333595844436""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-4Br1sCbCdCl1sCtF1sHO-R
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 1.3999333595844436
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-4Br1sCbCdCl1sCtF1sHO-R
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 23,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R",
-    kinetics = ArrheniusBM(A=(4.43208,'m^3/(mol*s)'), n=1.83751, w0=(529,'kJ/mol'), E0=(79.743,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->Ct",
+    kinetics = Arrhenius(A=(33.15,'m^3/(mol*s)'), n=1.475, Ea=(-6.90778,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->Ct',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->Ct
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->Ct
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_Ext-3Br1sCCl1sHI1s-R_N-6R!H->C_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->Ct
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 24,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(1.21206e+18,'m^3/(mol*s)'), n=-3.24664, w0=(529,'kJ/mol'), E0=(38.1761,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->Ct",
+    kinetics = Arrhenius(A=(1.325e+06,'m^3/(mol*s)'), n=0.0073, Ea=(-4.40994,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->Ct',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->Ct
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->Ct
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->Ct
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 25,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(1e+07,'m^3/(mol*s)'), n=-3.02437e-08, w0=(529,'kJ/mol'), E0=(77.1661,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->H",
+    kinetics = Arrhenius(A=(1e+07,'m^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->H
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->H
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->H
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 26,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s",
-    kinetics = ArrheniusBM(A=(7.6765,'m^3/(mol*s)'), n=1.46392, w0=(664.944,'kJ/mol'), E0=(80.3477,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.10316422275018103, var=10.421495061020293, Tref=1000.0, N=9, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s',), comment="""BM rule fitted to 9 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s
-    Total Standard Deviation in ln(k): 6.730960621514095"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H",
+    kinetics = ArrheniusBM(A=(1.6968e+06,'m^3/(mol*s)'), n=0.132086, w0=(529,'kJ/mol'), E0=(63.6229,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.14746229953200704, var=1.9511959451670937, Tref=1000.0, N=5, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 5 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 3.1708268049501607"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 9 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s
-Total Standard Deviation in ln(k): 6.730960621514095""",
+    shortDesc = """BM rule fitted to 5 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 3.1708268049501607""",
     longDesc = 
 """
-BM rule fitted to 9 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s
-Total Standard Deviation in ln(k): 6.730960621514095
+BM rule fitted to 5 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 3.1708268049501607
 """,
 )
 
 entry(
     index = 27,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(3.76867e+06,'m^3/(mol*s)'), n=0.00270408, w0=(583,'kJ/mol'), E0=(2.97164,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-12.601168777332983, var=361.2258937203764, Tref=1000.0, N=2, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 69.76310998171257"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->H",
+    kinetics = Arrhenius(A=(2.33736e+17,'m^3/(mol*s)'), n=-4.54388, Ea=(39.3742,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 69.76310998171257""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 69.76310998171257
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 28,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sHI1s->Cl1s",
-    kinetics = ArrheniusBM(A=(1e+07,'m^3/(mol*s)'), n=5.28703e-09, w0=(583,'kJ/mol'), E0=(75.2086,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sHI1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sHI1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H",
+    kinetics = ArrheniusBM(A=(463.76,'m^3/(mol*s)'), n=1.17969, w0=(627.5,'kJ/mol'), E0=(125.905,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.07066939929040657, var=10.775860019109354, Tref=1000.0, N=7, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H',), comment="""BM rule fitted to 7 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 6.758425974856338"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sHI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 7 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 6.758425974856338""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sHI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 7 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 6.758425974856338
 """,
 )
 
 entry(
     index = 29,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sHI1s->Cl1s",
-    kinetics = ArrheniusBM(A=(2.33736e+17,'m^3/(mol*s)'), n=-4.54388, w0=(583,'kJ/mol'), E0=(180.008,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sHI1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sHI1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C",
+    kinetics = ArrheniusBM(A=(6.46741e-12,'m^3/(mol*s)'), n=4.8544, w0=(665.278,'kJ/mol'), E0=(68.466,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.2750952906735081, var=15.963039561628669, Tref=1000.0, N=9, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C',), comment="""BM rule fitted to 9 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C
+    Total Standard Deviation in ln(k): 8.700867166291564"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sHI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 9 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C
+Total Standard Deviation in ln(k): 8.700867166291564""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sHI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 9 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C
+Total Standard Deviation in ln(k): 8.700867166291564
 """,
 )
 
 entry(
     index = 30,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(0.013261,'m^3/(mol*s)'), n=2.2731, w0=(688.357,'kJ/mol'), E0=(58.0977,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.05103196771681782, var=7.159345808690377, Tref=1000.0, N=7, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 7 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 5.492281424906893"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C",
+    kinetics = ArrheniusBM(A=(2.74022e-08,'m^3/(mol*s)'), n=3.90302, w0=(611.75,'kJ/mol'), E0=(176.233,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.0518846730424038, var=15.81229105749227, Tref=1000.0, N=10, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C',), comment="""BM rule fitted to 10 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C
+    Total Standard Deviation in ln(k): 8.102126695562415"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 7 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 5.492281424906893""",
+    shortDesc = """BM rule fitted to 10 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C
+Total Standard Deviation in ln(k): 8.102126695562415""",
     longDesc = 
 """
-BM rule fitted to 7 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 5.492281424906893
+BM rule fitted to 10 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C
+Total Standard Deviation in ln(k): 8.102126695562415
 """,
 )
 
 entry(
     index = 31,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R",
-    kinetics = ArrheniusBM(A=(6.9697e-08,'m^3/(mol*s)'), n=3.78805, w0=(730.5,'kJ/mol'), E0=(73.1317,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.3001410487914693, var=2.9282398409420045, Tref=1000.0, N=3, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R',), comment="""BM rule fitted to 3 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R
-    Total Standard Deviation in ln(k): 4.184646053545055"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(3.27433e+09,'m^3/(mol*s)'), n=-1.00793, w0=(577.983,'kJ/mol'), E0=(403.727,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=11.004081363264657, var=510.03437470682996, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs',), comment="""BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+    Total Standard Deviation in ln(k): 72.92326361762518"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 4.184646053545055""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+Total Standard Deviation in ln(k): 72.92326361762518""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 4.184646053545055
+BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+Total Standard Deviation in ln(k): 72.92326361762518
 """,
 )
 
 entry(
     index = 32,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R",
-    kinetics = ArrheniusBM(A=(5.4487,'m^3/(mol*s)'), n=1.52711, w0=(730.5,'kJ/mol'), E0=(132.147,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.02090651070256912, var=1.7269912187795557, Tref=1000.0, N=2, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R',), comment="""BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
-    Total Standard Deviation in ln(k): 2.6870522832325783"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(3.32355e-13,'m^3/(mol*s)'), n=5.41799, w0=(538.667,'kJ/mol'), E0=(263.22,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.29531828142893024, var=10.482611697361952, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs',), comment="""BM rule fitted to 3 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+    Total Standard Deviation in ln(k): 7.232708755047147"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 2.6870522832325783""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+Total Standard Deviation in ln(k): 7.232708755047147""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
-Total Standard Deviation in ln(k): 2.6870522832325783
+BM rule fitted to 3 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+Total Standard Deviation in ln(k): 7.232708755047147
 """,
 )
 
 entry(
     index = 33,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R",
-    kinetics = ArrheniusBM(A=(22.4644,'m^3/(mol*s)'), n=1.4485, w0=(730.5,'kJ/mol'), E0=(137.198,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs",
+    kinetics = Arrhenius(A=(2.22791e-07,'m^3/(mol*s)'), n=3.59921, Ea=(320.496,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R_Ext-3Br1sCCl1sHI1s-R
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 34,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(3.22787e+06,'m^3/(mol*s)'), n=-0.0924759, w0=(656.75,'kJ/mol'), E0=(67.7712,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.12610951792154945, var=0.26951270124779947, Tref=1000.0, N=2, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s',), comment="""BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s
-    Total Standard Deviation in ln(k): 1.3576085364528785"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs",
+    kinetics = ArrheniusBM(A=(7.32435e-06,'m^3/(mol*s)'), n=3.24373, w0=(576.289,'kJ/mol'), E0=(339.967,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.2008800543015702, var=6.487576677063239, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs',), comment="""BM rule fitted to 4 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+    Total Standard Deviation in ln(k): 5.610928693285066"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s
-Total Standard Deviation in ln(k): 1.3576085364528785""",
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+Total Standard Deviation in ln(k): 5.610928693285066""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s
-Total Standard Deviation in ln(k): 1.3576085364528785
+BM rule fitted to 4 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs
+Total Standard Deviation in ln(k): 5.610928693285066
 """,
 )
 
 entry(
     index = 35,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_4Cl1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(2.80806e+08,'m^3/(mol*s)'), n=-0.709128, w0=(730.5,'kJ/mol'), E0=(65.25,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_4Cl1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_4Cl1sF1s->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s",
+    kinetics = ArrheniusBM(A=(2.25815e+07,'m^3/(mol*s)'), n=-0.647497, w0=(531,'kJ/mol'), E0=(341.875,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=8.438505347300241, var=310.4176015602939, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s
+    Total Standard Deviation in ln(k): 56.52304443307441"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_4Cl1sF1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s
+Total Standard Deviation in ln(k): 56.52304443307441""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_4Cl1sF1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s
+Total Standard Deviation in ln(k): 56.52304443307441
 """,
 )
 
 entry(
     index = 36,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_N-4Cl1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(37104.3,'m^3/(mol*s)'), n=0.524176, w0=(583,'kJ/mol'), E0=(70.2924,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_N-4Cl1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_N-4Cl1sF1s->F1s
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->F1s",
+    kinetics = Arrhenius(A=(1.26474e-05,'m^3/(mol*s)'), n=2.95311, Ea=(59.8071,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->F1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_N-4Cl1sF1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1s->F1s_N-4Cl1sF1s->F1s
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 37,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(0.00196975,'m^3/(mol*s)'), n=2.43508, w0=(656.75,'kJ/mol'), E0=(63.191,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.1360459495935581, var=0.536668528117854, Tref=1000.0, N=2, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s',), comment="""BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s
-    Total Standard Deviation in ln(k): 1.810446073712933"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s",
+    kinetics = ArrheniusBM(A=(1.55937e+21,'m^3/(mol*s)'), n=-4.1602, w0=(473.5,'kJ/mol'), E0=(191.487,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=4.503809742819507, var=53.833815132058966, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s',), comment="""BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s
+    Total Standard Deviation in ln(k): 26.025153003555154"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s
-Total Standard Deviation in ln(k): 1.810446073712933""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s
+Total Standard Deviation in ln(k): 26.025153003555154""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s
-Total Standard Deviation in ln(k): 1.810446073712933
+BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s
+Total Standard Deviation in ln(k): 26.025153003555154
 """,
 )
 
 entry(
     index = 38,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_3Br1sCCl1sHI1s->C",
-    kinetics = ArrheniusBM(A=(113.748,'m^3/(mol*s)'), n=1.11248, w0=(730.5,'kJ/mol'), E0=(108.719,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_3Br1sCCl1sHI1s->C',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_3Br1sCCl1sHI1s->C
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s",
+    kinetics = ArrheniusBM(A=(2.18345,'m^3/(mol*s)'), n=0.764042, w0=(413.5,'kJ/mol'), E0=(18.2016,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.790053776114707, var=13.222171864649557, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s',), comment="""BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s
+    Total Standard Deviation in ln(k): 9.27473846583569"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_3Br1sCCl1sHI1s->C
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s
+Total Standard Deviation in ln(k): 9.27473846583569""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_3Br1sCCl1sHI1s->C
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s
+Total Standard Deviation in ln(k): 9.27473846583569
 """,
 )
 
 entry(
     index = 39,
-    label = "HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_N-3Br1sCCl1sHI1s->C",
-    kinetics = ArrheniusBM(A=(2.70149e+08,'m^3/(mol*s)'), n=-1.26599, w0=(583,'kJ/mol'), E0=(35.9196,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_N-3Br1sCCl1sHI1s->C',), comment="""BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_N-3Br1sCCl1sHI1s->C
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R",
+    kinetics = Arrhenius(A=(4933.33,'m^3/(mol*s)'), n=0.797, Ea=(-4.91202,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_N-3Br1sCCl1sHI1s->C
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node HY_N-3Br1sCCl1sF1sHI1s->F1s_N-4Br1sCl1sF1sI1s->Br1s_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1s->F1s_N-3Br1sCCl1sHI1s->C
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 40,
-    label = "YY",
-    kinetics = ArrheniusBM(A=(7.12506e+14,'m^3/(mol*s)'), n=-2.96729, w0=(424.667,'kJ/mol'), E0=(136.816,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.5496726164829923, var=62.62422940093214, Tref=1000.0, N=3, data_mean=0.0, correlation='YY',), comment="""BM rule fitted to 3 training reactions at node YY
-    Total Standard Deviation in ln(k): 17.24565264902038"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-6R!H-4Br1sCbCdCl1sCtF1sHO",
+    kinetics = Arrhenius(A=(36700,'m^3/(mol*s)'), n=0.498, Ea=(-7.35547,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-6R!H-4Br1sCbCdCl1sCtF1sHO',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-6R!H-4Br1sCbCdCl1sCtF1sHO
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node YY
-Total Standard Deviation in ln(k): 17.24565264902038""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-6R!H-4Br1sCbCdCl1sCtF1sHO
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node YY
-Total Standard Deviation in ln(k): 17.24565264902038
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_Sp-6R!H-4Br1sCbCdCl1sCtF1sHO
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 41,
-    label = "YY_2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(2.18345,'m^3/(mol*s)'), n=0.764042, w0=(413.5,'kJ/mol'), E0=(18.2209,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.5676419187717117, var=30.872492929782375, Tref=1000.0, N=2, data_mean=0.0, correlation='YY_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 2 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 12.56514967984041"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO",
+    kinetics = ArrheniusBM(A=(1.10825e+08,'m^3/(mol*s)'), n=-0.494291, w0=(584,'kJ/mol'), E0=(108.923,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.07395629059949477, var=0.029136335316146046, Tref=1000.0, N=5, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO',), comment="""BM rule fitted to 5 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO
+    Total Standard Deviation in ln(k): 0.5280154505842135"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 12.56514967984041""",
+    shortDesc = """BM rule fitted to 5 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO
+Total Standard Deviation in ln(k): 0.5280154505842135""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 12.56514967984041
+BM rule fitted to 5 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO
+Total Standard Deviation in ln(k): 0.5280154505842135
 """,
 )
 
 entry(
     index = 42,
-    label = "YY_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sI1s->Cl1s",
-    kinetics = ArrheniusBM(A=(321,'m^3/(mol*s)'), n=2.45346e-08, w0=(447,'kJ/mol'), E0=(96.0283,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='YY_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sI1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sI1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R",
+    kinetics = ArrheniusBM(A=(216154,'m^3/(mol*s)'), n=0.41647, w0=(529,'kJ/mol'), E0=(66.7368,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.12186484989945345, var=2.914903945292179, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R',), comment="""BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R
+    Total Standard Deviation in ln(k): 3.72889528571959"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R
+Total Standard Deviation in ln(k): 3.72889528571959""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s_4Br1sCl1sI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R
+Total Standard Deviation in ln(k): 3.72889528571959
 """,
 )
 
 entry(
     index = 43,
-    label = "YY_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sI1s->Cl1s",
-    kinetics = ArrheniusBM(A=(3200,'m^3/(mol*s)'), n=1.45247e-08, w0=(380,'kJ/mol'), E0=(65.8284,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='YY_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sI1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sI1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s",
+    kinetics = ArrheniusBM(A=(1015.46,'m^3/(mol*s)'), n=0.966596, w0=(638.875,'kJ/mol'), E0=(136.758,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.11904686342549113, var=11.577371977767495, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s',), comment="""BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s
+    Total Standard Deviation in ln(k): 7.1203315645943075"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s
+Total Standard Deviation in ln(k): 7.1203315645943075""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node YY_2Br1sCl1sF1sHI1s->F1s_N-4Br1sCl1sI1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s
+Total Standard Deviation in ln(k): 7.1203315645943075
 """,
 )
 
 entry(
     index = 44,
-    label = "YY_N-2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(3e+07,'m^3/(mol*s)'), n=-9.29881e-08, w0=(447,'kJ/mol'), E0=(131.712,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='YY_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node YY_N-2Br1sCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s",
+    kinetics = ArrheniusBM(A=(1.26572,'m^3/(mol*s)'), n=2.06839, w0=(612.333,'kJ/mol'), E0=(44.6025,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.4485521228400918, var=7.396541472899672, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s',), comment="""BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s
+    Total Standard Deviation in ln(k): 6.579209851795327"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node YY_N-2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s
+Total Standard Deviation in ln(k): 6.579209851795327""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node YY_N-2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s
+Total Standard Deviation in ln(k): 6.579209851795327
 """,
 )
 
 entry(
     index = 45,
-    label = "CH",
-    kinetics = ArrheniusBM(A=(6.44768e+28,'m^3/(mol*s)'), n=-6.4458, w0=(584,'kJ/mol'), E0=(218.637,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.6591608693425184, var=5.4995193120720405, Tref=1000.0, N=19, data_mean=0.0, correlation='CH',), comment="""BM rule fitted to 19 training reactions at node CH
-    Total Standard Deviation in ln(k): 6.357498133665092"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs",
+    kinetics = ArrheniusBM(A=(0.00743795,'m^3/(mol*s)'), n=2.17675, w0=(584,'kJ/mol'), E0=(172.195,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.023331098161077896, var=3.374095881581692, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs',), comment="""BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs
+    Total Standard Deviation in ln(k): 3.741061018523575"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 19 training reactions at node CH
-Total Standard Deviation in ln(k): 6.357498133665092""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs
+Total Standard Deviation in ln(k): 3.741061018523575""",
     longDesc = 
 """
-BM rule fitted to 19 training reactions at node CH
-Total Standard Deviation in ln(k): 6.357498133665092
+BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs
+Total Standard Deviation in ln(k): 3.741061018523575
 """,
 )
 
 entry(
     index = 46,
-    label = "CH_Ext-4CbCdCsCt-R",
-    kinetics = ArrheniusBM(A=(1.67081e+07,'m^3/(mol*s)'), n=-0.25099, w0=(584,'kJ/mol'), E0=(109.752,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.05783420702249951, var=0.11014630093021238, Tref=1000.0, N=12, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R',), comment="""BM rule fitted to 12 training reactions at node CH_Ext-4CbCdCsCt-R
-    Total Standard Deviation in ln(k): 0.8106494948591996"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs",
+    kinetics = ArrheniusBM(A=(1.02129e-05,'m^3/(mol*s)'), n=3.11928, w0=(705.917,'kJ/mol'), E0=(64.7805,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.17238204106895547, var=2.5279296375530644, Tref=1000.0, N=6, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs',), comment="""BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs
+    Total Standard Deviation in ln(k): 3.6205420775848647"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 12 training reactions at node CH_Ext-4CbCdCsCt-R
-Total Standard Deviation in ln(k): 0.8106494948591996""",
+    shortDesc = """BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs
+Total Standard Deviation in ln(k): 3.6205420775848647""",
     longDesc = 
 """
-BM rule fitted to 12 training reactions at node CH_Ext-4CbCdCsCt-R
-Total Standard Deviation in ln(k): 0.8106494948591996
+BM rule fitted to 6 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs
+Total Standard Deviation in ln(k): 3.6205420775848647
 """,
 )
 
 entry(
     index = 47,
-    label = "CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs",
-    kinetics = ArrheniusBM(A=(1.13979e+06,'m^3/(mol*s)'), n=0.0863482, w0=(584,'kJ/mol'), E0=(109.735,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.028930780883000492, var=0.07206277511555077, Tref=1000.0, N=3, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs',), comment="""BM rule fitted to 3 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs
-    Total Standard Deviation in ln(k): 0.6108517252544917"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s",
+    kinetics = ArrheniusBM(A=(1.3079e+13,'m^3/(mol*s)'), n=-2.4865, w0=(583,'kJ/mol'), E0=(113.481,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.9802769474520832, var=6.746761737390621, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s
+    Total Standard Deviation in ln(k): 7.670212411644807"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs
-Total Standard Deviation in ln(k): 0.6108517252544917""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s
+Total Standard Deviation in ln(k): 7.670212411644807""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs
-Total Standard Deviation in ln(k): 0.6108517252544917
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s
+Total Standard Deviation in ln(k): 7.670212411644807
 """,
 )
 
 entry(
     index = 48,
-    label = "CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_Sp-7R!H=6R!H",
-    kinetics = ArrheniusBM(A=(6.16448e+06,'m^3/(mol*s)'), n=-0.144618, w0=(584,'kJ/mol'), E0=(102.471,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_Sp-7R!H=6R!H',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_Sp-7R!H=6R!H
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s",
+    kinetics = ArrheniusBM(A=(5.97796e-07,'m^3/(mol*s)'), n=3.52893, w0=(618.938,'kJ/mol'), E0=(182.551,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.034815813240342545, var=14.085152584943291, Tref=1000.0, N=8, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s',), comment="""BM rule fitted to 8 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s
+    Total Standard Deviation in ln(k): 7.611286012341976"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_Sp-7R!H=6R!H
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 8 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s
+Total Standard Deviation in ln(k): 7.611286012341976""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_Sp-7R!H=6R!H
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 8 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s
+Total Standard Deviation in ln(k): 7.611286012341976
 """,
 )
 
 entry(
     index = 49,
-    label = "CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H",
-    kinetics = ArrheniusBM(A=(490107,'m^3/(mol*s)'), n=0.201831, w0=(584,'kJ/mol'), E0=(108.551,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.043461663341785264, var=0.18543765059589312, Tref=1000.0, N=2, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H',), comment="""BM rule fitted to 2 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H
-    Total Standard Deviation in ln(k): 0.9724886431361681"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_3Br1sCCl1sF1sHI1s->H",
+    kinetics = Arrhenius(A=(0.000166864,'m^3/(mol*s)'), n=2.82973, Ea=(154.574,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_3Br1sCCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_3Br1sCCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H
-Total Standard Deviation in ln(k): 0.9724886431361681""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H
-Total Standard Deviation in ln(k): 0.9724886431361681
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 50,
-    label = "CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R",
-    kinetics = ArrheniusBM(A=(486642,'m^3/(mol*s)'), n=0.225671, w0=(584,'kJ/mol'), E0=(108.428,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-3Br1sCCl1sF1sHI1s->H",
+    kinetics = Arrhenius(A=(5.7066e-06,'m^3/(mol*s)'), n=3.19155, Ea=(216.984,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-3Br1sCCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-3Br1sCCl1sF1sHI1s->H
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-3Br1sCCl1sF1sHI1s->H
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-7R!H=6R!H_Ext-7R!H-R
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-3Br1sCCl1sF1sHI1s->H
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 51,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs",
-    kinetics = ArrheniusBM(A=(4.08908e+07,'m^3/(mol*s)'), n=-0.363436, w0=(584,'kJ/mol'), E0=(109.758,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.06746868097934366, var=0.08249864412907129, Tref=1000.0, N=9, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs',), comment="""BM rule fitted to 9 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs
-    Total Standard Deviation in ln(k): 0.7453308793010623"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Br1s",
+    kinetics = Arrhenius(A=(3.01249e-05,'m^3/(mol*s)'), n=3.17037, Ea=(120.81,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Br1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Br1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 9 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs
-Total Standard Deviation in ln(k): 0.7453308793010623""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Br1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 9 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs
-Total Standard Deviation in ln(k): 0.7453308793010623
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Br1s
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 52,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R",
-    kinetics = ArrheniusBM(A=(9.16873e+07,'m^3/(mol*s)'), n=-0.471498, w0=(584,'kJ/mol'), E0=(108.674,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.07514139785501385, var=0.03091755307632206, Tref=1000.0, N=6, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R',), comment="""BM rule fitted to 6 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R
-    Total Standard Deviation in ln(k): 0.5412978274845682"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s",
+    kinetics = ArrheniusBM(A=(7.00651e-11,'m^3/(mol*s)'), n=4.73603, w0=(579,'kJ/mol'), E0=(277.591,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=6.981466752822914, var=192.7601605666135, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s',), comment="""BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s
+    Total Standard Deviation in ln(k): 45.37473325427515"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 6 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R
-Total Standard Deviation in ln(k): 0.5412978274845682""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s
+Total Standard Deviation in ln(k): 45.37473325427515""",
     longDesc = 
 """
-BM rule fitted to 6 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R
-Total Standard Deviation in ln(k): 0.5412978274845682
+BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s
+Total Standard Deviation in ln(k): 45.37473325427515
 """,
 )
 
 entry(
     index = 53,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_Sp-6R!H-4CbCdCt",
-    kinetics = ArrheniusBM(A=(3.55364e+07,'m^3/(mol*s)'), n=-0.357533, w0=(584,'kJ/mol'), E0=(107.976,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_Sp-6R!H-4CbCdCt',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_Sp-6R!H-4CbCdCt
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_Ext-4Cs-R",
+    kinetics = Arrhenius(A=(1.33582e-06,'m^3/(mol*s)'), n=3.3552, Ea=(272.197,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_Ext-4Cs-R',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_Ext-4Cs-R
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_Sp-6R!H-4CbCdCt
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_Ext-4Cs-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_Sp-6R!H-4CbCdCt
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_Ext-4Cs-R
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 54,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt",
-    kinetics = ArrheniusBM(A=(1.10825e+08,'m^3/(mol*s)'), n=-0.494291, w0=(584,'kJ/mol'), E0=(108.813,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0739562917847758, var=0.02913633587331158, Tref=1000.0, N=5, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt',), comment="""BM rule fitted to 5 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt
-    Total Standard Deviation in ln(k): 0.5280154568341594"""),
-    rank = 11,
-    shortDesc = """BM rule fitted to 5 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt
-Total Standard Deviation in ln(k): 0.5280154568341594""",
-    longDesc = 
-"""
-BM rule fitted to 5 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt
-Total Standard Deviation in ln(k): 0.5280154568341594
-""",
-)
-
-entry(
-    index = 55,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_Sp-7R!H=6R!H",
-    kinetics = ArrheniusBM(A=(6.36692e+07,'m^3/(mol*s)'), n=-0.382746, w0=(584,'kJ/mol'), E0=(106.821,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_Sp-7R!H=6R!H',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_Sp-7R!H=6R!H
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Cl1s",
+    kinetics = Arrhenius(A=(3.42311e-06,'m^3/(mol*s)'), n=3.42841, Ea=(214.884,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_Sp-7R!H=6R!H
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_Sp-7R!H=6R!H
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_5Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
-    index = 56,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H",
-    kinetics = ArrheniusBM(A=(1.27295e+08,'m^3/(mol*s)'), n=-0.522177, w0=(584,'kJ/mol'), E0=(109.312,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.07236308446794819, var=0.011171575725256783, Tref=1000.0, N=4, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H',), comment="""BM rule fitted to 4 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H
-    Total Standard Deviation in ln(k): 0.39370862245649435"""),
+    index = 55,
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s",
+    kinetics = ArrheniusBM(A=(2.54272e-08,'m^3/(mol*s)'), n=3.94901, w0=(558,'kJ/mol'), E0=(332.159,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=2.3381213615549306, var=17.352834998219944, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s',), comment="""BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s
+    Total Standard Deviation in ln(k): 14.225748403311506"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H
-Total Standard Deviation in ln(k): 0.39370862245649435""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s
+Total Standard Deviation in ln(k): 14.225748403311506""",
     longDesc = 
 """
-BM rule fitted to 4 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H
-Total Standard Deviation in ln(k): 0.39370862245649435
+BM rule fitted to 2 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s
+Total Standard Deviation in ln(k): 14.225748403311506
+""",
+)
+
+entry(
+    index = 56,
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->H",
+    kinetics = Arrhenius(A=(2.12553e-07,'m^3/(mol*s)'), n=3.34134, Ea=(111.339,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 57,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R",
-    kinetics = ArrheniusBM(A=(5.40342e+08,'m^3/(mol*s)'), n=-0.740623, w0=(584,'kJ/mol'), E0=(109.081,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.07212098919745502, var=0.007692440233300485, Tref=1000.0, N=2, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R',), comment="""BM rule fitted to 2 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R
-    Total Standard Deviation in ln(k): 0.35703692796408437"""),
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->H",
+    kinetics = Arrhenius(A=(1.40908e-07,'m^3/(mol*s)'), n=3.45227, Ea=(176.699,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R
-Total Standard Deviation in ln(k): 0.35703692796408437""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R
-Total Standard Deviation in ln(k): 0.35703692796408437
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->H
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 58,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_4CbCdCt->Cd",
-    kinetics = ArrheniusBM(A=(1.8535e+08,'m^3/(mol*s)'), n=-0.589251, w0=(584,'kJ/mol'), E0=(107.814,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_4CbCdCt->Cd',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_4CbCdCt->Cd
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s",
+    kinetics = Arrhenius(A=(3e+07,'m^3/(mol*s)'), n=0, Ea=(25.104,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_4CbCdCt->Cd
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_4CbCdCt->Cd
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 59,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4CbCdCt->Cd",
-    kinetics = ArrheniusBM(A=(1.57523e+09,'m^3/(mol*s)'), n=-0.891994, w0=(584,'kJ/mol'), E0=(110.348,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4CbCdCt->Cd',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4CbCdCt->Cd
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s",
+    kinetics = Arrhenius(A=(739000,'m^3/(mol*s)'), n=0, Ea=(49.7896,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4CbCdCt->Cd
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4CbCdCt->Cd
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_2Br1sCl1sF1sHI1s->Cl1s_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 60,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_4CbCdCt->Cd",
-    kinetics = ArrheniusBM(A=(7.68921e+08,'m^3/(mol*s)'), n=-0.779019, w0=(584,'kJ/mol'), E0=(111.029,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_4CbCdCt->Cd',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_4CbCdCt->Cd
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_4Br1sCbCdCl1sCtF1sH->Cl1s",
+    kinetics = Arrhenius(A=(321,'m^3/(mol*s)'), n=0, Ea=(8.82824,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_4Br1sCbCdCl1sCtF1sH->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_4Br1sCbCdCl1sCtF1sH->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_4CbCdCt->Cd
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_4Br1sCbCdCl1sCtF1sH->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_4CbCdCt->Cd
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_4Br1sCbCdCl1sCtF1sH->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 61,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_N-4CbCdCt->Cd",
-    kinetics = ArrheniusBM(A=(1.16958e+06,'m^3/(mol*s)'), n=0.171554, w0=(584,'kJ/mol'), E0=(108.056,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_N-4CbCdCt->Cd',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_N-4CbCdCt->Cd
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_N-4Br1sCbCdCl1sCtF1sH->Cl1s",
+    kinetics = Arrhenius(A=(3200,'m^3/(mol*s)'), n=0, Ea=(4.30952,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_N-4Br1sCbCdCl1sCtF1sH->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_N-4Br1sCbCdCl1sCtF1sH->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_N-4CbCdCt->Cd
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_N-4Br1sCbCdCl1sCtF1sH->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-6R!H-R_N-Sp-6R!H-4CbCdCt_N-Sp-7R!H=6R!H_N-4CbCdCt->Cd
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-4Br1sCbCdCl1sCtF1sHO->O_N-2Br1sCl1sF1sHI1s->Cl1s_N-4Br1sCbCdCl1sCtF1sH->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 62,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-4CbCdCt-R",
-    kinetics = ArrheniusBM(A=(3.11579e+08,'m^3/(mol*s)'), n=-0.607843, w0=(584,'kJ/mol'), E0=(113.515,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-4CbCdCt-R',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-4CbCdCt-R
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_Sp-7R!H=6R!H",
+    kinetics = Arrhenius(A=(70000,'m^3/(mol*s)'), n=0.465, Ea=(-7.28853,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_Sp-7R!H=6R!H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_Sp-7R!H=6R!H
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-4CbCdCt-R
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_Sp-7R!H=6R!H
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_Ext-4CbCdCt-R
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_Sp-7R!H=6R!H
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 63,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_4CbCdCt->Cd",
-    kinetics = ArrheniusBM(A=(8.17451e+07,'m^3/(mol*s)'), n=-0.50563, w0=(584,'kJ/mol'), E0=(111.079,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_4CbCdCt->Cd',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_4CbCdCt->Cd
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H",
+    kinetics = ArrheniusBM(A=(1.27295e+08,'m^3/(mol*s)'), n=-0.522177, w0=(584,'kJ/mol'), E0=(109.449,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0723630864830317, var=0.01117157508829927, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H',), comment="""BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H
+    Total Standard Deviation in ln(k): 0.39370862147891594"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_4CbCdCt->Cd
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H
+Total Standard Deviation in ln(k): 0.39370862147891594""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_4CbCdCt->Cd
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H
+Total Standard Deviation in ln(k): 0.39370862147891594
 """,
 )
 
 entry(
     index = 64,
-    label = "CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_N-4CbCdCt->Cd",
-    kinetics = ArrheniusBM(A=(21122.7,'m^3/(mol*s)'), n=0.671539, w0=(584,'kJ/mol'), E0=(111.182,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_N-4CbCdCt->Cd',), comment="""BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_N-4CbCdCt->Cd
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R",
+    kinetics = ArrheniusBM(A=(380.996,'m^3/(mol*s)'), n=1.18611, w0=(529,'kJ/mol'), E0=(74.7001,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.7102492569695187, var=0.8256572923853683, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R
+    Total Standard Deviation in ln(k): 3.6061621558257553"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_N-4CbCdCt->Cd
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R
+Total Standard Deviation in ln(k): 3.6061621558257553""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_Ext-4CbCdCsCt-R_N-4CbCdCsCt->Cs_N-4CbCdCt->Cd
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R
+Total Standard Deviation in ln(k): 3.6061621558257553
 """,
 )
 
 entry(
     index = 65,
-    label = "CH_3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(3.1861e+27,'m^3/(mol*s)'), n=-6.07002, w0=(584,'kJ/mol'), E0=(287.514,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.5812749967363261, var=220.69207514042446, Tref=1000.0, N=2, data_mean=0.0, correlation='CH_3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 2 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 31.242249878021042"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_6R!H->C",
+    kinetics = Arrhenius(A=(3.92494,'m^3/(mol*s)'), n=1.71005, Ea=(-27.1019,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_6R!H->C',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_6R!H->C
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 31.242249878021042""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_6R!H->C
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 31.242249878021042
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_6R!H->C
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 66,
-    label = "CH_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(6.68018e-11,'m^3/(mol*s)'), n=4.72997, w0=(584,'kJ/mol'), E0=(228.996,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_N-6R!H->C",
+    kinetics = Arrhenius(A=(264.856,'m^3/(mol*s)'), n=1.35424, Ea=(-5.31624,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_N-6R!H->C',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_N-6R!H->C
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s_2Br1sCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 67,
-    label = "CH_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(2.79957e-05,'m^3/(mol*s)'), n=3.10993, w0=(584,'kJ/mol'), E0=(140.025,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cs",
+    kinetics = Arrhenius(A=(2.79958e-05,'m^3/(mol*s)'), n=3.10993, Ea=(26.3876,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cs',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cs
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cs
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cs
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 68,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(0.00023561,'m^3/(mol*s)'), n=2.67696, w0=(584,'kJ/mol'), E0=(176.605,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.06140068338498148, var=2.176444724058605, Tref=1000.0, N=5, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 5 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 3.1118143213985663"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs",
+    kinetics = ArrheniusBM(A=(165413,'m^3/(mol*s)'), n=0.340384, w0=(657.167,'kJ/mol'), E0=(134.388,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.18341100062289362, var=8.915352774860462, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs',), comment="""BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs
+    Total Standard Deviation in ln(k): 6.446687532806618"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 5 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 3.1118143213985663""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs
+Total Standard Deviation in ln(k): 6.446687532806618""",
     longDesc = 
 """
-BM rule fitted to 5 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 3.1118143213985663
+BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs
+Total Standard Deviation in ln(k): 6.446687532806618
 """,
 )
 
 entry(
     index = 69,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_3Br1sCCl1sH->Cl1s",
-    kinetics = ArrheniusBM(A=(3.3398e-07,'m^3/(mol*s)'), n=3.60759, w0=(584,'kJ/mol'), E0=(182.432,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_3Br1sCCl1sH->Cl1s',), comment="""BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_3Br1sCCl1sH->Cl1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cl1s",
+    kinetics = Arrhenius(A=(1e+07,'m^3/(mol*s)'), n=0, Ea=(0,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_3Br1sCCl1sH->Cl1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_3Br1sCCl1sH->Cl1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_4CbCdCl1sCsCtF1sHO->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 70,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s",
-    kinetics = ArrheniusBM(A=(2.18628e-05,'m^3/(mol*s)'), n=2.94416, w0=(584,'kJ/mol'), E0=(169.46,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.08450722928530859, var=2.966374345416031, Tref=1000.0, N=4, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s',), comment="""BM rule fitted to 4 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s
-    Total Standard Deviation in ln(k): 3.665118151344325"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s",
+    kinetics = ArrheniusBM(A=(7.59917,'m^3/(mol*s)'), n=1.89141, w0=(627,'kJ/mol'), E0=(126.772,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=1.0394544596457838, var=0.3638912372950381, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s
+    Total Standard Deviation in ln(k): 3.8210189462416184"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s
-Total Standard Deviation in ln(k): 3.665118151344325""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s
+Total Standard Deviation in ln(k): 3.8210189462416184""",
     longDesc = 
 """
-BM rule fitted to 4 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s
-Total Standard Deviation in ln(k): 3.665118151344325
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s
+Total Standard Deviation in ln(k): 3.8210189462416184
 """,
 )
 
 entry(
     index = 71,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(3.33872e-07,'m^3/(mol*s)'), n=3.38172, w0=(584,'kJ/mol'), E0=(175.912,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_2Br1sCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->F1s",
+    kinetics = Arrhenius(A=(3.33872e-07,'m^3/(mol*s)'), n=3.38172, Ea=(55.0573,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->F1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_2Br1sCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_2Br1sCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 72,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(0.00162495,'m^3/(mol*s)'), n=2.43564, w0=(584,'kJ/mol'), E0=(171.386,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.027130249649059007, var=0.9392093380070419, Tref=1000.0, N=3, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 3 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 2.0110116189485745"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s",
+    kinetics = ArrheniusBM(A=(5.00807e-06,'m^3/(mol*s)'), n=3.10588, w0=(584,'kJ/mol'), E0=(155.269,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=4.554751041316875, var=0.20403171106326037, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s
+    Total Standard Deviation in ln(k): 12.349634312037445"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 2.0110116189485745""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s
+Total Standard Deviation in ln(k): 12.349634312037445""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 2.0110116189485745
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s
+Total Standard Deviation in ln(k): 12.349634312037445
 """,
 )
 
 entry(
     index = 73,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C",
-    kinetics = ArrheniusBM(A=(5.00807e-06,'m^3/(mol*s)'), n=3.10588, w0=(584,'kJ/mol'), E0=(155.269,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.09627616074934456, var=0.5326628706745564, Tref=1000.0, N=2, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C',), comment="""BM rule fitted to 2 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C
-    Total Standard Deviation in ln(k): 1.705030867897116"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R",
+    kinetics = ArrheniusBM(A=(2.44246e-08,'m^3/(mol*s)'), n=3.90274, w0=(730.5,'kJ/mol'), E0=(68.9596,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.3126567050200818, var=8.370718462765254, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R',), comment="""BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R
+    Total Standard Deviation in ln(k): 6.585708016680295"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C
-Total Standard Deviation in ln(k): 1.705030867897116""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R
+Total Standard Deviation in ln(k): 6.585708016680295""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C
-Total Standard Deviation in ln(k): 1.705030867897116
+BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R
+Total Standard Deviation in ln(k): 6.585708016680295
 """,
 )
 
 entry(
     index = 74,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_2Br1sCl1s->Cl1s",
-    kinetics = ArrheniusBM(A=(2.24049e-06,'m^3/(mol*s)'), n=3.20888, w0=(584,'kJ/mol'), E0=(157.226,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_2Br1sCl1s->Cl1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->Cl1s",
+    kinetics = Arrhenius(A=(112.911,'m^3/(mol*s)'), n=1.11181, Ea=(14.3945,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_2Br1sCl1s->Cl1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_2Br1sCl1s->Cl1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_2Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 75,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_N-2Br1sCl1s->Cl1s",
-    kinetics = ArrheniusBM(A=(2.9253e-06,'m^3/(mol*s)'), n=3.16987, w0=(584,'kJ/mol'), E0=(151.216,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_N-2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_N-2Br1sCl1s->Cl1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s",
+    kinetics = ArrheniusBM(A=(17.8899,'m^3/(mol*s)'), n=1.2765, w0=(656.75,'kJ/mol'), E0=(94.5563,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.5513237759929538, var=0.29465366767184964, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s
+    Total Standard Deviation in ln(k): 2.4734461256439864"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_N-2Br1sCl1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s
+Total Standard Deviation in ln(k): 2.4734461256439864""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_3Br1sCH->C_N-2Br1sCl1s->Cl1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s
+Total Standard Deviation in ln(k): 2.4734461256439864
 """,
 )
 
 entry(
     index = 76,
-    label = "CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_N-3Br1sCH->C",
-    kinetics = ArrheniusBM(A=(5.49685e-07,'m^3/(mol*s)'), n=3.52855, w0=(584,'kJ/mol'), E0=(174.773,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_N-3Br1sCH->C',), comment="""BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_N-3Br1sCH->C
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->Cl1s",
+    kinetics = Arrhenius(A=(0.109762,'m^3/(mol*s)'), n=1.4247, Ea=(-23.1333,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_N-3Br1sCH->C
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CH_N-3Br1sCCl1sF1sHI1s->F1s_N-3Br1sCCl1sH->Cl1s_N-2Br1sCl1sF1sHI1s->F1s_N-3Br1sCH->C
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 77,
-    label = "CY",
-    kinetics = ArrheniusBM(A=(104.891,'m^3/(mol*s)'), n=1.20304, w0=(555.714,'kJ/mol'), E0=(352.855,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=1.777380006033631, var=25.083631456492316, Tref=1000.0, N=7, data_mean=0.0, correlation='CY',), comment="""BM rule fitted to 7 training reactions at node CY
-    Total Standard Deviation in ln(k): 14.50620618988802"""),
-    rank = 11,
-    shortDesc = """BM rule fitted to 7 training reactions at node CY
-Total Standard Deviation in ln(k): 14.50620618988802""",
-    longDesc = 
-"""
-BM rule fitted to 7 training reactions at node CY
-Total Standard Deviation in ln(k): 14.50620618988802
-""",
-)
-
-entry(
-    index = 78,
-    label = "CY_2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(6.49375e-13,'m^3/(mol*s)'), n=5.33465, w0=(538.667,'kJ/mol'), E0=(264.106,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.29053050618029913, var=10.223018529022832, Tref=1000.0, N=3, data_mean=0.0, correlation='CY_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 3 training reactions at node CY_2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 7.139806913191501"""),
-    rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node CY_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 7.139806913191501""",
-    longDesc = 
-"""
-BM rule fitted to 3 training reactions at node CY_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 7.139806913191501
-""",
-)
-
-entry(
-    index = 79,
-    label = "CY_2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Br1s",
-    kinetics = ArrheniusBM(A=(3.01249e-05,'m^3/(mol*s)'), n=3.17037, w0=(458,'kJ/mol'), E0=(273.931,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Br1s',), comment="""BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Br1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->Cl1s",
+    kinetics = Arrhenius(A=(1.9521,'m^3/(mol*s)'), n=1.31015, Ea=(25.7214,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Br1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Br1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
-    index = 80,
-    label = "CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s",
-    kinetics = ArrheniusBM(A=(1.2012e-10,'m^3/(mol*s)'), n=4.66895, w0=(579,'kJ/mol'), E0=(278.225,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.17521033742536213, var=13.662879193128079, Tref=1000.0, N=2, data_mean=0.0, correlation='CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s',), comment="""BM rule fitted to 2 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s
-    Total Standard Deviation in ln(k): 7.850395820592586"""),
+    index = 78,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s",
+    kinetics = ArrheniusBM(A=(1.37306e-13,'m^3/(mol*s)'), n=5.46154, w0=(638.875,'kJ/mol'), E0=(180.908,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.06377445459910688, var=26.455849515686403, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s',), comment="""BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s
+    Total Standard Deviation in ln(k): 10.471642329618119"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s
-Total Standard Deviation in ln(k): 7.850395820592586""",
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s
+Total Standard Deviation in ln(k): 10.471642329618119""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s
-Total Standard Deviation in ln(k): 7.850395820592586
+BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s
+Total Standard Deviation in ln(k): 10.471642329618119
+""",
+)
+
+entry(
+    index = 79,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s",
+    kinetics = ArrheniusBM(A=(1.55283e-16,'m^3/(mol*s)'), n=6.2448, w0=(599,'kJ/mol'), E0=(134.525,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.41275689388512043, var=3.2482144216748603, Tref=1000.0, N=4, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s',), comment="""BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s
+    Total Standard Deviation in ln(k): 4.650172238457119"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s
+Total Standard Deviation in ln(k): 4.650172238457119""",
+    longDesc = 
+"""
+BM rule fitted to 4 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s
+Total Standard Deviation in ln(k): 4.650172238457119
+""",
+)
+
+entry(
+    index = 80,
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_5Cl1sF1s->Cl1s",
+    kinetics = Arrhenius(A=(1.78425e-05,'m^3/(mol*s)'), n=3.22746, Ea=(130.179,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_5Cl1sF1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_5Cl1sF1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_5Cl1sF1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_5Cl1sF1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 81,
-    label = "CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_5Cl1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(4.96165e-06,'m^3/(mol*s)'), n=3.30609, w0=(658,'kJ/mol'), E0=(300.389,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_5Cl1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_5Cl1sF1s->F1s
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_N-5Cl1sF1s->Cl1s",
+    kinetics = Arrhenius(A=(4.96165e-06,'m^3/(mol*s)'), n=3.30609, Ea=(133.548,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_N-5Cl1sF1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_N-5Cl1sF1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_5Cl1sF1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_N-5Cl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_5Cl1sF1s->F1s
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Br1s_N-5Cl1sF1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 82,
-    label = "CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_N-5Cl1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(1.78425e-05,'m^3/(mol*s)'), n=3.22746, w0=(500,'kJ/mol'), E0=(286.146,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_N-5Cl1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_N-5Cl1sF1s->F1s
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_5Br1sF1s->F1s",
+    kinetics = Arrhenius(A=(6.158e-07,'m^3/(mol*s)'), n=3.54561, Ea=(195.225,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_5Br1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_5Br1sF1s->F1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_N-5Cl1sF1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_5Br1sF1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Br1s_N-5Cl1sF1s->F1s
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_5Br1sF1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 83,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(8.68619e-06,'m^3/(mol*s)'), n=3.22251, w0=(568.5,'kJ/mol'), E0=(340.237,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.21935560952967964, var=6.817060158071854, Tref=1000.0, N=4, data_mean=0.0, correlation='CY_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 4 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 5.785407896000591"""),
-    rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 5.785407896000591""",
-    longDesc = 
-"""
-BM rule fitted to 4 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 5.785407896000591
-""",
-)
-
-entry(
-    index = 84,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R",
-    kinetics = ArrheniusBM(A=(1.33582e-06,'m^3/(mol*s)'), n=3.3552, w0=(658,'kJ/mol'), E0=(372.673,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R',), comment="""BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R
+    label = "Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_N-5Br1sF1s->F1s",
+    kinetics = Arrhenius(A=(7.43831e-06,'m^3/(mol*s)'), n=3.35156, Ea=(209.26,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_N-5Br1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_N-5Br1sF1s->F1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_N-5Br1sF1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_Ext-4Cs-R
+BM rule fitted to 1 training reactions at node Root_N-5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCbCdCl1sCsCtF1sI1sNSSidSis->Cs_N-5Br1sCl1sF1s->Cl1s_N-5Br1sF1s->F1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
+    index = 84,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R",
+    kinetics = ArrheniusBM(A=(5.40342e+08,'m^3/(mol*s)'), n=-0.740623, w0=(584,'kJ/mol'), E0=(109.227,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.7870344623206381, var=0.09796882358847878, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R
+    Total Standard Deviation in ln(k): 2.6049550376933337"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R
+Total Standard Deviation in ln(k): 2.6049550376933337""",
+    longDesc = 
+"""
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R
+Total Standard Deviation in ln(k): 2.6049550376933337
+""",
+)
+
+entry(
     index = 85,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Cl1s",
-    kinetics = ArrheniusBM(A=(3.42311e-06,'m^3/(mol*s)'), n=3.42841, w0=(500,'kJ/mol'), E0=(332.503,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_N-2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Cl1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_4Br1sCbCdCl1sCtF1sHO->Ct",
+    kinetics = Arrhenius(A=(203,'m^3/(mol*s)'), n=1.249, Ea=(-9.26338,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_4Br1sCbCdCl1sCtF1sHO->Ct',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_4Br1sCbCdCl1sCtF1sHO->Ct
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Cl1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_4Br1sCbCdCl1sCtF1sHO->Ct
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_5Br1sCl1sF1sI1s->Cl1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_4Br1sCbCdCl1sCtF1sHO->Ct
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 86,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s",
-    kinetics = ArrheniusBM(A=(2.76839e-08,'m^3/(mol*s)'), n=3.93843, w0=(558,'kJ/mol'), E0=(331.989,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=2.3048192623022214, var=16.823155120458388, Tref=1000.0, N=2, data_mean=0.0, correlation='CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s',), comment="""BM rule fitted to 2 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s
-    Total Standard Deviation in ln(k): 14.013632522321476"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_N-4Br1sCbCdCl1sCtF1sHO->Ct",
+    kinetics = Arrhenius(A=(1.985e+07,'m^3/(mol*s)'), n=-0.324, Ea=(-3.91204,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_N-4Br1sCbCdCl1sCtF1sHO->Ct',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_N-4Br1sCbCdCl1sCtF1sHO->Ct
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s
-Total Standard Deviation in ln(k): 14.013632522321476""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_N-4Br1sCbCdCl1sCtF1sHO->Ct
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s
-Total Standard Deviation in ln(k): 14.013632522321476
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_N-4Br1sCbCdCl1sCtF1sHO->Ct
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 87,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_5Br1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(6.158e-07,'m^3/(mol*s)'), n=3.54561, w0=(658,'kJ/mol'), E0=(334.807,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_5Br1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_5Br1sF1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R",
+    kinetics = Arrhenius(A=(0.971461,'m^3/(mol*s)'), n=1.9253, Ea=(-2.06442,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_5Br1sF1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_5Br1sF1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-3Br1sCCl1sF1sHI1s->F1s_N-2Br1sCl1sF1sHI1s->H_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R_Ext-3Br1sCCl1sH-R
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 88,
-    label = "CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_N-5Br1sF1s->F1s",
-    kinetics = ArrheniusBM(A=(7.43831e-06,'m^3/(mol*s)'), n=3.35156, w0=(458,'kJ/mol'), E0=(323.891,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_N-5Br1sF1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_N-5Br1sF1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_4Cl1sF1sHO->O",
+    kinetics = Arrhenius(A=(4.67448e-06,'m^3/(mol*s)'), n=3.15288, Ea=(2.84581,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_4Cl1sF1sHO->O',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_4Cl1sF1sHO->O
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_N-5Br1sF1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_4Cl1sF1sHO->O
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CY_N-2Br1sCl1sF1sHI1s->H_N-5Br1sCl1sF1sI1s->Cl1s_N-5Br1sF1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_4Cl1sF1sHO->O
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 89,
-    label = "OHOY",
-    kinetics = ArrheniusBM(A=(2.13916e+09,'m^3/(mol*s)'), n=-1.00842, w0=(614,'kJ/mol'), E0=(194.239,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.17406617270594374, var=16.167420070870673, Tref=1000.0, N=4, data_mean=0.0, correlation='OHOY',), comment="""BM rule fitted to 4 training reactions at node OHOY
-    Total Standard Deviation in ln(k): 8.498137434485294"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O",
+    kinetics = ArrheniusBM(A=(3.55814,'m^3/(mol*s)'), n=1.78259, w0=(678.75,'kJ/mol'), E0=(108.812,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.5157032220446471, var=5.303397096358326, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O
+    Total Standard Deviation in ln(k): 5.912462339866296"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node OHOY
-Total Standard Deviation in ln(k): 8.498137434485294""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O
+Total Standard Deviation in ln(k): 5.912462339866296""",
     longDesc = 
 """
-BM rule fitted to 4 training reactions at node OHOY
-Total Standard Deviation in ln(k): 8.498137434485294
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O
+Total Standard Deviation in ln(k): 5.912462339866296
 """,
 )
 
 entry(
     index = 90,
-    label = "OH",
-    kinetics = ArrheniusBM(A=(2.13916e+09,'m^3/(mol*s)'), n=-1.00842, w0=(614,'kJ/mol'), E0=(194.239,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.17406617270594374, var=16.167420070870673, Tref=1000.0, N=4, data_mean=0.0, correlation='OH',), comment="""BM rule fitted to 4 training reactions at node OH
-    Total Standard Deviation in ln(k): 8.498137434485294"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_3Br1sCCl1s->Cl1s",
+    kinetics = Arrhenius(A=(1.39739,'m^3/(mol*s)'), n=2.08325, Ea=(9.93074,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_3Br1sCCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_3Br1sCCl1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 4 training reactions at node OH
-Total Standard Deviation in ln(k): 8.498137434485294""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_3Br1sCCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 4 training reactions at node OH
-Total Standard Deviation in ln(k): 8.498137434485294
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_3Br1sCCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 91,
-    label = "OH_2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(4.67448e-06,'m^3/(mol*s)'), n=3.15288, w0=(614,'kJ/mol'), E0=(90.3,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='OH_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node OH_2Br1sCl1sF1sHI1s->H
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-3Br1sCCl1s->Cl1s",
+    kinetics = Arrhenius(A=(1.50896,'m^3/(mol*s)'), n=2.11145, Ea=(7.35429,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-3Br1sCCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-3Br1sCCl1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node OH_2Br1sCl1sF1sHI1s->H
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-3Br1sCCl1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node OH_2Br1sCl1sF1sHI1s->H
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_N-3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-3Br1sCCl1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 92,
-    label = "OH_N-2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(4.23875e-06,'m^3/(mol*s)'), n=3.21724, w0=(614,'kJ/mol'), E0=(164.088,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.108323539544058, var=9.91321701645709, Tref=1000.0, N=3, data_mean=0.0, correlation='OH_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 3 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 6.58413054393339"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_2Br1sCl1s->Cl1s",
+    kinetics = Arrhenius(A=(2.24049e-06,'m^3/(mol*s)'), n=3.20888, Ea=(40.549,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_2Br1sCl1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 6.58413054393339""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 6.58413054393339
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 93,
-    label = "OH_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1sI1s->F1s",
-    kinetics = ArrheniusBM(A=(1.76395e-12,'m^3/(mol*s)'), n=5.02686, w0=(614,'kJ/mol'), E0=(167.02,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='OH_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1sI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1sI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_N-2Br1sCl1s->Cl1s",
+    kinetics = Arrhenius(A=(2.9253e-06,'m^3/(mol*s)'), n=3.16987, Ea=(35.1917,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_N-2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_N-2Br1sCl1s->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1sI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_N-2Br1sCl1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_2Br1sCl1sF1sI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->F1s_N-2Br1sCl1s->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 94,
-    label = "OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s",
-    kinetics = ArrheniusBM(A=(2.63835e-09,'m^3/(mol*s)'), n=4.14506, w0=(614,'kJ/mol'), E0=(143.299,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.23722374380764835, var=0.044009247151562056, Tref=1000.0, N=2, data_mean=0.0, correlation='OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s',), comment="""BM rule fitted to 2 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s
-    Total Standard Deviation in ln(k): 1.016600520901901"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R",
+    kinetics = ArrheniusBM(A=(3.13331,'m^3/(mol*s)'), n=1.51168, w0=(730.5,'kJ/mol'), E0=(133.165,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.027348021081210358, var=0.0027343189908051193, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R
+    Total Standard Deviation in ln(k): 0.1735426536054152"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s
-Total Standard Deviation in ln(k): 1.016600520901901""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R
+Total Standard Deviation in ln(k): 0.1735426536054152""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s
-Total Standard Deviation in ln(k): 1.016600520901901
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R
+Total Standard Deviation in ln(k): 0.1735426536054152
 """,
 )
 
 entry(
     index = 95,
-    label = "OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_2Br1sCl1s->Cl1s",
-    kinetics = ArrheniusBM(A=(2.23354e-09,'m^3/(mol*s)'), n=4.16722, w0=(614,'kJ/mol'), E0=(144.228,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_2Br1sCl1s->Cl1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_4Cl1sF1sHO->Cl1s",
+    kinetics = Arrhenius(A=(2.57491,'m^3/(mol*s)'), n=1.58614, Ea=(10.1384,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_4Cl1sF1sHO->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_4Cl1sF1sHO->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_2Br1sCl1s->Cl1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_4Cl1sF1sHO->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_2Br1sCl1s->Cl1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_4Cl1sF1sHO->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 96,
-    label = "OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_N-2Br1sCl1s->Cl1s",
-    kinetics = ArrheniusBM(A=(1.67626e-09,'m^3/(mol*s)'), n=4.20006, w0=(614,'kJ/mol'), E0=(141.512,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_N-2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_N-2Br1sCl1s->Cl1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_N-4Cl1sF1sHO->Cl1s",
+    kinetics = Arrhenius(A=(11.2646,'m^3/(mol*s)'), n=1.26561, Ea=(1.63685,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_N-4Cl1sF1sHO->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_N-4Cl1sF1sHO->Cl1s
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_N-2Br1sCl1s->Cl1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_N-4Cl1sF1sHO->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node OH_N-2Br1sCl1sF1sHI1s->H_N-2Br1sCl1sF1sI1s->F1s_N-2Br1sCl1s->Cl1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_N-2Br1sCl1sF1s->Cl1s_N-4Cl1sF1sHO->Cl1s
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 97,
-    label = "CC",
-    kinetics = ArrheniusBM(A=(1.34094e-99,'m^3/(mol*s)'), n=30.0383, w0=(519,'kJ/mol'), E0=(51.9,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.6620854538738407, var=85.54837375342689, Tref=1000.0, N=3, data_mean=0.0, correlation='CC',), comment="""BM rule fitted to 3 training reactions at node CC
-    Total Standard Deviation in ln(k): 20.20579991644221"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_4CsF1sHO->F1s",
+    kinetics = Arrhenius(A=(3.98081e-09,'m^3/(mol*s)'), n=4.16158, Ea=(55.7474,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_4CsF1sHO->F1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_4CsF1sHO->F1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node CC
-Total Standard Deviation in ln(k): 20.20579991644221""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_4CsF1sHO->F1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node CC
-Total Standard Deviation in ln(k): 20.20579991644221
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_4CsF1sHO->F1s
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 98,
-    label = "CC_2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(4.75016e+11,'m^3/(mol*s)'), n=-1.62726, w0=(519,'kJ/mol'), E0=(415.907,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.02873165458744823, var=48.530456786660096, Tref=1000.0, N=2, data_mean=0.0, correlation='CC_2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 2 training reactions at node CC_2Br1sCl1sF1sHI1s->H
-    Total Standard Deviation in ln(k): 14.037937368069308"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s",
+    kinetics = ArrheniusBM(A=(1.52384e-10,'m^3/(mol*s)'), n=4.59619, w0=(608.333,'kJ/mol'), E0=(205.159,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.014635730876962901, var=14.560499963457204, Tref=1000.0, N=3, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s',), comment="""BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s
+    Total Standard Deviation in ln(k): 7.686486043395319"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CC_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 14.037937368069308""",
+    shortDesc = """BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s
+Total Standard Deviation in ln(k): 7.686486043395319""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CC_2Br1sCl1sF1sHI1s->H
-Total Standard Deviation in ln(k): 14.037937368069308
+BM rule fitted to 3 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s
+Total Standard Deviation in ln(k): 7.686486043395319
 """,
 )
 
 entry(
     index = 99,
-    label = "CC_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(5.7066e-06,'m^3/(mol*s)'), n=3.19155, w0=(519,'kJ/mol'), E0=(387.908,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CC_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CC_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs",
+    kinetics = ArrheniusBM(A=(1.61505e-06,'m^3/(mol*s)'), n=3.40296, w0=(584,'kJ/mol'), E0=(180.376,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.15483021363048757, var=1.0188775063905142, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs
+    Total Standard Deviation in ln(k): 2.412589446362772"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CC_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs
+Total Standard Deviation in ln(k): 2.412589446362772""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CC_2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs
+Total Standard Deviation in ln(k): 2.412589446362772
 """,
 )
 
 entry(
     index = 100,
-    label = "CC_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(0.000166864,'m^3/(mol*s)'), n=2.82973, w0=(519,'kJ/mol'), E0=(346.264,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CC_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CC_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs",
+    kinetics = ArrheniusBM(A=(2.63835e-09,'m^3/(mol*s)'), n=4.14506, w0=(614,'kJ/mol'), E0=(143.299,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.23722374380764366, var=0.04400924715156273, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs
+    Total Standard Deviation in ln(k): 1.0166005209018925"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CC_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994""",
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs
+Total Standard Deviation in ln(k): 1.0166005209018925""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CC_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.540182761524994
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs
+Total Standard Deviation in ln(k): 1.0166005209018925
 """,
 )
 
 entry(
     index = 101,
-    label = "CC_N-2Br1sCl1sF1sHI1s->H",
-    kinetics = ArrheniusBM(A=(2.22791e-07,'m^3/(mol*s)'), n=3.59921, w0=(519,'kJ/mol'), E0=(453.783,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CC_N-2Br1sCl1sF1sHI1s->H',), comment="""BM rule fitted to 1 training reactions at node CC_N-2Br1sCl1sF1sHI1s->H
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_4Br1sCbCdCl1sCtF1sHO->Cb",
+    kinetics = Arrhenius(A=(1.08e+07,'m^3/(mol*s)'), n=-0.272, Ea=(-5.33042,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_4Br1sCbCdCl1sCtF1sHO->Cb',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_4Br1sCbCdCl1sCtF1sHO->Cb
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CC_N-2Br1sCl1sF1sHI1s->H
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_4Br1sCbCdCl1sCtF1sHO->Cb
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CC_N-2Br1sCl1sF1sHI1s->H
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_4Br1sCbCdCl1sCtF1sHO->Cb
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 102,
-    label = "CO",
-    kinetics = ArrheniusBM(A=(1.33981e+28,'m^3/(mol*s)'), n=-6.56923, w0=(531,'kJ/mol'), E0=(379.915,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.6010424776860186, var=51.413166251670845, Tref=1000.0, N=3, data_mean=0.0, correlation='CO',), comment="""BM rule fitted to 3 training reactions at node CO
-    Total Standard Deviation in ln(k): 15.884703894552402"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4Br1sCbCdCl1sCtF1sHO->Cb",
+    kinetics = Arrhenius(A=(131500,'m^3/(mol*s)'), n=0.313, Ea=(-7.75714,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4Br1sCbCdCl1sCtF1sHO->Cb',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4Br1sCbCdCl1sCtF1sHO->Cb
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 3 training reactions at node CO
-Total Standard Deviation in ln(k): 15.884703894552402""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4Br1sCbCdCl1sCtF1sHO->Cb
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 3 training reactions at node CO
-Total Standard Deviation in ln(k): 15.884703894552402
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_Ext-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis-R_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Cs_Ext-6R!H-R_N-Sp-6R!H-4Br1sCbCdCl1sCtF1sHO_N-Sp-7R!H=6R!H_Ext-7R!H-R_N-4Br1sCbCdCl1sCtF1sHO->Cb
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 103,
-    label = "CO_2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(2.14358e+07,'m^3/(mol*s)'), n=-0.641018, w0=(531,'kJ/mol'), E0=(341.525,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=-0.17570294811609, var=29.477358162589667, Tref=1000.0, N=2, data_mean=0.0, correlation='CO_2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 2 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s
-    Total Standard Deviation in ln(k): 11.325783866314726"""),
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_4Cl1sF1sH->H",
+    kinetics = Arrhenius(A=(2.13948,'m^3/(mol*s)'), n=1.96174, Ea=(10.3842,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_4Cl1sF1sH->H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_4Cl1sF1sH->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 2 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.325783866314726""",
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_4Cl1sF1sH->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 2 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s
-Total Standard Deviation in ln(k): 11.325783866314726
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_4Cl1sF1sH->H
+Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 104,
-    label = "CO_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(1.40908e-07,'m^3/(mol*s)'), n=3.45227, w0=(531,'kJ/mol'), E0=(320.794,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CO_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_N-4Cl1sF1sH->H",
+    kinetics = Arrhenius(A=(0.00948844,'m^3/(mol*s)'), n=2.40423, Ea=(-1.8086,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_N-4Cl1sF1sH->H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_N-4Cl1sF1sH->H
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_N-4Cl1sF1sH->H
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s_3Br1sCCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->H_3Br1sCCl1sF1s->F1s_N-4CbCdCl1sCsCtF1sHO->Cs_N-4Cl1sF1sHO->O_N-4Cl1sF1sH->H
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 105,
-    label = "CO_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(2.12553e-07,'m^3/(mol*s)'), n=3.34134, w0=(531,'kJ/mol'), E0=(278.221,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CO_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R_Ext-3C-R",
+    kinetics = Arrhenius(A=(6.46471,'m^3/(mol*s)'), n=1.46279, Ea=(27.8967,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R_Ext-3C-R',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R_Ext-3C-R
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R_Ext-3C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CO_2Br1sCl1sF1sHI1s->F1s_N-3Br1sCCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cs_Ext-3C-R_Ext-3C-R_Ext-3C-R
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )
 
 entry(
     index = 106,
-    label = "CO_N-2Br1sCl1sF1sHI1s->F1s",
-    kinetics = ArrheniusBM(A=(1.26474e-05,'m^3/(mol*s)'), n=2.95311, w0=(531,'kJ/mol'), E0=(223.988,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='CO_N-2Br1sCl1sF1sHI1s->F1s',), comment="""BM rule fitted to 1 training reactions at node CO_N-2Br1sCl1sF1sHI1s->F1s
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_4CsHO->Cs",
+    kinetics = Arrhenius(A=(6.68018e-11,'m^3/(mol*s)'), n=4.72997, Ea=(129.265,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_4CsHO->Cs',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_4CsHO->Cs
     Total Standard Deviation in ln(k): 11.540182761524994"""),
     rank = 11,
-    shortDesc = """BM rule fitted to 1 training reactions at node CO_N-2Br1sCl1sF1sHI1s->F1s
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_4CsHO->Cs
 Total Standard Deviation in ln(k): 11.540182761524994""",
     longDesc = 
 """
-BM rule fitted to 1 training reactions at node CO_N-2Br1sCl1sF1sHI1s->F1s
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_4CsHO->Cs
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 107,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs",
+    kinetics = ArrheniusBM(A=(1.00619e-13,'m^3/(mol*s)'), n=5.49179, w0=(620.5,'kJ/mol'), E0=(183.471,'kJ/mol'), Tmin=(300,'K'), Tmax=(2000,'K'), uncertainty=RateUncertainty(mu=0.020117520822944164, var=15.933120176435315, Tref=1000.0, N=2, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs',), comment="""BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs
+    Total Standard Deviation in ln(k): 8.052709752900228"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs
+Total Standard Deviation in ln(k): 8.052709752900228""",
+    longDesc = 
+"""
+BM rule fitted to 2 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs
+Total Standard Deviation in ln(k): 8.052709752900228
+""",
+)
+
+entry(
+    index = 108,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_2Br1sCl1s->Cl1s",
+    kinetics = Arrhenius(A=(3.3398e-07,'m^3/(mol*s)'), n=3.60759, Ea=(71.667,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_2Br1sCl1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 109,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s",
+    kinetics = Arrhenius(A=(5.49685e-07,'m^3/(mol*s)'), n=3.52855, Ea=(62.1777,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 110,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_2Br1sCl1s->Cl1s",
+    kinetics = Arrhenius(A=(2.23355e-09,'m^3/(mol*s)'), n=4.16722, Ea=(48.7822,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_2Br1sCl1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 111,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s",
+    kinetics = Arrhenius(A=(1.67626e-09,'m^3/(mol*s)'), n=4.20006, Ea=(44.8276,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_N-2Br1sCl1sF1s->F1s_N-4CsF1sHO->Cs_N-2Br1sCl1s->Cl1s
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 112,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_4HO->H",
+    kinetics = Arrhenius(A=(3.26413e-09,'m^3/(mol*s)'), n=4.30786, Ea=(109.478,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_4HO->H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_4HO->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_4HO->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_4HO->H
+Total Standard Deviation in ln(k): 11.540182761524994
+""",
+)
+
+entry(
+    index = 113,
+    label = "Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_N-4HO->H",
+    kinetics = Arrhenius(A=(1.76395e-12,'m^3/(mol*s)'), n=5.02686, Ea=(72.5674,'kJ/mol'), T0=(1,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.13686319048999, Tref=1000.0, N=1, data_mean=0.0, correlation='Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_N-4HO->H',), comment="""BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_N-4HO->H
+    Total Standard Deviation in ln(k): 11.540182761524994"""),
+    rank = 11,
+    shortDesc = """BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_N-4HO->H
+Total Standard Deviation in ln(k): 11.540182761524994""",
+    longDesc = 
+"""
+BM rule fitted to 1 training reactions at node Root_5Br1sCbCdCl1sCsCtF1sHI1sNSSidSis->H_N-4Br1sCbCdCl1sCsCtF1sHI1sNOSSidSis->Br1s_N-2Br1sCl1sF1sHI1s->H_N-3Br1sCCl1sF1sHI1s->C_N-4CbCdCl1sCsCtF1sHO->Cl1s_2Br1sCl1sF1s->F1s_N-4CsF1sHO->F1s_N-4CsHO->Cs_N-4HO->H
 Total Standard Deviation in ln(k): 11.540182761524994
 """,
 )

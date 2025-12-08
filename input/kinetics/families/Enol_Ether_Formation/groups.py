@@ -54,10 +54,10 @@ entry(
 """
 1 *2 C   u0 p1 {2,S} {3,S}
 2 *1 O   u0 p2 {1,S} {5,S}
-3 *3 C   u0 p0 {1,S} {4,S} {6,[S,B,D,T,Q]}
+3 *3 C   u0 p0 {1,S} {4,S} {6,S}
 4 *4 F1s u0 {3,S}
 5    C   u0 p0 c0 {2,S}
-6    F   ux {3,[S,B,D,T,Q]}
+6    F   u0 {3,S}
 """,
     kinetics = None,
 )
@@ -69,10 +69,10 @@ entry(
 """
 1 *2 C   u0 p1 {2,S} {3,S}
 2 *1 O   u0 p2 {1,S} {5,S}
-3 *3 C   u0 p0 {1,S} {4,S} {6,[S,B,D,T,Q]}
+3 *3 C   u0 p0 {1,S} {4,S} {6,S}
 4 *4 F1s u0 {3,S}
 5    C   u0 p0 c0 {2,S} {7,S}
-6    F   ux {3,[S,B,D,T,Q]}
+6    F   u0 {3,S}
 7    C   u0 {5,S}
 """,
     kinetics = None,
@@ -85,10 +85,10 @@ entry(
 """
 1 *2 C   u0 p1 r0 {2,S} {3,S}
 2 *1 O   u0 p2 r0 {1,S} {5,S}
-3 *3 C   u0 p0 r0 {1,S} {4,S} {6,[S,B,D,T,Q]}
+3 *3 C   u0 p0 r0 {1,S} {4,S} {6,S}
 4 *4 F1s u0 r0 {3,S}
 5    C   u0 p0 c0 r0 {2,S} {7,S}
-6    F   ux {3,[S,B,D,T,Q]}
+6    F   u0 r0 {3,S}
 7    C   u0 r0 {5,S} {8,S}
 8    C   u0 r0 {7,S}
 """,
@@ -102,10 +102,10 @@ entry(
 """
 1 *2 C   u0 p1 r0 {2,S} {3,S}
 2 *1 O   u0 p2 r0 {1,S} {5,S}
-3 *3 C   u0 p0 r0 {1,S} {4,S} {6,[S,B,D,T,Q]}
+3 *3 C   u0 p0 r0 {1,S} {4,S} {6,S}
 4 *4 F1s u0 r0 {3,S}
 5    C   u0 p0 c0 r0 {2,S} {7,S}
-6    F   ux {3,[S,B,D,T,Q]}
+6    F   u0 r0 {3,S}
 7    C   u0 r0 {5,S} {8,S}
 8    F   u0 r0 {7,S}
 """,
@@ -119,10 +119,10 @@ entry(
 """
 1 *2 C   u0 p1 r0 {2,S} {3,S}
 2 *1 O   u0 p2 r0 {1,S} {5,S}
-3 *3 C   u0 p0 r0 {1,S} {4,S} {6,[S,B,D,T,Q]}
+3 *3 C   u0 p0 r0 {1,S} {4,S} {6,S}
 4 *4 F1s u0 r0 {3,S}
 5    C   u0 p0 c0 r0 {2,S} {7,S}
-6    F   ux {3,[S,B,D,T,Q]}
+6    F   u0 r0 {3,S}
 7    F   u0 r0 {5,S}
 """,
     kinetics = None,
@@ -133,12 +133,12 @@ entry(
     label = "Root_Ext-5C-R",
     group = 
 """
-1 *2 C   u0 p1 {2,S} {3,S}
-2 *1 O   u0 p2 {1,S} {5,S}
-3 *3 C   u0 p0 {1,S} {4,S}
-4 *4 H   u0 {3,S}
-5    C   u0 p0 c0 {2,S} {6,[S,B,D,T,Q]}
-6    R!H ux {5,[S,B,D,T,Q]}
+1 *2 C u0 p1 r0 {2,S} {3,S}
+2 *1 O u0 p2 r0 {1,S} {5,S}
+3 *3 C u0 p0 r0 {1,S} {4,S}
+4 *4 H u0 r0 {3,S}
+5    C u0 p0 c0 r0 {2,S} {6,S}
+6    C u0 r0 {5,S}
 """,
     kinetics = None,
 )
