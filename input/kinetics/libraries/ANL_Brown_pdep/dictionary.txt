@@ -20,9 +20,6 @@ multiplicity 2
 3 C u0 p0 c0 {1,S} {2,D} {4,S}
 4 H u0 p0 c0 {3,S}
 
-O=O
-1 O u0 p2 c0 {2,D}
-2 O u0 p2 c0 {1,D}
 
 CH2(S)
 1 C u0 p1 c0 {2,S} {3,S}
