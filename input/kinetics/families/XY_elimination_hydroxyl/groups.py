@@ -464,3 +464,42 @@ Coordinates for TS in Input Orientation (angstroms):
 """,
 )
 
+
+
+forbidden(
+    label = "PFOA",
+    group =
+"""
+1     F u0 p3 c0 {22,S}
+2     F u0 p3 c0 {22,S}
+3     F u0 p3 c0 {20,S}
+4     F u0 p3 c0 {20,S}
+5     F u0 p3 c0 {19,S}
+6     F u0 p3 c0 {19,S}
+7     F u0 p3 c0 {18,S}
+8     F u0 p3 c0 {18,S}
+9  *1 F u0 p3 c0 {21,S}
+10    F u0 p3 c0 {21,S}
+11    F u0 p3 c0 {23,S}
+12    F u0 p3 c0 {23,S}
+13    F u0 p3 c0 {24,S}
+14    F u0 p3 c0 {24,S}
+15    F u0 p3 c0 {24,S}
+16 *5 O u0 p2 c0 {25,S} {26,S}
+17    O u0 p2 c0 {25,D}
+18    C u0 p0 c0 {7,S} {8,S} {19,S} {21,S}
+19    C u0 p0 c0 {5,S} {6,S} {18,S} {20,S}
+20    C u0 p0 c0 {3,S} {4,S} {19,S} {22,S}
+21 *2 C u0 p0 c0 {9,S} {10,S} {18,S} {23,S}
+22    C u0 p0 c0 {1,S} {2,S} {20,S} {24,S}
+23 *3 C u0 p0 c0 {11,S} {12,S} {21,S} {25,S}
+24    C u0 p0 c0 {13,S} {14,S} {15,S} {22,S}
+25 *4 C u0 p0 c0 {16,S} {17,D} {23,S}
+26 *6 H u0 p0 c0 {16,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
