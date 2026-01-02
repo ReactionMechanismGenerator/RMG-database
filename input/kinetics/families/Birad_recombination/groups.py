@@ -151,3 +151,116 @@ forbidden(
 """,
 )
 
+
+forbidden(
+    label = "lactone_labeling_1",
+    group = 
+"""
+1     F u0 p3 c0 {22,S}
+2     F u0 p3 c0 {22,S}
+3     F u0 p3 c0 {18,S}
+4     F u0 p3 c0 {18,S}
+5     F u0 p3 c0 {17,S}
+6     F u0 p3 c0 {17,S}
+7     F u0 p3 c0 {19,S}
+8     F u0 p3 c0 {19,S}
+9     F u0 p3 c0 {20,S}
+10    F u0 p3 c0 {20,S}
+11    F u0 p3 c0 {21,S}
+12    F u0 p3 c0 {23,S}
+13    F u0 p3 c0 {23,S}
+14    F u0 p3 c0 {23,S}
+15 *2 O u0 p2 c0 {21,S} {24,S}
+16    O u0 p2 c0 {24,D}
+17    C u0 p0 c0 {5,S} {6,S} {18,S} {19,S}
+18    C u0 p0 c0 {3,S} {4,S} {17,S} {22,S}
+19    C u0 p0 c0 {7,S} {8,S} {17,S} {20,S}
+20    C u0 p0 c0 {9,S} {10,S} {19,S} {21,S}
+21 *1 C u0 p0 c0 {11,S} {15,S} {20,S} {24,S}
+22    C u0 p0 c0 {1,S} {2,S} {18,S} {23,S}
+23    C u0 p0 c0 {12,S} {13,S} {14,S} {22,S}
+24    C u0 p0 c0 {15,S} {16,D} {21,S}
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+
+forbidden(
+    label = "lactone_labeling_2",
+    group = 
+"""
+1     F u0 p3 c0 {22,S}
+2     F u0 p3 c0 {22,S}
+3     F u0 p3 c0 {19,S}
+4     F u0 p3 c0 {19,S}
+5     F u0 p3 c0 {18,S}
+6     F u0 p3 c0 {18,S}
+7     F u0 p3 c0 {17,S}
+8     F u0 p3 c0 {17,S}
+9     F u0 p3 c0 {20,S}
+10    F u0 p3 c0 {20,S}
+11    F u0 p3 c0 {21,S}
+12    F u0 p3 c0 {23,S}
+13    F u0 p3 c0 {23,S}
+14    F u0 p3 c0 {23,S}
+15 *2 O u0 p2 c0 {21,S} {24,S}
+16    O u0 p2 c0 {24,D}
+17    C u0 p0 c0 {7,S} {8,S} {18,S} {20,S}
+18    C u0 p0 c0 {5,S} {6,S} {17,S} {19,S}
+19    C u0 p0 c0 {3,S} {4,S} {18,S} {22,S}
+20    C u0 p0 c0 {9,S} {10,S} {17,S} {21,S}
+21    C u0 p0 c0 {11,S} {15,S} {20,S} {24,S}
+22    C u0 p0 c0 {1,S} {2,S} {19,S} {23,S}
+23    C u0 p0 c0 {12,S} {13,S} {14,S} {22,S}
+24 *1 C u0 p0 c0 {15,S} {16,D} {21,S}
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+
+forbidden(
+    label = "lactone_labeling_3",
+    group = 
+"""
+1     F u0 p3 c0 {22,S}
+2     F u0 p3 c0 {22,S}
+3     F u0 p3 c0 {18,S}
+4     F u0 p3 c0 {18,S}
+5     F u0 p3 c0 {17,S}
+6     F u0 p3 c0 {17,S}
+7     F u0 p3 c0 {19,S}
+8     F u0 p3 c0 {19,S}
+9     F u0 p3 c0 {20,S}
+10    F u0 p3 c0 {20,S}
+11    F u0 p3 c0 {21,S}
+12    F u0 p3 c0 {23,S}
+13    F u0 p3 c0 {23,S}
+14    F u0 p3 c0 {23,S}
+15    O u0 p2 c0 {21,S} {24,S}
+16    O u0 p2 c0 {24,D}
+17    C u0 p0 c0 {5,S} {6,S} {18,S} {19,S}
+18    C u0 p0 c0 {3,S} {4,S} {17,S} {22,S}
+19    C u0 p0 c0 {7,S} {8,S} {17,S} {20,S}
+20    C u0 p0 c0 {9,S} {10,S} {19,S} {21,S}
+21 *2 C u0 p0 c0 {11,S} {15,S} {20,S} {24,S}
+22    C u0 p0 c0 {1,S} {2,S} {18,S} {23,S}
+23    C u0 p0 c0 {12,S} {13,S} {14,S} {22,S}
+24 *1 C u0 p0 c0 {15,S} {16,D} {21,S}
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+
+
