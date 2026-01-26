@@ -205,8 +205,8 @@ entry(
     index=8,
     label="HOCHO <=> H2O + CO",
     kinetics=Lindemann(
-        arrheniusHigh=Arrhenius(A=(8.02386e-07,'1/s'), n=4.85458, Ea=(29.16,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')), #"Fitted at 1e6 bar"
-        arrheniusLow=Arrhenius(A=(9.24988e+27,'cm^3/(mol*s)'), n=-3.09095, Ea=(65.179,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))#"Fitted at 1e-4 bar"
+        arrheniusHigh=Arrhenius(A=(8.02386e-07,'1/s'), n=4.85458, Ea=(29.16,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+        arrheniusLow=Arrhenius(A=(0.019326,'cm^3/(mol*s)'), n=6.3478, Ea=(56.063,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'))
         ),
     elementary_high_p = True,
     # kinetics = Chebyshev(
