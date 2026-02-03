@@ -4,7 +4,7 @@
 name = "Perfluoroalkene_Formation/groups"
 shortDesc = ""
 longDesc = """
-R          *3F             R
+     R          *3F             R
      |           |              |
 F - *1C - *2C - *4C   <=>  F - *1C - *3F    +  *2C = *4C
 """

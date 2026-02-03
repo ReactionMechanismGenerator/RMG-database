@@ -2,10 +2,9 @@
 # encoding: utf-8
 
 name = "halocarbene_CO_dimerization/groups"
-shortDesc = u""
-longDesc = u"""
-
-    Y                                         Y
+shortDesc = ""
+longDesc = """
+Y                                         Y
     |           <=>    :[C-]*2#[O+]*3         |
 R-*1C=C*2=O*3                              R-*1C: 
 
@@ -47,39 +46,84 @@ entry(
 
 entry(
     index = 1,
-    label = "RFC=C=O",
+    label = "Root_Ext-1C-R_5R!H->C",
     group = 
 """
-1 *1 C   u0 {2,D} {4,S}
-2 *2 C   u0 {1,D} {3,D}
-3 *3 O   u0 {2,D}
-4    F1s u0 p3 {1,S}
+1 *1 C               u0 {2,D} {4,S} {5,S}
+2 *2 C               u0 {1,D} {3,D}
+3 *3 O               u0 {2,D}
+4    [F1s,Cl1s,Br1s] u0 p3 {1,S}
+5    C               u0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 2,
-    label = "RClC=C=O",
+    label = "Root_Ext-1C-R_5R!H->C_4Br1sCl1sF1s->F1s",
     group = 
 """
-1 *1 C    u0 {2,D} {4,S}
-2 *2 C    u0 {1,D} {3,D}
-3 *3 O    u0 {2,D}
-4    Cl1s u0 p3 {1,S}
+1 *1 C   u0 r0 {2,D} {4,S} {5,S}
+2 *2 C   u0 r0 {1,D} {3,D}
+3 *3 O   u0 r0 {2,D}
+4    F1s u0 p3 r0 {1,S}
+5    C   u0 r0 {1,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 3,
-    label = "RBrC=C=O",
+    label = "Root_Ext-1C-R_5R!H->C_N-4Br1sCl1sF1s->F1s",
     group = 
 """
-1 *1 C    u0 {2,D} {4,S}
-2 *2 C    u0 {1,D} {3,D}
-3 *3 O    u0 {2,D}
-4    Br1s u0 p3 {1,S}
+1 *1 C           u0 {2,D} {4,S} {5,S}
+2 *2 C           u0 {1,D} {3,D}
+3 *3 O           u0 {2,D}
+4    [Br1s,Cl1s] u0 p3 {1,S}
+5    C           u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "Root_Ext-1C-R_5R!H->C_N-4Br1sCl1sF1s->F1s_4Br1sCl1s->Br1s",
+    group = 
+"""
+1 *1 C    u0 r0 {2,D} {4,S} {5,S}
+2 *2 C    u0 r0 {1,D} {3,D}
+3 *3 O    u0 r0 {2,D}
+4    Br1s u0 p3 r0 {1,S}
+5    C    u0 r0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 5,
+    label = "Root_Ext-1C-R_5R!H->C_N-4Br1sCl1sF1s->F1s_N-4Br1sCl1s->Br1s",
+    group = 
+"""
+1 *1 C    u0 r0 {2,D} {4,S} {5,S}
+2 *2 C    u0 r0 {1,D} {3,D}
+3 *3 O    u0 r0 {2,D}
+4    Cl1s u0 p3 r0 {1,S}
+5    C    u0 r0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "Root_Ext-1C-R_N-5R!H->C",
+    group = 
+"""
+1 *1 C   u0 r0 {2,D} {4,S} {5,S}
+2 *2 C   u0 r0 {1,D} {3,D}
+3 *3 O   u0 r0 {2,D}
+4    F1s u0 p3 r0 {1,S}
+5    F   u0 r0 {1,S}
 """,
     kinetics = None,
 )
@@ -87,9 +131,12 @@ entry(
 tree(
 """
 L1: Root
-    L2: RFC=C=O
-    L2: RClC=C=O
-    L2: RBrC=C=O
+    L2: Root_Ext-1C-R_5R!H->C
+        L3: Root_Ext-1C-R_5R!H->C_4Br1sCl1sF1s->F1s
+        L3: Root_Ext-1C-R_5R!H->C_N-4Br1sCl1sF1s->F1s
+            L4: Root_Ext-1C-R_5R!H->C_N-4Br1sCl1sF1s->F1s_4Br1sCl1s->Br1s
+            L4: Root_Ext-1C-R_5R!H->C_N-4Br1sCl1sF1s->F1s_N-4Br1sCl1s->Br1s
+    L2: Root_Ext-1C-R_N-5R!H->C
 """
 )
 
