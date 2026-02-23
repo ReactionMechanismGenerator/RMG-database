@@ -2414,6 +2414,7 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='b3lyp',basis='6311g(d,p)')": 0.967,  # [2]
              "LevelOfTheory(method='b3lyp',basis='6311+g(3df,2p)')": 0.967,  # [2]
              "LevelOfTheory(method='b3lyp',basis='6311+g(3df,2pd)')": 0.970,  # [2]
+             "LevelOfTheory(method='b3lyp',basis='julccpvtz',solvation_method='smd',solvent='dimethylsulfoxide',software='gaussian')": 1.002,  # [4] gaussian 16, calculated w/o NH3 since it doesn't converge in solvent
              "LevelOfTheory(method='m062x',basis='631g(d,p)')": 0.952,  # [2]
              "LevelOfTheory(method='m062x',basis='631+g(d,p)')": 0.979,  # [3]
              "LevelOfTheory(method='m062x',basis='6311+g(d,p)')": 0.983,  # [3]
@@ -2425,10 +2426,15 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='m062x',basis='def2qzvp')": 0.983,  # [3]
              "LevelOfTheory(method='m062x',basis='def2tzvpp')": 0.983,  # [1] Table 3, [3]
              "LevelOfTheory(method='m08so',basis='mg3s*')": 0.995,  # [1] Table 3, taken as 'M08-SO/MG3S'
+             "LevelOfTheory(method='m11',basis='julccpvtz',solvation_method='smd',solvent='dimethylsulfoxide',software='gaussian')": 0.995,  # [4] gaussian 16, calculated w/o NH3 since it doesn't converge in solvent
              "LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem')": 1.014,  # [4]
+             "LevelOfTheory(method='wb97xd',basis='ccpvtz',solvation_method='smd',solvent='dimethylsulfoxide',software='gaussian')": 0.991,  # [4] gaussian 16, calculated w/o NH3 since it doesn't converge in solvent
+             "LevelOfTheory(method='wb97xd',basis='julccpvtz',solvation_method='smd',solvent='dimethylsulfoxide',software='gaussian')": 0.992,  # [4] gaussian 16, calculated w/o NH3 since it doesn't converge in solvent
              "LevelOfTheory(method='wb97xd',basis='augccpvtz',software='gaussian')": 0.988,  # [3], taken as 'ωB97X-D/maug-cc-pVTZ'
+             "LevelOfTheory(method='wb97xd',basis='augccpvtz',solvation_method='smd',solvent='dimethylsulfoxide',software='gaussian')": 0.992,  # [4] gaussian 16, calculated w/o NH3 since it doesn't converge in solvent
              "LevelOfTheory(method='wb97xd',basis='6311++g(d,p)',software='gaussian')": 0.988,  # [4]
              "LevelOfTheory(method='wb97xd',basis='def2tzvp',software='gaussian')": 0.988,  # [4]
+             "LevelOfTheory(method='wb97xd',basis='def2tzvp',solvation_method='smd',solvent='dimethylsulfoxide',software='gaussian')": 0.991,  # [4] gaussian 16, calculated w/o NH3 since it doesn't converge in solvent
              "LevelOfTheory(method='wb97xd',basis='def2svp',software='gaussian')": 0.986,  # [4]
              "LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem')": 0.984,  # [4]
              "LevelOfTheory(method='wb97mv',basis='def2tzvp',software='qchem')": 0.992,  # [4]
