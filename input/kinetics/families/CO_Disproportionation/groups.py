@@ -957,3 +957,239 @@ forbidden(
 """,
 )
 
+forbidden(
+    label = "Orad_Cd_Od_CFF",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,S} {4,S}
+2    C u0 p0 c0 {1,S} {5,S} {6,D}
+3    F u0 p3 c0 {1,S}
+4    F u0 p3 c0 {1,S}
+5 *1 O u1 p2 c0 {2,S}
+6    O u0 p2 c0 {2,D}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CFF_OOH",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {4,S} {5,S}
+2    O u0 p2 c0 {1,S} {3,S}
+3 *1 O u0 p2 c0 {2,S} {6,S}
+4    F u0 p3 c0 {1,S}
+5    F u0 p3 c0 {1,S}
+6 *4 H u0 p0 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "Orad_O_CFF_CFF",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C u0 p0 c0 {1,S} {6,S} {7,S}
+3    O u0 p2 c0 {1,S} {8,S}
+4    F u0 p3 c0 {1,S}
+5    F u0 p3 c0 {1,S}
+6    F u0 p3 c0 {2,S}
+7 *4 F u0 p3 c0 {2,S}
+8    O u1 p2 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "Orad_O_CFF",
+    group = 
+"""
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S}
+2    O u0 p2 c0 {1,S} {5,S}
+3 *4 F u0 p3 c0 {1,S}
+4    F u0 p3 c0 {1,S}
+5    O u1 p2 c0 {2,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "OH_O_CFF",
+    group = 
+"""
+1 *1 C u0 p0 c0 {2,S} {4,S} {5,S}
+2    O u0 p2 c0 {1,S} {3,S}
+3    O u0 p2 c0 {2,S} {6,S}
+4 *4 F u0 p3 c0 {1,S}
+5    F u0 p3 c0 {1,S}
+6    H u0 p0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "C7F14O2",
+    group = 
+"""
+1  *1 C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+2     C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+3     C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
+4     C u0 p0 c0 {3,S} {6,S} {18,S} {19,S}
+5     C u0 p0 c0 {2,S} {7,S} {16,S} {17,S}
+6     C u0 p0 c0 {4,S} {8,S} {9,S} {20,S}
+7     C u0 p0 c0 {5,S} {21,S} {22,S} {23,S}
+8     O u0 p2 c0 {6,S} {9,S}
+9     O u0 p2 c0 {6,S} {8,S}
+10    F u0 p3 c0 {1,S}
+11 *4 F u0 p3 c0 {1,S}
+12    F u0 p3 c0 {2,S}
+13    F u0 p3 c0 {2,S}
+14    F u0 p3 c0 {3,S}
+15    F u0 p3 c0 {3,S}
+16    F u0 p3 c0 {5,S}
+17    F u0 p3 c0 {5,S}
+18    F u0 p3 c0 {4,S}
+19    F u0 p3 c0 {4,S}
+20    F u0 p3 c0 {6,S}
+21    F u0 p3 c0 {7,S}
+22    F u0 p3 c0 {7,S}
+23    F u0 p3 c0 {7,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "C7F14O2_2",
+    group = 
+"""
+1  *1 C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
+2     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+3     C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
+4     C u0 p0 c0 {3,S} {6,S} {18,S} {19,S}
+5     C u0 p0 c0 {1,S} {7,S} {14,S} {15,S}
+6     C u0 p0 c0 {4,S} {8,S} {9,S} {20,S}
+7     C u0 p0 c0 {5,S} {21,S} {22,S} {23,S}
+8     O u0 p2 c0 {6,S} {9,S}
+9     O u0 p2 c0 {6,S} {8,S}
+10    F u0 p3 c0 {1,S}
+11 *4 F u0 p3 c0 {1,S}
+12    F u0 p3 c0 {2,S}
+13    F u0 p3 c0 {2,S}
+14    F u0 p3 c0 {5,S}
+15    F u0 p3 c0 {5,S}
+16    F u0 p3 c0 {3,S}
+17    F u0 p3 c0 {3,S}
+18    F u0 p3 c0 {4,S}
+19    F u0 p3 c0 {4,S}
+20    F u0 p3 c0 {6,S}
+21    F u0 p3 c0 {7,S}
+22    F u0 p3 c0 {7,S}
+23    F u0 p3 c0 {7,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "C7F14",
+    group = 
+"""
+1     C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+2  *1 C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+3     C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+4     C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+5     C u0 p0 c0 {3,S} {7,S} {16,S} {17,S}
+6     C u0 p0 c0 {4,S} {18,S} {19,S} {20,S}
+7     C u0 p1 c0 {5,S} {21,S}
+8     F u0 p3 c0 {3,S}
+9     F u0 p3 c0 {3,S}
+10    F u0 p3 c0 {1,S}
+11    F u0 p3 c0 {1,S}
+12    F u0 p3 c0 {2,S}
+13 *4 F u0 p3 c0 {2,S}
+14    F u0 p3 c0 {4,S}
+15    F u0 p3 c0 {4,S}
+16    F u0 p3 c0 {5,S}
+17    F u0 p3 c0 {5,S}
+18    F u0 p3 c0 {6,S}
+19    F u0 p3 c0 {6,S}
+20    F u0 p3 c0 {6,S}
+21    F u0 p3 c0 {7,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "C7F14_2",
+    group = 
+"""
+1  *1 C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+2     C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+3     C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
+4     C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+5     C u0 p0 c0 {3,S} {7,S} {16,S} {17,S}
+6     C u0 p0 c0 {4,S} {18,S} {19,S} {20,S}
+7     C u0 p1 c0 {5,S} {21,S}
+8     F u0 p3 c0 {3,S}
+9     F u0 p3 c0 {3,S}
+10    F u0 p3 c0 {1,S}
+11 *4 F u0 p3 c0 {1,S}
+12    F u0 p3 c0 {2,S}
+13    F u0 p3 c0 {2,S}
+14    F u0 p3 c0 {4,S}
+15    F u0 p3 c0 {4,S}
+16    F u0 p3 c0 {5,S}
+17    F u0 p3 c0 {5,S}
+18    F u0 p3 c0 {6,S}
+19    F u0 p3 c0 {6,S}
+20    F u0 p3 c0 {6,S}
+21    F u0 p3 c0 {7,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+

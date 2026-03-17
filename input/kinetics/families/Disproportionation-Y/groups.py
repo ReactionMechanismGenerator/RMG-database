@@ -953,3 +953,197 @@ forbidden(
 """,
 )
 
+
+#groups required for PFAS modeling
+
+forbidden(
+    label = "C2star_C_C",
+    group = 
+"""
+1 *2 C               u0     {2,S} {4,[S,D,B]} {5,S}
+2    C               ux     {1,S} {3,S}
+3    C               ux     {2,S} {6,S}
+4 *3 R!H             u[1,2] {1,[S,D,B]}
+5 *4 [F1s,Cl1s,Br1s] u0     {1,S}
+6    F               u0     {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "O_Orad",
+    group = 
+"""
+1    O u0     {2,S} {3,S}
+2    O u1     {1,S}
+3 *1 C u[0,1] {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "Orad_O_C_Crad",
+    group = 
+"""
+1    O u0     {2,S} {3,S}
+2    C u[0,1] {1,S} {4,S}
+3    O u1     {1,S}
+4 *1 C u1     {2,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CF_RCrad_CFF",
+    group = 
+"""
+1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+2    C u0 p0 c0 {1,S} {5,S} {6,S}
+3    C u0 p0 c0 {1,S} {7,S}
+4    R u0 {1,S}
+5    F u0 p3 c0 {2,S}
+6    F u0 p3 c0 {2,S}
+7    F u0 p3 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CF2_CF_CF2",
+    group = 
+"""
+1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 *2 C u0 p0 c0 {1,S} {6,S} {7,S}
+3    C u0 p0 c0 {1,S} {5,S} {8,S}
+4    F u0 p3 c0 {1,S}
+5    F u0 p3 c0 {3,S}
+6 *4 F u0 p3 c0 {2,S}
+7    F u0 p3 c0 {2,S}
+8    F u0 p3 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "Rrad_R_R",
+    group = 
+"""
+1    R u[0,1,2,3] {2,[S,D,T,B]} {3,[S,D,T,B]}
+2 *1 R u1         {1,[S,D,T,B]}
+3    R u[0,1,2,3] {1,[S,D,T,B]}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "RnotOrad_RnotH",
+    group = 
+"""
+1 *1 R!O u1         {2,[S,D,T,B]}
+2    R!H u[0,1,2,3] {1,[S,D,T,B]}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CO3",
+    group = 
+"""
+1    O u0 p2 c0 {2,S} {4,S}
+2    O u0 p2 c0 {1,S} {4,S}
+3 *3 O u0 p2 c0 {4,D}
+4 *2 C u0 p0 c0 {1,S} {2,S} {3,D}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "FOX",
+    group = 
+"""
+1 *1 O u0     p2 c0 {2,S} {3,S}
+2 *4 F u0     p3 c0 {1,S}
+3    R u[0,1] {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CO2",
+    group = 
+"""
+1 *2 C u0 p0 c0 {2,D} {3,D}
+2 *3 O u0 p2 c0 {1,D}
+3    O u0 p2 c0 {1,D}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "OF",
+    group = 
+"""
+1 *4 F u0 p3 c0 {2,S}
+2 *1 O u1 p2 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+
+
+

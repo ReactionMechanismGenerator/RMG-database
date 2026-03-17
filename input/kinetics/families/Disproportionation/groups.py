@@ -5554,3 +5554,291 @@ forbidden(
 """,
 )
 
+forbidden(
+    label = "carboxylic_CFF",
+    group = 
+"""
+1    C u0 p0 c0 {2,S} {3,S} {4,D}
+2    C u0 p0 c0 {1,S} {5,S} {6,S}
+3 *1 O u0 p2 c0 {1,S} {7,S}
+4    O u0 p2 c0 {1,D}
+5    F u0 p3 c0 {2,S}
+6    F u0 p3 c0 {2,S}
+7 *4 H u0 p0 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "carboxylic_CFF_2",
+    group = 
+"""
+1 *3 C u0 p0 c0 {2,S} {3,S} {4,D}
+2    C u0 p0 c0 {1,S} {5,S} {6,S}
+3    O u0 p2 c0 {1,S} {7,S}
+4 *2 O u0 p2 c0 {1,D}
+5    F u0 p3 c0 {2,S}
+6    F u0 p3 c0 {2,S}
+7    H u0 p0 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "HOCO",
+    group = 
+"""
+1 *2 O u0 p2 c0 {2,S} {4,S}
+2 *3 C u1 p0 c0 {1,S} {3,D}
+3    O u0 p2 c0 {2,D}
+4 *4 H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "birad_O",
+    group = 
+"""
+1    O u0 p2 c0 {2,S} {4,S}
+2    C u0 p0 c0 {1,S} {3,S}
+3 *1 O u1 p2 c0 {2,S}
+4    O u1 p2 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "Orad_C_Orad",
+    group = 
+"""
+1 *2 C u0 p0 c0 {2,S} {3,S} {4,S}
+2 *3 O u1 p2 c0 {1,S}
+3    O u1 p2 c0 {1,S}
+4 *4 H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CHF2O",
+    group = 
+"""
+1 *2 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2    F u0 p3 c0 {1,S}
+3    F u0 p3 c0 {1,S}
+4 *3 O u1 p2 c0 {1,S}
+5 *4 H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CO3",
+    group = 
+"""
+1 *3 C u0 p0 c0 {2,S} {3,S} {4,D}
+2    O u0 p2 c0 {1,S} {3,S}
+3    O u0 p2 c0 {1,S} {2,S}
+4 *2 O u0 p2 c0 {1,D}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "carboxylic_CFF_3",
+    group = 
+"""
+1 *2 C u0 p0 c0 {2,S} {3,S} {4,D}
+2    C u0 p0 c0 {1,S} {5,S} {6,S}
+3    O u0 p2 c0 {1,S} {7,S}
+4 *3 O u0 p2 c0 {1,D}
+5    F u0 p3 c0 {2,S}
+6    F u0 p3 c0 {2,S}
+7    H u0 p0 c0 {3,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "HO_Crad_Orad",
+    group = 
+"""
+1    O u0 p2 c0 {2,S} {4,S}
+2    C u1 p0 c0 {1,S} {3,S}
+3 *1 O u1 p2 c0 {2,S}
+4    H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CO3_2",
+    group = 
+"""
+1    C u1 p0 c0 {2,S} {3,S} {4,S}
+2    O u0 p2 c0 {1,S} {3,S}
+3    O u0 p2 c0 {1,S} {2,S}
+4 *1 O u1 p2 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "CF_CradF_CH",
+    group = 
+"""
+1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 *2 C u0 p0 c0 {1,S} {6,S}
+3    C u0 p0 c0 {1,S} {5,S}
+4    F u0 p3 c0 {1,S}
+5    F u0 p3 c0 {3,S}
+6 *4 H u0 p0 c0 {2,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "Orad_O_CF",
+    group = 
+"""
+1    O u0 p2 c0 {2,S} {4,S}
+2    C u0 p0 c0 {1,S} {3,S}
+3    F u0 p3 c0 {2,S}
+4 *1 O u1 p2 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "O_Crad_OH_CF",
+    group = 
+"""
+1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
+2 *2 O u0 p2 c0 {1,S} {6,S}
+3    C u0 p0 c0 {1,S} {5,S}
+4    O u0 p2 c0 {1,S}
+5    F u0 p3 c0 {3,S}
+6 *4 H u0 p0 c0 {2,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "HO_Crad_F",
+    group = 
+"""
+1 *2 O u0 p2 c0 {2,S} {4,S}
+2 *3 C u1 p0 c0 {1,S} {3,S}
+3    F u0 p3 c0 {2,S}
+4 *4 H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "FFCd_Cd_C_C",
+    group = 
+"""
+1 *3 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
+3    F u0 p3 c0 {2,S}
+4    F u0 p3 c0 {2,S}
+5    C u0 p0 c0 {1,S}
+6    C u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
+forbidden(
+    label = "HOCO_2",
+    group = 
+"""
+1    O u0 p2 c0 {2,S} {4,S}
+2 *1 C u1 p0 c0 {1,S} {3,D}
+3    O u0 p2 c0 {2,D}
+4    H u0 p0 c0 {1,S}
+
+""",
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+)
+
