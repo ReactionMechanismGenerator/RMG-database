@@ -1092,7 +1092,12 @@ kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1
     )
 
 
+# CF2O decomposition
 
-
-
-
+entry(
+index = 121,
+label = "F + FCO <=> CF2O",
+degeneracy = 1.0,
+kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1.000000E+00, 2.150000E+00, 4.640000E+00, 1.000000E+01, 2.150000E+01, 4.640000E+01, 1.000000E+02],'atm'), arrhenius=[Arrhenius(A=(3.650000e+27,'cm^3/mol/s'), n=-5.02, Ea=(11.63,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(5.030000e+27,'cm^3/mol/s'), n=-4.96, Ea=(12.5,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(5.530000e+27,'cm^3/mol/s'), n=-4.88, Ea=(13.39,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.760000e+27,'cm^3/mol/s'), n=-4.77, Ea=(14.260000000000002,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.960000e+27,'cm^3/mol/s'), n=-4.62, Ea=(15.04,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.280000e+27,'cm^3/mol/s'), n=-4.43, Ea=(15.65,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(3.330000e+26,'cm^3/mol/s'), n=-4.18, Ea=(15.94,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(5.230000e+25,'cm^3/mol/s'), n=-3.87, Ea=(15.84,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.610000e+24,'cm^3/mol/s'), n=-3.49, Ea=(15.22,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.470000e+23,'cm^3/mol/s'), n=-3.05, Ea=(14.09,'kJ/mol'), T0=(1,'K'))]),
+shortDesc = """From Brown difluoromethane mech""",
+)

@@ -1532,3 +1532,11 @@ Torsional scans with  M06-2X/cc-pVTZ.
 """,
 )
     
+    
+entry(
+index = 0,    
+label = "CF2 + O <=> F + FCO", 
+degeneracy = 1.0, 
+kinetics = Arrhenius(A=(1.410000e+13, 'cm^3/(mol*s)'), n=0.13, Ea=(-0.55, 'kJ/mol'), T0=(1,'K')),
+shortDesc = "From ANL_Brown CH2F2 mechanism",
+)
