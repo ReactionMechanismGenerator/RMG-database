@@ -277,7 +277,6 @@ degeneracy = 1.0,
 kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1.000000E+00, 2.150000E+00, 4.640000E+00, 1.000000E+01, 2.150000E+01, 4.640000E+01, 1.000000E+02],'atm'), arrhenius=[Arrhenius(A=(1.780000e+81,'s^-1'), n=-24.95, Ea=(255.9,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.590000e-54,'s^-1'), n=16.22, Ea=(28.4,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(5.530000e-111,'s^-1'), n=33.64, Ea=(-65.24,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.300000e-107,'s^-1'), n=33.3, Ea=(-39.82,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.080000e-80,'s^-1'), n=25.68, Ea=(16.98,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.670000e-16,'s^-1'), n=6.46, Ea=(125.1,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.250000e-13,'s^-1'), n=5.77, Ea=(115.1,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(9.070000e-05,'s^-1'), n=3.27, Ea=(117.8,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.220000e+03,'s^-1'), n=1.24, Ea=(118.8,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.620000e+09,'s^-1'), n=-0.43, Ea=(120.1,'kJ/mol'), T0=(1,'K'))]),
 shortDesc = """From Brown difluoromethane mech""",
 )
-    
 
 entry(
 index = 31,
@@ -1053,114 +1052,44 @@ shortDesc = """From Brown difluoromethane mech""",
 )
 
 
-# #adding other CH2(T) + O2 chemistry right now from pdep
-
-# entry(
-# 	index=117,
-# 	label='O2 + CH2 <=> C1OO1',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[3.53,2,-8.841e-05,-4.909e-05],[2.101,-7.488e-06,-5.213e-06,-2.895e-06],[0.6812,-2.623e-06,-1.827e-06,-1.015e-06],[0.2972,-2.097e-05,-1.46e-05,-8.103e-06],[0.133,-1.831e-05,-1.275e-05,-7.077e-06],[0.05672,-7.002e-06,-4.874e-06,-2.706e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# ) #O2+CH2(T)(+M)<=>C1OO1(71)(+M)                1.000e+00 0.000     0.000  
+# CF3 + O and the CF3O system
 
 
+entry(
+index = 117,
+label = "CF3 + O <=> CF2O + F",
+degeneracy = 1.0,
+kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1.000000E+00, 2.150000E+00, 4.640000E+00, 1.000000E+01, 2.150000E+01, 4.640000E+01, 1.000000E+02],'atm'), arrhenius=[Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.240000e+13,'cm^3/mol/s'), n=0.13, Ea=(-0.52,'kJ/mol'), T0=(1,'K'))]),
+shortDesc = """From Brown difluoromethane mech""",
+)
+    
 
+entry(
+index = 118,
+label = "CF2O + F <=> CF3O",
+degeneracy = 1.0,
+kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1.000000E+00, 2.150000E+00, 4.640000E+00, 1.000000E+01, 2.150000E+01, 4.640000E+01, 1.000000E+02],'atm'), arrhenius=[Arrhenius(A=(1.350000e+31,'cm^3/mol/s'), n=-6.69, Ea=(44.97,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(9.020000e+30,'cm^3/mol/s'), n=-6.53, Ea=(46.12,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(5.580000e+30,'cm^3/mol/s'), n=-6.36, Ea=(47.36,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.780000e+30,'cm^3/mol/s'), n=-6.17, Ea=(48.56,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.130000e+30,'cm^3/mol/s'), n=-5.95, Ea=(49.72,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.100000e+29,'cm^3/mol/s'), n=-5.63, Ea=(50.34,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.350000e+28,'cm^3/mol/s'), n=-5.25, Ea=(50.56,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.280000e+27,'cm^3/mol/s'), n=-4.79, Ea=(50.18,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.470000e+25,'cm^3/mol/s'), n=-4.13, Ea=(48.42,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(9.710000e+22,'cm^3/mol/s'), n=-3.42, Ea=(46.07,'kJ/mol'), T0=(1,'K'))]),
+    shortDesc = """From Brown difluoromethane mech""",
+    )
+    
+# CF3 + OH and the CHF3O system
 
-# entry(
-# 	index=118,
-# 	label='O2 + CH2 <=> [O]C[O]',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[4.781,2,-9.191e-05,-5.103e-05],[2.295,-3.981e-06,-2.772e-06,-1.54e-06],[0.4621,-1.533e-06,-1.068e-06,-5.938e-07],[0.1592,-2.087e-05,-1.453e-05,-8.065e-06],[0.0589,-1.837e-05,-1.279e-05,-7.1e-06],[0.003512,-6.762e-06,-4.707e-06,-2.613e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# ) #O2(2)+CH2(T)(+M)<=>[O]C[O](73)(+M)              1.000e+00 0.000     0.000    
+entry(
+index = 119,
+label = "CF3 + OH <=> CF3OH",
+degeneracy = 1.0,
+kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1.000000E+00, 2.150000E+00, 4.640000E+00, 1.000000E+01, 2.150000E+01, 4.640000E+01, 1.000000E+02],'atm'), arrhenius=[Arrhenius(A=(7.210000e-15,'cm^3/mol/s'), n=3.75, Ea=(-123.09999999999998,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(3.000000e-69,'cm^3/mol/s'), n=19.18, Ea=(-294.6,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.760000e-67,'cm^3/mol/s'), n=18.99, Ea=(-269.2,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(3.840000e-68,'cm^3/mol/s'), n=19.65, Ea=(-250.8,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.710000e-25,'cm^3/mol/s'), n=8.02, Ea=(-94.12,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.710000e+02,'cm^3/mol/s'), n=0.62, Ea=(-7.78,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.010000e+04,'cm^3/mol/s'), n=0.67, Ea=(19.35,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(7.610000e+10,'cm^3/mol/s'), n=-1.01, Ea=(21.27,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.910000e+14,'cm^3/mol/s'), n=-1.79, Ea=(11.91,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(3.990000e+18,'cm^3/mol/s'), n=-2.79, Ea=(10.22,'kJ/mol'), T0=(1,'K'))]),
+    shortDesc = """From Brown difluoromethane mech""",
+    )
+    
 
-
-
-
-# entry(
-# 	index=119,
-# 	label='O2 + CH2 <=> H + [O]C=O',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[9.881,-0.0001296,-9.018e-05,-5.007e-05],[2.43,-7.257e-07,-5.059e-07,-2.816e-07],[0.5732,9.498e-08,6.522e-08,3.539e-08],[0.1749,-2.006e-05,-1.397e-05,-7.754e-06],[0.0573,-1.797e-05,-1.251e-05,-6.943e-06],[0.02023,-6.591e-06,-4.587e-06,-2.547e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# ) #O2(2)+CH2(T)(+M)<=>H(3)+CHO2(76)(+M)            1.000e+00 0.000     0.000    
-
-
-
-
-# entry(
-# 	index=120,
-# 	label='O2 + CH2 <=> O=O + CH2(S)',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[-9.277,-4.853e-05,-3.378e-05,-1.876e-05],[11.93,-2.324e-05,-1.617e-05,-8.981e-06],[0.1654,-1.654e-05,-1.151e-05,-6.393e-06],[0.06612,-1.864e-05,-1.297e-05,-7.202e-06],[-0.0007077,-1.459e-05,-1.015e-05,-5.637e-06],[0.006766,-8.329e-06,-5.797e-06,-3.219e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# )
-
-
-
-# entry(
-# 	index=121,
-# 	label='O2 + CH2 <=> O=CO',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[0.8749,2,-9.676e-05,-5.372e-05],[1.729,-1.107e-05,-7.705e-06,-4.278e-06],[0.307,-6.096e-06,-4.244e-06,-2.357e-06],[0.08189,-2.334e-05,-1.624e-05,-9.019e-06],[0.06753,-1.976e-05,-1.376e-05,-7.638e-06],[0.02346,-7.419e-06,-5.164e-06,-2.867e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# )   #O2(2)+CH2(T)(+M)<=>CH2O2(75)(+M)                1.000e+00 0.000     0.000    
-
-
-
-
-# entry(
-# 	index=122,
-# 	label='O2 + CH2 <=> OH + HCO',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[4.563,-0.0001378,-9.593e-05,-5.326e-05],[2.594,-9.584e-06,-6.671e-06,-3.705e-06],[0.4752,-5.37e-06,-3.739e-06,-2.076e-06],[0.1135,-2.296e-05,-1.598e-05,-8.873e-06],[0.05055,-1.956e-05,-1.361e-05,-7.558e-06],[0.007794,-7.324e-06,-5.098e-06,-2.831e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# ) # O2(2)+CH2(T)(+M)<=>OH(5)+HCO(14)(+M)            1.000e+00 0.000     0.000    
-
-
-
-
-# entry(
-# 	index=123,
-# 	label='O2 + CH2 <=> H + O=[C]O',
-# 	degeneracy=1.0,
-# 	kinetics=Chebyshev(coeffs=[[3.255,-0.0001371,-9.541e-05,-5.297e-05],[0.9993,-8.594e-06,-5.982e-06,-3.322e-06],[0.1284,-4.845e-06,-3.374e-06,-1.874e-06],[0.003979,-2.268e-05,-1.578e-05,-8.763e-06],[0.009649,-1.94e-05,-1.35e-05,-7.497e-06],[-0.00804,-7.247e-06,-5.044e-06,-2.801e-06]], kunits='cm^3/(mol*s)', Tmin=(300,'K'), Tmax=(2500,'K'), Pmin=(0.01,'atm'), Pmax=(98.692,'atm')),
-# 	shortDesc = """From CH3F model that produced good flamespeed (/work/westgroup/nora/Code/projects/halogens/refrigerants/halogens_paper/changing_RMG_Py/on_USNCM_blends/singles/CH3F""",
-# )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-#reactions in pdep network #3 in CH3F_main_with_ANL_pdep, where CH2(T) + O2(2) are reacting when they shouldn't be 
-
-
+entry(
+index = 120,
+label = "CF2O + HF <=> CF3OH",
+degeneracy = 1.0,
+kinetics = PDepArrhenius(pressures=([1.000000E-01, 2.150000E-01, 4.640000E-01, 1.000000E+00, 2.150000E+00, 4.640000E+00, 1.000000E+01, 2.150000E+01, 4.640000E+01, 1.000000E+02],'atm'), arrhenius=[Arrhenius(A=(2.670000e+25,'cm^3/mol/s'), n=-4.78, Ea=(194.3,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.870000e+23,'cm^3/mol/s'), n=-4.18, Ea=(192.8,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.750000e+21,'cm^3/mol/s'), n=-3.51, Ea=(190.6,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.640000e+19,'cm^3/mol/s'), n=-2.78, Ea=(187.7,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(9.290000e+16,'cm^3/mol/s'), n=-1.99, Ea=(184.2,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.390000e+14,'cm^3/mol/s'), n=-1.17, Ea=(180.2,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(5.420000e+11,'cm^3/mol/s'), n=-0.35, Ea=(175.8,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(1.350000e+09,'cm^3/mol/s'), n=0.46, Ea=(171.4,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(4.580000e+06,'cm^3/mol/s'), n=1.22, Ea=(167.00000000000003,'kJ/mol'), T0=(1,'K')), Arrhenius(A=(2.690000e+04,'cm^3/mol/s'), n=1.91, Ea=(162.9,'kJ/mol'), T0=(1,'K'))]),
+    shortDesc = """From Brown difluoromethane mech""",
+    )
 
 
 
