@@ -170,3 +170,32 @@ electrochem = {
     'Li_Abstraction',
     'R_Addition_MultipleBond_Disprop',
 }
+
+# Polymer pyrolysis and soft oxidation chemistry
+polymers = {
+    # --- Core Pyrolysis, Scission, and Backbiting ---
+    'R_Addition_MultipleBond',
+    'H_Abstraction',
+    'intra_H_migration',
+    'Disproportionation',
+    'R_Recombination',
+    '1,4_Linear_birad_scission',
+    'Birad_recombination',
+    'Retroene',
+    '1,2_shiftC',
+    '6_membered_central_C-C_shift',
+    'Intra_R_Add_Exocyclic',
+    'Intra_R_Add_Endocyclic',
+    'Intra_R_Add_Exo_scission',
+    '1,2-Birad_to_alkene',
+    # --- Soft Oxidation & Autoxidation (Bolland-Gee & Korcek) ---
+    'HO2_Elimination_from_PeroxyRadical',
+    'Peroxyl_Disproportionation',
+    'Peroxyl_Termination',
+    'Bimolec_Hydroperoxide_Decomposition',
+    'Korcek_step1',
+    'Korcek_step2',
+    'Baeyer-Villiger_step2',
+    'Cyclic_Ether_Formation',
+    'intra_OH_migration',
+}
