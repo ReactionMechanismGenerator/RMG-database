@@ -35,8 +35,15 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  # update this to run tests with un merged rmg-py branches
-  RMG_PY_BRANCH: main
+  # if running on RMG-Database but requiring changes on an un-merged branch of RMG-Py, replace
+  # main with the name of the branch
+  RMG_PYBRANCH: main
+  # RMS branch to use for ReactionMechanismSimulator installation
+  RMS_BRANCH: for_rmg
+  # RMS mode used for install_rms.sh
+  RMS_INSTALLER: continuous
+  # julia parallel pre-compilation leads to race conditions and hangs, so we limit it to run in serial
+  JULIA_NUM_PRECOMPILE_TASKS: 1
 
 jobs:
   build-and-test-linux:
@@ -64,39 +71,32 @@ jobs:
           path: RMG-database
 
       # configures the mamba environment manager and builds the environment
-      - name: Setup Miniforge Python 3.9
+      - name: Setup Miniforge Python 3.11
         uses: conda-incubator/setup-miniconda@v3
         with:
           environment-file: RMG-Py/environment.yml
           miniforge-variant: Miniforge3
           miniforge-version: latest
-          python-version: 3.9
+          python-version: 3.11
           activate-environment: rmg_env
-          use-mamba: true
+          auto-update-conda: true
+          show-channel-urls: true
+          conda-remove-defaults: "true"
 
       # list the environment for debugging purposes
-      - name: mamba info
+      - name: conda info
         run: |
-          mamba info
-          mamba list
-
-      - name: Make libtiff Symlink to Avoid Runner Bug
-        run: | # This action may need to be removed/adjusted in future runs.
-          if [ ! -f /usr/lib/x86_64-linux-gnu/libtiff.so.5 ] && [ -f /usr/lib/x86_64-linux-gnu/libtiff.so.6 ]; then sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gnu/libtiff.so.5; fi
-          find /usr/lib -name libtiff*
-
-      # modify env variables as directed in the RMG installation instructions
-      - name: Set Environment Variables
-        run: |
-          RUNNER_CWD=$(pwd)
-          echo "PYTHONPATH=$RUNNER_CWD/RMG-Py:$PYTHONPATH" >> $GITHUB_ENV
-          echo "$RUNNER_CWD/RMG-Py" >> $GITHUB_PATH
+          conda info
+          conda list
 
       # RMG build step
       - name: make RMG
         run: |
-          make clean
-          make
+          make install
+
+      - name: Make separate No-RMS conda env
+        run: |
+          conda create --name rmg_env_without_rms --clone rmg_env
 
       - name: Setup Juliaup
         uses: julia-actions/install-juliaup@v2
@@ -164,7 +164,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # this will search for the last successful execution of CI on main
         run: |
-          run_id=$(gh run list -R ReactionMechanismGenerator/RMG-Py --workflow="Continuous Integration" --branch main --limit 15 --json databaseId,conclusion --jq 'map(select(.conclusion == "success")) | .[0].databaseId')
+          run_id=$(gh run list -R ReactionMechanismGenerator/RMG-Py --workflow="Continuous Integration" --branch main --limit 60 --json databaseId,conclusion --jq 'map(select(.conclusion == "success")) | .[0].databaseId')
+          if [ -z "$run_id" ] || [ "$run_id" = "null" ]; then
+            echo "::error::No successful reference run found in last 60 runs."
+            exit 1
+          fi
           echo "CI_RUN_ID=$run_id" >> $GITHUB_ENV
 
       - name: Retrieve Stable Regression Results
@@ -185,6 +189,7 @@ jobs:
         env:
           REFERENCE: stable_regression_results
         run: |
+          conda activate rmg_env_without_rms
           exec 2> >(tee -a regression.stderr >&2) 1> >(tee -a regression.stdout)
           mkdir -p "test/regression-diff"
           for regr_test in aromatics liquid_oxidation nitrogen oxidation sulfur superminimal RMS_constantVIdealGasReactor_superminimal RMS_CSTR_liquid_oxidation;
