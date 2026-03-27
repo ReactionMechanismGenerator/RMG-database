@@ -1,0 +1,267 @@
+# Recommended RMG libraries per chemistry type.
+# Used by RMG's 'auto' library selection mode.
+# Each set maps to thermo, kinetics, and transport library lists.
+# Kinetics entries can be plain strings or dicts with {name, seed} keys.
+#
+# CH pyrolysis is split into two sets:
+#   CH_pyrolysis_core  — fundamental high-T C/H chemistry (acetylene initiation,
+#                        alkane cracking, small radical thermo). Auto-included when
+#                        C present, T >= 800 K, and no O in species.
+#   PAH_formation      — first ring formation, naphthalene pathways (CPD + HACA),
+#                        second ring growth, larger PAH chemistry, alkyl-aromatics.
+#                        Only auto-included when no O in species; otherwise requires
+#                        the explicit <PAH_libs> keyword in the input file.
+
+primary:
+  thermo:
+    - primaryThermoLibrary
+    - BurkeH2O2
+    - Spiekermann_refining_elementary_reactions
+    - thermo_DFT_CCSDTF12_BAC
+    - DFT_QCI_thermo
+    - CBS_QB3_1dHR
+  kinetics:
+    - name: primaryH2O2
+      seed: true
+  transport:
+    - PrimaryTransportLibrary
+    - OneDMinN2
+    - NOx2018
+    - GRI-Mech
+
+nitrogen:
+  thermo:
+    - NH3
+    - NOx2018
+    - NitrogenCurran
+    - CHON_G4
+    - CN
+  kinetics:
+    - primaryNitrogenLibrary
+    - HydrazinePDep
+    - Ethylamine
+  transport: []
+
+sulfur:
+  thermo:
+    - SulfurLibrary
+  kinetics:
+    - primarySulfurLibrary
+    - Sulfur/DMDS
+    - Sulfur/DMS
+  transport: []
+
+oxidation:
+  thermo:
+    - FFCM1(-)
+  kinetics:
+    - FFCM1(-)
+    - NOx2018
+    - 2006_Joshi_OH_CO
+    - 2005_Senosiain_OH_C2H2
+  transport: []
+
+# Core high-T C/H chemistry: acetylene initiation, alkane cracking, fundamental radicals
+CH_pyrolysis_core:
+  thermo:
+    - NOx2018
+    - Butadiene_Dimerization
+    - CurranPentane
+    - Chernov
+    - heavy_oil_ccsdtf12_1dHR
+    - Klippenstein_Glarborg2016
+  kinetics:
+    - C2H2_init
+    - Klippenstein_Glarborg2016
+    - Chernov
+  transport: []
+
+# PAH formation and growth: first ring, naphthalene, polycyclic aromatics, alkyl-aromatics
+PAH_formation:
+  thermo:
+    - Butadiene_Dimerization
+    - C10H11
+    - s3_5_7_ane
+    - Fulvene_H
+    - naphthalene_H
+    - vinylCPD_H
+    - Lai_Hexylbenzene
+    - Narayanaswamy
+    - SABIC_aromatics_1dHR_extended
+    - SABIC_aromatics_1dHR
+    - SABIC_aromatics
+    - bio_oil
+  kinetics:
+    # First aromatic ring formation
+    - 2001_Tokmakov_H_Toluene_to_CH3_Benzene
+    - 2003_Miller_Propargyl_Recomb_High_P
+    - 2009_Sharma_C5H5_CH3_highP
+    - 2015_Buras_C2H3_C4H6_highP
+    - fascella
+    - kislovB
+    # Naphthalene pathways (CPD route + HACA)
+    - Butadiene_Dimerization
+    - C10H11
+    - Fulvene_H
+    - biCPD_H_shift
+    - naphthalene_H
+    - vinylCPD_H
+    - Mebel_C6H5_C2H2
+    - Mebel_Naphthyl
+    # Larger aromatics and PAH growth
+    - C6H5_C4H4_Mebel
+    - C12H11_pdep
+    - c-C5H5_CH3_Sharma
+    - Lai_Hexylbenzene
+    - Narayanaswamy
+    # First-to-second aromatic ring sub-libraries
+    - First_to_Second_Aromatic_Ring/2005_Ismail_C6H5_C4H6_highP
+    - First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP
+    - First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
+    - First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
+    - First_to_Second_Aromatic_Ring/2016_Mebel_Indene_CH3_highP
+    - First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
+    - First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP
+    - First_to_Second_Aromatic_Ring/2017_Mebel_C6H5C2H2_C2H2_highP
+    - First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C2H2_highP
+    - First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
+    - First_to_Second_Aromatic_Ring/phenyl_diacetylene_effective
+    # Aromatics high pressure PES libraries
+    - Aromatics_high_pressure/C10H10_1
+    - Aromatics_high_pressure/C10H10_2
+    - Aromatics_high_pressure/C10H10_H_abstraction
+    - Aromatics_high_pressure/C10H11_1
+    - Aromatics_high_pressure/C10H11_2
+    - Aromatics_high_pressure/C10H11_3
+    - Aromatics_high_pressure/C10H11_4
+    - Aromatics_high_pressure/C10H7
+    - Aromatics_high_pressure/C10H8_H_abstraction_H_recomb
+    - Aromatics_high_pressure/C10H9_1
+    - Aromatics_high_pressure/C10H9_2
+    - Aromatics_high_pressure/C10H9_3
+    - Aromatics_high_pressure/C10H9_4
+    - Aromatics_high_pressure/C12H10_1
+    - Aromatics_high_pressure/C12H10_2
+    - Aromatics_high_pressure/C12H10_H_abstraction
+    - Aromatics_high_pressure/C12H11
+    - Aromatics_high_pressure/C12H8_H_abstraction
+    - Aromatics_high_pressure/C12H9
+    - Aromatics_high_pressure/C14H10_H_abstraction_H_recomb
+    - Aromatics_high_pressure/C14H11_1
+    - Aromatics_high_pressure/C14H11_2
+    - Aromatics_high_pressure/C14H11_3
+    - Aromatics_high_pressure/C14H11_4
+    - Aromatics_high_pressure/C14H9
+    - Aromatics_high_pressure/C16H11
+    - Aromatics_high_pressure/C7H8
+    - Aromatics_high_pressure/C7H8_H_abstraction
+    - Aromatics_high_pressure/C7H9
+    - Aromatics_high_pressure/C8H6_H_abstraction
+    - Aromatics_high_pressure/C8H7
+    - Aromatics_high_pressure/C8H8_H_abstraction
+    - Aromatics_high_pressure/C8H9
+    - Aromatics_high_pressure/C9H10_H_abstraction
+    - Aromatics_high_pressure/C9H11
+    - Aromatics_high_pressure/C9H7
+    - Aromatics_high_pressure/C9H8_1
+    - Aromatics_high_pressure/C9H8_2
+    - Aromatics_high_pressure/C9H8_H_abstraction
+    - Aromatics_high_pressure/C9H9_1
+    - Aromatics_high_pressure/C9H9_2
+  transport: []
+
+liquid_oxidation:
+  thermo: []
+  kinetics:
+    - Chung_solvation_corrections
+  transport: []
+
+surface:
+  thermo:
+    - surfaceThermoLi
+    - surfaceThermoPt111
+    - surfaceThermoNi111
+  kinetics:
+    - name: Surface/CPOX_Pt/Deutschmann2006_adjusted
+      seed: false
+    - Surface/Methane/Deutschmann_Pt
+    - Surface/Methane/Vlachos_Pt111
+    - Surface/Methane/Vlachos_Rh
+    - Surface/Methane/Deutschmann_Ni
+    - Surface/DOC/Arevalo_Pt111
+    - Surface/DOC/Ishikawa_Rh111
+    - Surface/DOC/Mhadeshwar_Pt111
+
+surface_nitrogen:
+  thermo: []
+  kinetics:
+    # Ammonia decomposition / oxidation on various facets
+    - Surface/Ammonia/Schneider_Pt111
+    - Surface/Ammonia/Schneider_Pt211
+    - Surface/Ammonia/Schneider_Rh111
+    - Surface/Ammonia/Schneider_Rh211
+    - Surface/Ammonia/Schneider_Pd111
+    - Surface/Ammonia/Schneider_Pd211
+    - Surface/Ammonia/Novell_Pt111
+    - Surface/Ammonia/Novell_Rh111
+    - Surface/Ammonia/Novell_Pd111
+    - Surface/Ammonia/Duan_Ni111
+    - Surface/Ammonia/Duan_Ni211
+    - Surface/Ammonia/Vlachos_Ru0001
+    - Surface/Ammonia/Roldan_Ru0001
+    - Surface/Ammonia/Popa_Rh111
+    - Surface/Ammonia/Offermans_Pt111
+    - Surface/Ammonia/Kraehnert_Pt111
+    - Surface/Ammonia/Rebrov_Pt111
+    - Surface/Ammonia/Scheuer_Pt
+    # Hydrazine decomposition
+    - Surface/Hydrazine/Roldan_Cu111
+    - Surface/Hydrazine/Roldan_Ir111
+    # Nitrogen-specific DOC reactions
+    - Surface/DOC/Nitrogen
+
+halogens:
+  thermo:
+    - Chlorinated_Hydrocarbons
+    - Chlorination
+    - CHOBr_G4
+    - CHOClBr_G4
+    - CHOCl_G4
+    - CHOFBr_G4
+    - CHOFClBr_G4
+    - CHOFCl_G4
+    - CHOF_G4
+    - Fluorine
+    - halogens
+    - iodinated_Hydrocarbons
+    - 2-BTP_G4
+    - 2-BTP
+  kinetics:
+    - 2-BTP
+    - CH3Cl
+    - CF2BrCl
+    - DTU_mech_CH3Cl
+    - NIST_Fluorine
+    - Iodine-R_recombination
+    - YF
+  transport:
+    - NIST_Fluorine
+
+electrochem:
+  thermo:
+    - LithiumPrimaryThermo
+    - LithiumPrimaryThermo2
+    - LithiumAdditionalThermo
+    - computationalLithiumElectrode
+    - electrocatThermo
+    - electrocatLiThermo
+    - LithiumSurface
+    - surfaceThermoLi
+  kinetics:
+    - LithiumPrimaryKinetics
+    - LithiumPrimaryKinetics2
+    - LithiumPrimaryChargedKinetics
+    - LithiumAnalogyKinetics
+    - LithiumSurface
+    - LithiumSurfaceAnalogy
+  transport: []
