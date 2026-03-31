@@ -24,6 +24,7 @@ entry(
     label = "Y_rad",
     group = 
 """
+multiplicity [2]
 1 *1 R u1
 """,
     kinetics = None,
@@ -34,6 +35,7 @@ entry(
     label = "Birad",
     group = 
 """
+multiplicity [3]
 1 *2 R!H u2
 """,
     kinetics = None,
@@ -44,6 +46,7 @@ entry(
     label = "H_rad",
     group = 
 """
+multiplicity [2]
 1 *1 H u1
 """,
     kinetics = None,
@@ -54,6 +57,7 @@ entry(
     label = "Ct_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,T}
 2    C u0 {1,T}
 """,
@@ -65,6 +69,7 @@ entry(
     label = "O_rad",
     group = 
 """
+multiplicity [2]
 1 *1 O u1 {2,S}
 2    R u0 {1,S}
 """,
@@ -76,6 +81,7 @@ entry(
     label = "O_pri_rad",
     group = 
 """
+multiplicity [2]
 1 *1 O u1 {2,S}
 2    H u0 {1,S}
 """,
@@ -87,6 +93,7 @@ entry(
     label = "O_sec_rad",
     group = 
 """
+multiplicity [2]
 1 *1 O   u1 {2,S}
 2    R!H u0 {1,S}
 """,
@@ -98,6 +105,7 @@ entry(
     label = "O_rad/NonDe",
     group = 
 """
+multiplicity [2]
 1 *1 O        u1 {2,S}
 2    [Cs,O,S] u0 {1,S}
 """,
@@ -109,6 +117,7 @@ entry(
     label = "O_rad/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 O                u1 {2,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -120,6 +129,7 @@ entry(
     label = "S_rad",
     group = 
 """
+multiplicity [2]
 1 *1 S u1 {2,S}
 2    R u0 {1,S}
 """,
@@ -131,6 +141,7 @@ entry(
     label = "S_pri_rad",
     group = 
 """
+multiplicity [2]
 1 *1 S u1 {2,S}
 2    H u0 {1,S}
 """,
@@ -142,6 +153,7 @@ entry(
     label = "S_sec_rad",
     group = 
 """
+multiplicity [2]
 1 *1 S   u1 {2,S}
 2    R!H u0 {1,S}
 """,
@@ -153,6 +165,7 @@ entry(
     label = "S_rad/NonDe",
     group = 
 """
+multiplicity [2]
 1 *1 S        u1 {2,S}
 2    [Cs,O,S] u0 {1,S}
 """,
@@ -164,6 +177,7 @@ entry(
     label = "S_rad/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 S                u1 {2,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 """,
@@ -175,6 +189,7 @@ entry(
     label = "Cd_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,D} {3,S}
 2    C u0 {1,D}
 3    R u0 {1,S}
@@ -187,6 +202,7 @@ entry(
     label = "Cd_pri_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,D} {3,S}
 2    C u0 {1,D}
 3    H u0 {1,S}
@@ -199,6 +215,7 @@ entry(
     label = "Cd_sec_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C   u1 {2,D} {3,S}
 2    C   u0 {1,D}
 3    R!H u0 {1,S}
@@ -211,6 +228,7 @@ entry(
     label = "Cd_rad/NonDe",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,D} {3,S}
 2    C        u0 {1,D}
 3    [Cs,O,S] u0 {1,S}
@@ -223,6 +241,7 @@ entry(
     label = "Cd_rad/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,D} {3,S}
 2    C                u0 {1,D}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -235,6 +254,7 @@ entry(
     label = "Cb_rad",
     group = 
 """
+multiplicity [2]
 1 *1 Cb       u1 {2,B} {3,B}
 2    [Cb,Cbf] u0 {1,B}
 3    [Cb,Cbf] u0 {1,B}
@@ -247,6 +267,7 @@ entry(
     label = "CO_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,D} {3,S}
 2    O u0 {1,D}
 3    R u0 {1,S}
@@ -259,6 +280,7 @@ entry(
     label = "CO_pri_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,D} {3,S}
 2    O u0 {1,D}
 3    H u0 {1,S}
@@ -271,6 +293,7 @@ entry(
     label = "CO_sec_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C   u1 {2,D} {3,S}
 2    O   u0 {1,D}
 3    R!H u0 {1,S}
@@ -283,6 +306,7 @@ entry(
     label = "CO_rad/NonDe",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,D} {3,S}
 2    O        u0 {1,D}
 3    [Cs,O,S] u0 {1,S}
@@ -295,6 +319,7 @@ entry(
     label = "CO_rad/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,D} {3,S}
 2    O                u0 {1,D}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -307,6 +332,7 @@ entry(
     label = "CS_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,D} {3,S}
 2    S u0 {1,D}
 3    R u0 {1,S}
@@ -319,6 +345,7 @@ entry(
     label = "CS_pri_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,D} {3,S}
 2    S u0 {1,D}
 3    H u0 {1,S}
@@ -331,6 +358,7 @@ entry(
     label = "CS_sec_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C   u1 {2,D} {3,S}
 2    S   u0 {1,D}
 3    R!H u0 {1,S}
@@ -343,6 +371,7 @@ entry(
     label = "CS_rad/NonDe",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,D} {3,S}
 2    S        u0 {1,D}
 3    [Cs,O,S] u0 {1,S}
@@ -355,6 +384,7 @@ entry(
     label = "CS_rad/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,D} {3,S}
 2    S                u0 {1,D}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -367,6 +397,7 @@ entry(
     label = "Cs_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,S} {3,S} {4,S}
 2    R u0 {1,S}
 3    R u0 {1,S}
@@ -380,6 +411,7 @@ entry(
     label = "C_methyl",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
@@ -393,6 +425,7 @@ entry(
     label = "C_pri_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C   u1 {2,S} {3,S} {4,S}
 2    H   u0 {1,S}
 3    H   u0 {1,S}
@@ -406,6 +439,7 @@ entry(
     label = "C_rad/H2/Cs",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
@@ -419,6 +453,7 @@ entry(
     label = "C_rad/H2/Cd",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
@@ -432,6 +467,7 @@ entry(
     label = "C_rad/H2/Ct",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
@@ -445,6 +481,7 @@ entry(
     label = "C_rad/H2/Cb",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
@@ -458,6 +495,7 @@ entry(
     label = "C_rad/H2/CO",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
@@ -471,6 +509,7 @@ entry(
     label = "C_rad/H2/CS",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
@@ -484,6 +523,7 @@ entry(
     label = "C_rad/H2/O",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
@@ -497,6 +537,7 @@ entry(
     label = "C_rad/H2/S",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
 3    H u0 {1,S}
@@ -510,6 +551,7 @@ entry(
     label = "C_sec_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C   u1 {2,S} {3,S} {4,S}
 2    H   u0 {1,S}
 3    R!H u0 {1,S}
@@ -523,6 +565,7 @@ entry(
     label = "C_rad/H/NonDeC",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    Cs u0 {1,S}
@@ -536,6 +579,7 @@ entry(
     label = "C_rad/H/NonDeO",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,S} {3,S} {4,S}
 2    H        u0 {1,S}
 3    O        u0 {1,S}
@@ -549,6 +593,7 @@ entry(
     label = "C_rad/H/CsO",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    H  u0 {1,S}
 3    Cs u0 {1,S}
@@ -562,6 +607,7 @@ entry(
     label = "C_rad/H/O2",
     group = 
 """
+multiplicity [2]
 1 *1 C u1 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
 3    O u0 {1,S}
@@ -575,6 +621,7 @@ entry(
     label = "C_rad/H/NonDeS",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,S} {3,S} {4,S}
 2    H        u0 {1,S}
 3    S        u0 {1,S}
@@ -588,6 +635,7 @@ entry(
     label = "C_rad/H/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    H                u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -601,6 +649,7 @@ entry(
     label = "C_rad/H/OneDeC",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    H                u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -614,6 +663,7 @@ entry(
     label = "C_rad/H/OneDeO",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    H                u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -627,6 +677,7 @@ entry(
     label = "C_rad/H/OneDeS",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    H                u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -640,6 +691,7 @@ entry(
     label = "C_rad/H/TwoDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    H                u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -653,6 +705,7 @@ entry(
     label = "C_ter_rad",
     group = 
 """
+multiplicity [2]
 1 *1 C   u1 {2,S} {3,S} {4,S}
 2    R!H u0 {1,S}
 3    R!H u0 {1,S}
@@ -666,6 +719,7 @@ entry(
     label = "C_rad/NonDeC",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,S} {3,S} {4,S}
 2    [Cs,O,S] u0 {1,S}
 3    [Cs,O,S] u0 {1,S}
@@ -679,6 +733,7 @@ entry(
     label = "C_rad/Cs3",
     group = 
 """
+multiplicity [2]
 1 *1 C  u1 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S}
 3    Cs u0 {1,S}
@@ -692,6 +747,7 @@ entry(
     label = "C_rad/NDMustO",
     group = 
 """
+multiplicity [2]
 1 *1 C        u1 {2,S} {3,S} {4,S}
 2    O        u0 {1,S}
 3    [Cs,O,S] u0 {1,S}
@@ -705,6 +761,7 @@ entry(
     label = "C_rad/OneDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cs,O,S]         u0 {1,S}
@@ -718,6 +775,7 @@ entry(
     label = "C_rad/Cs2",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    Cs               u0 {1,S}
@@ -731,6 +789,7 @@ entry(
     label = "C_rad/ODMustO",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    O                u0 {1,S}
@@ -744,6 +803,7 @@ entry(
     label = "C_rad/TwoDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -757,6 +817,7 @@ entry(
     label = "C_rad/Cs",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -770,6 +831,7 @@ entry(
     label = "C_rad/TDMustO",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -783,6 +845,7 @@ entry(
     label = "C_rad/ThreeDe",
     group = 
 """
+multiplicity [2]
 1 *1 C                u1 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
 3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -796,6 +859,7 @@ entry(
     label = "O_birad",
     group = 
 """
+multiplicity [3]
 1 *2 O u2 p2
 """,
     kinetics = None,
@@ -806,6 +870,7 @@ entry(
     label = "S_birad",
     group = 
 """
+multiplicity [3]
 1 *2 S u2 p2
 """,
     kinetics = None,
@@ -816,6 +881,7 @@ entry(
     label = "N_R_birad",
     group = 
 """
+multiplicity [3]
 1 *2 N u2 p1
 """,
     kinetics = None,
@@ -826,6 +892,7 @@ entry(
     label = "N_birad/H",
     group = 
 """
+multiplicity [3]
 1 *2 N u2 p1 {2,S}
 2    H u0 p0 {1,S}
 """,
@@ -837,6 +904,7 @@ entry(
     label = "N_birad/C",
     group = 
 """
+multiplicity [3]
 1 *2 N u2 p1 {2,S}
 2    C ux {1,S}
 """,
@@ -848,6 +916,7 @@ entry(
     label = "N_birad/O",
     group = 
 """
+multiplicity [3]
 1 *2 N u2 p1 {2,S}
 2    O ux {1,S}
 """,
@@ -859,6 +928,7 @@ entry(
     label = "N_birad/N",
     group = 
 """
+multiplicity [3]
 1 *2 N u2 p1 {2,S}
 2    N ux {1,S}
 """,
@@ -870,6 +940,7 @@ entry(
     label = "N_birad/S",
     group = 
 """
+multiplicity [3]
 1 *2 N u2 p1 {2,S}
 2    S ux {1,S}
 """,
