@@ -1,0 +1,364 @@
+PF8acid
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {26,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 C u0 p0 c0 {16,S} {20,S} {21,S} {22,S}
+20 F u0 p3 c0 {19,S}
+21 F u0 p3 c0 {19,S}
+22 C u0 p0 c0 {19,S} {23,S} {24,S} {25,S}
+23 F u0 p3 c0 {22,S}
+24 F u0 p3 c0 {22,S}
+25 F u0 p3 c0 {22,S}
+26 H u0 p0 c0 {3,S}
+
+CF2s
+1 F u0 p3 c0 {2,S}
+2 C u0 p1 c0 {1,S} {3,S}
+3 F u0 p3 c0 {2,S}
+
+PF7acid
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {23,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 C u0 p0 c0 {16,S} {20,S} {21,S} {22,S}
+20 F u0 p3 c0 {19,S}
+21 F u0 p3 c0 {19,S}
+22 F u0 p3 c0 {19,S}
+23 H u0 p0 c0 {3,S}
+
+CF3r
+multiplicity 2
+1 F u0 p3 c0 {2,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 F u0 p3 c0 {2,S}
+4 F u0 p3 c0 {2,S}
+
+rPF7acid
+multiplicity 2
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {22,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 C u1 p0 c0 {16,S} {20,S} {21,S}
+20 F u0 p3 c0 {19,S}
+21 F u0 p3 c0 {19,S}
+22 H u0 p0 c0 {3,S}
+
+PF2alkylr
+multiplicity 2
+1 F u0 p3 c0 {2,S}
+2 C u1 p0 c0 {1,S} {3,S} {4,S}
+3 F u0 p3 c0 {2,S}
+4 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5 F u0 p3 c0 {4,S}
+6 F u0 p3 c0 {4,S}
+7 F u0 p3 c0 {4,S}
+
+rPF6acid
+multiplicity 2
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {19,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u1 p0 c0 {13,S} {17,S} {18,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 H u0 p0 c0 {3,S}
+
+PF3alkylr
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u1 p0 c0 {1,S} {3,S} {4,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 F u0 p3 c0 {7,S}
+
+rPF5acid
+multiplicity 2
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {16,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u1 p0 c0 {10,S} {14,S} {15,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 H u0 p0 c0 {3,S}
+
+PF4alkylr
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u1 p0 c0 {1,S} {3,S} {4,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 F u0 p3 c0 {10,S}
+
+rPF4acid
+multiplicity 2
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {13,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u1 p0 c0 {7,S} {11,S} {12,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 H u0 p0 c0 {3,S}
+
+PF5alkylr
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u1 p0 c0 {1,S} {3,S} {4,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 F u0 p3 c0 {13,S}
+
+rPF3acid
+multiplicity 2
+1  O u0 p2 c0 {2,D}
+2  C u0 p0 c0 {1,D} {3,S} {4,S}
+3  O u0 p2 c0 {2,S} {10,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u1 p0 c0 {4,S} {8,S} {9,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 H u0 p0 c0 {3,S}
+
+PF6alkylr
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u1 p0 c0 {1,S} {3,S} {4,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 F u0 p3 c0 {16,S}
+
+rPF2acid
+multiplicity 2
+1 C u0 p0 c0 {2,S} {3,S} {4,D}
+2 C u1 p0 c0 {1,S} {5,S} {6,S}
+3 O u0 p2 c0 {1,S} {7,S}
+4 O u0 p2 c0 {1,D}
+5 F u0 p3 c0 {2,S}
+6 F u0 p3 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+
+CO2
+1 O u0 p2 c0 {2,D}
+2 C u0 p0 c0 {1,D} {3,D}
+3 O u0 p2 c0 {2,D}
+
+PF7-1-H
+1  F u0 p3 c0 {2,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {23,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 C u0 p0 c0 {16,S} {20,S} {21,S} {22,S}
+20 F u0 p3 c0 {19,S}
+21 F u0 p3 c0 {19,S}
+22 F u0 p3 c0 {19,S}
+23 H u0 p0 c0 {2,S}
+
+HF
+1 F u0 p3 c0 {2,S}
+2 H u0 p0 c0 {1,S}
+
+PF7-1-ene
+1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+3  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+4  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+5  C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}
+6  C u0 p0 c0 {4,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {20,S} {21,S}
+8  F u0 p3 c0 {2,S}
+9  F u0 p3 c0 {2,S}
+10 F u0 p3 c0 {1,S}
+11 F u0 p3 c0 {1,S}
+12 F u0 p3 c0 {3,S}
+13 F u0 p3 c0 {3,S}
+14 F u0 p3 c0 {4,S}
+15 F u0 p3 c0 {4,S}
+16 F u0 p3 c0 {5,S}
+17 F u0 p3 c0 {5,S}
+18 F u0 p3 c0 {5,S}
+19 F u0 p3 c0 {6,S}
+20 F u0 p3 c0 {7,S}
+21 F u0 p3 c0 {7,S}
+
+PF7alkylr
+multiplicity 2
+1  F u0 p3 c0 {2,S}
+2  C u1 p0 c0 {1,S} {3,S} {4,S}
+3  F u0 p3 c0 {2,S}
+4  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+5  F u0 p3 c0 {4,S}
+6  F u0 p3 c0 {4,S}
+7  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+8  F u0 p3 c0 {7,S}
+9  F u0 p3 c0 {7,S}
+10 C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+11 F u0 p3 c0 {10,S}
+12 F u0 p3 c0 {10,S}
+13 C u0 p0 c0 {10,S} {14,S} {15,S} {16,S}
+14 F u0 p3 c0 {13,S}
+15 F u0 p3 c0 {13,S}
+16 C u0 p0 c0 {13,S} {17,S} {18,S} {19,S}
+17 F u0 p3 c0 {16,S}
+18 F u0 p3 c0 {16,S}
+19 C u0 p0 c0 {16,S} {20,S} {21,S} {22,S}
+20 F u0 p3 c0 {19,S}
+21 F u0 p3 c0 {19,S}
+22 F u0 p3 c0 {19,S}
+
+rCOOH
+multiplicity 2
+1 C u1 p0 c0 {2,S} {3,D}
+2 O u0 p2 c0 {1,S} {4,S}
+3 O u0 p2 c0 {1,D}
+4 H u0 p0 c0 {2,S}
+
+PF8lactone
+1  F u0 p3 c0 {17,S}
+2  F u0 p3 c0 {18,S}
+3  F u0 p3 c0 {18,S}
+4  F u0 p3 c0 {19,S}
+5  F u0 p3 c0 {19,S}
+6  F u0 p3 c0 {20,S}
+7  F u0 p3 c0 {20,S}
+8  F u0 p3 c0 {21,S}
+9  F u0 p3 c0 {21,S}
+10 F u0 p3 c0 {22,S}
+11 F u0 p3 c0 {22,S}
+12 F u0 p3 c0 {23,S}
+13 F u0 p3 c0 {23,S}
+14 F u0 p3 c0 {23,S}
+15 O u0 p2 c0 {17,S} {24,S}
+16 O u0 p2 c0 {24,D}
+17 C u0 p0 c0 {1,S} {15,S} {18,S} {24,S}
+18 C u0 p0 c0 {2,S} {3,S} {17,S} {19,S}
+19 C u0 p0 c0 {4,S} {5,S} {18,S} {20,S}
+20 C u0 p0 c0 {6,S} {7,S} {19,S} {21,S}
+21 C u0 p0 c0 {8,S} {9,S} {20,S} {22,S}
+22 C u0 p0 c0 {10,S} {11,S} {21,S} {23,S}
+23 C u0 p0 c0 {12,S} {13,S} {14,S} {22,S}
+24 C u0 p0 c0 {15,S} {16,D} {17,S}
