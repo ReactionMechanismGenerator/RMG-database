@@ -241,6 +241,20 @@ multiplicity [1]
     kinetics = None,
 )
 
+entry(
+    index = 16,
+    label = "N-R",
+    group =
+"""
+multiplicity [1]
+1 *1 R!H u0 px c0 {2,[S]}
+2 *2 N   u0 p1 c0 {1,[S]}
+3 *3 Xv  u0 p0 c0
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Combined
@@ -256,7 +270,8 @@ L1: Combined
         L3: N-H
     L2: C-R
         L3: C-C
-        L3: C-OH       
+        L3: C-OH      
+    L2: N-R
 L1: VacantSite
 """
 )
@@ -303,5 +318,35 @@ forbidden(
     longDesc =
 u"""
 C should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "N-O",
+    group =
+"""
+1 *2 O u0 {2,S}
+2 *1 N u0 {1,S}
+3 *3 Xv u0 p0 c0
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+ should not match to *2 with a less heavy atom
+""",
+)
+
+forbidden(
+    label = "H-N",
+    group =
+"""
+1 *2 N u0 {2,S}
+2 *1 H u0 {1,S}
+3 *3 Xv u0 p0 c0
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+ should not match to *2 with a less heavy atom
 """,
 )
