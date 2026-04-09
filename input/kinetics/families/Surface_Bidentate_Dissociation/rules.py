@@ -9,21 +9,108 @@ entry(
     index = 1,
     label = "Combined",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.187E12, '1/s'),
+        A = (4.55E13, '1/s'),
         n = 0.0, 
-        alpha = 0.842,
-        E0 = (145.69, 'kJ/mol'),
+        alpha = 1.17,
+        E0 = (167, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-A factors are averages of training reactions 1-4 and the reverse direction of training reactions 5-7, 
-and alpha and E0 are BEP parameters from training reactions 1-4 and the reverse of training reactions 5-7.
+This BEP is created from a mixture of data in literature taken from: 
 
-Details on the computational method to derive the rate constants for the BEP relation are provided in "Automatic mechanism generation involving 
-kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
-doi:10.1039/d3dd00184a
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
+"""
+)
+
+entry(
+    index = 2,
+    label = "C-N",
+    kinetics = SurfaceArrheniusBEP(
+        A = (1e13, '1/s'),
+        n = 0,
+        alpha = 0.967,
+        E0 = (194, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+This BEP is created from data in literature taken from: 
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+"""
+)
+entry(
+    index = 3,
+    label = "N-C",
+    kinetics = SurfaceArrheniusBEP(
+        A = (1e13, '1/s'),
+        n = 0,
+        alpha = 0.967,
+        E0 = (194, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+This BEP is created from data in literature taken from: 
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+"""
+)
+entry(
+    index = 4,
+    label = "N-R",
+    kinetics = SurfaceArrheniusBEP(
+        A = (4.55E13, '1/s'),
+        n = 0.0, 
+        alpha = 1.17,
+        E0 = (167, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+This BEP is created from a mixture of data in literature taken from: 
+
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
+"""
+)
+entry(
+    index = 5,
+    label = "R-N",
+    kinetics = SurfaceArrheniusBEP(
+        A = (4.55E13, '1/s'),
+        n = 0.0, 
+        alpha = 1.17,
+        E0 = (167, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    
+    longDesc = u"""
+This BEP is created from a mixture of data in literature taken from: 
+
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
 """
 )
