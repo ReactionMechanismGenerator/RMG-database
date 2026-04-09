@@ -75,8 +75,8 @@ entry(
     label = "CXCX",
     group=
 """
-1 * X u0 {3,[S,D,T]}
-2 X u0 {4,[S,D,T]}
+1 * X u0 p0 c0 {3,[S,D,T]}
+2 X u0 p0 c0 {4,[S,D,T]}
 3 C  u0 {1,[S,D,T]} {4,[S,D,T]}
 4 C  u0 {2,[S,D,T]} {3,[S,D,T]}
 """,
@@ -573,7 +573,7 @@ entry(
 2 * X u0 p0 c0 {5,S}
 3 C u0 p0 c0 {1,S} {4,S} {5,D}
 4 R u0 px c0 {3,S}
-5 N u0 p2 c0 {2,S} {3,D}
+5 N u0 p1 c0 {2,S} {3,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -731,8 +731,8 @@ entry(
     label = "CXOX",
     group=
 """
-1 * X u0 {3,[S,D,T]}
-2 X u0 {4,S}
+1 * X u0 p0 c0 {3,[S,D,T]}
+2 X u0 p0 c0 {4,S}
 3 C  u0 {1,[S,D,T]} {4,S}
 4 O  u0 p2 {2,S} {3,S}
 """,
@@ -962,7 +962,7 @@ entry(
 2 X u0 p0 c0 {5,S}
 3 C u0 p0 c0 {1,S} {4,S} {5,D}
 4 R u0 px c0 {3,S}
-5 N u0 p2 c0 {2,S} {3,D}
+5 N u0 p1 c0 {2,S} {3,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -1120,8 +1120,8 @@ entry(
     label = "NXNX",
     group=
 """
-1 * X u0 {3,[S,D]}
-2 X u0 {4,[S,D]}
+1 * X u0 p0 c0 {3,[S,D]}
+2 X u0 p0 c0 {4,[S,D]}
 3 N  u0 {1,[S,D]} {4,[S,D]}
 4 N  u0 {2,[S,D]} {3,[S,D]}
 """,
