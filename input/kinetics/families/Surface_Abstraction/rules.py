@@ -26,7 +26,7 @@ Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from tr
 )
 
 entry(
-    index = 1,
+    index = 2,
     label = "Abstracting;*R-H",
     kinetics = SurfaceArrheniusBEP(
         A = (4.18e17, 'm^2/(mol*s)'),
@@ -91,7 +91,7 @@ entry(
     kinetics = SurfaceArrheniusBEP(
         A = (4.18e17, 'm^2/(mol*s)'),
         n = 0,
-        alpha =0.37,
+        alpha = 0.37,
         E0 = (99.3, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
@@ -102,5 +102,51 @@ entry(
 These numbers for the general BEP are from the abstraction reaction of C-H to C.
 BEP values from "Quantifying the Impact of Parametric Uncertainty on Automatic Mechanism Generation for CO2 Hydrogenation on Ni(111)", Kreitz et al., JACS Au, 2021, 1, 10, 1656-1673 DOI:10.1021/jacsau.1c00276
 Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
+"""
+)
+
+entry(
+    index = 6,
+    label = "Abstracting;*N-H",
+    kinetics = SurfaceArrheniusBEP(
+        A = (3.06e21, 'cm^2/(mol*s)'),
+        n = 0,
+        alpha = 0.93,
+        E0 = (101, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+This BEP is created from a mixture of data from Ma and Schneider: 
+
+https://doi.org/10.1021/acscatal.8b04251
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
+"""
+)
+
+entry(
+    index = 7,
+    label = "N=*;*R-H",
+    kinetics = SurfaceArrheniusBEP(
+        A = (3.06e21, 'cm^2/(mol*s)'),
+        n = 0,
+        alpha = 0.0768,
+        E0 = (101, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+This BEP is created from a mixture of data from Ma and Schneider: 
+
+https://doi.org/10.1021/acscatal.8b04251
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
 """
 )

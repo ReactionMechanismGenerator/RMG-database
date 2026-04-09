@@ -164,6 +164,33 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 12,
+    label = "R-R-N",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 px c0 {1,S} {3,S}
+3 *3 N   u0 p1 {2,S}
+4 *5 Xo  u0 {1,[D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "R-N-R",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 N u0 p1 c0 {1,S} {3,S}
+3 *3 R   u0 {2,S}
+4 *5 Xo  u0 {1,[D,T]}
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Abstracting
@@ -177,6 +204,45 @@ L1: Donating
         L3: R-C-H
 	   L4: R-CH3
         L3: R-O-H
+    L2: R-R-N
+    L2: R-N-R
 """
+)
+
+forbidden(
+    label = "Surf_Atom1",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 px c0 {1,S} {3,S}
+3 *3 R   u0 {2,S} {5,[S,D,T]}
+4 *5 Xo  u0 {1,[D,T]}
+5 Xo u0 {3,[S,D,T]}
+""",
+)
+
+forbidden(
+    label = "Surf_Atom2",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 px c0 {1,S} {3,S} {5,[S,D]}
+3 *3 R   u0 {2,S}
+4 *5 Xo  u0 {1,[D,T]}
+5 Xo u0 {2,[S,D]}
+""",
+)
+
+forbidden(
+    label = "Surf_beta",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 px c0 {1,S} {3,S}
+3 *3 R   u0 {2,S} {5,[S,D,T]}
+4 *5 Xo  u0 {1,[D,T]}
+5 R u0 {3,[S,D,T]} {6,[S,D,T]}
+6 Xo u0 {5,[S,D,T]}
+""",
 )
 

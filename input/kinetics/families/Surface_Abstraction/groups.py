@@ -614,3 +614,26 @@ L1: Donating
         L3: *-O-N
 """
 )
+
+forbidden(
+    label = "Surf_Atom",
+    group =
+"""
+1 *4 R   ux px c0 {2,S} {4,[S,D,T]}
+2 *3 R!H ux px c0 {1,S} {3,[S,D,T]}
+3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+4 Xo u0 {1,[S,D,T]}
+""",
+)
+
+forbidden(
+    label = "beta_Surf_Atom",
+    group =
+"""
+1 *4 R   ux px c0 {2,S} {4,[S,D,T]}
+2 *3 R!H ux px c0 {1,S} {3,[S,D,T]}
+3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+4 R u0 {1,[S,D,T]} {5,[S,D,T]} 
+5 Xo u0 c0 {4,[S,D,T]} 
+""",
+)
