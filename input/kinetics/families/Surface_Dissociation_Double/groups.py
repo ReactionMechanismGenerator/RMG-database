@@ -109,7 +109,7 @@ entry(
     group =
 """
 1 *1 N  u0 p1 c0 {2,D} {3,S}
-2 *2 R  u0 px c0 {1,D}
+2 *2 R!H u0 px c0 {1,D}
 3 *3 Xo u0 p0 {1,S}
 """,
     kinetics = None,
