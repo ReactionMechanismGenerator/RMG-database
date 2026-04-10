@@ -3477,8 +3477,8 @@ entry(
     label = "RXvdW",
     group=
 """
-1 * X u0
-2 R  u0
+1 X u0
+2 * R  u0
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3510,8 +3510,8 @@ entry(
     label = "(CR2)X",
     group=
 """
-1 * X  u0
-2 C   u0 {3,T} {4,S}
+1 X  u0
+2 * C   u0 {3,T} {4,S}
 3 R!H u0 {2,T}
 4 R   u0 {2,S}
 """,
@@ -3541,11 +3541,11 @@ entry(
     label = "(CRCR)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,T} {4,S}
-3 C  u0 p0 c0 {2,T} {5,S}
-4 R  u0 px c0 {2,S}
-5 R  u0 px c0 {3,S}
+1 X u0 p0 c0
+2 * C u0 p0 c0 {3,T} {4,S}
+3 C u0 p0 c0 {2,T} {5,S}
+4 R u0 px c0 {2,S}
+5 R u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3573,8 +3573,8 @@ entry(
     label = "(CRN)X",
     group=
 """
-1 * X u0  p0 c0
-2 C  u0  p0 c0 {3,T} {4,S}
+1 X u0  p0 c0
+2 * C  u0  p0 c0 {3,T} {4,S}
 3 N  u0  p1 c0 {2,T}
 4 R  u0  px c0 {2,S}
 """,
@@ -3604,8 +3604,8 @@ entry(
     label = "(CR3)X",
     group=
 """
-1 * X  u0
-2 C   u0 {3,D} {4,S} {5,S}
+1 X  u0
+2 * C  u0 {3,D} {4,S} {5,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
 5 R   u0 {2,S}
@@ -3637,8 +3637,8 @@ entry(
     label = "(CR2CR)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 C  u0 p0 c0 {2,D} {6,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3670,8 +3670,8 @@ entry(
     label = "(CR2N)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {2,D}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3702,8 +3702,8 @@ entry(
     label = "(CR2O)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,D} {4,S} {5,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 O  u0 p2 c0 {2,D}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3734,8 +3734,8 @@ entry(
     label = "(CR4)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3768,8 +3768,8 @@ entry(
     label = "(CR3CR3)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3804,8 +3804,8 @@ entry(
     label = "(CR3N)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3837,8 +3837,8 @@ entry(
     label = "(CR3OR)X",
     group=
 """
-1 * X u0 p0 c0
-2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 X u0 p0 c0
+2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {2,S} {7,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3871,11 +3871,10 @@ entry(
     label = "(NR2)X",
     group=
 """
-1 * X u0 p0 c0
-2 N   u0 p1 c0 {3,D} {4,S}
-3 R!H u0 px c0 {2,D} {5,[D,T]}
+1 X u0 p0 c0
+2 * N u0 p1 c0 {3,D} {4,S}
+3 R!H u0 px c0 {2,D}
 4 R   u0 px c0 {2,S}
-5 R!H u0 p[1,2,3] c0 {3,[D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3903,11 +3902,10 @@ entry(
     label = "(N=C)X",
     group=
 """
-1 * X u0 p0 c0
-2 N  u0 p1 c0 {3,D} {4,S}
-3 C  u0 p0 c0 {2,D} {5,[D,T]}
-4 R  u0 p0 c0 {2,S}
-5 R!H u0 p[1,2,3] c0 {3,[D,T]}
+1 X u0 p0 c0
+2 * N u0 p1 c0 {3,D} {4,S}
+3 C u0 p0 c0 {2,D}
+4 R u0 p0 c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3935,8 +3933,8 @@ entry(
     label = "(NR3)X",
     group=
 """
-1 * X u0 p0 c0
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
+1 X u0 p0 c0
+2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3967,12 +3965,11 @@ entry(
     label = "(NC)X",
     group=
 """
-1 * X u0 p0 c0
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 C  u0 p0 c0 {2,S} {6,[D,T]}
+1 X u0 p0 c0
+2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
+3 C  u0 p0 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
-6 R!H u0 p[1,2,3] c0 {3,[D,T]}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -4000,8 +3997,8 @@ entry(
     label = "(NN)X",
     group=
 """
-1 * X u0 p0 c0
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
+1 X u0 p0 c0
+2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -4032,8 +4029,8 @@ entry(
     label = "(NO)X",
     group=
 """
-1 * X u0 p0 c0
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
+1 X u0 p0 c0
+2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -4064,8 +4061,8 @@ entry(
     label = "(OR)X",
     group=
 """
-1 * X u0 p0 c0
-2 O u0 p2 c0 {3,D}
+1 X u0 p0 c0
+2 * O u0 p2 c0 {3,D}
 3 R!H u0 p1 c0 {2,D}
 """,
     thermo=ThermoData(
@@ -4094,8 +4091,8 @@ entry(
     label = "(ONR)X",
     group=
 """
-1 * X u0 p0 c0
-2 O u0 p2 c0 {3,D}
+1 X u0 p0 c0
+2 * O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {2,D} {4,S}
 4 R u0 px c0 {3,S}
 """,
@@ -4125,8 +4122,8 @@ entry(
     label = "(ONN)X",
     group=
 """
-1 * X u0 p0 c0
-2 O u0 p2 c0 {3,D}
+1 X u0 p0 c0
+2 * O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {2,D} {4,S}
 4 N u0 p2 c0 {3,S}
 """,
@@ -4156,8 +4153,8 @@ entry(
     label = "(ONOR)X",
     group=
 """
-1 * X u0 p0 c0
-2 O u0 p2 c0 {3,D}
+1 X u0 p0 c0
+2 * O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {2,D} {4,S}
 4 O u0 p2 c0 {3,S} {5,S}
 5 R u0 px c0 {4,S}
@@ -4188,8 +4185,8 @@ entry(
     label = "(OR2)X",
     group=
 """
-1 * X u0 p0 c0
-2 O  u0 p2 c0 {3,S} {4,S}
+1 X u0 p0 c0
+2 * O  u0 p2 c0 {3,S} {4,S}
 3 R  u0 p[0,1,2] c0 {2,S}
 4 R  u0 p[0,1,2] c0 {2,S}
 """,
@@ -4219,8 +4216,8 @@ entry(
     label = "(OROR)X",
     group=
 """
-1 * X u0 p0 c0
-2 O  u0 p2 c0 {3,S} {4,S}
+1 X u0 p0 c0
+2 * O  u0 p2 c0 {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
 5 R  u0 p0 c0 {3,S}
