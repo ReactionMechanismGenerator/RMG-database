@@ -131,7 +131,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 R!H u0 px c0 {1,S} {3,S}
+2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,
@@ -170,7 +170,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 R!H u0 px c0 {1,S} {3,S}
+2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}
 3 *3 N   u0 p1 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,
@@ -202,7 +202,7 @@ L1: Abstracting
 L1: Donating
     L2: R-R-H
         L3: R-C-H
-	   L4: R-CH3
+	        L4: R-CH3
         L3: R-O-H
     L2: R-R-N
     L2: R-N-R

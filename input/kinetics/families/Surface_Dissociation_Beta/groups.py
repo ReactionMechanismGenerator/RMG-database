@@ -33,8 +33,8 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 R!H u0 {1,S} {3,S}
+1 *1 R!H u0 {2,[S,D,T]} {4,[D,T]}
+2 *2 R!H u0 {1,[S,D,T]} {3,S}
 3 *3 R   u0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
 """,
@@ -83,7 +83,7 @@ entry(
     group =
 """
 1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 R!H u0 {1,S} {3,S}
+2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
 """,
