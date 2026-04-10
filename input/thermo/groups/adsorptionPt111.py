@@ -3076,7 +3076,7 @@ entry(
 """
 1 * X u0 p0 c0 {2,S}
 2 N  u0 p0 c+1 {1,S} {3,S} {4,D}
-3 R!H  u0 px c-1 {2,S}
+3 R!H  u0 p[1,2,3] c-1 {2,S}
 4 R!H  u0 px c0 {2,D}
 """,
     thermo=ThermoData(
@@ -3107,7 +3107,7 @@ entry(
 """
 1 * X u0 p0 c0 {2,D}
 2 N  u0 p0 c+1 {1,D} {3,S} {4,S}
-3 R!H  u0 px c-1 {2,S}
+3 R!H  u0 p[1,2,3] c-1 {2,S}
 4 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
