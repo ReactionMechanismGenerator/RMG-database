@@ -61,7 +61,7 @@ entry(
     group =
 """
 1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
-2 *2 C u0 px c0 {1,S} {3,S}
+2 *2 C u0 p0 c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *5 Xo  u0 {1,[D,T]}
 """,
