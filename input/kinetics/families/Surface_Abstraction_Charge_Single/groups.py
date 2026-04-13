@@ -72,9 +72,9 @@ forbidden(
     group =
 """
 1 *4 R u0 px c0 {2,S} {5,[S,D,T]}
-2 *3 R!H u0 px c+1 {1,S} {3,D} {4,S}
+2 *3 R!H u0 p0 c+1 {1,S} {3,D} {4,S}
 3 *5 Xo u0 p0 c0 {2,D}
-4 *6 R!H u0 px c-1 {2,S}
+4 *6 R!H u0 p[1,2,3] c-1 {2,S}
 5 Xo u0 c0 {1,[S,D,T]}
 """,
 )
