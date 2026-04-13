@@ -60,68 +60,12 @@ entry(
     kinetics = None,
 )
 
-#entry(
-#    index = 3,
-#    label = "C",
-#    group =
-#"""
-#1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
-#2 *2 C u0 p0 c0 {1,S}
-#3 *3 Xo u0 p0 c0 {1,D}
-#4 *4 R!H u0 p[1,2,3] c-1 {1,S}
-#""",
-#    kinetics = None,
-#)
-
-#entry(
-#    index = 4,
-#    label = "N",
-#    group =
-#"""
-#1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
-#2 *2 N u0 p1 c0 {1,S}
-#3 *3 Xo u0 p0 c0 {1,D}
-#4 *4 R!H u0 p[1,2,3] c-1 {1,S}
-#""",
-#    kinetics = None,
-#)
-
-#entry(
-#    index = 5,
-#    label = "O",
-#    group =
-#"""
-#1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
-#2 *2 O u0 p2 c0 {1,S}
-#3 *3 Xo u0 p0 c0 {1,D}
-#4 *4 R!H u0 p[1,2,3] c-1 {1,S}
-#""",
-#    kinetics = None,
-#)
-
-#entry(
-#    index = 6,
-#    label = "H",
-#    group =
-#"""
-#1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
-#2 *2 H u0 p0 c0 {1,S}
-#3 *3 Xo u0 p0 c0 {1,D}
-#4 *4 R!H u0 p[1,2,3] c-1 {1,S}
-#""",
-#    kinetics = None,
-#)
-
 tree(
 """
 L1: Combined
 L1: VacantSite
 """
 )
-#    L2: N
-#    L2: C
-#    L2: H
-#    L2: O
 
 forbidden(
     label = "Surf",

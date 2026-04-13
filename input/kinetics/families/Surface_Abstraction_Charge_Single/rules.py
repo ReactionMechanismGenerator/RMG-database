@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Abstraction/rules"
+name = "Surface_Abstraction_Charge_Single/rules"
 shortDesc = u""
 longDesc = u"""
 """
