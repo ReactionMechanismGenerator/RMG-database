@@ -128,7 +128,7 @@ surface = {
     #'Surface_Abstraction_Charge_Single',
     'Surface_Abstraction_Charge_Separation',
     'Surface_Dissociation_Charge_Separation',
-    #'Surface_Dissociation_Charge_Single',
+    'Surface_Dissociation_Charge_Single',
     #'Surface_Carbonate_Deposition',
     #'Surface_Carbonate_F_CO_Decomposition',
     #'Surface_Carbonate_2F_Decomposition',
