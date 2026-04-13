@@ -27,10 +27,10 @@ recipe(actions=[
     ['FORM_BOND', '*1', 1, '*4'],
     ['BREAK_BOND', '*3', 1, '*4'],
     ['CHANGE_BOND', '*1', -1, '*2'],
-    ['LOSE_PAIR','*6','1'],
-    ['GAIN_PAIR', '*3', '1'],
     ['CHANGE_BOND', '*3', 1, '*6'],
     ['CHANGE_BOND', '*3', -1, '*5'],
+    ['LOSE_PAIR','*6','1'],
+    ['GAIN_PAIR', '*3', '1'],
     ['LOSE_CHARGE','*3','1'],
     ['GAIN_CHARGE', '*6', '1'],
 ])
