@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Abstraction/groups"
+name = "Surface_Abstraction_Charge_Single/groups"
 shortDesc = u""
 longDesc = u"""
 Two adsorbates react. One has a multiple bond to the surface, the other has a
