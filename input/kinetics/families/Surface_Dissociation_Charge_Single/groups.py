@@ -31,8 +31,8 @@ recipe(actions=[
     ['FORM_BOND', '*2', 1, '*5'],
     ['LOSE_PAIR','*4','1'],
     ['GAIN_PAIR', '*1', '1'],
-    ['LOSE_CHARGE','*1','1'],
-    ['GAIN_CHARGE', '*4', '1'],
+    #['LOSE_CHARGE','*1','1'],
+    #['GAIN_CHARGE', '*4', '1'],
     ['CHANGE_BOND', '*1', -1, '*3'],
     ['CHANGE_BOND', '*1', 1, '*4'],
 ])
