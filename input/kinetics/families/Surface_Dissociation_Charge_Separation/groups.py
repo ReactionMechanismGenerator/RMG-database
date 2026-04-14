@@ -6,7 +6,7 @@ shortDesc = u""
 longDesc = u"""
 Surface bond fission of one species into two distinct adsorbates.
 Atom *1 is bonded to the surface (*3). The image below shows a single bond,
-but single, double, and triple are possible. What matters is that the bond
+but single and double are possible. What matters is that the bond
 between *1 and *2 must be single and have charge separation across it.
 
    *1[+]--*2[-]          *1      *2
@@ -40,7 +40,7 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
+1 *1 N u0 p0 c+1 {2,S} {3,[S,D]}
 2 *2 R!H u0 p[1,2,3] c-1 {1,S}
 3 *3 Xo u0 p0 c0 {1,[S,D]}
 """,
@@ -57,41 +57,6 @@ entry(
     kinetics = None,
 )
 
-# entry(
-#     index = 3,
-#     label = "C",
-#     group =
-# """
-# 1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
-# 2 *2 C u0 p1 c-1 {1,S}
-# 3 *3 Xo u0 p0 c0 {1,[S,D]}
-# """,
-#     kinetics = None,
-# )
-
-# entry(
-#     index = 4,
-#     label = "N",
-#     group =
-# """
-# 1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
-# 2 *2 N u0 p2 c-1 {1,S}
-# 3 *3 Xo u0 p0 c0 {1,[S,D]}
-# """,
-#     kinetics = None,
-# )
-# entry(
-#     index = 5,
-#     label = "O",
-#     group =
-# """
-# 1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
-# 2 *2 O u0 p3 c-1 {1,S}
-# 3 *3 Xo u0 p0 c0 {1,[S,D]}
-# """,
-#     kinetics = None,
-# )
-
 tree(
 """
 L1: Combined
@@ -99,21 +64,11 @@ L1: VacantSite
 """
 )
 
-# tree(
-# """
-# L1: Combined
-#     L2: N
-#     L2: C
-#     L2: O
-# L1: VacantSite
-# """
-# )
-
 forbidden(
     label = "Surf",
     group =
 """
-1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
+1 *1 N u0 p0 c+1 {2,S} {3,[S,D]}
 2 *2 R!H u0 p[1,2,3] c-1 {1,S} {4,[S,D,T]}
 3 *3 Xo u0 p0 c0 {1,[S,D]}
 4 Xo u0 c0 {2,[S,D,T]}
