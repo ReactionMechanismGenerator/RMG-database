@@ -125,7 +125,7 @@ surface = {
     'Surface_Dissociation_Beta_vdW',
     'Surface_Abstraction_Beta_vdW',
     'Surface_Abstraction_Single_vdW',
-    #'Surface_Abstraction_Charge_Single',
+    'Surface_Abstraction_Charge_Single',
     'Surface_Abstraction_Charge_Separation',
     'Surface_Dissociation_Charge_Separation',
     'Surface_Dissociation_Charge_Single',
