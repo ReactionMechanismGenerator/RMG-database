@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Surface_Dissociation_Charge_Single/rules"
+name = "Surface_Abstraction_Charge_Single/rules"
 shortDesc = u""
 longDesc = u"""
 """
 entry(
     index = 1,
-    label = "Combined;VacantSite",
+    label = "Abstracting;Donating",
     kinetics = SurfaceArrheniusBEP(
-        A = (9.88e21, 'cm^2/(mol*s)'),
+        A = (2.20e21, 'cm^2/(mol*s)'),
         n = 0,
         alpha = 0.52,
         E0 = (126, 'kJ/mol'),
@@ -19,6 +19,5 @@ entry(
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-
-"""
+""",
 )
