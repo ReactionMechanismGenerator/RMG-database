@@ -5913,7 +5913,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: CHF3 <=> CHF2 + F
+Original entry: CHF3-2 <=> CHF2 + F
 """,
 )
 
@@ -5952,7 +5952,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF5-2 <=> H + C2F5
+Original entry: C2HF5-3 <=> H + C2F5
 """,
 )
 
@@ -5965,7 +5965,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF5-2 <=> C2HF4 + F
+Original entry: C2HF5-4 <=> C2HF4 + F
 """,
 )
 
@@ -5991,7 +5991,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F6 <=> C2F5 + F
+Original entry: C2F6-2 <=> C2F5 + F
 """,
 )
 
@@ -6017,7 +6017,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F4O <=> CFO + CF3
+Original entry: C2F4O-2 <=> CFO + CF3
 """,
 )
 
@@ -6108,7 +6108,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> CHF2 + C2F5
+Original entry: C3HF7-2 <=> CHF2 + C2F5
 """,
 )
 
@@ -6121,7 +6121,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> C2HF4 + CF3
+Original entry: C3HF7-3 <=> C2HF4 + CF3
 """,
 )
 
@@ -6134,7 +6134,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> C3HF6 + F
+Original entry: C3HF7-4 <=> C3HF6 + F
 """,
 )
 
@@ -6160,7 +6160,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F8 <=> C3F7 + F
+Original entry: C3F8-2 <=> C3F7 + F
 """,
 )
 
@@ -6186,7 +6186,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O <=> C2F3O + CF3
+Original entry: C3F6O-2 <=> C2F3O + CF3
 """,
 )
 
@@ -6199,7 +6199,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O-2 <=> C2F3O-2 + CF3
+Original entry: C3F6O-3 <=> C2F3O-2 + CF3
 """,
 )
 
@@ -6212,7 +6212,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O-2 <=> C2F3 + CF3O
+Original entry: C3F6O-4 <=> C2F3 + CF3O
 """,
 )
 
@@ -6238,7 +6238,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O <=> C2HF4O + CF3
+Original entry: C3HF7O-2 <=> C2HF4O + CF3
 """,
 )
 
@@ -6251,7 +6251,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O-2 <=> C2HF4O-2 + CF3
+Original entry: C3HF7O-3 <=> C2HF4O-2 + CF3
 """,
 )
 
@@ -6264,7 +6264,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O-2 <=> C2HF4O-3 + CF3
+Original entry: C3HF7O-4 <=> C2HF4O-3 + CF3
 """,
 )
 
@@ -6277,7 +6277,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O-2 <=> C2HF4-2 + CF3O
+Original entry: C3HF7O-5 <=> C2HF4-2 + CF3O
 """,
 )
 
@@ -6329,7 +6329,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF5O2 <=> C2HF2O2 + CF3
+Original entry: C3HF5O2-2 <=> C2HF2O2 + CF3
 """,
 )
 
@@ -6355,7 +6355,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O2 <=> C2F3O-3 + CF3O
+Original entry: C3F6O2-2 <=> C2F3O-3 + CF3O
 """,
 )
 
@@ -6394,7 +6394,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9 <=> C2HF4 + C2F5
+Original entry: C4HF9-2 <=> C2HF4 + C2F5
 """,
 )
 
@@ -6407,7 +6407,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9 <=> C3HF6 + CF3
+Original entry: C4HF9-3 <=> C3HF6 + CF3
 """,
 )
 
@@ -6433,7 +6433,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C4F9-2 + F
+Original entry: C4F10-2 <=> C4F9-2 + F
 """,
 )
 
@@ -6446,7 +6446,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C3F7 + CF3
+Original entry: C4F10-3 <=> C3F7 + CF3
 """,
 )
 
@@ -6459,7 +6459,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C2F5 + C2F5
+Original entry: C4F10-4 <=> C2F5 + C2F5
 """,
 )
 
@@ -6485,7 +6485,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O <=> C2F3O + C2F5
+Original entry: C4F8O-2 <=> C2F3O + C2F5
 """,
 )
 
@@ -6498,7 +6498,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O <=> C3F5O + CF3
+Original entry: C4F8O-3 <=> C3F5O + CF3
 """,
 )
 
@@ -6511,7 +6511,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O-2 <=> C3F5O-2 + CF3
+Original entry: C4F8O-4 <=> C3F5O-2 + CF3
 """,
 )
 
@@ -6524,7 +6524,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O-2 <=> C2F3O-2 + C2F5
+Original entry: C4F8O-5 <=> C2F3O-2 + C2F5
 """,
 )
 
@@ -6537,7 +6537,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O-2 <=> C2F3 + C2F5O
+Original entry: C4F8O-6 <=> C2F3 + C2F5O
 """,
 )
 
@@ -6563,7 +6563,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O <=> C2HF4O + C2F5
+Original entry: C4HF9O-2 <=> C2HF4O + C2F5
 """,
 )
 
@@ -6576,7 +6576,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O <=> C3HF6O + CF3
+Original entry: C4HF9O-3 <=> C3HF6O + CF3
 """,
 )
 
@@ -6589,7 +6589,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C3HF6O-2 + CF3
+Original entry: C4HF9O-4 <=> C3HF6O-2 + CF3
 """,
 )
 
@@ -6602,7 +6602,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C3HF6O-3 + CF3
+Original entry: C4HF9O-5 <=> C3HF6O-3 + CF3
 """,
 )
 
@@ -6615,7 +6615,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C2HF4O-2 + C2F5
+Original entry: C4HF9O-6 <=> C2HF4O-2 + C2F5
 """,
 )
 
@@ -6628,7 +6628,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C2HF4-2 + C2F5O
+Original entry: C4HF9O-7 <=> C2HF4-2 + C2F5O
 """,
 )
 
@@ -6654,7 +6654,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2 <=> C2F3O + C2F3O
+Original entry: C4F6O2-2 <=> C2F3O + C2F3O
 """,
 )
 
@@ -6667,7 +6667,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2-2 <=> C3F5O-2 + CFO
+Original entry: C4F6O2-3 <=> C3F5O-2 + CFO
 """,
 )
 
@@ -6680,7 +6680,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2-2 <=> C2F3O-2 + C2F3O
+Original entry: C4F6O2-4 <=> C2F3O-2 + C2F3O
 """,
 )
 
@@ -6706,7 +6706,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O2 <=> C2HF2O2 + C2F5
+Original entry: C4HF7O2-2 <=> C2HF2O2 + C2F5
 """,
 )
 
@@ -6719,7 +6719,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O2 <=> C3HF4O2 + CF3
+Original entry: C4HF7O2-3 <=> C3HF4O2 + CF3
 """,
 )
 
@@ -6745,7 +6745,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O2 <=> C3F5O2-2 + CF3
+Original entry: C4F8O2-2 <=> C3F5O2-2 + CF3
 """,
 )
 
@@ -6758,7 +6758,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O2 <=> C2F3O-3 + C2F5O
+Original entry: C4F8O2-3 <=> C2F3O-3 + C2F5O
 """,
 )
 
@@ -6784,7 +6784,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> C3HF4O3 + CF3
+Original entry: C4HF7O3-2 <=> C3HF4O3 + CF3
 """,
 )
 
@@ -6797,7 +6797,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> C3HF4O3-2 + CF3
+Original entry: C4HF7O3-3 <=> C3HF4O3-2 + CF3
 """,
 )
 
@@ -6810,7 +6810,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> C3HF4O2-2 + CF3O
+Original entry: C4HF7O3-4 <=> C3HF4O2-2 + CF3O
 """,
 )
 
@@ -6836,7 +6836,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C3F5O-2 + C2F5
+Original entry: C5F10O-2 <=> C3F5O-2 + C2F5
 """,
 )
 
@@ -6849,7 +6849,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C2F3O-2 + C3F7
+Original entry: C5F10O-3 <=> C2F3O-2 + C3F7
 """,
 )
 
@@ -6862,7 +6862,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C2F3 + C3F7O-2
+Original entry: C5F10O-4 <=> C2F3 + C3F7O-2
 """,
 )
 
@@ -6888,7 +6888,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C4HF8O-2 + CF3
+Original entry: C5HF11O-2 <=> C4HF8O-2 + CF3
 """,
 )
 
@@ -6901,7 +6901,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C3HF6O-2 + C2F5
+Original entry: C5HF11O-3 <=> C3HF6O-2 + C2F5
 """,
 )
 
@@ -6914,7 +6914,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C2HF4O-2 + C3F7
+Original entry: C5HF11O-4 <=> C2HF4O-2 + C3F7
 """,
 )
 
@@ -6927,7 +6927,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C2HF4-2 + C3F7O-2
+Original entry: C5HF11O-5 <=> C2HF4-2 + C3F7O-2
 """,
 )
 
@@ -6953,7 +6953,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> C3HF4O2 + C2F5
+Original entry: C5HF9O2-2 <=> C3HF4O2 + C2F5
 """,
 )
 
@@ -6966,7 +6966,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> C2HF2O2 + C3F7
+Original entry: C5HF9O2-3 <=> C2HF2O2 + C3F7
 """,
 )
 
@@ -6979,7 +6979,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> CHO2 + C4F9
+Original entry: C5HF9O2-4 <=> CHO2 + C4F9
 """,
 )
 
@@ -7005,7 +7005,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C4F7O2-2 + CF3
+Original entry: C5F10O2-2 <=> C4F7O2-2 + CF3
 """,
 )
 
@@ -7018,7 +7018,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C3F5O2-2 + C2F5
+Original entry: C5F10O2-3 <=> C3F5O2-2 + C2F5
 """,
 )
 
@@ -7031,7 +7031,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C2F3O-3 + C3F7O-2
+Original entry: C5F10O2-4 <=> C2F3O-3 + C3F7O-2
 """,
 )
 
@@ -7057,7 +7057,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C4HF6O3 + CF3
+Original entry: C5HF9O3-2 <=> C4HF6O3 + CF3
 """,
 )
 
@@ -7070,7 +7070,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C4HF6O3-2 + CF3
+Original entry: C5HF9O3-3 <=> C4HF6O3-2 + CF3
 """,
 )
 
@@ -7083,7 +7083,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C3HF4O3-2 + C2F5
+Original entry: C5HF9O3-4 <=> C3HF4O3-2 + C2F5
 """,
 )
 
@@ -7096,7 +7096,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C3HF4O2-2 + C2F5O
+Original entry: C5HF9O3-5 <=> C3HF4O2-2 + C2F5O
 """,
 )
 
@@ -7122,7 +7122,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C5HF8O3 + CF3
+Original entry: C6HF11O3-2 <=> C5HF8O3 + CF3
 """,
 )
 
@@ -7135,7 +7135,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C5HF8O3-2 + CF3
+Original entry: C6HF11O3-3 <=> C5HF8O3-2 + CF3
 """,
 )
 
@@ -7148,7 +7148,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C4HF6O3-2 + C2F5
+Original entry: C6HF11O3-4 <=> C4HF6O3-2 + C2F5
 """,
 )
 
@@ -7161,7 +7161,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C3HF4O3-2 + C3F7
+Original entry: C6HF11O3-5 <=> C3HF4O3-2 + C3F7
 """,
 )
 
@@ -7174,1294 +7174,7 @@ entry(
     longDesc = 
 """
 Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C3HF4O2-2 + C3F7O-2
-""",
-)
-
-entry(
-    index = 372,
-    label = "CHF3-3 <=> H + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.53e+15,'s^-1'), n=0.33, Ea=(106892,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: CHF3 <=> H + CF3
-""",
-)
-
-entry(
-    index = 373,
-    label = "CHF3-4 <=> CHF2 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2e+18,'s^-1'), n=-0.61, Ea=(127285,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: CHF3 <=> CHF2 + F
-""",
-)
-
-entry(
-    index = 374,
-    label = "CF3O2-2 <=> CF3 + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.24e+22,'s^-1'), n=-1.75, Ea=(70422.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: CF3O2 <=> CF3 + O2
-""",
-)
-
-entry(
-    index = 375,
-    label = "C2HF5-5 <=> CHF2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.12e+24,'s^-1'), n=-2.12, Ea=(97427.8,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF5-2 <=> CHF2 + CF3
-""",
-)
-
-entry(
-    index = 376,
-    label = "C2HF5-6 <=> H + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.05e+14,'s^-1'), n=0.42, Ea=(103655,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF5-2 <=> H + C2F5
-""",
-)
-
-entry(
-    index = 377,
-    label = "C2HF5-7 <=> C2HF4 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.91e+18,'s^-1'), n=-0.71, Ea=(126135,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF5-2 <=> C2HF4 + F
-""",
-)
-
-entry(
-    index = 378,
-    label = "C2F6-3 <=> CF3 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.58e+26,'s^-1'), n=-2.35, Ea=(99025.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F6 <=> CF3 + CF3
-""",
-)
-
-entry(
-    index = 379,
-    label = "C2F6-4 <=> C2F5 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.57e+19,'s^-1'), n=-0.75, Ea=(125645,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F6 <=> C2F5 + F
-""",
-)
-
-entry(
-    index = 380,
-    label = "C2F4O-3 <=> C2F3O + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.78e+17,'s^-1'), n=-0.39, Ea=(117839,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F4O <=> C2F3O + F
-""",
-)
-
-entry(
-    index = 381,
-    label = "C2F4O-4 <=> CFO + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.79e+23,'s^-1'), n=-1.88, Ea=(91230.4,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F4O <=> CFO + CF3
-""",
-)
-
-entry(
-    index = 382,
-    label = "C2HF5O-2 <=> CHF2O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.86e+24,'s^-1'), n=-2.04, Ea=(98006.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF5O <=> CHF2O + CF3
-""",
-)
-
-entry(
-    index = 383,
-    label = "C2F5O2-2 <=> C2F5 + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.08e+21,'s^-1'), n=-1.64, Ea=(65799.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F5O2 <=> C2F5 + O2
-""",
-)
-
-entry(
-    index = 384,
-    label = "C2HF3O2-2 <=> CHO2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.39e+24,'s^-1'), n=-2.26, Ea=(91093.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2HF3O2 <=> CHO2 + CF3
-""",
-)
-
-entry(
-    index = 385,
-    label = "C2F3O3-2 <=> C2F3O + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.03e+21,'s^-1'), n=-1.6, Ea=(59501.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C2F3O3 <=> C2F3O + O2
-""",
-)
-
-entry(
-    index = 386,
-    label = "C3F6-2 <=> C2F3-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.47e+23,'s^-1'), n=-2, Ea=(59867.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6 <=> C2F3-2 + CF3
-""",
-)
-
-entry(
-    index = 387,
-    label = "C3HF7-5 <=> H + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.67e+13,'s^-1'), n=0.61, Ea=(102677,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> H + C3F7
-""",
-)
-
-entry(
-    index = 388,
-    label = "C3HF7-6 <=> CHF2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.35e+23,'s^-1'), n=-1.92, Ea=(93296.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> CHF2 + C2F5
-""",
-)
-
-entry(
-    index = 389,
-    label = "C3HF7-7 <=> C2HF4 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4e+24,'s^-1'), n=-2.11, Ea=(95383.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> C2HF4 + CF3
-""",
-)
-
-entry(
-    index = 390,
-    label = "C3HF7-8 <=> C3HF6 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.19e+17,'s^-1'), n=-0.52, Ea=(124543,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7 <=> C3HF6 + F
-""",
-)
-
-entry(
-    index = 391,
-    label = "C3F8-3 <=> C2F5 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.21e+25,'s^-1'), n=-2.03, Ea=(94408.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F8 <=> C2F5 + CF3
-""",
-)
-
-entry(
-    index = 392,
-    label = "C3F8-4 <=> C3F7 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.16e+17,'s^-1'), n=-0.43, Ea=(124181,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F8 <=> C3F7 + F
-""",
-)
-
-entry(
-    index = 393,
-    label = "C3F6O-5 <=> CFO + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.93e+22,'s^-1'), n=-1.68, Ea=(88047.8,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O <=> CFO + C2F5
-""",
-)
-
-entry(
-    index = 394,
-    label = "C3F6O-6 <=> C2F3O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.54e+23,'s^-1'), n=-1.79, Ea=(88037,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O <=> C2F3O + CF3
-""",
-)
-
-entry(
-    index = 395,
-    label = "C3F6O-7 <=> C2F3O-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.66e+24,'s^-1'), n=-2.13, Ea=(59169.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O-2 <=> C2F3O-2 + CF3
-""",
-)
-
-entry(
-    index = 396,
-    label = "C3F6O-8 <=> C2F3 + CF3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.96e+23,'s^-1'), n=-2.01, Ea=(112565,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O-2 <=> C2F3 + CF3O
-""",
-)
-
-entry(
-    index = 397,
-    label = "C3HF7O-6 <=> CHF2O + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.51e+23,'s^-1'), n=-1.78, Ea=(93426.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O <=> CHF2O + C2F5
-""",
-)
-
-entry(
-    index = 398,
-    label = "C3HF7O-7 <=> C2HF4O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.29e+23,'s^-1'), n=-1.78, Ea=(94310.4,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O <=> C2HF4O + CF3
-""",
-)
-
-entry(
-    index = 399,
-    label = "C3HF7O-8 <=> C2HF4O-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.69e+23,'s^-1'), n=-2, Ea=(102396,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O-2 <=> C2HF4O-2 + CF3
-""",
-)
-
-entry(
-    index = 400,
-    label = "C3HF7O-9 <=> C2HF4O-3 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.87e+24,'s^-1'), n=-2.1, Ea=(97369.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O-2 <=> C2HF4O-3 + CF3
-""",
-)
-
-entry(
-    index = 401,
-    label = "C3HF7O-10 <=> C2HF4-2 + CF3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.51e+23,'s^-1'), n=-1.81, Ea=(101746,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF7O-2 <=> C2HF4-2 + CF3O
-""",
-)
-
-entry(
-    index = 402,
-    label = "C3F4O2-3 <=> C2F3O + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.01e+21,'s^-1'), n=-1.53, Ea=(81204.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F4O2 <=> C2F3O + CFO
-""",
-)
-
-entry(
-    index = 403,
-    label = "C3F4O2-4 <=> CFO + C2F3O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.57e+25,'s^-1'), n=-2.52, Ea=(56793.8,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F4O2-2 <=> CFO + C2F3O-2
-""",
-)
-
-entry(
-    index = 404,
-    label = "C3HF5O2-3 <=> CHO2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.61e+24,'s^-1'), n=-2, Ea=(88017.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF5O2 <=> CHO2 + C2F5
-""",
-)
-
-entry(
-    index = 405,
-    label = "C3HF5O2-4 <=> C2HF2O2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7.54e+24,'s^-1'), n=-2.1, Ea=(90470.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3HF5O2 <=> C2HF2O2 + CF3
-""",
-)
-
-entry(
-    index = 406,
-    label = "C3F6O2-3 <=> C2F3O2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.4e+25,'s^-1'), n=-2.35, Ea=(89361.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O2 <=> C2F3O2 + CF3
-""",
-)
-
-entry(
-    index = 407,
-    label = "C3F6O2-4 <=> C2F3O-3 + CF3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.96e+24,'s^-1'), n=-2.17, Ea=(102065,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F6O2 <=> C2F3O-3 + CF3O
-""",
-)
-
-entry(
-    index = 408,
-    label = "C3F7O2-2 <=> C3F7 + O2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.31e+19,'s^-1'), n=-1.31, Ea=(64218.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C3F7O2 <=> C3F7 + O2
-""",
-)
-
-entry(
-    index = 409,
-    label = "C4HF9-4 <=> CHF2 + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.01e+22,'s^-1'), n=-1.73, Ea=(91468.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9 <=> CHF2 + C3F7
-""",
-)
-
-entry(
-    index = 410,
-    label = "C4HF9-5 <=> C2HF4 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.02e+23,'s^-1'), n=-1.92, Ea=(90402.8,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9 <=> C2HF4 + C2F5
-""",
-)
-
-entry(
-    index = 411,
-    label = "C4HF9-6 <=> C3HF6 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.74e+23,'s^-1'), n=-1.92, Ea=(92942.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9 <=> C3HF6 + CF3
-""",
-)
-
-entry(
-    index = 412,
-    label = "C4F10-5 <=> C4F9 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.58e+16,'s^-1'), n=-0.24, Ea=(123786,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C4F9 + F
-""",
-)
-
-entry(
-    index = 413,
-    label = "C4F10-6 <=> C4F9-2 + F",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5e+16,'s^-1'), n=-0.25, Ea=(115077,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C4F9-2 + F
-""",
-)
-
-entry(
-    index = 414,
-    label = "C4F10-7 <=> C3F7 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.06e+23,'s^-1'), n=-1.84, Ea=(92772.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C3F7 + CF3
-""",
-)
-
-entry(
-    index = 415,
-    label = "C4F10-8 <=> C2F5 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.8e+23,'s^-1'), n=-1.84, Ea=(89619.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F10 <=> C2F5 + C2F5
-""",
-)
-
-entry(
-    index = 416,
-    label = "C4F8O-7 <=> CFO + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.41e+21,'s^-1'), n=-1.45, Ea=(86577.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O <=> CFO + C3F7
-""",
-)
-
-entry(
-    index = 417,
-    label = "C4F8O-8 <=> C2F3O + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.42e+22,'s^-1'), n=-1.56, Ea=(83413.6,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O <=> C2F3O + C2F5
-""",
-)
-
-entry(
-    index = 418,
-    label = "C4F8O-9 <=> C3F5O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.09e+22,'s^-1'), n=-1.56, Ea=(93214.4,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O <=> C3F5O + CF3
-""",
-)
-
-entry(
-    index = 419,
-    label = "C4F8O-10 <=> C3F5O-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.69e+24,'s^-1'), n=-2.24, Ea=(97357.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O-2 <=> C3F5O-2 + CF3
-""",
-)
-
-entry(
-    index = 420,
-    label = "C4F8O-11 <=> C2F3O-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.17e+24,'s^-1'), n=-2.17, Ea=(55469.8,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O-2 <=> C2F3O-2 + C2F5
-""",
-)
-
-entry(
-    index = 421,
-    label = "C4F8O-12 <=> C2F3 + C2F5O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.33e+23,'s^-1'), n=-1.99, Ea=(111007,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O-2 <=> C2F3 + C2F5O
-""",
-)
-
-entry(
-    index = 422,
-    label = "C4HF9O-8 <=> CHF2O + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.66e+22,'s^-1'), n=-1.67, Ea=(91685,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O <=> CHF2O + C3F7
-""",
-)
-
-entry(
-    index = 423,
-    label = "C4HF9O-9 <=> C2HF4O + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.6e+22,'s^-1'), n=-1.66, Ea=(89416.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O <=> C2HF4O + C2F5
-""",
-)
-
-entry(
-    index = 424,
-    label = "C4HF9O-10 <=> C3HF6O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.16e+22,'s^-1'), n=-1.67, Ea=(92160.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O <=> C3HF6O + CF3
-""",
-)
-
-entry(
-    index = 425,
-    label = "C4HF9O-11 <=> C3HF6O-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.29e+25,'s^-1'), n=-2.47, Ea=(97424.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C3HF6O-2 + CF3
-""",
-)
-
-entry(
-    index = 426,
-    label = "C4HF9O-12 <=> C3HF6O-3 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.69e+24,'s^-1'), n=-2.22, Ea=(97230.6,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C3HF6O-3 + CF3
-""",
-)
-
-entry(
-    index = 427,
-    label = "C4HF9O-13 <=> C2HF4O-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.76e+23,'s^-1'), n=-2.12, Ea=(99032,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C2HF4O-2 + C2F5
-""",
-)
-
-entry(
-    index = 428,
-    label = "C4HF9O-14 <=> C2HF4-2 + C2F5O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.63e+23,'s^-1'), n=-1.87, Ea=(100523,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF9O-2 <=> C2HF4-2 + C2F5O
-""",
-)
-
-entry(
-    index = 429,
-    label = "C4F6O2-5 <=> C3F5O + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.61e+20,'s^-1'), n=-1.3, Ea=(86978.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2 <=> C3F5O + CFO
-""",
-)
-
-entry(
-    index = 430,
-    label = "C4F6O2-6 <=> C2F3O + C2F3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.49e+21,'s^-1'), n=-1.4, Ea=(77266.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2 <=> C2F3O + C2F3O
-""",
-)
-
-entry(
-    index = 431,
-    label = "C4F6O2-7 <=> C3F5O-2 + CFO",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.11e+21,'s^-1'), n=-1.72, Ea=(89384.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2-2 <=> C3F5O-2 + CFO
-""",
-)
-
-entry(
-    index = 432,
-    label = "C4F6O2-8 <=> C2F3O-2 + C2F3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.2e+22,'s^-1'), n=-1.76, Ea=(47485.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F6O2-2 <=> C2F3O-2 + C2F3O
-""",
-)
-
-entry(
-    index = 433,
-    label = "C4HF7O2-4 <=> CHO2 + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5e+23,'s^-1'), n=-1.85, Ea=(86653.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O2 <=> CHO2 + C3F7
-""",
-)
-
-entry(
-    index = 434,
-    label = "C4HF7O2-5 <=> C2HF2O2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.18e+24,'s^-1'), n=-1.94, Ea=(85953.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O2 <=> C2HF2O2 + C2F5
-""",
-)
-
-entry(
-    index = 435,
-    label = "C4HF7O2-6 <=> C3HF4O2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.87e+24,'s^-1'), n=-1.99, Ea=(94065,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O2 <=> C3HF4O2 + CF3
-""",
-)
-
-entry(
-    index = 436,
-    label = "C4F8O2-4 <=> C3F5O2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.61e+24,'s^-1'), n=-2.42, Ea=(88881.4,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O2 <=> C3F5O2 + CF3
-""",
-)
-
-entry(
-    index = 437,
-    label = "C4F8O2-5 <=> C3F5O2-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.89e+25,'s^-1'), n=-2.56, Ea=(96716.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O2 <=> C3F5O2-2 + CF3
-""",
-)
-
-entry(
-    index = 438,
-    label = "C4F8O2-6 <=> C2F3O-3 + C2F5O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.78e+24,'s^-1'), n=-2.18, Ea=(100406,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4F8O2 <=> C2F3O-3 + C2F5O
-""",
-)
-
-entry(
-    index = 439,
-    label = "C4HF7O3-5 <=> CHO2 + C3F7O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.23e+25,'s^-1'), n=-2.09, Ea=(86406.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> CHO2 + C3F7O
-""",
-)
-
-entry(
-    index = 440,
-    label = "C4HF7O3-6 <=> C3HF4O3 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.18e+26,'s^-1'), n=-2.2, Ea=(88258.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> C3HF4O3 + CF3
-""",
-)
-
-entry(
-    index = 441,
-    label = "C4HF7O3-7 <=> C3HF4O3-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.39e+24,'s^-1'), n=-1.94, Ea=(101346,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> C3HF4O3-2 + CF3
-""",
-)
-
-entry(
-    index = 442,
-    label = "C4HF7O3-8 <=> C3HF4O2-2 + CF3O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.66e+25,'s^-1'), n=-2.08, Ea=(92732.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C4HF7O3 <=> C3HF4O2-2 + CF3O
-""",
-)
-
-entry(
-    index = 443,
-    label = "C5F10O-5 <=> C4F7O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.03e+23,'s^-1'), n=-2.1, Ea=(94143.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C4F7O + CF3
-""",
-)
-
-entry(
-    index = 444,
-    label = "C5F10O-6 <=> C3F5O-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.39e+23,'s^-1'), n=-2.11, Ea=(93175.6,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C3F5O-2 + C2F5
-""",
-)
-
-entry(
-    index = 445,
-    label = "C5F10O-7 <=> C2F3O-2 + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.25e+23,'s^-1'), n=-2.04, Ea=(54440.6,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C2F3O-2 + C3F7
-""",
-)
-
-entry(
-    index = 446,
-    label = "C5F10O-8 <=> C2F3 + C3F7O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.19e+22,'s^-1'), n=-1.86, Ea=(110777,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O <=> C2F3 + C3F7O-2
-""",
-)
-
-entry(
-    index = 447,
-    label = "C5HF11O-6 <=> C4HF8O + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.64e+23,'s^-1'), n=-2.21, Ea=(94232.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C4HF8O + CF3
-""",
-)
-
-entry(
-    index = 448,
-    label = "C5HF11O-7 <=> C4HF8O-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.95e+23,'s^-1'), n=-1.98, Ea=(97110.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C4HF8O-2 + CF3
-""",
-)
-
-entry(
-    index = 449,
-    label = "C5HF11O-8 <=> C3HF6O-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.47e+24,'s^-1'), n=-2.23, Ea=(93133.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C3HF6O-2 + C2F5
-""",
-)
-
-entry(
-    index = 450,
-    label = "C5HF11O-9 <=> C2HF4O-2 + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.58e+22,'s^-1'), n=-1.88, Ea=(97794.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C2HF4O-2 + C3F7
-""",
-)
-
-entry(
-    index = 451,
-    label = "C5HF11O-10 <=> C2HF4-2 + C3F7O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.38e+21,'s^-1'), n=-1.63, Ea=(99985,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF11O <=> C2HF4-2 + C3F7O-2
-""",
-)
-
-entry(
-    index = 452,
-    label = "C5HF9O2-5 <=> C4HF6O2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.29e+22,'s^-1'), n=-1.56, Ea=(92402.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> C4HF6O2 + CF3
-""",
-)
-
-entry(
-    index = 453,
-    label = "C5HF9O2-6 <=> C3HF4O2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(9.56e+22,'s^-1'), n=-1.56, Ea=(88931.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> C3HF4O2 + C2F5
-""",
-)
-
-entry(
-    index = 454,
-    label = "C5HF9O2-7 <=> C2HF2O2 + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.6e+22,'s^-1'), n=-1.52, Ea=(83972.4,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> C2HF2O2 + C3F7
-""",
-)
-
-entry(
-    index = 455,
-    label = "C5HF9O2-8 <=> CHO2 + C4F9",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.98e+22,'s^-1'), n=-1.41, Ea=(86114,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O2 <=> CHO2 + C4F9
-""",
-)
-
-entry(
-    index = 456,
-    label = "C5F10O2-5 <=> C4F7O2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.29e+23,'s^-1'), n=-2.17, Ea=(88723.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C4F7O2 + CF3
-""",
-)
-
-entry(
-    index = 457,
-    label = "C5F10O2-6 <=> C4F7O2-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.72e+24,'s^-1'), n=-2.29, Ea=(94058.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C4F7O2-2 + CF3
-""",
-)
-
-entry(
-    index = 458,
-    label = "C5F10O2-7 <=> C3F5O2-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.04e+24,'s^-1'), n=-2.31, Ea=(92177.2,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C3F5O2-2 + C2F5
-""",
-)
-
-entry(
-    index = 459,
-    label = "C5F10O2-8 <=> C2F3O-3 + C3F7O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.06e+22,'s^-1'), n=-1.92, Ea=(99819.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5F10O2 <=> C2F3O-3 + C3F7O-2
-""",
-)
-
-entry(
-    index = 460,
-    label = "C5HF9O3-6 <=> CHO2 + C4F9O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(4.26e+27,'s^-1'), n=-3.05, Ea=(86516.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> CHO2 + C4F9O
-""",
-)
-
-entry(
-    index = 461,
-    label = "C5HF9O3-7 <=> C4HF6O3 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.51e+28,'s^-1'), n=-3.16, Ea=(88261.4,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C4HF6O3 + CF3
-""",
-)
-
-entry(
-    index = 462,
-    label = "C5HF9O3-8 <=> C4HF6O3-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(8.87e+27,'s^-1'), n=-3.21, Ea=(97239.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C4HF6O3-2 + CF3
-""",
-)
-
-entry(
-    index = 463,
-    label = "C5HF9O3-9 <=> C3HF4O3-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.3e+26,'s^-1'), n=-2.9, Ea=(98101.1,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C3HF4O3-2 + C2F5
-""",
-)
-
-entry(
-    index = 464,
-    label = "C5HF9O3-10 <=> C3HF4O2-2 + C2F5O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.57e+27,'s^-1'), n=-2.97, Ea=(91728.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C5HF9O3 <=> C3HF4O2-2 + C2F5O
-""",
-)
-
-entry(
-    index = 465,
-    label = "C6HF11O3-7 <=> CHO2 + C5F11O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5.75e+27,'s^-1'), n=-3.2, Ea=(86426.9,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> CHO2 + C5F11O
-""",
-)
-
-entry(
-    index = 466,
-    label = "C6HF11O3-8 <=> C5HF8O3 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(3.09e+27,'s^-1'), n=-3.34, Ea=(94502.6,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C5HF8O3 + CF3
-""",
-)
-
-entry(
-    index = 467,
-    label = "C6HF11O3-9 <=> C5HF8O3-2 + CF3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.03e+28,'s^-1'), n=-3.32, Ea=(87974.5,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C5HF8O3-2 + CF3
-""",
-)
-
-entry(
-    index = 468,
-    label = "C6HF11O3-10 <=> C4HF6O3-2 + C2F5",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.48e+28,'s^-1'), n=-3.36, Ea=(92858.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C4HF6O3-2 + C2F5
-""",
-)
-
-entry(
-    index = 469,
-    label = "C6HF11O3-11 <=> C3HF4O3-2 + C3F7",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(6.25e+26,'s^-1'), n=-3.05, Ea=(96873.7,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C3HF4O3-2 + C3F7
-""",
-)
-
-entry(
-    index = 470,
-    label = "C6HF11O3-12 <=> C3HF4O2-2 + C3F7O-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.34e+27,'s^-1'), n=-3.12, Ea=(91201.3,'cal/mol'), T0=(1,'K')),
-    rank = 3,
-    longDesc = 
-"""
-Training reaction from kinetics library: R_recomb_training_stuff
-Original entry: C6HF11O3 <=> C3HF4O2-2 + C3F7O-2
+Original entry: C6HF11O3-6 <=> C3HF4O2-2 + C3F7O-2
 """,
 )
 
