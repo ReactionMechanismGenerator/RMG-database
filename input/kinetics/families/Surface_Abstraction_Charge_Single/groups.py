@@ -4,7 +4,7 @@
 name = "Surface_Abstraction_Charge_Single/groups"
 shortDesc = u""
 longDesc = u"""
-Two adsorbates react. One has a multiple bond to the surface, the other has a
+Two adsorbates react. One has multiple bonds to the surface, the other has a
 bond to the surface and some functional group with charge separation across it,
 and a functional group with no charge separation. The one with no separation is
 transferred to the multiple-bonded species.
