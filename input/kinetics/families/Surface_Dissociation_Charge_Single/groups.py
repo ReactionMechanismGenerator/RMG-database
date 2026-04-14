@@ -10,9 +10,9 @@ but single, double, and triple are possible. What matters is that the bond
 between *1 and *2 must be single, and the bond between *4 and *1 must have
 charge separation across it.
 
-*4--*1--*2                 *4 --*1      *2
-    ||            ---->          |       |
-   ~*3~ + ~*5~~                ~*3~  + ~*5~~
+*4[-]--*1[+]--*2               *4 --*1      *2
+        ||            ---->          |       |
+       ~*3~ + ~*5~~                ~*3~  + ~*5~~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2)
@@ -42,7 +42,7 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
+1 *1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 *2 R u0 px c0 {1,S}
 3 *3 Xo u0 p0 c0 {1,D}
 4 *4 R!H u0 p[1,2,3] c-1 {1,S}
@@ -67,14 +67,14 @@ L1: VacantSite
 """
 )
 
-forbidden(
-    label = "Surf",
-    group =
-"""
-1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
-2 *2 R u0 px c0 {1,S} {5,[S,D,T]}
-3 *3 Xo u0 p0 c0 {1,D}
-4 *4 R!H u0 px c-1 {1,S}
-5 Xo u0 c0 {2,[S,D,T]}
-""",
-)
+#forbidden(
+#    label = "Surf",
+#    group =
+#"""
+# *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
+#2 *2 R u0 px c0 {1,S} {5,[S,D,T]}
+#3 *3 Xo u0 p0 c0 {1,D}
+#4 *4 R!H u0 px c-1 {1,S}
+#5 Xo u0 c0 {2,[S,D,T]}
+#""",
+#)
