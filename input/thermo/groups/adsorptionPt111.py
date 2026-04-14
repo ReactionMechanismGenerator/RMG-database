@@ -3477,8 +3477,8 @@ entry(
     label = "RXvdW",
     group=
 """
-1 X u0
-2 * R  u0
+1 * X u0
+2 R  u0
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3487,10 +3487,10 @@ entry(
         S298=(-128.976, 'J/(mol*K)'),
     ),
 shortDesc=u"""Averaged from: ['CHCHX', 'CHCCH3X', 'NCOHX', 'CH2CH2X', 'CH3CHCH2X', 'CH2CCH2X',
-'CH2NHX', 'CH2COX', 'CH2OX', 'OC(OH)OHX', 'CH3CHOX', 'HCOOHX', 'CH4X',
-'CH3CH3X', 'CH3CH2CH3X', 'CH3CH2OHX', 'CH3NH2X', 'CH3OHX', 'CH3OCH3X',
-'CH3OCH2OHX', 'H2C(OH)OHX', 'OCNHX', 'NHCNHX', 'NH3X', 'OCHNH2X', 'NH2NH2X',
-'NH2NCH3CH3X', 'H2NOHX', 'ONNH2X', 'ONNCH3CH3X', 'ONOHX', 'H2OX', 'HOOHX']""",
+'CH2NHX', 'CH2COX', 'CH2OX', 'OC(OH)OHX', 'CH3CHOX', 'HCOOHX', 'OCHNH2X',
+'CH4X', 'CH3CH3X', 'CH3CH2CH3X', 'CH3CH2OHX', 'CH3NH2X', 'CH3OHX', 'CH3OCH3X',
+'CH3OCH2OHX', 'H2C(OH)OHX', 'OCNHX', 'NHCNHX', 'NH3X', 'NH2NH2X', 'NH2NCH3CH3X',
+'H2NOHX', 'ONNH2X', 'ONNCH3CH3X', 'ONOHX', 'H2OX', 'HOOHX']""",
 longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
 methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
 in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
@@ -3510,8 +3510,8 @@ entry(
     label = "(CR2)X",
     group=
 """
-1 X  u0
-2 * C   u0 {3,T} {4,S}
+1 * X  u0
+2 C   u0 {3,T} {4,S}
 3 R!H u0 {2,T}
 4 R   u0 {2,S}
 """,
@@ -3541,11 +3541,11 @@ entry(
     label = "(CRCR)X",
     group=
 """
-1 X u0 p0 c0
-2 * C u0 p0 c0 {3,T} {4,S}
-3 C u0 p0 c0 {2,T} {5,S}
-4 R u0 px c0 {2,S}
-5 R u0 px c0 {3,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,T} {4,S}
+3 C  u0 p0 c0 {2,T} {5,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {3,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3573,8 +3573,8 @@ entry(
     label = "(CRN)X",
     group=
 """
-1 X u0  p0 c0
-2 * C  u0  p0 c0 {3,T} {4,S}
+1 * X u0  p0 c0
+2 C  u0  p0 c0 {3,T} {4,S}
 3 N  u0  p1 c0 {2,T}
 4 R  u0  px c0 {2,S}
 """,
@@ -3604,20 +3604,20 @@ entry(
     label = "(CR3)X",
     group=
 """
-1 X  u0
-2 * C  u0 {3,D} {4,S} {5,S}
+1 * X  u0
+2 C   u0 {3,D} {4,S} {5,S}
 3 R!H u0 {2,D}
 4 R   u0 {2,S}
 5 R   u0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-2.139, -0.779, -0.025, 0.403, 0.804, 0.953, 1.029], 'J/(mol*K)'),
-        H298=(-74.899, 'kJ/mol'),
-        S298=(-130.966, 'J/(mol*K)'),
+        Cpdata=([-2.288, -0.929, -0.172, 0.264, 0.683, 0.849, 0.944], 'J/(mol*K)'),
+        H298=(-77.525, 'kJ/mol'),
+        S298=(-131.72, 'J/(mol*K)'),
     ),
 shortDesc=u"""Averaged from: ['CH2CH2X', 'CH3CHCH2X', 'CH2CCH2X', 'CH2NHX', 'CH2COX', 'CH2OX',
-'OC(OH)OHX', 'CH3CHOX', 'HCOOHX']""",
+'OC(OH)OHX', 'CH3CHOX', 'HCOOHX', 'OCHNH2X']""",
 longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
 methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
 in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
@@ -3637,8 +3637,8 @@ entry(
     label = "(CR2CR)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,D} {4,S} {5,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 C  u0 p0 c0 {2,D} {6,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3670,8 +3670,8 @@ entry(
     label = "(CR2N)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,D} {4,S} {5,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 N  u0 p1 c0 {2,D}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3702,19 +3702,19 @@ entry(
     label = "(CR2O)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,D} {4,S} {5,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,D} {4,S} {5,S}
 3 O  u0 p2 c0 {2,D}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-2.315, -1.443, -0.922, -0.592, -0.225, -0.051, 0.079], 'J/(mol*K)'),
-        H298=(-75.558, 'kJ/mol'),
-        S298=(-122.364, 'J/(mol*K)'),
+        Cpdata=([-2.534, -1.583, -1.016, -0.658, -0.255, -0.058, 0.095], 'J/(mol*K)'),
+        H298=(-79.824, 'kJ/mol'),
+        S298=(-125.054, 'J/(mol*K)'),
     ),
-shortDesc=u"""Averaged from: ['CH2COX', 'CH2OX', 'OC(OH)OHX', 'CH3CHOX', 'HCOOHX']""",
+shortDesc=u"""Averaged from: ['CH2COX', 'CH2OX', 'OC(OH)OHX', 'CH3CHOX', 'HCOOHX', 'OCHNH2X']""",
 longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
 methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
 in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
@@ -3734,8 +3734,8 @@ entry(
     label = "(CR4)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 R  u0 px c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3768,8 +3768,8 @@ entry(
     label = "(CR3CR3)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3804,8 +3804,8 @@ entry(
     label = "(CR3N)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 N  u0 p1 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3837,8 +3837,8 @@ entry(
     label = "(CR3OR)X",
     group=
 """
-1 X u0 p0 c0
-2 * C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+1 * X u0 p0 c0
+2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 O  u0 p2 c0 {2,S} {7,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -3868,13 +3868,14 @@ conv_thr=1e-12, fmax=1e-3.
 
 entry(
     index = 120,
-    label = "(NR2)X",
+    label = "(N=C)X",
     group=
 """
-1 X u0 p0 c0
-2 * N u0 p1 c0 {3,D} {4,S}
-3 R!H u0 px c0 {2,D}
-4 R   u0 px c0 {2,S}
+1 * X u0 p0 c0
+2 N  u0 p1 c0 {3,D} {4,S}
+3 C  u0 p0 c0 {2,D} {5,D}
+4 R  u0 p0 c0 {2,S}
+5 R!H u0 p[1,2] c0 {3,D}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
@@ -3899,21 +3900,22 @@ conv_thr=1e-12, fmax=1e-3.
 
 entry(
     index = 121,
-    label = "(N=C)X",
+    label = "(NR3)X",
     group=
 """
-1 X u0 p0 c0
-2 * N u0 p1 c0 {3,D} {4,S}
-3 C u0 p0 c0 {2,D}
-4 R u0 p0 c0 {2,S}
+1 * X u0 p0 c0
+2 N  u0 p1 c0 {3,S} {4,S} {5,S}
+3 R  u0 px c0 {2,S}
+4 R  u0 px c0 {2,S}
+5 R  u0 px c0 {2,S}
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.774, -1.224, -0.874, -0.625, -0.309, -0.136, 0.025], 'J/(mol*K)'),
-        H298=(-109.75, 'kJ/mol'),
-        S298=(-122.197, 'J/(mol*K)'),
+        Cpdata=([-5.265, -2.782, -1.287, -0.345, 0.702, 1.225, 1.746], 'J/(mol*K)'),
+        H298=(-99.186, 'kJ/mol'),
+        S298=(-139.465, 'J/(mol*K)'),
     ),
-shortDesc=u"""Averaged from: ['OCNHX', 'NHCNHX']""",
+shortDesc=u"""Averaged from: ['NH3X', 'NH2NH2X', 'NH2NCH3CH3X', 'H2NOHX']""",
 longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
 methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
 in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
@@ -3930,75 +3932,11 @@ conv_thr=1e-12, fmax=1e-3.
 
 entry(
     index = 122,
-    label = "(NR3)X",
-    group=
-"""
-1 X u0 p0 c0
-2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 R  u0 px c0 {2,S}
-4 R  u0 px c0 {2,S}
-5 R  u0 px c0 {2,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-4.937, -2.682, -1.327, -0.473, 0.481, 0.961, 1.433], 'J/(mol*K)'),
-        H298=(-99.581, 'kJ/mol'),
-        S298=(-139.272, 'J/(mol*K)'),
-    ),
-shortDesc=u"""Averaged from: ['NH3X', 'OCHNH2X', 'NH2NH2X', 'NH2NCH3CH3X', 'H2NOHX']""",
-longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
-methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
-in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
-s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
-Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
-3x3x4 supercell with the bottom 2 layers fixed. The following settings were
-applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
-smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
-conv_thr=1e-12, fmax=1e-3.
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 123,
-    label = "(NC)X",
-    group=
-"""
-1 X u0 p0 c0
-2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 C  u0 p0 c0 {2,S}
-4 R  u0 px c0 {2,S}
-5 R  u0 px c0 {2,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-3.627, -2.282, -1.489, -0.985, -0.403, -0.095, 0.18], 'J/(mol*K)'),
-        H298=(-101.157, 'kJ/mol'),
-        S298=(-138.501, 'J/(mol*K)'),
-    ),
-shortDesc=u"""Averaged from: ['OCHNH2X']""",
-longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
-methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
-in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
-s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
-Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
-3x3x4 supercell with the bottom 2 layers fixed. The following settings were
-applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
-smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
-conv_thr=1e-12, fmax=1e-3.
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 124,
     label = "(NN)X",
     group=
 """
-1 X u0 p0 c0
-2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
+1 * X u0 p0 c0
+2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 N  u0 p1 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -4025,12 +3963,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 125,
+    index = 123,
     label = "(NO)X",
     group=
 """
-1 X u0 p0 c0
-2 * N  u0 p1 c0 {3,S} {4,S} {5,S}
+1 * X u0 p0 c0
+2 N  u0 p1 c0 {3,S} {4,S} {5,S}
 3 O  u0 p2 c0 {2,S}
 4 R  u0 px c0 {2,S}
 5 R  u0 px c0 {2,S}
@@ -4057,12 +3995,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 126,
+    index = 124,
     label = "(OR)X",
     group=
 """
-1 X u0 p0 c0
-2 * O u0 p2 c0 {3,D}
+1 * X u0 p0 c0
+2 O u0 p2 c0 {3,D}
 3 R!H u0 p1 c0 {2,D}
 """,
     thermo=ThermoData(
@@ -4087,12 +4025,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 127,
+    index = 125,
     label = "(ONR)X",
     group=
 """
-1 X u0 p0 c0
-2 * O u0 p2 c0 {3,D}
+1 * X u0 p0 c0
+2 O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {2,D} {4,S}
 4 R u0 px c0 {3,S}
 """,
@@ -4118,12 +4056,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 128,
+    index = 126,
     label = "(ONN)X",
     group=
 """
-1 X u0 p0 c0
-2 * O u0 p2 c0 {3,D}
+1 * X u0 p0 c0
+2 O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {2,D} {4,S}
 4 N u0 p2 c0 {3,S}
 """,
@@ -4149,12 +4087,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 129,
+    index = 127,
     label = "(ONOR)X",
     group=
 """
-1 X u0 p0 c0
-2 * O u0 p2 c0 {3,D}
+1 * X u0 p0 c0
+2 O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {2,D} {4,S}
 4 O u0 p2 c0 {3,S} {5,S}
 5 R u0 px c0 {4,S}
@@ -4181,12 +4119,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 130,
+    index = 128,
     label = "(OR2)X",
     group=
 """
-1 X u0 p0 c0
-2 * O  u0 p2 c0 {3,S} {4,S}
+1 * X u0 p0 c0
+2 O  u0 p2 c0 {3,S} {4,S}
 3 R  u0 p[0,1,2] c0 {2,S}
 4 R  u0 p[0,1,2] c0 {2,S}
 """,
@@ -4212,12 +4150,12 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 131,
+    index = 129,
     label = "(OROR)X",
     group=
 """
-1 X u0 p0 c0
-2 * O  u0 p2 c0 {3,S} {4,S}
+1 * X u0 p0 c0
+2 O  u0 p2 c0 {3,S} {4,S}
 3 O  u0 p2 c0 {2,S} {5,S}
 4 R  u0 p0 c0 {2,S}
 5 R  u0 p0 c0 {3,S}
@@ -4364,10 +4302,8 @@ L1: RX
             L4: (CR3CR3)X
             L4: (CR3N)X
             L4: (CR3OR)X
-        L3: (NR2)X
-            L4: (N=C)X
+        L3: (N=C)X
         L3: (NR3)X
-            L4: (NC)X
             L4: (NN)X
             L4: (NO)X
         L3: (OR)X
