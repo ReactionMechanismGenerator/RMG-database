@@ -32,6 +32,8 @@ recipe(actions=[
     ['GAIN_PAIR', '*1', '1'],
     ['CHANGE_BOND', '*1', -1, '*3'],
     ['CHANGE_BOND', '*1', 1, '*4'],
+    ['LOSE_CHARGE','*1','1'],
+    ['GAIN_CHARGE', '*4', '1'],
 ])
 
 entry(
@@ -39,7 +41,7 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 N u0 p0 c+1 {2,S} {3,D} {4,S}
+1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
 2 *2 R u0 px c0 {1,S}
 3 *3 Xo u0 p0 c0 {1,D}
 4 *4 R!H u0 p[1,2,3] c-1 {1,S}
@@ -68,7 +70,7 @@ forbidden(
     label = "Surf",
     group =
 """
-1 *1 N u0 p0 c+1 {2,S} {3,D} {4,S}
+1 *1 R!H u0 p0 c+1 {2,S} {3,D} {4,S}
 2 *2 R u0 px c0 {1,S} {5,[S,D,T]}
 3 *3 Xo u0 p0 c0 {1,D}
 4 *4 R!H u0 px c-1 {1,S}
