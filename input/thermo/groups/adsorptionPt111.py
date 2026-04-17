@@ -2449,13 +2449,13 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-8.007, -4.999, -3.006, -1.685, -0.197, 0.529, 1.224], 'J/(mol*K)'),
-        H298=(-306.661, 'kJ/mol'),
-        S298=(-166.429, 'J/(mol*K)'),
+        Cpdata=([-8.229, -5.137, -3.085, -1.728, -0.209, 0.527, 1.229], 'J/(mol*K)'),
+        H298=(-289.527, 'kJ/mol'),
+        S298=(-165.923, 'J/(mol*K)'),
     ),
-shortDesc=u"""Averaged from: ['CH2XCCH3', 'CH2XCOH', 'XCHCCH2', 'XCHCH2', 'XCHCHCH3',
+shortDesc=u"""Averaged from: ['XCHCO', 'CH2XCCH3', 'CH2XCOH', 'XCHCCH2', 'XCHCH2', 'XCHCHCH3',
 'OXCNH2', 'NH2XCNH', 'XCHNH', 'OHXCNH', 'NH2XCNH', 'XCHO', 'XCOOH', 'CH3XCO',
-'XCCHO', 'CH3CH2XCO']""",
+'CH3CH2XCO']""",
 longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
 methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
 in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
@@ -2594,11 +2594,11 @@ entry(
 """,
     thermo=ThermoData(
         Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-9.126, -6.33, -4.525, -3.32, -1.915, -1.187, -0.452], 'J/(mol*K)'),
-        H298=(-336.396, 'kJ/mol'),
-        S298=(-164.4, 'J/(mol*K)'),
+        Cpdata=([-6.986, -4.107, -2.256, -1.046, 0.308, 0.975, 1.636], 'J/(mol*K)'),
+        H298=(-279.216, 'kJ/mol'),
+        S298=(-163.124, 'J/(mol*K)'),
     ),
-shortDesc=u"""Averaged from: ['XCHO', 'XCOOH', 'CH3XCO', 'XCCHO', 'CH3CH2XCO']""",
+shortDesc=u"""Averaged from: ['XCHO', 'XCOOH', 'CH3XCO', 'CH3CH2XCO']""",
 longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
 methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
 in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
