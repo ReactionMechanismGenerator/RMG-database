@@ -1467,41 +1467,6 @@ conv_thr=1e-12, fmax=1e-3.
 
 entry(
     index = 41,
-    label = "OXOX",
-    group=
-"""
-1 * X u0 p0 c0 {3,S}
-2 X u0 p0 c0 {4,S}
-3 O  u0 p2 c0 {1,S} {4,S}
-4 O  u0 p2 c0 {2,S} {3,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-3.845, -0.672, 0.701, 1.206, 1.284, 1.068, 0.608], 'J/(mol*K)'),
-        H298=(-115.224, 'kJ/mol'),
-        S298=(-168.993, 'J/(mol*K)'),
-    ),
-shortDesc=u"""Averaged from: ['XOXO']""",
-longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
-methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
-in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
-s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
-Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
-3x3x4 supercell with the bottom 2 layers fixed. The following settings were
-applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
-smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
-conv_thr=1e-12, fmax=1e-3.
-
-   O--O
-   |  |
-*** ***
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 42,
     label = "RXbridgedBidentate",
     group=
 """
@@ -1539,7 +1504,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 43,
+    index = 42,
     label = "CXRCX",
     group=
 """
@@ -1577,7 +1542,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 44,
+    index = 43,
     label = "C#X-R-C#X",
     group=
 """
@@ -1613,7 +1578,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 45,
+    index = 44,
     label = "C#X-R-C-XR2",
     group=
 """
@@ -1651,7 +1616,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 46,
+    index = 45,
     label = "C#X-R-C=XR",
     group=
 """
@@ -1688,7 +1653,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 47,
+    index = 46,
     label = "C#X-R=C-XR",
     group=
 """
@@ -1725,7 +1690,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 48,
+    index = 47,
     label = "C=X=R-C-XR2",
     group=
 """
@@ -1763,7 +1728,7 @@ conv_thr=1e-12, fmax=1e-3.
 )
 
 entry(
-    index = 49,
+    index = 48,
     label = "R2C-X-R-C-XR2",
     group=
 """
@@ -1797,6 +1762,42 @@ conv_thr=1e-12, fmax=1e-3.
 R2C-R-CR2
    |   |
 *** ***
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 49,
+    label = "(OROR)X",
+    group=
+"""
+1 * X u0 p0 c0
+2 O  u0 p2 c0 {3,S} {4,S}
+3 O  u0 p2 c0 {2,S} {5,S}
+4 R  u0 p0 c0 {2,S}
+5 R  u0 p0 c0 {3,S}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-1.999, -1.084, -0.634, -0.367, -0.023, 0.197, 0.393], 'J/(mol*K)'),
+        H298=(-65.492, 'kJ/mol'),
+        S298=(-110.352, 'J/(mol*K)'),
+    ),
+shortDesc=u"""Averaged from: ['HOOHX']""",
+longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
+methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
+in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
+s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
+Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
+3x3x4 supercell with the bottom 2 layers fixed. The following settings were
+applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
+conv_thr=1e-12, fmax=1e-3.
+
+ R-O-O-R
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4653,42 +4654,6 @@ smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
 
  R-O-R
-    :
-***********
-""",
-    metal = "Pt",
-    facet = "111",
-)
-
-entry(
-    index = 129,
-    label = "(OROR)X",
-    group=
-"""
-1 * X u0 p0 c0
-2 O  u0 p2 c0 {3,S} {4,S}
-3 O  u0 p2 c0 {2,S} {5,S}
-4 R  u0 p0 c0 {2,S}
-5 R  u0 p0 c0 {3,S}
-""",
-    thermo=ThermoData(
-        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
-        Cpdata=([-1.999, -1.084, -0.634, -0.367, -0.023, 0.197, 0.393], 'J/(mol*K)'),
-        H298=(-65.492, 'kJ/mol'),
-        S298=(-110.352, 'J/(mol*K)'),
-    ),
-shortDesc=u"""Averaged from: ['HOOHX']""",
-longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
-methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
-in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
-s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
-Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
-3x3x4 supercell with the bottom 2 layers fixed. The following settings were
-applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
-smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
-conv_thr=1e-12, fmax=1e-3.
-
- R-O-O-R
     :
 ***********
 """,
