@@ -4703,7 +4703,6 @@ L1: RX
         L3: NXOX
             L4: N-XRO-X
             L4: N[+]=XR[-]O-X
-        L3: OXOX
     L2: RXbridgedBidentate
         L3: CXRCX
             L4: C#X-R-C#X
