@@ -40,7 +40,7 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
+1 *1 Val5 u0 p0 c+1 {2,S} {3,[S,D]}
 2 *2 R!H u0 p[1,2,3] c-1 {1,S}
 3 *3 Xo u0 p0 c0 {1,[S,D]}
 """,
@@ -68,7 +68,7 @@ forbidden(
     label = "Surf",
     group =
 """
-1 *1 R!H u0 p0 c+1 {2,S} {3,[S,D]}
+1 *1 Val5 u0 p0 c+1 {2,S} {3,[S,D]}
 2 *2 R!H u0 p[1,2,3] c-1 {1,S} {4,[S,D,T]}
 3 *3 Xo u0 p0 c0 {1,[S,D]}
 4 Xo u0 c0 {2,[S,D,T]}
