@@ -28,6 +28,9 @@ entry(
     thermo=None,
     shortDesc=u"""Anything adsorbed anyhow.""",
     longDesc=u"""
+ R
+ |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -65,6 +68,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R---R
+ |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -98,6 +105,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C-C
+ | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -130,6 +141,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C---C=R
+ |||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -163,6 +178,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C---CR2
+ |||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -195,6 +214,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C---C-R
+ ||| ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -226,6 +249,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C==C
+ || ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -260,6 +287,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---C=R
+  |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -295,6 +326,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---CR2
+  |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -329,6 +364,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---C-R
+  |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -362,6 +401,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=C-R
+   | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -394,6 +437,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=C
+   | ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -427,6 +474,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---C=R
+   ||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -460,6 +511,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---C-R
+   ||  ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -492,6 +547,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C-N
+ | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -526,6 +585,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---N-R
+  |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -559,6 +622,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---N
+  |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -591,6 +658,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=N
+   |  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -624,6 +695,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C---N-R
+   |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -656,6 +731,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C---N
+   |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -689,6 +768,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---N-R
+   ||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -721,6 +804,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---N
+   ||  ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -752,6 +839,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C-O
+ | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -785,6 +876,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---O
+  |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -817,6 +912,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C---O
+   |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -849,6 +948,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---O
+   ||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -881,6 +984,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C-N
+ | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -915,6 +1022,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---N-R
+  |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -948,6 +1059,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C---N
+  |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -980,6 +1095,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=N
+   |  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1013,6 +1132,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C---N-R
+   |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1045,6 +1168,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C---N
+   |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1078,6 +1205,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---N-R
+   ||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1110,6 +1241,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C---N
+   ||  ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1141,6 +1276,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-N
+ | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1174,6 +1313,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N---N-R
+   |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1206,6 +1349,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N---N
+   |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1237,6 +1384,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-O
+ | |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1269,6 +1420,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N---O
+   |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1301,6 +1456,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R[-]-N[+]-O
+      ||    |
+   ***      ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1332,6 +1491,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+   O--O
+   |  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1366,6 +1529,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-R-R
+ |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1400,6 +1567,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C-R-C
+ |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1432,6 +1603,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C-R-C
+ ||| |||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1466,6 +1641,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C-R-CR2
+ |||  |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1499,6 +1678,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C-R-C-R
+ |||  ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1532,6 +1715,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C-R=C-R
+ |||   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1566,6 +1753,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  C=R-CR2
+  ||   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1602,6 +1793,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C-R-CR2
+   |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1637,6 +1832,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=R-CR2
+   |    |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1671,6 +1870,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=R=C-R
+   |    |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1704,6 +1907,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=R=C
+   |   ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1739,6 +1946,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C-R-CR2
+   ||   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1773,6 +1984,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C-R-C-R
+   ||  ||
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1807,6 +2022,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C-R=C-R
+   ||   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1840,6 +2059,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C-R-O
+ |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1873,6 +2096,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=R-O
+   |    |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1905,6 +2132,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ O-R-O
+ |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1937,6 +2168,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  O-C-O
+  |   |
+*** ***
 """,
     metal = "Pt",
     facet = "111",
@@ -1976,6 +2211,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R
+ |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2011,6 +2250,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C
+ |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2042,6 +2285,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C
+   |||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2074,6 +2321,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+  R=C-C
+      |||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2107,6 +2358,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-C
+     |||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2137,6 +2392,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-C
+   |||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2168,6 +2427,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-C
+     |||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2201,6 +2464,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C-R
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2234,6 +2501,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=CR2
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2265,6 +2536,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-C=R
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2297,6 +2572,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=N-R
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2328,6 +2607,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C=O
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2361,6 +2644,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-CR2
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2396,6 +2683,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C-CR3
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2428,6 +2719,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C-N
+    |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2461,6 +2756,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+R2C-OR
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2491,6 +2790,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C
+   ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2521,6 +2824,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ C=C
+   ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2552,6 +2859,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N=C
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2584,6 +2895,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-CR
+   ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2617,6 +2932,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C-C-R
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2651,6 +2970,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-C-R
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2682,6 +3005,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-C-R
+   ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2714,6 +3041,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-C-R
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2745,6 +3076,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N
+ |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2775,6 +3110,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=N
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2806,6 +3145,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C=N
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2838,6 +3181,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C=N
+    |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2869,6 +3216,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N=N
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2901,6 +3252,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N-R
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2933,6 +3288,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C-N-R
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2967,6 +3326,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-N-R
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -2999,6 +3362,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=N-N-R
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3032,6 +3399,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2N-N-R
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3064,6 +3435,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-N-R
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3095,6 +3470,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=N[+]-R[-]
+    |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3126,6 +3505,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R[-]-N[+]-R
+      ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3156,6 +3539,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N
+   ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3187,6 +3574,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R≡C-N
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3218,6 +3609,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C-N
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3248,6 +3643,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-N
+   ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3279,6 +3678,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-N
+     ||
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3309,6 +3712,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ O
+ |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3340,6 +3747,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3372,6 +3783,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=C-O
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3405,6 +3820,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-O
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3436,6 +3855,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-O
+   |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3467,6 +3890,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-O
+     |
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3500,6 +3927,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R
+ :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3531,6 +3962,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C
+  :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3563,6 +3998,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C≡C-R
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3594,6 +4033,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-C≡N
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3627,6 +4070,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C=R
+   :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3660,6 +4107,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C=C-R
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3692,6 +4143,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C=N
+   :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3724,6 +4179,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2C=O
+   :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3758,6 +4217,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ CR4
+  :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3794,6 +4257,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-CR3
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3827,6 +4294,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-N
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3861,6 +4332,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3C-O-R
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3893,6 +4368,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N=C=R
+     :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3925,6 +4404,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R3N
+  :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3957,6 +4440,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2N-N
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -3989,6 +4476,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R2N-O
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4019,6 +4510,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R=O
+  :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4050,6 +4545,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-N=O
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4081,6 +4580,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ N-N=O
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4113,6 +4616,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-N=O
+     :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4144,6 +4651,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-R
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
@@ -4176,6 +4687,10 @@ Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
 applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
 smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
 conv_thr=1e-12, fmax=1e-3.
+
+ R-O-O-R
+    :
+***********
 """,
     metal = "Pt",
     facet = "111",
