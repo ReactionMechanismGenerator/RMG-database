@@ -2,10 +2,58 @@
 # encoding: utf-8
 
 name = "CO2RR_Adsorbates_Cu3Sn0001"
-solvent = "water"
-shortDesc = u"Place holder for short description"
-longDesc = u"""
-Place holder for long description
+shortDesc = "CO2RR adsorbate thermochemistry on Cu3Sn(0001) from DFT"
+longDesc = """
+NASA polynomial thermochemistry for C1 and C2 adsorbate intermediates
+relevant to electrochemical CO2 reduction (CO2RR) on the Cu3Sn(0001)
+surface of the epsilon-Cu3Sn intermetallic. Species include CHOX, COX,
+COOHX, OCHOX, COCHOX, the C-C coupled XCOXCO dimer, and the C2 alkoxy
+and enol intermediates OCHCHX, OCHCH2X, OCHCH3X, OCHCHOHX, OCHCH2OHX,
+OCHOCHX, and OCH2CH3X. Adsorbates are labeled with a trailing or
+interleaved 'X' to indicate surface binding sites, per RMG conventions.
+
+DFT (Colin Gallagher, Northeastern): VASP with PBE + Grimme D3 zero-damping
+(IVDW = 12) and PAW pseudopotentials. A two-stage protocol was used:
+initial geometries were pre-optimized at ENCUT = 400 eV with a 3x3x1
+Monkhorst-Pack k-mesh, then fully re-relaxed to force convergence at
+tighter settings of ENCUT = 500 eV and 4x4x1 k-mesh (IBRION = 2,
+EDIFFG = -0.03 eV/A). All final energies - adsorbate slabs, bare-slab
+reference, and vibrational frequencies - were computed at the tight
+settings. Other parameters: 1st order Methfessel-Paxton smearing
+(ISMEAR = 1) with a smearing width of 0.1 eV, ISPIN = 2,
+EDIFF = 1E-6 eV, no dipole correction. Slab: hexagonal Cu3Sn(0001)
+supercell with 48 Cu + 16 Sn across 5 layers (bottom 3 fixed, top 2
+relaxed), in-plane area 104.37 A^2, ~17 A vacuum. Harmonic frequencies
+from finite differences (IBRION = 5, NFREE = 2, POTIM = 0.015 A) on the
+free atoms (adsorbate + top 2 layers).
+
+Post-processing and thermo (Torrie Asifor) via the Westgroup pipeline
+(adapted from input_generator.py and compute_NASA_for_adsorbates): VASP
+outputs converted to ASE .traj and inspected; vibrational frequencies
+and ZPEs consolidated into per-species zpe_log_<species>.txt files;
+imaginary modes replaced with 12 cm^-1. Heat of formation at 0 K was
+computed from a thermochemical cycle against CH4, H2O, and H2 references
+(ATcT: h0_CH4 = -66.556 kJ/mol, h0_H2O = -238.938 kJ/mol,
+h0_H2 = 0.0 kJ/mol). Reference gas electronic energies were read from the
+final frame of each gas's ads_vib.traj at the same PBE+D3 level as the
+slabs (displaced rather than relaxed geometries, a systematic ~1 kJ/mol
+offset shared across all species); hard-coded ZPEs ZPE_CH4 = 1.196 eV,
+ZPE_H2 = 0.277 eV, ZPE_H2O = 0.609 eV were used. Partition functions
+were evaluated over 298.15-2000 K with the harmonic oscillator
+approximation; when an adsorbate's two lowest modes fall below 100 cm^-1
+they are replaced by a 2D-gas translational model using a legacy per-site
+area of 6.90 A^2/site inherited from earlier 3x3 Cu(111) workflows (vs.
+the actual 6.52 A^2/site for this Cu3Sn slab, a ~0.15 kJ/mol shift at
+298 K). NASA polynomials were fit in two ranges (298-1000 K,
+1000-2000 K) by least-squares regression of Cp/R with enthalpy and
+entropy matched at 298.15 K and continuity enforced at 1000 K. Heats of
+formation were corrected from 0 K to 298 K using tabulated atomic
+H(298)-H(0) increments.
+
+Primary DFT-based thermo reference for RMG-generated CO2RR mechanisms on
+Cu3Sn(0001) in the Westgroup automated microkinetic modeling pipeline.
+Uncertainty is consistent with typical PBE+D3 performance on
+transition-metal adsorbates (~0.2 eV, ~20 kJ/mol per species).
 """
 
 entry(
@@ -28,7 +76,7 @@ entry(
 ),
     shortDesc = u"""CHOX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -57,7 +105,7 @@ entry(
 ),
     shortDesc = u"""COCHOX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -85,7 +133,7 @@ entry(
 ),
     shortDesc = u"""COOHX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -111,7 +159,7 @@ entry(
 ),
     shortDesc = u"""COX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -143,7 +191,7 @@ entry(
 ),
     shortDesc = u"""OCH2CH3X""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -175,7 +223,7 @@ entry(
 ),
     shortDesc = u"""OCHCH2OHX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -205,7 +253,7 @@ entry(
 ),
     shortDesc = u"""OCHCH2X""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -236,7 +284,7 @@ entry(
 ),
     shortDesc = u"""OCHCH3X""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -267,7 +315,7 @@ entry(
 ),
     shortDesc = u"""OCHCHOHX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -296,7 +344,7 @@ entry(
 ),
     shortDesc = u"""OCHCHX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -327,7 +375,7 @@ entry(
 ),
     shortDesc = u"""OCHOCHX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -355,7 +403,7 @@ entry(
 ),
     shortDesc = u"""OCHOX""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
@@ -384,7 +432,7 @@ entry(
 ),
     shortDesc = u"""XCOXCO""",
     longDesc =
-u"""Calculated by Torrie Asifor at Northeastern University using Statistical Mechanics. Based on DFT calculations by Colin Gallagher at Northeastern University
+u"""
 """,
     metal = "Cu3Sn",
     facet = "0001",
