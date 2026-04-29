@@ -57,7 +57,7 @@ XCHOH
 2 C u0 p0 c0 {1,S} {3,S} {5,D}
 3 H u0 p0 c0 {2,S}
 4 H u0 p0 c0 {1,S}
-5 X u0 p0 c0 {2,S}
+5 X u0 p0 c0 {2,D}
 
 CH2OX
 1 O u0 p2 c0 {2,D}

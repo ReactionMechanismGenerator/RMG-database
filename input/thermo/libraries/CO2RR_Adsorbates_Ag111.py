@@ -3,9 +3,42 @@
 
 name = "CO2RR_Adsorbates_Ag111"
 solvent = "water"
-shortDesc = u"Place holder for short description"
+shortDesc = u"CO2RR adsorbate thermochemistry on Ag(111) from DFT"
 longDesc = u"""
-Place holder for long description
+NASA polynomial thermochemistry for C1 and C2 adsorbate intermediates
+relevant to electrochemical CO2 reduction (CO2RR) on Ag(111).
+Adsorbates are labeled with a trailing or interleaved 'X' to indicate
+surface binding sites, per RMG conventions.
+
+DFT (Manish Kumar Kothakonda, Northeastern): VASP with PBE + Grimme D3
+zero-damping (IVDW = 12) and PAW pseudopotentials.
+A two-stage protocol was used:
+Initial geometries were pre-optimized at ENCUT = 400 eV with a 3x3x1
+Monkhorst-Pack k-mesh, then fully re-relaxed to force convergence at
+tighter settings of ENCUT = 500 eV and 4x4x1 k-mesh (IBRION = 2,
+EDIFFG = -0.03 eV/A). All final energies - adsorbate slabs, bare-slab
+reference, and vibrational frequencies - were computed at the tight
+settings.
+
+Post-processing and thermo (Su Sun) via the Westgroup pipeline
+(adapted from input_generator.py and compute_NASA_for_adsorbates): VASP
+outputs converted to ASE .traj and inspected; vibrational frequencies
+and ZPEs consolidated into per-species zpe_log_<species>.txt files;
+imaginary modes replaced with 12 cm^-1. Heat of formation at 0 K was
+computed from a thermochemical cycle against CH4, H2O, and H2 references
+(ATcT: h0_CH4 = -66.556 kJ/mol, h0_H2O = -238.938 kJ/mol,
+h0_H2 = 0.0 kJ/mol). Reference gas electronic energies were read from the
+final frame of each gas's ads_vib.traj at the same PBE+D3 level as the
+slabs (displaced rather than relaxed geometries, a systematic ~1 kJ/mol
+offset shared across all species); hard-coded ZPEs ZPE_CH4 = 1.196 eV,
+ZPE_H2 = 0.277 eV, ZPE_H2O = 0.609 eV were used. Partition functions
+were evaluated over 298.15-2000 K with the harmonic oscillator
+approximation; when an adsorbate's two lowest modes fall below 100 cm^-1
+they are replaced by a 2D-gas translational model.
+NASA polynomials were fit in two ranges (298-1000 K, 1000-2000 K) by
+least-squares regression of Cp/R with enthalpy and entropy
+matched at 298.15 K and continuity enforced at 1000 K. Heats of formation
+were corrected from 0 K to 298 K using tabulated atomic H(298)-H(0) increments.
 """
 
 entry(
@@ -27,7 +60,7 @@ entry(
 ),
     shortDesc = u"""CHX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -51,7 +84,7 @@ entry(
 ),
     shortDesc = u"""COX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -77,7 +110,7 @@ entry(
 ),
     shortDesc = u"""HCOOH""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -102,7 +135,7 @@ entry(
 ),
     shortDesc = u"""COHX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -128,7 +161,7 @@ entry(
 ),
     shortDesc = u"""CHOHX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -154,7 +187,7 @@ entry(
 ),
     shortDesc = u"""COOHX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -180,7 +213,7 @@ entry(
 ),
     shortDesc = u"""HCOOX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -203,7 +236,7 @@ entry(
 ),
     shortDesc = u"""CX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -229,7 +262,7 @@ entry(
 ),
     shortDesc = u"""CH3X""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -254,7 +287,7 @@ entry(
 ),
     shortDesc = u"""CHOX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -280,7 +313,7 @@ entry(
 ),
     shortDesc = u"""CH4""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -305,7 +338,7 @@ entry(
 ),
     shortDesc = u"""CH2X""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 
@@ -332,7 +365,7 @@ entry(
 ),
     shortDesc = u"""CH2OHX""",
     longDesc =
-u"""Calculated by Su Sun at Northeastern University using Statistical Mechanics. Based on DFT calculations by Manish Kumar Kothakonda at Northeastern University
+u"""
 """,
 )
 

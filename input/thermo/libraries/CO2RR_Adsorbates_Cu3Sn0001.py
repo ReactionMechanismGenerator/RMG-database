@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 name = "CO2RR_Adsorbates_Cu3Sn0001"
+solvent = "water"
 shortDesc = "CO2RR adsorbate thermochemistry on Cu3Sn(0001) from DFT"
 longDesc = """
 NASA polynomial thermochemistry for C1 and C2 adsorbate intermediates
@@ -13,13 +14,15 @@ OCHOCHX, and OCH2CH3X. Adsorbates are labeled with a trailing or
 interleaved 'X' to indicate surface binding sites, per RMG conventions.
 
 DFT (Colin Gallagher, Northeastern): VASP with PBE + Grimme D3 zero-damping
-(IVDW = 12) and PAW pseudopotentials. A two-stage protocol was used:
-initial geometries were pre-optimized at ENCUT = 400 eV with a 3x3x1
+(IVDW = 12) and PAW pseudopotentials.
+A two-stage protocol was used:
+Initial geometries were pre-optimized at ENCUT = 400 eV with a 3x3x1
 Monkhorst-Pack k-mesh, then fully re-relaxed to force convergence at
 tighter settings of ENCUT = 500 eV and 4x4x1 k-mesh (IBRION = 2,
 EDIFFG = -0.03 eV/A). All final energies - adsorbate slabs, bare-slab
 reference, and vibrational frequencies - were computed at the tight
-settings. Other parameters: 1st order Methfessel-Paxton smearing
+settings.
+Other parameters: 1st order Methfessel-Paxton smearing
 (ISMEAR = 1) with a smearing width of 0.1 eV, ISPIN = 2,
 EDIFF = 1E-6 eV, no dipole correction. Slab: hexagonal Cu3Sn(0001)
 supercell with 48 Cu + 16 Sn across 5 layers (bottom 3 fixed, top 2
@@ -120,7 +123,7 @@ entry(
 1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {3,D}
 3 C u0 p0 c0 {1,S} {2,D} {5,S}
-4 H u0 p0 c0 {1,S} 
+4 H u0 p0 c0 {1,S}
 5 X u0 p0 c0 {3,S}
 """,
     thermo = NASA(
@@ -147,7 +150,7 @@ entry(
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
-3 X u0 p0 c0 {2,D} 
+3 X u0 p0 c0 {2,D}
 """,
     thermo = NASA(
     polynomials = [
@@ -211,7 +214,7 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {4,S}
 8 H u0 p0 c0 {1,S}
-9 X u0 p0 c0 
+9 X u0 p0 c0
 """,
     thermo = NASA(
     polynomials = [
@@ -265,14 +268,14 @@ entry(
     label = "OCHCH3X",
     molecule =
 """
-1 O u0 p2 c0 {3,D} 
+1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 3 C u0 p0 c0 {1,D} {2,S} {7,S}
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
-8 X u0 p0 c0 
+8 X u0 p0 c0
 """,
     thermo = NASA(
     polynomials = [
@@ -297,7 +300,7 @@ entry(
     molecule =
 """
 1 O u0 p2 c0 {3,S} {8,S}
-2 O u0 p2 c0 {4,S} {7,S} 
+2 O u0 p2 c0 {4,S} {7,S}
 3 C u0 p0 c0 {1,S} {4,D} {5,S}
 4 C u0 p0 c0 {2,S} {3,D} {6,S}
 5 H u0 p0 c0 {3,S}
@@ -357,7 +360,7 @@ entry(
     molecule =
 """
 1 O u0 p2 c0 {3,S} {7,S}
-2 O u0 p2 c0 {4,S} {8,S} 
+2 O u0 p2 c0 {4,S} {8,S}
 3 C u0 p0 c0 {1,S} {4,D} {5,S}
 4 C u0 p0 c0 {2,S} {3,D} {6,S}
 5 H u0 p0 c0 {3,S}
@@ -388,7 +391,7 @@ entry(
     molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
-2 O u0 p2 c0 {3,D} 
+2 O u0 p2 c0 {3,D}
 3 C u0 p0 c0 {1,S} {2,D} {4,S}
 4 H u0 p0 c0 {3,S}
 5 X u0 p0 c0 {1,S}
