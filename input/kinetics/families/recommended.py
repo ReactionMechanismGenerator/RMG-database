@@ -145,6 +145,17 @@ halogens = {
     'intra_halogen_migration'
 }
 
+#reaction families for PFAS chemistry only 
+PFAS = {
+    'Perfluoroalkene_Formation',
+    'Enol_Ether_Formation',
+    'CO2_Elimination_From_Carboxylic_Acid', 
+    'CO_CF_bond_dissociation', 
+    'PFAS_Hydrolysis', 
+    'Lactone_Formation', 
+}
+
+
 # Surface chemistry families that are under development and not yet working well.
 surface_development = {
     #'Surface_Adsorption_Double',
