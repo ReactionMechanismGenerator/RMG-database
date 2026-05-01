@@ -116,7 +116,7 @@ surface = {
     'Surface_Adsorption_Bidentate',
     'Surface_Bidentate_Dissociation',
     'Surface_Monodentate_to_Bidentate',
-    'Surface_Dissociation_to_Bidentate', 
+    'Surface_Dissociation_to_Bidentate',
     'Surface_vdW_to_Bidentate',
     'Surface_Adsorption_Dissociative_Double',
     'Surface_Abstraction_Beta',
@@ -152,7 +152,7 @@ surface_development = {
     'Surface_Migration',
 }
 
-# Electrochemical families!
+# Electrochemical families.
 electrochem = {
     'Surface_Proton_Electron_Reduction_Alpha',
     'Surface_Proton_Electron_Reduction_Alpha_vdW',
@@ -169,4 +169,25 @@ electrochem = {
     'Cation_Addition_MultipleBond_Disprop',
     'Li_Abstraction',
     'R_Addition_MultipleBond_Disprop',
+}
+
+# Electrocatalytic CO2 Reduction families.
+surface_CO2 = {
+    'Surface_Abstraction',
+    'Surface_Abstraction_vdW',
+    'Surface_Abstraction_Single_vdW',
+    'Surface_Abstraction_Beta_double_vdW',
+    'Surface_Adsorption_Dissociative',
+    'Surface_Adsorption_Dissociative_Double',
+    'Surface_Adsorption_vdW',
+    'Surface_Dissociation',
+    'Surface_Dissociation_Double_vdW',
+    'Surface_Dissociation_vdW',
+    'Surface_EleyRideal_Addition_Multiple_Bond',
+    'Surface_Migration',
+    'Surface_Proton_Electron_Reduction_Alpha',
+    'Surface_Proton_Electron_Reduction_Alpha_vdW',
+    'Surface_Proton_Electron_Reduction_Beta',
+    'Surface_Proton_Electron_Reduction_Beta_vdW',
+    'Surface_Proton_Electron_Reduction_Beta_Dissociation',
 }

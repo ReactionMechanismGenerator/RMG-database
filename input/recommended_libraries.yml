@@ -225,18 +225,18 @@ halogens:
   thermo:
     - Chlorinated_Hydrocarbons #Chlorinated hydrocarbons used to fit/validate Cl GAV's and non-NNI's
     - Chlorination #chlorinated species from many sources (CBS-QB3, Burcat, etc.), recommended as a secondary library for Chlorine models
-    - CHOBr_G4 #non-cyclic and cyclic closed & radical small molecules with at least 1 Br & C, H, O. G4 method. 
-    - CHOClBr_G4 # non-cyclic, closed/radical, at least 1 Cl and 1 Br & C, H, O. G4 method. 
-    - CHOCl_G4 # non-cyclic/cyclic, closed/radical, at least 1 Cl & C, H, O. G4 method. 
-    - CHOFBr_G4 # non-cyclic, closed/radical, at least 1 F and 1 Br & C, H, O. G4 method. 
-    - CHOFClBr_G4 # non-cyclic closed/radical, at least 1 F, 1 Cl, 1 Br & C, H, O. G4 method. 
-    - CHOFCl_G4 # non-cyclic closed/radical, at least 1 F, 1 Cl & C, H, O. G4 method. 
-    - CHOF_G4 # non-cyclic/cyclic closed/radical, at least 1 F & C, H, O. G4 method. 
+    - CHOBr_G4 #non-cyclic and cyclic closed & radical small molecules with at least 1 Br & C, H, O. G4 method.
+    - CHOClBr_G4 # non-cyclic, closed/radical, at least 1 Cl and 1 Br & C, H, O. G4 method.
+    - CHOCl_G4 # non-cyclic/cyclic, closed/radical, at least 1 Cl & C, H, O. G4 method.
+    - CHOFBr_G4 # non-cyclic, closed/radical, at least 1 F and 1 Br & C, H, O. G4 method.
+    - CHOFClBr_G4 # non-cyclic closed/radical, at least 1 F, 1 Cl, 1 Br & C, H, O. G4 method.
+    - CHOFCl_G4 # non-cyclic closed/radical, at least 1 F, 1 Cl & C, H, O. G4 method.
+    - CHOF_G4 # non-cyclic/cyclic closed/radical, at least 1 F & C, H, O. G4 method.
     - Fluorine #thermo to pair with "NIST_Fluorine" kinetic library
     - halogens #to be used for F/Cl/Br-containing systems, various sources (i.e. G4/RRHO, ATcT)
-    - iodinated_Hydrocarbons 
-    - 2-BTP_G4 #to pair with the 2-BTP thermo library. F- and Br-containing species, G4 level of theory, RRHO approx. 
-    - 2-BTP #to use with "2-BTP" kinetic library. Computed with G3MP2B3 & G3B3 composite ab initio methods; Geometries, vib. freq.,and ZPE calculated at B3LYP/6–31G(d) level of theory. 
+    - iodinated_Hydrocarbons
+    - 2-BTP_G4 #to pair with the 2-BTP thermo library. F- and Br-containing species, G4 level of theory, RRHO approx.
+    - 2-BTP #to use with "2-BTP" kinetic library. Computed with G3MP2B3 & G3B3 composite ab initio methods; Geometries, vib. freq.,and ZPE calculated at B3LYP/6–31G(d) level of theory.
   kinetics:
     - 2-BTP #flame suppression chemistry for 2-bromo-3,3,3-trifluoropropene
     - CH3Cl #chloromethane pyrolysis/oxidation and relevant H-abstraction reactions, combined with CRECK C1-C3 mechanism
@@ -265,4 +265,9 @@ electrochem:
     - LithiumAnalogyKinetics
     - LithiumSurface
     - LithiumSurfaceAnalogy
+    - Surface_Proton_Electron_Reduction_Alpha
+    - Surface_Proton_Electron_Reduction_Alpha_vdW
+    - Surface_Proton_Electron_Reduction_Beta
+    - Surface_Proton_Electron_Reduction_Beta_vdW
+    - Surface_Proton_Electron_Reduction_Beta_Dissociation
   transport: []

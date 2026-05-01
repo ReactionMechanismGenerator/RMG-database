@@ -429,3 +429,22 @@ Surface science. 2018;667:54-65. doi:10.1016/j.susc.2017.09.002
 Lattice constant using PW91 is a=2.85 Angstrom.
 """,
 )
+
+entry(
+    index = 22,
+    label = "Cu3Sn0001",
+    bindingEnergies = {
+        'H': (-2.3766, 'eV/molecule'),
+        'C': (-4.2480, 'eV/molecule'),
+        'N': (-3.3060, 'eV/molecule'),
+        'O': (-4.1415, 'eV/molecule'),
+    },
+    surfaceSiteDensity = (1.4319e-09, 'mol/cm^2'),
+    facet = "0001",
+    metal = "Cu3Sn",
+    shortDesc = """Cu3Sn(0001)""",
+    longDesc =
+"""
+Calculated by Colin Gallagher and Su Sun at Northeastern University. Only Cu sites considered as active adsorption sites from thermodynamics analysis.
+""",
+)
