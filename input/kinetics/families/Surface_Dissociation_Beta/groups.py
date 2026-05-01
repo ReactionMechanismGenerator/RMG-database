@@ -33,8 +33,8 @@ entry(
     label = "Combined",
     group =
 """
-1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 R!H u0 {1,S} {3,S}
+1 *1 R!H u0 {2,[S,D,T]} {4,[D,T]}
+2 *2 R!H u0 {1,[S,D,T]} {3,S}
 3 *3 R   u0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
 """,
@@ -57,7 +57,7 @@ entry(
     group =
 """
 1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 C   u0 {1,S} {3,S}
+2 *2 C   u0 p0 c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
 """,
@@ -70,7 +70,7 @@ entry(
     group =
 """
 1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 O   u0 {1,S} {3,S}
+2 *2 O   u0 p2 c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
 """,
@@ -83,7 +83,7 @@ entry(
     group =
 """
 1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 R!H u0 {1,S} {3,S}
+2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}
 3 *3 H   u0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
 """,
@@ -111,7 +111,7 @@ entry(
     group =
 """
 1 *1 R!H u0 {2,S} {4,D}
-2 *2 C   u0 {1,S} {3,S} {5,S}
+2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S}
 3 *3 H   u0 {2,S}
 4 *4 Xo  u0 {1,D}
 5    R!H u0 {2,S}  
@@ -119,37 +119,137 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 8,
+    label = "N-R",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D]} {4,[D,T]}
+2 *2 N u0 p1 c0 {1,[S,D]} {3,S}
+3 *3 R u0 px c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9,
+    label = "R-N",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D,T]} {4,[D,T]}
+2 *2 R!H u0 px c0 {1,[S,D,T]} {3,S}
+3 *3 N u0 p1 c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "C-N",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D,T]} {4,[D,T]}
+2 *2 C u0 p0 c0 {1,[S,D,T]} {3,S}
+3 *3 N u0 p1 c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "O-N",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D,T]} {4,[D,T]}
+2 *2 O u0 p2 c0 {1,[S,D,T]} {3,S}
+3 *3 N u0 p1 c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "N-H",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D]} {4,[D,T]}
+2 *2 N u0 p1 c0 {1,[S,D]} {3,S}
+3 *3 H u0 p0 c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "N-C",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D]} {4,[D,T]}
+2 *2 N u0 p1 c0 {1,[S,D]} {3,S}
+3 *3 C u0 p0 c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "N-O",
+    group =
+"""
+1 *1 R!H u0 {2,[S,D]} {4,[D,T]}
+2 *2 N u0 p1 c0 {1,[S,D]} {3,S}
+3 *3 O u0 p2 c0 {2,S}
+4 *4 Xo  u0 {1,[D,T]}  
+""",
+    kinetics = None,
+)
+
+
 tree(
 """
 L1: Combined
     L2: R-H
       L3: CR-H
       L3: C-H
-	L4: CH3
+	    L4: CH3
       L3: O-H
+    L2: R-N
+      L3: C-N
+      L3: O-N
+    L2: N-R
+      L3: N-C
+      L3: N-O
+      L3: N-H
 L1: VacantSite
 """
 )
 
 forbidden(
-    label = "R-C",
+    label = "surf1",
     group =
 """
-1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 R!H u0 {1,S} {3,S}
-3 *3 C   u0 px cx {2,S}
+1 *1 R!H u0 c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 c0 {1,S} {3,S} {5,[S,D,T]}
+3 *3 R   u0 c0 {2,S}
 4 *4 Xo  u0 {1,[D,T]}
-""",
+5 Xo u0 p0 c0 {2,[S,D,T]}
+"""
 )
 
 forbidden(
-    label = "Bidentate",
+    label = "surf2",
     group =
 """
-1 *1 R!H u0 {2,S} {4,[D,T]}
-2 *2 R!H u0 {1,S} {3,S}
-3 *3 R   u0 {2,S}
+1 *1 R!H u0 c0 {2,S} {4,[D,T]}
+2 *2 R!H u0 c0 {1,S} {3,S}
+3 *3 R   u0 c0 {2,S} {5,[S,D,T]}
 4 *4 Xo  u0 {1,[D,T]}
-5    Xo  u0
+5 Xo u0 p0 c0 {3,[S,D,T]}
 """
 )
