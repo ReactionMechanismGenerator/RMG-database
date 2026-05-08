@@ -96,7 +96,7 @@ jobs:
 
       - name: Make separate No-RMS conda env
         run: |
-          conda create --name rmg_env_without_rms --clone rmg_env
+          conda create --name rmg_env_without_rms -f environment.yml
 
       - name: Setup Juliaup
         uses: julia-actions/install-juliaup@v2
@@ -190,6 +190,9 @@ jobs:
           REFERENCE: stable_regression_results
         run: |
           conda activate rmg_env_without_rms
+          echo "CONDA_PREFIX: $CONDA_PREFIX"  # see if the conda environment was activated
+          conda run -n rmg_env_without_rms conda install -y pip
+          conda run -n rmg_env_without_rms make install
           exec 2> >(tee -a regression.stderr >&2) 1> >(tee -a regression.stdout)
           mkdir -p "test/regression-diff"
           for regr_test in aromatics liquid_oxidation nitrogen oxidation sulfur superminimal RMS_constantVIdealGasReactor_superminimal RMS_CSTR_liquid_oxidation;
@@ -208,7 +211,7 @@ jobs:
 
             echo "<details>"
             # Compare the edge and core
-            if python scripts/checkModels.py \
+            if conda run -n rmg_env_without_rms python scripts/checkModels.py \
                 "$regr_test-core" \
                 $REFERENCE/"$regr_test"/chemkin/chem_annotated.inp \
                 $REFERENCE/"$regr_test"/chemkin/species_dictionary.txt \
@@ -225,7 +228,7 @@ jobs:
             cat "$regr_test-core.log" || (echo "Dumping the whole log failed, please download it from GitHub actions. Here are the first 100 lines:" && head -n100 "$regr_test-core.log")
             echo "</details>"
             echo "<details>"
-            if python scripts/checkModels.py \
+            if conda run -n rmg_env_without_rms python scripts/checkModels.py \
                 "$regr_test-edge" \
                 $REFERENCE/"$regr_test"/chemkin/chem_edge_annotated.inp \
                 $REFERENCE/"$regr_test"/chemkin/species_edge_dictionary.txt \
@@ -246,7 +249,7 @@ jobs:
             if [ -f test/regression/"$regr_test"/regression_input.py ];
             then
               echo "<details>"
-              if python rmgpy/tools/regression.py \
+              if conda run -n rmg_env_without_rms python rmgpy/tools/regression.py \
                 test/regression/"$regr_test"/regression_input.py \
                 $REFERENCE/"$regr_test"/chemkin \
                 test/regression/"$regr_test"/chemkin
