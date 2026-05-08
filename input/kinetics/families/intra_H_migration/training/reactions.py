@@ -9123,3 +9123,58 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+entry(
+    index = 440,
+    label = "C3H3F4 <=> C3H3F4-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.465e+11,'s^-1'), n=0, Ea=(44130,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH3CFCF3 <=> CH2CHFCF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH3CFCF3 <=> CH2CHFCF3
+""",
+)
+
+entry(
+    index = 441,
+    label = "C3H3F4O <=> C3H3F4O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.248e+06,'s^-1'), n=0.992, Ea=(2041,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2OHCFCF3 <=> CH2OCHFCF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH2OHCFCF3 <=> CH2OCHFCF3
+""",
+)
+
+entry(
+    index = 442,
+    label = "C3H3F4O-3 <=> C3H3F4O-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.245e+06,'s^-1'), n=1.223, Ea=(2894,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2OHCFCF3 <=> CHOHCHFCF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH2OHCFCF3 <=> CHOHCHFCF3
+""",
+)
+
+entry(
+    index = 443,
+    label = "C3H3F4O-5 <=> C3H3F4O-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.249e+09,'s^-1'), n=0.385, Ea=(5306,'cal/mol'), T0=(1,'K')),
+    rank = 10,
+    shortDesc = """The chemkin file reaction is CH2COHFCF3 <=> CH3COFCF3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: YF
+Original entry: CH2COHFCF3 <=> CH3COFCF3
+""",
+)

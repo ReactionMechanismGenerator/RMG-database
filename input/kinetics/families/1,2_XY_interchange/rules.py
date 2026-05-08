@@ -18,7 +18,7 @@ entry(
     index = 0,
     label = "XY",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (250, 'kJ/mol'),
@@ -33,7 +33,7 @@ entry(
     index = 1,
     label = "YY",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (200, 'kJ/mol'),
@@ -48,7 +48,7 @@ entry(
     index = 2,
     label = "FF",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (289, 'kJ/mol'),
@@ -63,7 +63,7 @@ entry(
     index = 3,
     label = "ClCl",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (183, 'kJ/mol'),
@@ -78,7 +78,7 @@ entry(
     index = 4,
     label = "BrBr",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (141, 'kJ/mol'),
@@ -93,7 +93,7 @@ entry(
     index = 5,
     label = "FCl",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (236, 'kJ/mol'),
@@ -108,7 +108,7 @@ entry(
     index = 6,
     label = "ClBr",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (162, 'kJ/mol'),
@@ -123,7 +123,7 @@ entry(
     index = 7,
     label = "FBr",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (216, 'kJ/mol'),
@@ -138,7 +138,7 @@ entry(
     index = 8,
     label = "OY",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (250, 'kJ/mol'),
@@ -153,7 +153,7 @@ entry(
     index = 9,
     label = "OF",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (299, 'kJ/mol'),
@@ -172,7 +172,7 @@ entry(
     index = 10,
     label = "OCl",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (244.5, 'kJ/mol'),
@@ -191,7 +191,7 @@ entry(
     index = 11,
     label = "OBr",
     kinetics = ArrheniusEP(
-        A = (1e+10, 's^-1'),
+        A = (1e+13, 's^-1'),
         n = 0,
         alpha = 0,
         E0 = (222.5, 'kJ/mol'),
