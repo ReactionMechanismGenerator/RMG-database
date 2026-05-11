@@ -9,7 +9,7 @@ Atom *1 is bonded to the surface (*3). The bond between *1 and *2
 must be single, and the bond between *4 and *1 must have
 charge separation across it.
 
-*4[-]--*1[+]--*2               *4 --*1      *2
+*4[-]--*1[+]--*2               *4 ==*1      *2
         ||            ---->          |       |
        ~*3~ + ~*5~~                ~*3~  + ~*5~~
 
