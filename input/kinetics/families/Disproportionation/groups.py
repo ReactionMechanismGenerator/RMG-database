@@ -33,7 +33,7 @@ entry(
     label = "Root",
     group = 
 """
-1 *2 R!H u0         {2,[S,D,B]} {3,S}
+1 *2 R!H u[0,1]         {2,[S,D,B]} {3,S}
 2 *3 R!H u[1,2]     {1,[S,D,B]}
 3 *4 H   u0         {1,S}
 4 *1 R   u[1,2,3,4]
