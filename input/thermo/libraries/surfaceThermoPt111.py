@@ -6,15 +6,46 @@
 name = "SurfaceThermoPt111"
 shortDesc = u"Surface adsorbates on Pt(111)"
 longDesc = u"""
-Surface species adsorbed on Pt(111). The thermochemistry of all adsorbates with up to 2 heavy atoms was calculated by Katrin Blondal at Brown University around 2018,
-based on DFT calculations by Jelena Jelic at KIT. See https://doi.org/10.1021/acs.iecr.9b01464 for the details on the computational methods as well as the results.
-This database was extended with DFT calculations for larger adsorbates by Bjarne Kreitz (Brown University).  
-The computational methods for the extension are explained in detail in https://doi.org/10.1021/acscatal.2c03378. If you use this database in your work, please cite the publications mentioned above. 
-Note: X indicates a bond to the surface. It is always on the left hand site of an atom that is bonded to the surface e.g. XCCH2 it means that C is bonded to the surface.
-If the X is on the right hand side and at the end of a label, it means that this species is physisorbed. 
+Surface species adsorbed on Pt(111). The thermochemistry of all adsorbates with
+up to 2 heavy atoms was calculated by Katrin Blondal at Brown University around
+2018, based on DFT calculations by Jelena Jelic at KIT. See
+https://doi.org/10.1021/acs.iecr.9b01464 for the details on the computational
+methods as well as the results. This database was extended with DFT
+calculations for larger adsorbates by Bjarne Kreitz (Brown University). The
+computational methods for the extension are explained in detail in
+https://doi.org/10.1021/acscatal.2c03378. If you use this database in your
+work, please cite the publications mentioned above. 
+Note: X indicates a bond to the surface. It is always on the left hand site of
+an atom that is bonded to the surface e.g. XCCH2 it means that C is bonded to
+the surface. If the X is on the right hand side and at the end of a label, it
+means that this species is physisorbed. 
 
--Updated by Kirk Badger at Brown University in 2026. All existing species are now computed with a consistant set of DFT settings in Quantum espresso.
-Additionally, many new nitrogen containing species are added. There are now 74 nitrogen containing adsorbates with up to 5 heavy atoms.
+-Updated by Kirk Badger at Brown University in 2026. All existing species are
+now computed with a consistant set of DFT settings in Quantum espresso. Many
+new nitrogen containing species are added. There are now 74 nitrogen
+containing adsorbates with up to 5 heavy atoms. The reference species used
+have changed to: *O, *CO, *NO, *H, *. Silbaugh and Campbell have reported the
+heats of formation for these adsorbates with respect to elements in their
+standard state at 298 K in https://doi.org/10.1021/acs.jpcc.6b06154. We apply
+atomic corrections to get these heats of formation with respect to elements in
+their standard state at 0 K as descibed by Ruscic and Bross in
+https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/B9780444640871000012
+We also correct the heat of formation ot the measured coverage down to 1/9 ML
+for *O and *CO, and assume the heat of formation of a bare slab is 0. Our
+heats of formation at 0 K are:
+    "XCO": -230.9,
+    "XH": -32.7,
+    "XNO": -20.24,
+    'XO': -103.7,
+    "Pt": 0,
+We then use these species and values as an anchor set to compute the heats
+of formation for all adosrbates on Pt(111) as described by Kreitz et al.
+https://pubs.rsc.org/en/content/articlelanding/2025/cs/d4cs00768a.
+Lastly we correct the heats of formation back to being with respec to the
+elements in their standard state at 298 K. This process is automated in
+C. Franklin Goldsmith's thermo_kinetics_scripts repository in the
+new_workflow folder:
+https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
 """
 
 entry(
