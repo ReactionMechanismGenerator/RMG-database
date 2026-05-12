@@ -469,15 +469,6 @@ entry(
 
 entry(
     index=46,
-    label="H2 + O2 + O2 => HO2 + HO2",
-    reversible = False,
-    kinetics=Arrhenius(A=(2e+17, 'cm^6/(mol^2*s)'), n=0, Ea=(25830, 'cal/mol'), T0=(1, 'K')),
-    shortDesc=u"""[Konnov2015]""",
-    longDesc=u"""Table 2, Reaction X3""",
-)
-
-entry(
-    index=47,
     label="O + OH <=> HO2",
     kinetics=ThirdBody(
         arrheniusLow=Arrhenius(A=(1e+15, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'))),
@@ -486,7 +477,7 @@ entry(
 )
 
 entry(
-    index=48,
+    index=47,
     label="HO2 + H <=> H2O2",
     kinetics=ThirdBody(
         arrheniusLow=Arrhenius(A=(6.0E+14, 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0=(1, 'K'))),
@@ -502,7 +493,7 @@ so that a ThirdBody kinetics format could be written here
 )
 
 entry(
-    index=49,
+    index=48,
     label="H2O2 + O <=> H2O + O2",
     kinetics=Arrhenius(A=(8.43E+11, 'cm^3/(mol*s)'), n=0.00, Ea=(3.970E+03, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Baulch2005]""",
@@ -510,7 +501,7 @@ entry(
 )
 
 entry(
-    index=50,
+    index=49,
     label="HO2 + HO2 <=> O2 + OH + OH",
     kinetics=Arrhenius(A=(6.41E17, 'cm^3/(mol*s)'), n=-1.54, Ea=(16971, 'cal/mol'), Tmin=(400, 'K'), Tmax=(2000, 'K')),
     shortDesc=u"""[Klippenstein2022]""",
