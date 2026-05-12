@@ -316,6 +316,41 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 24,
+    label = "C-N",
+    group =
+"""
+1 *1 C   u0 {2,S} {3,[S,D,T]}
+2 *2 N   u0 {1,S}
+3 *3 Xo  u0 {1,[S,D,T]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 25,
+    label = "N-O",
+    group =
+"""
+1 *1 N  u0 {2,S} {3,[S,D]}
+2 *2 O  u0 {1,S}
+3 *3 Xo u0 {1,[S,D]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 26,
+    label = "N-C",
+    group =
+"""
+1 *1 N  u0 {2,S} {3,[S,D]}
+2 *2 C  u0 {1,S}
+3 *3 Xo u0 {1,[S,D]}
+""",
+    kinetics = None,
+)
 
 tree(
 """
@@ -331,6 +366,7 @@ L1: Combined
         L3: C-O
             L4: C-OH
         L3: C-C
+        L3: C-N
     L2: O
         L3: O-H
         L3: O-C
@@ -341,6 +377,31 @@ L1: Combined
         L3: N-H2
         L3: N-H
         L3: N-N
+        L3: N-O
+        L3: N-C
 L1: VacantSite
 """
+)
+
+forbidden(
+    label = "Surf_Atom",
+    group =
+"""
+1 *1 R!H u0 c0 {2,S} {3,[S,D,T]}
+2 *2 R   u0 c0 {1,S} {4,[S,D,T]}
+3 *3 Xo  u0 {1,[S,D,T]}
+4 Xo u0 {2,[S,D,T]}
+""",
+)
+
+forbidden(
+    label = "beta_Surf_Atom",
+    group =
+"""
+1 *1 R!H u0 c0 {2,S} {3,[S,D,T]}
+2 *2 R   u0 c0 {1,S} {4,[S,D,T]}
+3 *3 Xo  u0 {1,[S,D,T]}
+4 R!H u0 {2,[S,D,T]} {5,[S,D,T]}
+5 Xo u0 {4,[S,D,T]}
+""",
 )
