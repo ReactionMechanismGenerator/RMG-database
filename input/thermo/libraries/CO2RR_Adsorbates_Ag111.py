@@ -5,24 +5,33 @@ name = "CO2RR_Adsorbates_Ag111"
 solvent = "water"
 shortDesc = u"CO2RR adsorbate thermochemistry on Ag(111) from DFT"
 longDesc = u"""
-NASA polynomial thermochemistry for C1 and C2 adsorbate intermediates
-relevant to electrochemical CO2 reduction (CO2RR) on Ag(111).
-Adsorbates are labeled with a trailing or interleaved 'X' to indicate
-surface binding sites, per RMG conventions.
+This library contains NASA polynomial thermochemistry for adsorbate
+intermediates relevant to electrochemical CO2 reduction (CO2RR) on the
+Ag(111) surface. All adsorbates are denoted with a trailing 'X' (or
+interleaved 'X' for bidentate species) to indicate surface binding sites,
+consistent with RMG conventions.
 
-DFT (Manish Kumar Kothakonda, Northeastern): VASP with PBE + Grimme D3
-zero-damping (IVDW = 12) and PAW pseudopotentials.
-A two-stage protocol was used:
-Initial geometries were pre-optimized at ENCUT = 400 eV with a 3x3x1
-Monkhorst-Pack k-mesh, then fully re-relaxed to force convergence at
-tighter settings of ENCUT = 500 eV and 4x4x1 k-mesh (IBRION = 2,
-EDIFFG = -0.03 eV/A). All final energies - adsorbate slabs, bare-slab
-reference, and vibrational frequencies - were computed at the tight
-settings.
+DFT calculations were performed by Manish Kumar Kothakonda (Northeastern University).
+Geometry optimization of adsorbates on a periodic Ag(111) slab.
+Calculations used VASP 6.3.1 with the PBE exchange-correlation functional,
+Grimme D3 zero-damping dispersion correction (IVDW = 12), and PAW
+pseudopotentials. Plane-wave cutoff ENCUT = 500 eV; 3x3x1 Gamma-centered
+Monkhorst-Pack k-point mesh; Methfessel-Paxton smearing (ISMEAR = 1,
+SIGMA = 0.10 eV); spin-polarized (ISPIN = 2); SCF convergence
+EDIFF = 1E-6 eV; ionic force convergence EDIFFG = -0.03 eV/A
+(IBRION = 2). The slab is a hexagonal Ag(111) supercell with lattice
+parameters a = b = 11.506 A, c = 31.046 A (cell volume 3559.27 A^3),
+containing 64 Ag atoms arranged in 4 atomic layers; the bottom 3 layers
+were held fixed (F F F) while the top layer plus adsorbate atoms were
+allowed to relax (T T T). Implicit solvation in water was applied via
+VASPsol. Harmonic vibrational frequencies were computed using finite-difference
+displacements (IBRION = 5, NFREE = 2, POTIM = 0.015 A) on the relaxed
+atoms (adsorbate plus top slab layer).
 
-Post-processing and thermo (Su Sun) via the Westgroup pipeline
-(adapted from input_generator.py and compute_NASA_for_adsorbates): VASP
-outputs converted to ASE .traj and inspected; vibrational frequencies
+Post-processing and stat thermo calculations were performed by
+Su Sun (Northeastern University) via the Westgroup pipeline
+(adapted from input_generator.py and compute_NASA_for_adsorbates):
+VASP outputs converted to ASE .traj and inspected; vibrational frequencies
 and ZPEs consolidated into per-species zpe_log_<species>.txt files;
 imaginary modes replaced with 12 cm^-1. Heat of formation at 0 K was
 computed from a thermochemical cycle against CH4, H2O, and H2 references
