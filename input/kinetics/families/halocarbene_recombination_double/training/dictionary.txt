@@ -81,16 +81,3 @@ C2F4
 5 *2 C u0 p0 c0 {1,S} {3,S} {6,D}
 6 *1 C u0 p0 c0 {2,S} {4,S} {5,D}
 
-C2ClF3
-1    Cl u0 p3 c0 {5,S}
-2    F  u0 p3 c0 {5,S}
-3    F  u0 p3 c0 {6,S}
-4    F  u0 p3 c0 {6,S}
-5 *1 C  u0 p0 c0 {1,S} {2,S} {6,D}
-6 *2 C  u0 p0 c0 {3,S} {4,S} {5,D}
-
-CClF
-1    Cl u0 p3 c0 {3,S}
-2    F  u0 p3 c0 {3,S}
-3 *1 C  u0 p1 c0 {1,S} {2,S}
-

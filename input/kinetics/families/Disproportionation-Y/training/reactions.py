@@ -216,22 +216,8 @@ Original entry: CF2:CH + H <=> C2HF + HF
 """,
 )
 
-# entry(
-#     index = 21,
-#     label = "CO + FF_p41 <=> F_r1 + CFO",
-#     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(4.7e+11,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
-#     rank = 10,
-#     shortDesc = """The chemkin file reaction is F2 + CO <=> CF:O + F""",
-#     longDesc = 
-# """
-# Training reaction from kinetics library: 2-BTP
-# Original entry: F2 + CO <=> CF:O + F
-# """,
-# )
-
 entry(
-    index = 22,
+    index = 21,
     label = "CDC_p23 + FF_p41 <=> F_r1 + CH2F-CH2_r423",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.8e+10,'cm^3/(mol*s)'), n=0, Ea=(4590,'cal/mol'), T0=(1,'K')),
@@ -244,22 +230,8 @@ Original entry: C2H4 + F2 <=> CH2F-CH2 + F
 """,
 )
 
-# entry(
-#     index = 23,
-#     label = "CO + FF_p41 <=> F_r1 + CFO",
-#     degeneracy = 1.0,
-#     kinetics = Arrhenius(A=(4.7e+11,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
-#     rank = 3,
-#     shortDesc = """The chemkin file reaction is F2 + CO <=> CF:O + F""",
-#     longDesc = 
-# """
-# Training reaction from kinetics library: CF2BrCl
-# Original entry: F2 + CO <=> CF:O + F
-# """,
-# )
-
 entry(
-    index = 24,
+    index = 22,
     label = "C2H4Cl + H_r1 <=> ClH + CDC_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -273,7 +245,7 @@ Original entry: CH2CH2CL + H <=> C2H4 + HCL
 )
 
 entry(
-    index = 25,
+    index = 23,
     label = "C2H3Cl2 + H_r1 <=> ClH + C2H3Cl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -287,7 +259,7 @@ Original entry: CH2CLCHCL + H <=> C2H3CL + HCL
 )
 
 entry(
-    index = 26,
+    index = 24,
     label = "C2H3Cl2-2 + H_r1 <=> ClH + C2H3Cl-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -301,7 +273,7 @@ Original entry: CH2CHCL2 + H <=> C2H3CL + HCL
 )
 
 entry(
-    index = 27,
+    index = 25,
     label = "C2H2Cl3 + H_r1 <=> ClH + C2H2Cl2",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -315,7 +287,7 @@ Original entry: CH2CCL3 + H <=> CH2CCL2 + HCL
 )
 
 entry(
-    index = 28,
+    index = 26,
     label = "C2H2Cl3-2 + H_r1 <=> ClH + C2H2Cl2-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -329,7 +301,7 @@ Original entry: CH2CLCCL2 + H <=> CH2CCL2 + HCL
 )
 
 entry(
-    index = 29,
+    index = 27,
     label = "C2H2Cl3-3 + H_r1 <=> ClH + C2H2Cl2-3",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -343,7 +315,7 @@ Original entry: CHCLCHCL2 + H <=> CHCLCHCL + HCL
 )
 
 entry(
-    index = 30,
+    index = 28,
     label = "C2HCl4 + H_r1 <=> ClH + C2HCl3",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -357,7 +329,7 @@ Original entry: CHCLCCL3 + H <=> C2HCL3 + HCL
 )
 
 entry(
-    index = 31,
+    index = 29,
     label = "C2HCl4-2 + H_r1 <=> ClH + C2HCl3-2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -371,7 +343,7 @@ Original entry: CHCL2CCL2 + H <=> C2HCL3 + HCL
 )
 
 entry(
-    index = 32,
+    index = 30,
     label = "C2Cl5 + H_r1 <=> ClH + C2Cl4",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -385,7 +357,7 @@ Original entry: C2CL5 + H <=> C2CL4 + HCL
 )
 
 entry(
-    index = 33,
+    index = 31,
     label = "C2H2Cl + H_r1 <=> ClH + C#C_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -399,7 +371,7 @@ Original entry: CHCHCL + H <=> C2H2 + HCL
 )
 
 entry(
-    index = 34,
+    index = 32,
     label = "C2H2Cl + HO <=> ClHO + C#C_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -413,7 +385,7 @@ Original entry: CHCHCL + OH <=> C2H2 + HOCL
 )
 
 entry(
-    index = 35,
+    index = 33,
     label = "C2HCl2 + H_r1 <=> ClH + C2HCl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -427,7 +399,7 @@ Original entry: CHCCL2 + H <=> C2HCL + HCL
 )
 
 entry(
-    index = 36,
+    index = 34,
     label = "C2HCl2 + HO <=> ClHO + C2HCl",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -441,7 +413,7 @@ Original entry: CHCCL2 + OH <=> C2HCL + HOCL
 )
 
 entry(
-    index = 37,
+    index = 35,
     label = "C2HCl2-2 + H_r1 <=> ClH + C2HCl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -455,7 +427,7 @@ Original entry: CHCLCCL + H <=> C2HCL + HCL
 )
 
 entry(
-    index = 38,
+    index = 36,
     label = "C2HCl2-2 + HO <=> ClHO + C2HCl-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5e+12,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -469,7 +441,7 @@ Original entry: CHCLCCL + OH <=> C2HCL + HOCL
 )
 
 entry(
-    index = 39,
+    index = 37,
     label = "C2Cl3 + H_r1 <=> ClH + C2Cl2",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -483,7 +455,7 @@ Original entry: C2CL3 + H <=> C2CL2 + HCL
 )
 
 entry(
-    index = 40,
+    index = 38,
     label = "C2Cl5 + Cl <=> Cl2 + C2Cl4",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.45e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -497,7 +469,7 @@ Original entry: C2CL5 + CL <=> C2CL4 + CL2
 )
 
 entry(
-    index = 41,
+    index = 39,
     label = "C2Cl5 + Br <=> BrCl + C2Cl4",
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.45e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
@@ -511,7 +483,7 @@ Original entry: C2CL5 + BR <=> C2CL4 + BRCL
 )
 
 entry(
-    index = 42,
+    index = 40,
     label = "C2ClF4 + H_r1 <=> ClH + FC(F)DC(F)F_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41e+21,'cm^3/(mol*s)'), n=-2.4, Ea=(3630,'cal/mol'), T0=(1,'K')),
@@ -525,7 +497,7 @@ Original entry: C2F4CL + H <=> C2F4 + HCL
 )
 
 entry(
-    index = 43,
+    index = 41,
     label = "C2BrF4 + H_r1 <=> BrH + FC(F)DC(F)F_p23",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41e+21,'cm^3/(mol*s)'), n=-2.4, Ea=(3630,'cal/mol'), T0=(1,'K')),

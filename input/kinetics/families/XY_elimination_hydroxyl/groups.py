@@ -69,12 +69,12 @@ entry(
     label = "Root_1R!H->C_5Br1sCl1sF1sH->H",
     group = 
 """
-1 *3 C u0 {2,S} {3,S}
-2 *4 C u0 {1,S} {4,S}
-3 *2 C u0 {1,S} {5,S}
-4 *5 O u0 {2,S} {6,S}
-5 *1 H u0 {3,S}
-6 *6 H u0 {4,S}
+1 *3 C u0 r0 {2,S} {3,S}
+2 *4 C u0 r0 {1,S} {4,S}
+3 *2 C u0 r0 {1,S} {5,S}
+4 *5 O u0 r0 {2,S} {6,S}
+5 *1 H u0 r0 {3,S}
+6 *6 H u0 r0 {4,S}
 """,
     kinetics = None,
 )
@@ -88,7 +88,7 @@ entry(
 2 *4 C               u0 {1,S} {4,S}
 3 *2 C               u0 {1,S} {5,S}
 4 *5 O               u0 {2,S} {6,S}
-5 *1 [F1s,Cl1s,Br1s] u0 {3,S}
+5 *1 [F1s,Br1s,Cl1s] u0 {3,S}
 6 *6 H               u0 {4,S}
 """,
     kinetics = None,
@@ -99,13 +99,13 @@ entry(
     label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_Ext-1C-R",
     group = 
 """
-1 *3 C               u0 r0 {2,S} {3,S} {7,[S,D,T,B,Q]}
-2 *4 C               u0 r0 {1,S} {4,S}
-3 *2 C               u0 r0 {1,S} {5,S}
-4 *5 O               u0 r0 {2,S} {6,S}
-5 *1 [Cl1s,Br1s]     u0 r0 {3,S}
-6 *6 H               u0 r0 {4,S}
-7    R!H             ux {1,[S,D,T,B,Q]}
+1 *3 C   u0 r0 {2,S} {3,S} {7,S}
+2 *4 C   u0 r0 {1,S} {4,S}
+3 *2 C   u0 r0 {1,S} {5,S}
+4 *5 O   u0 r0 {2,S} {6,S}
+5 *1 F1s u0 r0 {3,S}
+6 *6 H   u0 r0 {4,S}
+7    F   u0 r0 {1,S}
 """,
     kinetics = None,
 )
@@ -131,12 +131,12 @@ entry(
     group = 
 """
 1 *3 C   u0 {2,S} {3,S}
-2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]}
+2 *4 C   u0 {1,S} {4,S} {7,[S,B,D,T,Q]}
 3 *2 C   u0 {1,S} {5,S}
 4 *5 O   u0 {2,S} {6,S}
 5 *1 F1s u0 {3,S}
 6 *6 H   u0 {4,S}
-7    R!H ux {2,[S,D,T,B,Q]}
+7    R!H u0 {2,[S,B,D,T,Q]}
 """,
     kinetics = None,
 )
@@ -146,13 +146,13 @@ entry(
     label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_7R!H->O",
     group = 
 """
-1 *3 C   u0 {2,S} {3,S}
-2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]}
-3 *2 C   u0 {1,S} {5,S}
-4 *5 O   u0 {2,S} {6,S}
-5 *1 F1s u0 {3,S}
-6 *6 H   u0 {4,S}
-7    O   u0 r0 {2,[S,D,T,B,Q]}
+1 *3 C   u0 r0 {2,S} {3,S}
+2 *4 C   u0 r0 {1,S} {4,S} {7,D}
+3 *2 C   u0 r0 {1,S} {5,S}
+4 *5 O   u0 r0 {2,S} {6,S}
+5 *1 F1s u0 r0 {3,S}
+6 *6 H   u0 r0 {4,S}
+7    O   u0 r0 {2,D}
 """,
     kinetics = None,
 )
@@ -162,68 +162,51 @@ entry(
     label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O",
     group = 
 """
-1 *3 C                      u0 {2,S} {3,S}
-2 *4 C                      u0 {1,S} {4,S} {7,[S,D,T,B,Q]}
-3 *2 C                      u0 {1,S} {5,S}
-4 *5 O                      u0 {2,S} {6,S}
-5 *1 F1s                    u0 {3,S}
-6 *6 H                      u0 {4,S}
-7    [N,P,F,I,Br,Cl,C,Si,S] ux {2,[S,D,T,B,Q]}
+1 *3 C     u0 {2,S} {3,S}
+2 *4 C     u0 {1,S} {4,S} {7,[S,B,D,T,Q]}
+3 *2 C     u0 {1,S} {5,S}
+4 *5 O     u0 {2,S} {6,S}
+5 *1 F1s   u0 {3,S}
+6 *6 H     u0 {4,S}
+7    [C,F] u0 {2,[S,B,D,T,Q]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 9,
-    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_Sp-7BrCClFINPSSi-2C",
+    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_Sp-7BrCClFILiNPSSi-2C",
     group = 
 """
-1 *3 C                      u0 {2,S} {3,S}
-2 *4 C                      u0 {1,S} {4,S} {7,S}
-3 *2 C                      u0 {1,S} {5,S}
-4 *5 O                      u0 {2,S} {6,S}
-5 *1 F1s                    u0 {3,S}
-6 *6 H                      u0 {4,S}
-7    [N,P,F,I,Br,Cl,C,Si,S] u0 {2,S}
+1 *3 C     u0 r0 {2,S} {3,S}
+2 *4 C     u0 r0 {1,S} {4,S} {7,S}
+3 *2 C     u0 r0 {1,S} {5,S}
+4 *5 O     u0 r0 {2,S} {6,S}
+5 *1 F1s   u0 r0 {3,S}
+6 *6 H     u0 r0 {4,S}
+7    [C,F] u0 r0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 10,
-    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_Sp-7BrCClFINPSSi-2C_Ext-2C-R",
+    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_N-Sp-7BrCClFILiNPSSi-2C",
     group = 
 """
-1 *3 C                      u0 {2,S} {3,S}
-2 *4 C                      u0 {1,S} {4,S} {7,S} {8,[S,D,T,B,Q]}
-3 *2 C                      u0 {1,S} {5,S}
-4 *5 O                      u0 {2,S} {6,S}
-5 *1 F1s                    u0 {3,S}
-6 *6 H                      u0 {4,S}
-7    [N,P,F,I,Br,Cl,C,Si,S] u0 r0 {2,S}
-8    R!H                    ux {2,[S,D,T,B,Q]}
+1 *3 C     u0 r0 {2,S} {3,S}
+2 *4 C     u0 r0 {1,S} {4,S} {7,D}
+3 *2 C     u0 r0 {1,S} {5,S}
+4 *5 O     u0 r0 {2,S} {6,S}
+5 *1 F1s   u0 r0 {3,S}
+6 *6 H     u0 r0 {4,S}
+7    [C,F] u0 r0 {2,D}
 """,
     kinetics = None,
 )
 
 entry(
     index = 11,
-    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_N-Sp-7BrCClFINPSSi-2C",
-    group = 
-"""
-1 *3 C                      u0 r0 {2,S} {3,S}
-2 *4 C                      u0 r0 {1,S} {4,S} {7,D}
-3 *2 C                      u0 r0 {1,S} {5,S}
-4 *5 O                      u0 r0 {2,S} {6,S}
-5 *1 F1s                    u0 r0 {3,S}
-6 *6 H                      u0 r0 {4,S}
-7    [N,P,F,I,Br,Cl,C,Si,S] ux {2,D}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 12,
     label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s",
     group = 
 """
@@ -231,15 +214,30 @@ entry(
 2 *4 C           u0 {1,S} {4,S}
 3 *2 C           u0 {1,S} {5,S}
 4 *5 O           u0 {2,S} {6,S}
-5 *1 [Cl1s,Br1s] u0 {3,S}
+5 *1 [Br1s,Cl1s] u0 {3,S}
 6 *6 H           u0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
+    index = 12,
+    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_5Br1sCl1s->Br1s",
+    group = 
+"""
+1 *3 C    u0 r0 {2,S} {3,S}
+2 *4 C    u0 r0 {1,S} {4,S}
+3 *2 C    u0 r0 {1,S} {5,S}
+4 *5 O    u0 r0 {2,S} {6,S}
+5 *1 Br1s u0 r0 {3,S}
+6 *6 H    u0 r0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 13,
-    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_5Br1sCl1s->Cl1s",
+    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_N-5Br1sCl1s->Br1s",
     group = 
 """
 1 *3 C    u0 r0 {2,S} {3,S}
@@ -254,21 +252,6 @@ entry(
 
 entry(
     index = 14,
-    label = "Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_N-5Br1sCl1s->Cl1s",
-    group = 
-"""
-1 *3 C    u0 r0 {2,S} {3,S}
-2 *4 C    u0 r0 {1,S} {4,S}
-3 *2 C    u0 r0 {1,S} {5,S}
-4 *5 O    u0 r0 {2,S} {6,S}
-5 *1 Br1s u0 r0 {3,S}
-6 *6 H    u0 r0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 15,
     label = "Root_N-1R!H->C",
     group = 
 """
@@ -283,7 +266,7 @@ entry(
 )
 
 entry(
-    index = 16,
+    index = 15,
     label = "Root_N-1R!H->C_5Br1sCl1sF1sH->F1s",
     group = 
 """
@@ -298,87 +281,55 @@ entry(
 )
 
 entry(
-    index = 17,
+    index = 16,
     label = "Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_7R!H->C",
     group = 
 """
-1 *3 O   u0 {2,S} {3,S}
-2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]}
-3 *2 C   u0 {1,S} {5,S}
-4 *5 O   u0 {2,S} {6,S}
-5 *1 F1s u0 {3,S}
-6 *6 H   u0 {4,S}
-7    C   u0 r0 {2,[S,D,T,B,Q]}
+1 *3 O   u0 r0 {2,S} {3,S}
+2 *4 C   u0 r0 {1,S} {4,S} {7,D}
+3 *2 C   u0 r0 {1,S} {5,S}
+4 *5 O   u0 r0 {2,S} {6,S}
+5 *1 F1s u0 r0 {3,S}
+6 *6 H   u0 r0 {4,S}
+7    C   u0 r0 {2,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 17,
+    label = "Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_N-7R!H->C",
+    group = 
+"""
+1 *3 O     u0 r0 {2,S} {3,S}
+2 *4 C     u0 r0 {1,S} {4,S} {7,[S,B,D,T,Q]}
+3 *2 C     u0 r0 {1,S} {5,S}
+4 *5 O     u0 r0 {2,S} {6,S}
+5 *1 F1s   u0 r0 {3,S}
+6 *6 H     u0 r0 {4,S}
+7    [O,F] u0 r0 {2,[S,B,D,T,Q]}
 """,
     kinetics = None,
 )
 
 entry(
     index = 18,
-    label = "Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_N-7R!H->C",
+    label = "Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s",
     group = 
 """
-1 *3 O                      u0 {2,S} {3,S}
-2 *4 C                      u0 {1,S} {4,S} {7,[S,D,T,B,Q]}
-3 *2 C                      u0 {1,S} {5,S}
-4 *5 O                      u0 {2,S} {6,S}
-5 *1 F1s                    u0 {3,S}
-6 *6 H                      u0 {4,S}
-7    [N,P,F,I,Br,Cl,O,Si,S] ux {2,[S,D,T,B,Q]}
+1 *3 O           u0 {2,S} {3,S}
+2 *4 C           u0 {1,S} {4,S}
+3 *2 C           u0 {1,S} {5,S}
+4 *5 O           u0 {2,S} {6,S}
+5 *1 [Br1s,Cl1s] u0 {3,S}
+6 *6 H           u0 {4,S}
 """,
     kinetics = None,
 )
 
 entry(
     index = 19,
-    label = "Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_N-7R!H->C_Ext-2C-R",
-    group = 
-"""
-1 *3 O                      u0 r0 {2,S} {3,S}
-2 *4 C                      u0 r0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-3 *2 C                      u0 r0 {1,S} {5,S}
-4 *5 O                      u0 r0 {2,S} {6,S}
-5 *1 F1s                    u0 r0 {3,S}
-6 *6 H                      u0 r0 {4,S}
-7    [N,P,F,I,Br,Cl,O,Si,S] ux {2,[S,D,T,B,Q]}
-8    R!H                    ux {2,[S,D,T,B,Q]}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 20,
-    label = "Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s",
-    group = 
-"""
-1 *3 O             u0 {2,S} {3,S}
-2 *4 C             u0 {1,S} {4,S}
-3 *2 C             u0 {1,S} {5,S}
-4 *5 O             u0 {2,S} {6,S}
-5 *1 [H,Cl1s,Br1s] u0 {3,S}
-6 *6 H             u0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 21,
-    label = "Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_5Br1sCl1sH->Cl1s",
-    group = 
-"""
-1 *3 O    u0 r0 {2,S} {3,S}
-2 *4 C    u0 r0 {1,S} {4,S}
-3 *2 C    u0 r0 {1,S} {5,S}
-4 *5 O    u0 r0 {2,S} {6,S}
-5 *1 Cl1s u0 r0 {3,S}
-6 *6 H    u0 r0 {4,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 22,
-    label = "Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_N-5Br1sCl1sH->Cl1s",
+    label = "Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_5Br1sCl1sH->Br1s",
     group = 
 """
 1 *3 O    u0 r0 {2,S} {3,S}
@@ -386,6 +337,21 @@ entry(
 3 *2 C    u0 r0 {1,S} {5,S}
 4 *5 O    u0 r0 {2,S} {6,S}
 5 *1 Br1s u0 r0 {3,S}
+6 *6 H    u0 r0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 20,
+    label = "Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_N-5Br1sCl1sH->Br1s",
+    group = 
+"""
+1 *3 O    u0 r0 {2,S} {3,S}
+2 *4 C    u0 r0 {1,S} {4,S}
+3 *2 C    u0 r0 {1,S} {5,S}
+4 *5 O    u0 r0 {2,S} {6,S}
+5 *1 Cl1s u0 r0 {3,S}
 6 *6 H    u0 r0 {4,S}
 """,
     kinetics = None,
@@ -402,20 +368,18 @@ L1: Root
                 L5: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R
                     L6: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_7R!H->O
                     L6: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O
-                        L7: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_Sp-7BrCClFINPSSi-2C
-                            L8: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_Sp-7BrCClFINPSSi-2C_Ext-2C-R
-                        L7: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_N-Sp-7BrCClFINPSSi-2C
+                        L7: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_Sp-7BrCClFILiNPSSi-2C
+                        L7: Root_1R!H->C_N-5Br1sCl1sF1sH->H_5Br1sCl1sF1s->F1s_Ext-2C-R_N-7R!H->O_N-Sp-7BrCClFILiNPSSi-2C
             L4: Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s
-                L5: Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_5Br1sCl1s->Cl1s
-                L5: Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_N-5Br1sCl1s->Cl1s
+                L5: Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_5Br1sCl1s->Br1s
+                L5: Root_1R!H->C_N-5Br1sCl1sF1sH->H_N-5Br1sCl1sF1s->F1s_N-5Br1sCl1s->Br1s
     L2: Root_N-1R!H->C
         L3: Root_N-1R!H->C_5Br1sCl1sF1sH->F1s
             L4: Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_7R!H->C
             L4: Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_N-7R!H->C
-                L5: Root_N-1R!H->C_5Br1sCl1sF1sH->F1s_Ext-2C-R_N-7R!H->C_Ext-2C-R
         L3: Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s
-            L4: Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_5Br1sCl1sH->Cl1s
-            L4: Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_N-5Br1sCl1sH->Cl1s
+            L4: Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_5Br1sCl1sH->Br1s
+            L4: Root_N-1R!H->C_N-5Br1sCl1sF1sH->F1s_N-5Br1sCl1sH->Br1s
 """
 )
 
@@ -464,11 +428,9 @@ Coordinates for TS in Input Orientation (angstroms):
 """,
 )
 
-
-
 forbidden(
     label = "PFOA",
-    group =
+    group = 
 """
 1     F u0 p3 c0 {22,S}
 2     F u0 p3 c0 {22,S}
@@ -497,9 +459,10 @@ forbidden(
 25 *4 C u0 p0 c0 {16,S} {17,D} {23,S}
 26 *6 H u0 p0 c0 {16,S}
 """,
-    shortDesc = u"""""",
-    longDesc =
-u"""
+    shortDesc = """""",
+    longDesc = 
+"""
 
 """,
 )
+
