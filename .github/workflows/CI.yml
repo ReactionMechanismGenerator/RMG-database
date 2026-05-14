@@ -72,7 +72,7 @@ jobs:
 
       # configures the mamba environment manager and builds the environment
       - name: Setup Miniforge Python 3.11
-        uses: conda-incubator/setup-miniconda@v3
+        uses: conda-incubator/setup-miniconda@v4
         with:
           environment-file: RMG-Py/environment.yml
           miniforge-variant: Miniforge3
@@ -99,7 +99,7 @@ jobs:
           conda create --name rmg_env_without_rms -f environment.yml
 
       - name: Setup Juliaup
-        uses: julia-actions/install-juliaup@v2
+        uses: julia-actions/install-juliaup@v3
         with:
           channel: '1.10'
 
