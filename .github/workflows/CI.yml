@@ -59,14 +59,14 @@ jobs:
         working-directory: RMG-Py  # only applies to 'run' steps
     steps:
       - name: Checkout RMG-Py
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ReactionMechanismGenerator/RMG-Py
           ref: ${{ env.RMG_PY_BRANCH }}
           path: RMG-Py
 
       - name: Checkout RMG-database
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: RMG-database
 
@@ -139,7 +139,7 @@ jobs:
       # Upload Regression Results as Failed if above step failed
       - name: Upload Failed Results
         if: ${{ failure() && steps.regression-execution.conclusion == 'failure' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: failed_regression_results
           path: |
@@ -148,7 +148,7 @@ jobs:
       # Upload Regression Results as Dynamic if Push to non-main Branch
       - name: Upload Results as Dynamic
         if: ${{ env.REFERENCE_JOB == 'false' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: dynamic_regression_results
           path: |
@@ -173,7 +173,7 @@ jobs:
 
       - name: Retrieve Stable Regression Results
         if: ${{ env.REFERENCE_JOB == 'false' }}
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
         # download stable regression results
           run-id: ${{ env.CI_RUN_ID }}
@@ -286,14 +286,14 @@ jobs:
 
       - name: Upload regression summary artifact
        # the annotate workflow uses this artifact to add a comment to the PR
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if : ${{ github.event_name == 'pull_request' }}
         with:
           name: regression_summary
           path: RMG-Py/summary.txt
 
       - name: Upload Comparison Results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: regression_test_comparison_results
           path: |
