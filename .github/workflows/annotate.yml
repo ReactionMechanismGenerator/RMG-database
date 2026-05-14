@@ -53,8 +53,8 @@ jobs:
       - name: Write summary to pull request as a comment
         uses: thollander/actions-comment-pull-request@v3
         with:
-          filePath: summary.txt
-          pr_number: ${{ env.PR_NUMBER }}
+          file-path: summary.txt
+          pr-number: ${{ env.PR_NUMBER }}
 
       - name: Report the github.event.workflow_run as json
         if: ${{ failure() }}
