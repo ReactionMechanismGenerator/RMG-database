@@ -4710,3 +4710,52 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+
+entry(
+    index = 5002,
+    label = "C14H14_bibenzyl <=> C7H7 + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.0e+15, 's^-1'),
+        n = 0,
+        Ea = (62.9, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (623, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Buchanan/Dunstan/Douglas/Poutsma 1986 - bibenzyl C-C homolysis, direct""",
+    longDesc =
+u"""
+Buchanan, A. C. III; Dunstan, T. D. J.; Douglas, E. C.; Poutsma, M. L.
+J. Am. Chem. Soc. 1986, 108, 7703. Surface-immobilized bibenzyl pyrolysis
+plus gas-phase corroboration (Sato et al., A=6.3e14, Ea=60.4). The benzyl-
+benzyl C-C bond is the canonical anchor for aryl-aryl methylene-bridge
+homolysis; rate transfers directly to novolak dimer/trimer methylene
+bridges. Confidence: Direct (cross-phase validated).
+""",
+)
+
+entry(
+    index = 5003,
+    label = "C8H10_ethylbenzene <=> C7H7 + CH3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.26e+17, 's^-1'),
+        n = 0,
+        Ea = (81.3, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (1000, 'K'),
+        Tmax = (1800, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Brouwer/Mueller-Markgraf/Troe 1983 - ethylbenzene C-C homolysis, direct shock-tube""",
+    longDesc =
+u"""
+Brouwer, L.; Mueller-Markgraf, W.; Troe, J. Ber. Bunsenges. Phys. Chem. 1983, 87, 1031.
+Direct shock-tube measurement of the canonical Ph-CH2-CH3 -> PhCH2 + CH3 reaction.
+Anchors the benzyl-methyl C-C bond strength for general benzylic-alkyl backbones
+(polystyrene, oligomeric phenolics). Mueller-Markgraf/Troe 1988 (JPC 92, 4914)
+gives the same form. Confidence: Direct.
+""",
+)

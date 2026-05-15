@@ -59673,3 +59673,53 @@ ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy file
 """,
 )
 
+
+entry(
+    index = 5001,
+    label = "C14H13O2_PhCOH_CH2OPh_rad <=> C8H8O_alpha_hydroxystyrene + C6H5O_phenoxyl",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.08e+12, 's^-1'),
+        n = 0,
+        Ea = (15.06, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (300, 'K'),
+        Tmax = (700, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Kandanarachchi/Autrey/Franz 2002 - direct beta-O-4 alpha-OH ketyl beta-scission""",
+    longDesc =
+u"""
+Kandanarachchi, P. H.; Autrey, T.; Franz, J. A. J. Org. Chem. 2002, 67, 7937-7945. DOI 10.1021/jo025581k.
+Direct LFP measurement in liquid benzene. PhC*(OH)-CH2-OPh -> PhC(OH)=CH2 + *OPh.
+log A = 12.85, Ea = 15.06 +/- 0.38 kcal/mol. The strongest direct anchor for
+beta-O-4 alpha-hydroxy ketyl radical beta-scission in the lignin/phenolic-resin
+chemistry corpus. Confidence: Direct.
+""",
+)
+
+entry(
+    index = 5004,
+    label = "C8H9_1phenylethyl_HCH3 <=> C8H8 + H",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (1.6e+13, 's^-1'),
+        n = 0.4,
+        Ea = (37.0, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Belisario-Lara/Mebel/Kaiser 2018 - 1-phenylethyl beta-H scission, G3+RRKM-ME""",
+    longDesc =
+u"""
+Belisario-Lara, D.; Mebel, A. M.; Kaiser, R. I. J. Phys. Chem. A 2018, 122, 3980.
+PhC*(H)CH3 -> PhCH=CH2 + H. G3 electronic structure + RRKM master-equation at k-infinity.
+Faravelli 2001 CRECK also reports A=1.6e13, Ea=37.0 from a CBS-QB3/TST evaluation,
+giving the same numerical result via independent methodology. This is the prototype
+benzylic alpha-C-H beta-scission rate and is the kinetic anchor for polystyrene
+H-loss depolymerisation chemistry. Degeneracy 3 for the three equivalent methyl Hs.
+Confidence: QM (G3 + RRKM-ME, k-infinity).
+""",
+)
