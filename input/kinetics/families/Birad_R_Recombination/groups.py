@@ -1019,3 +1019,20 @@ instances with a different number of lone pairs are forbidden
 """,
 )
 
+forbidden(
+    label = "trioxidanyl",
+    group =
+"""
+multiplicity [2]
+1 *2 O u1 p2 c0 {2,S}
+2 *1 O u0 p2 c0 {1,S} {3,S}
+3    O u0 p2 c0 {2,S} {4,S}
+4    H u0 p0 c0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbid this species because it decays and gives you [O] + [O]O <=> O2(singlet) + OH
+even if you have forbidden singlet O2 in your mechanism
+""",
+)
