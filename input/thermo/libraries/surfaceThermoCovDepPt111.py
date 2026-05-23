@@ -2946,10 +2946,9 @@ entry(
 	    1 X  u0 p0 c0 {2,D}
 	    2 O  u0 p2 c0 {1,D}
             """: {
-                model: Polynomial,
-                enthalpy-1st-order: -0.04321765,
-                enthalpy-2nd-order: 1.04225839,
-                enthalpy-unit: eV
+                'model': 'polynomial',
+		'enthalpy-coefficients': [(-0.043,'eV/molecule'), (1.042,'eV/molecule'), (0,'eV/molecule')],
+                'entropy-coefficients': [(0, 'J/(mol*K)'), (0, 'J/(mol*K)'), (0, 'J/(mol*K)')]
             }        
         },
     ),
@@ -4428,8 +4427,8 @@ entry(
                 3 O  u0 p2 c0 {2,D}
                 """: {
                     'model': 'polynomial',
-                    'enthalpy-coefficients': [0.102,0.599,0],
-                    'enthalpy-unit': eV 
+                    'enthalpy-coefficients': [(0.102,'eV/molecule'),(0.599,'eV/molecule'),(0,'eV/molecule')],
+                    'entropy-coefficients': [(0, 'kJ/(mol*K)'), (0, 'kJ/(mol*K)'), (0, 'kJ/(mol*K)')]
                 } 
             }, 
     ),
@@ -6924,8 +6923,8 @@ entry(
             4 O  u0  p3 c-1  {2,S}
             """: {
                 'model': 'polynomial',
-                'enthalpy-coefficients': [2.65, -14.2, 18.1],
-                'enthalpy-unit':'eV',
+                'enthalpy-coefficients': [(2.65,'eV/molecule'), (-14.2,'eV/molecule'), (18.1,'eV/molecule')],
+                'entropy-coefficients': [(0, 'kJ/(mol*K)'), (0, 'kJ/(mol*K)'), (0, 'kJ/(mol*K)')]
             }
         },
     ),
