@@ -398,7 +398,7 @@ The two lowest frequencies, 12 and 12,where replaced by the 2D gas model.
 )
 
 entry(
-    index = 2,
+    index = 11,
     label = "XCO",
     molecule =
 """
