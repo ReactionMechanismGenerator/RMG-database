@@ -59723,3 +59723,58 @@ H-loss depolymerisation chemistry. Degeneracy 3 for the three equivalent methyl 
 Confidence: QM (G3 + RRKM-ME, k-infinity).
 """,
 )
+
+entry(
+    index = 5005,
+    label = "C14H13O2_oHO_bibenzyl_rad <=> C8H8O_2vinylphenol + C6H5O_2HOphenyl_rad",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.2e+12, 's^-1'),
+        n = 0,
+        Ea = (23.0, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""BEP estimate — ortho-OH-substituted bibenzyl-1-yl beta-aryl scission""",
+    longDesc =
+u"""
+BEP (Evans-Polanyi) estimate from Stein/Robaugh 1982 reference (JACS 104, 6567):
+PhCH•CH2Ph -> PhCH=CH2 + Ph•, A=3.2e12 s^-1, Ea=26.6 kcal/mol (Direct, gas-phase).
+The ortho-OH substituent lowers the barrier by ~3-4 kcal/mol based on the BDE
+difference between o-OH-PhCH2• and PhCH2• (S2.md substituent table, 4/4 DR sources
+converge on a ~3-5 kcal/mol range). Pre-exponential taken as Stein/Robaugh value.
+This reaction provides the structural training anchor for the ortho-OH-substituted
+phenolic ring pattern [c;r6:1]([OH:2]) in R_Addition_MultipleBond, enabling
+RMG's rate-rule tree to reach novolak trimer bridge beta-scission nodes.
+Confidence: Analogy/BEP. To be replaced by Direct/QM when ARC R2 completes.
+""",
+)
+
+entry(
+    index = 5006,
+    label = "C18H21O2_diMe_oHO_bibenzyl_rad <=> C10H12O_vinyl_methylcresol + C8H9O_diMe_oHO_phenyl_rad",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.2e+12, 's^-1'),
+        n = 0,
+        Ea = (23.0, 'kcal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    rank = 10,
+    shortDesc = u"""BEP estimate — dimethyl ortho-OH-substituted bibenzyl-1-yl beta-aryl scission (trimer-realistic)""",
+    longDesc =
+u"""
+BEP estimate from Stein/Robaugh 1982 (JACS 104, 6567), same as entry 5005.
+Ring-methyl substituents contribute negligibly to beta-scission Ea (< 0.5 kcal/mol
+per DR2/S2.md substituent table); Ea is taken identical to entry 5005.
+This species is structurally representative of the 2,2'-dihydroxy-3,3',5,5'-
+tetramethyl-bibenzyl bridge in the actual novolak trimer. Together with entry 5005,
+it provides two training anchors that bracket the methyl-substituent effect and
+enable RMG tree extrapolation to the trimer's ring-substituted beta-scission.
+Confidence: Analogy/BEP. To be replaced by Direct/QM when ARC R4 completes.
+""",
+)
