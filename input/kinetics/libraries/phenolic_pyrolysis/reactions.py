@@ -367,32 +367,15 @@ entry(
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# Stage I — facile initiation (physical trimer bridge homolysis; sets DTG peak)
+# Stage I — facile initiation: applied at the SPLICE step, not seeded.
+# The physical bridge homolysis (proxy -> C9H11O + C18H21O2) is degenerate under
+# kineticsFamilies=['polymers'] -- RMG cannot generate sinks for the benzyl
+# products, which then consume all proxy and short-circuit the cascade (residue
+# 100% C18H21O2, char chemistry inactive). The lumped initiation
+# (proxy => trimer_rad33 + H, Ea=62.9, the C-C-homolysis rate) is injected in
+# splice_yaml.py instead -- it directly produces the propagating radical that has
+# the seeded beta-scission sink. See ~/runs/RMG/poly_101/v9_report.md.
 # ------------------------------------------------------------------------------
-
-entry(
-    index = 15,
-    label = "novolak_trimer <=> C9H11O + C18H21O2",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.995e15, 's^-1'),
-        n = 0.0,
-        Ea = (62.9, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    shortDesc = u"R15: novolak trimer ethano-bridge central C-C homolysis (initiation)",
-    longDesc = u"""
-    Provenance: Direct (model compound), via the bibenzyl analog of seed entry 1
-    (PhCH2-CH2Ph central C-C BDE 62.9 kcal/mol, A=10^15.3 s^-1). Homolysis of one
-    trimer ethano bridge yields a C9 benzyl radical (C9H11O) and a C18 benzyl-type
-    radical (C18H21O2). This is the *physical* facile initiation that replaces the
-    v8 stand-in (proxy -> trimer_rad33 + H): the peak is initiation-limited and an
-    Ea=62.9 initiation lowers the DTG peak from ~704 to ~510 C (handoff peak
-    diagnosis). RMG is expected to propagate via H-abstraction (benzyl + trimer ->
-    closed + trimer_rad33/38/44), feeding the seeded beta-scissions (entries 12-14).
-    Uncertainty factor: x3.
-    """,
-)
 
 # ------------------------------------------------------------------------------
 # Stage III — char formation (dehydrogenative cross-linking of aryl radicals)
@@ -527,6 +510,45 @@ entry(
     longDesc = u"""
     Provenance: BEP estimate (as entries 12-14, 22). Ejects a vinylxylenol (C10,
     volatile) leaving a C9H9O aryl radical (volatile). Competes with C19 char (entry 18).
+    Uncertainty factor: x10.
+    """,
+)
+
+# ------------------------------------------------------------------------------
+# Stage III — char maturation / carbonization (v10, 2026-05-27)
+# ------------------------------------------------------------------------------
+# The v9 char (char_C17/char_C19) was terminal -> the TGA was flat above the main
+# peak. Real novolak char keeps losing mass at high T (Zone III: dehydrogenation,
+# decarbonylation, ring-fusion -> H2, CO, CH4). These two lumped maturation steps
+# give the second high-T DTG peak (~660-720 C) and pull the residue toward the
+# literature 55+/-5 wt%. The matured lumps (char_mature17/_19) are more-condensed
+# fused aromatics. Rate = the seed's own phenol decarbonylation (R9: A=1e12,
+# Ea=60.8); the 2nd-peak position + extent EMERGE from it. See v9_report.md / v10.
+
+entry(
+    index = 25,
+    label = "char_C17 <=> char_mature17 + CO + H2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A = (1.0e12, 's^-1'), n = 0.0, Ea = (60.8, 'kcal/mol'), T0 = (1, 'K')),
+    shortDesc = u"R25: Zone-III char maturation (decarbonylation + dehydrogenation), C17",
+    longDesc = u"""
+    Provenance: Analogy (seed R9, phenol -> CO + cpd: A=1e12, Ea=60.8 kcal/mol).
+    Lumped high-T carbonization of the C17 char: a phenolic ring decarbonylates
+    (-> CO) and the structure dehydrogenatively fuses (-> H2), leaving a more-
+    condensed aromatic lump (char_mature17, C16H16O). Gives the second high-T DTG
+    peak the v9 terminal-char model lacked. Uncertainty factor: x10.
+    """,
+)
+
+entry(
+    index = 26,
+    label = "char_C19 <=> char_mature19 + CO + CH4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A = (1.0e12, 's^-1'), n = 0.0, Ea = (60.8, 'kcal/mol'), T0 = (1, 'K')),
+    shortDesc = u"R26: Zone-III char maturation (decarbonylation + demethanation), C19",
+    longDesc = u"""
+    Provenance: Analogy (seed R9). As R25 for the C19 char; releases CO + CH4
+    (both classic Zone-III novolak gases) leaving char_mature19 (C17H16O).
     Uncertainty factor: x10.
     """,
 )
