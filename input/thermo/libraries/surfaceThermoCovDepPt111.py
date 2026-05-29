@@ -6263,49 +6263,49 @@ The two lowest frequencies, 18.68 and 56.21,where replaced by the 2D gas model.
     facet = "111",
 )
 
-entry(
-    index = 170,
-    label = "XH",
-    molecule = 
-"""
-1 X  u0 p0 c0 {2,S}
-2 H  u0 p0 c0 {1,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-2.0757035196010083, 0.01735809071105879, -2.6092083573428506e-05, 1.892822722403096e-08, -5.388357485002043e-12, -4286.294101286677, 8.153626202260213], Tmin=(298.0,'K'),Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[2.722479601930537, -0.0010681695731914382, 1.986535342963046e-06, -1.1204834620283936e-09, 2.0981144738444245e-13, -5338.342834452749, -15.32073643004469], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
-        ],
-        Tmin = (298.0,'K'),
-        Tmax = (2000.0,'K'),
-        thermo_coverage_dependence={
-            """ 
-            1 X  u0 p0 c0 {2,S}
-            2 H  u0 p0 c0 {1,S}
-            """: {'model': 'polynomial',
-                  'enthalpy-coefficients': [(-12552, 'J/mol'), (0, 'J/mol'), (0, 'J/mol')],
-                  'entropy-coefficients': [(0, 'J/(mol*K)'), (0, 'J/(mol*K)'), (0, 'J/(mol*K)')]}
-        },
-    ),
-longDesc = u"""
-Calculated by Kirk Badger at Brown University using statistical mechanics methods implemented in
-Franklin Goldsmith's thermo_kinetics_scripts repository in the new_workflow folder:
-
-https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
-
-DFT calculations were performed with Quantum Espresso using PAW pseudopotentals and the BEEF-vdW
-functional for an optimized 3x3x4 supercell with the bottom 2 layers fixed. The following settings
-were applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
-smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e-12, fmax=1e-3.
-
-Coverage dependence based on values in the Supporting Information of "Combined DFT, Microkinetic, and Experimental Study of Ethanol Steam Reforming on Pt"
-Jonathan E. Sutton, Paraskevi Panagiotopoulou, Xenophon E. Verykios, and Dionisios G. Vlachos
-The Journal of Physical Chemistry C 2013 117 (9), 4691-4706
-DOI: 10.1021/jp312593u
-""",
-    metal = "Pt",
-    facet = "111",
-)
+#   entry(
+#       index = 170,
+#       label = "XH",
+#       molecule = 
+#   """
+#   1 X  u0 p0 c0 {2,S}
+#   2 H  u0 p0 c0 {1,S}
+#   """,
+#       thermo = NASA(
+#           polynomials = [
+#               NASAPolynomial(coeffs=[-2.0757035196010083, 0.01735809071105879, -2.6092083573428506e-05, 1.892822722403096e-08, -5.388357485002043e-12, -4286.294101286677, 8.153626202260213], Tmin=(298.0,'K'),Tmax=(1000.0, 'K')),
+#               NASAPolynomial(coeffs=[2.722479601930537, -0.0010681695731914382, 1.986535342963046e-06, -1.1204834620283936e-09, 2.0981144738444245e-13, -5338.342834452749, -15.32073643004469], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+#           ],
+#           Tmin = (298.0,'K'),
+#           Tmax = (2000.0,'K'),
+#           thermo_coverage_dependence={
+#               """ 
+#               1 X  u0 p0 c0 {2,S}
+#               2 H  u0 p0 c0 {1,S}
+#               """: {'model': 'polynomial',
+#                     'enthalpy-coefficients': [(-12552, 'J/mol'), (0, 'J/mol'), (0, 'J/mol')],
+#                     'entropy-coefficients': [(0, 'J/(mol*K)'), (0, 'J/(mol*K)'), (0, 'J/(mol*K)')]}
+#           },
+#       ),
+#   longDesc = u"""
+#   Calculated by Kirk Badger at Brown University using statistical mechanics methods implemented in
+#   Franklin Goldsmith's thermo_kinetics_scripts repository in the new_workflow folder:
+#   
+#   https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
+#   
+#   DFT calculations were performed with Quantum Espresso using PAW pseudopotentals and the BEEF-vdW
+#   functional for an optimized 3x3x4 supercell with the bottom 2 layers fixed. The following settings
+#   were applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+#   smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e-12, fmax=1e-3.
+#   
+#   Coverage dependence based on values in the Supporting Information of "Combined DFT, Microkinetic, and Experimental Study of Ethanol Steam Reforming on Pt"
+#   Jonathan E. Sutton, Paraskevi Panagiotopoulou, Xenophon E. Verykios, and Dionisios G. Vlachos
+#   The Journal of Physical Chemistry C 2013 117 (9), 4691-4706
+#   DOI: 10.1021/jp312593u
+#   """,
+#       metal = "Pt",
+#       facet = "111",
+#   )
 
 entry(
     index = 171,
