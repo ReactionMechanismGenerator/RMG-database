@@ -425,7 +425,7 @@ entry(
             """: {
                 'model': 'polynomial',
                 'enthalpy-coefficients': [(62670, 'J/mol'), (0, 'J/mol'), (0, 'J/mol')], 
-                'entropy-coefficients': [(0, 'J/(mol*K)'), (0, 'J/(mol*K)'), (0, 'J/(mol*K)')]}
+                'entropy-coefficients': [(0, 'J/(mol*K)'), (0, 'J/(mol*K)'), (0, 'J/(mol*K)')]
             }
         },
     ),
