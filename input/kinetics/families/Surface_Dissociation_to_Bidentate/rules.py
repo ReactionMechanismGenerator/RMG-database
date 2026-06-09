@@ -10,21 +10,28 @@ entry(
     index = 1,
     label = "Combined;VacantSite1;VacantSite2", 
     kinetics = SurfaceArrheniusBEP(
-        A = (1.41E22, 'm^4/(mol^2*s)'),
+        A = (2.68E30, 'cm^4/(mol^2*s)'),
         n = 0.0,
-        alpha = 0.87,
-        E0 = (77.188, 'kJ/mol'),
+        alpha = 0.636,
+        E0 = (85.5, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-A and n factors are from the average rates of training reactions 1-2 and reverse of 3-4, and alpha and E0 are BEP
-parameters from training reactions 1-2 and reverse of 3-4.
+This BEP is created from a mixture of data in literature taken from the following papers: 
 
-Details on the computational method to derive the rate constants for the BEP relation are provided in "Automatic mechanism generation involving 
-kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
-doi:10.1039/d3dd00184a
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+
+Deng et al.
+https://pubs.rsc.org/en/content/articlelanding/2014/ra/c3ra46544f
+
+kreitz et. al
+https://doi.org/10.1021/acscatal.2c03378
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
 """
 )

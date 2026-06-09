@@ -12,7 +12,7 @@ entry(
     kinetics = SurfaceArrheniusBEP(
         A = (4.18e17, 'm^2/(mol*s)'),
         n = 0,
-        alpha =0.84,
+        alpha = 0.84,
         E0 = (185.1, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
@@ -71,7 +71,7 @@ entry(
     kinetics = SurfaceArrheniusBEP(
         A = (4.18e17, 'm^2/(mol*s)'),
         n = 0,
-        alpha =0.57,
+        alpha = 0.57,
         E0 = (75.25, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
@@ -85,12 +85,12 @@ Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from tr
 )
 
 entry(
-    index = 8,
+    index = 5,
     label = "C-C;VacantSite",
     kinetics = SurfaceArrheniusBEP(
         A = (2.09e17, 'm^2/(mol*s)'),
         n = 0,
-	    alpha =0.72,
+        alpha = 0.72,
         E0 = (126.39, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
@@ -104,4 +104,38 @@ Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from tr
 BK: This group is symmetrical, and RMG matches this node from both directions. Thus, a reaction degeneracy of 2 is applied, and the pre-exponential coefficient A is doubled. 
 We divided the pre-exponential coefficient by a factor of 2 so that RMG predicts the correct rate.
     """
+)
+
+
+entry(
+    index = 6,
+    label = "N-R;VacantSite",
+    kinetics = SurfaceArrheniusBEP(
+        A = (2.80e21, 'cm^2/(mol*s)'),
+        n = 0,
+        alpha = 0.52,
+        E0 = (126, 'kJ/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = u"""
+This BEP is created from a mixture of data in literature taken from the following papers: 
+
+Ma and Schneider
+https://doi.org/10.1021/acscatal.8b04251
+
+Gomez-Díaz and Lopez
+https://pubs.acs.org/doi/10.1021/jp1093349
+
+Farberow et al.
+https://doi.org/10.1021/cs500668k
+
+Deng et al.
+https://pubs.rsc.org/en/content/articlelanding/2014/ra/c3ra46544f
+
+and the current manuscript in progress by Badger et al. looking at the effects
+of NO on the light out curves for hydrocarbons.
+"""
 )

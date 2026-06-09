@@ -107,6 +107,32 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 7,
+    label = "R-N-R",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,S}
+2 *2 N u0 p1 c0 {1,S} {3,S}
+3 *3 R   u0 {2,S}
+4 *5 Xo  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "R-R-N",
+    group =
+"""
+1 *1 R!H u0 px c0 {2,S} {4,S}
+2 *2 R!H u0 px c0 {1,S} {3,S}
+3 *3 N   u0 p1 {2,S}
+4 *5 Xo  u0 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Abstracting
@@ -115,28 +141,45 @@ L1: Donating
     L2: R-C-H
 	L3: R-CH3
     L2: R-O-H
+    L2: R-R-N
+    L2: R-N-R
 """
 )
 
 forbidden(
-    label = "Donating_Bidentate",
+    label = "Surface_atom1",
     group =
 """
 1 *1 R!H u0 px cx {2,S} {4,S}
 2 *2 R   u0 px cx {1,S} {3,S}
-3 *3 R   u0 {2,S}
+3 *3 R   u0 {2,S} {5,[S,D,T]}
 4 *5 Xo  u0 {1,S}
-5    Xo  u0 
+5    Xo  u0 {3,[S,D,T]} 
 """
 )
 
 forbidden(
-    label="Abstracting_Bidentate",
+    label = "Surface_atom2",
     group =
 """
-1 *6 Xo  u0 {2,D}
-2 *4 R!H u0 px cx {1,D}	
-3    Xo  u0 
+1 *1 R!H u0 px cx {2,S} {4,S}
+2 *2 R   u0 px cx {1,S} {3,S} {5,[S,D,T]}
+3 *3 R   u0 {2,S}
+4 *5 Xo  u0 {1,S}
+5    Xo  u0 {2,[S,D,T]}
+"""
+)
+
+forbidden(
+    label = "Surface_beta",
+    group =
+"""
+1 *1 R!H u0 px cx {2,S} {4,S}
+2 *2 R   u0 px cx {1,S} {3,S}
+3 *3 R   u0 {2,S} {5,[S,D,T]}
+4 *5 Xo  u0 {1,S}
+5 R!H u0 {3,[S,D,T]} [6,[S,D,T]}
+6 Xo u0 {5,[S,D,T]}
 """
 )
 

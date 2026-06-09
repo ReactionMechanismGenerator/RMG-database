@@ -548,3 +548,13 @@ L1: Adsorbate1
         L3: *#N
 """
 )
+
+forbidden(
+    label = "surf",
+    group =
+"""
+1 *1 Xv u0 p0 c0
+2 *2 R!H  u0 px c0 {3,S}
+3 *3 Xo u0 p0 c0 {2,S}
+""",
+)
