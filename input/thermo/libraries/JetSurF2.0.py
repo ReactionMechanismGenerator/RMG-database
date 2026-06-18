@@ -5898,17 +5898,22 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.96963,0.0244422,-9.12514e-06,-4.24669e-18,1.63047e-21,35503.3,12.0361], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[14.5382,-0.00856771,2.35595e-05,-1.36764e-08,2.44369e-12,33259.1,-45.3695], Tmin=(1000,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[2.31011,0.0283747,-1.63837e-05,4.46252e-09,-4.30511e-13,35584.3,14.9106], Tmin=(200,'K'), Tmax=(1385,'K')),
+            NASAPolynomial(coeffs=[10.3231,0.0117626,-4.00005e-06,6.18728e-10,-3.58084e-14,32586.1,-28.8794], Tmin=(1385,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""H6W/94""",
+    shortDesc = """H6W/94 from Curran's 2016 Pentane model""",
     longDesc = 
-u"""
+"""
 H6W/94
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+The original NASA parameters from this source had a discontinuity in the polynomials, causing errors in Cantera.
+The parameters from "Curran Pentane" libary are used here instead. The match below 1000K is identical.
+It even has the same attribution (`H6W/94`). Above 1000K the deltaG differs by 2kcal/mol up to 6kcal/mol at 2000K
+Its full source is "An ignition delay time and chemical kinetic modeling study of the pentane isomers"
+John Bugler, Brandon Marks, Olivier Mathieu, Rachel Archuleta, Alejandro Camou, Claire Gregoire, Karl A. Heufer, Eric L. Petersen, Henry J. Curran
+Combustion and Flame, 2016, 163, 138-156  https://doi.org/10.1016/j.combustflame.2015.09.014
 [CH2]C#CC
 """,
 )
