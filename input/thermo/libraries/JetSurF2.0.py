@@ -3873,18 +3873,30 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.13733,0.0264862,-9.05687e-06,-5.53864e-19,2.12819e-22,15710.9,13.5294], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[9.03381,0.00821245,7.1754e-06,-5.88343e-09,1.03439e-12,14335.1,-20.9858], Tmin=(1000,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(
+                coeffs=[5.39212, 0.00298346, 5.22542e-05, -6.64727e-08, 2.56305e-11, 15362.7, -0.196129],
+                Tmin=(200, "K"),
+                Tmax=(1000, "K"),
+            ),
+            NASAPolynomial(
+                coeffs=[7.26055, 0.0180161, -6.47062e-06, 1.04411e-09, -6.24741e-14, 13812.3, -14.8554],
+                Tmin=(1000, "K"),
+                Tmax=(6000, "K"),
+            ),
         ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    shortDesc = u"""A 8/83""",
+    shortDesc = """A 8/83 for H298 & S298. Cp(T) from Burcat 2005""",
     longDesc = 
-u"""
-A 8/83
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+"""
 CC#CC
+Originally imported from JetSurF2.0
+H298 and S298 values from USC-Mech-ii,JetSurF,AramcoMech1.3,etc., including 2-BTP model.
+(Original source most likely estimated by Colkett, August 1983)
+Cp from Burcat 2005, because published polynomials inconsistent and discontinuous.
+New polynomials change G from original values by 1-3 kcal/mol at 1000-2000K and very little below 1000K. 
+See https://github.com/ReactionMechanismGenerator/RMG-database/pull/738
 """,
 )
 
