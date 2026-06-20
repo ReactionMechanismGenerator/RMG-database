@@ -36,7 +36,7 @@ entry(
     degeneracy = 1.0,
     reversible = False,
     kinetics = Arrhenius(A=(2.5e+17, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    rank = 1,
+    rank = 9,
     longDesc = 
 u"""
 taken from:
@@ -48,6 +48,8 @@ doi: 10.1002/kin.21055
 
 As reported by:
 Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347
+Reaction 7
+doi: 10.1016/j.proci.2006.07.249
 
 Adjusted to a first order reaction at 1 atm by alongd:
 n/V = P/RT = 1 bar / (83 cm^3 bar K^-1 mol^-1 * 300 K) = 4E-05 mol cm^-3
