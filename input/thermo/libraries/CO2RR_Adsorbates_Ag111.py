@@ -30,7 +30,8 @@ atoms (adsorbate plus top slab layer).
 
 Post-processing and stat thermo calculations were performed by
 Su Sun (Northeastern University) via the Westgroup pipeline
-(adapted from input_generator.py and compute_NASA_for_adsorbates):
+(adapted from input_generator.py and compute_NASA_for_adsorbates, see
+https://github.com/comocheng/CO2_RR_DFT):
 VASP outputs converted to ASE .traj and inspected; vibrational frequencies
 and ZPEs consolidated into per-species zpe_log_<species>.txt files;
 imaginary modes replaced with 12 cm^-1. Heat of formation at 0 K was
