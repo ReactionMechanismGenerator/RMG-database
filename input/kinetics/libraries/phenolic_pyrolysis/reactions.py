@@ -278,8 +278,9 @@ entry(
 
 entry(
     index = 12,
-    label = "trimer_rad33 <=> C17arylA + vinylxylenol_a",
+    label = "trimer_rad33 => C17arylA + vinylxylenol_a",
     degeneracy = 1,
+    reversible = False,
     kinetics = Arrhenius(
         A = (3.2e12, 's^-1'),
         n = 0,
@@ -299,14 +300,23 @@ entry(
     two-ring-substituent trimer radical never matched the template leaf node);
     it is the MVP enabler for first fragmentation of the C27 trimer backbone.
     Will be superseded by Direct/QM rates from ARC R2/R4 when available.
-    Uncertainty factor: x10.
+
+    Marked irreversible (=>) 2026-07-11 for the poly_102 regeneration: the
+    reverse direction (aryl sigma-radical re-addition across the melt/gas
+    reference-state boundary) carries an unpaired reference-state term
+    (U ~ 12 decades; RMG-Py HEAD thermo reference-state tripwire,
+    rmgpy/solver/polymer.pyx). The BEP forward rate is the only defensible
+    direction; reverse recombination of an ejected volatile with a melt aryl
+    radical is negligible at pyrolysis temperatures.
+        Uncertainty factor: x10.
     """,
 )
 
 entry(
     index = 13,
-    label = "trimer_rad38 <=> dmHOphenyl + C19vinyl",
+    label = "trimer_rad38 => dmHOphenyl + C19vinyl",
     degeneracy = 1,
+    reversible = False,
     kinetics = Arrhenius(
         A = (3.2e12, 's^-1'),
         n = 0,
@@ -326,14 +336,23 @@ entry(
     two-ring-substituent trimer radical never matched the template leaf node);
     it is the MVP enabler for first fragmentation of the C27 trimer backbone.
     Will be superseded by Direct/QM rates from ARC R2/R4 when available.
-    Uncertainty factor: x10.
+
+    Marked irreversible (=>) 2026-07-11 for the poly_102 regeneration: the
+    reverse direction (aryl sigma-radical re-addition across the melt/gas
+    reference-state boundary) carries an unpaired reference-state term
+    (U ~ 12 decades; RMG-Py HEAD thermo reference-state tripwire,
+    rmgpy/solver/polymer.pyx). The BEP forward rate is the only defensible
+    direction; reverse recombination of an ejected volatile with a melt aryl
+    radical is negligible at pyrolysis temperatures.
+        Uncertainty factor: x10.
     """,
 )
 
 entry(
     index = 14,
-    label = "trimer_rad44 <=> vinylxylenol_b + C17arylB",
+    label = "trimer_rad44 => vinylxylenol_b + C17arylB",
     degeneracy = 1,
+    reversible = False,
     kinetics = Arrhenius(
         A = (3.2e12, 's^-1'),
         n = 0,
@@ -353,7 +372,15 @@ entry(
     two-ring-substituent trimer radical never matched the template leaf node);
     it is the MVP enabler for first fragmentation of the C27 trimer backbone.
     Will be superseded by Direct/QM rates from ARC R2/R4 when available.
-    Uncertainty factor: x10.
+
+    Marked irreversible (=>) 2026-07-11 for the poly_102 regeneration: the
+    reverse direction (aryl sigma-radical re-addition across the melt/gas
+    reference-state boundary) carries an unpaired reference-state term
+    (U ~ 12 decades; RMG-Py HEAD thermo reference-state tripwire,
+    rmgpy/solver/polymer.pyx). The BEP forward rate is the only defensible
+    direction; reverse recombination of an ejected volatile with a melt aryl
+    radical is negligible at pyrolysis temperatures.
+        Uncertainty factor: x10.
     """,
 )
 
