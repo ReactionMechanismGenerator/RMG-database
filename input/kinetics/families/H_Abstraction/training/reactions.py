@@ -43748,3 +43748,140 @@ ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy file
     MAE error: 1724.5822620152626 J/mol
 """,
 )
+
+entry(
+    index = 3117,
+    label = "C7H8 + H <=> H2 + C7H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (4.553e+10, 'cm^3/(mol*s)'),
+        n = 3.98,
+        Ea = (14.2, 'kJ/mol'),
+        T0 = (298, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (1800, 'K'),
+    ),
+    reference = Article(
+        authors = ['Oehlschlaeger, M.A.', 'Davidson, D.F.', 'Hanson, R.K.'],
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '110',
+        pages = '9867-9873',
+        year = '2006',
+        url = 'https://doi.org/10.1021/jp062567t',
+    ),
+    referenceType = "experiment",
+    rank = 1,
+    shortDesc = u"""NIST 2006OEH/DAV9867-9873 review fit - toluene + H -> benzyl + H2, MEASURED""",
+    longDesc =
+u"""
+MEASURED (primary anchor). Benzylic H-abstraction from toluene by H atoms.
+NIST Chemical Kinetics Database squib 2006OEH/DAV9867-9873:
+Oehlschlaeger, M.A.; Davidson, D.F.; Hanson, R.K. J. Phys. Chem. A 110 (2006)
+9867-9873 (DOI 10.1021/jp062567t); shock tube, benzyl UV absorption at 266 nm,
+~1.7 bar.
+
+Value entered = NIST three-parameter review fit of the same squib (combined with
+the 773 K point of squib 2003ELL/SCO291-304), valid 700-1800 K - the best fit for
+the TGA-relevant temperature range:
+  k = A * (T/298 K)^n * exp(-Ea/RT), A = 7.56e-14 cm^3 molecule^-1 s^-1,
+  n = 3.98, Ea = 14.2 kJ/mol.
+Unit conversion (shown step by step):
+  A = 7.56e-14 cm^3 molecule^-1 s^-1 * 6.02214e23 molecule mol^-1
+    = 4.553e10 cm^3 mol^-1 s^-1  (entered with T0 = 298 K, matching the NIST form).
+
+Sanity check on the same squib's two-parameter fit (1256-1667 K):
+  A = 2.21e-9 cm^3 molecule^-1 s^-1 * 6.02214e23 = 1.33e15 cm^3 mol^-1 s^-1,
+  Ea = 62.3 kJ/mol = 14880 cal/mol - exactly the paper's own reported form
+  k = 1.33e15 * exp(-14880 cal/mol / RT) cm^3 mol^-1 s^-1. Units verified.
+
+Evaluation cross-check (EVALUATED band, not entered): Baulch et al. 1992/1994
+(squibs 1992BAU/COB411-429, 1994BAU/COB847-1033): A = 2.14e-13 cm^3 molecule^-1
+s^-1 (= 1.289e11 cm^3 mol^-1 s^-1), n = 3.44, Ea = 13.1 kJ/mol, 600-2800 K -
+consistent with the review fit entered here.
+
+The A entered is the total (as-measured) rate for toluene's three equivalent
+benzylic H atoms; degeneracy = 3.0 accordingly. Complements the existing
+theoretical entry 182 (Li et al. 2016, G4, referenceType "theory") with a
+measured anchor for the same reaction.
+
+Rank 1 per the RMG rank rubric (RMG-Py documentation/source/users/rmg/kinetics.rst,
+rank table: "Rank 1: Experiment/FCI"): an experimental determination / review fit
+of experimental data. In-family precedent: H_Abstraction training entries 86-88
+(Tsang & Herron 1991 JPCRD "review and recommendation, based on experimental
+studies", rank 1) and entry 70 (combined experimental determination, rank 1).
+Per the rubric, experiment outranks G4-class theory (rank 4, cf. entry 182,
+which is deliberately left untouched); this entry therefore takes precedence in
+exact-match depository retrieval and in rate-rule selection at its template node.
+
+Provenance class: MEASURED.
+Evidence of record: CKMG ckmg/data/prereg/phase6_kinetics_evidence.md (phase-6),
+entry 2.1.
+""",
+)
+
+entry(
+    index = 3118,
+    label = "C7H8 + CH3_r3 <=> CH4p + C7H7_p",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(
+        A = (2.511e+10, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (29.0, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (650, 'K'),
+        Tmax = (770, 'K'),
+    ),
+    reference = Article(
+        authors = ['Zhang, H.-X.', 'Ahonkhai, S.I.', 'Back, M.H.'],
+        journal = 'Canadian Journal of Chemistry',
+        volume = '67',
+        pages = '1541-1549',
+        year = '1989',
+    ),
+    referenceType = "experiment",
+    rank = 1,
+    shortDesc = u"""NIST 1989ZHA/AHO1541-1549 - toluene + CH3 -> benzyl + CH4, MEASURED""",
+    longDesc =
+u"""
+MEASURED (primary training candidate for the mid-T window). Benzylic
+H-abstraction from toluene by methyl radicals. NIST Chemical Kinetics Database
+squib 1989ZHA/AHO1541-1549 (Zhang, H.-X.; Ahonkhai, S.I.; Back, M.H.
+Can. J. Chem. 67 (1989) 1541-1549), T = 650-770 K - the measured window closest
+to the TGA stage-II range:
+  k = A * exp(-Ea/RT), A = 4.17e-14 cm^3 molecule^-1 s^-1, Ea = 29.0 kJ/mol.
+Unit conversion (shown step by step):
+  A = 4.17e-14 cm^3 molecule^-1 s^-1 * 6.02214e23 molecule mol^-1
+    = 2.511e10 cm^3 mol^-1 s^-1.
+
+Corroboration (not entered):
+- 2018MER/AWA9518-9541: A = 5.76e-13 cm^3 molecule^-1 s^-1, Ea = 39.7 kJ/mol,
+  870-1130 K (high-T check).
+- 2016LI/GUO3424-3432: A = 1.12e-14 cm^3 molecule^-1 s^-1, n = 3.81,
+  Ea = 30.9 kJ/mol, 300-2000 K wide-T fit. Provenance check (required by the
+  evidence of record) RESOLVED: this squib is Li, S.-H.; Guo, J.-J.; Li, R.;
+  Wang, F.; Li, X.-Y. J. Phys. Chem. A 120 (2016) 3424-3432 - a THEORY paper
+  (G4//B3LYP), already present in this training file as entries 267-270
+  (referenceType "theory"); therefore it is corroboration, not a measured anchor.
+- Classic band: 1970DUN/KOM1269 (611-883 K), 1964MUL/WIL1329-1341 (432-543 K),
+  1966CHE/HOL877 (373-573 K).
+
+The A entered is the total (as-measured) rate for toluene's three equivalent
+benzylic H atoms; degeneracy = 3.0 accordingly. Complements the existing
+theoretical entry 267 (Li et al. 2016, G4, referenceType "theory") with a
+measured anchor for the same reaction.
+
+Rank 1 per the RMG rank rubric (RMG-Py documentation/source/users/rmg/kinetics.rst,
+rank table: "Rank 1: Experiment/FCI"): a direct experimental determination in the
+mid-T window, corroborated by the independent experimental studies listed above.
+In-family precedent: H_Abstraction training entries 86-88 (Tsang & Herron 1991
+JPCRD "review and recommendation, based on experimental studies", rank 1) and
+entry 70 (combined experimental determination, rank 1). Per the rubric, experiment
+outranks G4-class theory (rank 4, cf. entry 267, which is deliberately left
+untouched); this entry therefore takes precedence in exact-match depository
+retrieval and in rate-rule selection at its template node.
+
+Provenance class: MEASURED.
+Evidence of record: CKMG ckmg/data/prereg/phase6_kinetics_evidence.md (phase-6),
+entry 2.2.
+""",
+)
