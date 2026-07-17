@@ -4308,3 +4308,30 @@ C8H10_ethylbenzene
 16   H u0 p0 c0 {7,S}
 17   H u0 p0 c0 {8,S}
 18   H u0 p0 c0 {5,S}
+
+C13H12_diphenylmethane
+1  * C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
+2  * C u0 p0 c0 {1,S} {4,B} {5,B}
+3    C u0 p0 c0 {1,S} {6,B} {7,B}
+4    C u0 p0 c0 {2,B} {8,B} {16,S}
+5    C u0 p0 c0 {2,B} {9,B} {17,S}
+6    C u0 p0 c0 {3,B} {11,B} {21,S}
+7    C u0 p0 c0 {3,B} {12,B} {22,S}
+8    C u0 p0 c0 {4,B} {10,B} {18,S}
+9    C u0 p0 c0 {5,B} {10,B} {19,S}
+10   C u0 p0 c0 {8,B} {9,B} {20,S}
+11   C u0 p0 c0 {6,B} {13,B} {23,S}
+12   C u0 p0 c0 {7,B} {13,B} {24,S}
+13   C u0 p0 c0 {11,B} {12,B} {25,S}
+14   H u0 p0 c0 {1,S}
+15   H u0 p0 c0 {1,S}
+16   H u0 p0 c0 {4,S}
+17   H u0 p0 c0 {5,S}
+18   H u0 p0 c0 {8,S}
+19   H u0 p0 c0 {9,S}
+20   H u0 p0 c0 {10,S}
+21   H u0 p0 c0 {6,S}
+22   H u0 p0 c0 {7,S}
+23   H u0 p0 c0 {11,S}
+24   H u0 p0 c0 {12,S}
+25   H u0 p0 c0 {13,S}
