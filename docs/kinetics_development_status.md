@@ -6,9 +6,12 @@ here must stay consistent with the evidence of record,
 `CKMG ckmg/data/prereg/phase6_kinetics_evidence.md` (CKMG branch `phase6-rmgdb-families`,
 commit `8121cfd8`), which was committed *before* any implementation per the project's
 purity-sequencing protocol. Last updated: 2026-07-18 (carbon-ejection dev cycle:
-round-86 mass-soundness verification of the volatile-ejection host and the generic-bridge-rate
-finding added; the phase-6 training anchors landed earlier at amended commit `25c5e2f2`, and
-the `phase6-phenolic-training` branch has since merged to `polymer`).
+round-88 landed the Class-D net-surrogate library `novolac_net_VE_surrogate` — the
+Petrocelli & Klein 1984 DPM rate is now in hand, unblocking the former "BLOCKED" net
+carbon-volatile step; round-86 had added the mass-soundness verification of the
+volatile-ejection host and the generic-bridge-rate finding; the phase-6 training anchors
+landed earlier at amended commit `25c5e2f2`, and the `phase6-phenolic-training` branch
+has since merged to `polymer`).
 
 ## Model system of record
 
@@ -128,37 +131,77 @@ database branch's scope. Entries 3118/5002/5004 were not cited in the generated 
 5002/5004 could not be (exact-match-only on a non-exact bridge) — consistent with the
 committed scope-of-effect statements.
 
+## Implemented — Class-D net-surrogate library (round-88, 2026-07-18)
+
+**Novolac carbon-volatile ejection — UNBLOCKED and LANDED** as the dedicated
+single-channel library **`input/kinetics/libraries/novolac_net_VE_surrogate`** (branch
+`novolac-net-ve-library`). The unblock condition stated below was met: Petrocelli &
+Klein 1984 is in hand, Table II gives the net DPM disappearance Arrhenius parameters and
+Fig 6 the ~1:1 benzene:toluene branching. Class D = *net surrogate*: a measured net
+model-compound rate booked as one lumped volatile-release channel — deliberately **not**
+a reaction family, **not** training data, and **not** in any recommended set; it is
+loaded only by decks that explicitly declare the matching novolac polymer pool
+(monomer C₈H₈O, monomer MW 120.148 g/mol; stitched trimer proxy C24H26O3).
+
+| # | Reaction (equation) | k(T) | Citation | Rank | Measured vs evaluated | Exact vs generalizable |
+|---|---|---|---|---|---|---|
+| 1 | novolac trimer proxy (C24H26O3) => C17H18O2 (o-quinone-methide dimer daughter, SMILES `C=C1C(=O)C=C(C)C=C1Cc1c(C)cc(C)cc1O`) + o-cresol (C7H8O, 108.14 g/mol); irreversible | A = 5.0×10¹² s⁻¹, n = 0, Ea = 66.0 kcal/mol; valid 823–873 K | Petrocelli & Klein 1984, *Macromolecules* 17(2):161–169, DOI [10.1021/ma00132a008](https://doi.org/10.1021/ma00132a008) — Table II net DPM disappearance; Fig 6 ~1:1 benzene:toluene branching | **No formal RMG rank** — benchmark-closure-only net surrogate; kept out of rate-rule training entirely | **Measured**, but a **2-temperature fit** (550/600 °C only): the Arrhenius extrapolation outside 823–873 K is unconstrained | **Exact, substrate-specific surrogate — NOT generalizable.** DPM-analog rate applied to the methylated/hydroxylated novolac bridge (unsubstituted-analog caveat). Must never seed a rate rule. |
+
+Provenance label carried verbatim in the entry's `longDesc` (layer 1 of the mandated
+two-layer label):
+
+> Net first-order surrogate for novolac methylene-bridge volatile release: one
+> cresol-class aromatic volatile per bridge-scission event; cresol/xylenol product
+> isomers collapsed to o-cresol at MW 108.14; total bridge-disappearance rate = k from
+> Petrocelli & Klein 1984 Table II (diphenylmethane analog, log A = 12.7 s⁻¹,
+> E\* = 66.0 kcal/mol, measured 550/600 C). NOT elementary (E\* well below ~85 kcal/mol
+> homolysis BDE); valid only as benchmark closure over the source condition envelope.
+
+Layer 2 (also in `longDesc`): the **unsubstituted-analog caveat** — the rate is the net
+disappearance of plain diphenylmethane, applied to a bridge flanked by ring methyls and
+OH groups whose perturbation of A/E\* the source does not quantify — and the
+**2-temperature-fit caveat** above.
+
+**Alternative-channel collapse (round-88 adjudication).** The cresol-class volatile is
+the single retained channel. The phenol+cresol two-volatile projection was **rejected in
+round-88** (it would double-book bridge events against the same net disappearance rate).
+The graph-natural toluene-analog ejection (xylenol, 122.16 g/mol) is **gate-refused** by
+the polymer concerted-loss evidence gate (MW(gas) < monomer MW 120.148 g/mol required) —
+and the refusal is *physical*, not an artifact: a single bridge-scission event cannot
+eject more than one monomer mass. The o-cresol channel passes, and the heavy co-product
+books as the `novolac_lossC7H8O` feature daughter (cumulative chain-mass defect
++108.138 g/mol per event; eject_units = 108.138/120.148 = 0.900). Verified end-to-end
+against RMG-Py `polymer` @214c92f2e: the library row resolves to the LIVE Polymer pool
+by isomorphism in `make_new_reaction`'s library seam, the daughter spawns, and no
+ordinary C17H18O2 species leaks into the model.
+
 ## Candidate families to implement next — anchors and blockers
 
-**Novolac carbon-volatile ejection (net closed-shell step; the load-bearing benchmark gap).**
-This is the missing forward-flux step and the top pending candidate. The target is a *net*
-closed-shell volatile-ejection
+**Novolac carbon-volatile ejection (net closed-shell step).** *Moved to "Implemented —
+Class-D net-surrogate library" above (round-88).* Historical record of the blocker and
+its resolution: the target was a *net* closed-shell volatile-ejection
 `novolac_chain → shorter_chain + {cresol C₇H₈O / phenol C₆H₆O / benzene / toluene / CO / CH₄}`,
 hosted by RMG-Py's existing concerted-loss / `VOLATILE_EJECTION` machinery. The host is
 mass-sound (verified round-86, 2026-07-18): the condensed mass drops by exactly MW(gas) per
-event, with no double-count. **Status: BLOCKED — no fully-cited *net* novolac carbon-volatile
-rate or yield is in hand.** The in-hand novolac-applicable sources (R_Recombination 5002/5004)
-are homolysis-to-radicals, **not** a net closed-shell volatile with a cited product yield —
-relabeling them as a net step would be fabrication and is out. The fully-cited net steps that
-do exist — da Silva o-QM → benzene + CO (10.1021/jp073335c) and Pelucchi phenol → C₅H₆ + CO
-(10.1039/c8re00198g) — are resole-only / monomer-scale and have **no novolac inlet**; neither
-by itself produces a novolac net volatile step. **Unblock condition:** a cited
-product-*specific* net rate (an Arrhenius A/Ea, or a conversion–time curve reducible to k(T))
-plus the product branching for diphenylmethane / phenolic-diarylmethane pyrolysis to
-closed-shell aromatics. **Best target:** Petrocelli & Klein, "Model reaction pathways in Kraft
-lignin pyrolysis" (1984), which reports DPM → benzene / toluene / fluorene Arrhenius
-parameters. **Secondary:** Buchanan & Britt / Poutsma / Savage diarylmethane-pyrolysis product
-distributions — caveat: the surface-immobilized DPM work shows char / fluorene / PAH routes
-dominating, which may argue for a *small or blocked* carbon step rather than unblocking a large
-one.
+event, with no double-count. The step was BLOCKED while no fully-cited *net* novolac
+carbon-volatile rate or yield was in hand — the in-hand novolac-applicable sources
+(R_Recombination 5002/5004) are homolysis-to-radicals, and relabeling them as a net step
+would have been fabrication; the cited net steps that did exist (da Silva o-QM →
+benzene + CO, 10.1021/jp073335c; Pelucchi phenol → C₅H₆ + CO, 10.1039/c8re00198g) are
+resole-only / monomer-scale with no novolac inlet. The stated unblock condition — a cited
+product-specific net rate plus product branching for diphenylmethane /
+phenolic-diarylmethane pyrolysis — was met by the "best target" source itself, Petrocelli
+& Klein 1984 (Table II DPM Arrhenius; Fig 6 branching). The secondary caveat stands as a
+scope note: surface-immobilized DPM work (Buchanan & Britt / Poutsma / Savage) shows
+char / fluorene / PAH routes dominating in other regimes, one reason the library is
+confined to the 823–873 K source envelope.
 
-*Provenance rule for when it lands.* The net step is a **calibrated net surrogate, explicitly
-not elementary**. Its required provenance label is verbatim: "net first-order surrogate for
-novolac diarylmethane-link volatile release, constructed from a model-compound bridge-cleavage
-rate and an experimentally observed product branching fraction under specified pyrolysis
-conditions; not elementary; valid only as a sensitivity/benchmark closure over that condition
-envelope." A condition-transferability caveat is mandatory whenever the source conditions
-(high-T/P, surface-immobilized, H-donor, catalyst, long-residence) differ from the TGA envelope.
+*Provenance rule (now satisfied by the landed entry).* The net step is a **calibrated net
+surrogate, explicitly not elementary**; its provenance label and condition-envelope
+caveats are carried verbatim in the library entry's `longDesc` (see the Class-D section
+above). A condition-transferability caveat is mandatory whenever the source conditions
+(high-T/P, surface-immobilized, H-donor, catalyst, long-residence) differ from the TGA
+envelope.
 
 **True elementary radical cascade (deferred, scope L — needs an RMG-Py method-of-moments
 redesign).** The physically-honest alternative to the net surrogate — bridge homolysis → a
@@ -218,7 +261,7 @@ abstraction from ANALOGY-tier rule estimates to citable cresol/xylenol-specific 
 | Flux census + benchmark rerun (role='certification') | mooted by routing veto — would reproduce the known zero-flux result |
 | `VOLATILE_EJECTION` host mass-soundness | verified round-86 (2026-07-18) — condensed mass drops by exactly MW(gas)/event, no double-count |
 | Generated-bridge-rate delivery (5002/5004 → generated rows) | confirmed inert (round-86) — generated rows carry generic A ≈ 9.99×10¹²; needs ATG regen |
-| Novolac carbon-volatile ejection (calibrated net surrogate) | BLOCKED — no cited *net* novolac rate/yield in hand; unblock = Petrocelli & Klein 1984 (DPM Arrhenius) PDF |
+| Novolac carbon-volatile ejection (calibrated net surrogate) | **done (round-88)** — Class-D library `novolac_net_VE_surrogate` (branch `novolac-net-ve-library`); Petrocelli & Klein 1984 Table II DPM rate; single o-cresol channel, no formal RMG rank, benchmark-closure-only |
 | True elementary radical cascade | deferred (scope L) — NO-GO without an RMG-Py method-of-moments redesign (mass-balance hole) |
 | Dehydration/o-QM family | parked — paywalled primary (10.1039/a800189h) |
 | o-QM decomposition training | parked — paywalled full text (10.1021/jp073335c) |
