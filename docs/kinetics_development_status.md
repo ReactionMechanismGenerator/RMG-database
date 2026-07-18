@@ -5,8 +5,20 @@ base `polymer` @ `7cb91d10`). Maintained continuously as development advances; e
 here must stay consistent with the evidence of record,
 `CKMG ckmg/data/prereg/phase6_kinetics_evidence.md` (CKMG branch `phase6-rmgdb-families`,
 commit `8121cfd8`), which was committed *before* any implementation per the project's
-purity-sequencing protocol. Last updated: 2026-07-17 (after the round-78 review fixes,
-amended commit `25c5e2f2`; generation smoke test in progress).
+purity-sequencing protocol. Last updated: 2026-07-18 (carbon-ejection dev cycle:
+round-86 mass-soundness verification of the volatile-ejection host and the generic-bridge-rate
+finding added; the phase-6 training anchors landed earlier at amended commit `25c5e2f2`, and
+the `phase6-phenolic-training` branch has since merged to `polymer`).
+
+## Model system of record
+
+The model system of record is **TACOT novolac** (documented in the user report R1, Ref
+`2023.1085.3.02`): a phenol–formaldehyde **novolac** — cresol subunits joined by methylene
+crosslinks, with **no** hydroxymethyl (`-CH2OH`) groups. The faithful proxy SMILES is
+`c1c(O)c(Cc2c(O)cc(C)cc2)c(C)cc1`. This constrains every family decision below: novolac
+carbon ejection must originate in methylene-bridge (diarylmethane-link) chemistry, not in the
+resole hydroxymethyl-dehydration route — which is why the o-quinone-methide family below adds
+generalizable value but produces no benchmark flux on this system.
 
 ## Where this work comes from
 
@@ -84,6 +96,13 @@ entry and in the commit message. H_Abstraction, by contrast, is not ATG: its tra
 entries become rate rules at load, so the measured anchors genuinely generalize to
 benzylic analogs — at honestly-labeled ANALOGY tier for substituted bridges.
 
+*Confirmed empirically (round-86, 2026-07-18).* On the novolac proxy the generated bridge
+rows carry a **generic** R_Recombination pre-exponential A ≈ 9.99×10¹² — i.e. the cited
+5002/5004 homolysis rates are not reaching the smoke-run bridge rows. They affect
+exact-match depository retrieval only, which the non-exact hydroxylated-diphenylmethane
+bridge never triggers; regenerating the ATG tree remains the only route to fold them into
+the rates the generated mechanism actually uses.
+
 **Polymer routing verdict: ROUTING-VETOED (smoke test, 2026-07-17).** The generation
 smoke test (novolac single-methylene-bridge polymer + this database worktree, RMG
 polymer branch @ bd3ef5ff5, run of record `~/runs/CKMG/phase6_smoke_2026.07.17/`)
@@ -111,7 +130,45 @@ committed scope-of-effect statements.
 
 ## Candidate families to implement next — anchors and blockers
 
-**Phenolic dehydration to o-quinone methide (new family; the strongest candidate).**
+**Novolac carbon-volatile ejection (net closed-shell step; the load-bearing benchmark gap).**
+This is the missing forward-flux step and the top pending candidate. The target is a *net*
+closed-shell volatile-ejection
+`novolac_chain → shorter_chain + {cresol C₇H₈O / phenol C₆H₆O / benzene / toluene / CO / CH₄}`,
+hosted by RMG-Py's existing concerted-loss / `VOLATILE_EJECTION` machinery. The host is
+mass-sound (verified round-86, 2026-07-18): the condensed mass drops by exactly MW(gas) per
+event, with no double-count. **Status: BLOCKED — no fully-cited *net* novolac carbon-volatile
+rate or yield is in hand.** The in-hand novolac-applicable sources (R_Recombination 5002/5004)
+are homolysis-to-radicals, **not** a net closed-shell volatile with a cited product yield —
+relabeling them as a net step would be fabrication and is out. The fully-cited net steps that
+do exist — da Silva o-QM → benzene + CO (10.1021/jp073335c) and Pelucchi phenol → C₅H₆ + CO
+(10.1039/c8re00198g) — are resole-only / monomer-scale and have **no novolac inlet**; neither
+by itself produces a novolac net volatile step. **Unblock condition:** a cited
+product-*specific* net rate (an Arrhenius A/Ea, or a conversion–time curve reducible to k(T))
+plus the product branching for diphenylmethane / phenolic-diarylmethane pyrolysis to
+closed-shell aromatics. **Best target:** Petrocelli & Klein, "Model reaction pathways in Kraft
+lignin pyrolysis" (1984), which reports DPM → benzene / toluene / fluorene Arrhenius
+parameters. **Secondary:** Buchanan & Britt / Poutsma / Savage diarylmethane-pyrolysis product
+distributions — caveat: the surface-immobilized DPM work shows char / fluorene / PAH routes
+dominating, which may argue for a *small or blocked* carbon step rather than unblocking a large
+one.
+
+*Provenance rule for when it lands.* The net step is a **calibrated net surrogate, explicitly
+not elementary**. Its required provenance label is verbatim: "net first-order surrogate for
+novolac diarylmethane-link volatile release, constructed from a model-compound bridge-cleavage
+rate and an experimentally observed product branching fraction under specified pyrolysis
+conditions; not elementary; valid only as a sensitivity/benchmark closure over that condition
+envelope." A condition-transferability caveat is mandatory whenever the source conditions
+(high-T/P, surface-immobilized, H-donor, catalyst, long-residence) differ from the TGA envelope.
+
+**True elementary radical cascade (deferred, scope L — needs an RMG-Py method-of-moments
+redesign).** The physically-honest alternative to the net surrogate — bridge homolysis → a
+tracked condensed-scale gas radical → gas-phase β-scission → small volatile — is a **NO-GO** on
+current RMG-Py without a large method-of-moments redesign: the moment solver holds no state for
+a radical that has left the condensed pool, so the cascade would open a real mass-balance hole,
+which the guards correctly refuse. Deferred with that reason recorded; it is not a
+database-branch task.
+
+**Phenolic dehydration to o-quinone methide (new family; the strongest *closed-shell* family candidate).**
 Salicyl-alcohol-type units eliminate water to form o-quinone methide — the only genuinely
 new family designed so far. Feasibility is settled: the recipe shape (closed-shell 1→2
 with ring dearomatization) is proven machinery, and hosting it inside the existing
@@ -159,6 +216,10 @@ abstraction from ANALOGY-tier rule estimates to citable cresol/xylenol-specific 
 | Generation smoke test (polymer routing verdict) | done — ROUTING-VETOED (conduit admission disabled; see caveats) |
 | WP5 constraints headroom (three blocks) | mooted — no admissible flux to protect until conduit admission lands (RMG-Py side) |
 | Flux census + benchmark rerun (role='certification') | mooted by routing veto — would reproduce the known zero-flux result |
+| `VOLATILE_EJECTION` host mass-soundness | verified round-86 (2026-07-18) — condensed mass drops by exactly MW(gas)/event, no double-count |
+| Generated-bridge-rate delivery (5002/5004 → generated rows) | confirmed inert (round-86) — generated rows carry generic A ≈ 9.99×10¹²; needs ATG regen |
+| Novolac carbon-volatile ejection (calibrated net surrogate) | BLOCKED — no cited *net* novolac rate/yield in hand; unblock = Petrocelli & Klein 1984 (DPM Arrhenius) PDF |
+| True elementary radical cascade | deferred (scope L) — NO-GO without an RMG-Py method-of-moments redesign (mass-balance hole) |
 | Dehydration/o-QM family | parked — paywalled primary (10.1039/a800189h) |
 | o-QM decomposition training | parked — paywalled full text (10.1021/jp073335c) |
 | Phenolic condensation | deferred — no citable elementary kinetics exist |
