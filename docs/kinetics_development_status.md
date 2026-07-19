@@ -175,6 +175,26 @@ against RMG-Py `polymer` @214c92f2e: the library row resolves to the LIVE Polyme
 by isomorphism in `make_new_reaction`'s library seam, the daughter spawns, and no
 ordinary C17H18O2 species leaks into the model.
 
+**Usage note (2026-07-19 scored-attempt benchmark).** Exercised in the fresh v2 TGA
+benchmark on the F1-fixed toolchain (RMG-Py-n5b `@d86201ec2`, TA-n5a `@4cb5c0a`, CKMG
+`@d6e7142b`). RMG generation **converged** — core 26 sp / 1 rxn in 6m41s with the
+`MODEL GENERATION COMPLETED` sentinel (the 2026-07-18 DASSL hang on the primary solver is
+resolved) — booking the single library VE row `novolac → o_cresol + novolac_lossC7H8O`
+(eject_units 0.9000349, irreversible); VE census clean (1 live / 0 competing / 0 refused;
+the cleaner converged model carries none of the "+4 refused" rows of the prior 42-species
+snapshot). **Result: UNSCORED** — no TGA curve or verdict was produced: under
+`role='rmg_surrogate_certification'` the moment-credit certification integration **stalls
+at simulation time t≈29.85 s** (of the 3420 s ramp) on this minimal single-drain converged
+model (BDF ill-conditioning: 0 balanced Cantera reactions, one irreversible sidecar drain
+into an initially-exhausted pool; corroborated by an independent 18-hour, 1.29-billion-eval
+probe that advanced sim-time 0.0002 s, vs 0.22 s for the 42-species fixture). **Mass-
+conservation audit: NOT REACHED** (computed from the trajectory, which never completed).
+The TA loader carries the **F4 correction** — the `volatile_ejection/1` moment-coefficient
+defect-delta (2× mass-debit) fix, cross-checked against the reference `polymer.pyx`
+contract — so the condensed-mass debit path is contract-correct once a trajectory exists.
+Run dir `~/runs/CKMG/tga_v2_novolac_net_ve_2026.07.19/`; full gate table in that run's
+`benchmark/run_annotations.json`.
+
 ## Candidate families to implement next — anchors and blockers
 
 **Novolac carbon-volatile ejection (net closed-shell step).** *Moved to "Implemented —
