@@ -195,6 +195,33 @@ contract — so the condensed-mass debit path is contract-correct once a traject
 Run dir `~/runs/CKMG/tga_v2_novolac_net_ve_2026.07.19/`; full gate table in that run's
 `benchmark/run_annotations.json`.
 
+**Usage note (2026-07-20 SCORED v3 benchmark).** Re-exercised in the v3 TGA
+benchmark on the ck2yaml-free toolchain (CKMG `@8aa27c01`, RMG-Py-n5b
+`@d86201ec2`, TA-v3-bdf `@fd46dc0`). This is the **first SCORED result** on the
+cited-library deck — both 2026-07-19 blockers are resolved: the ck2yaml-free
+pipeline preserves RMG's native VE-dropped Cantera export (F-A gone), and
+**k_scission zeroed (1.0 → 0.0**, round-91 P1 + direct user authorization; the v2
+value was an uncited Ziff–McGrady placeholder that double-booked this library's flux
+and stalled the integrator) plus TA's mu3-closure boundary band clears the F-B BDF
+stall — the moment-credit certification now **completes in 0.36 s**. Generation
+converged core **25 sp / 1 rxn** (26→25: k_scission=0 drops the o-cresoxy radical;
+the 17/15→14/14 gas-cap edit is behavior-invariant, proven by a cap-only control
+run) with the clean single library VE row `novolac → o_cresol + novolac_lossC7H8O`
+(eject_units 0.9000349, irreversible; 1 live / 0 competing / 0 refused). **Result:
+verdict `pass_surrogate_certification = FALSE` — an honest undershoot**, published
+verbatim, not tuned: model resin loss **10.81 %** (composite 4.33 %) vs measured
+resin **47.03 %** (composite 18.81 %); 5-point gate 0/5, max rel err 100%. All
+mechanics gates pass — in particular the **trajectory mass-conservation audit is
+GREEN** (`max_rel_imbalance = 2.35e-12`, well under the 1e-6 RTOL; 0 mass-bearing
+fallback species; monotone non-increasing) — so the F4-corrected condensed-mass
+debit path is contract-correct now that a completed trajectory exists. The single
+cited channel is calibrated only at 550–600 °C (823–873 K); over the 30→1170 °C IAI
+ramp only the 571.5 °C gate point is in-envelope and the rest extrapolate (annotated,
+never clamped), which is the physical origin of the ~4× carbon-loss undershoot: one
+net-VE Arrhenius channel cannot reproduce the full charring-resin decomposition.
+Run dir `~/runs/CKMG/tga_v3_novolac_net_ve_2026.07.20/`;
+`benchmark/run_annotations.json`, `benchmark/ve_census.json`.
+
 ## Candidate families to implement next — anchors and blockers
 
 **Novolac carbon-volatile ejection (net closed-shell step).** *Moved to "Implemented —
