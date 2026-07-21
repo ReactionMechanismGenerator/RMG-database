@@ -5,13 +5,18 @@ base `polymer` @ `7cb91d10`). Maintained continuously as development advances; e
 here must stay consistent with the evidence of record,
 `CKMG ckmg/data/prereg/phase6_kinetics_evidence.md` (CKMG branch `phase6-rmgdb-families`,
 commit `8121cfd8`), which was committed *before* any implementation per the project's
-purity-sequencing protocol. Last updated: 2026-07-18 (carbon-ejection dev cycle:
-round-88 landed the Class-D net-surrogate library `novolac_net_VE_surrogate` — the
-Petrocelli & Klein 1984 DPM rate is now in hand, unblocking the former "BLOCKED" net
-carbon-volatile step; round-86 had added the mass-soundness verification of the
-volatile-ejection host and the generic-bridge-rate finding; the phase-6 training anchors
-landed earlier at amended commit `25c5e2f2`, and the `phase6-phenolic-training` branch
-has since merged to `polymer`).
+purity-sequencing protocol. Last updated: 2026-07-21 (carbon-ejection dev cycle: the
+round-88 `novolac_net_VE_surrogate` single collapsed o-cresol row was split into two
+HALF-A-factor rows realizing the source's measured ~1:1 phenol:o-cresol branching —
+PREPARED in library worktree `novolac-net-ve-library` @`6b2dac5ed`, UNMERGED and
+UNPUBLISHED, pending the v4 campaign bundle; the next targeted family, bimolecular
+phenolic condensation, remains BLOCKED on an external citable rate. 2026-07-18
+carbon-ejection dev cycle: round-88 landed the Class-D net-surrogate library
+`novolac_net_VE_surrogate` — the Petrocelli & Klein 1984 DPM rate is now in hand,
+unblocking the former "BLOCKED" net carbon-volatile step; round-86 had added the
+mass-soundness verification of the volatile-ejection host and the generic-bridge-rate
+finding; the phase-6 training anchors landed earlier at amended commit `25c5e2f2`, and
+the `phase6-phenolic-training` branch has since merged to `polymer`).
 
 ## Model system of record
 
@@ -145,35 +150,74 @@ loaded only by decks that explicitly declare the matching novolac polymer pool
 
 | # | Reaction (equation) | k(T) | Citation | Rank | Measured vs evaluated | Exact vs generalizable |
 |---|---|---|---|---|---|---|
-| 1 | novolac trimer proxy (C24H26O3) => C17H18O2 (o-quinone-methide dimer daughter, SMILES `C=C1C(=O)C=C(C)C=C1Cc1c(C)cc(C)cc1O`) + o-cresol (C7H8O, 108.14 g/mol); irreversible | A = 5.0×10¹² s⁻¹, n = 0, Ea = 66.0 kcal/mol; valid 823–873 K | Petrocelli & Klein 1984, *Macromolecules* 17(2):161–169, DOI [10.1021/ma00132a008](https://doi.org/10.1021/ma00132a008) — Table II net DPM disappearance; Fig 6 ~1:1 benzene:toluene branching | **No formal RMG rank** — benchmark-closure-only net surrogate; kept out of rate-rule training entirely | **Measured**, but a **2-temperature fit** (550/600 °C only): the Arrhenius extrapolation outside 823–873 K is unconstrained | **Exact, substrate-specific surrogate — NOT generalizable.** DPM-analog rate applied to the methylated/hydroxylated novolac bridge (unsubstituted-analog caveat). Must never seed a rate rule. |
+| 1a (phenol branch) | novolac trimer proxy (C24H26O3) => C18H20O2 (`C18H20O2_oQE_daughter`, o-quinone-ethylidene bookkeeping terminus) + phenol (C6H6O, 94.111 g/mol); irreversible | A = 2.5×10¹² s⁻¹ (half of the total 5.0×10¹² s⁻¹), n = 0, Ea = 66.0 kcal/mol; valid 823–873 K | Petrocelli & Klein 1984, *Macromolecules* 17(2):161–169, DOI [10.1021/ma00132a008](https://doi.org/10.1021/ma00132a008) — Table II net DPM disappearance; Fig 6 ~1:1 benzene:toluene branching, mapped via the authors' own benzene→phenol correspondence to the hydroxylated bridge | **No formal RMG rank** — benchmark-closure-only net surrogate; kept out of rate-rule training entirely | **Measured**, but a **2-temperature fit** (550/600 °C only): the Arrhenius extrapolation outside 823–873 K is unconstrained | **Exact, substrate-specific surrogate — NOT generalizable.** DPM-analog rate applied to the methylated/hydroxylated novolac bridge (unsubstituted-analog caveat); branch ratio also transferred from the unsubstituted analog. Must never seed a rate rule. |
+| 1b (o-cresol branch) | novolac trimer proxy (C24H26O3) => C17H18O2 (`C17H18O2_oQM_daughter`, o-quinone-methide bookkeeping terminus) + o-cresol (C7H8O, 108.14 g/mol); irreversible | A = 2.5×10¹² s⁻¹ (half of the total 5.0×10¹² s⁻¹), n = 0, Ea = 66.0 kcal/mol; valid 823–873 K | Petrocelli & Klein 1984, *Macromolecules* 17(2):161–169, DOI [10.1021/ma00132a008](https://doi.org/10.1021/ma00132a008) — Table II net DPM disappearance; Fig 6 ~1:1 benzene:toluene branching, mapped via the authors' own toluene→cresol correspondence to the hydroxylated bridge | **No formal RMG rank** — benchmark-closure-only net surrogate; kept out of rate-rule training entirely | **Measured**, but a **2-temperature fit** (550/600 °C only): the Arrhenius extrapolation outside 823–873 K is unconstrained | **Exact, substrate-specific surrogate — NOT generalizable.** DPM-analog rate applied to the methylated/hydroxylated novolac bridge (unsubstituted-analog caveat); branch ratio also transferred from the unsubstituted analog. Must never seed a rate rule. |
 
-Provenance label carried verbatim in the entry's `longDesc` (layer 1 of the mandated
-two-layer label):
+**Update (2026-07-21, PREPARED — UNMERGED, UNPUBLISHED): single collapsed row split into
+the two rows above.** The round-88 landed library collapsed the ~1:1 Fig 6 benzene:toluene
+branching into a single o-cresol-only channel (row `1` above, now superseded — see the
+"Alternative-channel collapse" note below for why the phenol+cresol pairing was rejected
+at that time). That adjudication has been **reopened**: library worktree
+`novolac-net-ve-library` @`6b2dac5ed` (branch `novolac-net-ve-library`, commit "kinetics:
+split novolac_net_VE_surrogate 0.5 phenol + 0.5 o-cresol branches (v4-prep, round-88
+reopened)") replaces the single row with the two HALF-A-factor rows 1a/1b above, so the
+summed event rate is unchanged (2.5×10¹² + 2.5×10¹² = 5.0×10¹² s⁻¹, same Ea) while the
+branching the source actually measured (Fig 6, ~1:1) is realized as two distinct gas
+products instead of collapsed into one. This is **not** the same pairing the round-88
+adjudication rejected: that rejection was against a *phenol+cresol-vs-single-net-rate*
+double-booking concern and against a graph-natural xylenol channel (see below); the 1a/1b
+split resolves the double-booking by halving each A-factor rather than adding a second
+full-rate channel. **Status: PREPARED in the library worktree, committed but UNMERGED and
+UNPUBLISHED** — not yet folded into `polymer`, not yet exercised in a scored benchmark
+run, and pending the v4 campaign bundle together with the phenolic-condensation channel
+below (which is itself blocked on an external citable rate). Honest characterization
+carried into both 1a/1b `longDesc` entries: **NET first-order surrogate, explicitly NOT
+elementary** (E* = 66 kcal/mol, well below the ~85 kcal/mol methylene-bridge C–C
+homolysis BDE); caveats = unsubstituted-DPM-analog rate transfer, 2-temperature fit
+(550/600 °C only), and branch ratio transferred from the unsubstituted DPM analog to the
+substituted novolac bridge. Scope: novolac methylene-bridge disappearance / carbon-
+volatile ejection for the TACOT novolac model system only — same scope as the round-88
+row it supersedes.
 
-> Net first-order surrogate for novolac methylene-bridge volatile release: one
-> cresol-class aromatic volatile per bridge-scission event; cresol/xylenol product
-> isomers collapsed to o-cresol at MW 108.14; total bridge-disappearance rate = k from
-> Petrocelli & Klein 1984 Table II (diphenylmethane analog, log A = 12.7 s⁻¹,
-> E\* = 66.0 kcal/mol, measured 550/600 C). NOT elementary (E\* well below ~85 kcal/mol
-> homolysis BDE); valid only as benchmark closure over the source condition envelope.
+Provenance label carried verbatim in each entry's `longDesc` (layer 1 of the mandated
+two-layer label), e.g. for the o-cresol branch:
 
-Layer 2 (also in `longDesc`): the **unsubstituted-analog caveat** — the rate is the net
-disappearance of plain diphenylmethane, applied to a bridge flanked by ring methyls and
-OH groups whose perturbation of A/E\* the source does not quantify — and the
-**2-temperature-fit caveat** above.
+> o-Cresol branch (toluene-analog) of the split net first-order surrogate for novolac
+> methylene-bridge volatile release: one cresol-class aromatic volatile per bridge-
+> scission event on this branch; A-factor is HALF the source's net rate (2.5e12 of
+> 5.0e12 s^-1) so that this row plus the phenol row sum exactly to the total bridge-
+> disappearance rate k from Petrocelli & Klein 1984 Table II (diphenylmethane analog,
+> log A = 12.7 s^-1, E\* = 66.0 kcal/mol, measured 550/600 C). NOT elementary (E\* well
+> below ~85 kcal/mol BDE).
 
-**Alternative-channel collapse (round-88 adjudication).** The cresol-class volatile is
-the single retained channel. The phenol+cresol two-volatile projection was **rejected in
-round-88** (it would double-book bridge events against the same net disappearance rate).
-The graph-natural toluene-analog ejection (xylenol, 122.16 g/mol) is **gate-refused** by
-the polymer concerted-loss evidence gate (MW(gas) < monomer MW 120.148 g/mol required) —
-and the refusal is *physical*, not an artifact: a single bridge-scission event cannot
-eject more than one monomer mass. The o-cresol channel passes, and the heavy co-product
-books as the `novolac_lossC7H8O` feature daughter (cumulative chain-mass defect
-+108.138 g/mol per event; eject_units = 108.138/120.148 = 0.900). Verified end-to-end
-against RMG-Py `polymer` @214c92f2e: the library row resolves to the LIVE Polymer pool
-by isomorphism in `make_new_reaction`'s library seam, the daughter spawns, and no
-ordinary C17H18O2 species leaks into the model.
+Layer 2 (also in each `longDesc`): the **unsubstituted-analog caveat** — the rate is the
+net disappearance of plain diphenylmethane, applied to a bridge flanked by ring methyls
+and OH groups whose perturbation of A/E\* the source does not quantify — the
+**2-temperature-fit caveat** (550/600 °C, 823/873 K only) — and the **branch-ratio-
+transfer caveat** — the ~1:1 split is measured for DPM benzene:toluene; its transfer to
+phenol:cresol on the substituted bridge inherits the same unquantified substituent
+uncertainty.
+
+**Alternative-channel collapse (round-88 adjudication; historical, see split above).** At
+round-88 landing, the cresol-class volatile was the single retained channel. The
+phenol+cresol two-volatile projection was **rejected in round-88** (it would double-book
+bridge events against the same net disappearance rate) — this is the rejection now
+superseded by the 2026-07-21 half-A-factor split above. The graph-natural toluene-analog
+ejection (xylenol, 122.16 g/mol) is **gate-refused** by the polymer concerted-loss
+evidence gate (MW(gas) < monomer MW 120.148 g/mol required) — and the refusal is
+*physical*, not an artifact: a single bridge-scission event cannot eject more than one
+monomer mass; this refusal is unaffected by the phenol/o-cresol split, since both phenol
+(94.111 g/mol) and o-cresol (108.14 g/mol) pass the same DP-preservation cap. In the
+round-88 landed (single-row) library, the o-cresol channel passes, and the heavy
+co-product books as the `novolac_lossC7H8O` feature daughter (cumulative chain-mass
+defect +108.138 g/mol per event; eject_units = 108.138/120.148 = 0.900). Verified
+end-to-end against RMG-Py `polymer` @214c92f2e: the library row resolves to the LIVE
+Polymer pool by isomorphism in `make_new_reaction`'s library seam, the daughter spawns,
+and no ordinary C17H18O2 species leaks into the model. In the split (1a/1b) library, the
+phenol branch books analogously into `novolac_lossC6H6O` (+94.111 g/mol per event) and
+the o-cresol branch retains `novolac_lossC7H8O` (+108.138 g/mol per event); the split
+library has not yet been re-verified end-to-end against a live RMG-Py run (PREPARED,
+UNMERGED — see status above).
 
 **Usage note (2026-07-19 scored-attempt benchmark).** Exercised in the fresh v2 TGA
 benchmark on the F1-fixed toolchain (RMG-Py-n5b `@d86201ec2`, TA-n5a `@4cb5c0a`, CKMG
@@ -278,12 +322,17 @@ tropone → benzene + CO) is confirmed from the PubMed abstract, but the channel
 Arrhenius triplets need the paywalled full text. Currently orphaned for the benchmark:
 without the dehydration family there is no o-QM inlet.
 
-**Bimolecular phenolic condensation (2 ArOH → Ar–O–Ar + H₂O).** The real stage-I water
-channel for novolac and the largest benchmark gap. **No citable elementary rate
+**Bimolecular phenolic condensation (2 ArOH → Ar–O–Ar + H₂O) — next targeted addition,
+BLOCKED.** The real stage-I water channel for novolac and the largest benchmark gap; with
+the novolac VE surrogate split (see Class-D section above) now PREPARED, this is the next
+targeted kinetics addition for the v4 campaign bundle. **No citable elementary rate
 coefficient exists in any source we could reach** — this is the state of the literature,
 not a retrieval failure. Deferred on principle: authoring it would require inventing
-kinetics, which the acceptance bar forbids. Any future unlock would come from new
-primary literature (e.g. a QM study of phenol condensation kinetics).
+kinetics, which the acceptance bar forbids. **Blocked on obtaining a citable A/Ea; an
+external Deep Research pass is outstanding.** No manufactured Arrhenius will be
+substituted in the interim. Any future unlock would come from new primary literature
+(e.g. a QM study of phenol condensation kinetics), or from the outstanding Deep Research
+pass surfacing a citable source.
 
 **R_Recombination ATG tree regeneration.** Not a new family but the step that would let
 the new measured homolysis anchors influence substituted-bridge estimates. Needs its own
@@ -309,6 +358,8 @@ abstraction from ANALOGY-tier rule estimates to citable cresol/xylenol-specific 
 | `VOLATILE_EJECTION` host mass-soundness | verified round-86 (2026-07-18) — condensed mass drops by exactly MW(gas)/event, no double-count |
 | Generated-bridge-rate delivery (5002/5004 → generated rows) | confirmed inert (round-86) — generated rows carry generic A ≈ 9.99×10¹²; needs ATG regen |
 | Novolac carbon-volatile ejection (calibrated net surrogate) | **done (round-88)** — Class-D library `novolac_net_VE_surrogate` (branch `novolac-net-ve-library`); Petrocelli & Klein 1984 Table II DPM rate; single o-cresol channel, no formal RMG rank, benchmark-closure-only |
+| Novolac VE surrogate — 1:1 phenol/o-cresol branch split | **PREPARED, UNMERGED, UNPUBLISHED (2026-07-21)** — library worktree `novolac-net-ve-library` @`6b2dac5ed`; round-88 single row replaced by two HALF-A-factor rows (1a phenol, 1b o-cresol), same total rate, Fig 6 ~1:1 branching now realized as two products; pending v4 campaign bundle with phenolic-condensation channel |
+| Phenolic condensation (2 ArOH → Ar–O–Ar + H₂O) | **BLOCKED** — no citable elementary A/Ea found in any reachable source; external Deep Research outstanding; no manufactured Arrhenius will be substituted |
 | True elementary radical cascade | deferred (scope L) — NO-GO without an RMG-Py method-of-moments redesign (mass-balance hole) |
 | Dehydration/o-QM family | parked — paywalled primary (10.1039/a800189h) |
 | o-QM decomposition training | parked — paywalled full text (10.1021/jp073335c) |
