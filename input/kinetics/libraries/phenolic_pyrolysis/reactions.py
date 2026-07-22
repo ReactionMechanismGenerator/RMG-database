@@ -29,6 +29,12 @@ are typically x3-x10. This is a *seed* — RMG is expected to extend it via
 rate-rule estimation, and the polymer-pool moments handle the chain-length
 distribution separately.
 
+NO LONGER STANDALONE FOR THE o-QM PATHWAY: R6 (oHO_Bz_rad -> oQM + H) and R7
+(oQM -> benzene + CO) were removed as spuriously fast (24 and 42 kcal/mol vs
+the 57.1 G4 / 67.16 measured barriers). R5 still produces oQM, so a deck
+loading only this library generates oQM with no corrected sink: co-load the
+carbon_phenol library, which carries the superseding rows (entries 8 and 4).
+
 Source: ~/runs/RMG/poly_101/consolidated_novolak_pyrolysis_report.md (2026-05-14)
 """
 
@@ -150,42 +156,14 @@ entry(
     """,
 )
 
-entry(
-    index = 6,
-    label = "oHO_Bz_rad <=> oQM + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.3e13, 's^-1'),
-        n = 0.0,
-        Ea = (24.0, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    shortDesc = u"R6: β-scission of 2-hydroxybenzyl radical → o-QM + H",
-    longDesc = u"""
-    Provenance: QM/analogy. β-scission of the benzylic-radical hydroxybenzyl
-    species produces ortho-quinone methide (oQM) and an H atom. Central
-    pathway in DR-3 for the *condensed-radical → volatile* transition;
-    feeds H back into the propagation loop. Uncertainty factor: x5.
-    """,
-)
+# R6 (oHO_Bz_rad <=> oQM + H, A=1.3e13, Ea=24.0 kcal/mol) REMOVED: superseded
+# by carbon_phenol entry 8 (COLIBRIv5 G4, Ea=57.1 kcal/mol -- R6 sat ~33
+# kcal/mol below the calculated barrier, far below the channel endothermicity).
 
-entry(
-    index = 7,
-    label = "oQM <=> benzene + CO",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.2e10, 's^-1'),
-        n = 0.7,
-        Ea = (42.0, 'kcal/mol'),
-        T0 = (1, 'K'),
-    ),
-    shortDesc = u"R7: o-quinone methide unimolecular decomposition → benzene + CO",
-    longDesc = u"""
-    Provenance: QM/QRRK (da Silva & Bozzelli line of work). Decarbonylation of
-    o-QM produces benzene and CO. Primary source of CO in the TGA window.
-    Uncertainty factor: x3.
-    """,
-)
+# R7 (oQM <=> benzene + CO, A=1.2e10, n=0.7, Ea=42.0 kcal/mol) REMOVED:
+# superseded by carbon_phenol entry 4 (Dorrestijn 1997 measured, Ea=67.16
+# kcal/mol; da Silva & Bozzelli 2007 theory cross-check Ea=71.34 kcal/mol --
+# R7 sat ~25 kcal/mol below BOTH primaries and dominated CO flux spuriously).
 
 # ------------------------------------------------------------------------------
 # Stage II — ipso phenol release (the canonical novolak volatile-release route)
