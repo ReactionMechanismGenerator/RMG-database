@@ -198,4 +198,9 @@ polymers = {
     'Baeyer-Villiger_step2',
     'Cyclic_Ether_Formation',
     'intra_OH_migration',
+    # --- Phenolic / novolac aromatic chemistry (phase 6) ---
+    'Ketoenol_Aromatic',
+    'Aryl_Decarbonylation',
+    'Salicyl_Alcohol_Dehydration',
+    'Aryl_Ether_Condensation',
 }
