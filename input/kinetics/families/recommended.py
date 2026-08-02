@@ -44,6 +44,7 @@ default = {
     'intra_substitutionS_isomerization',
     '1,3_sigmatropic_rearrangement',
     'Singlet_Carbene_Intra_Disproportionation',
+    'Singlet_Nitrene_Intra_Disproportionation',
     'Singlet_Val6_to_triplet',
     'Intra_5_membered_conjugated_C=C_C=C_addition',
     'Intra_Diels_alder_monocyclic',
@@ -86,6 +87,7 @@ ch_pyrolysis = {
     'Intra_Diels_alder_monocyclic',
     'Intra_ene_reaction',
     'Singlet_Carbene_Intra_Disproportionation',
+    'Singlet_Nitrene_Intra_Disproportionation',
 }
 
 # Peroxide chemistry families that are likely relevant in liquid-phase
