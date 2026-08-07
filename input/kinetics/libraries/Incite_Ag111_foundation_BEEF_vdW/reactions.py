@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "reaction_library"
-shortDesc = u""
-longDesc = u""""""
+name = "Incite_Ag111_foundation_BEEF_vdW"
+shortDesc = u"INCITE Ag111 BEEF-vdW data"
+longDesc = u"""These calculations were generated and calculated based initially on the work in https://doi.org/10.26434/chemrxiv.15000328/v2
+which generated a set of potential reactions and ran Pynta with the MACE multi-head v0 model"""
 entry(
 index = 0,
 label = "CC(C)[Pt] + OO[Pt] <=> CC(C)=[Pt] + OO + vacantX",

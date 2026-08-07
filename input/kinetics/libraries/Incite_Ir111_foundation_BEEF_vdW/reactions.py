@@ -1,9 +1,16 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "reaction_library"
-shortDesc = u""
-longDesc = u""""""
+name = "Incite_Ir111_foundation_BEEF_vdW"
+shortDesc = u"INCITE Ir111 BEEF-vdW data"
+longDesc = u"""These calculations were generated and calculated based initially on calculations from https://doi.org/10.26434/chemrxiv.15000328/v2
+which generated a set of potential reactions and ran Pynta with the MACE multi-head v0 model on those reactions on Pt111
+
+For this dataset we ran Pynta with the MACE multi-head v0 model on Ir111 for the reactions that model succeeded on for Pt111 and then
+optimized each successful configuration using Quantum Espresso at 5x5x1 k-points and 40 Ry ecutwfc
+
+Unlike the other Incite isolated runs this run was not fully completed. As a result we may be missing some of the lowest energy 
+configurations for adsorbates and transition states that Pynta found which may affect the accuracy of these calculations."""
 entry(
 index = 0,
 label = "CN=[Pt] + O=CC#[Pt] <=> CN[Pt] + O=C=C=[Pt]",

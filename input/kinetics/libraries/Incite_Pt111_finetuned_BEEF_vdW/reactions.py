@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "reaction_library"
-shortDesc = u""
-longDesc = u""""""
+name = "Incite_Pt111_finetuned_BEEF_vdW"
+shortDesc = u"INCITE Pt111 BEEF-vdW data"
+longDesc = u"""These calculations were generated and calculated based initially on calculations from https://doi.org/10.26434/chemrxiv.15000328/v2
+which generated a set of potential reactions and ran Pynta with the MACE multi-head v0 model on those reactions on Pt111
+
+For this dataset we ran Pynta with the MACE multi-head v0 model on Pt111 using the finetuned model from https://doi.org/10.26434/chemrxiv.15000328/v2 
+on the full original set of possible reactions we then
+optimized each successful configuration using Quantum Espresso at 5x5x1 k-points and 40 Ry ecutwfc"""
 entry(
 index = 0,
 label = "N=C=[Pt] + O=C=[Pt] <=> N=C=C=O + vacantX + vacantX",

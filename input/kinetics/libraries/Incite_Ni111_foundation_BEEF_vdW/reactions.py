@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "reaction_library"
-shortDesc = u""
-longDesc = u""""""
+name = "Incite_Ni111_foundation_BEEF_vdW"
+shortDesc = u"INCITE Ni111 BEEF-vdW data"
+longDesc = u"""These calculations were generated and calculated based initially on calculations from https://doi.org/10.26434/chemrxiv.15000328/v2
+which generated a set of potential reactions and ran Pynta with the MACE multi-head v0 model on those reactions on Pt111
+
+For this dataset we ran Pynta with the MACE multi-head v0 model on Ni111 for the reactions that model succeeded on for Pt111 and then
+optimized each successful configuration using Quantum Espresso at 5x5x1 k-points"""
 entry(
 index = 0,
 label = "[Pt]CCC#[Pt] + O[Pt] <=> O=[Pt] + [Pt]CCC=[Pt]",
