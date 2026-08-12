@@ -6,8 +6,8 @@ shortDesc = u"INCITE Pt111 BEEF-vdW data"
 longDesc = u"""These calculations were generated and calculated based initially on calculations from https://doi.org/10.26434/chemrxiv.15000328/v2
 which generated a set of potential reactions and ran Pynta with the MACE multi-head v0 model on those reactions on Pt111
 
-For this dataset we took the reactions that model succeeded on for Pt111 and then
-optimized each successful configuration using Quantum Espresso at 5x5x1 k-points and 40 Ry ecutwfc"""
+For the reactions that model succeeded on for Pt111 we
+reoptimized each successful configuration using Quantum Espresso at 5x5x1 k-points and 40 Ry ecutwfc"""
 #
 
 entry(
@@ -687,11 +687,11 @@ entry(
 4 N u0 p1 c0 {1,vdW} {2,S} {3,D}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.00982,0.0267532,-3.91507e-05,2.98422e-08,-9.12019e-12,-9.62754e+08,3.1006], Tmin=(298.15,'K'), Tmax=(772.472,'K')), NASAPolynomial(coeffs=[4.08912,0.0108081,-8.18839e-06,3.12098e-09,-4.72283e-13,-9.62755e+08,-10.9603], Tmin=(772.472,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00479e+06,'kJ/mol'), Cp0=(8.35509,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.00982,0.0267532,-3.91507e-05,2.98422e-08,-9.12019e-12,-25594.3,3.1006], Tmin=(298.15,'K'), Tmax=(772.472,'K')), NASAPolynomial(coeffs=[4.08912,0.0108081,-8.18839e-06,3.12098e-09,-4.72283e-13,-26070,-10.9603], Tmin=(772.472,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-212.212,'kJ/mol'), Cp0=(8.35509,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913189.4527568135 [kcal/mol]
+Hf298: -48.48044133632859 [kcal/mol]
 Sf298: 30.469840659251982 [cal/(mol-K)]
 40
 Pt 0.0 -0.0 8.0
@@ -1668,11 +1668,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.00667736,0.0242753,-2.20294e-05,1.19346e-08,-2.92063e-12,-9.62735e+08,-0.882864], Tmin=(298.15,'K'), Tmax=(827.598,'K')), NASAPolynomial(coeffs=[1.09968,0.0189281,-1.23377e-05,4.12765e-09,-5.62322e-13,-9.62735e+08,-6.01104], Tmin=(827.598,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00463e+06,'kJ/mol'), Cp0=(2.52914e-05,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.00667736,0.0242753,-2.20294e-05,1.19346e-08,-2.92063e-12,-6353.92,-0.882864], Tmin=(298.15,'K'), Tmax=(827.598,'K')), NASAPolynomial(coeffs=[1.09968,0.0189281,-1.23377e-05,4.12765e-09,-5.62322e-13,-6537.05,-6.01104], Tmin=(827.598,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-52.3822,'kJ/mol'), Cp0=(2.52914e-05,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913151.8030095557 [kcal/mol]
+Hf298: -10.830694078694922 [kcal/mol]
 Sf298: 10.799491790207327 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -2498,11 +2498,11 @@ entry(
 3 N u0 p1 c0 {1,S} {2,D}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.806337,0.0207857,-3.04449e-05,2.40363e-08,-7.69934e-12,-9.62719e+08,-4.41592], Tmin=(298.15,'K'), Tmax=(735.505,'K')), NASAPolynomial(coeffs=[2.95278,0.00911258,-6.63878e-06,2.45847e-09,-3.65053e-13,-9.6272e+08,-14.1119], Tmin=(735.505,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.0045e+06,'kJ/mol'), Cp0=(0.0290913,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.806337,0.0207857,-3.04449e-05,2.40363e-08,-7.69934e-12,9554.39,-4.41592], Tmin=(298.15,'K'), Tmax=(735.505,'K')), NASAPolynomial(coeffs=[2.95278,0.00911258,-6.63878e-06,2.45847e-09,-3.65053e-13,9238.64,-14.1119], Tmin=(735.505,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(80.4366,'kJ/mol'), Cp0=(0.0290913,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913120.1209314677 [kcal/mol]
+Hf298: 20.85138400931457 [kcal/mol]
 Sf298: 10.367340047716944 [cal/(mol-K)]
 39
 Pt 0.0 -0.0 8.0
@@ -2705,6 +2705,71 @@ H 14.22514074 10.99078974 10.99078974
 
 entry(
     index = 70,
+    label = "1Ou0p2c0{3,D}{6,vdW}2Nu0p1c0{3,S}{4,S}{5,S}3Nu0p1c0{1,D}{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{1,vdW}",
+    molecule = 
+"""
+1 X u0 p0 c0 {2,vdW}
+2 O u0 p2 c0 {1,vdW} {4,D}
+3 N u0 p1 c0 {4,S} {5,S} {6,S}
+4 N u0 p1 c0 {2,D} {3,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {3,S}
+""",
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.72506,0.0255318,-3.34663e-05,2.53114e-08,-8.0055e-12,-4467.76,3.33057], Tmin=(298.15,'K'), Tmax=(731.654,'K')), NASAPolynomial(coeffs=[3.88704,0.0137123,-9.23455e-06,3.23223e-09,-4.61278e-13,-4784.12,-6.42422], Tmin=(731.654,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-36.1835,'kJ/mol'), Cp0=(9.14805,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
+                   Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
+If you use this library in your work, please cite the publications mentioned above.
+Hf298: -6.098930465688184 [kcal/mol]
+Sf298: 38.727555771008355 [cal/(mol-K)]
+41
+Pt -0.0 -0.0 8.0
+Pt 2.83125555 -0.0 8.0
+Pt 5.6625111 -0.0 8.0
+Pt 1.41562778 2.45193923 8.0
+Pt 4.24688333 2.45193923 8.0
+Pt 7.07813888 2.45193923 8.0
+Pt 2.83125555 4.90387847 8.0
+Pt 5.6625111 4.90387847 8.0
+Pt 8.49376666 4.90387847 8.0
+Pt 1.41562778 0.81731308 10.31171048
+Pt 4.24688333 0.81731308 10.31171048
+Pt 7.07813888 0.81731308 10.31171048
+Pt 2.83125555 3.26925231 10.31171048
+Pt 5.6625111 3.26925231 10.31171048
+Pt 8.49376666 3.26925231 10.31171048
+Pt 4.24688333 5.72119154 10.31171048
+Pt 7.07813888 5.72119154 10.31171048
+Pt 9.90939443 5.72119154 10.31171048
+Pt -0.00721569 1.69454096 12.59777111
+Pt 2.82359326 1.69408674 12.59773168
+Pt 5.65516192 1.69664036 12.60529976
+Pt 1.40806218 4.14254067 12.59668858
+Pt 4.24269667 4.14973075 12.61521353
+Pt 7.0673569 4.14907952 12.61475797
+Pt 2.8207206 6.5988422 12.6031582
+Pt 5.65426506 6.59274202 12.60878472
+Pt 8.48816002 6.59892076 12.6032235
+Pt -0.03466834 0.16018492 14.94057042
+Pt 2.81179174 0.15908215 14.94173663
+Pt 5.63609833 0.15181886 14.95357867
+Pt 1.38858135 2.60229379 14.94743939
+Pt 4.22017554 2.59790431 14.94738711
+Pt 7.05293661 2.598027 14.94856152
+Pt 2.79696108 5.05478335 14.94456551
+Pt 5.63603578 5.06657162 14.96907649
+Pt 8.47803402 5.05567618 14.9444152
+O 5.61888077 5.34741705 17.66078255
+N 5.68898168 4.588169 19.66835527
+N 5.72425131 4.33485644 18.3665805
+H 5.7752591 3.79544667 20.28450706
+H 5.58417207 5.542807 20.00681995
+
+            The two lowest frequencies, 0.0 and 25.3 cm-1, where replaced by the 2D gas model.""",
+)
+
+
+entry(
+    index = 71,
     label = "N=C=[Pt]",
     molecule = 
 """
@@ -2713,11 +2778,11 @@ entry(
 3 C u0 p0 c0 {1,D} {2,D}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.48035,0.0271556,-4.83317e-05,4.31512e-08,-1.5004e-11,-9.62731e+08,-3.93063], Tmin=(298.15,'K'), Tmax=(702.044,'K')), NASAPolynomial(coeffs=[4.05946,0.00676348,-4.76224e-06,1.77809e-09,-2.71202e-13,-9.62732e+08,-19.9317], Tmin=(702.044,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.0046e+06,'kJ/mol'), Cp0=(0.00176513,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.48035,0.0271556,-4.83317e-05,4.31512e-08,-1.5004e-11,-2675.62,-3.93063], Tmin=(298.15,'K'), Tmax=(702.044,'K')), NASAPolynomial(coeffs=[4.05946,0.00676348,-4.76224e-06,1.77809e-09,-2.71202e-13,-3178.17,-19.9317], Tmin=(702.044,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-21.2515,'kJ/mol'), Cp0=(0.00176513,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913144.3009504373 [kcal/mol]
+Hf298: -3.328634960356001 [kcal/mol]
 Sf298: 10.141490696703874 [cal/(mol-K)]
 39
 Pt -0.0 -0.0 8.0
@@ -2764,7 +2829,7 @@ H 6.61953912 3.05426472 18.39960581
 
 
 entry(
-    index = 71,
+    index = 72,
     label = "C=C=COC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -2801,7 +2866,7 @@ H 14.92013937 13.39459667 13.39459667
 
 
 entry(
-    index = 72,
+    index = 73,
     label = "CCC=C=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -2838,7 +2903,7 @@ H 13.14048925 12.82133647 12.82133647
 
 
 entry(
-    index = 73,
+    index = 74,
     label = "CC=CCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {13,S}
@@ -2879,7 +2944,7 @@ H 9.93361309 10.08359958 10.08359958
 
 
 entry(
-    index = 74,
+    index = 75,
     label = "C=C=CCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {11,S}
@@ -2916,7 +2981,7 @@ H 10.41822334 12.82355622 12.82355622
 
 
 entry(
-    index = 75,
+    index = 76,
     label = "O=CCCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -2955,7 +3020,7 @@ H 10.03106507 12.03141544 12.03141544
 
 
 entry(
-    index = 76,
+    index = 77,
     label = "CC=COC",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -2996,7 +3061,7 @@ H 13.56222244 10.03475066 10.03475066
 
 
 entry(
-    index = 77,
+    index = 78,
     label = "CN=NC=C=C",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -3035,7 +3100,7 @@ H 16.16173922 13.23859653 13.23859653
 
 
 entry(
-    index = 78,
+    index = 79,
     label = "O=C=COC=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -3066,7 +3131,7 @@ H 14.68297338 11.23856898 11.23856898
 
 
 entry(
-    index = 79,
+    index = 80,
     label = "C=CCCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -3109,7 +3174,7 @@ H 10.85471981 12.91152241 12.91152241
 
 
 entry(
-    index = 80,
+    index = 81,
     label = "ONO",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -3136,7 +3201,7 @@ H 10.02115955 10.21113788 10.21113788
 
 
 entry(
-    index = 81,
+    index = 82,
     label = "COC(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -3177,7 +3242,7 @@ H 13.03131244 13.48738784 13.48738784
 
 
 entry(
-    index = 82,
+    index = 83,
     label = "CC(O)=C=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {9,S}
@@ -3210,7 +3275,7 @@ H 12.37016997 13.36120419 13.36120419
 
 
 entry(
-    index = 83,
+    index = 84,
     label = "CCCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -3259,7 +3324,7 @@ H 10.8469241 9.97130826 9.97130826
 
 
 entry(
-    index = 84,
+    index = 85,
     label = "CC(N=C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {12,S}
@@ -3298,7 +3363,7 @@ H 11.90594047 13.70449819 13.70449819
 
 
 entry(
-    index = 85,
+    index = 86,
     label = "C=C(C)CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -3341,7 +3406,7 @@ H 13.39975247 13.53130277 13.53130277
 
 
 entry(
-    index = 86,
+    index = 87,
     label = "CC(ON)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -3380,7 +3445,7 @@ H 12.78607356 13.15506873 13.15506873
 
 
 entry(
-    index = 87,
+    index = 88,
     label = "CCCOO",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -3421,7 +3486,7 @@ H 15.17842414 12.49229542 12.49229542
 
 
 entry(
-    index = 88,
+    index = 89,
     label = "CC(=O)ON",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -3456,7 +3521,7 @@ H 10.09869206 11.45765468 11.45765468
 
 
 entry(
-    index = 89,
+    index = 90,
     label = "OCN=C",
     molecule = """
 1 O u0 p2 c0 {3,S} {9,S}
@@ -3489,7 +3554,7 @@ H 10.12960843 12.46923521 12.46923521
 
 
 entry(
-    index = 90,
+    index = 91,
     label = "C=CC=CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -3528,7 +3593,7 @@ H 16.21373712 10.01901774 10.01901774
 
 
 entry(
-    index = 91,
+    index = 92,
     label = "CC(=O)C=N",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -3563,7 +3628,7 @@ H 15.14625032 10.97180172 10.97180172
 
 
 entry(
-    index = 92,
+    index = 93,
     label = "ONNN=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -3594,7 +3659,7 @@ H 13.03329691 10.03698464 10.03698464
 
 
 entry(
-    index = 93,
+    index = 94,
     label = "OCCNO",
     molecule = """
 1  O u0 p2 c0 {5,S} {11,S}
@@ -3633,7 +3698,7 @@ H 13.84294457 12.44994753 12.44994753
 
 
 entry(
-    index = 94,
+    index = 95,
     label = "OCC[Pt]",
     molecule = 
 """
@@ -3647,11 +3712,11 @@ entry(
 8 H u0 p0 c0 {4,S}
 9 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.13284,0.0424168,-3.90037e-05,1.97469e-08,-4.18002e-12,-9.62761e+08,16.6092], Tmin=(298.15,'K'), Tmax=(1049.68,'K')), NASAPolynomial(coeffs=[2.18748,0.0259615,-1.55006e-05,4.82717e-09,-6.28377e-13,-9.62762e+08,-4.44549], Tmin=(1049.68,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00485e+06,'kJ/mol'), Cp0=(8.31494,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.13284,0.0424168,-3.90037e-05,1.97469e-08,-4.18002e-12,-32637.8,16.6092], Tmin=(298.15,'K'), Tmax=(1049.68,'K')), NASAPolynomial(coeffs=[2.18748,0.0259615,-1.55006e-05,4.82717e-09,-6.28377e-13,-33545.2,-4.44549], Tmin=(1049.68,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-273.088,'kJ/mol'), Cp0=(8.31494,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913203.9609928818 [kcal/mol]
+Hf298: -62.988677404686975 [kcal/mol]
 Sf298: 30.866304245063148 [cal/(mol-K)]
 44
 Pt -0.0 0.0 8.0
@@ -3704,7 +3769,7 @@ H 1.65109972 3.47029051 17.69099145
 
 
 entry(
-    index = 95,
+    index = 96,
     label = "CCC(=O)N",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -3743,7 +3808,7 @@ H 9.85119503 12.1607564 12.1607564
 
 
 entry(
-    index = 96,
+    index = 97,
     label = "OC#[Pt]",
     molecule = 
 """
@@ -3752,11 +3817,11 @@ entry(
 3 C u0 p0 c0 {1,T} {2,S}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.00754903,0.0270749,-4.3415e-05,3.50248e-08,-1.11143e-11,-9.6276e+08,-1.35031], Tmin=(298.15,'K'), Tmax=(757.072,'K')), NASAPolynomial(coeffs=[3.5263,0.00848343,-6.5793e-06,2.5877e-09,-4.02861e-13,-9.62761e+08,-17.347], Tmin=(757.072,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00484e+06,'kJ/mol'), Cp0=(0.000286268,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.00754903,0.0270749,-4.3415e-05,3.50248e-08,-1.11143e-11,-31453.2,-1.35031], Tmin=(298.15,'K'), Tmax=(757.072,'K')), NASAPolynomial(coeffs=[3.5263,0.00848343,-6.5793e-06,2.5877e-09,-4.02861e-13,-31986,-17.347], Tmin=(757.072,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-260.888,'kJ/mol'), Cp0=(0.000286268,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913201.7170796203 [kcal/mol]
+Hf298: -60.74476414288809 [kcal/mol]
 Sf298: 10.175181360142206 [cal/(mol-K)]
 39
 Pt -0.0 -0.0 8.0
@@ -3803,7 +3868,7 @@ H 4.9229283 3.69389366 17.89659172
 
 
 entry(
-    index = 97,
+    index = 98,
     label = "[Pt]C=CC=[Pt]",
     molecule = 
 """
@@ -3816,11 +3881,11 @@ entry(
 7 H u0 p0 c0 {5,S}
 8 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.12479,0.0461516,-5.30755e-05,3.1817e-08,-7.68641e-12,-9.62727e+08,11.0627], Tmin=(298.15,'K'), Tmax=(959.338,'K')), NASAPolynomial(coeffs=[2.75586,0.0216361,-1.475e-05,5.18824e-09,-7.48223e-13,-9.62728e+08,-17.065], Tmin=(959.338,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00457e+06,'kJ/mol'), Cp0=(1.29667e-06,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.12479,0.0461516,-5.30755e-05,3.1817e-08,-7.68641e-12,1788.62,11.0627], Tmin=(298.15,'K'), Tmax=(959.338,'K')), NASAPolynomial(coeffs=[2.75586,0.0216361,-1.475e-05,5.18824e-09,-7.48223e-13,660.121,-17.065], Tmin=(959.338,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(13.3009,'kJ/mol'), Cp0=(1.29667e-06,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913136.0091099388 [kcal/mol]
+Hf298: 4.963205538130466 [kcal/mol]
 Sf298: 9.781971515165585 [cal/(mol-K)]
 42
 Pt -0.0 0.0 8.0
@@ -3870,7 +3935,7 @@ H 8.70607741 3.1905006 17.20838074
 
 
 entry(
-    index = 98,
+    index = 99,
     label = "CCC(=O)OC=O",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -3911,7 +3976,7 @@ H 15.6849994 12.53380537 12.53380537
 
 
 entry(
-    index = 99,
+    index = 100,
     label = "NNC(C)C",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {13,S}
@@ -3956,7 +4021,7 @@ H 14.46502959 10.88343391 10.88343391
 
 
 entry(
-    index = 100,
+    index = 101,
     label = "CN=CO",
     molecule = """
 1 O u0 p2 c0 {4,S} {9,S}
@@ -3989,7 +4054,7 @@ H 13.21548028 11.63324464 11.63324464
 
 
 entry(
-    index = 101,
+    index = 102,
     label = "[Pt]N=O",
     molecule = 
 """
@@ -3997,11 +4062,11 @@ entry(
 2 O u0 p2 c0 {3,D}
 3 N u0 p1 c0 {1,S} {2,D}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.96416,0.0118222,-1.68581e-05,1.2353e-08,-3.66692e-12,-9.62742e+08,-9.65976], Tmin=(298.15,'K'), Tmax=(778.119,'K')), NASAPolynomial(coeffs=[3.20726,0.00543193,-4.53946e-06,1.7988e-09,-2.76e-13,-9.62743e+08,-15.3451], Tmin=(778.119,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00469e+06,'kJ/mol'), Cp0=(3.33733e-06,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.96416,0.0118222,-1.68581e-05,1.2353e-08,-3.66692e-12,-13624.4,-9.65976], Tmin=(298.15,'K'), Tmax=(778.119,'K')), NASAPolynomial(coeffs=[3.20726,0.00543193,-4.53946e-06,1.7988e-09,-2.76e-13,-13817.9,-15.3451], Tmin=(778.119,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-111.832,'kJ/mol'), Cp0=(3.33733e-06,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913166.091092058 [kcal/mol]
+Hf298: -25.118776580886575 [kcal/mol]
 Sf298: 8.756574253289749 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -4047,7 +4112,7 @@ N 5.74295386 3.31564109 16.26784705
 
 
 entry(
-    index = 102,
+    index = 103,
     label = "N=NN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -4072,7 +4137,7 @@ H 10.76319565 11.55395609 11.55395609
 
 
 entry(
-    index = 103,
+    index = 104,
     label = "OONN=O",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -4101,7 +4166,7 @@ H 14.65486698 10.08181917 10.08181917
 
 
 entry(
-    index = 104,
+    index = 105,
     label = "CCOC",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -4140,7 +4205,7 @@ H 11.1640983 10.19962552 10.19962552
 
 
 entry(
-    index = 105,
+    index = 106,
     label = "OCCC=N",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -4179,7 +4244,7 @@ H 9.75675915 12.57669315 12.57669315
 
 
 entry(
-    index = 106,
+    index = 107,
     label = "CCOOC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -4220,7 +4285,7 @@ H 10.34346493 11.502725 11.502725
 
 
 entry(
-    index = 107,
+    index = 108,
     label = "NCN=C",
     molecule = """
 1  N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -4255,7 +4320,7 @@ H 10.50093608 10.08418828 10.08418828
 
 
 entry(
-    index = 108,
+    index = 109,
     label = "CCC(=O)OC",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -4298,7 +4363,7 @@ H 15.89048376 10.83635954 10.83635954
 
 
 entry(
-    index = 109,
+    index = 110,
     label = "NC=N",
     molecule = """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -4327,7 +4392,7 @@ H 9.89226936 10.49893442 10.49893442
 
 
 entry(
-    index = 110,
+    index = 111,
     label = "C=C=C=C=C=C",
     molecule = """
 1  C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -4362,7 +4427,7 @@ H 9.9851874 9.66257224 9.66257224
 
 
 entry(
-    index = 111,
+    index = 112,
     label = "CCOCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -4403,7 +4468,7 @@ H 15.27779181 11.91933233 11.91933233
 
 
 entry(
-    index = 112,
+    index = 113,
     label = "C=C=C",
     molecule = """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -4432,7 +4497,7 @@ H 13.66907618 9.95551899 9.95551899
 
 
 entry(
-    index = 113,
+    index = 114,
     label = "N=C=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -4457,7 +4522,7 @@ H 9.99149561 10.15417426 10.15417426
 
 
 entry(
-    index = 114,
+    index = 115,
     label = "OCC#[Pt]",
     molecule = 
 """
@@ -4469,11 +4534,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.13463,0.0396617,-4.60822e-05,2.9333e-08,-7.74942e-12,-9.6276e+08,5.02519], Tmin=(298.15,'K'), Tmax=(854.134,'K')), NASAPolynomial(coeffs=[2.5598,0.0223601,-1.56975e-05,5.61697e-09,-8.07801e-13,-9.62761e+08,-12.2158], Tmin=(854.134,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00484e+06,'kJ/mol'), Cp0=(2.58128,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.13463,0.0396617,-4.60822e-05,2.9333e-08,-7.74942e-12,-31531.8,5.02519], Tmin=(298.15,'K'), Tmax=(854.134,'K')), NASAPolynomial(coeffs=[2.5598,0.0223601,-1.56975e-05,5.61697e-09,-8.07801e-13,-32162.9,-12.2158], Tmin=(854.134,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-262.446,'kJ/mol'), Cp0=(2.58128,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913201.5050273428 [kcal/mol]
+Hf298: -60.53271186563118 [kcal/mol]
 Sf298: 17.04550611222023 [cal/(mol-K)]
 42
 Pt -0.0 0.0 8.0
@@ -4523,7 +4588,7 @@ H 6.81236374 4.84382162 18.00804598
 
 
 entry(
-    index = 115,
+    index = 116,
     label = "CC(N=O)C",
     molecule = """
 1  O u0 p2 c0 {2,D}
@@ -4562,7 +4627,7 @@ H 10.49562143 10.71418691 10.71418691
 
 
 entry(
-    index = 116,
+    index = 117,
     label = "N=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -4583,7 +4648,7 @@ H 10.01945471 9.96682553 9.96682553
 
 
 entry(
-    index = 117,
+    index = 118,
     label = "CCC(=O)C(=O)CC",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -4634,7 +4699,7 @@ H 17.85006687 10.8556747 10.8556747
 
 
 entry(
-    index = 118,
+    index = 119,
     label = "CCC(=O)CO",
     molecule = """
 1  O u0 p2 c0 {4,S} {14,S}
@@ -4677,7 +4742,7 @@ H 15.40563832 12.64280412 12.64280412
 
 
 entry(
-    index = 119,
+    index = 120,
     label = "1Nu0p1c0{2,S}{3,S}{4,S}{7,vdW}2Nu0p1c0{1,S}{5,S}{6,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Hu0p0c0{2,S}6Hu0p0c0{2,S}7Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -4689,11 +4754,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.204135,0.0257899,-2.41083e-05,1.40407e-08,-3.63488e-12,-9.62733e+08,8.37201], Tmin=(298.15,'K'), Tmax=(837.836,'K')), NASAPolynomial(coeffs=[1.37373,0.0182569,-1.06219e-05,3.30973e-09,-4.32931e-13,-9.62733e+08,1.03889], Tmin=(837.836,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00462e+06,'kJ/mol'), Cp0=(8.31479,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.204135,0.0257899,-2.41083e-05,1.40407e-08,-3.63488e-12,-4115.85,8.37201], Tmin=(298.15,'K'), Tmax=(837.836,'K')), NASAPolynomial(coeffs=[1.37373,0.0182569,-1.06219e-05,3.30973e-09,-4.32931e-13,-4380.25,1.03889], Tmin=(837.836,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-34.6211,'kJ/mol'), Cp0=(8.31479,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913147.3676404806 [kcal/mol]
+Hf298: -6.395325003708333 [kcal/mol]
 Sf298: 27.702959335573667 [cal/(mol-K)]
 42
 Pt -0.0 -0.0 8.0
@@ -4744,7 +4809,7 @@ H 4.45880089 3.52018849 17.7077652
 
 
 entry(
-    index = 120,
+    index = 121,
     label = "CCO[Pt]",
     molecule = 
 """
@@ -4758,11 +4823,11 @@ entry(
 8 H u0 p0 c0 {4,S}
 9 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.0560099,0.0309771,-1.94266e-05,5.69842e-09,-4.91731e-13,-9.62756e+08,8.14448], Tmin=(298.15,'K'), Tmax=(989.641,'K')), NASAPolynomial(coeffs=[0.889021,0.028635,-1.74298e-05,5.39964e-09,-6.80575e-13,-9.62757e+08,3.88082], Tmin=(989.641,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00481e+06,'kJ/mol'), Cp0=(8.37135,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.0560099,0.0309771,-1.94266e-05,5.69842e-09,-4.91731e-13,-27559.1,8.14448], Tmin=(298.15,'K'), Tmax=(989.641,'K')), NASAPolynomial(coeffs=[0.889021,0.028635,-1.74298e-05,5.39964e-09,-6.80575e-13,-27774.2,3.88082], Tmin=(989.641,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-229.361,'kJ/mol'), Cp0=(8.37135,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913193.290228731 [kcal/mol]
+Hf298: -52.317913254007465 [kcal/mol]
 Sf298: 33.54698974722087 [cal/(mol-K)]
 44
 Pt -0.0 0.0 8.0
@@ -4815,7 +4880,7 @@ H 6.20541582 4.85604179 19.69014083
 
 
 entry(
-    index = 121,
+    index = 122,
     label = "CC(=C)NN=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -4854,7 +4919,7 @@ H 12.79853747 13.71013188 13.71013188
 
 
 entry(
-    index = 122,
+    index = 123,
     label = "[O-]N=[NH+]C",
     molecule = """
 1 O u0 p3 c-1 {3,S}
@@ -4885,7 +4950,7 @@ H 12.06116138 10.06936705 10.06936705
 
 
 entry(
-    index = 123,
+    index = 124,
     label = "CCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {12,S}
@@ -4924,7 +4989,7 @@ H 14.36840882 12.55737126 12.55737126
 
 
 entry(
-    index = 124,
+    index = 125,
     label = "CNC",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {10,S}
@@ -4959,7 +5024,7 @@ H 11.96239556 10.99020621 10.99020621
 
 
 entry(
-    index = 125,
+    index = 126,
     label = "[O-]N=[NH+]CO",
     molecule = """
 1 O u0 p2 c0 {5,S} {9,S}
@@ -4992,7 +5057,7 @@ H 10.67728708 13.36384575 13.36384575
 
 
 entry(
-    index = 126,
+    index = 127,
     label = "CCC#[Pt]",
     molecule = 
 """
@@ -5006,11 +5071,11 @@ entry(
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.845,0.0370574,-2.64076e-05,8.48074e-09,-5.3914e-13,-9.62745e+08,14.9504], Tmin=(298.15,'K'), Tmax=(880.806,'K')), NASAPolynomial(coeffs=[0.294403,0.0299568,-1.87687e-05,6.06972e-09,-8.11525e-13,-9.62746e+08,4.32468], Tmin=(880.806,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00472e+06,'kJ/mol'), Cp0=(8.31447,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.845,0.0370574,-2.64076e-05,8.48074e-09,-5.3914e-13,-16461.2,14.9504], Tmin=(298.15,'K'), Tmax=(880.806,'K')), NASAPolynomial(coeffs=[0.294403,0.0299568,-1.87687e-05,6.06972e-09,-8.11525e-13,-16939.6,4.32468], Tmin=(880.806,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-138.477,'kJ/mol'), Cp0=(8.31447,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913171.93719163 [kcal/mol]
+Hf298: -30.964876152801494 [kcal/mol]
 Sf298: 28.583088264119038 [cal/(mol-K)]
 44
 Pt -0.0 -0.0 8.0
@@ -5063,7 +5128,7 @@ H 3.95246517 4.41893717 18.17921523
 
 
 entry(
-    index = 127,
+    index = 128,
     label = "C=C=CC=C=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {5,D} {7,S}
@@ -5102,7 +5167,7 @@ H 15.60714483 10.35179431 10.35179431
 
 
 entry(
-    index = 128,
+    index = 129,
     label = "O=NNC=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -5133,7 +5198,7 @@ H 12.42640233 10.07757465 10.07757465
 
 
 entry(
-    index = 129,
+    index = 130,
     label = "C=CCC=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -5170,7 +5235,7 @@ H 9.88948226 12.48126274 12.48126274
 
 
 entry(
-    index = 130,
+    index = 131,
     label = "C=C(O)C=CC",
     molecule = """
 1  O u0 p2 c0 {4,S} {14,S}
@@ -5213,7 +5278,7 @@ H 10.730895 11.20883132 11.20883132
 
 
 entry(
-    index = 131,
+    index = 132,
     label = "[Pt]CCC[Pt]",
     molecule = 
 """
@@ -5229,11 +5294,11 @@ entry(
 10 H u0 p0 c0 {5,S}
 11 H u0 p0 c0 {5,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.84463,0.0524591,-4.76783e-05,2.37987e-08,-4.98745e-12,-9.6274e+08,15.4955], Tmin=(298.15,'K'), Tmax=(1050.73,'K')), NASAPolynomial(coeffs=[1.25316,0.0330511,-1.997e-05,6.21713e-09,-8.03988e-13,-9.62742e+08,-9.35025], Tmin=(1050.73,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00468e+06,'kJ/mol'), Cp0=(0.00371446,'J/(mol*K)'), CpInf=(224.49,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.84463,0.0524591,-4.76783e-05,2.37987e-08,-4.98745e-12,-11609.9,15.4955], Tmin=(298.15,'K'), Tmax=(1050.73,'K')), NASAPolynomial(coeffs=[1.25316,0.0330511,-1.997e-05,6.21713e-09,-8.03988e-13,-12681.1,-9.35025], Tmin=(1050.73,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-98.6322,'kJ/mol'), Cp0=(0.00371446,'J/(mol*K)'), CpInf=(224.49,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913162.4387554862 [kcal/mol]
+Hf298: -21.46644000927711 [kcal/mol]
 Sf298: 14.522963232290664 [cal/(mol-K)]
 45
 Pt 0.0 -0.0 8.0
@@ -5286,7 +5351,7 @@ H 7.88764602 2.03082648 17.6088282
 
 
 entry(
-    index = 132,
+    index = 133,
     label = "[O-]N=[NH+]N=C",
     molecule = """
 1 O u0 p3 c-1 {4,S}
@@ -5317,7 +5382,7 @@ H 9.91640737 10.09709853 10.09709853
 
 
 entry(
-    index = 133,
+    index = 134,
     label = "CCCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -5358,7 +5423,7 @@ H 13.8535663 13.05639239 13.05639239
 
 
 entry(
-    index = 134,
+    index = 135,
     label = "[O-]N=[NH+]OC",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -5391,7 +5456,7 @@ H 12.21014109 12.84294604 12.84294604
 
 
 entry(
-    index = 135,
+    index = 136,
     label = "C#CC",
     molecule = """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -5420,7 +5485,7 @@ H 14.17454497 10.19884565 10.19884565
 
 
 entry(
-    index = 136,
+    index = 137,
     label = "OON=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -5447,7 +5512,7 @@ H 10.91038182 11.30251441 11.30251441
 
 
 entry(
-    index = 137,
+    index = 138,
     label = "COC#N",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -5476,7 +5541,7 @@ H 10.01217989 10.15469052 10.15469052
 
 
 entry(
-    index = 138,
+    index = 139,
     label = "COCOOCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -5521,7 +5586,7 @@ H 17.36803421 10.81581166 10.81581166
 
 
 entry(
-    index = 139,
+    index = 140,
     label = "COCO[Pt]",
     molecule = 
 """
@@ -5536,11 +5601,11 @@ entry(
 9  H u0 p0 c0 {5,S}
 10 H u0 p0 c0 {5,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.667301,0.0330246,-1.53509e-05,-1.34172e-09,2.4676e-12,-9.62774e+08,5.14844], Tmin=(298.15,'K'), Tmax=(863.676,'K')), NASAPolynomial(coeffs=[0.784009,0.0348438,-2.26087e-05,7.42396e-09,-9.85407e-13,-9.62774e+08,4.09299], Tmin=(863.676,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00496e+06,'kJ/mol'), Cp0=(8.316,'J/(mol*K)'), CpInf=(216.176,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.667301,0.0330246,-1.53509e-05,-1.34172e-09,2.4676e-12,-45144.4,5.14844], Tmin=(298.15,'K'), Tmax=(863.676,'K')), NASAPolynomial(coeffs=[0.784009,0.0348438,-2.26087e-05,7.42396e-09,-9.85407e-13,-45252.6,4.09299], Tmin=(863.676,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-375.32,'kJ/mol'), Cp0=(8.316,'J/(mol*K)'), CpInf=(216.176,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913227.646582607 [kcal/mol]
+Hf298: -86.67426712993134 [kcal/mol]
 Sf298: 35.97413287036432 [cal/(mol-K)]
 45
 Pt 0.0 0.0 8.0
@@ -5594,7 +5659,7 @@ H 4.82281721 3.61781407 18.83696088
 
 
 entry(
-    index = 140,
+    index = 141,
     label = "NNN=N",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -5625,7 +5690,7 @@ H 14.49711012 12.15324262 12.15324262
 
 
 entry(
-    index = 141,
+    index = 142,
     label = "C=NN=N",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,D}
@@ -5654,7 +5719,7 @@ H 14.03243824 10.86039793 10.86039793
 
 
 entry(
-    index = 142,
+    index = 143,
     label = "C=C(C)C=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -5693,7 +5758,7 @@ H 11.41854867 9.9216855 9.9216855
 
 
 entry(
-    index = 143,
+    index = 144,
     label = "CC=CN=NC",
     molecule = """
 1  N u0 p1 c0 {2,D} {4,S}
@@ -5736,7 +5801,7 @@ H 13.31741788 12.53859442 12.53859442
 
 
 entry(
-    index = 144,
+    index = 145,
     label = "CNNO",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -5771,7 +5836,7 @@ H 13.72501365 9.98974946 9.98974946
 
 
 entry(
-    index = 145,
+    index = 146,
     label = "C=CCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {10,S}
@@ -5806,7 +5871,7 @@ H 10.04943061 11.02229331 11.02229331
 
 
 entry(
-    index = 146,
+    index = 147,
     label = "NOO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -5833,7 +5898,7 @@ H 13.40180589 10.24704021 10.24704021
 
 
 entry(
-    index = 147,
+    index = 148,
     label = "NCC=C=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {9,S} {10,S}
@@ -5872,7 +5937,7 @@ H 14.84547426 12.75463732 12.75463732
 
 
 entry(
-    index = 148,
+    index = 149,
     label = "C=COC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -5907,7 +5972,7 @@ H 14.55143778 10.34106674 10.34106674
 
 
 entry(
-    index = 149,
+    index = 150,
     label = "CC=CN=O",
     molecule = """
 1  O u0 p2 c0 {2,D}
@@ -5942,7 +6007,7 @@ H 13.9603551 10.72818075 10.72818075
 
 
 entry(
-    index = 150,
+    index = 151,
     label = "CN=NN=C",
     molecule = """
 1  N u0 p1 c0 {3,D} {4,S}
@@ -5977,7 +6042,7 @@ H 10.0938723 10.6807062 10.6807062
 
 
 entry(
-    index = 151,
+    index = 152,
     label = "N=CC=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -6008,7 +6073,7 @@ H 14.51673401 11.88240733 11.88240733
 
 
 entry(
-    index = 152,
+    index = 153,
     label = "O=NNNN=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -6039,7 +6104,7 @@ H 12.33876957 11.47139658 11.47139658
 
 
 entry(
-    index = 153,
+    index = 154,
     label = "O=C(O[Pt])O[Pt]",
     molecule = 
 """
@@ -6050,11 +6115,11 @@ entry(
 5 O u0 p2 c0 {6,D}
 6 C u0 p0 c0 {3,S} {4,S} {5,D}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.93728,0.0327895,-4.51835e-05,3.11218e-08,-8.57815e-12,-9.62795e+08,-4.72109], Tmin=(298.15,'K'), Tmax=(839.726,'K')), NASAPolynomial(coeffs=[4.84095,0.014195,-1.19688e-05,4.75295e-09,-7.27879e-13,-9.62796e+08,-22.8723], Tmin=(839.726,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00513e+06,'kJ/mol'), Cp0=(0.0148773,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.93728,0.0327895,-4.51835e-05,3.11218e-08,-8.57815e-12,-66178.1,-4.72109], Tmin=(298.15,'K'), Tmax=(839.726,'K')), NASAPolynomial(coeffs=[4.84095,0.014195,-1.19688e-05,4.75295e-09,-7.27879e-13,-66833.7,-22.8723], Tmin=(839.726,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-549.101,'kJ/mol'), Cp0=(0.0148773,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913269.7116807792 [kcal/mol]
+Hf298: -128.73936530211094 [kcal/mol]
 Sf298: 17.17213190552266 [cal/(mol-K)]
 40
 Pt 0.0 0.0 8.0
@@ -6102,7 +6167,7 @@ C 5.55501476 3.24970614 17.51476145
 
 
 entry(
-    index = 154,
+    index = 155,
     label = "CC=[Pt]",
     molecule = 
 """
@@ -6114,11 +6179,11 @@ entry(
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.21501,0.0336329,-3.50579e-05,2.19604e-08,-6.02492e-12,-9.62735e+08,4.07785], Tmin=(298.15,'K'), Tmax=(800.229,'K')), NASAPolynomial(coeffs=[0.995968,0.0225815,-1.43432e-05,4.7036e-09,-6.33873e-13,-9.62736e+08,-6.09617], Tmin=(800.229,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00464e+06,'kJ/mol'), Cp0=(9.35236e-06,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.21501,0.0336329,-3.50579e-05,2.19604e-08,-6.02492e-12,-6502,4.07785], Tmin=(298.15,'K'), Tmax=(800.229,'K')), NASAPolynomial(coeffs=[0.995968,0.0225815,-1.43432e-05,4.7036e-09,-6.33873e-13,-6855.87,-6.09617], Tmin=(800.229,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-54.2814,'kJ/mol'), Cp0=(9.35236e-06,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913152.1791672877 [kcal/mol]
+Hf298: -11.20685181075356 [kcal/mol]
 Sf298: 11.53298476303675 [cal/(mol-K)]
 42
 Pt -0.0 0.0 8.0
@@ -6168,7 +6233,7 @@ H 5.98131584 3.08537868 17.10140199
 
 
 entry(
-    index = 155,
+    index = 156,
     label = "CNC(O)C",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -6211,7 +6276,7 @@ H 12.85851025 13.54784902 13.54784902
 
 
 entry(
-    index = 156,
+    index = 157,
     label = "CCCCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -6266,7 +6331,7 @@ H 10.42318112 10.43766326 10.43766326
 
 
 entry(
-    index = 157,
+    index = 158,
     label = "CNN=NC",
     molecule = """
 1  N u0 p1 c0 {3,S} {4,S} {12,S}
@@ -6305,7 +6370,7 @@ H 13.08907781 12.11098562 12.11098562
 
 
 entry(
-    index = 158,
+    index = 159,
     label = "CN=NOO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -6338,7 +6403,7 @@ H 15.57315878 11.11583735 11.11583735
 
 
 entry(
-    index = 159,
+    index = 160,
     label = "OC(=O)N=C",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -6369,7 +6434,7 @@ H 14.93397293 11.49049241 11.49049241
 
 
 entry(
-    index = 160,
+    index = 161,
     label = "CC(NN)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {13,S}
@@ -6410,7 +6475,7 @@ H 11.78640817 12.95811193 12.95811193
 
 
 entry(
-    index = 161,
+    index = 162,
     label = "O=C(O)[Pt]",
     molecule = 
 """
@@ -6420,11 +6485,11 @@ entry(
 4 C u0 p0 c0 {1,S} {2,S} {3,D}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.0455599,0.0269465,-3.51399e-05,2.38892e-08,-6.5641e-12,-9.62786e+08,6.98374], Tmin=(298.15,'K'), Tmax=(842.004,'K')), NASAPolynomial(coeffs=[3.07643,0.0125483,-9.49037e-06,3.58118e-09,-5.34495e-13,-9.62787e+08,-7.11726], Tmin=(842.004,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00506e+06,'kJ/mol'), Cp0=(8.31467,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.0455599,0.0269465,-3.51399e-05,2.38892e-08,-6.5641e-12,-57467.9,6.98374], Tmin=(298.15,'K'), Tmax=(842.004,'K')), NASAPolynomial(coeffs=[3.07643,0.0125483,-9.49037e-06,3.58118e-09,-5.34495e-13,-57978.3,-7.11726], Tmin=(842.004,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-477.963,'kJ/mol'), Cp0=(8.31467,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913253.2968351399 [kcal/mol]
+Hf298: -112.32451966290985 [kcal/mol]
 Sf298: 27.643751851295214 [cal/(mol-K)]
 40
 Pt 0.0 0.0 8.0
@@ -6473,7 +6538,7 @@ H 4.83104246 4.85328753 18.78294573
 
 
 entry(
-    index = 162,
+    index = 163,
     label = "C=CCCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -6524,7 +6589,7 @@ H 15.30977182 13.34040841 13.34040841
 
 
 entry(
-    index = 163,
+    index = 164,
     label = "NOC(C)C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -6567,7 +6632,7 @@ H 14.58522882 11.68821649 11.68821649
 
 
 entry(
-    index = 164,
+    index = 165,
     label = "O=NN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -6590,7 +6655,7 @@ N 10.35743256 9.94753157 9.94753157
 
 
 entry(
-    index = 165,
+    index = 166,
     label = "NONN=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -6621,7 +6686,7 @@ H 10.01645404 10.75435287 10.75435287
 
 
 entry(
-    index = 166,
+    index = 167,
     label = "CC(O)N",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -6658,7 +6723,7 @@ H 11.86543122 13.34555755 13.34555755
 
 
 entry(
-    index = 167,
+    index = 168,
     label = "NNNN=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -6691,7 +6756,7 @@ H 9.85837015 11.4822895 11.4822895
 
 
 entry(
-    index = 168,
+    index = 169,
     label = "COCONC",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -6736,7 +6801,7 @@ H 14.48736969 10.47569527 10.47569527
 
 
 entry(
-    index = 169,
+    index = 170,
     label = "CN=NCC=C",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -6779,7 +6844,7 @@ H 10.78644185 10.76131126 10.76131126
 
 
 entry(
-    index = 170,
+    index = 171,
     label = "O=NOC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {6,S}
@@ -6808,7 +6873,7 @@ H 10.18003961 11.19953157 11.19953157
 
 
 entry(
-    index = 171,
+    index = 172,
     label = "C=C=C=C",
     molecule = """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
@@ -6839,7 +6904,7 @@ H 9.95213269 11.05773709 11.05773709
 
 
 entry(
-    index = 172,
+    index = 173,
     label = "C=CCOCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -6882,7 +6947,7 @@ H 16.68831507 10.76771706 10.76771706
 
 
 entry(
-    index = 173,
+    index = 174,
     label = "OC=N",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -6909,7 +6974,7 @@ H 10.13603864 9.9801198 9.9801198
 
 
 entry(
-    index = 174,
+    index = 175,
     label = "CCC=CCC",
     molecule = """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
@@ -6960,7 +7025,7 @@ H 13.01062686 11.33520874 11.33520874
 
 
 entry(
-    index = 175,
+    index = 176,
     label = "CCCOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -7007,7 +7072,7 @@ H 10.38073327 12.85354419 12.85354419
 
 
 entry(
-    index = 176,
+    index = 177,
     label = "CON=NC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -7044,7 +7109,7 @@ H 11.17780024 11.76599016 11.76599016
 
 
 entry(
-    index = 177,
+    index = 178,
     label = "C=CCOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -7085,7 +7150,7 @@ H 17.06001565 12.12782834 12.12782834
 
 
 entry(
-    index = 178,
+    index = 179,
     label = "COCOC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -7124,7 +7189,7 @@ H 14.87053055 12.32761848 12.32761848
 
 
 entry(
-    index = 179,
+    index = 180,
     label = "C=COC#N",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -7155,7 +7220,7 @@ H 9.82720148 10.38310888 10.38310888
 
 
 entry(
-    index = 180,
+    index = 181,
     label = "CCC(=O)C=N",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -7196,7 +7261,7 @@ H 15.51075483 12.32918998 12.32918998
 
 
 entry(
-    index = 181,
+    index = 182,
     label = "NOCN",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -7231,7 +7296,7 @@ H 9.96074089 11.56074176 11.56074176
 
 
 entry(
-    index = 182,
+    index = 183,
     label = "C=COOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -7268,7 +7333,7 @@ H 16.22069139 11.93390177 11.93390177
 
 
 entry(
-    index = 183,
+    index = 184,
     label = "CC=CC(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {16,S}
@@ -7315,7 +7380,7 @@ H 15.46933393 10.35062044 10.35062044
 
 
 entry(
-    index = 184,
+    index = 185,
     label = "CC(C)=CC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -7358,7 +7423,7 @@ H 13.08454947 14.50295048 14.50295048
 
 
 entry(
-    index = 185,
+    index = 186,
     label = "NN",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -7385,7 +7450,7 @@ H 9.96878463 10.1047293 10.1047293
 
 
 entry(
-    index = 186,
+    index = 187,
     label = "CCC=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -7420,7 +7485,7 @@ H 13.15530526 10.09423831 10.09423831
 
 
 entry(
-    index = 187,
+    index = 188,
     label = "C=C=C[Pt]",
     molecule = 
 """
@@ -7432,11 +7497,11 @@ entry(
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.87277,0.0477434,-5.89627e-05,3.81175e-08,-9.90972e-12,-9.62725e+08,9.39877], Tmin=(298.15,'K'), Tmax=(900.147,'K')), NASAPolynomial(coeffs=[3.14033,0.0210218,-1.44323e-05,5.13613e-09,-7.49377e-13,-9.62726e+08,-18.9782], Tmin=(900.147,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00455e+06,'kJ/mol'), Cp0=(1.11045e-08,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.87277,0.0477434,-5.89627e-05,3.81175e-08,-9.90972e-12,3589.61,9.39877], Tmin=(298.15,'K'), Tmax=(900.147,'K')), NASAPolynomial(coeffs=[3.14033,0.0210218,-1.44323e-05,5.13613e-09,-7.49377e-13,2507.12,-18.9782], Tmin=(900.147,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(28.5748,'kJ/mol'), Cp0=(1.11045e-08,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913132.2210584069 [kcal/mol]
+Hf298: 8.751257069898148 [kcal/mol]
 Sf298: 9.853582908904015 [cal/(mol-K)]
 42
 Pt 0.0 -0.0 8.0
@@ -7486,7 +7551,7 @@ H 6.8919558 4.2151985 17.37876465
 
 
 entry(
-    index = 188,
+    index = 189,
     label = "ONN=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {6,S}
@@ -7515,7 +7580,7 @@ H 13.62655187 11.23630902 11.23630902
 
 
 entry(
-    index = 189,
+    index = 190,
     label = "CCOC#N",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -7550,7 +7615,7 @@ H 11.20793812 12.17179042 12.17179042
 
 
 entry(
-    index = 190,
+    index = 191,
     label = "CC(C)OC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -7593,7 +7658,7 @@ H 14.88979242 13.59915185 13.59915185
 
 
 entry(
-    index = 191,
+    index = 192,
     label = "CNC#N",
     molecule = """
 1 N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -7624,7 +7689,7 @@ H 12.08060884 12.60622075 12.60622075
 
 
 entry(
-    index = 192,
+    index = 193,
     label = "NCOC=C",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -7663,7 +7728,7 @@ H 11.89120983 12.48965844 12.48965844
 
 
 entry(
-    index = 193,
+    index = 194,
     label = "NCCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -7702,7 +7767,7 @@ H 15.02104414 10.51496888 10.51496888
 
 
 entry(
-    index = 194,
+    index = 195,
     label = "C=CCC(C)=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -7745,7 +7810,7 @@ H 15.27224598 11.58546935 11.58546935
 
 
 entry(
-    index = 195,
+    index = 196,
     label = "CC(O)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {9,S}
@@ -7780,7 +7845,7 @@ H 10.23412464 9.91618652 9.91618652
 
 
 entry(
-    index = 196,
+    index = 197,
     label = "N=COC=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -7811,7 +7876,7 @@ H 9.76645234 10.33764427 10.33764427
 
 
 entry(
-    index = 197,
+    index = 198,
     label = "C=CCC(=C)C",
     molecule = """
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -7858,7 +7923,7 @@ H 15.74757695 13.00846902 13.00846902
 
 
 entry(
-    index = 198,
+    index = 199,
     label = "C=C(C)OCOC",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -7907,7 +7972,7 @@ H 11.66325244 9.87387215 9.87387215
 
 
 entry(
-    index = 199,
+    index = 200,
     label = "CC(NN=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {12,S}
@@ -7946,7 +8011,7 @@ H 12.1826654 13.89725816 13.89725816
 
 
 entry(
-    index = 200,
+    index = 201,
     label = "C=C(O)O",
     molecule = """
 1 O u0 p2 c0 {3,S} {7,S}
@@ -7977,7 +8042,7 @@ H 9.7657748 10.57051033 10.57051033
 
 
 entry(
-    index = 201,
+    index = 202,
     label = "CNC(=O)C",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -8016,7 +8081,7 @@ H 12.69170455 10.43165802 10.43165802
 
 
 entry(
-    index = 202,
+    index = 203,
     label = "CCC(=O)C(C)=O",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -8061,7 +8126,7 @@ H 15.7006595 11.56610735 11.56610735
 
 
 entry(
-    index = 203,
+    index = 204,
     label = "NOC=C=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -8096,7 +8161,7 @@ H 9.69810377 11.50637198 11.50637198
 
 
 entry(
-    index = 204,
+    index = 205,
     label = "C=CCOCOC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -8145,7 +8210,7 @@ H 9.89792694 13.94504831 13.94504831
 
 
 entry(
-    index = 205,
+    index = 206,
     label = "CN=NON",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -8180,7 +8245,7 @@ H 10.71248091 10.98408812 10.98408812
 
 
 entry(
-    index = 206,
+    index = 207,
     label = "CC=CN=N",
     molecule = """
 1  N u0 p1 c0 {2,D} {5,S}
@@ -8217,7 +8282,7 @@ H 15.28664539 13.47861742 13.47861742
 
 
 entry(
-    index = 207,
+    index = 208,
     label = "NON",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -8246,7 +8311,7 @@ H 10.73017134 11.2233972 11.2233972
 
 
 entry(
-    index = 208,
+    index = 209,
     label = "CC(=O)OCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -8285,7 +8350,7 @@ H 10.05692905 13.08779621 13.08779621
 
 
 entry(
-    index = 209,
+    index = 210,
     label = "C=CC(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8330,7 +8395,7 @@ H 14.05683092 11.59815528 11.59815528
 
 
 entry(
-    index = 210,
+    index = 211,
     label = "C=C(C)C(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {16,S}
@@ -8377,7 +8442,7 @@ H 13.04745343 10.78942832 10.78942832
 
 
 entry(
-    index = 211,
+    index = 212,
     label = "CCOOCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -8424,7 +8489,7 @@ H 9.53724142 12.09568366 12.09568366
 
 
 entry(
-    index = 212,
+    index = 213,
     label = "NNN=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -8453,7 +8518,7 @@ H 9.93615405 11.36063572 11.36063572
 
 
 entry(
-    index = 213,
+    index = 214,
     label = "C=NN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -8480,7 +8545,7 @@ H 10.05901 10.2399203 10.2399203
 
 
 entry(
-    index = 214,
+    index = 215,
     label = "NCC(C)C",
     molecule = """
 1  N u0 p1 c0 {3,S} {15,S} {16,S}
@@ -8527,7 +8592,7 @@ H 10.06153446 13.37402038 13.37402038
 
 
 entry(
-    index = 215,
+    index = 216,
     label = "NNC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {9,S}
@@ -8560,7 +8625,7 @@ H 15.09135053 11.21907241 11.21907241
 
 
 entry(
-    index = 216,
+    index = 217,
     label = "CN=NOC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -8595,7 +8660,7 @@ H 15.7926683 10.47157865 10.47157865
 
 
 entry(
-    index = 217,
+    index = 218,
     label = "O=CON=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -8622,7 +8687,7 @@ H 9.99305955 10.0232329 10.0232329
 
 
 entry(
-    index = 218,
+    index = 219,
     label = "C=COOCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -8665,7 +8730,7 @@ H 15.55232902 12.41922491 12.41922491
 
 
 entry(
-    index = 219,
+    index = 220,
     label = "CC=CC",
     molecule = """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -8704,7 +8769,7 @@ H 13.79920725 10.11137243 10.11137243
 
 
 entry(
-    index = 220,
+    index = 221,
     label = "CC(C)OC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {7,S}
@@ -8749,7 +8814,7 @@ H 15.81887073 12.2145593 12.2145593
 
 
 entry(
-    index = 221,
+    index = 222,
     label = "CNNN",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,S} {8,S}
@@ -8786,7 +8851,7 @@ H 13.56989699 12.48997813 12.48997813
 
 
 entry(
-    index = 222,
+    index = 223,
     label = "NCOO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -8819,7 +8884,7 @@ H 14.73843787 11.86789738 11.86789738
 
 
 entry(
-    index = 223,
+    index = 224,
     label = "NO",
     molecule = """
 1 O u0 p2 c0 {2,S} {5,S}
@@ -8844,7 +8909,7 @@ H 12.34142437 10.62438137 10.62438137
 
 
 entry(
-    index = 224,
+    index = 225,
     label = "ON=CC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {10,S}
@@ -8879,7 +8944,7 @@ H 15.637362 11.71587838 11.71587838
 
 
 entry(
-    index = 225,
+    index = 226,
     label = "CCC=N",
     molecule = """
 1  N u0 p1 c0 {4,D} {11,S}
@@ -8916,7 +8981,7 @@ H 9.81905503 10.25030357 10.25030357
 
 
 entry(
-    index = 226,
+    index = 227,
     label = "O=C=C=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -8941,7 +9006,7 @@ C 11.24114901 10.65908321 10.65908321
 
 
 entry(
-    index = 227,
+    index = 228,
     label = "CCOCOC",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -8988,7 +9053,7 @@ H 16.74568831 10.04119506 10.04119506
 
 
 entry(
-    index = 228,
+    index = 229,
     label = "C=NC(=C)C",
     molecule = """
 1  N u0 p1 c0 {3,S} {5,D}
@@ -9027,7 +9092,7 @@ H 14.4700469 11.54864905 11.54864905
 
 
 entry(
-    index = 229,
+    index = 230,
     label = "C=COCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -9070,7 +9135,7 @@ H 15.76215355 12.78480996 12.78480996
 
 
 entry(
-    index = 230,
+    index = 231,
     label = "C=CO",
     molecule = """
 1 O u0 p2 c0 {2,S} {7,S}
@@ -9099,7 +9164,7 @@ H 13.93588223 10.69161985 10.69161985
 
 
 entry(
-    index = 231,
+    index = 232,
     label = "ONN=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {6,S}
@@ -9126,7 +9191,7 @@ H 12.72666604 9.76181412 9.76181412
 
 
 entry(
-    index = 232,
+    index = 233,
     label = "CC=CC=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -9165,7 +9230,7 @@ H 14.76005725 10.31326072 10.31326072
 
 
 entry(
-    index = 233,
+    index = 234,
     label = "CCCOC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -9208,7 +9273,7 @@ H 15.31726128 11.98480921 11.98480921
 
 
 entry(
-    index = 234,
+    index = 235,
     label = "CCOCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -9255,7 +9320,7 @@ H 14.63608401 10.24670293 10.24670293
 
 
 entry(
-    index = 235,
+    index = 236,
     label = "CNCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {14,S}
@@ -9298,7 +9363,7 @@ H 13.94807 12.90598864 12.90598864
 
 
 entry(
-    index = 236,
+    index = 237,
     label = "NC=NO",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -9329,7 +9394,7 @@ H 13.54073276 10.71062856 10.71062856
 
 
 entry(
-    index = 237,
+    index = 238,
     label = "CCC(=O)C=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -9368,7 +9433,7 @@ H 15.10701688 11.57148119 11.57148119
 
 
 entry(
-    index = 238,
+    index = 239,
     label = "C=COCOC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -9411,7 +9476,7 @@ H 16.2910746 13.18892471 13.18892471
 
 
 entry(
-    index = 239,
+    index = 240,
     label = "OCCOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -9454,7 +9519,7 @@ H 16.17889436 11.69805529 11.69805529
 
 
 entry(
-    index = 240,
+    index = 241,
     label = "ONC(=C)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -9489,7 +9554,7 @@ H 11.33270741 13.57324704 13.57324704
 
 
 entry(
-    index = 241,
+    index = 242,
     label = "NOCO",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -9522,7 +9587,7 @@ H 10.2323143 12.15853025 12.15853025
 
 
 entry(
-    index = 242,
+    index = 243,
     label = "CC([NH+]=N[O-])C",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -9565,7 +9630,7 @@ H 12.56134406 11.22582592 11.22582592
 
 
 entry(
-    index = 243,
+    index = 244,
     label = "O=NNOC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {7,S}
@@ -9598,7 +9663,7 @@ H 14.81477184 12.08409285 12.08409285
 
 
 entry(
-    index = 244,
+    index = 245,
     label = "C=CCC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {12,S}
@@ -9637,7 +9702,7 @@ H 16.19072724 12.24228754 12.24228754
 
 
 entry(
-    index = 245,
+    index = 246,
     label = "C=C(C)C",
     molecule = """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -9676,7 +9741,7 @@ H 13.04657431 13.5246698 13.5246698
 
 
 entry(
-    index = 246,
+    index = 247,
     label = "CNC(=C)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {12,S}
@@ -9715,7 +9780,7 @@ H 11.2454466 11.38573563 11.38573563
 
 
 entry(
-    index = 247,
+    index = 248,
     label = "COCOC=N",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -9756,7 +9821,7 @@ H 15.46738739 13.0212829 13.0212829
 
 
 entry(
-    index = 248,
+    index = 249,
     label = "CC(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9799,7 +9864,7 @@ H 11.23563176 14.06520437 14.06520437
 
 
 entry(
-    index = 249,
+    index = 250,
     label = "CC(=N)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -9832,7 +9897,7 @@ H 11.90650224 13.0049659 13.0049659
 
 
 entry(
-    index = 250,
+    index = 251,
     label = "CC(O)C=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -9869,7 +9934,7 @@ H 12.78325965 13.22104594 13.22104594
 
 
 entry(
-    index = 251,
+    index = 252,
     label = "OCOC#N",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -9900,7 +9965,7 @@ H 10.55508818 9.99281707 9.99281707
 
 
 entry(
-    index = 252,
+    index = 253,
     label = "CC(O)OC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -9939,7 +10004,7 @@ H 12.70549683 12.1939027 12.1939027
 
 
 entry(
-    index = 253,
+    index = 254,
     label = "CCC(=O)C(=O)O",
     molecule = """
 1  O u0 p2 c0 {7,S} {13,S}
@@ -9980,7 +10045,7 @@ H 15.98214852 10.12968653 10.12968653
 
 
 entry(
-    index = 254,
+    index = 255,
     label = "1Ou0p2c0{2,S}{3,S}{4,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -9989,11 +10054,11 @@ entry(
 3 H u0 p0 c0 {2,S}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.68253,0.0185575,-4.21542e-05,4.67168e-08,-1.93789e-11,-9.62762e+08,0.632117], Tmin=(298.15,'K'), Tmax=(608.781,'K')), NASAPolynomial(coeffs=[4.36456,0.000934499,1.26946e-06,-8.37632e-10,1.50464e-13,-9.62763e+08,-10.9759], Tmin=(608.781,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00486e+06,'kJ/mol'), Cp0=(8.36699,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.68253,0.0185575,-4.21542e-05,4.67168e-08,-1.93789e-11,-33389,0.632117], Tmin=(298.15,'K'), Tmax=(608.781,'K')), NASAPolynomial(coeffs=[4.36456,0.000934499,1.26946e-06,-8.37632e-10,1.50464e-13,-33715.6,-10.9759], Tmin=(608.781,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-276.725,'kJ/mol'), Cp0=(8.36699,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913205.2634321658 [kcal/mol]
+Hf298: -64.29111668893445 [kcal/mol]
 Sf298: 28.317574230960275 [cal/(mol-K)]
 39
 Pt 0.0 0.0 8.0
@@ -10041,7 +10106,7 @@ H 6.34850404 4.45297977 17.95824141
 
 
 entry(
-    index = 255,
+    index = 256,
     label = "NNOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -10076,7 +10141,7 @@ H 15.7882321 11.84035998 11.84035998
 
 
 entry(
-    index = 256,
+    index = 257,
     label = "CNC=C=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -10111,7 +10176,7 @@ H 13.0272757 10.72915594 10.72915594
 
 
 entry(
-    index = 257,
+    index = 258,
     label = "C=CC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -10154,7 +10219,7 @@ H 16.76033235 11.13228072 11.13228072
 
 
 entry(
-    index = 258,
+    index = 259,
     label = "NC=CC=C",
     molecule = """
 1  N u0 p1 c0 {4,S} {11,S} {12,S}
@@ -10193,7 +10258,7 @@ H 10.77880379 12.96876116 12.96876116
 
 
 entry(
-    index = 259,
+    index = 260,
     label = "O=C=CO",
     molecule = """
 1 O u0 p2 c0 {3,S} {6,S}
@@ -10220,7 +10285,7 @@ H 10.1294539 10.03436561 10.03436561
 
 
 entry(
-    index = 260,
+    index = 261,
     label = "CCOOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -10261,7 +10326,7 @@ H 16.62800701 11.01234578 11.01234578
 
 
 entry(
-    index = 261,
+    index = 262,
     label = "[O-]N=[NH+]OC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {7,S}
@@ -10294,7 +10359,7 @@ H 15.60998317 11.04525985 11.04525985
 
 
 entry(
-    index = 262,
+    index = 263,
     label = "OCON=C",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -10329,7 +10394,7 @@ H 9.74659833 10.65447596 10.65447596
 
 
 entry(
-    index = 263,
+    index = 264,
     label = "C=CC=[Pt]",
     molecule = 
 """
@@ -10342,11 +10407,11 @@ entry(
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.56212,0.0424526,-4.4653e-05,2.60715e-08,-6.3684e-12,-9.62728e+08,9.74664], Tmin=(298.15,'K'), Tmax=(917.607,'K')), NASAPolynomial(coeffs=[1.42502,0.0250732,-1.6245e-05,5.43357e-09,-7.46014e-13,-9.62729e+08,-9.14641], Tmin=(917.607,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00458e+06,'kJ/mol'), Cp0=(0.000214865,'J/(mol*K)'), CpInf=(166.289,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.56212,0.0424526,-4.4653e-05,2.60715e-08,-6.3684e-12,729.475,9.74664], Tmin=(298.15,'K'), Tmax=(917.607,'K')), NASAPolynomial(coeffs=[1.42502,0.0250732,-1.6245e-05,5.43357e-09,-7.46014e-13,-2.29747,-9.14641], Tmin=(917.607,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(4.90913,'kJ/mol'), Cp0=(0.000214865,'J/(mol*K)'), CpInf=(166.289,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913137.9806557219 [kcal/mol]
+Hf298: 2.9916597552657493 [kcal/mol]
 Sf298: 11.994070259987714 [cal/(mol-K)]
 43
 Pt -0.0 -0.0 8.0
@@ -10397,7 +10462,7 @@ H 7.37031258 4.25394582 17.14886635
 
 
 entry(
-    index = 264,
+    index = 265,
     label = "NOC=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -10428,7 +10493,7 @@ H 10.09712094 12.29671487 12.29671487
 
 
 entry(
-    index = 265,
+    index = 266,
     label = "O=NC(=O)C",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -10459,7 +10524,7 @@ H 10.56183142 10.36172169 10.36172169
 
 
 entry(
-    index = 266,
+    index = 267,
     label = "C=C(C)[Pt]",
     molecule = 
 """
@@ -10473,11 +10538,11 @@ entry(
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.24784,0.0395326,-3.64592e-05,1.97007e-08,-4.65982e-12,-9.62733e+08,12.1831], Tmin=(298.15,'K'), Tmax=(904.063,'K')), NASAPolynomial(coeffs=[1.39112,0.0278561,-1.70849e-05,5.41319e-09,-7.08733e-13,-9.62733e+08,-0.28204], Tmin=(904.063,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00461e+06,'kJ/mol'), Cp0=(8.31452,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.24784,0.0395326,-3.64592e-05,1.97007e-08,-4.65982e-12,-3818.65,12.1831], Tmin=(298.15,'K'), Tmax=(904.063,'K')), NASAPolynomial(coeffs=[1.39112,0.0278561,-1.70849e-05,5.41319e-09,-7.08733e-13,-4295.78,-0.28204], Tmin=(904.063,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-32.7128,'kJ/mol'), Cp0=(8.31452,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913146.3777914746 [kcal/mol]
+Hf298: -5.405475997520934 [kcal/mol]
 Sf298: 30.603999440970536 [cal/(mol-K)]
 44
 Pt -0.0 0.0 8.0
@@ -10530,7 +10595,7 @@ H 7.66473702 4.10933671 17.38091327
 
 
 entry(
-    index = 267,
+    index = 268,
     label = "C(C#N)C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -10561,7 +10626,7 @@ H 9.99384455 11.80916945 11.80916945
 
 
 entry(
-    index = 268,
+    index = 269,
     label = "C=C=CC=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
@@ -10598,7 +10663,7 @@ H 10.0194617 10.01046745 10.01046745
 
 
 entry(
-    index = 269,
+    index = 270,
     label = "C=CC[Pt]",
     molecule = 
 """
@@ -10612,11 +10677,11 @@ entry(
 8 H u0 p0 c0 {4,S}
 9 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.19424,0.0403237,-3.26103e-05,1.29632e-08,-1.69785e-12,-9.62734e+08,16.4777], Tmin=(298.15,'K'), Tmax=(903.986,'K')), NASAPolynomial(coeffs=[1.28766,0.0281171,-1.7666e-05,5.85838e-09,-8.16051e-13,-9.62734e+08,-0.692249], Tmin=(903.986,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00462e+06,'kJ/mol'), Cp0=(8.31479,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.19424,0.0403237,-3.26103e-05,1.29632e-08,-1.69785e-12,-4751.62,16.4777], Tmin=(298.15,'K'), Tmax=(903.986,'K')), NASAPolynomial(coeffs=[1.28766,0.0281171,-1.7666e-05,5.85838e-09,-8.16051e-13,-5511.9,-0.692249], Tmin=(903.986,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-41.3573,'kJ/mol'), Cp0=(8.31479,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913148.6786146078 [kcal/mol]
+Hf298: -7.706299130575994 [kcal/mol]
 Sf298: 29.125277977837317 [cal/(mol-K)]
 44
 Pt -0.0 -0.0 8.0
@@ -10669,7 +10734,7 @@ H 4.46093393 2.38071316 18.12450517
 
 
 entry(
-    index = 270,
+    index = 271,
     label = "[Pt]=CCC#[Pt]",
     molecule = 
 """
@@ -10682,11 +10747,11 @@ entry(
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.39118,0.046453,-5.19088e-05,2.98738e-08,-6.88966e-12,-9.62723e+08,11.733], Tmin=(298.15,'K'), Tmax=(1008.73,'K')), NASAPolynomial(coeffs=[2.99267,0.0211339,-1.42517e-05,4.98161e-09,-7.19325e-13,-9.62724e+08,-19.1197], Tmin=(1008.73,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00454e+06,'kJ/mol'), Cp0=(5.26451e-11,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.39118,0.046453,-5.19088e-05,2.98738e-08,-6.88966e-12,5798.44,11.733], Tmin=(298.15,'K'), Tmax=(1008.73,'K')), NASAPolynomial(coeffs=[2.99267,0.0211339,-1.42517e-05,4.98161e-09,-7.19325e-13,4510.76,-19.1197], Tmin=(1008.73,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(46.3809,'kJ/mol'), Cp0=(5.26451e-11,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913128.1583400292 [kcal/mol]
+Hf298: 12.813975447804774 [kcal/mol]
 Sf298: 8.348664361423506 [cal/(mol-K)]
 42
 Pt 0.0 0.0 8.0
@@ -10736,7 +10801,7 @@ H 7.26834138 4.15117589 17.32341261
 
 
 entry(
-    index = 271,
+    index = 272,
     label = "O=CCCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {14,S}
@@ -10779,7 +10844,7 @@ H 13.94164193 13.57755424 13.57755424
 
 
 entry(
-    index = 272,
+    index = 273,
     label = "O=NN[NH+]=N[O-]",
     molecule = """
 1 O u0 p3 c-1 {6,S}
@@ -10810,7 +10875,7 @@ H 11.21235632 11.35013747 11.35013747
 
 
 entry(
-    index = 273,
+    index = 274,
     label = "CC(N=N)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -10847,7 +10912,7 @@ H 14.02476933 10.59350808 10.59350808
 
 
 entry(
-    index = 274,
+    index = 275,
     label = "O=NNOC=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {6,S}
@@ -10878,7 +10943,7 @@ H 14.16653188 10.84721327 10.84721327
 
 
 entry(
-    index = 275,
+    index = 276,
     label = "CN=NC(=C)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {12,S}
@@ -10917,7 +10982,7 @@ H 10.39251235 10.16048098 10.16048098
 
 
 entry(
-    index = 276,
+    index = 277,
     label = "CN",
     molecule = """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
@@ -10946,7 +11011,7 @@ H 12.34665292 11.53738735 11.53738735
 
 
 entry(
-    index = 277,
+    index = 278,
     label = "CCC=C(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -10997,7 +11062,7 @@ H 12.44221483 13.13035333 13.13035333
 
 
 entry(
-    index = 278,
+    index = 279,
     label = "O=CC[Pt]",
     molecule = 
 """
@@ -11009,11 +11074,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.812701,0.0309296,-2.84377e-05,1.45104e-08,-3.16908e-12,-9.62756e+08,11.3997], Tmin=(298.15,'K'), Tmax=(965.626,'K')), NASAPolynomial(coeffs=[1.39566,0.0217815,-1.42269e-05,4.69912e-09,-6.28891e-13,-9.62756e+08,0.822919], Tmin=(965.626,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00481e+06,'kJ/mol'), Cp0=(8.31567,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.812701,0.0309296,-2.84377e-05,1.45104e-08,-3.16908e-12,-26771.6,11.3997], Tmin=(298.15,'K'), Tmax=(965.626,'K')), NASAPolynomial(coeffs=[1.39566,0.0217815,-1.42269e-05,4.69912e-09,-6.28891e-13,-27198.1,0.822919], Tmin=(965.626,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-223.404,'kJ/mol'), Cp0=(8.31567,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913192.3698310396 [kcal/mol]
+Hf298: -51.39751556236484 [kcal/mol]
 Sf298: 29.501527254957175 [cal/(mol-K)]
 42
 Pt 0.0 -0.0 8.0
@@ -11064,7 +11129,7 @@ H 2.1854638 2.44874378 17.771784
 
 
 entry(
-    index = 279,
+    index = 280,
     label = "C#[Pt]",
     molecule = 
 """
@@ -11072,11 +11137,11 @@ entry(
 2 C u0 p0 c0 {1,T} {3,S}
 3 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.4136,0.020382,-2.7529e-05,1.80651e-08,-4.58202e-12,-9.62733e+08,4.36024], Tmin=(298.15,'K'), Tmax=(956.159,'K')), NASAPolynomial(coeffs=[2.20537,0.00524297,-3.7802e-06,1.50732e-09,-2.52936e-13,-9.62733e+08,-12.9371], Tmin=(956.159,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00462e+06,'kJ/mol'), Cp0=(1.00622e-20,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.4136,0.020382,-2.7529e-05,1.80651e-08,-4.58202e-12,-3922.41,4.36024], Tmin=(298.15,'K'), Tmax=(956.159,'K')), NASAPolynomial(coeffs=[2.20537,0.00524297,-3.7802e-06,1.50732e-09,-2.52936e-13,-4614.49,-12.9371], Tmin=(956.159,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-33.3321,'kJ/mol'), Cp0=(1.00622e-20,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913148.221710548 [kcal/mol]
+Hf298: -7.249395070976815 [kcal/mol]
 Sf298: 2.600568885507647 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -11122,7 +11187,7 @@ H 5.73713865 3.31326312 17.26349889
 
 
 entry(
-    index = 280,
+    index = 281,
     label = "N=C=CC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -11153,7 +11218,7 @@ H 14.85008879 11.8986518 11.8986518
 
 
 entry(
-    index = 281,
+    index = 282,
     label = "[O-]N=[NH+]OC=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {6,S}
@@ -11184,7 +11249,7 @@ H 14.06132802 11.16251904 11.16251904
 
 
 entry(
-    index = 282,
+    index = 283,
     label = "NONN",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -11217,7 +11282,7 @@ H 14.92934477 10.91953289 10.91953289
 
 
 entry(
-    index = 283,
+    index = 284,
     label = "COCOOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -11260,7 +11325,7 @@ H 17.38536132 12.77729892 12.77729892
 
 
 entry(
-    index = 284,
+    index = 285,
     label = "CC(=C)C#N",
     molecule = """
 1  N u0 p1 c0 {5,T}
@@ -11295,7 +11360,7 @@ H 9.78266544 10.05310953 10.05310953
 
 
 entry(
-    index = 285,
+    index = 286,
     label = "CC=COCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -11338,7 +11403,7 @@ H 10.23499069 12.29001577 12.29001577
 
 
 entry(
-    index = 286,
+    index = 287,
     label = "NC=CN",
     molecule = """
 1  N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -11373,7 +11438,7 @@ H 10.02097902 10.04539861 10.04539861
 
 
 entry(
-    index = 287,
+    index = 288,
     label = "CC(=O)N=N",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -11406,7 +11471,7 @@ H 14.68887647 11.14444574 11.14444574
 
 
 entry(
-    index = 288,
+    index = 289,
     label = "CCCOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -11451,7 +11516,7 @@ H 15.88115325 12.80243805 12.80243805
 
 
 entry(
-    index = 289,
+    index = 290,
     label = "CC=CCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -11502,7 +11567,7 @@ H 11.49155096 9.96192499 9.96192499
 
 
 entry(
-    index = 290,
+    index = 291,
     label = "C=CC=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -11537,7 +11602,7 @@ H 9.97294878 10.88627235 10.88627235
 
 
 entry(
-    index = 291,
+    index = 292,
     label = "O=CCC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -11572,7 +11637,7 @@ H 14.74472255 11.25263248 11.25263248
 
 
 entry(
-    index = 292,
+    index = 293,
     label = "NCC=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {8,S} {9,S}
@@ -11609,7 +11674,7 @@ H 9.98903645 10.87850889 10.87850889
 
 
 entry(
-    index = 293,
+    index = 294,
     label = "OCCN=N",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -11646,7 +11711,7 @@ H 14.59383742 12.18879939 12.18879939
 
 
 entry(
-    index = 294,
+    index = 295,
     label = "N=CC#N",
     molecule = """
 1 N u0 p1 c0 {3,D} {6,S}
@@ -11673,7 +11738,7 @@ H 10.36234441 10.05128451 10.05128451
 
 
 entry(
-    index = 295,
+    index = 296,
     label = "NN=N",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -11700,7 +11765,7 @@ H 13.84736153 10.20949314 10.20949314
 
 
 entry(
-    index = 296,
+    index = 297,
     label = "1Nu0p1c0{2,T}{3,vdW}2Nu0p1c0{1,T}3Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -11708,11 +11773,11 @@ entry(
 2 N u0 p1 c0 {1,vdW} {3,T}
 3 N u0 p1 c0 {2,T}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[2.1837,0.00919829,-2.07386e-05,2.37855e-08,-1.02756e-11,-9.62733e+08,-2.53464], Tmin=(298.15,'K'), Tmax=(664.703,'K')), NASAPolynomial(coeffs=[3.14483,0.00183237,-5.46195e-07,-4.7347e-11,3.48565e-14,-9.62733e+08,-6.51612], Tmin=(664.703,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00461e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(41.5723,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[2.1837,0.00919829,-2.07386e-05,2.37855e-08,-1.02756e-11,-4033.78,-2.53464], Tmin=(298.15,'K'), Tmax=(664.703,'K')), NASAPolynomial(coeffs=[3.14483,0.00183237,-5.46195e-07,-4.7347e-11,3.48565e-14,-4126.61,-6.51612], Tmin=(664.703,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-32.4942,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(41.5723,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913147.1634495351 [kcal/mol]
+Hf298: -6.19113405809024 [kcal/mol]
 Sf298: 23.679327482385375 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -11759,7 +11824,7 @@ N 5.66252666 4.90390084 18.21017351
 
 
 entry(
-    index = 297,
+    index = 298,
     label = "CC=C=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -11792,7 +11857,7 @@ H 11.65307444 12.93766448 12.93766448
 
 
 entry(
-    index = 298,
+    index = 299,
     label = "COCOCC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -11837,7 +11902,7 @@ H 9.94213502 10.75537878 10.75537878
 
 
 entry(
-    index = 299,
+    index = 300,
     label = "CN=NCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {14,S}
@@ -11880,7 +11945,7 @@ H 16.77522952 11.46839537 11.46839537
 
 
 entry(
-    index = 300,
+    index = 301,
     label = "N=NC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -11907,7 +11972,7 @@ H 13.86507039 9.95501593 9.95501593
 
 
 entry(
-    index = 301,
+    index = 302,
     label = "NNOC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -11940,7 +12005,7 @@ H 9.89271766 11.96781123 11.96781123
 
 
 entry(
-    index = 302,
+    index = 303,
     label = "CC[Pt]",
     molecule = 
 """
@@ -11953,11 +12018,11 @@ entry(
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.967777,0.0282621,-1.8722e-05,6.28491e-09,-7.25308e-13,-9.6274e+08,11.6304], Tmin=(298.15,'K'), Tmax=(887.836,'K')), NASAPolynomial(coeffs=[0.0744462,0.0246056,-1.42997e-05,4.28236e-09,-5.32585e-13,-9.6274e+08,6.49567], Tmin=(887.836,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00468e+06,'kJ/mol'), Cp0=(8.31461,'J/(mol*K)'), CpInf=(166.289,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.967777,0.0282621,-1.8722e-05,6.28491e-09,-7.25308e-13,-11403.7,11.6304], Tmin=(298.15,'K'), Tmax=(887.836,'K')), NASAPolynomial(coeffs=[0.0744462,0.0246056,-1.42997e-05,4.28236e-09,-5.32585e-13,-11629.8,6.49567], Tmin=(887.836,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-95.8535,'kJ/mol'), Cp0=(8.31461,'J/(mol*K)'), CpInf=(166.289,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913162.017525709 [kcal/mol]
+Hf298: -21.045210231624022 [kcal/mol]
 Sf298: 27.347410259895998 [cal/(mol-K)]
 43
 Pt 0.0 0.0 8.0
@@ -12009,7 +12074,7 @@ H 6.77939541 5.29869333 17.5211941
 
 
 entry(
-    index = 303,
+    index = 304,
     label = "CC(O)OO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -12046,7 +12111,7 @@ H 14.58401078 9.95999067 9.95999067
 
 
 entry(
-    index = 304,
+    index = 305,
     label = "[Pt]CCC#[Pt]",
     molecule = 
 """
@@ -12060,11 +12125,11 @@ entry(
 8 H u0 p0 c0 {4,S}
 9 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.36621,0.0482207,-5.11464e-05,2.89416e-08,-6.69466e-12,-9.62734e+08,13.211], Tmin=(298.15,'K'), Tmax=(986.987,'K')), NASAPolynomial(coeffs=[2.24692,0.0254688,-1.65637e-05,5.57911e-09,-7.76168e-13,-9.62736e+08,-13.7948], Tmin=(986.987,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00463e+06,'kJ/mol'), Cp0=(0.0579105,'J/(mol*K)'), CpInf=(174.604,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.36621,0.0482207,-5.11464e-05,2.89416e-08,-6.69466e-12,-5591.67,13.211], Tmin=(298.15,'K'), Tmax=(986.987,'K')), NASAPolynomial(coeffs=[2.24692,0.0254688,-1.65637e-05,5.57911e-09,-7.76168e-13,-6699.53,-13.7948], Tmin=(986.987,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-48.2474,'kJ/mol'), Cp0=(0.0579105,'J/(mol*K)'), CpInf=(174.604,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913150.612184682 [kcal/mol]
+Hf298: -9.639869204652994 [kcal/mol]
 Sf298: 12.666918595028706 [cal/(mol-K)]
 43
 Pt 0.0 0.0 8.0
@@ -12115,7 +12180,7 @@ H 6.5458921 5.63617492 17.67176739
 
 
 entry(
-    index = 305,
+    index = 306,
     label = "C=C[Pt]",
     molecule = 
 """
@@ -12126,11 +12191,11 @@ entry(
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.00837,0.0356796,-4.23803e-05,2.73589e-08,-7.22759e-12,-9.62728e+08,7.1345], Tmin=(298.15,'K'), Tmax=(876.714,'K')), NASAPolynomial(coeffs=[1.92882,0.017717,-1.1649e-05,3.99138e-09,-5.64528e-13,-9.62729e+08,-11.3423], Tmin=(876.714,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00458e+06,'kJ/mol'), Cp0=(0.000131468,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.00837,0.0356796,-4.23803e-05,2.73589e-08,-7.22759e-12,723.054,7.1345], Tmin=(298.15,'K'), Tmax=(876.714,'K')), NASAPolynomial(coeffs=[1.92882,0.017717,-1.1649e-05,3.99138e-09,-5.64528e-13,32.6656,-11.3423], Tmin=(876.714,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(5.18639,'kJ/mol'), Cp0=(0.000131468,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913138.2190382362 [kcal/mol]
+Hf298: 2.753277240988526 [kcal/mol]
 Sf298: 9.281201738747017 [cal/(mol-K)]
 41
 Pt -0.0 0.0 8.0
@@ -12179,7 +12244,7 @@ H 7.35963727 4.5478195 17.130689
 
 
 entry(
-    index = 306,
+    index = 307,
     label = "CN=NC(=O)C",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -12218,7 +12283,7 @@ H 10.34245575 11.37219978 11.37219978
 
 
 entry(
-    index = 307,
+    index = 308,
     label = "C=C(C)C(=O)CC",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -12267,7 +12332,7 @@ H 9.98696703 11.78994915 11.78994915
 
 
 entry(
-    index = 308,
+    index = 309,
     label = "CNCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -12304,7 +12369,7 @@ H 10.135523 10.35459128 10.35459128
 
 
 entry(
-    index = 309,
+    index = 310,
     label = "ON=C=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {6,S}
@@ -12331,7 +12396,7 @@ H 14.26227914 10.90866914 10.90866914
 
 
 entry(
-    index = 310,
+    index = 311,
     label = "C=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -12354,7 +12419,7 @@ H 10.01145212 9.98721906 9.98721906
 
 
 entry(
-    index = 311,
+    index = 312,
     label = "O=COO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -12381,7 +12446,7 @@ H 13.09573845 11.27688828 11.27688828
 
 
 entry(
-    index = 312,
+    index = 313,
     label = "[Pt]NN=O",
     molecule = 
 """
@@ -12391,11 +12456,11 @@ entry(
 4 N u0 p1 c0 {2,D} {3,S}
 5 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.152692,0.0277567,-3.57524e-05,2.38453e-08,-6.42234e-12,-9.62731e+08,7.74503], Tmin=(298.15,'K'), Tmax=(856.674,'K')), NASAPolynomial(coeffs=[3.00503,0.0130129,-9.93697e-06,3.75603e-09,-5.59859e-13,-9.62732e+08,-7.0007], Tmin=(856.674,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.0046e+06,'kJ/mol'), Cp0=(8.31449,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.152692,0.0277567,-3.57524e-05,2.38453e-08,-6.42234e-12,-2244.48,7.74503], Tmin=(298.15,'K'), Tmax=(856.674,'K')), NASAPolynomial(coeffs=[3.00503,0.0130129,-9.93697e-06,3.75603e-09,-5.59859e-13,-2785.52,-7.0007], Tmin=(856.674,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-18.9511,'kJ/mol'), Cp0=(8.31449,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913143.6131505913 [kcal/mol]
+Hf298: -2.6408351143522126 [kcal/mol]
 Sf298: 27.33767280335658 [cal/(mol-K)]
 40
 Pt 0.0 0.0 8.0
@@ -12444,7 +12509,7 @@ H 6.42195114 3.70880162 17.5453557
 
 
 entry(
-    index = 313,
+    index = 314,
     label = "C=CCN=O",
     molecule = """
 1  O u0 p2 c0 {2,D}
@@ -12479,7 +12544,7 @@ H 10.03423888 12.21776118 12.21776118
 
 
 entry(
-    index = 314,
+    index = 315,
     label = "O=C=C=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -12502,7 +12567,7 @@ C 11.20415425 10.12448262 10.12448262
 
 
 entry(
-    index = 315,
+    index = 316,
     label = "CC(C)C=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -12545,7 +12610,7 @@ H 13.61658749 10.7859311 10.7859311
 
 
 entry(
-    index = 316,
+    index = 317,
     label = "CCOCC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -12588,7 +12653,7 @@ H 15.51271215 12.11409802 12.11409802
 
 
 entry(
-    index = 317,
+    index = 318,
     label = "OC(=C)N=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -12619,7 +12684,7 @@ H 11.44472486 13.48063024 13.48063024
 
 
 entry(
-    index = 318,
+    index = 319,
     label = "NC=C=C=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {7,S} {8,S}
@@ -12654,7 +12719,7 @@ H 15.73789252 11.02424819 11.02424819
 
 
 entry(
-    index = 319,
+    index = 320,
     label = "C=C=C=C=C",
     molecule = """
 1 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -12687,7 +12752,7 @@ H 9.96142329 10.3948964 10.3948964
 
 
 entry(
-    index = 320,
+    index = 321,
     label = "CC=CC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -12736,7 +12801,7 @@ H 13.70552721 11.94345757 11.94345757
 
 
 entry(
-    index = 321,
+    index = 322,
     label = "[O-]N=[NH+]C=C",
     molecule = """
 1 O u0 p3 c-1 {3,S}
@@ -12769,7 +12834,7 @@ H 10.14776863 12.02313518 12.02313518
 
 
 entry(
-    index = 322,
+    index = 323,
     label = "CN=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -12798,7 +12863,7 @@ H 10.09960434 10.43020259 10.43020259
 
 
 entry(
-    index = 323,
+    index = 324,
     label = "OOC=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -12827,7 +12892,7 @@ H 13.72339851 10.76712435 10.76712435
 
 
 entry(
-    index = 324,
+    index = 325,
     label = "NC#[Pt]",
     molecule = 
 """
@@ -12837,11 +12902,11 @@ entry(
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.692667,0.0288504,-4.69408e-05,4.08406e-08,-1.41144e-11,-9.6274e+08,-4.19721], Tmin=(298.15,'K'), Tmax=(699.685,'K')), NASAPolynomial(coeffs=[3.99642,0.00996316,-6.44962e-06,2.25993e-09,-3.2929e-13,-9.62741e+08,-18.956], Tmin=(699.685,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00468e+06,'kJ/mol'), Cp0=(0.00462414,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.692667,0.0288504,-4.69408e-05,4.08406e-08,-1.41144e-11,-11417.6,-4.19721], Tmin=(298.15,'K'), Tmax=(699.685,'K')), NASAPolynomial(coeffs=[3.99642,0.00996316,-6.44962e-06,2.25993e-09,-3.2929e-13,-11879.9,-18.956], Tmin=(699.685,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-93.7878,'kJ/mol'), Cp0=(0.00462414,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913161.3815921457 [kcal/mol]
+Hf298: -20.409276668740127 [kcal/mol]
 Sf298: 13.104782227808924 [cal/(mol-K)]
 40
 Pt -0.0 0.0 8.0
@@ -12889,7 +12954,7 @@ H 5.47654344 4.13127184 18.10087311
 
 
 entry(
-    index = 325,
+    index = 326,
     label = "ONC(C)C",
     molecule = """
 1  O u0 p2 c0 {2,S} {14,S}
@@ -12932,7 +12997,7 @@ H 14.47229707 9.66674141 9.66674141
 
 
 entry(
-    index = 326,
+    index = 327,
     label = "CC(C)=CO",
     molecule = """
 1  O u0 p2 c0 {5,S} {13,S}
@@ -12973,7 +13038,7 @@ H 14.81343001 10.72645631 10.72645631
 
 
 entry(
-    index = 327,
+    index = 328,
     label = "CCCN=O",
     molecule = """
 1  O u0 p2 c0 {2,D}
@@ -13012,7 +13077,7 @@ H 11.24628743 12.1999458 12.1999458
 
 
 entry(
-    index = 328,
+    index = 329,
     label = "NONO",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -13043,7 +13108,7 @@ H 10.74829738 12.17067322 12.17067322
 
 
 entry(
-    index = 329,
+    index = 330,
     label = "CNN=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {8,S}
@@ -13078,7 +13143,7 @@ H 13.37359466 10.18716561 10.18716561
 
 
 entry(
-    index = 330,
+    index = 331,
     label = "N=CNN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -13109,7 +13174,7 @@ H 9.89160119 11.40151259 11.40151259
 
 
 entry(
-    index = 331,
+    index = 332,
     label = "CCON=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -13148,7 +13213,7 @@ H 15.40592019 11.04770955 11.04770955
 
 
 entry(
-    index = 332,
+    index = 333,
     label = "[H][H]",
     molecule = """
 1 H u0 p0 c0 {2,S}
@@ -13167,7 +13232,7 @@ H 9.9806141 10.00000025 10.00000025
 
 
 entry(
-    index = 333,
+    index = 334,
     label = "C=C(O)C(C)C",
     molecule = """
 1  O u0 p2 c0 {5,S} {16,S}
@@ -13214,7 +13279,7 @@ H 13.88965234 10.31099397 10.31099397
 
 
 entry(
-    index = 334,
+    index = 335,
     label = "C=C=CO",
     molecule = """
 1 O u0 p2 c0 {2,S} {8,S}
@@ -13245,7 +13310,7 @@ H 10.44696848 12.62115486 12.62115486
 
 
 entry(
-    index = 335,
+    index = 336,
     label = "NC=CO",
     molecule = """
 1 O u0 p2 c0 {4,S} {9,S}
@@ -13278,7 +13343,7 @@ H 13.96668097 11.8767673 11.8767673
 
 
 entry(
-    index = 336,
+    index = 337,
     label = "[O-]N=[NH+]C=C=C",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -13313,7 +13378,7 @@ H 15.18638304 10.70898954 10.70898954
 
 
 entry(
-    index = 337,
+    index = 338,
     label = "C=C(C)C=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -13350,7 +13415,7 @@ H 11.39154515 9.96067636 9.96067636
 
 
 entry(
-    index = 338,
+    index = 339,
     label = "C=CON=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -13385,7 +13450,7 @@ H 9.96298152 11.18041748 11.18041748
 
 
 entry(
-    index = 339,
+    index = 340,
     label = "O=COOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -13420,7 +13485,7 @@ H 10.4654719 12.80434736 12.80434736
 
 
 entry(
-    index = 340,
+    index = 341,
     label = "C=C(O)[Pt]",
     molecule = 
 """
@@ -13432,11 +13497,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.25133,0.048299,-6.37138e-05,4.42269e-08,-1.23575e-11,-9.62758e+08,7.00462], Tmin=(298.15,'K'), Tmax=(839.702,'K')), NASAPolynomial(coeffs=[3.49535,0.0209217,-1.48037e-05,5.39195e-09,-7.94306e-13,-9.62759e+08,-19.7152], Tmin=(839.702,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00482e+06,'kJ/mol'), Cp0=(1.39438e-07,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.25133,0.048299,-6.37138e-05,4.42269e-08,-1.23575e-11,-29108.4,7.00462], Tmin=(298.15,'K'), Tmax=(839.702,'K')), NASAPolynomial(coeffs=[3.49535,0.0209217,-1.48037e-05,5.39195e-09,-7.94306e-13,-30073.4,-19.7152], Tmin=(839.702,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-242.711,'kJ/mol'), Cp0=(1.39438e-07,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913196.8432669097 [kcal/mol]
+Hf298: -55.870951432572525 [kcal/mol]
 Sf298: 12.138783100472358 [cal/(mol-K)]
 42
 Pt -0.0 -0.0 8.0
@@ -13486,7 +13551,7 @@ H 6.56975857 3.77695224 18.50314413
 
 
 entry(
-    index = 341,
+    index = 342,
     label = "NNOCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -13523,7 +13588,7 @@ H 10.56551113 12.15518227 12.15518227
 
 
 entry(
-    index = 342,
+    index = 343,
     label = "NC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {7,S}
@@ -13552,7 +13617,7 @@ H 13.81591368 10.52733294 10.52733294
 
 
 entry(
-    index = 343,
+    index = 344,
     label = "CO",
     molecule = """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -13579,7 +13644,7 @@ H 12.55427485 11.09668213 11.09668213
 
 
 entry(
-    index = 344,
+    index = 345,
     label = "O=C(O)OCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -13620,7 +13685,7 @@ H 16.16430675 12.09631239 12.09631239
 
 
 entry(
-    index = 345,
+    index = 346,
     label = "CC(C)CO",
     molecule = """
 1  O u0 p2 c0 {3,S} {15,S}
@@ -13665,7 +13730,7 @@ H 14.14925369 11.75789437 11.75789437
 
 
 entry(
-    index = 346,
+    index = 347,
     label = "NNCC=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {8,S}
@@ -13706,7 +13771,7 @@ H 10.00889233 11.52283632 11.52283632
 
 
 entry(
-    index = 347,
+    index = 348,
     label = "COCOON",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -13747,7 +13812,7 @@ H 14.56664423 11.81102689 11.81102689
 
 
 entry(
-    index = 348,
+    index = 349,
     label = "NOC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -13776,7 +13841,7 @@ H 13.63467568 10.26479802 10.26479802
 
 
 entry(
-    index = 349,
+    index = 350,
     label = "C=COC(=C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -13815,7 +13880,7 @@ H 11.05975352 13.94051749 13.94051749
 
 
 entry(
-    index = 350,
+    index = 351,
     label = "OCONN=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -13850,7 +13915,7 @@ H 10.28731661 11.0301001 11.0301001
 
 
 entry(
-    index = 351,
+    index = 352,
     label = "CC(C)C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {18,S}
@@ -13901,7 +13966,7 @@ H 10.40821516 10.42926134 10.42926134
 
 
 entry(
-    index = 352,
+    index = 353,
     label = "NC=C(C)C",
     molecule = """
 1  N u0 p1 c0 {5,S} {13,S} {14,S}
@@ -13944,7 +14009,7 @@ H 15.31412827 11.89243339 11.89243339
 
 
 entry(
-    index = 353,
+    index = 354,
     label = "C=C=C(C)C",
     molecule = """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -13985,7 +14050,7 @@ H 14.93805009 12.75433725 12.75433725
 
 
 entry(
-    index = 354,
+    index = 355,
     label = "OC[Pt]",
     molecule = 
 """
@@ -13996,11 +14061,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.668176,0.0261588,-2.70019e-05,1.56439e-08,-3.78568e-12,-9.62759e+08,10.4986], Tmin=(298.15,'K'), Tmax=(933.746,'K')), NASAPolynomial(coeffs=[1.89411,0.0151833,-9.3721e-06,3.0578e-09,-4.16185e-13,-9.62759e+08,-1.68756], Tmin=(933.746,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00483e+06,'kJ/mol'), Cp0=(8.31819,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.668176,0.0261588,-2.70019e-05,1.56439e-08,-3.78568e-12,-29970.2,10.4986], Tmin=(298.15,'K'), Tmax=(933.746,'K')), NASAPolynomial(coeffs=[1.89411,0.0151833,-9.3721e-06,3.0578e-09,-4.16185e-13,-30448.8,-1.68756], Tmin=(933.746,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-249.983,'kJ/mol'), Cp0=(8.31819,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913199.0324548802 [kcal/mol]
+Hf298: -58.060139403134976 [kcal/mol]
 Sf298: 26.665942879783675 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -14050,7 +14115,7 @@ H 7.39490595 5.55422836 17.7510304
 
 
 entry(
-    index = 355,
+    index = 356,
     label = "C=C(O)OC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -14087,7 +14152,7 @@ H 10.33711446 12.8633586 12.8633586
 
 
 entry(
-    index = 356,
+    index = 357,
     label = "CCCN=N",
     molecule = """
 1  N u0 p1 c0 {2,D} {4,S}
@@ -14128,7 +14193,7 @@ H 14.56072964 12.53413788 12.53413788
 
 
 entry(
-    index = 357,
+    index = 358,
     label = "NOCC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -14167,7 +14232,7 @@ H 15.6730306 12.41449371 12.41449371
 
 
 entry(
-    index = 358,
+    index = 359,
     label = "[O-]N=[NH+]CC=C",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -14206,7 +14271,7 @@ H 9.94755194 13.13353273 13.13353273
 
 
 entry(
-    index = 359,
+    index = 360,
     label = "OC(=O)ON=N",
     molecule = """
 1 O u0 p2 c0 {4,S} {6,S}
@@ -14237,7 +14302,7 @@ H 10.0661168 11.00351336 11.00351336
 
 
 entry(
-    index = 360,
+    index = 361,
     label = "OC(=O)C#N",
     molecule = """
 1 O u0 p2 c0 {4,S} {6,S}
@@ -14264,7 +14329,7 @@ H 10.1531308 10.35323799 10.35323799
 
 
 entry(
-    index = 361,
+    index = 362,
     label = "CN=NOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -14301,7 +14366,7 @@ H 10.13765785 12.07084416 12.07084416
 
 
 entry(
-    index = 362,
+    index = 363,
     label = "CN=C=N",
     molecule = """
 1 N u0 p1 c0 {3,S} {4,D}
@@ -14332,7 +14397,7 @@ H 15.02614029 11.05408392 11.05408392
 
 
 entry(
-    index = 363,
+    index = 364,
     label = "ONC=C=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {10,S}
@@ -14367,7 +14432,7 @@ H 9.00437276 11.91993714 11.91993714
 
 
 entry(
-    index = 364,
+    index = 365,
     label = "C=CCN=N",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -14404,7 +14469,7 @@ H 14.94527026 12.0094002 12.0094002
 
 
 entry(
-    index = 365,
+    index = 366,
     label = "OC(=C)N=N",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -14437,7 +14502,7 @@ H 14.64631255 11.26585736 11.26585736
 
 
 entry(
-    index = 366,
+    index = 367,
     label = "C=C=C=CO",
     molecule = """
 1 O u0 p2 c0 {2,S} {9,S}
@@ -14470,7 +14535,7 @@ H 15.1671553 12.54461465 12.54461465
 
 
 entry(
-    index = 367,
+    index = 368,
     label = "1Ou0p2c0{2,S}{6,S}{7,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{1,S}7Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -14482,11 +14547,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.628,0.0179079,-9.61745e-06,2.45797e-09,-2.08602e-13,-9.62761e+08,1.42572], Tmin=(298.15,'K'), Tmax=(1233.07,'K')), NASAPolynomial(coeffs=[2.08164,0.0169285,-9.0248e-06,2.46126e-09,-2.749e-13,-9.62761e+08,-1.0096], Tmin=(1233.07,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00485e+06,'kJ/mol'), Cp0=(8.3146,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.628,0.0179079,-9.61745e-06,2.45797e-09,-2.08602e-13,-32095.9,1.42572], Tmin=(298.15,'K'), Tmax=(1233.07,'K')), NASAPolynomial(coeffs=[2.08164,0.0169285,-9.0248e-06,2.46126e-09,-2.749e-13,-32245.2,-1.0096], Tmin=(1233.07,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-266.09,'kJ/mol'), Cp0=(8.3146,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913202.3684293863 [kcal/mol]
+Hf298: -61.39611390914216 [kcal/mol]
 Sf298: 31.062775588813654 [cal/(mol-K)]
 42
 Pt -0.0 -0.0 8.0
@@ -14537,7 +14602,7 @@ H 6.74592434 4.96657105 17.60704679
 
 
 entry(
-    index = 368,
+    index = 369,
     label = "CCCNN=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -14580,7 +14645,7 @@ H 13.51361014 10.42929338 10.42929338
 
 
 entry(
-    index = 369,
+    index = 370,
     label = "CNCN",
     molecule = """
 1  N u0 p1 c0 {3,S} {4,S} {10,S}
@@ -14619,7 +14684,7 @@ H 9.90494059 12.07305808 12.07305808
 
 
 entry(
-    index = 370,
+    index = 371,
     label = "CN=NC#N",
     molecule = """
 1 N u0 p1 c0 {2,D} {4,S}
@@ -14650,7 +14715,7 @@ H 10.16072533 11.75117658 11.75117658
 
 
 entry(
-    index = 371,
+    index = 372,
     label = "C=C=CC(=C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -14689,7 +14754,7 @@ H 11.04324339 12.54041289 12.54041289
 
 
 entry(
-    index = 372,
+    index = 373,
     label = "CC=C(C)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {13,S}
@@ -14730,7 +14795,7 @@ H 13.77458852 13.77251975 13.77251975
 
 
 entry(
-    index = 373,
+    index = 374,
     label = "C=N",
     molecule = """
 1 N u0 p1 c0 {2,D} {5,S}
@@ -14755,7 +14820,7 @@ H 12.74353732 10.93091063 10.93091063
 
 
 entry(
-    index = 374,
+    index = 375,
     label = "CC(=O)C(C)C",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -14802,7 +14867,7 @@ H 14.01713113 10.21454932 10.21454932
 
 
 entry(
-    index = 375,
+    index = 376,
     label = "ON=C=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -14827,7 +14892,7 @@ H 9.79048132 10.65881753 10.65881753
 
 
 entry(
-    index = 376,
+    index = 377,
     label = "CN=CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -14862,7 +14927,7 @@ H 9.9744055 11.28287029 11.28287029
 
 
 entry(
-    index = 377,
+    index = 378,
     label = "1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -14872,11 +14937,11 @@ entry(
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.278482,0.0232967,-3.68175e-05,3.44451e-08,-1.29746e-11,-9.62745e+08,-0.969872], Tmin=(298.15,'K'), Tmax=(647.524,'K')), NASAPolynomial(coeffs=[2.53456,0.00935961,-4.53119e-06,1.20342e-09,-1.40116e-13,-9.62745e+08,-10.8736], Tmin=(647.524,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00471e+06,'kJ/mol'), Cp0=(0.0409715,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.278482,0.0232967,-3.68175e-05,3.44451e-08,-1.29746e-11,-15937.4,-0.969872], Tmin=(298.15,'K'), Tmax=(647.524,'K')), NASAPolynomial(coeffs=[2.53456,0.00935961,-4.53119e-06,1.20342e-09,-1.40116e-13,-16229.5,-10.8736], Tmin=(647.524,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-131.823,'kJ/mol'), Cp0=(0.0409715,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913170.9451707317 [kcal/mol]
+Hf298: -29.972855254554243 [kcal/mol]
 Sf298: 12.325786063160287 [cal/(mol-K)]
 40
 Pt 0.0 -0.0 8.0
@@ -14924,7 +14989,7 @@ H 6.88631464 3.37363951 17.53573047
 
 
 entry(
-    index = 378,
+    index = 379,
     label = "O=C=C=CO",
     molecule = """
 1 O u0 p2 c0 {3,S} {7,S}
@@ -14953,7 +15018,7 @@ H 10.10865294 10.1116766 10.1116766
 
 
 entry(
-    index = 379,
+    index = 380,
     label = "NN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -14978,7 +15043,7 @@ H 10.50286048 11.7198839 11.7198839
 
 
 entry(
-    index = 380,
+    index = 381,
     label = "OC=CO",
     molecule = """
 1 O u0 p2 c0 {3,S} {7,S}
@@ -15009,7 +15074,7 @@ H 14.2274644 11.33636606 11.33636606
 
 
 entry(
-    index = 381,
+    index = 382,
     label = "OCCN=O",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -15044,7 +15109,7 @@ H 10.63893137 12.86454102 12.86454102
 
 
 entry(
-    index = 382,
+    index = 383,
     label = "[Pt]C=N",
     molecule = 
 """
@@ -15054,11 +15119,11 @@ entry(
 4 H u0 p0 c0 {3,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.45444,0.0318698,-4.23828e-05,2.98058e-08,-8.43761e-12,-9.62733e+08,4.23466], Tmin=(298.15,'K'), Tmax=(831.285,'K')), NASAPolynomial(coeffs=[2.33597,0.0136314,-9.47354e-06,3.41412e-09,-5.00758e-13,-9.62734e+08,-13.3516], Tmin=(831.285,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00462e+06,'kJ/mol'), Cp0=(2.77398e-07,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.45444,0.0318698,-4.23828e-05,2.98058e-08,-8.43761e-12,-4426.92,4.23466], Tmin=(298.15,'K'), Tmax=(831.285,'K')), NASAPolynomial(coeffs=[2.33597,0.0136314,-9.47354e-06,3.41412e-09,-5.00758e-13,-5057.11,-13.3516], Tmin=(831.285,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-37.2346,'kJ/mol'), Cp0=(2.77398e-07,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913148.4528117324 [kcal/mol]
+Hf298: -7.480496255429343 [kcal/mol]
 Sf298: 7.571625964543336 [cal/(mol-K)]
 40
 Pt 0.0 -0.0 8.0
@@ -15106,7 +15171,7 @@ H 8.3648485 5.01645023 17.84404706
 
 
 entry(
-    index = 383,
+    index = 384,
     label = "N=NC=N",
     molecule = """
 1 N u0 p1 c0 {3,D} {4,S}
@@ -15135,7 +15200,7 @@ H 12.88719069 10.27694816 10.27694816
 
 
 entry(
-    index = 384,
+    index = 385,
     label = "C=C=COCOC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -15180,7 +15245,7 @@ H 9.44977112 13.56202856 13.56202856
 
 
 entry(
-    index = 385,
+    index = 386,
     label = "NOC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -15211,7 +15276,7 @@ H 14.94223995 10.08182191 10.08182191
 
 
 entry(
-    index = 386,
+    index = 387,
     label = "OONO",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -15240,7 +15305,7 @@ H 13.48855118 11.12090409 11.12090409
 
 
 entry(
-    index = 387,
+    index = 388,
     label = "C=CCC(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {16,S}
@@ -15287,7 +15352,7 @@ H 10.7215494 10.14719369 10.14719369
 
 
 entry(
-    index = 388,
+    index = 389,
     label = "C=CC=C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -15330,7 +15395,7 @@ H 10.74255254 12.10313665 12.10313665
 
 
 entry(
-    index = 389,
+    index = 390,
     label = "CON=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -15363,7 +15428,7 @@ H 15.08220181 11.25089346 11.25089346
 
 
 entry(
-    index = 390,
+    index = 391,
     label = "O=CC=CO",
     molecule = """
 1 O u0 p2 c0 {4,S} {9,S}
@@ -15396,7 +15461,7 @@ H 11.07964075 13.17304671 13.17304671
 
 
 entry(
-    index = 391,
+    index = 392,
     label = "[O-]N=[NH+]NN",
     molecule = """
 1 O u0 p3 c-1 {5,S}
@@ -15429,7 +15494,7 @@ H 11.05062842 11.53140776 11.53140776
 
 
 entry(
-    index = 392,
+    index = 393,
     label = "C=C=CC=CC",
     molecule = """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
@@ -15472,7 +15537,7 @@ H 16.35350385 11.63567966 11.63567966
 
 
 entry(
-    index = 393,
+    index = 394,
     label = "CC(=C)NN",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,S} {9,S}
@@ -15513,7 +15578,7 @@ H 10.0174575 11.11381338 11.11381338
 
 
 entry(
-    index = 394,
+    index = 395,
     label = "[O-]N=[NH+]C#N",
     molecule = """
 1 O u0 p3 c-1 {3,S}
@@ -15540,7 +15605,7 @@ H 11.88518364 11.85872441 11.85872441
 
 
 entry(
-    index = 395,
+    index = 396,
     label = "NN=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -15567,7 +15632,7 @@ H 10.20672441 11.36688324 11.36688324
 
 
 entry(
-    index = 396,
+    index = 397,
     label = "O=CCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -15604,7 +15669,7 @@ H 10.14514258 12.52015062 12.52015062
 
 
 entry(
-    index = 397,
+    index = 398,
     label = "CC=COC=O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -15643,7 +15708,7 @@ H 16.3983085 10.83344138 10.83344138
 
 
 entry(
-    index = 398,
+    index = 399,
     label = "NOOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -15678,7 +15743,7 @@ H 10.36966943 12.61143581 12.61143581
 
 
 entry(
-    index = 399,
+    index = 400,
     label = "C=C(C)OO",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -15715,7 +15780,7 @@ H 11.93085076 14.87439261 14.87439261
 
 
 entry(
-    index = 400,
+    index = 401,
     label = "O=COOC=O",
     molecule = """
 1 O u0 p2 c0 {2,S} {5,S}
@@ -15746,7 +15811,7 @@ H 14.91255162 10.95895739 10.95895739
 
 
 entry(
-    index = 401,
+    index = 402,
     label = "CCCC(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -15801,7 +15866,7 @@ H 15.41309137 13.71385453 13.71385453
 
 
 entry(
-    index = 402,
+    index = 403,
     label = "C=NOC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -15832,7 +15897,7 @@ H 9.82179011 11.45009024 11.45009024
 
 
 entry(
-    index = 403,
+    index = 404,
     label = "CC=CC=N",
     molecule = """
 1  N u0 p1 c0 {5,D} {12,S}
@@ -15871,7 +15936,7 @@ H 9.9853569 11.68665189 11.68665189
 
 
 entry(
-    index = 404,
+    index = 405,
     label = "CN=NN",
     molecule = """
 1 N u0 p1 c0 {3,S} {8,S} {9,S}
@@ -15904,7 +15969,7 @@ H 14.50876718 9.91351425 9.91351425
 
 
 entry(
-    index = 405,
+    index = 406,
     label = "CON",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -15935,7 +16000,7 @@ H 13.66300016 10.5810068 10.5810068
 
 
 entry(
-    index = 406,
+    index = 407,
     label = "C=COC=C=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -15970,7 +16035,7 @@ H 14.50529551 10.00790464 10.00790464
 
 
 entry(
-    index = 407,
+    index = 408,
     label = "NCC#N",
     molecule = """
 1 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -16001,7 +16066,7 @@ H 9.83204399 11.48912957 11.48912957
 
 
 entry(
-    index = 408,
+    index = 409,
     label = "C=CC#N",
     molecule = """
 1 N u0 p1 c0 {4,T}
@@ -16030,7 +16095,7 @@ H 10.49970849 10.09649556 10.09649556
 
 
 entry(
-    index = 409,
+    index = 410,
     label = "CCNN",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {10,S}
@@ -16069,7 +16134,7 @@ H 10.67244557 10.23870829 10.23870829
 
 
 entry(
-    index = 410,
+    index = 411,
     label = "NNOO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -16100,7 +16165,7 @@ H 14.23503018 10.55094561 10.55094561
 
 
 entry(
-    index = 411,
+    index = 412,
     label = "C=C=COC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -16139,7 +16204,7 @@ H 16.17647635 13.38821457 13.38821457
 
 
 entry(
-    index = 412,
+    index = 413,
     label = "NNC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -16170,7 +16235,7 @@ H 13.71325896 11.62658044 11.62658044
 
 
 entry(
-    index = 413,
+    index = 414,
     label = "C=C(C)CC",
     molecule = """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
@@ -16215,7 +16280,7 @@ H 11.57199435 9.88704979 9.88704979
 
 
 entry(
-    index = 414,
+    index = 415,
     label = "CCONN",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -16256,7 +16321,7 @@ H 15.2534484 12.36010999 12.36010999
 
 
 entry(
-    index = 415,
+    index = 416,
     label = "C=NC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -16285,7 +16350,7 @@ H 10.92653875 10.07894171 10.07894171
 
 
 entry(
-    index = 416,
+    index = 417,
     label = "CNOC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -16320,7 +16385,7 @@ H 15.01864572 11.9480937 11.9480937
 
 
 entry(
-    index = 417,
+    index = 418,
     label = "O=COC=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -16349,7 +16414,7 @@ H 14.17728452 10.01595702 10.01595702
 
 
 entry(
-    index = 418,
+    index = 419,
     label = "CCC(=O)NN",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -16392,7 +16457,7 @@ H 16.22799827 11.08050032 11.08050032
 
 
 entry(
-    index = 419,
+    index = 420,
     label = "C=C(C)OCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -16435,7 +16500,7 @@ H 14.18706986 11.97857409 11.97857409
 
 
 entry(
-    index = 420,
+    index = 421,
     label = "NC[Pt]",
     molecule = 
 """
@@ -16447,11 +16512,11 @@ entry(
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.918007,0.0299028,-3.00449e-05,1.74588e-08,-4.27776e-12,-9.6274e+08,11.227], Tmin=(298.15,'K'), Tmax=(926.017,'K')), NASAPolynomial(coeffs=[1.9188,0.0176496,-1.01974e-05,3.17067e-09,-4.20511e-13,-9.6274e+08,-2.24102], Tmin=(926.017,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00468e+06,'kJ/mol'), Cp0=(8.3171,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.918007,0.0299028,-3.00449e-05,1.74588e-08,-4.27776e-12,-11148,11.227], Tmin=(298.15,'K'), Tmax=(926.017,'K')), NASAPolynomial(coeffs=[1.9188,0.0176496,-1.01974e-05,3.17067e-09,-4.20511e-13,-11673.4,-2.24102], Tmin=(926.017,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-93.6091,'kJ/mol'), Cp0=(8.3171,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913161.4930599702 [kcal/mol]
+Hf298: -20.520744493219404 [kcal/mol]
 Sf298: 27.26372065577829 [cal/(mol-K)]
 42
 Pt 0.0 0.0 8.0
@@ -16502,18 +16567,18 @@ H 3.97904119 5.7906341 17.88219375
 
 
 entry(
-    index = 421,
+    index = 422,
     label = "N#[Pt]",
     molecule = 
 """
 1 X u0 p0 c0 {2,T}
 2 N u0 p1 c0 {1,T}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.604417,0.014328,-2.37087e-05,1.82736e-08,-5.40733e-12,-9.62725e+08,1.19061], Tmin=(298.15,'K'), Tmax=(821.325,'K')), NASAPolynomial(coeffs=[1.77083,0.00275986,-2.58119e-06,1.12414e-09,-1.87155e-13,-9.62725e+08,-9.801], Tmin=(821.325,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00455e+06,'kJ/mol'), Cp0=(4.10191e-23,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.604417,0.014328,-2.37087e-05,1.82736e-08,-5.40733e-12,4034.45,1.19061], Tmin=(298.15,'K'), Tmax=(821.325,'K')), NASAPolynomial(coeffs=[1.77083,0.00275986,-2.58119e-06,1.12414e-09,-1.87155e-13,3644.29,-9.801], Tmin=(821.325,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(33.4079,'kJ/mol'), Cp0=(4.10191e-23,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913132.3977780372 [kcal/mol]
+Hf298: 8.574537439789575 [kcal/mol]
 Sf298: 2.21524559919061 [cal/(mol-K)]
 37
 Pt 0.0 0.0 8.0
@@ -16558,7 +16623,7 @@ N 5.70492192 3.29361278 15.98928049
 
 
 entry(
-    index = 422,
+    index = 423,
     label = "COOC=O",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -16591,7 +16656,7 @@ H 14.84480004 12.04631205 12.04631205
 
 
 entry(
-    index = 423,
+    index = 424,
     label = "ONC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {7,S}
@@ -16620,7 +16685,7 @@ H 12.96357079 10.26141256 10.26141256
 
 
 entry(
-    index = 424,
+    index = 425,
     label = "C=C(C)CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -16671,18 +16736,18 @@ H 10.47692231 14.31309026 14.31309026
 
 
 entry(
-    index = 425,
+    index = 426,
     label = "C$[Pt]",
     molecule = 
 """
 1 X u0 p0 c0 {2,Q}
 2 C u0 p0 c0 {1,Q}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.904507,0.0133632,-1.90162e-05,1.25851e-08,-3.19558e-12,-9.62724e+08,2.73206], Tmin=(298.15,'K'), Tmax=(949.4,'K')), NASAPolynomial(coeffs=[1.52546,0.00312696,-2.84618e-06,1.23244e-09,-2.06644e-13,-9.62724e+08,-8.86535], Tmin=(949.4,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00454e+06,'kJ/mol'), Cp0=(3.24819e-23,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.904507,0.0133632,-1.90162e-05,1.25851e-08,-3.19558e-12,5108.83,2.73206], Tmin=(298.15,'K'), Tmax=(949.4,'K')), NASAPolynomial(coeffs=[1.52546,0.00312696,-2.84618e-06,1.23244e-09,-2.06644e-13,4647.35,-8.86535], Tmin=(949.4,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(42.0284,'kJ/mol'), Cp0=(3.24819e-23,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913130.4635588597 [kcal/mol]
+Hf298: 10.508756617289825 [kcal/mol]
 Sf298: 1.6326557292781942 [cal/(mol-K)]
 37
 Pt 0.0 0.0 8.0
@@ -16727,7 +16792,7 @@ C 5.71852071 3.30191998 15.76106074
 
 
 entry(
-    index = 426,
+    index = 427,
     label = "CCN=N",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -16762,7 +16827,7 @@ H 14.86658443 12.22984427 12.22984427
 
 
 entry(
-    index = 427,
+    index = 428,
     label = "ONCC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -16801,7 +16866,7 @@ H 16.09587839 10.65796474 10.65796474
 
 
 entry(
-    index = 428,
+    index = 429,
     label = "ON=C(C)C",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -16840,7 +16905,7 @@ H 14.15290972 14.05271205 14.05271205
 
 
 entry(
-    index = 429,
+    index = 430,
     label = "OCC#N",
     molecule = """
 1 O u0 p2 c0 {3,S} {7,S}
@@ -16869,7 +16934,7 @@ H 9.88962334 11.48763131 11.48763131
 
 
 entry(
-    index = 430,
+    index = 431,
     label = "O=C=CC#N",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -16896,7 +16961,7 @@ H 12.96294146 12.67391343 12.67391343
 
 
 entry(
-    index = 431,
+    index = 432,
     label = "1Nu0p1c0{2,D}{5,S}{6,vdW}2Cu0p0c0{1,D}{3,S}{4,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -16907,11 +16972,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.400055,0.0190901,-1.43201e-05,6.18927e-09,-1.19828e-12,-9.62734e+08,5.71212], Tmin=(298.15,'K'), Tmax=(972.399,'K')), NASAPolynomial(coeffs=[1.11647,0.0161432,-9.77439e-06,3.07288e-09,-3.97096e-13,-9.62734e+08,2.27588], Tmin=(972.399,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00463e+06,'kJ/mol'), Cp0=(8.31452,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.400055,0.0190901,-1.43201e-05,6.18927e-09,-1.19828e-12,-5279.77,5.71212], Tmin=(298.15,'K'), Tmax=(972.399,'K')), NASAPolynomial(coeffs=[1.11647,0.0161432,-9.77439e-06,3.07288e-09,-3.97096e-13,-5419.1,2.27588], Tmin=(972.399,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-44.0011,'kJ/mol'), Cp0=(8.31452,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913149.7708565134 [kcal/mol]
+Hf298: -8.798541036424847 [kcal/mol]
 Sf298: 26.025458080289877 [cal/(mol-K)]
 41
 Pt -0.0 0.0 8.0
@@ -16961,7 +17026,7 @@ H 5.6606893 3.79793963 17.49478254
 
 
 entry(
-    index = 432,
+    index = 433,
     label = "COCOC(C)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -17010,7 +17075,7 @@ H 10.76044501 11.00556988 11.00556988
 
 
 entry(
-    index = 433,
+    index = 434,
     label = "N",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -17033,7 +17098,7 @@ H 10.2199363 11.63497567 11.63497567
 
 
 entry(
-    index = 434,
+    index = 435,
     label = "N=C=N",
     molecule = """
 1 N u0 p1 c0 {3,D} {4,S}
@@ -17058,7 +17123,7 @@ H 9.95505758 10.80461695 10.80461695
 
 
 entry(
-    index = 435,
+    index = 436,
     label = "1Ou0p2c0{2,S}{9,S}{10,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Cu0p0c0{2,S}{6,S}{7,S}{8,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{3,S}7Hu0p0c0{3,S}8Hu0p0c0{3,S}9Hu0p0c0{1,S}10Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -17073,11 +17138,11 @@ entry(
 9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.400544,0.0336578,-2.18662e-05,7.55299e-09,-1.09674e-12,-9.62766e+08,7.83303], Tmin=(298.15,'K'), Tmax=(1221.91,'K')), NASAPolynomial(coeffs=[2.04085,0.028621,-1.60919e-05,4.62554e-09,-5.43411e-13,-9.62767e+08,-0.510945], Tmin=(1221.91,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00489e+06,'kJ/mol'), Cp0=(8.36421,'J/(mol*K)'), CpInf=(216.176,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.400544,0.0336578,-2.18662e-05,7.55299e-09,-1.09674e-12,-37409.6,7.83303], Tmin=(298.15,'K'), Tmax=(1221.91,'K')), NASAPolynomial(coeffs=[2.04085,0.028621,-1.60919e-05,4.62554e-09,-5.43411e-13,-37835.4,-0.510945], Tmin=(1221.91,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-310.948,'kJ/mol'), Cp0=(8.36421,'J/(mol*K)'), CpInf=(216.176,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913212.4607113316 [kcal/mol]
+Hf298: -71.48839585450268 [kcal/mol]
 Sf298: 38.23094870562838 [cal/(mol-K)]
 45
 Pt 0.0 0.0 8.0
@@ -17131,7 +17196,7 @@ H 6.06863332 6.11992059 17.60747182
 
 
 entry(
-    index = 436,
+    index = 437,
     label = "CCC(=O)N=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -17168,7 +17233,7 @@ H 11.18583469 12.87291828 12.87291828
 
 
 entry(
-    index = 437,
+    index = 438,
     label = "CC(=O)OC=O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -17203,7 +17268,7 @@ H 14.72276046 12.7416306 12.7416306
 
 
 entry(
-    index = 438,
+    index = 439,
     label = "CC(C)=C(C)C",
     molecule = """
 1  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
@@ -17254,7 +17319,7 @@ H 10.27513802 13.54253307 13.54253307
 
 
 entry(
-    index = 439,
+    index = 440,
     label = "COCON=N",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -17293,7 +17358,7 @@ H 15.90310241 10.48274452 10.48274452
 
 
 entry(
-    index = 440,
+    index = 441,
     label = "CCC=NC",
     molecule = """
 1  N u0 p1 c0 {4,S} {5,D}
@@ -17336,7 +17401,7 @@ H 11.9466754 9.94544944 9.94544944
 
 
 entry(
-    index = 441,
+    index = 442,
     label = "CC(C)CCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {18,S}
@@ -17387,7 +17452,7 @@ H 16.54819662 11.13811088 11.13811088
 
 
 entry(
-    index = 442,
+    index = 443,
     label = "O=CC#[Pt]",
     molecule = 
 """
@@ -17397,11 +17462,11 @@ entry(
 4 C u0 p0 c0 {1,T} {3,S}
 5 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.436586,0.0253077,-2.82689e-05,1.65666e-08,-3.98818e-12,-9.62753e+08,8.93524], Tmin=(298.15,'K'), Tmax=(927.374,'K')), NASAPolynomial(coeffs=[2.11488,0.0143022,-1.04673e-05,3.76897e-09,-5.38104e-13,-9.62754e+08,-3.18163], Tmin=(927.374,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00478e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.436586,0.0253077,-2.82689e-05,1.65666e-08,-3.98818e-12,-24303.3,8.93524], Tmin=(298.15,'K'), Tmax=(927.374,'K')), NASAPolynomial(coeffs=[2.11488,0.0143022,-1.04673e-05,3.76897e-09,-5.38104e-13,-24776.5,-3.18163], Tmin=(927.374,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-202.679,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913187.7278272535 [kcal/mol]
+Hf298: -46.75551177655044 [kcal/mol]
 Sf298: 25.580782909802295 [cal/(mol-K)]
 40
 Pt 0.0 0.0 8.0
@@ -17450,7 +17515,7 @@ H 6.59192703 3.80513323 18.1056407
 
 
 entry(
-    index = 443,
+    index = 444,
     label = "C=C=CC#N",
     molecule = """
 1 N u0 p1 c0 {5,T}
@@ -17481,7 +17546,7 @@ H 10.90260769 12.79552772 12.79552772
 
 
 entry(
-    index = 444,
+    index = 445,
     label = "CC=CNN",
     molecule = """
 1  N u0 p1 c0 {2,S} {5,S} {10,S}
@@ -17522,7 +17587,7 @@ H 10.15943526 10.34393399 10.34393399
 
 
 entry(
-    index = 445,
+    index = 446,
     label = "OC(=C)NN=O",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -17557,7 +17622,7 @@ H 11.75905604 13.09655559 13.09655559
 
 
 entry(
-    index = 446,
+    index = 447,
     label = "ON=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -17580,7 +17645,7 @@ H 10.06847963 10.47411889 10.47411889
 
 
 entry(
-    index = 447,
+    index = 448,
     label = "NN=CC=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {10,S} {11,S}
@@ -17617,7 +17682,7 @@ H 11.27199646 10.16172731 10.16172731
 
 
 entry(
-    index = 448,
+    index = 449,
     label = "CN=C(C)C",
     molecule = """
 1  N u0 p1 c0 {4,S} {5,D}
@@ -17660,7 +17725,7 @@ H 15.09510203 10.5790774 10.5790774
 
 
 entry(
-    index = 449,
+    index = 450,
     label = "CC(N)C",
     molecule = """
 1  N u0 p1 c0 {2,S} {12,S} {13,S}
@@ -17701,7 +17766,7 @@ H 10.93004113 10.16998671 10.16998671
 
 
 entry(
-    index = 450,
+    index = 451,
     label = "CC(=NN)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {11,S}
@@ -17738,7 +17803,7 @@ H 12.02360183 13.77258139 13.77258139
 
 
 entry(
-    index = 451,
+    index = 452,
     label = "COCOOCOC",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -17789,7 +17854,7 @@ H 18.83458067 11.96943321 11.96943321
 
 
 entry(
-    index = 452,
+    index = 453,
     label = "CCOC(C)=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -17832,7 +17897,7 @@ H 16.43045676 11.35963333 11.35963333
 
 
 entry(
-    index = 453,
+    index = 454,
     label = "CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -17869,7 +17934,7 @@ H 10.91880515 10.17014605 10.17014605
 
 
 entry(
-    index = 454,
+    index = 455,
     label = "CCNO",
     molecule = """
 1  O u0 p2 c0 {2,S} {11,S}
@@ -17906,7 +17971,7 @@ H 14.55721805 10.25197322 10.25197322
 
 
 entry(
-    index = 455,
+    index = 456,
     label = "C=CCOC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -17947,7 +18012,7 @@ H 10.7339914 10.09867525 10.09867525
 
 
 entry(
-    index = 456,
+    index = 457,
     label = "CCC(=O)NO",
     molecule = """
 1  O u0 p2 c0 {3,S} {13,S}
@@ -17988,7 +18053,7 @@ H 15.22153045 12.50549193 12.50549193
 
 
 entry(
-    index = 457,
+    index = 458,
     label = "O=CC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {7,S}
@@ -18017,7 +18082,7 @@ H 13.75679899 10.63789101 10.63789101
 
 
 entry(
-    index = 458,
+    index = 459,
     label = "CN=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,D}
@@ -18048,7 +18113,7 @@ H 13.06579808 11.60038905 11.60038905
 
 
 entry(
-    index = 459,
+    index = 460,
     label = "C=COC(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -18091,7 +18156,7 @@ H 12.47624348 13.46524692 13.46524692
 
 
 entry(
-    index = 460,
+    index = 461,
     label = "NNC=N",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -18124,7 +18189,7 @@ H 10.06705253 12.75946402 12.75946402
 
 
 entry(
-    index = 461,
+    index = 462,
     label = "C=NC=N",
     molecule = """
 1 N u0 p1 c0 {3,S} {4,D}
@@ -18155,7 +18220,7 @@ H 10.29969779 11.6374163 11.6374163
 
 
 entry(
-    index = 462,
+    index = 463,
     label = "CCONO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -18194,7 +18259,7 @@ H 14.73288871 11.76287264 11.76287264
 
 
 entry(
-    index = 463,
+    index = 464,
     label = "CN=NC=C",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -18231,7 +18296,7 @@ H 11.16621907 12.16817546 12.16817546
 
 
 entry(
-    index = 464,
+    index = 465,
     label = "C#C",
     molecule = """
 1 C u0 p0 c0 {2,T} {3,S}
@@ -18254,7 +18319,7 @@ H 13.14303109 9.99937475 9.99937475
 
 
 entry(
-    index = 465,
+    index = 466,
     label = "O=C=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -18275,7 +18340,7 @@ C 11.21575711 10.06520591 10.06520591
 
 
 entry(
-    index = 466,
+    index = 467,
     label = "COO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -18304,7 +18369,7 @@ H 13.18695428 9.81799673 9.81799673
 
 
 entry(
-    index = 467,
+    index = 468,
     label = "CN=NO",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -18335,7 +18400,7 @@ H 14.15601474 10.81282353 10.81282353
 
 
 entry(
-    index = 468,
+    index = 469,
     label = "NCCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {14,S}
@@ -18378,7 +18443,7 @@ H 14.9382417 12.8986393 12.8986393
 
 
 entry(
-    index = 469,
+    index = 470,
     label = "C=CCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {13,S}
@@ -18419,7 +18484,7 @@ H 9.7932269 11.9549414 11.9549414
 
 
 entry(
-    index = 470,
+    index = 471,
     label = "CC=CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -18456,7 +18521,7 @@ H 14.11925469 11.30264405 11.30264405
 
 
 entry(
-    index = 471,
+    index = 472,
     label = "NN=C=N",
     molecule = """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -18485,7 +18550,7 @@ H 15.02912456 10.34075228 10.34075228
 
 
 entry(
-    index = 472,
+    index = 473,
     label = "CC(C#N)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -18520,7 +18585,7 @@ H 12.39040668 12.62418463 12.62418463
 
 
 entry(
-    index = 473,
+    index = 474,
     label = "CN=NN=NC",
     molecule = """
 1  N u0 p1 c0 {3,D} {5,S}
@@ -18559,7 +18624,7 @@ H 11.44713796 12.6021095 12.6021095
 
 
 entry(
-    index = 474,
+    index = 475,
     label = "C=CCC=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -18598,7 +18663,7 @@ H 9.81173792 13.10499649 13.10499649
 
 
 entry(
-    index = 475,
+    index = 476,
     label = "C=CC=C=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -18633,7 +18698,7 @@ H 10.17814095 10.15444503 10.15444503
 
 
 entry(
-    index = 476,
+    index = 477,
     label = "O=C=COO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -18662,7 +18727,7 @@ H 10.01884615 9.89512798 9.89512798
 
 
 entry(
-    index = 477,
+    index = 478,
     label = "CCOC(C)C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -18713,7 +18778,7 @@ H 10.31647347 13.20457151 13.20457151
 
 
 entry(
-    index = 478,
+    index = 479,
     label = "C=C=COCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -18756,7 +18821,7 @@ H 16.86729758 10.95378491 10.95378491
 
 
 entry(
-    index = 479,
+    index = 480,
     label = "ONOC=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -18787,7 +18852,7 @@ H 10.71585203 12.00279464 12.00279464
 
 
 entry(
-    index = 480,
+    index = 481,
     label = "O=NC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -18812,7 +18877,7 @@ H 10.03233844 9.96922345 9.96922345
 
 
 entry(
-    index = 481,
+    index = 482,
     label = "[O-]N=[NH+]CCO",
     molecule = """
 1  O u0 p2 c0 {6,S} {12,S}
@@ -18851,7 +18916,7 @@ H 9.41197877 11.69272946 11.69272946
 
 
 entry(
-    index = 482,
+    index = 483,
     label = "[O-]N=[NH+]C(=C)C",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -18890,7 +18955,7 @@ H 12.3245576 12.35419924 12.35419924
 
 
 entry(
-    index = 483,
+    index = 484,
     label = "O=CC#N",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -18915,7 +18980,7 @@ H 10.25010577 10.86462648 10.86462648
 
 
 entry(
-    index = 484,
+    index = 485,
     label = "CC(=C)NO",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -18954,7 +19019,7 @@ H 14.1178815 11.01330912 11.01330912
 
 
 entry(
-    index = 485,
+    index = 486,
     label = "[O-]N=[NH+]NO",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -18985,7 +19050,7 @@ H 13.86206882 11.06225307 11.06225307
 
 
 entry(
-    index = 486,
+    index = 487,
     label = "C=C(O)CO",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -19022,7 +19087,7 @@ H 11.82789724 13.91353146 13.91353146
 
 
 entry(
-    index = 487,
+    index = 488,
     label = "CNCC=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {11,S}
@@ -19065,7 +19130,7 @@ H 9.89874566 10.65758695 10.65758695
 
 
 entry(
-    index = 488,
+    index = 489,
     label = "CCCN=NC",
     molecule = """
 1  N u0 p1 c0 {2,D} {4,S}
@@ -19112,7 +19177,7 @@ H 9.91090321 10.79839557 10.79839557
 
 
 entry(
-    index = 489,
+    index = 490,
     label = "[O-]N=[NH+]C(=O)O",
     molecule = """
 1 O u0 p2 c0 {6,S} {8,S}
@@ -19143,7 +19208,7 @@ H 14.37956964 11.37382753 11.37382753
 
 
 entry(
-    index = 490,
+    index = 491,
     label = "[O-]N=[NH+]OCC",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -19182,7 +19247,7 @@ H 13.74700627 10.01706338 10.01706338
 
 
 entry(
-    index = 491,
+    index = 492,
     label = "C=C=CCC=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -19221,7 +19286,7 @@ H 15.46453475 12.58431445 12.58431445
 
 
 entry(
-    index = 492,
+    index = 493,
     label = "ON=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -19246,7 +19311,7 @@ H 13.4881432 10.24108579 10.24108579
 
 
 entry(
-    index = 493,
+    index = 494,
     label = "O=COOC(=O)O",
     molecule = """
 1 O u0 p2 c0 {2,S} {6,S}
@@ -19279,7 +19344,7 @@ H 10.20316232 11.28532188 11.28532188
 
 
 entry(
-    index = 494,
+    index = 495,
     label = "CCC(=O)NN=O",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -19320,7 +19385,7 @@ H 14.01816753 10.1649257 10.1649257
 
 
 entry(
-    index = 495,
+    index = 496,
     label = "CCC(=O)C(C)C",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -19373,7 +19438,7 @@ H 15.00940363 10.57711884 10.57711884
 
 
 entry(
-    index = 496,
+    index = 497,
     label = "C=C=CCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -19416,7 +19481,7 @@ H 11.29364938 13.47027678 13.47027678
 
 
 entry(
-    index = 497,
+    index = 498,
     label = "CC(C)=[Pt]",
     molecule = 
 """
@@ -19431,11 +19496,11 @@ entry(
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.837212,0.0430763,-3.7422e-05,1.99796e-08,-4.97041e-12,-9.6274e+08,1.96961], Tmin=(298.15,'K'), Tmax=(794.604,'K')), NASAPolynomial(coeffs=[0.758504,0.0350435,-2.22584e-05,7.25743e-09,-9.67757e-13,-9.6274e+08,-5.36192], Tmin=(794.604,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00467e+06,'kJ/mol'), Cp0=(5.92441e-06,'J/(mol*K)'), CpInf=(224.49,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.837212,0.0430763,-3.7422e-05,1.99796e-08,-4.97041e-12,-10815,1.96961], Tmin=(298.15,'K'), Tmax=(794.604,'K')), NASAPolynomial(coeffs=[0.758504,0.0350435,-2.22584e-05,7.25743e-09,-9.67757e-13,-11068.6,-5.36192], Tmin=(794.604,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-89.6936,'kJ/mol'), Cp0=(5.92441e-06,'J/(mol*K)'), CpInf=(224.49,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913159.7411500493 [kcal/mol]
+Hf298: -18.768834572334857 [kcal/mol]
 Sf298: 16.973714582940158 [cal/(mol-K)]
 45
 Pt -0.0 0.0 8.0
@@ -19488,7 +19553,7 @@ H 7.15779755 5.08221486 18.31207554
 
 
 entry(
-    index = 498,
+    index = 499,
     label = "CC(=C)N",
     molecule = """
 1  N u0 p1 c0 {3,S} {8,S} {9,S}
@@ -19525,7 +19590,7 @@ H 13.36062222 11.24872649 11.24872649
 
 
 entry(
-    index = 499,
+    index = 500,
     label = "C[Pt]",
     molecule = 
 """
@@ -19535,11 +19600,11 @@ entry(
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.185048,0.0152273,-1.08257e-05,3.9383e-09,-4.46877e-13,-9.62736e+08,7.77862], Tmin=(298.15,'K'), Tmax=(884.344,'K')), NASAPolynomial(coeffs=[0.894029,0.0114223,-6.19669e-06,1.82431e-09,-2.38153e-13,-9.62736e+08,2.46747], Tmin=(884.344,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00464e+06,'kJ/mol'), Cp0=(8.31447,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.185048,0.0152273,-1.08257e-05,3.9383e-09,-4.46877e-13,-6942.01,7.77862], Tmin=(298.15,'K'), Tmax=(884.344,'K')), NASAPolynomial(coeffs=[0.894029,0.0114223,-6.19669e-06,1.82431e-09,-2.38153e-13,-7174.93,2.46747], Tmin=(884.344,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-58.3955,'kJ/mol'), Cp0=(8.31447,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913153.7082737717 [kcal/mol]
+Hf298: -12.735958294818603 [kcal/mol]
 Sf298: 21.492197073941238 [cal/(mol-K)]
 40
 Pt 0.0 -0.0 8.0
@@ -19588,7 +19653,7 @@ H 5.29427287 5.89993622 17.5772167
 
 
 entry(
-    index = 500,
+    index = 501,
     label = "COCON=O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -19625,7 +19690,7 @@ H 9.92077074 11.91682252 11.91682252
 
 
 entry(
-    index = 501,
+    index = 502,
     label = "CC=CNO",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -19664,7 +19729,7 @@ H 15.08417427 12.16680898 12.16680898
 
 
 entry(
-    index = 502,
+    index = 503,
     label = "O=C(O)OCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -19699,7 +19764,7 @@ H 14.79983279 11.64320409 11.64320409
 
 
 entry(
-    index = 503,
+    index = 504,
     label = "CN=C=C=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {5,D}
@@ -19734,7 +19799,7 @@ H 16.4119431 10.48278691 10.48278691
 
 
 entry(
-    index = 504,
+    index = 505,
     label = "COOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -19769,7 +19834,7 @@ H 15.82900645 10.75376369 10.75376369
 
 
 entry(
-    index = 505,
+    index = 506,
     label = "C=C(O)OC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -19806,7 +19871,7 @@ H 11.47298413 13.39823924 13.39823924
 
 
 entry(
-    index = 506,
+    index = 507,
     label = "OCCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {12,S}
@@ -19847,7 +19912,7 @@ H 10.92773634 12.94235852 12.94235852
 
 
 entry(
-    index = 507,
+    index = 508,
     label = "O",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -19868,7 +19933,7 @@ H 11.57579312 9.98705571 9.98705571
 
 
 entry(
-    index = 508,
+    index = 509,
     label = "C=COCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -19909,7 +19974,7 @@ H 10.85807048 9.94236954 9.94236954
 
 
 entry(
-    index = 509,
+    index = 510,
     label = "N=C=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -19932,7 +19997,7 @@ H 9.978898 10.039771 10.039771
 
 
 entry(
-    index = 510,
+    index = 511,
     label = "CCC(=O)N=N",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -19971,7 +20036,7 @@ H 15.3715311 13.14699247 13.14699247
 
 
 entry(
-    index = 511,
+    index = 512,
     label = "ON=C=C=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {8,S}
@@ -20002,7 +20067,7 @@ H 15.28311103 11.62020951 11.62020951
 
 
 entry(
-    index = 512,
+    index = 513,
     label = "CCOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -20041,7 +20106,7 @@ H 15.22682553 11.01003191 11.01003191
 
 
 entry(
-    index = 513,
+    index = 514,
     label = "O=C(O)OC(=O)O",
     molecule = """
 1 O u0 p2 c0 {6,S} {7,S}
@@ -20074,7 +20139,7 @@ H 10.24001031 10.28436127 10.28436127
 
 
 entry(
-    index = 514,
+    index = 515,
     label = "O=CCOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -20111,7 +20176,7 @@ H 15.69901255 11.88271726 11.88271726
 
 
 entry(
-    index = 515,
+    index = 516,
     label = "COCOC=C=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -20152,7 +20217,7 @@ H 14.79183589 9.93043527 9.93043527
 
 
 entry(
-    index = 516,
+    index = 517,
     label = "ONC=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {7,S}
@@ -20183,7 +20248,7 @@ H 13.58163784 10.64394312 10.64394312
 
 
 entry(
-    index = 517,
+    index = 518,
     label = "CCCNC",
     molecule = """
 1  N u0 p1 c0 {3,S} {5,S} {16,S}
@@ -20230,7 +20295,7 @@ H 14.52781879 10.34334549 10.34334549
 
 
 entry(
-    index = 518,
+    index = 519,
     label = "C=C=C=CC=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,D} {7,S}
@@ -20269,7 +20334,7 @@ H 17.17820719 10.87080322 10.87080322
 
 
 entry(
-    index = 519,
+    index = 520,
     label = "O=C(O)CO",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -20302,7 +20367,7 @@ H 14.46361359 11.52229215 11.52229215
 
 
 entry(
-    index = 520,
+    index = 521,
     label = "CONC",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -20339,7 +20404,7 @@ H 12.04910859 10.61860485 10.61860485
 
 
 entry(
-    index = 521,
+    index = 522,
     label = "O=NNC(=O)O",
     molecule = """
 1 O u0 p2 c0 {6,S} {8,S}
@@ -20370,7 +20435,7 @@ H 14.73915469 11.47786044 11.47786044
 
 
 entry(
-    index = 522,
+    index = 523,
     label = "OCO",
     molecule = """
 1 O u0 p2 c0 {3,S} {6,S}
@@ -20399,7 +20464,7 @@ H 12.62159088 11.74449433 11.74449433
 
 
 entry(
-    index = 523,
+    index = 524,
     label = "1Ou0p2c0{2,S}{5,S}2Nu0p1c0{1,S}{3,S}{4,S}{6,vdW}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{2,vdW}",
     molecule = 
 """
@@ -20410,11 +20475,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.348566,0.0248507,-2.96071e-05,2.07867e-08,-6.12749e-12,-9.62746e+08,6.19687], Tmin=(298.15,'K'), Tmax=(782.139,'K')), NASAPolynomial(coeffs=[2.49268,0.0138855,-8.57837e-06,2.86294e-09,-3.98542e-13,-9.62746e+08,-3.62043], Tmin=(782.139,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00472e+06,'kJ/mol'), Cp0=(8.31623,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.348566,0.0248507,-2.96071e-05,2.07867e-08,-6.12749e-12,-16804.6,6.19687], Tmin=(298.15,'K'), Tmax=(782.139,'K')), NASAPolynomial(coeffs=[2.49268,0.0138855,-8.57837e-06,2.86294e-09,-3.98542e-13,-17140,-3.62043], Tmin=(782.139,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-139.681,'kJ/mol'), Cp0=(8.31623,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913172.4105820023 [kcal/mol]
+Hf298: -31.438266525049112 [kcal/mol]
 Sf298: 28.704901078525765 [cal/(mol-K)]
 41
 Pt -0.0 0.0 8.0
@@ -20464,7 +20529,7 @@ H 6.42915798 4.64828106 18.90224
 
 
 entry(
-    index = 524,
+    index = 525,
     label = "O=C=CCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {12,S}
@@ -20503,7 +20568,7 @@ H 10.47177148 12.8068579 12.8068579
 
 
 entry(
-    index = 525,
+    index = 526,
     label = "CCN=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -20536,7 +20601,7 @@ H 9.9506717 11.27232841 11.27232841
 
 
 entry(
-    index = 526,
+    index = 527,
     label = "NN=C=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -20565,7 +20630,7 @@ H 10.00530062 10.46346603 10.46346603
 
 
 entry(
-    index = 527,
+    index = 528,
     label = "C=CN=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -20594,7 +20659,7 @@ H 13.64909536 11.19481747 11.19481747
 
 
 entry(
-    index = 528,
+    index = 529,
     label = "NCN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -20625,7 +20690,7 @@ H 12.50536275 10.66195648 10.66195648
 
 
 entry(
-    index = 529,
+    index = 530,
     label = "CCC(=O)OO",
     molecule = """
 1  O u0 p2 c0 {2,S} {6,S}
@@ -20664,7 +20729,7 @@ H 15.15995551 11.58366709 11.58366709
 
 
 entry(
-    index = 530,
+    index = 531,
     label = "CN=CC",
     molecule = """
 1  N u0 p1 c0 {3,S} {4,D}
@@ -20701,7 +20766,7 @@ H 12.2975463 12.50809617 12.50809617
 
 
 entry(
-    index = 531,
+    index = 532,
     label = "[Pt]N=C",
     molecule = 
 """
@@ -20711,11 +20776,11 @@ entry(
 4 H u0 p0 c0 {3,S}
 5 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.56324,0.0233296,-2.86247e-05,2.03471e-08,-6.09767e-12,-9.62728e+08,0.640705], Tmin=(298.15,'K'), Tmax=(765.149,'K')), NASAPolynomial(coeffs=[1.38688,0.0131347,-8.63811e-06,2.93263e-09,-4.07653e-13,-9.62728e+08,-8.24546], Tmin=(765.149,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00457e+06,'kJ/mol'), Cp0=(1.96643e-09,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.56324,0.0233296,-2.86247e-05,2.03471e-08,-6.09767e-12,1275.11,0.640705], Tmin=(298.15,'K'), Tmax=(765.149,'K')), NASAPolynomial(coeffs=[1.38688,0.0131347,-8.63811e-06,2.93263e-09,-4.07653e-13,976.693,-8.24546], Tmin=(765.149,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(10.6844,'kJ/mol'), Cp0=(1.96643e-09,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913137.1411881044 [kcal/mol]
+Hf298: 3.8311273727244575 [kcal/mol]
 Sf298: 6.519174079414782 [cal/(mol-K)]
 40
 Pt 0.0 -0.0 8.0
@@ -20763,7 +20828,7 @@ H 6.77024295 2.83255018 18.27529101
 
 
 entry(
-    index = 532,
+    index = 533,
     label = "CCCC(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {14,S}
@@ -20806,7 +20871,7 @@ H 15.39503625 11.67630425 11.67630425
 
 
 entry(
-    index = 533,
+    index = 534,
     label = "CCOO",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -20841,7 +20906,7 @@ H 14.07194076 12.58967416 12.58967416
 
 
 entry(
-    index = 534,
+    index = 535,
     label = "OCONO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -20876,7 +20941,7 @@ H 10.91598201 10.16803844 10.16803844
 
 
 entry(
-    index = 535,
+    index = 536,
     label = "NNNN",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -20911,7 +20976,7 @@ H 10.67451397 10.27803654 10.27803654
 
 
 entry(
-    index = 536,
+    index = 537,
     label = "C=CC#[Pt]",
     molecule = 
 """
@@ -20923,11 +20988,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.63106,0.0351897,-3.53192e-05,1.88721e-08,-4.12168e-12,-9.62733e+08,13.7611], Tmin=(298.15,'K'), Tmax=(1043.37,'K')), NASAPolynomial(coeffs=[2.62427,0.0188732,-1.18579e-05,3.87894e-09,-5.28604e-13,-9.62734e+08,-6.94837], Tmin=(1043.37,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00462e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.63106,0.0351897,-3.53192e-05,1.88721e-08,-4.12168e-12,-4016.24,13.7611], Tmin=(298.15,'K'), Tmax=(1043.37,'K')), NASAPolynomial(coeffs=[2.62427,0.0188732,-1.18579e-05,3.87894e-09,-5.28604e-13,-4904.07,-6.94837], Tmin=(1043.37,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-34.8496,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913147.3633553556 [kcal/mol]
+Hf298: -6.391039878636747 [kcal/mol]
 Sf298: 26.91759785110217 [cal/(mol-K)]
 42
 Pt -0.0 -0.0 8.0
@@ -20978,7 +21043,7 @@ H 5.04851035 2.91609159 19.58617243
 
 
 entry(
-    index = 537,
+    index = 538,
     label = "[O-]N=[NH+]O",
     molecule = """
 1 O u0 p2 c0 {3,S} {6,S}
@@ -21005,7 +21070,7 @@ H 12.44442281 10.17838006 10.17838006
 
 
 entry(
-    index = 538,
+    index = 539,
     label = "C=CC=CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -21052,7 +21117,7 @@ H 15.51873432 14.10095939 14.10095939
 
 
 entry(
-    index = 539,
+    index = 540,
     label = "C=C(O)OC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -21087,7 +21152,7 @@ H 12.02492361 13.82708691 13.82708691
 
 
 entry(
-    index = 540,
+    index = 541,
     label = "CNO",
     molecule = """
 1 O u0 p2 c0 {2,S} {8,S}
@@ -21118,7 +21183,7 @@ H 13.38367428 11.39394782 11.39394782
 
 
 entry(
-    index = 541,
+    index = 542,
     label = "CCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -21161,7 +21226,7 @@ H 14.89886022 11.52197748 11.52197748
 
 
 entry(
-    index = 542,
+    index = 543,
     label = "C=C=C=C=C=O",
     molecule = """
 1 O u0 p2 c0 {6,D}
@@ -21192,7 +21257,7 @@ H 9.9791248 10.69725171 10.69725171
 
 
 entry(
-    index = 543,
+    index = 544,
     label = "CCOCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -21237,7 +21302,7 @@ H 14.45133089 12.08149251 12.08149251
 
 
 entry(
-    index = 544,
+    index = 545,
     label = "[Pt]=CCC=[Pt]",
     molecule = 
 """
@@ -21251,11 +21316,11 @@ entry(
 8 H u0 p0 c0 {4,S}
 9 H u0 p0 c0 {5,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.79637,0.0495996,-5.15563e-05,2.79702e-08,-6.12715e-12,-9.62724e+08,13.9878], Tmin=(298.15,'K'), Tmax=(1056.04,'K')), NASAPolynomial(coeffs=[2.91881,0.0241478,-1.5381e-05,5.11827e-09,-7.13835e-13,-9.62726e+08,-18.7708], Tmin=(1056.04,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00455e+06,'kJ/mol'), Cp0=(1.88175e-06,'J/(mol*K)'), CpInf=(174.604,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.79637,0.0495996,-5.15563e-05,2.79702e-08,-6.12715e-12,4671.98,13.9878], Tmin=(298.15,'K'), Tmax=(1056.04,'K')), NASAPolynomial(coeffs=[2.91881,0.0241478,-1.5381e-05,5.11827e-09,-7.13835e-13,3254.61,-18.7708], Tmin=(1056.04,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(36.7035,'kJ/mol'), Cp0=(1.88175e-06,'J/(mol*K)'), CpInf=(174.604,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913130.35970989 [kcal/mol]
+Hf298: 10.612605586982145 [kcal/mol]
 Sf298: 10.106326728204662 [cal/(mol-K)]
 43
 Pt -0.0 0.0 8.0
@@ -21306,7 +21371,7 @@ H 5.66018307 1.46223373 17.2179674
 
 
 entry(
-    index = 545,
+    index = 546,
     label = "C=C=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -21331,7 +21396,7 @@ H 10.06449677 11.89497849 11.89497849
 
 
 entry(
-    index = 546,
+    index = 547,
     label = "CC(N=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -21366,7 +21431,7 @@ H 13.18938698 12.2044733 12.2044733
 
 
 entry(
-    index = 547,
+    index = 548,
     label = "O=C(O)O[Pt]",
     molecule = 
 """
@@ -21377,11 +21442,11 @@ entry(
 5 C u0 p0 c0 {2,S} {3,D} {4,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.427084,0.0367616,-4.76603e-05,3.17574e-08,-8.53229e-12,-9.62811e+08,9.49024], Tmin=(298.15,'K'), Tmax=(857.983,'K')), NASAPolynomial(coeffs=[3.78339,0.0171319,-1.33419e-05,5.09132e-09,-7.62269e-13,-9.62812e+08,-10.1779], Tmin=(857.983,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00527e+06,'kJ/mol'), Cp0=(8.31477,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.427084,0.0367616,-4.76603e-05,3.17574e-08,-8.53229e-12,-82281.9,9.49024], Tmin=(298.15,'K'), Tmax=(857.983,'K')), NASAPolynomial(coeffs=[3.78339,0.0171319,-1.33419e-05,5.09132e-09,-7.62269e-13,-83004.4,-10.1779], Tmin=(857.983,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-684.438,'kJ/mol'), Cp0=(8.31477,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913302.2117649233 [kcal/mol]
+Hf298: -161.2394494459893 [kcal/mol]
 Sf298: 32.11158485454826 [cal/(mol-K)]
 41
 Pt 0.0 0.0 8.0
@@ -21431,7 +21496,7 @@ H 4.46042687 6.80936146 19.35165102
 
 
 entry(
-    index = 548,
+    index = 549,
     label = "CCC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -21478,7 +21543,7 @@ H 9.8873282 11.40299413 11.40299413
 
 
 entry(
-    index = 549,
+    index = 550,
     label = "CN=N[NH+]=N[O-]",
     molecule = """
 1  O u0 p3 c-1 {5,S}
@@ -21513,7 +21578,7 @@ H 14.59871997 10.01341911 10.01341911
 
 
 entry(
-    index = 550,
+    index = 551,
     label = "ON=NO",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -21540,7 +21605,7 @@ H 10.0058657 10.39514758 10.39514758
 
 
 entry(
-    index = 551,
+    index = 552,
     label = "C=CCC=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -21581,7 +21646,7 @@ H 16.28428911 11.94741924 11.94741924
 
 
 entry(
-    index = 552,
+    index = 553,
     label = "[O-]N=[NH+]N=O",
     molecule = """
 1 O u0 p3 c-1 {5,S}
@@ -21608,7 +21673,7 @@ H 11.35583389 10.11957746 10.11957746
 
 
 entry(
-    index = 553,
+    index = 554,
     label = "CC(=C=N)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {9,S}
@@ -21643,7 +21708,7 @@ H 14.87546319 10.58926007 10.58926007
 
 
 entry(
-    index = 554,
+    index = 555,
     label = "[O-]N=[NH+]CC",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -21680,7 +21745,7 @@ H 12.80979646 12.86828212 12.86828212
 
 
 entry(
-    index = 555,
+    index = 556,
     label = "C=C=CC=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -21715,7 +21780,7 @@ H 9.845984 10.05074343 10.05074343
 
 
 entry(
-    index = 556,
+    index = 557,
     label = "CC(O)=[Pt]",
     molecule = 
 """
@@ -21728,11 +21793,11 @@ entry(
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.00308746,0.0404065,-4.72559e-05,3.23055e-08,-9.41413e-12,-9.62761e+08,-1.7095], Tmin=(298.15,'K'), Tmax=(773.167,'K')), NASAPolynomial(coeffs=[3.08214,0.024477,-1.63517e-05,5.65836e-09,-7.97945e-13,-9.62761e+08,-15.772], Tmin=(773.167,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00485e+06,'kJ/mol'), Cp0=(3.25539e-05,'J/(mol*K)'), CpInf=(174.604,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.00308746,0.0404065,-4.72559e-05,3.23055e-08,-9.41413e-12,-31808.8,-1.7095], Tmin=(298.15,'K'), Tmax=(773.167,'K')), NASAPolynomial(coeffs=[3.08214,0.024477,-1.63517e-05,5.65836e-09,-7.97945e-13,-32285,-15.772], Tmin=(773.167,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-263.656,'kJ/mol'), Cp0=(3.25539e-05,'J/(mol*K)'), CpInf=(174.604,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913201.3264880583 [kcal/mol]
+Hf298: -60.35417258147933 [kcal/mol]
 Sf298: 16.925798015109837 [cal/(mol-K)]
 43
 Pt 0.0 0.0 8.0
@@ -21783,7 +21848,7 @@ H 6.02594465 3.09440005 18.34587314
 
 
 entry(
-    index = 557,
+    index = 558,
     label = "[O-]N=[NH+]OO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -21812,7 +21877,7 @@ H 14.51509955 10.2244433 10.2244433
 
 
 entry(
-    index = 558,
+    index = 559,
     label = "C#CO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -21837,7 +21902,7 @@ H 14.15688439 10.11837075 10.11837075
 
 
 entry(
-    index = 559,
+    index = 560,
     label = "N[Pt]",
     molecule = 
 """
@@ -21846,11 +21911,11 @@ entry(
 3 H u0 p0 c0 {2,S}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.42041,0.0251955,-3.53165e-05,2.53338e-08,-7.10946e-12,-9.62734e+08,4.42535], Tmin=(298.15,'K'), Tmax=(864.393,'K')), NASAPolynomial(coeffs=[2.40275,0.00750063,-4.60489e-06,1.64328e-09,-2.56478e-13,-9.62735e+08,-13.4614], Tmin=(864.393,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00463e+06,'kJ/mol'), Cp0=(1.40711e-09,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.42041,0.0251955,-3.53165e-05,2.53338e-08,-7.10946e-12,-5134.56,4.42535], Tmin=(298.15,'K'), Tmax=(864.393,'K')), NASAPolynomial(coeffs=[2.40275,0.00750063,-4.60489e-06,1.64328e-09,-2.56478e-13,-5795.38,-13.4614], Tmin=(864.393,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-43.2619,'kJ/mol'), Cp0=(1.40711e-09,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913150.3202108527 [kcal/mol]
+Hf298: -9.347895375615446 [kcal/mol]
 Sf298: 4.933705367350802 [cal/(mol-K)]
 39
 Pt 0.0 -0.0 8.0
@@ -21897,7 +21962,7 @@ H 7.05523317 4.07333033 17.20649509
 
 
 entry(
-    index = 560,
+    index = 561,
     label = "C=[Pt]",
     molecule = 
 """
@@ -21906,11 +21971,11 @@ entry(
 3 H u0 p0 c0 {2,S}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.54252,0.0239864,-3.03859e-05,2.00294e-08,-5.23816e-12,-9.6273e+08,4.97023], Tmin=(298.15,'K'), Tmax=(915.022,'K')), NASAPolynomial(coeffs=[1.92983,0.00880704,-5.50235e-06,1.89963e-09,-2.84798e-13,-9.6273e+08,-11.4735], Tmin=(915.022,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00459e+06,'kJ/mol'), Cp0=(3.65238e-10,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.54252,0.0239864,-3.03859e-05,2.00294e-08,-5.23816e-12,-932.387,4.97023], Tmin=(298.15,'K'), Tmax=(915.022,'K')), NASAPolynomial(coeffs=[1.92983,0.00880704,-5.50235e-06,1.89963e-09,-2.84798e-13,-1567.84,-11.4735], Tmin=(915.022,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.4817,'kJ/mol'), Cp0=(3.65238e-10,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913142.0812371764 [kcal/mol]
+Hf298: -1.1089216992681636 [kcal/mol]
 Sf298: 4.267361708389228 [cal/(mol-K)]
 39
 Pt 0.0 0.0 8.0
@@ -21957,7 +22022,7 @@ H 7.13632207 4.12013194 17.23016504
 
 
 entry(
-    index = 561,
+    index = 562,
     label = "COCON",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -21996,7 +22061,7 @@ H 15.49081472 10.42991722 10.42991722
 
 
 entry(
-    index = 562,
+    index = 563,
     label = "N=C=C(C)C",
     molecule = """
 1  N u0 p1 c0 {5,D} {12,S}
@@ -22035,7 +22100,7 @@ H 14.8002282 11.80742594 11.80742594
 
 
 entry(
-    index = 563,
+    index = 564,
     label = "OC#N",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -22058,7 +22123,7 @@ H 10.14738501 9.98806986 9.98806986
 
 
 entry(
-    index = 564,
+    index = 565,
     label = "N#CC#N",
     molecule = """
 1 N u0 p1 c0 {3,T}
@@ -22081,7 +22146,7 @@ C 11.18474831 10.17038825 10.17038825
 
 
 entry(
-    index = 565,
+    index = 566,
     label = "C=C=COO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -22114,7 +22179,7 @@ H 15.7516759 12.15158301 12.15158301
 
 
 entry(
-    index = 566,
+    index = 567,
     label = "CCON=NC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -22157,7 +22222,7 @@ H 16.26041103 10.54237214 10.54237214
 
 
 entry(
-    index = 567,
+    index = 568,
     label = "CCC=CN",
     molecule = """
 1  N u0 p1 c0 {5,S} {13,S} {14,S}
@@ -22200,7 +22265,7 @@ H 15.80973815 11.18509795 11.18509795
 
 
 entry(
-    index = 568,
+    index = 569,
     label = "CC=CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
@@ -22245,7 +22310,7 @@ H 12.21489227 11.70934902 11.70934902
 
 
 entry(
-    index = 569,
+    index = 570,
     label = "COCOCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -22294,7 +22359,7 @@ H 17.95567301 11.55460944 11.55460944
 
 
 entry(
-    index = 570,
+    index = 571,
     label = "O[Pt]",
     molecule = 
 """
@@ -22302,11 +22367,11 @@ entry(
 2 O u0 p2 c0 {1,S} {3,S}
 3 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.5782,0.0191337,-3.73599e-05,3.50542e-08,-1.25553e-11,-9.62751e+08,-2.25217], Tmin=(298.15,'K'), Tmax=(690.74,'K')), NASAPolynomial(coeffs=[3.41148,0.00272647,-1.73028e-06,6.66319e-10,-1.09267e-13,-9.62751e+08,-14.8728], Tmin=(690.74,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00476e+06,'kJ/mol'), Cp0=(0.00141902,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.5782,0.0191337,-3.73599e-05,3.50542e-08,-1.25553e-11,-21730.8,-2.25217], Tmin=(298.15,'K'), Tmax=(690.74,'K')), NASAPolynomial(coeffs=[3.41148,0.00272647,-1.73028e-06,6.66319e-10,-1.09267e-13,-22122.2,-14.8728], Tmin=(690.74,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-179.801,'kJ/mol'), Cp0=(0.00141902,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913182.6545031685 [kcal/mol]
+Hf298: -41.682187691615134 [kcal/mol]
 Sf298: 10.669972449130059 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -22352,7 +22417,7 @@ H 4.95669553 4.91419542 17.38453124
 
 
 entry(
-    index = 571,
+    index = 572,
     label = "CN=NC=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -22387,7 +22452,7 @@ H 14.34169821 9.96575922 9.96575922
 
 
 entry(
-    index = 572,
+    index = 573,
     label = "O=C=[Pt]",
     molecule = 
 """
@@ -22395,11 +22460,11 @@ entry(
 2 O u0 p2 c0 {3,D}
 3 C u0 p0 c0 {1,D} {2,D}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.81332,0.0132607,-2.26812e-05,2.04777e-08,-7.44039e-12,-9.62764e+08,-9.37505], Tmin=(298.15,'K'), Tmax=(656.695,'K')), NASAPolynomial(coeffs=[3.15382,0.00509562,-4.03103e-06,1.5445e-09,-2.32663e-13,-9.62764e+08,-15.2784], Tmin=(656.695,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00487e+06,'kJ/mol'), Cp0=(1.58858e-07,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.81332,0.0132607,-2.26812e-05,2.04777e-08,-7.44039e-12,-34909.3,-9.37505], Tmin=(298.15,'K'), Tmax=(656.695,'K')), NASAPolynomial(coeffs=[3.15382,0.00509562,-4.03103e-06,1.5445e-09,-2.32663e-13,-35085.4,-15.2784], Tmin=(656.695,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-288.759,'kJ/mol'), Cp0=(1.58858e-07,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913208.4247817686 [kcal/mol]
+Hf298: -67.45246629142888 [kcal/mol]
 Sf298: 8.080331782175447 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -22445,7 +22510,7 @@ C 5.66249357 3.26908208 16.35381703
 
 
 entry(
-    index = 573,
+    index = 574,
     label = "[Pt]CCC=[Pt]",
     molecule = 
 """
@@ -22460,11 +22525,11 @@ entry(
 9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {5,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.77555,0.0507228,-4.92393e-05,2.57251e-08,-5.54318e-12,-9.62735e+08,14.9151], Tmin=(298.15,'K'), Tmax=(1046.94,'K')), NASAPolynomial(coeffs=[1.96862,0.0287749,-1.77915e-05,5.69853e-09,-7.60714e-13,-9.62736e+08,-13.0603], Tmin=(1046.94,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00463e+06,'kJ/mol'), Cp0=(0.0345172,'J/(mol*K)'), CpInf=(199.547,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-3.77555,0.0507228,-4.92393e-05,2.57251e-08,-5.54318e-12,-6044.22,14.9151], Tmin=(298.15,'K'), Tmax=(1046.94,'K')), NASAPolynomial(coeffs=[1.96862,0.0287749,-1.77915e-05,5.69853e-09,-7.60714e-13,-7246.9,-13.0603], Tmin=(1046.94,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-52.3438,'kJ/mol'), Cp0=(0.0345172,'J/(mol*K)'), CpInf=(199.547,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913151.5112214517 [kcal/mol]
+Hf298: -10.538905974424184 [kcal/mol]
 Sf298: 13.017167048763042 [cal/(mol-K)]
 44
 Pt 0.0 0.0 8.0
@@ -22516,7 +22581,7 @@ H 4.0125109 0.72610721 17.13790258
 
 
 entry(
-    index = 574,
+    index = 575,
     label = "C=C=CN=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -22547,7 +22612,7 @@ H 9.8732895 11.70024637 11.70024637
 
 
 entry(
-    index = 575,
+    index = 576,
     label = "C=C=CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -22588,7 +22653,7 @@ H 16.02314997 11.65324627 11.65324627
 
 
 entry(
-    index = 576,
+    index = 577,
     label = "NC=C=N",
     molecule = """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -22619,7 +22684,7 @@ H 14.42888858 11.79047219 11.79047219
 
 
 entry(
-    index = 577,
+    index = 578,
     label = "CC=COO",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -22656,7 +22721,7 @@ H 14.78783061 13.17985056 13.17985056
 
 
 entry(
-    index = 578,
+    index = 579,
     label = "CCC=CC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -22699,7 +22764,7 @@ H 15.64491985 12.54053076 12.54053076
 
 
 entry(
-    index = 579,
+    index = 580,
     label = "CCCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {15,S}
@@ -22744,7 +22809,7 @@ H 14.53734601 10.8447918 10.8447918
 
 
 entry(
-    index = 580,
+    index = 581,
     label = "NN=NO",
     molecule = """
 1 O u0 p2 c0 {4,S} {7,S}
@@ -22773,7 +22838,7 @@ H 14.45384522 11.16441338 11.16441338
 
 
 entry(
-    index = 581,
+    index = 582,
     label = "CC(=O)CN",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -22812,7 +22877,7 @@ H 9.83067566 11.1101778 11.1101778
 
 
 entry(
-    index = 582,
+    index = 583,
     label = "C=C=[Pt]",
     molecule = 
 """
@@ -22822,11 +22887,11 @@ entry(
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.84072,0.0322267,-4.07164e-05,2.69401e-08,-7.16444e-12,-9.62732e+08,5.7639], Tmin=(298.15,'K'), Tmax=(881.921,'K')), NASAPolynomial(coeffs=[2.18705,0.013957,-9.64001e-06,3.44663e-09,-5.04127e-13,-9.62733e+08,-13.1613], Tmin=(881.921,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00461e+06,'kJ/mol'), Cp0=(5.55056e-10,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.84072,0.0322267,-4.07164e-05,2.69401e-08,-7.16444e-12,-3445.52,5.7639], Tmin=(298.15,'K'), Tmax=(881.921,'K')), NASAPolynomial(coeffs=[2.18705,0.013957,-9.64001e-06,3.44663e-09,-5.04127e-13,-4155.89,-13.1613], Tmin=(881.921,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-29.4124,'kJ/mol'), Cp0=(5.55056e-10,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913146.6806489713 [kcal/mol]
+Hf298: -5.708333494111443 [kcal/mol]
 Sf298: 6.550527010807359 [cal/(mol-K)]
 40
 Pt -0.0 0.0 8.0
@@ -22874,7 +22939,7 @@ H 5.04469371 1.82882961 17.652674
 
 
 entry(
-    index = 583,
+    index = 584,
     label = "COCON=NC",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -22919,7 +22984,7 @@ H 16.62892572 13.27297211 13.27297211
 
 
 entry(
-    index = 584,
+    index = 585,
     label = "CC(N=C)C",
     molecule = """
 1  N u0 p1 c0 {2,S} {5,D}
@@ -22962,7 +23027,7 @@ H 15.04441026 11.41425323 11.41425323
 
 
 entry(
-    index = 585,
+    index = 586,
     label = "CCCC(C)=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -23009,7 +23074,7 @@ H 15.75881551 11.91257745 11.91257745
 
 
 entry(
-    index = 586,
+    index = 587,
     label = "CCC(=O)C#N",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -23046,7 +23111,7 @@ H 11.06715353 9.9760559 9.9760559
 
 
 entry(
-    index = 587,
+    index = 588,
     label = "C=CCCC=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -23093,7 +23158,7 @@ H 11.33344857 10.10557711 10.10557711
 
 
 entry(
-    index = 588,
+    index = 589,
     label = "COCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -23128,7 +23193,7 @@ H 9.80970117 12.30652786 12.30652786
 
 
 entry(
-    index = 589,
+    index = 590,
     label = "COC(C)C",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -23173,7 +23238,7 @@ H 14.64996368 11.25741986 11.25741986
 
 
 entry(
-    index = 590,
+    index = 591,
     label = "C=COC=N",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -23208,7 +23273,7 @@ H 9.65503671 11.12881179 11.12881179
 
 
 entry(
-    index = 591,
+    index = 592,
     label = "1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
     molecule = 
 """
@@ -23219,11 +23284,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.0173399,0.0310958,-4.12157e-05,3.04283e-08,-9.23343e-12,-9.62752e+08,6.97748], Tmin=(298.15,'K'), Tmax=(772.225,'K')), NASAPolynomial(coeffs=[3.13379,0.0149538,-9.86205e-06,3.36157e-09,-4.7118e-13,-9.62753e+08,-7.25216], Tmin=(772.225,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00478e+06,'kJ/mol'), Cp0=(8.3145,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.0173399,0.0310958,-4.12157e-05,3.04283e-08,-9.23343e-12,-23569,6.97748], Tmin=(298.15,'K'), Tmax=(772.225,'K')), NASAPolynomial(coeffs=[3.13379,0.0149538,-9.86205e-06,3.36157e-09,-4.7118e-13,-24050.4,-7.25216], Tmin=(772.225,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-196.021,'kJ/mol'), Cp0=(8.3145,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913185.6666952872 [kcal/mol]
+Hf298: -44.69437981037394 [kcal/mol]
 Sf298: 29.337061942261354 [cal/(mol-K)]
 41
 Pt 0.0 0.0 8.0
@@ -23273,7 +23338,7 @@ H 6.30157579 3.40710797 17.52172344
 
 
 entry(
-    index = 592,
+    index = 593,
     label = "NC=[Pt]",
     molecule = 
 """
@@ -23284,11 +23349,11 @@ entry(
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.875348,0.0252894,-2.44912e-05,1.31399e-08,-2.91692e-12,-9.62738e+08,10.4523], Tmin=(298.15,'K'), Tmax=(1030.22,'K')), NASAPolynomial(coeffs=[2.02911,0.0140064,-8.05442e-06,2.49787e-09,-3.33083e-13,-9.62739e+08,-3.64492], Tmin=(1030.22,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00466e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.875348,0.0252894,-2.44912e-05,1.31399e-08,-2.91692e-12,-9316.98,10.4523], Tmin=(298.15,'K'), Tmax=(1030.22,'K')), NASAPolynomial(coeffs=[2.02911,0.0140064,-8.05442e-06,2.49787e-09,-3.33083e-13,-9915.11,-3.64492], Tmin=(1030.22,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-78.4961,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913158.154583739 [kcal/mol]
+Hf298: -17.18226826194733 [kcal/mol]
 Sf298: 23.894870749191988 [cal/(mol-K)]
 41
 Pt -0.0 0.0 8.0
@@ -23338,7 +23403,7 @@ H 6.76275503 4.84645885 17.57344081
 
 
 entry(
-    index = 593,
+    index = 594,
     label = "CNC=N",
     molecule = """
 1  N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -23373,7 +23438,7 @@ H 14.42759288 10.03977519 10.03977519
 
 
 entry(
-    index = 594,
+    index = 595,
     label = "CCOC=N",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -23412,7 +23477,7 @@ H 13.62181109 10.25808177 10.25808177
 
 
 entry(
-    index = 595,
+    index = 596,
     label = "COOC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -23447,7 +23512,7 @@ H 14.341513 11.13627795 11.13627795
 
 
 entry(
-    index = 596,
+    index = 597,
     label = "CCCOC",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -23492,7 +23557,7 @@ H 15.42523845 10.83201043 10.83201043
 
 
 entry(
-    index = 597,
+    index = 598,
     label = "OCN=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {7,S}
@@ -23521,7 +23586,7 @@ H 12.8310525 9.62342921 9.62342921
 
 
 entry(
-    index = 598,
+    index = 599,
     label = "C=CC=CC=C",
     molecule = """
 1  C u0 p0 c0 {2,D} {3,S} {8,S}
@@ -23564,7 +23629,7 @@ H 16.69465105 9.92252524 9.92252524
 
 
 entry(
-    index = 599,
+    index = 600,
     label = "COCOO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -23601,7 +23666,7 @@ H 15.3741663 12.35826989 12.35826989
 
 
 entry(
-    index = 600,
+    index = 601,
     label = "CC(=C)ON",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -23640,7 +23705,7 @@ H 14.23370993 11.11681042 11.11681042
 
 
 entry(
-    index = 601,
+    index = 602,
     label = "[O-]N=[NH+]ON",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -23671,7 +23736,7 @@ H 10.08120403 10.67052537 10.67052537
 
 
 entry(
-    index = 602,
+    index = 603,
     label = "OON=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -23700,7 +23765,7 @@ H 14.15413734 10.25881253 10.25881253
 
 
 entry(
-    index = 603,
+    index = 604,
     label = "O=NC=C=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -23727,7 +23792,7 @@ H 11.31249271 12.89328384 12.89328384
 
 
 entry(
-    index = 604,
+    index = 605,
     label = "CN=NC(O)C",
     molecule = """
 1  O u0 p2 c0 {4,S} {14,S}
@@ -23770,7 +23835,7 @@ H 11.96582286 13.7977796 13.7977796
 
 
 entry(
-    index = 605,
+    index = 606,
     label = "C=C=CC(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {14,S}
@@ -23813,7 +23878,7 @@ H 10.58328038 13.39843719 13.39843719
 
 
 entry(
-    index = 606,
+    index = 607,
     label = "C=CC(C)=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -23850,7 +23915,7 @@ H 11.59417547 9.85013244 9.85013244
 
 
 entry(
-    index = 607,
+    index = 608,
     label = "C=CCOC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -23889,7 +23954,7 @@ H 15.47254527 11.44463093 11.44463093
 
 
 entry(
-    index = 608,
+    index = 609,
     label = "[O-]N=[NH+]N=N",
     molecule = """
 1 O u0 p3 c-1 {4,S}
@@ -23918,7 +23983,7 @@ H 12.85377159 10.35767645 10.35767645
 
 
 entry(
-    index = 609,
+    index = 610,
     label = "O=C=C=CC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -23949,7 +24014,7 @@ H 11.85588079 12.99462659 12.99462659
 
 
 entry(
-    index = 610,
+    index = 611,
     label = "C=CC(=C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -23990,7 +24055,7 @@ H 12.81859226 14.31149116 14.31149116
 
 
 entry(
-    index = 611,
+    index = 612,
     label = "CC(CN)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -24033,7 +24098,7 @@ H 13.59242037 10.1889115 10.1889115
 
 
 entry(
-    index = 612,
+    index = 613,
     label = "C=C(C)OC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -24072,7 +24137,7 @@ H 15.07024909 10.48834688 10.48834688
 
 
 entry(
-    index = 613,
+    index = 614,
     label = "CNN",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,S} {7,S}
@@ -24105,7 +24170,7 @@ H 13.18840769 12.26900347 12.26900347
 
 
 entry(
-    index = 614,
+    index = 615,
     label = "[O-]N=[NH+]N",
     molecule = """
 1 O u0 p3 c-1 {4,S}
@@ -24134,7 +24199,7 @@ H 12.9577103 11.32880301 11.32880301
 
 
 entry(
-    index = 615,
+    index = 616,
     label = "O=CCOC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -24169,7 +24234,7 @@ H 14.95680259 11.10351261 11.10351261
 
 
 entry(
-    index = 616,
+    index = 617,
     label = "NNC=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -24202,7 +24267,7 @@ H 9.79422455 11.41616416 11.41616416
 
 
 entry(
-    index = 617,
+    index = 618,
     label = "O=C=CCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -24237,7 +24302,7 @@ H 11.19531599 13.42797102 13.42797102
 
 
 entry(
-    index = 618,
+    index = 619,
     label = "C=C=N",
     molecule = """
 1 N u0 p1 c0 {3,D} {6,S}
@@ -24264,7 +24329,7 @@ H 13.65281207 10.91558326 10.91558326
 
 
 entry(
-    index = 619,
+    index = 620,
     label = "NC=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -24295,7 +24360,7 @@ H 10.58134712 12.23276334 12.23276334
 
 
 entry(
-    index = 620,
+    index = 621,
     label = "CCC(=O)ON",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -24336,7 +24401,7 @@ H 16.16692933 11.85266151 11.85266151
 
 
 entry(
-    index = 621,
+    index = 622,
     label = "C=CN=N",
     molecule = """
 1 N u0 p1 c0 {2,D} {3,S}
@@ -24367,7 +24432,7 @@ H 14.82302746 11.20784347 11.20784347
 
 
 entry(
-    index = 622,
+    index = 623,
     label = "NCN=N",
     molecule = """
 1 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -24400,7 +24465,7 @@ H 14.1163114 10.89311868 10.89311868
 
 
 entry(
-    index = 623,
+    index = 624,
     label = "CCOON",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -24439,18 +24504,18 @@ H 15.24035597 11.66627066 11.66627066
 
 
 entry(
-    index = 624,
+    index = 625,
     label = "O=[Pt]",
     molecule = 
 """
 1 X u0 p0 c0 {2,D}
 2 O u0 p2 c0 {1,D}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.117239,0.0130753,-2.46258e-05,2.15604e-08,-7.23221e-12,-9.62746e+08,-1.97575], Tmin=(298.15,'K'), Tmax=(729.78,'K')), NASAPolynomial(coeffs=[2.12741,0.00205768,-1.98064e-06,8.74306e-10,-1.46003e-13,-9.62746e+08,-11.0405], Tmin=(729.78,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00472e+06,'kJ/mol'), Cp0=(5.16749e-18,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.117239,0.0130753,-2.46258e-05,2.15604e-08,-7.23221e-12,-17113.4,-1.97575], Tmin=(298.15,'K'), Tmax=(729.78,'K')), NASAPolynomial(coeffs=[2.12741,0.00205768,-1.98064e-06,8.74306e-10,-1.46003e-13,-17406.8,-11.0405], Tmin=(729.78,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-141.878,'kJ/mol'), Cp0=(5.16749e-18,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913174.1109093088 [kcal/mol]
+Hf298: -33.138593831748764 [kcal/mol]
 Sf298: 3.320849199811349 [cal/(mol-K)]
 37
 Pt 0.0 0.0 8.0
@@ -24495,7 +24560,7 @@ O 5.71007435 3.29670918 16.06176795
 
 
 entry(
-    index = 625,
+    index = 626,
     label = "NNNO",
     molecule = """
 1 O u0 p2 c0 {3,S} {9,S}
@@ -24528,7 +24593,7 @@ H 14.0764429 11.12729392 11.12729392
 
 
 entry(
-    index = 626,
+    index = 627,
     label = "CCON",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -24565,7 +24630,7 @@ H 9.77020878 10.55142586 10.55142586
 
 
 entry(
-    index = 627,
+    index = 628,
     label = "C=C=C=C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {12,S}
@@ -24604,7 +24669,7 @@ H 11.93300433 11.08012358 11.08012358
 
 
 entry(
-    index = 628,
+    index = 629,
     label = "C=C(O)OCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -24643,7 +24708,7 @@ H 13.36151181 13.74073157 13.74073157
 
 
 entry(
-    index = 629,
+    index = 630,
     label = "NO[Pt]",
     molecule = 
 """
@@ -24653,11 +24718,11 @@ entry(
 4 H u0 p0 c0 {3,S}
 5 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.460949,0.0284951,-3.86222e-05,2.8466e-08,-8.53455e-12,-9.62742e+08,0.871937], Tmin=(298.15,'K'), Tmax=(781.348,'K')), NASAPolynomial(coeffs=[2.53892,0.0131379,-9.14057e-06,3.31184e-09,-4.86336e-13,-9.62743e+08,-12.8606], Tmin=(781.348,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00469e+06,'kJ/mol'), Cp0=(4.57223e-05,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.460949,0.0284951,-3.86222e-05,2.8466e-08,-8.53455e-12,-13221,0.871937], Tmin=(298.15,'K'), Tmax=(781.348,'K')), NASAPolynomial(coeffs=[2.53892,0.0131379,-9.14057e-06,3.31184e-09,-4.86336e-13,-13689.8,-12.8606], Tmin=(781.348,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-109.646,'kJ/mol'), Cp0=(4.57223e-05,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913165.5773625409 [kcal/mol]
+Hf298: -24.60504706383673 [kcal/mol]
 Sf298: 10.446313191211749 [cal/(mol-K)]
 40
 Pt 0.0 0.0 8.0
@@ -24705,7 +24770,7 @@ H 9.07174539 4.13544963 17.47255598
 
 
 entry(
-    index = 630,
+    index = 631,
     label = "C=NC=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -24736,7 +24801,7 @@ H 11.36817599 13.34783828 13.34783828
 
 
 entry(
-    index = 631,
+    index = 632,
     label = "NN[Pt]",
     molecule = 
 """
@@ -24747,11 +24812,11 @@ entry(
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.544256,0.0326064,-4.32265e-05,3.21878e-08,-9.82681e-12,-9.62724e+08,0.912231], Tmin=(298.15,'K'), Tmax=(768.056,'K')), NASAPolynomial(coeffs=[2.69679,0.0157273,-1.02622e-05,3.57522e-09,-5.13573e-13,-9.62725e+08,-13.8687], Tmin=(768.056,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00454e+06,'kJ/mol'), Cp0=(5.16167e-05,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.544256,0.0326064,-4.32265e-05,3.21878e-08,-9.82681e-12,4461.67,0.912231], Tmin=(298.15,'K'), Tmax=(768.056,'K')), NASAPolynomial(coeffs=[2.69679,0.0157273,-1.02622e-05,3.57522e-09,-5.13573e-13,3963.8,-13.8687], Tmin=(768.056,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(37.4026,'kJ/mol'), Cp0=(5.16167e-05,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913130.192111737 [kcal/mol]
+Hf298: 10.780203740077864 [kcal/mol]
 Sf298: 11.671830167610665 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -24800,7 +24865,7 @@ H 5.64505412 3.2260738 17.06007964
 
 
 entry(
-    index = 632,
+    index = 633,
     label = "CCC(=O)CCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {17,S}
@@ -24849,7 +24914,7 @@ H 14.93740058 10.26899946 10.26899946
 
 
 entry(
-    index = 633,
+    index = 634,
     label = "C=C(O)CCC",
     molecule = """
 1  O u0 p2 c0 {5,S} {16,S}
@@ -24896,7 +24961,7 @@ H 10.64322949 9.77703941 9.77703941
 
 
 entry(
-    index = 634,
+    index = 635,
     label = "CNC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -24929,7 +24994,7 @@ H 14.22011215 11.85445971 11.85445971
 
 
 entry(
-    index = 635,
+    index = 636,
     label = "CCOC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -24966,7 +25031,7 @@ H 14.572513 11.49632222 11.49632222
 
 
 entry(
-    index = 636,
+    index = 637,
     label = "OCN=N",
     molecule = """
 1 O u0 p2 c0 {4,S} {7,S}
@@ -24997,7 +25062,7 @@ H 10.05484153 10.61377124 10.61377124
 
 
 entry(
-    index = 637,
+    index = 638,
     label = "CCC#N",
     molecule = """
 1 N u0 p1 c0 {4,T}
@@ -25030,7 +25095,7 @@ H 9.85395576 11.51682023 11.51682023
 
 
 entry(
-    index = 638,
+    index = 639,
     label = "1Ou0p2c0{2,D}2Nu0p1c0{1,D}{3,S}{4,vdW}3Hu0p0c0{2,S}4Xu0p0c0{2,vdW}",
     molecule = 
 """
@@ -25039,11 +25104,11 @@ entry(
 3 N u0 p1 c0 {1,vdW} {2,D} {4,S}
 4 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.10702,0.0134182,-1.49409e-05,9.56342e-09,-2.62829e-12,-9.62737e+08,2.86645], Tmin=(298.15,'K'), Tmax=(799.946,'K')), NASAPolynomial(coeffs=[2.06067,0.00864974,-5.99956e-06,2.11189e-09,-2.99571e-13,-9.62737e+08,-1.52153], Tmin=(799.946,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00465e+06,'kJ/mol'), Cp0=(8.31671,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.10702,0.0134182,-1.49409e-05,9.56342e-09,-2.62829e-12,-8399.03,2.86645], Tmin=(298.15,'K'), Tmax=(799.946,'K')), NASAPolynomial(coeffs=[2.06067,0.00864974,-5.99956e-06,2.11189e-09,-2.99571e-13,-8551.61,-1.52153], Tmin=(799.946,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-69.4958,'kJ/mol'), Cp0=(8.31671,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913156.0502854332 [kcal/mol]
+Hf298: -15.077969956272986 [kcal/mol]
 Sf298: 25.01422238780443 [cal/(mol-K)]
 39
 Pt 0.0 -0.0 8.0
@@ -25091,7 +25156,7 @@ H 4.71423259 5.13437898 17.49513234
 
 
 entry(
-    index = 639,
+    index = 640,
     label = "CC(=O)CO",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -25128,7 +25193,7 @@ H 14.38464093 12.10426067 12.10426067
 
 
 entry(
-    index = 640,
+    index = 641,
     label = "CCCCN",
     molecule = """
 1  N u0 p1 c0 {4,S} {15,S} {16,S}
@@ -25175,7 +25240,7 @@ H 10.9777104 10.79020875 10.79020875
 
 
 entry(
-    index = 641,
+    index = 642,
     label = "NN=NN",
     molecule = """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -25206,7 +25271,7 @@ H 9.90854327 10.56192933 10.56192933
 
 
 entry(
-    index = 642,
+    index = 643,
     label = "C(N=N)C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -25239,7 +25304,7 @@ H 13.80606688 11.82128909 11.82128909
 
 
 entry(
-    index = 643,
+    index = 644,
     label = "COCN",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -25276,7 +25341,7 @@ H 10.61008049 12.84832974 12.84832974
 
 
 entry(
-    index = 644,
+    index = 645,
     label = "C=COC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -25309,7 +25374,7 @@ H 10.1043711 12.1285222 12.1285222
 
 
 entry(
-    index = 645,
+    index = 646,
     label = "CCCOCOC",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -25362,7 +25427,7 @@ H 10.10690415 11.62465364 11.62465364
 
 
 entry(
-    index = 646,
+    index = 647,
     label = "C=C(C)C(=C)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {14,S}
@@ -25405,7 +25470,7 @@ H 9.72740933 12.7889404 12.7889404
 
 
 entry(
-    index = 647,
+    index = 648,
     label = "COCOC#N",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -25442,7 +25507,7 @@ H 11.46334438 11.11121895 11.11121895
 
 
 entry(
-    index = 648,
+    index = 649,
     label = "COOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -25479,7 +25544,7 @@ H 14.52853563 9.90577541 9.90577541
 
 
 entry(
-    index = 649,
+    index = 650,
     label = "C=CC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {9,S}
@@ -25512,7 +25577,7 @@ H 14.66492823 12.79927964 12.79927964
 
 
 entry(
-    index = 650,
+    index = 651,
     label = "C=C=CN=N",
     molecule = """
 1 N u0 p1 c0 {2,D} {3,S}
@@ -25545,7 +25610,7 @@ H 15.81927673 12.47734853 12.47734853
 
 
 entry(
-    index = 651,
+    index = 652,
     label = "CC(O)CCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {15,S}
@@ -25592,7 +25657,7 @@ H 15.9996269 12.0614317 12.0614317
 
 
 entry(
-    index = 652,
+    index = 653,
     label = "NCC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -25627,7 +25692,7 @@ H 14.98573485 10.90925611 10.90925611
 
 
 entry(
-    index = 653,
+    index = 654,
     label = "CCC(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -25676,7 +25741,7 @@ H 10.7933193 11.14337254 11.14337254
 
 
 entry(
-    index = 654,
+    index = 655,
     label = "CC=CON",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -25715,7 +25780,7 @@ H 15.51084662 12.78335709 12.78335709
 
 
 entry(
-    index = 655,
+    index = 656,
     label = "NC=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -25744,7 +25809,7 @@ H 10.0354598 10.78675534 10.78675534
 
 
 entry(
-    index = 656,
+    index = 657,
     label = "C=C(O)C(=C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -25783,7 +25848,7 @@ H 10.40932619 11.11147982 11.11147982
 
 
 entry(
-    index = 657,
+    index = 658,
     label = "OCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {9,S}
@@ -25818,7 +25883,7 @@ H 12.95676191 12.66032641 12.66032641
 
 
 entry(
-    index = 658,
+    index = 659,
     label = "C=CC=CO",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -25855,7 +25920,7 @@ H 10.2977749 9.95635148 9.95635148
 
 
 entry(
-    index = 659,
+    index = 660,
     label = "CCC(=O)CC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -25900,7 +25965,7 @@ H 15.78521557 11.46652098 11.46652098
 
 
 entry(
-    index = 660,
+    index = 661,
     label = "CCC=CO",
     molecule = """
 1  O u0 p2 c0 {5,S} {13,S}
@@ -25941,7 +26006,7 @@ H 10.06278267 12.11799141 12.11799141
 
 
 entry(
-    index = 661,
+    index = 662,
     label = "OCOC=N",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -25976,7 +26041,7 @@ H 12.96199751 12.61224474 12.61224474
 
 
 entry(
-    index = 662,
+    index = 663,
     label = "C=C=CNN=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -26011,7 +26076,7 @@ H 15.43291737 10.57829879 10.57829879
 
 
 entry(
-    index = 663,
+    index = 664,
     label = "NON=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -26042,7 +26107,7 @@ H 11.41125688 11.49563143 11.49563143
 
 
 entry(
-    index = 664,
+    index = 665,
     label = "O=C=CC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -26073,7 +26138,7 @@ H 14.40218924 12.3519923 12.3519923
 
 
 entry(
-    index = 665,
+    index = 666,
     label = "NN=[Pt]",
     molecule = 
 """
@@ -26083,11 +26148,11 @@ entry(
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.14851,0.0298351,-4.42356e-05,3.50443e-08,-1.11231e-11,-9.62725e+08,-1.28149], Tmin=(298.15,'K'), Tmax=(751.194,'K')), NASAPolynomial(coeffs=[3.25517,0.0117113,-8.0461e-06,2.92753e-09,-4.34693e-13,-9.62725e+08,-16.7286], Tmin=(751.194,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00455e+06,'kJ/mol'), Cp0=(2.66331e-07,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.14851,0.0298351,-4.42356e-05,3.50443e-08,-1.11231e-11,4279.13,-1.28149], Tmin=(298.15,'K'), Tmax=(751.194,'K')), NASAPolynomial(coeffs=[3.25517,0.0117113,-8.0461e-06,2.92753e-09,-4.34693e-13,3767.76,-16.7286], Tmin=(751.194,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(36.1396,'kJ/mol'), Cp0=(2.66331e-07,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913130.572734063 [kcal/mol]
+Hf298: 10.3995814140156 [kcal/mol]
 Sf298: 10.107649811044203 [cal/(mol-K)]
 40
 Pt -0.0 0.0 8.0
@@ -26135,7 +26200,7 @@ H 4.99905243 3.86678883 17.8947265
 
 
 entry(
-    index = 666,
+    index = 667,
     label = "NNC(=C)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -26172,7 +26237,7 @@ H 10.82437387 13.67442087 13.67442087
 
 
 entry(
-    index = 667,
+    index = 668,
     label = "C=CC",
     molecule = """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -26205,7 +26270,7 @@ H 12.60211039 12.97683165 12.97683165
 
 
 entry(
-    index = 668,
+    index = 669,
     label = "ONN=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {8,S}
@@ -26236,7 +26301,7 @@ H 10.04297249 11.50633488 11.50633488
 
 
 entry(
-    index = 669,
+    index = 670,
     label = "C=NC(=C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -26271,7 +26336,7 @@ H 11.48723214 13.69654995 13.69654995
 
 
 entry(
-    index = 670,
+    index = 671,
     label = "C=COCCC",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -26318,7 +26383,7 @@ H 10.00128507 11.2428322 11.2428322
 
 
 entry(
-    index = 671,
+    index = 672,
     label = "ON=CC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -26349,7 +26414,7 @@ H 14.75305256 12.25553134 12.25553134
 
 
 entry(
-    index = 672,
+    index = 673,
     label = "CC(=C)N=O",
     molecule = """
 1  O u0 p2 c0 {2,D}
@@ -26384,7 +26449,7 @@ H 14.0997502 12.07990182 12.07990182
 
 
 entry(
-    index = 673,
+    index = 674,
     label = "NCOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -26421,7 +26486,7 @@ H 15.7126177 11.45366039 11.45366039
 
 
 entry(
-    index = 674,
+    index = 675,
     label = "O=C=COC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {6,S}
@@ -26454,7 +26519,7 @@ H 15.46233674 11.92834299 11.92834299
 
 
 entry(
-    index = 675,
+    index = 676,
     label = "CC(=O)CCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {14,S}
@@ -26497,7 +26562,7 @@ H 9.9184196 12.86693025 12.86693025
 
 
 entry(
-    index = 676,
+    index = 677,
     label = "C=C(O)C=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {9,S}
@@ -26530,7 +26595,7 @@ H 13.22725441 13.45015936 13.45015936
 
 
 entry(
-    index = 677,
+    index = 678,
     label = "CN=NC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -26575,7 +26640,7 @@ H 16.41283727 12.25652453 12.25652453
 
 
 entry(
-    index = 678,
+    index = 679,
     label = "CC(O)C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {15,S}
@@ -26622,7 +26687,7 @@ H 11.805686 12.8550713 12.8550713
 
 
 entry(
-    index = 679,
+    index = 680,
     label = "C=C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -26657,7 +26722,7 @@ H 11.59312224 13.5755712 13.5755712
 
 
 entry(
-    index = 680,
+    index = 681,
     label = "CNC(=C)C",
     molecule = """
 1  N u0 p1 c0 {3,S} {4,S} {12,S}
@@ -26700,7 +26765,7 @@ H 10.49752876 10.22665353 10.22665353
 
 
 entry(
-    index = 681,
+    index = 682,
     label = "CC=C=N",
     molecule = """
 1 N u0 p1 c0 {4,D} {9,S}
@@ -26733,7 +26798,7 @@ H 15.10578603 10.80599506 10.80599506
 
 
 entry(
-    index = 682,
+    index = 683,
     label = "CC=CC(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {12,S}
@@ -26772,7 +26837,7 @@ H 15.65908597 10.22530358 10.22530358
 
 
 entry(
-    index = 683,
+    index = 684,
     label = "C=C=C=N",
     molecule = """
 1 N u0 p1 c0 {4,D} {7,S}
@@ -26801,7 +26866,7 @@ H 15.13571672 10.81760057 10.81760057
 
 
 entry(
-    index = 684,
+    index = 685,
     label = "CNC=C=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {9,S}
@@ -26840,7 +26905,7 @@ H 15.41630402 13.20011796 13.20011796
 
 
 entry(
-    index = 685,
+    index = 686,
     label = "ONNO",
     molecule = """
 1 O u0 p2 c0 {3,S} {7,S}
@@ -26871,7 +26936,7 @@ H 13.93603402 11.10643756 11.10643756
 
 
 entry(
-    index = 686,
+    index = 687,
     label = "COCONN",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -26914,7 +26979,7 @@ H 16.00559974 10.49143561 10.49143561
 
 
 entry(
-    index = 687,
+    index = 688,
     label = "CC(=N)C",
     molecule = """
 1  N u0 p1 c0 {4,D} {11,S}
@@ -26951,7 +27016,7 @@ H 11.22552781 13.44527145 13.44527145
 
 
 entry(
-    index = 688,
+    index = 689,
     label = "COCOC(C)=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -26996,7 +27061,7 @@ H 11.16689877 13.77073613 13.77073613
 
 
 entry(
-    index = 689,
+    index = 690,
     label = "ON[Pt]",
     molecule = 
 """
@@ -27006,11 +27071,11 @@ entry(
 4 H u0 p0 c0 {3,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.502523,0.0284606,-4.19002e-05,3.24999e-08,-1.00445e-11,-9.62738e+08,1.15176], Tmin=(298.15,'K'), Tmax=(772.241,'K')), NASAPolynomial(coeffs=[2.92235,0.0107208,-7.44261e-06,2.75328e-09,-4.1456e-13,-9.62739e+08,-14.4861], Tmin=(772.241,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00466e+06,'kJ/mol'), Cp0=(0.000491148,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.502523,0.0284606,-4.19002e-05,3.24999e-08,-1.00445e-11,-9665.05,1.15176], Tmin=(298.15,'K'), Tmax=(772.241,'K')), NASAPolynomial(coeffs=[2.92235,0.0107208,-7.44261e-06,2.75328e-09,-4.1456e-13,-10194,-14.4861], Tmin=(772.241,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-80.0916,'kJ/mol'), Cp0=(0.000491148,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913158.5816537966 [kcal/mol]
+Hf298: -17.609338319759136 [kcal/mol]
 Sf298: 10.286816476105761 [cal/(mol-K)]
 40
 Pt -0.0 -0.0 8.0
@@ -27058,7 +27123,7 @@ H 6.89723203 3.9707487 18.4725672
 
 
 entry(
-    index = 690,
+    index = 691,
     label = "CC(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -27097,7 +27162,7 @@ H 12.63972479 13.42467205 13.42467205
 
 
 entry(
-    index = 691,
+    index = 692,
     label = "C=C(O)C(=O)CC",
     molecule = """
 1  O u0 p2 c0 {6,S} {15,S}
@@ -27142,7 +27207,7 @@ H 14.6187686 10.67667702 10.67667702
 
 
 entry(
-    index = 692,
+    index = 693,
     label = "OCCNN=O",
     molecule = """
 1  O u0 p2 c0 {6,S} {12,S}
@@ -27181,7 +27246,7 @@ H 9.66072364 11.70243342 11.70243342
 
 
 entry(
-    index = 693,
+    index = 694,
     label = "N=[Pt]",
     molecule = 
 """
@@ -27189,11 +27254,11 @@ entry(
 2 N u0 p1 c0 {1,D} {3,S}
 3 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.43799,0.0206986,-2.84606e-05,1.88433e-08,-4.79516e-12,-9.62731e+08,4.4578], Tmin=(298.15,'K'), Tmax=(957.373,'K')), NASAPolynomial(coeffs=[2.37271,0.0047707,-3.49499e-06,1.45151e-09,-2.51818e-13,-9.62732e+08,-13.7591], Tmin=(957.373,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.0046e+06,'kJ/mol'), Cp0=(1.8332e-24,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.43799,0.0206986,-2.84606e-05,1.88433e-08,-4.79516e-12,-2190.33,4.4578], Tmin=(298.15,'K'), Tmax=(957.373,'K')), NASAPolynomial(coeffs=[2.37271,0.0047707,-3.49499e-06,1.45151e-09,-2.51818e-13,-2919.69,-13.7591], Tmin=(957.373,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-18.9437,'kJ/mol'), Cp0=(1.8332e-24,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913144.779714331 [kcal/mol]
+Hf298: -3.8073988543363693 [kcal/mol]
 Sf298: 2.6363869711445758 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -27239,7 +27304,7 @@ H 5.68299948 3.28105539 17.08928917
 
 
 entry(
-    index = 694,
+    index = 695,
     label = "OO[Pt]",
     molecule = 
 """
@@ -27248,11 +27313,11 @@ entry(
 3 O u0 p2 c0 {1,S} {2,S}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.958576,0.0205961,-3.35255e-05,2.75694e-08,-8.88909e-12,-9.62749e+08,3.06846], Tmin=(298.15,'K'), Tmax=(749.131,'K')), NASAPolynomial(coeffs=[3.67308,0.00610258,-4.50581e-06,1.74517e-09,-2.71371e-13,-9.62749e+08,-9.24347], Tmin=(749.131,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00475e+06,'kJ/mol'), Cp0=(8.31492,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.958576,0.0205961,-3.35255e-05,2.75694e-08,-8.88909e-12,-19842.5,3.06846], Tmin=(298.15,'K'), Tmax=(749.131,'K')), NASAPolynomial(coeffs=[3.67308,0.00610258,-4.50581e-06,1.74517e-09,-2.71371e-13,-20249.2,-9.24347], Tmin=(749.131,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-164.531,'kJ/mol'), Cp0=(8.31492,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913178.5063934743 [kcal/mol]
+Hf298: -37.53407799741876 [kcal/mol]
 Sf298: 26.637078122541777 [cal/(mol-K)]
 39
 Pt -0.0 0.0 8.0
@@ -27300,7 +27365,7 @@ H 5.18745324 6.43971803 18.01289934
 
 
 entry(
-    index = 695,
+    index = 696,
     label = "COC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -27331,7 +27396,7 @@ H 13.90032036 10.04226159 10.04226159
 
 
 entry(
-    index = 696,
+    index = 697,
     label = "N=CC(C)C",
     molecule = """
 1  N u0 p1 c0 {5,D} {14,S}
@@ -27374,7 +27439,7 @@ H 14.7785467 13.19902245 13.19902245
 
 
 entry(
-    index = 697,
+    index = 698,
     label = "OC(=O)OC#N",
     molecule = """
 1 O u0 p2 c0 {5,S} {6,S}
@@ -27403,7 +27468,7 @@ H 10.15097526 13.00999585 13.00999585
 
 
 entry(
-    index = 698,
+    index = 699,
     label = "CC(C)CC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -27450,7 +27515,7 @@ H 14.02476263 10.02519077 10.02519077
 
 
 entry(
-    index = 699,
+    index = 700,
     label = "CCCC#N",
     molecule = """
 1  N u0 p1 c0 {5,T}
@@ -27489,7 +27554,7 @@ H 10.07314269 11.35130606 11.35130606
 
 
 entry(
-    index = 700,
+    index = 701,
     label = "CN=NCN",
     molecule = """
 1  N u0 p1 c0 {4,S} {11,S} {12,S}
@@ -27528,7 +27593,7 @@ H 10.54139038 10.99024146 10.99024146
 
 
 entry(
-    index = 701,
+    index = 702,
     label = "CC(O)C(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -27567,7 +27632,7 @@ H 14.60263797 13.70833267 13.70833267
 
 
 entry(
-    index = 702,
+    index = 703,
     label = "NCCC=C",
     molecule = """
 1  N u0 p1 c0 {3,S} {11,S} {12,S}
@@ -27610,7 +27675,7 @@ H 14.71240346 12.40276342 12.40276342
 
 
 entry(
-    index = 703,
+    index = 704,
     label = "NOC=C=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -27641,7 +27706,7 @@ H 10.06857398 10.94732378 10.94732378
 
 
 entry(
-    index = 704,
+    index = 705,
     label = "C=CCC#N",
     molecule = """
 1  N u0 p1 c0 {5,T}
@@ -27676,7 +27741,7 @@ H 11.02631172 15.02722736 15.02722736
 
 
 entry(
-    index = 705,
+    index = 706,
     label = "OC(=C)C#N",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -27707,7 +27772,7 @@ H 10.51214226 12.34761534 12.34761534
 
 
 entry(
-    index = 706,
+    index = 707,
     label = "OC(=O)N=N",
     molecule = """
 1 O u0 p2 c0 {5,S} {6,S}
@@ -27736,7 +27801,7 @@ H 14.19816582 10.75959922 10.75959922
 
 
 entry(
-    index = 707,
+    index = 708,
     label = "COCOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -27777,7 +27842,7 @@ H 17.09158494 10.78429938 10.78429938
 
 
 entry(
-    index = 708,
+    index = 709,
     label = "CCONN=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -27816,7 +27881,7 @@ H 13.68993359 11.08797801 11.08797801
 
 
 entry(
-    index = 709,
+    index = 710,
     label = "C=CCC(=C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -27859,7 +27924,7 @@ H 14.42405321 12.54900318 12.54900318
 
 
 entry(
-    index = 710,
+    index = 711,
     label = "CNC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -27894,7 +27959,7 @@ H 14.9910546 11.55314759 11.55314759
 
 
 entry(
-    index = 711,
+    index = 712,
     label = "CC=CC(C)=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -27937,7 +28002,7 @@ H 13.4652477 12.92864686 12.92864686
 
 
 entry(
-    index = 712,
+    index = 713,
     label = "CC(NN=O)C",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -27980,7 +28045,7 @@ H 12.68279993 11.19840905 11.19840905
 
 
 entry(
-    index = 713,
+    index = 714,
     label = "CN=NN=N",
     molecule = """
 1 N u0 p1 c0 {2,D} {5,S}
@@ -28013,7 +28078,7 @@ H 15.99843606 10.24841914 10.24841914
 
 
 entry(
-    index = 714,
+    index = 715,
     label = "CNOCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -28052,7 +28117,7 @@ H 10.68664726 11.34434608 11.34434608
 
 
 entry(
-    index = 715,
+    index = 716,
     label = "CCOOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -28095,7 +28160,7 @@ H 16.26639401 11.17184792 11.17184792
 
 
 entry(
-    index = 716,
+    index = 717,
     label = "O=CC=[Pt]",
     molecule = 
 """
@@ -28106,11 +28171,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.779448,0.0342616,-3.98532e-05,2.50568e-08,-6.54121e-12,-9.62753e+08,2.19806], Tmin=(298.15,'K'), Tmax=(857.401,'K')), NASAPolynomial(coeffs=[2.34864,0.0196685,-1.43232e-05,5.20651e-09,-7.53353e-13,-9.62754e+08,-12.4119], Tmin=(857.401,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00478e+06,'kJ/mol'), Cp0=(0.0027166,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.779448,0.0342616,-3.98532e-05,2.50568e-08,-6.54121e-12,-24165.2,2.19806], Tmin=(298.15,'K'), Tmax=(857.401,'K')), NASAPolynomial(coeffs=[2.34864,0.0196685,-1.43232e-05,5.20651e-09,-7.53353e-13,-24701.6,-12.4119], Tmin=(857.401,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-200.829,'kJ/mol'), Cp0=(0.0027166,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913187.0386341508 [kcal/mol]
+Hf298: -46.06631867377315 [kcal/mol]
 Sf298: 12.730041778507909 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -28159,7 +28224,7 @@ H 7.21557046 4.15625273 17.19220481
 
 
 entry(
-    index = 717,
+    index = 718,
     label = "OCCCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {15,S}
@@ -28206,7 +28271,7 @@ H 10.00808624 12.11657905 12.11657905
 
 
 entry(
-    index = 718,
+    index = 719,
     label = "ONC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {7,S}
@@ -28237,7 +28302,7 @@ H 14.85508247 11.13940136 11.13940136
 
 
 entry(
-    index = 719,
+    index = 720,
     label = "C=CC(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {13,S}
@@ -28278,7 +28343,7 @@ H 13.68658296 13.53720001 13.53720001
 
 
 entry(
-    index = 720,
+    index = 721,
     label = "C=C(C)C(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -28329,7 +28394,7 @@ H 11.93400346 10.14502347 10.14502347
 
 
 entry(
-    index = 721,
+    index = 722,
     label = "N#N",
     molecule = """
 1 N u0 p1 c0 {2,T}
@@ -28348,7 +28413,7 @@ N 10.00107261 10.00046447 10.00046447
 
 
 entry(
-    index = 722,
+    index = 723,
     label = "NCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -28385,7 +28450,7 @@ H 10.48169742 12.51930596 12.51930596
 
 
 entry(
-    index = 723,
+    index = 724,
     label = "CC=CO",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -28420,7 +28485,7 @@ H 14.78798902 10.40053113 10.40053113
 
 
 entry(
-    index = 724,
+    index = 725,
     label = "N=CN=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -28447,7 +28512,7 @@ H 10.0554383 10.37892119 10.37892119
 
 
 entry(
-    index = 725,
+    index = 726,
     label = "NCN",
     molecule = """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -28480,7 +28545,7 @@ H 10.18794052 10.97450378 10.97450378
 
 
 entry(
-    index = 726,
+    index = 727,
     label = "CC(C)C(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {14,S}
@@ -28523,7 +28588,7 @@ H 14.36751046 13.67084842 13.67084842
 
 
 entry(
-    index = 727,
+    index = 728,
     label = "CN=NOC=C",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -28562,7 +28627,7 @@ H 10.07201794 11.267126 11.267126
 
 
 entry(
-    index = 728,
+    index = 729,
     label = "C=CC=C=N",
     molecule = """
 1  N u0 p1 c0 {5,D} {10,S}
@@ -28597,7 +28662,7 @@ H 16.03104769 11.80885853 11.80885853
 
 
 entry(
-    index = 729,
+    index = 730,
     label = "NNN=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -28630,7 +28695,7 @@ H 14.41541032 10.2070326 10.2070326
 
 
 entry(
-    index = 730,
+    index = 731,
     label = "C=NN=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,D}
@@ -28661,7 +28726,7 @@ H 10.84300162 11.00152854 11.00152854
 
 
 entry(
-    index = 731,
+    index = 732,
     label = "N=NNN=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -28690,7 +28755,7 @@ H 12.86308463 9.87943692 9.87943692
 
 
 entry(
-    index = 732,
+    index = 733,
     label = "COCONN=O",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -28731,7 +28796,7 @@ H 14.94457252 10.7434967 10.7434967
 
 
 entry(
-    index = 733,
+    index = 734,
     label = "C=COOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -28770,7 +28835,7 @@ H 9.17424779 12.12359463 12.12359463
 
 
 entry(
-    index = 734,
+    index = 735,
     label = "CC=N",
     molecule = """
 1 N u0 p1 c0 {3,D} {8,S}
@@ -28801,7 +28866,7 @@ H 13.33230129 10.51851154 10.51851154
 
 
 entry(
-    index = 735,
+    index = 736,
     label = "CN=NCC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -28840,7 +28905,7 @@ H 15.64380738 10.00954565 10.00954565
 
 
 entry(
-    index = 736,
+    index = 737,
     label = "C=C=C=[Pt]",
     molecule = 
 """
@@ -28851,11 +28916,11 @@ entry(
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.04782,0.0393617,-5.38786e-05,3.92975e-08,-1.16101e-11,-9.62723e+08,3.138], Tmin=(298.15,'K'), Tmax=(793.614,'K')), NASAPolynomial(coeffs=[3.29182,0.017489,-1.25374e-05,4.56938e-09,-6.70319e-13,-9.62724e+08,-16.7951], Tmin=(793.614,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00453e+06,'kJ/mol'), Cp0=(1.1119,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.04782,0.0393617,-5.38786e-05,3.92975e-08,-1.16101e-11,5917.55,3.138], Tmin=(298.15,'K'), Tmax=(793.614,'K')), NASAPolynomial(coeffs=[3.29182,0.017489,-1.25374e-05,4.56938e-09,-6.70319e-13,5228.75,-16.7951], Tmin=(793.614,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(49.1834,'kJ/mol'), Cp0=(1.1119,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913127.16166083 [kcal/mol]
+Hf298: 13.8106546472005 [kcal/mol]
 Sf298: 13.572073713546306 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -28904,7 +28969,7 @@ H 5.62405625 4.06019292 19.11538998
 
 
 entry(
-    index = 737,
+    index = 738,
     label = "CC(O)C=C=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {12,S}
@@ -28943,7 +29008,7 @@ H 12.44595768 14.19701608 14.19701608
 
 
 entry(
-    index = 738,
+    index = 739,
     label = "O=CCN=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -28974,7 +29039,7 @@ H 13.66774316 11.75038022 11.75038022
 
 
 entry(
-    index = 739,
+    index = 740,
     label = "C=C=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -29001,7 +29066,7 @@ H 9.79701579 10.22387745 10.22387745
 
 
 entry(
-    index = 740,
+    index = 741,
     label = "C=CCOCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -29048,7 +29113,7 @@ H 9.96817613 12.08019242 12.08019242
 
 
 entry(
-    index = 741,
+    index = 742,
     label = "COCONO",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -29089,7 +29154,7 @@ H 16.34384596 12.06281093 12.06281093
 
 
 entry(
-    index = 742,
+    index = 743,
     label = "CC=C[Pt]",
     molecule = 
 """
@@ -29103,11 +29168,11 @@ entry(
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.77137,0.0399485,-3.43785e-05,1.65325e-08,-3.40564e-12,-9.62732e+08,14.5056], Tmin=(298.15,'K'), Tmax=(1032.2,'K')), NASAPolynomial(coeffs=[1.33939,0.0278953,-1.68651e-05,5.22263e-09,-6.66755e-13,-9.62732e+08,-0.600991], Tmin=(1032.2,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00461e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.77137,0.0399485,-3.43785e-05,1.65325e-08,-3.40564e-12,-2791.97,14.5056], Tmin=(298.15,'K'), Tmax=(1032.2,'K')), NASAPolynomial(coeffs=[1.33939,0.0278953,-1.68651e-05,5.22263e-09,-6.66755e-13,-3434.24,-0.600991], Tmin=(1032.2,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-24.6638,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913144.5856773201 [kcal/mol]
+Hf298: -3.613361843077759 [kcal/mol]
 Sf298: 29.671526794292053 [cal/(mol-K)]
 44
 Pt -0.0 -0.0 8.0
@@ -29160,7 +29225,7 @@ H 7.56431472 4.51910607 17.08052598
 
 
 entry(
-    index = 743,
+    index = 744,
     label = "CNC(C)C",
     molecule = """
 1  N u0 p1 c0 {2,S} {5,S} {16,S}
@@ -29207,7 +29272,7 @@ H 12.99207663 11.60893747 11.60893747
 
 
 entry(
-    index = 744,
+    index = 745,
     label = "CC=COC(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -29248,7 +29313,7 @@ H 17.19081176 11.27793448 11.27793448
 
 
 entry(
-    index = 745,
+    index = 746,
     label = "CC=C=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -29279,7 +29344,7 @@ H 12.25096627 12.48443077 12.48443077
 
 
 entry(
-    index = 746,
+    index = 747,
     label = "C=CO[Pt]",
     molecule = 
 """
@@ -29291,11 +29356,11 @@ entry(
 6 H u0 p0 c0 {4,S}
 7 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.00545,0.0355379,-4.00741e-05,2.54516e-08,-6.81992e-12,-9.62746e+08,3.40185], Tmin=(298.15,'K'), Tmax=(832.988,'K')), NASAPolynomial(coeffs=[1.92509,0.0214657,-1.47339e-05,5.17131e-09,-7.33385e-13,-9.62747e+08,-10.2008], Tmin=(832.988,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00473e+06,'kJ/mol'), Cp0=(0.00019662,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.00545,0.0355379,-4.00741e-05,2.54516e-08,-6.81992e-12,-17277.3,3.40185], Tmin=(298.15,'K'), Tmax=(832.988,'K')), NASAPolynomial(coeffs=[1.92509,0.0214657,-1.47339e-05,5.17131e-09,-7.33385e-13,-17765.5,-10.2008], Tmin=(832.988,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-143.673,'kJ/mol'), Cp0=(0.00019662,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913173.3746628715 [kcal/mol]
+Hf298: -32.40234739452473 [kcal/mol]
 Sf298: 13.305779691277882 [cal/(mol-K)]
 42
 Pt 0.0 -0.0 8.0
@@ -29345,7 +29410,7 @@ H 7.15788685 4.4305849 19.13901467
 
 
 entry(
-    index = 747,
+    index = 748,
     label = "CCCOCC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -29396,7 +29461,7 @@ H 11.0801487 12.95523525 12.95523525
 
 
 entry(
-    index = 748,
+    index = 749,
     label = "CC(=O)C(C)=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -29435,7 +29500,7 @@ H 10.56939502 11.26236701 11.26236701
 
 
 entry(
-    index = 749,
+    index = 750,
     label = "C=C(C)OC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -29476,7 +29541,7 @@ H 15.83314657 12.29661938 12.29661938
 
 
 entry(
-    index = 750,
+    index = 751,
     label = "OC=C=N",
     molecule = """
 1 O u0 p2 c0 {3,S} {6,S}
@@ -29505,7 +29570,7 @@ H 13.8283273 11.84608598 11.84608598
 
 
 entry(
-    index = 751,
+    index = 752,
     label = "CC=CC(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -29556,7 +29621,7 @@ H 14.26909356 12.44238369 12.44238369
 
 
 entry(
-    index = 752,
+    index = 753,
     label = "O=COC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {6,S}
@@ -29587,7 +29652,7 @@ H 15.19111974 10.60040463 10.60040463
 
 
 entry(
-    index = 753,
+    index = 754,
     label = "O=CO[Pt]",
     molecule = 
 """
@@ -29597,11 +29662,11 @@ entry(
 4 C u0 p0 c0 {2,D} {3,S} {5,S}
 5 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.917056,0.019249,-1.79096e-05,8.64822e-09,-1.72308e-12,-9.62784e+08,-4.66614], Tmin=(298.15,'K'), Tmax=(1065.77,'K')), NASAPolynomial(coeffs=[2.59677,0.0129451,-9.03771e-06,3.09889e-09,-4.21423e-13,-9.62784e+08,-12.8768], Tmin=(1065.77,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00504e+06,'kJ/mol'), Cp0=(9.12737e-05,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.917056,0.019249,-1.79096e-05,8.64822e-09,-1.72308e-12,-54711.1,-4.66614], Tmin=(298.15,'K'), Tmax=(1065.77,'K')), NASAPolynomial(coeffs=[2.59677,0.0129451,-9.03771e-06,3.09889e-09,-4.21423e-13,-55069.1,-12.8768], Tmin=(1065.77,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-454.18,'kJ/mol'), Cp0=(9.12737e-05,'J/(mol*K)'), CpInf=(91.4591,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913247.734682094 [kcal/mol]
+Hf298: -106.7623666172185 [kcal/mol]
 Sf298: 11.073262193328015 [cal/(mol-K)]
 40
 Pt 0.0 -0.0 8.0
@@ -29649,7 +29714,7 @@ H 8.48465096 2.46369189 18.7627584
 
 
 entry(
-    index = 754,
+    index = 755,
     label = "CN[Pt]",
     molecule = 
 """
@@ -29661,11 +29726,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.213891,0.0276105,-2.36285e-05,1.22463e-08,-2.90747e-12,-9.62735e+08,0.151009], Tmin=(298.15,'K'), Tmax=(835.458,'K')), NASAPolynomial(coeffs=[0.903647,0.02226,-1.40223e-05,4.58102e-09,-6.13766e-13,-9.62736e+08,-5.03958], Tmin=(835.458,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00464e+06,'kJ/mol'), Cp0=(0.000189925,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.213891,0.0276105,-2.36285e-05,1.22463e-08,-2.90747e-12,-6603.64,0.151009], Tmin=(298.15,'K'), Tmax=(835.458,'K')), NASAPolynomial(coeffs=[0.903647,0.02226,-1.40223e-05,4.58102e-09,-6.13766e-13,-6790.37,-5.03958], Tmin=(835.458,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-54.5549,'kJ/mol'), Cp0=(0.000189925,'J/(mol*K)'), CpInf=(149.66,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913152.1544746787 [kcal/mol]
+Hf298: -11.18215920169601 [kcal/mol]
 Sf298: 12.347528496853895 [cal/(mol-K)]
 42
 Pt -0.0 -0.0 8.0
@@ -29715,7 +29780,7 @@ H 5.89322445 3.13484839 16.95096472
 
 
 entry(
-    index = 755,
+    index = 756,
     label = "O=C[Pt]",
     molecule = 
 """
@@ -29724,11 +29789,11 @@ entry(
 3 C u0 p0 c0 {1,S} {2,D} {4,S}
 4 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.579778,0.0145232,-1.58053e-05,9.8407e-09,-2.63847e-12,-9.62757e+08,4.53165], Tmin=(298.15,'K'), Tmax=(816.129,'K')), NASAPolynomial(coeffs=[1.61124,0.00946783,-6.5139e-06,2.25093e-09,-3.13553e-13,-9.62757e+08,-0.234971], Tmin=(816.129,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00482e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.579778,0.0145232,-1.58053e-05,9.8407e-09,-2.63847e-12,-28478.8,4.53165], Tmin=(298.15,'K'), Tmax=(816.129,'K')), NASAPolynomial(coeffs=[1.61124,0.00946783,-6.5139e-06,2.25093e-09,-3.13553e-13,-28647.2,-0.234971], Tmin=(816.129,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-236.799,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913196.1817310203 [kcal/mol]
+Hf298: -55.20941554302901 [kcal/mol]
 Sf298: 22.937172278898554 [cal/(mol-K)]
 39
 Pt 0.0 0.0 8.0
@@ -29776,7 +29841,7 @@ H 4.66369238 4.69202879 17.61591715
 
 
 entry(
-    index = 756,
+    index = 757,
     label = "NCOC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -29811,7 +29876,7 @@ H 14.71382458 11.20719762 11.20719762
 
 
 entry(
-    index = 757,
+    index = 758,
     label = "CC(=O)C#N",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -29842,7 +29907,7 @@ H 11.16286582 12.87700295 12.87700295
 
 
 entry(
-    index = 758,
+    index = 759,
     label = "NOON",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -29873,7 +29938,7 @@ H 10.60922638 10.99776493 10.99776493
 
 
 entry(
-    index = 759,
+    index = 760,
     label = "N=CCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -29908,7 +29973,7 @@ H 14.27109079 12.33855708 12.33855708
 
 
 entry(
-    index = 760,
+    index = 761,
     label = "CC(=C)N=N",
     molecule = """
 1  N u0 p1 c0 {2,D} {4,S}
@@ -29945,7 +30010,7 @@ H 12.91925151 13.88351442 13.88351442
 
 
 entry(
-    index = 761,
+    index = 762,
     label = "NC#N",
     molecule = """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -29970,7 +30035,7 @@ H 10.03595933 10.84036797 10.84036797
 
 
 entry(
-    index = 762,
+    index = 763,
     label = "NCO",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -30001,7 +30066,7 @@ H 10.01115057 12.21670779 12.21670779
 
 
 entry(
-    index = 763,
+    index = 764,
     label = "CNNC",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {11,S}
@@ -30040,7 +30105,7 @@ H 12.76163107 11.90918125 11.90918125
 
 
 entry(
-    index = 764,
+    index = 765,
     label = "CC(O)CC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -30083,7 +30148,7 @@ H 11.72820901 10.04778385 10.04778385
 
 
 entry(
-    index = 765,
+    index = 766,
     label = "OCCC#N",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -30118,7 +30183,7 @@ H 10.14692635 12.730006 12.730006
 
 
 entry(
-    index = 766,
+    index = 767,
     label = "C=CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -30157,7 +30222,7 @@ H 9.94961809 11.06483058 11.06483058
 
 
 entry(
-    index = 767,
+    index = 768,
     label = "CC=CN",
     molecule = """
 1  N u0 p1 c0 {4,S} {10,S} {11,S}
@@ -30194,7 +30259,7 @@ H 13.33848163 12.73902853 12.73902853
 
 
 entry(
-    index = 768,
+    index = 769,
     label = "O=C(O)C(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {7,S}
@@ -30225,7 +30290,7 @@ H 10.13519033 10.86792645 10.86792645
 
 
 entry(
-    index = 769,
+    index = 770,
     label = "CC=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -30254,7 +30319,7 @@ H 12.38986192 10.04834349 10.04834349
 
 
 entry(
-    index = 770,
+    index = 771,
     label = "C=CC=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -30287,7 +30352,7 @@ H 10.47679411 10.60128522 10.60128522
 
 
 entry(
-    index = 771,
+    index = 772,
     label = "CCC(=O)OCOC",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -30338,7 +30403,7 @@ H 10.15747455 11.37821548 11.37821548
 
 
 entry(
-    index = 772,
+    index = 773,
     label = "CO[Pt]",
     molecule = 
 """
@@ -30349,11 +30414,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.1093,0.0148151,-4.85252e-06,-2.20505e-09,1.47613e-12,-9.62751e+08,3.1383], Tmin=(298.15,'K'), Tmax=(868.537,'K')), NASAPolynomial(coeffs=[0.694742,0.0175015,-1.08341e-05,3.41644e-09,-4.38491e-13,-9.62751e+08,4.91114], Tmin=(868.537,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00476e+06,'kJ/mol'), Cp0=(8.31566,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.1093,0.0148151,-4.85252e-06,-2.20505e-09,1.47613e-12,-21731.4,3.1383], Tmin=(298.15,'K'), Tmax=(868.537,'K')), NASAPolynomial(coeffs=[0.694742,0.0175015,-1.08341e-05,3.41644e-09,-4.38491e-13,-21688.7,4.91114], Tmin=(868.537,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-180.432,'kJ/mol'), Cp0=(8.31566,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913182.2852460565 [kcal/mol]
+Hf298: -41.31293057937992 [kcal/mol]
 Sf298: 27.107476796224667 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -30403,7 +30468,7 @@ H 4.99120018 3.39622199 17.89328008
 
 
 entry(
-    index = 773,
+    index = 774,
     label = "CCCC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -30456,7 +30521,7 @@ H 15.78984223 12.87569029 12.87569029
 
 
 entry(
-    index = 774,
+    index = 775,
     label = "CC(=O)C(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {10,S}
@@ -30491,7 +30556,7 @@ H 15.25177883 11.3053686 11.3053686
 
 
 entry(
-    index = 775,
+    index = 776,
     label = "CC(=O)[Pt]",
     molecule = 
 """
@@ -30503,11 +30568,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.69126,0.0253579,-2.07341e-05,9.6025e-09,-1.96877e-12,-9.62765e+08,5.07241], Tmin=(298.15,'K'), Tmax=(940.147,'K')), NASAPolynomial(coeffs=[1.76819,0.0207759,-1.34236e-05,4.41852e-09,-5.90268e-13,-9.62765e+08,-0.0567003], Tmin=(940.147,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00488e+06,'kJ/mol'), Cp0=(8.32285,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.69126,0.0253579,-2.07341e-05,9.6025e-09,-1.96877e-12,-36418.3,5.07241], Tmin=(298.15,'K'), Tmax=(940.147,'K')), NASAPolynomial(coeffs=[1.76819,0.0207759,-1.34236e-05,4.41852e-09,-5.90268e-13,-36620.8,-0.0567003], Tmin=(940.147,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-302.571,'kJ/mol'), Cp0=(8.32285,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913211.0239138342 [kcal/mol]
+Hf298: -70.05159835705575 [kcal/mol]
 Sf298: 31.253640882443268 [cal/(mol-K)]
 42
 Pt 0.0 -0.0 8.0
@@ -30558,7 +30623,7 @@ H 4.66874882 5.86403976 18.5090978
 
 
 entry(
-    index = 776,
+    index = 777,
     label = "CN=NN=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -30589,7 +30654,7 @@ H 10.03470893 10.19789393 10.19789393
 
 
 entry(
-    index = 777,
+    index = 778,
     label = "1Nu0p1c0{2,T}{4,vdW}2Cu0p0c0{1,T}{3,S}3Hu0p0c0{2,S}4Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -30598,11 +30663,11 @@ entry(
 3 C u0 p0 c0 {2,T} {4,S}
 4 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.563998,0.0290851,-5.75134e-05,5.60242e-08,-2.09493e-11,-9.62723e+08,-4.83069], Tmin=(298.15,'K'), Tmax=(662.416,'K')), NASAPolynomial(coeffs=[4.57675,0.00485429,-2.64478e-06,8.03946e-10,-1.08989e-13,-9.62724e+08,-22.5372], Tmin=(662.416,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00454e+06,'kJ/mol'), Cp0=(2.27812e-08,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.563998,0.0290851,-5.75134e-05,5.60242e-08,-2.09493e-11,5402.64,-4.83069], Tmin=(298.15,'K'), Tmax=(662.416,'K')), NASAPolynomial(coeffs=[4.57675,0.00485429,-2.64478e-06,8.03946e-10,-1.08989e-13,4871.01,-22.5372], Tmin=(662.416,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(46.0232,'kJ/mol'), Cp0=(2.27812e-08,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913128.1440735164 [kcal/mol]
+Hf298: 12.828241960872674 [kcal/mol]
 Sf298: 9.834697461088332 [cal/(mol-K)]
 39
 Pt 0.0 0.0 8.0
@@ -30649,7 +30714,7 @@ H 8.20781428 4.63784798 19.28695389
 
 
 entry(
-    index = 778,
+    index = 779,
     label = "NCCN",
     molecule = """
 1  N u0 p1 c0 {3,S} {9,S} {10,S}
@@ -30688,7 +30753,7 @@ H 14.60358556 11.98795569 11.98795569
 
 
 entry(
-    index = 779,
+    index = 780,
     label = "CC(C=N)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -30727,7 +30792,7 @@ H 10.19988774 11.72824794 11.72824794
 
 
 entry(
-    index = 780,
+    index = 781,
     label = "NCC=C=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -30762,7 +30827,7 @@ H 9.83763477 10.35864149 10.35864149
 
 
 entry(
-    index = 781,
+    index = 782,
     label = "C=COO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -30793,7 +30858,7 @@ H 14.60192625 11.16940946 11.16940946
 
 
 entry(
-    index = 782,
+    index = 783,
     label = "CC=CN=C",
     molecule = """
 1  N u0 p1 c0 {4,S} {5,D}
@@ -30832,7 +30897,7 @@ H 10.14046189 11.04943347 11.04943347
 
 
 entry(
-    index = 783,
+    index = 784,
     label = "CCCCC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -30879,7 +30944,7 @@ H 16.07277459 12.1432821 12.1432821
 
 
 entry(
-    index = 784,
+    index = 785,
     label = "[O-]N=[NH2+]",
     molecule = """
 1 O u0 p3 c-1 {3,S}
@@ -30904,7 +30969,7 @@ H 10.68643061 11.66820545 11.66820545
 
 
 entry(
-    index = 785,
+    index = 786,
     label = "CCCCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {18,S}
@@ -30955,7 +31020,7 @@ H 10.10934003 11.92926529 11.92926529
 
 
 entry(
-    index = 786,
+    index = 787,
     label = "OCOOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -30994,7 +31059,7 @@ H 10.05883007 12.71275784 12.71275784
 
 
 entry(
-    index = 787,
+    index = 788,
     label = "COC=N",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -31027,7 +31092,7 @@ H 14.28073431 11.97934378 11.97934378
 
 
 entry(
-    index = 788,
+    index = 789,
     label = "CC(O)=CO",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -31064,7 +31129,7 @@ H 13.09523783 9.75555305 9.75555305
 
 
 entry(
-    index = 789,
+    index = 790,
     label = "[O-]N=[NH+]C(=O)CC",
     molecule = """
 1  O u0 p2 c0 {7,D}
@@ -31105,7 +31170,7 @@ H 13.95220169 11.02597374 11.02597374
 
 
 entry(
-    index = 790,
+    index = 791,
     label = "CCOC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {4,S} {7,S}
@@ -31154,7 +31219,7 @@ H 9.87860579 11.76812826 11.76812826
 
 
 entry(
-    index = 791,
+    index = 792,
     label = "CN=NCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -31191,7 +31256,7 @@ H 15.46416901 10.28018297 10.28018297
 
 
 entry(
-    index = 792,
+    index = 793,
     label = "C=CCCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {16,S}
@@ -31238,7 +31303,7 @@ H 15.80561333 13.13522961 13.13522961
 
 
 entry(
-    index = 793,
+    index = 794,
     label = "O=CO",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -31263,7 +31328,7 @@ H 12.62926981 10.83616044 10.83616044
 
 
 entry(
-    index = 794,
+    index = 795,
     label = "O=CC=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -31290,7 +31355,7 @@ H 9.97818446 10.33960834 10.33960834
 
 
 entry(
-    index = 795,
+    index = 796,
     label = "[O-]N=[NH+]CC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -31325,7 +31390,7 @@ H 9.87646712 11.32310765 11.32310765
 
 
 entry(
-    index = 796,
+    index = 797,
     label = "NOCC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -31360,7 +31425,7 @@ H 10.15274339 11.18121762 11.18121762
 
 
 entry(
-    index = 797,
+    index = 798,
     label = "CC(C)C(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -31415,7 +31480,7 @@ H 11.23145674 11.72242869 11.72242869
 
 
 entry(
-    index = 798,
+    index = 799,
     label = "O=NC#N",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -31438,7 +31503,7 @@ C 12.23761671 10.37699444 10.37699444
 
 
 entry(
-    index = 799,
+    index = 800,
     label = "C=COC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -31473,7 +31538,7 @@ H 15.91772108 10.95131188 10.95131188
 
 
 entry(
-    index = 800,
+    index = 801,
     label = "C=C=C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {11,S}
@@ -31510,7 +31575,7 @@ H 10.26634769 12.60600662 12.60600662
 
 
 entry(
-    index = 801,
+    index = 802,
     label = "CN=NNN",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,S} {9,S}
@@ -31547,7 +31612,7 @@ H 10.37185362 12.59186877 12.59186877
 
 
 entry(
-    index = 802,
+    index = 803,
     label = "C=C=C=CC",
     molecule = """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -31584,7 +31649,7 @@ H 16.05697969 13.00282738 13.00282738
 
 
 entry(
-    index = 803,
+    index = 804,
     label = "O=C=C[Pt]",
     molecule = 
 """
@@ -31594,11 +31659,11 @@ entry(
 4 C u0 p0 c0 {2,D} {3,D}
 5 H u0 p0 c0 {3,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.57139,0.0374206,-5.22109e-05,3.70717e-08,-1.05009e-11,-9.62756e+08,4.80197], Tmin=(298.15,'K'), Tmax=(830.817,'K')), NASAPolynomial(coeffs=[3.11957,0.0148361,-1.14362e-05,4.3535e-09,-6.5582e-13,-9.62757e+08,-16.9598], Tmin=(830.817,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00481e+06,'kJ/mol'), Cp0=(0.000838684,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.57139,0.0374206,-5.22109e-05,3.70717e-08,-1.05009e-11,-27347,4.80197], Tmin=(298.15,'K'), Tmax=(830.817,'K')), NASAPolynomial(coeffs=[3.11957,0.0148361,-1.14362e-05,4.3535e-09,-6.5582e-13,-28126.5,-16.9598], Tmin=(830.817,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-227.757,'kJ/mol'), Cp0=(0.000838684,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913193.7250569402 [kcal/mol]
+Hf298: -52.752741463024606 [kcal/mol]
 Sf298: 9.914215074457609 [cal/(mol-K)]
 40
 Pt 0.0 0.0 8.0
@@ -31646,7 +31711,7 @@ H 7.34469766 3.93268171 17.38249954
 
 
 entry(
-    index = 804,
+    index = 805,
     label = "O=C(O)OOCO",
     molecule = """
 1  O u0 p2 c0 {2,S} {6,S}
@@ -31683,7 +31748,7 @@ H 15.76535589 11.18156518 11.18156518
 
 
 entry(
-    index = 805,
+    index = 806,
     label = "ONC=C=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -31714,7 +31779,7 @@ H 14.18354952 10.04345664 10.04345664
 
 
 entry(
-    index = 806,
+    index = 807,
     label = "[O-]N=[NH+]C=N",
     molecule = """
 1 O u0 p3 c-1 {3,S}
@@ -31745,7 +31810,7 @@ H 10.13706191 10.04394698 10.04394698
 
 
 entry(
-    index = 807,
+    index = 808,
     label = "C=C=C=C=N",
     molecule = """
 1 N u0 p1 c0 {5,D} {8,S}
@@ -31776,7 +31841,7 @@ H 16.3226296 10.1906212 10.1906212
 
 
 entry(
-    index = 808,
+    index = 809,
     label = "CC(=O)C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {14,S}
@@ -31819,7 +31884,7 @@ H 10.54900438 13.15040332 13.15040332
 
 
 entry(
-    index = 809,
+    index = 810,
     label = "CN=CC=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,D}
@@ -31858,7 +31923,7 @@ H 9.91677467 10.92265216 10.92265216
 
 
 entry(
-    index = 810,
+    index = 811,
     label = "CC=CC#N",
     molecule = """
 1  N u0 p1 c0 {5,T}
@@ -31893,7 +31958,7 @@ H 13.51159927 11.14759364 11.14759364
 
 
 entry(
-    index = 811,
+    index = 812,
     label = "ON=C=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {7,S}
@@ -31922,7 +31987,7 @@ H 13.75101955 11.5570943 11.5570943
 
 
 entry(
-    index = 812,
+    index = 813,
     label = "NNN",
     molecule = """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -31953,7 +32018,7 @@ H 10.35924958 11.0419174 11.0419174
 
 
 entry(
-    index = 813,
+    index = 814,
     label = "O=COCCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -31992,7 +32057,7 @@ H 11.02021913 13.42423317 13.42423317
 
 
 entry(
-    index = 814,
+    index = 815,
     label = "CC=NO",
     molecule = """
 1 O u0 p2 c0 {2,S} {9,S}
@@ -32025,7 +32090,7 @@ H 14.54642325 10.71993309 10.71993309
 
 
 entry(
-    index = 815,
+    index = 816,
     label = "NNCCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {13,S}
@@ -32066,7 +32131,7 @@ H 10.87947146 12.69243188 12.69243188
 
 
 entry(
-    index = 816,
+    index = 817,
     label = "NC(=C)O",
     molecule = """
 1 O u0 p2 c0 {3,S} {9,S}
@@ -32099,7 +32164,7 @@ H 13.1368554 13.50453284 13.50453284
 
 
 entry(
-    index = 817,
+    index = 818,
     label = "O=C=C=[Pt]",
     molecule = 
 """
@@ -32108,11 +32173,11 @@ entry(
 3 C u0 p0 c0 {2,D} {4,D}
 4 C u0 p0 c0 {1,D} {3,D}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.110996,0.0219844,-3.01813e-05,2.11239e-08,-5.93095e-12,-9.62752e+08,5.96388], Tmin=(298.15,'K'), Tmax=(831.942,'K')), NASAPolynomial(coeffs=[2.75371,0.00927776,-7.27033e-06,2.76392e-09,-4.13567e-13,-9.62753e+08,-6.29937], Tmin=(831.942,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00478e+06,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.110996,0.0219844,-3.01813e-05,2.11239e-08,-5.93095e-12,-23282.3,5.96388], Tmin=(298.15,'K'), Tmax=(831.942,'K')), NASAPolynomial(coeffs=[2.75371,0.00927776,-7.27033e-06,2.76392e-09,-4.13567e-13,-23722,-6.29937], Tmin=(831.942,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-193.778,'kJ/mol'), Cp0=(8.31446,'J/(mol*K)'), CpInf=(66.5157,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913185.6853609753 [kcal/mol]
+Hf298: -44.71304549798736 [kcal/mol]
 Sf298: 23.810962259229818 [cal/(mol-K)]
 39
 Pt 0.0 0.0 8.0
@@ -32160,7 +32225,7 @@ C 5.66673 3.27194575 16.09820049
 
 
 entry(
-    index = 818,
+    index = 819,
     label = "C=C=CC(=C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
@@ -32203,7 +32268,7 @@ H 15.85319465 11.88592405 11.88592405
 
 
 entry(
-    index = 819,
+    index = 820,
     label = "CC=C(C)C",
     molecule = """
 1  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -32248,7 +32313,7 @@ H 13.46009946 10.20175246 10.20175246
 
 
 entry(
-    index = 820,
+    index = 821,
     label = "NCNO",
     molecule = """
 1  O u0 p2 c0 {2,S} {10,S}
@@ -32283,7 +32348,7 @@ H 14.49691111 11.54123254 11.54123254
 
 
 entry(
-    index = 821,
+    index = 822,
     label = "CNON",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -32318,7 +32383,7 @@ H 13.95663078 10.10215224 10.10215224
 
 
 entry(
-    index = 822,
+    index = 823,
     label = "NN=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -32347,7 +32412,7 @@ H 13.97047708 10.32375022 10.32375022
 
 
 entry(
-    index = 823,
+    index = 824,
     label = "C=C=CC(C)=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -32386,7 +32451,7 @@ H 15.16878106 13.35173309 13.35173309
 
 
 entry(
-    index = 824,
+    index = 825,
     label = "OCCN=C",
     molecule = """
 1  O u0 p2 c0 {4,S} {12,S}
@@ -32425,7 +32490,7 @@ H 9.70122056 11.65837988 11.65837988
 
 
 entry(
-    index = 825,
+    index = 826,
     label = "C=CC=N",
     molecule = """
 1 N u0 p1 c0 {3,D} {9,S}
@@ -32458,7 +32523,7 @@ H 14.52729623 10.62875229 10.62875229
 
 
 entry(
-    index = 826,
+    index = 827,
     label = "NCC=N",
     molecule = """
 1  N u0 p1 c0 {3,S} {8,S} {9,S}
@@ -32493,7 +32558,7 @@ H 9.77093595 11.23302078 11.23302078
 
 
 entry(
-    index = 827,
+    index = 828,
     label = "C=C(O)C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {13,S}
@@ -32536,7 +32601,7 @@ H 14.61181907 10.97953128 10.97953128
 
 
 entry(
-    index = 828,
+    index = 829,
     label = "OCC=N",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -32569,7 +32634,7 @@ H 9.96014373 12.17933018 12.17933018
 
 
 entry(
-    index = 829,
+    index = 830,
     label = "CC(=O)N=C",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -32604,7 +32669,7 @@ H 11.08062248 11.33951135 11.33951135
 
 
 entry(
-    index = 830,
+    index = 831,
     label = "C=C=CC",
     molecule = """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -32639,7 +32704,7 @@ H 15.00501109 11.22974792 11.22974792
 
 
 entry(
-    index = 831,
+    index = 832,
     label = "CCC=C=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -32678,7 +32743,7 @@ H 12.71180566 11.58802484 11.58802484
 
 
 entry(
-    index = 832,
+    index = 833,
     label = "CCC(=O)[Pt]",
     molecule = 
 """
@@ -32693,11 +32758,11 @@ entry(
 9  H u0 p0 c0 {4,S}
 10 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.124505,0.0373154,-2.61357e-05,9.42369e-09,-1.35802e-12,-9.62769e+08,7.93748], Tmin=(298.15,'K'), Tmax=(1050.08,'K')), NASAPolynomial(coeffs=[1.87908,0.0316068,-1.93741e-05,6.01524e-09,-7.57082e-13,-9.6277e+08,-0.869039], Tmin=(1050.08,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00492e+06,'kJ/mol'), Cp0=(8.48212,'J/(mol*K)'), CpInf=(216.176,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.124505,0.0373154,-2.61357e-05,9.42369e-09,-1.35802e-12,-40604.3,7.93748], Tmin=(298.15,'K'), Tmax=(1050.08,'K')), NASAPolynomial(coeffs=[1.87908,0.0316068,-1.93741e-05,6.01524e-09,-7.57082e-13,-41026.5,-0.869039], Tmin=(1050.08,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-337.716,'kJ/mol'), Cp0=(8.48212,'J/(mol*K)'), CpInf=(216.176,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913218.7176013293 [kcal/mol]
+Hf298: -77.74528585197369 [kcal/mol]
 Sf298: 37.13442622699683 [cal/(mol-K)]
 45
 Pt -0.0 -0.0 8.0
@@ -32751,7 +32816,7 @@ H 5.05099583 5.48099058 19.93443558
 
 
 entry(
-    index = 833,
+    index = 834,
     label = "CNN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -32782,7 +32847,7 @@ H 12.08033887 12.67372422 12.67372422
 
 
 entry(
-    index = 834,
+    index = 835,
     label = "CCON=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -32817,7 +32882,7 @@ H 10.3801832 11.25077597 11.25077597
 
 
 entry(
-    index = 835,
+    index = 836,
     label = "OO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -32840,7 +32905,7 @@ H 12.23042841 10.1994909 10.1994909
 
 
 entry(
-    index = 836,
+    index = 837,
     label = "C=CON=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -32871,7 +32936,7 @@ H 10.17337635 12.11408965 12.11408965
 
 
 entry(
-    index = 837,
+    index = 838,
     label = "CCOOC=O",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -32910,7 +32975,7 @@ H 15.97402325 11.45768805 11.45768805
 
 
 entry(
-    index = 838,
+    index = 839,
     label = "CC",
     molecule = """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -32941,7 +33006,7 @@ H 12.39249371 10.73989241 10.73989241
 
 
 entry(
-    index = 839,
+    index = 840,
     label = "C=C=CC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -32976,7 +33041,7 @@ H 10.14456119 9.95450411 9.95450411
 
 
 entry(
-    index = 840,
+    index = 841,
     label = "[O-]N=[NH+]C=C=O",
     molecule = """
 1 O u0 p3 c-1 {4,S}
@@ -33007,7 +33072,7 @@ H 12.53968444 10.07088504 10.07088504
 
 
 entry(
-    index = 841,
+    index = 842,
     label = "CC(C)OO",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -33048,7 +33113,7 @@ H 10.02827032 10.43432177 10.43432177
 
 
 entry(
-    index = 842,
+    index = 843,
     label = "N(C#N)N=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -33075,7 +33140,7 @@ H 12.1180502 12.25068905 12.25068905
 
 
 entry(
-    index = 843,
+    index = 844,
     label = "C=COC(C)=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -33114,7 +33179,7 @@ H 11.19458665 13.6555053 13.6555053
 
 
 entry(
-    index = 844,
+    index = 845,
     label = "COCOCN",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -33159,7 +33224,7 @@ H 9.56453795 12.03198984 12.03198984
 
 
 entry(
-    index = 845,
+    index = 846,
     label = "ONCO",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -33192,7 +33257,7 @@ H 9.86394923 10.84999582 10.84999582
 
 
 entry(
-    index = 846,
+    index = 847,
     label = "C=C=CC=N",
     molecule = """
 1  N u0 p1 c0 {3,D} {10,S}
@@ -33227,7 +33292,7 @@ H 9.51187783 12.32509543 12.32509543
 
 
 entry(
-    index = 847,
+    index = 848,
     label = "O=C(O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -33254,7 +33319,7 @@ H 10.18554104 10.5476163 10.5476163
 
 
 entry(
-    index = 848,
+    index = 849,
     label = "N=NOC=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -33283,7 +33348,7 @@ H 14.26697268 11.34503343 11.34503343
 
 
 entry(
-    index = 849,
+    index = 850,
     label = "CC(C)C=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -33324,7 +33389,7 @@ H 11.01746201 10.35003288 10.35003288
 
 
 entry(
-    index = 850,
+    index = 851,
     label = "NOC=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -33357,7 +33422,7 @@ H 14.78316247 11.68520097 11.68520097
 
 
 entry(
-    index = 851,
+    index = 852,
     label = "OCON=N",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -33390,7 +33455,7 @@ H 14.04328204 11.67255715 11.67255715
 
 
 entry(
-    index = 852,
+    index = 853,
     label = "C=COC(=C)C",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -33433,7 +33498,7 @@ H 9.93930757 12.17055191 12.17055191
 
 
 entry(
-    index = 853,
+    index = 854,
     label = "COCOOC=O",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -33474,7 +33539,7 @@ H 16.69145563 11.30932226 11.30932226
 
 
 entry(
-    index = 854,
+    index = 855,
     label = "NNCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -33511,7 +33576,7 @@ H 14.64489125 11.13751346 11.13751346
 
 
 entry(
-    index = 855,
+    index = 856,
     label = "CC(O)CO",
     molecule = """
 1  O u0 p2 c0 {3,S} {13,S}
@@ -33552,7 +33617,7 @@ H 12.20278704 10.16939324 10.16939324
 
 
 entry(
-    index = 856,
+    index = 857,
     label = "C=NC#N",
     molecule = """
 1 N u0 p1 c0 {3,D} {4,S}
@@ -33579,7 +33644,7 @@ H 9.98429764 9.98657348 9.98657348
 
 
 entry(
-    index = 857,
+    index = 858,
     label = "[O-]N=[NH+]C(O)C",
     molecule = """
 1  O u0 p2 c0 {5,S} {12,S}
@@ -33618,7 +33683,7 @@ H 12.57442442 13.42944589 13.42944589
 
 
 entry(
-    index = 858,
+    index = 859,
     label = "NNC#N",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -33647,7 +33712,7 @@ H 10.32045858 11.49035446 11.49035446
 
 
 entry(
-    index = 859,
+    index = 860,
     label = "NNOC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -33684,7 +33749,7 @@ H 10.73526041 10.00887935 10.00887935
 
 
 entry(
-    index = 860,
+    index = 861,
     label = "CC(=O)C=C=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -33719,7 +33784,7 @@ H 13.87860249 10.26692417 10.26692417
 
 
 entry(
-    index = 861,
+    index = 862,
     label = "CNOO",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -33752,7 +33817,7 @@ H 14.41883846 11.02568272 11.02568272
 
 
 entry(
-    index = 862,
+    index = 863,
     label = "O=COC#N",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -33779,7 +33844,7 @@ H 10.09390526 10.27359347 10.27359347
 
 
 entry(
-    index = 863,
+    index = 864,
     label = "1Nu0p1c0{2,S}{6,S}{7,S}{8,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{1,S}7Hu0p0c0{1,S}8Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -33792,11 +33857,11 @@ entry(
 7 H u0 p0 c0 {2,S}
 8 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.0731082,0.0234679,-1.1446e-05,1.24178e-09,6.13752e-13,-9.62746e+08,8.16707], Tmin=(298.15,'K'), Tmax=(885.297,'K')), NASAPolynomial(coeffs=[-0.0536683,0.0241966,-1.40644e-05,4.25552e-09,-5.31536e-13,-9.62746e+08,7.89491], Tmin=(885.297,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00472e+06,'kJ/mol'), Cp0=(8.3151,'J/(mol*K)'), CpInf=(166.289,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.0731082,0.0234679,-1.1446e-05,1.24178e-09,6.13752e-13,-16977.9,8.16707], Tmin=(298.15,'K'), Tmax=(885.297,'K')), NASAPolynomial(coeffs=[-0.0536683,0.0241966,-1.40644e-05,4.25552e-09,-5.31536e-13,-17013.4,7.89491], Tmin=(885.297,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-141.592,'kJ/mol'), Cp0=(8.3151,'J/(mol*K)'), CpInf=(166.289,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913172.878731022 [kcal/mol]
+Hf298: -31.90641554460845 [kcal/mol]
 Sf298: 28.31356647044792 [cal/(mol-K)]
 43
 Pt 0.0 0.0 8.0
@@ -33848,7 +33913,7 @@ H 6.69589607 5.23251555 17.42250625
 
 
 entry(
-    index = 864,
+    index = 865,
     label = "CC=CCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {16,S}
@@ -33895,7 +33960,7 @@ H 9.85954989 11.77294774 11.77294774
 
 
 entry(
-    index = 865,
+    index = 866,
     label = "C=CC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -33926,7 +33991,7 @@ H 10.01689132 12.22199016 12.22199016
 
 
 entry(
-    index = 866,
+    index = 867,
     label = "NCC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -33959,7 +34024,7 @@ H 10.02781284 11.53476153 11.53476153
 
 
 entry(
-    index = 867,
+    index = 868,
     label = "O=CCO",
     molecule = """
 1 O u0 p2 c0 {3,S} {8,S}
@@ -33990,7 +34055,7 @@ H 12.91292789 10.09454848 10.09454848
 
 
 entry(
-    index = 868,
+    index = 869,
     label = "O=C(O)OOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {7,S}
@@ -34025,7 +34090,7 @@ H 16.72334216 11.43670871 11.43670871
 
 
 entry(
-    index = 869,
+    index = 870,
     label = "CC(O)=CC=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {12,S}
@@ -34064,7 +34129,7 @@ H 11.08835491 13.64013983 13.64013983
 
 
 entry(
-    index = 870,
+    index = 871,
     label = "C=C",
     molecule = """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -34091,7 +34156,7 @@ H 10.21876176 10.00373329 10.00373329
 
 
 entry(
-    index = 871,
+    index = 872,
     label = "CC=NN",
     molecule = """
 1  N u0 p1 c0 {2,S} {9,S} {10,S}
@@ -34126,7 +34191,7 @@ H 14.81290917 11.3994935 11.3994935
 
 
 entry(
-    index = 872,
+    index = 873,
     label = "CN=NC(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {10,S}
@@ -34161,7 +34226,7 @@ H 15.8740542 10.12787582 10.12787582
 
 
 entry(
-    index = 873,
+    index = 874,
     label = "CNCC",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,S} {13,S}
@@ -34202,7 +34267,7 @@ H 11.92369968 12.49043408 12.49043408
 
 
 entry(
-    index = 874,
+    index = 875,
     label = "NNO",
     molecule = """
 1 O u0 p2 c0 {2,S} {7,S}
@@ -34231,7 +34296,7 @@ H 10.08078553 10.08602497 10.08602497
 
 
 entry(
-    index = 875,
+    index = 876,
     label = "C=COC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {5,S} {6,S}
@@ -34276,7 +34341,7 @@ H 15.26645069 10.35547956 10.35547956
 
 
 entry(
-    index = 876,
+    index = 877,
     label = "CN=NNO",
     molecule = """
 1  O u0 p2 c0 {2,S} {10,S}
@@ -34311,7 +34376,7 @@ H 13.89899695 10.53837447 10.53837447
 
 
 entry(
-    index = 877,
+    index = 878,
     label = "C=CCC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -34360,7 +34425,7 @@ H 9.87567737 12.5585062 12.5585062
 
 
 entry(
-    index = 878,
+    index = 879,
     label = "NC=C=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -34391,7 +34456,7 @@ H 10.25214186 9.62968821 9.62968821
 
 
 entry(
-    index = 879,
+    index = 880,
     label = "C=CCN=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {5,D}
@@ -34430,7 +34495,7 @@ H 9.95995947 12.54549851 12.54549851
 
 
 entry(
-    index = 880,
+    index = 881,
     label = "O=CCOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -34469,7 +34534,7 @@ H 10.92894206 12.47926924 12.47926924
 
 
 entry(
-    index = 881,
+    index = 882,
     label = "CN=C=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,D}
@@ -34502,7 +34567,7 @@ H 14.89151154 9.78233047 9.78233047
 
 
 entry(
-    index = 882,
+    index = 883,
     label = "C=C=C=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -34531,7 +34596,7 @@ H 10.05168967 10.08140217 10.08140217
 
 
 entry(
-    index = 883,
+    index = 884,
     label = "[O-]N=[NH+]C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -34560,7 +34625,7 @@ H 10.05630385 11.02321139 11.02321139
 
 
 entry(
-    index = 884,
+    index = 885,
     label = "OC(=O)ON=C",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -34593,7 +34658,7 @@ H 10.27878022 11.81194261 11.81194261
 
 
 entry(
-    index = 885,
+    index = 886,
     label = "O=C=C=C=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -34620,7 +34685,7 @@ C 15.00781891 10.28449833 10.28449833
 
 
 entry(
-    index = 886,
+    index = 887,
     label = "CCCN=C",
     molecule = """
 1  N u0 p1 c0 {3,S} {5,D}
@@ -34663,7 +34728,7 @@ H 15.40855095 11.4830553 11.4830553
 
 
 entry(
-    index = 887,
+    index = 888,
     label = "NCNN=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -34698,7 +34763,7 @@ H 10.18778001 11.30074445 11.30074445
 
 
 entry(
-    index = 888,
+    index = 889,
     label = "ONC(O)C",
     molecule = """
 1  O u0 p2 c0 {4,S} {11,S}
@@ -34737,7 +34802,7 @@ H 10.49776767 11.62704667 11.62704667
 
 
 entry(
-    index = 889,
+    index = 890,
     label = "[Pt]C=CC#[Pt]",
     molecule = 
 """
@@ -34749,11 +34814,11 @@ entry(
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.60844,0.0433577,-5.48401e-05,3.5473e-08,-9.16523e-12,-9.62722e+08,8.95966], Tmin=(298.15,'K'), Tmax=(905.58,'K')), NASAPolynomial(coeffs=[3.06005,0.0183161,-1.33555e-05,4.92873e-09,-7.3181e-13,-9.62724e+08,-17.8245], Tmin=(905.58,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00453e+06,'kJ/mol'), Cp0=(0.00145209,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.60844,0.0433577,-5.48401e-05,3.5473e-08,-9.16523e-12,6323.26,8.95966], Tmin=(298.15,'K'), Tmax=(905.58,'K')), NASAPolynomial(coeffs=[3.06005,0.0183161,-1.33555e-05,4.92873e-09,-7.3181e-13,5296.76,-17.8245], Tmin=(905.58,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(51.4214,'kJ/mol'), Cp0=(0.00145209,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913126.95656634 [kcal/mol]
+Hf298: 14.015749136937549 [kcal/mol]
 Sf298: 9.696697300146088 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -34802,7 +34867,7 @@ H 8.06049145 5.04583525 17.87943537
 
 
 entry(
-    index = 890,
+    index = 891,
     label = "OC=[Pt]",
     molecule = 
 """
@@ -34812,11 +34877,11 @@ entry(
 4 H u0 p0 c0 {3,S}
 5 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.498765,0.0305392,-4.30634e-05,3.22682e-08,-9.73489e-12,-9.62755e+08,0.815258], Tmin=(298.15,'K'), Tmax=(781.851,'K')), NASAPolynomial(coeffs=[2.94821,0.0129041,-9.22982e-06,3.41887e-09,-5.10127e-13,-9.62755e+08,-14.9661], Tmin=(781.851,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.0048e+06,'kJ/mol'), Cp0=(0.000430789,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.498765,0.0305392,-4.30634e-05,3.22682e-08,-9.73489e-12,-25934.4,0.815258], Tmin=(298.15,'K'), Tmax=(781.851,'K')), NASAPolynomial(coeffs=[2.94821,0.0129041,-9.22982e-06,3.41887e-09,-5.10127e-13,-26473.4,-14.9661], Tmin=(781.851,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-215.326,'kJ/mol'), Cp0=(0.000430789,'J/(mol*K)'), CpInf=(99.7735,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913190.7476629512 [kcal/mol]
+Hf298: -49.77534747437986 [kcal/mol]
 Sf298: 10.786113039464276 [cal/(mol-K)]
 40
 Pt -0.0 -0.0 8.0
@@ -34864,7 +34929,7 @@ H 5.72211366 3.3035525 18.44156305
 
 
 entry(
-    index = 891,
+    index = 892,
     label = "OCON=O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -34895,7 +34960,7 @@ H 10.32167335 10.05110815 10.05110815
 
 
 entry(
-    index = 892,
+    index = 893,
     label = "COCOOC",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -34938,7 +35003,7 @@ H 16.42847511 10.09557621 10.09557621
 
 
 entry(
-    index = 893,
+    index = 894,
     label = "[O-]N=[NH+]C=CC",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -34977,7 +35042,7 @@ H 14.51327679 13.38570035 13.38570035
 
 
 entry(
-    index = 894,
+    index = 895,
     label = "NC=CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -35012,7 +35077,7 @@ H 9.99156452 12.27947809 12.27947809
 
 
 entry(
-    index = 895,
+    index = 896,
     label = "CC(=CN)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {12,S}
@@ -35051,7 +35116,7 @@ H 12.80960376 13.92559796 13.92559796
 
 
 entry(
-    index = 896,
+    index = 897,
     label = "CC(O)OC(=O)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {7,S}
@@ -35092,7 +35157,7 @@ H 15.78383848 11.15041451 11.15041451
 
 
 entry(
-    index = 897,
+    index = 898,
     label = "COCOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -35135,7 +35200,7 @@ H 16.53296504 12.4752658 12.4752658
 
 
 entry(
-    index = 898,
+    index = 899,
     label = "CCN=NC",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -35176,7 +35241,7 @@ H 10.21556532 10.36032038 10.36032038
 
 
 entry(
-    index = 899,
+    index = 900,
     label = "C=C=CC=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -35209,7 +35274,7 @@ H 14.55951315 9.80003839 9.80003839
 
 
 entry(
-    index = 900,
+    index = 901,
     label = "O=NC(=O)O",
     molecule = """
 1 O u0 p2 c0 {5,S} {6,S}
@@ -35236,7 +35301,7 @@ H 13.91072467 10.25486342 10.25486342
 
 
 entry(
-    index = 901,
+    index = 902,
     label = "C=C(O)C=C=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -35271,7 +35336,7 @@ H 10.95756902 12.00836722 12.00836722
 
 
 entry(
-    index = 902,
+    index = 903,
     label = "CN=NC(=C)C",
     molecule = """
 1  N u0 p1 c0 {2,D} {4,S}
@@ -35314,7 +35379,7 @@ H 15.49101255 11.46596273 11.46596273
 
 
 entry(
-    index = 903,
+    index = 904,
     label = "C=CON=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -35347,7 +35412,7 @@ H 15.40483135 12.12666303 12.12666303
 
 
 entry(
-    index = 904,
+    index = 905,
     label = "CCC=C(C)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {16,S}
@@ -35394,7 +35459,7 @@ H 15.32364635 13.29961575 13.29961575
 
 
 entry(
-    index = 905,
+    index = 906,
     label = "CCC=[Pt]",
     molecule = 
 """
@@ -35409,11 +35474,11 @@ entry(
 9  H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.02858,0.0462062,-4.04332e-05,2.07096e-08,-4.73024e-12,-9.6274e+08,8.17044], Tmin=(298.15,'K'), Tmax=(890.354,'K')), NASAPolynomial(coeffs=[0.333658,0.0355938,-2.25545e-05,7.32283e-09,-9.71474e-13,-9.6274e+08,-2.95168], Tmin=(890.354,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00467e+06,'kJ/mol'), Cp0=(0.00573008,'J/(mol*K)'), CpInf=(224.49,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-2.02858,0.0462062,-4.04332e-05,2.07096e-08,-4.73024e-12,-10930,8.17044], Tmin=(298.15,'K'), Tmax=(890.354,'K')), NASAPolynomial(coeffs=[0.333658,0.0355938,-2.25545e-05,7.32283e-09,-9.71474e-13,-11350.7,-2.95168], Tmin=(890.354,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-91.5111,'kJ/mol'), Cp0=(0.00573008,'J/(mol*K)'), CpInf=(224.49,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913160.4488757488 [kcal/mol]
+Hf298: -19.47656027192966 [kcal/mol]
 Sf298: 17.409767401753232 [cal/(mol-K)]
 45
 Pt 0.0 -0.0 8.0
@@ -35466,7 +35531,7 @@ H 6.7654829 4.26576592 17.11868872
 
 
 entry(
-    index = 906,
+    index = 907,
     label = "1Ou0p2c0{2,S}{5,S}{6,vdW}2Nu0p1c0{1,S}{3,S}{4,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{1,vdW}",
     molecule = 
 """
@@ -35477,11 +35542,11 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.23888,0.0241096,-3.37645e-05,2.88065e-08,-1.0194e-11,-9.62743e+08,3.51117], Tmin=(298.15,'K'), Tmax=(673.45,'K')), NASAPolynomial(coeffs=[3.27972,0.0119879,-6.76534e-06,2.07914e-09,-2.72153e-13,-9.62743e+08,-5.52784], Tmin=(673.45,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.0047e+06,'kJ/mol'), Cp0=(8.34642,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.23888,0.0241096,-3.37645e-05,2.88065e-08,-1.0194e-11,-14147.5,3.51117], Tmin=(298.15,'K'), Tmax=(673.45,'K')), NASAPolynomial(coeffs=[3.27972,0.0119879,-6.76534e-06,2.07914e-09,-2.72153e-13,-14422.4,-5.52784], Tmin=(673.45,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-116.957,'kJ/mol'), Cp0=(8.34642,'J/(mol*K)'), CpInf=(116.402,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913166.713838072 [kcal/mol]
+Hf298: -25.74152259495118 [kcal/mol]
 Sf298: 32.76639590477895 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -35531,7 +35596,7 @@ H 6.12284455 4.00067573 17.78637817
 
 
 entry(
-    index = 907,
+    index = 908,
     label = "O=C=CC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -35560,7 +35625,7 @@ H 9.59785486 11.37896683 11.37896683
 
 
 entry(
-    index = 908,
+    index = 909,
     label = "CC(N=N)C",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -35601,7 +35666,7 @@ H 10.52330589 10.16771864 10.16771864
 
 
 entry(
-    index = 909,
+    index = 910,
     label = "O=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -35620,7 +35685,7 @@ O 9.95567042 10.0000654 10.0000654
 
 
 entry(
-    index = 910,
+    index = 911,
     label = "CC=COCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {6,S}
@@ -35667,7 +35732,7 @@ H 13.67553276 10.6382254 10.6382254
 
 
 entry(
-    index = 911,
+    index = 912,
     label = "CN=NOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -35706,7 +35771,7 @@ H 11.65980551 12.37366973 12.37366973
 
 
 entry(
-    index = 912,
+    index = 913,
     label = "CNN=N",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,S} {8,S}
@@ -35739,7 +35804,7 @@ H 14.34924319 10.28091998 10.28091998
 
 
 entry(
-    index = 913,
+    index = 914,
     label = "CCON=N",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -35776,7 +35841,7 @@ H 13.82687147 10.53452151 10.53452151
 
 
 entry(
-    index = 914,
+    index = 915,
     label = "ONC#N",
     molecule = """
 1 O u0 p2 c0 {2,S} {6,S}
@@ -35803,7 +35868,7 @@ H 9.70715042 10.23188189 10.23188189
 
 
 entry(
-    index = 915,
+    index = 916,
     label = "[O-]N=[NH+]OC=C",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -35838,7 +35903,7 @@ H 10.85200913 10.80104738 10.80104738
 
 
 entry(
-    index = 916,
+    index = 917,
     label = "NOC#N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -35865,7 +35930,7 @@ H 10.09125932 10.172419 10.172419
 
 
 entry(
-    index = 917,
+    index = 918,
     label = "CCC(=O)C(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {17,S}
@@ -35914,7 +35979,7 @@ H 9.98134727 10.03199909 10.03199909
 
 
 entry(
-    index = 918,
+    index = 919,
     label = "C=C=CCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -35961,7 +36026,7 @@ H 16.06738789 12.08586103 12.08586103
 
 
 entry(
-    index = 919,
+    index = 920,
     label = "CC(O)=C=C=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -35996,7 +36061,7 @@ H 12.0852351 13.80161687 13.80161687
 
 
 entry(
-    index = 920,
+    index = 921,
     label = "CNOC(=O)O",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -36033,7 +36098,7 @@ H 15.8830311 11.44212599 11.44212599
 
 
 entry(
-    index = 921,
+    index = 922,
     label = "[O-]N=[NH+]C(=O)C",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -36068,7 +36133,7 @@ H 12.74655398 10.18827483 10.18827483
 
 
 entry(
-    index = 922,
+    index = 923,
     label = "[O-]N=[NH+]OCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {6,S}
@@ -36103,7 +36168,7 @@ H 11.7003896 10.44544373 10.44544373
 
 
 entry(
-    index = 923,
+    index = 924,
     label = "C=C=CCC=C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -36146,7 +36211,7 @@ H 17.22848598 12.82041418 12.82041418
 
 
 entry(
-    index = 924,
+    index = 925,
     label = "C=C(O)CC",
     molecule = """
 1  O u0 p2 c0 {4,S} {13,S}
@@ -36187,7 +36252,7 @@ H 11.29006463 13.50782606 13.50782606
 
 
 entry(
-    index = 925,
+    index = 926,
     label = "CNCC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -36226,7 +36291,7 @@ H 13.98662604 10.039345 10.039345
 
 
 entry(
-    index = 926,
+    index = 927,
     label = "O=CCC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -36259,7 +36324,7 @@ H 9.9632074 10.89987182 10.89987182
 
 
 entry(
-    index = 927,
+    index = 928,
     label = "C=C(O)OO",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -36292,7 +36357,7 @@ H 13.98401368 11.13285236 11.13285236
 
 
 entry(
-    index = 928,
+    index = 929,
     label = "CN=C=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -36323,7 +36388,7 @@ H 10.38376371 11.57892954 11.57892954
 
 
 entry(
-    index = 929,
+    index = 930,
     label = "C=NCC=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -36358,7 +36423,7 @@ H 10.08331881 12.36206099 12.36206099
 
 
 entry(
-    index = 930,
+    index = 931,
     label = "CCC=NN",
     molecule = """
 1  N u0 p1 c0 {2,S} {12,S} {13,S}
@@ -36399,7 +36464,7 @@ H 15.53367276 13.08069628 13.08069628
 
 
 entry(
-    index = 931,
+    index = 932,
     label = "COCON=C",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -36440,7 +36505,7 @@ H 16.08784779 10.33193131 10.33193131
 
 
 entry(
-    index = 932,
+    index = 933,
     label = "C=COCC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -36479,7 +36544,7 @@ H 10.01456561 9.99848899 9.99848899
 
 
 entry(
-    index = 933,
+    index = 934,
     label = "ON=C=C=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {6,S}
@@ -36506,7 +36571,7 @@ H 10.14097988 11.17480888 11.17480888
 
 
 entry(
-    index = 934,
+    index = 935,
     label = "CCC(=O)OC(=O)O",
     molecule = """
 1  O u0 p2 c0 {7,S} {8,S}
@@ -36549,7 +36614,7 @@ H 16.67886091 12.54257919 12.54257919
 
 
 entry(
-    index = 935,
+    index = 936,
     label = "CC#[Pt]",
     molecule = 
 """
@@ -36560,11 +36625,11 @@ entry(
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.924583,0.0293682,-3.18019e-05,2.02081e-08,-5.54614e-12,-9.62741e+08,2.6521], Tmin=(298.15,'K'), Tmax=(805.265,'K')), NASAPolynomial(coeffs=[1.16357,0.0189957,-1.24804e-05,4.21198e-09,-5.8001e-13,-9.62741e+08,-6.96975], Tmin=(805.265,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00468e+06,'kJ/mol'), Cp0=(5.10029e-06,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.924583,0.0293682,-3.18019e-05,2.02081e-08,-5.54614e-12,-12101.5,2.6521], Tmin=(298.15,'K'), Tmax=(805.265,'K')), NASAPolynomial(coeffs=[1.16357,0.0189957,-1.24804e-05,4.21198e-09,-5.8001e-13,-12437.8,-6.96975], Tmin=(805.265,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-100.7,'kJ/mol'), Cp0=(5.10029e-06,'J/(mol*K)'), CpInf=(124.717,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913163.4601441068 [kcal/mol]
+Hf298: -22.487828629571165 [kcal/mol]
 Sf298: 9.72071998812809 [cal/(mol-K)]
 41
 Pt -0.0 -0.0 8.0
@@ -36613,7 +36678,7 @@ H 6.54232158 3.72915496 18.10926694
 
 
 entry(
-    index = 936,
+    index = 937,
     label = "O=C(O)OO",
     molecule = """
 1 O u0 p2 c0 {3,S} {5,S}
@@ -36642,7 +36707,7 @@ H 14.19481535 10.3934295 10.3934295
 
 
 entry(
-    index = 937,
+    index = 938,
     label = "CC=CCC=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -36685,7 +36750,7 @@ H 15.74021526 11.21444034 11.21444034
 
 
 entry(
-    index = 938,
+    index = 939,
     label = "C=COCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -36722,7 +36787,7 @@ H 15.5459027 11.19637703 11.19637703
 
 
 entry(
-    index = 939,
+    index = 940,
     label = "NCOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -36761,7 +36826,7 @@ H 10.1408344 13.49139031 13.49139031
 
 
 entry(
-    index = 940,
+    index = 941,
     label = "C",
     molecule = """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -36786,7 +36851,7 @@ H 10.02748909 11.14768314 11.14768314
 
 
 entry(
-    index = 941,
+    index = 942,
     label = "O=NNC(=O)C",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -36821,7 +36886,7 @@ H 12.719137 12.79195827 12.79195827
 
 
 entry(
-    index = 942,
+    index = 943,
     label = "OCCOO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -36858,7 +36923,7 @@ H 14.18563036 12.56195861 12.56195861
 
 
 entry(
-    index = 943,
+    index = 944,
     label = "CONO",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -36891,7 +36956,7 @@ H 10.06246167 10.04678632 10.04678632
 
 
 entry(
-    index = 944,
+    index = 945,
     label = "NN=C=C=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {8,S} {9,S}
@@ -36924,7 +36989,7 @@ H 9.5293911 10.07285223 10.07285223
 
 
 entry(
-    index = 945,
+    index = 946,
     label = "CC(=C)C=N",
     molecule = """
 1  N u0 p1 c0 {4,D} {12,S}
@@ -36963,7 +37028,7 @@ H 14.91171283 10.42278436 10.42278436
 
 
 entry(
-    index = 946,
+    index = 947,
     label = "C=COOC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -37000,7 +37065,7 @@ H 11.59797022 11.19563803 11.19563803
 
 
 entry(
-    index = 947,
+    index = 948,
     label = "CC(C)=C=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -37039,7 +37104,7 @@ H 11.45609402 9.6851923 9.6851923
 
 
 entry(
-    index = 948,
+    index = 949,
     label = "CCN=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,D}
@@ -37076,7 +37141,7 @@ H 14.24631379 10.49839196 10.49839196
 
 
 entry(
-    index = 949,
+    index = 950,
     label = "[O-]N=[NH+]OCOC",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -37117,7 +37182,7 @@ H 15.53728116 10.30182772 10.30182772
 
 
 entry(
-    index = 950,
+    index = 951,
     label = "CN=N[Pt]",
     molecule = 
 """
@@ -37129,11 +37194,11 @@ entry(
 6 H u0 p0 c0 {4,S}
 7 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.04658,0.022976,-1.59392e-05,5.61322e-09,-7.70591e-13,-9.62725e+08,2.87808], Tmin=(298.15,'K'), Tmax=(1045.19,'K')), NASAPolynomial(coeffs=[2.10124,0.0196112,-1.20739e-05,3.76245e-09,-4.74928e-13,-9.62726e+08,-2.43212], Tmin=(1045.19,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00455e+06,'kJ/mol'), Cp0=(8.31448,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.04658,0.022976,-1.59392e-05,5.61322e-09,-7.70591e-13,3529.6,2.87808], Tmin=(298.15,'K'), Tmax=(1045.19,'K')), NASAPolynomial(coeffs=[2.10124,0.0196112,-1.20739e-05,3.76245e-09,-4.74928e-13,3272.46,-2.43212], Tmin=(1045.19,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(29.654,'kJ/mol'), Cp0=(8.31448,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913131.5693340213 [kcal/mol]
+Hf298: 9.402981455787836 [kcal/mol]
 Sf298: 29.863067131957745 [cal/(mol-K)]
 42
 Pt -0.0 -0.0 8.0
@@ -37184,7 +37249,7 @@ H 5.86250459 5.57091808 18.0630565
 
 
 entry(
-    index = 951,
+    index = 952,
     label = "C=C=C=CC=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -37219,7 +37284,7 @@ H 16.08326443 10.03535396 10.03535396
 
 
 entry(
-    index = 952,
+    index = 953,
     label = "OCO[Pt]",
     molecule = 
 """
@@ -37231,11 +37296,11 @@ entry(
 6 H u0 p0 c0 {4,S}
 7 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.26065,0.0297696,-2.96413e-05,1.6802e-08,-4.10124e-12,-9.62774e+08,7.18367], Tmin=(298.15,'K'), Tmax=(876.559,'K')), NASAPolynomial(coeffs=[2.29508,0.0204859,-1.37547e-05,4.71946e-09,-6.55215e-13,-9.62775e+08,-2.36326], Tmin=(876.559,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00496e+06,'kJ/mol'), Cp0=(8.3164,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.26065,0.0297696,-2.96413e-05,1.6802e-08,-4.10124e-12,-45645.1,7.18367], Tmin=(298.15,'K'), Tmax=(876.559,'K')), NASAPolynomial(coeffs=[2.29508,0.0204859,-1.37547e-05,4.71946e-09,-6.55215e-13,-46001.7,-2.36326], Tmin=(876.559,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-379.499,'kJ/mol'), Cp0=(8.3164,'J/(mol*K)'), CpInf=(141.346,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913229.3550005301 [kcal/mol]
+Hf298: -88.3826850530545 [kcal/mol]
 Sf298: 32.518591413646426 [cal/(mol-K)]
 42
 Pt 0.0 -0.0 8.0
@@ -37286,7 +37351,7 @@ H 5.30159318 4.44304433 19.47859715
 
 
 entry(
-    index = 953,
+    index = 954,
     label = "CC(=O)NN",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -37323,7 +37388,7 @@ H 14.90358462 11.99788042 11.99788042
 
 
 entry(
-    index = 954,
+    index = 955,
     label = "CCCNO",
     molecule = """
 1  O u0 p2 c0 {2,S} {14,S}
@@ -37366,7 +37431,7 @@ H 15.6058487 11.13210131 11.13210131
 
 
 entry(
-    index = 955,
+    index = 956,
     label = "NN=CO",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -37397,7 +37462,7 @@ H 10.23710611 10.1822727 10.1822727
 
 
 entry(
-    index = 956,
+    index = 957,
     label = "CN=O",
     molecule = """
 1 O u0 p2 c0 {2,D}
@@ -37424,7 +37489,7 @@ H 10.72581289 10.99950344 10.99950344
 
 
 entry(
-    index = 957,
+    index = 958,
     label = "ON=CO",
     molecule = """
 1 O u0 p2 c0 {4,S} {6,S}
@@ -37453,7 +37518,7 @@ H 13.89143976 10.85998498 10.85998498
 
 
 entry(
-    index = 958,
+    index = 959,
     label = "CCC(=O)NC",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -37498,7 +37563,7 @@ H 14.40235371 10.14640117 10.14640117
 
 
 entry(
-    index = 959,
+    index = 960,
     label = "C=COC(C)C",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -37545,7 +37610,7 @@ H 14.58516429 12.9439571 12.9439571
 
 
 entry(
-    index = 960,
+    index = 961,
     label = "CCONC",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -37588,7 +37653,7 @@ H 11.69181973 12.42988982 12.42988982
 
 
 entry(
-    index = 961,
+    index = 962,
     label = "OCNN=O",
     molecule = """
 1 O u0 p2 c0 {5,S} {9,S}
@@ -37621,7 +37686,7 @@ H 10.18924828 13.03272452 13.03272452
 
 
 entry(
-    index = 962,
+    index = 963,
     label = "CCO",
     molecule = """
 1 O u0 p2 c0 {2,S} {9,S}
@@ -37654,7 +37719,7 @@ H 10.15681819 12.48446143 12.48446143
 
 
 entry(
-    index = 963,
+    index = 964,
     label = "C=CCOO",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -37691,7 +37756,7 @@ H 16.06984592 11.23172207 11.23172207
 
 
 entry(
-    index = 964,
+    index = 965,
     label = "O=C=COCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -37726,7 +37791,7 @@ H 11.51949775 9.31689787 9.31689787
 
 
 entry(
-    index = 965,
+    index = 966,
     label = "N=CC=N",
     molecule = """
 1 N u0 p1 c0 {3,D} {7,S}
@@ -37757,7 +37822,7 @@ H 14.38351038 10.84570572 10.84570572
 
 
 entry(
-    index = 966,
+    index = 967,
     label = "CCCC=C=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -37800,7 +37865,7 @@ H 14.81614404 13.00119643 13.00119643
 
 
 entry(
-    index = 967,
+    index = 968,
     label = "COC",
     molecule = """
 1 O u0 p2 c0 {2,S} {3,S}
@@ -37833,7 +37898,7 @@ H 13.33548016 10.01473626 10.01473626
 
 
 entry(
-    index = 968,
+    index = 969,
     label = "OCOCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -37870,7 +37935,7 @@ H 9.70535082 12.48667609 12.48667609
 
 
 entry(
-    index = 969,
+    index = 970,
     label = "NNCN",
     molecule = """
 1  N u0 p1 c0 {3,S} {4,S} {7,S}
@@ -37907,7 +37972,7 @@ H 11.5333682 11.96081188 11.96081188
 
 
 entry(
-    index = 970,
+    index = 971,
     label = "CN=NC",
     molecule = """
 1  N u0 p1 c0 {2,D} {3,S}
@@ -37942,7 +38007,7 @@ H 14.37810484 11.16878111 11.16878111
 
 
 entry(
-    index = 971,
+    index = 972,
     label = "C=CCCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -37987,7 +38052,7 @@ H 15.52804958 11.61218251 11.61218251
 
 
 entry(
-    index = 972,
+    index = 973,
     label = "CCC[Pt]",
     molecule = 
 """
@@ -38003,11 +38068,11 @@ entry(
 10 H u0 p0 c0 {4,S}
 11 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.94487,0.0416969,-2.60069e-05,6.89621e-09,-9.83875e-14,-9.62744e+08,16.2697], Tmin=(298.15,'K'), Tmax=(867.463,'K')), NASAPolynomial(coeffs=[-0.680286,0.0378444,-2.27667e-05,7.0355e-09,-8.96335e-13,-9.62744e+08,9.91957], Tmin=(867.463,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00471e+06,'kJ/mol'), Cp0=(8.31456,'J/(mol*K)'), CpInf=(241.119,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.94487,0.0416969,-2.60069e-05,6.89621e-09,-9.83875e-14,-15115,16.2697], Tmin=(298.15,'K'), Tmax=(867.463,'K')), NASAPolynomial(coeffs=[-0.680286,0.0378444,-2.27667e-05,7.0355e-09,-8.96335e-13,-15408.9,9.91957], Tmin=(867.463,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-127.246,'kJ/mol'), Cp0=(8.31456,'J/(mol*K)'), CpInf=(241.119,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913168.9105479121 [kcal/mol]
+Hf298: -27.938232435215106 [kcal/mol]
 Sf298: 32.831064672094186 [cal/(mol-K)]
 46
 Pt -0.0 -0.0 8.0
@@ -38062,7 +38127,7 @@ H 7.8333593 3.42152546 17.52877035
 
 
 entry(
-    index = 973,
+    index = 974,
     label = "CN=NC=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -38095,7 +38160,7 @@ H 14.41773684 10.21445716 10.21445716
 
 
 entry(
-    index = 974,
+    index = 975,
     label = "CCOC(C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -38142,7 +38207,7 @@ H 13.88564138 11.10870698 11.10870698
 
 
 entry(
-    index = 975,
+    index = 976,
     label = "O=C(O)CCO",
     molecule = """
 1  O u0 p2 c0 {5,S} {11,S}
@@ -38181,7 +38246,7 @@ H 14.63681987 10.70406883 10.70406883
 
 
 entry(
-    index = 976,
+    index = 977,
     label = "CC(C#N)C",
     molecule = """
 1  N u0 p1 c0 {5,T}
@@ -38220,7 +38285,7 @@ H 10.72551672 11.50104085 11.50104085
 
 
 entry(
-    index = 977,
+    index = 978,
     label = "CC(=O)CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -38259,7 +38324,7 @@ H 9.98951954 10.73989596 10.73989596
 
 
 entry(
-    index = 978,
+    index = 979,
     label = "C=C=CC(=O)CC",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -38304,7 +38369,7 @@ H 16.17179808 12.76908361 12.76908361
 
 
 entry(
-    index = 979,
+    index = 980,
     label = "[O-]N=[NH+]CCC",
     molecule = """
 1  O u0 p3 c-1 {3,S}
@@ -38347,7 +38412,7 @@ H 13.57217462 10.33111454 10.33111454
 
 
 entry(
-    index = 980,
+    index = 981,
     label = "[O-]N=[NH+]C(=C)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {10,S}
@@ -38382,18 +38447,18 @@ H 11.57218448 13.36259797 13.36259797
 
 
 entry(
-    index = 981,
+    index = 982,
     label = "[Pt]",
     molecule = 
 """
 1 X u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.941115,0.0113751,-1.36817e-05,7.60214e-09,-1.60035e-12,-9.62733e+08,3.15425], Tmin=(298.15,'K'), Tmax=(1005.12,'K')), NASAPolynomial(coeffs=[1.21968,0.00351967,-3.06841e-06,1.29883e-09,-2.15648e-13,-9.62733e+08,-7.46822], Tmin=(1005.12,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00461e+06,'kJ/mol'), Cp0=(2.14507e-28,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-0.941115,0.0113751,-1.36817e-05,7.60214e-09,-1.60035e-12,-3688.76,3.15425], Tmin=(298.15,'K'), Tmax=(1005.12,'K')), NASAPolynomial(coeffs=[1.21968,0.00351967,-3.06841e-06,1.29883e-09,-2.15648e-13,-4160.7,-7.46822], Tmin=(1005.12,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-31.2343,'kJ/mol'), Cp0=(2.14507e-28,'J/(mol*K)'), CpInf=(24.9434,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913148.0678153196 [kcal/mol]
+Hf298: -7.0954998426083 [kcal/mol]
 Sf298: 1.2694763960309299 [cal/(mol-K)]
 37
 Pt 0.0 0.0 8.0
@@ -38438,7 +38503,7 @@ H 5.77977193 3.33736048 15.79783631
 
 
 entry(
-    index = 982,
+    index = 983,
     label = "C=C=C=CCC",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -38481,7 +38546,7 @@ H 16.52437101 10.67111839 10.67111839
 
 
 entry(
-    index = 983,
+    index = 984,
     label = "COCC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -38518,7 +38583,7 @@ H 9.93089429 11.874282 11.874282
 
 
 entry(
-    index = 984,
+    index = 985,
     label = "[O-]N=[NH+]NC",
     molecule = """
 1  O u0 p3 c-1 {4,S}
@@ -38553,7 +38618,7 @@ H 13.00408106 10.27328443 10.27328443
 
 
 entry(
-    index = 985,
+    index = 986,
     label = "O=C=CCO",
     molecule = """
 1 O u0 p2 c0 {3,S} {9,S}
@@ -38586,7 +38651,7 @@ H 10.18219608 13.2501689 13.2501689
 
 
 entry(
-    index = 986,
+    index = 987,
     label = "CON=N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -38617,7 +38682,7 @@ H 14.21192086 10.82537767 10.82537767
 
 
 entry(
-    index = 987,
+    index = 988,
     label = "C=C=COCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -38656,7 +38721,7 @@ H 11.32481962 12.5551982 12.5551982
 
 
 entry(
-    index = 988,
+    index = 989,
     label = "ONOC=C",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -38691,7 +38756,7 @@ H 10.65628371 10.81431806 10.81431806
 
 
 entry(
-    index = 989,
+    index = 990,
     label = "CC(=O)N",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -38724,7 +38789,7 @@ H 13.03578489 12.65393048 12.65393048
 
 
 entry(
-    index = 990,
+    index = 991,
     label = "CC(O)[Pt]",
     molecule = 
 """
@@ -38738,11 +38803,11 @@ entry(
 8 H u0 p0 c0 {4,S}
 9 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.36416,0.0405095,-3.81792e-05,2.0744e-08,-4.86265e-12,-9.62765e+08,12.9578], Tmin=(298.15,'K'), Tmax=(921.3,'K')), NASAPolynomial(coeffs=[1.60888,0.0276014,-1.71631e-05,5.53643e-09,-7.35979e-13,-9.62765e+08,-1.14173], Tmin=(921.3,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00488e+06,'kJ/mol'), Cp0=(8.31485,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.36416,0.0405095,-3.81792e-05,2.0744e-08,-4.86265e-12,-36000.3,12.9578], Tmin=(298.15,'K'), Tmax=(921.3,'K')), NASAPolynomial(coeffs=[1.60888,0.0276014,-1.71631e-05,5.53643e-09,-7.35979e-13,-36548.1,-1.14173], Tmin=(921.3,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-300.365,'kJ/mol'), Cp0=(8.31485,'J/(mol*K)'), CpInf=(191.233,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913210.3383516 [kcal/mol]
+Hf298: -69.3660361229226 [kcal/mol]
 Sf298: 31.270740715133154 [cal/(mol-K)]
 44
 Pt 0.0 -0.0 8.0
@@ -38795,7 +38860,7 @@ H 8.63231218 3.70952562 17.51616424
 
 
 entry(
-    index = 991,
+    index = 992,
     label = "OOC#N",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -38820,7 +38885,7 @@ H 9.751481 11.45904743 11.45904743
 
 
 entry(
-    index = 992,
+    index = 993,
     label = "ONCC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -38855,7 +38920,7 @@ H 10.55412025 13.01125438 13.01125438
 
 
 entry(
-    index = 993,
+    index = 994,
     label = "COC(C)=O",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -38892,7 +38957,7 @@ H 10.16261373 12.33004389 12.33004389
 
 
 entry(
-    index = 994,
+    index = 995,
     label = "CONN",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -38927,7 +38992,7 @@ H 10.4969756 10.65328229 10.65328229
 
 
 entry(
-    index = 995,
+    index = 996,
     label = "O=C=CC=C=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -38958,7 +39023,7 @@ H 12.49017462 9.9190549 9.9190549
 
 
 entry(
-    index = 996,
+    index = 997,
     label = "CCCNN",
     molecule = """
 1  N u0 p1 c0 {2,S} {4,S} {13,S}
@@ -39003,7 +39068,7 @@ H 14.90345781 13.19177155 13.19177155
 
 
 entry(
-    index = 997,
+    index = 998,
     label = "NN=CN",
     molecule = """
 1 N u0 p1 c0 {4,S} {6,S} {7,S}
@@ -39036,7 +39101,7 @@ H 10.08837041 10.59078097 10.59078097
 
 
 entry(
-    index = 998,
+    index = 999,
     label = "CC(=O)NO",
     molecule = """
 1  O u0 p2 c0 {3,S} {10,S}
@@ -39071,7 +39136,7 @@ H 14.29683718 12.18951327 12.18951327
 
 
 entry(
-    index = 999,
+    index = 1000,
     label = "C=C(C)CCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {16,S}
@@ -39118,7 +39183,7 @@ H 15.72659083 11.74497801 11.74497801
 
 
 entry(
-    index = 1000,
+    index = 1001,
     label = "ONC=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {9,S}
@@ -39151,7 +39216,7 @@ H 14.14303449 11.92507779 11.92507779
 
 
 entry(
-    index = 1001,
+    index = 1002,
     label = "CCC(=O)N=C",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -39192,7 +39257,7 @@ H 15.67827096 12.06684265 12.06684265
 
 
 entry(
-    index = 1002,
+    index = 1003,
     label = "NN=C(C)C",
     molecule = """
 1  N u0 p1 c0 {2,S} {12,S} {13,S}
@@ -39233,7 +39298,7 @@ H 14.53115944 12.1316999 12.1316999
 
 
 entry(
-    index = 1003,
+    index = 1004,
     label = "CC(C)=C(C)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {16,S}
@@ -39280,7 +39345,7 @@ H 13.19606043 12.45411583 12.45411583
 
 
 entry(
-    index = 1004,
+    index = 1005,
     label = "COCOC(C)C",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -39333,7 +39398,7 @@ H 16.53685259 12.60418912 12.60418912
 
 
 entry(
-    index = 1005,
+    index = 1006,
     label = "C=CCNN=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -39372,7 +39437,7 @@ H 11.51381573 13.4124763 13.4124763
 
 
 entry(
-    index = 1006,
+    index = 1007,
     label = "CCC(=O)C=C=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -39413,7 +39478,7 @@ H 14.30717819 10.85662339 10.85662339
 
 
 entry(
-    index = 1007,
+    index = 1008,
     label = "CC(O)=C(C)O",
     molecule = """
 1  O u0 p2 c0 {5,S} {13,S}
@@ -39456,7 +39521,7 @@ H 9.69470544 12.46412816 12.46412816
 
 
 entry(
-    index = 1008,
+    index = 1009,
     label = "CC(C)=O",
     molecule = """
 1  O u0 p2 c0 {4,D}
@@ -39491,7 +39556,7 @@ H 13.62255732 11.12361311 11.12361311
 
 
 entry(
-    index = 1009,
+    index = 1010,
     label = "O=COCO",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -39524,7 +39589,7 @@ H 10.73620905 12.15313604 12.15313604
 
 
 entry(
-    index = 1010,
+    index = 1011,
     label = "NOCCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -39563,7 +39628,7 @@ H 10.13950575 12.96198147 12.96198147
 
 
 entry(
-    index = 1011,
+    index = 1012,
     label = "CCC=NO",
     molecule = """
 1  O u0 p2 c0 {2,S} {12,S}
@@ -39602,7 +39667,7 @@ H 15.38043009 10.28810089 10.28810089
 
 
 entry(
-    index = 1012,
+    index = 1013,
     label = "O=CCNN=O",
     molecule = """
 1  O u0 p2 c0 {6,D}
@@ -39637,7 +39702,7 @@ H 9.80756129 11.51083088 11.51083088
 
 
 entry(
-    index = 1013,
+    index = 1014,
     label = "NOC(=C)O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -39672,7 +39737,7 @@ H 12.105339 13.5776985 13.5776985
 
 
 entry(
-    index = 1014,
+    index = 1015,
     label = "ON=[Pt]",
     molecule = 
 """
@@ -39681,11 +39746,11 @@ entry(
 3 N u0 p1 c0 {1,D} {2,S}
 4 H u0 p0 c0 {2,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.113797,0.0280531,-4.66272e-05,3.85363e-08,-1.24502e-11,-9.6274e+08,-2.08456], Tmin=(298.15,'K'), Tmax=(747.904,'K')), NASAPolynomial(coeffs=[3.88923,0.00786106,-6.13005e-06,2.43795e-09,-3.83748e-13,-9.62741e+08,-19.2021], Tmin=(747.904,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00468e+06,'kJ/mol'), Cp0=(1.28946e-06,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[0.113797,0.0280531,-4.66272e-05,3.85363e-08,-1.24502e-11,-11346.4,-2.08456], Tmin=(298.15,'K'), Tmax=(747.904,'K')), NASAPolynomial(coeffs=[3.88923,0.00786106,-6.13005e-06,2.43795e-09,-3.83748e-13,-11911.1,-19.2021], Tmin=(747.904,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-93.6014,'kJ/mol'), Cp0=(1.28946e-06,'J/(mol*K)'), CpInf=(74.8302,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913161.6552609017 [kcal/mol]
+Hf298: -20.682945424610033 [kcal/mol]
 Sf298: 10.271108729670763 [cal/(mol-K)]
 39
 Pt -0.0 -0.0 8.0
@@ -39732,7 +39797,7 @@ H 5.00278201 3.79755158 17.77135226
 
 
 entry(
-    index = 1015,
+    index = 1016,
     label = "NN=CC=O",
     molecule = """
 1 O u0 p2 c0 {5,D}
@@ -39765,7 +39830,7 @@ H 15.13114648 12.39843679 12.39843679
 
 
 entry(
-    index = 1016,
+    index = 1017,
     label = "ON=C",
     molecule = """
 1 O u0 p2 c0 {2,S} {6,S}
@@ -39792,7 +39857,7 @@ H 13.36863737 10.49800684 10.49800684
 
 
 entry(
-    index = 1017,
+    index = 1018,
     label = "CCOC=C=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {5,S}
@@ -39831,7 +39896,7 @@ H 13.80301491 10.53779545 10.53779545
 
 
 entry(
-    index = 1018,
+    index = 1019,
     label = "CNC=CC",
     molecule = """
 1  N u0 p1 c0 {2,S} {5,S} {12,S}
@@ -39874,7 +39939,7 @@ H 13.33148917 10.01320577 10.01320577
 
 
 entry(
-    index = 1019,
+    index = 1020,
     label = "O=CCOO",
     molecule = """
 1 O u0 p2 c0 {2,S} {4,S}
@@ -39907,7 +39972,7 @@ H 14.86148903 11.55073444 11.55073444
 
 
 entry(
-    index = 1020,
+    index = 1021,
     label = "CN=C(O)C",
     molecule = """
 1  O u0 p2 c0 {5,S} {12,S}
@@ -39946,7 +40011,7 @@ H 12.82530679 13.95724872 13.95724872
 
 
 entry(
-    index = 1021,
+    index = 1022,
     label = "CC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {8,S}
@@ -39977,7 +40042,7 @@ H 13.83566475 10.53829477 10.53829477
 
 
 entry(
-    index = 1022,
+    index = 1023,
     label = "O=NNN=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -40004,7 +40069,7 @@ H 10.81621497 9.96179216 9.96179216
 
 
 entry(
-    index = 1023,
+    index = 1024,
     label = "CCNN=O",
     molecule = """
 1  O u0 p2 c0 {3,D}
@@ -40041,7 +40106,7 @@ H 12.79294703 12.9962247 12.9962247
 
 
 entry(
-    index = 1024,
+    index = 1025,
     label = "CON=O",
     molecule = """
 1 O u0 p2 c0 {3,S} {4,S}
@@ -40070,7 +40135,7 @@ H 10.00526684 10.39779503 10.39779503
 
 
 entry(
-    index = 1025,
+    index = 1026,
     label = "C=CCC(C)C",
     molecule = """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -40121,7 +40186,7 @@ H 16.01998944 10.71209909 10.71209909
 
 
 entry(
-    index = 1026,
+    index = 1027,
     label = "C=CC=C(C)C",
     molecule = """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -40168,7 +40233,7 @@ H 15.58152831 9.9640518 9.9640518
 
 
 entry(
-    index = 1027,
+    index = 1028,
     label = "C=CNN=O",
     molecule = """
 1 O u0 p2 c0 {3,D}
@@ -40201,7 +40266,7 @@ H 14.49783856 11.87142959 11.87142959
 
 
 entry(
-    index = 1028,
+    index = 1029,
     label = "CC(C)OCO",
     molecule = """
 1  O u0 p2 c0 {3,S} {6,S}
@@ -40248,7 +40313,7 @@ H 15.30177235 13.65036766 13.65036766
 
 
 entry(
-    index = 1029,
+    index = 1030,
     label = "C=COOC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {3,S}
@@ -40287,7 +40352,7 @@ H 11.65870692 10.05656973 10.05656973
 
 
 entry(
-    index = 1030,
+    index = 1031,
     label = "O=CC=CC=O",
     molecule = """
 1  O u0 p2 c0 {5,D}
@@ -40322,7 +40387,7 @@ H 14.45517995 11.86216937 11.86216937
 
 
 entry(
-    index = 1031,
+    index = 1032,
     label = "OC(=O)C=N",
     molecule = """
 1 O u0 p2 c0 {5,S} {8,S}
@@ -40353,7 +40418,7 @@ H 14.94882955 10.36258759 10.36258759
 
 
 entry(
-    index = 1032,
+    index = 1033,
     label = "NN=C=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {7,S} {8,S}
@@ -40384,7 +40449,7 @@ H 9.70873225 10.36486107 10.36486107
 
 
 entry(
-    index = 1033,
+    index = 1034,
     label = "CC=CC=CC",
     molecule = """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -40431,7 +40496,7 @@ H 12.78849569 10.37133611 10.37133611
 
 
 entry(
-    index = 1034,
+    index = 1035,
     label = "NNCO",
     molecule = """
 1  O u0 p2 c0 {4,S} {10,S}
@@ -40466,7 +40531,7 @@ H 10.43034968 10.41498175 10.41498175
 
 
 entry(
-    index = 1035,
+    index = 1036,
     label = "C#N",
     molecule = """
 1 N u0 p1 c0 {2,T}
@@ -40487,7 +40552,7 @@ H 9.98259622 10.01723232 10.01723232
 
 
 entry(
-    index = 1036,
+    index = 1037,
     label = "C=C(C)OC",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -40528,7 +40593,7 @@ H 11.69513742 12.77814495 12.77814495
 
 
 entry(
-    index = 1037,
+    index = 1038,
     label = "CN=NC=N",
     molecule = """
 1  N u0 p1 c0 {2,D} {4,S}
@@ -40563,7 +40628,7 @@ H 9.97648232 10.77647806 10.77647806
 
 
 entry(
-    index = 1038,
+    index = 1039,
     label = "COC(=O)O",
     molecule = """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -40596,7 +40661,7 @@ H 14.9737423 11.03245075 11.03245075
 
 
 entry(
-    index = 1039,
+    index = 1040,
     label = "C=COC=CC",
     molecule = """
 1  O u0 p2 c0 {4,S} {5,S}
@@ -40639,7 +40704,7 @@ H 17.49060273 10.71551259 10.71551259
 
 
 entry(
-    index = 1040,
+    index = 1041,
     label = "CCCC(C)O",
     molecule = """
 1  O u0 p2 c0 {2,S} {18,S}
@@ -40690,7 +40755,7 @@ H 11.19524588 10.26196351 10.26196351
 
 
 entry(
-    index = 1041,
+    index = 1042,
     label = "C=C(C)CO",
     molecule = """
 1  O u0 p2 c0 {2,S} {13,S}
@@ -40731,7 +40796,7 @@ H 13.46649389 10.25533709 10.25533709
 
 
 entry(
-    index = 1042,
+    index = 1043,
     label = "NNC=C",
     molecule = """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -40766,7 +40831,7 @@ H 10.00538008 11.63639005 11.63639005
 
 
 entry(
-    index = 1043,
+    index = 1044,
     label = "CNOC=C",
     molecule = """
 1  O u0 p2 c0 {2,S} {4,S}
@@ -40805,7 +40870,7 @@ H 9.89388302 11.49463958 11.49463958
 
 
 entry(
-    index = 1044,
+    index = 1045,
     label = "C=NC=C",
     molecule = """
 1 N u0 p1 c0 {2,S} {4,D}
@@ -40838,7 +40903,7 @@ H 14.51989279 10.24797599 10.24797599
 
 
 entry(
-    index = 1045,
+    index = 1046,
     label = "N=NC#N",
     molecule = """
 1 N u0 p1 c0 {2,D} {4,S}
@@ -40863,7 +40928,7 @@ H 10.15491786 11.30867436 11.30867436
 
 
 entry(
-    index = 1046,
+    index = 1047,
     label = "[Pt]C#N",
     molecule = 
 """
@@ -40871,11 +40936,11 @@ entry(
 2 N u0 p1 c0 {3,T}
 3 C u0 p0 c0 {1,S} {2,T}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.33067,0.0177962,-3.78865e-05,4.04724e-08,-1.67539e-11,-9.62722e+08,-6.66706], Tmin=(298.15,'K'), Tmax=(595.926,'K')), NASAPolynomial(coeffs=[3.43069,0.00370068,-2.40752e-06,7.8263e-10,-1.03748e-13,-9.62722e+08,-15.7114], Tmin=(595.926,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00453e+06,'kJ/mol'), Cp0=(0.000908241,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[1.33067,0.0177962,-3.78865e-05,4.04724e-08,-1.67539e-11,6665.83,-6.66706], Tmin=(298.15,'K'), Tmax=(595.926,'K')), NASAPolynomial(coeffs=[3.43069,0.00370068,-2.40752e-06,7.8263e-10,-1.03748e-13,6415.53,-15.7114], Tmin=(595.926,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(56.7179,'kJ/mol'), Cp0=(0.000908241,'J/(mol*K)'), CpInf=(49.8868,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913125.8888834284 [kcal/mol]
+Hf298: 15.08343204862942 [kcal/mol]
 Sf298: 9.655690984591377 [cal/(mol-K)]
 38
 Pt 0.0 0.0 8.0
@@ -40921,7 +40986,7 @@ C 5.66256819 4.90387625 17.01570433
 
 
 entry(
-    index = 1047,
+    index = 1048,
     label = "C=C=COC=O",
     molecule = """
 1  O u0 p2 c0 {3,S} {4,S}
@@ -40956,7 +41021,7 @@ H 15.72752286 12.35205426 12.35205426
 
 
 entry(
-    index = 1048,
+    index = 1049,
     label = "CN=N",
     molecule = """
 1 N u0 p1 c0 {2,D} {3,S}
@@ -40985,7 +41050,7 @@ H 13.81157968 10.18879869 10.18879869
 
 
 entry(
-    index = 1049,
+    index = 1050,
     label = "CC(C)[Pt]",
     molecule = 
 """
@@ -41001,11 +41066,11 @@ entry(
 10 H u0 p0 c0 {3,S}
 11 H u0 p0 c0 {4,S}
 """,
-thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.70141,0.0420128,-2.83622e-05,1.01183e-08,-1.46719e-12,-9.62745e+08,14.2997], Tmin=(298.15,'K'), Tmax=(955.942,'K')), NASAPolynomial(coeffs=[-0.216451,0.0367749,-2.16742e-05,6.52183e-09,-8.05858e-13,-9.62745e+08,6.96933], Tmin=(955.942,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-8.00471e+06,'kJ/mol'), Cp0=(8.31447,'J/(mol*K)'), CpInf=(241.119,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
+thermo=NASA(polynomials=[NASAPolynomial(coeffs=[-1.70141,0.0420128,-2.83622e-05,1.01183e-08,-1.46719e-12,-15808.1,14.2997], Tmin=(298.15,'K'), Tmax=(955.942,'K')), NASAPolynomial(coeffs=[-0.216451,0.0367749,-2.16742e-05,6.52183e-09,-8.05858e-13,-16136.6,6.96933], Tmin=(955.942,'K'), Tmax=(2000,'K'))], Tmin=(298.15,'K'), Tmax=(2000,'K'), E0=(-132.785,'kJ/mol'), Cp0=(8.31447,'J/(mol*K)'), CpInf=(241.119,'J/(mol*K)'), comment="""metal = Pt,facet = fcc111"""),    
 longDesc = u"""Calculated using Pynta https://doi.org/10.1021/acs.jcim.3c00948. 
                    Thermochemistry computed using approach from Blondal et. al in https://doi.org/10.1021/acscatal.2c03378. 
 If you use this library in your work, please cite the publications mentioned above.
-Hf298: -1913170.1457393477 [kcal/mol]
+Hf298: -29.173423870639066 [kcal/mol]
 Sf298: 31.702719959330743 [cal/(mol-K)]
 46
 Pt 0.0 0.0 8.0
@@ -41060,7 +41125,7 @@ H 9.56381382 5.55006362 17.48365365
 
 
 entry(
-    index = 1050,
+    index = 1051,
     label = "C=C(C)OCC",
     molecule = """
 1  O u0 p2 c0 {2,S} {5,S}
@@ -41107,7 +41172,7 @@ H 13.04571387 9.96036966 9.96036966
 
 
 entry(
-    index = 1051,
+    index = 1052,
     label = "N=CC=O",
     molecule = """
 1 O u0 p2 c0 {4,D}
@@ -41136,7 +41201,7 @@ H 12.92187394 10.13720092 10.13720092
 
 
 entry(
-    index = 1052,
+    index = 1053,
     label = "CC(=O)OC(=O)O",
     molecule = """
 1  O u0 p2 c0 {6,S} {7,S}
@@ -41173,7 +41238,7 @@ H 16.15529727 10.93796796 10.93796796
 
 
 entry(
-    index = 1053,
+    index = 1054,
     label = "ON=C(O)C",
     molecule = """
 1  O u0 p2 c0 {5,S} {9,S}
@@ -41208,7 +41273,7 @@ H 10.15294894 10.32691751 10.32691751
 
 
 entry(
-    index = 1054,
+    index = 1055,
     label = "CCN",
     molecule = """
 1  N u0 p1 c0 {2,S} {9,S} {10,S}
