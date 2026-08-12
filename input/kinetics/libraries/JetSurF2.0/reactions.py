@@ -485,7 +485,6 @@ entry(
     index = 41,
     label = "CH + H2 <=> CH2 + H",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(
         A = (1.107e+08, 'cm^3/(mol*s)'),
         n = 1.79,
@@ -584,26 +583,16 @@ entry(
     index = 48,
     label = "CH2 + O <=> HCO + H",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(A=(8e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
     index = 49,
     label = "CH2 + OH <=> CH2O + H",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
@@ -617,12 +606,8 @@ entry(
     index = 51,
     label = "CH2 + H2 <=> H + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(500000,'cm^3/(mol*s)'), n=2, Ea=(7230,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    kinetics = Arrhenius(A=(500000, 'cm^3/(mol*s)'), n=2, Ea=(7230, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
@@ -705,7 +690,6 @@ entry(
     index = 61,
     label = "CH2* + H <=> CH + H2",
     degeneracy = 1,
-    duplicate = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
 )
 
@@ -936,12 +920,8 @@ entry(
     index = 81,
     label = "CH3 + OH <=> CH2 + H2O",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.6e+07,'cm^3/(mol*s)'), n=1.6, Ea=(5420,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    kinetics = Arrhenius(A=(5.6e+07, 'cm^3/(mol*s)'), n=1.6, Ea=(5420, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
@@ -1016,12 +996,8 @@ entry(
     index = 91,
     label = "CH3 + CH2 <=> C2H4 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
@@ -1253,12 +1229,8 @@ entry(
     index = 115,
     label = "CH4 + CH2 <=> CH3 + CH3",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(2.46e+06,'cm^3/(mol*s)'), n=2, Ea=(8270,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    kinetics = Arrhenius(A=(2.46e+06, 'cm^3/(mol*s)'), n=2, Ea=(8270, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
@@ -1555,13 +1527,8 @@ entry(
     index = 151,
     label = "C2H2 + CH2 <=> C3H3 + H",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiArrhenius(
-        arrhenius = [
-            Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(6620, 'cal/mol'), T0=(1, 'K')),
-            Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-        ],
-    ),
+    kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(6620, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""97WAN/FRE""",
 )
 
 entry(
@@ -2502,13 +2469,8 @@ entry(
     index = 244,
     label = "C2H4 + CH2 <=> aC3H5 + H",
     degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(6000,'cal/mol'), T0=(1,'K'), comment="""Estimated"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-Estimated
-""",
+    kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(6000, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Estimated""",
 )
 
 entry(
@@ -22098,74 +22060,67 @@ entry(
     kinetics = Arrhenius(A=(4.5e+15, 'cm^3/(mol*s)'), n=0, Ea=(25000, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""The chemkin file reaction is C2H + O2 => CH* + CO2""",
 )
+
 entry(
     index = 2137,
     label = "CH3 + OH <=> CH2* + H2O",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(2.501e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.501e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
     index = 2138,
     label = "CH2* + H2 <=> CH3 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(7e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
     index = 2139,
     label = "CH3 + CH2* <=> C2H4 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.2e+13,'cm^3/(mol*s)'), n=0, Ea=(-570,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(-570, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
     index = 2140,
     label = "C2H4 + CH2* <=> aC3H5 + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), comment="""Estimated"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-Estimated
-""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Estimated""",
 )
 
 entry(
     index = 2141,
     label = "CH4 + CH2* <=> CH3 + CH3",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.6e+13,'cm^3/(mol*s)'), n=0, Ea=(-570,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(-570, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
 )
 
 entry(
     index = 2142,
     label = "CH2* + O <=> HCO + H",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(A=(1.5e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K'), comment="""GRI"""),
-    longDesc = 
-"""
-Originally from reaction library: Unclassified
-GRI
-""",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
+)
+
+entry(
+    index = 2143,
+    label = "CH2* + OH <=> CH2O + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""GRI""",
+)
+
+entry(
+    index = 2144,
+    label = "C2H2 + CH2* <=> C3H3 + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""97WAN/FRE""",
 )
