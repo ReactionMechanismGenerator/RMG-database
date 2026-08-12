@@ -6,13 +6,13 @@ shortDesc = u"INCITE Pt111 BEEF-vdW data"
 longDesc = u"""These calculations were generated and calculated based initially on calculations from https://doi.org/10.26434/chemrxiv.15000328/v2
 which generated a set of potential reactions and ran Pynta with the MACE multi-head v0 model on those reactions on Pt111
 
-For this dataset we took the reactions that model succeeded on for Pt111 and then
-optimized each successful configuration using Quantum Espresso at 5x5x1 k-points and 40 Ry ecutwfc"""
+For the reactions that model succeeded on for Pt111 we
+reoptimized each successful configuration using Quantum Espresso at 5x5x1 k-points and 40 Ry ecutwfc"""
 entry(
 index = 0,
 label = "O=CC[Pt] + N=[Pt] <=> N[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.54826e-13,'m^2/(molecule*s)'), n=1.73269, Ea=(127.459,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04335, dn = +|- 0.00546735, dEa = +|- 0.0344332 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -92,7 +92,7 @@ entry(
 index = 1,
 label = "CCC#[Pt] + CC=[Pt] <=> CC(C)[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.74082e-14,'m^2/(molecule*s)'), n=1.42128, Ea=(288.186,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06191, dn = +|- 0.0077392, dEa = +|- 0.0487413 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -190,7 +190,7 @@ entry(
 index = 2,
 label = "C[Pt] + N=C=[Pt] <=> C=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.28704e-13,'m^2/(molecule*s)'), n=1.26062, Ea=(168.981,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04205, dn = +|- 0.00530652, dEa = +|- 0.0334203 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -267,7 +267,7 @@ entry(
 index = 3,
 label = "[Pt]CCC#[Pt] + ON=[Pt] <=> [Pt]CCC=[Pt] + [Pt]N=O",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.03572e-08,'m^2/(molecule*s)'), n=0.517923, Ea=(201.134,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01876, dn = +|- 0.00239489, dEa = +|- 0.0150829 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -355,7 +355,7 @@ entry(
 index = 4,
 label = "O=CC[Pt] + CO[Pt] <=> 1Ou0p2c0{2,S}{6,S}{7,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{1,S}7Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.54419e-19,'m^2/(molecule*s)'), n=2.71343, Ea=(26.2269,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05288, dn = +|- 0.00663863, dEa = +|- 0.0418099 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -444,7 +444,7 @@ entry(
 index = 5,
 label = "[Pt]=CCC#[Pt] + O=CC=[Pt] <=> [Pt]CCC#[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.94236e-07,'m^2/(molecule*s)'), n=0.482079, Ea=(106.978,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01175, dn = +|- 0.00150517, dEa = +|- 0.00947952 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -535,7 +535,7 @@ entry(
 index = 6,
 label = "CC[Pt] + C=CC#[Pt] <=> CC=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.29381e-19,'m^2/(molecule*s)'), n=2.54233, Ea=(253.947,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01364, dn = +|- 0.00174542, dEa = +|- 0.0109926 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -630,7 +630,7 @@ entry(
 index = 7,
 label = "CC[Pt] + O=[Pt] <=> CC=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.82083e-12,'m^2/(molecule*s)'), n=0.7682, Ea=(123.967,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02669, dn = +|- 0.0033941, dEa = +|- 0.021376 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -710,7 +710,7 @@ entry(
 index = 8,
 label = "CC(C)[Pt] + C=C[Pt] <=> CC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.83904e-13,'m^2/(molecule*s)'), n=1.26402, Ea=(217.461,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01118, dn = +|- 0.00143202, dEa = +|- 0.00901884 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -811,7 +811,7 @@ entry(
 index = 9,
 label = "C=C(C)[Pt] + C=CC[Pt] <=> C=CC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.10005e-18,'m^2/(molecule*s)'), n=1.60657, Ea=(70.0751,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02389, dn = +|- 0.00304227, dEa = +|- 0.0191601 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -915,7 +915,7 @@ entry(
 index = 10,
 label = "C[Pt] + N=[Pt] <=> C=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.37364e-14,'m^2/(molecule*s)'), n=1.72046, Ea=(171.027,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02099, dn = +|- 0.00267676, dEa = +|- 0.0168582 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -989,7 +989,7 @@ entry(
 index = 11,
 label = "CN=[Pt] + C[Pt] <=> C=[Pt] + CN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.98756e-14,'m^2/(molecule*s)'), n=1.79681, Ea=(189.357,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0277, dn = +|- 0.00352067, dEa = +|- 0.0221731 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -1072,7 +1072,7 @@ entry(
 index = 12,
 label = "CCC[Pt] + CN[Pt] <=> CN=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.25557e-11,'m^2/(molecule*s)'), n=0.77886, Ea=(160.632,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02086, dn = +|- 0.00265999, dEa = +|- 0.0167526 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -1176,7 +1176,7 @@ entry(
 index = 13,
 label = "[Pt]C=CC#[Pt] + NC=[Pt] <=> NC#[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.19896e-14,'m^2/(molecule*s)'), n=1.7155, Ea=(184.235,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02472, dn = +|- 0.00314647, dEa = +|- 0.0198164 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -1264,7 +1264,7 @@ entry(
 index = 14,
 label = "CC[Pt] + CC(=O)[Pt] <=> CC=[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.36212e-17,'m^2/(molecule*s)'), n=1.49974, Ea=(156.602,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01057, dn = +|- 0.00135424, dEa = +|- 0.00852898 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -1359,7 +1359,7 @@ entry(
 index = 15,
 label = "C=C(C)[Pt] + C=C[Pt] <=> C=C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.95803e-14,'m^2/(molecule*s)'), n=1.57014, Ea=(79.1635,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0142, dn = +|- 0.00181678, dEa = +|- 0.011442 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -1454,7 +1454,7 @@ entry(
 index = 16,
 label = "CC(O)[Pt] + O=C=C=[Pt] <=> CC(O)=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.19989e-19,'m^2/(molecule*s)'), n=2.69051, Ea=(213.625,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02488, dn = +|- 0.00316629, dEa = +|- 0.0199412 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -1543,7 +1543,7 @@ entry(
 index = 17,
 label = "C=C(C)[Pt] + N[Pt] <=> N=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.0176e-13,'m^2/(molecule*s)'), n=1.66722, Ea=(135.461,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01408, dn = +|- 0.00180161, dEa = +|- 0.0113465 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -1632,7 +1632,7 @@ entry(
 index = 18,
 label = "CC(O)[Pt] + N[Pt] <=> CC(O)=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.05127e-11,'m^2/(molecule*s)'), n=0.690074, Ea=(61.3693,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02678, dn = +|- 0.0034045, dEa = +|- 0.0214414 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -1721,7 +1721,7 @@ entry(
 index = 19,
 label = "[Pt]C=CC#[Pt] + C[Pt] <=> C=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.85365e-14,'m^2/(molecule*s)'), n=1.56973, Ea=(170.236,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01502, dn = +|- 0.00192053, dEa = +|- 0.0120954 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -1806,7 +1806,7 @@ entry(
 index = 20,
 label = "OC[Pt] + O=CC=[Pt] <=> OC=[Pt] + O=CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.92935e-14,'m^2/(molecule*s)'), n=1.66696, Ea=(106.394,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01602, dn = +|- 0.00204752, dEa = +|- 0.0128952 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -1892,7 +1892,7 @@ entry(
 index = 21,
 label = "CC(C)[Pt] + [Pt]C#N <=> CC(C)=[Pt] + C#N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.5964e-14,'m^2/(molecule*s)'), n=1.79637, Ea=(123.273,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03081, dn = +|- 0.00390914, dEa = +|- 0.0246196 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -1984,7 +1984,7 @@ entry(
 index = 22,
 label = "CC[Pt] + CC(O)=[Pt] <=> CC=[Pt] + CC(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.55569e-13,'m^2/(molecule*s)'), n=1.21277, Ea=(79.7659,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02919, dn = +|- 0.00370687, dEa = +|- 0.0233457 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -2082,7 +2082,7 @@ entry(
 index = 23,
 label = "O=CC[Pt] + CN[Pt] <=> 1Nu0p1c0{2,S}{6,S}{7,S}{8,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{1,S}7Hu0p0c0{1,S}8Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.02836e-14,'m^2/(molecule*s)'), n=1.80698, Ea=(65.292,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03992, dn = +|- 0.00504375, dEa = +|- 0.0317654 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -2174,7 +2174,7 @@ entry(
 index = 24,
 label = "[Pt]=CCC#[Pt] + CN=[Pt] <=> [Pt]CCC#[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.38978e-05,'m^2/(molecule*s)'), n=0.0963014, Ea=(107.649,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01011, dn = +|- 0.00129664, dEa = +|- 0.00816619 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -2265,7 +2265,7 @@ entry(
 index = 25,
 label = "C=CC=[Pt] + O=CC[Pt] <=> C=CC[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.39798e-17,'m^2/(molecule*s)'), n=2.53832, Ea=(72.4083,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01565, dn = +|- 0.00200052, dEa = +|- 0.0125992 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -2360,7 +2360,7 @@ entry(
 index = 26,
 label = "COCO[Pt] + O=CC[Pt] <=> O=CC=[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.86927e-17,'m^2/(molecule*s)'), n=1.66488, Ea=(42.6614,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02317, dn = +|- 0.00295081, dEa = +|- 0.0185841 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -2461,7 +2461,7 @@ entry(
 index = 27,
 label = "OCC#[Pt] + CC#[Pt] <=> CC(O)=[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.88405e-08,'m^2/(molecule*s)'), n=0.232038, Ea=(212.637,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02067, dn = +|- 0.00263587, dEa = +|- 0.0166007 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -2550,7 +2550,7 @@ entry(
 index = 28,
 label = "CC[Pt] + NN[Pt] <=> CC=[Pt] + NN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.93211e-13,'m^2/(molecule*s)'), n=1.65042, Ea=(92.561,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01914, dn = +|- 0.0024427, dEa = +|- 0.0153841 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -2642,7 +2642,7 @@ entry(
 index = 29,
 label = "CC[Pt] + O=CC#[Pt] <=> CC=[Pt] + O=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.08294e-19,'m^2/(molecule*s)'), n=2.51074, Ea=(242.708,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01171, dn = +|- 0.00150033, dEa = +|- 0.00944904 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -2731,7 +2731,7 @@ entry(
 index = 30,
 label = "[Pt]CCC#[Pt] + [Pt]N=C <=> [Pt]=CCC#[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.70998e-10,'m^2/(molecule*s)'), n=1.58096, Ea=(140.884,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01134, dn = +|- 0.00145325, dEa = +|- 0.00915252 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -2822,7 +2822,7 @@ entry(
 index = 31,
 label = "O=CC[Pt] + O=C=C=[Pt] <=> O=CC=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.6483e-19,'m^2/(molecule*s)'), n=2.85465, Ea=(244.467,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04457, dn = +|- 0.00561782, dEa = +|- 0.0353809 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -2905,7 +2905,7 @@ entry(
 index = 32,
 label = "C=CC#[Pt] + CN=[Pt] <=> CN[Pt] + C=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.26285e-13,'m^2/(molecule*s)'), n=1.66508, Ea=(194.447,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02046, dn = +|- 0.00260963, dEa = +|- 0.0164354 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -2994,7 +2994,7 @@ entry(
 index = 33,
 label = "[Pt]C=CC#[Pt] + NC=[Pt] <=> NC#[Pt] + [Pt]=CCC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.45173e-12,'m^2/(molecule*s)'), n=0.748193, Ea=(193.283,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02064, dn = +|- 0.00263221, dEa = +|- 0.0165776 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -3082,7 +3082,7 @@ entry(
 index = 34,
 label = "CCC[Pt] + CN[Pt] <=> CCC=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.69713e-11,'m^2/(molecule*s)'), n=0.712616, Ea=(86.761,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02513, dn = +|- 0.00319787, dEa = +|- 0.0201401 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -3186,7 +3186,7 @@ entry(
 index = 35,
 label = "C=C(C)[Pt] + C=C[Pt] <=> C=C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.61202e-09,'m^2/(molecule*s)'), n=-0.586699, Ea=(172.356,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01197, dn = +|- 0.00153266, dEa = +|- 0.00965263 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -3281,7 +3281,7 @@ entry(
 index = 36,
 label = "NC=[Pt] + NC#[Pt] <=> NC[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.46506e-14,'m^2/(molecule*s)'), n=1.71565, Ea=(153.754,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01416, dn = +|- 0.00181156, dEa = +|- 0.0114092 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -3364,7 +3364,7 @@ entry(
 index = 37,
 label = "CC(C)[Pt] + [Pt]N=O <=> CC(C)=[Pt] + N=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.31188e-11,'m^2/(molecule*s)'), n=1.40296, Ea=(132.381,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02199, dn = +|- 0.00280233, dEa = +|- 0.017649 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -3456,7 +3456,7 @@ entry(
 index = 38,
 label = "CC(O)[Pt] + ON[Pt] <=> CC(O)=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.21231e-16,'m^2/(molecule*s)'), n=2.53904, Ea=(31.7635,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01075, dn = +|- 0.00137815, dEa = +|- 0.00867956 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -3548,7 +3548,7 @@ entry(
 index = 39,
 label = "C=CC#[Pt] + OC[Pt] <=> OC=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.10313e-19,'m^2/(molecule*s)'), n=2.42909, Ea=(233.655,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01602, dn = +|- 0.00204811, dEa = +|- 0.012899 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -3637,7 +3637,7 @@ entry(
 index = 40,
 label = "CC[Pt] + CN=[Pt] <=> CC=[Pt] + CN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.45795e-14,'m^2/(molecule*s)'), n=1.7639, Ea=(166.205,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02302, dn = +|- 0.00293224, dEa = +|- 0.0184672 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -3729,7 +3729,7 @@ entry(
 index = 41,
 label = "CCC[Pt] + CC(O)[Pt] <=> CC(O)=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.17862e-16,'m^2/(molecule*s)'), n=1.49996, Ea=(155.249,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02546, dn = +|- 0.00323909, dEa = +|- 0.0203997 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -3839,7 +3839,7 @@ entry(
 index = 42,
 label = "CN[Pt] + 1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW} <=> 1Nu0p1c0{2,S}{6,S}{7,S}{8,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{1,S}7Hu0p0c0{1,S}8Xu0p0c0{1,vdW} + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.55614e-08,'m^2/(molecule*s)'), n=0.424416, Ea=(26.9097,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03102, dn = +|- 0.00393643, dEa = +|- 0.0247915 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -3925,7 +3925,7 @@ entry(
 index = 43,
 label = "OCC[Pt] + CC=C[Pt] <=> CC=CCCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.32747e-16,'m^2/(molecule*s)'), n=2.33802, Ea=(174.197,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.07004, dn = +|- 0.00872201, dEa = +|- 0.054931 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -4029,7 +4029,7 @@ entry(
 index = 44,
 label = "NC[Pt] + O=[Pt] <=> NC=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.31223e-11,'m^2/(molecule*s)'), n=0.559938, Ea=(123.961,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01225, dn = +|- 0.00156845, dEa = +|- 0.00987806 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -4106,7 +4106,7 @@ entry(
 index = 45,
 label = "CC(C)[Pt] + O=CO[Pt] <=> CC(C)=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.65789e-13,'m^2/(molecule*s)'), n=1.78367, Ea=(134.514,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03972, dn = +|- 0.00501816, dEa = +|- 0.0316043 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -4204,7 +4204,7 @@ entry(
 index = 46,
 label = "NC[Pt] + N=C=[Pt] <=> NC=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.68858e-14,'m^2/(molecule*s)'), n=1.4706, Ea=(126.75,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02279, dn = +|- 0.00290317, dEa = +|- 0.0182841 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -4287,7 +4287,7 @@ entry(
 index = 47,
 label = "CC(C)[Pt] + C=C[Pt] <=> CC(C)=[Pt] + C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.81365e-13,'m^2/(molecule*s)'), n=1.74779, Ea=(125.608,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04157, dn = +|- 0.00524793, dEa = +|- 0.0330514 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -4388,7 +4388,7 @@ entry(
 index = 48,
 label = "CC[Pt] + C=CC=[Pt] <=> CC=[Pt] + C=CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.56898e-11,'m^2/(molecule*s)'), n=0.492704, Ea=(95.7634,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01304, dn = +|- 0.0016694, dEa = +|- 0.0105139 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -4486,7 +4486,7 @@ entry(
 index = 49,
 label = "CC(C)[Pt] + O=C=C=[Pt] <=> CC(C)=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.09254e-16,'m^2/(molecule*s)'), n=1.82784, Ea=(221.668,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04132, dn = +|- 0.00521636, dEa = +|- 0.0328525 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -4581,7 +4581,7 @@ entry(
 index = 50,
 label = "CC(O)[Pt] + NC=[Pt] <=> CC(O)=[Pt] + NC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.17022e-18,'m^2/(molecule*s)'), n=2.66804, Ea=(81.9877,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02363, dn = +|- 0.00300911, dEa = +|- 0.0189513 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -4676,7 +4676,7 @@ entry(
 index = 51,
 label = "CC(C)[Pt] + C=C=[Pt] <=> CC(C)=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.05414e-14,'m^2/(molecule*s)'), n=1.75862, Ea=(135.636,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02551, dn = +|- 0.00324489, dEa = +|- 0.0204363 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -4774,7 +4774,7 @@ entry(
 index = 52,
 label = "CCC#[Pt] + O=CC#[Pt] <=> CCC=[Pt] + O=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.7198e-19,'m^2/(molecule*s)'), n=2.46201, Ea=(194.747,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01137, dn = +|- 0.00145622, dEa = +|- 0.00917121 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -4937,7 +4937,7 @@ entry(
 index = 54,
 label = "CC(C)=[Pt] + OC#[Pt] <=> CC(C)[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.23161e-07,'m^2/(molecule*s)'), n=0.473187, Ea=(94.3343,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01956, dn = +|- 0.002496, dEa = +|- 0.0157198 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -5029,7 +5029,7 @@ entry(
 index = 55,
 label = "COCO[Pt] + C=CC[Pt] <=> C=CC=[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.80047e-15,'m^2/(molecule*s)'), n=0.662801, Ea=(60.4196,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02496, dn = +|- 0.00317644, dEa = +|- 0.0200051 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -5136,7 +5136,7 @@ entry(
 index = 56,
 label = "[Pt]CCC#[Pt] + C=C=C[Pt] <=> [Pt]=CCC#[Pt] + C=C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.74535e-09,'m^2/(molecule*s)'), n=0.680749, Ea=(180.472,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01501, dn = +|- 0.00191985, dEa = +|- 0.0120912 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -5312,7 +5312,7 @@ entry(
 index = 58,
 label = "CC=C[Pt] + C=C=C[Pt] <=> C=C=C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.06716e-13,'m^2/(molecule*s)'), n=1.49091, Ea=(82.2945,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02688, dn = +|- 0.00341799, dEa = +|- 0.0215264 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -5410,7 +5410,7 @@ entry(
 index = 59,
 label = "[Pt]CCC=[Pt] + COCO[Pt] <=> [Pt]CCC#[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.2173e-08,'m^2/(molecule*s)'), n=-0.328093, Ea=(54.4784,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02685, dn = +|- 0.00341385, dEa = +|- 0.0215003 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -5519,7 +5519,7 @@ entry(
 index = 60,
 label = "O=CC[Pt] + NO[Pt] <=> O=CC=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.49663e-13,'m^2/(molecule*s)'), n=1.65671, Ea=(81.5887,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02324, dn = +|- 0.00296, dEa = +|- 0.018642 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -5605,7 +5605,7 @@ entry(
 index = 61,
 label = "CC[Pt] + O=C=C=[Pt] <=> CC=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.31882e-15,'m^2/(molecule*s)'), n=0.791975, Ea=(236.719,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03309, dn = +|- 0.00419447, dEa = +|- 0.0264167 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -5691,7 +5691,7 @@ entry(
 index = 62,
 label = "C=CC[Pt] + O=C=C=[Pt] <=> C=CC=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.67437e-16,'m^2/(molecule*s)'), n=1.83422, Ea=(240.298,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03915, dn = +|- 0.00494832, dEa = +|- 0.0311644 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -5780,7 +5780,7 @@ entry(
 index = 63,
 label = "CN[Pt] + OC[Pt] <=> OC=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.06451e-12,'m^2/(molecule*s)'), n=0.595233, Ea=(66.737,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01231, dn = +|- 0.00157655, dEa = +|- 0.00992909 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -5869,7 +5869,7 @@ entry(
 index = 64,
 label = "[Pt]=CCC#[Pt] + C=CC=[Pt] <=> [Pt]CCC#[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.85576e-11,'m^2/(molecule*s)'), n=1.77217, Ea=(148.212,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02019, dn = +|- 0.00257555, dEa = +|- 0.0162207 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -5966,7 +5966,7 @@ entry(
 index = 65,
 label = "OCC[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.22554e-12,'m^2/(molecule*s)'), n=1.66296, Ea=(200.751,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05564, dn = +|- 0.00697641, dEa = +|- 0.0439373 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -6206,7 +6206,7 @@ entry(
 index = 68,
 label = "CC(O)[Pt] + N[Pt] <=> OC=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.89828e-13,'m^2/(molecule*s)'), n=1.762, Ea=(249.322,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.10064, dn = +|- 0.0123543, dEa = +|- 0.0778069 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -6295,7 +6295,7 @@ entry(
 index = 69,
 label = "CC(C)[Pt] + CC(=O)[Pt] <=> CC(C)=[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.38301e-17,'m^2/(molecule*s)'), n=1.50338, Ea=(144.47,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01278, dn = +|- 0.00163663, dEa = +|- 0.0103074 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -6399,7 +6399,7 @@ entry(
 index = 70,
 label = "CC(C)[Pt] + N=[Pt] <=> CC(C)=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.76583e-11,'m^2/(molecule*s)'), n=0.794818, Ea=(145.094,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03434, dn = +|- 0.00434959, dEa = +|- 0.0273936 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -6491,7 +6491,7 @@ entry(
 index = 71,
 label = "[Pt]=CCC#[Pt] + C=[Pt] <=> C[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.34917e-07,'m^2/(molecule*s)'), n=0.659192, Ea=(173.444,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03016, dn = +|- 0.0038285, dEa = +|- 0.0241118 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -6576,7 +6576,7 @@ entry(
 index = 72,
 label = "CC[Pt] + C=C(O)[Pt] <=> C=C(O)CC + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.13432e-09,'m^2/(molecule*s)'), n=-0.102995, Ea=(157.4,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00416, dn = +|- 0.000534579, dEa = +|- 0.00336677 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -6671,7 +6671,7 @@ entry(
 index = 73,
 label = "NC[Pt] + CC#[Pt] <=> NC=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.43677e-13,'m^2/(molecule*s)'), n=1.58717, Ea=(269.403,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01143, dn = +|- 0.00146384, dEa = +|- 0.00921924 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -6760,7 +6760,7 @@ entry(
 index = 74,
 label = "C=CC[Pt] + CC(=O)[Pt] <=> C=CC=[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.06434e-16,'m^2/(molecule*s)'), n=1.56951, Ea=(164.743,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01394, dn = +|- 0.00178417, dEa = +|- 0.0112366 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -6858,7 +6858,7 @@ entry(
 index = 75,
 label = "[Pt]CCC#[Pt] + OO[Pt] <=> [Pt]=CCC#[Pt] + OO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.19434e-13,'m^2/(molecule*s)'), n=1.55027, Ea=(124.271,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01267, dn = +|- 0.00162264, dEa = +|- 0.0102194 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -6946,7 +6946,7 @@ entry(
 index = 76,
 label = "C[Pt] + C=C=[Pt] <=> C=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.60368e-14,'m^2/(molecule*s)'), n=1.72272, Ea=(171.108,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01947, dn = +|- 0.0024843, dEa = +|- 0.015646 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -7026,7 +7026,7 @@ entry(
 index = 77,
 label = "1Nu0p1c0{2,S}{3,S}{4,S}{7,vdW}2Nu0p1c0{1,S}{5,S}{6,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Hu0p0c0{2,S}6Hu0p0c0{2,S}7Xu0p0c0{1,vdW} + ON[Pt] <=> 1Ou0p2c0{2,S}{5,S}2Nu0p1c0{1,S}{3,S}{4,S}{6,vdW}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{2,vdW} + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.57567e-15,'m^2/(molecule*s)'), n=2.43856, Ea=(-11.5875,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0198, dn = +|- 0.00252649, dEa = +|- 0.0159118 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -7112,7 +7112,7 @@ entry(
 index = 78,
 label = "C=CC[Pt] + CC(=O)[Pt] <=> C=CCC(C)=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.35073e-17,'m^2/(molecule*s)'), n=1.28269, Ea=(131.517,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01562, dn = +|- 0.00199711, dEa = +|- 0.0125778 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -7210,7 +7210,7 @@ entry(
 index = 79,
 label = "CCC[Pt] + O=C(O)[Pt] <=> CCC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.48817e-18,'m^2/(molecule*s)'), n=2.67851, Ea=(162.407,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02702, dn = +|- 0.00343454, dEa = +|- 0.0216306 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -7308,7 +7308,7 @@ entry(
 index = 80,
 label = "C=C=C[Pt] + O=C(O)O[Pt] <=> C=C=C=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.09599e-12,'m^2/(molecule*s)'), n=1.47004, Ea=(97.1584,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00869, dn = +|- 0.00111469, dEa = +|- 0.00702031 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -7397,7 +7397,7 @@ entry(
 index = 81,
 label = "CC[Pt] + C=[Pt] <=> CC=[Pt] + C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.23154e-13,'m^2/(molecule*s)'), n=2.11558, Ea=(88.033,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02156, dn = +|- 0.00274845, dEa = +|- 0.0173097 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -7483,7 +7483,7 @@ entry(
 index = 82,
 label = "[Pt]CCC#[Pt] + CCO[Pt] <=> [Pt]=CCC#[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.68401e-12,'m^2/(molecule*s)'), n=0.549902, Ea=(100.37,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01192, dn = +|- 0.00152668, dEa = +|- 0.00961498 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -7586,7 +7586,7 @@ entry(
 index = 83,
 label = "CN=[Pt] + NC#[Pt] <=> CN[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.61596e-08,'m^2/(molecule*s)'), n=0.457928, Ea=(142.291,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03203, dn = +|- 0.00406204, dEa = +|- 0.0255826 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -7669,7 +7669,7 @@ entry(
 index = 84,
 label = "[Pt]=CCC#[Pt] + CC(O)=[Pt] <=> [Pt]CCC#[Pt] + C=C(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.15761e-07,'m^2/(molecule*s)'), n=0.524862, Ea=(120.67,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01684, dn = +|- 0.00215178, dEa = +|- 0.0135519 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -7766,7 +7766,7 @@ entry(
 index = 85,
 label = "CC(C)[Pt] + N#[Pt] <=> CC(C)=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.73685e-13,'m^2/(molecule*s)'), n=1.69816, Ea=(165.316,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03043, dn = +|- 0.00386242, dEa = +|- 0.0243254 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -7855,7 +7855,7 @@ entry(
 index = 86,
 label = "[Pt]CCC#[Pt] + O=C(O)[Pt] <=> [Pt]=CCC#[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.46484e-09,'m^2/(molecule*s)'), n=-0.306024, Ea=(215.529,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02416, dn = +|- 0.0030763, dEa = +|- 0.0193745 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -7946,7 +7946,7 @@ entry(
 index = 87,
 label = "[Pt]CCC#[Pt] + N[Pt] <=> [Pt]=CCC#[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.1043e-08,'m^2/(molecule*s)'), n=0.655444, Ea=(124.412,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02025, dn = +|- 0.00258262, dEa = +|- 0.0162653 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -8034,7 +8034,7 @@ entry(
 index = 88,
 label = "[Pt]CCC#[Pt] + O=CC[Pt] <=> O=CC=[Pt] + [Pt]CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.66737e-15,'m^2/(molecule*s)'), n=1.79645, Ea=(208.964,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02959, dn = +|- 0.00375658, dEa = +|- 0.0236588 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -8131,7 +8131,7 @@ entry(
 index = 89,
 label = "C[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.21833e-08,'m^2/(molecule*s)'), n=0.496821, Ea=(286.785,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06348, dn = +|- 0.00793009, dEa = +|- 0.0499435 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -8211,7 +8211,7 @@ entry(
 index = 90,
 label = "[Pt]C=CC#[Pt] + NC=[Pt] <=> [Pt]C=CC=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.44142e-14,'m^2/(molecule*s)'), n=1.57055, Ea=(99.1317,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02557, dn = +|- 0.00325289, dEa = +|- 0.0204866 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -8299,7 +8299,7 @@ entry(
 index = 91,
 label = "[Pt]=CCC#[Pt] + NC=[Pt] <=> [Pt]CCC#[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.45157e-14,'m^2/(molecule*s)'), n=1.6572, Ea=(112.96,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01243, dn = +|- 0.00159111, dEa = +|- 0.0100208 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -8390,7 +8390,7 @@ entry(
 index = 92,
 label = "[Pt]C=CC#[Pt] + CC(O)=[Pt] <=> [Pt]C=CC=[Pt] + C=C(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.5544e-08,'m^2/(molecule*s)'), n=0.454043, Ea=(97.1219,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02809, dn = +|- 0.0035694, dEa = +|- 0.02248 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -8484,7 +8484,7 @@ entry(
 index = 93,
 label = "CC(C)[Pt] + O=C[Pt] <=> CC(C)=[Pt] + C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.17669e-15,'m^2/(molecule*s)'), n=1.44677, Ea=(142.806,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01984, dn = +|- 0.00253101, dEa = +|- 0.0159403 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -8579,7 +8579,7 @@ entry(
 index = 94,
 label = "O=C(O)O[Pt] + OC[Pt] <=> OC=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.21327e-19,'m^2/(molecule*s)'), n=2.69559, Ea=(109.727,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02505, dn = +|- 0.00318823, dEa = +|- 0.0200794 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -8665,7 +8665,7 @@ entry(
 index = 95,
 label = "CCO[Pt] + C=CC[Pt] <=> C=CC=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.88612e-18,'m^2/(molecule*s)'), n=1.62372, Ea=(17.6473,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01575, dn = +|- 0.00201297, dEa = +|- 0.0126776 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -8769,7 +8769,7 @@ entry(
 index = 96,
 label = "CC(O)[Pt] + CC=[Pt] <=> CC#[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.15361e-10,'m^2/(molecule*s)'), n=0.419522, Ea=(178.462,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00886, dn = +|- 0.00113602, dEa = +|- 0.0071546 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -8867,7 +8867,7 @@ entry(
 index = 97,
 label = "CC[Pt] + OC=[Pt] <=> CC=[Pt] + OC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.21549e-12,'m^2/(molecule*s)'), n=1.29191, Ea=(86.7596,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02108, dn = +|- 0.00268787, dEa = +|- 0.0169281 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -8956,7 +8956,7 @@ entry(
 index = 98,
 label = "[Pt]C=CC#[Pt] + CC=[Pt] <=> CC#[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.07641e-07,'m^2/(molecule*s)'), n=0.742279, Ea=(224.504,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03711, dn = +|- 0.00469432, dEa = +|- 0.0295647 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -9047,7 +9047,7 @@ entry(
 index = 99,
 label = "CC[Pt] + C#[Pt] <=> CC=[Pt] + C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.19383e-14,'m^2/(molecule*s)'), n=1.53818, Ea=(175.394,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01201, dn = +|- 0.00153845, dEa = +|- 0.0096891 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -9130,7 +9130,7 @@ entry(
 index = 100,
 label = "C[Pt] + N[Pt] <=> N=[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.06005e-14,'m^2/(molecule*s)'), n=1.7956, Ea=(171.224,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02089, dn = +|- 0.00266335, dEa = +|- 0.0167737 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -9207,7 +9207,7 @@ entry(
 index = 101,
 label = "C=CC[Pt] + C=C=C=[Pt] <=> C=CC=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.7961e-11,'m^2/(molecule*s)'), n=0.628676, Ea=(209.083,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02274, dn = +|- 0.00289652, dEa = +|- 0.0182422 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -9302,7 +9302,7 @@ entry(
 index = 102,
 label = "NC[Pt] + O=C(O)[Pt] <=> NC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.36226e-20,'m^2/(molecule*s)'), n=2.74584, Ea=(144.093,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02761, dn = +|- 0.00350911, dEa = +|- 0.0221003 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -9388,7 +9388,7 @@ entry(
 index = 103,
 label = "CC(C)[Pt] + C=[Pt] <=> C#[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.64684e-10,'m^2/(molecule*s)'), n=0.562978, Ea=(149.206,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04279, dn = +|- 0.00539776, dEa = +|- 0.0339949 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -9483,7 +9483,7 @@ entry(
 index = 104,
 label = "CC[Pt] + OCO[Pt] <=> CC=[Pt] + OCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.10797e-18,'m^2/(molecule*s)'), n=1.69307, Ea=(56.2075,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01958, dn = +|- 0.00249831, dEa = +|- 0.0157343 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -9578,7 +9578,7 @@ entry(
 index = 105,
 label = "[Pt]C=CC#[Pt] + NN=[Pt] <=> [Pt]C=CC=[Pt] + [Pt]N=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.71417e-07,'m^2/(molecule*s)'), n=0.498523, Ea=(98.2456,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02293, dn = +|- 0.00292057, dEa = +|- 0.0183937 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -9663,7 +9663,7 @@ entry(
 index = 106,
 label = "CC[Pt] + O=C(O)[Pt] <=> CCC(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.30784e-15,'m^2/(molecule*s)'), n=1.19122, Ea=(197.367,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0303, dn = +|- 0.00384559, dEa = +|- 0.0242195 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -9752,7 +9752,7 @@ entry(
 index = 107,
 label = "C=C=C[Pt] + CC#[Pt] <=> C=C=C=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.37872e-07,'m^2/(molecule*s)'), n=0.673839, Ea=(323.015,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02087, dn = +|- 0.00266161, dEa = +|- 0.0167628 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -9841,7 +9841,7 @@ entry(
 index = 108,
 label = "[Pt]C=CC#[Pt] + C=CC#[Pt] <=> [Pt]C=CC=[Pt] + C=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.5005e-12,'m^2/(molecule*s)'), n=0.740468, Ea=(200.679,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02826, dn = +|- 0.00359002, dEa = +|- 0.0226098 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -9932,7 +9932,7 @@ entry(
 index = 109,
 label = "OC[Pt] + C=C=C=[Pt] <=> OC=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.0058e-13,'m^2/(molecule*s)'), n=1.49444, Ea=(183.56,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0093, dn = +|- 0.00119285, dEa = +|- 0.00751256 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -10101,7 +10101,7 @@ entry(
 index = 111,
 label = "CC[Pt] + N#[Pt] <=> CC=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.13801e-13,'m^2/(molecule*s)'), n=1.73945, Ea=(162.382,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02906, dn = +|- 0.00369075, dEa = +|- 0.0232442 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -10181,7 +10181,7 @@ entry(
 index = 112,
 label = "CC[Pt] + N[Pt] <=> C=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.72636e-14,'m^2/(molecule*s)'), n=1.82069, Ea=(283.271,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.11141, dn = +|- 0.0136093, dEa = +|- 0.0857113 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -10267,7 +10267,7 @@ entry(
 index = 113,
 label = "[Pt]CCC#[Pt] + OC=[Pt] <=> [Pt]CCC=[Pt] + O=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.52592e-07,'m^2/(molecule*s)'), n=0.438678, Ea=(40.9746,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00486, dn = +|- 0.000624388, dEa = +|- 0.00393238 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -10358,7 +10358,7 @@ entry(
 index = 114,
 label = "C=C[Pt] + OC#[Pt] <=> C=C=[Pt] + OC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.34015e-08,'m^2/(molecule*s)'), n=0.601646, Ea=(126.273,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02542, dn = +|- 0.00323439, dEa = +|- 0.0203701 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -10438,7 +10438,7 @@ entry(
 index = 115,
 label = "[Pt]CCC#[Pt] + [Pt]C=N <=> [Pt]=CCC#[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.00295e-08,'m^2/(molecule*s)'), n=0.633823, Ea=(218.164,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01529, dn = +|- 0.00195514, dEa = +|- 0.0123134 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -10529,7 +10529,7 @@ entry(
 index = 116,
 label = "CC[Pt] + NO[Pt] <=> CC=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.17719e-13,'m^2/(molecule*s)'), n=1.83352, Ea=(134.425,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04574, dn = +|- 0.00576168, dEa = +|- 0.0362869 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -10618,7 +10618,7 @@ entry(
 index = 117,
 label = "CC(C)[Pt] + O=C(O)[Pt] <=> CC(C)=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.60285e-19,'m^2/(molecule*s)'), n=2.6593, Ea=(148.19,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02858, dn = +|- 0.0036306, dEa = +|- 0.0228654 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -10716,7 +10716,7 @@ entry(
 index = 118,
 label = "CC(O)[Pt] + N#[Pt] <=> CC(O)=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.26693e-13,'m^2/(molecule*s)'), n=1.79316, Ea=(123.897,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03418, dn = +|- 0.00433014, dEa = +|- 0.0272711 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -10799,7 +10799,7 @@ entry(
 index = 119,
 label = "OC[Pt] + CC#[Pt] <=> OC=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.3498e-14,'m^2/(molecule*s)'), n=1.52768, Ea=(160.48,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01496, dn = +|- 0.00191353, dEa = +|- 0.0120514 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -10885,7 +10885,7 @@ entry(
 index = 120,
 label = "NC#[Pt] + C=[Pt] <=> C[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.04901e-08,'m^2/(molecule*s)'), n=0.624427, Ea=(154.448,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01728, dn = +|- 0.00220744, dEa = +|- 0.0139024 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -10962,7 +10962,7 @@ entry(
 index = 121,
 label = "CC(O)=[Pt] + NC[Pt] <=> NC=[Pt] + CC(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.57442e-13,'m^2/(molecule*s)'), n=1.42354, Ea=(93.4924,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01906, dn = +|- 0.00243264, dEa = +|- 0.0153207 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -11057,7 +11057,7 @@ entry(
 index = 122,
 label = "O=CC[Pt] + O=C=C=[Pt] <=> O=C=C[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.75082e-20,'m^2/(molecule*s)'), n=2.6539, Ea=(62.6724,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02171, dn = +|- 0.00276769, dEa = +|- 0.0174308 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -11140,7 +11140,7 @@ entry(
 index = 123,
 label = "CC#[Pt] + NC#[Pt] <=> CC=[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.38958e-09,'m^2/(molecule*s)'), n=0.638071, Ea=(190.494,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02579, dn = +|- 0.00328016, dEa = +|- 0.0206584 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -11223,7 +11223,7 @@ entry(
 index = 124,
 label = "OC[Pt] + OC#[Pt] <=> OC=[Pt] + OC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.27289e-14,'m^2/(molecule*s)'), n=1.55165, Ea=(158.784,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0169, dn = +|- 0.00215861, dEa = +|- 0.0135949 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -11303,7 +11303,7 @@ entry(
 index = 125,
 label = "O=CC[Pt] + N#[Pt] <=> O=CC=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.7901e-13,'m^2/(molecule*s)'), n=1.71699, Ea=(199.6,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03602, dn = +|- 0.00455936, dEa = +|- 0.0287147 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -11380,7 +11380,7 @@ entry(
 index = 126,
 label = "CCC[Pt] + CC=C[Pt] <=> CCC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.92333e-14,'m^2/(molecule*s)'), n=0.683063, Ea=(118.76,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02819, dn = +|- 0.00358143, dEa = +|- 0.0225557 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -11490,7 +11490,7 @@ entry(
 index = 127,
 label = "CCO[Pt] + CC(O)[Pt] <=> CC(O)=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.14541e-15,'m^2/(molecule*s)'), n=0.660743, Ea=(31.3279,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02071, dn = +|- 0.00264095, dEa = +|- 0.0166326 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -11594,7 +11594,7 @@ entry(
 index = 128,
 label = "O=CC[Pt] + NN=[Pt] <=> O=CC=[Pt] + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.65722e-12,'m^2/(molecule*s)'), n=1.56028, Ea=(134.953,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02404, dn = +|- 0.00306115, dEa = +|- 0.0192791 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -11680,7 +11680,7 @@ entry(
 index = 129,
 label = "C=C(C)[Pt] + C[Pt] <=> C=C(C)C + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.33972e-15,'m^2/(molecule*s)'), n=1.00285, Ea=(113.633,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01478, dn = +|- 0.0018903, dEa = +|- 0.0119051 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -11772,7 +11772,7 @@ entry(
 index = 130,
 label = "C=C(C)[Pt] + O=C(O)[Pt] <=> C=C(C)C(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.00437e-18,'m^2/(molecule*s)'), n=2.07941, Ea=(113.006,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00456, dn = +|- 0.000586184, dEa = +|- 0.00369177 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -11864,7 +11864,7 @@ entry(
 index = 131,
 label = "[Pt]CCC#[Pt] + C$[Pt] <=> [Pt]=CCC#[Pt] + C#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.36238e-07,'m^2/(molecule*s)'), n=0.438666, Ea=(155.136,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01313, dn = +|- 0.00168124, dEa = +|- 0.0105884 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -11946,7 +11946,7 @@ entry(
 index = 132,
 label = "NC[Pt] + O=C=C=[Pt] <=> NC=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.42405e-20,'m^2/(molecule*s)'), n=2.84544, Ea=(114.32,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02736, dn = +|- 0.00347798, dEa = +|- 0.0219042 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -12029,7 +12029,7 @@ entry(
 index = 133,
 label = "CC(C)[Pt] + NN[Pt] <=> CC(C)=[Pt] + NN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.0696e-13,'m^2/(molecule*s)'), n=1.6449, Ea=(75.3253,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02291, dn = +|- 0.00291803, dEa = +|- 0.0183777 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -12130,7 +12130,7 @@ entry(
 index = 134,
 label = "CC=[Pt] + CN=[Pt] <=> CC[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.70843e-08,'m^2/(molecule*s)'), n=0.530444, Ea=(128.972,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01269, dn = +|- 0.00162499, dEa = +|- 0.0102342 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -12219,7 +12219,7 @@ entry(
 index = 135,
 label = "CC[Pt] + [Pt]N=C <=> CC=[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.37114e-16,'m^2/(molecule*s)'), n=2.62944, Ea=(107.287,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01445, dn = +|- 0.00184809, dEa = +|- 0.0116392 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -12308,7 +12308,7 @@ entry(
 index = 136,
 label = "CCO[Pt] + OC[Pt] <=> OC=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.14275e-19,'m^2/(molecule*s)'), n=2.57008, Ea=(40.5075,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01256, dn = +|- 0.00160775, dEa = +|- 0.0101256 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -12403,7 +12403,7 @@ entry(
 index = 137,
 label = "CC[Pt] + O=C(O)[Pt] <=> CCC(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.54214e-11,'m^2/(molecule*s)'), n=-0.662269, Ea=(202.014,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05405, dn = +|- 0.00678139, dEa = +|- 0.042709 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -12492,7 +12492,7 @@ entry(
 index = 138,
 label = "C=C=C=[Pt] + NC#[Pt] <=> C=C=C[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.04001e-09,'m^2/(molecule*s)'), n=0.534471, Ea=(193.483,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03573, dn = +|- 0.0045228, dEa = +|- 0.0284844 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -12575,7 +12575,7 @@ entry(
 index = 139,
 label = "C[Pt] + N[Pt] <=> C=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.31548e-13,'m^2/(molecule*s)'), n=1.72212, Ea=(104.191,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02316, dn = +|- 0.00294999, dEa = +|- 0.0185789 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -12652,7 +12652,7 @@ entry(
 index = 140,
 label = "CC(O)[Pt] + CC=[Pt] <=> CC(O)=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.35354e-10,'m^2/(molecule*s)'), n=0.293465, Ea=(73.4527,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01135, dn = +|- 0.00145345, dEa = +|- 0.00915378 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -12750,7 +12750,7 @@ entry(
 index = 141,
 label = "O=CC[Pt] + ON=[Pt] <=> O=CC=[Pt] + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.606e-13,'m^2/(molecule*s)'), n=1.56203, Ea=(143.758,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01004, dn = +|- 0.0012876, dEa = +|- 0.00810929 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -12833,7 +12833,7 @@ entry(
 index = 142,
 label = "CC[Pt] + [Pt]NN=O <=> CC=[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.00788e-19,'m^2/(molecule*s)'), n=2.54222, Ea=(105.004,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01229, dn = +|- 0.00157323, dEa = +|- 0.00990815 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -12922,7 +12922,7 @@ entry(
 index = 143,
 label = "OCC[Pt] + C=C(O)[Pt] <=> C=C(O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.72476e-09,'m^2/(molecule*s)'), n=-0.0606489, Ea=(162.193,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00295, dn = +|- 0.000379201, dEa = +|- 0.0023882 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -13020,7 +13020,7 @@ entry(
 index = 144,
 label = "CC[Pt] + O=C(O)[Pt] <=> CC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.06455e-19,'m^2/(molecule*s)'), n=2.60104, Ea=(168.417,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01905, dn = +|- 0.00243174, dEa = +|- 0.0153151 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -13257,7 +13257,7 @@ entry(
 index = 147,
 label = "CC(C)[Pt] + O=C[Pt] <=> O=C=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.02239e-14,'m^2/(molecule*s)'), n=1.32904, Ea=(115.188,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02615, dn = +|- 0.00332565, dEa = +|- 0.0209449 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -13352,7 +13352,7 @@ entry(
 index = 148,
 label = "O=CC[Pt] + ON[Pt] <=> O=CC=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.48563e-15,'m^2/(molecule*s)'), n=2.52413, Ea=(61.1983,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01028, dn = +|- 0.00131804, dEa = +|- 0.00830097 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -13438,7 +13438,7 @@ entry(
 index = 149,
 label = "C[Pt] + O=C(O)[Pt] <=> CC(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.80929e-15,'m^2/(molecule*s)'), n=1.14657, Ea=(188.695,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02465, dn = +|- 0.00313762, dEa = +|- 0.0197607 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -13518,7 +13518,7 @@ entry(
 index = 150,
 label = "CC(O)=[Pt] + NC#[Pt] <=> CC(O)[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.3445e-06,'m^2/(molecule*s)'), n=-0.558988, Ea=(116.46,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04606, dn = +|- 0.00580134, dEa = +|- 0.0365367 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -13607,7 +13607,7 @@ entry(
 index = 151,
 label = "C=C(C)[Pt] + CC=[Pt] <=> CC#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.84995e-11,'m^2/(molecule*s)'), n=0.728203, Ea=(120.789,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03164, dn = +|- 0.00401346, dEa = +|- 0.0252767 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -13705,7 +13705,7 @@ entry(
 index = 152,
 label = "CCC[Pt] + CC(C)=[Pt] <=> CCC=[Pt] + CC(C)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.21279e-10,'m^2/(molecule*s)'), n=0.443116, Ea=(76.3626,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01094, dn = +|- 0.00140169, dEa = +|- 0.00882781 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -13818,7 +13818,7 @@ entry(
 index = 153,
 label = "CC(C)[Pt] + [Pt]C=N <=> CC(C)=[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.35529e-10,'m^2/(molecule*s)'), n=0.791826, Ea=(188.633,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04272, dn = +|- 0.0053895, dEa = +|- 0.0339429 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -13916,7 +13916,7 @@ entry(
 index = 154,
 label = "[Pt]CCC#[Pt] + O[Pt] <=> [Pt]=CCC#[Pt] + O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.14227e-09,'m^2/(molecule*s)'), n=0.566781, Ea=(108.423,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01213, dn = +|- 0.00155284, dEa = +|- 0.00977977 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -14001,7 +14001,7 @@ entry(
 index = 155,
 label = "CCC[Pt] + CC=[Pt] <=> CCC=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.09689e-11,'m^2/(molecule*s)'), n=0.357266, Ea=(97.5597,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01607, dn = +|- 0.00205362, dEa = +|- 0.0129337 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -14105,7 +14105,7 @@ entry(
 index = 156,
 label = "CC(C)=[Pt] + NC#[Pt] <=> CC(C)[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.92449e-06,'m^2/(molecule*s)'), n=-0.388542, Ea=(182.87,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01453, dn = +|- 0.00185889, dEa = +|- 0.0117072 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -14200,7 +14200,7 @@ entry(
 index = 157,
 label = "O=CC[Pt] + [Pt]NN=O <=> O=CC=[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.41306e-18,'m^2/(molecule*s)'), n=2.77826, Ea=(131.576,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03803, dn = +|- 0.00480822, dEa = +|- 0.0302821 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -14286,7 +14286,7 @@ entry(
 index = 158,
 label = "O=CC[Pt] + CC=[Pt] <=> O=CC=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.71353e-13,'m^2/(molecule*s)'), n=1.40298, Ea=(100.939,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00954, dn = +|- 0.00122369, dEa = +|- 0.00770679 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -14378,7 +14378,7 @@ entry(
 index = 159,
 label = "CC=C[Pt] + NC[Pt] <=> CC=CCN + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.95717e-19,'m^2/(molecule*s)'), n=1.90037, Ea=(165.557,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02902, dn = +|- 0.00368621, dEa = +|- 0.0232156 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -14476,7 +14476,7 @@ entry(
 index = 160,
 label = "CC(C)[Pt] + CC(O)=[Pt] <=> CC(C)=[Pt] + CC(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.76354e-11,'m^2/(molecule*s)'), n=0.263093, Ea=(59.4431,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02339, dn = +|- 0.00297909, dEa = +|- 0.0187623 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -14583,7 +14583,7 @@ entry(
 index = 161,
 label = "O=CC[Pt] + NC=[Pt] <=> NC[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.52523e-16,'m^2/(molecule*s)'), n=1.56111, Ea=(84.2045,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04979, dn = +|- 0.00626001, dEa = +|- 0.0394254 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -14672,7 +14672,7 @@ entry(
 index = 162,
 label = "CC=[Pt] + C[Pt] <=> CC#[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.94664e-05,'m^2/(molecule*s)'), n=-1.24046, Ea=(245.993,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06482, dn = +|- 0.00809131, dEa = +|- 0.0509588 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -14758,7 +14758,7 @@ entry(
 index = 163,
 label = "CC(C)[Pt] + ON=[Pt] <=> CC(C)=[Pt] + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.69516e-13,'m^2/(molecule*s)'), n=1.67233, Ea=(112.381,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01259, dn = +|- 0.00161237, dEa = +|- 0.0101547 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -14853,7 +14853,7 @@ entry(
 index = 164,
 label = "C=C(C)[Pt] + OC[Pt] <=> OC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.79232e-20,'m^2/(molecule*s)'), n=2.49098, Ea=(44.0282,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03796, dn = +|- 0.00480033, dEa = +|- 0.0302324 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -14948,7 +14948,7 @@ entry(
 index = 165,
 label = "[Pt]=CCC#[Pt] + CC(O)=[Pt] <=> [Pt]CCC#[Pt] + CC(=O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.32695e-05,'m^2/(molecule*s)'), n=0.227446, Ea=(18.8206,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0091, dn = +|- 0.00116767, dEa = +|- 0.00735395 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -15045,7 +15045,7 @@ entry(
 index = 166,
 label = "[Pt]=CCC#[Pt] + CC[Pt] <=> CC=[Pt] + [Pt]=CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.8664e-11,'m^2/(molecule*s)'), n=0.617899, Ea=(158.203,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01374, dn = +|- 0.00175816, dEa = +|- 0.0110728 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -15142,7 +15142,7 @@ entry(
 index = 167,
 label = "CC(O)[Pt] + O=C(O)[Pt] <=> CC=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.56669e-18,'m^2/(molecule*s)'), n=2.08711, Ea=(157.001,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00433, dn = +|- 0.000556496, dEa = +|- 0.0035048 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -15234,7 +15234,7 @@ entry(
 index = 168,
 label = "CC(O)[Pt] + C=C=C[Pt] <=> CC(O)=[Pt] + C=C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.92793e-14,'m^2/(molecule*s)'), n=1.68312, Ea=(70.363,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01521, dn = +|- 0.00194495, dEa = +|- 0.0122493 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -15332,7 +15332,7 @@ entry(
 index = 169,
 label = "C=CC[Pt] + N#[Pt] <=> C=CC=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.8305e-11,'m^2/(molecule*s)'), n=0.749802, Ea=(202.618,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03987, dn = +|- 0.00503737, dEa = +|- 0.0317252 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -15415,7 +15415,7 @@ entry(
 index = 170,
 label = "C=CC[Pt] + O=C(O)O[Pt] <=> C=CC=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.46377e-17,'m^2/(molecule*s)'), n=1.78714, Ea=(127.113,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03523, dn = +|- 0.00446116, dEa = +|- 0.0280963 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -15510,7 +15510,7 @@ entry(
 index = 171,
 label = "O=CC#[Pt] + OC#[Pt] <=> OC=[Pt] + O=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.8166e-14,'m^2/(molecule*s)'), n=1.60886, Ea=(179.199,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02279, dn = +|- 0.00290296, dEa = +|- 0.0182827 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -15587,7 +15587,7 @@ entry(
 index = 172,
 label = "O=CC[Pt] + O=C=C[Pt] <=> 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.58536e-13,'m^2/(molecule*s)'), n=1.5159, Ea=(95.5567,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02136, dn = +|- 0.00272293, dEa = +|- 0.0171489 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -15673,7 +15673,7 @@ entry(
 index = 173,
 label = "NC[Pt] + C=C=[Pt] <=> NC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.4639e-14,'m^2/(molecule*s)'), n=1.72709, Ea=(146.998,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01801, dn = +|- 0.00229943, dEa = +|- 0.0144818 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -15759,7 +15759,7 @@ entry(
 index = 174,
 label = "[Pt]C=CC#[Pt] + NC[Pt] <=> NC=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.82465e-14,'m^2/(molecule*s)'), n=1.54849, Ea=(169.717,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01128, dn = +|- 0.0014454, dEa = +|- 0.00910306 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -15850,7 +15850,7 @@ entry(
 index = 175,
 label = "O=CC[Pt] + [Pt]C=N <=> O=CC=[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.8265e-10,'m^2/(molecule*s)'), n=0.758213, Ea=(212.89,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03862, dn = +|- 0.00488203, dEa = +|- 0.0307469 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -15936,7 +15936,7 @@ entry(
 index = 176,
 label = "CN=[Pt] + O=C=C=[Pt] <=> O=C=C[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.07068e-15,'m^2/(molecule*s)'), n=1.75792, Ea=(164.42,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02046, dn = +|- 0.00260984, dEa = +|- 0.0164367 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -16016,7 +16016,7 @@ entry(
 index = 177,
 label = "[Pt]C=CC=[Pt] + O=C(O)O[Pt] <=> [Pt]C=CC#[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.22121e-13,'m^2/(molecule*s)'), n=1.66637, Ea=(121.209,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03107, dn = +|- 0.00394185, dEa = +|- 0.0248257 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -16107,7 +16107,7 @@ entry(
 index = 178,
 label = "CCO[Pt] + O=CC[Pt] <=> O=CC=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.25617e-12,'m^2/(molecule*s)'), n=-0.29705, Ea=(52.3612,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02658, dn = +|- 0.00337974, dEa = +|- 0.0212855 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -16205,7 +16205,7 @@ entry(
 index = 179,
 label = "[Pt]=CCC#[Pt] + OC[Pt] <=> OC=[Pt] + [Pt]=CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.54448e-13,'m^2/(molecule*s)'), n=1.45626, Ea=(163.311,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01343, dn = +|- 0.00171837, dEa = +|- 0.0108223 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -16296,7 +16296,7 @@ entry(
 index = 180,
 label = "NN[Pt] + 1Ou0p2c0{2,S}{5,S}2Nu0p1c0{1,S}{3,S}{4,S}{6,vdW}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{2,vdW} <=> 1Nu0p1c0{2,S}{3,S}{4,S}{7,vdW}2Nu0p1c0{1,S}{5,S}{6,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Hu0p0c0{2,S}6Hu0p0c0{2,S}7Xu0p0c0{1,vdW} + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.34339e-12,'m^2/(molecule*s)'), n=1.38261, Ea=(-23.1934,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0199, dn = +|- 0.00253817, dEa = +|- 0.0159853 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -16382,7 +16382,7 @@ entry(
 index = 181,
 label = "OCC[Pt] + CC(O)[Pt] <=> CC(O)=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.77122e-13,'m^2/(molecule*s)'), n=0.581956, Ea=(173.68,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03249, dn = +|- 0.00411902, dEa = +|- 0.0259415 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -16486,7 +16486,7 @@ entry(
 index = 182,
 label = "CC(C)[Pt] + O[Pt] <=> CC(C)=[Pt] + O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.0253e-14,'m^2/(molecule*s)'), n=1.72217, Ea=(58.5411,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02582, dn = +|- 0.00328397, dEa = +|- 0.0206823 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -16578,7 +16578,7 @@ entry(
 index = 183,
 label = "[Pt]=CCC#[Pt] + OC=[Pt] <=> OC[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.40638e-08,'m^2/(molecule*s)'), n=0.463345, Ea=(117.333,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01508, dn = +|- 0.00192843, dEa = +|- 0.0121452 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -16666,7 +16666,7 @@ entry(
 index = 184,
 label = "O=CC[Pt] + NN=[Pt] <=> NN[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.1536e-12,'m^2/(molecule*s)'), n=1.505, Ea=(116.051,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04573, dn = +|- 0.00576146, dEa = +|- 0.0362855 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -16752,7 +16752,7 @@ entry(
 index = 185,
 label = "CC(O)[Pt] + NC#[Pt] <=> CC(O)=[Pt] + NC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.77792e-12,'m^2/(molecule*s)'), n=0.553226, Ea=(149.628,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01822, dn = +|- 0.00232591, dEa = +|- 0.0146485 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -16844,7 +16844,7 @@ entry(
 index = 186,
 label = "[Pt]=CCC#[Pt] + N=C=[Pt] <=> [Pt]C=N + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.8948e-08,'m^2/(molecule*s)'), n=0.633201, Ea=(182.05,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01891, dn = +|- 0.0024141, dEa = +|- 0.0152039 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -16929,7 +16929,7 @@ entry(
 index = 187,
 label = "[Pt]CCC=[Pt] + CC(=O)[Pt] <=> [Pt]CCC#[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.80425e-13,'m^2/(molecule*s)'), n=1.5471, Ea=(153.916,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01694, dn = +|- 0.00216375, dEa = +|- 0.0136273 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -17029,7 +17029,7 @@ entry(
 index = 188,
 label = "C=CC[Pt] + CC=[Pt] <=> C=CC=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.12324e-12,'m^2/(molecule*s)'), n=1.46967, Ea=(101.133,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01077, dn = +|- 0.00138024, dEa = +|- 0.00869269 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -17127,7 +17127,7 @@ entry(
 index = 189,
 label = "[Pt]C=CC#[Pt] + ON[Pt] <=> ON=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.81023e-10,'m^2/(molecule*s)'), n=1.56781, Ea=(81.3058,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02112, dn = +|- 0.00269262, dEa = +|- 0.0169581 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -17283,7 +17283,7 @@ entry(
 index = 191,
 label = "CC(O)[Pt] + N=C=[Pt] <=> CC(O)=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.42085e-13,'m^2/(molecule*s)'), n=1.46957, Ea=(99.6506,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02125, dn = +|- 0.0027085, dEa = +|- 0.0170581 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -17372,7 +17372,7 @@ entry(
 index = 192,
 label = "CC(O)[Pt] + ON=[Pt] <=> CC(O)=[Pt] + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.73719e-13,'m^2/(molecule*s)'), n=1.56118, Ea=(96.5614,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02127, dn = +|- 0.00271193, dEa = +|- 0.0170797 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -17461,7 +17461,7 @@ entry(
 index = 193,
 label = "CC(C)=[Pt] + O=CC[Pt] <=> O=CC=[Pt] + CC(C)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.16369e-08,'m^2/(molecule*s)'), n=-0.594926, Ea=(102.472,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01055, dn = +|- 0.00135255, dEa = +|- 0.00851831 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -17562,7 +17562,7 @@ entry(
 index = 194,
 label = "CC[Pt] + [Pt]C=N <=> CC=[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.02328e-13,'m^2/(molecule*s)'), n=1.56725, Ea=(150.242,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01815, dn = +|- 0.00231696, dEa = +|- 0.0145921 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -17651,7 +17651,7 @@ entry(
 index = 195,
 label = "CC(C)[Pt] + O=C=C[Pt] <=> CC(C)=[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.56915e-11,'m^2/(molecule*s)'), n=0.821375, Ea=(120.813,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04374, dn = +|- 0.00551596, dEa = +|- 0.0347394 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -17749,7 +17749,7 @@ entry(
 index = 196,
 label = "[Pt]CCC#[Pt] + O[Pt] <=> O=[Pt] + [Pt]CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.16223e-08,'m^2/(molecule*s)'), n=0.451916, Ea=(216.598,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03076, dn = +|- 0.00390301, dEa = +|- 0.0245811 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -17834,7 +17834,7 @@ entry(
 index = 197,
 label = "O=CC[Pt] + NN[Pt] <=> 1Nu0p1c0{2,S}{3,S}{4,S}{7,vdW}2Nu0p1c0{1,S}{5,S}{6,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Hu0p0c0{2,S}6Hu0p0c0{2,S}7Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.2568e-14,'m^2/(molecule*s)'), n=1.8155, Ea=(59.1673,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04777, dn = +|- 0.00601173, dEa = +|- 0.0378617 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -17923,7 +17923,7 @@ entry(
 index = 198,
 label = "O=CC[Pt] + CC#[Pt] <=> O=CC=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.13351e-11,'m^2/(molecule*s)'), n=0.844077, Ea=(254.696,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04315, dn = +|- 0.00544326, dEa = +|- 0.0342815 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -18012,7 +18012,7 @@ entry(
 index = 199,
 label = "O=C(O)[Pt] + C[Pt] <=> C=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.27951e-19,'m^2/(molecule*s)'), n=2.60289, Ea=(189.096,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01618, dn = +|- 0.00206736, dEa = +|- 0.0130202 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -18092,7 +18092,7 @@ entry(
 index = 200,
 label = "CC=C[Pt] + NC[Pt] <=> NC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.34233e-16,'m^2/(molecule*s)'), n=1.69274, Ea=(111.803,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02835, dn = +|- 0.00360233, dEa = +|- 0.0226874 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -18190,7 +18190,7 @@ entry(
 index = 201,
 label = "C=C(C)[Pt] + CC=[Pt] <=> C=C=[Pt] + CC(C)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.83054e-13,'m^2/(molecule*s)'), n=1.40048, Ea=(277.462,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0531, dn = +|- 0.0066658, dEa = +|- 0.0419811 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -18288,7 +18288,7 @@ entry(
 index = 202,
 label = "CC(C)[Pt] + O[Pt] <=> O=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.46396e-13,'m^2/(molecule*s)'), n=1.41654, Ea=(138.834,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02738, dn = +|- 0.00347978, dEa = +|- 0.0219155 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -18380,7 +18380,7 @@ entry(
 index = 203,
 label = "[Pt]C=CC#[Pt] + OC[Pt] <=> OC=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.1521e-14,'m^2/(molecule*s)'), n=1.48719, Ea=(173.057,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01436, dn = +|- 0.00183673, dEa = +|- 0.0115677 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -18468,7 +18468,7 @@ entry(
 index = 204,
 label = "O=C=C[Pt] + 1Ou0p2c0{2,S}{3,S}{4,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Xu0p0c0{1,vdW} <=> 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW} + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.91929e-13,'m^2/(molecule*s)'), n=1.30581, Ea=(108.759,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04853, dn = +|- 0.00610512, dEa = +|- 0.0384499 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -18545,7 +18545,7 @@ entry(
 index = 205,
 label = "CC(C)[Pt] + OCO[Pt] <=> CC(C)=[Pt] + OCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.02327e-17,'m^2/(molecule*s)'), n=1.7364, Ea=(59.0952,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03628, dn = +|- 0.00459148, dEa = +|- 0.028917 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -18649,7 +18649,7 @@ entry(
 index = 206,
 label = "CN=[Pt] + C=C=C=[Pt] <=> C=C=C[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.19925e-06,'m^2/(molecule*s)'), n=-0.340634, Ea=(220.287,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02635, dn = +|- 0.00335123, dEa = +|- 0.0211059 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -18735,7 +18735,7 @@ entry(
 index = 207,
 label = "[Pt]CCC#[Pt] + [Pt]NN=O <=> [Pt]=CCC#[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.86601e-15,'m^2/(molecule*s)'), n=1.72258, Ea=(174.84,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02159, dn = +|- 0.00275138, dEa = +|- 0.0173281 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -18826,7 +18826,7 @@ entry(
 index = 208,
 label = "CC(C)[Pt] + OO[Pt] <=> CC(C)=[Pt] + OO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.33206e-17,'m^2/(molecule*s)'), n=1.76966, Ea=(67.1573,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03321, dn = +|- 0.00420864, dEa = +|- 0.0265059 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -18998,7 +18998,7 @@ entry(
 index = 210,
 label = "[Pt]=CCC#[Pt] + NC=[Pt] <=> NC[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.05258e-13,'m^2/(molecule*s)'), n=1.85446, Ea=(177.533,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0522, dn = +|- 0.00655527, dEa = +|- 0.0412849 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -19089,7 +19089,7 @@ entry(
 index = 211,
 label = "O=CC#[Pt] + NC#[Pt] <=> NC=[Pt] + O=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.52922e-14,'m^2/(molecule*s)'), n=1.4107, Ea=(201.842,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01371, dn = +|- 0.0017542, dEa = +|- 0.0110479 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -19169,7 +19169,7 @@ entry(
 index = 212,
 label = "CCC#[Pt] + N=[Pt] <=> CN[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.61031e-13,'m^2/(molecule*s)'), n=1.71202, Ea=(366.475,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.10704, dn = +|- 0.0131013, dEa = +|- 0.0825115 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -19255,7 +19255,7 @@ entry(
 index = 213,
 label = "[Pt]CCC#[Pt] + CC(=O)[Pt] <=> [Pt]=CCC#[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.89504e-14,'m^2/(molecule*s)'), n=1.44329, Ea=(250.471,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00945, dn = +|- 0.00121199, dEa = +|- 0.00763308 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -19352,7 +19352,7 @@ entry(
 index = 214,
 label = "CC(O)[Pt] + O=C(O)[Pt] <=> CC(O)=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.5387e-19,'m^2/(molecule*s)'), n=2.70864, Ea=(122.872,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02605, dn = +|- 0.00331326, dEa = +|- 0.0208668 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -19444,7 +19444,7 @@ entry(
 index = 215,
 label = "CC(C)[Pt] + C=C(C)[Pt] <=> CC(C)=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.49418e-20,'m^2/(molecule*s)'), n=2.59165, Ea=(52.1119,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02267, dn = +|- 0.00288841, dEa = +|- 0.0181911 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -19554,7 +19554,7 @@ entry(
 index = 216,
 label = "O=CC[Pt] + ON[Pt] <=> 1Ou0p2c0{2,S}{5,S}2Nu0p1c0{1,S}{3,S}{4,S}{6,vdW}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{2,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.91736e-15,'m^2/(molecule*s)'), n=2.56574, Ea=(43.6341,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02163, dn = +|- 0.00275663, dEa = +|- 0.0173612 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -19640,7 +19640,7 @@ entry(
 index = 217,
 label = "[Pt]CCC#[Pt] + OCO[Pt] <=> [Pt]=CCC#[Pt] + OCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.31354e-13,'m^2/(molecule*s)'), n=1.5497, Ea=(112.993,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0125, dn = +|- 0.00160046, dEa = +|- 0.0100797 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -19737,7 +19737,7 @@ entry(
 index = 218,
 label = "C=CC[Pt] + N[Pt] <=> C=CC=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.96643e-14,'m^2/(molecule*s)'), n=1.76699, Ea=(57.2351,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0219, dn = +|- 0.00279127, dEa = +|- 0.0175794 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -19826,7 +19826,7 @@ entry(
 index = 219,
 label = "CC#[Pt] + CN=[Pt] <=> CN[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.43688e-08,'m^2/(molecule*s)'), n=0.799773, Ea=(182.319,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03689, dn = +|- 0.00466775, dEa = +|- 0.0293974 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -19983,7 +19983,7 @@ entry(
 index = 221,
 label = "O=CC[Pt] + C=C=[Pt] <=> C=C[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.76287e-12,'m^2/(molecule*s)'), n=0.841537, Ea=(103.048,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04386, dn = +|- 0.00553071, dEa = +|- 0.0348323 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -20069,7 +20069,7 @@ entry(
 index = 222,
 label = "CC(C)[Pt] + C=CC#[Pt] <=> CC(C)=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.52248e-19,'m^2/(molecule*s)'), n=2.57719, Ea=(240.534,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01445, dn = +|- 0.00184826, dEa = +|- 0.0116403 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -20173,7 +20173,7 @@ entry(
 index = 223,
 label = "C=C=C[Pt] + N=[Pt] <=> C=C=C=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.07369e-07,'m^2/(molecule*s)'), n=0.618778, Ea=(209.16,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02574, dn = +|- 0.00327478, dEa = +|- 0.0206245 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -20253,7 +20253,7 @@ entry(
 index = 224,
 label = "[Pt]CCC#[Pt] + CC=C[Pt] <=> [Pt]=CCC#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.14022e-13,'m^2/(molecule*s)'), n=0.584765, Ea=(107.791,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01726, dn = +|- 0.00220418, dEa = +|- 0.0138819 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -20356,7 +20356,7 @@ entry(
 index = 225,
 label = "O=CC[Pt] + C=[Pt] <=> C[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.56002e-09,'m^2/(molecule*s)'), n=0.207465, Ea=(77.1409,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00846, dn = +|- 0.0010859, dEa = +|- 0.00683896 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -20439,7 +20439,7 @@ entry(
 index = 226,
 label = "CC[Pt] + CN[Pt] <=> CC=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.40986e-14,'m^2/(molecule*s)'), n=1.67287, Ea=(89.5738,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01975, dn = +|- 0.00252004, dEa = +|- 0.0158711 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -20534,7 +20534,7 @@ entry(
 index = 227,
 label = "C=C(C)[Pt] + C=C=C[Pt] <=> C=C=CC(=C)C + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.12913e-11,'m^2/(molecule*s)'), n=0.987326, Ea=(105.515,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00792, dn = +|- 0.00101603, dEa = +|- 0.00639892 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -20632,7 +20632,7 @@ entry(
 index = 228,
 label = "1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW} + N[Pt] <=> 1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW} + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.87866e-10,'m^2/(molecule*s)'), n=0.280695, Ea=(24.0129,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02225, dn = +|- 0.0028355, dEa = +|- 0.0178579 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -20712,7 +20712,7 @@ entry(
 index = 229,
 label = "CC[Pt] + C=C=C[Pt] <=> CC=[Pt] + C=C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.46211e-14,'m^2/(molecule*s)'), n=1.64411, Ea=(98.0908,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02025, dn = +|- 0.00258296, dEa = +|- 0.0162674 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -20807,7 +20807,7 @@ entry(
 index = 230,
 label = "O=CC[Pt] + C=C[Pt] <=> O=CC=[Pt] + C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.02004e-14,'m^2/(molecule*s)'), n=1.69692, Ea=(86.048,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02126, dn = +|- 0.00271041, dEa = +|- 0.0170701 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -20896,7 +20896,7 @@ entry(
 index = 231,
 label = "[Pt]NN=O + O=C=C[Pt] <=> O=C=C=[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.97359e-13,'m^2/(molecule*s)'), n=1.53623, Ea=(93.9274,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01745, dn = +|- 0.00222853, dEa = +|- 0.0140352 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -20976,7 +20976,7 @@ entry(
 index = 232,
 label = "CC(O)[Pt] + C=C=[Pt] <=> CC(O)=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.70794e-14,'m^2/(molecule*s)'), n=1.6786, Ea=(111.57,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01493, dn = +|- 0.0019091, dEa = +|- 0.0120235 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -21068,7 +21068,7 @@ entry(
 index = 233,
 label = "CC(O)[Pt] + C=CC#[Pt] <=> CC(O)=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.22988e-20,'m^2/(molecule*s)'), n=2.6523, Ea=(136.29,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01947, dn = +|- 0.00248424, dEa = +|- 0.0156457 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -21166,7 +21166,7 @@ entry(
 index = 234,
 label = "O=CC[Pt] + C=C=[Pt] <=> O=CC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.1736e-14,'m^2/(molecule*s)'), n=1.8108, Ea=(155.048,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03362, dn = +|- 0.00426059, dEa = +|- 0.0268331 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -21252,7 +21252,7 @@ entry(
 index = 235,
 label = "C=C=C=[Pt] + OC#[Pt] <=> C=C=C[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.5978e-06,'m^2/(molecule*s)'), n=-0.536717, Ea=(113.957,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02405, dn = +|- 0.00306178, dEa = +|- 0.019283 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -21332,7 +21332,7 @@ entry(
 index = 236,
 label = "[Pt]=CCC#[Pt] + NN=[Pt] <=> [Pt]CCC#[Pt] + [Pt]N=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.02034e-06,'m^2/(molecule*s)'), n=0.331506, Ea=(119.728,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03086, dn = +|- 0.00391598, dEa = +|- 0.0246627 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -21420,7 +21420,7 @@ entry(
 index = 237,
 label = "[Pt]C=CC#[Pt] + CN=[Pt] <=> [Pt]C=CC=[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.37199e-08,'m^2/(molecule*s)'), n=0.564392, Ea=(161.897,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01471, dn = +|- 0.00188156, dEa = +|- 0.01185 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -21508,7 +21508,7 @@ entry(
 index = 238,
 label = "O=CC[Pt] + N=[Pt] <=> O=CC=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.89861e-14,'m^2/(molecule*s)'), n=1.75419, Ea=(157.047,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02839, dn = +|- 0.00360639, dEa = +|- 0.0227129 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -21588,7 +21588,7 @@ entry(
 index = 239,
 label = "O=CC[Pt] + OO[Pt] <=> O=CC=[Pt] + OO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.49601e-19,'m^2/(molecule*s)'), n=2.69906, Ea=(76.908,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02742, dn = +|- 0.00348461, dEa = +|- 0.021946 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -21671,7 +21671,7 @@ entry(
 index = 240,
 label = "[Pt]CCC#[Pt] + C=C(C)[Pt] <=> [Pt]=CCC#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.0008e-15,'m^2/(molecule*s)'), n=1.59121, Ea=(122.559,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02989, dn = +|- 0.00379395, dEa = +|- 0.0238942 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -21774,7 +21774,7 @@ entry(
 index = 241,
 label = "O=CC[Pt] + [Pt]N=C <=> 1Nu0p1c0{2,D}{5,S}{6,vdW}2Cu0p0c0{1,D}{3,S}{4,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.51013e-16,'m^2/(molecule*s)'), n=2.64927, Ea=(80.6504,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03063, dn = +|- 0.0038866, dEa = +|- 0.0244777 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -21860,7 +21860,7 @@ entry(
 index = 242,
 label = "[Pt]CCC#[Pt] + C=[Pt] <=> C#[Pt] + [Pt]CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.87305e-08,'m^2/(molecule*s)'), n=0.453434, Ea=(117.237,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01371, dn = +|- 0.0017546, dEa = +|- 0.0110504 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -21948,7 +21948,7 @@ entry(
 index = 243,
 label = "C=C(C)[Pt] + C=C=C[Pt] <=> C=C=C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.28272e-13,'m^2/(molecule*s)'), n=1.6896, Ea=(148.381,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02256, dn = +|- 0.00287434, dEa = +|- 0.0181025 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -22046,7 +22046,7 @@ entry(
 index = 244,
 label = "C=CC[Pt] + C=C=[Pt] <=> C=CC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.3153e-14,'m^2/(molecule*s)'), n=1.75062, Ea=(156.371,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02171, dn = +|- 0.00276769, dEa = +|- 0.0174308 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -22218,7 +22218,7 @@ entry(
 index = 246,
 label = "O=CC[Pt] + C#[Pt] <=> O=CC=[Pt] + C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.73206e-13,'m^2/(molecule*s)'), n=1.62078, Ea=(188.406,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02236, dn = +|- 0.00284866, dEa = +|- 0.0179408 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -22298,7 +22298,7 @@ entry(
 index = 247,
 label = "CC(C)[Pt] + ON[Pt] <=> CC(C)=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.83519e-15,'m^2/(molecule*s)'), n=2.59383, Ea=(51.9741,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01184, dn = +|- 0.00151639, dEa = +|- 0.00955016 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -22396,7 +22396,7 @@ entry(
 index = 248,
 label = "CC[Pt] + N=[Pt] <=> CC=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.95097e-12,'m^2/(molecule*s)'), n=0.756517, Ea=(156.933,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02636, dn = +|- 0.00335277, dEa = +|- 0.0211157 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -22479,7 +22479,7 @@ entry(
 index = 249,
 label = "CC(C)[Pt] + C=C=C=[Pt] <=> CC(C)=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.70497e-13,'m^2/(molecule*s)'), n=1.58766, Ea=(181.925,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02092, dn = +|- 0.00266696, dEa = +|- 0.0167965 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -22580,7 +22580,7 @@ entry(
 index = 250,
 label = "C=C(C)[Pt] + CN[Pt] <=> CN=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.65147e-14,'m^2/(molecule*s)'), n=1.80146, Ea=(111.396,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0182, dn = +|- 0.00232414, dEa = +|- 0.0146374 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -22678,7 +22678,7 @@ entry(
 index = 251,
 label = "CCC[Pt] + C=C=C=[Pt] <=> CCC=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.9997e-11,'m^2/(molecule*s)'), n=0.613431, Ea=(194.313,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01979, dn = +|- 0.00252435, dEa = +|- 0.0158983 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -22779,7 +22779,7 @@ entry(
 index = 252,
 label = "CC[Pt] + O[Pt] <=> CC=[Pt] + O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.17015e-14,'m^2/(molecule*s)'), n=1.67084, Ea=(68.459,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01752, dn = +|- 0.00223758, dEa = +|- 0.0140922 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -22862,7 +22862,7 @@ entry(
 index = 253,
 label = "C=CC[Pt] + CN[Pt] <=> C=CC=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.13287e-11,'m^2/(molecule*s)'), n=0.683763, Ea=(86.5214,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02253, dn = +|- 0.00287107, dEa = +|- 0.018082 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -22960,7 +22960,7 @@ entry(
 index = 254,
 label = "[Pt]C=CC#[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.22805e-08,'m^2/(molecule*s)'), n=0.565886, Ea=(215.825,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02094, dn = +|- 0.00267012, dEa = +|- 0.0168164 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -23045,7 +23045,7 @@ entry(
 index = 255,
 label = "CC(C)[Pt] + CCO[Pt] <=> CC(C)=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.89363e-12,'m^2/(molecule*s)'), n=-0.281338, Ea=(55.9324,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02883, dn = +|- 0.00366243, dEa = +|- 0.0230659 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -23155,7 +23155,7 @@ entry(
 index = 256,
 label = "[Pt]=CCC#[Pt] + NN=[Pt] <=> NN[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.23513e-05,'m^2/(molecule*s)'), n=-0.209185, Ea=(170.011,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05059, dn = +|- 0.0063586, dEa = +|- 0.0400463 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -23243,7 +23243,7 @@ entry(
 index = 257,
 label = "[Pt]=CCC#[Pt] + ON=[Pt] <=> [Pt]CCC#[Pt] + [Pt]N=O",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.25956e-07,'m^2/(molecule*s)'), n=0.548071, Ea=(103.183,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01545, dn = +|- 0.00197504, dEa = +|- 0.0124387 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -23328,7 +23328,7 @@ entry(
 index = 258,
 label = "NC[Pt] + N=[Pt] <=> NC=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.02163e-13,'m^2/(molecule*s)'), n=1.68363, Ea=(139.302,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02169, dn = +|- 0.00276491, dEa = +|- 0.0174133 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -23408,7 +23408,7 @@ entry(
 index = 259,
 label = "CN=[Pt] + O=C=C=[Pt] <=> CN=C=C=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.87571e-12,'m^2/(molecule*s)'), n=1.17771, Ea=(229.607,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02351, dn = +|- 0.00299369, dEa = +|- 0.0188542 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative_Double
@@ -23488,7 +23488,7 @@ entry(
 index = 260,
 label = "[Pt]CCC#[Pt] + [Pt] <=> [Pt]=CCC#[Pt] + [H][H] + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.68994e-07,'m^2/(molecule*s)'), n=0.699509, Ea=(223.771,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.08278, dn = +|- 0.0102461, dEa = +|- 0.0645297 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -23570,7 +23570,7 @@ entry(
 index = 261,
 label = "O=CC[Pt] + NN[Pt] <=> O=CC=[Pt] + NN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.88485e-13,'m^2/(molecule*s)'), n=1.64682, Ea=(79.4251,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02715, dn = +|- 0.00345108, dEa = +|- 0.0217348 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -23659,7 +23659,7 @@ entry(
 index = 262,
 label = "OC[Pt] + N=[Pt] <=> OC=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.68334e-13,'m^2/(molecule*s)'), n=1.46135, Ea=(178.017,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00784, dn = +|- 0.00100647, dEa = +|- 0.00633872 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -23736,7 +23736,7 @@ entry(
 index = 263,
 label = "O=CC[Pt] + [Pt]C#N <=> C(C#N)C=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.66978e-13,'m^2/(molecule*s)'), n=1.24165, Ea=(151.163,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0206, dn = +|- 0.00262713, dEa = +|- 0.0165456 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -23816,7 +23816,7 @@ entry(
 index = 264,
 label = "[Pt]=CCC#[Pt] + CN=[Pt] <=> CN[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.65207e-08,'m^2/(molecule*s)'), n=0.667717, Ea=(155.764,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02514, dn = +|- 0.00319865, dEa = +|- 0.020145 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -23907,7 +23907,7 @@ entry(
 index = 265,
 label = "CN=[Pt] + O=CC#[Pt] <=> CN[Pt] + O=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.29912e-12,'m^2/(molecule*s)'), n=0.742127, Ea=(165.561,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04132, dn = +|- 0.0052167, dEa = +|- 0.0328546 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -23990,7 +23990,7 @@ entry(
 index = 266,
 label = "N[Pt] + O=C=C=[Pt] <=> N=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.46007e-13,'m^2/(molecule*s)'), n=1.63732, Ea=(216.507,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01032, dn = +|- 0.0013228, dEa = +|- 0.00833093 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -24064,7 +24064,7 @@ entry(
 index = 267,
 label = "C=C=C[Pt] + O=CC[Pt] <=> O=CC=[Pt] + C=C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.4883e-13,'m^2/(molecule*s)'), n=1.66781, Ea=(100.967,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01806, dn = +|- 0.00230631, dEa = +|- 0.0145251 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -24156,7 +24156,7 @@ entry(
 index = 268,
 label = "COCO[Pt] + CC(O)[Pt] <=> CC(O)=[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.36281e-17,'m^2/(molecule*s)'), n=1.68008, Ea=(31.2575,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03007, dn = +|- 0.0038169, dEa = +|- 0.0240388 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -24263,7 +24263,7 @@ entry(
 index = 269,
 label = "C=CC#[Pt] + N=[Pt] <=> N[Pt] + C=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.3693e-11,'m^2/(molecule*s)'), n=0.687336, Ea=(212.599,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02855, dn = +|- 0.00362713, dEa = +|- 0.0228436 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -24343,7 +24343,7 @@ entry(
 index = 270,
 label = "[Pt]C=CC#[Pt] + CC#[Pt] <=> [Pt]C=CC=[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.45975e-09,'m^2/(molecule*s)'), n=0.618366, Ea=(195.088,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01684, dn = +|- 0.00215135, dEa = +|- 0.0135491 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -24431,7 +24431,7 @@ entry(
 index = 271,
 label = "[Pt]CCC=[Pt] + CC=C[Pt] <=> [Pt]CCC#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.7909e-15,'m^2/(molecule*s)'), n=1.71533, Ea=(87.7831,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03986, dn = +|- 0.00503603, dEa = +|- 0.0317168 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -24537,7 +24537,7 @@ entry(
 index = 272,
 label = "C=C(C)[Pt] + C=C=C[Pt] <=> C=C=CC(=C)C + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.86549e-12,'m^2/(molecule*s)'), n=1.05863, Ea=(101.541,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00703, dn = +|- 0.000903109, dEa = +|- 0.00568775 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -24635,7 +24635,7 @@ entry(
 index = 273,
 label = "[Pt]=CCC#[Pt] + CCC=[Pt] <=> [Pt]CCC#[Pt] + CC=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.07229e-08,'m^2/(molecule*s)'), n=0.661479, Ea=(129.641,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01671, dn = +|- 0.00213499, dEa = +|- 0.0134461 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -24738,7 +24738,7 @@ entry(
 index = 274,
 label = "[Pt]=CCC#[Pt] + OC#[Pt] <=> [Pt]CCC#[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.38809e-08,'m^2/(molecule*s)'), n=0.479267, Ea=(123.636,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02057, dn = +|- 0.00262337, dEa = +|- 0.0165219 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -24823,7 +24823,7 @@ entry(
 index = 275,
 label = "O=CC[Pt] + C=[Pt] <=> O=CC=[Pt] + C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.50141e-11,'m^2/(molecule*s)'), n=0.589487, Ea=(108.816,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02229, dn = +|- 0.00284033, dEa = +|- 0.0178883 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -24906,7 +24906,7 @@ entry(
 index = 276,
 label = "[Pt]=CCC#[Pt] + CC(C)=[Pt] <=> [Pt]CCC#[Pt] + C=C(C)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.63642e-07,'m^2/(molecule*s)'), n=0.534207, Ea=(123.551,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01341, dn = +|- 0.0017167, dEa = +|- 0.0108118 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -25009,7 +25009,7 @@ entry(
 index = 277,
 label = "[Pt]=CCC#[Pt] + O=CC#[Pt] <=> [Pt]CCC#[Pt] + O=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.91844e-13,'m^2/(molecule*s)'), n=1.3739, Ea=(100.528,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00944, dn = +|- 0.00121091, dEa = +|- 0.00762625 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -25097,7 +25097,7 @@ entry(
 index = 278,
 label = "CCO[Pt] + CC[Pt] <=> CC=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.3437e-15,'m^2/(molecule*s)'), n=0.654271, Ea=(68.0168,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01714, dn = +|- 0.00218993, dEa = +|- 0.0137921 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -25198,7 +25198,7 @@ entry(
 index = 279,
 label = "[Pt]C=CC#[Pt] + CC=[Pt] <=> [Pt]C=CC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.66268e-05,'m^2/(molecule*s)'), n=-0.34669, Ea=(112.793,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05464, dn = +|- 0.00685415, dEa = +|- 0.0431673 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -25289,7 +25289,7 @@ entry(
 index = 280,
 label = "[Pt]CCC#[Pt] + CN=[Pt] <=> [Pt]CCC=[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.49153e-08,'m^2/(molecule*s)'), n=0.515641, Ea=(208.031,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01464, dn = +|- 0.00187221, dEa = +|- 0.0117911 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -25383,7 +25383,7 @@ entry(
 index = 281,
 label = "CCC[Pt] + C=CC#[Pt] <=> CCC=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.88098e-17,'m^2/(molecule*s)'), n=1.65287, Ea=(250.543,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01754, dn = +|- 0.00224067, dEa = +|- 0.0141117 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -25487,7 +25487,7 @@ entry(
 index = 282,
 label = "[Pt]CCC#[Pt] + N=[Pt] <=> N#[Pt] + [Pt]CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.36815e-05,'m^2/(molecule*s)'), n=-0.417584, Ea=(235.183,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01034, dn = +|- 0.00132593, dEa = +|- 0.00835066 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -25572,7 +25572,7 @@ entry(
 index = 283,
 label = "CC=[Pt] + OC[Pt] <=> OC=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.66821e-13,'m^2/(molecule*s)'), n=1.31328, Ea=(79.1967,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01552, dn = +|- 0.00198403, dEa = +|- 0.0124954 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -25661,7 +25661,7 @@ entry(
 index = 284,
 label = "O=CC[Pt] + CC=[Pt] <=> CC[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.55259e-12,'m^2/(molecule*s)'), n=1.19258, Ea=(65.6399,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00398, dn = +|- 0.00051224, dEa = +|- 0.00322607 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -25753,7 +25753,7 @@ entry(
 index = 285,
 label = "[Pt]CCC#[Pt] + [Pt]N=O <=> [Pt]=CCC#[Pt] + N=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.17989e-07,'m^2/(molecule*s)'), n=0.310019, Ea=(205.175,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02217, dn = +|- 0.00282467, dEa = +|- 0.0177897 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -25838,7 +25838,7 @@ entry(
 index = 286,
 label = "[Pt]=CCC#[Pt] + O=C=C=[Pt] <=> O=C=C[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.73352e-13,'m^2/(molecule*s)'), n=1.75945, Ea=(170.16,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03642, dn = +|- 0.00460901, dEa = +|- 0.0290274 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -25923,7 +25923,7 @@ entry(
 index = 287,
 label = "CC=C[Pt] + CC[Pt] <=> CC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.46729e-16,'m^2/(molecule*s)'), n=1.58559, Ea=(122.118,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0189, dn = +|- 0.00241292, dEa = +|- 0.0151965 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -26107,7 +26107,7 @@ entry(
 index = 289,
 label = "CC(C)[Pt] + ON[Pt] <=> ON=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.84592e-11,'m^2/(molecule*s)'), n=0.731117, Ea=(113.179,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01722, dn = +|- 0.00219945, dEa = +|- 0.0138521 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -26205,7 +26205,7 @@ entry(
 index = 290,
 label = "CN=[Pt] + C=C=C=[Pt] <=> CN=C=C=C + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(0.00198955,'m^2/(molecule*s)'), n=-0.806494, Ea=(257.666,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04645, dn = +|- 0.00585024, dEa = +|- 0.0368446 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative_Double
@@ -26291,7 +26291,7 @@ entry(
 index = 291,
 label = "O=CC[Pt] + OC=[Pt] <=> OC[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.01767e-12,'m^2/(molecule*s)'), n=1.25901, Ea=(40.406,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00895, dn = +|- 0.00114744, dEa = +|- 0.00722655 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -26377,7 +26377,7 @@ entry(
 index = 292,
 label = "[Pt]CCC#[Pt] + O=CO[Pt] <=> [Pt]=CCC#[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.01957e-10,'m^2/(molecule*s)'), n=1.78852, Ea=(173.187,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0314, dn = +|- 0.00398361, dEa = +|- 0.0250887 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -26542,7 +26542,7 @@ entry(
 index = 294,
 label = "C=C(C)[Pt] + C=C(O)[Pt] <=> C=C(C)C(=C)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.97908e-13,'m^2/(molecule*s)'), n=1.05002, Ea=(94.4042,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01189, dn = +|- 0.00152324, dEa = +|- 0.00959333 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -26640,7 +26640,7 @@ entry(
 index = 295,
 label = "N[Pt] + 1Ou0p2c0{2,S}{3,S}{4,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Xu0p0c0{1,vdW} <=> 1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW} + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.80206e-06,'m^2/(molecule*s)'), n=-0.742738, Ea=(50.6456,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04624, dn = +|- 0.00582357, dEa = +|- 0.0366767 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -26714,7 +26714,7 @@ entry(
 index = 296,
 label = "CC(C)[Pt] + C#[Pt] <=> CC(C)=[Pt] + C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.56021e-13,'m^2/(molecule*s)'), n=1.61299, Ea=(161.031,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01982, dn = +|- 0.002529, dEa = +|- 0.0159276 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -26806,7 +26806,7 @@ entry(
 index = 297,
 label = "CC(=O)[Pt] + OC[Pt] <=> OC=[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.67163e-20,'m^2/(molecule*s)'), n=2.46755, Ea=(125.883,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02576, dn = +|- 0.00327737, dEa = +|- 0.0206408 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -26895,7 +26895,7 @@ entry(
 index = 298,
 label = "[Pt]C=CC=[Pt] + C[Pt] <=> [Pt]C=CC#[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.5517e-14,'m^2/(molecule*s)'), n=2.00804, Ea=(228.845,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05874, dn = +|- 0.00735413, dEa = +|- 0.0463161 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -26983,7 +26983,7 @@ entry(
 index = 299,
 label = "[Pt]C=CC#[Pt] + CN[Pt] <=> CN=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.27004e-06,'m^2/(molecule*s)'), n=-0.20547, Ea=(183.03,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02069, dn = +|- 0.00263825, dEa = +|- 0.0166157 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -27074,7 +27074,7 @@ entry(
 index = 300,
 label = "O=CC[Pt] + NN[Pt] <=> NN=[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.66361e-11,'m^2/(molecule*s)'), n=0.855712, Ea=(104.493,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04818, dn = +|- 0.00606293, dEa = +|- 0.0381842 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -27163,7 +27163,7 @@ entry(
 index = 301,
 label = "[Pt]C=CC#[Pt] + CCC=[Pt] <=> CCC#[Pt] + [Pt]=CCC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.77256e-08,'m^2/(molecule*s)'), n=0.513794, Ea=(180.34,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01372, dn = +|- 0.0017554, dEa = +|- 0.0110555 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -27263,7 +27263,7 @@ entry(
 index = 302,
 label = "C=C[Pt] + CN=[Pt] <=> C=C=[Pt] + CN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.39864e-05,'m^2/(molecule*s)'), n=-0.194853, Ea=(177.236,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05311, dn = +|- 0.00666659, dEa = +|- 0.041986 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -27349,7 +27349,7 @@ entry(
 index = 303,
 label = "OC#[Pt] + O=C=C=[Pt] <=> O=C=C[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.45032e-14,'m^2/(molecule*s)'), n=1.63159, Ea=(114.46,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01098, dn = +|- 0.00140753, dEa = +|- 0.00886456 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -27423,7 +27423,7 @@ entry(
 index = 304,
 label = "O=CC[Pt] + N[Pt] <=> 1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.80612e-13,'m^2/(molecule*s)'), n=1.68449, Ea=(72.603,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03762, dn = +|- 0.00475781, dEa = +|- 0.0299645 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -27506,7 +27506,7 @@ entry(
 index = 305,
 label = "CCC[Pt] + CN=[Pt] <=> CCC=[Pt] + CN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.44106e-12,'m^2/(molecule*s)'), n=0.808614, Ea=(166.302,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02849, dn = +|- 0.00361967, dEa = +|- 0.0227966 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -27607,7 +27607,7 @@ entry(
 index = 306,
 label = "O=CC[Pt] + O=CC#[Pt] <=> O=CC=[Pt] + O=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.94737e-19,'m^2/(molecule*s)'), n=2.74965, Ea=(248.786,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0346, dn = +|- 0.00438195, dEa = +|- 0.0275974 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -27693,7 +27693,7 @@ entry(
 index = 307,
 label = "CC=C[Pt] + C=CC[Pt] <=> C=CC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.23075e-17,'m^2/(molecule*s)'), n=1.65241, Ea=(122.887,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02611, dn = +|- 0.00332071, dEa = +|- 0.0209137 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -27797,7 +27797,7 @@ entry(
 index = 308,
 label = "CC(O)[Pt] + O=CC#[Pt] <=> CC(O)=[Pt] + O=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.35084e-17,'m^2/(molecule*s)'), n=1.77546, Ea=(129.544,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02585, dn = +|- 0.00328825, dEa = +|- 0.0207093 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -27889,7 +27889,7 @@ entry(
 index = 309,
 label = "O=CC[Pt] + [Pt] <=> CC=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.42427e-10,'m^2/(molecule*s)'), n=0.839869, Ea=(91.5623,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01143, dn = +|- 0.00146383, dEa = +|- 0.00921914 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -28039,7 +28039,7 @@ entry(
 index = 311,
 label = "[Pt]C=CC#[Pt] + OC#[Pt] <=> [Pt]C=CC=[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.37638e-08,'m^2/(molecule*s)'), n=0.29959, Ea=(126.099,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04396, dn = +|- 0.00554255, dEa = +|- 0.0349068 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -28121,7 +28121,7 @@ entry(
 index = 312,
 label = "[Pt]C=CC#[Pt] + C=C=C[Pt] <=> C=C=C=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.77653e-08,'m^2/(molecule*s)'), n=0.685038, Ea=(189.022,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.027, dn = +|- 0.00343242, dEa = +|- 0.0216173 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -28212,7 +28212,7 @@ entry(
 index = 313,
 label = "O=CC=[Pt] + OC#[Pt] <=> O=CC[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.95355e-08,'m^2/(molecule*s)'), n=0.400591, Ea=(61.9318,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03346, dn = +|- 0.0042409, dEa = +|- 0.0267091 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -28292,7 +28292,7 @@ entry(
 index = 314,
 label = "O=CC[Pt] + O=C=C[Pt] <=> O=C=CCC=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.28589e-08,'m^2/(molecule*s)'), n=0.149408, Ea=(168.956,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03681, dn = +|- 0.00465765, dEa = +|- 0.0293338 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -28378,7 +28378,7 @@ entry(
 index = 315,
 label = "C=C(C)[Pt] + O=CC[Pt] <=> O=CC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.95108e-20,'m^2/(molecule*s)'), n=2.71075, Ea=(74.835,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01889, dn = +|- 0.00241095, dEa = +|- 0.0151841 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -28476,7 +28476,7 @@ entry(
 index = 316,
 label = "CC=[Pt] + CN=[Pt] <=> CN[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.84586e-08,'m^2/(molecule*s)'), n=0.796216, Ea=(173.488,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03801, dn = +|- 0.00480575, dEa = +|- 0.0302665 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -28565,7 +28565,7 @@ entry(
 index = 317,
 label = "C=C(C)[Pt] + N[Pt] <=> CC(=C)N + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.45144e-12,'m^2/(molecule*s)'), n=1.25338, Ea=(94.8312,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03475, dn = +|- 0.00440107, dEa = +|- 0.0277178 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -28654,7 +28654,7 @@ entry(
 index = 318,
 label = "C=C(C)[Pt] + CC(=O)[Pt] <=> C=C(C)C(C)=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.56701e-19,'m^2/(molecule*s)'), n=2.20598, Ea=(114.803,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01065, dn = +|- 0.00136484, dEa = +|- 0.00859575 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -28826,7 +28826,7 @@ entry(
 index = 320,
 label = "ON=[Pt] + O=C=C=[Pt] <=> O=C=C[Pt] + [Pt]N=O",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.85834e-13,'m^2/(molecule*s)'), n=1.38154, Ea=(119.477,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03516, dn = +|- 0.00445195, dEa = +|- 0.0280383 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -28900,7 +28900,7 @@ entry(
 index = 321,
 label = "CCC#[Pt] + OC=[Pt] <=> CC(O)[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.52306e-13,'m^2/(molecule*s)'), n=1.50037, Ea=(254.978,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06889, dn = +|- 0.00858352, dEa = +|- 0.0540588 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -28992,7 +28992,7 @@ entry(
 index = 322,
 label = "CCC(=O)[Pt] + CC[Pt] <=> CCC(=O)CC + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.26116e-16,'m^2/(molecule*s)'), n=1.14375, Ea=(204.323,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01246, dn = +|- 0.00159574, dEa = +|- 0.0100499 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -29096,7 +29096,7 @@ entry(
 index = 323,
 label = "C=C=C=[Pt] + N=[Pt] <=> N#[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.76068e-08,'m^2/(molecule*s)'), n=0.562707, Ea=(219.451,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00812, dn = +|- 0.00104192, dEa = +|- 0.00656201 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -29173,7 +29173,7 @@ entry(
 index = 324,
 label = "CC(O)[Pt] + CC[Pt] <=> CC(O)=[Pt] + CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.47657e-15,'m^2/(molecule*s)'), n=1.53992, Ea=(157.859,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0257, dn = +|- 0.00326992, dEa = +|- 0.0205938 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -29274,7 +29274,7 @@ entry(
 index = 325,
 label = "[Pt]=CCC#[Pt] + C=C=[Pt] <=> C=C[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.02028e-07,'m^2/(molecule*s)'), n=0.820418, Ea=(222.578,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05609, dn = +|- 0.00703148, dEa = +|- 0.0442841 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -29362,7 +29362,7 @@ entry(
 index = 326,
 label = "[Pt]C=CC#[Pt] + O=CC#[Pt] <=> [Pt]C=CC=[Pt] + O=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.13239e-12,'m^2/(molecule*s)'), n=0.528743, Ea=(143.881,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01566, dn = +|- 0.00200161, dEa = +|- 0.0126061 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -29447,7 +29447,7 @@ entry(
 index = 327,
 label = "C=C(C)[Pt] + O=C=[Pt] <=> C=C=[Pt] + CC(=O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.72482e-14,'m^2/(molecule*s)'), n=1.48607, Ea=(281.331,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01528, dn = +|- 0.00195372, dEa = +|- 0.0123045 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -29533,7 +29533,7 @@ entry(
 index = 328,
 label = "[Pt]=CCC#[Pt] + CC#[Pt] <=> [Pt]CCC#[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.21293e-08,'m^2/(molecule*s)'), n=0.640036, Ea=(166.217,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01715, dn = +|- 0.00219023, dEa = +|- 0.013794 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -29624,7 +29624,7 @@ entry(
 index = 329,
 label = "CC(C)[Pt] + N[Pt] <=> CC(C)=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.58806e-11,'m^2/(molecule*s)'), n=0.765749, Ea=(84.6673,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03579, dn = +|- 0.00453051, dEa = +|- 0.028533 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -29719,7 +29719,7 @@ entry(
 index = 330,
 label = "OC[Pt] + O=C(O)[Pt] <=> OC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.42602e-19,'m^2/(molecule*s)'), n=2.6112, Ea=(138.08,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01375, dn = +|- 0.00175891, dEa = +|- 0.0110776 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -29802,7 +29802,7 @@ entry(
 index = 331,
 label = "NC[Pt] + CC=[Pt] <=> NC=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.14982e-10,'m^2/(molecule*s)'), n=0.378749, Ea=(102.887,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00985, dn = +|- 0.00126295, dEa = +|- 0.00795405 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -29894,7 +29894,7 @@ entry(
 index = 332,
 label = "CC(O)[Pt] + O=[Pt] <=> CC(O)=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.29657e-14,'m^2/(molecule*s)'), n=1.70142, Ea=(87.2505,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0221, dn = +|- 0.00281624, dEa = +|- 0.0177366 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -29977,7 +29977,7 @@ entry(
 index = 333,
 label = "O=CC[Pt] + ON=[Pt] <=> ON[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.48445e-11,'m^2/(molecule*s)'), n=0.541957, Ea=(98.1774,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01062, dn = +|- 0.00136105, dEa = +|- 0.00857184 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -30060,7 +30060,7 @@ entry(
 index = 334,
 label = "[Pt]CCC#[Pt] + O=C=C[Pt] <=> [Pt]=CCC#[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.85669e-09,'m^2/(molecule*s)'), n=0.768244, Ea=(171.293,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02511, dn = +|- 0.00319516, dEa = +|- 0.020123 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -30151,7 +30151,7 @@ entry(
 index = 335,
 label = "NC#[Pt] + N#[Pt] <=> N=[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.78078e-08,'m^2/(molecule*s)'), n=0.459505, Ea=(122.976,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03269, dn = +|- 0.00414488, dEa = +|- 0.0261043 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -30222,7 +30222,7 @@ entry(
 index = 336,
 label = "O=CC[Pt] + O=[Pt] <=> O=CC=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.95851e-14,'m^2/(molecule*s)'), n=1.79515, Ea=(129.307,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03334, dn = +|- 0.00422575, dEa = +|- 0.0266137 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -30299,7 +30299,7 @@ entry(
 index = 337,
 label = "[Pt]CCC#[Pt] + [Pt]C#N <=> [Pt]=CCC#[Pt] + C#N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.16396e-09,'m^2/(molecule*s)'), n=0.868662, Ea=(191.184,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02479, dn = +|- 0.00315468, dEa = +|- 0.0198681 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -30384,7 +30384,7 @@ entry(
 index = 338,
 label = "O=CC[Pt] + [Pt]N=O <=> O=CC=[Pt] + N=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.38218e-12,'m^2/(molecule*s)'), n=1.32116, Ea=(157.833,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0061, dn = +|- 0.000783279, dEa = +|- 0.00493307 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -30464,7 +30464,7 @@ entry(
 index = 339,
 label = "CCC[Pt] + C=C=[Pt] <=> CCC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.49691e-12,'m^2/(molecule*s)'), n=0.757277, Ea=(146.343,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02297, dn = +|- 0.00292636, dEa = +|- 0.0184302 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -30562,7 +30562,7 @@ entry(
 index = 340,
 label = "OC[Pt] + N=C=[Pt] <=> OC=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.67375e-11,'m^2/(molecule*s)'), n=0.464578, Ea=(111.803,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02515, dn = +|- 0.00320015, dEa = +|- 0.0201545 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -30642,7 +30642,7 @@ entry(
 index = 341,
 label = "CC=[Pt] + NC#[Pt] <=> CC[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.39955e-06,'m^2/(molecule*s)'), n=-0.462702, Ea=(149.272,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03183, dn = +|- 0.00403653, dEa = +|- 0.0254219 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -30728,7 +30728,7 @@ entry(
 index = 342,
 label = "[Pt]=CCC#[Pt] + O=CC=[Pt] <=> O=CC[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.84836e-08,'m^2/(molecule*s)'), n=0.732419, Ea=(127.626,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03162, dn = +|- 0.00401071, dEa = +|- 0.0252594 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -30819,7 +30819,7 @@ entry(
 index = 343,
 label = "C=CC[Pt] + N=[Pt] <=> C=CC=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.39145e-11,'m^2/(molecule*s)'), n=0.786892, Ea=(162.433,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03449, dn = +|- 0.00436924, dEa = +|- 0.0275174 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -30905,7 +30905,7 @@ entry(
 index = 344,
 label = "C=CC[Pt] + C=C=C[Pt] <=> C=CC=[Pt] + C=C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.23628e-12,'m^2/(molecule*s)'), n=0.746865, Ea=(104.411,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01672, dn = +|- 0.00213687, dEa = +|- 0.0134579 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31003,7 +31003,7 @@ entry(
 index = 345,
 label = "C=CC[Pt] + O=C(O)[Pt] <=> C=CC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.227e-17,'m^2/(molecule*s)'), n=1.68722, Ea=(169.406,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02658, dn = +|- 0.00337948, dEa = +|- 0.0212839 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31095,7 +31095,7 @@ entry(
 index = 346,
 label = "NC#[Pt] + NN=[Pt] <=> NN[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.58715e-07,'m^2/(molecule*s)'), n=0.414137, Ea=(103.608,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02815, dn = +|- 0.00357611, dEa = +|- 0.0225223 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -31175,7 +31175,7 @@ entry(
 index = 347,
 label = "CC(O)[Pt] + CO[Pt] <=> CC(O)=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.36111e-16,'m^2/(molecule*s)'), n=1.68285, Ea=(29.5783,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02971, dn = +|- 0.00377197, dEa = +|- 0.0237557 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31343,7 +31343,7 @@ entry(
 index = 349,
 label = "C=CC[Pt] + CO[Pt] <=> C=CC=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.46942e-17,'m^2/(molecule*s)'), n=1.66422, Ea=(60.491,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02527, dn = +|- 0.00321519, dEa = +|- 0.0202492 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31438,7 +31438,7 @@ entry(
 index = 350,
 label = "C=C(C)[Pt] + CC(=O)[Pt] <=> C=C(C)C(C)=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.72164e-19,'m^2/(molecule*s)'), n=2.20932, Ea=(114.884,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01028, dn = +|- 0.00131734, dEa = +|- 0.00829658 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -31536,7 +31536,7 @@ entry(
 index = 351,
 label = "C=C(C)[Pt] + N=[Pt] <=> N#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.20219e-12,'m^2/(molecule*s)'), n=1.58278, Ea=(179.217,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01109, dn = +|- 0.00142153, dEa = +|- 0.00895277 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31622,7 +31622,7 @@ entry(
 index = 352,
 label = "O=CC[Pt] + O=C=C[Pt] <=> O=CC=[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.16895e-14,'m^2/(molecule*s)'), n=1.76787, Ea=(145.938,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03542, dn = +|- 0.00448469, dEa = +|- 0.0282445 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31708,7 +31708,7 @@ entry(
 index = 353,
 label = "CC=C[Pt] + CC(O)[Pt] <=> CC(O)=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.80485e-17,'m^2/(molecule*s)'), n=1.64521, Ea=(89.9753,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02617, dn = +|- 0.00332861, dEa = +|- 0.0209635 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -31812,7 +31812,7 @@ entry(
 index = 354,
 label = "O=CC[Pt] + O=C=C[Pt] <=> O=C=CCC=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.17465e-11,'m^2/(molecule*s)'), n=1.07827, Ea=(167.594,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02238, dn = +|- 0.00285178, dEa = +|- 0.0179604 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -31898,7 +31898,7 @@ entry(
 index = 355,
 label = "[Pt]=CCC#[Pt] + C=C=C=[Pt] <=> C=C=C[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.99856e-08,'m^2/(molecule*s)'), n=0.620008, Ea=(252.173,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02827, dn = +|- 0.00359195, dEa = +|- 0.022622 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -31989,7 +31989,7 @@ entry(
 index = 356,
 label = "CC(C)[Pt] + [Pt] <=> CCC + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.16524e-08,'m^2/(molecule*s)'), n=-0.245006, Ea=(77.681,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01284, dn = +|- 0.00164404, dEa = +|- 0.0103541 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -32078,7 +32078,7 @@ entry(
 index = 357,
 label = "C=C(C)[Pt] + NC=[Pt] <=> NC#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.44266e-20,'m^2/(molecule*s)'), n=2.84085, Ea=(117.365,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02377, dn = +|- 0.00302617, dEa = +|- 0.0190587 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -32173,7 +32173,7 @@ entry(
 index = 358,
 label = "OC[Pt] + O=[Pt] <=> OC=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.38132e-14,'m^2/(molecule*s)'), n=1.64202, Ea=(101.6,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01505, dn = +|- 0.00192437, dEa = +|- 0.0121196 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -32247,7 +32247,7 @@ entry(
 index = 359,
 label = "CCC[Pt] + CC(O)=[Pt] <=> CCC=[Pt] + CC(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.74684e-10,'m^2/(molecule*s)'), n=0.186969, Ea=(73.1401,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02687, dn = +|- 0.00341601, dEa = +|- 0.0215139 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -32354,7 +32354,7 @@ entry(
 index = 360,
 label = "CC=C[Pt] + OC[Pt] <=> OC=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.85353e-20,'m^2/(molecule*s)'), n=2.28539, Ea=(76.2396,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03389, dn = +|- 0.0042938, dEa = +|- 0.0270423 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -32449,7 +32449,7 @@ entry(
 index = 361,
 label = "CC[Pt] + N=C=[Pt] <=> CC=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.65487e-11,'m^2/(molecule*s)'), n=0.313262, Ea=(144.686,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03388, dn = +|- 0.0042923, dEa = +|- 0.0270328 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -32535,7 +32535,7 @@ entry(
 index = 362,
 label = "C=CC[Pt] + NN[Pt] <=> C=CC=[Pt] + NN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.33593e-11,'m^2/(molecule*s)'), n=0.635039, Ea=(87.2458,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01823, dn = +|- 0.0023271, dEa = +|- 0.014656 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -32630,7 +32630,7 @@ entry(
 index = 363,
 label = "O=C=C[Pt] + 1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW} <=> 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW} + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.91536e-09,'m^2/(molecule*s)'), n=0.746779, Ea=(132.382,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01427, dn = +|- 0.0018253, dEa = +|- 0.0114957 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -32710,7 +32710,7 @@ entry(
 index = 364,
 label = "NC#[Pt] + OC=[Pt] <=> OC[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.87003e-08,'m^2/(molecule*s)'), n=0.435436, Ea=(131.285,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04567, dn = +|- 0.00575371, dEa = +|- 0.0362367 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -32790,7 +32790,7 @@ entry(
 index = 365,
 label = "CN[Pt] + O=CC[Pt] <=> O=CC=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.01741e-14,'m^2/(molecule*s)'), n=1.57733, Ea=(54.5818,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.015, dn = +|- 0.00191763, dEa = +|- 0.0120772 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -32882,7 +32882,7 @@ entry(
 index = 366,
 label = "NN[Pt] + 1Nu0p1c0{2,S}{3,S}{4,S}{5,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Xu0p0c0{1,vdW} <=> 1Nu0p1c0{2,S}{3,S}{4,S}{7,vdW}2Nu0p1c0{1,S}{5,S}{6,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Hu0p0c0{2,S}6Hu0p0c0{2,S}7Xu0p0c0{1,vdW} + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.14448e-08,'m^2/(molecule*s)'), n=0.379993, Ea=(22.7133,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03361, dn = +|- 0.00425873, dEa = +|- 0.0268214 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -33051,7 +33051,7 @@ entry(
 index = 368,
 label = "OCC[Pt] + NN[Pt] <=> NN=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.47768e-13,'m^2/(molecule*s)'), n=1.81429, Ea=(150.779,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03577, dn = +|- 0.00452842, dEa = +|- 0.0285199 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -33146,7 +33146,7 @@ entry(
 index = 369,
 label = "CCC#[Pt] + O=[Pt] <=> CO[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.98823e-13,'m^2/(molecule*s)'), n=1.74932, Ea=(323.469,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.11916, dn = +|- 0.0145042, dEa = +|- 0.0913472 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -33229,7 +33229,7 @@ entry(
 index = 370,
 label = "CC[Pt] + O=C=C[Pt] <=> CC=[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.49428e-13,'m^2/(molecule*s)'), n=1.63479, Ea=(133.375,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01664, dn = +|- 0.00212663, dEa = +|- 0.0133935 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -33318,7 +33318,7 @@ entry(
 index = 371,
 label = "CC(C)[Pt] + OC=[Pt] <=> CC(C)=[Pt] + OC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.73755e-11,'m^2/(molecule*s)'), n=0.327934, Ea=(69.8968,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01616, dn = +|- 0.00206496, dEa = +|- 0.013005 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -33416,7 +33416,7 @@ entry(
 index = 372,
 label = "[Pt]C=CC#[Pt] + ON=[Pt] <=> [Pt]C=CC=[Pt] + [Pt]N=O",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.86273e-07,'m^2/(molecule*s)'), n=0.247893, Ea=(116.459,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0496, dn = +|- 0.00623727, dEa = +|- 0.0392822 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -33498,7 +33498,7 @@ entry(
 index = 373,
 label = "OCC[Pt] + CN[Pt] <=> CN=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.1223e-10,'m^2/(molecule*s)'), n=0.796718, Ea=(174.476,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03083, dn = +|- 0.00391162, dEa = +|- 0.0246353 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -33596,7 +33596,7 @@ entry(
 index = 374,
 label = "OC[Pt] + O=C(O)[Pt] <=> O=C(O)CO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.32195e-13,'m^2/(molecule*s)'), n=0.261238, Ea=(166.688,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03081, dn = +|- 0.00390902, dEa = +|- 0.0246189 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -33679,7 +33679,7 @@ entry(
 index = 375,
 label = "NC#[Pt] + O=[Pt] <=> O[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.21814e-08,'m^2/(molecule*s)'), n=0.924491, Ea=(109.443,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01748, dn = +|- 0.00223281, dEa = +|- 0.0140622 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -33750,7 +33750,7 @@ entry(
 index = 376,
 label = "OC[Pt] + N[Pt] <=> C=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.69545e-13,'m^2/(molecule*s)'), n=1.07041, Ea=(234.356,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06149, dn = +|- 0.00768788, dEa = +|- 0.0484181 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -33830,7 +33830,7 @@ entry(
 index = 377,
 label = "O=CC=[Pt] + C[Pt] <=> C=[Pt] + O=CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.89252e-13,'m^2/(molecule*s)'), n=1.55941, Ea=(135.171,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01191, dn = +|- 0.00152483, dEa = +|- 0.00960333 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -33987,7 +33987,7 @@ entry(
 index = 379,
 label = "OC[Pt] + NC=[Pt] <=> OC=[Pt] + NC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.42094e-19,'m^2/(molecule*s)'), n=2.67399, Ea=(93.456,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01981, dn = +|- 0.00252716, dEa = +|- 0.015916 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -34073,7 +34073,7 @@ entry(
 index = 380,
 label = "[Pt]C=CC#[Pt] + CC=[Pt] <=> CC#[Pt] + [Pt]=CCC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.71003e-08,'m^2/(molecule*s)'), n=0.606599, Ea=(171.076,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0139, dn = +|- 0.00177837, dEa = +|- 0.0112002 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -34164,7 +34164,7 @@ entry(
 index = 381,
 label = "CC(C)=[Pt] + O=CC[Pt] <=> CC(C)[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.46771e-11,'m^2/(molecule*s)'), n=0.563477, Ea=(61.5476,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02578, dn = +|- 0.00327889, dEa = +|- 0.0206503 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -34265,7 +34265,7 @@ entry(
 index = 382,
 label = "CC[Pt] + CO[Pt] <=> CC=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.00168e-19,'m^2/(molecule*s)'), n=2.69135, Ea=(66.6484,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02592, dn = +|- 0.00329738, dEa = +|- 0.0207668 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -34357,7 +34357,7 @@ entry(
 index = 383,
 label = "[Pt]CCC#[Pt] + NN[Pt] <=> [Pt]=CCC#[Pt] + NN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.43156e-08,'m^2/(molecule*s)'), n=0.504997, Ea=(125.077,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.009, dn = +|- 0.00115419, dEa = +|- 0.00726904 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -34451,7 +34451,7 @@ entry(
 index = 384,
 label = "O=CC[Pt] + OC=[Pt] <=> O=CC=[Pt] + OC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.55724e-12,'m^2/(molecule*s)'), n=1.36921, Ea=(106.026,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0112, dn = +|- 0.00143507, dEa = +|- 0.00903802 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -34537,7 +34537,7 @@ entry(
 index = 385,
 label = "C[Pt] + [Pt]C=N <=> N=C=[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.72786e-14,'m^2/(molecule*s)'), n=2.04863, Ea=(217.797,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.07396, dn = +|- 0.00919292, dEa = +|- 0.0578968 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -34617,7 +34617,7 @@ entry(
 index = 386,
 label = "OC[Pt] + O=CC#[Pt] <=> OC=[Pt] + O=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.05651e-19,'m^2/(molecule*s)'), n=2.72161, Ea=(143.548,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02046, dn = +|- 0.00260952, dEa = +|- 0.0164347 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -34700,7 +34700,7 @@ entry(
 index = 387,
 label = "C=C(C)[Pt] + NN[Pt] <=> NN=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.03306e-14,'m^2/(molecule*s)'), n=1.65168, Ea=(64.891,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01265, dn = +|- 0.00161949, dEa = +|- 0.0101995 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -34795,7 +34795,7 @@ entry(
 index = 388,
 label = "[Pt]=CCC#[Pt] + CC(C)=[Pt] <=> CC(C)[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.10656e-07,'m^2/(molecule*s)'), n=0.55174, Ea=(145.392,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01925, dn = +|- 0.00245661, dEa = +|- 0.0154717 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -34898,7 +34898,7 @@ entry(
 index = 389,
 label = "O=CC[Pt] + C=C=C=[Pt] <=> O=CC=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.11741e-13,'m^2/(molecule*s)'), n=1.62905, Ea=(199.934,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02843, dn = +|- 0.00361161, dEa = +|- 0.0227458 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -34987,7 +34987,7 @@ entry(
 index = 390,
 label = "O=CC[Pt] + O[Pt] <=> O=CC=[Pt] + O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.73782e-12,'m^2/(molecule*s)'), n=0.683027, Ea=(60.0815,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02115, dn = +|- 0.00269636, dEa = +|- 0.0169816 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35067,7 +35067,7 @@ entry(
 index = 391,
 label = "C=CC[Pt] + C=CC#[Pt] <=> C=CC=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.50408e-19,'m^2/(molecule*s)'), n=2.60533, Ea=(254.361,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01354, dn = +|- 0.00173321, dEa = +|- 0.0109157 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -35165,7 +35165,7 @@ entry(
 index = 392,
 label = "[Pt]CCC#[Pt] + ON[Pt] <=> [Pt]=CCC#[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.08813e-10,'m^2/(molecule*s)'), n=1.55068, Ea=(101.027,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01166, dn = +|- 0.00149411, dEa = +|- 0.00940985 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35256,7 +35256,7 @@ entry(
 index = 393,
 label = "O=C(O)O[Pt] + [Pt]C=N <=> N=C=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.51408e-10,'m^2/(molecule*s)'), n=0.743491, Ea=(88.7936,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05518, dn = +|- 0.00691952, dEa = +|- 0.043579 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35339,7 +35339,7 @@ entry(
 index = 394,
 label = "[Pt]=CCC#[Pt] + NC#[Pt] <=> [Pt]CCC#[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.62159e-08,'m^2/(molecule*s)'), n=0.558912, Ea=(174.37,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02478, dn = +|- 0.00315366, dEa = +|- 0.0198617 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -35427,7 +35427,7 @@ entry(
 index = 395,
 label = "O=CC[Pt] + O=C(O)[Pt] <=> O=CC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.09061e-18,'m^2/(molecule*s)'), n=2.73483, Ea=(172.753,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03626, dn = +|- 0.00458914, dEa = +|- 0.0289023 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35513,7 +35513,7 @@ entry(
 index = 396,
 label = "CC(C)[Pt] + C[Pt] <=> CC(C)=[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.38993e-19,'m^2/(molecule*s)'), n=2.75313, Ea=(180.131,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04009, dn = +|- 0.00506468, dEa = +|- 0.0318972 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35611,7 +35611,7 @@ entry(
 index = 397,
 label = "CCO[Pt] + C=C=C[Pt] <=> C=C=C=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.20794e-11,'m^2/(molecule*s)'), n=0.46585, Ea=(16.1767,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01386, dn = +|- 0.0017731, dEa = +|- 0.011167 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35709,7 +35709,7 @@ entry(
 index = 398,
 label = "[Pt]C=CC#[Pt] + NC#[Pt] <=> [Pt]C=CC=[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.24607e-09,'m^2/(molecule*s)'), n=0.441565, Ea=(168.686,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03973, dn = +|- 0.00501942, dEa = +|- 0.0316122 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -35794,7 +35794,7 @@ entry(
 index = 399,
 label = "CC(C)[Pt] + C[Pt] <=> CC=[Pt] + CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.68605e-13,'m^2/(molecule*s)'), n=0.635611, Ea=(321.285,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.07901, dn = +|- 0.00979729, dEa = +|- 0.0617031 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -35892,7 +35892,7 @@ entry(
 index = 400,
 label = "[Pt]C=CC#[Pt] + N[Pt] <=> N=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.355e-08,'m^2/(molecule*s)'), n=0.743949, Ea=(203.267,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01323, dn = +|- 0.00169315, dEa = +|- 0.0106634 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -35974,7 +35974,7 @@ entry(
 index = 401,
 label = "CCO[Pt] + C[Pt] <=> C=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.77503e-17,'m^2/(molecule*s)'), n=1.66822, Ea=(78.7606,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01799, dn = +|- 0.00229774, dEa = +|- 0.0144711 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -36066,7 +36066,7 @@ entry(
 index = 402,
 label = "CC#[Pt] + OC#[Pt] <=> CC=[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.26417e-08,'m^2/(molecule*s)'), n=0.595559, Ea=(133.625,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00897, dn = +|- 0.0011502, dEa = +|- 0.00724391 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -36146,7 +36146,7 @@ entry(
 index = 403,
 label = "C=CC=[Pt] + NC#[Pt] <=> C=CC[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.13227e-12,'m^2/(molecule*s)'), n=1.52988, Ea=(127.575,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04501, dn = +|- 0.00567215, dEa = +|- 0.0357231 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -36235,7 +36235,7 @@ entry(
 index = 404,
 label = "O=CC[Pt] + O=CO[Pt] <=> O=CC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.51775e-15,'m^2/(molecule*s)'), n=2.77376, Ea=(146.267,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0401, dn = +|- 0.00506526, dEa = +|- 0.0319009 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -36321,7 +36321,7 @@ entry(
 index = 405,
 label = "OC[Pt] + ON=[Pt] <=> OC=[Pt] + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.09797e-14,'m^2/(molecule*s)'), n=1.49346, Ea=(109.47,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03222, dn = +|- 0.00408532, dEa = +|- 0.0257293 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -36401,7 +36401,7 @@ entry(
 index = 406,
 label = "CC(C)[Pt] + [Pt]N=C <=> CC(C)=[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.5625e-15,'m^2/(molecule*s)'), n=2.68959, Ea=(93.589,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02264, dn = +|- 0.00288439, dEa = +|- 0.0181658 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -36499,7 +36499,7 @@ entry(
 index = 407,
 label = "NC[Pt] + C=C=C=[Pt] <=> NC=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.58157e-11,'m^2/(molecule*s)'), n=0.575046, Ea=(198.531,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01775, dn = +|- 0.00226682, dEa = +|- 0.0142763 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -36588,7 +36588,7 @@ entry(
 index = 408,
 label = "[Pt]CCC#[Pt] + O=C(O)O[Pt] <=> [Pt]=CCC#[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.3095e-13,'m^2/(molecule*s)'), n=1.73991, Ea=(172.918,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02944, dn = +|- 0.0037384, dEa = +|- 0.0235444 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -36682,7 +36682,7 @@ entry(
 index = 409,
 label = "C=C=C[Pt] + N#[Pt] <=> C=C=C=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.86356e-07,'m^2/(molecule*s)'), n=0.655228, Ea=(159.348,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03294, dn = +|- 0.00417526, dEa = +|- 0.0262957 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -36759,7 +36759,7 @@ entry(
 index = 410,
 label = "[Pt]=CCC#[Pt] + CC(O)=[Pt] <=> CC(O)[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.7468e-05,'m^2/(molecule*s)'), n=-0.567869, Ea=(180.369,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01229, dn = +|- 0.00157323, dEa = +|- 0.00990815 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -36856,7 +36856,7 @@ entry(
 index = 411,
 label = "CC[Pt] + C=C=[Pt] <=> CC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.61849e-14,'m^2/(molecule*s)'), n=1.71645, Ea=(150.23,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01976, dn = +|- 0.00252078, dEa = +|- 0.0158758 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -36945,7 +36945,7 @@ entry(
 index = 412,
 label = "C=C=C=[Pt] + C[Pt] <=> C=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.96331e-14,'m^2/(molecule*s)'), n=1.55783, Ea=(216.331,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01329, dn = +|- 0.00170122, dEa = +|- 0.0107143 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37028,7 +37028,7 @@ entry(
 index = 413,
 label = "CC[Pt] + ON[Pt] <=> CC=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.20209e-15,'m^2/(molecule*s)'), n=2.54774, Ea=(63.4193,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01268, dn = +|- 0.00162396, dEa = +|- 0.0102277 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -37117,7 +37117,7 @@ entry(
 index = 414,
 label = "O=CC[Pt] + C=CC#[Pt] <=> O=CC=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.73434e-19,'m^2/(molecule*s)'), n=2.70972, Ea=(238.507,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02731, dn = +|- 0.00347138, dEa = +|- 0.0218627 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37209,7 +37209,7 @@ entry(
 index = 415,
 label = "[Pt]C=CC#[Pt] + CC(C)[Pt] <=> CC(C)=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.66784e-11,'m^2/(molecule*s)'), n=0.433503, Ea=(160.323,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00876, dn = +|- 0.00112351, dEa = +|- 0.00707585 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37312,7 +37312,7 @@ entry(
 index = 416,
 label = "CC(C)[Pt] + C=[Pt] <=> CC(C)=[Pt] + C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.50297e-10,'m^2/(molecule*s)'), n=0.429221, Ea=(97.1649,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0115, dn = +|- 0.00147302, dEa = +|- 0.00927702 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37407,7 +37407,7 @@ entry(
 index = 417,
 label = "OC[Pt] + NN=[Pt] <=> OC=[Pt] + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.71123e-11,'m^2/(molecule*s)'), n=0.582521, Ea=(105.722,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01173, dn = +|- 0.00150207, dEa = +|- 0.00945998 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37490,7 +37490,7 @@ entry(
 index = 418,
 label = "[Pt]=CCC#[Pt] + C=CC#[Pt] <=> [Pt]CCC#[Pt] + C=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.5831e-14,'m^2/(molecule*s)'), n=1.69941, Ea=(189.724,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02074, dn = +|- 0.00264451, dEa = +|- 0.0166551 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -37584,7 +37584,7 @@ entry(
 index = 419,
 label = "[Pt]C=CC#[Pt] + NN[Pt] <=> NN=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.42985e-05,'m^2/(molecule*s)'), n=-0.317373, Ea=(141.309,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02539, dn = +|- 0.00323058, dEa = +|- 0.0203461 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37672,7 +37672,7 @@ entry(
 index = 420,
 label = "CCC#[Pt] + OC[Pt] <=> OC=[Pt] + CCC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.69107e-19,'m^2/(molecule*s)'), n=2.49099, Ea=(154.032,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02214, dn = +|- 0.00282081, dEa = +|- 0.0177654 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37767,7 +37767,7 @@ entry(
 index = 421,
 label = "CC(O)[Pt] + CC#[Pt] <=> CC(O)=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.85903e-13,'m^2/(molecule*s)'), n=1.62013, Ea=(148.985,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01241, dn = +|- 0.00158904, dEa = +|- 0.0100078 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -37862,7 +37862,7 @@ entry(
 index = 422,
 label = "[Pt]CCC#[Pt] + NN=[Pt] <=> [Pt]CCC=[Pt] + [Pt]N=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.65596e-08,'m^2/(molecule*s)'), n=0.435654, Ea=(172.548,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03392, dn = +|- 0.00429811, dEa = +|- 0.0270694 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -37953,7 +37953,7 @@ entry(
 index = 423,
 label = "OC[Pt] + N#[Pt] <=> OC=[Pt] + N=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.76558e-14,'m^2/(molecule*s)'), n=1.7239, Ea=(133.689,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0224, dn = +|- 0.00285439, dEa = +|- 0.0179769 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -38027,7 +38027,7 @@ entry(
 index = 424,
 label = "CC[Pt] + NN=[Pt] <=> CC=[Pt] + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.57323e-13,'m^2/(molecule*s)'), n=1.47132, Ea=(147.841,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01409, dn = +|- 0.00180324, dEa = +|- 0.0113568 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -38116,7 +38116,7 @@ entry(
 index = 425,
 label = "NC#[Pt] + O=C=C=[Pt] <=> O=C=C[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.17605e-12,'m^2/(molecule*s)'), n=0.572502, Ea=(160.168,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02152, dn = +|- 0.0027436, dEa = +|- 0.0172791 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -38193,7 +38193,7 @@ entry(
 index = 426,
 label = "CC[Pt] + C=C[Pt] <=> CC=[Pt] + C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.22441e-14,'m^2/(molecule*s)'), n=1.59324, Ea=(82.0241,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01839, dn = +|- 0.00234767, dEa = +|- 0.0147855 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -38285,7 +38285,7 @@ entry(
 index = 427,
 label = "C=CC[Pt] + CC(O)=[Pt] <=> C=CC=[Pt] + CC(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.63134e-11,'m^2/(molecule*s)'), n=0.268193, Ea=(80.9974,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03299, dn = +|- 0.00418208, dEa = +|- 0.0263386 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -38460,7 +38460,7 @@ entry(
 index = 429,
 label = "C=CC[Pt] + ON=[Pt] <=> C=CC=[Pt] + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.51572e-14,'m^2/(molecule*s)'), n=1.6147, Ea=(153.056,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01512, dn = +|- 0.00193339, dEa = +|- 0.0121764 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -38549,7 +38549,7 @@ entry(
 index = 430,
 label = "OC[Pt] + O=C=C=[Pt] <=> OC=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.2496e-19,'m^2/(molecule*s)'), n=2.6593, Ea=(227.825,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0187, dn = +|- 0.00238753, dEa = +|- 0.0150366 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -38629,7 +38629,7 @@ entry(
 index = 431,
 label = "CC[Pt] + [Pt]C#N <=> CC=[Pt] + C#N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.68435e-15,'m^2/(molecule*s)'), n=1.83296, Ea=(138.344,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02349, dn = +|- 0.00299153, dEa = +|- 0.0188406 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -38712,7 +38712,7 @@ entry(
 index = 432,
 label = "[Pt]C=CC#[Pt] + CC(O)[Pt] <=> CC(O)=[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.36223e-11,'m^2/(molecule*s)'), n=0.383906, Ea=(144.438,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01149, dn = +|- 0.00147167, dEa = +|- 0.00926857 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -38809,7 +38809,7 @@ entry(
 index = 433,
 label = "CC(C)[Pt] + CO[Pt] <=> CC(C)=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.88431e-15,'m^2/(molecule*s)'), n=0.770367, Ea=(53.1243,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04081, dn = +|- 0.00515324, dEa = +|- 0.032455 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -38910,7 +38910,7 @@ entry(
 index = 434,
 label = "CCO[Pt] + NC[Pt] <=> NC=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.82187e-17,'m^2/(molecule*s)'), n=1.62103, Ea=(48.6868,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01563, dn = +|- 0.00199772, dEa = +|- 0.0125816 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -39008,7 +39008,7 @@ entry(
 index = 435,
 label = "C=C(C)[Pt] + CC=C[Pt] <=> C=C(C)C=CC + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.94884e-17,'m^2/(molecule*s)'), n=1.9149, Ea=(59.7685,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00538, dn = +|- 0.000690951, dEa = +|- 0.00435159 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -39112,7 +39112,7 @@ entry(
 index = 436,
 label = "CC[Pt] + ON[Pt] <=> ON=[Pt] + CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.34905e-10,'m^2/(molecule*s)'), n=0.478575, Ea=(145.205,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00507, dn = +|- 0.000651198, dEa = +|- 0.00410123 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -39201,7 +39201,7 @@ entry(
 index = 437,
 label = "[Pt]=CCC#[Pt] + N=[Pt] <=> N[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.74379e-08,'m^2/(molecule*s)'), n=0.640775, Ea=(170.517,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02498, dn = +|- 0.00317866, dEa = +|- 0.0200191 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -39283,7 +39283,7 @@ entry(
 index = 438,
 label = "CC[Pt] + CC#[Pt] <=> CC=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.74156e-11,'m^2/(molecule*s)'), n=0.672145, Ea=(261.161,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01908, dn = +|- 0.00243475, dEa = +|- 0.015334 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -39375,7 +39375,7 @@ entry(
 index = 439,
 label = "C=C(C)[Pt] + O=C(O)[Pt] <=> C=C(C)C(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.86549e-16,'m^2/(molecule*s)'), n=1.11339, Ea=(112.407,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00974, dn = +|- 0.00124913, dEa = +|- 0.00786698 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -39467,7 +39467,7 @@ entry(
 index = 440,
 label = "CC[Pt] + [Pt]N=O <=> CC=[Pt] + N=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.05945e-10,'m^2/(molecule*s)'), n=0.418235, Ea=(149.207,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00839, dn = +|- 0.00107583, dEa = +|- 0.00677553 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -39550,7 +39550,7 @@ entry(
 index = 441,
 label = "O=CC[Pt] + N[Pt] <=> O=CC=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.77973e-11,'m^2/(molecule*s)'), n=0.7203, Ea=(83.1084,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02983, dn = +|- 0.00378758, dEa = +|- 0.0238541 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -39631,9 +39631,110 @@ facet = "111",
 )
 entry(
 index = 442,
+label = "CCC(=O)[Pt] + NC[Pt] <=> CCC(=O)CN + vacantX + vacantX",
+duplicate = True,
+kinetics = SurfaceArrhenius(A=(4.34477e-17,'m^2/(molecule*s)'), n=2.20975, Ea=(200.254,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02664, dn = +|- 0.00338752, dEa = +|- 0.0213345 kJ/mol"""),
+shortDesc = u"Computed using Pynta",
+longDesc = u"""Computed using Pynta
+Surface_Adsorption_Dissociative
+reactants:
+1     O u0 p2 c0 {4,D}
+2     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+4  *1 C u0 p0 c0 {1,D} {2,S} {10,S}
+5     H u0 p0 c0 {2,S}
+6     H u0 p0 c0 {2,S}
+7     H u0 p0 c0 {3,S}
+8     H u0 p0 c0 {3,S}
+9     H u0 p0 c0 {3,S}
+10 *3 X u0 p0 c0 {4,S}
+11    N u0 p1 c0 {12,S} {15,S} {16,S}
+12 *2 C u0 p0 c0 {11,S} {13,S} {14,S} {17,S}
+13    H u0 p0 c0 {12,S}
+14    H u0 p0 c0 {12,S}
+15    H u0 p0 c0 {11,S}
+16    H u0 p0 c0 {11,S}
+17 *4 X u0 p0 c0 {12,S}
+products:
+1     O u0 p2 c0 {6,D}
+2     N u0 p1 c0 {4,S} {14,S} {15,S}
+3     C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+4  *2 C u0 p0 c0 {2,S} {6,S} {9,S} {10,S}
+5     C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+6  *1 C u0 p0 c0 {1,D} {3,S} {4,S}
+7     H u0 p0 c0 {3,S}
+8     H u0 p0 c0 {3,S}
+9     H u0 p0 c0 {4,S}
+10    H u0 p0 c0 {4,S}
+11    H u0 p0 c0 {5,S}
+12    H u0 p0 c0 {5,S}
+13    H u0 p0 c0 {5,S}
+14    H u0 p0 c0 {2,S}
+15    H u0 p0 c0 {2,S}
+16 *3 X u0 p0 c0
+17 *4 X u0 p0 c0
+
+51
+Pt 0.0 0.0 8.0
+Pt 2.83125555 0.0 8.0
+Pt 5.6625111 0.0 8.0
+Pt 1.41562778 2.45193923 8.0
+Pt 4.24688333 2.45193923 8.0
+Pt 7.07813888 2.45193923 8.0
+Pt 2.83125555 4.90387847 8.0
+Pt 5.6625111 4.90387847 8.0
+Pt 8.49376666 4.90387847 8.0
+Pt 1.41562778 0.81731308 10.31171048
+Pt 4.24688333 0.81731308 10.31171048
+Pt 7.07813888 0.81731308 10.31171048
+Pt 2.83125555 3.26925231 10.31171048
+Pt 5.6625111 3.26925231 10.31171048
+Pt 8.49376666 3.26925231 10.31171048
+Pt 4.24688333 5.72119154 10.31171048
+Pt 7.07813888 5.72119154 10.31171048
+Pt 9.90939443 5.72119154 10.31171048
+Pt -0.0500015 1.67957896 12.5735079
+Pt 2.79131553 1.67333602 12.58780254
+Pt 5.61051776 1.67431866 12.59705636
+Pt 1.37111873 4.12164643 12.57793473
+Pt 4.22339231 4.14244913 12.66362016
+Pt 6.99933815 4.14110527 12.65072039
+Pt 2.78325653 6.57109927 12.58774211
+Pt 5.61332681 6.55244143 12.65293354
+Pt 8.44503584 6.57669634 12.58808453
+Pt -0.12494658 0.09999441 14.88637893
+Pt 2.72208599 0.08355318 14.92580588
+Pt 5.54508679 0.08489373 14.92577323
+Pt 1.30741821 2.53719638 14.90480627
+Pt 4.13417415 2.53912892 14.94496256
+Pt 6.9660893 2.53137599 14.92535889
+Pt 2.71824951 4.9844057 14.93008527
+Pt 5.57846094 4.98259671 15.29214618
+Pt 8.3983769 4.98791917 14.90405145
+O 4.84919266 3.91129566 17.90910556
+C 7.0042592 4.99093272 18.17256405
+C 7.65979623 3.66847936 18.5819821
+C 5.59469787 4.81945972 17.53783068
+H 6.85900771 5.60081585 19.07215651
+H 7.64044328 5.56724048 17.4974959
+H 7.7790112 2.994397 17.73019912
+H 8.65480392 3.87035908 18.98996662
+H 7.06565957 3.1553603 19.34040581
+N 0.34112092 -0.49245319 19.21600476
+C 0.37138608 -0.82311208 17.89136041
+H 0.94449935 -0.13769807 17.27094402
+H -0.57433003 -1.17260266 17.49234452
+H 1.11756081 -0.00456951 19.6341794
+H -0.24914087 -1.0035371 19.85410552
+""",
+metal = "Pt",
+facet = "111",
+)
+entry(
+index = 443,
 label = "C=C=C[Pt] + NN=[Pt] <=> C=C=C=[Pt] + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.04187e-06,'m^2/(molecule*s)'), n=0.543239, Ea=(162.839,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02587, dn = +|- 0.0032912, dEa = +|- 0.0207279 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -39716,10 +39817,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 443,
+index = 444,
 label = "O=CC[Pt] + O=C(O)[Pt] <=> O=CCC(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.24092e-13,'m^2/(molecule*s)'), n=0.236943, Ea=(203.409,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04018, dn = +|- 0.00507529, dEa = +|- 0.031964 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -39802,10 +39903,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 444,
+index = 445,
 label = "CC(O)[Pt] + O=C(O)O[Pt] <=> CC(O)=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.30833e-18,'m^2/(molecule*s)'), n=2.75335, Ea=(98.7351,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03753, dn = +|- 0.00474674, dEa = +|- 0.0298948 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -39897,10 +39998,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 445,
+index = 446,
 label = "CCC[Pt] + O=C(O)[Pt] <=> CCCC(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.89361e-15,'m^2/(molecule*s)'), n=1.38275, Ea=(196.677,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06169, dn = +|- 0.00771259, dEa = +|- 0.0485737 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -39995,10 +40096,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 446,
+index = 447,
 label = "[Pt]C=CC=[Pt] + CC[Pt] <=> [Pt]C=CC#[Pt] + CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.75944e-12,'m^2/(molecule*s)'), n=1.47097, Ea=(172.131,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04926, dn = +|- 0.00619524, dEa = +|- 0.0390175 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -40092,10 +40193,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 447,
+index = 448,
 label = "C=C=C[Pt] + OC#[Pt] <=> C=C=C=[Pt] + OC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.02128e-07,'m^2/(molecule*s)'), n=0.47822, Ea=(260.34,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00769, dn = +|- 0.000987603, dEa = +|- 0.0062199 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -40175,10 +40276,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 448,
+index = 449,
 label = "O=CC[Pt] + O[Pt] <=> 1Ou0p2c0{2,S}{3,S}{4,vdW}2Hu0p0c0{1,S}3Hu0p0c0{1,S}4Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.02296e-11,'m^2/(molecule*s)'), n=0.740968, Ea=(48.8785,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04327, dn = +|- 0.0054574, dEa = +|- 0.0343706 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -40255,10 +40356,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 449,
+index = 450,
 label = "OCC#[Pt] + N=[Pt] <=> ON[Pt] + C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.348e-06,'m^2/(molecule*s)'), n=0.136746, Ea=(267.5,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02033, dn = +|- 0.0025924, dEa = +|- 0.0163269 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -40335,10 +40436,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 450,
+index = 451,
 label = "CN[Pt] + C[Pt] <=> CN=[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.54544e-14,'m^2/(molecule*s)'), n=1.81169, Ea=(159.065,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0287, dn = +|- 0.00364506, dEa = +|- 0.0229565 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -40421,10 +40522,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 451,
+index = 452,
 label = "CC[Pt] + ON=[Pt] <=> CC=[Pt] + ON[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.80341e-11,'m^2/(molecule*s)'), n=0.583458, Ea=(129.911,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01406, dn = +|- 0.00179846, dEa = +|- 0.0113267 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -40507,10 +40608,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 452,
+index = 453,
 label = "CCC[Pt] + CC#[Pt] <=> CCC=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.62935e-13,'m^2/(molecule*s)'), n=1.72719, Ea=(258.494,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02337, dn = +|- 0.00297691, dEa = +|- 0.0187485 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -40608,10 +40709,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 453,
+index = 454,
 label = "CC[Pt] + [Pt] <=> CC=[Pt] + [H][H] + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.57713e-13,'m^2/(molecule*s)'), n=1.65763, Ea=(107.511,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03608, dn = +|- 0.00456686, dEa = +|- 0.0287619 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -40688,10 +40789,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 454,
+index = 455,
 label = "CC[Pt] + OO[Pt] <=> CC=[Pt] + OO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.11138e-19,'m^2/(molecule*s)'), n=2.74171, Ea=(81.1817,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02394, dn = +|- 0.00304864, dEa = +|- 0.0192003 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -40774,10 +40875,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 455,
+index = 456,
 label = "C=CC#[Pt] + C[Pt] <=> C=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.29269e-20,'m^2/(molecule*s)'), n=2.59622, Ea=(260.7,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01579, dn = +|- 0.00201805, dEa = +|- 0.0127096 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -40860,10 +40961,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 456,
+index = 457,
 label = "[Pt]CCC#[Pt] + O=C[Pt] <=> [Pt]=CCC#[Pt] + C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.84054e-13,'m^2/(molecule*s)'), n=1.47121, Ea=(230.59,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01065, dn = +|- 0.00136511, dEa = +|- 0.00859745 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -40948,10 +41049,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 457,
+index = 458,
 label = "O=C(O)[Pt] + OC#[Pt] <=> C$[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.13975e-13,'m^2/(molecule*s)'), n=1.39114, Ea=(277.11,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03805, dn = +|- 0.00481104, dEa = +|- 0.0302998 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -41025,10 +41126,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 458,
+index = 459,
 label = "O=CC[Pt] + O=C(O)O[Pt] <=> O=CC=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.64337e-19,'m^2/(molecule*s)'), n=2.72159, Ea=(125.669,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03018, dn = +|- 0.00383064, dEa = +|- 0.0241253 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -41114,10 +41215,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 459,
+index = 460,
 label = "OCC[Pt] + CC(=O)[Pt] <=> CC(=O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.74108e-12,'m^2/(molecule*s)'), n=-0.560498, Ea=(230.403,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06392, dn = +|- 0.00798263, dEa = +|- 0.0502744 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -41212,10 +41313,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 460,
+index = 461,
 label = "NC#[Pt] + ON=[Pt] <=> ON[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.66205e-08,'m^2/(molecule*s)'), n=0.379638, Ea=(119.14,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04454, dn = +|- 0.00561443, dEa = +|- 0.0353595 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -41289,10 +41390,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 461,
+index = 462,
 label = "O=CC=[Pt] + NC#[Pt] <=> O=CC[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.09181e-09,'m^2/(molecule*s)'), n=0.522875, Ea=(109.207,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03238, dn = +|- 0.00410504, dEa = +|- 0.0258535 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -41372,10 +41473,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 462,
+index = 463,
 label = "CC(C)[Pt] + O=CC=[Pt] <=> O=CC#[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.66616e-10,'m^2/(molecule*s)'), n=0.657559, Ea=(57.7276,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04842, dn = +|- 0.0060924, dEa = +|- 0.0383698 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -41473,10 +41574,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 463,
+index = 464,
 label = "CC(C)[Pt] + CC#[Pt] <=> CC(C)=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.73614e-12,'m^2/(molecule*s)'), n=1.71438, Ea=(252.558,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02862, dn = +|- 0.00363504, dEa = +|- 0.0228934 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -41574,10 +41675,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 464,
+index = 465,
 label = "C[Pt] + O=C=C=[Pt] <=> C=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.02412e-19,'m^2/(molecule*s)'), n=2.76206, Ea=(251.374,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02517, dn = +|- 0.00320269, dEa = +|- 0.0201705 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -41651,10 +41752,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 465,
+index = 466,
 label = "O=CC[Pt] + NO[Pt] <=> 1Ou0p2c0{2,S}{5,S}{6,vdW}2Nu0p1c0{1,S}{3,S}{4,S}3Hu0p0c0{2,S}4Hu0p0c0{2,S}5Hu0p0c0{1,S}6Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.91709e-12,'m^2/(molecule*s)'), n=1.76579, Ea=(64.0399,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04486, dn = +|- 0.0056532, dEa = +|- 0.0356037 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -41737,10 +41838,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 466,
+index = 467,
 label = "C=C(C)[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.76281e-13,'m^2/(molecule*s)'), n=1.74017, Ea=(125.922,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03681, dn = +|- 0.00465788, dEa = +|- 0.0293352 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -41829,10 +41930,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 467,
+index = 468,
 label = "CO[Pt] + C[Pt] <=> C=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.16613e-17,'m^2/(molecule*s)'), n=1.72255, Ea=(79.0193,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0284, dn = +|- 0.00360808, dEa = +|- 0.0227236 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -41912,10 +42013,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 468,
+index = 469,
 label = "C=CC[Pt] + CC#[Pt] <=> C=CC=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.09126e-11,'m^2/(molecule*s)'), n=0.736521, Ea=(267.75,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0256, dn = +|- 0.00325728, dEa = +|- 0.0205142 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -42007,10 +42108,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 469,
+index = 470,
 label = "CC=C[Pt] + CC=[Pt] <=> CC#[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.19876e-14,'m^2/(molecule*s)'), n=1.45109, Ea=(77.5307,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01503, dn = +|- 0.0019221, dEa = +|- 0.0121054 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -42105,10 +42206,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 470,
+index = 471,
 label = "CC(O)[Pt] + OC[Pt] <=> CC(O)=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.13483e-16,'m^2/(molecule*s)'), n=1.29187, Ea=(112.974,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02154, dn = +|- 0.00274541, dEa = +|- 0.0172905 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -42200,10 +42301,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 471,
+index = 472,
 label = "C=C(C)[Pt] + [Pt]C=N <=> N=C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.78505e-13,'m^2/(molecule*s)'), n=1.61953, Ea=(85.2376,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01325, dn = +|- 0.00169533, dEa = +|- 0.0106771 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -42292,10 +42393,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 472,
+index = 473,
 label = "O=C(O)[Pt] + C[Pt] <=> CC(=O)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.46822e-17,'m^2/(molecule*s)'), n=2.12636, Ea=(186.445,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01746, dn = +|- 0.00222953, dEa = +|- 0.0140415 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -42372,10 +42473,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 473,
+index = 474,
 label = "CC(O)[Pt] + C=C=C=[Pt] <=> CC(O)=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.68752e-06,'m^2/(molecule*s)'), n=-1.44881, Ea=(173.71,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01999, dn = +|- 0.00255067, dEa = +|- 0.016064 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -42467,10 +42568,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 474,
+index = 475,
 label = "CC(C)[Pt] + CC=[Pt] <=> CC(C)=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.39542e-11,'m^2/(molecule*s)'), n=0.413116, Ea=(81.3225,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00882, dn = +|- 0.001131, dEa = +|- 0.00712302 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -42571,7 +42672,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 475,
+index = 476,
 label = "O=CC[Pt] + vacantX <=> [Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(6.37034e-14,'m^2/(molecule*s)'), n=1.69968, Ea=(25.1536,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05075, dn = +|- 0.00637751, dEa = +|- 0.0401654 kJ/mol"""),
@@ -42645,10 +42746,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 476,
+index = 477,
 label = "CCC[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.05451e-08,'m^2/(molecule*s)'), n=-0.514027, Ea=(161.443,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06132, dn = +|- 0.0076675, dEa = +|- 0.0482897 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -42743,10 +42844,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 477,
+index = 478,
 label = "CCC[Pt] + N=C=[Pt] <=> CCC=[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.63562e-10,'m^2/(molecule*s)'), n=-0.285774, Ea=(167.794,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01983, dn = +|- 0.00253041, dEa = +|- 0.0159364 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -42838,10 +42939,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 478,
+index = 479,
 label = "[Pt]=CCC#[Pt] + O=[Pt] <=> O[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.99324e-08,'m^2/(molecule*s)'), n=0.715222, Ea=(113.683,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03176, dn = +|- 0.00402855, dEa = +|- 0.0253717 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -42917,7 +43018,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 479,
+index = 480,
 label = "CC=[Pt] + vacantX <=> C[Pt] + C#[Pt]",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(2.18686e-07,'m^2/(molecule*s)'), n=0.425013, Ea=(120.863,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0652, dn = +|- 0.00813801, dEa = +|- 0.051253 kJ/mol"""),
@@ -42991,10 +43092,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 480,
+index = 481,
 label = "CCC[Pt] + O=CC=[Pt] <=> CCC=[Pt] + O=CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.15141e-10,'m^2/(molecule*s)'), n=0.49307, Ea=(124.931,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00863, dn = +|- 0.00110695, dEa = +|- 0.00697156 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -43092,10 +43193,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 481,
+index = 482,
 label = "O=CC[Pt] + CC(=O)[Pt] <=> CC(=O)CC=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.46702e-16,'m^2/(molecule*s)'), n=1.24121, Ea=(152.42,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04124, dn = +|- 0.00520665, dEa = +|- 0.0327914 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -43184,10 +43285,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 482,
+index = 483,
 label = "CC=[Pt] + OC#[Pt] <=> OC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.24841e-07,'m^2/(molecule*s)'), n=0.261393, Ea=(143.473,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01541, dn = +|- 0.00197029, dEa = +|- 0.0124089 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -43267,10 +43368,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 483,
+index = 484,
 label = "C=C(C)[Pt] + CC#[Pt] <=> C=C=[Pt] + CC(C)=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.70763e-14,'m^2/(molecule*s)'), n=1.57211, Ea=(136.199,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02481, dn = +|- 0.00315701, dEa = +|- 0.0198828 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -43362,10 +43463,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 484,
+index = 485,
 label = "[Pt]CCC=[Pt] + O=C(O)O[Pt] <=> [Pt]CCC#[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.16665e-11,'m^2/(molecule*s)'), n=0.674672, Ea=(102.808,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03428, dn = +|- 0.00434307, dEa = +|- 0.0273525 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -43459,10 +43560,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 485,
+index = 486,
 label = "OCC[Pt] + CC(=O)[Pt] <=> CC(=O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.93084e-15,'m^2/(molecule*s)'), n=1.15882, Ea=(214.565,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02323, dn = +|- 0.00295817, dEa = +|- 0.0186305 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -43557,10 +43658,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 486,
+index = 487,
 label = "[Pt]=CCC#[Pt] + OC=[Pt] <=> [Pt]CCC#[Pt] + O=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.16852e-07,'m^2/(molecule*s)'), n=0.298018, Ea=(62.1496,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03974, dn = +|- 0.00502129, dEa = +|- 0.0316239 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -43645,10 +43746,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 487,
+index = 488,
 label = "CC(C)[Pt] + O=CC=[Pt] <=> CC(C)=[Pt] + O=CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.85955e-10,'m^2/(molecule*s)'), n=0.542871, Ea=(119.691,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01713, dn = +|- 0.00218851, dEa = +|- 0.0137832 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -43746,10 +43847,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 488,
+index = 489,
 label = "OC[Pt] + C=C=[Pt] <=> OC=[Pt] + C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.2699e-14,'m^2/(molecule*s)'), n=1.66166, Ea=(123.073,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01563, dn = +|- 0.00199792, dEa = +|- 0.0125829 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -43829,10 +43930,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 489,
+index = 490,
 label = "CC(C)[Pt] + NN=[Pt] <=> CC(C)=[Pt] + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.32838e-12,'m^2/(molecule*s)'), n=1.55424, Ea=(128.103,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01806, dn = +|- 0.00230543, dEa = +|- 0.0145195 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -43927,10 +44028,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 490,
+index = 491,
 label = "CC#[Pt] + C[Pt] <=> C=[Pt] + CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.83565e-14,'m^2/(molecule*s)'), n=1.68305, Ea=(274.031,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01729, dn = +|- 0.00220876, dEa = +|- 0.0139107 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -44010,10 +44111,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 491,
+index = 492,
 label = "CN[Pt] + C[Pt] <=> C=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.23534e-13,'m^2/(molecule*s)'), n=1.664, Ea=(99.7174,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01764, dn = +|- 0.00225303, dEa = +|- 0.0141895 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -44096,10 +44197,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 492,
+index = 493,
 label = "O=CC[Pt] + N=C=[Pt] <=> [Pt]C=N + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.26742e-12,'m^2/(molecule*s)'), n=1.35769, Ea=(96.1343,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01311, dn = +|- 0.00167749, dEa = +|- 0.0105648 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -44179,10 +44280,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 493,
+index = 494,
 label = "[Pt]=CCC#[Pt] + CC=[Pt] <=> CC[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.46443e-07,'m^2/(molecule*s)'), n=0.556953, Ea=(133.943,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01525, dn = +|- 0.00195035, dEa = +|- 0.0122833 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -44273,10 +44374,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 494,
+index = 495,
 label = "C=C(C)[Pt] + C[Pt] <=> C=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.8212e-20,'m^2/(molecule*s)'), n=2.45559, Ea=(132.986,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02556, dn = +|- 0.0032511, dEa = +|- 0.0204754 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -44365,10 +44466,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 495,
+index = 496,
 label = "CC(C)[Pt] + [Pt]NN=O <=> CC(C)=[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.74653e-17,'m^2/(molecule*s)'), n=1.64465, Ea=(93.1976,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02127, dn = +|- 0.00271161, dEa = +|- 0.0170777 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -44463,10 +44564,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 496,
+index = 497,
 label = "C=CC#[Pt] + OC#[Pt] <=> OC=[Pt] + C=C=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.24797e-14,'m^2/(molecule*s)'), n=1.72241, Ea=(247.328,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0226, dn = +|- 0.00287877, dEa = +|- 0.0181304 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -44546,10 +44647,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 497,
+index = 498,
 label = "CC=[Pt] + O=C(O)O[Pt] <=> CC#[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.89325e-11,'m^2/(molecule*s)'), n=0.558571, Ea=(47.5705,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03634, dn = +|- 0.0045988, dEa = +|- 0.0289631 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -44635,10 +44736,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 498,
+index = 499,
 label = "NC=[Pt] + C=C=C=[Pt] <=> C=C=C[Pt] + [Pt]C=N",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.84635e-14,'m^2/(molecule*s)'), n=1.65683, Ea=(185.209,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01452, dn = +|- 0.00185697, dEa = +|- 0.0116952 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -44721,10 +44822,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 499,
+index = 500,
 label = "CC[Pt] + N[Pt] <=> CC=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.53139e-11,'m^2/(molecule*s)'), n=0.734468, Ea=(95.1585,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02683, dn = +|- 0.0034108, dEa = +|- 0.0214812 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -44807,10 +44908,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 500,
+index = 501,
 label = "CN=[Pt] + CC#[Pt] <=> CC=[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.27692e-09,'m^2/(molecule*s)'), n=0.764684, Ea=(225.16,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02878, dn = +|- 0.00365524, dEa = +|- 0.0230206 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -44893,10 +44994,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 501,
+index = 502,
 label = "CC=[Pt] + C[Pt] <=> C=[Pt] + CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.38553e-13,'m^2/(molecule*s)'), n=1.33599, Ea=(111.099,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02229, dn = +|- 0.00284052, dEa = +|- 0.0178895 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -44979,10 +45080,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 502,
+index = 503,
 label = "CC[Pt] + NC=[Pt] <=> CC=[Pt] + NC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.24575e-19,'m^2/(molecule*s)'), n=2.5905, Ea=(126.603,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01982, dn = +|- 0.0025289, dEa = +|- 0.0159269 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -45071,10 +45172,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 503,
+index = 504,
 label = "CC(O)[Pt] + NN[Pt] <=> CC(O)=[Pt] + NN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.34968e-11,'m^2/(molecule*s)'), n=0.64088, Ea=(52.3506,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02245, dn = +|- 0.00286092, dEa = +|- 0.018018 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -45166,10 +45267,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 504,
+index = 505,
 label = "CC(C)[Pt] + C=C=C[Pt] <=> CC(C)=[Pt] + C=C=C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.2054e-13,'m^2/(molecule*s)'), n=1.5592, Ea=(100.884,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01252, dn = +|- 0.00160252, dEa = +|- 0.0100926 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -45270,10 +45371,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 505,
+index = 506,
 label = "NC[Pt] + N[Pt] <=> NC=[Pt] + N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.81934e-13,'m^2/(molecule*s)'), n=1.66483, Ea=(77.1391,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0229, dn = +|- 0.00291693, dEa = +|- 0.0183707 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -45353,10 +45454,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 506,
+index = 507,
 label = "[Pt]=CCC#[Pt] + ON=[Pt] <=> ON[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.63336e-05,'m^2/(molecule*s)'), n=-0.273095, Ea=(142.396,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03884, dn = +|- 0.00490913, dEa = +|- 0.0309176 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -45438,10 +45539,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 507,
+index = 508,
 label = "CC[Pt] + O=C[Pt] <=> CC=[Pt] + C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.78669e-16,'m^2/(molecule*s)'), n=1.47429, Ea=(162.684,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01272, dn = +|- 0.00162895, dEa = +|- 0.0102591 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -45524,10 +45625,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 508,
+index = 509,
 label = "CCO[Pt] + O=CC[Pt] <=> 1Ou0p2c0{2,S}{9,S}{10,vdW}2Cu0p0c0{1,S}{3,S}{4,S}{5,S}3Cu0p0c0{2,S}{6,S}{7,S}{8,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Hu0p0c0{3,S}7Hu0p0c0{3,S}8Hu0p0c0{3,S}9Hu0p0c0{1,S}10Xu0p0c0{1,vdW} + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.59427e-15,'m^2/(molecule*s)'), n=0.719042, Ea=(49.6072,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04199, dn = +|- 0.00529883, dEa = +|- 0.0333719 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_double_vdW
@@ -45622,10 +45723,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 509,
+index = 510,
 label = "1Nu0p1c0{2,S}{3,S}{4,S}{7,vdW}2Nu0p1c0{1,S}{5,S}{6,S}3Hu0p0c0{1,S}4Hu0p0c0{1,S}5Hu0p0c0{2,S}6Hu0p0c0{2,S}7Xu0p0c0{1,vdW} + O=C=C[Pt] <=> 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW} + NN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.27458e-14,'m^2/(molecule*s)'), n=1.84462, Ea=(110.97,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03004, dn = +|- 0.00381292, dEa = +|- 0.0240137 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Single_vdW
@@ -45708,10 +45809,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 510,
+index = 511,
 label = "CCC=[Pt] + NC#[Pt] <=> CCC[Pt] + N=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.65343e-06,'m^2/(molecule*s)'), n=-0.373633, Ea=(197.092,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01925, dn = +|- 0.00245683, dEa = +|- 0.0154731 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -45803,10 +45904,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 511,
+index = 512,
 label = "O=C(O)O[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.37856e-13,'m^2/(molecule*s)'), n=1.56975, Ea=(86.5344,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01763, dn = +|- 0.00225112, dEa = +|- 0.0141775 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -45886,7 +45987,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 512,
+index = 513,
 label = "O=CC[Pt] + vacantX <=> [Pt] + O=CC=[Pt]",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.13861e-11,'m^2/(molecule*s)'), n=0.694392, Ea=(82.9412,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04539, dn = +|- 0.00571884, dEa = +|- 0.0360171 kJ/mol"""),
@@ -45960,10 +46061,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 513,
+index = 514,
 label = "CC(C)[Pt] + C=CC=[Pt] <=> CC(C)=[Pt] + C=CC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.3921e-13,'m^2/(molecule*s)'), n=1.50296, Ea=(81.4239,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01191, dn = +|- 0.001525, dEa = +|- 0.00960439 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -46067,10 +46168,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 514,
+index = 515,
 label = "NC[Pt] + C=CC#[Pt] <=> NC=[Pt] + C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.96585e-20,'m^2/(molecule*s)'), n=2.51498, Ea=(260.194,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01424, dn = +|- 0.00182206, dEa = +|- 0.0114753 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -46159,10 +46260,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 515,
+index = 516,
 label = "CC(C)[Pt] + O=C=C[Pt] <=> CC(C)C=C=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.13414e-11,'m^2/(molecule*s)'), n=1.20592, Ea=(142.948,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04266, dn = +|- 0.00538207, dEa = +|- 0.0338962 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -46257,10 +46358,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 516,
+index = 517,
 label = "C=C(C)[Pt] + O=C=C[Pt] <=> C=C(C)C=C=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.26152e-09,'m^2/(molecule*s)'), n=0.0432385, Ea=(100.85,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01307, dn = +|- 0.00167286, dEa = +|- 0.0105356 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -46349,10 +46450,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 517,
+index = 518,
 label = "CC[Pt] + O=CO[Pt] <=> CC=[Pt] + O=CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.37396e-13,'m^2/(molecule*s)'), n=1.79849, Ea=(148.232,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03498, dn = +|- 0.00442948, dEa = +|- 0.0278968 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -46438,10 +46539,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 518,
+index = 519,
 label = "CC(O)[Pt] + [Pt]N=O <=> CC=[Pt] + ON=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.00352e-10,'m^2/(molecule*s)'), n=0.431211, Ea=(206.563,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06045, dn = +|- 0.00756137, dEa = +|- 0.0476213 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -46524,10 +46625,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 519,
+index = 520,
 label = "[Pt]C=CC#[Pt] + CC(C)=[Pt] <=> [Pt]C=CC=[Pt] + C=C(C)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(0.00171881,'m^2/(molecule*s)'), n=-1.39976, Ea=(134.733,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01784, dn = +|- 0.00227783, dEa = +|- 0.0143457 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -46624,10 +46725,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 520,
+index = 521,
 label = "CC(C)[Pt] + CN[Pt] <=> CN=[Pt] + CCC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.14467e-10,'m^2/(molecule*s)'), n=0.805675, Ea=(150.111,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03223, dn = +|- 0.00408735, dEa = +|- 0.025742 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -46728,10 +46829,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 521,
+index = 522,
 label = "[Pt]C=CC#[Pt] + CCC=[Pt] <=> [Pt]C=CC=[Pt] + CC=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.7597e-08,'m^2/(molecule*s)'), n=0.643284, Ea=(128.312,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01802, dn = +|- 0.0023009, dEa = +|- 0.014491 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -46828,10 +46929,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 522,
+index = 523,
 label = "CC(O)[Pt] + O=C=C[Pt] <=> CC(O)=[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.94478e-09,'m^2/(molecule*s)'), n=-0.343294, Ea=(110.249,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02025, dn = +|- 0.00258245, dEa = +|- 0.0162642 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -46920,10 +47021,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 523,
+index = 524,
 label = "OC[Pt] + CN=[Pt] <=> OC=[Pt] + CN[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.05154e-14,'m^2/(molecule*s)'), n=1.66905, Ea=(144.169,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01387, dn = +|- 0.00177419, dEa = +|- 0.0111738 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -47006,10 +47107,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 524,
+index = 525,
 label = "OC[Pt] + O=C=C[Pt] <=> OC=[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.78209e-14,'m^2/(molecule*s)'), n=1.55242, Ea=(120.436,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01197, dn = +|- 0.00153259, dEa = +|- 0.00965219 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -47089,10 +47190,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 525,
+index = 526,
 label = "CCC[Pt] + O=C=C=[Pt] <=> CCC=[Pt] + O=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.57616e-17,'m^2/(molecule*s)'), n=1.82925, Ea=(233.499,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0352, dn = +|- 0.00445733, dEa = +|- 0.0280722 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -47184,10 +47285,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 526,
+index = 527,
 label = "CC(C)[Pt] + CN[Pt] <=> CC(C)=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.01013e-10,'m^2/(molecule*s)'), n=0.72778, Ea=(76.1631,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0312, dn = +|- 0.00395836, dEa = +|- 0.0249297 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -47288,10 +47389,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 527,
+index = 528,
 label = "O=CC[Pt] + C=C=C=[Pt] <=> C=C=C[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.5034e-14,'m^2/(molecule*s)'), n=1.56612, Ea=(61.8274,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01733, dn = +|- 0.00221425, dEa = +|- 0.0139453 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -47377,10 +47478,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 528,
+index = 529,
 label = "O=CC[Pt] + [Pt]C#N <=> C(C#N)C=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.31045e-13,'m^2/(molecule*s)'), n=1.23622, Ea=(151.105,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01967, dn = +|- 0.00250978, dEa = +|- 0.0158065 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -47457,10 +47558,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 529,
+index = 530,
 label = "CC(C)[Pt] + O=[Pt] <=> CC(C)=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.00308e-14,'m^2/(molecule*s)'), n=1.81111, Ea=(110.415,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03593, dn = +|- 0.00454825, dEa = +|- 0.0286448 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -47546,10 +47647,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 530,
+index = 531,
 label = "CC(O)[Pt] + N[Pt] <=> CC=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.1984e-13,'m^2/(molecule*s)'), n=1.3659, Ea=(225.55,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03983, dn = +|- 0.00503161, dEa = +|- 0.031689 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -47635,10 +47736,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 531,
+index = 532,
 label = "CC(O)[Pt] + N=[Pt] <=> CC(O)=[Pt] + N[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.08934e-11,'m^2/(molecule*s)'), n=0.706551, Ea=(122.592,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02219, dn = +|- 0.00282784, dEa = +|- 0.0178096 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -47721,10 +47822,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 532,
+index = 533,
 label = "O=CC[Pt] + [Pt]N=C <=> O=CC=[Pt] + C=N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.57301e-15,'m^2/(molecule*s)'), n=2.65671, Ea=(85.6859,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0212, dn = +|- 0.00270249, dEa = +|- 0.0170202 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -47807,10 +47908,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 533,
+index = 534,
 label = "OCC[Pt] + O=C(O)[Pt] <=> O=C(O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.74278e-18,'m^2/(molecule*s)'), n=2.11902, Ea=(198.365,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00852, dn = +|- 0.00109276, dEa = +|- 0.00688219 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -47899,10 +48000,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 534,
+index = 535,
 label = "CC[Pt] + C=C=C=[Pt] <=> CC=[Pt] + C=C=C[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.49408e-11,'m^2/(molecule*s)'), n=0.557359, Ea=(196.968,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01461, dn = +|- 0.00186844, dEa = +|- 0.0117674 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -47991,10 +48092,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 535,
+index = 536,
 label = "[Pt]C=CC#[Pt] + N=[Pt] <=> N#[Pt] + [Pt]=CCC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.14102e-08,'m^2/(molecule*s)'), n=0.519141, Ea=(191.976,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0164, dn = +|- 0.00209615, dEa = +|- 0.0132015 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -48070,10 +48171,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 536,
+index = 537,
 label = "[Pt]C=CC#[Pt] + N=[Pt] <=> N#[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.23796e-07,'m^2/(molecule*s)'), n=0.5668, Ea=(194.319,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00816, dn = +|- 0.00104691, dEa = +|- 0.00659344 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -48149,10 +48250,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 537,
+index = 538,
 label = "OC[Pt] + ON[Pt] <=> OC=[Pt] + NO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.9812e-16,'m^2/(molecule*s)'), n=2.4711, Ea=(43.158,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01891, dn = +|- 0.00241298, dEa = +|- 0.0151969 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -48232,10 +48333,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 538,
+index = 539,
 label = "OCC[Pt] + C=C[Pt] <=> C=C=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.44136e-11,'m^2/(molecule*s)'), n=0.846402, Ea=(156.582,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04996, dn = +|- 0.00628143, dEa = +|- 0.0395603 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -48327,10 +48428,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 539,
+index = 540,
 label = "COCO[Pt] + CC[Pt] <=> CC=[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.87604e-17,'m^2/(molecule*s)'), n=1.72532, Ea=(74.9478,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02115, dn = +|- 0.00269641, dEa = +|- 0.0169819 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -48431,10 +48532,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 540,
+index = 541,
 label = "C=CC[Pt] + O=C=C[Pt] <=> C=CC=[Pt] + C=C=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.6607e-14,'m^2/(molecule*s)'), n=1.66796, Ea=(139.686,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01971, dn = +|- 0.00251406, dEa = +|- 0.0158335 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -48523,10 +48624,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 541,
+index = 542,
 label = "CC(O)[Pt] + CN[Pt] <=> CN=[Pt] + CCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.17147e-09,'m^2/(molecule*s)'), n=-0.319831, Ea=(147.892,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0113, dn = +|- 0.00144731, dEa = +|- 0.00911512 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -48621,7 +48722,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 542,
+index = 543,
 label = "CC#[Pt] + vacantX <=> C[Pt] + C$[Pt]",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.33892e-06,'m^2/(molecule*s)'), n=0.3954, Ea=(182.617,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05946, dn = +|- 0.00744144, dEa = +|- 0.046866 kJ/mol"""),
@@ -48692,10 +48793,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 543,
+index = 544,
 label = "[Pt]CCC#[Pt] + CO[Pt] <=> [Pt]=CCC#[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.06489e-12,'m^2/(molecule*s)'), n=0.55042, Ea=(100.483,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01202, dn = +|- 0.00153905, dEa = +|- 0.0096929 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -48786,10 +48887,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 544,
+index = 545,
 label = "CC(O)=[Pt] + C[Pt] <=> C=[Pt] + CC(O)[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.48757e-12,'m^2/(molecule*s)'), n=1.18792, Ea=(104.696,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03177, dn = +|- 0.00402907, dEa = +|- 0.025375 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -48875,10 +48976,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 545,
+index = 546,
 label = "CCC(=O)[Pt] + OCC[Pt] <=> CCC(=O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(9.13821e-16,'m^2/(molecule*s)'), n=1.12308, Ea=(211.825,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01581, dn = +|- 0.00202099, dEa = +|- 0.0127281 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -48982,10 +49083,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 546,
+index = 547,
 label = "C[Pt] + O=[Pt] <=> C=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.43124e-14,'m^2/(molecule*s)'), n=1.76745, Ea=(141.525,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0259, dn = +|- 0.00329481, dEa = +|- 0.0207506 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -49053,10 +49154,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 547,
+index = 548,
 label = "OC[Pt] + C=C[Pt] <=> C=C=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.31152e-13,'m^2/(molecule*s)'), n=1.4036, Ea=(83.3317,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02798, dn = +|- 0.0035548, dEa = +|- 0.0223881 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -49139,7 +49240,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 548,
+index = 549,
 label = "NC[Pt] + vacantX <=> CN[Pt] + vacantX",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.23887e-11,'m^2/(molecule*s)'), n=0.700988, Ea=(257.44,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02074, dn = +|- 0.00264457, dEa = +|- 0.0166554 kJ/mol"""),
@@ -49213,10 +49314,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 549,
+index = 550,
 label = "CC(C)[Pt] + COCO[Pt] <=> CC(C)=[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.04885e-12,'m^2/(molecule*s)'), n=-0.227042, Ea=(44.1115,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0399, dn = +|- 0.0050403, dEa = +|- 0.0317437 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -49326,10 +49427,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 550,
+index = 551,
 label = "CC=[Pt] + OC#[Pt] <=> CC[Pt] + O=C=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.47863e-08,'m^2/(molecule*s)'), n=0.506014, Ea=(113.381,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02006, dn = +|- 0.00255841, dEa = +|- 0.0161128 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -49409,7 +49510,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 551,
+index = 552,
 label = "CC(O)=[Pt] + vacantX <=> C[Pt] + OC#[Pt]",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(4.91724e-07,'m^2/(molecule*s)'), n=0.396219, Ea=(165.488,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05986, dn = +|- 0.00749047, dEa = +|- 0.0471748 kJ/mol"""),
@@ -49486,10 +49587,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 552,
+index = 553,
 label = "O=CC[Pt] + [Pt]C#N <=> O=CC=[Pt] + C#N + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.81068e-14,'m^2/(molecule*s)'), n=1.85846, Ea=(146.774,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02908, dn = +|- 0.0036928, dEa = +|- 0.0232571 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -49566,10 +49667,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 553,
+index = 554,
 label = "[Pt]C=CC#[Pt] + CCC=[Pt] <=> CCC#[Pt] + [Pt]C=CC=[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(0.00396698,'m^2/(molecule*s)'), n=-1.32785, Ea=(234.499,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03213, dn = +|- 0.00407432, dEa = +|- 0.02566 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -49666,7 +49767,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 554,
+index = 555,
 label = "[Pt]CCC#[Pt] + vacantX <=> [Pt] + [Pt]=CCC#[Pt]",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.45479e-08,'m^2/(molecule*s)'), n=0.657144, Ea=(120.787,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.03371, dn = +|- 0.00427184, dEa = +|- 0.026904 kJ/mol"""),
@@ -49745,10 +49846,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 555,
+index = 556,
 label = "CCC[Pt] + O=[Pt] <=> CCC=[Pt] + O[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.67844e-13,'m^2/(molecule*s)'), n=1.80287, Ea=(121.92,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.0309, dn = +|- 0.00392072, dEa = +|- 0.0246926 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -49834,10 +49935,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 556,
+index = 557,
 label = "[Pt]=CCC#[Pt] + C=CC=[Pt] <=> C=CC[Pt] + [Pt]C=CC#[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.84212e-06,'m^2/(molecule*s)'), n=-0.406101, Ea=(134.081,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01691, dn = +|- 0.00216104, dEa = +|- 0.0136101 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -49931,10 +50032,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 557,
+index = 558,
 label = "OC[Pt] + O=C=C[Pt] <=> O=C=C=[Pt] + CO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.69385e-12,'m^2/(molecule*s)'), n=1.27296, Ea=(116.026,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00255, dn = +|- 0.000327616, dEa = +|- 0.00206332 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -50014,10 +50115,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 558,
+index = 559,
 label = "O=CC[Pt] + CN=[Pt] <=> CN[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.09508e-13,'m^2/(molecule*s)'), n=1.84698, Ea=(136.871,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04917, dn = +|- 0.0061837, dEa = +|- 0.0389448 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -50103,10 +50204,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 559,
+index = 560,
 label = "O=CC[Pt] + NC=[Pt] <=> O=CC=[Pt] + NC[Pt]",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.94089e-19,'m^2/(molecule*s)'), n=2.65298, Ea=(124.584,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02665, dn = +|- 0.0033885, dEa = +|- 0.0213407 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction
@@ -50192,10 +50293,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 560,
+index = 561,
 label = "C=C(C)[Pt] + C=C(O)[Pt] <=> C=C(C)C(=C)O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.2457e-12,'m^2/(molecule*s)'), n=1.05151, Ea=(94.2809,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01209, dn = +|- 0.00154858, dEa = +|- 0.00975289 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -50290,10 +50391,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 561,
+index = 562,
 label = "O=C(O)O[Pt] + C=C[Pt] <=> C=C=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.05042e-12,'m^2/(molecule*s)'), n=1.7291, Ea=(130.438,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04986, dn = +|- 0.0062689, dEa = +|- 0.0394814 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -50376,10 +50477,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 562,
+index = 563,
 label = "[Pt]CCC#[Pt] + CN[Pt] <=> [Pt]=CCC#[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.44058e-08,'m^2/(molecule*s)'), n=0.601023, Ea=(122.351,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01227, dn = +|- 0.0015713, dEa = +|- 0.00989604 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -50473,10 +50574,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 563,
+index = 564,
 label = "O=CC[Pt] + O=CC=[Pt] <=> O=CC[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(2.80774e-13,'m^2/(molecule*s)'), n=1.64194, Ea=(94.4846,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02855, dn = +|- 0.00362666, dEa = +|- 0.0228406 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -50562,10 +50663,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 564,
+index = 565,
 label = "CC=[Pt] + CN=[Pt] <=> CN=CC + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.83774e-05,'m^2/(molecule*s)'), n=0.168683, Ea=(163.997,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02487, dn = +|- 0.0031652, dEa = +|- 0.0199343 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative_Double
@@ -50651,10 +50752,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 565,
+index = 566,
 label = "CC(C)[Pt] + O=C(O)O[Pt] <=> CC(C)=[Pt] + O=C(O)O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.73188e-17,'m^2/(molecule*s)'), n=1.85054, Ea=(123.141,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04853, dn = +|- 0.00610591, dEa = +|- 0.0384549 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -50752,7 +50853,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 566,
+index = 567,
 label = "CC(C)[Pt] + vacantX <=> CCC[Pt] + vacantX",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(3.88902e-10,'m^2/(molecule*s)'), n=0.517788, Ea=(190.66,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04914, dn = +|- 0.00618088, dEa = +|- 0.038927 kJ/mol"""),
@@ -50838,10 +50939,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 567,
+index = 568,
 label = "CCC(=O)[Pt] + OCC[Pt] <=> CCC(=O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.07911e-14,'m^2/(molecule*s)'), n=0.464525, Ea=(230.302,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06361, dn = +|- 0.00794583, dEa = +|- 0.0500426 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -50945,10 +51046,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 568,
+index = 569,
 label = "OC[Pt] + [Pt]NN=O <=> OC=[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.25426e-20,'m^2/(molecule*s)'), n=2.58281, Ea=(96.3083,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01289, dn = +|- 0.00164954, dEa = +|- 0.0103887 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -51028,10 +51129,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 569,
+index = 570,
 label = "CC(C)[Pt] + CC=C[Pt] <=> CC(C)=[Pt] + C=CC + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(4.91744e-17,'m^2/(molecule*s)'), n=1.6377, Ea=(108.461,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02887, dn = +|- 0.00366748, dEa = +|- 0.0230977 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -51138,7 +51239,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 570,
+index = 571,
 label = "CC(C)[Pt] + vacantX <=> C=CC + [Pt] + vacantX",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.11407e-11,'m^2/(molecule*s)'), n=0.834093, Ea=(73.0409,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05615, dn = +|- 0.00703872, dEa = +|- 0.0443297 kJ/mol"""),
@@ -51224,10 +51325,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 571,
+index = 572,
 label = "O=CC[Pt] + O=[Pt] <=> O[Pt] + 1Ou0p2c0{3,D}2Cu0p0c0{3,D}{4,S}{5,S}{6,vdW}3Cu0p0c0{1,D}{2,D}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{2,vdW}",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(7.34833e-14,'m^2/(molecule*s)'), n=1.80246, Ea=(92.2449,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.05065, dn = +|- 0.00636577, dEa = +|- 0.0400915 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta_vdW
@@ -51301,7 +51402,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 572,
+index = 573,
 label = "CO[Pt] + vacantX <=> C[Pt] + O=[Pt]",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.25739e-10,'m^2/(molecule*s)'), n=0.56017, Ea=(144.822,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.09322, dn = +|- 0.0114833, dEa = +|- 0.0723213 kJ/mol"""),
@@ -51372,10 +51473,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 573,
+index = 574,
 label = "C=C=C[Pt] + C[Pt] <=> C=C=C=[Pt] + C + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.22457e-10,'m^2/(molecule*s)'), n=0.864182, Ea=(233.838,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.06274, dn = +|- 0.00783968, dEa = +|- 0.0493741 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -51458,10 +51559,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 574,
+index = 575,
 label = "[Pt]NN=O + [Pt]C=N <=> N=C=[Pt] + NN=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(8.81253e-13,'m^2/(molecule*s)'), n=1.48125, Ea=(61.9045,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01197, dn = +|- 0.00153359, dEa = +|- 0.00965849 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -51538,10 +51639,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 575,
+index = 576,
 label = "CC(O)[Pt] + CC(=O)[Pt] <=> CC(O)=[Pt] + CC=O + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.34921e-17,'m^2/(molecule*s)'), n=1.5466, Ea=(112.388,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01509, dn = +|- 0.00192965, dEa = +|- 0.0121529 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -51636,7 +51737,7 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 576,
+index = 577,
 label = "OCC#[Pt] + vacantX <=> OCC#[Pt] + vacantX",
 duplicate = True,
 kinetics = SurfaceArrhenius(A=(1.48364e-06,'m^2/(molecule*s)'), n=0.0288788, Ea=(56.9911,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00356, dn = +|- 0.000458309, dEa = +|- 0.00288642 kJ/mol"""),
@@ -51710,10 +51811,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 577,
+index = 578,
 label = "CN=[Pt] + O=CC=[Pt] <=> O=CC[Pt] + [Pt]N=C",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.12966e-06,'m^2/(molecule*s)'), n=-0.257777, Ea=(134.361,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.02514, dn = +|- 0.00319909, dEa = +|- 0.0201478 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_Beta
@@ -51796,10 +51897,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 578,
+index = 579,
 label = "O=CC[Pt] + C=C[Pt] <=> C=CCC=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.19489e-11,'m^2/(molecule*s)'), n=1.03893, Ea=(124.479,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00661, dn = +|- 0.00084844, dEa = +|- 0.00534345 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -51885,10 +51986,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 579,
+index = 580,
 label = "CC(O)[Pt] + CN[Pt] <=> CC(O)=[Pt] + CN + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(5.92065e-13,'m^2/(molecule*s)'), n=1.63368, Ea=(57.0205,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01882, dn = +|- 0.00240158, dEa = +|- 0.0151251 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -51983,10 +52084,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 580,
+index = 581,
 label = "O=CC[Pt] + C=C[Pt] <=> C=CCC=O + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(1.3974e-11,'m^2/(molecule*s)'), n=1.05574, Ea=(123.968,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.00844, dn = +|- 0.00108248, dEa = +|- 0.00681743 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative
@@ -52072,10 +52173,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 581,
+index = 582,
 label = "[Pt]CCC#[Pt] + COCO[Pt] <=> [Pt]=CCC#[Pt] + COCO + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(3.39531e-13,'m^2/(molecule*s)'), n=1.61433, Ea=(104.596,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.01548, dn = +|- 0.00197886, dEa = +|- 0.0124628 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Abstraction_vdW
@@ -52178,10 +52279,10 @@ metal = "Pt",
 facet = "111",
 )
 entry(
-index = 582,
+index = 583,
 label = "OCC[Pt] + O=C(O)[Pt] <=> O=C(O)CCO + vacantX + vacantX",
 duplicate = True,
-kinetics = SurfaceArrhenius(A=(nan,'m^2/(molecule*s)'), n=nan, Ea=(nan,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ nan, dn = +|- nan, dEa = +|- nan kJ/mol"""),
+kinetics = SurfaceArrhenius(A=(6.87051e-15,'m^2/(molecule*s)'), n=1.2634, Ea=(206.751,'kJ/mol'), T0=(1,'K'), Tmin=(298.15,'K'), Tmax=(2000,'K'), comment="""Fitted to 172 data points; dA = *|/ 1.04028, dn = +|- 0.00508761, dEa = +|- 0.0320416 kJ/mol"""),
 shortDesc = u"Computed using Pynta",
 longDesc = u"""Computed using Pynta
 Surface_Adsorption_Dissociative

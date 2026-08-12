@@ -895,6 +895,14 @@ NON=N
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {4,S}
 
+1Ou0p2c0{3,D}{6,vdW}2Nu0p1c0{3,S}{4,S}{5,S}3Nu0p1c0{1,D}{2,S}4Hu0p0c0{2,S}5Hu0p0c0{2,S}6Xu0p0c0{1,vdW}
+1 X u0 p0 c0 {2,vdW}
+2 O u0 p2 c0 {1,vdW} {4,D}
+3 N u0 p1 c0 {4,S} {5,S} {6,S}
+4 N u0 p1 c0 {2,D} {3,S}
+5 H u0 p0 c0 {3,S}
+6 H u0 p0 c0 {3,S}
+
 N=C=[Pt]
 1 X u0 p0 c0 {3,D}
 2 N u0 p1 c0 {3,D} {4,S}
