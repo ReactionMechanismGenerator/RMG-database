@@ -59,8 +59,8 @@ entry(
     label = "1_2_4_5_hexatetraene",
     group = 
 """
-1 *3 Cd  u0 {2,S} {3,D}
-2 *4 Cd  u0 {1,S} {4,D}
+1 *3 Cdb  u0 {2,S} {3,D}
+2 *4 Cdb  u0 {1,S} {4,D}
 3 *2 Cdd u0 {1,D} {5,D}
 4 *5 Cdd u0 {2,D} {6,D}
 5 *1 C   u0 {3,D}
@@ -76,8 +76,8 @@ entry(
 """
 1 *3 C  u0 {2,S} {3,S}
 2 *4 C  u0 {1,S} {4,S}
-3 *2 Cd u0 {1,S} {5,D}
-4 *5 Cd u0 {2,S} {6,D}
+3 *2 Cdb u0 {1,S} {5,D}
+4 *5 Cdb u0 {2,S} {6,D}
 5 *1 C  u0 {3,D}
 6 *6 C  u0 {4,D}
 """,
@@ -92,9 +92,9 @@ entry(
 1 *3 C  u0 {2,S} {3,S}
 2 *4 C  u0 {1,S} {4,S}
 3 *2 Ct u0 {1,S} {5,T}
-4 *5 Cd u0 {2,S} {6,D}
+4 *5 Cdb u0 {2,S} {6,D}
 5 *1 Ct u0 {3,T}
-6 *6 Cd u0 {4,D}
+6 *6 Cdb u0 {4,D}
 """,
     kinetics = None,
 )
@@ -104,7 +104,7 @@ entry(
     label = "1_2_5_hexatriene",
     group = 
 """
-1 *3 Cd  u0 {2,S} {3,D}
+1 *3 Cdb  u0 {2,S} {3,D}
 2 *4 C   u0 {1,S} {4,S}
 3 *2 Cdd u0 {1,D} {5,D}
 4 *5 C   u0 {2,S} {6,D}
@@ -121,9 +121,9 @@ entry(
 """
 1 *3 C  u0 {2,S} {3,S}
 2 *4 C  u0 {1,S} {4,S}
-3 *2 Cd u0 {1,S} {5,D}
+3 *2 Cdb u0 {1,S} {5,D}
 4 *5 Ct u0 {2,S} {6,T}
-5 *1 Cd u0 {3,D}
+5 *1 Cdb u0 {3,D}
 6 *6 Ct u0 {4,T}
 """,
     kinetics = None,
@@ -135,8 +135,8 @@ entry(
     group = 
 """
 1 *3 C   u0 {2,S} {3,S}
-2 *4 Cd  u0 {1,S} {4,D}
-3 *2 Cd  u0 {1,S} {5,D}
+2 *4 Cdb  u0 {1,S} {4,D}
+3 *2 Cdb  u0 {1,S} {5,D}
 4 *5 Cdd u0 {2,D} {6,D}
 5 *1 C   u0 {3,D}
 6 *6 C   u0 {4,D}
