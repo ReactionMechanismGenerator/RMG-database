@@ -698,7 +698,7 @@ entry(
     group = 
 """
 1 * F1s  u0 {2,S}
-2   Cs   u0 {1,S} {3,S} {4,S} {5,S}
+2   Css   u0 {1,S} {3,S} {4,S} {5,S}
 3   R!H  u0 {2,S}
 4   R!H  u0 {2,S}
 5   R!H  u0 {2,S}

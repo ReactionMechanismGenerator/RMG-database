@@ -30,8 +30,8 @@ entry(
 	label = "int14_gauche",
 	group = 
 """
-1 *1 [Cs,O2s,Cd,S2s] u0 {2,S}
-2 *2 Cs u0 {1,S}
+1 *1 [Css,O2s,Cdb,S2s] u0 {2,S}
+2 *2 Css u0 {1,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -47,8 +47,8 @@ entry(
 	label = "CsCs",
 	group = 
 """
-1 *1 Cs u0 {2,S}
-2 *2 Cs u0 {1,S}
+1 *1 Css u0 {2,S}
+2 *2 Css u0 {1,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -64,11 +64,11 @@ entry(
 	label = "CsCs-P",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S}
-3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S}
+3   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+4   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
 """,
 
 	solute = SoluteData(
@@ -97,11 +97,11 @@ entry(
 	label = "CsCs-S",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S}
-3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-5   Cs u0 {1,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S}
+3   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+4   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5   Css u0 {1,S}
 """,
 
 	solute = SoluteData(
@@ -130,14 +130,14 @@ entry(
 	label = "CsCs-SS",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S}
-4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S}
+4   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+8   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
 """,
 
 	solute = SoluteData(
@@ -166,14 +166,14 @@ entry(
 	label = "CsCs-ST",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S}
-4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S}
+4   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
 """,
 
 	solute = SoluteData(
@@ -202,14 +202,14 @@ entry(
 	label = "CsCs-SQ",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S}
-4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   Cs                         u0 {2,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S}
+4   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   Css                         u0 {2,S}
 """,
 
 	solute = SoluteData(
@@ -238,11 +238,11 @@ entry(
 	label = "CsCs-T",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S}
-3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S}
+3   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
 
 	solute = SoluteData(
@@ -271,14 +271,14 @@ entry(
 	label = "CsCs-TT",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S}
-4   Cs                         u0 {1,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S}
+4   Css                         u0 {1,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
 """,
 
 	solute = SoluteData(
@@ -307,20 +307,20 @@ entry(
 	label = "CsCs-T(TTP)",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S} {9,S} {10,S} {11,S}
-4   Cs                         u0 {1,S} {12,S} {13,S} {14,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-9   Cs                         u0 {3,S}
-10   Cs                         u0 {3,S}
-11   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}
-12   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-13   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-14   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S} {9,S} {10,S} {11,S}
+4   Css                         u0 {1,S} {12,S} {13,S} {14,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+9   Css                         u0 {3,S}
+10   Css                         u0 {3,S}
+11   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}
+12   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+13   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+14   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
 """,
 
 	solute = SoluteData(
@@ -349,20 +349,20 @@ entry(
 	label = "CsCs-T(TTS)",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S} {9,S} {10,S} {11,S}
-4   Cs                         u0 {1,S} {12,S} {13,S} {14,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-9   Cs                         u0 {3,S}
-10   Cs                         u0 {3,S}
-11   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}
-12   Cs u0 {4,S}
-13   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-14   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S} {9,S} {10,S} {11,S}
+4   Css                         u0 {1,S} {12,S} {13,S} {14,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+9   Css                         u0 {3,S}
+10   Css                         u0 {3,S}
+11   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}
+12   Css u0 {4,S}
+13   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+14   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
 """,
 
 	solute = SoluteData(
@@ -391,14 +391,14 @@ entry(
 	label = "CsCs-TQ",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S}
-4   Cs                         u0 {1,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   Cs                         u0 {2,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S}
+4   Css                         u0 {1,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   Css                         u0 {2,S}
 """,
 
 	solute = SoluteData(
@@ -427,11 +427,11 @@ entry(
 	label = "CsCs-Q",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
 
 	solute = SoluteData(
@@ -460,14 +460,14 @@ entry(
 	label = "CsCs-QQ",
 	group = 
 """
-1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-3   Cs                         u0 {1,S}
-4   Cs                         u0 {1,S}
-5   Cs                         u0 {1,S}
-6   Cs                         u0 {2,S}
-7   Cs                         u0 {2,S}
-8   Cs                         u0 {2,S}
+1 *1 Css                         u0 {2,S} {3,S} {4,S} {5,S}
+2 *2 Css                         u0 {1,S} {6,S} {7,S} {8,S}
+3   Css                         u0 {1,S}
+4   Css                         u0 {1,S}
+5   Css                         u0 {1,S}
+6   Css                         u0 {2,S}
+7   Css                         u0 {2,S}
+8   Css                         u0 {2,S}
 """,
 
 	solute = SoluteData(
@@ -497,7 +497,7 @@ entry(
 	group = 
 """
 1 *1 O2s u0 {2,S}
-2 *2 Cs u0 {1,S}
+2 *2 Css u0 {1,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -514,8 +514,8 @@ entry(
 	group = 
 """
 1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                         u0 {1,S}
-3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+2 *2 Css                         u0 {1,S}
+3   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
 """,
 	solute = SoluteData(
 		S = 0.00000,
@@ -544,8 +544,8 @@ entry(
 	group = 
 """
 1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                         u0 {1,S}
-3    Cs                         u0 {1,S}
+2 *2 Css                         u0 {1,S}
+3    Css                         u0 {1,S}
 """,
 	solute = SoluteData(
 		S = 0.00000,
@@ -574,11 +574,11 @@ entry(
 	group = 
 """
 1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-3   Cs                         u0 {1,S}
-4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+2 *2 Css                         u0 {1,S} {4,S} {5,S} {6,S}
+3   Css                         u0 {1,S}
+4   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+6   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.05053,
@@ -607,11 +607,11 @@ entry(
 	group = 
 """
 1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-3   Cs                         u0 {1,S}
-4   Cs                         u0 {2,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+2 *2 Css                         u0 {1,S} {4,S} {5,S} {6,S}
+3   Css                         u0 {1,S}
+4   Css                         u0 {2,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+6   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.01821,
@@ -640,11 +640,11 @@ entry(
 	group = 
 """
 1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-3   Cs                         u0 {1,S}
-4   Cs                         u0 {2,S}
-5   Cs                         u0 {2,S}
-6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+2 *2 Css                         u0 {1,S} {4,S} {5,S} {6,S}
+3   Css                         u0 {1,S}
+4   Css                         u0 {2,S}
+5   Css                         u0 {2,S}
+6   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.03351,
@@ -673,11 +673,11 @@ entry(
 	group = 
 """
 1 *1 O2s                         u0 {2,S} {3,S}
-2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-3   Cs                         u0 {1,S}
-4   Cs                         u0 {2,S}
-5   Cs                         u0 {2,S}
-6   Cs                         u0 {2,S}
+2 *2 Css                         u0 {1,S} {4,S} {5,S} {6,S}
+3   Css                         u0 {1,S}
+4   Css                         u0 {2,S}
+5   Css                         u0 {2,S}
+6   Css                         u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.03210,
@@ -705,9 +705,9 @@ entry(
 	label = "CdCs",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S}
-2   Cd u0 {1,D}
-3 *2 Cs u0 {1,S}
+1 *1 Cdb u0 {2,D} {3,S}
+2   Cdb u0 {1,D}
+3 *2 Css u0 {1,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -723,10 +723,10 @@ entry(
 	label = "CdCs-P",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-4 *2 Cs u0 {1,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+4 *2 Css u0 {1,S}
 """,
 	solute = SoluteData(
 		S = 0.03660,
@@ -754,10 +754,10 @@ entry(
 	label = "CdCs-S",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
-4 *2 Cs u0 {1,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
+4 *2 Css u0 {1,S}
 """,
 	solute = SoluteData(
 		S = 0.00000,
@@ -785,13 +785,13 @@ entry(
 	label = "CdCs-SP",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
-4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
+4 *2 Css u0 {1,S} {5,S} {6,S} {7,S}
+5   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+6   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+7   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
 """,
 	solute = SoluteData(
 		S = -0.06923,
@@ -819,13 +819,13 @@ entry(
 	label = "CdCs-SS",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
-4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-5   Cs                         u0 {4,S}
-6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
+4 *2 Css u0 {1,S} {5,S} {6,S} {7,S}
+5   Css                         u0 {4,S}
+6   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+7   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
 """,
 	solute = SoluteData(
 		S = -0.02028,
@@ -853,13 +853,13 @@ entry(
 	label = "CdCs-ST",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
-4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-5   Cs                         u0 {4,S}
-6   Cs                         u0 {4,S}
-7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
+4 *2 Css u0 {1,S} {5,S} {6,S} {7,S}
+5   Css                         u0 {4,S}
+6   Css                         u0 {4,S}
+7   [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
 """,
 	solute = SoluteData(
 		S = -0.02097,
@@ -887,13 +887,13 @@ entry(
 	label = "CdCs-SQ",
 	group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
-4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-5   Cs                         u0 {4,S}
-6   Cs                         u0 {4,S}
-7   Cs                         u0 {4,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
+4 *2 Css u0 {1,S} {5,S} {6,S} {7,S}
+5   Css                         u0 {4,S}
+6   Css                         u0 {4,S}
+7   Css                         u0 {4,S}
 """,
 	solute = SoluteData(
 		S = -0.00597,
@@ -921,14 +921,14 @@ entry(
 	label = "int15",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S}
-2    [Cs,O2s,S2s] u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {3,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
+1 *1 Css u0 {2,S} {4,S} {5,S}
+2    [Css,O2s,S2s] u0 {1,S} {3,S}
+3 *2 Css u0 {2,S} {6,S} {7,S} {8,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {3,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -944,14 +944,14 @@ entry(
 	label = "CsCsCs",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S}
-2    Cs u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {3,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
+1 *1 Css u0 {2,S} {4,S} {5,S}
+2    Css u0 {1,S} {3,S}
+3 *2 Css u0 {2,S} {6,S} {7,S} {8,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {3,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -967,15 +967,15 @@ entry(
 	label = "CsCsCs-TQ",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
-2    Cs u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {3,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
-9    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+1 *1 Css u0 {2,S} {4,S} {5,S} {9,S}
+2    Css u0 {1,S} {3,S}
+3 *2 Css u0 {2,S} {6,S} {7,S} {8,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {3,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
+9    [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
 """,
 	solute = SoluteData(
 		S = 0.00000,
@@ -1003,15 +1003,15 @@ entry(
 	label = "CsCsCs-QQ",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
-2    Cs u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {1,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
-9    Cs u0 {3,S}
+1 *1 Css u0 {2,S} {4,S} {5,S} {6,S}
+2    Css u0 {1,S} {3,S}
+3 *2 Css u0 {2,S} {7,S} {8,S} {9,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {1,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
+9    Css u0 {3,S}
 """,
 	solute = SoluteData(
 		S = 0.00000,
@@ -1039,14 +1039,14 @@ entry(
 	label = "CsOsCs",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S}
+1 *1 Css u0 {2,S} {4,S} {5,S}
 2    O2s u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {3,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
+3 *2 Css u0 {2,S} {6,S} {7,S} {8,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {3,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -1062,15 +1062,15 @@ entry(
 	label = "CsOsCs-TQ",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
+1 *1 Css u0 {2,S} {4,S} {5,S} {9,S}
 2    O2s u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {3,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
-9    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+3 *2 Css u0 {2,S} {6,S} {7,S} {8,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {3,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
+9    [Cdb,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
 """,
 	solute = SoluteData(
 		S = -0.00592,
@@ -1098,15 +1098,15 @@ entry(
 	label = "CsOsCs-QQ",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
+1 *1 Css u0 {2,S} {4,S} {5,S} {6,S}
 2    O2s u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {1,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
-9    Cs u0 {3,S}
+3 *2 Css u0 {2,S} {7,S} {8,S} {9,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {1,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
+9    Css u0 {3,S}
 """,
 	solute = SoluteData(
 		S = 0.00000,
@@ -1134,14 +1134,14 @@ entry(
 	label = "CsSsCs",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S}
+1 *1 Css u0 {2,S} {4,S} {5,S}
 2    S2s u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {3,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
+3 *2 Css u0 {2,S} {6,S} {7,S} {8,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {3,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -1157,15 +1157,15 @@ entry(
 	label = "CsSsCs-QQ",
 	group = 
 """
-1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
+1 *1 Css u0 {2,S} {4,S} {5,S} {6,S}
 2    S2s u0 {1,S} {3,S}
-3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
-4    Cs u0 {1,S}
-5    Cs u0 {1,S}
-6    Cs u0 {1,S}
-7    Cs u0 {3,S}
-8    Cs u0 {3,S}
-9    Cs u0 {3,S}
+3 *2 Css u0 {2,S} {7,S} {8,S} {9,S}
+4    Css u0 {1,S}
+5    Css u0 {1,S}
+6    Css u0 {1,S}
+7    Css u0 {3,S}
+8    Css u0 {3,S}
+9    Css u0 {3,S}
 """,
 	solute = SoluteData(
 		S = 0.01584,
