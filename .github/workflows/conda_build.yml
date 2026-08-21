@@ -38,20 +38,20 @@ jobs:
       - name: Install Build Tools
         run: conda install python anaconda-client conda-build
 
-      - name: Configure Auto-Upload
-        if: github.ref == 'refs/heads/stable'
-        run: |
-          conda config --set anaconda_upload yes
-
       - name: Build Binary
+        env:
+          CONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
         run: |
-          # set a default value to the conda_token if needed (like from forks)
-          : "${CONDA_TOKEN:=${{ secrets.ANACONDA_TOKEN }}}"
-          : "${CONDA_TOKEN:=default_value}"
-          echo "CONDA_TOKEN=$CONDA_TOKEN" >> $GITHUB_ENV
           conda config --add channels rmg
           conda config --add channels conda-forge
-          CONDA_PY=${{ matrix.python-version }} conda build --token $CONDA_TOKEN --user rmg .
+
+          if [[ "${GITHUB_REF}" == "refs/heads/stable" ]]; then
+            CONDA_PY=${{ matrix.python-version }} \
+              conda build --token "$CONDA_TOKEN" --user rmg .
+          else
+            CONDA_PY=${{ matrix.python-version }} \
+              conda build --no-anaconda-upload .
+          fi
 
   result:
     if: ${{ always() }}
