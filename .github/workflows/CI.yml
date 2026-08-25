@@ -225,7 +225,9 @@ jobs:
               export FAILED=Yes
             fi
             echo "" # blank line so next block is interpreted as markdown
+            echo '```'
             cat "$regr_test-core.log" || (echo "Dumping the whole log failed, please download it from GitHub actions. Here are the first 100 lines:" && head -n100 "$regr_test-core.log")
+            echo '```'
             echo "</details>"
             echo "<details>"
             if conda run -n rmg_env_without_rms python scripts/checkModels.py \
@@ -242,7 +244,9 @@ jobs:
               export FAILED=Yes
             fi
             echo "" # blank line so next block is interpreted as markdown
+            echo '```'
             cat "$regr_test-edge.log" || (echo "Dumping the whole log failed, please download it from GitHub actions. Here are the first 100 lines:" && head -n100 "$regr_test-core.log")
+            echo '```'
             echo "</details>"
 
             # Check for Regression between Reference and Dynamic (skip superminimal)
