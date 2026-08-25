@@ -4661,6 +4661,120 @@ conv_thr=1e-12, fmax=1e-3.
     facet = "111",
 )
 
+entry(
+    index = 129,
+    label = "RXvdWBidentate",
+    group=
+"""
+1 X u0 p0 c0 {3,S}
+2 * X u0 p0 c0 {4,vdW}
+3 R!H u0 px c0 {1,S} {5,[S,D]}
+4 R!H u0 px c0 {2,vdW} {5,D}
+5 R!H u0 px cx {3,[S,D]} {4,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-0.661, 1.496, 2.636, 3.252, 3.8, 3.999, 4.13], 'J/(mol*K)'),
+        H298=(-199.357, 'kJ/mol'),
+        S298=(-165.516, 'J/(mol*K)'),
+    ),
+shortDesc=u"""Averaged from: ['XOC(OH)XO', 'XOCHXO', 'XONXO', 'XONOXO']""",
+longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
+methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
+in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
+s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
+Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
+3x3x4 supercell with the bottom 2 layers fixed. The following settings were
+applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
+conv_thr=1e-12, fmax=1e-3.
+
+    R
+   / \\
+  R   R
+  |   :
+***********
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 130,
+    label = "XOCRXO",
+    group=
+"""
+1 X u0 p0 c0 {3,S}
+2 * X u0 p0 c0 {4,vdW}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,vdW} {5,D}
+5 C u0 p0 c0 {3,S} {4,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([2.365, 4.644, 5.906, 6.652, 7.422, 7.775, 8.101], 'J/(mol*K)'),
+        H298=(-231.878, 'kJ/mol'),
+        S298=(-198.718, 'J/(mol*K)'),
+    ),
+shortDesc=u"""Averaged from: ['XOC(OH)XO', 'XOCHXO']""",
+longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
+methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
+in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
+s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
+Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
+3x3x4 supercell with the bottom 2 layers fixed. The following settings were
+applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
+conv_thr=1e-12, fmax=1e-3.
+
+    C
+   / \\
+  O   O
+  |   :
+***********
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 131,
+    label = "XONXO",
+    group=
+"""
+1 X u0 p0 c0 {3,S}
+2 * X u0 p0 c0 {4,vdW}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,vdW} {5,D}
+5 N u0 px cx {3,S} {4,D}
+""",
+    thermo=ThermoData(
+        Tdata=([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata=([-3.686, -1.653, -0.634, -0.147, 0.177, 0.222, 0.159], 'J/(mol*K)'),
+        H298=(-166.836, 'kJ/mol'),
+        S298=(-132.313, 'J/(mol*K)'),
+    ),
+shortDesc=u"""Averaged from: ['XONXO', 'XONOXO']""",
+longDesc=u""" Calculated by Kirk Badger at Brown University using statistical mechanics
+methods implemented in Franklin Goldsmith's thermo_kinetics_scripts repository
+in the new_workflow folder:  https://github.com/franklingoldsmith/thermo_kinetic
+s_scripts/tree/main/new_workflow  DFT calculations were performed with Quantum
+Espresso using PAW pseudopotentals and the BEEF-vdW functional for an optimized
+3x3x4 supercell with the bottom 2 layers fixed. The following settings were
+applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF',
+conv_thr=1e-12, fmax=1e-3.
+
+    N
+   / \\
+  O   O
+  |   :
+***********
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
 tree(
 """
 L1: RX
@@ -4791,5 +4905,8 @@ L1: RX
                 L5: (ONOR)X
         L3: (OR2)X
             L4: (OROR)X
+    L2: RXvdWBidentate
+        L3: XOCRXO
+        L3: XONXO
 """,
 )
