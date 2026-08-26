@@ -2,8 +2,34 @@
 # encoding: utf-8
 
 name = "LithiumPrimaryThermo"
-shortDesc = ""
+shortDesc = "ARC-generated, EXCEPT the enthalpy of [Lip], which was replaced from NIST-JANAF Li-006 - see the warning in longDesc before regenerating."
 longDesc = """
+!!! THIS LIBRARY IS NO LONGER ENTIRELY THE PRODUCT OF THE LEVELS OF THEORY BELOW !!!
+
+ONE ENTRY IS HAND-REPLACED. ``[Lip]`` (lithium cation, index 65) carries an enthalpy
+transcribed from NIST-JANAF table Li-006; only ``a6`` in both of its NASA polynomials and
+its ``E0`` differ from what ARC wrote. Every other entry, and the entropy, heat capacity,
+temperature ranges and geometry of ``[Lip]`` itself, are the original ARC output.
+
+REGENERATING THIS LIBRARY FROM ARC WILL SILENTLY REVERT THAT REPLACEMENT and reintroduce
+a 144.859 kJ/mol (1.5013 eV) error in the lithium cation's enthalpy of formation - an
+error that moves every lithium ionisation equilibrium by 26 orders of magnitude at 300 K.
+Nothing at the point of regeneration will fail: the ARC run terminates green, the library
+loads, and RMG uses the number. The failure surfaces only in
+``test/test_lithium_cation_enthalpy.py``, which asserts ``[Lip]`` minus ``[Li]`` against
+lithium's spectroscopic ionisation energy. RUN THAT SUITE AFTER ANY REGENERATION.
+
+WHAT A REGENERATOR MUST DO. Do not simply accept ARC's new number for ``[Lip]``; check it
+first. The original was not repairable and could not be recomputed here, because the run
+that produced this library supplied its lithium atom energies through Arkane's
+``atomEnergies`` input keyword rather than from the database: NO level of theory in
+``input/quantum_corrections/data.py`` carries a lithium atom energy (0 of 67 as of
+2026-08-26), so nothing in this repository can reproduce, or audit, any lithium number in
+it. Until a lithium atom energy at ``ccsd(t)-f12/cc-pvdz-f12`` is committed to that file,
+a regenerated ``[Lip]`` is unauditable and this JANAF value should be re-applied by hand.
+The diagnosis, the evidence, and the arithmetic are in
+``docs/i129-lithium-cation-enthalpy.md`` and in the ``[Lip]`` entry's own longDesc.
+
 Levels of theory used:
 
 Conformers:       wb97x-d3/def2-tzvp, software: qchem (dft)
@@ -3101,22 +3127,79 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.5,1.99051e-15,-1.1909e-17,2.10806e-20,-1.11018e-23,63352,1.74004], Tmin=(10,'K'), Tmax=(794.005,'K')),
-            NASAPolynomial(coeffs=[2.5,1.52667e-14,-1.58445e-17,6.63089e-21,-9.62112e-25,63352,1.74004], Tmin=(794.005,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[2.5,1.99051e-15,-1.1909e-17,2.10806e-20,-1.11018e-23,80982.3,1.74004], Tmin=(10,'K'), Tmax=(794.005,'K')),
+            NASAPolynomial(coeffs=[2.5,1.52667e-14,-1.58445e-17,6.63089e-21,-9.62112e-25,80982.3,1.74004], Tmin=(794.005,'K'), Tmax=(3000,'K')),
         ],
         Tmin = (10,'K'),
         Tmax = (3000,'K'),
-        E0 = (526.738,'kJ/mol'),
+        E0 = (673.325,'kJ/mol'),
         Cp0 = (20.7862,'J/(mol*K)'),
         CpInf = (20.7862,'J/(mol*K)'),
     ),
-    shortDesc = """""",
+    shortDesc = """Enthalpy replaced from NIST-JANAF Li-006; entropy and Cp are the original ARC values.""",
     longDesc =
 """
 External symmetry: 1, optical isomers: 1
 
 Geometry:
 Li      0.00000000    0.00000000    0.00000000
+
+ENTHALPY REPLACED 2026-08-26, ticket I-129. Only ``a6`` (both polynomials) and ``E0``
+changed; ``a1``-``a5``, ``a7``, Cp0, CpInf, the temperature ranges and the geometry are
+the original ARC values and are untouched.
+
+What was wrong. As shipped, this entry sat 375.363 kJ/mol above ``[Li]`` in the same
+library, where lithium's ionisation energy is 520.221 kJ/mol (NIST ASD, 5.391714996 eV) -
+a 144.859 kJ/mol shortfall, 23x the entire 6.197 kJ/mol difference between the electron
+and ion conventions, so no reference-state choice reaches it. The *entropy* of the same
+pair was right to 2e-5 J/(mol*K): S([Li]) - S([Lip]) = R ln 2 exactly, the degeneracy
+ratio for a 2S neutral and a 1S cation. Enthalpy wrong, entropy right, is what marks a
+defect rather than a different convention.
+
+Where it was not. Arkane's atom energy correction is keyed on element counts alone
+(``arkane/encorr/corr.py``, ``get_atom_correction``): measured identical for a cation and
+its neutral, so it cancels exactly in a cation-minus-neutral gap and cannot carry a
+charge-specific error. The p-type BAC is measured zero for a bond-less species, of either
+charge. Twenty neutrals in this library with independently known enthalpies of formation -
+including LiH, LiF, LiCl and LiOH against NIST-JANAF - land within 2.5 kJ/mol, so the
+lithium atom-energy reference and the correction chain are both sound, and ``[Li]`` itself
+is within 1.73 kJ/mol of JANAF Li-005.
+
+What was wrong, therefore. Because the corrections cancel, the two stored numbers imply a
+*computed* ionisation energy of 3.890 eV. No electronic structure calculation produces
+that. For a variational wavefunction method E(Li+) cannot fall below the exact
+two-electron energy of -7.279913 Ha, so reaching a 0.142968 Ha gap would require the same
+calculation's neutral lithium to sit at or above -7.422882 Ha - 25.9 kJ/mol ABOVE the
+Hartree-Fock limit for the lithium atom, while that same neutral reproduces JANAF to
+1.73 kJ/mol. The two energies cannot have come from one consistent calculation of this
+species pair. The stored number is not a lithium cation energy.
+
+Why it was replaced rather than recomputed. The run that produced it supplied its lithium
+atom energies through Arkane's ``atomEnergies`` input keyword: no level of theory in
+``input/quantum_corrections/data.py`` carries a lithium atom energy (0 of 67), so the
+calculation cannot be reproduced from anything in this repository, and a fresh calculation
+would not reveal which input was wrong.
+
+Replacement. NIST-JANAF Thermochemical Tables, table Li-006, "Lithium, Ion (Li+)",
+Li1+(g): dfH(0 K) = 677.947 kJ/mol and dfH(298.15 K) = 685.719 kJ/mol, both in JANAF's
+electron convention. This database prices the electron at zero (the ion convention), and
+Arkane's E0 is dfH(0 K) less the standard-state thermal increments of the constituent
+elements. Two independent routes:
+
+    E0        = 677.947 - 4.622 [H(298)-H(0) of Li(cr), JANAF Li-001] = 673.325 kJ/mol
+    H(298.15) = 673.325 + 6.197 [H(298)-H(0) of Li+(g)]               = 679.522 kJ/mol
+    H(298.15) = 685.719 - 6.197 [H(298)-H(0) of the electron, EC->IC] = 679.522 kJ/mol
+
+The two routes agree to 0.000 kJ/mol. The value was taken from JANAF absolutely, not
+back-solved from the ionisation energy: against this library's own ``[Li]`` the corrected
+entry rises 521.950 kJ/mol, 1.73 kJ/mol more than the spectroscopic 520.221, because the
+shipped neutral is itself 1.73 kJ/mol below JANAF Li-005. That residual is left standing
+rather than absorbed, and is the tell that the number was sourced.
+
+JANAF Li-006 tabulates Cp = 20.786 J/(mol*K) constant and S(298.15) = 133.017 J/(mol*K);
+the ARC entropy retained here is 132.899, 0.118 lower, consistent with a 1 atm rather than
+1 bar standard state (R ln 1.01325 = 0.109). That is 49x smaller than R ln 2 and is left
+alone - this correction is to the enthalpy only.
 """,
 )
 

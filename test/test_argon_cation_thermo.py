@@ -26,11 +26,12 @@ Four groups, in descending order of how much they would cost to be wrong about:
    because each can fail on its own.
 
 4. **The coverage gap's shape**, and the two defects found while measuring it: the
-   shipped ``[Lip]`` entry disagrees with lithium's ionisation energy by 145 kJ/mol, and
+   shipped ``[Lip]`` entry disagreed with lithium's ionisation energy by 145 kJ/mol, and
    group additivity answers for monatomic cations with numbers that put the cation
-   *below* the neutral. Both are pinned as they are, not fixed - fixing either is
-   another ticket's work - so that if either is ever corrected, the test fails and points
-   whoever did it at the report.
+   *below* the neutral. The group-additivity one is still pinned as it is, not fixed.
+   The ``[Lip]`` one was diagnosed and corrected by I-129, so its test here now asserts
+   the corrected relationship instead of the defect; the full statement of that work is
+   ``test/test_lithium_cation_enthalpy.py`` and ``docs/i129-lithium-cation-enthalpy.md``.
 
 Run with the runtime pinned::
 
@@ -590,32 +591,45 @@ def test_no_element_in_either_shipped_table_has_thermochemistry_above_charge_one
                 assert e.item.get_net_charge() <= 1, e.label
 
 
-def test_the_shipped_lithium_cation_disagrees_with_lithiums_ionisation_energy(
+def test_the_shipped_lithium_cation_now_agrees_with_lithiums_ionisation_energy(
         thermo_db):
-    """A defect found, pinned, and deliberately NOT fixed - modifying existing
-    thermochemistry is a non-goal of this ticket.
+    """This test was written by I-127 to pin a defect: ``[Lip]`` minus ``[Li]`` was
+    375.36 kJ/mol where lithium's ionisation energy is 520.22, a 144.86 kJ/mol shortfall
+    that no reference-state choice can explain. I-129 diagnosed it - the stored number is
+    not a lithium cation energy at all - and replaced the enthalpy from NIST-JANAF
+    Li-006. So the assertion is inverted rather than deleted: the relationship stays
+    *asserted* rather than assumed, and this file keeps a claim about lithium that
+    ``test_lithium_cation_enthalpy.py`` states in full.
 
-    ``[Lip]`` minus ``[Li]`` in LithiumPrimaryThermo is 375.36 kJ/mol where lithium's
-    ionisation energy is 520.22. The gap is 144.86 kJ/mol, which is 23x the entire
-    6.197 kJ/mol difference between the two electron conventions - so it cannot be a
-    convention choice, and that entry cannot be used to read this database's convention
-    off. If it is ever corrected, this test fails and points at the report.
+    The tolerance is the one thing worth reading carefully. The rise is 521.95, not
+    520.22, and the 1.73 kJ/mol residual is deliberate: the cation was transcribed from
+    JANAF absolutely while the neutral is still ARC's, and ARC's neutral is itself
+    1.73 kJ/mol below JANAF Li-005. A test that demanded exact closure would be
+    demanding a number fitted to the ionisation energy, which is what I-129 was told not
+    to produce. So the residual is bounded by chemical accuracy, not by zero.
     """
     library = thermo_db.libraries['LithiumPrimaryThermo']
     neutral = library.entries['[Li]'].data
     cation = library.entries['[Lip]'].data
 
     rise = (cation.get_enthalpy(T0) - neutral.get_enthalpy(T0)) / 1000.0
-    assert rise == pytest.approx(375.363, abs=0.01)
-
     expected = IE_LI_EV * EV
     assert expected == pytest.approx(520.221, abs=0.01)
-    discrepancy = rise - expected
-    assert discrepancy == pytest.approx(-144.858, abs=0.01)
-    assert abs(discrepancy) > 20 * (2.5 * R * T0 / 1000.0)
 
-    # the ENTROPY of the same pair is right, which is what makes the enthalpy a defect
-    # rather than a different reference state: S(Li+) is S(Li) minus R ln 2 exactly.
+    residual = rise - expected
+    assert residual == pytest.approx(1.729, abs=0.01), (
+        'the rise over the neutral is no longer the ionisation energy plus the known '
+        f'residual; rise = {rise:.3f}, IE = {expected:.3f}')
+    #: chemical accuracy, 1 kcal/mol - and far below the 144.86 kJ/mol the defect was
+    assert abs(residual) < 4.184
+    #: the residual is the shipped neutral's own error against NIST-JANAF Li-005, so it
+    #: is accounted for rather than merely small
+    janaf_li_h298 = 159.30
+    assert neutral.get_enthalpy(T0) / 1000.0 - janaf_li_h298 == pytest.approx(
+        -residual, abs=0.02)
+
+    # the ENTROPY of the same pair was always right, and this ticket did not touch it:
+    # S(Li+) is S(Li) minus R ln 2 exactly, the 2S/1S degeneracy ratio.
     s_gap = neutral.get_entropy(T0) - cation.get_entropy(T0)
     assert s_gap == pytest.approx(R * math.log(2.0), abs=0.002)
 
@@ -789,7 +803,11 @@ def test_argon_atom_type_resolves_to_a_specific_leaf_and_no_longer_parses_any_ch
 
 @pytest.mark.parametrize('label,adjacency_list,h298,s298,library', [
     ('Li', LI, 157.5723, 138.6620, 'LithiumPrimaryThermo'),
-    ('Li+', LIP, 532.9358, 132.8988, 'LithiumPrimaryThermo'),
+    # [Lip]'s enthalpy was 532.9358 when I-127 wrote this control; I-129 diagnosed that
+    # number as not being a lithium cation energy at all and replaced it from NIST-JANAF
+    # Li-006. The ENTROPY is unchanged, which is the part this control was really for:
+    # I-127 added no lithium data, and I-129 touched no lithium entropy.
+    ('Li+', LIP, 679.5225, 132.8988, 'LithiumPrimaryThermo'),
 ])
 def test_the_lithium_channel_species_are_untouched(thermo_db, label, adjacency_list,
                                                    h298, s298, library):
