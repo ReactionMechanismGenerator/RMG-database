@@ -88,35 +88,8 @@ u"""
 """,
 )
 
-
 entry(
     index = 2,
-    label = "HCOOH",
-    molecule =
-"""
-1 O u0 p2 c0 {2,D}
-2 C u0 p0 c0 {1,D} {3,S} {4,S}
-3 O u0 p2 c0 {2,S} {5,S}
-4 H u0 p0 c0 {2,S}
-5 H u0 p0 c0 {3,S}
-""",
-    thermo = NASA(
-    polynomials = [
-        NASAPolynomial(coeffs=[13.9828152, 8.07094773e-05, -1.53259344e-07, 1.32648986e-10, -4.32758868e-14, -50413.5699, -21.9105715], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
-        NASAPolynomial(coeffs=[13.9995921, -1.26354032e-06, 2.44635089e-09, -1.40132815e-12, 2.64862147e-16, -50416.4578, -21.9885437], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
-    ],
-    Tmin=(298.0, 'K'),
-    Tmax=(2000.0, 'K'),
-),
-    shortDesc = u"""HCOOH""",
-    longDesc =
-u"""
-""",
-)
-
-
-entry(
-    index = 3,
     label = "COHX",
     molecule =
 """
@@ -141,7 +114,7 @@ u"""
 
 
 entry(
-    index = 4,
+    index = 3,
     label = "CHOHX",
     molecule =
 """
@@ -167,7 +140,7 @@ u"""
 
 
 entry(
-    index = 5,
+    index = 4,
     label = "COOHX",
     molecule =
 """
@@ -193,7 +166,7 @@ u"""
 
 
 entry(
-    index = 6,
+    index = 5,
     label = "HCOOX",
     molecule =
 """
@@ -219,7 +192,7 @@ u"""
 
 
 entry(
-    index = 7,
+    index = 6,
     label = "CX",
     molecule =
 """
@@ -242,7 +215,7 @@ u"""
 
 
 entry(
-    index = 8,
+    index = 7,
     label = "CH3X",
     molecule =
 """
@@ -268,7 +241,7 @@ u"""
 
 
 entry(
-    index = 9,
+    index = 8,
     label = "CHOX",
     molecule =
 """
@@ -291,35 +264,8 @@ u"""
 """,
 )
 
-
 entry(
-    index = 10,
-    label = "CH4",
-    molecule =
-"""
-1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 H u0 p0 c0 {1,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {1,S}
-5 H u0 p0 c0 {1,S}
-""",
-    thermo = NASA(
-    polynomials = [
-        NASAPolynomial(coeffs=[13.9828152, 8.07094773e-05, -1.53259344e-07, 1.32648986e-10, -4.32758868e-14, -11094.9704, -22.9645165], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')),
-        NASAPolynomial(coeffs=[13.9995921, -1.26354032e-06, 2.44635089e-09, -1.40132815e-12, 2.64862147e-16, -11097.8583, -23.0424887], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')),
-    ],
-    Tmin=(298.0, 'K'),
-    Tmax=(2000.0, 'K'),
-),
-    shortDesc = u"""CH4""",
-    longDesc =
-u"""
-""",
-)
-
-
-entry(
-    index = 11,
+    index = 9,
     label = "CH2X",
     molecule =
 """
@@ -344,7 +290,7 @@ u"""
 
 
 entry(
-    index = 12,
+    index = 10,
     label = "CH2OHX",
     molecule =
 """
@@ -368,4 +314,3 @@ entry(
 u"""
 """,
 )
-
