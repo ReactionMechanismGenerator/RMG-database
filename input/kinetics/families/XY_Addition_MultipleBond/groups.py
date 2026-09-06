@@ -32,8 +32,8 @@ entry(
 """
 1 *3 [H,F1s,Cl1s,Br1s]  u0 {2,S}
 2 *4 [F1s,Cl1s,Br1s]    u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -45,8 +45,8 @@ entry(
 """
 1 *3 Cl1s               u0 {2,S}
 2 *4 [F1s,Cl1s,Br1s]    u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -58,8 +58,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 [F1s,Cl1s,Br1s]    u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -71,8 +71,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -84,8 +84,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]}
 5    R!H                ux {4,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -99,7 +99,7 @@ entry(
 1 *3 H                  u0 r0 {2,S}
 2 *4 F1s                u0 r0 {1,S}
 3 *1 Ct                 u0 r0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 r0 {3,[D,T]} {5,S}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 r0 {3,[D,T]} {5,S}
 5    R!H                u0 r0 {4,S}
 """,
     kinetics = None,
@@ -112,8 +112,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
-3 *1 [O2d,Cd]           u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]}
+3 *1 [O2d,Cdb]           u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]}
 5    R!H                ux {4,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -126,8 +126,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
-3 *1 [O2d,Cd]           u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+3 *1 [O2d,Cdb]           u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
 5    R!H                ux {4,[S,D,T,B,Q]}
 6    R!H                ux {4,[S,D,T,B,Q]}
 """,
@@ -141,8 +141,8 @@ entry(
 """
 1 *3 H   u0 {2,S}
 2 *4 F1s u0 {1,S}
-3 *1 Cd  u0 {4,D} {7,[S,D,T,B,Q]}
-4 *2 Cd  u0 {3,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+3 *1 Cdb  u0 {4,D} {7,[S,D,T,B,Q]}
+4 *2 Cdb  u0 {3,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
 5    R!H ux {4,[S,D,T,B,Q]}
 6    R!H ux {4,[S,D,T,B,Q]}
 7    R!H ux {3,[S,D,T,B,Q]}
@@ -157,8 +157,8 @@ entry(
 """
 1 *3 H   u0 {2,S}
 2 *4 F1s u0 {1,S}
-3 *1 Cd  u0 {4,D} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-4 *2 Cd  u0 {3,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+3 *1 Cdb  u0 {4,D} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
+4 *2 Cdb  u0 {3,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
 5    R!H ux {4,[S,D,T,B,Q]}
 6    R!H ux {4,[S,D,T,B,Q]}
 7    R!H ux {3,[S,D,T,B,Q]}
@@ -175,7 +175,7 @@ entry(
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
 3 *1 O2d                u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
 5    R!H                ux {4,[S,D,T,B,Q]}
 6    R!H                ux {4,[S,D,T,B,Q]}
 """,
@@ -189,8 +189,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
-3 *1 Cd                 u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+3 *1 Cdb                 u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
 5    R!H                ux {4,[S,D,T,B,Q]}
 6    R!H                ux {4,[S,D,T,B,Q]}
 """,
@@ -204,8 +204,8 @@ entry(
 """
 1 *3 H   u0 {2,S}
 2 *4 F1s u0 {1,S}
-3 *1 Cd  u0 {4,D} {6,[S,D,T,B,Q]}
-4 *2 Cd  u0 {3,D} {5,S}
+3 *1 Cdb  u0 {4,D} {6,[S,D,T,B,Q]}
+4 *2 Cdb  u0 {3,D} {5,S}
 5    F   u0 {4,S}
 6    R!H ux {3,[S,D,T,B,Q]}
 """,
@@ -219,8 +219,8 @@ entry(
 """
 1 *3 H   u0 r0 {2,S}
 2 *4 F1s u0 r0 {1,S}
-3 *1 Cd  u0 r0 {4,D} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
-4 *2 Cd  u0 r0 {3,D} {5,S}
+3 *1 Cdb  u0 r0 {4,D} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+4 *2 Cdb  u0 r0 {3,D} {5,S}
 5    F   u0 r0 {4,S}
 6    R!H ux {3,[S,D,T,B,Q]}
 7    R!H ux {3,[S,D,T,B,Q]}
@@ -235,8 +235,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 F1s                u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]} {5,[S,D,T,B,Q]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]} {5,[S,D,T,B,Q]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
 5    R!H                ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -250,7 +250,7 @@ entry(
 1 *3 H                  u0 r0 {2,S}
 2 *4 F1s                u0 r0 {1,S}
 3 *1 Ct                 u0 r0 {4,[D,T]} {5,S}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 r0 {3,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 r0 {3,[D,T]}
 5    R!H                u0 r0 {3,S}
 """,
     kinetics = None,
@@ -263,8 +263,8 @@ entry(
 """
 1 *3 H   u0 {2,S}
 2 *4 F1s u0 {1,S}
-3 *1 Cd  u0 {4,D} {5,[S,D,T,B,Q]}
-4 *2 Cd  u0 {3,D}
+3 *1 Cdb  u0 {4,D} {5,[S,D,T,B,Q]}
+4 *2 Cdb  u0 {3,D}
 5    R!H ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -277,8 +277,8 @@ entry(
 """
 1 *3 H   u0 {2,S}
 2 *4 F1s u0 {1,S}
-3 *1 Cd  u0 {4,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-4 *2 Cd  u0 {3,D}
+3 *1 Cdb  u0 {4,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+4 *2 Cdb  u0 {3,D}
 5    R!H ux {3,[S,D,T,B,Q]}
 6    R!H ux {3,[S,D,T,B,Q]}
 """,
@@ -292,8 +292,8 @@ entry(
 """
 1 *3 H                  u0 {2,S}
 2 *4 [Cl1s,Br1s]        u0 {1,S}
-3 *1 [Cd,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
-4 *2 [Cd,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
+3 *1 [Cdb,Cdd,Ct,CO,O2d] u0 {4,[D,T]}
+4 *2 [Cdb,Cdd,Ct,CO,O2d] u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -387,8 +387,8 @@ entry(
 """
 1 *3 H           u0 {2,S}
 2 *4 [Cl1s,Br1s] u0 {1,S}
-3 *1 Cd          u0 {4,[D,T]}
-4 *2 Cd          u0 {3,[D,T]}
+3 *1 Cdb          u0 {4,[D,T]}
+4 *2 Cdb          u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -400,8 +400,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]}
-4 *2 Cd   u0 {3,[D,T]}
+3 *1 Cdb   u0 {4,[D,T]}
+4 *2 Cdb   u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -413,8 +413,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]}
 5    R!H  ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -427,8 +427,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]}
 5    Cl   ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -441,8 +441,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]}
 5    Cl   ux {3,[S,D,T,B,Q]}
 6    Cl   ux {3,[S,D,T,B,Q]}
 """,
@@ -456,8 +456,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]} {7,[S,D,T,B,Q]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]} {7,[S,D,T,B,Q]}
 5    Cl   ux {3,[S,D,T,B,Q]}
 6    Cl   ux {3,[S,D,T,B,Q]}
 7    R!H  ux {4,[S,D,T,B,Q]}
@@ -472,8 +472,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
 5    Cl   ux {3,[S,D,T,B,Q]}
 6    Cl   ux {3,[S,D,T,B,Q]}
 7    R!H  ux {4,[S,D,T,B,Q]}
@@ -489,8 +489,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]} {6,[S,D,T,B,Q]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]} {6,[S,D,T,B,Q]}
 5    Cl   ux {3,[S,D,T,B,Q]}
 6    R!H  ux {4,[S,D,T,B,Q]}
 """,
@@ -504,8 +504,8 @@ entry(
 """
 1 *3 H                     u0 r0 {2,S}
 2 *4 Cl1s                  u0 r0 {1,S}
-3 *1 Cd                    u0 r0 {4,D} {5,S}
-4 *2 Cd                    u0 r0 {3,D}
+3 *1 Cdb                    u0 r0 {4,D} {5,S}
+4 *2 Cdb                    u0 r0 {3,D}
 5    [N,P,F,I,Br,O,C,Si,S] u0 r0 {3,S}
 """,
     kinetics = None,
@@ -518,8 +518,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]}
-4 *2 Cd   u0 {3,[D,T]} {5,[S,D,T,B,Q]}
+3 *1 Cdb   u0 {4,[D,T]}
+4 *2 Cdb   u0 {3,[D,T]} {5,[S,D,T,B,Q]}
 5    R!H  ux {4,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -532,8 +532,8 @@ entry(
 """
 1 *3 H    u0 r0 {2,S}
 2 *4 Cl1s u0 r0 {1,S}
-3 *1 Cd   u0 r0 {4,D}
-4 *2 Cd   u0 r0 {3,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+3 *1 Cdb   u0 r0 {4,D}
+4 *2 Cdb   u0 r0 {3,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
 5    R!H  ux {4,[S,D,T,B,Q]}
 6    R!H  ux {4,[S,D,T,B,Q]}
 """,
@@ -547,8 +547,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]}
-4 *2 Cd   u0 {3,[D,T]} {5,[S,D,T,B,Q]}
+3 *1 Cdb   u0 {4,[D,T]}
+4 *2 Cdb   u0 {3,[D,T]} {5,[S,D,T,B,Q]}
 5    C    ux {4,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -561,8 +561,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Cl1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]}
-4 *2 Cd   u0 {3,[D,T]} {5,[S,D,T,B,Q]}
+3 *1 Cdb   u0 {4,[D,T]}
+4 *2 Cdb   u0 {3,[D,T]} {5,[S,D,T,B,Q]}
 5    Cl   ux {4,[S,D,T,B,Q]}
 """,
     kinetics = None,
@@ -575,8 +575,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Br1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]}
-4 *2 Cd   u0 {3,[D,T]}
+3 *1 Cdb   u0 {4,[D,T]}
+4 *2 Cdb   u0 {3,[D,T]}
 """,
     kinetics = None,
 )
@@ -588,8 +588,8 @@ entry(
 """
 1 *3 H    u0 {2,S}
 2 *4 Br1s u0 {1,S}
-3 *1 Cd   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
-4 *2 Cd   u0 {3,[D,T]}
+3 *1 Cdb   u0 {4,[D,T]} {5,[S,D,T,B,Q]}
+4 *2 Cdb   u0 {3,[D,T]}
 5    R!H  ux {3,[S,D,T,B,Q]}
 """,
     kinetics = None,

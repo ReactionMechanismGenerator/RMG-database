@@ -90,11 +90,11 @@ entry(
     label = "Cs-halhalhalCs_42",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -121,11 +121,11 @@ entry(
     label = "Cs-F1sF1sF1sCs_42",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
-5   Cs  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -152,11 +152,11 @@ entry(
     label = "Cs-F1sF1sF1sCs_86",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
-5   Cs  u1 {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -183,11 +183,11 @@ entry(
     label = "Cs-Br1sBr1sBr1sCs_236",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -214,11 +214,11 @@ entry(
     label = "Cs-Br1sBr1sBr1sCs_284",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -245,11 +245,11 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCs_377",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -276,11 +276,11 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCs_396",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -307,11 +307,11 @@ entry(
     label = "Cs-Br1sF1sF1sCs_530",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -338,11 +338,11 @@ entry(
     label = "Cs-Br1sF1sF1sCs_599",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -369,11 +369,11 @@ entry(
     label = "Cs-Br1sCl1sCl1sCs_546",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -400,11 +400,11 @@ entry(
     label = "Cs-Br1sCl1sCl1sCs_601",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -431,11 +431,11 @@ entry(
     label = "Cs-Br1sCl1sF1sCs_580",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -462,11 +462,11 @@ entry(
     label = "Cs-Br1sCl1sF1sCs_569",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -493,11 +493,11 @@ entry(
     label = "Cs-Br1sBr1sF1sCs_586",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -524,11 +524,11 @@ entry(
     label = "Cs-Br1sBr1sF1sCs_561",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -555,11 +555,11 @@ entry(
     label = "Cs-Br1sBr1sCl1sCs_588",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -586,11 +586,11 @@ entry(
     label = "Cs-Br1sBr1sCl1sCs_611",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -617,11 +617,11 @@ entry(
     label = "Cs-Cl1sF1sF1sCs_603",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -648,11 +648,11 @@ entry(
     label = "Cs-Cl1sF1sF1sCs_568",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -679,11 +679,11 @@ entry(
     label = "Cs-Cl1sCl1sF1sCs_651",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -710,11 +710,11 @@ entry(
     label = "Cs-Cl1sCl1sF1sCs_647",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -741,9 +741,9 @@ entry(
     label = "Cs-halCsHH_48",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -772,9 +772,9 @@ entry(
     label = "Cs-F1sCsHH_48",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -803,9 +803,9 @@ entry(
     label = "Cs-F1sCsHH_67",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  u1 {1,S}
+3   Css  u1 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -834,9 +834,9 @@ entry(
     label = "Cs-Br1sCsHH_219",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -865,9 +865,9 @@ entry(
     label = "Cs-Br1sCsHH_222",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -896,9 +896,9 @@ entry(
     label = "Cs-Cl1sCsHH_365",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -927,9 +927,9 @@ entry(
     label = "Cs-Cl1sCsHH_373",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -958,10 +958,10 @@ entry(
     label = "Cs-halhalCsH_52",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -989,10 +989,10 @@ entry(
     label = "Cs-F1sF1sCsH_52",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1020,10 +1020,10 @@ entry(
     label = "Cs-F1sF1sCsH_84",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  u1 {1,S}
+4   Css  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1051,10 +1051,10 @@ entry(
     label = "Cs-Br1sBr1sCsH_215",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1082,10 +1082,10 @@ entry(
     label = "Cs-Br1sBr1sCsH_237",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1113,10 +1113,10 @@ entry(
     label = "Cs-Cl1sCl1sCsH_371",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1144,10 +1144,10 @@ entry(
     label = "Cs-Cl1sCl1sCsH_374",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1175,10 +1175,10 @@ entry(
     label = "Cs-Br1sF1sCsH_533",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1206,10 +1206,10 @@ entry(
     label = "Cs-Br1sF1sCsH_541",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1237,10 +1237,10 @@ entry(
     label = "Cs-Br1sCl1sCsH_536",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1268,10 +1268,10 @@ entry(
     label = "Cs-Br1sCl1sCsH_562",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1299,10 +1299,10 @@ entry(
     label = "Cs-Cl1sF1sCsH_544",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1330,10 +1330,10 @@ entry(
     label = "Cs-Cl1sF1sCsH_564",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -1361,7 +1361,7 @@ entry(
     label = "Cs-halO2sHH_57",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   H    u0 {1,S}
@@ -1392,7 +1392,7 @@ entry(
     label = "Cs-F1sO2sHH_57",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   H   u0 {1,S}
@@ -1423,7 +1423,7 @@ entry(
     label = "Cs-F1sO2sHH_184",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s u1 {1,S}
 4   H   u0 {1,S}
@@ -1455,7 +1455,7 @@ entry(
     label = "Cs-Br1sO2sHH_235",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   H    u0 {1,S}
@@ -1486,7 +1486,7 @@ entry(
     label = "Cs-Br1sO2sHH_278",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  u1 {1,S}
 4   H    u0 {1,S}
@@ -1518,7 +1518,7 @@ entry(
     label = "Cs-Cl1sO2sHH_409",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   H    u0 {1,S}
@@ -1549,7 +1549,7 @@ entry(
     label = "Cs-Cl1sO2sHH_525",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
 4   H    u0 {1,S}
@@ -1581,7 +1581,7 @@ entry(
     label = "Cs-halhalhalO2s_58",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -1612,7 +1612,7 @@ entry(
     label = "Cs-F1sF1sF1sO2s_58",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -1643,7 +1643,7 @@ entry(
     label = "Cs-F1sF1sF1sO2s_197",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -1675,7 +1675,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sO2s_251",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -1706,7 +1706,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sO2s_390",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -1737,7 +1737,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sO2s_515",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -1769,7 +1769,7 @@ entry(
     label = "Cs-Br1sF1sF1sO2s_531",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -1800,7 +1800,7 @@ entry(
     label = "Cs-Br1sBr1sF1sO2s_559",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -1831,7 +1831,7 @@ entry(
     label = "Cs-Cl1sCl1sF1sO2s_572",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -1862,7 +1862,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sO2s_596",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -1893,7 +1893,7 @@ entry(
     label = "Cs-Br1sCl1sF1sO2s_615",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -1924,7 +1924,7 @@ entry(
     label = "Cs-Cl1sF1sF1sO2s_626",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -1955,7 +1955,7 @@ entry(
     label = "Cs-Cl1sF1sF1sO2s_630",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -1987,7 +1987,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sO2s_636",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -2018,11 +2018,11 @@ entry(
     label = "Cs-halhalhalCd_59",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2049,11 +2049,11 @@ entry(
     label = "Cs-F1sF1sF1sCd_59",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
-5   Cd  ux {1,S}
+5   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2080,11 +2080,11 @@ entry(
     label = "Cs-F1sF1sF1sCd_135",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
-5   Cd  u1 {1,S}
+5   Cdb  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2112,11 +2112,11 @@ entry(
     label = "Cs-Br1sBr1sBr1sCd_265",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2144,11 +2144,11 @@ entry(
     label = "Cs-Br1sBr1sBr1sCd_318",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2176,11 +2176,11 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCd_383",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2207,11 +2207,11 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCd_462",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2239,11 +2239,11 @@ entry(
     label = "Cs-Br1sCl1sF1sCd_542",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2270,11 +2270,11 @@ entry(
     label = "Cs-Br1sCl1sF1sCd_656",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2302,11 +2302,11 @@ entry(
     label = "Cs-Cl1sCl1sF1sCd_548",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2333,11 +2333,11 @@ entry(
     label = "Cs-Cl1sCl1sF1sCd_668",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2365,11 +2365,11 @@ entry(
     label = "Cs-Br1sF1sF1sCd_553",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2396,11 +2396,11 @@ entry(
     label = "Cs-Br1sF1sF1sCd_534",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2428,11 +2428,11 @@ entry(
     label = "Cs-Br1sCl1sCl1sCd_578",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2459,11 +2459,11 @@ entry(
     label = "Cs-Br1sCl1sCl1sCd_692",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2491,11 +2491,11 @@ entry(
     label = "Cs-Br1sBr1sCl1sCd_591",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2522,11 +2522,11 @@ entry(
     label = "Cs-Br1sBr1sCl1sCd_649",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2554,11 +2554,11 @@ entry(
     label = "Cs-Br1sBr1sF1sCd_623",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2585,11 +2585,11 @@ entry(
     label = "Cs-Br1sBr1sF1sCd_639",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2617,11 +2617,11 @@ entry(
     label = "Cs-Cl1sF1sF1sCd_633",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2648,11 +2648,11 @@ entry(
     label = "Cs-Cl1sF1sF1sCd_677",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -2680,7 +2680,7 @@ entry(
     label = "Cs-halhalCtH_69",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Ct   ux {1,S}
@@ -2711,7 +2711,7 @@ entry(
     label = "Cs-F1sF1sCtH_69",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   Ct  ux {1,S}
@@ -2742,7 +2742,7 @@ entry(
     label = "Cs-Br1sBr1sCtH_299",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Ct   ux {1,S}
@@ -2773,7 +2773,7 @@ entry(
     label = "Cs-Cl1sCl1sCtH_420",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Ct   ux {1,S}
@@ -2804,7 +2804,7 @@ entry(
     label = "Cs-Cl1sF1sCtH_538",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   Ct   ux {1,S}
@@ -2835,7 +2835,7 @@ entry(
     label = "Cs-Br1sCl1sCtH_579",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Ct   ux {1,S}
@@ -2866,7 +2866,7 @@ entry(
     label = "Cs-Br1sF1sCtH_660",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   Ct   ux {1,S}
@@ -2897,7 +2897,7 @@ entry(
     label = "Cs-halhalO2sH_70",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
@@ -2928,7 +2928,7 @@ entry(
     label = "Cs-F1sF1sO2sH_70",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -2959,7 +2959,7 @@ entry(
     label = "Cs-F1sF1sO2sH_174",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s u1 {1,S}
@@ -2991,7 +2991,7 @@ entry(
     label = "Cs-Br1sBr1sO2sH_248",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -3022,7 +3022,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sH_393",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -3053,7 +3053,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sH_484",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  u1 {1,S}
@@ -3085,7 +3085,7 @@ entry(
     label = "Cs-Cl1sF1sO2sH_540",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -3116,7 +3116,7 @@ entry(
     label = "Cs-Cl1sF1sO2sH_704",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  u1 {1,S}
@@ -3148,7 +3148,7 @@ entry(
     label = "Cs-Br1sF1sO2sH_589",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -3179,7 +3179,7 @@ entry(
     label = "Cs-Br1sCl1sO2sH_597",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -3210,7 +3210,7 @@ entry(
     label = "Cs-halCtHH_72",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Ct   ux {1,S}
 4   H    u0 {1,S}
@@ -3241,7 +3241,7 @@ entry(
     label = "Cs-F1sCtHH_72",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   Ct  ux {1,S}
 4   H   u0 {1,S}
@@ -3272,7 +3272,7 @@ entry(
     label = "Cs-Br1sCtHH_269",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Ct   ux {1,S}
 4   H    u0 {1,S}
@@ -3303,7 +3303,7 @@ entry(
     label = "Cs-Cl1sCtHH_405",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Ct   ux {1,S}
 4   H    u0 {1,S}
@@ -3334,9 +3334,9 @@ entry(
     label = "Cs-halCdHH_75",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -3365,9 +3365,9 @@ entry(
     label = "Cs-F1sCdHH_75",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
+3   Cdb  ux {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -3396,9 +3396,9 @@ entry(
     label = "Cs-F1sCdHH_95",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cd  u1 {1,S}
+3   Cdb  u1 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -3428,9 +3428,9 @@ entry(
     label = "Cs-Br1sCdHH_228",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -3459,9 +3459,9 @@ entry(
     label = "Cs-Br1sCdHH_282",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cd   u1 {1,S}
+3   Cdb   u1 {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -3491,9 +3491,9 @@ entry(
     label = "Cs-Cl1sCdHH_375",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -3522,9 +3522,9 @@ entry(
     label = "Cs-Cl1sCdHH_394",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cd   u1 {1,S}
+3   Cdb   u1 {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -3554,7 +3554,7 @@ entry(
     label = "Cs-halhalhalCO_94",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -3585,7 +3585,7 @@ entry(
     label = "Cs-F1sF1sF1sCO_94",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -3616,7 +3616,7 @@ entry(
     label = "Cs-F1sF1sF1sCO_172",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -3647,7 +3647,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sCO_341",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -3678,7 +3678,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sCO_348",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -3709,7 +3709,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCO_471",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -3740,7 +3740,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCO_505",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -3771,7 +3771,7 @@ entry(
     label = "Cs-Br1sBr1sF1sCO_556",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -3802,7 +3802,7 @@ entry(
     label = "Cs-Br1sBr1sF1sCO_735",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -3833,7 +3833,7 @@ entry(
     label = "Cs-Cl1sCl1sF1sCO_583",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -3864,7 +3864,7 @@ entry(
     label = "Cs-Cl1sCl1sF1sCO_694",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -3895,7 +3895,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sCO_618",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -3926,7 +3926,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sCO_627",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -3957,7 +3957,7 @@ entry(
     label = "Cs-Cl1sF1sF1sCO_622",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -3988,7 +3988,7 @@ entry(
     label = "Cs-Cl1sF1sF1sCO_570",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -4019,7 +4019,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sCO_652",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -4050,7 +4050,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sCO_700",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -4081,7 +4081,7 @@ entry(
     label = "Cs-Br1sF1sF1sCO_658",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -4112,7 +4112,7 @@ entry(
     label = "Cs-Br1sF1sF1sCO_741",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -4143,7 +4143,7 @@ entry(
     label = "Cs-Br1sCl1sF1sCO_714",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -4174,7 +4174,7 @@ entry(
     label = "Cs-Br1sCl1sF1sCO_712",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -4205,10 +4205,10 @@ entry(
     label = "Cs-halhalCdH_97",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4236,10 +4236,10 @@ entry(
     label = "Cs-F1sF1sCdH_97",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cd  ux {1,S}
+4   Cdb  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4267,10 +4267,10 @@ entry(
     label = "Cs-F1sF1sCdH_109",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cd  u1 {1,S}
+4   Cdb  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4299,10 +4299,10 @@ entry(
     label = "Cs-Br1sBr1sCdH_229",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4330,10 +4330,10 @@ entry(
     label = "Cs-Br1sBr1sCdH_298",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4362,10 +4362,10 @@ entry(
     label = "Cs-Cl1sCl1sCdH_367",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4393,10 +4393,10 @@ entry(
     label = "Cs-Cl1sCl1sCdH_426",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4425,10 +4425,10 @@ entry(
     label = "Cs-Br1sF1sCdH_535",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4456,10 +4456,10 @@ entry(
     label = "Cs-Br1sF1sCdH_585",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4488,10 +4488,10 @@ entry(
     label = "Cs-Br1sCl1sCdH_551",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4519,10 +4519,10 @@ entry(
     label = "Cs-Br1sCl1sCdH_646",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4551,10 +4551,10 @@ entry(
     label = "Cs-Cl1sF1sCdH_563",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4582,10 +4582,10 @@ entry(
     label = "Cs-Cl1sF1sCdH_624",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -4614,7 +4614,7 @@ entry(
     label = "Cs-halhalCOH_133",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   CO   ux {1,S}
@@ -4645,7 +4645,7 @@ entry(
     label = "Cs-F1sF1sCOH_133",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   CO  ux {1,S}
@@ -4676,7 +4676,7 @@ entry(
     label = "Cs-F1sF1sCOH_191",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   CO  u1 {1,S}
@@ -4707,7 +4707,7 @@ entry(
     label = "Cs-Br1sBr1sCOH_256",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   CO   ux {1,S}
@@ -4738,7 +4738,7 @@ entry(
     label = "Cs-Br1sBr1sCOH_356",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   CO   u1 {1,S}
@@ -4769,7 +4769,7 @@ entry(
     label = "Cs-Cl1sCl1sCOH_418",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   CO   ux {1,S}
@@ -4800,7 +4800,7 @@ entry(
     label = "Cs-Cl1sCl1sCOH_495",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   CO   u1 {1,S}
@@ -4831,7 +4831,7 @@ entry(
     label = "Cs-Cl1sF1sCOH_574",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   CO   ux {1,S}
@@ -4862,7 +4862,7 @@ entry(
     label = "Cs-Cl1sF1sCOH_605",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   CO   u1 {1,S}
@@ -4893,7 +4893,7 @@ entry(
     label = "Cs-Br1sF1sCOH_612",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   CO   ux {1,S}
@@ -4924,7 +4924,7 @@ entry(
     label = "Cs-Br1sF1sCOH_736",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   CO   u1 {1,S}
@@ -4955,7 +4955,7 @@ entry(
     label = "Cs-Br1sCl1sCOH_632",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   CO   ux {1,S}
@@ -4986,7 +4986,7 @@ entry(
     label = "Cs-Br1sCl1sCOH_716",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   CO   u1 {1,S}
@@ -5017,7 +5017,7 @@ entry(
     label = "Cs-halCOHH_138",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   CO   ux {1,S}
 4   H    u0 {1,S}
@@ -5048,7 +5048,7 @@ entry(
     label = "Cs-F1sCOHH_138",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   CO  ux {1,S}
 4   H   u0 {1,S}
@@ -5079,7 +5079,7 @@ entry(
     label = "Cs-F1sCOHH_182",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   CO  u1 {1,S}
 4   H   u0 {1,S}
@@ -5110,7 +5110,7 @@ entry(
     label = "Cs-Br1sCOHH_301",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   CO   ux {1,S}
 4   H    u0 {1,S}
@@ -5141,7 +5141,7 @@ entry(
     label = "Cs-Br1sCOHH_347",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   CO   u1 {1,S}
 4   H    u0 {1,S}
@@ -5172,7 +5172,7 @@ entry(
     label = "Cs-Cl1sCOHH_401",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   CO   ux {1,S}
 4   H    u0 {1,S}
@@ -5203,7 +5203,7 @@ entry(
     label = "Cs-Cl1sCOHH_498",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   CO   u1 {1,S}
 4   H    u0 {1,S}
@@ -5234,7 +5234,7 @@ entry(
     label = "Cs-halhalhalCt_158",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -5265,7 +5265,7 @@ entry(
     label = "Cs-F1sF1sF1sCt_158",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -5296,7 +5296,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sCt_303",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -5327,7 +5327,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCt_387",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -5358,7 +5358,7 @@ entry(
     label = "Cs-Br1sCl1sF1sCt_547",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -5389,7 +5389,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sCt_555",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -5420,7 +5420,7 @@ entry(
     label = "Cs-Cl1sCl1sF1sCt_557",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -5451,7 +5451,7 @@ entry(
     label = "Cs-Br1sF1sF1sCt_642",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -5482,7 +5482,7 @@ entry(
     label = "Cs-Br1sBr1sF1sCt_653",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -5513,7 +5513,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sCt_661",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -5544,7 +5544,7 @@ entry(
     label = "Cs-Cl1sF1sF1sCt_687",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -5575,7 +5575,7 @@ entry(
     label = "Cs-halC2sHH_177",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   C2s  ux {1,S}
 4   H    u0 {1,S}
@@ -5605,7 +5605,7 @@ entry(
     label = "Cs-F1sC2sHH_177",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   C2s ux {1,S}
 4   H   u0 {1,S}
@@ -5635,7 +5635,7 @@ entry(
     label = "Cs-Br1sC2sHH_350",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   C2s  ux {1,S}
 4   H    u0 {1,S}
@@ -5664,7 +5664,7 @@ entry(
     label = "Cs-Cl1sC2sHH_521",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   C2s  ux {1,S}
 4   H    u0 {1,S}
@@ -5693,7 +5693,7 @@ entry(
     label = "Cs-halhalC2sH_183",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   C2s  ux {1,S}
@@ -5721,7 +5721,7 @@ entry(
     label = "Cs-F1sF1sC2sH_183",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   C2s ux {1,S}
@@ -5749,7 +5749,7 @@ entry(
     label = "Cs-Br1sBr1sC2sH_332",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   C2s  ux {1,S}
@@ -5778,7 +5778,7 @@ entry(
     label = "Cs-Cl1sCl1sC2sH_496",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   C2s  ux {1,S}
@@ -5806,7 +5806,7 @@ entry(
     label = "Cs-halhalhalC2s_194",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -5834,7 +5834,7 @@ entry(
     label = "Cs-F1sF1sF1sC2s_194",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -5862,7 +5862,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sC2s_507",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -5921,9 +5921,9 @@ entry(
     label = "Cd-halCdH_45",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -5949,9 +5949,9 @@ entry(
     label = "Cd-F1sCdH_45",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
+3   Cdb  ux {1,D}
 4   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -5977,9 +5977,9 @@ entry(
     label = "Cd-F1sCdH_85",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  u1 {1,D}
+3   Cdb  u1 {1,D}
 4   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -6004,9 +6004,9 @@ entry(
     label = "Cd-Br1sCdH_225",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -6032,9 +6032,9 @@ entry(
     label = "Cd-Br1sCdH_289",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   u1 {1,D}
+3   Cdb   u1 {1,D}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -6059,9 +6059,9 @@ entry(
     label = "Cd-Br1sCdH_362",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   u2 {1,D}
+3   Cdb   u2 {1,D}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -6087,9 +6087,9 @@ entry(
     label = "Cd-Cl1sCdH_372",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -6115,9 +6115,9 @@ entry(
     label = "Cd-Cl1sCdH_386",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   u1 {1,D}
+3   Cdb   u1 {1,D}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -6142,10 +6142,10 @@ entry(
     label = "Cd-halhalCd_54",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6170,10 +6170,10 @@ entry(
     label = "Cd-F1sF1sCd_54",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cd  ux {1,D}
+4   Cdb  ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6198,10 +6198,10 @@ entry(
     label = "Cd-F1sF1sCd_78",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cd  u1 {1,D}
+4   Cdb  u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6225,10 +6225,10 @@ entry(
     label = "Cd-Br1sBr1sCd_254",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6253,10 +6253,10 @@ entry(
     label = "Cd-Br1sBr1sCd_220",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6280,10 +6280,10 @@ entry(
     label = "Cd-Cl1sCl1sCd_399",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6308,10 +6308,10 @@ entry(
     label = "Cd-Cl1sCl1sCd_423",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6335,10 +6335,10 @@ entry(
     label = "Cd-Cl1sF1sCd_527",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6363,10 +6363,10 @@ entry(
     label = "Cd-Cl1sF1sCd_529",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6390,10 +6390,10 @@ entry(
     label = "Cd-Br1sCl1sCd_539",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6418,10 +6418,10 @@ entry(
     label = "Cd-Br1sCl1sCd_549",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6445,10 +6445,10 @@ entry(
     label = "Cd-Br1sF1sCd_550",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6473,10 +6473,10 @@ entry(
     label = "Cd-Br1sF1sCd_558",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -6584,7 +6584,7 @@ entry(
     label = "Cd-halhalCdd_130",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Cdd  ux {1,D}
@@ -6612,7 +6612,7 @@ entry(
     label = "Cd-F1sF1sCdd_130",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   Cdd ux {1,D}
@@ -6640,7 +6640,7 @@ entry(
     label = "Cd-Br1sBr1sCdd_243",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cdd  ux {1,D}
@@ -6668,7 +6668,7 @@ entry(
     label = "Cd-Cl1sCl1sCdd_376",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cdd  ux {1,D}
@@ -6695,7 +6695,7 @@ entry(
     label = "Cd-Br1sCl1sCdd_537",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cdd  ux {1,D}
@@ -6722,7 +6722,7 @@ entry(
     label = "Cd-Br1sF1sCdd_571",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   Cdd  ux {1,D}
@@ -6749,7 +6749,7 @@ entry(
     label = "Cd-Cl1sF1sCdd_614",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   Cdd  ux {1,D}
@@ -6777,7 +6777,7 @@ entry(
     label = "Cd-halCddH_136",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
 3   Cdd  ux {1,D}
 4   H    u0 {1,S}
@@ -6804,7 +6804,7 @@ entry(
     label = "Cd-F1sCddH_136",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
 3   Cdd ux {1,D}
 4   H   u0 {1,S}
@@ -6831,7 +6831,7 @@ entry(
     label = "Cd-Br1sCddH_276",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
 3   Cdd  ux {1,D}
 4   H    u0 {1,S}
@@ -6858,7 +6858,7 @@ entry(
     label = "Cd-Cl1sCddH_458",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
 3   Cdd  ux {1,D}
 4   H    u0 {1,S}
@@ -7081,7 +7081,7 @@ entry(
     label = "Cd-halC2dH_457",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
 3   C2d  ux {1,D}
 4   H    u0 {1,S}
@@ -7109,7 +7109,7 @@ entry(
     label = "Cd-Cl1sC2dH_457",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
 3   C2d  ux {1,D}
 4   H    u0 {1,S}
@@ -7293,11 +7293,11 @@ entry(
     label = "Cs-halhalCsCs_40",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7323,11 +7323,11 @@ entry(
     label = "Cs-F1sF1sCsCs_40",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
-5   Cs  ux {1,S}
+4   Css  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7353,11 +7353,11 @@ entry(
     label = "Cs-F1sF1sCsCs_41",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
-5   Cs  u1 {1,S}
+4   Css  ux {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7383,11 +7383,11 @@ entry(
     label = "Cs-Br1sBr1sCsCs_217",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7413,11 +7413,11 @@ entry(
     label = "Cs-Br1sBr1sCsCs_271",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7443,11 +7443,11 @@ entry(
     label = "Cs-Br1sBr1sCsCs_353",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   u2 {1,S}
+4   Css   ux {1,S}
+5   Css   u2 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7470,11 +7470,11 @@ entry(
     label = "Cs-Cl1sCl1sCsCs_378",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7500,11 +7500,11 @@ entry(
     label = "Cs-Cl1sCl1sCsCs_364",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7530,11 +7530,11 @@ entry(
     label = "Cs-Br1sCl1sCsCs_543",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7560,11 +7560,11 @@ entry(
     label = "Cs-Br1sCl1sCsCs_532",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7590,11 +7590,11 @@ entry(
     label = "Cs-Br1sF1sCsCs_565",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7620,11 +7620,11 @@ entry(
     label = "Cs-Br1sF1sCsCs_648",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7650,11 +7650,11 @@ entry(
     label = "Cs-Cl1sF1sCsCs_613",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7680,11 +7680,11 @@ entry(
     label = "Cs-Cl1sF1sCsCs_609",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7710,11 +7710,11 @@ entry(
     label = "Cs-halhalO2sCs_47",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7740,11 +7740,11 @@ entry(
     label = "Cs-F1sF1sO2sCs_47",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
-5   Cs  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7770,11 +7770,11 @@ entry(
     label = "Cs-F1sF1sO2sCs_121",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
-5   Cs  u1 {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7800,11 +7800,11 @@ entry(
     label = "Cs-F1sF1sO2sCs_134",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s u1 {1,S}
-5   Cs  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7831,11 +7831,11 @@ entry(
     label = "Cs-Br1sBr1sO2sCs_234",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7861,11 +7861,11 @@ entry(
     label = "Cs-Br1sBr1sO2sCs_300",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7891,11 +7891,11 @@ entry(
     label = "Cs-Br1sBr1sO2sCs_309",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7921,11 +7921,11 @@ entry(
     label = "Cs-Cl1sCl1sO2sCs_379",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7951,11 +7951,11 @@ entry(
     label = "Cs-Cl1sCl1sO2sCs_414",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -7982,11 +7982,11 @@ entry(
     label = "Cs-Cl1sCl1sO2sCs_415",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8012,11 +8012,11 @@ entry(
     label = "Cs-Br1sCl1sO2sCs_552",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8042,11 +8042,11 @@ entry(
     label = "Cs-Br1sCl1sO2sCs_625",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8072,11 +8072,11 @@ entry(
     label = "Cs-Br1sCl1sO2sCs_725",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8099,11 +8099,11 @@ entry(
     label = "Cs-Br1sF1sO2sCs_584",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8129,11 +8129,11 @@ entry(
     label = "Cs-Br1sF1sO2sCs_619",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8159,11 +8159,11 @@ entry(
     label = "Cs-Cl1sF1sO2sCs_592",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8189,11 +8189,11 @@ entry(
     label = "Cs-Cl1sF1sO2sCs_595",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8219,11 +8219,11 @@ entry(
     label = "Cs-Cl1sF1sO2sCs_690",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8250,11 +8250,11 @@ entry(
     label = "Cs-halhalCsCd_55",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   ux {1,S}
+4   Css   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8280,11 +8280,11 @@ entry(
     label = "Cs-F1sF1sCsCd_55",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
-5   Cd  ux {1,S}
+4   Css  ux {1,S}
+5   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8310,11 +8310,11 @@ entry(
     label = "Cs-F1sF1sCsCd_120",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
-5   Cd  u1 {1,S}
+4   Css  ux {1,S}
+5   Cdb  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8341,11 +8341,11 @@ entry(
     label = "Cs-F1sF1sCdCs_53",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cd  ux {1,S}
-5   Cs  u1 {1,S}
+4   Cdb  ux {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8372,11 +8372,11 @@ entry(
     label = "Cs-Br1sBr1sCsCd_286",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   ux {1,S}
+4   Css   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8403,11 +8403,11 @@ entry(
     label = "Cs-Br1sBr1sCsCd_293",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   u1 {1,S}
+4   Css   ux {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8434,11 +8434,11 @@ entry(
     label = "Cs-Br1sBr1sCdCs_581",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cd   ux {1,S}
-5   Cs   u1 {1,S}
+4   Cdb   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8464,11 +8464,11 @@ entry(
     label = "Cs-Cl1sCl1sCsCd_370",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   ux {1,S}
+4   Css   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8494,11 +8494,11 @@ entry(
     label = "Cs-Cl1sCl1sCsCd_385",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   u1 {1,S}
+4   Css   ux {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8525,11 +8525,11 @@ entry(
     label = "Cs-Cl1sCl1sCdCs_493",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,S}
-5   Cs   u1 {1,S}
+4   Cdb   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8556,11 +8556,11 @@ entry(
     label = "Cs-Cl1sF1sCsCd_582",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   ux {1,S}
+4   Css   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8586,11 +8586,11 @@ entry(
     label = "Cs-Cl1sF1sCdCs_634",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,S}
-5   Cs   u1 {1,S}
+4   Cdb   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8617,11 +8617,11 @@ entry(
     label = "Cs-Cl1sF1sCsCd_560",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   u1 {1,S}
+4   Css   ux {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8648,11 +8648,11 @@ entry(
     label = "Cs-Br1sF1sCsCd_604",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   ux {1,S}
+4   Css   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8678,11 +8678,11 @@ entry(
     label = "Cs-Br1sF1sCsCd_703",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   u1 {1,S}
+4   Css   ux {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8709,11 +8709,11 @@ entry(
     label = "Cs-Br1sF1sCdCs_734",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,S}
-5   Cs   u1 {1,S}
+4   Cdb   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8738,11 +8738,11 @@ entry(
     label = "Cs-Br1sCl1sCsCd_617",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   ux {1,S}
+4   Css   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8768,11 +8768,11 @@ entry(
     label = "Cs-Br1sCl1sCsCd_635",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
-5   Cd   u1 {1,S}
+4   Css   ux {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8799,11 +8799,11 @@ entry(
     label = "Cs-Br1sCl1sCdCs_686",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,S}
-5   Cs   u1 {1,S}
+4   Cdb   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -8828,9 +8828,9 @@ entry(
     label = "Cs-halCsCOH_61",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -8858,9 +8858,9 @@ entry(
     label = "Cs-F1sCsCOH_61",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   CO  ux {1,S}
 5   H   u0 {1,S}
 """,
@@ -8888,9 +8888,9 @@ entry(
     label = "Cs-F1sCsCOH_89",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  u1 {1,S}
+3   Css  u1 {1,S}
 4   CO  ux {1,S}
 5   H   u0 {1,S}
 """,
@@ -8918,9 +8918,9 @@ entry(
     label = "Cs-F1sCsCOH_49",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   CO  u1 {1,S}
 5   H   u0 {1,S}
 """,
@@ -8948,9 +8948,9 @@ entry(
     label = "Cs-Br1sCsCOH_267",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -8978,9 +8978,9 @@ entry(
     label = "Cs-Br1sCsCOH_313",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   CO   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -9008,9 +9008,9 @@ entry(
     label = "Cs-Br1sCsCOH_316",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   u1 {1,S}
 5   H    u0 {1,S}
 """,
@@ -9038,9 +9038,9 @@ entry(
     label = "Cs-Cl1sCsCOH_425",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -9068,9 +9068,9 @@ entry(
     label = "Cs-Cl1sCsCOH_467",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   u1 {1,S}
 5   H    u0 {1,S}
 """,
@@ -9098,9 +9098,9 @@ entry(
     label = "Cs-Cl1sCsCOH_486",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   CO   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -9128,10 +9128,10 @@ entry(
     label = "Cs-halO2sCsH_65",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9158,10 +9158,10 @@ entry(
     label = "Cs-F1sO2sCsH_65",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9188,10 +9188,10 @@ entry(
     label = "Cs-F1sO2sCsH_106",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s u1 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9219,10 +9219,10 @@ entry(
     label = "Cs-F1sO2sCsH_131",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cs  u1 {1,S}
+4   Css  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9249,10 +9249,10 @@ entry(
     label = "Cs-Br1sO2sCsH_231",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9279,10 +9279,10 @@ entry(
     label = "Cs-Br1sO2sCsH_233",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9310,10 +9310,10 @@ entry(
     label = "Cs-Br1sO2sCsH_266",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9340,10 +9340,10 @@ entry(
     label = "Cs-Cl1sO2sCsH_428",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9370,10 +9370,10 @@ entry(
     label = "Cs-Cl1sO2sCsH_429",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9401,10 +9401,10 @@ entry(
     label = "Cs-Cl1sO2sCsH_398",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9431,7 +9431,7 @@ entry(
     label = "Cs-halhalO2sO2s_79",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
@@ -9461,7 +9461,7 @@ entry(
     label = "Cs-F1sF1sO2sO2s_79",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -9491,7 +9491,7 @@ entry(
     label = "Cs-F1sF1sO2sO2s_93",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -9522,7 +9522,7 @@ entry(
     label = "Cs-Br1sBr1sO2sO2s_241",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -9552,7 +9552,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sO2s_430",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -9582,7 +9582,7 @@ entry(
     label = "Cs-Br1sF1sO2sO2s_594",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -9612,7 +9612,7 @@ entry(
     label = "Cs-Br1sCl1sO2sO2s_616",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -9642,7 +9642,7 @@ entry(
     label = "Cs-Cl1sF1sO2sO2s_629",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -9672,10 +9672,10 @@ entry(
     label = "Cs-halCsCsH_88",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9702,10 +9702,10 @@ entry(
     label = "Cs-F1sCsCsH_88",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cs  ux {1,S}
+3   Css  ux {1,S}
+4   Css  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9732,10 +9732,10 @@ entry(
     label = "Cs-F1sCsCsH_74",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cs  u1 {1,S}
+3   Css  ux {1,S}
+4   Css  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9762,10 +9762,10 @@ entry(
     label = "Cs-Br1sCsCsH_218",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9792,10 +9792,10 @@ entry(
     label = "Cs-Br1sCsCsH_268",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   u1 {1,S}
+3   Css   ux {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9822,10 +9822,10 @@ entry(
     label = "Cs-Cl1sCsCsH_369",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9852,10 +9852,10 @@ entry(
     label = "Cs-Cl1sCsCsH_397",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   u1 {1,S}
+3   Css   ux {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -9882,7 +9882,7 @@ entry(
     label = "Cs-halO2sCOH_104",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   ux {1,S}
@@ -9912,7 +9912,7 @@ entry(
     label = "Cs-F1sO2sCOH_104",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   CO  ux {1,S}
@@ -9942,7 +9942,7 @@ entry(
     label = "Cs-F1sO2sCOH_149",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   CO  u1 {1,S}
@@ -9972,7 +9972,7 @@ entry(
     label = "Cs-F1sO2sCOH_173",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s u1 {1,S}
 4   CO  ux {1,S}
@@ -10003,7 +10003,7 @@ entry(
     label = "Cs-Br1sO2sCOH_325",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   ux {1,S}
@@ -10033,7 +10033,7 @@ entry(
     label = "Cs-Br1sO2sCOH_339",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  u1 {1,S}
 4   CO   ux {1,S}
@@ -10060,7 +10060,7 @@ entry(
     label = "Cs-Br1sO2sCOH_246",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   u1 {1,S}
@@ -10090,7 +10090,7 @@ entry(
     label = "Cs-Cl1sO2sCOH_511",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   ux {1,S}
@@ -10120,7 +10120,7 @@ entry(
     label = "Cs-Cl1sO2sCOH_520",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   u1 {1,S}
@@ -10150,7 +10150,7 @@ entry(
     label = "Cs-Cl1sO2sCOH_460",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
 4   CO   ux {1,S}
@@ -10181,11 +10181,11 @@ entry(
     label = "Cs-halhalO2sCd_107",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10211,11 +10211,11 @@ entry(
     label = "Cs-F1sF1sO2sCd_107",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
-5   Cd  ux {1,S}
+5   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10241,11 +10241,11 @@ entry(
     label = "Cs-F1sF1sO2sCd_125",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s u1 {1,S}
-5   Cd  ux {1,S}
+5   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10271,11 +10271,11 @@ entry(
     label = "Cs-F1sF1sO2sCd_126",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
-5   Cd  u1 {1,S}
+5   Cdb  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10302,11 +10302,11 @@ entry(
     label = "Cs-Br1sBr1sO2sCd_227",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10333,11 +10333,11 @@ entry(
     label = "Cs-Br1sBr1sO2sCd_344",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10364,11 +10364,11 @@ entry(
     label = "Cs-Br1sBr1sO2sCd_698",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10391,11 +10391,11 @@ entry(
     label = "Cs-Cl1sCl1sO2sCd_427",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10421,11 +10421,11 @@ entry(
     label = "Cs-Cl1sCl1sO2sCd_431",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10452,11 +10452,11 @@ entry(
     label = "Cs-Cl1sCl1sO2sCd_485",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10482,11 +10482,11 @@ entry(
     label = "Cs-Br1sF1sO2sCd_528",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10512,11 +10512,11 @@ entry(
     label = "Cs-Br1sF1sO2sCd_673",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10543,11 +10543,11 @@ entry(
     label = "Cs-Br1sF1sO2sCd_705",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = None,
     shortDesc = """""",
@@ -10562,11 +10562,11 @@ entry(
     label = "Cs-Br1sCl1sO2sCd_600",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10592,11 +10592,11 @@ entry(
     label = "Cs-Br1sCl1sO2sCd_637",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10623,11 +10623,11 @@ entry(
     label = "Cs-Cl1sF1sO2sCd_665",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10653,11 +10653,11 @@ entry(
     label = "Cs-Cl1sF1sO2sCd_682",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
-5   Cd   u1 {1,S}
+5   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10684,11 +10684,11 @@ entry(
     label = "Cs-Cl1sF1sO2sCd_644",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  u1 {1,S}
-5   Cd   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -10711,10 +10711,10 @@ entry(
     label = "Cs-halCsCdH_108",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,S}
+3   Css   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10741,10 +10741,10 @@ entry(
     label = "Cs-F1sCsCdH_108",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cd  ux {1,S}
+3   Css  ux {1,S}
+4   Cdb  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10771,10 +10771,10 @@ entry(
     label = "Cs-F1sCdCsH_50",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
-4   Cs  u1 {1,S}
+3   Cdb  ux {1,S}
+4   Css  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10802,10 +10802,10 @@ entry(
     label = "Cs-F1sCsCdH_77",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cd  u1 {1,S}
+3   Css  ux {1,S}
+4   Cdb  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10833,10 +10833,10 @@ entry(
     label = "Cs-Br1sCsCdH_226",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,S}
+3   Css   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10863,10 +10863,10 @@ entry(
     label = "Cs-Br1sCsCdH_320",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   u1 {1,S}
+3   Css   ux {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10893,10 +10893,10 @@ entry(
     label = "Cs-Br1sCdCsH_355",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
-4   Cs   u1 {1,S}
+3   Cdb   ux {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10923,10 +10923,10 @@ entry(
     label = "Cs-Cl1sCsCdH_410",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,S}
+3   Css   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10953,10 +10953,10 @@ entry(
     label = "Cs-Cl1sCsCdH_472",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   u1 {1,S}
+3   Css   ux {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -10984,10 +10984,10 @@ entry(
     label = "Cs-Cl1sCdCsH_474",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
-4   Cs   u1 {1,S}
+3   Cdb   ux {1,S}
+4   Css   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11015,7 +11015,7 @@ entry(
     label = "Cs-halO2sO2sH_111",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
@@ -11045,7 +11045,7 @@ entry(
     label = "Cs-F1sO2sO2sH_111",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   O2s ux {1,S}
@@ -11075,7 +11075,7 @@ entry(
     label = "Cs-F1sO2sO2sH_139",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   O2s u1 {1,S}
@@ -11106,7 +11106,7 @@ entry(
     label = "Cs-Br1sO2sO2sH_249",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
@@ -11136,7 +11136,7 @@ entry(
     label = "Cs-Br1sO2sO2sH_322",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  u1 {1,S}
@@ -11164,7 +11164,7 @@ entry(
     label = "Cs-Cl1sO2sO2sH_389",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
@@ -11194,7 +11194,7 @@ entry(
     label = "Cs-Cl1sO2sO2sH_469",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  u1 {1,S}
@@ -11224,10 +11224,10 @@ entry(
     label = "Cs-halhalCsCt_124",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11254,10 +11254,10 @@ entry(
     label = "Cs-F1sF1sCsCt_124",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   Ct  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11284,10 +11284,10 @@ entry(
     label = "Cs-F1sF1sCsCt_154",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  u1 {1,S}
+4   Css  u1 {1,S}
 5   Ct  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11314,10 +11314,10 @@ entry(
     label = "Cs-Br1sBr1sCsCt_315",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11344,10 +11344,10 @@ entry(
     label = "Cs-Br1sBr1sCsCt_721",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11371,10 +11371,10 @@ entry(
     label = "Cs-Cl1sCl1sCsCt_403",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11401,10 +11401,10 @@ entry(
     label = "Cs-Cl1sCl1sCsCt_476",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11431,10 +11431,10 @@ entry(
     label = "Cs-Cl1sF1sCsCt_608",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11461,10 +11461,10 @@ entry(
     label = "Cs-Cl1sF1sCsCt_655",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11491,10 +11491,10 @@ entry(
     label = "Cs-Br1sF1sCsCt_640",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11521,10 +11521,10 @@ entry(
     label = "Cs-Br1sF1sCsCt_638",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11551,10 +11551,10 @@ entry(
     label = "Cs-Br1sCl1sCsCt_672",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11581,10 +11581,10 @@ entry(
     label = "Cs-Br1sCl1sCsCt_699",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11610,9 +11610,9 @@ entry(
     label = "Cs-halCsCtH_128",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Ct   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -11640,9 +11640,9 @@ entry(
     label = "Cs-F1sCsCtH_128",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   Ct  ux {1,S}
 5   H   u0 {1,S}
 """,
@@ -11670,9 +11670,9 @@ entry(
     label = "Cs-F1sCsCtH_163",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  u1 {1,S}
+3   Css  u1 {1,S}
 4   Ct  ux {1,S}
 5   H   u0 {1,S}
 """,
@@ -11700,9 +11700,9 @@ entry(
     label = "Cs-Br1sCsCtH_272",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Ct   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -11730,9 +11730,9 @@ entry(
     label = "Cs-Br1sCsCtH_290",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   Ct   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -11760,9 +11760,9 @@ entry(
     label = "Cs-Cl1sCsCtH_438",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Ct   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -11790,9 +11790,9 @@ entry(
     label = "Cs-Cl1sCsCtH_439",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   Ct   ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -11820,10 +11820,10 @@ entry(
     label = "Cs-halO2sCdH_137",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11850,10 +11850,10 @@ entry(
     label = "Cs-F1sO2sCdH_137",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cd  ux {1,S}
+4   Cdb  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11880,10 +11880,10 @@ entry(
     label = "Cs-F1sO2sCdH_161",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s u1 {1,S}
-4   Cd  ux {1,S}
+4   Cdb  ux {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11910,10 +11910,10 @@ entry(
     label = "Cs-F1sO2sCdH_129",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cd  u1 {1,S}
+4   Cdb  u1 {1,S}
 5   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11941,10 +11941,10 @@ entry(
     label = "Cs-Br1sO2sCdH_261",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -11971,10 +11971,10 @@ entry(
     label = "Cs-Br1sO2sCdH_304",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12001,10 +12001,10 @@ entry(
     label = "Cs-Br1sO2sCdH_360",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12031,10 +12031,10 @@ entry(
     label = "Cs-Cl1sO2sCdH_468",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12061,10 +12061,10 @@ entry(
     label = "Cs-Cl1sO2sCdH_477",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12091,10 +12091,10 @@ entry(
     label = "Cs-Cl1sO2sCdH_463",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 5   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12122,10 +12122,10 @@ entry(
     label = "Cs-halhalCsCO_157",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12152,10 +12152,10 @@ entry(
     label = "Cs-F1sF1sCsCO_157",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   CO  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12182,10 +12182,10 @@ entry(
     label = "Cs-F1sF1sCsCO_185",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   CO  u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12212,10 +12212,10 @@ entry(
     label = "Cs-F1sF1sCsCO_145",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  u1 {1,S}
+4   Css  u1 {1,S}
 5   CO  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12242,10 +12242,10 @@ entry(
     label = "Cs-Br1sBr1sCsCO_255",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12272,10 +12272,10 @@ entry(
     label = "Cs-Br1sBr1sCsCO_710",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12301,10 +12301,10 @@ entry(
     label = "Cs-Br1sBr1sCsCO_250",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12331,10 +12331,10 @@ entry(
     label = "Cs-Cl1sCl1sCsCO_452",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12361,10 +12361,10 @@ entry(
     label = "Cs-Cl1sCl1sCsCO_453",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12391,10 +12391,10 @@ entry(
     label = "Cs-Cl1sCl1sCsCO_443",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12421,10 +12421,10 @@ entry(
     label = "Cs-Cl1sF1sCsCO_607",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12451,10 +12451,10 @@ entry(
     label = "Cs-Cl1sF1sCsCO_695",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12481,10 +12481,10 @@ entry(
     label = "Cs-Cl1sF1sCsCO_722",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12511,10 +12511,10 @@ entry(
     label = "Cs-Br1sCl1sCsCO_645",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12541,10 +12541,10 @@ entry(
     label = "Cs-Br1sCl1sCsCO_675",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12571,10 +12571,10 @@ entry(
     label = "Cs-Br1sCl1sCsCO_576",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12600,10 +12600,10 @@ entry(
     label = "Cs-Br1sF1sCsCO_684",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12630,10 +12630,10 @@ entry(
     label = "Cs-Br1sF1sCsCO_697",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12660,10 +12660,10 @@ entry(
     label = "Cs-Br1sF1sCsCO_643",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 5   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -12690,9 +12690,9 @@ entry(
     label = "Cs-halCsC2sH_160",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   C2s  ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -12717,9 +12717,9 @@ entry(
     label = "Cs-F1sCsC2sH_160",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   C2s ux {1,S}
 5   H   u0 {1,S}
 """,
@@ -12744,9 +12744,9 @@ entry(
     label = "Cs-Br1sCsC2sH_363",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   C2s  ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -12771,9 +12771,9 @@ entry(
     label = "Cs-Cl1sCsC2sH_508",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   C2s  ux {1,S}
 5   H    u0 {1,S}
 """,
@@ -12798,7 +12798,7 @@ entry(
     label = "Cs-halhalO2sCO_165",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
@@ -12828,7 +12828,7 @@ entry(
     label = "Cs-F1sF1sO2sCO_165",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -12858,7 +12858,7 @@ entry(
     label = "Cs-F1sF1sO2sCO_199",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -12888,7 +12888,7 @@ entry(
     label = "Cs-F1sF1sO2sCO_164",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s u1 {1,S}
@@ -12915,7 +12915,7 @@ entry(
     label = "Cs-Br1sBr1sO2sCO_244",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -12945,7 +12945,7 @@ entry(
     label = "Cs-Br1sBr1sO2sCO_334",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -12975,7 +12975,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sCO_447",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13005,7 +13005,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sCO_513",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  u1 {1,S}
@@ -13032,7 +13032,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sCO_524",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13062,7 +13062,7 @@ entry(
     label = "Cs-Br1sF1sO2sCO_621",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -13092,7 +13092,7 @@ entry(
     label = "Cs-Br1sF1sO2sCO_680",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -13122,7 +13122,7 @@ entry(
     label = "Cs-Br1sCl1sO2sCO_641",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13152,7 +13152,7 @@ entry(
     label = "Cs-Br1sCl1sO2sCO_631",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13182,7 +13182,7 @@ entry(
     label = "Cs-Cl1sF1sO2sCO_666",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -13212,7 +13212,7 @@ entry(
     label = "Cs-Cl1sF1sO2sCO_715",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  u1 {1,S}
@@ -13231,7 +13231,7 @@ entry(
     label = "Cs-Cl1sF1sO2sCO_720",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -13261,7 +13261,7 @@ entry(
     label = "Cs-halO2sCtH_169",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   Ct   ux {1,S}
@@ -13291,7 +13291,7 @@ entry(
     label = "Cs-F1sO2sCtH_169",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   Ct  ux {1,S}
@@ -13321,7 +13321,7 @@ entry(
     label = "Cs-F1sO2sCtH_143",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s u1 {1,S}
 4   Ct  ux {1,S}
@@ -13352,7 +13352,7 @@ entry(
     label = "Cs-Br1sO2sCtH_317",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   Ct   ux {1,S}
@@ -13382,7 +13382,7 @@ entry(
     label = "Cs-Br1sO2sCtH_340",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  u1 {1,S}
 4   Ct   ux {1,S}
@@ -13413,7 +13413,7 @@ entry(
     label = "Cs-Cl1sO2sCtH_465",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   Ct   ux {1,S}
@@ -13443,7 +13443,7 @@ entry(
     label = "Cs-Cl1sO2sCtH_413",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
 4   Ct   ux {1,S}
@@ -13474,7 +13474,7 @@ entry(
     label = "Cs-halhalO2sCt_170",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
@@ -13504,7 +13504,7 @@ entry(
     label = "Cs-F1sF1sO2sCt_170",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -13534,7 +13534,7 @@ entry(
     label = "Cs-F1sF1sO2sCt_87",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s u1 {1,S}
@@ -13565,7 +13565,7 @@ entry(
     label = "Cs-Br1sBr1sO2sCt_294",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13595,7 +13595,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sCt_470",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13625,7 +13625,7 @@ entry(
     label = "Cs-Cl1sCl1sO2sCt_522",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  u1 {1,S}
@@ -13652,7 +13652,7 @@ entry(
     label = "Cs-Br1sCl1sO2sCt_650",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -13682,7 +13682,7 @@ entry(
     label = "Cs-Cl1sF1sO2sCt_663",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -13712,7 +13712,7 @@ entry(
     label = "Cs-Br1sF1sO2sCt_676",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -13742,10 +13742,10 @@ entry(
     label = "Cs-halhalCsC2s_181",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   C2s  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -13769,10 +13769,10 @@ entry(
     label = "Cs-F1sF1sCsC2s_181",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 5   C2s ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -13796,10 +13796,10 @@ entry(
     label = "Cs-Cl1sCl1sCsC2s_500",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   C2s  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -13858,7 +13858,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
 3   O2d  ux {1,D}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -13885,7 +13885,7 @@ entry(
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
 3   O2d ux {1,D}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -13912,7 +13912,7 @@ entry(
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
 3   O2d ux {1,D}
-4   Cs  u1 {1,S}
+4   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -13939,7 +13939,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -13966,7 +13966,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -13993,7 +13993,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cs   u2 {1,S}
+4   Css   u2 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14018,7 +14018,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14045,7 +14045,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cs   u1 {1,S}
+4   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14072,7 +14072,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
 3   O2d  ux {1,D}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14099,7 +14099,7 @@ entry(
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
 3   O2d ux {1,D}
-4   Cd  ux {1,S}
+4   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14126,7 +14126,7 @@ entry(
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
 3   O2d ux {1,D}
-4   Cd  u1 {1,S}
+4   Cdb  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14154,7 +14154,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14181,7 +14181,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14209,7 +14209,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14236,7 +14236,7 @@ entry(
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
 3   O2d  ux {1,D}
-4   Cd   u1 {1,S}
+4   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14829,9 +14829,9 @@ entry(
     label = "Cd-halCdCt_44",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -14856,9 +14856,9 @@ entry(
     label = "Cd-F1sCdCt_44",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
+3   Cdb  ux {1,D}
 4   Ct  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -14883,10 +14883,10 @@ entry(
     label = "Cd-F1sCtCd_96",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   Ct  ux {1,S}
-4   Cd  u1 {1,D}
+4   Cdb  u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14909,9 +14909,9 @@ entry(
     label = "Cd-Br1sCdCt_277",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -14936,10 +14936,10 @@ entry(
     label = "Cd-Br1sCtCd_295",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   Ct   ux {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -14962,9 +14962,9 @@ entry(
     label = "Cd-Cl1sCdCt_488",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -14989,10 +14989,10 @@ entry(
     label = "Cd-Cl1sCtCd_489",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   Ct   ux {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15015,10 +15015,10 @@ entry(
     label = "Cd-halCsCd_56",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,D}
+3   Css   ux {1,S}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15042,10 +15042,10 @@ entry(
     label = "Cd-F1sCsCd_56",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cd  ux {1,D}
+3   Css  ux {1,S}
+4   Cdb  ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15069,10 +15069,10 @@ entry(
     label = "Cd-F1sCdCs_76",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
-4   Cs  u1 {1,S}
+3   Cdb  ux {1,D}
+4   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15096,10 +15096,10 @@ entry(
     label = "Cd-F1sCsCd_118",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cd  u1 {1,D}
+3   Css  ux {1,S}
+4   Cdb  u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15122,10 +15122,10 @@ entry(
     label = "Cd-Br1sCsCd_224",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,D}
+3   Css   ux {1,S}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15149,10 +15149,10 @@ entry(
     label = "Cd-Br1sCsCd_253",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   u1 {1,D}
+3   Css   ux {1,S}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15175,10 +15175,10 @@ entry(
     label = "Cd-Br1sCdCs_263",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
-4   Cs   u1 {1,S}
+3   Cdb   ux {1,D}
+4   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15202,10 +15202,10 @@ entry(
     label = "Cd-Cl1sCsCd_411",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,D}
+3   Css   ux {1,S}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15229,10 +15229,10 @@ entry(
     label = "Cd-Cl1sCsCd_432",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   u1 {1,D}
+3   Css   ux {1,S}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15255,10 +15255,10 @@ entry(
     label = "Cd-Cl1sCdCs_433",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
-4   Cs   u1 {1,S}
+3   Cdb   ux {1,D}
+4   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15282,10 +15282,10 @@ entry(
     label = "Cd-halO2sCd_81",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15309,10 +15309,10 @@ entry(
     label = "Cd-F1sO2sCd_81",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cd  ux {1,D}
+4   Cdb  ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15336,10 +15336,10 @@ entry(
     label = "Cd-F1sO2sCd_71",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cd  u1 {1,D}
+4   Cdb  u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15362,10 +15362,10 @@ entry(
     label = "Cd-Br1sO2sCd_252",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15389,10 +15389,10 @@ entry(
     label = "Cd-Br1sO2sCd_258",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15415,10 +15415,10 @@ entry(
     label = "Cd-Cl1sO2sCd_384",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15442,10 +15442,10 @@ entry(
     label = "Cd-Cl1sO2sCd_436",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15468,10 +15468,10 @@ entry(
     label = "Cd-Cl1sO2sCd_512",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15493,10 +15493,10 @@ entry(
     label = "Cd-halCdCd_91",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,S}
-4   Cd   ux {1,D}
+3   Cdb   ux {1,S}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15520,10 +15520,10 @@ entry(
     label = "Cd-F1sCdCd_91",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
-4   Cd  ux {1,D}
+3   Cdb  ux {1,S}
+4   Cdb  ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15547,10 +15547,10 @@ entry(
     label = "Cd-F1sCdCd_92",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
-4   Cd  u1 {1,D}
+3   Cdb  ux {1,S}
+4   Cdb  u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15574,10 +15574,10 @@ entry(
     label = "Cd-F1sCdCd_127",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
-4   Cd  u1 {1,S}
+3   Cdb  ux {1,D}
+4   Cdb  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15602,10 +15602,10 @@ entry(
     label = "Cd-Br1sCdCd_285",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
-4   Cd   ux {1,D}
+3   Cdb   ux {1,S}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15629,10 +15629,10 @@ entry(
     label = "Cd-Br1sCdCd_292",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
-4   Cd   u1 {1,S}
+3   Cdb   ux {1,D}
+4   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15657,10 +15657,10 @@ entry(
     label = "Cd-Br1sCdCd_270",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
-4   Cd   u1 {1,D}
+3   Cdb   ux {1,S}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15684,10 +15684,10 @@ entry(
     label = "Cd-Cl1sCdCd_402",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
-4   Cd   ux {1,D}
+3   Cdb   ux {1,S}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15711,10 +15711,10 @@ entry(
     label = "Cd-Cl1sCdCd_422",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
-4   Cd   u1 {1,S}
+3   Cdb   ux {1,D}
+4   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15739,10 +15739,10 @@ entry(
     label = "Cd-Cl1sCdCd_440",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
-4   Cd   u1 {1,D}
+3   Cdb   ux {1,S}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15766,10 +15766,10 @@ entry(
     label = "Cd-halCOCd_99",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
 3   CO   ux {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15793,10 +15793,10 @@ entry(
     label = "Cd-F1sCOCd_99",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   CO  ux {1,S}
-4   Cd  ux {1,D}
+4   Cdb  ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15820,10 +15820,10 @@ entry(
     label = "Cd-F1sCOCd_179",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   CO  ux {1,S}
-4   Cd  u1 {1,D}
+4   Cdb  u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15846,9 +15846,9 @@ entry(
     label = "Cd-F1sCdCO_180",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
+3   Cdb  ux {1,D}
 4   CO  u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -15872,10 +15872,10 @@ entry(
     label = "Cd-Br1sCOCd_280",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   CO   ux {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15899,9 +15899,9 @@ entry(
     label = "Cd-Br1sCdCO_329",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -15926,10 +15926,10 @@ entry(
     label = "Cd-Br1sCOCd_349",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   CO   ux {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15952,10 +15952,10 @@ entry(
     label = "Cd-Cl1sCOCd_451",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   CO   ux {1,S}
-4   Cd   ux {1,D}
+4   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -15979,9 +15979,9 @@ entry(
     label = "Cd-Cl1sCdCO_473",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   CO   u1 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -16006,10 +16006,10 @@ entry(
     label = "Cd-Cl1sCOCd_487",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   CO   ux {1,S}
-4   Cd   u1 {1,D}
+4   Cdb   u1 {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16032,9 +16032,9 @@ entry(
     label = "Cd-halCsCdd_141",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Cdd  ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16059,9 +16059,9 @@ entry(
     label = "Cd-F1sCsCdd_141",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   Cdd ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16086,9 +16086,9 @@ entry(
     label = "Cd-F1sCsCdd_150",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
-3   Cs  u1 {1,S}
+3   Css  u1 {1,S}
 4   Cdd ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16113,9 +16113,9 @@ entry(
     label = "Cd-Br1sCsCdd_247",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Cdd  ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16140,9 +16140,9 @@ entry(
     label = "Cd-Br1sCsCdd_620",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   Cdd  ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16167,9 +16167,9 @@ entry(
     label = "Cd-Cl1sCsCdd_421",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Cdd  ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16194,9 +16194,9 @@ entry(
     label = "Cd-Cl1sCsCdd_503",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 4   Cdd  ux {1,D}
 """,
     statmech = GroupFrequencies(
@@ -16221,7 +16221,7 @@ entry(
     label = "Cd-halO2sCdd_153",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   Cdd  ux {1,D}
@@ -16247,7 +16247,7 @@ entry(
     label = "Cd-F1sO2sCdd_153",
     group = 
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   Cdd ux {1,D}
@@ -16273,7 +16273,7 @@ entry(
     label = "Cd-Br1sO2sCdd_291",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   Cdd  ux {1,D}
@@ -16299,7 +16299,7 @@ entry(
     label = "Cd-Cl1sO2sCdd_408",
     group = 
 """
-1 * Cd   u0 {2,S} {3,S} {4,D}
+1 * Cdb   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   Cdd  ux {1,D}
@@ -16325,9 +16325,9 @@ entry(
     label = "Cd-halCdC2s_175",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   C2s  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -16351,9 +16351,9 @@ entry(
     label = "Cd-F1sCdC2s_175",
     group = 
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
+3   Cdb  ux {1,D}
 4   C2s ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -16377,9 +16377,9 @@ entry(
     label = "Cd-Br1sCdC2s_296",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   C2s  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -16403,9 +16403,9 @@ entry(
     label = "Cd-Cl1sCdC2s_482",
     group = 
 """
-1 * Cd   u0 {2,S} {3,D} {4,S}
+1 * Cdb   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 4   C2s  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -16483,11 +16483,11 @@ entry(
     label = "Cs-halO2sO2sCs_62",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16512,11 +16512,11 @@ entry(
     label = "Cs-F1sO2sO2sCs_62",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   O2s ux {1,S}
-5   Cs  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16541,11 +16541,11 @@ entry(
     label = "Cs-F1sO2sO2sCs_114",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   O2s u1 {1,S}
-5   Cs  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16571,11 +16571,11 @@ entry(
     label = "Cs-F1sO2sO2sCs_147",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   O2s ux {1,S}
-5   Cs  u1 {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16600,11 +16600,11 @@ entry(
     label = "Cs-Br1sO2sO2sCs_260",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16629,11 +16629,11 @@ entry(
     label = "Cs-Br1sO2sO2sCs_681",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16658,11 +16658,11 @@ entry(
     label = "Cs-Cl1sO2sO2sCs_435",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16687,11 +16687,11 @@ entry(
     label = "Cs-Cl1sO2sO2sCs_659",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  u1 {1,S}
-5   Cs   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16714,11 +16714,11 @@ entry(
     label = "Cs-Cl1sO2sO2sCs_391",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
-5   Cs   u1 {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16743,11 +16743,11 @@ entry(
     label = "Cs-halO2sCsCs_63",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16772,11 +16772,11 @@ entry(
     label = "Cs-F1sO2sCsCs_63",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cs  ux {1,S}
-5   Cs  ux {1,S}
+4   Css  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16801,11 +16801,11 @@ entry(
     label = "Cs-F1sO2sCsCs_152",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cs  ux {1,S}
-5   Cs  u1 {1,S}
+4   Css  ux {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16830,11 +16830,11 @@ entry(
     label = "Cs-F1sO2sCsCs_51",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   O2s u1 {1,S}
-4   Cs  ux {1,S}
-5   Cs  ux {1,S}
+4   Css  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16860,11 +16860,11 @@ entry(
     label = "Cs-Br1sO2sCsCs_275",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16889,11 +16889,11 @@ entry(
     label = "Cs-Br1sO2sCsCs_351",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16918,11 +16918,11 @@ entry(
     label = "Cs-Br1sO2sCsCs_358",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16948,11 +16948,11 @@ entry(
     label = "Cs-Cl1sO2sCsCs_459",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -16977,11 +16977,11 @@ entry(
     label = "Cs-Cl1sO2sCsCs_464",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  u1 {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17007,11 +17007,11 @@ entry(
     label = "Cs-Cl1sO2sCsCs_417",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17036,11 +17036,11 @@ entry(
     label = "Cs-halCsCsCs_123",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17065,11 +17065,11 @@ entry(
     label = "Cs-F1sCsCsCs_123",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cs  ux {1,S}
-5   Cs  ux {1,S}
+3   Css  ux {1,S}
+4   Css  ux {1,S}
+5   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17094,11 +17094,11 @@ entry(
     label = "Cs-F1sCsCsCs_105",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cs  ux {1,S}
-5   Cs  u1 {1,S}
+3   Css  ux {1,S}
+4   Css  ux {1,S}
+5   Css  u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17123,11 +17123,11 @@ entry(
     label = "Cs-Br1sCsCsCs_307",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17152,11 +17152,11 @@ entry(
     label = "Cs-Br1sCsCsCs_326",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17181,11 +17181,11 @@ entry(
     label = "Cs-Cl1sCsCsCs_395",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17210,11 +17210,11 @@ entry(
     label = "Cs-Cl1sCsCsCs_406",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
-5   Cs   u1 {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
+5   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17327,7 +17327,7 @@ entry(
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17351,7 +17351,7 @@ entry(
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17375,7 +17375,7 @@ entry(
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17399,7 +17399,7 @@ entry(
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -17421,7 +17421,7 @@ entry(
     label = "Cs-halHHH_98",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   H    u0 {1,S}
 4   H    u0 {1,S}
@@ -17453,7 +17453,7 @@ entry(
     label = "Cs-F1sHHH_98",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -17485,7 +17485,7 @@ entry(
     label = "Cs-Br1sHHH_342",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   H    u0 {1,S}
 4   H    u0 {1,S}
@@ -17517,7 +17517,7 @@ entry(
     label = "Cs-Cl1sHHH_502",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   H    u0 {1,S}
 4   H    u0 {1,S}
@@ -17595,7 +17595,7 @@ entry(
     label = "Cs-halhalhalH_168",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -17627,7 +17627,7 @@ entry(
     label = "Cs-F1sF1sF1sH_168",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -17659,7 +17659,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sH_361",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -17691,7 +17691,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sH_519",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -17723,7 +17723,7 @@ entry(
     label = "Cs-Cl1sCl1sF1sH_657",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -17755,7 +17755,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sH_670",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -17787,7 +17787,7 @@ entry(
     label = "Cs-Cl1sF1sF1sH_671",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -17819,7 +17819,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sH_685",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -17851,7 +17851,7 @@ entry(
     label = "Cs-Br1sBr1sF1sH_723",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -17883,7 +17883,7 @@ entry(
     label = "Cs-Br1sF1sF1sH_724",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -17915,7 +17915,7 @@ entry(
     label = "Cs-Br1sCl1sF1sH_729",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -17995,7 +17995,7 @@ entry(
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -18019,7 +18019,7 @@ entry(
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
+3   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -18043,7 +18043,7 @@ entry(
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -18067,7 +18067,7 @@ entry(
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -18181,7 +18181,7 @@ entry(
     label = "Cs-halhalhalhal_186",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -18213,7 +18213,7 @@ entry(
     label = "Cs-F1sF1sF1sF1s_186",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -18245,7 +18245,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sBr1s_238",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -18277,7 +18277,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sCl1s_518",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -18309,7 +18309,7 @@ entry(
     label = "Cs-Cl1sCl1sF1sF1s_593",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -18341,7 +18341,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sCl1s_674",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -18373,7 +18373,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sCl1s_689",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -18405,7 +18405,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sF1s_691",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -18437,7 +18437,7 @@ entry(
     label = "Cs-Br1sF1sF1sF1s_693",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -18469,7 +18469,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1sF1s_696",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -18501,7 +18501,7 @@ entry(
     label = "Cs-Br1sCl1sCl1sF1s_709",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -18533,7 +18533,7 @@ entry(
     label = "Cs-Br1sBr1sF1sF1s_711",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -18565,7 +18565,7 @@ entry(
     label = "Cs-Cl1sF1sF1sF1s_713",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -18597,7 +18597,7 @@ entry(
     label = "Cs-Br1sBr1sCl1sF1s_732",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -18629,7 +18629,7 @@ entry(
     label = "Cs-Br1sBr1sBr1sCl1s_733",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -18661,7 +18661,7 @@ entry(
     label = "Cs-Br1sCl1sF1sF1s_738",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -18693,7 +18693,7 @@ entry(
     label = "Cs-halhalHH_193",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   H    u0 {1,S}
@@ -18725,7 +18725,7 @@ entry(
     label = "Cs-F1sF1sHH_193",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   H   u0 {1,S}
@@ -18757,7 +18757,7 @@ entry(
     label = "Cs-Br1sBr1sHH_305",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   H    u0 {1,S}
@@ -18789,7 +18789,7 @@ entry(
     label = "Cs-Cl1sCl1sHH_510",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   H    u0 {1,S}
@@ -18821,7 +18821,7 @@ entry(
     label = "Cs-Br1sCl1sHH_688",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   H    u0 {1,S}
@@ -18853,7 +18853,7 @@ entry(
     label = "Cs-Cl1sF1sHH_701",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   H    u0 {1,S}
@@ -18885,7 +18885,7 @@ entry(
     label = "Cs-Br1sF1sHH_708",
     group = 
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   H    u0 {1,S}
@@ -18991,7 +18991,7 @@ entry(
 """
 1 * C2sc u0 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Csc  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -19023,7 +19023,7 @@ entry(
 """
 1 * C2sc u0 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Csc  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -19160,7 +19160,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19183,7 +19183,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19206,7 +19206,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19229,7 +19229,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19252,7 +19252,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19275,7 +19275,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
-3   Cs   u1 {1,S}
+3   Css   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19299,7 +19299,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19322,7 +19322,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
+3   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19345,7 +19345,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19368,7 +19368,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -19391,7 +19391,7 @@ entry(
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
-3   Cd   u1 {1,S}
+3   Cdb   u1 {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20574,9 +20574,9 @@ entry(
     label = "Cs-halCsH_38",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20601,9 +20601,9 @@ entry(
     label = "Cs-F1sCsH_38",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20628,9 +20628,9 @@ entry(
     label = "Cs-Br1sCsH_240",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20655,9 +20655,9 @@ entry(
     label = "Cs-Cl1sCsH_366",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20682,10 +20682,10 @@ entry(
     label = "Cs-halhalCs_43",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20709,10 +20709,10 @@ entry(
     label = "Cs-F1sF1sCs_43",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20736,10 +20736,10 @@ entry(
     label = "Cs-Br1sBr1sCs_245",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20763,10 +20763,10 @@ entry(
     label = "Cs-Cl1sCl1sCs_392",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20790,10 +20790,10 @@ entry(
     label = "Cs-Cl1sF1sCs_554",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20817,10 +20817,10 @@ entry(
     label = "Cs-Br1sF1sCs_577",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20844,10 +20844,10 @@ entry(
     label = "Cs-Br1sCl1sCs_598",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -20871,9 +20871,9 @@ entry(
     label = "Cs-halCdH_60",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20899,9 +20899,9 @@ entry(
     label = "Cs-F1sCdH_60",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
-3   Cd  ux {1,S}
+3   Cdb  ux {1,S}
 4   H   u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20927,9 +20927,9 @@ entry(
     label = "Cs-Br1sCdH_264",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20955,9 +20955,9 @@ entry(
     label = "Cs-Cl1sCdH_368",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,S}
+3   Cdb   ux {1,S}
 4   H    u0 {1,S}
 """,
     statmech = GroupFrequencies(
@@ -20983,7 +20983,7 @@ entry(
     label = "Cs-halO2sH_66",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   H    u0 {1,S}
@@ -21010,7 +21010,7 @@ entry(
     label = "Cs-F1sO2sH_66",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   H   u0 {1,S}
@@ -21037,7 +21037,7 @@ entry(
     label = "Cs-Br1sO2sH_216",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   H    u0 {1,S}
@@ -21064,7 +21064,7 @@ entry(
     label = "Cs-Cl1sO2sH_404",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   H    u0 {1,S}
@@ -21091,7 +21091,7 @@ entry(
     label = "Cs-halhalO2s_83",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   O2s  ux {1,S}
@@ -21118,7 +21118,7 @@ entry(
     label = "Cs-F1sF1sO2s_83",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   O2s ux {1,S}
@@ -21145,7 +21145,7 @@ entry(
     label = "Cs-Br1sBr1sO2s_262",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -21172,7 +21172,7 @@ entry(
     label = "Cs-Cl1sCl1sO2s_381",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -21199,7 +21199,7 @@ entry(
     label = "Cs-Cl1sF1sO2s_567",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -21226,7 +21226,7 @@ entry(
     label = "Cs-Br1sCl1sO2s_575",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   O2s  ux {1,S}
@@ -21253,7 +21253,7 @@ entry(
     label = "Cs-Br1sF1sO2s_590",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   O2s  ux {1,S}
@@ -21280,10 +21280,10 @@ entry(
     label = "Cs-halhalCd_101",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21308,10 +21308,10 @@ entry(
     label = "Cs-F1sF1sCd_101",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
-4   Cd  ux {1,S}
+4   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21336,10 +21336,10 @@ entry(
     label = "Cs-Br1sBr1sCd_273",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21364,10 +21364,10 @@ entry(
     label = "Cs-Cl1sCl1sCd_400",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21392,10 +21392,10 @@ entry(
     label = "Cs-Br1sCl1sCd_545",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21420,10 +21420,10 @@ entry(
     label = "Cs-Cl1sF1sCd_566",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21448,10 +21448,10 @@ entry(
     label = "Cs-Br1sF1sCd_573",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -21476,7 +21476,7 @@ entry(
     label = "Cs-halhalCO_117",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   CO   ux {1,S}
@@ -21503,7 +21503,7 @@ entry(
     label = "Cs-F1sF1sCO_117",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   CO  ux {1,S}
@@ -21530,7 +21530,7 @@ entry(
     label = "Cs-Br1sBr1sCO_288",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   CO   ux {1,S}
@@ -21557,7 +21557,7 @@ entry(
     label = "Cs-Cl1sCl1sCO_442",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   CO   ux {1,S}
@@ -21584,7 +21584,7 @@ entry(
     label = "Cs-Cl1sF1sCO_587",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   CO   ux {1,S}
@@ -21611,7 +21611,7 @@ entry(
     label = "Cs-Br1sCl1sCO_606",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   CO   ux {1,S}
@@ -21638,7 +21638,7 @@ entry(
     label = "Cs-Br1sF1sCO_662",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   CO   ux {1,S}
@@ -21665,7 +21665,7 @@ entry(
     label = "Cs-halhalCt_140",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Ct   ux {1,S}
@@ -21692,7 +21692,7 @@ entry(
     label = "Cs-F1sF1sCt_140",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   Ct  ux {1,S}
@@ -21719,7 +21719,7 @@ entry(
     label = "Cs-Br1sBr1sCt_308",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Ct   ux {1,S}
@@ -21746,7 +21746,7 @@ entry(
     label = "Cs-Cl1sCl1sCt_450",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Ct   ux {1,S}
@@ -21773,7 +21773,7 @@ entry(
     label = "Cs-Cl1sF1sCt_610",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   Ct   ux {1,S}
@@ -21800,7 +21800,7 @@ entry(
     label = "Cs-Br1sCl1sCt_628",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Ct   ux {1,S}
@@ -21827,7 +21827,7 @@ entry(
     label = "Cs-Br1sF1sCt_664",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   Ct   ux {1,S}
@@ -21854,7 +21854,7 @@ entry(
     label = "Cs-halCOH_146",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   CO   ux {1,S}
 4   H    u0 {1,S}
@@ -21881,7 +21881,7 @@ entry(
     label = "Cs-F1sCOH_146",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   CO  ux {1,S}
 4   H   u0 {1,S}
@@ -21908,7 +21908,7 @@ entry(
     label = "Cs-Br1sCOH_338",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   CO   ux {1,S}
 4   H    u0 {1,S}
@@ -21935,7 +21935,7 @@ entry(
     label = "Cs-Cl1sCOH_419",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   CO   ux {1,S}
 4   H    u0 {1,S}
@@ -21962,7 +21962,7 @@ entry(
     label = "Cs-halCtH_162",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Ct   ux {1,S}
 4   H    u0 {1,S}
@@ -21989,7 +21989,7 @@ entry(
     label = "Cs-F1sCtH_162",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   Ct  ux {1,S}
 4   H   u0 {1,S}
@@ -22016,7 +22016,7 @@ entry(
     label = "Cs-Br1sCtH_324",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Ct   ux {1,S}
 4   H    u0 {1,S}
@@ -22043,7 +22043,7 @@ entry(
     label = "Cs-Cl1sCtH_446",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Ct   ux {1,S}
 4   H    u0 {1,S}
@@ -22098,9 +22098,9 @@ entry(
     label = "Cd-halCd_113",
     group = 
 """
-1 * Cd   u1 {2,S} {3,D}
+1 * Cdb   u1 {2,S} {3,D}
 2   Val7 u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22122,9 +22122,9 @@ entry(
     label = "Cd-F1sCd_113",
     group = 
 """
-1 * Cd  u1 {2,S} {3,D}
+1 * Cdb  u1 {2,S} {3,D}
 2   F1s u0 {1,S}
-3   Cd  ux {1,D}
+3   Cdb  ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22146,9 +22146,9 @@ entry(
     label = "Cd-Br1sCd_232",
     group = 
 """
-1 * Cd   u1 {2,S} {3,D}
+1 * Cdb   u1 {2,S} {3,D}
 2   Br1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22170,9 +22170,9 @@ entry(
     label = "Cd-Cl1sCd_416",
     group = 
 """
-1 * Cd   u1 {2,S} {3,D}
+1 * Cdb   u1 {2,S} {3,D}
 2   Cl1s u0 {1,S}
-3   Cd   ux {1,D}
+3   Cdb   ux {1,D}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22194,7 +22194,7 @@ entry(
     label = "Cd-halCdd_151",
     group = 
 """
-1 * Cd   u1 {2,S} {3,D}
+1 * Cdb   u1 {2,S} {3,D}
 2   Val7 u0 {1,S}
 3   Cdd  ux {1,D}
 """,
@@ -22218,7 +22218,7 @@ entry(
     label = "Cd-F1sCdd_151",
     group = 
 """
-1 * Cd  u1 {2,S} {3,D}
+1 * Cdb  u1 {2,S} {3,D}
 2   F1s u0 {1,S}
 3   Cdd ux {1,D}
 """,
@@ -22242,7 +22242,7 @@ entry(
     label = "Cd-Br1sCdd_283",
     group = 
 """
-1 * Cd   u1 {2,S} {3,D}
+1 * Cdb   u1 {2,S} {3,D}
 2   Br1s u0 {1,S}
 3   Cdd  ux {1,D}
 """,
@@ -22266,7 +22266,7 @@ entry(
     label = "Cd-Cl1sCdd_480",
     group = 
 """
-1 * Cd   u1 {2,S} {3,D}
+1 * Cdb   u1 {2,S} {3,D}
 2   Cl1s u0 {1,S}
 3   Cdd  ux {1,D}
 """,
@@ -22407,9 +22407,9 @@ entry(
     label = "Cs-halCsCt_68",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22433,9 +22433,9 @@ entry(
     label = "Cs-F1sCsCt_68",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   Ct  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22459,9 +22459,9 @@ entry(
     label = "Cs-Br1sCsCt_274",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22485,9 +22485,9 @@ entry(
     label = "Cs-Cl1sCsCt_449",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   Ct   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22511,10 +22511,10 @@ entry(
     label = "Cs-halCsCs_73",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22537,10 +22537,10 @@ entry(
     label = "Cs-F1sCsCs_73",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cs  ux {1,S}
+3   Css  ux {1,S}
+4   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22563,10 +22563,10 @@ entry(
     label = "Cs-Br1sCsCs_223",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22589,10 +22589,10 @@ entry(
     label = "Cs-Cl1sCsCs_407",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cs   ux {1,S}
+3   Css   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22615,10 +22615,10 @@ entry(
     label = "Cs-halO2sCs_110",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22641,10 +22641,10 @@ entry(
     label = "Cs-F1sO2sCs_110",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
-4   Cs  ux {1,S}
+4   Css  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22667,10 +22667,10 @@ entry(
     label = "Cs-Br1sO2sCs_257",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22693,10 +22693,10 @@ entry(
     label = "Cs-Cl1sO2sCs_441",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22719,10 +22719,10 @@ entry(
     label = "Cs-halCsCd_112",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,S}
+3   Css   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22745,10 +22745,10 @@ entry(
     label = "Cs-F1sCsCd_112",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
-4   Cd  ux {1,S}
+3   Css  ux {1,S}
+4   Cdb  ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22771,10 +22771,10 @@ entry(
     label = "Cs-Cl1sCsCd_501",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,S}
+3   Css   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22797,10 +22797,10 @@ entry(
     label = "Cs-Br1sCsCd_728",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
-4   Cd   ux {1,S}
+3   Css   ux {1,S}
+4   Cdb   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -22822,9 +22822,9 @@ entry(
     label = "Cs-halCsCO_115",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22848,9 +22848,9 @@ entry(
     label = "Cs-F1sCsCO_115",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   CO  ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22874,9 +22874,9 @@ entry(
     label = "Cs-Br1sCsCO_310",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22900,9 +22900,9 @@ entry(
     label = "Cs-Cl1sCsCO_481",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 4   CO   ux {1,S}
 """,
     statmech = GroupFrequencies(
@@ -22926,7 +22926,7 @@ entry(
     label = "Cs-halO2sO2s_142",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
@@ -22952,7 +22952,7 @@ entry(
     label = "Cs-F1sO2sO2s_142",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   O2s ux {1,S}
@@ -22978,7 +22978,7 @@ entry(
     label = "Cs-Br1sO2sO2s_343",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
@@ -23004,7 +23004,7 @@ entry(
     label = "Cs-Cl1sO2sO2s_434",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   O2s  ux {1,S}
@@ -23030,7 +23030,7 @@ entry(
     label = "Cs-halO2sCO_148",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   ux {1,S}
@@ -23056,7 +23056,7 @@ entry(
     label = "Cs-F1sO2sCO_148",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   O2s ux {1,S}
 4   CO  ux {1,S}
@@ -23082,7 +23082,7 @@ entry(
     label = "Cs-Br1sO2sCO_321",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   ux {1,S}
@@ -23108,7 +23108,7 @@ entry(
     label = "Cs-Cl1sO2sCO_514",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   O2s  ux {1,S}
 4   CO   ux {1,S}
@@ -23209,7 +23209,7 @@ entry(
     label = "Cs-halhalH_119",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   H    u0 {1,S}
@@ -23237,7 +23237,7 @@ entry(
     label = "Cs-F1sF1sH_119",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   H   u0 {1,S}
@@ -23265,7 +23265,7 @@ entry(
     label = "Cs-Br1sBr1sH_312",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   H    u0 {1,S}
@@ -23293,7 +23293,7 @@ entry(
     label = "Cs-Cl1sCl1sH_490",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   H    u0 {1,S}
@@ -23321,7 +23321,7 @@ entry(
     label = "Cs-Cl1sF1sH_602",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   H    u0 {1,S}
@@ -23349,7 +23349,7 @@ entry(
     label = "Cs-Br1sCl1sH_718",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   H    u0 {1,S}
@@ -23377,7 +23377,7 @@ entry(
     label = "Cs-Br1sF1sH_737",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   H    u0 {1,S}
@@ -23405,7 +23405,7 @@ entry(
     label = "Cs-halHH_166",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   H    u0 {1,S}
 4   H    u0 {1,S}
@@ -23433,7 +23433,7 @@ entry(
     label = "Cs-F1sHH_166",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -23461,7 +23461,7 @@ entry(
     label = "Cs-Br1sHH_357",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   H    u0 {1,S}
 4   H    u0 {1,S}
@@ -23489,7 +23489,7 @@ entry(
     label = "Cs-Cl1sHH_479",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   H    u0 {1,S}
 4   H    u0 {1,S}
@@ -23517,7 +23517,7 @@ entry(
     label = "Cs-halhalhal_189",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
 3   Val7 u0 {1,S}
 4   Val7 u0 {1,S}
@@ -23545,7 +23545,7 @@ entry(
     label = "Cs-F1sF1sF1s_189",
     group = 
 """
-1 * Cs  u1 {2,S} {3,S} {4,S}
+1 * Css  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
 3   F1s u0 {1,S}
 4   F1s u0 {1,S}
@@ -23573,7 +23573,7 @@ entry(
     label = "Cs-Br1sBr1sBr1s_323",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Br1s u0 {1,S}
@@ -23601,7 +23601,7 @@ entry(
     label = "Cs-Cl1sCl1sCl1s_456",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -23629,7 +23629,7 @@ entry(
     label = "Cs-Br1sCl1sF1s_654",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -23657,7 +23657,7 @@ entry(
     label = "Cs-Br1sBr1sF1s_678",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -23685,7 +23685,7 @@ entry(
     label = "Cs-Br1sF1sF1s_683",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -23713,7 +23713,7 @@ entry(
     label = "Cs-Br1sBr1sCl1s_706",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Br1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -23741,7 +23741,7 @@ entry(
     label = "Cs-Cl1sF1sF1s_719",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   F1s  u0 {1,S}
 4   F1s  u0 {1,S}
@@ -23769,7 +23769,7 @@ entry(
     label = "Cs-Cl1sCl1sF1s_730",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   F1s  u0 {1,S}
@@ -23797,7 +23797,7 @@ entry(
     label = "Cs-Br1sCl1sCl1s_731",
     group = 
 """
-1 * Cs   u1 {2,S} {3,S} {4,S}
+1 * Css   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
 3   Cl1s u0 {1,S}
 4   Cl1s u0 {1,S}
@@ -23987,7 +23987,7 @@ entry(
     label = "Cs-halCt_331",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Val7 u0 {1,S}
 3   Ct   ux {1,S}
 """,
@@ -24010,7 +24010,7 @@ entry(
     label = "Cs-Br1sCt_331",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Br1s u0 {1,S}
 3   Ct   ux {1,S}
 """,
@@ -24033,7 +24033,7 @@ entry(
     label = "Cs-Cl1sCt_506",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Cl1s u0 {1,S}
 3   Ct   ux {1,S}
 """,
@@ -24056,7 +24056,7 @@ entry(
     label = "Cs-halCO_336",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Val7 u0 {1,S}
 3   CO   ux {1,S}
 """,
@@ -24079,7 +24079,7 @@ entry(
     label = "Cs-Br1sCO_336",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Br1s u0 {1,S}
 3   CO   ux {1,S}
 """,
@@ -24102,7 +24102,7 @@ entry(
     label = "Cs-Cl1sCO_424",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Cl1s u0 {1,S}
 3   CO   ux {1,S}
 """,
@@ -24125,9 +24125,9 @@ entry(
     label = "Cs-halCs_354",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Val7 u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [
@@ -24156,9 +24156,9 @@ entry(
     label = "Cs-Br1sCs_354",
     group = 
 """
-1 * Cs   u2 {2,S} {3,S}
+1 * Css   u2 {2,S} {3,S}
 2   Br1s u0 {1,S}
-3   Cs   ux {1,S}
+3   Css   ux {1,S}
 """,
     statmech = GroupFrequencies(
         frequencies = [

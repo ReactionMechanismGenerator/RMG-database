@@ -97,9 +97,9 @@ entry(
 	label = "Cyclopropane",
 	group = 
 """
-1 * Cs u0 {2,S} {3,S}
-2   Cs u0 {1,S} {3,S}
-3   Cs u0 {1,S} {2,S}
+1 * Css u0 {2,S} {3,S}
+2   Css u0 {1,S} {3,S}
+3   Css u0 {1,S} {2,S}
 """,
 	solute = SoluteData(
 		S = 0.08944,
@@ -128,8 +128,8 @@ entry(
 	group = 
 """
 1 * O2s    u0 {2,S} {3,S}
-2   [Cs,N] u0 {1,S} {3,S}
-3   [Cs,N] u0 {1,S} {2,S}
+2   [Css,N] u0 {1,S} {3,S}
+3   [Css,N] u0 {1,S} {2,S}
 """,
 	solute = SoluteData(
 		S = 0.26498,
@@ -158,8 +158,8 @@ entry(
 	group = 
 """
 1 * N       u0 {2,S} {3,S}
-2   [Cs,N,S]  u0 {1,S} {3,S}
-3   [Cs,N,S]  u0 {1,S} {2,S}
+2   [Css,N,S]  u0 {1,S} {3,S}
+3   [Css,N,S]  u0 {1,S} {2,S}
 """,
 	solute = SoluteData(
 		S = 0.07140,
@@ -300,9 +300,9 @@ entry(
 	group = 
 """
 1 * N       u0 {4,S} {2,S}
-2   [Cs,N,O,S]  u0 {1,S} {3,S}
-3   [Cs,N,O,S]  u0 {2,S} {4,S}
-4   [Cs,N,O,S]  u0 {3,S} {1,S}
+2   [Css,N,O,S]  u0 {1,S} {3,S}
+3   [Css,N,O,S]  u0 {2,S} {4,S}
+4   [Css,N,O,S]  u0 {3,S} {1,S}
 """,
 	solute = SoluteData(
 		S = 0.05099,
@@ -415,10 +415,10 @@ entry(
 	group = 
 """
 1 * CO  u0 {2,S} {5,S}
-2   Cs  u0 {1,S} {3,S}
-3   Cs  u0 {2,S} {4,S}
-4   Cs  u0 {3,S} {5,S}
-5   Cs  u0 {1,S} {4,S}
+2   Css  u0 {1,S} {3,S}
+3   Css  u0 {2,S} {4,S}
+4   Css  u0 {3,S} {5,S}
+5   Css  u0 {1,S} {4,S}
 """,
 	solute = SoluteData(
 		S = 0.04966,
@@ -446,11 +446,11 @@ entry(
 	label = "Cyclopentanol",
 	group = 
 """
-1 * Cs       u0 {2,S} {5,S} {6,S}
-2   [Cs,Cb]  u0 {1,S} {3,S}
-3   [Cs,Cb]  u0 {2,S} {4,S}
-4   [Cs,Cb]  u0 {3,S} {5,S}
-5   [Cs,Cb]  u0 {1,S} {4,S}
+1 * Css       u0 {2,S} {5,S} {6,S}
+2   [Css,Cb]  u0 {1,S} {3,S}
+3   [Css,Cb]  u0 {2,S} {4,S}
+4   [Css,Cb]  u0 {3,S} {5,S}
+5   [Css,Cb]  u0 {1,S} {4,S}
 6   O2s		 u0 {1,S} {7,S}
 7   H		 u0 {6,S}
 """,
@@ -480,12 +480,12 @@ entry(
 	label = "methylenecyclopentane",
 	group = 
 """
-1 * Cd     u0 {2,S} {5,S} {6,D}
-2   Cs     u0 {1,S} {3,S}
-3   Cs     u0 {2,S} {4,S}
-4   Cs     u0 {3,S} {5,S}
-5   Cs     u0 {1,S} {4,S}
-6   [Cd,N] u0 {1,D}
+1 * Cdb     u0 {2,S} {5,S} {6,D}
+2   Css     u0 {1,S} {3,S}
+3   Css     u0 {2,S} {4,S}
+4   Css     u0 {3,S} {5,S}
+5   Css     u0 {1,S} {4,S}
+6   [Cdb,N] u0 {1,D}
 """,
 	solute = SoluteData(
 		S = 0.02089,
@@ -547,9 +547,9 @@ entry(
 """
 1   CO   u0 {2,S} {5,S}
 2 * O2s  u0 {1,S} {3,S}
-3   Cs   u0 {2,S} {4,S}
-4   Cs   u0 {3,S} {5,S}
-5   Cs   u0 {1,S} {4,S}
+3   Css   u0 {2,S} {4,S}
+4   Css   u0 {3,S} {5,S}
+5   Css   u0 {1,S} {4,S}
 """,
 	solute = SoluteData(
 		S = 0.09798,
@@ -1076,10 +1076,10 @@ entry(
 	group = 
 """
 1 * C     u0 {2,S} {5,S}
-2   Cd    u0 {1,S} {3,D}
-3   Cd    u0 {2,D} {4,S}
-4   Cd    u0 {3,S} {5,D}
-5   Cd    u0 {1,S} {4,D}
+2   Cdb    u0 {1,S} {3,D}
+3   Cdb    u0 {2,D} {4,S}
+4   Cdb    u0 {3,S} {5,D}
+5   Cdb    u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = -0.03717,
@@ -1108,10 +1108,10 @@ entry(
 	group = 
 """
 1 * O      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+2   Cdb     u0 {1,S} {3,D}
+3   Cdb     u0 {2,D} {4,S}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.02936,
@@ -1140,10 +1140,10 @@ entry(
 	group = 
 """
 1 * N      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+2   Cdb     u0 {1,S} {3,D}
+3   Cdb     u0 {2,D} {4,S}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.09574,
@@ -1172,10 +1172,10 @@ entry(
 	group = 
 """
 1 * S    u0 {2,S} {5,S}
-2   Cd   u0 {1,S} {3,D}
-3   Cd   u0 {2,D} {4,S}
-4   Cd   u0 {3,S} {5,D}
-5   Cd   u0 {1,S} {4,D}
+2   Cdb   u0 {1,S} {3,D}
+3   Cdb   u0 {2,D} {4,S}
+4   Cdb   u0 {3,S} {5,D}
+5   Cdb   u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = -0.00182,
@@ -1205,9 +1205,9 @@ entry(
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+3   Cdb     u0 {2,D} {4,S}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.05857,
@@ -1236,10 +1236,10 @@ entry(
 	group = 
 """
 1 * N      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D}
+2   Cdb     u0 {1,S} {3,D}
 3   N      u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.00875,
@@ -1268,10 +1268,10 @@ entry(
 	group = 
 """
 1 * N      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D} {6,S}
+2   Cdb     u0 {1,S} {3,D} {6,S}
 3   N      u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 6   N5dc   u0 {2,S} {7,D} {8,S}
 7   O2d    u0 {6,D}
 8   O0sc   u0 {6,S}
@@ -1304,9 +1304,9 @@ entry(
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
+3   Cdb     u0 {2,D} {4,S}
 4   N      u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.11808,
@@ -1338,7 +1338,7 @@ entry(
 2   N      u0 {1,S} {3,D}
 3   N      u0 {2,D} {4,S}
 4   N      u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = -0.02691,
@@ -1368,7 +1368,7 @@ entry(
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
+3   Cdb     u0 {2,D} {4,S}
 4   N      u0 {3,S} {5,D}
 5   N      u0 {1,S} {4,D}
 """,
@@ -1399,10 +1399,10 @@ entry(
 	group = 
 """
 1 * O      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D}
+2   Cdb     u0 {1,S} {3,D}
 3   N      u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.03086,
@@ -1432,9 +1432,9 @@ entry(
 """
 1 * O      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+3   Cdb     u0 {2,D} {4,S}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.09827,
@@ -1463,10 +1463,10 @@ entry(
 	group = 
 """
 1 * S      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D}
+2   Cdb     u0 {1,S} {3,D}
 3   N      u0 {2,D} {4,S}
-4   Cd     u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+4   Cdb     u0 {3,S} {5,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = 0.21117,
@@ -1496,9 +1496,9 @@ entry(
 """
 1 * S      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
-3   Cd     u0 {2,D} {4,S}
+3   Cdb     u0 {2,D} {4,S}
 4   N      u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = -0.01544,
@@ -1527,10 +1527,10 @@ entry(
 	group = 
 """
 1 * S      u0 {2,S} {5,S}
-2   Cd     u0 {1,S} {3,D}
+2   Cdb     u0 {1,S} {3,D}
 3   N      u0 {2,D} {4,S}
 4   N      u0 {3,S} {5,D}
-5   Cd     u0 {1,S} {4,D}
+5   Cdb     u0 {1,S} {4,D}
 """,
 	solute = SoluteData(
 		S = -0.05576,
@@ -1678,12 +1678,12 @@ entry(
 	label = "Cyclohexanol",
 	group = 
 """
-1 * Cs  u0 {2,S} {6,S} {7,S}
-2   Cs  u0 {1,S} {3,S}
-3   Cs  u0 {2,S} {4,S}
-4   Cs  u0 {3,S} {5,S}
-5   Cs  u0 {4,S} {6,S}
-6   Cs  u0 {1,S} {5,S}
+1 * Css  u0 {2,S} {6,S} {7,S}
+2   Css  u0 {1,S} {3,S}
+3   Css  u0 {2,S} {4,S}
+4   Css  u0 {3,S} {5,S}
+5   Css  u0 {4,S} {6,S}
+6   Css  u0 {1,S} {5,S}
 7   O2s u0 {1,S} {8,S}
 8   H   u0 {7,S}
 """,
@@ -1713,15 +1713,15 @@ entry(
 	label = "N-Cyclohexylacetamide",
 	group = 
 """
-1 * Cs  u0 {2,S} {6,S} {7,S}
-2   Cs  u0 {1,S} {3,S}
-3   Cs  u0 {2,S} {4,S}
-4   Cs  u0 {3,S} {5,S}
-5   Cs  u0 {4,S} {6,S}
-6   Cs  u0 {1,S} {5,S}
+1 * Css  u0 {2,S} {6,S} {7,S}
+2   Css  u0 {1,S} {3,S}
+3   Css  u0 {2,S} {4,S}
+4   Css  u0 {3,S} {5,S}
+5   Css  u0 {4,S} {6,S}
+6   Css  u0 {1,S} {5,S}
 7   N3s u0 {1,S} {8,S} {10,S}
 8   CO  u0 {7,S} {9,S}
-9   Cs  u0 {8,S} {11,S} {12,S} {13,S}
+9   Css  u0 {8,S} {11,S} {12,S} {13,S}
 10  H   u0 {7,S}
 11  H   u0 {9,S}
 12  H   u0 {9,S}
@@ -1754,11 +1754,11 @@ entry(
 	group = 
 """
 1   O2s u0 {2,S} {6,S}
-2 * Cs u0 {1,S} {3,S}
+2 * Css u0 {1,S} {3,S}
 3   O2s u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
-6   Cs u0 {1,S} {5,S}
+4   Css u0 {3,S} {5,S}
+5   Css u0 {4,S} {6,S}
+6   Css u0 {1,S} {5,S}
 """,
 	solute = SoluteData(
 		S = 0.15619,
@@ -1786,11 +1786,11 @@ entry(
 	label = "1,4-Dioxane",
 	group = 
 """
-1   Cs u0 {2,S} {6,S}
-2   Cs u0 {1,S} {3,S}
+1   Css u0 {2,S} {6,S}
+2   Css u0 {1,S} {3,S}
 3 * O2s u0 {2,S} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
+4   Css u0 {3,S} {5,S}
+5   Css u0 {4,S} {6,S}
 6   O2s u0 {1,S} {5,S}
 """,
 	solute = SoluteData(
@@ -1819,11 +1819,11 @@ entry(
 	label = "1,3,5-Trioxane",
 	group = 
 """
-1   Cs u0 {2,S} {6,S}
+1   Css u0 {2,S} {6,S}
 2   O2s u0 {1,S} {3,S}
-3   Cs u0 {2,S} {4,S}
+3   Css u0 {2,S} {4,S}
 4 * O2s u0 {3,S} {5,S}
-5   Cs u0 {4,S} {6,S}
+5   Css u0 {4,S} {6,S}
 6   O2s u0 {1,S} {5,S}
 """,
 	solute = SoluteData(
@@ -2502,8 +2502,8 @@ entry(
 """
 1   C  u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
-3 * Cd u0 {2,S} {4,D}
-4   Cd u0 {3,D} {5,S}
+3 * Cdb u0 {2,S} {4,D}
+4   Cdb u0 {3,D} {5,S}
 5   C  u0 {4,S} {6,S}
 6   C  u0 {1,S} {5,S}
 """,
@@ -2535,8 +2535,8 @@ entry(
 """
 1   N  u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
-3 * Cd u0 {2,S} {4,D}
-4   Cd u0 {3,D} {5,S}
+3 * Cdb u0 {2,S} {4,D}
+4   Cdb u0 {3,D} {5,S}
 5   N  u0 {4,S} {6,S}
 6   C  u0 {1,S} {5,S}
 """,
@@ -2556,8 +2556,8 @@ entry(
 """
 1   N  u0 {2,S} {6,S}
 2   CO u0 {1,S} {3,S}
-3 * Cd u0 {2,S} {4,D}
-4   Cd u0 {3,D} {5,S}
+3 * Cdb u0 {2,S} {4,D}
+4   Cdb u0 {3,D} {5,S}
 5   N  u0 {4,S} {6,S}
 6   CO u0 {1,S} {5,S}
 """,
@@ -2589,8 +2589,8 @@ entry(
 """
 1   N   u0 {2,S} {6,S}
 2   C   u0 {1,S} {3,S}
-3 * Cd  u0 {2,S} {4,D}
-4   Cd  u0 {3,D} {5,S}
+3 * Cdb  u0 {2,S} {4,D}
+4   Cdb  u0 {3,D} {5,S}
 5   C   u0 {4,S} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
@@ -2623,7 +2623,7 @@ entry(
 1   C   u0 {2,S} {6,S}
 2   N3s u0 {1,S} {3,S}
 3 * N3d u0 {2,S} {4,D}
-4   Cd  u0 {3,D} {5,S}
+4   Cdb  u0 {3,D} {5,S}
 5   C   u0 {4,S} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
@@ -2644,7 +2644,7 @@ entry(
 1   CO  u0 {2,S} {6,S}
 2   N3s u0 {1,S} {3,S}
 3 * N3d u0 {2,S} {4,D}
-4   Cd  u0 {3,D} {5,S}
+4   Cdb  u0 {3,D} {5,S}
 5   C   u0 {4,S} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
@@ -2696,10 +2696,10 @@ entry(
 	group = 
 """
 1 * C   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
-5   Cd  u0 {4,D} {6,S}
+2   Cdb  u0 {1,S} {3,D}
+3   Cdb  u0 {2,D} {4,S}
+4   Cdb  u0 {3,S} {5,D}
+5   Cdb  u0 {4,D} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
 	solute = SoluteData(
@@ -2729,10 +2729,10 @@ entry(
 	group = 
 """
 1 * N   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
-5   Cd  u0 {4,D} {6,S}
+2   Cdb  u0 {1,S} {3,D}
+3   Cdb  u0 {2,D} {4,S}
+4   Cdb  u0 {3,S} {5,D}
+5   Cdb  u0 {4,D} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
 	solute = SoluteData(
@@ -2763,9 +2763,9 @@ entry(
 """
 1 * C   u0 {2,S} {6,S}
 2   N   u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
-5   Cd  u0 {4,D} {6,S}
+3   Cdb  u0 {2,D} {4,S}
+4   Cdb  u0 {3,S} {5,D}
+5   Cdb  u0 {4,D} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
 	solute = u'1,2-Dihydropyridine',
@@ -2783,9 +2783,9 @@ entry(
 	group = 
 """
 1 * N   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
+2   Cdb  u0 {1,S} {3,D}
+3   Cdb  u0 {2,D} {4,S}
+4   Cdb  u0 {3,S} {5,D}
 5   N   u0 {4,D} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
@@ -2804,9 +2804,9 @@ entry(
 	group = 
 """
 1 * N   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
+2   Cdb  u0 {1,S} {3,D}
+3   Cdb  u0 {2,D} {4,S}
+4   Cdb  u0 {3,S} {5,D}
 5   N   u0 {4,D} {6,S}
 6   CO  u0 {1,S} {5,S}
 """,
@@ -2837,10 +2837,10 @@ entry(
 	group = 
 """
 1 * N   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   N   u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
-5   Cd  u0 {4,D} {6,S}
+4   Cdb  u0 {3,S} {5,D}
+5   Cdb  u0 {4,D} {6,S}
 6   C   u0 {1,S} {5,S}
 """,
 	solute = u'3H-Pyrimidin-4-one',
@@ -2858,10 +2858,10 @@ entry(
 	group = 
 """
 1 * N   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   N   u0 {2,D} {4,S}
-4   Cd  u0 {3,S} {5,D}
-5   Cd  u0 {4,D} {6,S}
+4   Cdb  u0 {3,S} {5,D}
+5   Cdb  u0 {4,D} {6,S}
 6   CO  u0 {1,S} {5,S}
 """,
 	solute = SoluteData(
@@ -2912,11 +2912,11 @@ entry(
 	group = 
 """
 1 * C  u0 {2,S} {6,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
+2   Cdb u0 {1,S} {3,D}
+3   Cdb u0 {2,D} {4,S}
 4   C  u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {1,S} {5,D}
+5   Cdb u0 {4,S} {6,D}
+6   Cdb u0 {1,S} {5,D}
 """,
 	solute = SoluteData(
 		S = 0.01625,
@@ -2945,11 +2945,11 @@ entry(
 	group = 
 """
 1 * CO  u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S}
+2   Cdb  u0 {1,S} {3,D}
+3   Cdb  u0 {2,D} {4,S}
 4   CO  u0 {3,S} {5,S}
-5   Cd  u0 {4,S} {6,D}
-6   Cd  u0 {1,S} {5,D}
+5   Cdb  u0 {4,S} {6,D}
+6   Cdb  u0 {1,S} {5,D}
 """,
 	solute = SoluteData(
 		S = -0.26091,
@@ -2978,11 +2978,11 @@ entry(
 	group = 
 """
 1 * N  u0 {2,S} {6,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
+2   Cdb u0 {1,S} {3,D}
+3   Cdb u0 {2,D} {4,S}
 4   C  u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {1,S} {5,D}
+5   Cdb u0 {4,S} {6,D}
+6   Cdb u0 {1,S} {5,D}
 """,
 	solute = SoluteData(
 		S = -0.02787,
@@ -3011,11 +3011,11 @@ entry(
 	group = 
 """
 1 * N   u0 {2,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cd  u0 {2,D} {4,S} {7,S}
+2   Cdb  u0 {1,S} {3,D}
+3   Cdb  u0 {2,D} {4,S} {7,S}
 4   CO  u0 {3,S} {5,S}
-5   Cd  u0 {4,S} {6,D}
-6   Cd  u0 {1,S} {5,D}
+5   Cdb  u0 {4,S} {6,D}
+6   Cdb  u0 {1,S} {5,D}
 7   O2s u0 {3,S} {8,S}
 8   H   u0 {7,S}
 """,
@@ -3046,11 +3046,11 @@ entry(
 	group = 
 """
 1 * O  u0 {2,S} {6,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
+2   Cdb u0 {1,S} {3,D}
+3   Cdb u0 {2,D} {4,S}
 4   C  u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {1,S} {5,D}
+5   Cdb u0 {4,S} {6,D}
+6   Cdb u0 {1,S} {5,D}
 """,
 	solute = SoluteData(
 		S = 0.03439,
@@ -3079,11 +3079,11 @@ entry(
 	group = 
 """
 1 * O  u0 {2,S} {6,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
+2   Cdb u0 {1,S} {3,D}
+3   Cdb u0 {2,D} {4,S}
 4   CO u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D} {7,S}
-6   Cd u0 {1,S} {5,D}
+5   Cdb u0 {4,S} {6,D} {7,S}
+6   Cdb u0 {1,S} {5,D}
 7   O  u0 {5,S} {8,S}
 8   H  u0 {7,S}
 """,
@@ -3398,7 +3398,7 @@ entry(
 5   N   u0 {4,S} {6,D}
 6   C   u0 {1,S} {5,D}
 7   S2s u0 {2,S} {8,S}
-8   Cs  u0 {7,S}
+8   Css  u0 {7,S}
 """,
 	solute = SoluteData(
 		S = 0.02772,
@@ -3433,7 +3433,7 @@ entry(
 5   N   u0 {4,S} {6,D}
 6   C   u0 {1,S} {5,D}
 7   O2s u0 {2,S} {8,S}
-8   Cs  u0 {7,S}
+8   Css  u0 {7,S}
 """,
 	solute = SoluteData(
 		S = -0.04153,
@@ -3656,8 +3656,8 @@ entry(
 1 * C  u0 {2,S} {7,S}
 2   C  u0 {1,S} {3,S}
 3   C  u0 {2,S} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
+4   Cdb u0 {3,S} {5,D}
+5   Cdb u0 {4,D} {6,S}
 6   C  u0 {5,S} {7,S}
 7   C  u0 {1,S} {6,S}
 """,
@@ -3744,12 +3744,12 @@ entry(
 	group = 
 """
 1 * C  u0 {2,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cd u0 {5,S} {7,D}
-7   Cd u0 {1,S} {6,D}
+2   Cdb u0 {1,S} {3,D}
+3   Cdb u0 {2,D} {4,S}
+4   Cdb u0 {3,S} {5,D}
+5   Cdb u0 {4,D} {6,S}
+6   Cdb u0 {5,S} {7,D}
+7   Cdb u0 {1,S} {6,D}
 """,
 	solute = SoluteData(
 		S = 0.05462,
@@ -3951,8 +3951,8 @@ entry(
 	label = "Cyclooctene",
 	group = 
 """
-1 * Cd u0 {2,D} {8,S}
-2   Cd u0 {1,D} {3,S}
+1 * Cdb u0 {2,D} {8,S}
+2   Cdb u0 {1,D} {3,S}
 3   C  u0 {2,S} {4,S}
 4   C  u0 {3,S} {5,S}
 5   C  u0 {4,S} {6,S}
@@ -4009,10 +4009,10 @@ entry(
 	label = "1,3-cyclooctadiene",
 	group = 
 """
-1 * Cd u0 {2,D} {8,S}
-2   Cd u0 {1,D} {3,S}
-3   Cd u0 {2,S} {4,D}
-4   Cd u0 {3,D} {5,S}
+1 * Cdb u0 {2,D} {8,S}
+2   Cdb u0 {1,D} {3,S}
+3   Cdb u0 {2,S} {4,D}
+4   Cdb u0 {3,D} {5,S}
 5   C  u0 {4,S} {6,S}
 6   C  u0 {5,S} {7,S}
 7   C  u0 {6,S} {8,S}
@@ -4055,12 +4055,12 @@ entry(
 	label = "1,5-cyclooctadiene",
 	group = 
 """
-1 * Cd u0 {2,D} {8,S}
-2   Cd u0 {1,D} {3,S}
+1 * Cdb u0 {2,D} {8,S}
+2   Cdb u0 {1,D} {3,S}
 3   C  u0 {2,S} {4,S}
 4   C  u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
+5   Cdb u0 {4,S} {6,D}
+6   Cdb u0 {5,D} {7,S}
 7   C  u0 {6,S} {8,S}
 8   C  u0 {1,S} {7,S}
 """,
@@ -4113,14 +4113,14 @@ entry(
 	label = "Cyclooctatetraene",
 	group = 
 """
-1 * Cd u0 {2,D} {8,S}
-2   Cd u0 {1,D} {3,S}
-3   Cd u0 {2,S} {4,D}
-4   Cd u0 {3,D} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {7,S}
-7   Cd u0 {6,S} {8,D}
-8   Cd u0 {1,S} {7,D}
+1 * Cdb u0 {2,D} {8,S}
+2   Cdb u0 {1,D} {3,S}
+3   Cdb u0 {2,S} {4,D}
+4   Cdb u0 {3,D} {5,S}
+5   Cdb u0 {4,S} {6,D}
+6   Cdb u0 {5,D} {7,S}
+7   Cdb u0 {6,S} {8,D}
+8   Cdb u0 {1,S} {7,D}
 """,
 	solute = SoluteData(
 		S = -0.04873,

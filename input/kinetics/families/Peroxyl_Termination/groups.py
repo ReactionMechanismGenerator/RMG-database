@@ -185,7 +185,7 @@ entry(
 3 *3 O   u1 {2,S}
 4 *4 H   u0 {1,S}
 5    H   u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cdb,Ct,Cb] u0 {1,S} 
 """,
     kinetics = None,
 )
@@ -200,7 +200,7 @@ entry(
 3 *3 O   u1 {2,S}
 4 *4 H   u0 {1,S}
 5    R!H u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cdb,Ct,Cb] u0 {1,S} 
 """,
     kinetics = None,
 )
@@ -215,7 +215,7 @@ entry(
 3 *6 O   u1 {2,S}
 4    H   u0 {1,S}
 5    H   u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cdb,Ct,Cb] u0 {1,S} 
 """,
     kinetics = None,
 )
@@ -230,7 +230,7 @@ entry(
 3 *6 O   u1 {2,S}
 4    H   u0 {1,S}
 5    R!H u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cdb,Ct,Cb] u0 {1,S} 
 """,
     kinetics = None,
 )
@@ -245,7 +245,7 @@ entry(
 3 *6 O   u1 {2,S}
 4    R!H u0 {1,S}
 5    R!H u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cdb,Ct,Cb] u0 {1,S} 
 """,
     kinetics = None,
 )

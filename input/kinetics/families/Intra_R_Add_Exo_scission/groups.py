@@ -89,9 +89,9 @@ forbidden(
     label = "1H_naphthalene_1",
     group = 
 """
-1  *1 Cs u1 {2,S} {10,S}
-2     Cd u0 {1,S} {3,D}
-3     Cd u0 {2,D} {4,S}
+1  *1 Css u1 {2,S} {10,S}
+2     Cdb u0 {1,S} {3,D}
+3     Cdb u0 {2,D} {4,S}
 4     Cb u0 {3,S} {5,B} {9,B}
 5     Cb u0 {4,B} {6,B}
 6     Cb u0 {5,B} {7,B}
@@ -112,9 +112,9 @@ forbidden(
     label = "1H_naphthalene_2",
     group = 
 """
-1  *1 Cs u1 {2,S} {10,S}
-2     Cd u0 {1,S} {3,D}
-3     Cd u0 {2,D} {4,S}
+1  *1 Css u1 {2,S} {10,S}
+2     Cdb u0 {1,S} {3,D}
+3     Cdb u0 {2,D} {4,S}
 4     Cb u0 {3,S} {5,B} {9,B}
 5     Cb u0 {4,B} {6,B}
 6     Cb u0 {5,B} {7,B}
@@ -136,9 +136,9 @@ forbidden(
     group = 
 """
 1  *1 C  u1 {2,S}
-2  *3 Cs u0 {1,S} {3,S} {10,S}
-3     Cd u0 {2,S} {4,D}
-4     Cd u0 {3,D} {5,S}
+2  *3 Css u0 {1,S} {3,S} {10,S}
+3     Cdb u0 {2,S} {4,D}
+4     Cdb u0 {3,D} {5,S}
 5     Cb u0 {4,S} {6,B} {10,B}
 6     Cb u0 {5,B} {7,B}
 7     Cb u0 {6,B} {8,B}
@@ -159,9 +159,9 @@ forbidden(
     group = 
 """
 1  *1 C  u1 {2,S}
-2  *3 Cs u0 {1,S} {3,S} {10,S}
-3     Cd u0 {2,S} {4,D}
-4     Cd u0 {3,D} {5,S}
+2  *3 Css u0 {1,S} {3,S} {10,S}
+3     Cdb u0 {2,S} {4,D}
+4     Cdb u0 {3,D} {5,S}
 5     Cb u0 {4,S} {6,B} {10,B}
 6     Cb u0 {5,B} {7,B}
 7     Cb u0 {6,B} {8,B}

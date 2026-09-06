@@ -70,7 +70,7 @@ entry(
     label = "me_carbene",
     group = 
 """
-1    Cs u0 {2,S} {3,S} {4,S} {5,S}
+1    Css u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 C  u0 p1 {1,S} {6,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
@@ -102,8 +102,8 @@ entry(
     label = "dime_carbene",
     group = 
 """
-1    Cs u0 {3,S} {4,S} {5,S} {6,S}
-2    Cs u0 {3,S} {7,S} {8,S} {9,S}
+1    Css u0 {3,S} {4,S} {5,S} {6,S}
+2    Css u0 {3,S} {7,S} {8,S} {9,S}
 3 *3 C  u0 p1 {1,S} {2,S}
 4    H  u0 {1,S}
 5    H  u0 {1,S}
@@ -158,7 +158,7 @@ entry(
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 O      u0 {1,D}
 3    H      u0 {1,S}
-4    [Cs,O] u0 {1,S}
+4    [Css,O] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -171,7 +171,7 @@ entry(
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
 3    H             u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
+4    [Cdb,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -183,8 +183,8 @@ entry(
 """
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 O      u0 {1,D}
-3    [Cs,O] u0 {1,S}
-4    [Cs,O] u0 {1,S}
+3    [Css,O] u0 {1,S}
+4    [Css,O] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -196,8 +196,8 @@ entry(
 """
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
-3    [Cs,O]        u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
+3    [Css,O]        u0 {1,S}
+4    [Cdb,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -209,8 +209,8 @@ entry(
 """
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
-3    [Cd,Ct,Cb,CO] u0 {1,S}
-4    [Cd,Ct,Cb,CO] u0 {1,S}
+3    [Cdb,Ct,Cb,CO] u0 {1,S}
+4    [Cdb,Ct,Cb,CO] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -236,7 +236,7 @@ entry(
 1 *1 CS       u0 {2,D} {3,S} {4,S}
 2 *2 S        u0 {1,D}
 3    H        u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
+4    [Css,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -249,7 +249,7 @@ entry(
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
 3    H                u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -261,8 +261,8 @@ entry(
 """
 1 *1 CS       u0 {2,D} {3,S} {4,S}
 2 *2 S        u0 {1,D}
-3    [Cs,O,S] u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
+3    [Css,O,S] u0 {1,S}
+4    [Css,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -274,8 +274,8 @@ entry(
 """
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
-3    [Cs,O,S]         u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Css,O,S]         u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -287,8 +287,8 @@ entry(
 """
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -298,8 +298,8 @@ entry(
     label = "mb_db",
     group = 
 """
-1 *1 [Cd,Cdd,N] u0 {2,D}
-2 *2 [Cd,Cdd,N] u0 {1,D}
+1 *1 [Cdb,Cdd,N] u0 {2,D}
+2 *2 [Cdb,Cdd,N] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -310,8 +310,8 @@ entry(
     group = 
 """
 1 *1 Cdd      u0 {2,D} {3,D}
-2 *2 Cd       u0 {1,D}
-3    [Cd,Cdd] u0 {1,D}
+2 *2 Cdb       u0 {1,D}
+3    [Cdb,Cdd] u0 {1,D}
 """,
     kinetics = None,
 )
@@ -321,8 +321,8 @@ entry(
     label = "mb_db_unsub",
     group = 
 """
-1 *1 Cd u0 {2,D} {3,S} {4,S}
-2 *2 Cd u0 {1,D} {5,S} {6,S}
+1 *1 Cdb u0 {2,D} {3,S} {4,S}
+2 *2 Cdb u0 {1,D} {5,S} {6,S}
 3    H  u0 {1,S}
 4    H  u0 {1,S}
 5    H  u0 {2,S}
@@ -336,8 +336,8 @@ entry(
     label = "mb_db_monosub",
     group = 
 """
-1 *1 Cd  u0 {2,D} {3,S} {4,S}
-2 *2 Cd  u0 {1,D} {5,S} {6,S}
+1 *1 Cdb  u0 {2,D} {3,S} {4,S}
+2 *2 Cdb  u0 {1,D} {5,S} {6,S}
 3    H   u0 {1,S}
 4    H   u0 {1,S}
 5    H   u0 {2,S}
@@ -351,12 +351,12 @@ entry(
     label = "mb_db_monosub_Nd",
     group = 
 """
-1 *1 Cd       u0 {2,D} {3,S} {4,S}
-2 *2 Cd       u0 {1,D} {5,S} {6,S}
+1 *1 Cdb       u0 {2,D} {3,S} {4,S}
+2 *2 Cdb       u0 {1,D} {5,S} {6,S}
 3    H        u0 {1,S}
 4    H        u0 {1,S}
 5    H        u0 {2,S}
-6    [Cs,O,S] u0 {2,S}
+6    [Css,O,S] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -366,12 +366,12 @@ entry(
     label = "mb_db_monosub_De",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
 4    H                u0 {1,S}
 5    H                u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -381,8 +381,8 @@ entry(
     label = "mb_db_onecdisub",
     group = 
 """
-1 *1 Cd  u0 {2,D} {3,S} {4,S}
-2 *2 Cd  u0 {1,D} {5,S} {6,S}
+1 *1 Cdb  u0 {2,D} {3,S} {4,S}
+2 *2 Cdb  u0 {1,D} {5,S} {6,S}
 3    H   u0 {1,S}
 4    H   u0 {1,S}
 5    R!H u0 {2,S}
@@ -396,12 +396,12 @@ entry(
     label = "mb_db_onecdisub_Nd",
     group = 
 """
-1 *1 Cd       u0 {2,D} {3,S} {4,S}
-2 *2 Cd       u0 {1,D} {5,S} {6,S}
+1 *1 Cdb       u0 {2,D} {3,S} {4,S}
+2 *2 Cdb       u0 {1,D} {5,S} {6,S}
 3    H        u0 {1,S}
 4    H        u0 {1,S}
-5    [Cs,O,S] u0 {2,S}
-6    [Cs,O,S] u0 {2,S}
+5    [Css,O,S] u0 {2,S}
+6    [Css,O,S] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -411,12 +411,12 @@ entry(
     label = "mb_db_onecdisub_oneDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
 4    H                u0 {1,S}
-5    [Cs,O,S]         u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+5    [Css,O,S]         u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -426,12 +426,12 @@ entry(
     label = "mb_db_onecdisub_twoDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
 4    H                u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+5    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -441,8 +441,8 @@ entry(
     label = "mb_db_twocdisub",
     group = 
 """
-1 *1 Cd  u0 {2,D} {3,S} {4,S}
-2 *2 Cd  u0 {1,D} {5,S} {6,S}
+1 *1 Cdb  u0 {2,D} {3,S} {4,S}
+2 *2 Cdb  u0 {1,D} {5,S} {6,S}
 3    H   u0 {1,S}
 4    R!H u0 {1,S}
 5    H   u0 {2,S}
@@ -456,12 +456,12 @@ entry(
     label = "mb_db_twocdisub_Nd",
     group = 
 """
-1 *1 Cd       u0 {2,D} {3,S} {4,S}
-2 *2 Cd       u0 {1,D} {5,S} {6,S}
+1 *1 Cdb       u0 {2,D} {3,S} {4,S}
+2 *2 Cdb       u0 {1,D} {5,S} {6,S}
 3    H        u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
+4    [Css,O,S] u0 {1,S}
 5    H        u0 {2,S}
-6    [Cs,O,S] u0 {2,S}
+6    [Css,O,S] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -471,12 +471,12 @@ entry(
     label = "mb_db_twocdisub_oneDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cs,O,S]         u0 {1,S}
+4    [Css,O,S]         u0 {1,S}
 5    H                u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -486,12 +486,12 @@ entry(
     label = "mb_db_twocdisub_twoDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 5    H                u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -501,8 +501,8 @@ entry(
     label = "mb_db_trisub",
     group = 
 """
-1 *1 Cd  u0 {2,D} {3,S} {4,S}
-2 *2 Cd  u0 {1,D} {5,S} {6,S}
+1 *1 Cdb  u0 {2,D} {3,S} {4,S}
+2 *2 Cdb  u0 {1,D} {5,S} {6,S}
 3    H   u0 {1,S}
 4    R!H u0 {1,S}
 5    R!H u0 {2,S}
@@ -516,12 +516,12 @@ entry(
     label = "mb_db_trisub_Nd",
     group = 
 """
-1 *1 Cd       u0 {2,D} {3,S} {4,S}
-2 *2 Cd       u0 {1,D} {5,S} {6,S}
+1 *1 Cdb       u0 {2,D} {3,S} {4,S}
+2 *2 Cdb       u0 {1,D} {5,S} {6,S}
 3    H        u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
-5    [Cs,O,S] u0 {2,S}
-6    [Cs,O,S] u0 {2,S}
+4    [Css,O,S] u0 {1,S}
+5    [Css,O,S] u0 {2,S}
+6    [Css,O,S] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -531,12 +531,12 @@ entry(
     label = "mb_db_trisub_oneMDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cs,O,S]         u0 {2,S}
-6    [Cs,O,S]         u0 {2,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+5    [Css,O,S]         u0 {2,S}
+6    [Css,O,S]         u0 {2,S}
 """,
     kinetics = None,
 )
@@ -546,12 +546,12 @@ entry(
     label = "mb_db_trisub_oneDDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cs,O,S]         u0 {1,S}
-5    [Cs,O,S]         u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+4    [Css,O,S]         u0 {1,S}
+5    [Css,O,S]         u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -561,12 +561,12 @@ entry(
     label = "mb_db_trisub_onectwoDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cs,O,S]         u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+4    [Css,O,S]         u0 {1,S}
+5    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -576,12 +576,12 @@ entry(
     label = "mb_db_trisub_twoctwoDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cs,O,S]         u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+5    [Css,O,S]         u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -591,12 +591,12 @@ entry(
     label = "mb_db_trisub_threeDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
 3    H                u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+5    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -606,8 +606,8 @@ entry(
     label = "mb_db_tetrasub",
     group = 
 """
-1 *1 Cd  u0 {2,D} {3,S} {4,S}
-2 *2 Cd  u0 {1,D} {5,S} {6,S}
+1 *1 Cdb  u0 {2,D} {3,S} {4,S}
+2 *2 Cdb  u0 {1,D} {5,S} {6,S}
 3    R!H u0 {1,S}
 4    R!H u0 {1,S}
 5    R!H u0 {2,S}
@@ -621,12 +621,12 @@ entry(
     label = "mb_db_tetrasub_Nd",
     group = 
 """
-1 *1 Cd       u0 {2,D} {3,S} {4,S}
-2 *2 Cd       u0 {1,D} {5,S} {6,S}
-3    [Cs,O,S] u0 {1,S}
-4    [Cs,O,S] u0 {1,S}
-5    [Cs,O,S] u0 {2,S}
-6    [Cs,O,S] u0 {2,S}
+1 *1 Cdb       u0 {2,D} {3,S} {4,S}
+2 *2 Cdb       u0 {1,D} {5,S} {6,S}
+3    [Css,O,S] u0 {1,S}
+4    [Css,O,S] u0 {1,S}
+5    [Css,O,S] u0 {2,S}
+6    [Css,O,S] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -636,12 +636,12 @@ entry(
     label = "mb_db_tetrasub_oneDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
-3    [Cs,O,S]         u0 {1,S}
-4    [Cs,O,S]         u0 {1,S}
-5    [Cs,O,S]         u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
+3    [Css,O,S]         u0 {1,S}
+4    [Css,O,S]         u0 {1,S}
+5    [Css,O,S]         u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -651,12 +651,12 @@ entry(
     label = "mb_db_tetrasub_onectwoDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
-3    [Cs,O,S]         u0 {1,S}
-4    [Cs,O,S]         u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
+3    [Css,O,S]         u0 {1,S}
+4    [Css,O,S]         u0 {1,S}
+5    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -666,12 +666,12 @@ entry(
     label = "mb_db_tetrasub_twoctwoDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
-3    [Cs,O,S]         u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cs,O,S]         u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
+3    [Css,O,S]         u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+5    [Css,O,S]         u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -681,12 +681,12 @@ entry(
     label = "mb_db_tetrasub_threeDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
-3    [Cs,O,S]         u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
+3    [Css,O,S]         u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+5    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -696,12 +696,12 @@ entry(
     label = "mb_db_tetrasub_fourDe",
     group = 
 """
-1 *1 Cd               u0 {2,D} {3,S} {4,S}
-2 *2 Cd               u0 {1,D} {5,S} {6,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+1 *1 Cdb               u0 {2,D} {3,S} {4,S}
+2 *2 Cdb               u0 {1,D} {5,S} {6,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+5    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
+6    [Cdb,Ct,Cb,CO,CS] u0 {2,S}
 """,
     kinetics = None,
 )
@@ -750,7 +750,7 @@ entry(
 """
 1 *1 Ct           u0 {2,T} {3,S}
 2 *2 Ct           u0 {1,T} {4,S}
-3    [Cs,O2s,S2s] u0 {1,S}
+3    [Css,O2s,S2s] u0 {1,S}
 4    H            u0 {2,S}
 """,
     kinetics = None,
@@ -776,8 +776,8 @@ entry(
 """
 1 *1 Ct           u0 {2,T} {3,S}
 2 *2 Ct           u0 {1,T} {4,S}
-3    [Cs,O2s,S2s] u0 {1,S}
-4    [Cs,O2s,S2s] u0 {2,S}
+3    [Css,O2s,S2s] u0 {1,S}
+4    [Css,O2s,S2s] u0 {2,S}
 """,
     kinetics = None,
 )

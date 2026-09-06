@@ -35,11 +35,11 @@ entry(
     label = "linear_1_3_5_hexatriene",
     group = 
 """
-1  *3 Cd u0 {2,S} {3,D} {8,S}
-2  *2 Cd u0 {1,S} {4,D} {7,S}
-3  *4 Cd u0 {1,D} {5,S} {9,S}
+1  *3 Cdb u0 {2,S} {3,D} {8,S}
+2  *2 Cdb u0 {1,S} {4,D} {7,S}
+3  *4 Cdb u0 {1,D} {5,S} {9,S}
 4  *1 C  u0 {2,D}
-5  *5 Cd u0 {3,S} {6,D} {10,S}
+5  *5 Cdb u0 {3,S} {6,D} {10,S}
 6  *6 C  u0 {5,D}
 7     R  u0 {2,S}
 8     R  u0 {1,S}
@@ -54,12 +54,12 @@ entry(
     label = "fulvene",
     group = 
 """
-1 *3 Cd u0 {2,S} {3,D}
-2 *2 Cd u0 {1,S} {4,D} {6,S}
-3 *4 Cd u0 {1,D} {5,S}
+1 *3 Cdb u0 {2,S} {3,D}
+2 *2 Cdb u0 {1,S} {4,D} {6,S}
+3 *4 Cdb u0 {1,D} {5,S}
 4 *1 C  u0 {2,D}
-5 *5 Cd u0 {3,S} {6,D}
-6 *6 Cd u0 {2,S} {5,D}
+5 *5 Cdb u0 {3,S} {6,D}
+6 *6 Cdb u0 {2,S} {5,D}
 """,
     kinetics = None,
 )
@@ -69,10 +69,10 @@ entry(
     label = "linear_1_3_hexadien_5_yne",
     group = 
 """
-1  *3 Cd u0 {2,S} {3,D} {8,S}
-2  *2 Cd u0 {1,S} {4,D} {7,S}
-3  *4 Cd u0 {1,D} {5,S} {9,S}
-4  *1 Cd u0 {2,D} {11,S} {12,S}
+1  *3 Cdb u0 {2,S} {3,D} {8,S}
+2  *2 Cdb u0 {1,S} {4,D} {7,S}
+3  *4 Cdb u0 {1,D} {5,S} {9,S}
+4  *1 Cdb u0 {2,D} {11,S} {12,S}
 5  *5 Ct u0 {3,S} {6,T}
 6  *6 Ct u0 p0 {5,T} {10,S}
 7     R  u0 {2,S}
@@ -98,11 +98,11 @@ forbidden(
     label = "delocalized_radical_chain_1",
     group = 
 """
-1 *3 Cd  u0 {2,S} {3,D}
-2 *2 Cd  u0 {1,S} {4,D}
-3 *4 Cd  u0 {1,D} {5,S}
+1 *3 Cdb  u0 {2,S} {3,D}
+2 *2 Cdb  u0 {1,S} {4,D}
+3 *4 Cdb  u0 {1,D} {5,S}
 4 *1 C   u0 {2,D} {7,S}
-5 *5 Cd  u0 {3,S} {6,D}
+5 *5 Cdb  u0 {3,S} {6,D}
 6 *6 C   u0 {5,D}
 7    R!H u1 {4,S}
 """,
@@ -118,11 +118,11 @@ forbidden(
     label = "delocalized_radical_chain_2",
     group = 
 """
-1 *3 Cd  u0 {2,S} {3,D}
-2 *2 Cd  u0 {1,S} {4,D}
-3 *4 Cd  u0 {1,D} {5,S}
+1 *3 Cdb  u0 {2,S} {3,D}
+2 *2 Cdb  u0 {1,S} {4,D}
+3 *4 Cdb  u0 {1,D} {5,S}
 4 *1 C   u0 {2,D}
-5 *5 Cd  u0 {3,S} {6,D}
+5 *5 Cdb  u0 {3,S} {6,D}
 6 *6 C   u0 {5,D} {7,S}
 7    R!H u1 {6,S}
 """,
@@ -138,11 +138,11 @@ forbidden(
     label = "delocalized_radical_chain_3",
     group = 
 """
-1 *3 Cd  u0 {2,S} {3,D}
-2 *2 Cd  u0 {1,S} {4,D}
-3 *4 Cd  u0 {1,D} {5,S}
+1 *3 Cdb  u0 {2,S} {3,D}
+2 *2 Cdb  u0 {1,S} {4,D}
+3 *4 Cdb  u0 {1,D} {5,S}
 4 *1 C   u0 {2,D} {7,S}
-5 *5 Cd  u0 {3,S} {6,D}
+5 *5 Cdb  u0 {3,S} {6,D}
 6 *6 C   u0 {5,D}
 7    R!H u0 {4,S} {8,D}
 8    R!H u0 {7,D} {9,S}
@@ -160,11 +160,11 @@ forbidden(
     label = "delocalized_radical_chain_4",
     group = 
 """
-1 *3 Cd  u0 {2,S} {3,D}
-2 *2 Cd  u0 {1,S} {4,D}
-3 *4 Cd  u0 {1,D} {5,S}
+1 *3 Cdb  u0 {2,S} {3,D}
+2 *2 Cdb  u0 {1,S} {4,D}
+3 *4 Cdb  u0 {1,D} {5,S}
 4 *1 C   u0 {2,D}
-5 *5 Cd  u0 {3,S} {6,D}
+5 *5 Cdb  u0 {3,S} {6,D}
 6 *6 C   u0 {5,D} {7,S}
 7    R!H u0 {6,S} {8,D}
 8    R!H u0 {7,D} {9,S}
