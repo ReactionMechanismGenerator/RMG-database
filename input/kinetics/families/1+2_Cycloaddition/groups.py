@@ -22,7 +22,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "elec_def",
-    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom_singlet, S_atom_singlet, imidogen_singlet}",
+    group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, difluorocarbene, o_atom_singlet, S_atom_singlet, imidogen_singlet}",
     kinetics = None,
 )
 
@@ -36,7 +36,7 @@ entry(
 entry(
     index = 2,
     label = "o_atom_singlet",
-    group = 
+    group =
 """
 1 *3 O u0 p3 c0
 """,
@@ -782,6 +782,18 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 56,
+    label = "difluorocarbene",
+    group =
+"""
+1 *3 C2s u0 p1 {2,S} {3,S}
+2    F1s u0 p3 {1,S}
+3    F1s u0 p3 {1,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: elec_def
@@ -791,6 +803,7 @@ L1: elec_def
     L2: me_carbene
     L2: ph_carbene
     L2: dime_carbene
+    L2: difluorocarbene
     L2: imidogen_singlet
 L1: multiplebond
     L2: mb_carbonyl
@@ -855,4 +868,3 @@ u"""
 This will form unreasonable structures such as C=N + C1[O-](N1)[N+]#N <=> C1[O-](N1)[N+]#N
 """,
 )
-
