@@ -1337,19 +1337,23 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[3.89836,-0.00355878,3.55205e-05,-4.385e-08,1.71078e-11,-46778.6,7.34954], Tmin=(200,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[4.61383,0.00644964,-2.29083e-06,3.6716e-10,-2.18737e-14,-45330.3,0.847884], Tmin=(1000,'K'), Tmax=(6000,'K')),
-        ],
+            NASAPolynomial(coeffs=[3.89836,-0.00355878,3.55205e-05,-4.385e-08,1.71078e-11,-46770.6,7.34954], Tmin=(200,'K'), Tmax=(1000,'K')),
+            NASAPolynomial(coeffs=[4.61383,0.00644964,-2.29083e-06,3.6716e-10,-2.18737e-14,-47514.8,0.847884], Tmin=(1000,'K'), Tmax=(6000,'K')),
+       ],
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""L 8/88""",
     longDesc = 
 u"""
-FORMIC ACID A 5/14
-Fabian WMF Janoschek R J Mol Struct THEOCHEM 2005, 713, 227?234
-CL Rasmussen J Hansen P Marshall P Glarborg Int J Chem Kinet 40 (2008) 454-480
-
+FORMIC ACID
+The values used in P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein
+"Modeling nitrogen chemistry in combustion" Progress in Energy and Combustion Science
+Volume 67, July 2018, Pages 31-68 https://doi.org/10.1016/j.pecs.2018.01.002
+that this thermo library is based on, come from Burcat's 2014 compilation.
+But that has a discontinuity in the polynomials.
+See https://github.com/ReactionMechanismGenerator/RMG-database/issues/703
+We have reverted to the Burcat 2010 values.
 O=CO
 """,
 )
