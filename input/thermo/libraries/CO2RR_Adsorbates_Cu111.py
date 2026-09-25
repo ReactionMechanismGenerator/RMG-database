@@ -29,8 +29,9 @@ EDIFF = 1E-6 eV, no dipole correction. Slab: 4x4 Cu(111), 4 layers
 NFREE = 2, POTIM = 0.015 A) on the free atoms (adsorbate + top 2 layers).
 
 Post-processing and thermo (Torrie Asifor) via the Westgroup pipeline
-(adapted from input_generator.py and compute_NASA_for_adsorbates): VASP
-outputs converted to ASE .traj and inspected; vibrational frequencies
+(adapted from input_generator.py and compute_NASA_for_adsorbates, see
+https://github.com/comocheng/CO2_RR_DFT):
+VASP outputs converted to ASE .traj and inspected; vibrational frequencies
 and ZPEs consolidated into per-species zpe_log_<species>.txt files;
 imaginary modes replaced with 12 cm^-1. Heat of formation at 0 K was
 computed from a thermochemical cycle against CH4, H2O, and H2 references
