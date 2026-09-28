@@ -28,10 +28,10 @@ entry(
     label = "Root",
     group = 
 """
-1 *1 [Cd,Cdd,CO,CS]         u0 {2,D}
-2 *2 [Cd,Cdd,CO,CS,O2d,S2d] u0 {1,D}
-3 *3 [Cd,Cdd,CO,CS]         u0 {4,D}
-4 *4 [Cd,Cdd,CO,CS,O2d,S2d]    u0 {3,D}
+1 *1 [Cdb,Cdd,CO,CS]         u0 {2,D}
+2 *2 [Cdb,Cdd,CO,CS,O2d,S2d] u0 {1,D}
+3 *3 [Cdb,Cdd,CO,CS]         u0 {4,D}
+4 *4 [Cdb,Cdd,CO,CS,O2d,S2d]    u0 {3,D}
 """,
     kinetics = None,
 )
@@ -41,9 +41,9 @@ entry(
     label = "Root_1COCSCdCdd->Cd",
     group = 
 """
-1 *1 Cd                  u0 {2,D}
-2 *2 Cd                  u0 {1,D}
-3 *3 [Cd,Cdd,CO,CS]      u0 {4,D}
+1 *1 Cdb                  u0 {2,D}
+2 *2 Cdb                  u0 {1,D}
+3 *3 [Cdb,Cdd,CO,CS]      u0 {4,D}
 4 *4 [Cdd,CO,CS,O2d,S2d] u0 {3,D}
 """,
     kinetics = None,
@@ -54,8 +54,8 @@ entry(
     label = "Root_1COCSCdCdd->Cd_3COCSCdCdd->CO",
     group = 
 """
-1 *1 Cd  u0 r0 {2,D}
-2 *2 Cd  u0 r0 {1,D}
+1 *1 Cdb  u0 r0 {2,D}
+2 *2 Cdb  u0 r0 {1,D}
 3 *3 CO  u0 r0 {4,D}
 4 *4 O2d u0 r0 {3,D}
 """,
@@ -67,9 +67,9 @@ entry(
     label = "Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO",
     group = 
 """
-1 *1 Cd                  u0 {2,D}
-2 *2 Cd                  u0 {1,D}
-3 *3 [Cd,CS]             u0 {4,D}
+1 *1 Cdb                  u0 {2,D}
+2 *2 Cdb                  u0 {1,D}
+3 *3 [Cdb,CS]             u0 {4,D}
 4 *4 [Cdd,CO,CS,O2d,S2d] u0 {3,D}
 """,
     kinetics = None,
@@ -80,9 +80,9 @@ entry(
     label = "Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO_3CSCd->Cd",
     group = 
 """
-1 *1 Cd                  u0 r0 {2,D}
-2 *2 Cd                  u0 r0 {1,D}
-3 *3 Cd                  u0 r0 {4,D}
+1 *1 Cdb                  u0 r0 {2,D}
+2 *2 Cdb                  u0 r0 {1,D}
+3 *3 Cdb                  u0 r0 {4,D}
 4 *4 [Cdd,CO,CS,O2d,S2d] u0 r0 {3,D}
 """,
     kinetics = None,
@@ -93,8 +93,8 @@ entry(
     label = "Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO_N-3CSCd->Cd",
     group = 
 """
-1 *1 Cd                  u0 r0 {2,D}
-2 *2 Cd                  u0 r0 {1,D}
+1 *1 Cdb                  u0 r0 {2,D}
+2 *2 Cdb                  u0 r0 {1,D}
 3 *3 CS                  u0 r0 {4,D}
 4 *4 [Cdd,CO,CS,O2d,S2d] u0 r0 {3,D}
 """,
@@ -107,8 +107,8 @@ entry(
     group = 
 """
 1 *1 [CO,Cdd,CS]            u0 r0 {2,D}
-2 *2 [Cd,Cdd,CO,CS,O2d,S2d] u0 r0 {1,D}
-3 *3 [Cd,Cdd,CO,CS]         u0 r0 {4,D}
+2 *2 [Cdb,Cdd,CO,CS,O2d,S2d] u0 r0 {1,D}
+3 *3 [Cdb,Cdd,CO,CS]         u0 r0 {4,D}
 4 *4 [Cdd,CO,CS,O2d,S2d]    u0 r0 {3,D}
 """,
     kinetics = None,
@@ -130,12 +130,12 @@ forbidden(
     label = "benzene_db",
     group = 
 """
-1 *1 Cd u0 {2,D} {6,S}
-2 *2 Cd u0 {1,D} {3,S}
-3    Cd ux {2,S} {4,D}
-4    Cd ux {3,D} {5,S}
-5    Cd ux {4,S} {6,D}
-6    Cd ux {1,S} {5,D}
+1 *1 Cdb u0 {2,D} {6,S}
+2 *2 Cdb u0 {1,D} {3,S}
+3    Cdb ux {2,S} {4,D}
+4    Cdb ux {3,D} {5,S}
+5    Cdb ux {4,S} {6,D}
+6    Cdb ux {1,S} {5,D}
 """,
     shortDesc = """Benzene doublebond *1 *2""",
     longDesc = 
@@ -148,12 +148,12 @@ forbidden(
     label = "benzene_doublebond",
     group = 
 """
-1 *3 Cd u0 {2,D} {6,S}
-2 *4 Cd u0 {1,D} {3,S}
-3    Cd ux {2,S} {4,D}
-4    Cd ux {3,D} {5,S}
-5    Cd ux {4,S} {6,D}
-6    Cd ux {1,S} {5,D}
+1 *3 Cdb u0 {2,D} {6,S}
+2 *4 Cdb u0 {1,D} {3,S}
+3    Cdb ux {2,S} {4,D}
+4    Cdb ux {3,D} {5,S}
+5    Cdb ux {4,S} {6,D}
+6    Cdb ux {1,S} {5,D}
 """,
     shortDesc = """Benzene doublebond *3 *4""",
     longDesc = 
@@ -182,10 +182,10 @@ forbidden(
     label = "2+2_cycloaddition_CdCd_reactant",
     group = 
 """
-1  *4 Cd u0 p0 c0 {2,D}
-2  *3 Cd u0 p0 c0 {1,D}
-3  *2 Cd u0 p0 c0 {4,D}
-4  *1 Cd u0 p0 c0 {3,D}
+1  *4 Cdb u0 p0 c0 {2,D}
+2  *3 Cdb u0 p0 c0 {1,D}
+3  *2 Cdb u0 p0 c0 {4,D}
+4  *1 Cdb u0 p0 c0 {3,D}
 """,
     shortDesc = """2+2_cycloaddition_CdCd""",
     longDesc = 

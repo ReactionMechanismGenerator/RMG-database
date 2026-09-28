@@ -59,7 +59,7 @@ entry(
     group = 
 """
 1 *2 [O,S]             u0 {2,S} {3,S}
-2 *4 [Cs,Cd,Sid,Sis,N] u0 {1,S} {4,[S,D]}
+2 *4 [Css,Cdb,Sid,Sis,N] u0 {1,S} {4,[S,D]}
 3 *3 [O,S]             u0 {1,S} {5,S}
 4 *1 [C,Sid,Sis,N]     u1 {2,[S,D]}
 5    H                 u0 {3,S}
@@ -73,7 +73,7 @@ entry(
     group = 
 """
 1 *2 [O,S]         u0 {2,S} {3,S}
-2 *4 [Cs,Cd]       u0 {1,S} {4,S}
+2 *4 [Css,Cdb]       u0 {1,S} {4,S}
 3 *3 [O,S]         u0 {1,S} {5,S}
 4 *1 [C,Sid,Sis,N] u1 {2,S}
 5    H             u0 {3,S}
@@ -87,7 +87,7 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,D}
-2 *4 Cd            u0 {1,D} {3,S}
+2 *4 Cdb            u0 {1,D} {3,S}
 3 *2 [O,S]         u0 {2,S} {4,S}
 4 *3 [O,S]         u0 {3,S} {5,S}
 5    H             u0 {4,S}
@@ -100,9 +100,9 @@ entry(
     label = "R3OOH",
     group = 
 """
-1 *5 [Cs,Cd,Sid,Sis,N] u0 {2,S} {3,[S,D]}
+1 *5 [Css,Cdb,Sid,Sis,N] u0 {2,S} {3,[S,D]}
 2 *2 [O,S]             u0 {1,S} {4,S}
-3 *4 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {5,[S,D]}
+3 *4 [Css,Cdb,Sid,Sis,N] u0 {1,[S,D]} {5,[S,D]}
 4 *3 [O,S]             u0 {2,S} {6,S}
 5 *1 [C,Sid,Sis,N]     u1 {3,[S,D]}
 6    H                 u0 {4,S}
@@ -115,9 +115,9 @@ entry(
     label = "R3OOH_SS",
     group = 
 """
-1 *5 [Cs,Cd]       u0 {2,S} {3,S}
+1 *5 [Css,Cdb]       u0 {2,S} {3,S}
 2 *2 [O,S]         u0 {1,S} {4,S}
-3 *4 [Cs,Cd]       u0 {1,S} {5,S}
+3 *4 [Css,Cdb]       u0 {1,S} {5,S}
 4 *3 [O,S]         u0 {2,S} {6,S}
 5 *1 [C,Sid,Sis,N] u1 {3,S}
 6    H             u0 {4,S}
@@ -131,8 +131,8 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *4 Cd            u0 {1,S} {3,D}
-3 *5 Cd            u0 {2,D} {4,S}
+2 *4 Cdb            u0 {1,S} {3,D}
+3 *5 Cdb            u0 {2,D} {4,S}
 4 *2 [O,S]         u0 {3,S} {5,S}
 5 *3 [O,S]         u0 {4,S} {6,S}
 6    H             u0 {5,S}
@@ -146,8 +146,8 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,D}
-2 *4 Cd            u0 {1,D} {3,S}
-3 *5 [Cs,Cd]       u0 {2,S} {4,S}
+2 *4 Cdb            u0 {1,D} {3,S}
+3 *5 [Css,Cdb]       u0 {2,S} {4,S}
 4 *2 [O,S]         u0 {3,S} {5,S}
 5 *3 [O,S]         u0 {4,S} {6,S}
 6    H             u0 {5,S}
@@ -160,10 +160,10 @@ entry(
     label = "R4OOH",
     group = 
 """
-1 *5 [Cs,Cd,Sid,Sis,N] u0 {2,[S,D]} {3,S}
-2 *6 [Cs,Cd,Sid,Sis,N] u0 {1,[S,D]} {4,[S,D]}
+1 *5 [Css,Cdb,Sid,Sis,N] u0 {2,[S,D]} {3,S}
+2 *6 [Css,Cdb,Sid,Sis,N] u0 {1,[S,D]} {4,[S,D]}
 3 *2 [O,S]             u0 {1,S} {5,S}
-4 *4 [Cs,Cd,Sid,Sis,N] u0 {2,[S,D]} {6,[S,D]}
+4 *4 [Css,Cdb,Sid,Sis,N] u0 {2,[S,D]} {6,[S,D]}
 5 *3 [O,S]             u0 {3,S} {7,S}
 6 *1 [C,Sid,Sis,N]     u1 {4,[S,D]}
 7    H                 u0 {5,S}
@@ -176,10 +176,10 @@ entry(
     label = "R4OOH_SSS",
     group = 
 """
-1 *5 [Cs,Cd]       u0 {2,S} {3,S}
-2 *6 [Cs,Cd]       u0 {1,S} {4,S}
+1 *5 [Css,Cdb]       u0 {2,S} {3,S}
+2 *6 [Css,Cdb]       u0 {1,S} {4,S}
 3 *2 [O,S]         u0 {1,S} {5,S}
-4 *4 [Cs,Cd]       u0 {2,S} {6,S}
+4 *4 [Css,Cdb]       u0 {2,S} {6,S}
 5 *3 [O,S]         u0 {3,S} {7,S}
 6 *1 [C,Sid,Sis,N] u1 {4,S}
 7    H             u0 {5,S}
@@ -193,9 +193,9 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *4 [Cs,Cd]       u0 {1,S} {3,S}
-3 *6 Cd            u0 {2,S} {4,D}
-4 *5 Cd            u0 {3,D} {5,S}
+2 *4 [Css,Cdb]       u0 {1,S} {3,S}
+3 *6 Cdb            u0 {2,S} {4,D}
+4 *5 Cdb            u0 {3,D} {5,S}
 5 *2 [O,S]         u0 {4,S} {6,S}
 6 *3 [O,S]         u0 {5,S} {7,S}
 7    H             u0 {6,S}
@@ -209,9 +209,9 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,S}
-2 *4 Cd            u0 {1,S} {3,D}
-3 *6 Cd            u0 {2,D} {4,S}
-4 *5 [Cs,Cd]       u0 {3,S} {5,S}
+2 *4 Cdb            u0 {1,S} {3,D}
+3 *6 Cdb            u0 {2,D} {4,S}
+4 *5 [Css,Cdb]       u0 {3,S} {5,S}
 5 *2 [O,S]         u0 {4,S} {6,S}
 6 *3 [O,S]         u0 {5,S} {7,S}
 7    H             u0 {6,S}
@@ -225,9 +225,9 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,D}
-2 *4 Cd            u0 {1,D} {3,S}
-3 *6 [Cs,Cd]       u0 {2,S} {4,S}
-4 *5 [Cs,Cd]       u0 {3,S} {5,S}
+2 *4 Cdb            u0 {1,D} {3,S}
+3 *6 [Css,Cdb]       u0 {2,S} {4,S}
+4 *5 [Css,Cdb]       u0 {3,S} {5,S}
 5 *2 [O,S]         u0 {4,S} {6,S}
 6 *3 [O,S]         u0 {5,S} {7,S}
 7    H             u0 {6,S}
@@ -241,9 +241,9 @@ entry(
     group = 
 """
 1 *1 [C,Sid,Sis,N] u1 {2,D}
-2 *4 Cd            u0 {1,D} {3,S}
-3 *6 Cd            u0 {2,S} {4,D}
-4 *5 Cd            u0 {3,D} {5,S}
+2 *4 Cdb            u0 {1,D} {3,S}
+3 *6 Cdb            u0 {2,S} {4,D}
+4 *5 Cdb            u0 {3,D} {5,S}
 5 *2 [O,S]         u0 {4,S} {6,S}
 6 *3 [O,S]         u0 {5,S} {7,S}
 7    H             u0 {6,S}
@@ -256,7 +256,7 @@ entry(
     label = "Cd_rad_out",
     group = 
 """
-1 *1 [Cd,Cdd] u1
+1 *1 [Cdb,Cdd] u1
 """,
     kinetics = None,
 )
@@ -266,8 +266,8 @@ entry(
     label = "Cd_rad_out_double",
     group = 
 """
-1 *1 [Cd,Cdd] u1 {2,D}
-2    Cd       u0 {1,D}
+1 *1 [Cdb,Cdd] u1 {2,D}
+2    Cdb       u0 {1,D}
 """,
     kinetics = None,
 )
@@ -277,7 +277,7 @@ entry(
     label = "Cd_rad_out_H",
     group = 
 """
-1 *1 Cd u1 {2,S}
+1 *1 Cdb u1 {2,S}
 2    H  u0 {1,S}
 """,
     kinetics = None,
@@ -288,8 +288,8 @@ entry(
     label = "Cd_rad_out_ND",
     group = 
 """
-1 *1 Cd       u1 {2,S}
-2    [Cs,O,S] u0 {1,S}
+1 *1 Cdb       u1 {2,S}
+2    [Css,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -299,8 +299,8 @@ entry(
     label = "Cd_rad_out_De",
     group = 
 """
-1 *1 Cd               u1 {2,S}
-2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+1 *1 Cdb               u1 {2,S}
+2    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -335,8 +335,8 @@ entry(
     group = 
 """
 1 *1 C        u1 {2,S} {3,S}
-2    [Cs,O,S] u0 {1,S}
-3    [Cs,O,S] u0 {1,S}
+2    [Css,O,S] u0 {1,S}
+3    [Css,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -347,8 +347,8 @@ entry(
     group = 
 """
 1 *1 C  u1 {2,S} {3,S}
-2    Cs u0 {1,S}
-3    Cs u0 {1,S}
+2    Css u0 {1,S}
+3    Css u0 {1,S}
 """,
     kinetics = None,
 )
@@ -360,7 +360,7 @@ entry(
 """
 1 *1 C        u1 {2,S} {3,S}
 2    O        u0 {1,S}
-3    [Cs,O,S] u0 {1,S}
+3    [Css,O,S] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -371,8 +371,8 @@ entry(
     group = 
 """
 1 *1 C                u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    [Cs,O,S]         u0 {1,S}
+2    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+3    [Css,O,S]         u0 {1,S}
 """,
     kinetics = None,
 )
@@ -383,8 +383,8 @@ entry(
     group = 
 """
 1 *1 C                u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    Cs               u0 {1,S}
+2    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+3    Css               u0 {1,S}
 """,
     kinetics = None,
 )
@@ -395,7 +395,7 @@ entry(
     group = 
 """
 1 *1 C                u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+2    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 3    [O,S]            u0 {1,S}
 """,
     kinetics = None,
@@ -407,8 +407,8 @@ entry(
     group = 
 """
 1 *1 C                u1 {2,S} {3,S}
-2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+2    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -432,7 +432,7 @@ entry(
 """
 1 *1 C  u1 {2,S} {3,S}
 2    H  u0 {1,S}
-3    Cs u0 {1,S}
+3    Css u0 {1,S}
 """,
     kinetics = None,
 )
@@ -456,7 +456,7 @@ entry(
 """
 1 *1 C                u1 {2,S} {3,S}
 2    H                u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )

@@ -62,7 +62,7 @@ entry(
     label = "Css",
     group = 
 """
-1 * Cs u0
+1 * Css u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -77,7 +77,7 @@ entry(
     label = "CssH3",
     group = 
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -102,7 +102,7 @@ entry(
     label = "CssH2",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 {1,S}
 3   H   u0 {1,S}
 4   R!H u0 {1,S}
@@ -127,7 +127,7 @@ entry(
     label = "CssH",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 {1,S}
 3   R!H u0 {1,S}
 4   R!H u0 {1,S}
@@ -152,7 +152,7 @@ entry(
     label = "Css-noH",
     group = 
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
 3   R!H u0 {1,S}
 4   R!H u0 {1,S}
@@ -177,7 +177,7 @@ entry(
     label = "Cds",
     group = 
 """
-1 * [Cd,CO] u0
+1 * [Cdb,CO] u0
 """,
     solute = None,
     shortDesc = u"""""",
@@ -192,7 +192,7 @@ entry(
     label = "CdsH2",
     group = 
 """
-1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
+1 * [Cdb,CO] u0 {2,S} {3,S} {4,D}
 2   H       u0 {1,S}
 3   H       u0 {1,S}
 4   R!H     u0 {1,D}
@@ -216,7 +216,7 @@ entry(
     label = "CdsH",
     group = 
 """
-1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
+1 * [Cdb,CO] u0 {2,S} {3,S} {4,D}
 2   H       u0 {1,S}
 3   R!H     u0 {1,S}
 4   R!H     u0 {1,D}
@@ -240,7 +240,7 @@ entry(
     label = "Cds-noH",
     group = 
 """
-1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
+1 * [Cdb,CO] u0 {2,S} {3,S} {4,D}
 2   R!H     u0 {1,S}
 3   R!H     u0 {1,S}
 4   R!H     u0 {1,D}

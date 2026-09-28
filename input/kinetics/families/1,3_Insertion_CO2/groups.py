@@ -33,8 +33,8 @@ entry(
 1 *1 Cdd            u0 {2,D} {3,D}
 2 *2 O2d            u0 {1,D}
 3    O2d            u0 {1,D}
-4 *3 [H,Cs,Cd,Cb,N] u0 c0 {5,S}
-5 *4 [H,Cs,Cd,Cb,N] u0 c0 {4,S}
+4 *3 [H,Css,Cdb,Cb,N] u0 c0 {5,S}
+5 *4 [H,Css,Cdb,Cb,N] u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -47,8 +47,8 @@ entry(
 1 *1 Cdd            u0 {2,D} {3,D}
 2 *2 O2d            u0 {1,D}
 3    O2d            u0 {1,D}
-4 *3 [H,Cs,Cd,Cb,N] u0 c0 {5,S}
-5 *4 Cs             u0 c0 {4,S}
+4 *3 [H,Css,Cdb,Cb,N] u0 c0 {5,S}
+5 *4 Css             u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -61,8 +61,8 @@ entry(
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
 3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S}
-5 *4 Cs  u0 c0 {4,S}
+4 *3 Css  u0 c0 {5,S}
+5 *4 Css  u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -76,7 +76,7 @@ entry(
 2 *2 O2d   u0 {1,D}
 3    O2d   u0 {1,D}
 4 *3 [H,N] u0 c0 {5,S}
-5 *4 Cs    u0 c0 {4,S}
+5 *4 Css    u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -89,8 +89,8 @@ entry(
 1 *1 Cdd            u0 {2,D} {3,D}
 2 *2 O2d            u0 {1,D}
 3    O2d            u0 {1,D}
-4 *3 [H,Cs,Cd,Cb,N] u0 c0 {5,S}
-5 *4 [Cd,Cb,H,N]    u0 c0 {4,S}
+4 *3 [H,Css,Cdb,Cb,N] u0 c0 {5,S}
+5 *4 [Cdb,Cb,H,N]    u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -104,7 +104,7 @@ entry(
 2 *2 O2d         u0 {1,D}
 3    O2d         u0 {1,D}
 4 *3 H           u0 c0 {5,S}
-5 *4 [Cd,Cb,H,N] u0 c0 {4,S}
+5 *4 [Cdb,Cb,H,N] u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -118,7 +118,7 @@ entry(
 2 *2 O2d u0 {1,D}
 3    O2d u0 {1,D}
 4 *3 H   u0 c0 {5,S}
-5 *4 Cd  u0 c0 {4,S}
+5 *4 Cdb  u0 c0 {4,S}
 """,
     kinetics = None,
 )
@@ -132,7 +132,7 @@ entry(
 2 *2 O2d u0 {1,D}
 3    O2d u0 {1,D}
 4 *3 H   u0 c0 r0 {5,S}
-5 *4 Cd  u0 c0 r0 {4,S} {6,D}
+5 *4 Cdb  u0 c0 r0 {4,S} {6,D}
 6    N   u0 r0 {5,D} {7,[S,D,T,B,Q]}
 7    R!H ux {6,[S,D,T,B,Q]}
 """,
@@ -161,7 +161,7 @@ entry(
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
 3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S}
+4 *3 Css  u0 c0 {5,S}
 5 *4 H   u0 c0 {4,S}
 """,
     kinetics = None,
@@ -175,7 +175,7 @@ entry(
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
 3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S} {6,[S,D,T,B,Q]}
+4 *3 Css  u0 c0 {5,S} {6,[S,D,T,B,Q]}
 5 *4 H   u0 c0 {4,S}
 6    R!H ux {4,[S,D,T,B,Q]}
 """,
@@ -190,7 +190,7 @@ entry(
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
 3    O2d u0 {1,D}
-4 *3 Cs  u0 c0 {5,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+4 *3 Css  u0 c0 {5,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
 5 *4 H   u0 c0 {4,S}
 6    R!H ux {4,[S,D,T,B,Q]}
 7    R!H ux {4,[S,D,T,B,Q]}

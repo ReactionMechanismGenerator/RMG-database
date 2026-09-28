@@ -35,8 +35,8 @@ entry(
     group =
 """
 1 *1 Val7   u0 {2,S}
-2 *2 Cs     u0 {1,S} {3,S}
-3 *3 Cs     u0 {2,S} {4,S}
+2 *2 Css     u0 {1,S} {3,S}
+3 *3 Css     u0 {2,S} {4,S}
 4 *4 Val7   u0 {3,S}
 """,
     kinetics = None,
@@ -48,8 +48,8 @@ entry(
     group =
 """
 1 *1 F1s   u0 {2,S}
-2 *2 Cs    u0 {1,S} {3,S}
-3 *3 Cs    u0 {2,S} {4,S}
+2 *2 Css    u0 {1,S} {3,S}
+3 *3 Css    u0 {2,S} {4,S}
 4 *4 F1s   u0 {3,S}
 """,
     kinetics = None,
@@ -61,8 +61,8 @@ entry(
     group =
 """
 1 *1 Cl1s  u0 {2,S}
-2 *2 Cs    u0 {1,S} {3,S}
-3 *3 Cs    u0 {2,S} {4,S}
+2 *2 Css    u0 {1,S} {3,S}
+3 *3 Css    u0 {2,S} {4,S}
 4 *4 Cl1s  u0 {3,S}
 """,
     kinetics = None,
@@ -74,8 +74,8 @@ entry(
     group =
 """
 1 *1 Br1s  u0 {2,S}
-2 *2 Cs    u0 {1,S} {3,S}
-3 *3 Cs    u0 {2,S} {4,S}
+2 *2 Css    u0 {1,S} {3,S}
+3 *3 Css    u0 {2,S} {4,S}
 4 *4 Br1s  u0 {3,S}
 """,
     kinetics = None,
@@ -87,8 +87,8 @@ entry(
     group =
 """
 1 *1 F1s  u0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S}
-3 *3 Cs   u0 {2,S} {4,S}
+2 *2 Css   u0 {1,S} {3,S}
+3 *3 Css   u0 {2,S} {4,S}
 4 *4 Cl1s u0 {3,S}
 """,
     kinetics = None,
@@ -100,8 +100,8 @@ entry(
     group =
 """
 1 *1 F1s   u0 {2,S}
-2 *2 Cs  u0 {1,S} {3,S}
-3 *3 Cs  u0 {2,S} {4,S}
+2 *2 Css  u0 {1,S} {3,S}
+3 *3 Css  u0 {2,S} {4,S}
 4 *4 Br1s  u0 {3,S}
 """,
     kinetics = None,
@@ -113,8 +113,8 @@ entry(
     group =
 """
 1 *1 Cl1s  u0 {2,S}
-2 *2 Cs    u0 {1,S} {3,S}
-3 *3 Cs    u0 {2,S} {4,S}
+2 *2 Css    u0 {1,S} {3,S}
+3 *3 Css    u0 {2,S} {4,S}
 4 *4 Br1s  u0 {3,S}
 """,
     kinetics = None,
@@ -126,8 +126,8 @@ entry(
     group =
 """
 1 *1 O2s    u0 {2,S}
-2 *2 Cs     u0 {1,S} {3,S}
-3 *3 Cs     u0 {2,S} {4,S}
+2 *2 Css     u0 {1,S} {3,S}
+3 *3 Css     u0 {2,S} {4,S}
 4 *4 Val7   u0 {3,S}
 """,
     kinetics = None,
@@ -139,8 +139,8 @@ entry(
     group =
 """
 1 *1 O2s  u0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S}
-3 *3 Cs   u0 {2,S} {4,S}
+2 *2 Css   u0 {1,S} {3,S}
+3 *3 Css   u0 {2,S} {4,S}
 4 *4 F1s  u0 {3,S}
 """,
     kinetics = None,
@@ -153,8 +153,8 @@ entry(
     group =
 """
 1 *1 O2s  u0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S}
-3 *3 Cs   u0 {2,S} {4,S}
+2 *2 Css   u0 {1,S} {3,S}
+3 *3 Css   u0 {2,S} {4,S}
 4 *4 Cl1s u0 {3,S}
 """,
     kinetics = None,
@@ -167,8 +167,8 @@ entry(
     group =
 """
 1 *1 O2s  u0 {2,S}
-2 *2 Cs   u0 {1,S} {3,S}
-3 *3 Cs   u0 {2,S} {4,S}
+2 *2 Css   u0 {1,S} {3,S}
+3 *3 Css   u0 {2,S} {4,S}
 4 *4 Br1s u0 {3,S}
 """,
     kinetics = None,
