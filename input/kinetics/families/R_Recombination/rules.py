@@ -2876,10 +2876,127 @@ entry(
     rank = 11,
     shortDesc = u"""BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R
 Total Standard Deviation in ln(k): 11.5401827615""",
-    longDesc = 
+    longDesc =
 u"""
 BM rule fitted to 2 training reactions at node Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_N-Sp-4R!H-2R
 Total Standard Deviation in ln(k): 11.5401827615
+""",
+)
+
+entry(
+    index = 192,
+    label = "Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_4R!H-inRing",
+    kinetics = ArrheniusBM(A=(8.89239e+18,'m^3/(mol*s)'), n=-3.855646, w0=(173000,'J/mol'), E0=(0,'J/mol'), Tmin=(673,'K'), Tmax=(1250,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_4R!H-inRing',), comment="""manual leaf (2026-07-22, phase-6): A*T^n fit (E0=0; BM Ea clamps to 0 for
+    this exothermic dHrxn range) to the exact GAV-thermo-reversed anchor curve over 673-1250 K,
+    training reaction index 5004 (diphenylmethane <=> C7H7 + C6H5), Rossi/McMillen/Golden 1984 J. Phys. Chem. 88, 5031-5039, DOI 10.1021/j150665a048, EVALUATED (not measured)."""),
+    rank = 7,
+    shortDesc = u"""manual leaf (2026-07-22, phase-6): A*T^n (E0=0) fit to exact reversed anchor 5004 (Rossi/McMillen/Golden 1984, EVALUATED, DOI 10.1021/j150665a048) over 673-1250 K at node Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_1C-inRing_Ext-1C-R_N-Sp-3R!H-1C_Ext-2R-R_N-2R-inRing_4R!H-inRing""",
+    longDesc =
+u"""
+Manual leaf (2026-07-22, phase-6). Distinguishes the benzyl + phenyl (and
+o-hydroxybenzyl + o-hydroxyphenyl) head-on recombination motif as a new
+child of node 128 (Root_..._N-2R-inRing), sibling to the existing
+Ext-2R-R and Ext-2R-R/N-4R!H->O... children, and fits it to a single
+anchor rather than inheriting the parent node's multi-reaction average.
+
+Anchor: training reaction index 5004, "C13H12_diphenylmethane <=> C7H7 + C6H5",
+degeneracy 2.0, Arrhenius(A=2.0e15 s^-1, n=0, Ea=344.2 kJ/mol, Tmin=1000 K,
+Tmax=1250 K). Rossi, M.J.; McMillen, D.F.; Golden, D.M., J. Phys. Chem. 88
+(1984) 5031-5039 (DOI 10.1021/j150665a048). Provenance class: EVALUATED, NOT
+MEASURED -- the paper's direct measurement is the benzylic C-H channel; the
+C-C homolysis value used here is the authors' thermochemical-kinetics
+extrapolation.
+
+METHOD (revised 2026-07-22, phase-6, second pass): the anchor's Ea_diss
+(344.2 kJ/mol) is well below its own GAV dHrxn_diss(298) (382.7 kJ/mol) --
+a falloff-affected (VLPP-adjacent) measurement/estimate -- so the exact
+dissociation-direction Keq-reversal (via Reaction.get_equilibrium_constant
+with GAV thermo for all three species) has a NEGATIVE effective reverse Ea
+over the relevant temperature range. A single-reaction ArrheniusBM fit
+(fit_to_reactions) with a free E0 was tried first and failed: the family's
+retrieval clamps ArrheniusBM's activation energy to 0 whenever E0<=0 and
+dHrxn<0 (exothermic recombination direction here), which silently discarded
+the negative-Ea character and produced a rule under-predicting the exact
+reversed anchor by ~3 orders of magnitude at 823 K. Corrected approach:
+set E0=0 exactly (matching what retrieval already clamps to), and instead
+carry the entire T-dependence, including the effective negative Ea, in the
+T^n prefactor by fitting A and n via ordinary least squares in log space
+(ln k = ln A + n ln T) directly to the exact reversed anchor curve
+k_rec_exact(T) = [k_diss_anchor(T)/degeneracy] / Keq_diss(T), evaluated at
+7 points over 673-1250 K (anchor's own 1000-1250 K window plus a
+benchmark-requested reach-down to 673 K). The anchor's degeneracy (2.0) is
+divided out before fitting, per this family's rate-rule convention
+(family.py get_training_set(remove_degeneracy=True)); RMG re-multiplies the
+matched reaction's own path degeneracy back in at retrieval. The resulting
+steep negative n (-3.86) is expected and is exactly how the negative
+effective Ea of the exact curve is represented under a mandatory E0=0
+constraint; extrapolating this rule outside 673-1250 K (e.g. much above
+1250 K or below 673 K) overpredicts k_rec and should be avoided.
+Quantified sub-window overshoot (2026-07-22 review): retrieval gives
+~3.5e8 m^3/(mol*s) at 500 K and ~8.2e8 at 400 K, several-fold above the
+collision-limited scale; model impact there is bounded because homolysis
+is Keq-frozen and radical pools are negligible below ~600 K, but decks
+running recombination-sensitive chemistry below 673 K should not rely on
+this leaf. rank set to 7: rank-6 EVALUATED anchor plus one transformation
+penalty (thermo-reversal + refit), so uncertainty workflows do not treat
+this anchored rule as a pure estimate.
+
+This manual leaf supersedes the parent node's generic estimate for this
+specific motif; it does not alter kinetics for any other child of the
+parent node.
+""",
+)
+
+entry(
+    index = 193,
+    label = "Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing_5R!H-inRing",
+    kinetics = ArrheniusBM(A=(1.41913e+13,'m^3/(mol*s)'), n=-1.806497, w0=(173000,'J/mol'), E0=(0,'J/mol'), Tmin=(648,'K'), Tmax=(1100,'K'), uncertainty=RateUncertainty(mu=0.0, var=33.1368631905, Tref=1000.0, N=1, correlation='Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing_5R!H-inRing',), comment="""manual leaf (2026-07-22, phase-6): A*T^n fit (E0=0; BM Ea clamps to 0 for
+    this exothermic dHrxn range) to the exact GAV-thermo-reversed anchor curve over 648-1100 K,
+    training reaction index 5002 (bibenzyl <=> C7H7 + C7H7), Stein/Robaugh/Alfieri/Miller 1982 J. Am. Chem. Soc. 104, 6567-6570, MEASURED (VLPP)."""),
+    rank = 6,
+    shortDesc = u"""manual leaf (2026-07-22, phase-6): A*T^n (E0=0) fit to exact reversed anchor 5002 (Stein et al. 1982, MEASURED VLPP) over 648-1100 K at node Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-3R!H-R_N-Sp-3R!H=2R_N-Sp-4R!H=3R!H_3R!H-inRing_5R!H-inRing""",
+    longDesc =
+u"""
+Manual leaf (2026-07-22, phase-6). Distinguishes the benzyl + benzyl
+head-on recombination motif as the sole new child of node 167
+(Root_..._3R!H-inRing), previously a childless leaf; specializes both
+radical-bearing atoms to benzylic-type (each with a new in-ring neighbor)
+rather than inheriting the parent node's own single-anchor rule as-is.
+
+Anchor: training reaction index 5002, "C14H14_bibenzyl <=> C7H7 + C7H7",
+degeneracy 1.0, Arrhenius(A=1.78e15 s^-1, n=0, Ea=261.07 kJ/mol, Tmin=648 K,
+Tmax=748 K). Stein, S.E.; Robaugh, D.A.; Alfieri, A.D.; Miller, R.E.,
+J. Am. Chem. Soc. 104 (1982) 6567-6570. Provenance class: MEASURED --
+VLPP (very-low-pressure pyrolysis) primary determination.
+
+METHOD (revised 2026-07-22, phase-6, second pass): the anchor's Ea_diss
+(261.07 kJ/mol) is below its own GAV dHrxn_diss(298) (279.0 kJ/mol) --
+consistent with a falloff-affected VLPP measurement -- so the exact
+dissociation-direction Keq-reversal (via Reaction.get_equilibrium_constant
+with GAV thermo for all three species) has a NEGATIVE effective reverse Ea
+over the relevant temperature range. As with Leaf A, a free-E0
+ArrheniusBM.fit_to_reactions() fit was tried first and failed: retrieval
+clamps ArrheniusBM's activation energy to 0 whenever E0<=0 and dHrxn<0,
+discarding the negative-Ea character and under-predicting the exact
+reversed anchor by ~4 orders of magnitude at 823 K. Corrected approach:
+set E0=0 exactly, and fit A and n by ordinary least squares in log space
+(ln k = ln A + n ln T) directly to the exact reversed anchor curve
+k_rec_exact(T) = k_diss_anchor(T)/Keq_diss(T) (degeneracy = 1.0, so no
+division needed), evaluated at 7 points over 648-1100 K (anchor's own
+648-748 K window plus a benchmark-requested reach-up to 1100 K). The
+resulting steep negative n (-1.81) is expected and is exactly how the
+negative effective Ea of the exact curve is represented under a mandatory
+E0=0 constraint; extrapolating this rule outside 648-1100 K (e.g. much
+above 1100 K or below 648 K) overpredicts k_rec and should be avoided.
+Quantified sub-window overshoot (2026-07-22 review): milder than the
+sibling manual leaf (n = -1.81); same Keq-frozen-homolysis bound applies
+below the window. rank set to 6: rank-5 MEASURED anchor plus one
+transformation penalty (thermo-reversal + refit).
+
+This manual leaf supersedes node 167's own prior generic estimate for the
+benzyl + benzyl motif specifically; it does not alter kinetics for any
+non-head-on (ring-site) benzyl + benzyl resonance channel, which is
+governed by a disjoint part of the tree.
 """,
 )
 
