@@ -35,8 +35,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H u0 px c0 {2,[S,D]}
-2 *2 R   u0 px c0 {1,[S,D]}
+1 *1 R!H u0 px c0 {2,[S]}
+2 *2 R   u0 px c0 {1,[S]}
 3 *3 Xv  u0 p0 c0
 """,
     kinetics = None,
@@ -185,8 +185,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 C  u0 p0 c0 {2,[S,D]}
-2 *2 C  u0 p0 c0 {1,[S,D]}
+1 *1 C  u0 p0 c0 {2,[S]}
+2 *2 C  u0 p0 c0 {1,[S]}
 3 *3 Xv u0 p0 c0
 """,
     kinetics = None,
@@ -198,8 +198,8 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 R!H u0 px c0 {2,[S,D]}
-2 *2 C   u0 p0 c0 {1,[S,D]}
+1 *1 R!H u0 px c0 {2,[S]}
+2 *2 C   u0 p0 c0 {1,[S]}
 3 *3 Xv  u0 p0 c0
 """,
     kinetics = None,
@@ -280,8 +280,8 @@ forbidden(
     label = "C-O",
     group =
 """
-1 *2 O u0 px cx {2,[S,D]}
-2 *1 C u0 {1,[S,D]}
+1 *2 O u0 px cx {2,[S]}
+2 *1 C u0 {1,[S]}
 3 *3 Xv u0 p0 c0
 """,
     shortDesc = u"""""",
