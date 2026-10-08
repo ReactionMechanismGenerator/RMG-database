@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 name = "LithiumPrimaryThermo"
+thermoConvention = "ion"
 shortDesc = "ARC-generated, EXCEPT the enthalpy of [Lip], which was replaced from NIST-JANAF Li-006 - see the warning in longDesc before regenerating."
 longDesc = """
 !!! THIS LIBRARY IS NO LONGER ENTIRELY THE PRODUCT OF THE LEVELS OF THEORY BELOW !!!
