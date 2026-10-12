@@ -59700,7 +59700,7 @@ chemistry corpus. Confidence: Direct.
 
 entry(
     index = 5004,
-    label = "C8H9_1phenylethyl_HCH3 <=> C8H8 + H",
+    label = "C8H9-31 <=> C8H8 + H",
     degeneracy = 3.0,
     kinetics = Arrhenius(
         A = (1.6e+13, 's^-1'),
