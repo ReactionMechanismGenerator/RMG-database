@@ -4260,8 +4260,8 @@ C8H18-5
 
 
 C14H14_bibenzyl
-1  * C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
-2  * C u0 p0 c0 {1,S} {4,S} {17,S} {18,S}
+1  *1 C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
+2  *2 C u0 p0 c0 {1,S} {4,S} {17,S} {18,S}
 3    C u0 p0 c0 {1,S} {5,B} {6,B}
 4    C u0 p0 c0 {2,S} {7,B} {8,B}
 5    C u0 p0 c0 {3,B} {9,B} {19,S}
@@ -4290,8 +4290,8 @@ C14H14_bibenzyl
 28   H u0 p0 c0 {8,S}
 
 C8H10_ethylbenzene
-1  * C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
-2  * C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+1  *1 C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+2  *2 C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
 3    C u0 p0 c0 {1,S} {4,B} {5,B}
 4    C u0 p0 c0 {3,B} {6,B} {14,S}
 5    C u0 p0 c0 {3,B} {8,B} {18,S}
@@ -4310,8 +4310,8 @@ C8H10_ethylbenzene
 18   H u0 p0 c0 {5,S}
 
 C13H12_diphenylmethane
-1  * C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
-2  * C u0 p0 c0 {1,S} {4,B} {5,B}
+1  *1 C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
+2  *2 C u0 p0 c0 {1,S} {4,B} {5,B}
 3    C u0 p0 c0 {1,S} {6,B} {7,B}
 4    C u0 p0 c0 {2,B} {8,B} {16,S}
 5    C u0 p0 c0 {2,B} {9,B} {17,S}
