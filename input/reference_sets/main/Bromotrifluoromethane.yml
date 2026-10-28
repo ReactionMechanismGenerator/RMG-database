@@ -45,7 +45,7 @@ calculated_data:
       - F
       - F
       - Br
-  LevelOfTheory(method='b3lyp2023',basis='def2tzvp',software='gaussian'):
+  LevelOfTheory(method='b3lypd3bj2023',basis='def2tzvp',software='gaussian'):
     class: CalculatedDataEntry
     thermo_data:
       H298:

@@ -94,7 +94,7 @@ atom_energies = {
         "Cl": -460.01879077751823,
         "Br": -2573.7318488665655,
     },
-    #  LevelOfTheory(method='b3lyp2023',basis='def2tzvp',software='gaussian')
+    #  LevelOfTheory(method='b3lypd3bj2023',basis='def2tzvp',software='gaussian')
     # H :     -0.50109298 +/- 0.00188833 Hartree
     # C :    -37.86564131 +/- 0.00805328 Hartree
     # N :    -54.60589709 +/- 0.00401359 Hartree
@@ -103,7 +103,7 @@ atom_energies = {
     # S :   -398.13451070 +/- 0.00392375 Hartree
     # Cl:   -460.16503889 +/- 0.00362360 Hartree
     # Br:  -2574.14434741 +/- 0.00386884 Hartree
-    "LevelOfTheory(method='b3lyp2023',basis='def2tzvp',software='gaussian')": {
+    "LevelOfTheory(method='b3lypd3bj2023',basis='def2tzvp',software='gaussian')": {
         "H": -0.5010929786112002,
         "C": -37.86564131254805,
         "N": -54.60589708581987,
@@ -1143,7 +1143,7 @@ pbac = {
         "S-S": -0.9197593963936164,
         "S=S": -2.705605038808234,
     },
-    "LevelOfTheory(method='b3lyp2023',basis='def2tzvp',software='gaussian')": {
+    "LevelOfTheory(method='b3lypd3bj2023',basis='def2tzvp',software='gaussian')": {
         "Br-Br": 3.4633544485714793,
         "Br-C": 0.8576678821501889,
         "Br-Cl": 2.2498078932330934,
@@ -1952,7 +1952,7 @@ mbac = {
         },
         "mol_corr": -3.128430008492512,
     },
-    "LevelOfTheory(method='b3lyp2023',basis='def2tzvp',software='gaussian')": {
+    "LevelOfTheory(method='b3lypd3bj2023',basis='def2tzvp',software='gaussian')": {
         "atom_corr": {
             "Br": -4.414886941279591,
             "C": -1.2788561989540084,
