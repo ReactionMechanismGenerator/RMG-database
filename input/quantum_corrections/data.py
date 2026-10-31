@@ -733,7 +733,8 @@ atom_energies = {
 
 # Petersson-type bond additivity correction parameters
 # The Br bond corrections were fitted with atom_hf["Br"] 1.481 kcal/mol too low; each was lowered by 1.481 per Br
-# atom when that value was corrected, which leaves AEC + BAC unchanged for every species with monovalent Br.
+# atom when that value was corrected, which leaves AEC + BAC unchanged for every species with monovalent Br. The
+# calculated H298 of the Br species in input/reference_sets/main were raised by 1.481 per Br atom to match.
 pbac = {
     "CompositeLevelOfTheory(freq=LevelOfTheory(method='wb97xd3',basis='def2tzvp',software='qchem'),energy=LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro'))": {
         "C#C": -0.37319831366523176,
