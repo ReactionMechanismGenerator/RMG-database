@@ -381,6 +381,7 @@ atom_energies = {
         "S": -398.10051734579775,
         "Cl": -460.1341841971797,
         "Br": -2574.175384284091,
+        "Li": -7.482264859588833,
     },
     "LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem')": {
         "H": -0.49516021903680546,
@@ -483,6 +484,7 @@ atom_energies = {
         "F": -99.6511861642652,
         "S": -397.6625539051389,
         "Cl": -459.68886861844055,
+        "Li": -7.432035855815204,
     },
     "LevelOfTheory(method='ccsd(t)f12',basis='ccpvtzf12',software='molpro')": {
         "H": -0.5003554055415579,
@@ -968,6 +970,10 @@ pbac = {
         "O=S": 0.9232025676598207,
         "S-S": 0.14102013117456597,
         "S=S": -0.9855656265939845,
+        "Cl-Li": -1.8329420878329543,
+        "F-Li": -0.5165640576012862,
+        "H-Li": 0.6502401162885221,
+        "Li-O": 1.6785386020011377,  # fit to LiOH; not for O bonded to two Li (Li2O)
     },
     "LevelOfTheory(method='b97d3',basis='def2msvp',software='qchem')": {
         "Br-Br": 0.3564897418778892,
@@ -1062,6 +1068,11 @@ pbac = {
         "O=S": -3.470457647257026,
         "S-S": -1.3273180651577856,
         "S=S": -6.864453512935457,
+        "Br-Li": -0.24864220550449545,
+        "Cl-Li": -1.6804964132635547,
+        "F-Li": -2.3520336052391286,
+        "H-Li": 2.461514503984155,
+        "Li-O": -1.0621192338158574,  # fit to LiOH; not for O bonded to two Li (Li2O)
     },
     # 'S-H', 'C-S', 'C=S', 'S-S', 'O-S', 'O=S', 'O=S=O' taken from http://hdl.handle.net/1721.1/98155 (both for
     # 'CCSD(T)-F12/cc-pVDZ-F12' and 'CCSD(T)-F12/cc-pVTZ-F12')
