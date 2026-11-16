@@ -1209,7 +1209,7 @@ entry(
         Tmin = (200,'K'),
         Tmax = (6000,'K'),
     ),
-    shortDesc = u"""FORMIC ACID A 5/14""",
+    shortDesc = u"""FORMIC ACID L 8/88""",
     longDesc = 
 u"""
 FORMIC ACID A 5/14
@@ -1221,6 +1221,10 @@ NU=3570,2943,1770,1387,1229,1105,625,1033  NEL=100  HF298=-378.5+/-0.25 kJ for
 equil. mix.  REF=ATcT C   {HF298=-378.6 kJ  REF=CHAO & ZWOLINSKI JPCRD 7.(1978),
 363   HF298=-363.9 kJ  REF=Burcat G3B3 calc}  Max Lst Sq Error Cp @6000 K 0.47%
 The polynomials were adjusted by B Ruscic..
+
+The above comment, from Burcat 2014, was used by Klippenstein and Glarborg in their 2016 work.
+But it has a discontinuity in the polynomials.
+We have reverted to the Burcat 2010 values, which omit the "The polynomials were adjusted by B Ruscic" comment.
 O=CO
 """,
 )

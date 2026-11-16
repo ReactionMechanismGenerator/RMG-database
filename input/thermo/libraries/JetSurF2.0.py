@@ -1137,13 +1137,13 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[0.797985,0.0344034,-1.24599e-05,-5.18063e-18,1.9936e-21,-648.928,21.8897], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[-4.72093,0.0391414,-6.52873e-06,-7.68209e-09,2.51473e-12,1753.52,51.719], Tmin=(1000,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[-3.59388,0.0579063,-4.97163e-05,2.15819e-08,-3.69199e-12,858.853,42.8475], Tmin=(300,'K'), Tmax=(1431,'K')),
+            NASAPolynomial(coeffs=[12.6763,0.014082,-4.63474e-06,7.01091e-10,-3.99438e-14,-4080.65,-42.2516], Tmin=(1431,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (300,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""A 8/83""",
+    shortDesc = u""" """,
     longDesc = 
 u"""
 A 8/83
@@ -3873,18 +3873,30 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.13733,0.0264862,-9.05687e-06,-5.53864e-19,2.12819e-22,15710.9,13.5294], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[9.03381,0.00821245,7.1754e-06,-5.88343e-09,1.03439e-12,14335.1,-20.9858], Tmin=(1000,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(
+                coeffs=[5.39212, 0.00298346, 5.22542e-05, -6.64727e-08, 2.56305e-11, 15362.7, -0.196129],
+                Tmin=(200, "K"),
+                Tmax=(1000, "K"),
+            ),
+            NASAPolynomial(
+                coeffs=[7.26055, 0.0180161, -6.47062e-06, 1.04411e-09, -6.24741e-14, 13812.3, -14.8554],
+                Tmin=(1000, "K"),
+                Tmax=(6000, "K"),
+            ),
         ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (6000,'K'),
     ),
-    shortDesc = u"""A 8/83""",
+    shortDesc = """A 8/83 for H298 & S298. Cp(T) from Burcat 2005""",
     longDesc = 
-u"""
-A 8/83
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+"""
 CC#CC
+Originally imported from JetSurF2.0
+H298 and S298 values from USC-Mech-ii,JetSurF,AramcoMech1.3,etc., including 2-BTP model.
+(Original source most likely estimated by Colkett, August 1983)
+Cp from Burcat 2005, because published polynomials inconsistent and discontinuous.
+New polynomials change G from original values by 1-3 kcal/mol at 1000-2000K and very little below 1000K. 
+See https://github.com/ReactionMechanismGenerator/RMG-database/pull/738
 """,
 )
 
@@ -5886,17 +5898,22 @@ multiplicity 2
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[2.96963,0.0244422,-9.12514e-06,-4.24669e-18,1.63047e-21,35503.3,12.0361], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[14.5382,-0.00856771,2.35595e-05,-1.36764e-08,2.44369e-12,33259.1,-45.3695], Tmin=(1000,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[2.31011,0.0283747,-1.63837e-05,4.46252e-09,-4.30511e-13,35584.3,14.9106], Tmin=(200,'K'), Tmax=(1385,'K')),
+            NASAPolynomial(coeffs=[10.3231,0.0117626,-4.00005e-06,6.18728e-10,-3.58084e-14,32586.1,-28.8794], Tmin=(1385,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (200,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""H6W/94""",
+    shortDesc = """H6W/94 from Curran's 2016 Pentane model""",
     longDesc = 
-u"""
+"""
 H6W/94
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+The original NASA parameters from this source had a discontinuity in the polynomials, causing errors in Cantera.
+The parameters from "Curran Pentane" libary are used here instead. The match below 1000K is identical.
+It even has the same attribution (`H6W/94`). Above 1000K the deltaG differs by 2kcal/mol up to 6kcal/mol at 2000K
+Its full source is "An ignition delay time and chemical kinetic modeling study of the pentane isomers"
+John Bugler, Brandon Marks, Olivier Mathieu, Rachel Archuleta, Alejandro Camou, Claire Gregoire, Karl A. Heufer, Eric L. Petersen, Henry J. Curran
+Combustion and Flame, 2016, 163, 138-156  https://doi.org/10.1016/j.combustflame.2015.09.014
 [CH2]C#CC
 """,
 )
@@ -6806,18 +6823,16 @@ entry(
 """,
     thermo = NASA(
         polynomials = [
-            NASAPolynomial(coeffs=[-1.55578,0.0409641,-1.69869e-05,-6.00928e-18,2.31369e-21,-14139.5,37.4708], Tmin=(298,'K'), Tmax=(1000,'K')),
-            NASAPolynomial(coeffs=[19.8795,-0.0209131,4.45361e-05,-2.60375e-08,4.86836e-12,-19527.9,-68.72], Tmin=(1000,'K'), Tmax=(3000,'K')),
+            NASAPolynomial(coeffs=[0.72685,0.0438069,-3.21168e-05,1.23414e-08,-1.96194e-12,-15964.9,22.2277], Tmin=(300,'K'), Tmax=(1390,'K')),
+            NASAPolynomial(coeffs=[13.2324,0.0141733,-4.87794e-06,7.60568e-10,-4.42614e-14,-20286.8,-44.8217], Tmin=(1390,'K'), Tmax=(5000,'K')),
         ],
-        Tmin = (298,'K'),
-        Tmax = (3000,'K'),
+        Tmin = (300,'K'),
+        Tmax = (5000,'K'),
     ),
-    shortDesc = u"""T 5/92""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-T 5/92
-Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
-CC=CC=O
+
 """,
 )
 
