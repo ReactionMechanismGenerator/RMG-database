@@ -31,8 +31,8 @@ entry(
     label = "C=C=C-C=C",
     group = 
 """
-1 *4 Cd  u0 {2,S} {4,D}
-2 *3 Cd  u0 {1,S} {5,D}
+1 *4 Cdb  u0 {2,S} {4,D}
+2 *3 Cdb  u0 {1,S} {5,D}
 3 *1 C   u0 {4,D}
 4 *5 Cdd u0 {1,D} {3,D}
 5 *2 C   u0 {2,D}
@@ -65,7 +65,7 @@ entry(
     label = "C=C=CdH2",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
 """,
@@ -77,7 +77,7 @@ entry(
     label = "C=C=CdHC",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -89,7 +89,7 @@ entry(
     label = "C=C=Cd(C)C",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2    C  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -112,7 +112,7 @@ entry(
     label = "C-C=CdH2",
     group = 
 """
-1 *2 Cd u0 {2,S} {3,S}
+1 *2 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
 """,
@@ -124,7 +124,7 @@ entry(
     label = "C-C=CdHC",
     group = 
 """
-1 *2 Cd u0 {2,S} {3,S}
+1 *2 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -136,7 +136,7 @@ entry(
     label = "C-C=Cd(C)C",
     group = 
 """
-1 *2 Cd u0 {2,S} {3,S}
+1 *2 Cdb u0 {2,S} {3,S}
 2    C  u0 {1,S}
 3    C  u0 {1,S}
 """,

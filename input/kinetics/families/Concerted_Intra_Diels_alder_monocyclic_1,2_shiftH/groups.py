@@ -42,10 +42,10 @@ entry(
     label = "linear_1_3_hexadien_5_yne",
     group = 
 """
-1  *3 Cd u0 {2,S} {3,D} {8,S}
-2  *2 Cd u0 {1,S} {4,D} {7,S}
-3  *4 Cd u0 {1,D} {5,S} {9,S}
-4  *1 Cd u0 {2,D} {11,S} {12,S}
+1  *3 Cdb u0 {2,S} {3,D} {8,S}
+2  *2 Cdb u0 {1,S} {4,D} {7,S}
+3  *4 Cdb u0 {1,D} {5,S} {9,S}
+4  *1 Cdb u0 {2,D} {11,S} {12,S}
 5  *5 Ct u0 {3,S} {6,T}
 6  *6 Ct u0 p0 {5,T} {10,S}
 7     R  u0 {2,S}

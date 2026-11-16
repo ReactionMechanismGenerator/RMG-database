@@ -115,7 +115,7 @@ entry(
 """
 1 * C  u0 p1 {2,S} {3,S}
 2   F  u0 p3 {1,S}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -252,7 +252,7 @@ entry(
 """
 1 * C  u0 p1 {2,S} {3,S}
 2   Cl u0 p3 {1,S}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -382,7 +382,7 @@ entry(
 """
 1 * C  u0 p1 {2,S} {3,S}
 2   Br u0 p3 {1,S}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -581,7 +581,7 @@ entry(
     group =
 """
 1 * C2s u0 p1 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -646,7 +646,7 @@ entry(
     label = "CdJ2_singlet-Cds",
     group =
 """
-1   Cd  u0 {2,D}
+1   Cdb  u0 {2,D}
 2 * C2d u0 p1 {1,D}
 """,
     thermo = ThermoData(
@@ -696,11 +696,11 @@ entry(
     group =
 """
 1   C   u0 {2,D}
-2   Cd  u0 {1,D} {6,S}
+2   Cdb  u0 {1,D} {6,S}
 3   C   u0 {4,S}
 4 * C2s u0 p1 {3,S} {5,S}
-5   Cd  u0 {4,S} {6,D}
-6   Cd  u0 {2,S} {5,D}
+5   Cdb  u0 {4,S} {6,D}
+6   Cdb  u0 {2,S} {5,D}
 """,
     thermo = 'CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring',
     shortDesc = """Branch for singlet carbenes delocalized over two conjugated carbon double bonds""",
@@ -715,12 +715,12 @@ entry(
     label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_5_ring",
     group =
 """
-1   Cd  u0 {2,D}
-2   Cd  u0 {1,D} {3,S} {6,S}
-3   Cs  u0 {2,S} {4,S}
+1   Cdb  u0 {2,D}
+2   Cdb  u0 {1,D} {3,S} {6,S}
+3   Css  u0 {2,S} {4,S}
 4 * C2s u0 p1 {3,S} {5,S}
-5   Cd  u0 {4,S} {6,D}
-6   Cd  u0 {2,S} {5,D}
+5   Cdb  u0 {4,S} {6,D}
+6   Cdb  u0 {2,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -743,12 +743,12 @@ entry(
     label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring",
     group =
 """
-1   Cd  u0 {2,D} {3,S}
-2   Cd  u0 {1,D} {6,S}
-3   Cs  u0 {1,S} {4,S}
+1   Cdb  u0 {2,D} {3,S}
+2   Cdb  u0 {1,D} {6,S}
+3   Css  u0 {1,S} {4,S}
 4 * C2s u0 p1 {3,S} {5,S}
-5   Cd  u0 {4,S} {6,D}
-6   Cd  u0 {2,S} {5,D}
+5   Cdb  u0 {4,S} {6,D}
+6   Cdb  u0 {2,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -897,8 +897,8 @@ entry(
     group =
 """
 1 * C2s u0 p1 c0 {2,S} {3,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1114,7 +1114,7 @@ entry(
     group =
 """
 1 * Cb u0 {2,S}
-2   Cs u0 {1,S}
+2   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1135,7 +1135,7 @@ entry(
     group =
 """
 1 * Cb         u0 {2,S}
-2   [Cd,CO,CS] u0 {1,S}
+2   [Cdb,CO,CS] u0 {1,S}
 """,
     thermo = 'Cb-(Cds-Cds)',
     shortDesc = """""",
@@ -1172,7 +1172,7 @@ entry(
     label = "Cb-(Cds-Cd)",
     group =
 """
-1   Cd u0 {2,S} {3,D}
+1   Cdb u0 {2,S} {3,D}
 2 * Cb u0 {1,S}
 3   C  u0 {1,D}
 """,
@@ -1189,9 +1189,9 @@ entry(
     label = "Cb-(Cds-Cds)",
     group =
 """
-1   Cd u0 {2,S} {3,D}
+1   Cdb u0 {2,S} {3,D}
 2 * Cb u0 {1,S}
-3   Cd u0 {1,D}
+3   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1211,7 +1211,7 @@ entry(
     label = "Cb-(Cds-Cdd)",
     group =
 """
-1   Cd  u0 {2,S} {3,D}
+1   Cdb  u0 {2,S} {3,D}
 2 * Cb  u0 {1,S}
 3   Cdd u0 {1,D}
 """,
@@ -1229,7 +1229,7 @@ entry(
     group =
 """
 1 * Cb  u0 {2,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {4,D}
 4   O2d u0 {3,D}
 """,
@@ -1247,7 +1247,7 @@ entry(
     group =
 """
 1 * Cb  u0 {2,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {4,D}
 4   S2d u0 {3,D}
 """,
@@ -1264,7 +1264,7 @@ entry(
     label = "Cb-(Cds-Cdd-Cd)",
     group =
 """
-1   Cd  u0 {2,D} {3,S}
+1   Cdb  u0 {2,D} {3,S}
 2   Cdd u0 {1,D} {4,D}
 3 * Cb  u0 {1,S}
 4   C   u0 {2,D}
@@ -1286,8 +1286,8 @@ entry(
 2    Cb  u0 {1,B} {4,B} {6,S}
 3    Cb  u0 {1,B} {7,B} {11,S}
 4    Cb  u0 {2,B} {8,B} {12,S}
-5    Cd  u0 {1,S} {10,D} {15,S}
-6    Cd  u0 {2,S} {9,D} {13,S}
+5    Cdb  u0 {1,S} {10,D} {15,S}
+6    Cdb  u0 {2,S} {9,D} {13,S}
 7    Cb  u0 {3,B} {8,B} {14,S}
 8    Cb  u0 {4,B} {7,B}
 9    Cdd u0 {6,D} {10,D}
@@ -1321,7 +1321,7 @@ entry(
 1  * Cb  u0 p0 c0 {2,B} {3,B} {4,S}
 2    Cb  u0 {1,B} {5,B} {9,S}
 3    Cb  u0 {1,B} {6,B} {10,S}
-4    Cd  u0 {1,S} {8,D} {13,S}
+4    Cdb  u0 {1,S} {8,D} {13,S}
 5    Cb  u0 {2,B} {7,B} {11,S}
 6    Cb  u0 {3,B} {7,B} {12,S}
 7    Cb  u0 {5,B} {6,B}
@@ -1785,7 +1785,7 @@ entry(
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1807,7 +1807,7 @@ entry(
 """
 1 * Ct         u0 {2,T} {3,S}
 2   Ct         u0 {1,T}
-3   [Cd,CO,CS] u0 {1,S}
+3   [Cdb,CO,CS] u0 {1,S}
 """,
     thermo = 'Ct-Ct(Cds-Cds)',
     shortDesc = """""",
@@ -1841,7 +1841,7 @@ entry(
     group =
 """
 1 * Ct u0 {2,S} {3,T}
-2   Cd u0 {1,S} {4,D}
+2   Cdb u0 {1,S} {4,D}
 3   Ct u0 {1,T}
 4   C  u0 {2,D}
 """,
@@ -1859,9 +1859,9 @@ entry(
     group =
 """
 1 * Ct u0 {2,S} {3,T}
-2   Cd u0 {1,S} {4,D}
+2   Cdb u0 {1,S} {4,D}
 3   Ct u0 {1,T}
-4   Cd u0 {2,D}
+4   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1882,7 +1882,7 @@ entry(
     group =
 """
 1 * Ct  u0 {2,S} {3,T}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   Ct  u0 {1,T}
 4   Cdd u0 {2,D}
 """,
@@ -1901,7 +1901,7 @@ entry(
 """
 1 * Ct  u0 {2,T} {3,S}
 2   Ct  u0 {1,T}
-3   Cd  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {4,D}
 4   Cdd u0 {3,D} {5,D}
 5   O2d u0 {4,D}
 """,
@@ -1920,7 +1920,7 @@ entry(
 """
 1 * Ct  u0 {2,T} {3,S}
 2   Ct  u0 {1,T}
-3   Cd  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {4,D}
 4   Cdd u0 {3,D} {5,D}
 5   S2d u0 {4,D}
 """,
@@ -1939,7 +1939,7 @@ entry(
 """
 1 * Ct  u0 {2,T} {3,S}
 2   Ct  u0 {1,T}
-3   Cd  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {4,D}
 4   Cdd u0 {3,D} {5,D}
 5   C   u0 {4,D}
 """,
@@ -2419,7 +2419,7 @@ entry(
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2445,7 +2445,7 @@ entry(
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -2471,7 +2471,7 @@ entry(
     label = "Ct-N3tCs(HHH)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * Ct  u0 {1,S} {6,T}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -2755,7 +2755,7 @@ entry(
     group =
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
 3   O2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -2777,7 +2777,7 @@ entry(
     group =
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Cd  u0 {1,D} {4,S}
+2   Cdb  u0 {1,D} {4,S}
 3   O2d u0 {1,D}
 4   N   u0 {2,S}
 """,
@@ -2927,7 +2927,7 @@ entry(
     group =
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
 3   S   u0 {1,D}
 """,
     thermo = 'Cdd-CdsS6d',
@@ -2944,7 +2944,7 @@ entry(
     group =
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
 3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -2966,7 +2966,7 @@ entry(
     group =
 """
 1 * Cdd        u0 {2,D} {3,D}
-2   Cd         u0 {1,D}
+2   Cdb         u0 {1,D}
 3   [S4d,S4dd] u0 {1,D}
 """,
     thermo = ThermoData(
@@ -2988,7 +2988,7 @@ entry(
     group =
 """
 1 * Cdd                   u0 {2,D} {3,D}
-2   Cd                    u0 {1,D}
+2   Cdb                    u0 {1,D}
 3   [S6d,S6dd,S6ddd,S6td] u0 {1,D}
 """,
     thermo = ThermoData(
@@ -3245,7 +3245,7 @@ entry(
 """
 1 * Cdd u0 {2,D} {3,D}
 2   Cdd u0 {1,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)(Cdd-Cd)',
     shortDesc = """""",
@@ -3262,7 +3262,7 @@ entry(
 """
 1 * Cdd u0 {2,D} {3,D}
 2   Cdd u0 {1,D} {4,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -3292,7 +3292,7 @@ entry(
 """
 1 * Cdd u0 {2,D} {3,D}
 2   Cdd u0 {1,D} {4,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   S2d u0 {2,D}
 """,
     thermo = None,
@@ -3310,7 +3310,7 @@ entry(
 """
 1 * Cdd u0 {2,D} {3,D}
 2   Cdd u0 {1,D} {4,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   C   u0 {2,D}
 """,
     thermo = 'Cdd-CdsCds',
@@ -3326,12 +3326,12 @@ entry(
     label = "Cdd-(Cd)(HH)CdCdd",
     group =
 """
-1   Cd  u0 {2,D} {4,S} {5,S}
+1   Cdb  u0 {2,D} {4,S} {5,S}
 2 * Cdd u0 p0 c0 {1,D} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3354,12 +3354,12 @@ entry(
     label = "Cdd-(CbH)(Cd)CdCdd",
     group =
 """
-1   Cd  u0 {2,D} {4,S} {5,S}
+1   Cdb  u0 {2,D} {4,S} {5,S}
 2 * Cdd u0 p0 c0 {1,D} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3383,8 +3383,8 @@ entry(
     group =
 """
 1 * Cdd u0 {2,D} {3,D}
-2   Cd  u0 {1,D}
-3   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
+3   Cdb  u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3430,7 +3430,7 @@ entry(
 """
 1 * Cdd u0 {2,D} {3,D}
 2   N3d u0 {1,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3598,7 +3598,7 @@ entry(
     label = "Cds",
     group =
 """
-1 * [Cd,CO,CS] u0
+1 * [Cdb,CO,CS] u0
 """,
     thermo = 'Cds-CdsCsCs',
     shortDesc = """""",
@@ -3638,7 +3638,7 @@ entry(
     label = "CdBrBrC",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   Br u0 {1,S}
 3   Br u0 {1,S}
 4   C  u0 {1,D}
@@ -3666,7 +3666,7 @@ entry(
     label = "CdBrBrCdd",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   Br  u0 {1,S}
 3   Br  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -3694,7 +3694,7 @@ entry(
     label = "Cd(Cdd-Od)BrBr",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Br  u0 {1,S}
 4   Br  u0 {1,S}
@@ -3745,7 +3745,7 @@ entry(
     label = "CdBrCCl",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   Cl u0 {1,S}
 3   Br u0 {1,S}
 4   C  u0 {1,D}
@@ -3771,7 +3771,7 @@ entry(
     label = "Cd(Cdd-O2d)ClBr",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cl  u0 {1,S}
 4   Br  u0 {1,S}
@@ -3822,7 +3822,7 @@ entry(
     label = "CdCClCl",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   Cl u0 {1,S}
 3   Cl u0 {1,S}
 4   C  u0 {1,D}
@@ -3849,7 +3849,7 @@ entry(
     label = "CdCddClCl",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   Cl  u0 {1,S}
 3   Cl  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -3876,7 +3876,7 @@ entry(
     label = "Cd(Cdd-Od)ClCl",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cl  u0 {1,S}
 4   Cl  u0 {1,S}
@@ -3927,7 +3927,7 @@ entry(
     label = "CdBrCF",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   F  u0 {1,S}
 3   Br u0 {1,S}
 4   C  u0 {1,D}
@@ -3952,7 +3952,7 @@ entry(
     label = "Cd(Cdd-O2d)FBr",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   F   u0 {1,S}
 4   Br  u0 {1,S}
@@ -4003,7 +4003,7 @@ entry(
     label = "CdCClF",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   F  u0 {1,S}
 3   Cl u0 {1,S}
 4   C  u0 {1,D}
@@ -4029,7 +4029,7 @@ entry(
     label = "Cd(Cdd-O2d)FCl",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   F   u0 {1,S}
 4   Cl  u0 {1,S}
@@ -4080,7 +4080,7 @@ entry(
     label = "CdCFF",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   C  u0 {1,D}
@@ -4108,7 +4108,7 @@ entry(
     label = "CdCddFF",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   F   u0 {1,S}
 3   F   u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4136,7 +4136,7 @@ entry(
     label = "Cd(Cdd-Od)FF",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   F   u0 {1,S}
 4   F   u0 {1,S}
@@ -4185,7 +4185,7 @@ entry(
     label = "CdBrCH",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   H  u0 {1,S}
 3   Br u0 {1,S}
 4   C  u0 {1,D}
@@ -4213,7 +4213,7 @@ entry(
     label = "CdBrCddH",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   H   u0 {1,S}
 3   Br  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4241,7 +4241,7 @@ entry(
     label = "Cd(Cdd-Od)BrH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   Br  u0 {1,S}
@@ -4292,7 +4292,7 @@ entry(
     label = "CdCClH",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   H  u0 {1,S}
 3   Cl u0 {1,S}
 4   C  u0 {1,D}
@@ -4319,7 +4319,7 @@ entry(
     label = "CdCddClH",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   H   u0 {1,S}
 3   Cl  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4346,7 +4346,7 @@ entry(
     label = "Cd(Cdd-Od)ClH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   Cl  u0 {1,S}
@@ -4397,7 +4397,7 @@ entry(
     label = "CdCFH",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   C  u0 {1,D}
@@ -4425,7 +4425,7 @@ entry(
     label = "CdCddFH",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   H   u0 {1,S}
 3   F   u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4453,7 +4453,7 @@ entry(
     label = "Cd(Cdd-Od)FH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   F   u0 {1,S}
@@ -4507,7 +4507,7 @@ entry(
     label = "CdBrCO",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   O  u0 {1,S}
 3   Br u0 {1,S}
 4   C  u0 {1,D}
@@ -4535,7 +4535,7 @@ entry(
     label = "CdBrCddO",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   O   u0 {1,S}
 3   Br  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4563,7 +4563,7 @@ entry(
     label = "Cd(Cdd-Od)BrO",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O   u0 {1,S}
 4   Br  u0 {1,S}
@@ -4616,7 +4616,7 @@ entry(
     label = "CdCClO",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   O  u0 {1,S}
 3   Cl u0 {1,S}
 4   C  u0 {1,D}
@@ -4644,7 +4644,7 @@ entry(
     label = "CdClCddO",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   O   u0 {1,S}
 3   Cl  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4672,7 +4672,7 @@ entry(
     label = "Cd(Cdd-Od)ClO",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O   u0 {1,S}
 4   Cl  u0 {1,S}
@@ -4726,7 +4726,7 @@ entry(
     label = "CdCFO",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   C  u0 {1,D}
@@ -4754,7 +4754,7 @@ entry(
     label = "CdCddFO",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   O   u0 {1,S}
 3   F   u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4781,7 +4781,7 @@ entry(
     label = "Cd(Cdd-Od)FO",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O   u0 {1,S}
 4   F   u0 {1,S}
@@ -4837,7 +4837,7 @@ entry(
     group =
 """
 1 * CO u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+2   Css u0 {1,S}
 3   Br u0 {1,S}
 4   O  u0 {1,D}
 """,
@@ -4864,7 +4864,7 @@ entry(
     label = "CdBrCC",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   C  u0 {1,S}
 3   Br u0 {1,S}
 4   C  u0 {1,D}
@@ -4892,10 +4892,10 @@ entry(
     label = "CdBrCsCd",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Css u0 {1,S}
 3   Br u0 {1,S}
-4   Cd u0 {1,D}
+4   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4920,10 +4920,10 @@ entry(
     label = "CdBrCtCd",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   Ct u0 {1,S}
 3   Br u0 {1,S}
-4   Cd u0 {1,D}
+4   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4947,7 +4947,7 @@ entry(
     label = "CdBrCddC",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   C   u0 {1,S}
 3   Br  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -4975,7 +4975,7 @@ entry(
     label = "Cd(Cdd-Od)CBr",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   C   u0 {1,S}
 4   Br  u0 {1,S}
@@ -5032,7 +5032,7 @@ entry(
     group =
 """
 1 * CO u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+2   Css u0 {1,S}
 3   Cl u0 {1,S}
 4   O  u0 {1,D}
 """,
@@ -5058,7 +5058,7 @@ entry(
     label = "CdCCCl",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   C  u0 {1,S}
 3   Cl u0 {1,S}
 4   C  u0 {1,D}
@@ -5086,10 +5086,10 @@ entry(
     label = "CdCsCdCl",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Css u0 {1,S}
 3   Cl u0 {1,S}
-4   Cd u0 {1,D}
+4   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5114,10 +5114,10 @@ entry(
     label = "CdCtCdCl",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   Ct u0 {1,S}
 3   Cl u0 {1,S}
-4   Cd u0 {1,D}
+4   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5142,7 +5142,7 @@ entry(
     label = "CdCddCCl",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   C   u0 {1,S}
 3   Cl  u0 {1,S}
 4   Cdd u0 {1,D}
@@ -5170,7 +5170,7 @@ entry(
     label = "Cd(Cdd-Od)CCl",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   C   u0 {1,S}
 4   Cl  u0 {1,S}
@@ -5225,7 +5225,7 @@ entry(
     group =
 """
 1 * CO u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+2   Css u0 {1,S}
 3   F  u0 {1,S}
 4   O  u0 {1,D}
 """,
@@ -5252,7 +5252,7 @@ entry(
     label = "CdCCF",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   C  u0 {1,D}
@@ -5280,10 +5280,10 @@ entry(
     label = "CdCsCdF",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Css u0 {1,S}
 3   F  u0 {1,S}
-4   Cd u0 {1,D}
+4   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5308,10 +5308,10 @@ entry(
     label = "CdCtCdF",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   Ct u0 {1,S}
 3   F  u0 {1,S}
-4   Cd u0 {1,D}
+4   Cdb u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5336,7 +5336,7 @@ entry(
     label = "CdCddCF",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   C   u0 {1,S}
 3   F   u0 {1,S}
 4   Cdd u0 {1,D}
@@ -5364,7 +5364,7 @@ entry(
     label = "Cd(Cdd-Od)CF",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   C   u0 {1,S}
 4   F   u0 {1,S}
@@ -5553,7 +5553,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   S2s u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5616,7 +5616,7 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -5641,7 +5641,7 @@ entry(
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   H       u0 {1,S}
 """,
     thermo = 'Cds-O2d(Cds-Cds)H',
@@ -5684,7 +5684,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
@@ -5710,10 +5710,10 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   H   u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5734,7 +5734,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   H   u0 {1,S}
 5   Cdd u0 {2,D}
@@ -5753,7 +5753,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   O2d u0 {1,D}
 5   H   u0 {1,S}
@@ -5773,7 +5773,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   O2d u0 {1,D}
 5   H   u0 {1,S}
@@ -5848,7 +5848,7 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -5873,7 +5873,7 @@ entry(
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 """,
     thermo = 'Cds-O2d(Cds-Cds)O2s',
@@ -5916,7 +5916,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   O2s u0 {1,S}
 5   C   u0 {2,D}
@@ -5942,10 +5942,10 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   O2s u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5966,7 +5966,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   O2s u0 {1,S}
 5   Cdd u0 {2,D}
@@ -5985,7 +5985,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   O2d u0 {1,D}
 5   O2s u0 {1,S}
@@ -6005,7 +6005,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   O2d u0 {1,D}
 5   O2s u0 {1,S}
@@ -6085,8 +6085,8 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6110,8 +6110,8 @@ entry(
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 """,
     thermo = 'Cds-O2d(Cds-Cds)Cs',
     shortDesc = """""",
@@ -6129,7 +6129,7 @@ entry(
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   CO  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6153,9 +6153,9 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6179,10 +6179,10 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
-4   Cs  u0 {1,S}
-5   Cd  u0 {2,D}
+4   Css  u0 {1,S}
+5   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6203,9 +6203,9 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
     thermo = 'Cds-O2d(Cds-Cdd-Cd)Cs',
@@ -6222,10 +6222,10 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   O2d u0 {1,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {3,D}
 """,
     thermo = 'Cds-O2d(Cds-Cds)Cs',
@@ -6242,10 +6242,10 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   O2d u0 {1,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 """,
     thermo = 'Cds-O2d(Cds-Cds)Cs',
@@ -6263,8 +6263,8 @@ entry(
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-O2d(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -6307,7 +6307,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
 5   C   u0 {2,D}
@@ -6327,10 +6327,10 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 6   O2d u0 {3,D}
 """,
     thermo = 'Cds-O2d(Cds-O2d)Cs',
@@ -6347,12 +6347,12 @@ entry(
     group =
 """
 1 * CO  u0 p0 c0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D} {6,S}
+2   Cdb  u0 {1,S} {5,D} {6,S}
 3   CO  u0 {1,S} {7,S} {8,D}
 4   O2d u0 {1,D}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 6   H   u0 {2,S}
-7   Cd  u0 {3,S}
+7   Cdb  u0 {3,S}
 8   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -6376,7 +6376,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
 5   Cdd u0 {2,D}
@@ -6397,7 +6397,7 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {5,D}
 4   CO  u0 {1,S} {7,D}
 5   Cdd u0 {3,D} {6,D}
 6   O2d u0 {5,D}
@@ -6418,7 +6418,7 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {5,D}
 4   CO  u0 {1,S} {7,D}
 5   Cdd u0 {3,D} {6,D}
 6   C   u0 {5,D}
@@ -6438,8 +6438,8 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
@@ -6458,11 +6458,11 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
-5   Cd  u0 {2,D}
-6   Cd  u0 {3,D}
+5   Cdb  u0 {2,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6483,11 +6483,11 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
 5   Cdd u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-O2d(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = """""",
@@ -6504,10 +6504,10 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cdd u0 {3,D} {7,D}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   O2d u0 {5,D}
 """,
     thermo = 'Cds-O2d(Cds-Cdd-O2d)Cs',
@@ -6524,11 +6524,11 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   O2d u0 {1,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   C   u0 {4,D}
 """,
     thermo = 'Cds-O2d(Cds-Cds)(Cds-Cds)',
@@ -6545,8 +6545,8 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2d u0 {1,D}
 5   Cdd u0 {2,D}
 6   Cdd u0 {3,D}
@@ -6566,8 +6566,8 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cdd u0 {3,D} {7,D}
 6   Cdd u0 {4,D} {8,D}
 7   O2d u0 {5,D}
@@ -6588,8 +6588,8 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cdd u0 {3,D} {7,D}
 6   Cdd u0 {4,D} {8,D}
 7   C   u0 {5,D}
@@ -6610,8 +6610,8 @@ entry(
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cdd u0 {3,D} {7,D}
 6   Cdd u0 {4,D} {8,D}
 7   C   u0 {5,D}
@@ -6633,7 +6633,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = 'Cds-O2d(Cds-Cds)Cs',
     shortDesc = """""",
@@ -6651,7 +6651,7 @@ entry(
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d     u0 {1,D}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
     shortDesc = """""",
@@ -6686,7 +6686,7 @@ entry(
     group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   O2d u0 {1,D}
 4   Ct  u0 {1,S}
 5   C   u0 {2,D}
@@ -6707,8 +6707,8 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cd  u0 {4,D}
+4   Cdb  u0 {1,S} {5,D}
+5   Cdb  u0 {4,D}
 """,
     thermo = 'Cds-O2d(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -6726,7 +6726,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   Cdd u0 {4,D}
 """,
     thermo = 'Cds-OdCt(Cds-Cdd-Cd)',
@@ -6745,7 +6745,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   Cdd u0 {4,D} {6,D}
 6   O2d u0 {5,D}
 """,
@@ -6765,7 +6765,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   Cdd u0 {4,D} {6,D}
 6   C   u0 {5,D}
 """,
@@ -6803,7 +6803,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = 'Cds-O2d(Cds-Cds)Cs',
     shortDesc = """""",
@@ -6821,7 +6821,7 @@ entry(
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d     u0 {1,D}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
     shortDesc = """""",
@@ -6858,7 +6858,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   C   u0 {4,D}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
@@ -6877,8 +6877,8 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
-5   Cd  u0 {4,D}
+4   Cdb  u0 {1,S} {5,D}
+5   Cdb  u0 {4,D}
 """,
     thermo = 'Cds-O2d(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -6896,7 +6896,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   Cdd u0 {4,D}
 """,
     thermo = 'Cds-OdCb(Cds-Cdd-Cd)',
@@ -6915,7 +6915,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   Cdd u0 {4,D} {6,D}
 6   O2d u0 {5,D}
 """,
@@ -6935,7 +6935,7 @@ entry(
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S} {5,D}
+4   Cdb  u0 {1,S} {5,D}
 5   Cdd u0 {4,D} {6,D}
 6   C   u0 {5,D}
 """,
@@ -6988,7 +6988,7 @@ entry(
     label = "Cds-CdHH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -7006,8 +7006,8 @@ entry(
     label = "Cds-CdsHH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -7029,7 +7029,7 @@ entry(
     label = "Cds-CddHH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -7047,7 +7047,7 @@ entry(
     label = "Cds-(Cdd-O2d)HH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -7071,7 +7071,7 @@ entry(
     label = "Cds-(Cdd-S2d)HH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -7090,7 +7090,7 @@ entry(
     label = "Cds-(Cdd-Cd)HH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -7109,7 +7109,7 @@ entry(
     label = "Cd-(Cdd)CddHH",
     group =
 """
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 p0 c0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -7136,11 +7136,11 @@ entry(
     label = "Cd-(Cd)CddHH",
     group =
 """
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 p0 c0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7160,7 +7160,7 @@ entry(
     label = "Cd-(N3d)CddHH",
     group =
 """
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 p0 c0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -7186,7 +7186,7 @@ entry(
     label = "Cds-CdOsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7211,8 +7211,8 @@ entry(
     label = "Cds-CdsOsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -7234,7 +7234,7 @@ entry(
     label = "Cds-CddOsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7252,7 +7252,7 @@ entry(
     label = "Cds-(Cdd-O2d)OsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7276,7 +7276,7 @@ entry(
     label = "Cds-(Cdd-Cd)OsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7295,7 +7295,7 @@ entry(
     label = "Cds-CdSH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   S  u0 {1,S}
 4   H  u0 {1,S}
@@ -7313,8 +7313,8 @@ entry(
     label = "Cds-CdsSH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   S  u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -7331,8 +7331,8 @@ entry(
     label = "Cds-CdsS2H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -7354,8 +7354,8 @@ entry(
     label = "Cds-CdsS4H",
     group =
 """
-1 * Cd                u0 {2,D} {3,S} {4,S}
-2   Cd                u0 {1,D}
+1 * Cdb                u0 {2,D} {3,S} {4,S}
+2   Cdb                u0 {1,D}
 3   [S4s,S4d,S4b,S4t] u0 {1,S}
 4   H                 u0 {1,S}
 """,
@@ -7377,8 +7377,8 @@ entry(
     label = "Cds-CdsS6H",
     group =
 """
-1 * Cd                      u0 {2,D} {3,S} {4,S}
-2   Cd                      u0 {1,D}
+1 * Cdb                      u0 {2,D} {3,S} {4,S}
+2   Cdb                      u0 {1,D}
 3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 4   H                       u0 {1,S}
 """,
@@ -7400,7 +7400,7 @@ entry(
     label = "Cds-CddSsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7418,7 +7418,7 @@ entry(
     label = "Cds-(Cdd-S2d)SsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7437,7 +7437,7 @@ entry(
     label = "Cds-(Cdd-Cd)SsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -7456,7 +7456,7 @@ entry(
     label = "Cds-CdOsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -7481,8 +7481,8 @@ entry(
     label = "Cds-CdsOsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 """,
@@ -7499,7 +7499,7 @@ entry(
     label = "Cds-CddOsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -7517,7 +7517,7 @@ entry(
     label = "Cds-(Cdd-O2d)OsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -7541,7 +7541,7 @@ entry(
     label = "Cds-(Cdd-Cd)OsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -7560,7 +7560,7 @@ entry(
     label = "Cds-CdSsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -7578,8 +7578,8 @@ entry(
     label = "Cds-CdsSsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -7596,7 +7596,7 @@ entry(
     label = "Cds-CddSsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -7614,7 +7614,7 @@ entry(
     label = "Cds-(Cdd-S2d)SsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -7633,7 +7633,7 @@ entry(
     label = "Cds-(Cdd-Cd)SsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -7652,7 +7652,7 @@ entry(
     label = "Cds-CdCH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
@@ -7670,9 +7670,9 @@ entry(
     label = "Cds-CdsCsH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7693,9 +7693,9 @@ entry(
     label = "Cds-CdsCdsH",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
-2   Cd      u0 {1,D}
-3   [Cd,CO] u0 {1,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
+2   Cdb      u0 {1,D}
+3   [Cdb,CO] u0 {1,S}
 4   H       u0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
@@ -7711,10 +7711,10 @@ entry(
     label = "Cd-Cd(CO)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {5,D}
 3   H   u0 {1,S}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -7737,10 +7737,10 @@ entry(
     label = "Cd-Cd(CO-O)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {5,D} {6,S}
 3   H   u0 {1,S}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   O2d u0 {2,D}
 6   O2s u0 {2,S}
 """,
@@ -7762,9 +7762,9 @@ entry(
     label = "Cds-Cds(Cds-Cd)H",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
 4   H  u0 {1,S}
 5   C  u0 {2,D}
 """,
@@ -7781,11 +7781,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)H",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
 4   H  u0 {1,S}
-5   Cd u0 {2,D}
+5   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7805,9 +7805,9 @@ entry(
     label = "Cds-Cds(Cds-Cdd)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   H   u0 {1,S}
 5   Cdd u0 {2,D}
 """,
@@ -7824,11 +7824,11 @@ entry(
     label = "Cd-Cd(CCO)H",
     group =
 """
-1 * Cd  u0 {2,S} {4,S} {5,D}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,S} {5,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   H   u0 {1,S}
-5   Cd  u0 {1,D}
+5   Cdb  u0 {1,D}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -7851,10 +7851,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   H   u0 {1,S}
 6   S2d u0 {3,D}
 """,
@@ -7871,10 +7871,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
 """,
@@ -7891,18 +7891,18 @@ entry(
     label = "Cd-((Cd)(CdCdd)(H)CdCdd)((H)(H)CdH)CdCd",
     group =
 """
-1    Cd  u0 {2,S} {4,S} {7,D}
-2  * Cd  u0 p0 c0 {1,S} {3,D} {8,S}
-3    Cd  u0 {2,D} {5,S} {9,S}
-4    Cd  u0 {1,S} {6,S} {10,D}
-5    Cd  u0 {3,S} {6,D} {11,S}
-6    Cd  u0 {4,S} {5,D}
+1    Cdb  u0 {2,S} {4,S} {7,D}
+2  * Cdb  u0 p0 c0 {1,S} {3,D} {8,S}
+3    Cdb  u0 {2,D} {5,S} {9,S}
+4    Cdb  u0 {1,S} {6,S} {10,D}
+5    Cdb  u0 {3,S} {6,D} {11,S}
+6    Cdb  u0 {4,S} {5,D}
 7    Cdd u0 {1,D} {12,D}
 8    H   u0 {2,S}
 9    H   u0 {3,S}
 10   Cdd u0 {4,D}
 11   H   u0 {5,S}
-12   Cd  u0 {7,D}
+12   Cdb  u0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7922,8 +7922,8 @@ entry(
     label = "Cds-CdsCtH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -7945,8 +7945,8 @@ entry(
     label = "Cds-CdsCbH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Cb u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -7968,8 +7968,8 @@ entry(
     label = "Cds-(Cds-Os)CbH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D} {5,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D} {5,S}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
 5   O2s u0 {2,S}
@@ -7992,9 +7992,9 @@ entry(
     label = "Cds-CddCsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsH',
@@ -8010,9 +8010,9 @@ entry(
     label = "Cds-(Cdd-O2d)CsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   O2d u0 {2,D}
 """,
@@ -8036,9 +8036,9 @@ entry(
     label = "Cds-(Cdd-S2d)CsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -8055,9 +8055,9 @@ entry(
     label = "Cds-(Cdd-Cd)CsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
 """,
@@ -8074,9 +8074,9 @@ entry(
     label = "Cds-CddCdsH",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
 2   Cdd     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   H       u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
@@ -8092,7 +8092,7 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-O2d)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   H   u0 {1,S}
@@ -8112,9 +8112,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
@@ -8139,12 +8139,12 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-(Cdd-O2d)CsH',
     shortDesc = """""",
@@ -8159,9 +8159,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -8179,8 +8179,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8205,8 +8205,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8226,9 +8226,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
@@ -8246,12 +8246,12 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -8266,9 +8266,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -8286,8 +8286,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8307,8 +8307,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8328,7 +8328,7 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   H   u0 {1,S}
@@ -8348,9 +8348,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
@@ -8368,12 +8368,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
     shortDesc = """""",
@@ -8388,9 +8388,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)H",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
@@ -8408,8 +8408,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8429,8 +8429,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8450,8 +8450,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
@@ -8471,7 +8471,7 @@ entry(
     label = "Cds-CddCtH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -8489,7 +8489,7 @@ entry(
     label = "Cds-(Cdd-O2d)CtH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -8508,7 +8508,7 @@ entry(
     label = "Cds-(Cdd-S2d)CtH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -8527,7 +8527,7 @@ entry(
     label = "Cds-(Cdd-Cd)CtH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -8546,7 +8546,7 @@ entry(
     label = "Cds-CddCbH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
@@ -8564,7 +8564,7 @@ entry(
     label = "Cds-(Cdd-O2d)CbH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
@@ -8583,7 +8583,7 @@ entry(
     label = "Cds-(Cdd-S2d)CbH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
@@ -8602,7 +8602,7 @@ entry(
     label = "Cds-(Cdd-Cd)CbH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
@@ -8621,7 +8621,7 @@ entry(
     label = "Cd-(CbCb)(Cdd)CbCddH",
     group =
 """
-1 * Cd  u0 p0 c0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 p0 c0 {2,S} {3,D} {4,S}
 2   Cb  u0 {1,S} {5,B} {6,B}
 3   Cdd u0 {1,D} {7,D}
 4   H   u0 {1,S}
@@ -8650,7 +8650,7 @@ entry(
     label = "Cds-(Cdd-Cd)C=SH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   H   u0 {1,S}
@@ -8670,7 +8670,7 @@ entry(
     label = "Cds-(Cdd-S2d)C=SH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   H   u0 {1,S}
@@ -8690,9 +8690,9 @@ entry(
     label = "Cds-CdsC=SH",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   H   u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -8714,8 +8714,8 @@ entry(
     label = "Cd-C2sCdH",
     group =
 """
-1 * Cd  u0 p0 c0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 p0 c0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   C2s u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -8739,7 +8739,7 @@ entry(
     label = "Cds-CdCO",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
 3   C   u0 {1,S}
 4   O2s u0 {1,S}
@@ -8757,9 +8757,9 @@ entry(
     label = "Cds-CdsCdsOs",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
-2   Cd      u0 {1,D}
-3   [Cd,CO] u0 {1,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
+2   Cdb      u0 {1,D}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)O2s',
@@ -8775,9 +8775,9 @@ entry(
     label = "Cds-Cds(Cds-O2d)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CO  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   O2s u0 {1,S}
 5   O2d u0 {2,D}
 """,
@@ -8799,9 +8799,9 @@ entry(
     label = "Cds-Cds(Cds-Cd)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   O2s u0 {1,S}
 5   C   u0 {2,D}
 """,
@@ -8818,11 +8818,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   O2s u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8842,9 +8842,9 @@ entry(
     label = "Cds-Cds(Cds-Cdd)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   O2s u0 {1,S}
 5   Cdd u0 {2,D}
 """,
@@ -8861,10 +8861,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-O2d)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   O2s u0 {1,S}
 6   O2d u0 {3,D}
 """,
@@ -8881,10 +8881,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   O2s u0 {1,S}
 6   C   u0 {3,D}
 """,
@@ -8901,8 +8901,8 @@ entry(
     label = "Cds-CdsCtOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 """,
@@ -8919,8 +8919,8 @@ entry(
     label = "Cds-CdsCbOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 """,
@@ -8942,9 +8942,9 @@ entry(
     label = "Cds-CddCdsOs",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
 2   Cdd     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)O2s',
@@ -8960,7 +8960,7 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-O2d)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
@@ -8980,9 +8980,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
@@ -9000,12 +9000,12 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-(Cdd-O2d)CsOs',
     shortDesc = """""",
@@ -9020,9 +9020,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -9040,8 +9040,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   O2s u0 {1,S}
@@ -9066,8 +9066,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   O2s u0 {1,S}
@@ -9087,9 +9087,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
@@ -9107,12 +9107,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)O2s',
     shortDesc = """""",
@@ -9127,9 +9127,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)O2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
@@ -9147,8 +9147,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   O2s u0 {1,S}
@@ -9168,8 +9168,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   O2s u0 {1,S}
@@ -9189,7 +9189,7 @@ entry(
     label = "Cds-CddCtOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -9207,7 +9207,7 @@ entry(
     label = "Cds-(Cdd-O2d)CtOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -9226,7 +9226,7 @@ entry(
     label = "Cds-(Cdd-Cd)CtOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -9245,7 +9245,7 @@ entry(
     label = "Cds-CddCbOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -9263,7 +9263,7 @@ entry(
     label = "Cds-(Cdd-O2d)CbOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -9282,7 +9282,7 @@ entry(
     label = "Cds-(Cdd-Cd)CbOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -9301,8 +9301,8 @@ entry(
     label = "Cd-CdCsOs",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cs  u0 {1,S}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   C   u0 {1,D}
 """,
@@ -9326,9 +9326,9 @@ entry(
     label = "Cds-CdsCsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
-3   Cs  u0 {1,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -9349,9 +9349,9 @@ entry(
     label = "Cds-CddCsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsOs',
@@ -9367,9 +9367,9 @@ entry(
     label = "Cds-(Cdd-O2d)CsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2d u0 {2,D}
 """,
@@ -9391,9 +9391,9 @@ entry(
     label = "Cds-(Cdd-Cd)CsOs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   C   u0 {2,D}
 """,
@@ -9410,7 +9410,7 @@ entry(
     label = "Cds-CdCS",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   C  u0 {1,S}
 4   S  u0 {1,S}
@@ -9428,9 +9428,9 @@ entry(
     label = "Cds-CdsCsSs",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
 4   S  u0 {1,S}
 """,
     thermo = 'Cds-CdsCsS2',
@@ -9446,9 +9446,9 @@ entry(
     label = "Cds-CdsCsS2",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
-3   Cs  u0 {1,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -9469,9 +9469,9 @@ entry(
     label = "Cds-CdsCsS4",
     group =
 """
-1 * Cd                u0 {2,D} {3,S} {4,S}
-2   Cd                u0 {1,D}
-3   Cs                u0 {1,S}
+1 * Cdb                u0 {2,D} {3,S} {4,S}
+2   Cdb                u0 {1,D}
+3   Css                u0 {1,S}
 4   [S4s,S4d,S4b,S4t] u0 {1,S}
 """,
     thermo = ThermoData(
@@ -9492,9 +9492,9 @@ entry(
     label = "Cds-CdsCsS6",
     group =
 """
-1 * Cd                      u0 {2,D} {3,S} {4,S}
-2   Cd                      u0 {1,D}
-3   Cs                      u0 {1,S}
+1 * Cdb                      u0 {2,D} {3,S} {4,S}
+2   Cdb                      u0 {1,D}
+3   Css                      u0 {1,S}
 4   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 """,
     thermo = ThermoData(
@@ -9515,9 +9515,9 @@ entry(
     label = "Cds-CdsCdsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
-3   Cd  u0 {1,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = None,
@@ -9533,9 +9533,9 @@ entry(
     label = "Cds-Cds(Cds-Cd)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   S2s u0 {1,S}
 5   C   u0 {2,D}
 """,
@@ -9552,11 +9552,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   S2s u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -9571,9 +9571,9 @@ entry(
     label = "Cds-Cds(Cds-Cdd)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   S2s u0 {1,S}
 5   Cdd u0 {2,D}
 """,
@@ -9590,10 +9590,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   S2s u0 {1,S}
 6   S2d u0 {3,D}
 """,
@@ -9610,10 +9610,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   S2s u0 {1,S}
 6   C   u0 {3,D}
 """,
@@ -9630,8 +9630,8 @@ entry(
     label = "Cds-CdsCtSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -9648,8 +9648,8 @@ entry(
     label = "Cds-CdsCbSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
-2   Cd  u0 {1,D}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
+2   Cdb  u0 {1,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 """,
@@ -9666,9 +9666,9 @@ entry(
     label = "Cds-CddCsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = None,
@@ -9684,9 +9684,9 @@ entry(
     label = "Cds-(Cdd-S2d)CsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -9703,9 +9703,9 @@ entry(
     label = "Cds-(Cdd-Cd)CsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   C   u0 {2,D}
 """,
@@ -9722,9 +9722,9 @@ entry(
     label = "Cds-CddCdsSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = None,
@@ -9740,9 +9740,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)S2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
@@ -9760,12 +9760,12 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)S2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -9780,9 +9780,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)S2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -9800,8 +9800,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   S2s u0 {1,S}
@@ -9821,8 +9821,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   S2s u0 {1,S}
@@ -9842,9 +9842,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)S2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
@@ -9862,12 +9862,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)S2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -9882,9 +9882,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)S2s",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
@@ -9902,8 +9902,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   S2s u0 {1,S}
@@ -9923,8 +9923,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   S2s u0 {1,S}
@@ -9944,7 +9944,7 @@ entry(
     label = "Cds-CddCtSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -9962,7 +9962,7 @@ entry(
     label = "Cds-(Cdd-S2d)CtSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -9981,7 +9981,7 @@ entry(
     label = "Cds-(Cdd-Cd)CtSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -10000,7 +10000,7 @@ entry(
     label = "Cds-CddCbSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -10018,7 +10018,7 @@ entry(
     label = "Cds-(Cdd-S2d)CbSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -10037,7 +10037,7 @@ entry(
     label = "Cds-(Cdd-Cd)CbSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -10056,7 +10056,7 @@ entry(
     label = "Cds-(Cdd-S2d)C=SSs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
@@ -10076,9 +10076,9 @@ entry(
     label = "Cds-CdsC=SSs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   S2s u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -10095,7 +10095,7 @@ entry(
     label = "Cds-CdCC",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -10113,10 +10113,10 @@ entry(
     label = "Cds-CdsCsCs",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -10136,10 +10136,10 @@ entry(
     label = "Cds-CdsCdsCs",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
-2   Cd      u0 {1,D}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
+2   Cdb      u0 {1,D}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = """""",
@@ -10154,10 +10154,10 @@ entry(
     label = "Cd-CdCs(CO)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {5,D}
-3   Cs  u0 {1,S}
-4   Cd  u0 {1,D}
+3   Css  u0 {1,S}
+4   Cdb  u0 {1,D}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -10180,10 +10180,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)Cs",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
-4   Cs u0 {1,S}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
+4   Css u0 {1,S}
 5   C  u0 {2,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
@@ -10199,11 +10199,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Cs",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
-4   Cs u0 {1,S}
-5   Cd u0 {2,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
+4   Css u0 {1,S}
+5   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -10223,10 +10223,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
-4   Cs  u0 {1,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
+4   Css  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Cs',
@@ -10242,11 +10242,11 @@ entry(
     label = "Cd-CdCs(CCO)",
     group =
 """
-1 * Cd  u0 {2,S} {4,S} {5,D}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,S} {5,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cs  u0 {1,S}
-5   Cd  u0 {1,D}
+4   Css  u0 {1,S}
+5   Cdb  u0 {1,D}
 6   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -10269,11 +10269,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
-5   Cs  u0 {1,S}
+4   Cdb  u0 {1,D}
+5   Css  u0 {1,S}
 6   S2d u0 {3,D}
 """,
     thermo = None,
@@ -10289,11 +10289,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
-5   Cs  u0 {1,S}
+4   Cdb  u0 {1,D}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
@@ -10309,10 +10309,10 @@ entry(
     label = "Cds-CdsCdsCds",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
-2   Cd      u0 {1,D}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
+2   Cdb      u0 {1,D}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -10327,10 +10327,10 @@ entry(
     label = "Cds-Cds(Cds-O2d)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   O2d u0 {2,D}
 6   O2d u0 {3,D}
 """,
@@ -10347,10 +10347,10 @@ entry(
     label = "Cds-Cds(Cds-O2d)(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,D}
 5   C   u0 {3,D}
 6   O2d u0 {2,D}
 """,
@@ -10367,11 +10367,11 @@ entry(
     label = "Cds-Cds(Cds-O2d)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,D}
-5   Cd  u0 {3,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,D}
+5   Cdb  u0 {3,D}
 6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -10392,10 +10392,10 @@ entry(
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,D}
 5   Cdd u0 {3,D}
 6   O2d u0 {2,D}
 """,
@@ -10412,11 +10412,11 @@ entry(
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
+5   Cdb  u0 {1,D}
 6   O2d u0 {3,D}
 7   O2d u0 {4,D}
 """,
@@ -10433,11 +10433,11 @@ entry(
     label = "Cds-Cds(Cds-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
+5   Cdb  u0 {1,D}
 6   O2d u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -10454,10 +10454,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,S} {6,D}
-4   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,S} {6,D}
+4   Cdb u0 {1,D}
 5   C  u0 {2,D}
 6   C  u0 {3,D}
 """,
@@ -10474,12 +10474,12 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,S} {6,D}
-4   Cd u0 {1,D}
-5   Cd u0 {2,D}
-6   Cd u0 {3,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,S} {6,D}
+4   Cdb u0 {1,D}
+5   Cdb u0 {2,D}
+6   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -10499,11 +10499,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,D}
-5   Cd  u0 {2,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,D}
+5   Cdb  u0 {2,D}
 6   Cdd u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)',
@@ -10519,12 +10519,12 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
-6   Cd  u0 {3,D}
+5   Cdb  u0 {1,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {4,D}
 """,
     thermo = 'Cd-CdCs(CCO)',
@@ -10540,12 +10540,12 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-S2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
-6   Cd  u0 {3,D}
+5   Cdb  u0 {1,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {4,D}
 """,
     thermo = None,
@@ -10561,12 +10561,12 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
-6   Cd  u0 {3,D}
+5   Cdb  u0 {1,D}
+6   Cdb  u0 {3,D}
 7   C   u0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
@@ -10582,10 +10582,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,D}
 5   Cdd u0 {2,D}
 6   Cdd u0 {3,D}
 """,
@@ -10602,12 +10602,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
-6   Cd  u0 {1,D}
+6   Cdb  u0 {1,D}
 7   O2d u0 {4,D}
 8   O2d u0 {5,D}
 """,
@@ -10624,12 +10624,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
-6   Cd  u0 {1,D}
+6   Cdb  u0 {1,D}
 7   O2d u0 {4,D}
 8   C   u0 {5,D}
 """,
@@ -10646,12 +10646,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
-6   Cd  u0 {1,D}
+6   Cdb  u0 {1,D}
 7   S2d u0 {4,D}
 8   S2d u0 {5,D}
 """,
@@ -10668,12 +10668,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
-6   Cd  u0 {1,D}
+6   Cdb  u0 {1,D}
 7   S2d u0 {4,D}
 8   C   u0 {5,D}
 """,
@@ -10690,12 +10690,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
-6   Cd  u0 {1,D}
+6   Cdb  u0 {1,D}
 7   C   u0 {4,D}
 8   C   u0 {5,D}
 """,
@@ -10712,10 +10712,10 @@ entry(
     label = "Cds-CdsCtCs",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -10735,10 +10735,10 @@ entry(
     label = "Cds-CdsCtCds",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
-2   Cd      u0 {1,D}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
+2   Cdb      u0 {1,D}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
     shortDesc = """""",
@@ -10753,9 +10753,9 @@ entry(
     label = "Cds-CdsCt(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CO  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   Ct  u0 {1,S}
 5   O2d u0 {2,D}
 """,
@@ -10772,9 +10772,9 @@ entry(
     label = "Cds-CdsCt(Cds-Cd)",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
 4   Ct u0 {1,S}
 5   C  u0 {2,D}
 """,
@@ -10791,11 +10791,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Ct",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
 4   Ct u0 {1,S}
-5   Cd u0 {2,D}
+5   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -10815,9 +10815,9 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   Ct  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
@@ -10834,10 +10834,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-O2d)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   Ct  u0 {1,S}
 6   O2d u0 {3,D}
 """,
@@ -10854,10 +10854,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   Ct  u0 {1,S}
 6   S2d u0 {3,D}
 """,
@@ -10874,10 +10874,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
 """,
@@ -10894,8 +10894,8 @@ entry(
     label = "Cds-CdsCtCt",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 """,
@@ -10917,10 +10917,10 @@ entry(
     label = "Cds-CdsCbCs",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -10940,10 +10940,10 @@ entry(
     label = "Cds-CdsCbCds",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
-2   Cd      u0 {1,D}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
+2   Cdb      u0 {1,D}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
     shortDesc = """""",
@@ -10958,9 +10958,9 @@ entry(
     label = "Cds-CdsCb(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CO  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   Cb  u0 {1,S}
 5   O2d u0 {2,D}
 """,
@@ -10977,9 +10977,9 @@ entry(
     label = "Cds-Cds(Cds-Cd)Cb",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
 4   Cb u0 {1,S}
 5   C  u0 {2,D}
 """,
@@ -10996,11 +10996,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Cb",
     group =
 """
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   Cd u0 {1,S} {5,D}
-3   Cd u0 {1,D}
+1 * Cdb u0 {2,S} {3,D} {4,S}
+2   Cdb u0 {1,S} {5,D}
+3   Cdb u0 {1,D}
 4   Cb u0 {1,S}
-5   Cd u0 {2,D}
+5   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -11020,9 +11020,9 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,D}
 4   Cb  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
@@ -11039,10 +11039,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-O2d)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   Cb  u0 {1,S}
 6   O2d u0 {3,D}
 """,
@@ -11059,10 +11059,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-S2d)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   Cb  u0 {1,S}
 6   S2d u0 {3,D}
 """,
@@ -11079,10 +11079,10 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Cdb  u0 {2,S} {4,D} {5,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   Cb  u0 {1,S}
 6   C   u0 {3,D}
 """,
@@ -11099,8 +11099,8 @@ entry(
     label = "Cds-CdsCbCt",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 """,
@@ -11122,8 +11122,8 @@ entry(
     label = "Cds-CdsCbCb",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D}
+1 * Cdb u0 {2,D} {3,S} {4,S}
+2   Cdb u0 {1,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 """,
@@ -11145,10 +11145,10 @@ entry(
     label = "Cds-CddCsCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsCs',
     shortDesc = """""",
@@ -11163,10 +11163,10 @@ entry(
     label = "Cds-(Cdd-O2d)CsCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -11189,10 +11189,10 @@ entry(
     label = "Cds-(Cdd-S2d)CsCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = None,
@@ -11208,10 +11208,10 @@ entry(
     label = "Cds-(Cdd-Cd)CsCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = 'Cds-CdsCsCs',
@@ -11227,10 +11227,10 @@ entry(
     label = "Cds-CddCdsCs",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
 2   Cdd     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
     shortDesc = """""",
@@ -11245,10 +11245,10 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-O2d)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 6   O2d u0 {3,D}
 """,
@@ -11265,10 +11265,10 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
 """,
@@ -11285,12 +11285,12 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-(Cdd-O2d)CsCs',
     shortDesc = """""",
@@ -11305,10 +11305,10 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
 """,
@@ -11325,11 +11325,11 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {3,D}
 7   O2d u0 {4,D}
 """,
@@ -11351,11 +11351,11 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -11372,10 +11372,10 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
 """,
@@ -11392,12 +11392,12 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -11412,10 +11412,10 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
 """,
@@ -11432,11 +11432,11 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {3,D}
 7   S2d u0 {4,D}
 """,
@@ -11453,11 +11453,11 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -11474,10 +11474,10 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
 """,
@@ -11494,12 +11494,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = """""",
@@ -11514,10 +11514,10 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
 """,
@@ -11534,11 +11534,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   O2d u0 {4,D}
 """,
@@ -11555,11 +11555,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   S2d u0 {4,D}
 """,
@@ -11576,11 +11576,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -11597,10 +11597,10 @@ entry(
     label = "Cds-CddCdsCds",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
 2   Cdd     u0 {1,D}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -11615,7 +11615,7 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-O2d)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   CO  u0 {1,S} {7,D}
@@ -11636,9 +11636,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
@@ -11657,12 +11657,12 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {4,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-O2d)Cs',
@@ -11678,9 +11678,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -11699,8 +11699,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -11721,8 +11721,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -11743,10 +11743,10 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -11764,13 +11764,13 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 """,
     thermo = 'Cds-(Cdd-O2d)CsCs',
     shortDesc = """""",
@@ -11785,13 +11785,13 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = """""",
@@ -11806,13 +11806,13 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   O2d u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {5,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cs',
@@ -11828,13 +11828,13 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   O2d u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   C   u0 {5,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cds)(Cds-Cds)',
@@ -11850,10 +11850,10 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -11871,9 +11871,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -11894,9 +11894,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -11917,9 +11917,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -11940,7 +11940,7 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-O2d)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   CO  u0 {1,S} {7,D}
@@ -11961,10 +11961,10 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   C   u0 {4,D}
 7   O2d u0 {3,D}
@@ -11982,12 +11982,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   C   u0 {2,D}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   O2d u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-O2d)(Cds-Cds)',
@@ -12003,10 +12003,10 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   Cdd u0 {4,D}
 7   O2d u0 {3,D}
@@ -12024,8 +12024,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -12046,8 +12046,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CO  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -12068,10 +12068,10 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -12089,13 +12089,13 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -12110,13 +12110,13 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -12131,13 +12131,13 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   S2d u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {5,D}
 """,
     thermo = None,
@@ -12153,13 +12153,13 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   S2d u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   C   u0 {5,D}
 """,
     thermo = None,
@@ -12175,10 +12175,10 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -12196,9 +12196,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12219,9 +12219,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12242,9 +12242,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12265,10 +12265,10 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -12286,13 +12286,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -12307,13 +12307,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = """""",
@@ -12328,13 +12328,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   C   u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-O2d)',
@@ -12350,13 +12350,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   C   u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {5,D}
 """,
     thermo = None,
@@ -12372,13 +12372,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   C   u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   C   u0 {5,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
@@ -12394,21 +12394,21 @@ entry(
     label = "Cd-((Cd)(CdH)CdCdd)((H)CdH)((HH)Cd)CdCdCdd",
     group =
 """
-1  * Cd  u0 p0 c0 {2,S} {3,S} {7,D}
-2    Cd  u0 {1,S} {4,S} {9,D}
-3    Cd  u0 {1,S} {5,D} {10,S}
-4    Cd  u0 {2,S} {8,D} {11,S}
-5    Cd  u0 {3,D} {8,S} {12,S}
-6    Cd  u0 {7,D} {13,S} {14,S}
+1  * Cdb  u0 p0 c0 {2,S} {3,S} {7,D}
+2    Cdb  u0 {1,S} {4,S} {9,D}
+3    Cdb  u0 {1,S} {5,D} {10,S}
+4    Cdb  u0 {2,S} {8,D} {11,S}
+5    Cdb  u0 {3,D} {8,S} {12,S}
+6    Cdb  u0 {7,D} {13,S} {14,S}
 7    Cdd u0 {1,D} {6,D}
-8    Cd  u0 {4,D} {5,S}
+8    Cdb  u0 {4,D} {5,S}
 9    Cdd u0 {2,D} {15,D}
 10   H   u0 {3,S}
 11   H   u0 {4,S}
 12   H   u0 {5,S}
 13   H   u0 {6,S}
 14   H   u0 {6,S}
-15   Cd  u0 {9,D}
+15   Cdb  u0 {9,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -12428,10 +12428,10 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -12449,9 +12449,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12472,9 +12472,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12495,9 +12495,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12518,9 +12518,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12541,9 +12541,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {1,D} {7,D}
 5   Cdd u0 {2,D} {8,D}
 6   Cdd u0 {3,D} {9,D}
@@ -12564,10 +12564,10 @@ entry(
     label = "Cds-CddCtCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtCs',
     shortDesc = """""",
@@ -12582,10 +12582,10 @@ entry(
     label = "Cds-(Cdd-O2d)CtCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cds)Cs',
@@ -12601,10 +12601,10 @@ entry(
     label = "Cds-(Cdd-S2d)CtCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = None,
@@ -12620,10 +12620,10 @@ entry(
     label = "Cds-(Cdd-Cd)CtCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = 'Cds-CdsCtCs',
@@ -12639,10 +12639,10 @@ entry(
     label = "Cds-CddCtCds",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
 2   Cdd     u0 {1,D}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
     shortDesc = """""",
@@ -12657,7 +12657,7 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-O2d)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
@@ -12677,9 +12677,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
@@ -12697,12 +12697,12 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -12717,9 +12717,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -12737,8 +12737,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -12758,8 +12758,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -12779,9 +12779,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
@@ -12799,12 +12799,12 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -12819,9 +12819,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -12839,8 +12839,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -12860,8 +12860,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -12881,9 +12881,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
@@ -12901,12 +12901,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
     shortDesc = """""",
@@ -12921,9 +12921,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Ct",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
@@ -12941,8 +12941,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -12962,8 +12962,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -12983,8 +12983,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Ct  u0 {1,S}
@@ -13004,7 +13004,7 @@ entry(
     label = "Cds-CddCtCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13022,7 +13022,7 @@ entry(
     label = "Cds-(Cdd-O2d)CtCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13041,7 +13041,7 @@ entry(
     label = "Cds-(Cdd-S2d)CtCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13060,7 +13060,7 @@ entry(
     label = "Cds-(Cdd-Cd)CtCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13079,10 +13079,10 @@ entry(
     label = "Cds-CddCbCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCs',
     shortDesc = """""",
@@ -13097,10 +13097,10 @@ entry(
     label = "Cds-(Cdd-O2d)CbCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cds)Cs',
@@ -13116,10 +13116,10 @@ entry(
     label = "Cds-(Cdd-S2d)CbCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = None,
@@ -13135,10 +13135,10 @@ entry(
     label = "Cds-(Cdd-Cd)CbCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = 'Cds-CdsCbCs',
@@ -13154,10 +13154,10 @@ entry(
     label = "Cds-CddCbCds",
     group =
 """
-1 * Cd      u0 {2,D} {3,S} {4,S}
+1 * Cdb      u0 {2,D} {3,S} {4,S}
 2   Cdd     u0 {1,D}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
     shortDesc = """""",
@@ -13172,7 +13172,7 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-O2d)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CO  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
@@ -13192,9 +13192,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   O2d u0 {2,D}
 6   C   u0 {3,D}
@@ -13212,12 +13212,12 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cds)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   O2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-(Cdd-O2d)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -13232,9 +13232,9 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   O2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -13252,8 +13252,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13273,8 +13273,8 @@ entry(
     label = "Cds-(Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13294,9 +13294,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
@@ -13314,12 +13314,12 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -13334,9 +13334,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -13354,8 +13354,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13375,8 +13375,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13396,9 +13396,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
@@ -13416,12 +13416,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   C   u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
     shortDesc = """""",
@@ -13436,9 +13436,9 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
@@ -13456,8 +13456,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-O2d)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13477,8 +13477,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-S2d)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13498,8 +13498,8 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {5,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,D} {5,S}
+2   Cdb  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cb  u0 {1,S}
@@ -13519,7 +13519,7 @@ entry(
     label = "Cds-CddCbCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13537,7 +13537,7 @@ entry(
     label = "Cds-(Cdd-O2d)CbCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13556,7 +13556,7 @@ entry(
     label = "Cds-(Cdd-S2d)CbCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13575,7 +13575,7 @@ entry(
     label = "Cds-(Cdd-Cd)CbCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -13594,7 +13594,7 @@ entry(
     label = "Cds-CddCbCb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -13612,7 +13612,7 @@ entry(
     label = "Cds-(Cdd-O2d)CbCb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -13631,7 +13631,7 @@ entry(
     label = "Cds-(Cdd-S2d)CbCb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -13650,7 +13650,7 @@ entry(
     label = "Cds-(Cdd-Cd)CbCb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -13669,10 +13669,10 @@ entry(
     label = "Cds-CdsC=SC=S",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CS  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {6,D}
-4   Cd  u0 {1,D}
+4   Cdb  u0 {1,D}
 5   S2d u0 {2,D}
 6   S2d u0 {3,D}
 """,
@@ -13689,10 +13689,10 @@ entry(
     label = "Cds-(Cdd-Cd)C=S(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   C   u0 {4,D}
 7   S2d u0 {3,D}
@@ -13710,12 +13710,12 @@ entry(
     label = "Cds-(Cdd-Cd)C=S(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   C   u0 {2,D}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -13731,10 +13731,10 @@ entry(
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   C   u0 {2,D}
 6   Cdd u0 {4,D}
 7   S2d u0 {3,D}
@@ -13752,8 +13752,8 @@ entry(
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -13774,8 +13774,8 @@ entry(
     label = "Cds-(Cdd-Cd)C=S(Cds-Cdd-S2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -13796,10 +13796,10 @@ entry(
     label = "Cds-(Cdd-S2d)C=SCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 6   S2d u0 {3,D}
 """,
@@ -13816,7 +13816,7 @@ entry(
     label = "Cds-(Cdd-S2d)C=SCt",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
@@ -13836,7 +13836,7 @@ entry(
     label = "Cds-(Cdd-S2d)C=SCb",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
@@ -13856,7 +13856,7 @@ entry(
     label = "Cds-(Cdd-Cd)C=SC=S",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   CS  u0 {1,S} {7,D}
@@ -13877,9 +13877,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cd)C=S",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
 6   C   u0 {3,D}
@@ -13898,12 +13898,12 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cds)C=S",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {4,D}
 """,
     thermo = None,
@@ -13919,9 +13919,9 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd)C=S",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   S2d u0 {2,D}
 6   Cdd u0 {3,D}
@@ -13940,8 +13940,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-S2d)C=S",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -13962,8 +13962,8 @@ entry(
     label = "Cds-(Cdd-S2d)(Cds-Cdd-Cd)C=S",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {5,D}
 3   Cdd u0 {1,D} {6,D}
 4   CS  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {8,D}
@@ -13984,9 +13984,9 @@ entry(
     label = "Cds-CdsCbC=S",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   Cb  u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -14003,9 +14003,9 @@ entry(
     label = "Cds-CdsCtC=S",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
+3   Cdb  u0 {1,D}
 4   Ct  u0 {1,S}
 5   S2d u0 {2,D}
 """,
@@ -14022,10 +14022,10 @@ entry(
     label = "Cds-CdsC=SCs",
     group =
 """
-1 * Cd  u0 {2,S} {3,D} {4,S}
+1 * Cdb  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
-3   Cd  u0 {1,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,D}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -14046,10 +14046,10 @@ entry(
     label = "Cds-CdsC=S(Cds-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CS  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,D}
 5   C   u0 {3,D}
 6   S2d u0 {2,D}
 """,
@@ -14066,11 +14066,11 @@ entry(
     label = "Cds-CdsC=S(Cds-Cds)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CS  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,D}
-5   Cd  u0 {3,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,D}
+5   Cdb  u0 {3,D}
 6   S2d u0 {2,D}
 """,
     thermo = None,
@@ -14086,10 +14086,10 @@ entry(
     label = "Cds-CdsC=S(Cds-Cdd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CS  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {5,D}
-4   Cd  u0 {1,D}
+3   Cdb  u0 {1,S} {5,D}
+4   Cdb  u0 {1,D}
 5   Cdd u0 {3,D}
 6   S2d u0 {2,D}
 """,
@@ -14106,11 +14106,11 @@ entry(
     label = "Cds-CdsC=S(Cds-Cdd-Cd)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
+5   Cdb  u0 {1,D}
 6   S2d u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -14127,11 +14127,11 @@ entry(
     label = "Cds-CdsC=S(Cds-Cdd-S2d)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Cd  u0 {1,D}
+5   Cdb  u0 {1,D}
 6   S2d u0 {3,D}
 7   S2d u0 {4,D}
 """,
@@ -14148,7 +14148,7 @@ entry(
     label = "Cds-(Cdd-S2d)C=SC=S",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   CS  u0 {1,S} {7,D}
@@ -14207,7 +14207,7 @@ entry(
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S  u0 {1,D}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = 'C=S2-CsH',
@@ -14225,7 +14225,7 @@ entry(
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -14248,7 +14248,7 @@ entry(
 """
 1 * CS         u0 {2,D} {3,S} {4,S}
 2   [S4d,S4dd] u0 {1,D}
-3   Cs         u0 {1,S}
+3   Css         u0 {1,S}
 4   H          u0 {1,S}
 """,
     thermo = ThermoData(
@@ -14271,7 +14271,7 @@ entry(
 """
 1 * CS      u0 {2,D} {3,S} {4,S}
 2   S2d     u0 {1,D}
-3   [Cd,Cb] u0 {1,S}
+3   [Cdb,Cb] u0 {1,S}
 4   H       u0 {1,S}
 """,
     thermo = ThermoData(
@@ -14293,10 +14293,10 @@ entry(
     group =
 """
 1 * CS          u0 {2,S} {3,D} {4,S}
-2   Cd          u0 {1,S} {5,D}
+2   Cdb          u0 {1,S} {5,D}
 3   S2d         u0 {1,D}
 4   H           u0 {1,S}
-5   [Cd,Cdd,CO] u0 {2,D}
+5   [Cdb,Cdd,CO] u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14312,7 +14312,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   H   u0 {1,S}
 5   Cdd u0 {2,D}
@@ -14331,7 +14331,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   H   u0 {1,S}
@@ -14351,7 +14351,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   H   u0 {1,S}
@@ -14371,10 +14371,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   H   u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14457,7 +14457,7 @@ entry(
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S}
+4   Cdb  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14473,10 +14473,10 @@ entry(
     group =
 """
 1 * CS          u0 {2,S} {3,D} {4,S}
-2   Cd          u0 {1,S} {5,D}
+2   Cdb          u0 {1,S} {5,D}
 3   S2d         u0 {1,D}
 4   Cb          u0 {1,S}
-5   [Cd,Cdd,CO] u0 {2,D}
+5   [Cdb,Cdd,CO] u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14492,10 +14492,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   Cb  u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14511,7 +14511,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   Cb  u0 {1,S}
 5   Cdd u0 {2,D}
@@ -14530,7 +14530,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   Cb  u0 {1,S}
@@ -14550,7 +14550,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   Cb  u0 {1,S}
@@ -14607,8 +14607,8 @@ entry(
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Cdb  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14624,11 +14624,11 @@ entry(
     group =
 """
 1 * CS          u0 {2,S} {3,S} {4,D}
-2   Cd          u0 {1,S} {5,D}
-3   Cd          u0 {1,S} {6,D}
+2   Cdb          u0 {1,S} {5,D}
+3   Cdb          u0 {1,S} {6,D}
 4   S2d         u0 {1,D}
-5   [Cd,Cdd,CO] u0 {2,D}
-6   [Cd,Cdd,CO] u0 {3,D}
+5   [Cdb,Cdd,CO] u0 {2,D}
+6   [Cdb,Cdd,CO] u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14644,11 +14644,11 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2d u0 {1,D}
 5   Cdd u0 {2,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14664,11 +14664,11 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   S2d u0 {1,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   C   u0 {4,D}
 """,
     thermo = None,
@@ -14685,11 +14685,11 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cdd u0 {2,D} {7,D}
 5   S2d u0 {1,D}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {4,D}
 """,
     thermo = None,
@@ -14706,11 +14706,11 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2d u0 {1,D}
-5   Cd  u0 {2,D}
-6   Cd  u0 {3,D}
+5   Cdb  u0 {2,D}
+6   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14726,8 +14726,8 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {6,D}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2d u0 {1,D}
 5   Cdd u0 {2,D}
 6   Cdd u0 {3,D}
@@ -14746,8 +14746,8 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
 6   S2d u0 {1,D}
@@ -14768,8 +14768,8 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
 6   S2d u0 {1,D}
@@ -14790,8 +14790,8 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {6,D}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {7,D}
 5   Cdd u0 {3,D} {8,D}
 6   S2d u0 {1,D}
@@ -14814,7 +14814,7 @@ entry(
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S}
+4   Cdb  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14830,10 +14830,10 @@ entry(
     group =
 """
 1 * CS          u0 {2,S} {3,D} {4,S}
-2   Cd          u0 {1,S} {5,D}
+2   Cdb          u0 {1,S} {5,D}
 3   S2d         u0 {1,D}
 4   Ct          u0 {1,S}
-5   [Cd,Cdd,CO] u0 {2,D}
+5   [Cdb,Cdd,CO] u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14849,10 +14849,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   Ct  u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -14868,7 +14868,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   Ct  u0 {1,S}
 5   Cdd u0 {2,D}
@@ -14887,7 +14887,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   Ct  u0 {1,S}
@@ -14907,7 +14907,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   Ct  u0 {1,S}
@@ -14946,8 +14946,8 @@ entry(
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -14969,8 +14969,8 @@ entry(
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
-3   Cd  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -14991,10 +14991,10 @@ entry(
     group =
 """
 1 * CS          u0 {2,S} {3,D} {4,S}
-2   Cd          u0 {1,S} {5,D}
+2   Cdb          u0 {1,S} {5,D}
 3   S2d         u0 {1,D}
-4   Cs          u0 {1,S}
-5   [Cd,Cdd,CO] u0 {2,D}
+4   Css          u0 {1,S}
+5   [Cdb,Cdd,CO] u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -15010,10 +15010,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
-4   Cs  u0 {1,S}
-5   Cd  u0 {2,D}
+4   Css  u0 {1,S}
+5   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -15029,9 +15029,9 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -15048,10 +15048,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {3,D}
 """,
     thermo = None,
@@ -15068,10 +15068,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 """,
     thermo = None,
@@ -15090,7 +15090,7 @@ entry(
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -15113,7 +15113,7 @@ entry(
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -15136,7 +15136,7 @@ entry(
 1 * CS  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -15179,7 +15179,7 @@ entry(
 1 * CS  u0 {2,S} {3,D} {4,S}
 2   CS  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
-4   Cd  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2d u0 {2,D}
 """,
     thermo = None,
@@ -15196,7 +15196,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   S2d u0 {1,D}
 5   Cdd u0 {2,D}
@@ -15216,7 +15216,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {6,D}
 5   S2d u0 {1,D}
@@ -15237,7 +15237,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {5,D}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {6,D}
 5   S2d u0 {1,D}
@@ -15258,10 +15258,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,S} {4,D}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {6,D}
 4   S2d u0 {1,D}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 6   S2d u0 {3,D}
 """,
     thermo = None,
@@ -15574,7 +15574,7 @@ entry(
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = None,
@@ -15591,10 +15591,10 @@ entry(
     group =
 """
 1 * CS          u0 {2,S} {3,D} {4,S}
-2   Cd          u0 {1,S} {5,D}
+2   Cdb          u0 {1,S} {5,D}
 3   S2d         u0 {1,D}
 4   S2s         u0 {1,S}
-5   [Cd,Cdd,CO] u0 {2,D}
+5   [Cdb,Cdd,CO] u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -15610,10 +15610,10 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   S2s u0 {1,S}
-5   Cd  u0 {2,D}
+5   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -15629,7 +15629,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
-2   Cd  u0 {1,S} {5,D}
+2   Cdb  u0 {1,S} {5,D}
 3   S2d u0 {1,D}
 4   S2s u0 {1,S}
 5   Cdd u0 {2,D}
@@ -15648,7 +15648,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   S2s u0 {1,S}
@@ -15668,7 +15668,7 @@ entry(
     group =
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   S2d u0 {1,D}
 5   S2s u0 {1,S}
@@ -15730,7 +15730,7 @@ entry(
 """
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -15770,7 +15770,7 @@ entry(
     label = "Cds-CdIH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
 3   I1s u0 {1,S}
 4   H   u0 {1,S}
@@ -15861,7 +15861,7 @@ entry(
 1 * CS  u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
 3   O2s u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -15927,7 +15927,7 @@ entry(
     label = "Cd-HHN",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   N  u0 {1,D}
@@ -15953,7 +15953,7 @@ entry(
     label = "Cd-N3dHH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -16058,7 +16058,7 @@ entry(
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2d u0 {1,D}
 """,
     thermo = ThermoData(
@@ -16083,7 +16083,7 @@ entry(
     label = "Cd-HNN",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   N  u0 {1,S}
 3   H  u0 {1,S}
 4   N  u0 {1,D}
@@ -16108,7 +16108,7 @@ entry(
     label = "Cd-NNN",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   N  u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,D}
@@ -16235,7 +16235,7 @@ entry(
     label = "Cd-HNO",
     group =
 """
-1 * Cd         u0 {2,S} {3,S} {4,D}
+1 * Cdb         u0 {2,S} {3,S} {4,D}
 2   [O2s,O0sc] u0 {1,S}
 3   H          u0 {1,S}
 4   N          u0 {1,D}
@@ -16260,7 +16260,7 @@ entry(
     label = "Cd-HN3dO",
     group =
 """
-1 * Cd         u0 {2,S} {3,S} {4,D}
+1 * Cdb         u0 {2,S} {3,S} {4,D}
 2   [O2s,O0sc] u0 {1,S}
 3   H          u0 {1,S}
 4   N3d        u0 {1,D}
@@ -16285,7 +16285,7 @@ entry(
     label = "Cd-HNdOH",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   O2s u0 {1,S} {5,S}
 3   H   u0 {1,S}
 4   N3d u0 {1,D}
@@ -16311,7 +16311,7 @@ entry(
     label = "Cd-NNO",
     group =
 """
-1 * Cd         u0 {2,S} {3,S} {4,D}
+1 * Cdb         u0 {2,S} {3,S} {4,D}
 2   [O2s,O0sc] u0 {1,S}
 3   N          u0 {1,S}
 4   N          u0 {1,D}
@@ -16336,7 +16336,7 @@ entry(
     label = "Cd-OONd",
     group =
 """
-1 * Cd         u0 {2,S} {3,S} {4,D}
+1 * Cdb         u0 {2,S} {3,S} {4,D}
 2   [O2s,O0sc] u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N          u0 {1,D}
@@ -16361,7 +16361,7 @@ entry(
     label = "Cd-OON3d",
     group =
 """
-1 * Cd         u0 {2,S} {3,S} {4,D}
+1 * Cdb         u0 {2,S} {3,S} {4,D}
 2   [O2s,O0sc] u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N3d        u0 {1,D}
@@ -16386,7 +16386,7 @@ entry(
     label = "Cd-CHN",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   N  u0 {1,D}
@@ -16411,7 +16411,7 @@ entry(
     label = "Cd-HN(CO)",
     group =
 """
-1 * Cd  u0 {2,S} {3,S} {4,D}
+1 * Cdb  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {5,D}
 3   H   u0 {1,S}
 4   N   u0 {1,D}
@@ -16437,9 +16437,9 @@ entry(
     label = "Cd-N3dCsH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -16462,9 +16462,9 @@ entry(
     label = "Cd-N3dCdH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -16487,7 +16487,7 @@ entry(
     label = "Cd-N5dcCH",
     group =
 """
-1 * Cd           u0 {2,D} {3,S} {4,S}
+1 * Cdb           u0 {2,D} {3,S} {4,S}
 2   [N5dc,N5ddc] u0 {1,D}
 3   C            u0 {1,S}
 4   H            u0 {1,S}
@@ -16512,7 +16512,7 @@ entry(
     label = "Cd-CNNd",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   C  u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,D}
@@ -16537,8 +16537,8 @@ entry(
     label = "Cd-CsNNd",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cs u0 {1,S}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Css u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,D}
 """,
@@ -16562,8 +16562,8 @@ entry(
     label = "Cd-CdNNd",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
-2   Cd u0 {1,S}
+1 * Cdb u0 {2,S} {3,S} {4,D}
+2   Cdb u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,D}
 """,
@@ -16587,8 +16587,8 @@ entry(
     label = "Cd-NNCd",
     group =
 """
-1 * Cd       u0 {2,D} {3,S} {4,S}
-2   [Cd,Cdd] u0 {1,D}
+1 * Cdb       u0 {2,D} {3,S} {4,S}
+2   [Cdb,Cdd] u0 {1,D}
 3   N        u0 {1,S}
 4   N        u0 {1,S}
 """,
@@ -16612,7 +16612,7 @@ entry(
     label = "Cd-NNCdd",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   N   u0 {1,S}
 4   N   u0 {1,S}
@@ -16637,7 +16637,7 @@ entry(
     label = "Cd-NN(CddOd)",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   N   u0 {1,S}
 4   N   u0 {1,S}
@@ -16663,7 +16663,7 @@ entry(
     label = "Cd-CNO",
     group =
 """
-1 * Cd         u0 {2,S} {3,S} {4,D}
+1 * Cdb         u0 {2,S} {3,S} {4,D}
 2   C          u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N          u0 {1,D}
@@ -16688,7 +16688,7 @@ entry(
     label = "Cd-CCN",
     group =
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cdb u0 {2,S} {3,S} {4,D}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   N  u0 {1,D}
@@ -16713,10 +16713,10 @@ entry(
     label = "Cd-N3dCsCs",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -16738,7 +16738,7 @@ entry(
     label = "Cds-CNH",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   N  u0 {1,S}
 4   H  u0 {1,S}
@@ -16765,7 +16765,7 @@ entry(
     label = "Cd-CddNH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   N   u0 {1,S}
 4   H   u0 {1,S}
@@ -16790,7 +16790,7 @@ entry(
     label = "Cd-(CddOd)NH",
     group =
 """
-1 * Cd  u0 {2,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   N   u0 {1,S}
 4   H   u0 {1,S}
@@ -16816,8 +16816,8 @@ entry(
     label = "Cd-CdHN3s",
     group =
 """
-1 * Cd  u0 {2,D} {5,S} {6,S}
-2   Cd  u0 {1,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {5,S} {6,S}
+2   Cdb  u0 {1,D} {3,S} {4,S}
 3   R   u0 {2,S}
 4   R   u0 {2,S}
 5   H   u0 {1,S}
@@ -16843,8 +16843,8 @@ entry(
     label = "Cd-CdHN1s",
     group =
 """
-1 * Cd  u0 {2,D} {5,S} {6,S}
-2   Cd  u0 {1,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {5,S} {6,S}
+2   Cdb  u0 {1,D} {3,S} {4,S}
 3   R   u0 {2,S}
 4   R   u0 {2,S}
 5   H   u0 {1,S}
@@ -16870,7 +16870,7 @@ entry(
     label = "Cds-CCN",
     group =
 """
-1 * Cd u0 {2,D} {3,S} {4,S}
+1 * Cdb u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   C  u0 {1,S}
 4   N  u0 {1,S}
@@ -16895,11 +16895,11 @@ entry(
     label = "Cd-CdCsN3s",
     group =
 """
-1 * Cd  u0 {2,D} {5,S} {6,S}
-2   Cd  u0 {1,D} {3,S} {4,S}
+1 * Cdb  u0 {2,D} {5,S} {6,S}
+2   Cdb  u0 {1,D} {3,S} {4,S}
 3   R   u0 {2,S}
 4   R   u0 {2,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   N3s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -16922,7 +16922,7 @@ entry(
     label = "Cs",
     group =
 """
-1 * Cs u0
+1 * Css u0
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = """""",
@@ -16937,7 +16937,7 @@ entry(
     label = "CsBrBrBrBr",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Br u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -16963,7 +16963,7 @@ entry(
     label = "CsBrBrBrCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -16989,7 +16989,7 @@ entry(
     label = "CsBrBrClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl u0 {1,S}
 3   Cl u0 {1,S}
 4   Br u0 {1,S}
@@ -17015,7 +17015,7 @@ entry(
     label = "CsBrClClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17041,7 +17041,7 @@ entry(
     label = "CsClClClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17067,7 +17067,7 @@ entry(
     label = "CsBrBrBrF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -17093,7 +17093,7 @@ entry(
     label = "CsBrBrClF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   Cl u0 {1,S}
 4   Br u0 {1,S}
@@ -17119,7 +17119,7 @@ entry(
     label = "CsBrClClF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17145,7 +17145,7 @@ entry(
     label = "CsClClClF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17171,7 +17171,7 @@ entry(
     label = "CsBrBrFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   Br u0 {1,S}
@@ -17197,7 +17197,7 @@ entry(
     label = "CsBrClFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17223,7 +17223,7 @@ entry(
     label = "CsClClFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17249,7 +17249,7 @@ entry(
     label = "CsBrFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -17275,7 +17275,7 @@ entry(
     label = "CsClFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -17301,7 +17301,7 @@ entry(
     label = "CsFFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   F  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -17327,7 +17327,7 @@ entry(
     label = "CsBrBrBrH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -17353,7 +17353,7 @@ entry(
     label = "CsBrBrClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   Cl u0 {1,S}
 4   Br u0 {1,S}
@@ -17379,7 +17379,7 @@ entry(
     label = "CsBrClClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17405,7 +17405,7 @@ entry(
     label = "CsClClClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17431,7 +17431,7 @@ entry(
     label = "CsBrBrFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   Br u0 {1,S}
@@ -17457,7 +17457,7 @@ entry(
     label = "CsBrClFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17483,7 +17483,7 @@ entry(
     label = "CsClClFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17509,7 +17509,7 @@ entry(
     label = "CsBrFFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -17535,7 +17535,7 @@ entry(
     label = "CsClFFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -17561,7 +17561,7 @@ entry(
     label = "CsFFFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -17587,7 +17587,7 @@ entry(
     label = "CsBrBrHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   Br u0 {1,S}
@@ -17613,7 +17613,7 @@ entry(
     label = "CsBrClHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17639,7 +17639,7 @@ entry(
     label = "CsClClHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17665,7 +17665,7 @@ entry(
     label = "CsBrFHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -17691,7 +17691,7 @@ entry(
     label = "CsClFHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -17717,7 +17717,7 @@ entry(
     label = "CsFFHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -17743,7 +17743,7 @@ entry(
     label = "CsBrHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -17769,7 +17769,7 @@ entry(
     label = "CsClHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -17795,7 +17795,7 @@ entry(
     label = "CsFHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -17821,7 +17821,7 @@ entry(
     label = "CsBrBrBrO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -17849,7 +17849,7 @@ entry(
     label = "CsBrBrClO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   Cl u0 {1,S}
 4   Br u0 {1,S}
@@ -17876,7 +17876,7 @@ entry(
     label = "CsBrClClO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17903,7 +17903,7 @@ entry(
     label = "CsClClClO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -17931,7 +17931,7 @@ entry(
     label = "CsBrBrFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   Br u0 {1,S}
@@ -17957,7 +17957,7 @@ entry(
     label = "CsBrClFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -17983,7 +17983,7 @@ entry(
     label = "CsClClFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -18010,7 +18010,7 @@ entry(
     label = "CsBrFFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -18036,7 +18036,7 @@ entry(
     label = "CsClFFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -18063,7 +18063,7 @@ entry(
     label = "CsFFFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -18091,7 +18091,7 @@ entry(
     label = "CsBrBrHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   Br u0 {1,S}
@@ -18120,7 +18120,7 @@ entry(
     label = "CsBrClHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
@@ -18147,7 +18147,7 @@ entry(
     label = "CsClClHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
@@ -18175,7 +18175,7 @@ entry(
     label = "CsBrFHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -18201,7 +18201,7 @@ entry(
     label = "CsClFHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -18228,7 +18228,7 @@ entry(
     label = "CsFFHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -18257,7 +18257,7 @@ entry(
     label = "CsBrHHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -18286,7 +18286,7 @@ entry(
     label = "CsClHHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -18314,7 +18314,7 @@ entry(
     label = "CsFHHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -18343,7 +18343,7 @@ entry(
     label = "CsBrBrOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   Br u0 {1,S}
@@ -18371,7 +18371,7 @@ entry(
     label = "CsBrClOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   Cl u0 {1,S}
@@ -18398,7 +18398,7 @@ entry(
     label = "CsClClOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   Cl u0 {1,S}
@@ -18427,7 +18427,7 @@ entry(
     label = "CsBrFOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   F  u0 {1,S}
@@ -18453,7 +18453,7 @@ entry(
     label = "CsClFOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   F  u0 {1,S}
@@ -18480,7 +18480,7 @@ entry(
     label = "CsFFOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   F  u0 {1,S}
@@ -18508,7 +18508,7 @@ entry(
     label = "CsBrHOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   H  u0 {1,S}
@@ -18537,7 +18537,7 @@ entry(
     label = "CsClHOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   H  u0 {1,S}
@@ -18566,7 +18566,7 @@ entry(
     label = "CsFHOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   H  u0 {1,S}
@@ -18594,7 +18594,7 @@ entry(
     label = "CsBrOOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   O  u0 {1,S}
@@ -18618,7 +18618,7 @@ entry(
     label = "CsClOOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   O  u0 {1,S}
@@ -18642,7 +18642,7 @@ entry(
     label = "CsFOOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   O  u0 {1,S}
 3   O  u0 {1,S}
 4   O  u0 {1,S}
@@ -18666,7 +18666,7 @@ entry(
     label = "CsBrBrBrC",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -18685,8 +18685,8 @@ entry(
     label = "CsBrBrBrCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
 5   Br u0 {1,S}
@@ -18714,8 +18714,8 @@ entry(
     label = "CsBrBrBrCd",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
 5   Br u0 {1,S}
@@ -18742,7 +18742,7 @@ entry(
     label = "CsBrBrBrCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -18770,7 +18770,7 @@ entry(
     label = "CsBrBrBrCO",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Br  u0 {1,S}
 4   Br  u0 {1,S}
@@ -18798,7 +18798,7 @@ entry(
     label = "CsC2sBrBrBr",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 p1 {1,S}
 3   Br u0 {1,S}
 4   Br u0 {1,S}
@@ -18817,7 +18817,7 @@ entry(
     label = "CsBrBrCCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   Cl u0 {1,S}
 4   Br u0 {1,S}
@@ -18844,7 +18844,7 @@ entry(
     label = "CsBrCClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -18871,7 +18871,7 @@ entry(
     label = "CsCClClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -18890,8 +18890,8 @@ entry(
     label = "CsClClClCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
@@ -18919,8 +18919,8 @@ entry(
     label = "CsClClClCd",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
@@ -18947,7 +18947,7 @@ entry(
     label = "CsClClClCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -18974,7 +18974,7 @@ entry(
     label = "CsClClClCO",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cl  u0 {1,S}
 4   Cl  u0 {1,S}
@@ -19002,7 +19002,7 @@ entry(
     label = "CsC2sClClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 p1 {1,S}
 3   Cl u0 {1,S}
 4   Cl u0 {1,S}
@@ -19028,7 +19028,7 @@ entry(
     label = "CsBrBrCF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   Br u0 {1,S}
@@ -19054,7 +19054,7 @@ entry(
     label = "CsBrCClF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -19080,7 +19080,7 @@ entry(
     label = "CsCClClF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   Cl u0 {1,S}
@@ -19107,7 +19107,7 @@ entry(
     label = "CsBrCFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -19133,7 +19133,7 @@ entry(
     label = "CsCClFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -19160,7 +19160,7 @@ entry(
     label = "CsCFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -19179,8 +19179,8 @@ entry(
     label = "CsCsFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
 5   F  u0 {1,S}
@@ -19208,8 +19208,8 @@ entry(
     label = "CsCdFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
 5   F  u0 {1,S}
@@ -19235,7 +19235,7 @@ entry(
     label = "CsCtFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -19262,7 +19262,7 @@ entry(
     label = "CsCOFFF",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   F   u0 {1,S}
 4   F   u0 {1,S}
@@ -19291,7 +19291,7 @@ entry(
     label = "CsC2sFFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 p1 {1,S}
 3   F  u0 {1,S}
 4   F  u0 {1,S}
@@ -19317,7 +19317,7 @@ entry(
     label = "CsBrBrCH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   Br u0 {1,S}
@@ -19346,8 +19346,8 @@ entry(
     label = "CsBrBrCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   Br u0 {1,S}
 5   Br u0 {1,S}
@@ -19375,7 +19375,7 @@ entry(
     label = "CsBrCClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
@@ -19402,7 +19402,7 @@ entry(
     label = "CsCClClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
@@ -19430,8 +19430,8 @@ entry(
     label = "CsCsClClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
@@ -19459,7 +19459,7 @@ entry(
     label = "CsBrCFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -19485,7 +19485,7 @@ entry(
     label = "CsCClFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -19512,7 +19512,7 @@ entry(
     label = "CsCFFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
@@ -19541,8 +19541,8 @@ entry(
     label = "CsCsFFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   F  u0 {1,S}
 5   F  u0 {1,S}
@@ -19570,7 +19570,7 @@ entry(
     label = "CsBrCHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -19599,8 +19599,8 @@ entry(
     label = "CsBrCsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   Br u0 {1,S}
@@ -19628,7 +19628,7 @@ entry(
     label = "CsCClHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -19657,8 +19657,8 @@ entry(
     label = "CsClCsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   Cl u0 {1,S}
@@ -19687,7 +19687,7 @@ entry(
     label = "CsCFHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -19716,8 +19716,8 @@ entry(
     label = "CsCsFHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   F  u0 {1,S}
@@ -19745,7 +19745,7 @@ entry(
     label = "CsBrBrCO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   Br u0 {1,S}
@@ -19774,7 +19774,7 @@ entry(
     label = "CsBrCClO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   Cl u0 {1,S}
@@ -19801,7 +19801,7 @@ entry(
     label = "CsCClClO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   Cl u0 {1,S}
@@ -19830,7 +19830,7 @@ entry(
     label = "CsBrCFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   F  u0 {1,S}
@@ -19856,7 +19856,7 @@ entry(
     label = "CsCClFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   F  u0 {1,S}
@@ -19883,7 +19883,7 @@ entry(
     label = "CsCFFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   F  u0 {1,S}
@@ -19911,7 +19911,7 @@ entry(
     label = "CsBrCHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   H  u0 {1,S}
@@ -19940,7 +19940,7 @@ entry(
     label = "CsCClHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   H  u0 {1,S}
@@ -19969,7 +19969,7 @@ entry(
     label = "CsCFHO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   H  u0 {1,S}
@@ -19998,7 +19998,7 @@ entry(
     label = "CsBrCOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   O  u0 {1,S}
@@ -20027,7 +20027,7 @@ entry(
     label = "CsCClOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   O  u0 {1,S}
@@ -20056,7 +20056,7 @@ entry(
     label = "CsCFOO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   O  u0 {1,S}
 4   O  u0 {1,S}
@@ -20085,7 +20085,7 @@ entry(
     label = "CsBrBrCC",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   Br u0 {1,S}
@@ -20114,9 +20114,9 @@ entry(
     label = "CsBrBrCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   Br u0 {1,S}
 5   Br u0 {1,S}
 """,
@@ -20143,7 +20143,7 @@ entry(
     label = "CsBrCCCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   Cl u0 {1,S}
@@ -20170,7 +20170,7 @@ entry(
     label = "CsCCClCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   Cl u0 {1,S}
@@ -20199,9 +20199,9 @@ entry(
     label = "CsClClCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   Cl u0 {1,S}
 5   Cl u0 {1,S}
 """,
@@ -20228,7 +20228,7 @@ entry(
     label = "CsBrCCF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   F  u0 {1,S}
@@ -20254,7 +20254,7 @@ entry(
     label = "CsCCClF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   F  u0 {1,S}
@@ -20281,7 +20281,7 @@ entry(
     label = "CsCCFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   F  u0 {1,S}
@@ -20310,9 +20310,9 @@ entry(
     label = "CsCsCsFF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   F  u0 {1,S}
 5   F  u0 {1,S}
 """,
@@ -20339,7 +20339,7 @@ entry(
     label = "CsBrCCH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
@@ -20368,9 +20368,9 @@ entry(
     label = "CsBrCsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   Br u0 {1,S}
 """,
@@ -20397,7 +20397,7 @@ entry(
     label = "CsCCClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
@@ -20426,9 +20426,9 @@ entry(
     label = "CsCsCsClH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   Cl u0 {1,S}
 """,
@@ -20456,7 +20456,7 @@ entry(
     label = "CsCCFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
@@ -20485,9 +20485,9 @@ entry(
     label = "CsCsCsFH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   F  u0 {1,S}
 """,
@@ -20514,7 +20514,7 @@ entry(
     label = "CsBrCCO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   O  u0 {1,S}
@@ -20543,7 +20543,7 @@ entry(
     label = "CsCCClO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   O  u0 {1,S}
@@ -20572,7 +20572,7 @@ entry(
     label = "CsCCFO",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   O  u0 {1,S}
@@ -20601,7 +20601,7 @@ entry(
     label = "CsBrCCC",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -20630,7 +20630,7 @@ entry(
     label = "CsCCCCl",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -20660,7 +20660,7 @@ entry(
     label = "CsCCCF",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -20689,7 +20689,7 @@ entry(
     label = "Cs-HHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -20713,7 +20713,7 @@ entry(
     label = "Cs-CHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -20732,8 +20732,8 @@ entry(
     label = "Cs-CsHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -20756,8 +20756,8 @@ entry(
     label = "Cs-CdsHHH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
 3   H       u0 {1,S}
 4   H       u0 {1,S}
 5   H       u0 {1,S}
@@ -20775,7 +20775,7 @@ entry(
     label = "Cs-(Cds-O2d)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -20802,8 +20802,8 @@ entry(
     label = "Cs-(Cds-Cd)HHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -20822,12 +20822,12 @@ entry(
     label = "Cs-(Cds-Cds)HHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -20847,8 +20847,8 @@ entry(
     label = "Cs-(Cds-Cdd)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -20867,8 +20867,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -20895,8 +20895,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -20916,8 +20916,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -20937,7 +20937,7 @@ entry(
     label = "Cs-CtHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -20961,7 +20961,7 @@ entry(
     label = "Cs-(CtN3t)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S} {6,T}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -20988,7 +20988,7 @@ entry(
     label = "Cs-CbHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -21012,7 +21012,7 @@ entry(
     label = "Cs-C=SHHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -21037,7 +21037,7 @@ entry(
     label = "Cs-OsHHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -21063,7 +21063,7 @@ entry(
     label = "Cs-OsOsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -21089,7 +21089,7 @@ entry(
     label = "Cs-OsOsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -21113,7 +21113,7 @@ entry(
     label = "Cs-OsSHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   S   u0 {1,S}
 4   H   u0 {1,S}
@@ -21132,7 +21132,7 @@ entry(
     label = "Cs-OsS2HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -21156,7 +21156,7 @@ entry(
     label = "Cs-OsS4HH",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s               u0 {1,S}
 3   [S4s,S4d,S4b,S4t] u0 {1,S}
 4   H                 u0 {1,S}
@@ -21180,7 +21180,7 @@ entry(
     label = "Cs-OsSSH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   S   u0 {1,S}
 4   S   u0 {1,S}
@@ -21199,7 +21199,7 @@ entry(
     label = "Cs-OsS2S2H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -21223,7 +21223,7 @@ entry(
     label = "Cs-OsS4S2H",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s               u0 {1,S}
 3   S2s               u0 {1,S}
 4   [S4s,S4d,S4b,S4t] u0 {1,S}
@@ -21247,7 +21247,7 @@ entry(
     label = "Cs-OsOsSH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   O2s u0 {1,S}
 4   S   u0 {1,S}
@@ -21266,7 +21266,7 @@ entry(
     label = "Cs-OsOsS2H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   O2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -21290,7 +21290,7 @@ entry(
     label = "Cs-OsOsS4H",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s               u0 {1,S}
 3   O2s               u0 {1,S}
 4   [S4s,S4d,S4b,S4t] u0 {1,S}
@@ -21314,7 +21314,7 @@ entry(
     label = "Cs-SsHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   S  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -21333,7 +21333,7 @@ entry(
     label = "Cs-S2sHHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   S2s u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -21357,7 +21357,7 @@ entry(
     label = "Cs-S4HHH",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
 2   [S4s,S4d,S4b,S4t] u0 {1,S}
 3   H                 u0 {1,S}
 4   H                 u0 {1,S}
@@ -21381,7 +21381,7 @@ entry(
     label = "Cs-S6HHH",
     group =
 """
-1 * Cs                      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css                      u0 {2,S} {3,S} {4,S} {5,S}
 2   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 3   H                       u0 {1,S}
 4   H                       u0 {1,S}
@@ -21405,7 +21405,7 @@ entry(
     label = "Cs-SsSsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   S  u0 {1,S}
 3   S  u0 {1,S}
 4   H  u0 {1,S}
@@ -21429,7 +21429,7 @@ entry(
     label = "Cs-SsSsSsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   S  u0 {1,S}
 3   S  u0 {1,S}
 4   S  u0 {1,S}
@@ -21453,7 +21453,7 @@ entry(
     label = "Cs-CCHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   H  u0 {1,S}
@@ -21472,9 +21472,9 @@ entry(
     label = "Cs-CsCsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -21496,9 +21496,9 @@ entry(
     label = "Cs-CdsCsHH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
 4   H       u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -21515,9 +21515,9 @@ entry(
     label = "Cs-(Cds-O2d)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
@@ -21542,9 +21542,9 @@ entry(
     label = "Cs-(Cds-Cd)CsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
@@ -21562,12 +21562,12 @@ entry(
     label = "Cs-(Cds-Cds)CsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -21587,9 +21587,9 @@ entry(
     label = "Cs-(Cds-Cdd)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -21607,10 +21607,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
@@ -21633,10 +21633,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
 7   S2d u0 {3,D}
@@ -21654,10 +21654,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
@@ -21675,9 +21675,9 @@ entry(
     label = "Cs-CdsCdsHH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   H       u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -21694,7 +21694,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   H   u0 {1,S}
@@ -21722,9 +21722,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -21750,12 +21750,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -21776,9 +21776,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -21797,8 +21797,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
@@ -21819,8 +21819,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
@@ -21841,9 +21841,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)HH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
@@ -21862,13 +21862,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)HH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -21888,13 +21888,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)HH',
     shortDesc = """""",
@@ -21909,13 +21909,13 @@ entry(
     label = "Cs-Cd(CCO)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = ThermoData(
@@ -21938,13 +21938,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -21960,13 +21960,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
@@ -21982,9 +21982,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -22003,9 +22003,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   H   u0 {1,S}
@@ -22031,9 +22031,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   H   u0 {1,S}
@@ -22054,9 +22054,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   H   u0 {1,S}
@@ -22077,9 +22077,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   H   u0 {1,S}
@@ -22100,9 +22100,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   H   u0 {1,S}
@@ -22123,9 +22123,9 @@ entry(
     label = "Cs-CtCsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -22147,9 +22147,9 @@ entry(
     label = "Cs-CtCdsHH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   H       u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -22166,7 +22166,7 @@ entry(
     label = "Cs-(Cds-O2d)CtHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -22191,8 +22191,8 @@ entry(
     label = "Cs-(Cds-Cd)CtHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -22211,12 +22211,12 @@ entry(
     label = "Cs-(Cds-Cds)CtHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -22236,8 +22236,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -22256,8 +22256,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
@@ -22277,8 +22277,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
@@ -22298,8 +22298,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
@@ -22319,7 +22319,7 @@ entry(
     label = "Cs-CtCtHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
@@ -22343,9 +22343,9 @@ entry(
     label = "Cs-CbCsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -22367,9 +22367,9 @@ entry(
     label = "Cs-CbCdsHH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   H       u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -22386,7 +22386,7 @@ entry(
     label = "Cs-(Cds-O2d)CbHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
@@ -22411,8 +22411,8 @@ entry(
     label = "Cs-(Cds-Cd)CbHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -22431,12 +22431,12 @@ entry(
     label = "Cs-(Cds-Cds)CbHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -22456,8 +22456,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -22476,8 +22476,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
@@ -22497,8 +22497,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
@@ -22518,8 +22518,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
@@ -22539,7 +22539,7 @@ entry(
     label = "Cs-CbCtHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   H  u0 {1,S}
@@ -22563,7 +22563,7 @@ entry(
     label = "Cs-CbCbHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   H  u0 {1,S}
@@ -22587,7 +22587,7 @@ entry(
     label = "Cs-C=SCtHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -22607,9 +22607,9 @@ entry(
     label = "Cs-C=SCsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   S2d u0 {2,D}
@@ -22632,9 +22632,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -22653,9 +22653,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -22674,8 +22674,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
@@ -22696,8 +22696,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
@@ -22718,12 +22718,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -22739,7 +22739,7 @@ entry(
     label = "Cs-C=SC=SHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   H   u0 {1,S}
@@ -22760,7 +22760,7 @@ entry(
     label = "Cs-C=SCbHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   H   u0 {1,S}
@@ -22780,7 +22780,7 @@ entry(
     label = "Cs-CCCH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -22799,10 +22799,10 @@ entry(
     label = "Cs-CsCsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -22823,10 +22823,10 @@ entry(
     label = "Cs-CdsCsCsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
-4   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
+4   Css      u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsH',
@@ -22842,10 +22842,10 @@ entry(
     label = "Cs-(Cds-O2d)CsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -22869,10 +22869,10 @@ entry(
     label = "Cs-(Cds-Cd)CsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -22889,12 +22889,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -22914,10 +22914,10 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -22934,11 +22934,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
 """,
@@ -22962,11 +22962,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   S2d u0 {3,D}
 """,
@@ -22983,11 +22983,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -23009,10 +23009,10 @@ entry(
     label = "Cs-CtCsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -23033,10 +23033,10 @@ entry(
     label = "Cs-CbCsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -23057,10 +23057,10 @@ entry(
     label = "Cs-CdsCdsCsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
@@ -23076,10 +23076,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
@@ -23097,10 +23097,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
 7   O2d u0 {2,D}
@@ -23125,12 +23125,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsH',
@@ -23146,10 +23146,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   O2d u0 {2,D}
@@ -23167,11 +23167,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
@@ -23189,11 +23189,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
 8   C   u0 {4,D}
@@ -23211,10 +23211,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
@@ -23232,13 +23232,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -23258,13 +23258,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH',
     shortDesc = """""",
@@ -23279,13 +23279,13 @@ entry(
     label = "Cs-CsCd(CCO)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = ThermoData(
@@ -23308,13 +23308,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -23330,13 +23330,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
@@ -23352,10 +23352,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -23373,12 +23373,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   H   u0 {1,S}
 8   O2d u0 {4,D}
 9   O2d u0 {5,D}
@@ -23403,12 +23403,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   H   u0 {1,S}
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
@@ -23426,12 +23426,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   H   u0 {1,S}
 8   S2d u0 {4,D}
 9   S2d u0 {5,D}
@@ -23449,12 +23449,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   H   u0 {1,S}
 8   S2d u0 {4,D}
 9   C   u0 {5,D}
@@ -23472,12 +23472,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   H   u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
@@ -23495,10 +23495,10 @@ entry(
     label = "Cs-CtCdsCsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
@@ -23514,10 +23514,10 @@ entry(
     label = "Cs-(Cds-O2d)CtCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -23534,10 +23534,10 @@ entry(
     label = "Cs-(Cds-Cd)CtCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -23554,12 +23554,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -23579,10 +23579,10 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -23599,11 +23599,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
 """,
@@ -23620,11 +23620,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   S2d u0 {3,D}
 """,
@@ -23641,11 +23641,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -23662,10 +23662,10 @@ entry(
     label = "Cs-CbCdsCsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
@@ -23681,10 +23681,10 @@ entry(
     label = "Cs-(Cds-O2d)CbCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -23701,10 +23701,10 @@ entry(
     label = "Cs-(Cds-Cd)CbCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -23721,12 +23721,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -23746,10 +23746,10 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -23766,11 +23766,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
 """,
@@ -23787,11 +23787,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -23808,10 +23808,10 @@ entry(
     label = "Cs-CtCtCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -23832,10 +23832,10 @@ entry(
     label = "Cs-CbCtCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -23856,10 +23856,10 @@ entry(
     label = "Cs-CbCbCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -23880,10 +23880,10 @@ entry(
     label = "Cs-CdsCdsCdsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
@@ -23899,7 +23899,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
@@ -23921,10 +23921,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   C   u0 {4,D}
 7   O2d u0 {2,D}
@@ -23943,12 +23943,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   H   u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 """,
@@ -23965,10 +23965,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   Cdd u0 {4,D}
 7   O2d u0 {2,D}
@@ -23987,8 +23987,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -24010,8 +24010,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -24033,10 +24033,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -24062,13 +24062,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsH',
@@ -24084,13 +24084,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)H',
@@ -24106,13 +24106,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   O2d u0 {5,D}
 """,
@@ -24129,13 +24129,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -24152,10 +24152,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -24174,9 +24174,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -24198,9 +24198,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -24222,9 +24222,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -24246,10 +24246,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
@@ -24268,14 +24268,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
-8   Cd u0 {4,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
+8   Cdb u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -24295,13 +24295,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H',
@@ -24317,14 +24317,14 @@ entry(
     label = "Cs-CdCd(CCO)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   O2d u0 {5,D}
 """,
     thermo = ThermoData(
@@ -24347,14 +24347,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   S2d u0 {5,D}
 """,
     thermo = None,
@@ -24370,14 +24370,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   C   u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
@@ -24393,12 +24393,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 """,
@@ -24415,14 +24415,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    H   u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 """,
@@ -24439,14 +24439,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    H   u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -24463,14 +24463,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    H   u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 """,
@@ -24487,14 +24487,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    H   u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -24511,14 +24511,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    H   u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -24535,10 +24535,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -24557,10 +24557,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24582,10 +24582,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24607,10 +24607,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24632,10 +24632,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24657,10 +24657,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24682,10 +24682,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24707,10 +24707,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -24732,10 +24732,10 @@ entry(
     label = "Cs-CtCdsCdsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
@@ -24751,7 +24751,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
@@ -24772,9 +24772,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -24793,12 +24793,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)H',
@@ -24814,9 +24814,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -24835,8 +24835,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -24857,8 +24857,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -24879,9 +24879,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
@@ -24900,13 +24900,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -24926,13 +24926,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH',
     shortDesc = """""",
@@ -24947,13 +24947,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-CdCd(CCO)H',
@@ -24969,13 +24969,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -24991,13 +24991,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
@@ -25013,9 +25013,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -25034,9 +25034,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -25057,9 +25057,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -25080,9 +25080,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -25103,9 +25103,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -25126,9 +25126,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -25149,10 +25149,10 @@ entry(
     label = "Cs-CbCdsCdsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
@@ -25168,7 +25168,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -25189,9 +25189,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -25210,12 +25210,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)H',
@@ -25231,9 +25231,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -25252,8 +25252,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -25274,8 +25274,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -25296,9 +25296,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
@@ -25317,13 +25317,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -25343,13 +25343,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH',
     shortDesc = """""",
@@ -25364,13 +25364,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-CdCd(CCO)H',
@@ -25386,13 +25386,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -25408,13 +25408,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
@@ -25430,9 +25430,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -25451,9 +25451,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -25474,9 +25474,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -25497,9 +25497,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -25520,9 +25520,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -25543,9 +25543,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -25566,10 +25566,10 @@ entry(
     label = "Cs-CtCtCdsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
@@ -25585,7 +25585,7 @@ entry(
     label = "Cs-CtCt(Cds-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -25605,8 +25605,8 @@ entry(
     label = "Cs-CtCt(Cds-Cd)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
@@ -25625,12 +25625,12 @@ entry(
     label = "Cs-CtCt(Cds-Cds)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -25650,8 +25650,8 @@ entry(
     label = "Cs-CtCt(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
@@ -25670,8 +25670,8 @@ entry(
     label = "Cs-CtCt(Cds-Cdd-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -25691,8 +25691,8 @@ entry(
     label = "Cs-CtCt(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -25712,8 +25712,8 @@ entry(
     label = "Cs-CtCt(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -25733,10 +25733,10 @@ entry(
     label = "Cs-CbCtCdsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
@@ -25752,7 +25752,7 @@ entry(
     label = "Cs-CbCt(Cds-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -25772,8 +25772,8 @@ entry(
     label = "Cs-CbCt(Cds-Cd)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
@@ -25792,12 +25792,12 @@ entry(
     label = "Cs-CbCt(Cds-Cds)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = """""",
@@ -25812,8 +25812,8 @@ entry(
     label = "Cs-CbCt(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
@@ -25832,8 +25832,8 @@ entry(
     label = "Cs-CbCt(Cds-Cdd-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -25853,8 +25853,8 @@ entry(
     label = "Cs-CbCt(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -25874,8 +25874,8 @@ entry(
     label = "Cs-CbCt(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -25895,10 +25895,10 @@ entry(
     label = "Cs-CbCbCdsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   H       u0 {1,S}
 """,
     thermo = 'Cs-CbCb(Cds-Cds)H',
@@ -25914,7 +25914,7 @@ entry(
     label = "Cs-CbCb(Cds-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -25934,8 +25934,8 @@ entry(
     label = "Cs-CbCb(Cds-Cd)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
@@ -25954,12 +25954,12 @@ entry(
     label = "Cs-CbCb(Cds-Cds)H",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   H  u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = """""",
@@ -25974,8 +25974,8 @@ entry(
     label = "Cs-CbCb(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
@@ -25994,8 +25994,8 @@ entry(
     label = "Cs-CbCb(Cds-Cdd-O2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -26015,8 +26015,8 @@ entry(
     label = "Cs-CbCb(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -26036,8 +26036,8 @@ entry(
     label = "Cs-CbCb(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -26057,7 +26057,7 @@ entry(
     label = "Cs-CtCtCtH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
@@ -26081,7 +26081,7 @@ entry(
     label = "Cs-CbCtCtH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
@@ -26100,7 +26100,7 @@ entry(
     label = "Cs-CbCbCtH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
@@ -26119,7 +26119,7 @@ entry(
     label = "Cs-CbCbCbH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
@@ -26143,7 +26143,7 @@ entry(
     label = "Cs-C=SC=SCbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -26164,10 +26164,10 @@ entry(
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -26186,13 +26186,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -26208,13 +26208,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -26231,13 +26231,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   S2d u0 {5,D}
 """,
@@ -26254,13 +26254,13 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -26276,10 +26276,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -26298,9 +26298,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -26322,9 +26322,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -26346,9 +26346,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)H",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -26370,9 +26370,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -26391,9 +26391,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -26412,8 +26412,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -26434,8 +26434,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -26456,12 +26456,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -26477,7 +26477,7 @@ entry(
     label = "Cs-C=SC=SCtH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
@@ -26498,10 +26498,10 @@ entry(
     label = "Cs-C=SCtCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   S2d u0 {2,D}
 """,
@@ -26518,10 +26518,10 @@ entry(
     label = "Cs-C=SC=SCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   S2d u0 {2,D}
 7   S2d u0 {3,D}
@@ -26539,9 +26539,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -26560,12 +26560,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -26581,9 +26581,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -26602,8 +26602,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -26624,8 +26624,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CbH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -26646,10 +26646,10 @@ entry(
     label = "Cs-C=S(Cds-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
 7   S2d u0 {2,D}
@@ -26667,12 +26667,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -26688,10 +26688,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   S2d u0 {2,D}
@@ -26709,11 +26709,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   S2d u0 {3,D}
 8   C   u0 {4,D}
@@ -26731,11 +26731,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
@@ -26753,7 +26753,7 @@ entry(
     label = "Cs-CbCtC=SH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -26773,7 +26773,7 @@ entry(
     label = "Cs-C=SC=SC=SH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
@@ -26795,10 +26795,10 @@ entry(
     label = "Cs-C=SCsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   S2d u0 {2,D}
 """,
@@ -26820,7 +26820,7 @@ entry(
     label = "Cs-CtCtC=SH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -26840,7 +26840,7 @@ entry(
     label = "Cs-CbCbC=SH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -26860,10 +26860,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   C   u0 {4,D}
 7   S2d u0 {2,D}
@@ -26882,12 +26882,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cds)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   H   u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
 """,
@@ -26904,10 +26904,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   H   u0 {1,S}
 6   Cdd u0 {4,D}
 7   S2d u0 {2,D}
@@ -26926,8 +26926,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -26949,8 +26949,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -26972,7 +26972,7 @@ entry(
     label = "Cs-CCCC",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -26991,11 +26991,11 @@ entry(
     label = "Cs-CsCsCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27015,11 +27015,11 @@ entry(
     label = "Cs-CdsCsCsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
-4   Cs      u0 {1,S}
-5   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
+4   Css      u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
     shortDesc = """""",
@@ -27034,11 +27034,11 @@ entry(
     label = "Cs-(Cds-O2d)CsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -27061,11 +27061,11 @@ entry(
     label = "Cs-(Cds-Cd)CsCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
@@ -27081,12 +27081,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27106,11 +27106,11 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsCs',
@@ -27126,12 +27126,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = ThermoData(
@@ -27154,12 +27154,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -27175,12 +27175,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
@@ -27196,11 +27196,11 @@ entry(
     label = "Cs-CtCsCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27220,11 +27220,11 @@ entry(
     label = "Cs-CbCsCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27244,11 +27244,11 @@ entry(
     label = "Cs-CdsCdsCsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
-5   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
     shortDesc = """""",
@@ -27263,11 +27263,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
 """,
@@ -27291,11 +27291,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   O2d u0 {2,D}
 """,
@@ -27319,12 +27319,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsCs',
@@ -27340,11 +27340,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   O2d u0 {2,D}
 """,
@@ -27361,12 +27361,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
 """,
@@ -27383,12 +27383,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -27405,11 +27405,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -27426,13 +27426,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27452,13 +27452,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs',
     shortDesc = """""",
@@ -27473,13 +27473,13 @@ entry(
     label = "Cs-CsCsCd(CCO)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = ThermoData(
@@ -27502,13 +27502,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -27524,13 +27524,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
@@ -27546,11 +27546,11 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -27567,13 +27567,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cs  u0 {1,S}
+6   Css  u0 {1,S}
+7   Css  u0 {1,S}
 8   O2d u0 {4,D}
 9   O2d u0 {5,D}
 """,
@@ -27595,13 +27595,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cs  u0 {1,S}
+6   Css  u0 {1,S}
+7   Css  u0 {1,S}
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -27618,13 +27618,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cs  u0 {1,S}
+6   Css  u0 {1,S}
+7   Css  u0 {1,S}
 8   S2d u0 {4,D}
 9   S2d u0 {5,D}
 """,
@@ -27641,13 +27641,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cs  u0 {1,S}
+6   Css  u0 {1,S}
+7   Css  u0 {1,S}
 8   S2d u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -27664,13 +27664,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cs  u0 {1,S}
+6   Css  u0 {1,S}
+7   Css  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -27687,11 +27687,11 @@ entry(
     label = "Cs-CtCdsCsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
-5   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
     shortDesc = """""",
@@ -27706,11 +27706,11 @@ entry(
     label = "Cs-(Cds-O2d)CtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)CsCs',
@@ -27726,11 +27726,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
@@ -27746,12 +27746,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27771,11 +27771,11 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsCs',
@@ -27791,12 +27791,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = 'Cs-CsCsCd(CCO)',
@@ -27812,12 +27812,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -27833,12 +27833,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
@@ -27854,11 +27854,11 @@ entry(
     label = "Cs-CbCdsCsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
-5   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
     shortDesc = """""",
@@ -27873,11 +27873,11 @@ entry(
     label = "Cs-(Cds-O2d)CbCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)CsCs',
@@ -27893,11 +27893,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
@@ -27913,12 +27913,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -27938,11 +27938,11 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsCs',
@@ -27958,12 +27958,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = 'Cs-CsCsCd(CCO)',
@@ -27979,12 +27979,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -28000,12 +28000,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
@@ -28021,11 +28021,11 @@ entry(
     label = "Cs-CtCtCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -28045,11 +28045,11 @@ entry(
     label = "Cs-CbCtCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -28069,11 +28069,11 @@ entry(
     label = "Cs-CbCbCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -28093,11 +28093,11 @@ entry(
     label = "Cs-CdsCdsCdsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = """""",
@@ -28112,11 +28112,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
@@ -28134,11 +28134,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cs  u0 {1,S}
+4   Cdb  u0 {1,S} {6,D}
+5   Css  u0 {1,S}
 6   C   u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
@@ -28163,12 +28163,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cs  u0 {1,S}
-6   Cd  u0 {4,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 """,
@@ -28185,11 +28185,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cs  u0 {1,S}
+4   Cdb  u0 {1,S} {6,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
@@ -28207,12 +28207,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
 9   O2d u0 {5,D}
@@ -28230,12 +28230,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
@@ -28253,11 +28253,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
 8   O2d u0 {2,D}
@@ -28275,13 +28275,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsCs',
@@ -28297,13 +28297,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cs',
@@ -28319,13 +28319,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   O2d u0 {5,D}
 """,
@@ -28342,13 +28342,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -28365,11 +28365,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
 8   O2d u0 {2,D}
@@ -28387,13 +28387,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
+7    Css  u0 {1,S}
 8    O2d u0 {4,D}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
@@ -28411,13 +28411,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
+7    Css  u0 {1,S}
 8    O2d u0 {4,D}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
@@ -28435,13 +28435,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
+7    Css  u0 {1,S}
 8    O2d u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
@@ -28459,11 +28459,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
-5   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 8   C  u0 {4,D}
@@ -28481,14 +28481,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
-8   Cd u0 {4,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
+8   Cdb u0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -28508,13 +28508,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cs  u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs',
@@ -28530,14 +28530,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   O2d u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)CsCsCs',
@@ -28553,14 +28553,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   S2d u0 {5,D}
 """,
     thermo = None,
@@ -28576,14 +28576,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   C   u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
@@ -28599,12 +28599,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cs  u0 {1,S}
-6   Cd  u0 {2,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 """,
@@ -28621,14 +28621,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
-8    Cd  u0 {4,D}
+7    Css  u0 {1,S}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 """,
@@ -28645,14 +28645,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
-8    Cd  u0 {4,D}
+7    Css  u0 {1,S}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -28669,14 +28669,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
-8    Cd  u0 {4,D}
+7    Css  u0 {1,S}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 """,
@@ -28693,14 +28693,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
-8    Cd  u0 {4,D}
+7    Css  u0 {1,S}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -28717,14 +28717,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
-8    Cd  u0 {4,D}
+7    Css  u0 {1,S}
+8    Cdb  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -28741,11 +28741,11 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
@@ -28763,14 +28763,14 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 11   O2d u0 {7,D}
@@ -28788,14 +28788,14 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 11   C   u0 {7,D}
@@ -28813,14 +28813,14 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -28838,14 +28838,14 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 11   S2d u0 {7,D}
@@ -28863,14 +28863,14 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 11   C   u0 {7,D}
@@ -28888,14 +28888,14 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -28913,14 +28913,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Cs  u0 {1,S}
+8    Css  u0 {1,S}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -28938,11 +28938,11 @@ entry(
     label = "Cs-CtCdsCdsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
     shortDesc = """""",
@@ -28957,11 +28957,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
 """,
@@ -28978,11 +28978,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   O2d u0 {2,D}
 """,
@@ -28999,12 +28999,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs',
@@ -29020,11 +29020,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   O2d u0 {2,D}
 """,
@@ -29041,12 +29041,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
 """,
@@ -29063,12 +29063,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -29085,11 +29085,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -29106,13 +29106,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = """""",
@@ -29127,13 +29127,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs',
     shortDesc = """""",
@@ -29148,13 +29148,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs',
@@ -29170,13 +29170,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -29192,13 +29192,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
@@ -29214,11 +29214,11 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -29235,13 +29235,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   O2d u0 {4,D}
 9   O2d u0 {5,D}
 """,
@@ -29258,13 +29258,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -29281,13 +29281,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   S2d u0 {4,D}
 9   S2d u0 {5,D}
 """,
@@ -29304,13 +29304,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   S2d u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -29327,13 +29327,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -29350,11 +29350,11 @@ entry(
     label = "Cs-CbCdsCdsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
     shortDesc = """""",
@@ -29369,11 +29369,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
 """,
@@ -29390,11 +29390,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   O2d u0 {2,D}
 """,
@@ -29411,12 +29411,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs',
@@ -29432,11 +29432,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   O2d u0 {2,D}
 """,
@@ -29453,12 +29453,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
 """,
@@ -29475,12 +29475,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -29497,11 +29497,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -29518,13 +29518,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = """""",
@@ -29539,13 +29539,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs',
     shortDesc = """""",
@@ -29560,13 +29560,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs',
@@ -29582,13 +29582,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -29604,13 +29604,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
@@ -29626,11 +29626,11 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -29647,13 +29647,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   O2d u0 {4,D}
 9   O2d u0 {5,D}
 """,
@@ -29670,13 +29670,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -29693,13 +29693,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   S2d u0 {4,D}
 9   S2d u0 {5,D}
 """,
@@ -29716,13 +29716,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   S2d u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -29739,13 +29739,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cs  u0 {1,S}
+7   Css  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -29762,11 +29762,11 @@ entry(
     label = "Cs-CtCtCdsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   Cs      u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
     shortDesc = """""",
@@ -29781,11 +29781,11 @@ entry(
     label = "Cs-(Cds-O2d)CtCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs',
@@ -29801,11 +29801,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
@@ -29821,12 +29821,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -29846,11 +29846,11 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtCs',
@@ -29866,12 +29866,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs',
@@ -29887,12 +29887,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -29908,12 +29908,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
@@ -29929,11 +29929,11 @@ entry(
     label = "Cs-CbCtCdsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   Cs      u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCs',
     shortDesc = """""",
@@ -29948,11 +29948,11 @@ entry(
     label = "Cs-(Cds-O2d)CbCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)CtCs',
@@ -29968,11 +29968,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCs',
@@ -29988,12 +29988,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30013,11 +30013,11 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtCs',
@@ -30033,12 +30033,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCs',
@@ -30054,12 +30054,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -30075,12 +30075,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = ThermoData(
@@ -30101,11 +30101,11 @@ entry(
     label = "Cs-CbCbCdsCs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   Cs      u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   Css      u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
     shortDesc = """""",
@@ -30120,11 +30120,11 @@ entry(
     label = "Cs-(Cds-O2d)CbCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cs',
@@ -30140,11 +30140,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCbCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
@@ -30160,12 +30160,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Cs u0 {1,S}
-6   Cd u0 {2,D}
+5   Css u0 {1,S}
+6   Cdb u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30185,11 +30185,11 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCs',
@@ -30205,12 +30205,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2d u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cs',
@@ -30226,12 +30226,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 """,
     thermo = None,
@@ -30247,12 +30247,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
@@ -30268,11 +30268,11 @@ entry(
     label = "Cs-CtCtCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30292,11 +30292,11 @@ entry(
     label = "Cs-CbCtCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30316,11 +30316,11 @@ entry(
     label = "Cs-CbCbCtCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30340,11 +30340,11 @@ entry(
     label = "Cs-CbCbCbCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Cs u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -30364,11 +30364,11 @@ entry(
     label = "Cs-CdsCdsCdsCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -30383,7 +30383,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-O2d)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
@@ -30406,11 +30406,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
 4   CO  u0 {1,S} {9,D}
-5   Cd  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {6,D}
 6   C   u0 {5,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
@@ -30429,12 +30429,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
 4   CO  u0 {1,S} {9,D}
-5   Cd  u0 {1,S} {6,D}
-6   Cd  u0 {5,D}
+5   Cdb  u0 {1,S} {6,D}
+6   Cdb  u0 {5,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 9   O2d u0 {4,D}
@@ -30452,11 +30452,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
 4   CO  u0 {1,S} {9,D}
-5   Cd  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {6,D}
 6   Cdd u0 {5,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
@@ -30475,8 +30475,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CO  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
@@ -30499,8 +30499,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CO  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
@@ -30523,11 +30523,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
 3   CO  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
 6   C   u0 {4,D}
 7   C   u0 {5,D}
 8   O2d u0 {2,D}
@@ -30553,13 +30553,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
 3   CO  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
-6   Cd  u0 {4,D}
-7   Cd  u0 {5,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
+6   Cdb  u0 {4,D}
+7   Cdb  u0 {5,D}
 8   O2d u0 {2,D}
 9   O2d u0 {3,D}
 """,
@@ -30576,13 +30576,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
 3   CO  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
 6   Cdd u0 {4,D}
-7   Cd  u0 {5,D}
+7   Cdb  u0 {5,D}
 8   O2d u0 {2,D}
 9   O2d u0 {3,D}
 """,
@@ -30599,13 +30599,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CO  u0 {1,S} {8,D}
 4    CO  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {7,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {5,D}
+7    Cdb  u0 {5,D}
 8    O2d u0 {3,D}
 9    O2d u0 {4,D}
 10   O2d u0 {6,D}
@@ -30623,13 +30623,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CO  u0 {1,S} {8,D}
 4    CO  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {7,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {5,D}
+7    Cdb  u0 {5,D}
 8    O2d u0 {3,D}
 9    O2d u0 {4,D}
 10   C   u0 {6,D}
@@ -30647,11 +30647,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
 3   CO  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
 6   Cdd u0 {4,D}
 7   Cdd u0 {5,D}
 8   O2d u0 {2,D}
@@ -30670,9 +30670,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
@@ -30695,9 +30695,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
@@ -30720,9 +30720,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
@@ -30745,11 +30745,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
 8   C   u0 {5,D}
@@ -30768,14 +30768,14 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
-8   Cd  u0 {5,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
+8   Cdb  u0 {5,D}
 9   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsCs',
@@ -30791,13 +30791,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   Cdd u0 {5,D}
 9   O2d u0 {2,D}
 """,
@@ -30814,14 +30814,14 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CO  u0 {1,S} {9,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cd  u0 {1,S} {8,D}
+4    Cdb  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {4,D}
-8    Cd  u0 {5,D}
+7    Cdb  u0 {4,D}
+8    Cdb  u0 {5,D}
 9    O2d u0 {3,D}
 10   O2d u0 {6,D}
 """,
@@ -30838,14 +30838,14 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CO  u0 {1,S} {9,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cd  u0 {1,S} {8,D}
+4    Cdb  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {4,D}
-8    Cd  u0 {5,D}
+7    Cdb  u0 {4,D}
+8    Cdb  u0 {5,D}
 9    O2d u0 {3,D}
 10   C   u0 {6,D}
 """,
@@ -30862,12 +30862,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
-6   Cd  u0 {3,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
+6   Cdb  u0 {3,D}
 7   Cdd u0 {4,D}
 8   Cdd u0 {5,D}
 9   O2d u0 {2,D}
@@ -30885,14 +30885,14 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {5,D}
+8    Cdb  u0 {5,D}
 9    O2d u0 {4,D}
 10   O2d u0 {6,D}
 11   O2d u0 {7,D}
@@ -30910,14 +30910,14 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {5,D}
+8    Cdb  u0 {5,D}
 9    O2d u0 {4,D}
 10   O2d u0 {6,D}
 11   C   u0 {7,D}
@@ -30935,14 +30935,14 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CO  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {5,D}
+8    Cdb  u0 {5,D}
 9    O2d u0 {4,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -30960,11 +30960,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
 8   Cdd u0 {5,D}
@@ -30983,10 +30983,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -31009,10 +31009,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -31035,10 +31035,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -31061,10 +31061,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CO  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -31087,11 +31087,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
-5   Cd u0 {1,S} {9,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
+5   Cdb u0 {1,S} {9,D}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 8   C  u0 {4,D}
@@ -31110,15 +31110,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
-5   Cd u0 {1,S} {9,D}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
-8   Cd u0 {4,D}
-9   Cd u0 {5,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
+5   Cdb u0 {1,S} {9,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
+8   Cdb u0 {4,D}
+9   Cdb u0 {5,D}
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = """""",
@@ -31133,14 +31133,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cd  u0 {1,S} {9,D}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Cdb  u0 {1,S} {9,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   Cdd u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)',
@@ -31156,15 +31156,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {3,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+7    Cdb  u0 {3,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   O2d u0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)CsCsCs',
@@ -31180,15 +31180,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {3,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+7    Cdb  u0 {3,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   S2d u0 {6,D}
 """,
     thermo = None,
@@ -31204,15 +31204,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {3,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+7    Cdb  u0 {3,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   C   u0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
@@ -31228,13 +31228,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cd  u0 {1,S} {9,D}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Cdb  u0 {1,S} {9,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 9   Cdd u0 {5,D}
 """,
@@ -31251,15 +31251,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   O2d u0 {6,D}
 11   O2d u0 {7,D}
 """,
@@ -31276,15 +31276,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   O2d u0 {6,D}
 11   C   u0 {7,D}
 """,
@@ -31301,15 +31301,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   S2d u0 {6,D}
 11   S2d u0 {7,D}
 """,
@@ -31326,15 +31326,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   S2d u0 {6,D}
 11   C   u0 {7,D}
 """,
@@ -31351,15 +31351,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {4,D}
-9    Cd  u0 {5,D}
+8    Cdb  u0 {4,D}
+9    Cdb  u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
 """,
@@ -31376,12 +31376,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cd  u0 {1,S} {9,D}
-6   Cd  u0 {2,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Cdb  u0 {1,S} {9,D}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 9   Cdd u0 {5,D}
@@ -31399,15 +31399,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   O2d u0 {6,D}
 11   O2d u0 {7,D}
 12   O2d u0 {8,D}
@@ -31425,15 +31425,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   O2d u0 {6,D}
 11   O2d u0 {7,D}
 12   C   u0 {8,D}
@@ -31451,15 +31451,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   O2d u0 {6,D}
 11   C   u0 {7,D}
 12   C   u0 {8,D}
@@ -31477,15 +31477,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   S2d u0 {6,D}
 11   S2d u0 {7,D}
 12   S2d u0 {8,D}
@@ -31503,15 +31503,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   S2d u0 {6,D}
 11   S2d u0 {7,D}
 12   C   u0 {8,D}
@@ -31529,15 +31529,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   S2d u0 {6,D}
 11   C   u0 {7,D}
 12   C   u0 {8,D}
@@ -31555,15 +31555,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
-9    Cd  u0 {5,D}
+9    Cdb  u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
 12   C   u0 {8,D}
@@ -31581,11 +31581,11 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cd  u0 {1,S} {9,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
+5   Cdb  u0 {1,S} {9,D}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
@@ -31604,11 +31604,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31631,11 +31631,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31658,11 +31658,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31685,11 +31685,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31712,11 +31712,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31739,11 +31739,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31766,11 +31766,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31793,11 +31793,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31820,11 +31820,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
-5    Cd  u0 {1,S} {9,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
 8    Cdd u0 {4,D} {12,D}
@@ -31847,11 +31847,11 @@ entry(
     label = "Cs-CtCdsCdsCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = """""",
@@ -31866,7 +31866,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
@@ -31888,10 +31888,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   C   u0 {4,D}
 7   O2d u0 {2,D}
@@ -31910,12 +31910,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 """,
@@ -31932,10 +31932,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {4,D}
 7   O2d u0 {2,D}
@@ -31954,8 +31954,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -31977,8 +31977,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -32000,10 +32000,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -32022,13 +32022,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
@@ -32044,13 +32044,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Ct',
@@ -32066,13 +32066,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   O2d u0 {5,D}
 """,
@@ -32089,13 +32089,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -32112,10 +32112,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -32134,9 +32134,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -32158,9 +32158,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -32182,9 +32182,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -32206,10 +32206,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ct",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
 5   Ct u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
@@ -32228,14 +32228,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
 5   Ct u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
-8   Cd u0 {4,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
+8   Cdb u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -32250,13 +32250,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Ct  u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct',
@@ -32272,14 +32272,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   O2d u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)',
@@ -32295,14 +32295,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   S2d u0 {5,D}
 """,
     thermo = None,
@@ -32318,14 +32318,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   C   u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
@@ -32341,12 +32341,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Ct  u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 """,
@@ -32363,14 +32363,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Ct  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 """,
@@ -32387,14 +32387,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Ct  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -32411,14 +32411,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Ct  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 """,
@@ -32435,14 +32435,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Ct  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -32459,14 +32459,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Ct  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -32483,10 +32483,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -32505,10 +32505,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32530,10 +32530,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32555,10 +32555,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32580,10 +32580,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32605,10 +32605,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32630,10 +32630,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32655,10 +32655,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -32680,11 +32680,11 @@ entry(
     label = "Cs-CbCdsCdsCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = """""",
@@ -32699,7 +32699,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
@@ -32721,10 +32721,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   C   u0 {4,D}
 7   O2d u0 {2,D}
@@ -32743,12 +32743,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 """,
@@ -32765,10 +32765,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {4,D}
 7   O2d u0 {2,D}
@@ -32787,8 +32787,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -32810,8 +32810,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -32833,10 +32833,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -32855,13 +32855,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
@@ -32877,13 +32877,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cb',
@@ -32899,13 +32899,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   O2d u0 {5,D}
 """,
@@ -32922,13 +32922,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -32945,10 +32945,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -32967,9 +32967,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -32991,9 +32991,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -33015,9 +33015,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -33039,10 +33039,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
 5   Cb u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
@@ -33061,14 +33061,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
-4   Cd u0 {1,S} {8,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
+4   Cdb u0 {1,S} {8,D}
 5   Cb u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
-8   Cd u0 {4,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
+8   Cdb u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -33083,13 +33083,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cb  u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb',
@@ -33105,14 +33105,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   O2d u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)',
@@ -33128,14 +33128,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   S2d u0 {5,D}
 """,
     thermo = None,
@@ -33151,14 +33151,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   C   u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
@@ -33174,12 +33174,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cb  u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 """,
@@ -33196,14 +33196,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cb  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 """,
@@ -33220,14 +33220,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cb  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -33244,14 +33244,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cb  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 """,
@@ -33268,14 +33268,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cb  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -33292,14 +33292,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cb  u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -33316,10 +33316,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -33338,10 +33338,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33363,10 +33363,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33388,10 +33388,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33413,10 +33413,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33438,10 +33438,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33463,10 +33463,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33488,10 +33488,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -33513,11 +33513,11 @@ entry(
     label = "Cs-CtCtCdsCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = """""",
@@ -33532,7 +33532,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
@@ -33553,9 +33553,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
@@ -33574,12 +33574,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
@@ -33595,9 +33595,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
@@ -33616,8 +33616,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -33638,8 +33638,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -33660,9 +33660,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
 6   C  u0 {2,D}
@@ -33681,13 +33681,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -33707,13 +33707,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt',
     shortDesc = """""",
@@ -33728,13 +33728,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)',
@@ -33750,13 +33750,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -33772,13 +33772,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
@@ -33794,9 +33794,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {2,D}
@@ -33815,9 +33815,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -33838,9 +33838,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -33861,9 +33861,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -33884,9 +33884,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -33907,9 +33907,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -33930,11 +33930,11 @@ entry(
     label = "Cs-CbCtCdsCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
     shortDesc = """""",
@@ -33949,7 +33949,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -33970,9 +33970,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
@@ -33991,12 +33991,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)Ct',
@@ -34012,9 +34012,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
@@ -34033,8 +34033,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -34055,8 +34055,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -34077,9 +34077,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
 6   C  u0 {2,D}
@@ -34098,13 +34098,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -34124,13 +34124,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt',
     shortDesc = """""",
@@ -34145,13 +34145,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)Ct',
@@ -34167,13 +34167,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -34189,13 +34189,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   Ct  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
@@ -34211,9 +34211,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {2,D}
@@ -34232,9 +34232,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34255,9 +34255,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34278,9 +34278,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34301,9 +34301,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34324,9 +34324,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34347,11 +34347,11 @@ entry(
     label = "Cs-CbCbCdsCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
     shortDesc = """""",
@@ -34366,7 +34366,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -34387,9 +34387,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   C   u0 {3,D}
@@ -34408,12 +34408,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
@@ -34429,9 +34429,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
@@ -34450,8 +34450,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -34472,8 +34472,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -34494,9 +34494,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
 6   C  u0 {2,D}
@@ -34515,13 +34515,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
-3   Cd u0 {1,S} {7,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
+3   Cdb u0 {1,S} {7,D}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
-6   Cd u0 {2,D}
-7   Cd u0 {3,D}
+6   Cdb u0 {2,D}
+7   Cdb u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -34541,13 +34541,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb',
     shortDesc = """""",
@@ -34562,13 +34562,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   Cb  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)',
@@ -34584,13 +34584,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   Cb  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -34606,13 +34606,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   Cb  u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
@@ -34628,9 +34628,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {2,D}
@@ -34649,9 +34649,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34672,9 +34672,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34695,9 +34695,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34718,9 +34718,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34741,9 +34741,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -34764,11 +34764,11 @@ entry(
     label = "Cs-CtCtCtCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
 3   Ct      u0 {1,S}
 4   Ct      u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
     shortDesc = """""",
@@ -34783,7 +34783,7 @@ entry(
     label = "Cs-(Cds-O2d)CtCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -34803,8 +34803,8 @@ entry(
     label = "Cs-(Cds-Cd)CtCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
@@ -34823,12 +34823,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -34843,8 +34843,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -34863,8 +34863,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -34884,8 +34884,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -34905,8 +34905,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -34926,11 +34926,11 @@ entry(
     label = "Cs-CbCtCtCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Ct      u0 {1,S}
 4   Ct      u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
     shortDesc = """""",
@@ -34945,7 +34945,7 @@ entry(
     label = "Cs-(Cds-O2d)CbCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -34965,8 +34965,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
@@ -34985,12 +34985,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
 5   Ct u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = """""",
@@ -35005,8 +35005,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -35025,8 +35025,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -35046,8 +35046,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -35067,8 +35067,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -35088,11 +35088,11 @@ entry(
     label = "Cs-CbCbCtCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Cb      u0 {1,S}
 4   Ct      u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
     shortDesc = """""",
@@ -35107,7 +35107,7 @@ entry(
     label = "Cs-(Cds-O2d)CbCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -35127,8 +35127,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCbCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
@@ -35147,12 +35147,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Ct u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = """""",
@@ -35167,8 +35167,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -35187,8 +35187,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35208,8 +35208,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35229,8 +35229,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35250,11 +35250,11 @@ entry(
     label = "Cs-CbCbCbCds",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Cb      u0 {1,S}
 4   Cb      u0 {1,S}
-5   [Cd,CO] u0 {1,S}
+5   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
     shortDesc = """""",
@@ -35269,7 +35269,7 @@ entry(
     label = "Cs-(Cds-O2d)CbCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -35289,8 +35289,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCbCb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
@@ -35309,12 +35309,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbCb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd u0 {1,S} {6,D}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
 5   Cb u0 {1,S}
-6   Cd u0 {2,D}
+6   Cdb u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = """""",
@@ -35329,8 +35329,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35349,8 +35349,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35370,8 +35370,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35391,8 +35391,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -35412,7 +35412,7 @@ entry(
     label = "Cs-CtCtCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
@@ -35431,7 +35431,7 @@ entry(
     label = "Cs-CbCtCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
@@ -35450,7 +35450,7 @@ entry(
     label = "Cs-CbCbCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
@@ -35469,7 +35469,7 @@ entry(
     label = "Cs-CbCbCbCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
@@ -35488,7 +35488,7 @@ entry(
     label = "Cs-CbCbCbCb",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
@@ -35507,7 +35507,7 @@ entry(
     label = "Cs-C=SCbCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -35527,11 +35527,11 @@ entry(
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
 8   C   u0 {5,D}
@@ -35550,13 +35550,13 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   Cdd u0 {5,D}
 9   S2d u0 {2,D}
 """,
@@ -35573,14 +35573,14 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CS  u0 {1,S} {9,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cd  u0 {1,S} {8,D}
+4    Cdb  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {4,D}
-8    Cd  u0 {5,D}
+7    Cdb  u0 {4,D}
+8    Cdb  u0 {5,D}
 9    S2d u0 {3,D}
 10   C   u0 {6,D}
 """,
@@ -35597,14 +35597,14 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CS  u0 {1,S} {9,D}
-4    Cd  u0 {1,S} {7,D}
-5    Cd  u0 {1,S} {8,D}
+4    Cdb  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {4,D}
-8    Cd  u0 {5,D}
+7    Cdb  u0 {4,D}
+8    Cdb  u0 {5,D}
 9    S2d u0 {3,D}
 10   S2d u0 {6,D}
 """,
@@ -35621,11 +35621,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
 8   Cdd u0 {5,D}
@@ -35644,10 +35644,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -35670,10 +35670,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -35696,10 +35696,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -35722,10 +35722,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
+4    Cdb  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
@@ -35748,14 +35748,14 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
-8   Cd  u0 {5,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
+8   Cdb  u0 {5,D}
 9   S2d u0 {2,D}
 """,
     thermo = None,
@@ -35771,12 +35771,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {9,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cd  u0 {1,S} {8,D}
-6   Cd  u0 {3,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Cdb  u0 {1,S} {8,D}
+6   Cdb  u0 {3,D}
 7   Cdd u0 {4,D}
 8   Cdd u0 {5,D}
 9   S2d u0 {2,D}
@@ -35794,14 +35794,14 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {5,D}
+8    Cdb  u0 {5,D}
 9    S2d u0 {4,D}
 10   S2d u0 {6,D}
 11   S2d u0 {7,D}
@@ -35819,14 +35819,14 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {5,D}
+8    Cdb  u0 {5,D}
 9    S2d u0 {4,D}
 10   S2d u0 {6,D}
 11   C   u0 {7,D}
@@ -35844,14 +35844,14 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {8,D}
+5    Cdb  u0 {1,S} {8,D}
 6    Cdd u0 {2,D} {10,D}
 7    Cdd u0 {3,D} {11,D}
-8    Cd  u0 {5,D}
+8    Cdb  u0 {5,D}
 9    S2d u0 {4,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -35869,9 +35869,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
@@ -35890,12 +35890,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -35911,9 +35911,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
@@ -35932,8 +35932,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -35954,8 +35954,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -35976,11 +35976,11 @@ entry(
     label = "Cs-C=S(Cds-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   S2d u0 {2,D}
 """,
@@ -35997,12 +35997,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36018,11 +36018,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   S2d u0 {2,D}
 """,
@@ -36039,12 +36039,12 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
 """,
@@ -36061,12 +36061,12 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -36083,7 +36083,7 @@ entry(
     label = "Cs-C=SCbCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -36103,11 +36103,11 @@ entry(
     label = "Cs-C=SCbCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36123,11 +36123,11 @@ entry(
     label = "Cs-C=SCbCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36143,7 +36143,7 @@ entry(
     label = "Cs-C=SCtCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -36163,11 +36163,11 @@ entry(
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
 8   S2d u0 {2,D}
@@ -36185,11 +36185,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
 8   S2d u0 {2,D}
@@ -36207,13 +36207,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
+7    Css  u0 {1,S}
 8    S2d u0 {4,D}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
@@ -36231,13 +36231,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
+7    Css  u0 {1,S}
 8    S2d u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
@@ -36255,13 +36255,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cs",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Cs  u0 {1,S}
+7    Css  u0 {1,S}
 8    S2d u0 {4,D}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
@@ -36279,13 +36279,13 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36301,13 +36301,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36323,13 +36323,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   S2d u0 {5,D}
 """,
@@ -36346,13 +36346,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
-7   Cd  u0 {4,D}
+6   Css  u0 {1,S}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -36369,7 +36369,7 @@ entry(
     label = "Cs-C=SC=SCtCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
@@ -36390,11 +36390,11 @@ entry(
     label = "Cs-C=SCsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -36415,11 +36415,11 @@ entry(
     label = "Cs-C=SCtCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36435,7 +36435,7 @@ entry(
     label = "Cs-C=SC=SC=SCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
@@ -36457,11 +36457,11 @@ entry(
     label = "Cs-C=SC=SC=SCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
@@ -36479,7 +36479,7 @@ entry(
     label = "Cs-C=SC=SC=SC=S",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
@@ -36502,11 +36502,11 @@ entry(
     label = "Cs-C=SCtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36522,7 +36522,7 @@ entry(
     label = "Cs-C=SC=SC=SCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
@@ -36544,11 +36544,11 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
 4   CS  u0 {1,S} {9,D}
-5   Cd  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {6,D}
 6   C   u0 {5,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
@@ -36567,11 +36567,11 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
 4   CS  u0 {1,S} {9,D}
-5   Cd  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {6,D}
 6   Cdd u0 {5,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
@@ -36590,8 +36590,8 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CS  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
@@ -36614,8 +36614,8 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CS  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
@@ -36638,12 +36638,12 @@ entry(
     label = "Cs-C=SC=SC=S(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
 4   CS  u0 {1,S} {9,D}
-5   Cd  u0 {1,S} {6,D}
-6   Cd  u0 {5,D}
+5   Cdb  u0 {1,S} {6,D}
+6   Cdb  u0 {5,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
 9   S2d u0 {4,D}
@@ -36661,10 +36661,10 @@ entry(
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -36683,10 +36683,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -36705,9 +36705,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -36729,9 +36729,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -36753,9 +36753,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Ct",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -36777,13 +36777,13 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36799,13 +36799,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36821,13 +36821,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -36844,13 +36844,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Ct  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   S2d u0 {5,D}
 """,
@@ -36867,11 +36867,11 @@ entry(
     label = "Cs-C=SC=SCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 7   S2d u0 {3,D}
 """,
@@ -36888,7 +36888,7 @@ entry(
     label = "Cs-C=SC=SCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -36909,11 +36909,11 @@ entry(
     label = "Cs-C=S(Cds-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   S2d u0 {2,D}
 """,
@@ -36930,12 +36930,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -36951,11 +36951,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   S2d u0 {2,D}
 """,
@@ -36972,12 +36972,12 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -36994,12 +36994,12 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
 """,
@@ -37016,7 +37016,7 @@ entry(
     label = "Cs-C=SC=SCbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -37037,9 +37037,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   C   u0 {3,D}
@@ -37058,12 +37058,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -37079,9 +37079,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
 6   Cdd u0 {3,D}
@@ -37100,8 +37100,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -37122,8 +37122,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CbCt",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -37144,11 +37144,11 @@ entry(
     label = "Cs-C=SC=SCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 7   S2d u0 {3,D}
 """,
@@ -37165,9 +37165,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   C   u0 {3,D}
@@ -37186,12 +37186,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -37207,9 +37207,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
@@ -37228,8 +37228,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -37250,8 +37250,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -37272,10 +37272,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   C   u0 {4,D}
 7   S2d u0 {2,D}
@@ -37294,12 +37294,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cds)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
 """,
@@ -37316,10 +37316,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Ct  u0 {1,S}
 6   Cdd u0 {4,D}
 7   S2d u0 {2,D}
@@ -37338,8 +37338,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -37361,8 +37361,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Ct",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -37384,11 +37384,11 @@ entry(
     label = "Cs-C=SC=S(Cds-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cs  u0 {1,S}
+4   Cdb  u0 {1,S} {6,D}
+5   Css  u0 {1,S}
 6   C   u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
@@ -37406,12 +37406,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cds)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cs  u0 {1,S}
-6   Cd  u0 {4,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
 """,
@@ -37428,11 +37428,11 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cs  u0 {1,S}
+4   Cdb  u0 {1,S} {6,D}
+5   Css  u0 {1,S}
 6   Cdd u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
@@ -37450,12 +37450,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
 9   S2d u0 {5,D}
@@ -37473,12 +37473,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Cs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
 9   C   u0 {5,D}
@@ -37496,11 +37496,11 @@ entry(
     label = "Cs-C=SC=S(Cds-Cd)(Cds-Cd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
 3   CS  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
 6   C   u0 {4,D}
 7   C   u0 {5,D}
 8   S2d u0 {2,D}
@@ -37519,13 +37519,13 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
 3   CS  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
 6   Cdd u0 {4,D}
-7   Cd  u0 {5,D}
+7   Cdb  u0 {5,D}
 8   S2d u0 {2,D}
 9   S2d u0 {3,D}
 """,
@@ -37542,13 +37542,13 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cds)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CS  u0 {1,S} {8,D}
 4    CS  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {7,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {5,D}
+7    Cdb  u0 {5,D}
 8    S2d u0 {3,D}
 9    S2d u0 {4,D}
 10   S2d u0 {6,D}
@@ -37566,13 +37566,13 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cds)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
 3    CS  u0 {1,S} {8,D}
 4    CS  u0 {1,S} {9,D}
-5    Cd  u0 {1,S} {7,D}
+5    Cdb  u0 {1,S} {7,D}
 6    Cdd u0 {2,D} {10,D}
-7    Cd  u0 {5,D}
+7    Cdb  u0 {5,D}
 8    S2d u0 {3,D}
 9    S2d u0 {4,D}
 10   C   u0 {6,D}
@@ -37590,11 +37590,11 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)(Cds-Cdd)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
 3   CS  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
 6   Cdd u0 {4,D}
 7   Cdd u0 {5,D}
 8   S2d u0 {2,D}
@@ -37613,9 +37613,9 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
@@ -37638,9 +37638,9 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
@@ -37663,9 +37663,9 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2    Cd  u0 {1,S} {6,D}
-3    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2    Cdb  u0 {1,S} {6,D}
+3    Cdb  u0 {1,S} {7,D}
 4    CS  u0 {1,S} {8,D}
 5    CS  u0 {1,S} {9,D}
 6    Cdd u0 {2,D} {10,D}
@@ -37688,13 +37688,13 @@ entry(
     label = "Cs-C=SC=S(Cds-Cds)(Cds-Cds)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
 3   CS  u0 {1,S} {9,D}
-4   Cd  u0 {1,S} {6,D}
-5   Cd  u0 {1,S} {7,D}
-6   Cd  u0 {4,D}
-7   Cd  u0 {5,D}
+4   Cdb  u0 {1,S} {6,D}
+5   Cdb  u0 {1,S} {7,D}
+6   Cdb  u0 {4,D}
+7   Cdb  u0 {5,D}
 8   S2d u0 {2,D}
 9   S2d u0 {3,D}
 """,
@@ -37711,10 +37711,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   C   u0 {4,D}
 7   S2d u0 {2,D}
@@ -37733,10 +37733,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {4,D}
 7   S2d u0 {2,D}
@@ -37755,8 +37755,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -37778,8 +37778,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -37801,12 +37801,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   Cb  u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
 """,
@@ -37823,11 +37823,11 @@ entry(
     label = "Cs-C=SCbCtCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 """,
     thermo = None,
@@ -37843,11 +37843,11 @@ entry(
     label = "Cs-C=S(Cds-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   C   u0 {3,D}
 7   S2d u0 {2,D}
 """,
@@ -37864,12 +37864,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cd  u0 {3,D}
+5   Css  u0 {1,S}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -37885,11 +37885,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   Cdd u0 {3,D}
 7   S2d u0 {2,D}
 """,
@@ -37906,12 +37906,12 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
 """,
@@ -37928,12 +37928,12 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2d u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -37950,10 +37950,10 @@ entry(
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -37972,10 +37972,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -37994,9 +37994,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -38018,9 +38018,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -38042,9 +38042,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)Cb",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -38066,13 +38066,13 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -38088,13 +38088,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cb  u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -38110,13 +38110,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   S2d u0 {5,D}
 """,
@@ -38133,13 +38133,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   Cb  u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -38156,7 +38156,7 @@ entry(
     label = "Cs-C=SCbCbCb",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -38176,11 +38176,11 @@ entry(
     label = "Cs-C=SC=SCbCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2d u0 {2,D}
 7   S2d u0 {3,D}
 """,
@@ -38197,7 +38197,7 @@ entry(
     label = "Cs-CCCOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   C   u0 {1,S}
 4   C   u0 {1,S}
@@ -38216,10 +38216,10 @@ entry(
     label = "Cs-CsCsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -38242,10 +38242,10 @@ entry(
     label = "Cs-CdsCsCsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
-4   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
+4   Css      u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
@@ -38261,10 +38261,10 @@ entry(
     label = "Cs-(Cds-O2d)CsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -38288,10 +38288,10 @@ entry(
     label = "Cs-(Cds-Cd)CsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
 """,
@@ -38315,12 +38315,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -38340,10 +38340,10 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -38360,11 +38360,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   O2d u0 {3,D}
 """,
@@ -38386,11 +38386,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -38407,11 +38407,11 @@ entry(
     label = "Cs-OsCtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
     shortDesc = """""",
@@ -38426,10 +38426,10 @@ entry(
     label = "Cs-CbCsCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -38450,10 +38450,10 @@ entry(
     label = "Cs-CdsCdsCsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
@@ -38469,10 +38469,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   O2d u0 {2,D}
 7   O2d u0 {3,D}
@@ -38490,10 +38490,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {3,D}
 7   O2d u0 {2,D}
@@ -38518,12 +38518,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsOs',
@@ -38539,10 +38539,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {3,D}
 7   O2d u0 {2,D}
@@ -38560,11 +38560,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   O2d u0 {3,D}
 8   O2d u0 {4,D}
@@ -38582,11 +38582,11 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   O2d u0 {3,D}
 8   C   u0 {4,D}
@@ -38604,10 +38604,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
 7   C   u0 {3,D}
@@ -38625,13 +38625,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -38651,13 +38651,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs',
     shortDesc = """""",
@@ -38672,13 +38672,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)CsCsOs',
@@ -38694,13 +38694,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
@@ -38716,10 +38716,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -38737,12 +38737,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2s u0 {1,S}
 8   O2d u0 {4,D}
 9   O2d u0 {5,D}
@@ -38760,12 +38760,12 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2s u0 {1,S}
 8   O2d u0 {4,D}
 9   C   u0 {5,D}
@@ -38783,12 +38783,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   O2s u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
@@ -38806,10 +38806,10 @@ entry(
     label = "Cs-CtCdsCsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
@@ -38825,10 +38825,10 @@ entry(
     label = "Cs-(Cds-O2d)CtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -38845,10 +38845,10 @@ entry(
     label = "Cs-(Cds-Cd)CtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
 """,
@@ -38865,12 +38865,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = """""",
@@ -38885,10 +38885,10 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -38905,11 +38905,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   O2d u0 {3,D}
 """,
@@ -38926,11 +38926,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -38947,10 +38947,10 @@ entry(
     label = "Cs-CbCdsCsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   Cs      u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   Css      u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
@@ -38966,10 +38966,10 @@ entry(
     label = "Cs-(Cds-O2d)CbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -38986,10 +38986,10 @@ entry(
     label = "Cs-(Cds-Cd)CbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
 """,
@@ -39006,12 +39006,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = """""",
@@ -39026,10 +39026,10 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -39046,11 +39046,11 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   O2d u0 {3,D}
 """,
@@ -39067,11 +39067,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   O2s u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -39088,10 +39088,10 @@ entry(
     label = "Cs-CtCtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
@@ -39107,10 +39107,10 @@ entry(
     label = "Cs-CbCtCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
@@ -39126,10 +39126,10 @@ entry(
     label = "Cs-CbCbCsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
@@ -39145,10 +39145,10 @@ entry(
     label = "Cs-CdsCdsCdsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s',
@@ -39164,7 +39164,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-O2d)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
@@ -39186,10 +39186,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   O2s u0 {1,S}
 6   C   u0 {4,D}
 7   O2d u0 {2,D}
@@ -39208,12 +39208,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cds)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   O2s u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   O2d u0 {2,D}
 8   O2d u0 {3,D}
 """,
@@ -39230,10 +39230,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   O2s u0 {1,S}
 6   Cdd u0 {4,D}
 7   O2d u0 {2,D}
@@ -39252,8 +39252,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-O2d)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -39275,8 +39275,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)(Cds-Cdd-Cd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {7,D}
 4   CO  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -39298,10 +39298,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)(Cds-Cd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2s u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -39327,13 +39327,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2s u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsCsOs',
@@ -39349,13 +39349,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cds)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2s u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)O2s',
@@ -39371,13 +39371,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cds)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   O2s u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   O2d u0 {5,D}
 """,
@@ -39394,13 +39394,13 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cds)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   O2s u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   O2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -39417,10 +39417,10 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)(Cds-Cdd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   O2s u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -39439,9 +39439,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -39463,9 +39463,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -39487,9 +39487,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CO  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -39511,10 +39511,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
 7   C   u0 {3,D}
@@ -39533,14 +39533,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 """,
     thermo = 'Cs-CsCsCsOs',
     shortDesc = """""",
@@ -39555,13 +39555,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)O2s',
@@ -39577,14 +39577,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   O2d u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)CsCsOs',
@@ -39600,14 +39600,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   C   u0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s',
@@ -39623,12 +39623,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 """,
@@ -39645,14 +39645,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    O2s u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   O2d u0 {6,D}
 """,
@@ -39669,14 +39669,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    O2s u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    O2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -39693,14 +39693,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    O2s u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -39717,10 +39717,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)O2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -39739,10 +39739,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-O2d)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -39764,10 +39764,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -39789,10 +39789,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -39814,10 +39814,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)O2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -39839,10 +39839,10 @@ entry(
     label = "Cs-CtCdsCdsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
@@ -39858,7 +39858,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
@@ -39879,9 +39879,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {3,D}
@@ -39900,12 +39900,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)O2s',
@@ -39921,9 +39921,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {3,D}
@@ -39942,8 +39942,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -39964,8 +39964,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -39986,9 +39986,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
@@ -40007,13 +40007,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s',
     shortDesc = """""",
@@ -40028,13 +40028,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs',
     shortDesc = """""",
@@ -40049,13 +40049,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)O2s',
@@ -40071,13 +40071,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
@@ -40093,9 +40093,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -40114,9 +40114,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -40137,9 +40137,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -40160,9 +40160,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -40183,10 +40183,10 @@ entry(
     label = "Cs-CbCdsCdsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
@@ -40202,7 +40202,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -40223,9 +40223,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {3,D}
@@ -40244,12 +40244,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)(Cds-Cds)(Cds-Cds)O2s',
@@ -40265,9 +40265,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {3,D}
@@ -40286,8 +40286,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -40308,8 +40308,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -40330,9 +40330,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
@@ -40351,13 +40351,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s',
     shortDesc = """""",
@@ -40372,13 +40372,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs',
     shortDesc = """""",
@@ -40393,13 +40393,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-O2d)O2s',
@@ -40415,13 +40415,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
@@ -40437,9 +40437,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -40458,9 +40458,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -40481,9 +40481,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -40504,9 +40504,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -40527,10 +40527,10 @@ entry(
     label = "Cs-CtCtCdsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
@@ -40546,7 +40546,7 @@ entry(
     label = "Cs-(Cds-O2d)CtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -40566,8 +40566,8 @@ entry(
     label = "Cs-(Cds-Cd)CtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -40586,12 +40586,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s',
     shortDesc = """""",
@@ -40606,8 +40606,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -40626,8 +40626,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -40647,8 +40647,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -40668,10 +40668,10 @@ entry(
     label = "Cs-CbCtCdsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Ct      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
@@ -40687,7 +40687,7 @@ entry(
     label = "Cs-(Cds-O2d)CbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -40707,8 +40707,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -40727,12 +40727,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = """""",
@@ -40747,8 +40747,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -40767,8 +40767,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -40788,8 +40788,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -40809,10 +40809,10 @@ entry(
     label = "Cs-CbCbCdsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
 3   Cb      u0 {1,S}
-4   [Cd,CO] u0 {1,S}
+4   [Cdb,CO] u0 {1,S}
 5   O2s     u0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
@@ -40828,7 +40828,7 @@ entry(
     label = "Cs-(Cds-O2d)CbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -40848,8 +40848,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
@@ -40868,12 +40868,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)O2s',
     shortDesc = """""",
@@ -40888,8 +40888,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
@@ -40908,8 +40908,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -40929,8 +40929,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -40950,7 +40950,7 @@ entry(
     label = "Cs-CtCtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -40969,7 +40969,7 @@ entry(
     label = "Cs-CbCtCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -40988,7 +40988,7 @@ entry(
     label = "Cs-CbCbCtOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -41007,7 +41007,7 @@ entry(
     label = "Cs-CbCbCbOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -41026,7 +41026,7 @@ entry(
     label = "Cs-CCOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   C   u0 {1,S}
 4   O2s u0 {1,S}
@@ -41045,9 +41045,9 @@ entry(
     label = "Cs-CsCsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 """,
@@ -41071,9 +41071,9 @@ entry(
     label = "Cs-CdsCsOsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
 4   O2s     u0 {1,S}
 5   O2s     u0 {1,S}
 """,
@@ -41090,9 +41090,9 @@ entry(
     label = "Cs-(Cds-O2d)CsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   O2d u0 {2,D}
@@ -41110,9 +41110,9 @@ entry(
     label = "Cs-(Cds-Cd)CsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
@@ -41137,12 +41137,12 @@ entry(
     label = "Cs-(Cds-Cds)CsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = """""",
@@ -41157,9 +41157,9 @@ entry(
     label = "Cs-(Cds-Cdd)CsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -41177,10 +41177,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   O2s u0 {1,S}
 7   O2d u0 {3,D}
@@ -41198,10 +41198,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   O2s u0 {1,S}
 7   C   u0 {3,D}
@@ -41219,9 +41219,9 @@ entry(
     label = "Cs-CdsCdsOsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 5   O2s     u0 {1,S}
 """,
@@ -41238,7 +41238,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
@@ -41259,9 +41259,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {3,D}
@@ -41280,12 +41280,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsOsOs',
@@ -41301,9 +41301,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {3,D}
@@ -41322,8 +41322,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
@@ -41344,8 +41344,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
@@ -41366,9 +41366,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   C   u0 {2,D}
@@ -41394,13 +41394,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = """""",
@@ -41415,13 +41415,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs',
     shortDesc = """""",
@@ -41436,13 +41436,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)CsOsOs',
@@ -41458,13 +41458,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
 6   O2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
@@ -41480,9 +41480,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -41501,9 +41501,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   O2s u0 {1,S}
@@ -41524,9 +41524,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   O2s u0 {1,S}
@@ -41547,9 +41547,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   O2s u0 {1,S}
@@ -41570,9 +41570,9 @@ entry(
     label = "Cs-CtCsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 """,
@@ -41589,9 +41589,9 @@ entry(
     label = "Cs-CtCdsOsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 5   O2s     u0 {1,S}
 """,
@@ -41608,7 +41608,7 @@ entry(
     label = "Cs-(Cds-O2d)CtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -41628,8 +41628,8 @@ entry(
     label = "Cs-(Cds-Cd)CtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -41648,12 +41648,12 @@ entry(
     label = "Cs-(Cds-Cds)CtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = """""",
@@ -41668,8 +41668,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -41688,8 +41688,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -41709,8 +41709,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -41730,7 +41730,7 @@ entry(
     label = "Cs-CtCtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -41749,9 +41749,9 @@ entry(
     label = "Cs-CbCsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
 """,
@@ -41768,9 +41768,9 @@ entry(
     label = "Cs-CbCdsOsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 5   O2s     u0 {1,S}
 """,
@@ -41787,7 +41787,7 @@ entry(
     label = "Cs-(Cds-O2d)CbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -41807,8 +41807,8 @@ entry(
     label = "Cs-(Cds-Cd)CbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -41827,12 +41827,12 @@ entry(
     label = "Cs-(Cds-Cds)CbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = """""",
@@ -41847,8 +41847,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -41867,8 +41867,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
@@ -41888,8 +41888,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
@@ -41909,7 +41909,7 @@ entry(
     label = "Cs-CbCtOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -41928,7 +41928,7 @@ entry(
     label = "Cs-CbCbOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -41947,7 +41947,7 @@ entry(
     label = "Cs-COsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -41966,8 +41966,8 @@ entry(
     label = "Cs-CsOsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -41990,8 +41990,8 @@ entry(
     label = "Cs-CdsOsOsOs",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
 3   O2s     u0 {1,S}
 4   O2s     u0 {1,S}
 5   O2s     u0 {1,S}
@@ -42009,7 +42009,7 @@ entry(
     label = "Cs-(Cds-O2d)OsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42029,8 +42029,8 @@ entry(
     label = "Cs-(Cds-Cd)OsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -42049,12 +42049,12 @@ entry(
     label = "Cs-(Cds-Cds)OsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-CsOsOsOs',
     shortDesc = """""",
@@ -42069,8 +42069,8 @@ entry(
     label = "Cs-(Cds-Cdd)OsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -42089,8 +42089,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)OsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -42110,8 +42110,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)OsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -42131,7 +42131,7 @@ entry(
     label = "Cs-CtOsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42150,7 +42150,7 @@ entry(
     label = "Cs-CbOsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42169,7 +42169,7 @@ entry(
     label = "Cs-OsOsOsOs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42193,7 +42193,7 @@ entry(
     label = "Cs-COsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42212,8 +42212,8 @@ entry(
     label = "Cs-CsOsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -42236,8 +42236,8 @@ entry(
     label = "Cs-CdsOsOsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
 3   O2s     u0 {1,S}
 4   O2s     u0 {1,S}
 5   H       u0 {1,S}
@@ -42255,7 +42255,7 @@ entry(
     label = "Cs-(Cds-O2d)OsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42275,8 +42275,8 @@ entry(
     label = "Cs-(Cds-Cd)OsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -42295,12 +42295,12 @@ entry(
     label = "Cs-(Cds-Cds)OsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-CsOsOsH',
     shortDesc = """""",
@@ -42315,8 +42315,8 @@ entry(
     label = "Cs-(Cds-Cdd)OsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -42335,8 +42335,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)OsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -42356,8 +42356,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)OsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   O2s u0 {1,S}
 5   O2s u0 {1,S}
@@ -42377,7 +42377,7 @@ entry(
     label = "Cs-CtOsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42396,7 +42396,7 @@ entry(
     label = "Cs-CbOsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42415,7 +42415,7 @@ entry(
     label = "Cs-COsSH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   O2s u0 {1,S}
 4   S   u0 {1,S}
@@ -42434,8 +42434,8 @@ entry(
     label = "Cs-CsOsSH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   S   u0 {1,S}
 5   H   u0 {1,S}
@@ -42453,8 +42453,8 @@ entry(
     label = "Cs-CsOsS2H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -42477,8 +42477,8 @@ entry(
     label = "Cs-CsOsS4H",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                u0 {1,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                u0 {1,S}
 3   O2s               u0 {1,S}
 4   [S4s,S4d,S4b,S4t] u0 {1,S}
 5   H                 u0 {1,S}
@@ -42501,8 +42501,8 @@ entry(
     label = "Cs-CdsOsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
 3   O2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -42525,7 +42525,7 @@ entry(
     label = "Cs-CtOsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   O2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -42544,7 +42544,7 @@ entry(
     label = "Cs-CbOsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   O2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -42568,7 +42568,7 @@ entry(
     label = "Cs-CCOsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   C   u0 {1,S}
 4   O2s u0 {1,S}
@@ -42587,9 +42587,9 @@ entry(
     label = "Cs-CsCsOsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -42611,7 +42611,7 @@ entry(
     label = "Cs-COsOsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -42630,8 +42630,8 @@ entry(
     label = "Cs-CsOsOsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -42654,7 +42654,7 @@ entry(
     label = "Cs-CCOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   C   u0 {1,S}
 4   O2s u0 {1,S}
@@ -42673,9 +42673,9 @@ entry(
     label = "Cs-CsCsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -42699,9 +42699,9 @@ entry(
     label = "Cs-CdsCsOsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
 4   O2s     u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -42718,9 +42718,9 @@ entry(
     label = "Cs-(Cds-O2d)CsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
@@ -42743,9 +42743,9 @@ entry(
     label = "Cs-(Cds-Cd)CsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {2,D}
@@ -42770,12 +42770,12 @@ entry(
     label = "Cs-(Cds-Cds)CsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -42795,9 +42795,9 @@ entry(
     label = "Cs-(Cds-Cdd)CsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -42815,10 +42815,10 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   H   u0 {1,S}
 7   O2d u0 {3,D}
@@ -42841,10 +42841,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2s u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
@@ -42862,9 +42862,9 @@ entry(
     label = "Cs-CdsCdsOsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -42881,7 +42881,7 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-O2d)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   CO  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
@@ -42902,9 +42902,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -42923,12 +42923,12 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cds)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   O2d u0 {2,D}
 """,
     thermo = 'Cs-(Cds-O2d)CsOsH',
@@ -42944,9 +42944,9 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -42965,8 +42965,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-O2d)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
@@ -42987,8 +42987,8 @@ entry(
     label = "Cs-(Cds-O2d)(Cds-Cdd-Cd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CO  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
@@ -43009,9 +43009,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {2,D}
@@ -43037,13 +43037,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43063,13 +43063,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH',
     shortDesc = """""",
@@ -43084,13 +43084,13 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cds)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   O2d u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-O2d)CsOsH',
@@ -43106,13 +43106,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   O2s u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
@@ -43128,9 +43128,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -43149,9 +43149,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-O2d)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   O2s u0 {1,S}
@@ -43172,9 +43172,9 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)(Cds-Cdd-Cd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   O2s u0 {1,S}
@@ -43195,9 +43195,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   O2s u0 {1,S}
@@ -43218,9 +43218,9 @@ entry(
     label = "Cs-CtCsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -43237,9 +43237,9 @@ entry(
     label = "Cs-CtCdsOsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -43256,7 +43256,7 @@ entry(
     label = "Cs-(Cds-O2d)CtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -43276,8 +43276,8 @@ entry(
     label = "Cs-(Cds-Cd)CtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -43296,12 +43296,12 @@ entry(
     label = "Cs-(Cds-Cds)CtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = """""",
@@ -43316,8 +43316,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -43336,8 +43336,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -43357,8 +43357,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   O2s u0 {1,S}
@@ -43378,7 +43378,7 @@ entry(
     label = "Cs-CtCtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -43397,9 +43397,9 @@ entry(
     label = "Cs-CbCsOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -43421,9 +43421,9 @@ entry(
     label = "Cs-CbCdsOsH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 4   O2s     u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -43440,7 +43440,7 @@ entry(
     label = "Cs-(Cds-O2d)CbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -43460,8 +43460,8 @@ entry(
     label = "Cs-(Cds-Cd)CbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -43480,12 +43480,12 @@ entry(
     label = "Cs-(Cds-Cds)CbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = """""",
@@ -43500,8 +43500,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -43520,8 +43520,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)CbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
@@ -43541,8 +43541,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   O2s u0 {1,S}
@@ -43562,7 +43562,7 @@ entry(
     label = "Cs-CbCtOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
 4   O2s u0 {1,S}
@@ -43581,7 +43581,7 @@ entry(
     label = "Cs-CbCbOsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   O2s u0 {1,S}
@@ -43600,7 +43600,7 @@ entry(
     label = "Cs-COsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -43619,8 +43619,8 @@ entry(
     label = "Cs-CsOsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -43645,8 +43645,8 @@ entry(
     label = "Cs-CdsOsHH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
 3   O2s     u0 {1,S}
 4   H       u0 {1,S}
 5   H       u0 {1,S}
@@ -43664,7 +43664,7 @@ entry(
     label = "Cs-(Cds-O2d)OsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -43691,8 +43691,8 @@ entry(
     label = "Cs-(Cds-Cd)OsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -43718,12 +43718,12 @@ entry(
     label = "Cs-(Cds-Cds)OsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43743,8 +43743,8 @@ entry(
     label = "Cs-(Cds-Cdd)OsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -43763,8 +43763,8 @@ entry(
     label = "Cs-(Cds-Cdd-O2d)OsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -43789,8 +43789,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)OsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   O2s u0 {1,S}
 5   H   u0 {1,S}
@@ -43810,7 +43810,7 @@ entry(
     label = "Cs-CtOsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -43834,7 +43834,7 @@ entry(
     label = "Cs-CbOsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -43853,7 +43853,7 @@ entry(
     label = "Cs-CCCS",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -43872,10 +43872,10 @@ entry(
     label = "Cs-CsCsCsS",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   S  u0 {1,S}
 """,
     thermo = 'Cs-CsCsCsS2',
@@ -43891,10 +43891,10 @@ entry(
     label = "Cs-CsCsCsS2",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -43915,10 +43915,10 @@ entry(
     label = "Cs-CsCsCsS4",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                u0 {1,S}
-3   Cs                u0 {1,S}
-4   Cs                u0 {1,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                u0 {1,S}
+3   Css                u0 {1,S}
+4   Css                u0 {1,S}
 5   [S4s,S4d,S4b,S4t] u0 {1,S}
 """,
     thermo = ThermoData(
@@ -43939,10 +43939,10 @@ entry(
     label = "Cs-CdsCsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -43958,10 +43958,10 @@ entry(
     label = "Cs-(Cds-Cd)CsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
 """,
@@ -43978,12 +43978,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -43998,10 +43998,10 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -44018,11 +44018,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
 """,
@@ -44039,11 +44039,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -44060,11 +44060,11 @@ entry(
     label = "Cs-SsCtCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   S2s u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 """,
     thermo = None,
     shortDesc = """""",
@@ -44079,10 +44079,10 @@ entry(
     label = "Cs-CbCsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44098,10 +44098,10 @@ entry(
     label = "Cs-CdsCdsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44117,10 +44117,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
 7   C   u0 {3,D}
@@ -44138,13 +44138,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -44159,13 +44159,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -44180,13 +44180,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -44202,13 +44202,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = None,
@@ -44224,10 +44224,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -44245,12 +44245,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2s u0 {1,S}
 8   S2d u0 {4,D}
 9   S2d u0 {5,D}
@@ -44268,12 +44268,12 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2s u0 {1,S}
 8   S2d u0 {4,D}
 9   C   u0 {5,D}
@@ -44291,12 +44291,12 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Cs  u0 {1,S}
+6   Css  u0 {1,S}
 7   S2s u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
@@ -44314,10 +44314,10 @@ entry(
     label = "Cs-CtCdsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44333,10 +44333,10 @@ entry(
     label = "Cs-(Cds-Cd)CtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
 """,
@@ -44353,12 +44353,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -44373,10 +44373,10 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -44393,11 +44393,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
 """,
@@ -44414,11 +44414,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -44435,10 +44435,10 @@ entry(
     label = "Cs-CbCdsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44454,10 +44454,10 @@ entry(
     label = "Cs-(Cds-Cd)CbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
 """,
@@ -44474,12 +44474,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -44494,10 +44494,10 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -44514,11 +44514,11 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
 """,
@@ -44535,11 +44535,11 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -44556,10 +44556,10 @@ entry(
     label = "Cs-CtCtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44575,10 +44575,10 @@ entry(
     label = "Cs-CbCtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44594,10 +44594,10 @@ entry(
     label = "Cs-CbCbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44613,10 +44613,10 @@ entry(
     label = "Cs-CdsCdsCdsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44632,10 +44632,10 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
 7   C   u0 {3,D}
@@ -44654,14 +44654,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -44676,13 +44676,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 8   Cdd u0 {4,D}
 """,
     thermo = None,
@@ -44698,14 +44698,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-S2d)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   S2d u0 {5,D}
 """,
     thermo = None,
@@ -44721,14 +44721,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
+7   Cdb  u0 {3,D}
+8   Cdb  u0 {4,D}
 9   C   u0 {5,D}
 """,
     thermo = None,
@@ -44744,12 +44744,12 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
 """,
@@ -44766,14 +44766,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    S2s u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   S2d u0 {6,D}
 """,
@@ -44790,14 +44790,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    S2s u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    S2d u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -44814,14 +44814,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {8,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    S2s u0 {1,S}
-8    Cd  u0 {4,D}
+8    Cdb  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 """,
@@ -44838,10 +44838,10 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {8,D}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -44860,10 +44860,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -44885,10 +44885,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -44910,10 +44910,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -44935,10 +44935,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
-4    Cd  u0 {1,S} {7,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {8,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
+4    Cdb  u0 {1,S} {7,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
@@ -44960,10 +44960,10 @@ entry(
     label = "Cs-CtCdsCdsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -44979,9 +44979,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
@@ -45000,13 +45000,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45021,13 +45021,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45042,13 +45042,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -45064,13 +45064,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = None,
@@ -45086,9 +45086,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -45107,9 +45107,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -45130,9 +45130,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -45153,9 +45153,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
@@ -45176,10 +45176,10 @@ entry(
     label = "Cs-CbCdsCdsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -45195,9 +45195,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
@@ -45216,13 +45216,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45237,13 +45237,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45258,13 +45258,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -45280,13 +45280,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = None,
@@ -45302,9 +45302,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -45323,9 +45323,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -45346,9 +45346,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -45369,9 +45369,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
@@ -45392,10 +45392,10 @@ entry(
     label = "Cs-CtCtCdsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -45411,8 +45411,8 @@ entry(
     label = "Cs-(Cds-Cd)CtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -45431,12 +45431,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45451,8 +45451,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -45471,8 +45471,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -45492,8 +45492,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -45513,10 +45513,10 @@ entry(
     label = "Cs-CbCtCdsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
-4   Cd  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -45532,8 +45532,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -45552,12 +45552,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45572,8 +45572,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -45592,8 +45592,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -45613,8 +45613,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
@@ -45634,10 +45634,10 @@ entry(
     label = "Cs-CbCbCdsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
-4   Cd  u0 {1,S}
+4   Cdb  u0 {1,S}
 5   S2s u0 {1,S}
 """,
     thermo = None,
@@ -45653,8 +45653,8 @@ entry(
     label = "Cs-(Cds-Cd)CbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
@@ -45673,12 +45673,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -45693,8 +45693,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
@@ -45713,8 +45713,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -45734,8 +45734,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
@@ -45755,7 +45755,7 @@ entry(
     label = "Cs-CtCtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -45774,7 +45774,7 @@ entry(
     label = "Cs-CbCtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -45793,7 +45793,7 @@ entry(
     label = "Cs-CbCbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -45812,7 +45812,7 @@ entry(
     label = "Cs-CbCbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -45831,10 +45831,10 @@ entry(
     label = "Cs-C=SCbCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   S2d u0 {2,D}
 """,
@@ -45851,10 +45851,10 @@ entry(
     label = "Cs-C=SCsCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   S2d u0 {2,D}
 """,
@@ -45871,10 +45871,10 @@ entry(
     label = "Cs-C=S(Cds-Cd)(Cds-Cd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2s u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
@@ -45893,10 +45893,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2s u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
@@ -45915,9 +45915,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -45939,9 +45939,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-Cd)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -45963,9 +45963,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cdd-S2d)S2s",
     group =
 """
-1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
-2    Cd  u0 {1,S} {5,D}
-3    Cd  u0 {1,S} {6,D}
+1  * Css  u0 {2,S} {3,S} {4,S} {7,S}
+2    Cdb  u0 {1,S} {5,D}
+3    Cdb  u0 {1,S} {6,D}
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
@@ -45987,13 +45987,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd)(Cds-Cds)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2s u0 {1,S}
 6   Cdd u0 {3,D}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -46009,13 +46009,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   S2s u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   C   u0 {5,D}
 """,
@@ -46032,13 +46032,13 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)(Cds-Cds)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {7,D}
+4   Cdb  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
 6   S2s u0 {1,S}
-7   Cd  u0 {4,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {3,D}
 9   S2d u0 {5,D}
 """,
@@ -46055,13 +46055,13 @@ entry(
     label = "Cs-C=S(Cds-Cds)(Cds-Cds)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cd  u0 {1,S} {7,D}
+3   Cdb  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {7,D}
 5   S2s u0 {1,S}
-6   Cd  u0 {3,D}
-7   Cd  u0 {4,D}
+6   Cdb  u0 {3,D}
+7   Cdb  u0 {4,D}
 8   S2d u0 {2,D}
 """,
     thermo = None,
@@ -46077,9 +46077,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {3,D}
@@ -46098,12 +46098,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -46119,9 +46119,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {3,D}
@@ -46140,8 +46140,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -46162,8 +46162,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
@@ -46184,10 +46184,10 @@ entry(
     label = "Cs-C=SCtCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   S2d u0 {2,D}
 """,
@@ -46204,7 +46204,7 @@ entry(
     label = "Cs-C=SC=SC=SSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
@@ -46226,10 +46226,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   S2s u0 {1,S}
 6   C   u0 {4,D}
 7   S2d u0 {2,D}
@@ -46248,12 +46248,12 @@ entry(
     label = "Cs-C=SC=S(Cds-Cds)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   S2s u0 {1,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 7   S2d u0 {2,D}
 8   S2d u0 {3,D}
 """,
@@ -46270,10 +46270,10 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
-4   Cd  u0 {1,S} {6,D}
+4   Cdb  u0 {1,S} {6,D}
 5   S2s u0 {1,S}
 6   Cdd u0 {4,D}
 7   S2d u0 {2,D}
@@ -46292,8 +46292,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-S2d)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -46315,8 +46315,8 @@ entry(
     label = "Cs-C=SC=S(Cds-Cdd-Cd)S2s",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {6,S}
+2   Cdb  u0 {1,S} {5,D}
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
@@ -46338,7 +46338,7 @@ entry(
     label = "Cs-C=SCbCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
@@ -46358,7 +46358,7 @@ entry(
     label = "Cs-C=SC=SCbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
@@ -46379,10 +46379,10 @@ entry(
     label = "Cs-C=SC=SCsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   S2d u0 {2,D}
 7   S2d u0 {3,D}
@@ -46400,7 +46400,7 @@ entry(
     label = "Cs-C=SCtCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -46420,9 +46420,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {3,D}
@@ -46441,9 +46441,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {3,D}
@@ -46462,8 +46462,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -46484,8 +46484,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
@@ -46506,12 +46506,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CbSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -46527,7 +46527,7 @@ entry(
     label = "Cs-C=SCbCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
@@ -46547,7 +46547,7 @@ entry(
     label = "Cs-C=SC=SCtSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
@@ -46568,10 +46568,10 @@ entry(
     label = "Cs-C=S(Cds-Cd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {3,D}
 7   S2d u0 {2,D}
@@ -46589,12 +46589,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -46610,10 +46610,10 @@ entry(
     label = "Cs-C=S(Cds-Cdd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S} {6,D}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {3,D}
 7   S2d u0 {2,D}
@@ -46631,11 +46631,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
 8   S2d u0 {4,D}
@@ -46653,11 +46653,11 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)CsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
 8   C   u0 {4,D}
@@ -46675,7 +46675,7 @@ entry(
     label = "Cs-CCSS",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   S  u0 {1,S}
@@ -46694,9 +46694,9 @@ entry(
     label = "Cs-CsCsSS",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   S  u0 {1,S}
 5   S  u0 {1,S}
 """,
@@ -46713,9 +46713,9 @@ entry(
     label = "Cs-CsCsS2S2",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -46737,9 +46737,9 @@ entry(
     label = "Cs-CsCsS6S2",
     group =
 """
-1 * Cs                      u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                      u0 {1,S}
-3   Cs                      u0 {1,S}
+1 * Css                      u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                      u0 {1,S}
+3   Css                      u0 {1,S}
 4   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 5   S2s                     u0 {1,S}
 """,
@@ -46761,9 +46761,9 @@ entry(
     label = "Cs-CdsCsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -46780,9 +46780,9 @@ entry(
     label = "Cs-(Cds-Cd)CsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
@@ -46800,12 +46800,12 @@ entry(
     label = "Cs-(Cds-Cds)CsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -46820,9 +46820,9 @@ entry(
     label = "Cs-(Cds-Cdd)CsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -46840,10 +46840,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   S2s u0 {1,S}
 7   S2d u0 {3,D}
@@ -46861,10 +46861,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   S2s u0 {1,S}
 7   C   u0 {3,D}
@@ -46882,9 +46882,9 @@ entry(
     label = "Cs-CdsCdsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -46901,9 +46901,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {2,D}
@@ -46922,13 +46922,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -46943,13 +46943,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -46964,13 +46964,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -46986,13 +46986,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
 6   S2s u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = None,
@@ -47008,9 +47008,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {2,D}
@@ -47029,9 +47029,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   S2s u0 {1,S}
@@ -47052,9 +47052,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   S2s u0 {1,S}
@@ -47075,9 +47075,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   S2s u0 {1,S}
@@ -47098,9 +47098,9 @@ entry(
     label = "Cs-CtCsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -47117,9 +47117,9 @@ entry(
     label = "Cs-CtCdsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -47136,8 +47136,8 @@ entry(
     label = "Cs-(Cds-Cd)CtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47156,12 +47156,12 @@ entry(
     label = "Cs-(Cds-Cds)CtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -47176,8 +47176,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47196,8 +47196,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -47217,8 +47217,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -47238,7 +47238,7 @@ entry(
     label = "Cs-CtCtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -47257,9 +47257,9 @@ entry(
     label = "Cs-CbCsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -47276,9 +47276,9 @@ entry(
     label = "Cs-CbCdsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 """,
@@ -47295,8 +47295,8 @@ entry(
     label = "Cs-(Cds-Cd)CbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47315,12 +47315,12 @@ entry(
     label = "Cs-(Cds-Cds)CbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -47335,8 +47335,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47355,8 +47355,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
@@ -47376,8 +47376,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
@@ -47397,7 +47397,7 @@ entry(
     label = "Cs-CbCtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -47416,7 +47416,7 @@ entry(
     label = "Cs-CbCbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -47435,9 +47435,9 @@ entry(
     label = "Cs-C=SCsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   S2d u0 {2,D}
@@ -47455,9 +47455,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   C   u0 {3,D}
@@ -47476,9 +47476,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
 6   Cdd u0 {3,D}
@@ -47497,8 +47497,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
@@ -47519,8 +47519,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
@@ -47541,12 +47541,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)SsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -47562,7 +47562,7 @@ entry(
     label = "Cs-C=SC=SSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
@@ -47583,7 +47583,7 @@ entry(
     label = "Cs-C=SCbSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -47603,7 +47603,7 @@ entry(
     label = "Cs-C=SCtSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -47623,7 +47623,7 @@ entry(
     label = "Cs-CSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -47642,8 +47642,8 @@ entry(
     label = "Cs-CsSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47666,8 +47666,8 @@ entry(
     label = "Cs-CdsSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47685,8 +47685,8 @@ entry(
     label = "Cs-(Cds-Cd)SsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47705,12 +47705,12 @@ entry(
     label = "Cs-(Cds-Cds)SsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -47725,8 +47725,8 @@ entry(
     label = "Cs-(Cds-Cdd)SsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47745,8 +47745,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)SsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47766,8 +47766,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)SsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -47787,7 +47787,7 @@ entry(
     label = "Cs-CtSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -47806,7 +47806,7 @@ entry(
     label = "Cs-CbSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -47825,7 +47825,7 @@ entry(
     label = "Cs-C=SSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -47845,7 +47845,7 @@ entry(
     label = "Cs-SsSsSsSs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   S2s u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -47869,7 +47869,7 @@ entry(
     label = "Cs-CSSH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   S  u0 {1,S}
 4   S  u0 {1,S}
@@ -47888,8 +47888,8 @@ entry(
     label = "Cs-CsSSH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   S  u0 {1,S}
 4   S  u0 {1,S}
 5   H  u0 {1,S}
@@ -47907,8 +47907,8 @@ entry(
     label = "Cs-CsS2S2H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -47931,8 +47931,8 @@ entry(
     label = "Cs-CsS4S2H",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                u0 {1,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                u0 {1,S}
 3   [S4s,S4d,S4b,S4t] u0 {1,S}
 4   S2s               u0 {1,S}
 5   H                 u0 {1,S}
@@ -47955,8 +47955,8 @@ entry(
     label = "Cs-CsS6S2H",
     group =
 """
-1 * Cs                      u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                      u0 {1,S}
+1 * Css                      u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                      u0 {1,S}
 3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 4   S2s                     u0 {1,S}
 5   H                       u0 {1,S}
@@ -47979,8 +47979,8 @@ entry(
     label = "Cs-CdsSsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -47998,8 +47998,8 @@ entry(
     label = "Cs-(Cds-Cd)SsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -48018,12 +48018,12 @@ entry(
     label = "Cs-(Cds-Cds)SsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -48038,8 +48038,8 @@ entry(
     label = "Cs-(Cds-Cdd)SsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -48058,8 +48058,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)SsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -48079,8 +48079,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)SsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   S2s u0 {1,S}
 5   S2s u0 {1,S}
@@ -48100,7 +48100,7 @@ entry(
     label = "Cs-CtSsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -48119,7 +48119,7 @@ entry(
     label = "Cs-CbSsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -48138,7 +48138,7 @@ entry(
     label = "Cs-C=SSsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -48158,7 +48158,7 @@ entry(
     label = "Cs-CCSH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   S  u0 {1,S}
@@ -48177,9 +48177,9 @@ entry(
     label = "Cs-CsCsSH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
-3   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
+3   Css u0 {1,S}
 4   S  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -48196,9 +48196,9 @@ entry(
     label = "Cs-CsCsS2H",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -48220,9 +48220,9 @@ entry(
     label = "Cs-CsCsS4H",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                u0 {1,S}
-3   Cs                u0 {1,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                u0 {1,S}
+3   Css                u0 {1,S}
 4   [S4s,S4d,S4b,S4t] u0 {1,S}
 5   H                 u0 {1,S}
 """,
@@ -48244,9 +48244,9 @@ entry(
     label = "Cs-CsCsS6H",
     group =
 """
-1 * Cs                      u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                      u0 {1,S}
-3   Cs                      u0 {1,S}
+1 * Css                      u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                      u0 {1,S}
+3   Css                      u0 {1,S}
 4   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 5   H                       u0 {1,S}
 """,
@@ -48268,9 +48268,9 @@ entry(
     label = "Cs-CdsCsSH",
     group =
 """
-1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
+1 * Css      u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
 4   S       u0 {1,S}
 5   H       u0 {1,S}
 """,
@@ -48287,9 +48287,9 @@ entry(
     label = "Cs-CdsCsS4H",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
-2   [Cd,CO]           u0 {1,S}
-3   Cs                u0 {1,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
+2   [Cdb,CO]           u0 {1,S}
+3   Css                u0 {1,S}
 4   [S4s,S4d,S4b,S4t] u0 {1,S}
 5   H                 u0 {1,S}
 """,
@@ -48311,9 +48311,9 @@ entry(
     label = "Cs-(Cds-Cd)CsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {2,D}
@@ -48331,12 +48331,12 @@ entry(
     label = "Cs-(Cds-Cds)CsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -48356,9 +48356,9 @@ entry(
     label = "Cs-(Cds-Cdd)CsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -48376,10 +48376,10 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   H   u0 {1,S}
 7   S2d u0 {3,D}
@@ -48397,10 +48397,10 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   S2s u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
@@ -48418,9 +48418,9 @@ entry(
     label = "Cs-CdsCdsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -48437,9 +48437,9 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {2,D}
@@ -48458,13 +48458,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
-7   Cd  u0 {3,D}
+6   Cdb  u0 {2,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -48479,13 +48479,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -48500,13 +48500,13 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cds)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   S2d u0 {4,D}
 """,
     thermo = None,
@@ -48522,13 +48522,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
 6   H   u0 {1,S}
-7   Cd  u0 {3,D}
+7   Cdb  u0 {3,D}
 8   C   u0 {4,D}
 """,
     thermo = None,
@@ -48544,9 +48544,9 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
-3   Cd  u0 {1,S} {7,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -48565,9 +48565,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-S2d)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   S2s u0 {1,S}
@@ -48588,9 +48588,9 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)(Cds-Cdd-Cd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   S2s u0 {1,S}
@@ -48611,9 +48611,9 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {6,S} {7,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {5,D}
+1 * Css  u0 {2,S} {3,S} {6,S} {7,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   S2s u0 {1,S}
@@ -48634,9 +48634,9 @@ entry(
     label = "Cs-CtCsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -48658,9 +48658,9 @@ entry(
     label = "Cs-CtCdsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -48677,8 +48677,8 @@ entry(
     label = "Cs-(Cds-Cd)CtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -48697,12 +48697,12 @@ entry(
     label = "Cs-(Cds-Cds)CtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -48717,8 +48717,8 @@ entry(
     label = "Cs-(Cds-Cdd)CtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -48737,8 +48737,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -48758,8 +48758,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   S2s u0 {1,S}
@@ -48779,7 +48779,7 @@ entry(
     label = "Cs-CtCtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -48798,9 +48798,9 @@ entry(
     label = "Cs-CbCsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -48822,9 +48822,9 @@ entry(
     label = "Cs-CbCdsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -48841,8 +48841,8 @@ entry(
     label = "Cs-(Cds-Cd)CbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -48861,12 +48861,12 @@ entry(
     label = "Cs-(Cds-Cds)CbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -48881,8 +48881,8 @@ entry(
     label = "Cs-(Cds-Cdd)CbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -48901,8 +48901,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)CbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
@@ -48922,8 +48922,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   S2s u0 {1,S}
@@ -48943,7 +48943,7 @@ entry(
     label = "Cs-CbCtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -48962,7 +48962,7 @@ entry(
     label = "Cs-CbCbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -48981,7 +48981,7 @@ entry(
     label = "Cs-C=SCbSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   S2s u0 {1,S}
@@ -49001,7 +49001,7 @@ entry(
     label = "Cs-C=SC=SSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   CS  u0 {1,S} {7,D}
 4   S2s u0 {1,S}
@@ -49022,9 +49022,9 @@ entry(
     label = "Cs-C=SCsSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   S2d u0 {2,D}
@@ -49047,7 +49047,7 @@ entry(
     label = "Cs-C=SCtSsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   S2s u0 {1,S}
@@ -49067,9 +49067,9 @@ entry(
     label = "Cs-C=S(Cds-Cd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   C   u0 {3,D}
@@ -49088,9 +49088,9 @@ entry(
     label = "Cs-C=S(Cds-Cdd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
@@ -49109,8 +49109,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-Cd)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
@@ -49131,8 +49131,8 @@ entry(
     label = "Cs-C=S(Cds-Cdd-S2d)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
+1 * Css  u0 {2,S} {3,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   S2s u0 {1,S}
@@ -49153,12 +49153,12 @@ entry(
     label = "Cs-C=S(Cds-Cds)SsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
-3   Cd  u0 {1,S} {6,D}
+3   Cdb  u0 {1,S} {6,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 7   S2d u0 {2,D}
 """,
     thermo = None,
@@ -49174,7 +49174,7 @@ entry(
     label = "Cs-CSHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   S  u0 {1,S}
 4   H  u0 {1,S}
@@ -49193,8 +49193,8 @@ entry(
     label = "Cs-CsSHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs u0 {1,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
+2   Css u0 {1,S}
 3   S  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -49212,8 +49212,8 @@ entry(
     label = "Cs-CsS2HH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -49236,8 +49236,8 @@ entry(
     label = "Cs-CsS4HH",
     group =
 """
-1 * Cs                u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                u0 {1,S}
+1 * Css                u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                u0 {1,S}
 3   [S4s,S4d,S4b,S4t] u0 {1,S}
 4   H                 u0 {1,S}
 5   H                 u0 {1,S}
@@ -49260,8 +49260,8 @@ entry(
     label = "Cs-CsS6HH",
     group =
 """
-1 * Cs                      u0 {2,S} {3,S} {4,S} {5,S}
-2   Cs                      u0 {1,S}
+1 * Css                      u0 {2,S} {3,S} {4,S} {5,S}
+2   Css                      u0 {1,S}
 3   [S6s,S6d,S6dd,S6t,S6td] u0 {1,S}
 4   H                       u0 {1,S}
 5   H                       u0 {1,S}
@@ -49284,8 +49284,8 @@ entry(
     label = "Cs-CdsSsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -49308,8 +49308,8 @@ entry(
     label = "Cs-(Cds-Cd)SsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -49328,12 +49328,12 @@ entry(
     label = "Cs-(Cds-Cds)SsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = None,
     shortDesc = """""",
@@ -49348,14 +49348,14 @@ entry(
     label = "Cs-(CdH)(Cs)CdS2sHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D} {7,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D} {7,S}
 3   S2s u0 {1,S} {8,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 7   H   u0 {2,S}
-8   Cs  u0 {3,S}
+8   Css  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -49377,8 +49377,8 @@ entry(
     label = "Cs-(Cds-Cdd)SsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -49397,8 +49397,8 @@ entry(
     label = "Cs-(Cds-Cdd-S2d)SsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -49418,8 +49418,8 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)SsHH",
     group =
 """
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D}
+1 * Css  u0 {2,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   S2s u0 {1,S}
 5   H   u0 {1,S}
@@ -49439,7 +49439,7 @@ entry(
     label = "Cs-CtSsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -49463,7 +49463,7 @@ entry(
     label = "Cs-CbSsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb  u0 {1,S}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -49487,7 +49487,7 @@ entry(
     label = "Cs-C=SSsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {6,D}
 3   S2s u0 {1,S}
 4   H   u0 {1,S}
@@ -49512,7 +49512,7 @@ entry(
     label = "Cs-CIHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   I1s u0 {1,S}
 4   H   u0 {1,S}
@@ -49537,7 +49537,7 @@ entry(
     label = "Cs-CIIH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   I1s u0 {1,S}
 4   I1s u0 {1,S}
@@ -49562,7 +49562,7 @@ entry(
     label = "Cs-CCIH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   C   u0 {1,S}
 4   I1s u0 {1,S}
@@ -49587,7 +49587,7 @@ entry(
     label = "Cs-CCCI",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
 3   C   u0 {1,S}
 4   C   u0 {1,S}
@@ -49612,7 +49612,7 @@ entry(
     label = "Cs-HHNN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   N  u0 {1,S}
 4   H  u0 {1,S}
@@ -49639,7 +49639,7 @@ entry(
     label = "Cs-HNNN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,S}
@@ -49666,7 +49666,7 @@ entry(
     label = "Cs-NNNN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,S}
@@ -49692,7 +49692,7 @@ entry(
     label = "Cs-N3sdN3sdN3sdN3sd",
     group =
 """
-1 * Cs        u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css        u0 {2,S} {3,S} {4,S} {5,S}
 2   [N3s,N3d] u0 {1,S}
 3   [N3s,N3d] u0 {1,S}
 4   [N3s,N3d] u0 {1,S}
@@ -49718,7 +49718,7 @@ entry(
     label = "Cs-HHNO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   [O2s,O0sc] u0 {1,S}
 3   N          u0 {1,S}
 4   H          u0 {1,S}
@@ -49744,7 +49744,7 @@ entry(
     label = "Cs-HHO(NO)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N   u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
@@ -49771,7 +49771,7 @@ entry(
     label = "Cs-HNNO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   [O2s,O0sc] u0 {1,S}
 3   N          u0 {1,S}
 4   N          u0 {1,S}
@@ -49797,7 +49797,7 @@ entry(
     label = "Cs-NNNO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   [O2s,O0sc] u0 {1,S}
 3   N          u0 {1,S}
 4   N          u0 {1,S}
@@ -49823,7 +49823,7 @@ entry(
     label = "Cs-HNOO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   [O2s,O0sc] u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N          u0 {1,S}
@@ -49849,7 +49849,7 @@ entry(
     label = "Cs-HOO(NO)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N   u0 {1,S} {6,D}
 3   O2s u0 {1,S}
 4   O2s u0 {1,S}
@@ -49876,7 +49876,7 @@ entry(
     label = "Cs-NNOO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   [O2s,O0sc] u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N          u0 {1,S}
@@ -49902,7 +49902,7 @@ entry(
     label = "Cs-CHHN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   N  u0 {1,S}
 4   H  u0 {1,S}
@@ -49929,9 +49929,9 @@ entry(
     label = "Cs-N5dcCsHH",
     group =
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
-3   Cs   u0 {1,S}
+3   Css   u0 {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 """,
@@ -49953,9 +49953,9 @@ entry(
     label = "Cs-(N5dcOdO0sc)CsHH",
     group =
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S} {6,D} {7,S}
-3   Cs   u0 {1,S}
+3   Css   u0 {1,S}
 4   H    u0 {1,S}
 5   H    u0 {1,S}
 6   O2d  u0 {2,D}
@@ -49983,9 +49983,9 @@ entry(
     label = "Cs-N3dCsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -50011,12 +50011,12 @@ entry(
     label = "Cs-(N3dCd)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50038,9 +50038,9 @@ entry(
     label = "Cs-(N3dN3d)CsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   N3d u0 {2,D}
@@ -50065,7 +50065,7 @@ entry(
     label = "Cs-N3dCOHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   N3d u0 {1,S}
 4   H   u0 {1,S}
@@ -50092,9 +50092,9 @@ entry(
     label = "Cs-N3dCdHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -50118,7 +50118,7 @@ entry(
     label = "Cs-N3dCtHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
 3   Ct  u0 {1,S}
 4   H   u0 {1,S}
@@ -50144,9 +50144,9 @@ entry(
     label = "Cs-NCsHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
-3   Cs u0 {1,S}
+3   Css u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -50170,9 +50170,9 @@ entry(
     label = "Cs-N3sCsHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 """,
@@ -50199,7 +50199,7 @@ entry(
     label = "Cs-CHNN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,S}
@@ -50225,10 +50225,10 @@ entry(
     label = "Cs-NNCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   N  u0 {1,S}
-4   Cs u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -50252,7 +50252,7 @@ entry(
     label = "Cs-CNNN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   N  u0 {1,S}
 4   N  u0 {1,S}
@@ -50279,7 +50279,7 @@ entry(
     label = "Cs-CN3dsN3dsN3ds",
     group =
 """
-1 * Cs        u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css        u0 {2,S} {3,S} {4,S} {5,S}
 2   C         u0 {1,S}
 3   [N3s,N3d] u0 {1,S}
 4   [N3s,N3d] u0 {1,S}
@@ -50305,7 +50305,7 @@ entry(
     label = "Cs-CHNO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   C          u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N          u0 {1,S}
@@ -50331,7 +50331,7 @@ entry(
     label = "Cs-CNNO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   C          u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   N          u0 {1,S}
@@ -50357,7 +50357,7 @@ entry(
     label = "Cs-CNOO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   C          u0 {1,S}
 3   [O2s,O0sc] u0 {1,S}
 4   [O2s,O0sc] u0 {1,S}
@@ -50383,7 +50383,7 @@ entry(
     label = "Cs-CCHN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   N  u0 {1,S}
@@ -50402,10 +50402,10 @@ entry(
     label = "Cs-N3dCsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -50428,10 +50428,10 @@ entry(
     label = "Cs-(N3dN3d)CsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   N3d u0 {2,D}
 """,
@@ -50455,10 +50455,10 @@ entry(
     label = "Cs-NCsCsH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -50481,10 +50481,10 @@ entry(
     label = "Cs-N5dcCsCsH",
     group =
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
-3   Cs   u0 {1,S}
-4   Cs   u0 {1,S}
+3   Css   u0 {1,S}
+4   Css   u0 {1,S}
 5   H    u0 {1,S}
 """,
     thermo = ThermoData(
@@ -50507,10 +50507,10 @@ entry(
     label = "Cs-N3sCsCsH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -50535,10 +50535,10 @@ entry(
     label = "Cs-NCsCdtH",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
-3   Cs         u0 {1,S}
-4   [Cd,Ct,CO] u0 {1,S}
+3   Css         u0 {1,S}
+4   [Cdb,Ct,CO] u0 {1,S}
 5   H          u0 {1,S}
 """,
     thermo = ThermoData(
@@ -50561,10 +50561,10 @@ entry(
     label = "Cs-CsN3sH(Cds-O2d)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
 3   N3s u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   O2d u0 {2,D}
 """,
@@ -50590,10 +50590,10 @@ entry(
     label = "Cs-CsN3sH(Cds-N3d)",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   Cd  u0 {1,S} {6,D}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
+2   Cdb  u0 {1,S} {6,D}
 3   N3s u0 {1,S}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   N3d u0 {2,D}
 """,
@@ -50617,7 +50617,7 @@ entry(
     label = "Cs-CCNN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   N  u0 {1,S}
@@ -50636,11 +50636,11 @@ entry(
     label = "Cs-NNCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   N  u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50662,11 +50662,11 @@ entry(
     label = "Cs-N5dcN5dcCsCs",
     group =
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
 3   N5dc u0 {1,S}
-4   Cs   u0 {1,S}
-5   Cs   u0 {1,S}
+4   Css   u0 {1,S}
+5   Css   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50688,7 +50688,7 @@ entry(
     label = "Cs-CCNO",
     group =
 """
-1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css         u0 {2,S} {3,S} {4,S} {5,S}
 2   C          u0 {1,S}
 3   C          u0 {1,S}
 4   [O2s,O0sc] u0 {1,S}
@@ -50714,7 +50714,7 @@ entry(
     label = "Cs-CCCN",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
@@ -50740,11 +50740,11 @@ entry(
     label = "Cs-N5dcCsCsCs",
     group =
 """
-1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css   u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
-3   Cs   u0 {1,S}
-4   Cs   u0 {1,S}
-5   Cs   u0 {1,S}
+3   Css   u0 {1,S}
+4   Css   u0 {1,S}
+5   Css   u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50766,11 +50766,11 @@ entry(
     label = "Cs-N3dCsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50792,11 +50792,11 @@ entry(
     label = "Cs-(N3dN3d)CsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   N3d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -50817,11 +50817,11 @@ entry(
     label = "Cs-NCsCsCs",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
-5   Cs u0 {1,S}
+3   Css u0 {1,S}
+4   Css u0 {1,S}
+5   Css u0 {1,S}
 """,
     thermo = 'Cs-N3sCsCsCs',
     shortDesc = """""",
@@ -50836,11 +50836,11 @@ entry(
     label = "Cs-N3sCsCsCs",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50864,7 +50864,7 @@ entry(
     label = "Cs-NCCtCt",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   C  u0 {1,S}
 4   Ct u0 {1,S}
@@ -50883,7 +50883,7 @@ entry(
     label = "Cs-NHHH",
     group =
 """
-1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
@@ -50902,7 +50902,7 @@ entry(
     label = "Cs-N3dHHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -50929,12 +50929,12 @@ entry(
     label = "Cs-(N3dCd)HHH",
     group =
 """
-1 * Cs       u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css       u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d      u0 {1,S} {6,D}
 3   H        u0 {1,S}
 4   H        u0 {1,S}
 5   H        u0 {1,S}
-6   [Cd,Cdd] u0 {2,D}
+6   [Cdb,Cdd] u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -50956,7 +50956,7 @@ entry(
     label = "Cs-(N3dN3d)HHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -50983,7 +50983,7 @@ entry(
     label = "Cs-N3sHHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -51013,7 +51013,7 @@ entry(
     label = "Cs-N5sdtcHHH",
     group =
 """
-1 * Cs               u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css               u0 {2,S} {3,S} {4,S} {5,S}
 2   [N5sc,N5dc,N5tc] u0 {1,S}
 3   H                u0 {1,S}
 4   H                u0 {1,S}
@@ -51040,7 +51040,7 @@ entry(
     label = "Cs-N1sHHH",
     group =
 """
-1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1 * Css  u0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -51812,7 +51812,7 @@ entry(
     group =
 """
 1 * O2s     u0 {2,S} {3,S}
-2   [Cd,CO] u0 {1,S}
+2   [Cdb,CO] u0 {1,S}
 3   H       u0 {1,S}
 """,
     thermo = 'O2s-(Cds-Cd)H',
@@ -51854,7 +51854,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   H   u0 {1,S}
 4   C   u0 {2,D}
 """,
@@ -51879,7 +51879,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   H   u0 {1,S}
 4   N   u0 {2,D}
 """,
@@ -51904,7 +51904,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -52013,7 +52013,7 @@ entry(
 """
 1 * O2s     u0 {2,S} {3,S}
 2   O2s     u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'O2s-O2s(Cds-Cd)',
     shortDesc = """""",
@@ -52055,7 +52055,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   O2s u0 {1,S}
 4   C   u0 {2,D}
 """,
@@ -52079,7 +52079,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   O2s u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -52152,7 +52152,7 @@ entry(
 """
 1 * O2s     u0 {2,S} {3,S}
 2   Ct      u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'O2s-(Cds-Cd)(Cds-Cd)',
     shortDesc = """""",
@@ -52186,7 +52186,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   Ct  u0 {1,S}
 4   C   u0 {2,D}
 """,
@@ -52205,7 +52205,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   Ct  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = 'O2s-Cs(Cds-Cd)',
     shortDesc = """""",
@@ -52238,8 +52238,8 @@ entry(
     group =
 """
 1 * O2s     u0 {2,S} {3,S}
-2   [Cd,CO] u0 {1,S}
-3   [Cd,CO] u0 {1,S}
+2   [Cdb,CO] u0 {1,S}
+3   [Cdb,CO] u0 {1,S}
 """,
     thermo = 'O2s-(Cds-Cd)(Cds-Cd)',
     shortDesc = """""",
@@ -52282,7 +52282,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {4,D}
+3   Cdb  u0 {1,S} {4,D}
 4   C   u0 {3,D}
 5   O2d u0 {2,D}
 """,
@@ -52307,8 +52307,8 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -52329,8 +52329,8 @@ entry(
     group =
 """
 1 * O2s     u0 {2,S} {3,S}
-2   [Cd,CO] u0 {1,S}
-3   Cs      u0 {1,S}
+2   [Cdb,CO] u0 {1,S}
+3   Css      u0 {1,S}
 """,
     thermo = 'O2s-Cs(Cds-Cd)',
     shortDesc = """""",
@@ -52347,7 +52347,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO  u0 {1,S} {4,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -52371,8 +52371,8 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cs  u0 {1,S}
+2   Cdb  u0 {1,S} {4,D}
+3   Css  u0 {1,S}
 4   C   u0 {2,D}
 """,
     thermo = ThermoData(
@@ -52396,7 +52396,7 @@ entry(
     group =
 """
 1 * O2s     u0 {2,S} {3,S}
-2   [Cd,CO] u0 {1,S}
+2   [Cdb,CO] u0 {1,S}
 3   Cb      u0 {1,S}
 """,
     thermo = None,
@@ -52431,7 +52431,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S} {4,D}
+2   Cdb  u0 {1,S} {4,D}
 3   Cb  u0 {1,S}
 4   C   u0 {2,D}
 """,
@@ -52449,8 +52449,8 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -52473,7 +52473,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   Cb  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -52517,7 +52517,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   CS  u0 {1,S} {4,D}
 4   S2d u0 {3,D}
 """,
@@ -52558,7 +52558,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   S2s ux {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -53032,7 +53032,7 @@ entry(
 """
 1 * O2s u0 {2,S} {3,S}
 2   N3s u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -53055,7 +53055,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   N3d u0 {1,S}
 """,
     thermo = ThermoData(
@@ -53080,7 +53080,7 @@ entry(
     group =
 """
 1 * O2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
 3   N3d u0 {1,S}
 """,
     thermo = ThermoData(
@@ -53104,7 +53104,7 @@ entry(
     group =
 """
 1 * O2s  u0 {2,S} {3,S}
-2   Cs   u0 {1,S}
+2   Css   u0 {1,S}
 3   N5dc u0 {1,S}
 """,
     thermo = ThermoData(
@@ -53484,7 +53484,7 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -53506,7 +53506,7 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
 3   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -53860,7 +53860,7 @@ entry(
 """
 1 * S2s u0 {2,S} {3,S}
 2   S2s u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -53882,7 +53882,7 @@ entry(
 """
 1 * S2s        u0 {2,S} {3,S}
 2   S2s        u0 {1,S}
-3   [Cd,CO,CS] u0 {1,S}
+3   [Cdb,CO,CS] u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -53986,8 +53986,8 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -54008,8 +54008,8 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
-3   Cd  u0 {1,S}
+2   Css  u0 {1,S}
+3   Cdb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -54031,7 +54031,7 @@ entry(
 """
 1 * S2s u0 {2,S} {3,S}
 2   CO  u0 {1,S} {4,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -54053,7 +54053,7 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   Ct  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -54075,7 +54075,7 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   Cb  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -54097,8 +54097,8 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
-3   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
+3   Cdb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -54119,7 +54119,7 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
 3   Ct  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -54141,7 +54141,7 @@ entry(
     group =
 """
 1 * S2s u0 {2,S} {3,S}
-2   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
 3   Cb  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -54230,7 +54230,7 @@ entry(
 """
 1 * S2s u0 {2,S} {3,S}
 2   CS  u0 {1,S} {4,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   S2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -54277,7 +54277,7 @@ entry(
 """
 1 * S2s           u0 {2,S} {3,S}
 2   CS            u0 {1,S} {4,D}
-3   [Cd,Cb,Ct,CO] u0 {1,S}
+3   [Cdb,Cb,Ct,CO] u0 {1,S}
 4   S2d           u0 {2,D}
 """,
     thermo = ThermoData(
@@ -54361,7 +54361,7 @@ entry(
 """
 1 * S2s u0 p2 {2,S} {3,S}
 2   O   ux {1,S}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -54683,8 +54683,8 @@ entry(
 """
 1 * S4d u0 p1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cs  ux {1,S}
-4   Cs  ux {1,S}
+3   Css  ux {1,S}
+4   Css  ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -54706,8 +54706,8 @@ entry(
 """
 1 * S4d u0 p1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
-3   Cd  ux {1,S}
-4   Cd  ux {1,S}
+3   Cdb  ux {1,S}
+4   Cdb  ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -54748,7 +54748,7 @@ entry(
 """
 1 * S4d u0 p1 {2,D} {3,S} {4,S}
 2   O2d ux {1,D}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   H   ux {1,S}
 """,
     thermo = ThermoData(
@@ -54771,7 +54771,7 @@ entry(
 """
 1 * S4d u0 p1 {2,D} {3,S} {4,S}
 2   O2d ux {1,D}
-3   Cd  ux {1,S}
+3   Cdb  ux {1,S}
 4   H   ux {1,S}
 """,
     thermo = ThermoData(
@@ -54835,7 +54835,7 @@ entry(
 """
 1 * S4d u0 p1 {2,D} {3,S} {4,S}
 2   O2d ux {1,D}
-3   Cs  ux {1,S}
+3   Css  ux {1,S}
 4   O   ux {1,S}
 """,
     thermo = ThermoData(
@@ -54858,7 +54858,7 @@ entry(
 """
 1 * S4d u0 p1 {2,D} {3,S} {4,S}
 2   O2d ux {1,D}
-3   Cd  ux {1,S}
+3   Cdb  ux {1,S}
 4   O   ux {1,S}
 """,
     thermo = ThermoData(
@@ -55689,8 +55689,8 @@ entry(
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
 3   O2d  ux {1,D}
-4   Cs   ux {1,S}
-5   Cs   ux {1,S}
+4   Css   ux {1,S}
+5   Css   ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -55713,8 +55713,8 @@ entry(
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
 3   O2d  ux {1,D}
-4   Cd   ux {1,S}
-5   Cd   ux {1,S}
+4   Cdb   ux {1,S}
+5   Cdb   ux {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -55757,7 +55757,7 @@ entry(
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
 3   O2d  ux {1,D}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   H    ux {1,S}
 """,
     thermo = ThermoData(
@@ -55781,7 +55781,7 @@ entry(
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
 3   O2d  ux {1,D}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   H    ux {1,S}
 """,
     thermo = ThermoData(
@@ -55849,7 +55849,7 @@ entry(
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
 3   O2d  ux {1,D}
-4   Cs   ux {1,S}
+4   Css   ux {1,S}
 5   O    ux {1,S}
 """,
     thermo = ThermoData(
@@ -55873,7 +55873,7 @@ entry(
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
 3   O2d  ux {1,D}
-4   Cd   ux {1,S}
+4   Cdb   ux {1,S}
 5   O    ux {1,S}
 """,
     thermo = ThermoData(
@@ -57075,7 +57075,7 @@ entry(
     group =
 """
 1 * N1s u0 p2 {2,S}
-2   Cs  u0 p0 {1,S}
+2   Css  u0 p0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -57099,7 +57099,7 @@ entry(
     group =
 """
 1 * N1s u0 p2 {2,S}
-2   Cd  u0 p0 {1,S}
+2   Cdb  u0 p0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -57681,7 +57681,7 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   H   u0 {1,S}
 4   O2s u0 {1,S}
 """,
@@ -57807,8 +57807,8 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -57858,7 +57858,7 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -57937,7 +57937,7 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cd  u0 {1,S}
+2   Cdb  u0 {1,S}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
 """,
@@ -57988,8 +57988,8 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -58016,7 +58016,7 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -58062,7 +58062,7 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   O2d u0 {2,D}
 """,
@@ -58139,10 +58139,10 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
+2   Cdb  u0 {1,S} {3,D} {4,S}
+3   Cdb  u0 {2,D}
 4   R   u0 {2,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   H   u0 {1,S}
 """,
     thermo = ThermoData(
@@ -58191,9 +58191,9 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58219,8 +58219,8 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58242,8 +58242,8 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -58270,7 +58270,7 @@ entry(
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
 3   CO  u0 {1,S} {6,D}
-4   Cs  u0 {1,S}
+4   Css  u0 {1,S}
 5   O2d u0 {2,D}
 6   O2d u0 {3,D}
 """,
@@ -58313,11 +58313,11 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
+2   Cdb  u0 {1,S} {3,D} {4,S}
+3   Cdb  u0 {2,D}
 4   R   u0 {2,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
+5   Css  u0 {1,S}
+6   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58389,7 +58389,7 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3   H   u0 {1,S}
 4   N3s u0 {1,S}
 """,
@@ -58440,8 +58440,8 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
-3   Cd  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Cdb  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58464,10 +58464,10 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
-3   Cd  u0 {2,D}
+2   Cdb  u0 {1,S} {3,D} {4,S}
+3   Cdb  u0 {2,D}
 4   R   u0 {2,S}
-5   Cs  u0 {1,S}
+5   Css  u0 {1,S}
 6   N3s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -58492,8 +58492,8 @@ entry(
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58517,8 +58517,8 @@ entry(
     group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
-2   Cs  u0 {1,S}
-3   Cs  u0 {1,S}
+2   Css  u0 {1,S}
+3   Css  u0 {1,S}
 4   N3s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -58652,7 +58652,7 @@ entry(
 """
 1 * N3d u0 {2,D} {3,S}
 2   O2d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -58676,7 +58676,7 @@ entry(
 """
 1 * N3d u0 {2,D} {3,S}
 2   O2d u0 {1,D}
-3   Cd  u0 {1,S}
+3   Cdb  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -59037,7 +59037,7 @@ entry(
     group =
 """
 1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
+2   [Cdb,Cdd] u0 {1,D}
 3   O        u0 {1,S}
 """,
     thermo = 'N3d-OCd',
@@ -59054,7 +59054,7 @@ entry(
     group =
 """
 1 * N3d u0 {2,D} {3,S}
-2   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
 3   O2s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -59129,7 +59129,7 @@ entry(
 """
 1 * N3d u0 {2,D} {3,S}
 2   N3d u0 {1,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -59152,11 +59152,11 @@ entry(
     label = "N3d-N3dCs(CsCsCs)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
+5   Css  u0 {1,S}
 6   N3d u0 {2,D}
 """,
     thermo = ThermoData(
@@ -59177,10 +59177,10 @@ entry(
     label = "N3d-N3dCs(CsCsH)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
-4   Cs  u0 {1,S}
+3   Css  u0 {1,S}
+4   Css  u0 {1,S}
 5   H   u0 {1,S}
 6   N3d u0 {2,D}
 """,
@@ -59202,9 +59202,9 @@ entry(
     label = "N3d-N3dCs(CsHH)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   N3d u0 {2,D}
@@ -59227,7 +59227,7 @@ entry(
     label = "N3d-N3dCs(HHH)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * N3d u0 {1,S} {6,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
@@ -59253,7 +59253,7 @@ entry(
     group =
 """
 1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
+2   [Cdb,Cdd] u0 {1,D}
 3   N        u0 {1,S}
 """,
     thermo = ThermoData(
@@ -59278,7 +59278,7 @@ entry(
     group =
 """
 1 * N3d u0 {2,D} {3,S}
-2   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
 3   N3s u0 {1,S}
 """,
     thermo = ThermoData(
@@ -59326,7 +59326,7 @@ entry(
     group =
 """
 1 * N3d u0 {2,D} {3,S}
-2   Cd  u0 {1,D}
+2   Cdb  u0 {1,D}
 3   N3d u0 {1,S}
 """,
     thermo = ThermoData(
@@ -59398,8 +59398,8 @@ entry(
     group =
 """
 1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
-3   Cs       u0 {1,S}
+2   [Cdb,Cdd] u0 {1,D}
+3   Css       u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -59422,12 +59422,12 @@ entry(
     label = "N3d-Cd(CsHHH)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * N3d u0 {1,S} {6,D}
 3   H   u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -59447,8 +59447,8 @@ entry(
     label = "N3d-(HH)(HHH)CdCs",
     group =
 """
-1   Cs  u0 {3,S} {4,S} {5,S} {6,S}
-2   Cd  u0 {3,D} {7,S} {8,S}
+1   Css  u0 {3,S} {4,S} {5,S} {6,S}
+2   Cdb  u0 {3,D} {7,S} {8,S}
 3 * N3d u0 p1 c0 {1,S} {2,D}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
@@ -59476,12 +59476,12 @@ entry(
     label = "N3d-Cd(CsCsHH)",
     group =
 """
-1   Cs  u0 {2,S} {3,S} {4,S} {5,S}
+1   Css  u0 {2,S} {3,S} {4,S} {5,S}
 2 * N3d u0 {1,S} {6,D}
-3   Cs  u0 {1,S}
+3   Css  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
-6   Cd  u0 {2,D}
+6   Cdb  u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -59502,7 +59502,7 @@ entry(
     group =
 """
 1 * N3d      u0 {2,D} {3,S}
-2   [Cd,Cdd] u0 {1,D}
+2   [Cdb,Cdd] u0 {1,D}
 3   H        u0 {1,S}
 """,
     thermo = ThermoData(
@@ -59668,7 +59668,7 @@ entry(
     group =
 """
 1   Ct  u0 {2,S} {3,T}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 3 * N3t u0 p1 c0 {1,T}
 """,
     thermo = ThermoData(
@@ -59882,7 +59882,7 @@ entry(
 """
 1 * N5dc     u0 {2,S} {3,D}
 2   O0sc     u0 {1,S}
-3   [Cd,Cdd] u0 {1,D}
+3   [Cdb,Cdd] u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -59907,7 +59907,7 @@ entry(
 1 * N5dc     u0 {2,S} {3,S} {4,D}
 2   H        u0 {1,S}
 3   H        u0 {1,S}
-4   [Cd,Cdd] u0 {1,D}
+4   [Cdb,Cdd] u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -60032,7 +60032,7 @@ entry(
 1 * N5dc     u0 {2,S} {3,S} {4,D}
 2   C        u0 {1,S}
 3   H        u0 {1,S}
-4   [Cd,Cdd] u0 {1,D}
+4   [Cdb,Cdd] u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

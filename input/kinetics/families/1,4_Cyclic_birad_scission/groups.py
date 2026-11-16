@@ -51,7 +51,7 @@ entry(
 3 *3 R!H u0 {2,S} {4,[S,D]}
 4 *4 R!H u1 c0 {3,[S,D]} {5,S}
 5    R!H u0 {1,S} {4,S} {6,S}
-6    Cd  u0 {5,S}
+6    Cdb  u0 {5,S}
 """,
     kinetics = None,
 )

@@ -27,8 +27,8 @@ entry(
     group = 
 """
 1 *1 C  u0 {2,D}
-2 *2 Cd u0 {1,D} {3,S}
-3 *4 Cd u0 {2,S} {4,D}
+2 *2 Cdb u0 {1,D} {3,S}
+3 *4 Cdb u0 {2,S} {4,D}
 4 *3 C  u0 {3,D}
 """,
     kinetics = None,
@@ -59,7 +59,7 @@ entry(
     label = "CdH2_1",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
 """,
@@ -71,7 +71,7 @@ entry(
     label = "CdH(C)_1",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -83,7 +83,7 @@ entry(
     label = "Cd(C)C_1",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2    C  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -106,7 +106,7 @@ entry(
     label = "CdH2_2",
     group = 
 """
-1 *3 Cd u0 {2,S} {3,S}
+1 *3 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    H  u0 {1,S}
 """,
@@ -118,7 +118,7 @@ entry(
     label = "CdH(C)_2",
     group = 
 """
-1 *3 Cd u0 {2,S} {3,S}
+1 *3 Cdb u0 {2,S} {3,S}
 2    H  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -130,7 +130,7 @@ entry(
     label = "Cd(C)C_2",
     group = 
 """
-1 *3 Cd u0 {2,S} {3,S}
+1 *3 Cdb u0 {2,S} {3,S}
 2    C  u0 {1,S}
 3    C  u0 {1,S}
 """,
@@ -169,8 +169,8 @@ forbidden(
     group = 
 """
 1 *1 C   u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {5,S}
-3 *4 Cd  u0 {2,S} {4,D}
+2 *2 Cdb  u0 {1,D} {3,S} {5,S}
+3 *4 Cdb  u0 {2,S} {4,D}
 4 *3 C   u0 {3,D}
 5    R!H u1 {2,S}
 """,
@@ -186,8 +186,8 @@ forbidden(
     group = 
 """
 1 *1 C   u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S}
-3 *4 Cd  u0 {2,S} {4,D} {5,S}
+2 *2 Cdb  u0 {1,D} {3,S}
+3 *4 Cdb  u0 {2,S} {4,D} {5,S}
 4 *3 C   u0 {3,D}
 5    R!H u1 {3,S}
 """,
@@ -203,8 +203,8 @@ forbidden(
     group = 
 """
 1 *1 C   u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S} {5,S}
-3 *4 Cd  u0 {2,S} {4,D}
+2 *2 Cdb  u0 {1,D} {3,S} {5,S}
+3 *4 Cdb  u0 {2,S} {4,D}
 4 *3 C   u0 {3,D}
 5    R!H ux {2,S} {6,D}
 6    R!H ux {5,D} {7,S}
@@ -222,8 +222,8 @@ forbidden(
     group = 
 """
 1 *1 C   u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S}
-3 *4 Cd  u0 {2,S} {4,D} {5,S}
+2 *2 Cdb  u0 {1,D} {3,S}
+3 *4 Cdb  u0 {2,S} {4,D} {5,S}
 4 *3 C   u0 {3,D}
 5    R!H ux {3,S} {6,D}
 6    R!H ux {5,D} {7,S}
@@ -241,8 +241,8 @@ forbidden(
     group = 
 """
 1 *1 C   u0 {2,D} {5,[S,D]}
-2 *2 Cd  u0 {1,D} {3,S}
-3 *4 Cd  u0 {2,S} {4,D}
+2 *2 Cdb  u0 {1,D} {3,S}
+3 *4 Cdb  u0 {2,S} {4,D}
 4 *3 C   u0 {3,D}
 5    R!H u1 {1,[S,D]}
 """,
@@ -258,8 +258,8 @@ forbidden(
     group = 
 """
 1 *1 C   u0 {2,D}
-2 *2 Cd  u0 {1,D} {3,S}
-3 *4 Cd  u0 {2,S} {4,D}
+2 *2 Cdb  u0 {1,D} {3,S}
+3 *4 Cdb  u0 {2,S} {4,D}
 4 *3 C   u0 {3,D} {5,[S,D]}
 5    R!H u1 {4,[S,D]}
 """,

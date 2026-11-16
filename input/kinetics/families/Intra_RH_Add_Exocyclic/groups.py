@@ -85,7 +85,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *2 C         u0 {3,S} {5,[D,T]}
 5 *3 [C,O,S2d] u0 c0 {4,[D,T]}
 """,
@@ -164,7 +164,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *6 R!H       u0 {3,S} {5,S}
 5 *2 C         u0 {4,S} {6,[D,T]}
 6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
@@ -279,8 +279,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
 3 *5 R!H        u0 {1,S} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[S,D,T,B]}
-5 *7 [Cd,Ct,Cb] u0 {4,[S,D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[S,D,T,B]}
+5 *7 [Cdb,Ct,Cb] u0 {4,[S,D,T,B]} {6,S}
 6 *2 C          u0 {5,S} {7,[D,T]}
 7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
 """,
@@ -310,7 +310,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}
 5 *7 R!H       u0 {4,[S,D,T,B]} {6,S}
 6 *2 C         u0 {5,S} {7,[D,T]}
@@ -326,7 +326,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *6 R!H       u0 {3,S} {5,S}
 5 *7 R!H       u0 {4,S} {6,S}
 6 *2 C         u0 {5,S} {7,[D,T]}
@@ -342,9 +342,9 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,D}
 2 *4 H          u0 {1,S}
-3 *5 Cd         u0 {1,D} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+3 *5 Cdb         u0 {1,D} {4,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *7 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *2 C          u0 {5,S} {7,[D,T]}
 7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
 """,
@@ -391,8 +391,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,T}
 2 *4 H          u0 {1,S}
 3 *5 Ct         u0 {1,T} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *7 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *2 C          u0 {5,S} {7,[D,T]}
 7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
 """,
@@ -439,8 +439,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,B}
 2 *4 H          u0 {1,S}
 3 *5 Cb         u0 {1,B} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *7 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *2 C          u0 {5,S} {7,[D,T]}
 7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
 """,
@@ -454,8 +454,8 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
-3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
+3 *5 [Cdb,Ct,Cb] u0 {1,S} {4,[D,T,B]}
+4 *6 [Cdb,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *7 R!H        u0 {4,S} {6,S}
 6 *2 C          u0 {5,S} {7,[D,T]}
 7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
@@ -562,8 +562,8 @@ entry(
 2 *4 H          u0 {1,S}
 3 *5 R!H        u0 {1,S} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
-5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
+5 *8 [Cdb,Ct,Cb] u0 {4,S} {6,[D,T,B]}
+6 *7 [Cdb,Ct,Cb] u0 {5,[D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
 """,
@@ -577,7 +577,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *6 R!H       u0 {3,S} {5,S}
 5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
 6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
@@ -594,7 +594,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *6 R!H       u0 {3,S} {5,S}
 5 *8 R!H       u0 {4,S} {6,S}
 6 *7 R!H       u0 {5,S} {7,S}
@@ -611,10 +611,10 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,D}
 2 *4 H          u0 {1,S}
-3 *5 Cd         u0 {1,D} {4,S}
+3 *5 Cdb         u0 {1,D} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
-5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
+5 *8 [Cdb,Ct,Cb] u0 {4,S} {6,[D,T,B]}
+6 *7 [Cdb,Ct,Cb] u0 {5,[D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
 """,
@@ -664,8 +664,8 @@ entry(
 2 *4 H          u0 {1,S}
 3 *5 Ct         u0 {1,T} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
-5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
+5 *8 [Cdb,Ct,Cb] u0 {4,S} {6,[D,T,B]}
+6 *7 [Cdb,Ct,Cb] u0 {5,[D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
 """,
@@ -715,8 +715,8 @@ entry(
 2 *4 H          u0 {1,S}
 3 *5 Cb         u0 {1,B} {4,S}
 4 *6 R!H        u0 {3,S} {5,S}
-5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
+5 *8 [Cdb,Ct,Cb] u0 {4,S} {6,[D,T,B]}
+6 *7 [Cdb,Ct,Cb] u0 {5,[D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
 """,
@@ -731,8 +731,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,[S,D,T,B]}
 2 *4 H          u0 {1,S}
 3 *5 R!H        u0 {1,[S,D,T,B]} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *8 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *7 R!H        u0 {5,S} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
@@ -748,8 +748,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
 3 *5 R!H        u0 {1,S} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *8 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *7 R!H        u0 {5,S} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
@@ -764,9 +764,9 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,D}
 2 *4 H          u0 {1,S}
-3 *5 Cd         u0 {1,D} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+3 *5 Cdb         u0 {1,D} {4,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *8 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *7 R!H        u0 {5,S} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
@@ -782,8 +782,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,T}
 2 *4 H          u0 {1,S}
 3 *5 Ct         u0 {1,T} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *8 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *7 R!H        u0 {5,S} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
@@ -799,8 +799,8 @@ entry(
 1 *1 R!H        u0 {2,S} {3,B}
 2 *4 H          u0 {1,S}
 3 *5 Cb         u0 {1,B} {4,S}
-4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
+4 *6 [Cdb,Ct,Cb] u0 {3,S} {5,[D,T,B]}
+5 *8 [Cdb,Ct,Cb] u0 {4,[D,T,B]} {6,S}
 6 *7 R!H        u0 {5,S} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
@@ -815,8 +815,8 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
-3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
+3 *5 [Cdb,Ct,Cb] u0 {1,S} {4,[D,T,B]}
+4 *6 [Cdb,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *8 R!H        u0 {4,S} {6,[S,D,T,B]}
 6 *7 R!H        u0 {5,[S,D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
@@ -832,8 +832,8 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
-3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
+3 *5 [Cdb,Ct,Cb] u0 {1,S} {4,[D,T,B]}
+4 *6 [Cdb,Ct,Cb] u0 {3,[D,T,B]} {5,S}
 5 *8 R!H        u0 {4,S} {6,S}
 6 *7 R!H        u0 {5,S} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
@@ -849,10 +849,10 @@ entry(
 """
 1 *1 R!H        u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
-3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
+3 *5 [Cdb,Ct,Cb] u0 {1,S} {4,[D,T,B]}
+4 *6 [Cdb,Ct,Cb] u0 {3,[D,T,B]} {5,S}
+5 *8 [Cdb,Ct,Cb] u0 {4,S} {6,[D,T,B]}
+6 *7 [Cdb,Ct,Cb] u0 {5,[D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
 """,
@@ -902,8 +902,8 @@ entry(
 2 *4 H          u0 {1,S}
 3 *5 Cbf        u0 {1,B} {4,B}
 4 *6 Cb         u0 {3,B} {5,S}
-5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
+5 *8 [Cdb,Ct,Cb] u0 {4,S} {6,[D,T,B]}
+6 *7 [Cdb,Ct,Cb] u0 {5,[D,T,B]} {7,S}
 7 *2 C          u0 {6,S} {8,[D,T]}
 8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
 """,
@@ -951,7 +951,7 @@ entry(
 """
 1 *1 R!H       u0 {2,S} {3,D}
 2 *4 H         u0 {1,S}
-3 *5 Cd        u0 {1,D} {4,S}
+3 *5 Cdb        u0 {1,D} {4,S}
 4 *6 Cb        u0 {3,S} {5,B}
 5 *8 Cbf       u0 {4,B} {6,B}
 6 *7 Cb        u0 {5,B} {7,S}
@@ -1017,8 +1017,8 @@ entry(
     label = "doublebond_intra",
     group = 
 """
-1 *2 Cd u0 {2,D}
-2 *3 Cd u0 c0 {1,D}
+1 *2 Cdb u0 {2,D}
+2 *3 Cdb u0 c0 {1,D}
 """,
     kinetics = None,
 )
@@ -1028,8 +1028,8 @@ entry(
     label = "doublebond_intra_2H",
     group = 
 """
-1 *2 Cd u0 {2,D}
-2 *3 Cd u0 c0 {1,D} {3,S} {4,S}
+1 *2 Cdb u0 {2,D}
+2 *3 Cdb u0 c0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    H  u0 {2,S}
 """,
@@ -1041,9 +1041,9 @@ entry(
     label = "doublebond_intra_2H_secDe",
     group = 
 """
-1 *2 Cd               u0 {2,D} {3,S}
-2 *3 Cd               u0 c0 {1,D} {4,S} {5,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+1 *2 Cdb               u0 {2,D} {3,S}
+2 *3 Cdb               u0 c0 {1,D} {4,S} {5,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 4    H                u0 {2,S}
 5    H                u0 {2,S}
 """,
@@ -1055,9 +1055,9 @@ entry(
     label = "doublebond_intra_2H_secNd",
     group = 
 """
-1 *2 Cd         u0 {2,D} {3,S}
-2 *3 Cd         u0 c0 {1,D} {4,S} {5,S}
-3    [Cs,O,S2s] u0 {1,S}
+1 *2 Cdb         u0 {2,D} {3,S}
+2 *3 Cdb         u0 c0 {1,D} {4,S} {5,S}
+3    [Css,O,S2s] u0 {1,S}
 4    H          u0 {2,S}
 5    H          u0 {2,S}
 """,
@@ -1069,8 +1069,8 @@ entry(
     label = "doublebond_intra_2H_pri",
     group = 
 """
-1 *2 Cd u0 {2,D} {3,S}
-2 *3 Cd u0 c0 {1,D} {4,S} {5,S}
+1 *2 Cdb u0 {2,D} {3,S}
+2 *3 Cdb u0 c0 {1,D} {4,S} {5,S}
 3    H  u0 {1,S}
 4    H  u0 {2,S}
 5    H  u0 {2,S}
@@ -1119,7 +1119,7 @@ entry(
 """
 1 *2 CO               u0 {2,D} {3,S}
 2 *3 O2d              u0 p2 c0 {1,D}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1131,7 +1131,7 @@ entry(
 """
 1 *2 CO         u0 {2,D} {3,S}
 2 *3 O2d        u0 p2 c0 {1,D}
-3    [Cs,O,S2s] u0 c0 {1,S}
+3    [Css,O,S2s] u0 c0 {1,S}
 """,
     kinetics = None,
 )
@@ -1164,7 +1164,7 @@ entry(
     label = "radadd_intra_cs",
     group = 
 """
-1 *1 Cs u0 {2,S}
+1 *1 Css u0 {2,S}
 2 *4 H  u0 {1,S}
 """,
     kinetics = None,
@@ -1175,10 +1175,10 @@ entry(
     label = "radadd_intra_csNdNd",
     group = 
 """
-1 *1 Cs         u0 {2,S} {3,S} {4,S}
+1 *1 Css         u0 {2,S} {3,S} {4,S}
 2 *4 H          u0 {1,S}
-3    [Cs,O,S2s] u0 {1,S}
-4    [Cs,O,S2s] u0 {1,S}
+3    [Css,O,S2s] u0 {1,S}
+4    [Css,O,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1188,10 +1188,10 @@ entry(
     label = "radadd_intra_csNdDe",
     group = 
 """
-1 *1 Cs               u0 {2,S} {3,S} {4,S}
+1 *1 Css               u0 {2,S} {3,S} {4,S}
 2 *4 H                u0 {1,S}
-3    [Cs,O,S2s]       u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Css,O,S2s]       u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1201,10 +1201,10 @@ entry(
     label = "radadd_intra_csDeDe",
     group = 
 """
-1 *1 Cs               u0 {2,S} {3,S} {4,S}
+1 *1 Css               u0 {2,S} {3,S} {4,S}
 2 *4 H                u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
+4    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1214,7 +1214,7 @@ entry(
     label = "radadd_intra_cs2H",
     group = 
 """
-1 *1 Cs u0 {2,S} {3,S}
+1 *1 Css u0 {2,S} {3,S}
 2 *4 H  u0 {1,S}
 3    H  u0 {1,S}
 """,
@@ -1226,9 +1226,9 @@ entry(
     label = "radadd_intra_csHHNd",
     group = 
 """
-1 *1 Cs         u0 {2,S} {3,S} {4,S}
+1 *1 Css         u0 {2,S} {3,S} {4,S}
 2 *4 H          u0 {1,S}
-3    [Cs,O,S2s] u0 {1,S}
+3    [Css,O,S2s] u0 {1,S}
 4    H          u0 {1,S}
 """,
     kinetics = None,
@@ -1239,9 +1239,9 @@ entry(
     label = "radadd_intra_csHHDe",
     group = 
 """
-1 *1 Cs               u0 {2,S} {3,S} {4,S}
+1 *1 Css               u0 {2,S} {3,S} {4,S}
 2 *4 H                u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 4    H                u0 {1,S}
 """,
     kinetics = None,
@@ -1274,7 +1274,7 @@ entry(
     label = "radadd_intra_cdsingle",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2 *4 H  u0 {1,S}
 3    R  u0 {1,S}
 """,
@@ -1286,7 +1286,7 @@ entry(
     label = "radadd_intra_cdsingleH",
     group = 
 """
-1 *1 Cd u0 {2,S} {3,S}
+1 *1 Cdb u0 {2,S} {3,S}
 2 *4 H  u0 {1,S}
 3    H  u0 {1,S}
 """,
@@ -1298,9 +1298,9 @@ entry(
     label = "radadd_intra_cdsingleNd",
     group = 
 """
-1 *1 Cd         u0 {2,S} {3,S}
+1 *1 Cdb         u0 {2,S} {3,S}
 2 *4 H          u0 {1,S}
-3    [Cs,O,S2s] u0 {1,S}
+3    [Css,O,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1310,9 +1310,9 @@ entry(
     label = "radadd_intra_cdsingleDe",
     group = 
 """
-1 *1 Cd               u0 {2,S} {3,S}
+1 *1 Cdb               u0 {2,S} {3,S}
 2 *4 H                u0 {1,S}
-3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+3    [Cdb,Ct,Cb,CO,CS] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -1322,7 +1322,7 @@ entry(
     label = "radadd_intra_cddouble",
     group = 
 """
-1 *1 Cd  u0 {2,S} {3,D}
+1 *1 Cdb  u0 {2,S} {3,D}
 2 *4 H   u0 {1,S}
 3    R!H u0 {1,D}
 """,

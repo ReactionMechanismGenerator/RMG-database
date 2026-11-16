@@ -259,7 +259,7 @@ entry(
     group = 
 """
 1 *1 R!H          u1 {2,S}
-2    [Cs,O2s,S2s] u0 {1,S}
+2    [Css,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -270,7 +270,7 @@ entry(
     group = 
 """
 1 *1 R!H                  u1 {2,[S,D]}
-2    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
+2    [Cdb,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
 """,
     kinetics = None,
 )
@@ -283,7 +283,7 @@ entry(
 1 *3 R!H          u1 {2,S} {4,S}
 2 *2 R!H          u0 {1,S} {3,S}
 3 *4 H            u0 {2,S}
-4    [Cs,O2s,S2s] u0 {1,S}
+4    [Css,O2s,S2s] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -296,7 +296,7 @@ entry(
 1 *3 R!H                  u1 {2,S} {4,[S,D]}
 2 *2 R!H                  u0 {1,S} {3,S}
 3 *4 H                    u0 {2,S}
-4    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
+4    [Cdb,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
 """,
     kinetics = None,
 )

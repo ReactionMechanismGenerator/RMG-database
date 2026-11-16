@@ -435,7 +435,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S}
+2   Css  u0 {1,S}
 """,
 	solute = u'F-(Cs-CZZ)',
 	dataCount = None,
@@ -452,7 +452,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -472,7 +472,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -492,7 +492,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -524,7 +524,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
@@ -544,7 +544,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
@@ -576,8 +576,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -596,8 +596,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -628,8 +628,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -651,8 +651,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -686,8 +686,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -721,8 +721,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -756,8 +756,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -791,8 +791,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   O2s u0 {3,S} {7,S}
@@ -813,8 +813,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -833,8 +833,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -856,8 +856,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -891,8 +891,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -926,8 +926,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -961,8 +961,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -996,8 +996,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   H   u0 {2,S}
 6   O2s u0 {3,S} {7,S}
@@ -1018,8 +1018,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1051,8 +1051,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Cl1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1084,8 +1084,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Br1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1117,8 +1117,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   I1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1138,8 +1138,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -1170,8 +1170,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -1193,8 +1193,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   H   u0 {3,S}
@@ -1228,8 +1228,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   H   u0 {3,S}
@@ -1263,8 +1263,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   H   u0 {3,S}
@@ -1298,8 +1298,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -1333,8 +1333,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1354,8 +1354,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1387,8 +1387,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
 6   O2s u0 {3,S} {7,S}
@@ -1421,8 +1421,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
 6   O2s u0 {3,S} {7,S}
@@ -1455,8 +1455,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   Cl1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1488,8 +1488,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   Br1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1521,8 +1521,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   I1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -1542,8 +1542,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   [Cd,CO,CS]   u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   [Cdb,CO,CS]   u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -1562,8 +1562,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   C   u0 {3,D}
@@ -1583,8 +1583,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   F1s u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   C   u0 {3,D}
@@ -1604,8 +1604,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
 6   C   u0 {3,D}
@@ -1637,8 +1637,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   N   u0 {3,D}
@@ -1658,8 +1658,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   N   u0 {3,D}
@@ -1679,8 +1679,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
 6   N   u0 {3,D}
@@ -1712,7 +1712,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -1733,7 +1733,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -1766,7 +1766,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -1801,7 +1801,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   H   u0 {2,S}
@@ -1822,7 +1822,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   F1s u0 {2,S}
 5   H   u0 {2,S}
@@ -1857,7 +1857,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
@@ -1890,7 +1890,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -1925,7 +1925,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -1960,7 +1960,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -1980,7 +1980,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   H   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -2000,7 +2000,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -2032,7 +2032,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   H   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -2052,7 +2052,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   H   u0 {2,S}
 5   F1s u0 {2,S}
@@ -2084,7 +2084,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -2116,7 +2116,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
@@ -2148,7 +2148,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -2168,9 +2168,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'F-(Cs-CsCsH)',
@@ -2188,9 +2188,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   H   u0 {2,S}
 """,
 	solute = SoluteData(
@@ -2220,9 +2220,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'F-(Cs-CsCsF)',
@@ -2240,9 +2240,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   F1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -2272,9 +2272,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
+4   Css  u0 {2,S}
 5   F1s u0 {2,S}
 6   O2s u0 {3,S} {7,S}
 7   H   u0 {6,S}
@@ -2306,9 +2306,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   Cl1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -2338,9 +2338,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   Br1s u0 {2,S}
 """,
 	solute = u'F-(Cs-CsCsCl)',
@@ -2358,9 +2358,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   I1s u0 {2,S}
 """,
 	solute = u'F-(Cs-CsCsCl)',
@@ -2378,9 +2378,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   [Cd,CO,CS]  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   [Cdb,CO,CS]  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'F-(Cs-CsCsZ)',
@@ -2398,9 +2398,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Cdb  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   C   u0 {4,D}
 """,
@@ -2419,9 +2419,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Cdb  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   N   u0 {4,D}
 """,
@@ -2440,8 +2440,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   O2d u0 {4,D}
@@ -2461,7 +2461,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   O2s u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -2481,8 +2481,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -2501,8 +2501,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -2533,8 +2533,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -2565,8 +2565,8 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   F1s u0 {2,S}
 """,
@@ -2597,7 +2597,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   C   u0 {2,S}
@@ -2617,10 +2617,10 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
-5   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
+5   Css  u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.04446,
@@ -2649,7 +2649,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   O2s u0 {2,S}
@@ -2669,9 +2669,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   O2s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -2701,7 +2701,7 @@ entry(
 	group = 
 """
 1 * F1s        u0 {2,S}
-2   [Cd,CO,CS] u0 {1,S}
+2   [Cdb,CO,CS] u0 {1,S}
 """,
 	solute = u'F-(Cd-Cd)',
 	dataCount = None,
@@ -2718,7 +2718,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   C   u0 {2,D}
 """,
 	solute = u'F-(Cd-CdR)',
@@ -2736,7 +2736,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   [C,N,O,S]  u0 {2,S}
 """,
@@ -2755,7 +2755,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   C   u0 {2,S}
 """,
@@ -2774,7 +2774,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 r1 {1,S} {3,D} {4,S}
+2   Cdb  u0 r1 {1,S} {3,D} {4,S}
 3   C   u0 r1 {2,D}
 4   C   u0 r1 {2,S}
 """,
@@ -2793,9 +2793,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 r1 {1,S} {3,D} {4,S}
+2   Cdb  u0 r1 {1,S} {3,D} {4,S}
 3   C   u0 r1 {2,D}
-4   [Cd,CO,CS] u0 r1 {2,S}
+4   [Cdb,CO,CS] u0 r1 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.01170,
@@ -2824,9 +2824,9 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
-4   Cs  u0 {2,S}
+4   Css  u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.01323,
@@ -2855,7 +2855,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   N   u0 {2,S}
 """,
@@ -2874,7 +2874,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 r1 {1,S} {3,D} {4,S}
+2   Cdb  u0 r1 {1,S} {3,D} {4,S}
 3   C   u0 r1 {2,D}
 4   N   u0 r1 {2,S}
 """,
@@ -2905,7 +2905,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   [H,F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -2924,7 +2924,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   H   u0 {2,S}
 """,
@@ -2955,7 +2955,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -2986,7 +2986,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D} {4,S}
+2   Cdb  u0 {1,S} {3,D} {4,S}
 3   C   u0 {2,D}
 4   F1s u0 {2,S}
 """,
@@ -3017,7 +3017,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   N   u0 {2,D}
 """,
 	solute = u'F-(Cd-N3d)',
@@ -3035,7 +3035,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 {1,S} {3,D}
+2   Cdb  u0 {1,S} {3,D}
 3   N3d u0 {2,D}
 """,
 	solute = u'F-(Crd-N3rd)',
@@ -3053,7 +3053,7 @@ entry(
 	group = 
 """
 1 * F1s u0 {2,S}
-2   Cd  u0 r1 {1,S} {3,D}
+2   Cdb  u0 r1 {1,S} {3,D}
 3   N3d u0 r1 {2,D}
 """,
 	solute = SoluteData(
@@ -3694,7 +3694,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs   u0 {1,S}
+2   Css   u0 {1,S}
 """,
 	solute = u'Cl-(Cs-CZZ)',
 	dataCount = None,
@@ -3711,7 +3711,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -3731,7 +3731,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -3763,8 +3763,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -3783,8 +3783,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -3815,8 +3815,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -3838,8 +3838,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -3873,8 +3873,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -3908,8 +3908,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -3943,8 +3943,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -3978,8 +3978,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   O2s u0 {3,S} {7,S}
@@ -4012,8 +4012,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -4032,8 +4032,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -4055,8 +4055,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -4090,8 +4090,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -4125,8 +4125,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -4160,8 +4160,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   H   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -4195,8 +4195,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   H   u0 {2,S}
 6   O2s u0 {3,S} {7,S}
@@ -4229,8 +4229,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4262,8 +4262,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Cl1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4295,8 +4295,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Br1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4328,8 +4328,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   I1s u0 {2,S}
 5   H   u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4349,8 +4349,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -4369,8 +4369,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -4392,8 +4392,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   H   u0 {3,S}
@@ -4427,8 +4427,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   H   u0 {3,S}
@@ -4462,8 +4462,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   H   u0 {3,S}
@@ -4497,8 +4497,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -4532,8 +4532,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4553,8 +4553,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4586,8 +4586,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   Cl1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4619,8 +4619,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   Br1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4652,8 +4652,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   F1s u0 {2,S}
 5   I1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4673,8 +4673,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Cl1s u0 {2,S}
 5   [Cl1s,Br1s,I1s]  u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4694,8 +4694,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Cl1s u0 {2,S}
 5   Cl1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4727,8 +4727,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Cl1s u0 {2,S}
 5   Cl1s u0 {2,S}
 6   O2s  u0 {3,S} {7,S}
@@ -4761,8 +4761,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   Br1s u0 {2,S}
 5   [Br1s,I1s]  u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4782,8 +4782,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S}
 4   I1s u0 {2,S}
 5   I1s u0 {2,S}
 6   [C,N,O,S,P] u0 {3,S}
@@ -4803,8 +4803,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   [Cd,CO,CS]  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   [Cdb,CO,CS]  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -4823,11 +4823,11 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
 	solute = u'Cl-(Cs-(Cd-Cd)HH)',
 	dataCount = None,
@@ -4844,11 +4844,11 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
 	solute = SoluteData(
 		S = 0.22974,
@@ -4877,7 +4877,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -4898,7 +4898,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -4931,7 +4931,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,S} {8,D}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -4966,7 +4966,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   H   u0 {2,S}
@@ -4999,7 +4999,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,S} {8,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   H   u0 {2,S}
@@ -5034,7 +5034,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
@@ -5055,7 +5055,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,S} {8,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
@@ -5090,7 +5090,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   Cl1s u0 {2,S}
 5   Cl1s u0 {2,S}
@@ -5123,7 +5123,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Ct  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -5155,7 +5155,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -5175,7 +5175,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   H   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -5207,7 +5207,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -5227,7 +5227,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   O2s u0 {2,S}
 4   F1s u0 {2,S}
 5   F1s u0 {2,S}
@@ -5259,7 +5259,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -5279,9 +5279,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Cl-(Cs-CsCsH)',
@@ -5299,9 +5299,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 r1 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 r1 {2,S}
-4   Cs  u0 r1 {2,S}
+2   Css  u0 r1 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 r1 {2,S}
+4   Css  u0 r1 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Cl-(Crs-CrsCrsH)',
@@ -5319,9 +5319,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 r1 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 r1 {2,S}
-4   Cs  u0 r1 {2,S}
+2   Css  u0 r1 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 r1 {2,S}
+4   Css  u0 r1 {2,S}
 5   H   u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5351,9 +5351,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 r1 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 r1 {2,S}
-4   Cs  u0 r1 {2,S}
+2   Css  u0 r1 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 r1 {2,S}
+4   Css  u0 r1 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Cl-(Crs-CrsCrsF)',
@@ -5371,9 +5371,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 r1 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 r1 {2,S}
-4   Cs  u0 r1 {2,S}
+2   Css  u0 r1 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 r1 {2,S}
+4   Css  u0 r1 {2,S}
 5   F1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5403,9 +5403,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 r1 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 r1 {2,S}
-4   Cs  u0 r1 {2,S}
+2   Css  u0 r1 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 r1 {2,S}
+4   Css  u0 r1 {2,S}
 5   Cl1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5435,9 +5435,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   H   u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5467,9 +5467,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Cl-(Cs-CsCsF)',
@@ -5487,9 +5487,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   F1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5519,9 +5519,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   Cl1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5551,9 +5551,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   [Cd,CO,CS]  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   [Cdb,CO,CS]  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Cl-(Cs-Cs(Cd-Cd)Z)',
@@ -5571,11 +5571,11 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Cdb  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 """,
 	solute = u'Cl-(Cs-Cs(Cd-Cd)H)',
 	dataCount = None,
@@ -5592,11 +5592,11 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Cdb  u0 {2,S} {6,D}
 5   H   u0 {2,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 """,
 	solute = SoluteData(
 		S = 0.07865,
@@ -5625,8 +5625,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   O2d u0 {4,D}
@@ -5646,8 +5646,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D}
 5   H   u0 {2,S}
 6   O2d u0 {4,D}
@@ -5679,7 +5679,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   O2s u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -5699,8 +5699,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -5719,8 +5719,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -5751,8 +5751,8 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   O2s u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -5783,7 +5783,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   C   u0 {2,S}
@@ -5803,7 +5803,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 r1 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 r1 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 r1 {2,S}
 4   C   u0 r1 {2,S}
 5   C   u0 r1 {2,S}
@@ -5835,10 +5835,10 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
-5   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
+5   Css  u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.11021,
@@ -5867,7 +5867,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cs   u0 {1,S} {3,S}
+2   Css   u0 {1,S} {3,S}
 3   N5dc u0 {2,S}
 """,
 	solute = SoluteData(
@@ -5897,7 +5897,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   [Cd,CO,CS] u0 {1,S}
+2   [Cdb,CO,CS] u0 {1,S}
 """,
 	solute = u'Cl-(Cd-Cd)',
 	dataCount = None,
@@ -5914,7 +5914,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D}
+2   Cdb   u0 {1,S} {3,D}
 3   C    u0 {2,D}
 """,
 	solute = u'Cl-(Cd-CdC)',
@@ -5932,7 +5932,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   C    u0 {2,S}
 """,
@@ -5951,7 +5951,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   C    u0 r1 {2,S}
 """,
@@ -5970,9 +5970,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
-4   Cs   u0 r1 {2,S}
+4   Css   u0 r1 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.01559,
@@ -6001,9 +6001,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
-4   [Cd,CO,CS]   u0 r1 {2,S}
+4   [Cdb,CO,CS]   u0 r1 {2,S}
 """,
 	solute = u'Cl-(Crd-Crd(Crd-Crd))',
 	dataCount = None,
@@ -6020,9 +6020,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
-4   Cd   u0 r1 {2,S} {5,D}
+4   Cdb   u0 r1 {2,S} {5,D}
 5   C    u0 r1 {4,D}
 """,
 	solute = SoluteData(
@@ -6052,9 +6052,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
-4   Cd   u0 r1 {2,S} {5,D}
+4   Cdb   u0 r1 {2,S} {5,D}
 5   N    u0 r1 {4,D}
 """,
 	solute = SoluteData(
@@ -6084,7 +6084,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   CO   u0 r1 {2,S} {5,D}
 5   O2d  u0 {4,D}
@@ -6116,9 +6116,9 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
-4   Cs   u0 {2,S}
+4   Css   u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.06372,
@@ -6147,7 +6147,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   N    u0 {2,S}
 """,
@@ -6166,7 +6166,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   N    u0 r1 {2,S}
 """,
@@ -6197,7 +6197,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   S    u0 {2,S}
 """,
@@ -6216,7 +6216,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   S    u0 r1 {2,S}
 """,
@@ -6235,7 +6235,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   [H,F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -6254,7 +6254,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   H    u0 {2,S}
 """,
@@ -6285,7 +6285,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -6304,7 +6304,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   Cl1s u0 {2,S}
 """,
@@ -6335,7 +6335,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D}
+2   Cdb   u0 {1,S} {3,D}
 3   N    u0 {2,D}
 """,
 	solute = u'Cl-(Cd-NdN)',
@@ -6353,7 +6353,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   N    u0 {2,D}
 4   C    u0 {2,S}
 """,
@@ -6372,7 +6372,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   N    u0 r1 {2,D}
 4   C    u0 r1 {2,S}
 """,
@@ -6403,7 +6403,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   N    u0 {2,D}
 4   N    u0 {2,S}
 """,
@@ -6422,7 +6422,7 @@ entry(
 	group = 
 """
 1 * Cl1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   N    u0 r1 {2,D}
 4   N    u0 r1 {2,S}
 """,
@@ -7015,7 +7015,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs   u0 {1,S}
+2   Css   u0 {1,S}
 """,
 	solute = u'Br-(Cs-CZZ)',
 	dataCount = None,
@@ -7032,7 +7032,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7052,7 +7052,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7084,8 +7084,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -7104,8 +7104,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -7136,8 +7136,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   [H,F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -7159,8 +7159,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -7194,8 +7194,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -7229,8 +7229,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   H   u0 {3,S}
@@ -7252,8 +7252,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S} {6,S} {7,S} {8,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S} {6,S} {7,S} {8,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 6   [F1s,Cl1s,Br1s,I1s] u0 {3,S}
@@ -7287,8 +7287,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -7307,8 +7307,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   F1s u0 {2,S}
 """,
@@ -7339,8 +7339,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   Cl1s u0 {2,S}
 """,
@@ -7371,8 +7371,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   Br1s u0 {2,S}
 """,
@@ -7403,8 +7403,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   I1s u0 {2,S}
 """,
@@ -7423,8 +7423,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -7443,8 +7443,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   F1s  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -7463,8 +7463,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   F1s  u0 {2,S}
 5   F1s  u0 {2,S}
 """,
@@ -7495,8 +7495,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   F1s  u0 {2,S}
 5   Cl1s  u0 {2,S}
 """,
@@ -7527,8 +7527,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   F1s  u0 {2,S}
 5   Br1s  u0 {2,S}
 """,
@@ -7559,8 +7559,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   F1s  u0 {2,S}
 5   I1s  u0 {2,S}
 """,
@@ -7579,8 +7579,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   Cl1s  u0 {2,S}
 5   [Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -7599,8 +7599,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   Br1s  u0 {2,S}
 5   [Br1s,I1s]  u0 {2,S}
 """,
@@ -7619,8 +7619,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   I1s  u0 {2,S}
 5   I1s  u0 {2,S}
 """,
@@ -7639,8 +7639,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   [Cd,CO,CS]  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   [Cdb,CO,CS]  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -7659,11 +7659,11 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
-6   Cd  u0 {3,D}
+6   Cdb  u0 {3,D}
 """,
 	solute = SoluteData(
 		S = 0.04698,
@@ -7692,7 +7692,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7725,7 +7725,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7748,7 +7748,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -7783,7 +7783,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   H   u0 {2,S}
@@ -7818,7 +7818,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7853,7 +7853,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Ct  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7885,7 +7885,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -7905,9 +7905,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Br-(Cs-CsCsH)',
@@ -7925,9 +7925,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   H   u0 {2,S}
 """,
 	solute = SoluteData(
@@ -7957,9 +7957,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Br-(Cs-CsCsF)',
@@ -7977,9 +7977,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   F1s u0 {2,S}
 """,
 	solute = SoluteData(
@@ -8009,8 +8009,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   Cb  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -8029,9 +8029,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   [Cd,CO,CS]  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   [Cdb,CO,CS]  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'Br-(Cs-Cs(Cd-Cd)Z)',
@@ -8049,11 +8049,11 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Cdb  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
-6   Cd  u0 {4,D}
+6   Cdb  u0 {4,D}
 """,
 	solute = u'Br-(Cs-(Cd-Cd)ZZ)',
 	dataCount = None,
@@ -8070,8 +8070,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   O2d u0 {4,D}
@@ -8091,8 +8091,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D}
 5   H   u0 {2,S}
 6   O2d u0 {4,D}
@@ -8124,8 +8124,8 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D} {7,S}
 5   H   u0 {2,S}
 6   O2d u0 {4,D}
@@ -8159,7 +8159,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   O2s u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -8191,7 +8191,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   C   u0 {2,S}
@@ -8211,10 +8211,10 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
-5   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
+5   Css  u0 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.08195,
@@ -8243,9 +8243,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   Cb  u0 {2,S}
 """,
 	solute = u'Br-(Cs-CbZZ)',
@@ -8263,10 +8263,10 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
-5   [Cd,CO,CS]  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
+5   [Cdb,CO,CS]  u0 {2,S}
 """,
 	solute = u'Br-(Cs-CsCs(Cd-Cd))',
 	dataCount = None,
@@ -8283,11 +8283,11 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
-5   Cd  u0 {2,S} {6,D}
-6   Cd  u0 {5,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
+5   Cdb  u0 {2,S} {6,D}
+6   Cdb  u0 {5,D}
 """,
 	solute = u'Br-(Cs-(Cd-Cd)ZZ)',
 	dataCount = None,
@@ -8304,9 +8304,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   CO  u0 {2,S} {6,D}
 6   O2d u0 {5,D}
 """,
@@ -8325,7 +8325,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   [Cd,CO,CS] u0 {1,S}
+2   [Cdb,CO,CS] u0 {1,S}
 """,
 	solute = u'Br-(Cd-Cd)',
 	dataCount = None,
@@ -8342,7 +8342,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D}
+2   Cdb   u0 {1,S} {3,D}
 3   C    u0 {2,D}
 """,
 	solute = u'Br-(Cd-CdZ)',
@@ -8360,7 +8360,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   [H,F1s,Cl1s,Br1s,I1s]  u0 {2,S}
 """,
@@ -8391,7 +8391,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   C    u0 {2,S}
 """,
@@ -8410,9 +8410,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
-4   [Cd,CO,CS]   u0 {2,S}
+4   [Cdb,CO,CS]   u0 {2,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -8429,9 +8429,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
-4   [Cd,CO,CS]   u0 r1 {2,S}
+4   [Cdb,CO,CS]   u0 r1 {2,S}
 """,
 	solute = SoluteData(
 		S = 0.13580,
@@ -8460,9 +8460,9 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
-4   Cs   u0 {2,S}
+4   Css   u0 {2,S}
 """,
 	solute = u'Br-(Cd-CdZ)',
 	dataCount = None,
@@ -8479,7 +8479,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   N    u0 {2,S}
 """,
@@ -8498,7 +8498,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   N3d  u0 {2,S}
 """,
@@ -8517,7 +8517,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   N3d  u0 r1 {2,S}
 """,
@@ -8536,7 +8536,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   O2s  u0 {2,S}
 """,
@@ -8555,7 +8555,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   O2s  u0 r1 {2,S}
 """,
@@ -8574,7 +8574,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D}
+2   Cdb   u0 {1,S} {3,D}
 3   N    u0 {2,D}
 """,
 	solute = None,
@@ -8592,7 +8592,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   N    u0 {2,D}
 4   N    u0 {2,S}
 """,
@@ -8611,7 +8611,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   N3d  u0 {2,D}
 4   N3d  u0 {2,S}
 """,
@@ -8630,7 +8630,7 @@ entry(
 	group = 
 """
 1 * Br1s u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   N3d  u0 r1 {2,D}
 4   N3d  u0 r1 {2,S}
 """,
@@ -9137,7 +9137,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cs   u0 {1,S}
+2   Css   u0 {1,S}
 """,
 	solute = u'I-(Cs-CZZ)',
 	dataCount = None,
@@ -9154,7 +9154,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -9174,7 +9174,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   Cb  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -9206,8 +9206,8 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -9226,8 +9226,8 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
 """,
@@ -9258,8 +9258,8 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   [Cd,CO,CS]   u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   [Cdb,CO,CS]   u0 {2,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -9278,8 +9278,8 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Cdb  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   C   u0 {3,D}
@@ -9311,7 +9311,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -9344,7 +9344,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -9367,7 +9367,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   H   u0 {2,S}
 5   H   u0 {2,S}
@@ -9402,7 +9402,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   H   u0 {2,S}
@@ -9437,7 +9437,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   CO  u0 {2,S} {6,D} {7,S}
 4   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
 5   [F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -9472,7 +9472,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
@@ -9492,9 +9492,9 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'I-(Cs-CsCsH)',
@@ -9512,9 +9512,9 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Css  u0 {2,S}
 5   H   u0 {2,S}
 """,
 	solute = SoluteData(
@@ -9544,8 +9544,8 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   Cb  u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
@@ -9564,9 +9564,9 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   [Cd,CO,CS]   u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   [Cdb,CO,CS]   u0 {2,S}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 """,
 	solute = u'I-(Cs-Cs(Cd-Cd)Z)',
@@ -9584,9 +9584,9 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
-4   Cd  u0 {2,S} {6,D}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
+4   Cdb  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   C   u0 {4,D}
 """,
@@ -9605,8 +9605,8 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
-3   Cs  u0 {2,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
+3   Css  u0 {2,S}
 4   CO  u0 {2,S} {6,D}
 5   [H,F1s,Cl1s,Br1s,I1s] u0 {2,S}
 6   O2d u0 {4,D}
@@ -9626,7 +9626,7 @@ entry(
 	group = 
 """
 1 * I1s u0 {2,S}
-2   Cs  u0 {1,S} {3,S} {4,S} {5,S}
+2   Css  u0 {1,S} {3,S} {4,S} {5,S}
 3   C   u0 {2,S}
 4   C   u0 {2,S}
 5   C   u0 {2,S}
@@ -9658,7 +9658,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   [Cd,CO,CS]   u0 {1,S}
+2   [Cdb,CO,CS]   u0 {1,S}
 """,
 	solute = None,
 	dataCount = None,
@@ -9675,7 +9675,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 {1,S} {3,D}
+2   Cdb   u0 {1,S} {3,D}
 3   C    u0 {2,D}
 """,
 	solute = None,
@@ -9693,7 +9693,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   C    u0 {2,S}
 """,
@@ -9712,7 +9712,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   C    u0 r1 {2,S}
 """,
@@ -9743,7 +9743,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   C    u0 {2,D}
 4   N    u0 {2,S}
 """,
@@ -9762,7 +9762,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   C    u0 r1 {2,D}
 4   N    u0 r1 {2,S}
 """,
@@ -9781,7 +9781,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 {1,S} {3,D}
+2   Cdb   u0 {1,S} {3,D}
 3   N    u0 {2,D}
 """,
 	solute = None,
@@ -9799,7 +9799,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 {1,S} {3,D} {4,S}
+2   Cdb   u0 {1,S} {3,D} {4,S}
 3   N    u0 {2,D}
 4   N    u0 {2,S}
 """,
@@ -9818,7 +9818,7 @@ entry(
 	group = 
 """
 1 * I1s  u0 {2,S}
-2   Cd   u0 r1 {1,S} {3,D} {4,S}
+2   Cdb   u0 r1 {1,S} {3,D} {4,S}
 3   N    u0 r1 {2,D}
 4   N    u0 r1 {2,S}
 """,
